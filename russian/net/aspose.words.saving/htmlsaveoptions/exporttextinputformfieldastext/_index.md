@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Управляет сохранением полей формы ввода текста в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportTextInputFormFieldAsText
+articleTitle: ExportTextInputFormFieldAsText
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportTextInputFormFieldAsText свойство. Управляет сохранением полей формы ввода текста в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 public bool ExportTextInputFormFieldAsText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если установлено значение`истинный` , экспортирует поля формы ввода текста как обычный текст. Когда`ЛОЖЬ`, экспортирует поля формы ввода текста Word как элементы INPUT в HTML.
 
 При экспорте в EPUB поля формы ввода текста всегда сохраняются как текст в соответствии с требованиями этого формата .
 
-### Примеры
+## Примеры
 
 Показывает, как указать папку для хранения связанных изображений после сохранения в .html.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

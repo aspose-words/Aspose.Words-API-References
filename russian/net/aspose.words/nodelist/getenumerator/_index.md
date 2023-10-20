@@ -1,7 +1,9 @@
 ---
 title: NodeList.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeList метод. Обеспечивает простую итерацию стиля foreach по коллекции узлов.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: NodeList GetEnumerator метод. Обеспечивает простую итерацию стиля foreach по коллекции узлов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/nodelist/getenumerator/
@@ -18,7 +20,7 @@ public IEnumerator<Node> GetEnumerator()
 
 IEnumerator.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать определенные узлы с помощью выражения XPath.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* пространство имен [Aspose.Words](../../nodelist/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

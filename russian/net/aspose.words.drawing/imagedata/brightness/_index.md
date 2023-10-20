@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает или задает яркость изображения. Значение этого свойства должно быть числом от 00 самый тусклый до 10 самый яркий.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words для .NET
+description: ImageData Brightness свойство. Получает или задает яркость изображения. Значение этого свойства должно быть числом от 00 самый тусклый до 10 самый яркий на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/brightness/
 public double Brightness { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0,5.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.properties/documentpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/documentpropertycollection/getenumerator/
 public IEnumerator<DocumentProperty> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

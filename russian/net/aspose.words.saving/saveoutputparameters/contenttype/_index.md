@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOutputParameters свойство. Возвращает строку ContentType тип интернетмедиа которая определяет тип сохраненного документа.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words для .NET
+description: SaveOutputParameters ContentType свойство. Возвращает строку ContentType тип интернетмедиа которая определяет тип сохраненного документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoutputparameters/contenttype/
 public string ContentType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к выходным параметрам операции сохранения документа.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### Смотрите также
 
 * class [SaveOutputParameters](../)
-* пространство имен [Aspose.Words.Saving](../../saveoutputparameters/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.CacheKey
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFontSource свойство. Ключ этого источника в кеше.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words для .NET
+description: FileFontSource CacheKey свойство. Ключ этого источника в кеше на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/filefontsource/cachekey/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/filefontsource/cachekey/
 public string CacheKey { get; }
 ```
 
-### Примечания
+## Примечания
 
 Этот ключ используется для идентификации элемента кэша при сохранении/загрузке кэша поиска шрифтов с помощью .[`SaveSearchCache`](../../fontsettings/savesearchcache/) and [`SetFontsSources`](../../fontsettings/setfontssources/) методы.
 
@@ -23,7 +25,5 @@ public string CacheKey { get; }
 ### Смотрите также
 
 * class [FileFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../filefontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

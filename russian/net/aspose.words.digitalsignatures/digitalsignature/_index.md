@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignature
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignature сорт. Представляет цифровую подпись документа и результат ее проверки.
+title: DigitalSignature Class
+linktitle: DigitalSignature
+articleTitle: DigitalSignature
+second_title: Aspose.Words для .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignature сорт. Представляет цифровую подпись документа и результат ее проверки на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/
@@ -35,7 +37,7 @@ public class DigitalSignature
 | --- | --- |
 | override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -58,5 +60,3 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * пространство имен [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../)
-
-

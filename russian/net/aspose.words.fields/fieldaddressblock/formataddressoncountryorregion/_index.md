@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock свойство. Получает или задает необходимость форматирования адреса в соответствии со страной/регионом получателя  как определено POSTCODE Universal Postal Union 2006.
+linktitle: FormatAddressOnCountryOrRegion
+articleTitle: FormatAddressOnCountryOrRegion
+second_title: Aspose.Words для .NET
+description: FieldAddressBlock FormatAddressOnCountryOrRegion свойство. Получает или задает необходимость форматирования адреса в соответствии со страной/регионом получателя  как определено POSTCODE Universal Postal Union 2006 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregio
 public bool FormatAddressOnCountryOrRegion { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FieldAddressBlock](../)
-* пространство имен [Aspose.Words.Fields](../../fieldaddressblock/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

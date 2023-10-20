@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Level2
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartMultilevelValue свойство. Получает имя промежуточного уровня диаграммы к которому относится это значение.
+linktitle: Level2
+articleTitle: Level2
+second_title: Aspose.Words для .NET
+description: ChartMultilevelValue Level2 свойство. Получает имя промежуточного уровня диаграммы к которому относится это значение на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartmultilevelvalue/level2/
@@ -17,7 +19,5 @@ public string Level2 { get; }
 ### Смотрите также
 
 * class [ChartMultilevelValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

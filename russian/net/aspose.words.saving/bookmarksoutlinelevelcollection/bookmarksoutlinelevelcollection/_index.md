@@ -1,7 +1,9 @@
 ---
-title: BookmarksOutlineLevelCollection.BookmarksOutlineLevelCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection строитель. Конструктор по умолчанию.
+title: BookmarksOutlineLevelCollection
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/
@@ -17,7 +19,5 @@ public BookmarksOutlineLevelCollection()
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

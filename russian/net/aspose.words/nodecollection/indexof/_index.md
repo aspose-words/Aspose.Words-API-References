@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Возвращает индекс указанного узла начинающийся с нуля.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words для .NET
+description: NodeCollection IndexOf метод. Возвращает индекс указанного узла начинающийся с нуля на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 Отсчитываемый от нуля индекс узла в коллекции, если он найден; в противном случае -1.
 
-### Примечания
+## Примечания
 
 Этот метод выполняет линейный поиск; следовательно, среднее время выполнения пропорционально[`Count`](../count/).
 
-### Примеры
+## Примеры
 
 Показывает, как получить индекс узла в коллекции.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

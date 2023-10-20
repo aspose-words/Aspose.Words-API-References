@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Comparing
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Comparing пространство имен предоставляет классы и перечисления которые позволяют указывать дополнительные параметры при сравнении документов.
+linktitle: Aspose.Words.Comparing
+articleTitle: Aspose.Words.Comparing
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Comparing пространство имен предоставляет классы и перечисления которые позволяют указывать дополнительные параметры при сравнении документов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.comparing/
@@ -19,5 +21,3 @@ url: /ru/net/aspose.words.comparing/
 | --- | --- |
 | [ComparisonTargetType](./comparisontargettype/) | Позволяет указать базовый документ, который будет использоваться при сравнении. Значение по умолчанию:Current . |
 | [Granularity](./granularity/) | Указывает степень детализации изменений, которые необходимо отслеживать при сравнении двух документов. |
-
-

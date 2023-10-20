@@ -1,7 +1,9 @@
 ---
-title: Class CompareOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Comparing.CompareOptions сорт. Позволяет выбрать дополнительные параметры для операции сравнения документов.
+title: CompareOptions Class
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Comparing.CompareOptions сорт. Позволяет выбрать дополнительные параметры для операции сравнения документов на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.comparing/compareoptions/
@@ -39,7 +41,7 @@ public class CompareOptions
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Указывает, следует ли сравнивать различия в данных, содержащихся в текстовых полях. По умолчанию текстовые поля не игнорируются. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Указывает, какой документ будет использоваться в качестве целевого при сравнении. |
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -114,5 +116,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * пространство имен [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../)
-
-

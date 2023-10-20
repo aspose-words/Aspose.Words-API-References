@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает номер версии документа.
+linktitle: RevisionNumber
+articleTitle: RevisionNumber
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties RevisionNumber свойство. Получает или задает номер версии документа на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 public int RevisionNumber { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words не обновляет это свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями REVNUM.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSourceBase свойство. Возвращает тип источника шрифта.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: FontSourceBase Type свойство. Возвращает тип источника шрифта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontsourcebase/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsourcebase/type/
 public abstract FontSourceType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FontSourceBase](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsourcebase/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult сорт. Результат сравнения.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult сорт. Результат сравнения на С#.
 type: docs
 weight: 1480
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | Имя | Описание |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Создает результат сравнения. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Создает неудавшийся результат сравнения с соответствующим сообщением об ошибке. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Создает результат сравнения. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Создает неудавшийся результат сравнения с соответствующим сообщением об ошибке. |
 
 ## Характеристики
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Получает сообщение об ошибке результата неудачной оценки сравнения. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Получает результат сравнения. |
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

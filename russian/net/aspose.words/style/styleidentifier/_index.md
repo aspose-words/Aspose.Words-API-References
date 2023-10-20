@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает независимый от локали идентификатор стиля для встроенного стиля.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words для .NET
+description: Style StyleIdentifier свойство. Получает независимый от локали идентификатор стиля для встроенного стиля на С#.
 type: docs
-weight: 160
+weight: 150
 url: /ru/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/style/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### Примечания
+## Примечания
 
 Для пользовательских (пользовательских) стилей это свойство возвращаетUser.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

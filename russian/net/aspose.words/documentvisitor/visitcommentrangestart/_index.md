@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда встречается начало закомментированного диапазона текста.
+linktitle: VisitCommentRangeStart
+articleTitle: VisitCommentRangeStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitCommentRangeStart метод. Вызывается когда встречается начало закомментированного диапазона текста на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/documentvisitor/visitcommentrangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого комментария и диапазона комментариев в документе.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeStart](../../commentrangestart/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

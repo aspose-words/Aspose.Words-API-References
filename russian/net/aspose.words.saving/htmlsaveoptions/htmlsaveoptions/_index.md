@@ -1,7 +1,9 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вHtml формат.
+title: HtmlSaveOptions
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вHtml формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 public HtmlSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать определенную кодировку при сохранении документа в формате .epub.
 
@@ -41,12 +43,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml ,Mhtml ,Epub , Azw3 илиMobi формат.
 
@@ -58,7 +60,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Может бытьHtml ,Mhtml ,Epub , Azw3 илиMobi . |
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в определенной версии HTML.
 
@@ -95,7 +97,5 @@ switch (htmlVersion)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cluster.Codepoints
-second_title: Справочник по API Aspose.Words для .NET
-description: Cluster свойство. Получает коды кластера.
+linktitle: Codepoints
+articleTitle: Codepoints
+second_title: Aspose.Words для .NET
+description: Cluster Codepoints свойство. Получает коды кластера на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.shaping/cluster/codepoints/
@@ -17,7 +19,5 @@ public int[] Codepoints { get; }
 ### Смотрите также
 
 * class [Cluster](../)
-* пространство имен [Aspose.Words.Shaping](../../cluster/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

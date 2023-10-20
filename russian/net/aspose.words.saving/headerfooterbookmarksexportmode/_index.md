@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode перечисление. Указывает как экспортируются закладки в верхних и нижних колонтитулах.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode перечисление. Указывает как экспортируются закладки в верхних и нижних колонтитулах на С#.
 type: docs
 weight: 5050
 url: /ru/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Экспортируется только закладка в первом колонтитуле раздела. |
 | All | `2` | Закладки во всех верхних и нижних колонтитулах экспортируются. |
 
-### Примеры
+## Примеры
 
 Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

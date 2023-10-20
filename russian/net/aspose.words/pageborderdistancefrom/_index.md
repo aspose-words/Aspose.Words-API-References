@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderDistanceFrom
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PageBorderDistanceFrom перечисление. Определяет положение границы страницы относительно поля страницы.
+title: PageBorderDistanceFrom Enum
+linktitle: PageBorderDistanceFrom
+articleTitle: PageBorderDistanceFrom
+second_title: Aspose.Words для .NET
+description: Aspose.Words.PageBorderDistanceFrom перечисление. Определяет положение границы страницы относительно поля страницы на С#.
 type: docs
 weight: 4350
 url: /ru/net/aspose.words/pageborderdistancefrom/
@@ -21,7 +23,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | Положение границы измеряется от края страницы. |
 | PageEdge | `1` | Положение границы измеряется от края страницы. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать широкую синюю рамку в верхней части первой страницы.
 
@@ -48,5 +50,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderDistanceFrom](../pagesetup/borderdistancefrom/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

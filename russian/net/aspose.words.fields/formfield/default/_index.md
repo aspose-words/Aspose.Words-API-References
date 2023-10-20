@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает значение по умолчанию для поля формы флажка. Значение по умолчанию для этого свойстваЛОЖЬ .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words для .NET
+description: FormField Default свойство. Получает или задает значение по умолчанию для поля формы флажка. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/default/
 public bool Default { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Применимо только для поля формы флажка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

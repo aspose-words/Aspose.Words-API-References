@@ -1,7 +1,9 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию.
+title: LoadOptions
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words для .NET
+description: LoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/loadoptions/loadoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/loadoptions/loadoptions/
 public LoadOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как открыть документ HTML с изображениями из потока, используя базовый URI.
 
@@ -41,12 +43,12 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 Ярлык для инициализации нового экземпляра этого класса с указанным паролем для загрузки зашифрованного документа.
 
@@ -58,7 +60,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить зашифрованный документ Microsoft Word.
 
@@ -84,12 +86,12 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения.
 
@@ -103,7 +105,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
 | baseUri | String | Строка, которая будет использоваться для преобразования относительных URI в абсолютные. Возможно`нулевой` или пустая строка. |
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить веб-страницу в виде файла .docx.
 
@@ -151,7 +153,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

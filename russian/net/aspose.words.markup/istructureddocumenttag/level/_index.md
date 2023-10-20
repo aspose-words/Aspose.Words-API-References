@@ -1,14 +1,16 @@
 ---
 title: IStructuredDocumentTag.Level
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Получает уровень на котором это СДТ встречается в дереве документа.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag Level свойство. Получает уровень на котором этоСДТ встречается в дереве документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/istructureddocumenttag/level/
 ---
 ## IStructuredDocumentTag.Level property
 
-Получает уровень, на котором это **СДТ** встречается в дереве документа.
+Получает уровень, на котором это**СДТ** встречается в дереве документа.
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -18,7 +20,5 @@ public MarkupLevel Level { get; }
 
 * enum [MarkupLevel](../../markuplevel/)
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

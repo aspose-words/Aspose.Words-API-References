@@ -1,7 +1,9 @@
 ---
-title: Class UserInformation
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.UserInformation сорт. Указывает информацию о пользователе.
+title: UserInformation Class
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.UserInformation сорт. Указывает информацию о пользователе на С#.
 type: docs
 weight: 2790
 url: /ru/net/aspose.words.fields/userinformation/
@@ -31,7 +33,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Получает или задает инициалы пользователя. |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | Получает или задает имя пользователя. |
 
-### Примеры
+## Примеры
 
 Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

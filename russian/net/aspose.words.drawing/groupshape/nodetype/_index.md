@@ -1,7 +1,9 @@
 ---
 title: GroupShape.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: GroupShape свойство. ВозвращаетGroupShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: GroupShape NodeType свойство. ВозвращаетGroupShape  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/groupshape/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/groupshape/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* пространство имен [Aspose.Words.Drawing](../../groupshape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

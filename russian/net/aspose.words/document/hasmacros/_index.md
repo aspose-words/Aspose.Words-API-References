@@ -1,7 +1,9 @@
 ---
 title: Document.HasMacros
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращаетистинный если в документе есть проект VBA макросы.
+linktitle: HasMacros
+articleTitle: HasMacros
+second_title: Aspose.Words для .NET
+description: Document HasMacros свойство. Возвращаетистинный если в документе есть проект VBA макросы на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/document/hasmacros/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/hasmacros/
 public bool HasMacros { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MACROBUTTON, чтобы можно было запускать макросы документа щелчком мыши.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

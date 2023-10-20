@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureDetails строитель. Инициализирует экземпляр этого класса.
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureDetails строитель. Инициализирует экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignatured
 public PdfDigitalSignatureDetails()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Смотрите также
 
 * class [PdfDigitalSignatureDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 Инициализирует экземпляр этого класса.
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | Место подписания. |
 | signatureDate | DateTime | Дата и время подписания. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

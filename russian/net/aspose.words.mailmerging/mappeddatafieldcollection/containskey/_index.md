@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
-second_title: Справочник по API Aspose.Words для .NET
-description: MappedDataFieldCollection метод. Определяет существует ли в коллекции сопоставление из указанного поля документа.
+linktitle: ContainsKey
+articleTitle: ContainsKey
+second_title: Aspose.Words для .NET
+description: MappedDataFieldCollection ContainsKey метод. Определяет существует ли в коллекции сопоставление из указанного поля документа на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
@@ -22,7 +24,7 @@ public bool ContainsKey(string documentFieldName)
 
 `истинный` если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Смотрите также
 
 * class [MappedDataFieldCollection](../)
-* пространство имен [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

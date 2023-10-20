@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ErrorCorrectionLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Уровень исправления ошибок QRкода. Допустимые значения 0 3. .
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words для .NET
+description: BarcodeParameters ErrorCorrectionLevel свойство. Уровень исправления ошибок QRкода. Допустимые значения 0 3.  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

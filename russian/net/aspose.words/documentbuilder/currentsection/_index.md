@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает раздел выбранный в данный момент в этомDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words для .NET
+description: DocumentBuilder CurrentSection свойство. Получает раздел выбранный в данный момент в этомDocumentBuilder  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/currentsection/
 public Section CurrentSection { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение и указать его положение и размер.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

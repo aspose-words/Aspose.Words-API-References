@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Получает или задает описание связанное с этим стандартным блоком.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words для .NET
+description: BuildingBlock Description свойство. Получает или задает описание связанное с этим стандартным блоком на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/description/
 public string Description { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Описание может содержать любое строковое содержимое, обычно дополнительную информацию.
 
 Не может быть`нулевой`, но может быть пустой строкой.
 
-Соответствует **документЧастьПр.описание** элемент в OOXML.
+Соответствует**документЧастьПр.описание** элемент в OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

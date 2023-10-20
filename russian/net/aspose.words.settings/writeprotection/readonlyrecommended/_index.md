@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
-second_title: Справочник по API Aspose.Words для .NET
-description: WriteProtection свойство. Указывает рекомендовал ли автор документа открыть документ только для чтения.
+linktitle: ReadOnlyRecommended
+articleTitle: ReadOnlyRecommended
+second_title: Aspose.Words для .NET
+description: WriteProtection ReadOnlyRecommended свойство. Указывает рекомендовал ли автор документа открыть документ только для чтения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/writeprotection/readonlyrecommended/
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как защитить документ паролем.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Смотрите также
 
 * class [WriteProtection](../)
-* пространство имен [Aspose.Words.Settings](../../writeprotection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

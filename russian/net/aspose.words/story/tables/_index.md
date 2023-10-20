@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Справочник по API Aspose.Words для .NET
-description: Story свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами истории.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words для .NET
+description: Story Tables свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами истории на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/story/tables/
 public TableCollection Tables { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить первую и последнюю строки всех таблиц в документе.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class TextPath
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextPath сорт. Определяет текст и форматирование текстового пути объекта WordArt.
+title: TextPath Class
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.TextPath сорт. Определяет текст и форматирование текстового пути объекта WordArt на С#.
 type: docs
 weight: 1350
 url: /ru/net/aspose.words.drawing/textpath/
@@ -41,11 +43,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | True, если шрифт подчеркнут. |
 | [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Определяет, будет ли использоваться прямой текстовый путь вместо контура фигуры. |
 
-### Примечания
+## Примечания
 
 Использовать[`TextPath`](../shape/textpath/) для доступа к свойствам фигуры WordArt. Вы не создаете экземпляры`TextPath` класс напрямую.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -149,5 +151,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.LeftExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCompare свойство. Получает или задает левую часть выражения сравнения.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words для .NET
+description: FieldCompare LeftExpression свойство. Получает или задает левую часть выражения сравнения на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcompare/leftexpression/
 public string LeftExpression { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сравнивать выражения с помощью поля COMPARE.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Смотрите также
 
 * class [FieldCompare](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcompare/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

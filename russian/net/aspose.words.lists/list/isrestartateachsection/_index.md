@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Указывает следует ли перезапускать список в каждом разделе. Значение по умолчаниюЛОЖЬ .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words для .NET
+description: List IsRestartAtEachSection свойство. Указывает следует ли перезапускать список в каждом разделе. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.lists/list/isrestartateachsection/
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция поддерживается только в форматах документов RTF, DOC и DOCX.
 
 Эта опция будет записана в DOCX только в том случае, если[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) тогда вышеEcma376_2006.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить список для возобновления нумерации в каждом разделе.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### Смотрите также
 
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

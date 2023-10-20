@@ -1,7 +1,9 @@
 ---
-title: ImageWatermarkOptions.ImageWatermarkOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageWatermarkOptions строитель. Конструктор по умолчанию.
+title: ImageWatermarkOptions
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words для .NET
+description: ImageWatermarkOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/
@@ -17,7 +19,5 @@ public ImageWatermarkOptions()
 ### Смотрите также
 
 * class [ImageWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../imagewatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

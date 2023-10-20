@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает вертикальное выравнивание указанного кадра.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words для .NET
+description: FrameFormat VerticalAlignment свойство. Получает вертикальное выравнивание указанного кадра на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/frameformat/verticalalignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/verticalalignment/
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

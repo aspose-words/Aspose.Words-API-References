@@ -1,12 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatUtil метод. Обнаруживает и возвращает информацию о формате документа хранящегося в дисковом файле.
+linktitle: DetectFileFormat
+articleTitle: DetectFileFormat
+second_title: Aspose.Words для .NET
+description: FileFormatUtil DetectFileFormat метод. Обнаруживает и возвращает информацию о формате документа хранящегося в дисковом файле на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/fileformatutil/detectfileformat/
 ---
-## DetectFileFormat(string) {#detectfileformat_1}
+## DetectFileFormat(*string*) {#detectfileformat_1}
 
 Обнаруживает и возвращает информацию о формате документа, хранящегося в дисковом файле.
 
@@ -22,13 +24,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 А[`FileFormatInfo`](../../fileformatinfo/) объект, содержащий обнаруженную информацию.
 
-### Примечания
+## Примечания
 
 Даже если этот метод определяет формат документа, он не гарантирует , что указанный документ действителен. Этот метод определяет формат документа только путем чтения данных, достаточных для обнаружения. Чтобы полностью убедиться в том, что документ действителен, вам необходимо загрузить документ в[`Document`](../../document/) объект.
 
 Этот метод выбрасывает[`FileCorruptedException`](../../filecorruptedexception/) когда формат распознан, но обнаружение не может быть завершено из-за повреждения.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать класс FileFormatUtil для определения формата и шифрования документа.
 
@@ -75,12 +77,12 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* пространство имен [Aspose.Words](../../fileformatutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## DetectFileFormat(Stream) {#detectfileformat}
+## DetectFileFormat(*Stream*) {#detectfileformat}
 
 Обнаруживает и возвращает информацию о формате документа, хранящегося в потоке.
 
@@ -96,7 +98,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 А[`FileFormatInfo`](../../fileformatinfo/) объект, содержащий обнаруженную информацию.
 
-### Примечания
+## Примечания
 
 Поток должен располагаться в начале документа.
 
@@ -106,7 +108,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 Этот метод выбрасывает[`FileCorruptedException`](../../filecorruptedexception/) когда формат распознан, но обнаружение не может быть завершено из-за повреждения.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
@@ -140,7 +142,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* пространство имен [Aspose.Words](../../fileformatutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

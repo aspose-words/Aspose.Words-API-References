@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.GeneralFormat перечисление. Указывает общий формат который применяется к числовому текстовому или любому результату поля. Поле может иметь комбинацию общих форматов.
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.GeneralFormat перечисление. Указывает общий формат который применяется к числовому текстовому или любому результату поля. Поле может иметь комбинацию общих форматов на С#.
 type: docs
 weight: 2640
 url: /ru/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | Форматирование результатов поля. Инструкция MERGEFORMAT. |
 | MergeFormatInet | `55` | Форматирование результатов поля. Инструкция MERGEFORMATENET. |
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

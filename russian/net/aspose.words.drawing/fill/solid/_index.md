@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill метод. Устанавливает однородный цвет заливки.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words для .NET
+description: Fill Solid метод. Устанавливает однородный цвет заливки на С#.
 type: docs
-weight: 260
+weight: 250
 url: /ru/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ url: /ru/net/aspose.words.drawing/fill/solid/
 public void Solid()
 ```
 
-### Примечания
+## Примечания
 
 Используйте этот метод, чтобы преобразовать любую заливку обратно в сплошную заливку.
 
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Устанавливает заливку заданного однородного цвета.
 
@@ -34,11 +36,11 @@ public void Solid()
 public void Solid(Color color)
 ```
 
-### Примечания
+## Примечания
 
 Используйте этот метод, чтобы преобразовать любую заливку обратно в сплошную заливку.
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать любую заливку обратно в сплошную заливку.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAlwaysInFront
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Указывает где расположена граница страницы относительно пересекающихся текстов и объектов.
+linktitle: BorderAlwaysInFront
+articleTitle: BorderAlwaysInFront
+second_title: Aspose.Words для .NET
+description: PageSetup BorderAlwaysInFront свойство. Указывает где расположена граница страницы относительно пересекающихся текстов и объектов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/pagesetup/borderalwaysinfront/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/borderalwaysinfront/
 public bool BorderAlwaysInFront { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать широкую синюю рамку в верхней части первой страницы.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

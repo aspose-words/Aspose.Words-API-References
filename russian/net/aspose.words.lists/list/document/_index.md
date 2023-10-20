@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Получает документ владельца.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: List Document свойство. Получает документ владельца на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/list/document/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/list/document/
 public DocumentBase Document { get; }
 ```
 
-### Примечания
+## Примечания
 
 Список всегда имеет родительский документ и действителен только в контексте этого документа.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства документов владельцев списков.
 
@@ -41,7 +43,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

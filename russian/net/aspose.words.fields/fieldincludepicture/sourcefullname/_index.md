@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.SourceFullName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludePicture свойство. Получает или задает местоположение изображения с помощью IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words для .NET
+description: FieldIncludePicture SourceFullName свойство. Получает или задает местоположение изображения с помощью IRI на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludepicture/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять изображения с помощью полей IMPORT и INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Смотрите также
 
 * class [FieldIncludePicture](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludepicture/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

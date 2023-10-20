@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Справочник по API Aspose.Words для .NET
-description: OdtSaveOptions свойство. Получает или задает пароль для шифрования документа.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words для .NET
+description: OdtSaveOptions Password свойство. Получает или задает пароль для шифрования документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/odtsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Чтобы сохранить документ без шифрования, это свойство должно быть`нулевой` или пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как зашифровать сохраненный документ ODT/OTT с помощью пароля, а затем загрузить его с помощью Aspose.Words.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [OdtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../odtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

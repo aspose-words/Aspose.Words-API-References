@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Устанавливает горизонтальное и вертикальное разрешение для сгенерированных изображений в точках на дюйм.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions Resolution свойство. Устанавливает горизонтальное и вертикальное разрешение для сгенерированных изображений в точках на дюйм на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/resolution/
 public float Resolution { set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при сохранении в форматах растровых изображений.
 
-### Примеры
+## Примеры
 
 Показывает, как указать разрешение при рендеринге документа в PNG.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

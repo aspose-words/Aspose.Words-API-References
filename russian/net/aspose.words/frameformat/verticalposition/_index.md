@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает расстояние по вертикали между краем кадра и элементом указаннымRelativeVerticalPosition свойство.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words для .NET
+description: FrameFormat VerticalPosition свойство. Получает расстояние по вертикали между краем кадра и элементом указаннымRelativeVerticalPosition свойство на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/frameformat/verticalposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/verticalposition/
 public double VerticalPosition { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Смотрите также
 
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

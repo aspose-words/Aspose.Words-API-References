@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Author
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroup свойство. Получает автора этой группы редакций.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words для .NET
+description: RevisionGroup Author свойство. Получает автора этой группы редакций на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisiongroup/author/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisiongroup/author/
 public string Author { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о группе редакций в документе.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Смотрите также
 
 * class [RevisionGroup](../)
-* пространство имен [Aspose.Words](../../revisiongroup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

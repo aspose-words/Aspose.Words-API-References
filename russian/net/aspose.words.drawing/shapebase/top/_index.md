@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Top
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает положение верхнего края содержащего блока фигуры.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words для .NET
+description: ShapeBase Top свойство. Получает или задает положение верхнего края содержащего блока фигуры на С#.
 type: docs
 weight: 540
 url: /ru/net/aspose.words.drawing/shapebase/top/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/top/
 public double Top { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Для фигуры верхнего уровня значение указывается в пунктах и относительно привязки формы.
 
@@ -24,7 +26,7 @@ public double Top { get; set; }
 
 Имеет эффект только для плавающих фигур.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение и указать его положение и размер.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

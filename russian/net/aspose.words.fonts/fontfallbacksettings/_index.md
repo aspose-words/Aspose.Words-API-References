@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontFallbackSettings сорт. Задает настройки механизма резервного шрифта.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontFallbackSettings сорт. Задает настройки механизма резервного шрифта на С#.
 type: docs
 weight: 2900
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | Имя | Описание |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Автоматически создает резервные настройки путем сканирования доступных шрифтов. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Загружает резервные настройки из потока XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Загружает настройки резервного шрифта из XML-файла. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Загружает резервные настройки из потока XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Загружает настройки резервного шрифта из XML-файла. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Загружает предопределенные резервные настройки, которые имитируют резервный вариант Microsoft Word и используют шрифты Microsoft Office. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Загружает предопределенные резервные настройки, в которых используются шрифты Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Сохраняет текущие резервные настройки в потоковом режиме. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Сохраняет текущие резервные настройки в файл. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Сохраняет текущие резервные настройки в потоковом режиме. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Сохраняет текущие резервные настройки в файл. |
 
-### Примечания
+## Примечания
 
 По умолчанию резервные настройки инициализируются с предопределенными настройками, которые имитируют резервный вариант Microsoft Word.
 
-### Примеры
+## Примеры
 
 Показывает, как распределять резервные шрифты по диапазонам кодов символов Юникода.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

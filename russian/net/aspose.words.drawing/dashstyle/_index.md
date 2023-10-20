@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.DashStyle перечисление. Стиль пунктирной линии.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.DashStyle перечисление. Стиль пунктирной линии на С#.
 type: docs
 weight: 930
 url: /ru/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Длинное тире, короткое тире, короткое тире. |
 | Default | `0` | То же, что иSolid . |
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

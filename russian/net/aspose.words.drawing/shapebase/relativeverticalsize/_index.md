@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalSize
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает значение относительного размера фигуры по вертикали.
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words для .NET
+description: ShapeBase RelativeVerticalSize свойство. Получает или задает значение относительного размера фигуры по вертикали на С#.
 type: docs
 weight: 450
 url: /ru/net/aspose.words.drawing/shapebase/relativeverticalsize/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/relativeverticalsize/
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Margin.
 
 Имеет эффект только в том случае, если[`HeightRelative`](../heightrelative/) установлен.
 
-### Примеры
+## Примеры
 
 Показывает, как установить относительный размер и положение.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeVerticalSize](../../relativeverticalsize/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

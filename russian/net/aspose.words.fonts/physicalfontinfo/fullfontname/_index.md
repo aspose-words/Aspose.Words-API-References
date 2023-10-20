@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FullFontName
-second_title: Справочник по API Aspose.Words для .NET
-description: PhysicalFontInfo свойство. Полное название шрифта.
+linktitle: FullFontName
+articleTitle: FullFontName
+second_title: Aspose.Words для .NET
+description: PhysicalFontInfo FullFontName свойство. Полное название шрифта на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/physicalfontinfo/fullfontname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 public string FullFontName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как составить список доступных шрифтов.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Смотрите также
 
 * class [PhysicalFontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../physicalfontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

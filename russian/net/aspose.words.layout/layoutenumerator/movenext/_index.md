@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNext
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator метод. Переходит к следующему одноуровневому объекту в визуальном порядке. При повторении строк абзаца разбитого на страницы этот метод не перемещается на следующую страницу а скорее переходит к следующему объекту на той же странице.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator MoveNext метод. Переходит к следующему одноуровневому объекту в визуальном порядке. При повторении строк абзаца разбитого на страницы этот метод не перемещается на следующую страницу а скорее переходит к следующему объекту на той же странице на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.layout/layoutenumerator/movenext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/movenext/
 public bool MoveNext()
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

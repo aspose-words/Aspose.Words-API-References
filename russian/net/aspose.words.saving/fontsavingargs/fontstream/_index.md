@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Позволяет указать поток в котором будет сохранен шрифт.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words для .NET
+description: FontSavingArgs FontStream свойство. Позволяет указать поток в котором будет сохранен шрифт на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/fontsavingargs/fontstream/
 public Stream FontStream { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет сохранять шрифты в потоки, а не в файлы во время экспорта HTML.
 
 Значение по умолчанию:`нулевой` . Когда это свойство`нулевой` , шрифт будет сохранен в файле, указанном в[`FontFileName`](../fontfilename/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

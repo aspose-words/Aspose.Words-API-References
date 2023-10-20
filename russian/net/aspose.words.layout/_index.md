@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Layout
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout Пространство имен предоставляет классы которые позволяют получить доступ к информации  например на какой странице и где на странице расположены определенные элементы документа  когда документ форматируется в страницы.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout Пространство имен предоставляет классы которые позволяют получить доступ к информации  например на какой странице и где на странице расположены определенные элементы документа  когда документ форматируется в страницы на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.layout/
@@ -33,5 +35,3 @@ url: /ru/net/aspose.words.layout/
 | [RevisionColor](./revisioncolor/) | Позволяет указать цвет редакций документа. |
 | [RevisionTextEffect](./revisiontexteffect/) | Позволяет указать эффект оформления для редакций текста документа. |
 | [ShowInBalloons](./showinballoons/) | Указывает, какие версии отображаются в выносках. |
-
-

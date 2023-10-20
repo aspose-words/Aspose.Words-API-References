@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает необязательное имя фигуры.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: ShapeBase Name свойство. Получает или задает необязательное имя фигуры на С#.
 type: docs
 weight: 400
 url: /ru/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию — пустая строка.
 
 Не может быть`нулевой`, но может быть пустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать альтернативный текст фигуры.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

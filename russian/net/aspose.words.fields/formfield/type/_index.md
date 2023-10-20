@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Возвращает тип поля формы.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: FormField Type свойство. Возвращает тип поля формы на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/type/
 public FieldType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

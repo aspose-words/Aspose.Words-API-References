@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPageRef свойство. Получает или задает имя закладки.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldPageRef BookmarkName свойство. Получает или задает имя закладки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldpageref/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldpageref/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля PAGEREF для отображения относительного расположения закладок.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Смотрите также
 
 * class [FieldPageRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldpageref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

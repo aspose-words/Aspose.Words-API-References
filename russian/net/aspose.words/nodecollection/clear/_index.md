@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Удаляет все узлы из этой коллекции и из документа.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: NodeCollection Clear метод. Удаляет все узлы из этой коллекции и из документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/nodecollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все разделы из документа.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### Смотрите также
 
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

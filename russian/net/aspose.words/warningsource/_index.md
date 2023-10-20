@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WarningSource перечисление. Указывает модуль который выдает предупреждение во время загрузки или сохранения документа.
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WarningSource перечисление. Указывает модуль который выдает предупреждение во время загрузки или сохранения документа на С#.
 type: docs
 weight: 6650
 url: /ru/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

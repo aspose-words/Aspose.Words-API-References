@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает вариант градиента.GradientVariant для заливки.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words для .NET
+description: Fill GradientVariant свойство. Получает вариант градиента.GradientVariant для заливки на С#.
 type: docs
-weight: 130
+weight: 120
 url: /ru/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/gradientvariant/
 public GradientVariant GradientVariant { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

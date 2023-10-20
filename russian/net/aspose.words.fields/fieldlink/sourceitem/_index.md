@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceItem
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLink свойство. Получает или задает часть исходного файла на которую осуществляется ссылка.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words для .NET
+description: FieldLink SourceItem свойство. Получает или задает часть исходного файла на которую осуществляется ссылка на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fieldlink/sourceitem/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlink/sourceitem/
 public string SourceItem { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldLink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

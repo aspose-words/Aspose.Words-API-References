@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ActiveRecord
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает индекс записи из источника данных отсчитываемый от единицы который будет отображаться в Microsoft Word. Значение по умолчанию  1. .
+linktitle: ActiveRecord
+articleTitle: ActiveRecord
+second_title: Aspose.Words для .NET
+description: MailMergeSettings ActiveRecord свойство. Указывает индекс записи из источника данных отсчитываемый от единицы который будет отображаться в Microsoft Word. Значение по умолчанию  1.  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/activerecord/
 public int ActiveRecord { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsMapped
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeField свойство. Получает или задает является ли это поле сопоставленным полем.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words для .NET
+description: FieldMergeField IsMapped свойство. Получает или задает является ли это поле сопоставленным полем на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergefield/ismapped/
 public bool IsMapped { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Смотрите также
 
 * class [FieldMergeField](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergefield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

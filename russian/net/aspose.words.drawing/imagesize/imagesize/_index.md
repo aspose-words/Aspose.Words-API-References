@@ -1,12 +1,14 @@
 ---
-title: ImageSize.ImageSize
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize строитель. Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi.
+title: ImageSize
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words для .NET
+description: ImageSize строитель. Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/imagesize/imagesize/
 ---
-## ImageSize(int, int) {#constructor}
+## ImageSize(*int, int*) {#constructor}
 
 Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi.
 
@@ -22,12 +24,12 @@ public ImageSize(int widthPixels, int heightPixels)
 ### Смотрите также
 
 * class [ImageSize](../)
-* пространство имен [Aspose.Words.Drawing](../../imagesize/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ImageSize(int, int, double, double) {#constructor_1}
+## ImageSize(*int, int, double, double*) {#constructor_1}
 
 Инициализирует ширину, высоту и разрешение заданными значениями.
 
@@ -46,7 +48,5 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 ### Смотрите также
 
 * class [ImageSize](../)
-* пространство имен [Aspose.Words.Drawing](../../imagesize/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

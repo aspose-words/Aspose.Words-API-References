@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ArrowLength перечисление. Длина стрелки в конце линии.
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ArrowLength перечисление. Длина стрелки в конце линии на С#.
 type: docs
 weight: 480
 url: /ru/net/aspose.words.drawing/arrowlength/
@@ -23,7 +25,7 @@ public enum ArrowLength
 | Long | `2` |  |
 | Default | `0` | То же, что иShort . |
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

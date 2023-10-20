@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает стиль Caseкода для типа штрихкода ITF14. Допустимые значения STDEXTADD .
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode CaseCodeStyle свойство. Получает или задает стиль Caseкода для типа штрихкода ITF14. Допустимые значения STDEXTADD  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 public string CaseCodeStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты со штрих-кодами ITF14.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

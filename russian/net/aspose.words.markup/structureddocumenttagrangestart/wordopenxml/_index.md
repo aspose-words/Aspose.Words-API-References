@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает строку представляющую XML содержащийся в узле вFlatOpc формат.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart WordOpenXML свойство. Получает строку представляющую XML содержащийся в узле вFlatOpc формат на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 public string WordOpenXML { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

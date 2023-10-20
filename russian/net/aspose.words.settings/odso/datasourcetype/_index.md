@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO для этого слияния почты. Значение по умолчаниюDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words для .NET
+description: Odso DataSourceType свойство. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO для этого слияния почты. Значение по умолчаниюDefault  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.settings/odso/datasourcetype/
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Этот параметр представляет собой всего лишь вариант типа источника данных, который используется для этого слияния почты.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

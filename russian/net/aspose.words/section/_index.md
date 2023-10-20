@@ -1,7 +1,9 @@
 ---
-title: Class Section
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Section сорт. Представляет один раздел в документе.
+title: Section Class
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Section сорт. Представляет один раздел в документе на С#.
 type: docs
 weight: 5730
 url: /ru/net/aspose.words/section/
@@ -20,7 +22,7 @@ public sealed class Section : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [Section](section/)(DocumentBase) | Инициализирует новый экземпляр класса Раздел. |
+| [Section](section/)(*[DocumentBase](../documentbase/)*) | Инициализирует новый экземпляр класса Раздел. |
 
 ## Характеристики
 
@@ -47,41 +49,39 @@ public sealed class Section : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/section/accept/)(DocumentVisitor) | Принимает посетителя. |
-| override [AcceptEnd](../../aspose.words/section/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/section/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendContent](../../aspose.words/section/appendcontent/)(Section) | Вставляет копию содержимого исходного раздела в конец этого раздела. |
+| override [Accept](../../aspose.words/section/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [AppendContent](../../aspose.words/section/appendcontent/)(*Section*) | Вставляет копию содержимого исходного раздела в конец этого раздела. |
 | [ClearContent](../../aspose.words/section/clearcontent/)() | Очищает раздел. |
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/)() | Очищает верхние и нижние колонтитулы этого раздела. |
 | [Clone](../../aspose.words/section/clone/#clone_1)() | Создает дубликат этого раздела. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes/)() | Удаляет все фигуры (объекты рисования) из верхних и нижних колонтитулов этого раздела. |
 | [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | Гарантирует, что в разделе есть[`Body`](./body/) с одним[`Paragraph`](../paragraph/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PrependContent](../../aspose.words/section/prependcontent/)(Section) | Вставляет копию содержимого исходного раздела в начало этого раздела. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PrependContent](../../aspose.words/section/prependcontent/)(*Section*) | Вставляет копию содержимого исходного раздела в начало этого раздела. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Удаляет указанный дочерний узел. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 `Section` можно иметь один[`Body`](../body/) и максимум один[`HeaderFooter`](../headerfooter/) каждого[`HeaderFooterType`](../headerfootertype/) .[`Body`](../body/) и[`HeaderFooter`](../headerfooter/) nodes может быть внутри в любом порядке`Section`.
 
@@ -95,7 +95,7 @@ public sealed class Section : CompositeNode
 
 Чтобы скопировать и вставить только содержимое раздела, исключая раздел Break и свойства раздела, используйте[`AppendContent`](./appendcontent/) и[`PrependContent`](./prependcontent/) методы.
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -147,5 +147,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLine свойство. Получает или задает инструкции для подписывающего лица которые отображаются при подписании строки подписи. Это свойство игнорируется еслиDefaultInstructionsустановлено. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words для .NET
+description: SignatureLine Instructions свойство. Получает или задает инструкции для подписывающего лица которые отображаются при подписании строки подписи. Это свойство игнорируется еслиDefaultInstructionsустановлено. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Получает или задает инструкции для подписывающего лица, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](../defaultinstructions/)установлено. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает инструкции для подписывающего лица, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](../defaultinstructions/)установлено. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Смотрите также
 
 * class [SignatureLine](../)
-* пространство имен [Aspose.Words.Drawing](../../signatureline/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

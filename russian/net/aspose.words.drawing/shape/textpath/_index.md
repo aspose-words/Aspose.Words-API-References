@@ -1,7 +1,9 @@
 ---
 title: Shape.TextPath
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет текст текстового пути объекта WordArt.
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words для .NET
+description: Shape TextPath свойство. Определяет текст текстового пути объекта WordArt на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.drawing/shape/textpath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/textpath/
 public TextPath TextPath { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -118,7 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

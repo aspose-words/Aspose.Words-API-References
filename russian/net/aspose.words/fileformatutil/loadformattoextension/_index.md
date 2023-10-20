@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToExtension
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatUtil метод. Преобразует перечисляемое значение формата загрузки в расширение файла. Возвращаемое расширение представляет собой строку в нижнем регистре с начальной точкой.
+linktitle: LoadFormatToExtension
+articleTitle: LoadFormatToExtension
+second_title: Aspose.Words для .NET
+description: FileFormatUtil LoadFormatToExtension метод. Преобразует перечисляемое значение формата загрузки в расширение файла. Возвращаемое расширение представляет собой строку в нижнем регистре с начальной точкой на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/fileformatutil/loadformattoextension/
@@ -20,11 +22,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | Выдает, когда невозможно преобразовать. |
 
-### Примечания
+## Примечания
 
 WordML значение преобразуется в «.wml».
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
@@ -58,7 +60,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* пространство имен [Aspose.Words](../../fileformatutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.IsHeading
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Истинно если стиль является одним из встроенных стилей заголовков.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words для .NET
+description: Style IsHeading свойство. Истинно если стиль является одним из встроенных стилей заголовков на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/style/isheading/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/isheading/
 public bool IsHeading { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

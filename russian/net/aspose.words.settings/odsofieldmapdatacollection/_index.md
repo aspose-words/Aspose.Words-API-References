@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapDataCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection сорт. Типизированная коллекцияOdsoFieldMapData объекты.
+title: OdsoFieldMapDataCollection Class
+linktitle: OdsoFieldMapDataCollection
+articleTitle: OdsoFieldMapDataCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection сорт. Типизированная коллекцияOdsoFieldMapData объекты на С#.
 type: docs
 weight: 5910
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/
@@ -33,12 +35,12 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Добавляет объект в конец этой коллекции. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Добавляет объект в конец этой коллекции. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Удаляет все элементы из этой коллекции. |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Удаляет элемент по указанному индексу. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -84,5 +86,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [FieldMapDatas](../odso/fieldmapdatas/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

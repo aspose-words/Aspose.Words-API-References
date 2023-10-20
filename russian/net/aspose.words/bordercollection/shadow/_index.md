@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Shadow
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает или задает значение указывающее имеет ли граница тень.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words для .NET
+description: BorderCollection Shadow свойство. Получает или задает значение указывающее имеет ли граница тень на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/bordercollection/shadow/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/bordercollection/shadow/
 public bool Shadow { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Получает значение первой границы коллекции.
 
 Устанавливает значение для всех границ в коллекции, исключая диагональные границы.
 
-### Примеры
+## Примеры
 
 Показывает, как создать зеленую волнистую рамку страницы с тенью.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Смотрите также
 
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

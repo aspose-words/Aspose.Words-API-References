@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection метод. Добавляет указанный элемент в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: BaseWebExtensionCollection Add метод. Добавляет указанный элемент в коллекцию на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +20,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | Товар для добавления. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* пространство имен [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

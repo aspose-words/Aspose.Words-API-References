@@ -1,7 +1,9 @@
 ---
-title: Class RunCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RunCollection сорт. Обеспечивает типизированный доступ к коллекцииRun узлы.
+title: RunCollection Class
+linktitle: RunCollection
+articleTitle: RunCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.RunCollection сорт. Обеспечивает типизированный доступ к коллекцииRun узлы на С#.
 type: docs
 weight: 4830
 url: /ru/net/aspose.words/runcollection/
@@ -27,17 +29,17 @@ public class RunCollection : NodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words/runcollection/toarray/#toarray_1)() | Копирует все прогоны из коллекции в новый массив прогонов. (2 methods) |
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -95,5 +97,3 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 * class [NodeCollection](../nodecollection/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

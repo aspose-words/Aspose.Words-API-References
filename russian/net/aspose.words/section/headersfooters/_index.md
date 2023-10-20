@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Справочник по API Aspose.Words для .NET
-description: Section свойство. Обеспечивает доступ к узлам верхнего и нижнего колонтитула раздела.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words для .NET
+description: Section HeadersFooters свойство. Обеспечивает доступ к узлам верхнего и нижнего колонтитула раздела на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/section/headersfooters/
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заменить текст в нижнем колонтитуле документа.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

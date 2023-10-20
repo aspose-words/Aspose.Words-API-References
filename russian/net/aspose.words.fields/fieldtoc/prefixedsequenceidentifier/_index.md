@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PrefixedSequenceIdentifier
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает идентификатор последовательности для которой к номеру страницы записи следует добавить префикс.
+linktitle: PrefixedSequenceIdentifier
+articleTitle: PrefixedSequenceIdentifier
+second_title: Aspose.Words для .NET
+description: FieldToc PrefixedSequenceIdentifier свойство. Получает или задает идентификатор последовательности для которой к номеру страницы записи следует добавить префикс на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле TOC записями с использованием полей SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

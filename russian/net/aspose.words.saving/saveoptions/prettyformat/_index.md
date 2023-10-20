@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Когдаистинный вывод в красивых форматах где это применимо. Значение по умолчаниюЛОЖЬ .
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: Aspose.Words для .NET
+description: SaveOptions PrettyFormat свойство. Когдаистинный вывод в красивых форматах где это применимо. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/saveoptions/prettyformat/
 public bool PrettyFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установлен в`истинный` чтобы сделать вывод HTML, MHTML, EPUB, WordML, RTF, DOCX и ODT удобочитаемым для человека. Полезно для тестирования или отладки.
 
-### Примеры
+## Примеры
 
 Показывает, как улучшить читаемость исходного кода сохраненного HTML-документа.
 
@@ -69,7 +71,5 @@ else
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

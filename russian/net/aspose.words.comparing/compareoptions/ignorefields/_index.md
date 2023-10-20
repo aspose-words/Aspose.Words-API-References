@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFields
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает следует ли сравнивать различия в полях. По умолчанию поля не игнорируются.
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words для .NET
+description: CompareOptions IgnoreFields свойство. Указывает следует ли сравнивать различия в полях. По умолчанию поля не игнорируются на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.comparing/compareoptions/ignorefields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.comparing/compareoptions/ignorefields/
 public bool IgnoreFields { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

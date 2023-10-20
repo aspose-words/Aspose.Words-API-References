@@ -1,7 +1,9 @@
 ---
 title: TextPath.Spacing
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет расстояние для текста. 1 означает 100.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words для .NET
+description: TextPath Spacing свойство. Определяет расстояние для текста. 1 означает 100 на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/textpath/spacing/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/spacing/
 public double Spacing { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

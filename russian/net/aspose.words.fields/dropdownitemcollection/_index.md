@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.DropDownItemCollection сорт. Коллекция строк представляющих все элементы в поле раскрывающейся формы.
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.DropDownItemCollection сорт. Коллекция строк представляющих все элементы в поле раскрывающейся формы на С#.
 type: docs
 weight: 1500
 url: /ru/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Добавляет строку в конец коллекции. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | Добавляет строку в конец коллекции. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Определяет, содержит ли коллекция указанное значение. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | Определяет, содержит ли коллекция указанное значение. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Вставляет строку в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Удаляет указанное значение из коллекции. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Удаляет значение по указанному индексу. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | Вставляет строку в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | Удаляет указанное значение из коллекции. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | Удаляет значение по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IFieldDatabaseProvider.GetQueryResult
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldDatabaseProvider метод. Возвращает результат запроса.
+linktitle: GetQueryResult
+articleTitle: GetQueryResult
+second_title: Aspose.Words для .NET
+description: IFieldDatabaseProvider GetQueryResult метод. Возвращает результат запроса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
@@ -31,7 +33,5 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 * class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
 * class [FieldDatabase](../../fielddatabase/)
 * interface [IFieldDatabaseProvider](../)
-* пространство имен [Aspose.Words.Fields](../../ifielddatabaseprovider/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

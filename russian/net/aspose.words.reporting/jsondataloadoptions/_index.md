@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.JsonDataLoadOptions сорт. Представляет параметры анализа данных JSON.
+title: JsonDataLoadOptions Class
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.JsonDataLoadOptions сорт. Представляет параметры анализа данных JSON на С#.
 type: docs
 weight: 4680
 url: /ru/net/aspose.words.reporting/jsondataloadoptions/
@@ -31,7 +33,7 @@ public class JsonDataLoadOptions
 | [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | Получает или задает флаг, указывающий, следует ли сохранять начальные и конечные пробелы при загрузке значений string данных JSON. |
 | [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Получает или задает режим анализа простых значений JSON (нулевое, логическое, число, целое число и строка) при загрузке JSON. Такой режим не влияет на анализ значений даты и времени. По умолчанию — .Loose . |
 
-### Примечания
+## Примечания
 
 Экземпляр этого класса можно передать в конструкторы[`JsonDataSource`](../jsondatasource/) .
 
@@ -39,5 +41,3 @@ public class JsonDataLoadOptions
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPartSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения части документа.
+linktitle: KeepDocumentPartStreamOpen
+articleTitle: KeepDocumentPartStreamOpen
+second_title: Aspose.Words для .NET
+description: DocumentPartSavingArgs KeepDocumentPartStreamOpen свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения части документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamop
 public bool KeepDocumentPartStreamOpen { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`DocumentPartStream`](../documentpartstream/) свойство после записи в него части документа. Укажите`истинный` чтобы поток оставался открытым. Обратите внимание, что основной поток вывода , предоставленный при вызове[`Save`](../../../aspose.words/document/save/)или [`Save`](../../../aspose.words/document/save/) никогда не будет закрыт Aspose.Words , даже если`KeepDocumentPartStreamOpen` установлено на`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -135,7 +137,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Смотрите также
 
 * class [DocumentPartSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../documentpartsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

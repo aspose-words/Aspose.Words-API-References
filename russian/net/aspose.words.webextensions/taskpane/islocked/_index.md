@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Указывает привязана ли панель задач к документу в пользовательском интерфейсе и не может быть закрыта пользователем.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words для .NET
+description: TaskPane IsLocked свойство. Указывает привязана ли панель задач к документу в пользовательском интерфейсе и не может быть закрыта пользователем на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/taskpane/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [TaskPane](../)
-* пространство имен [Aspose.Words.WebExtensions](../../taskpane/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

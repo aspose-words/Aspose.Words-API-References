@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Получает или задает ширину ревизионных полос в точках.
+linktitle: RevisionBarsWidth
+articleTitle: RevisionBarsWidth
+second_title: Aspose.Words для .NET
+description: RevisionOptions RevisionBarsWidth свойство. Получает или задает ширину ревизионных полос в точках на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.layout/revisionoptions/revisionbarswidth/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/revisionoptions/revisionbarswidth/
 public float RevisionBarsWidth { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Смотрите также
 
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

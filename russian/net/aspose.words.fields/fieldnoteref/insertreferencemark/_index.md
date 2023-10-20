@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNoteRef свойство. Вставляет ссылочный знак с тем же форматированием символов что и стиль ссылки на сноску или ссылку на концевую сноску.
+linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
+second_title: Aspose.Words для .NET
+description: FieldNoteRef InsertReferenceMark свойство. Вставляет ссылочный знак с тем же форматированием символов что и стиль ссылки на сноску или ссылку на концевую сноску на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldnoteref/insertreferencemark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldnoteref/insertreferencemark/
 public bool InsertReferenceMark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля NOTEREF и изменить их внешний вид.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Смотрите также
 
 * class [FieldNoteRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnoteref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

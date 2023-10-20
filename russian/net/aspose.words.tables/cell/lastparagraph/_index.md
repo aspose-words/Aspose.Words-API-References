@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает последний абзац среди ближайших дочерних элементов.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words для .NET
+description: Cell LastParagraph свойство. Получает последний абзац среди ближайших дочерних элементов на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить настройки к вертикальным границам формата строки таблицы.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

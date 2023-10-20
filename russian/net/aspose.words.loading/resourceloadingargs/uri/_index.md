@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.Uri
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceLoadingArgs свойство. URI ресурса который используется для загрузки  еслиResourceLoading возвращаетDefault.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words для .NET
+description: ResourceLoadingArgs Uri свойство. URI ресурса который используется для загрузки  еслиResourceLoading возвращаетDefault на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.loading/resourceloadingargs/uri/
@@ -19,7 +21,5 @@ public string Uri { get; set; }
 ### Смотрите также
 
 * class [ResourceLoadingArgs](../)
-* пространство имен [Aspose.Words.Loading](../../resourceloadingargs/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

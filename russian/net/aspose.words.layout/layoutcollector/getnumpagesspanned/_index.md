@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutCollector метод. Получает количество страниц охватываемых указанным узлом. 0 если узел находится на одной странице. Это то же самое чтоGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words для .NET
+description: LayoutCollector GetNumPagesSpanned метод. Получает количество страниц охватываемых указанным узлом. 0 если узел находится на одной странице. Это то же самое чтоGetEndPageIndex GetStartPageIndex  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* пространство имен [Aspose.Words.Layout](../../layoutcollector/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

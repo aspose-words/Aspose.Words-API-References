@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorder
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Устанавливает указанную границу таблицы с указанным стилем шириной и цветом линии.
+linktitle: SetBorder
+articleTitle: SetBorder
+second_title: Aspose.Words для .NET
+description: Table SetBorder метод. Устанавливает указанную границу таблицы с указанным стилем шириной и цветом линии на С#.
 type: docs
-weight: 430
+weight: 410
 url: /ru/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
@@ -23,7 +25,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | color | Color | Цвет, используемый для границы. |
 | isOverrideCellBorders | Boolean | Когда`истинный`, приводит к удалению всех существующих явных границ ячеек. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить контурную рамку к таблице.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 * enum [BorderType](../../../aspose.words/bordertype/)
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

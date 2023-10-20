@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.UseYomi
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает разрешить ли использование текста yomi для записей индекса.
+linktitle: UseYomi
+articleTitle: UseYomi
+second_title: Aspose.Words для .NET
+description: FieldIndex UseYomi свойство. Получает или задает разрешить ли использование текста yomi для записей индекса на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.fields/fieldindex/useyomi/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/useyomi/
 public bool UseYomi { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фонетически сортировать записи поля INDEX.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

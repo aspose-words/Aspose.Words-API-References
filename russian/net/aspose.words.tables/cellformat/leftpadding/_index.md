@@ -1,9 +1,11 @@
 ---
 title: CellFormat.LeftPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает количество места в пунктах которое нужно добавить слева от содержимого ячейки.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words для .NET
+description: CellFormat LeftPadding свойство. Возвращает или задает количество места в пунктах которое нужно добавить слева от содержимого ячейки на С#.
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/leftpadding/
 public double LeftPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Смотрите также
 
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

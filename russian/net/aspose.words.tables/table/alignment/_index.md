@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Указывает как встроенная таблица выравнивается в документе.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words для .NET
+description: Table Alignment свойство. Указывает как встроенная таблица выравнивается в документе на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.tables/table/alignment/
 public TableAlignment Alignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Left.
 
-### Примеры
+## Примеры
 
 Показывает, как применить контурную рамку к таблице.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

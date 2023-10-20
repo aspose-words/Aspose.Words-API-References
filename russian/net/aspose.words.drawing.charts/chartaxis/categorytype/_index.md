@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает тип оси категорий.
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: Aspose.Words для .NET
+description: ChartAxis CategoryType свойство. Получает или задает тип оси категорий на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/categorytype/
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Только текстовые категории (Category ) разрешены в новых диаграммах MS Office 2016.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreak
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ конца столбца x000e.
+linktitle: ColumnBreak
+articleTitle: ColumnBreak
+second_title: Aspose.Words для .NET
+description: ControlChar ColumnBreak поле. Символ конца столбца x000e на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/controlchar/columnbreak/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/columnbreak/
 public static readonly string ColumnBreak;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

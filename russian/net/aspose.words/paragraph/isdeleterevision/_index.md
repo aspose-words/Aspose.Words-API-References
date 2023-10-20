@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words для .NET
+description: Paragraph IsDeleteRevision свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с абзацами исправлений.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

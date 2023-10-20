@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Справочник по API Aspose.Words для .NET
-description: SmartTag строитель. Инициализирует новый экземплярSmartTag класс.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words для .NET
+description: SmartTag строитель. Инициализирует новый экземплярSmartTag класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда вы создаете новый узел, вам необходимо указать документ, которому принадлежит этот узел. Узел не может существовать без документа, поскольку он зависит от структур всего документа, таких как списки и стили. Хотя узел всегда принадлежит документу, он может быть или не быть частью дерева документа.
 
-Когда узел создан, он принадлежит документу, но еще не является частью дерева документа и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой` . Чтобы вставить узел в документ, используйте the Node) илиNode) методы на родительском узле.
+Когда узел создан, он принадлежит документу, но еще не является частью дерева документа и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой` . Чтобы вставить узел в документ, используйте the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) методы на родительском узле.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* пространство имен [Aspose.Words.Markup](../../smarttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

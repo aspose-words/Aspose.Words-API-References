@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.NoLeading
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не добавлять интерлиньяж между строками текста.
+linktitle: NoLeading
+articleTitle: NoLeading
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions NoLeading свойство. Не добавлять интерлиньяж между строками текста на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words.settings/compatibilityoptions/noleading/
@@ -17,7 +19,5 @@ public bool NoLeading { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

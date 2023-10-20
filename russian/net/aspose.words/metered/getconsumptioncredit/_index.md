@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionCredit
-second_title: Справочник по API Aspose.Words для .NET
-description: Metered метод. Получает потребительский кредит
+linktitle: GetConsumptionCredit
+articleTitle: GetConsumptionCredit
+second_title: Aspose.Words для .NET
+description: Metered GetConsumptionCredit метод. Получает потребительский кредит на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/metered/getconsumptioncredit/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionCredit()
 
 объем потребления
 
-### Примеры
+## Примеры
 
 Показывает, как активировать дозированную лицензию и отслеживать кредит/потребление.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Смотрите также
 
 * class [Metered](../)
-* пространство имен [Aspose.Words](../../metered/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

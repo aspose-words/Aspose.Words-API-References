@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Возвращает коллекцию имен полей слияния почты доступных в документе.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words для .NET
+description: MailMerge GetFieldNames метод. Возвращает коллекцию имен полей слияния почты доступных в документе на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### Примечания
+## Примечания
 
 Возвращает полные имена полей слияния, включая необязательный префикс. Не удаляет повторяющиеся имена полей.
 
@@ -22,7 +24,7 @@ public string[] GetFieldNames()
 
 Включает имена полей с «усами», если[`UseNonMergeFields`](../usenonmergefields/) является`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как получить имена всех полей слияния в документе.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.ParentParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Получает родительский элементParagraph этого узла.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words для .NET
+description: InlineStory ParentParagraph свойство. Получает родительский элементParagraph этого узла на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/inlinestory/parentparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection метод. Определяет содержит ли коллекция закладку с заданным именем.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection Contains метод. Определяет содержит ли коллекция закладку с заданным именем на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `истинный` если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

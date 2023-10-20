@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли помечать изображение абзаца как артефакт.
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact свойство. Получает или задает значение определяющее следует ли помечать изображение абзаца как артефакт на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifac
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` а графика абзаца (подчеркивание, выделение текста и т. д.) будет помечена как «Span» в логической структуре документа.
 
@@ -22,7 +24,7 @@ public bool ExportParagraphGraphicsToArtifact { get; set; }
 
 Это значение игнорируется, если[`ExportDocumentStructure`](../exportdocumentstructure/) является`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как экспортировать графику абзаца в качестве артефакта (подчеркивания, выделения текста и т. д.).
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

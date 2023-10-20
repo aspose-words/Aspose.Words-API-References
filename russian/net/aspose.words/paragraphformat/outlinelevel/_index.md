@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Определяет уровень структуры абзаца в документе.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words для .NET
+description: ParagraphFormat OutlineLevel свойство. Определяет уровень структуры абзаца в документе на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/outlinelevel/
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить уровни структуры абзаца для создания свертываемого текста.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

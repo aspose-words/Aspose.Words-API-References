@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolRotation
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает поворот символа штрихкода. Допустимые значения 0 3 .
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode SymbolRotation свойство. Получает или задает поворот символа штрихкода. Допустимые значения 0 3  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
 public string SymbolRotation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

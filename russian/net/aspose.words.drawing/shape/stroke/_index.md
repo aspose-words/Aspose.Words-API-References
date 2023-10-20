@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет обводку фигуры.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words для .NET
+description: Shape Stroke свойство. Определяет обводку фигуры на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/stroke/
 public Stroke Stroke { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

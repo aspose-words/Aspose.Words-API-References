@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: CustomXmlSchemaCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/customxmlschemacollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlschemacollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Смотрите также
 
 * class [CustomXmlSchemaCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlschemacollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

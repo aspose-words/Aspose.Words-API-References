@@ -1,7 +1,9 @@
 ---
 title: TextBox.Previous
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. ВозвращаетTextBox который представляет собой предыдущийTextBox в последовательности фигур.
+linktitle: Previous
+articleTitle: Previous
+second_title: Aspose.Words для .NET
+description: TextBox Previous свойство. ВозвращаетTextBox который представляет собой предыдущийTextBox в последовательности фигур на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/textbox/previous/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/textbox/previous/
 public TextBox Previous { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как связать текстовые поля.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

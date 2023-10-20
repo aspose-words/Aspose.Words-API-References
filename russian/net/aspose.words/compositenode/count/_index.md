@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode свойство. Получает количество непосредственных дочерних элементов этого узла.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: CompositeNode Count свойство. Получает количество непосредственных дочерних элементов этого узла на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/compositenode/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять, обновлять и удалять дочерние узлы в коллекции дочерних узлов CompositeNode.
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

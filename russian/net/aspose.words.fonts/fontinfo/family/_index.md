@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo свойство. Получает или задает семейство шрифтов к которому принадлежит этот шрифт.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words для .NET
+description: FontInfo Family свойство. Получает или задает семейство шрифтов к которому принадлежит этот шрифт на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontinfo/family/
 public FontFamily Family { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

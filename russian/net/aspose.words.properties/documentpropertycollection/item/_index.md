@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection свойство. ВозвращаетDocumentProperty объект по имени свойства.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection Item свойство. ВозвращаетDocumentProperty объект по имени свойства на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Имя извлекаемого свойства без учета регистра. |
 
-### Примечания
+## Примечания
 
 Возврат`нулевой` если свойство с указанным именем не найдено.
 
-### Примеры
+## Примеры
 
 Показывает, как создать настраиваемое свойство документа, содержащее дату и время.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Нулевой индекс[`DocumentProperty`](../../documentproperty/) чтобы получить. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

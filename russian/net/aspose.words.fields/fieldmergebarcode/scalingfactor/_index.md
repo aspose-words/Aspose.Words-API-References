@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ScalingFactor
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах допустимые значения 10 1000 .
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode ScalingFactor свойство. Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах допустимые значения 10 1000  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
 public string ScalingFactor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

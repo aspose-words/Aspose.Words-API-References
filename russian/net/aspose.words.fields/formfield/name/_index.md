@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает имя поля формы.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: FormField Name свойство. Получает или задает имя поля формы на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Microsoft Word допускает строки длиной не более 20 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

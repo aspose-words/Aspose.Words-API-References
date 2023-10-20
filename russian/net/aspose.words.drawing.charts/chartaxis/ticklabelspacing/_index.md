@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает интервал с которым отрисовываются тиковые метки.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words для .NET
+description: ChartAxis TickLabelSpacing свойство. Получает или задает интервал с которым отрисовываются тиковые метки на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 public int TickLabelSpacing { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство действует для осей текстовых категорий и рядов. Он не поддерживается новыми диаграммами MS Office 2016 . Допустимый диапазон значений больше или равен 1.
 
 Установка этого свойства устанавливает[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) собственность`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

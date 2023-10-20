@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.CompareMoves
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает сравнивать ли различия вMoveRevision между двумя документами. По умолчанию изменения перемещения не создаются.
+linktitle: CompareMoves
+articleTitle: CompareMoves
+second_title: Aspose.Words для .NET
+description: CompareOptions CompareMoves свойство. Указывает сравнивать ли различия вMoveRevision между двумя документами. По умолчанию изменения перемещения не создаются на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.comparing/compareoptions/comparemoves/
@@ -17,7 +19,5 @@ public bool CompareMoves { get; set; }
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.DisplayType
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath свойство. Получает/задает тип формата отображения Office Math который определяет отображается ли уравнение в строке с текстом text или отображается в отдельной строке.
+linktitle: DisplayType
+articleTitle: DisplayType
+second_title: Aspose.Words для .NET
+description: OfficeMath DisplayType свойство. Получает/задает тип формата отображения Office Math который определяет отображается ли уравнение в строке с текстом text или отображается в отдельной строке на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.math/officemath/displaytype/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.math/officemath/displaytype/
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Тип формата отображения действует только для Office Math верхнего уровня.
 
 Тип возвращаемого формата отображения всегдаInline для вложенной Office Math.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование отображения математических функций Office.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* пространство имен [Aspose.Words.Math](../../officemath/)
+* пространство имен [Aspose.Words.Math](../../../aspose.words.math/)
 * сборка [Aspose.Words](../../../)
-
-

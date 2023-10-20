@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.SdtType
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает тип тега структурированного документа.
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart SdtType свойство. Получает тип тега структурированного документа на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 public SdtType SdtType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

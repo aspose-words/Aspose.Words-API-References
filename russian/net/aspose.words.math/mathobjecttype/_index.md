@@ -1,7 +1,9 @@
 ---
-title: Enum MathObjectType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Math.MathObjectType перечисление. Указывает тип объекта Office Math.
+title: MathObjectType Enum
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Math.MathObjectType перечисление. Указывает тип объекта Office Math на С#.
 type: docs
 weight: 4110
 url: /ru/net/aspose.words.math/mathobjecttype/
@@ -49,7 +51,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | Объект поднадстрочного индекса, который состоит из базового элемента, сценария уменьшенного размера, расположенного ниже и справа, и сценария уменьшенного размера, расположенного выше и справа. |
 | Supercript | `29` | Объект надстрочного индекса, который состоит из базового элемента и скрипта уменьшенного размера, расположенного сверху и справа. |
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру каждого узла офисной математики в документе.
 
@@ -142,5 +144,3 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * пространство имен [Aspose.Words.Math](../../aspose.words.math/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символразделитель полей отделяет код поля от значения поля. Необязательно в некоторых полях. Значение символ20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: Aspose.Words для .NET
+description: ControlChar FieldSeparatorChar поле. Символразделитель полей отделяет код поля от значения поля. Необязательно в некоторых полях. Значение символ20 на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/fieldseparatorchar/
 public const char FieldSeparatorChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

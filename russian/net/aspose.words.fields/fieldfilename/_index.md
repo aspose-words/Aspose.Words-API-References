@@ -1,7 +1,9 @@
 ---
-title: Class FieldFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldFileName сорт. Реализует поле FILENAME.
+title: FieldFileName Class
+linktitle: FieldFileName
+articleTitle: FieldFileName
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldFileName сорт. Реализует поле FILENAME на С#.
 type: docs
 weight: 1870
 url: /ru/net/aspose.words.fields/fieldfilename/
@@ -43,19 +45,19 @@ public class FieldFileName : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Извлекает имя текущего документа из места его хранения.
 
 В текущей реализации используется[`OriginalFileName`](../../aspose.words/document/originalfilename/) свойство для получения имени файла. Если документ был загружен из потока или создан пустым, используется имя файла, в который сохраняется (если известно).
 
-### Примеры
+## Примеры
 
 Показывает, как использовать FieldOptions для переопределения значения по умолчанию для поля FILENAME.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

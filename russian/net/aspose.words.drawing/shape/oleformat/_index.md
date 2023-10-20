@@ -1,7 +1,9 @@
 ---
 title: Shape.OleFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Обеспечивает доступ к данным OLE фигуры. Для фигуры которая не является объектом OLE или элементом управления ActiveX возвращаетсянулевой .
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words для .NET
+description: Shape OleFormat свойство. Обеспечивает доступ к данным OLE фигуры. Для фигуры которая не является объектом OLE или элементом управления ActiveX возвращаетсянулевой  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/shape/oleformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/oleformat/
 public OleFormat OleFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [OleFormat](../../oleformat/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.DefaultDocumentAuthor
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает имя автора документа по умолчанию. Если имя автора уже указано во встроенных свойствах документа этот параметр не учитывается.
+linktitle: DefaultDocumentAuthor
+articleTitle: DefaultDocumentAuthor
+second_title: Aspose.Words для .NET
+description: FieldOptions DefaultDocumentAuthor свойство. Получает или задает имя автора документа по умолчанию. Если имя автора уже указано во встроенных свойствах документа этот параметр не учитывается на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле АВТОР для отображения имени создателя документа.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat метод. Сбрасывает формат строки по умолчанию.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: RowFormat ClearFormatting метод. Сбрасывает формат строки по умолчанию на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/rowformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать таблицу с настраиваемыми границами.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Смотрите также
 
 * class [RowFormat](../)
-* пространство имен [Aspose.Words.Tables](../../rowformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

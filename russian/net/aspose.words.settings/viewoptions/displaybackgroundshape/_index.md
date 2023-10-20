@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DisplayBackgroundShape
-second_title: Справочник по API Aspose.Words для .NET
-description: ViewOptions свойство. Управляет отображением формы фона в виде макета печати.
+linktitle: DisplayBackgroundShape
+articleTitle: DisplayBackgroundShape
+second_title: Aspose.Words для .NET
+description: ViewOptions DisplayBackgroundShape свойство. Управляет отображением формы фона в виде макета печати на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/viewoptions/displaybackgroundshape/
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как скрыть/отобразить фоновые изображения документа в параметрах просмотра.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### Смотрите также
 
 * class [ViewOptions](../)
-* пространство имен [Aspose.Words.Settings](../../viewoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

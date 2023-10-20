@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator метод. Перемещается к родительскому объекту.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator MoveParent метод. Перемещается к родительскому объекту на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/moveparent/
 public bool MoveParent()
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Перемещается к родительскому объекту указанного типа.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | Тип родительской сущности, к которой необходимо перейти. Используйте побитовое ИЛИ, чтобы указать несколько родительских типов. |
 
-### Примечания
+## Примечания
 
 Этот метод полезен, если вам нужно найти родительскую ячейку, столбец или верхний/нижний колонтитул сущности.
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

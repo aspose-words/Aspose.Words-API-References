@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveFromRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращаетистинный если этот объект был перемещен удален в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words для .NET
+description: ShapeBase IsMoveFromRevision свойство. Возвращаетистинный если этот объект был перемещен удален в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.drawing/shapebase/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить формы перемещения изменений.
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

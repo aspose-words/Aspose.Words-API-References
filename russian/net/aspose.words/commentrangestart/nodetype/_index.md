@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: CommentRangeStart свойство. ВозвращаетCommentRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: CommentRangeStart NodeType свойство. ВозвращаетCommentRangeStart  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/commentrangestart/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/commentrangestart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeStart](../)
-* пространство имен [Aspose.Words](../../commentrangestart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

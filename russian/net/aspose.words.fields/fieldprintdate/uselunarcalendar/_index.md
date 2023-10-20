@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrintDate свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words для .NET
+description: FieldPrintDate UseLunarCalendar свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает прочитанные поля PRINTDATE.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Смотрите также
 
 * class [FieldPrintDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldprintdate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

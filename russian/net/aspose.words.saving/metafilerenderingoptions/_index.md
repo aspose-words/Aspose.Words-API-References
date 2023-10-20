@@ -1,7 +1,9 @@
 ---
-title: Class MetafileRenderingOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.MetafileRenderingOptions сорт. Позволяет указать дополнительные параметры отрисовки метафайла.
+title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.MetafileRenderingOptions сорт. Позволяет указать дополнительные параметры отрисовки метафайла на С#.
 type: docs
 weight: 5300
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/
@@ -34,7 +36,7 @@ public class MetafileRenderingOptions
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Получает или задает значение, определяющее, как должны отображаться метафайлы WMF со встроенными метафайлами EMF. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Получает или задает значение, определяющее, использовать ли GDI+ для эмуляции растровых операций. |
 
-### Примеры
+## Примеры
 
 Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
 
@@ -90,5 +92,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

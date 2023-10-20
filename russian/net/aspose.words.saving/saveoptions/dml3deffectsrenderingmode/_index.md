@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.Dml3DEffectsRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее способ визуализации 3Dэффектов.
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words для .NET
+description: SaveOptions Dml3DEffectsRenderingMode свойство. Получает или задает значение определяющее способ визуализации 3Dэффектов на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Basic .
 
@@ -22,7 +24,5 @@ public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 
 * enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

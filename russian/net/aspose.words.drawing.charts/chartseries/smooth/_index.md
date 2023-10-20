@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Позволяет указать должна ли линия соединяющая точки на диаграмме сглаживаться с использованием сплайнов CatmullRom.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words для .NET
+description: ChartSeries Smooth свойство. Позволяет указать должна ли линия соединяющая точки на диаграмме сглаживаться с использованием сплайнов CatmullRom на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/smooth/
 public bool Smooth { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Смотрите также
 
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

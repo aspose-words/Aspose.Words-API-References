@@ -1,7 +1,9 @@
 ---
 title: IResourceSavingCallback.ResourceSaving
-second_title: Справочник по API Aspose.Words для .NET
-description: IResourceSavingCallback метод. Вызывается когда Aspose.Words сохраняет внешний ресурс в формате фиксированной страницы HTML или SVG.
+linktitle: ResourceSaving
+articleTitle: ResourceSaving
+second_title: Aspose.Words для .NET
+description: IResourceSavingCallback ResourceSaving метод. Вызывается когда Aspose.Words сохраняет внешний ресурс в формате фиксированной страницы HTML или SVG на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 public void ResourceSaving(ResourceSavingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -134,7 +136,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * class [ResourceSavingArgs](../../resourcesavingargs/)
 * interface [IResourceSavingCallback](../)
-* пространство имен [Aspose.Words.Saving](../../iresourcesavingcallback/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Удаляет значение по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection RemoveAt метод. Удаляет значение по указанному индексу на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/dropdownitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

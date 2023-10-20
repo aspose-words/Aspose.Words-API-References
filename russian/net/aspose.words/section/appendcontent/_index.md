@@ -1,9 +1,11 @@
 ---
 title: Section.AppendContent
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Вставляет копию содержимого исходного раздела в конец этого раздела.
+linktitle: AppendContent
+articleTitle: AppendContent
+second_title: Aspose.Words для .NET
+description: Section AppendContent метод. Вставляет копию содержимого исходного раздела в конец этого раздела на С#.
 type: docs
-weight: 100
+weight: 80
 url: /ru/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -18,7 +20,7 @@ public void AppendContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | Раздел, из которого копируется контент. |
 
-### Примечания
+## Примечания
 
 Только содержание[`Body`](../body/) исходного раздела копируется, настройка страницы, верхние и нижние колонтитулы не копируются.
 
@@ -26,7 +28,7 @@ public void AppendContent(Section sourceSection)
 
 В целевом документе новый раздел не создается.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить содержимое раздела в другой раздел.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

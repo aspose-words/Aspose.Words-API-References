@@ -1,7 +1,9 @@
 ---
-title: FieldTime.FieldTime
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTime строитель. Конструктор по умолчанию.
+title: FieldTime
+linktitle: FieldTime
+articleTitle: FieldTime
+second_title: Aspose.Words для .NET
+description: FieldTime строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldtime/fieldtime/
@@ -17,7 +19,5 @@ public FieldTime()
 ### Смотрите также
 
 * class [FieldTime](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtime/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

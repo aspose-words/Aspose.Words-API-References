@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop свойство. Возвращаетистинный если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words для .NET
+description: TabStop IsClear свойство. Возвращаетистинный если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstop/isclear/
 public bool IsClear { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Border свойство. Получает или задает цвет темы в примененной цветовой схеме связанной с этим объектом Border.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words для .NET
+description: Border ThemeColor свойство. Получает или задает цвет темы в примененной цветовой схеме связанной с этим объектом Border на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/border/themecolor/
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац с верхней границей.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

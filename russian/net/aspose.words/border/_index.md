@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Border сорт. Представляет границу объекта.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Border сорт. Представляет границу объекта на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | Имя | Описание |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Сбрасывает свойства границы к значениям по умолчанию. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | Определяет, равна ли указанная граница по значению текущей границе. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Определяет, равна ли указанная граница по значению текущей границе. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Служит хеш-функцией для этого типа. |
 
-### Примечания
+## Примечания
 
 Границы можно применять к различным элементам документа, включая абзац, текст внутри абзаца или ячейку таблицы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

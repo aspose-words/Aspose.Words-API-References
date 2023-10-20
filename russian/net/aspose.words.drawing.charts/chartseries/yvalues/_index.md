@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.YValues
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Получает коллекцию значений Y для этой серии диаграмм.
+linktitle: YValues
+articleTitle: YValues
+second_title: Aspose.Words для .NET
+description: ChartSeries YValues свойство. Получает коллекцию значений Y для этой серии диаграмм на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing.charts/chartseries/yvalues/
@@ -18,7 +20,5 @@ public ChartYValueCollection YValues { get; }
 
 * class [ChartYValueCollection](../../chartyvaluecollection/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

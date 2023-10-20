@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.GeneralFormatCollection сорт. Представляет типизированную коллекцию общих форматов.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.GeneralFormatCollection сорт. Представляет типизированную коллекцию общих форматов на С#.
 type: docs
 weight: 2650
 url: /ru/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Добавляет в коллекцию общий формат. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Добавляет в коллекцию общий формат. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Возвращает объект перечислителя. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Удаляет из коллекции все вхождения указанного общего формата. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Удаляет вхождение общего формата по указанному индексу. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Удаляет из коллекции все вхождения указанного общего формата. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Удаляет вхождение общего формата по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageStartingNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает номер начальной страницы раздела.
+linktitle: PageStartingNumber
+articleTitle: PageStartingNumber
+second_title: Aspose.Words для .NET
+description: PageSetup PageStartingNumber свойство. Получает или задает номер начальной страницы раздела на С#.
 type: docs
 weight: 330
 url: /ru/net/aspose.words/pagesetup/pagestartingnumber/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/pagestartingnumber/
 public int PageStartingNumber { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 [`RestartPageNumbering`](../restartpagenumbering/)свойство, если установлено значение`ЛОЖЬ` , переопределит the `PageStartingNumber` свойство, чтобы нумерация страниц могла продолжаться с предыдущего раздела.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить нумерацию страниц в разделе.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

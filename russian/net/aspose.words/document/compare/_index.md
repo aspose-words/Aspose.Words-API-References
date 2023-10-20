@@ -1,12 +1,14 @@
 ---
 title: Document.Compare
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Сравнивает этот документ с другим документом внося изменения в зависимости от количества изменений формата и редактирования.Revision .
+linktitle: Compare
+articleTitle: Compare
+second_title: Aspose.Words для .NET
+description: Document Compare метод. Сравнивает этот документ с другим документом внося изменения в зависимости от количества изменений формата и редактирования.Revision  на С#.
 type: docs
-weight: 580
+weight: 560
 url: /ru/net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Compare(*[Document](../), string, DateTime*) {#compare}
 
 Сравнивает этот документ с другим документом, внося изменения в зависимости от количества изменений формата и редактирования.[`Revision`](../../revision/) .
 
@@ -20,11 +22,11 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | Инициалы автора для исправлений. |
 | dateTime | DateTime | Дата и время, используемые для изменений. |
 
-### Примечания
+## Примечания
 
 Документы не должны иметь редакций перед сравнением.
 
-### Примеры
+## Примеры
 
 Показывает, как сравнивать документы.
 
@@ -58,12 +60,12 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
 Сравнивает этот документ с другим документом, внося изменения в результате ряда изменений редактирования и формата.[`Revision`](../../revision/) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
@@ -71,7 +73,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -146,7 +148,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

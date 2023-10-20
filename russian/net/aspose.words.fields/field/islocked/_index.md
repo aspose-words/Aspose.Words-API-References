@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает или задает заблокировано ли поле не следует пересчитывать результат.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words для .NET
+description: Field IsLocked свойство. Получает или задает заблокировано ли поле не следует пересчитывать результат на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с узлом FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

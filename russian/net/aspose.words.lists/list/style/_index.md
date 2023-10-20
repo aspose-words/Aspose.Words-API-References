@@ -1,7 +1,9 @@
 ---
 title: List.Style
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Получает стиль списка на который ссылается или определяет этот список.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words для .NET
+description: List Style свойство. Получает стиль списка на который ссылается или определяет этот список на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.lists/list/style/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/list/style/
 public Style Style { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если этот список не связан со стилем списка, свойство вернет`нулевой`.
 
@@ -22,7 +24,7 @@ public Style Style { get; }
 
 В данном случае список может быть определением стиля списка.[`IsListStyleDefinition`](../isliststyledefinition/) будет`истинный`. Такой список нельзя применить непосредственно к абзацам документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -84,7 +86,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

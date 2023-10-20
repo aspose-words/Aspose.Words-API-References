@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.ThemeFont перечисление. Указывает типы названий шрифтов темы для тем документов.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Themes.ThemeFont перечисление. Указывает типы названий шрифтов темы для тем документов на С#.
 type: docs
 weight: 6490
 url: /ru/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Шрифт основной темы. |
 | Minor | `2` | Второстепенный шрифт темы. |
 
-### Примечания
+## Примечания
 
 Указывает тип шрифта темы, на который можно ссылаться как на шрифт темы в свойствах родительского объекта. Этот шрифт темы является ссылкой на один из предопределенных шрифтов темы, расположенных в части документа Тема, которая позволяет передавать информацию о шрифте. быть установлен централизованно в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать и использовать тематический стиль.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * пространство имен [Aspose.Words.Themes](../../aspose.words.themes/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageRangeSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает последовательность символов которая используется для разделения начала и конца диапазона страниц.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words для .NET
+description: FieldIndex PageRangeSeparator свойство. Получает или задает последовательность символов которая используется для разделения начала и конца диапазона страниц на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/pagerangeseparator/
 public string PageRangeSeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать составные страницы закладки в качестве диапазона страниц для записи поля ИНДЕКС.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

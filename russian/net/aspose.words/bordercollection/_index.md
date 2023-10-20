@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BorderCollection сорт. КоллекцияBorder объекты.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BorderCollection сорт. КоллекцияBorder объекты на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | Имя | Описание |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Удаляет все границы объекта. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Сравнивает коллекции границ. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Сравнивает коллекции границ. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для обхода всех границ коллекции. |
 
-### Примечания
+## Примечания
 
 Разные элементы документа имеют разные границы. Например,[`ParagraphFormat`](../paragraphformat/)имеет[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) и[`Top`](./top/) borders. Вы можете указать различное форматирование для каждой границы независимо или перечислить все границы и применить одинаковое форматирование.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац с верхней границей.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

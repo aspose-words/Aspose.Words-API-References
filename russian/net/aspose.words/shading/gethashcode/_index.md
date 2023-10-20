@@ -1,7 +1,9 @@
 ---
 title: Shading.GetHashCode
-second_title: Справочник по API Aspose.Words для .NET
-description: Shading метод. Служит хешфункцией для этого типа.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words для .NET
+description: Shading GetHashCode метод. Служит хешфункцией для этого типа на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/shading/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### Смотрите также
 
 * class [Shading](../)
-* пространство имен [Aspose.Words](../../shading/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

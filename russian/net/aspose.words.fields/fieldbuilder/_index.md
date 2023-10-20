@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldBuilder сорт. Создает поле из токенов кода поля аргументов и переключателей.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldBuilder сорт. Создает поле из токенов кода поля аргументов и переключателей на С#.
 type: docs
 weight: 1660
 url: /ru/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Инициализирует экземпляр`FieldBuilder` класс. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | Инициализирует экземпляр`FieldBuilder` класс. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Добавляет аргумент поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../fieldargumentbuilder/) к коду поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Добавляет дочернее поле, представленное другим`FieldBuilder` к коду поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Добавляет аргумент поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Добавляет аргумент поля. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Добавляет переключатель поля. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | Добавляет переключатель поля. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | Добавляет переключатель поля. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | Добавляет переключатель поля. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | Создает и вставляет поле в документ перед указанным встроенным узлом. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | Создает и вставляет поле в документ до конца указанного абзаца. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | Добавляет аргумент поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../fieldargumentbuilder/) к коду поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | Добавляет дочернее поле, представленное другим`FieldBuilder` к коду поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | Добавляет аргумент поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | Добавляет аргумент поля. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | Добавляет переключатель поля. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | Добавляет переключатель поля. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | Добавляет переключатель поля. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | Добавляет переключатель поля. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | Создает и вставляет поле в документ перед указанным встроенным узлом. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | Создает и вставляет поле в документ до конца указанного абзаца. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если все строки абзаца должны оставаться на одной странице.
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: Aspose.Words для .NET
+description: ParagraphFormat KeepTogether свойство. Истинно если все строки абзаца должны оставаться на одной странице на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/keeptogether/
 public bool KeepTogether { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац в документ.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: Row метод. Получает текст всех ячеек в этой строке включая символ конца строки.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: Row GetText метод. Получает текст всех ячеек в этой строке включая символ конца строки на С#.
 type: docs
-weight: 160
+weight: 140
 url: /ru/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.tables/row/gettext/
 public override string GetText()
 ```
 
-### Примечания
+## Примечания
 
 Возвращает объединенный текст всех дочерних узлов с концом строкиcharacter .[`Cell`](../../../aspose.words/controlchar/cell/) добавлено в конце.
 
 Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

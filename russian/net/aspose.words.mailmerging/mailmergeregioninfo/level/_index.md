@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает уровень вложенности региона.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo Level свойство. Возвращает уровень вложенности региона на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/level/
 public int Level { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить регионы слияния почты.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Смотрите также
 
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

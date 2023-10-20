@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPartSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DocumentPartSavingArgs сорт. Предоставляет данные дляDocumentPartSaving обратный вызов.
+title: DocumentPartSavingArgs Class
+linktitle: DocumentPartSavingArgs
+articleTitle: DocumentPartSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.DocumentPartSavingArgs сорт. Предоставляет данные дляDocumentPartSaving обратный вызов на С#.
 type: docs
 weight: 4940
 url: /ru/net/aspose.words.saving/documentpartsavingargs/
@@ -25,7 +27,7 @@ public class DocumentPartSavingArgs
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Позволяет указать поток, в котором будет сохранена часть документа. |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения части документа. |
 
-### Примечания
+## Примечания
 
 Когда Aspose.Words сохраняет документ в HTML или родственных форматах и[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)Если указан , документ разбивается на части и по умолчанию каждая часть документа сохраняется в отдельный файл.
 
@@ -33,7 +35,7 @@ public class DocumentPartSavingArgs
 
 Чтобы сохранить части документа в потоки, а не в файлы, используйте команду[`DocumentPartStream`](./documentpartstream/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -151,5 +153,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptionsBase свойство. Указывает строку которая будет использоваться в качестве разрыва абзаца при экспорте в текстовые форматы.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words для .NET
+description: TxtSaveOptionsBase ParagraphBreak свойство. Указывает строку которая будет использоваться в качестве разрыва абзаца при экспорте в текстовые форматы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 public string ParagraphBreak { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ .txt с настраиваемым разрывом абзаца.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### Смотрите также
 
 * class [TxtSaveOptionsBase](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

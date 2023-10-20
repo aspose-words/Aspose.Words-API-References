@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: FormFieldCollection метод. Удаляет поле формы с указанным именем.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: FormFieldCollection Remove метод. Удаляет поле формы с указанным именем на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/formfieldcollection/remove/
@@ -18,11 +20,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | Имя поля формы, которое нужно удалить, без учета регистра. |
 
-### Примечания
+## Примечания
 
 Если с полем формы связана закладка, она не удаляется.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormFieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../formfieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

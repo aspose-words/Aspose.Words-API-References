@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: Watermark свойство. Получает тип водяного знака.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: Watermark Type свойство. Получает тип водяного знака на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* пространство имен [Aspose.Words](../../watermark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

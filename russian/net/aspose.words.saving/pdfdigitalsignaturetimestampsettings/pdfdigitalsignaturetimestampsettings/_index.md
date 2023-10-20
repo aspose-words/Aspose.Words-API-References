@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureTimestampSettings строитель. Инициализирует экземпляр этого класса.
+title: PdfDigitalSignatureTimestampSettings
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureTimestampSettings строитель. Инициализирует экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigital
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Смотрите также
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
+## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
 Инициализирует экземпляр этого класса.
 
@@ -73,7 +75,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | Имя пользователя сервера меток времени. |
 | password | String | Пароль сервера меток времени. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -113,12 +115,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Смотрите также
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
+## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
 Инициализирует экземпляр этого класса.
 
@@ -134,7 +136,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | Пароль сервера меток времени. |
 | timeout | TimeSpan | Значение времени ожидания для доступа к серверу меток времени. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Смотрите также
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

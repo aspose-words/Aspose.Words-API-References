@@ -1,7 +1,9 @@
 ---
-title: ImportFormatOptions.ImportFormatOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions строитель. Конструктор по умолчанию.
+title: ImportFormatOptions
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/importformatoptions/importformatoptions/
@@ -17,7 +19,5 @@ public ImportFormatOptions()
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

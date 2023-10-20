@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. Указывает должна ли программа пытаться сохранить макет таблиц при сохранении в текстовом формате. Значение по умолчаниюЛОЖЬ .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words для .NET
+description: TxtSaveOptions PreserveTableLayout свойство. Указывает должна ли программа пытаться сохранить макет таблиц при сохранении в текстовом формате. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить макет таблиц при преобразовании в открытый текст.
 
@@ -61,7 +63,5 @@ else
 ### Смотрите также
 
 * class [TxtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

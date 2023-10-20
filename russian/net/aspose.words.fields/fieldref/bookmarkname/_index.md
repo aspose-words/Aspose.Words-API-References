@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRef свойство. Получает или задает имя указанной закладки.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldRef BookmarkName свойство. Получает или задает имя указанной закладки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldref/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Смотрите также
 
 * class [FieldRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

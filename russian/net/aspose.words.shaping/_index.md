@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping Пространство имен содержит классы для обеспечения поддержки функций OpenType с использованием внешних механизмов формирования текста.
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shaping Пространство имен содержит классы для обеспечения поддержки функций OpenType с использованием внешних механизмов формирования текста на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.shaping/
@@ -29,5 +31,3 @@ url: /ru/net/aspose.words.shaping/
 | [FontFeature](./fontfeature/) | Функции предоставляют информацию о том, как глифы используются в шрифте для отображения сценария. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Описывает уровни формирования, необходимые для сценария. |
 | [UnicodeScript](./unicodescript/) | Свойство базы данных символов Юникода: Script (sc). |
-
-

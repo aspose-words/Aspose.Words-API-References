@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.StartNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: EndnoteOptions свойство. Указывает начальный номер или символ для первых автоматически нумерованных концевых сносок.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words для .NET
+description: EndnoteOptions StartNumber свойство. Указывает начальный номер или символ для первых автоматически нумерованных концевых сносок на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.notes/endnoteoptions/startnumber/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.notes/endnoteoptions/startnumber/
 public int StartNumber { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство имеет эффект только тогда, когда[`RestartRule`](../restartrule/) установлено значение Continuous.
 
-### Примеры
+## Примеры
 
 Показывает, как установить номер, с которого в документе начинается счетчик сносок/концевых сносок.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Смотрите также
 
 * class [EndnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../endnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

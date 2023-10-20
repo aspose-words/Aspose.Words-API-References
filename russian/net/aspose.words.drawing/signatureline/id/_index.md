@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLine свойство. Получает или задает идентификатор для этой строки подписи.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: SignatureLine Id свойство. Получает или задает идентификатор для этой строки подписи на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.drawing/signatureline/id/
 public Guid Id { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
@@ -132,7 +134,5 @@ public Guid Id { get; set; }
 ### Смотрите также
 
 * class [SignatureLine](../)
-* пространство имен [Aspose.Words.Drawing](../../signatureline/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

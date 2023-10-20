@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как гравированный.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words для .NET
+description: Font Engrave свойство. True если шрифт отформатирован как гравированный на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как гравирова
 public bool Engrave { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять эффекты гравировки/тиснения к тексту.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

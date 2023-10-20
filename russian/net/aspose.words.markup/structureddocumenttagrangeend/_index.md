@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd сорт. Обозначает конец дальнего боя тег структурированного документа который принимает содержимое из нескольких разделов. См. такжеStructuredDocumentTagRangeStart узел.
+title: StructuredDocumentTagRangeEnd Class
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd сорт. Обозначает конецдальнего боя тег структурированного документа который принимает содержимое из нескольких разделов. См. такжеStructuredDocumentTagRangeStart узел на С#.
 type: docs
 weight: 4080
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Обозначает конец **дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) узел.
+Обозначает конец**дальнего боя** тег структурированного документа, который принимает содержимое из нескольких разделов. См. также[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) узел.
 
 Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Имя | Описание |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Инициализирует новый экземпляр **Конец диапазона тегов структурированного документа** класс. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Инициализирует новый экземпляр**Конец диапазона тегов структурированного документа** класс. |
 
 ## Характеристики
 
@@ -28,7 +30,7 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения. **Структурированный документTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) узел имеет то же самое[`Id`](../structureddocumenttagrangestart/id/) . |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения.**Структурированный документTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) узел имеет то же самое[`Id`](../structureddocumenttagrangestart/id/) . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает`истинный` если этот узел может содержать другие узлы. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | ВозвращаетStructuredDocumentTagRangeEnd . |
@@ -40,22 +42,22 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
-Может быть непосредственным дочерним элементом[`Body`](../../aspose.words/body/) узел **только** .
+Может быть непосредственным дочерним элементом[`Body`](../../aspose.words/body/) узел**только** .
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -92,5 +94,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * class [Node](../../aspose.words/node/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

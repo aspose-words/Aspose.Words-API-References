@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions метод. Позволяет оптимизировать содержимое документа а также поведение Aspose.Words по умолчанию для определенных версий MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions OptimizeFor метод. Позволяет оптимизировать содержимое документа а также поведение Aspose.Words по умолчанию для определенных версий MS Word на С#.
 type: docs
 weight: 720
 url: /ru/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.settings/compatibilityoptions/optimizefor/
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выровнять текстовое содержимое текстового поля по вертикали.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

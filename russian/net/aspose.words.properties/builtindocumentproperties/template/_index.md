@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает информационное имя шаблона документа.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Template свойство. Получает или задает информационное имя шаблона документа на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/template/
 public string Template { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 В Microsoft Word это свойство предназначено только для информационных целей и обычно содержит только имя файла шаблона без пути.
 
@@ -22,7 +24,7 @@ public string Template { get; set; }
 
 Чтобы получить или установить фактическое имя прикрепленного шаблона, используйте the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Происхождение».
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

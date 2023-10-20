@@ -1,7 +1,9 @@
 ---
 title: Document.Compliance
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает версию соответствия OOXML определенную на основе содержимого загруженного документа. Имеет смысл только для документов OOXML.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words для .NET
+description: Document Compliance свойство. Получает версию соответствия OOXML определенную на основе содержимого загруженного документа. Имеет смысл только для документов OOXML на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/document/compliance/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/compliance/
 public OoxmlCompliance Compliance { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если вы создали новый пустой документ или загрузили документ, отличный от OOXML, document возвращаетEcma376_2006 ценить.
 
-### Примеры
+## Примеры
 
 Показывает, как прочитать версию загруженного документа, соответствующую требованиям Open Office XML.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

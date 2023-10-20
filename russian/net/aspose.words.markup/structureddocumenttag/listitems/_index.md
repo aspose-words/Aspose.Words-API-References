@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.ListItems
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. ПолучаетSdtListItemCollection связанный с этим СДТ .
+linktitle: ListItems
+articleTitle: ListItems
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag ListItems свойство. ПолучаетSdtListItemCollection связанный с этимСДТ  на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-Получает[`SdtListItemCollection`](../../sdtlistitemcollection/) связанный с этим **СДТ** .
+Получает[`SdtListItemCollection`](../../sdtlistitemcollection/) связанный с этим**СДТ** .
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляComboBox илиDropDownList Типы SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

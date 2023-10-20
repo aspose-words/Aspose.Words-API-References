@@ -1,7 +1,9 @@
 ---
-title: Class FieldBarcode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldBarcode сорт. Реализует поле ШТРИХКОД.
+title: FieldBarcode Class
+linktitle: FieldBarcode
+articleTitle: FieldBarcode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldBarcode сорт. Реализует поле ШТРИХКОД на С#.
 type: docs
 weight: 1630
 url: /ru/net/aspose.words.fields/fieldbarcode/
@@ -46,17 +48,17 @@ public class FieldBarcode : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Вставляет почтовый штрих-код в машиночитаемой форме адреса, используемого Почтовой службой США.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШТРИХ-КОД для отображения почтовых индексов США в виде штрих-кода.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

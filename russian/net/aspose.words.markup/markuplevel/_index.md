@@ -1,7 +1,9 @@
 ---
-title: Enum MarkupLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.MarkupLevel перечисление. Указывает уровень в дереве документа на котором конкретныйStructuredDocumentTag может произойти.
+title: MarkupLevel Enum
+linktitle: MarkupLevel
+articleTitle: MarkupLevel
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.MarkupLevel перечисление. Указывает уровень в дереве документа на котором конкретныйStructuredDocumentTag может произойти на С#.
 type: docs
 weight: 3980
 url: /ru/net/aspose.words.markup/markuplevel/
@@ -24,7 +26,7 @@ public enum MarkupLevel
 | Row | `3` | Элемент встречается среди строк таблицы. |
 | Cell | `4` | Элемент встречается среди ячеек подряд. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать со стилями элементов управления содержимым.
 
@@ -64,5 +66,3 @@ foreach (Node node in tags)
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

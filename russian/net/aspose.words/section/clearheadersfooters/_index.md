@@ -1,9 +1,11 @@
 ---
 title: Section.ClearHeadersFooters
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Очищает верхние и нижние колонтитулы этого раздела.
+linktitle: ClearHeadersFooters
+articleTitle: ClearHeadersFooters
+second_title: Aspose.Words для .NET
+description: Section ClearHeadersFooters метод. Очищает верхние и нижние колонтитулы этого раздела на С#.
 type: docs
-weight: 120
+weight: 100
 url: /ru/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/section/clearheadersfooters/
 public void ClearHeadersFooters()
 ```
 
-### Примечания
+## Примечания
 
 Текст всех верхних и нижних колонтитулов очищается, но[`HeaderFooter`](../../headerfooter/) сами объекты не удаляются.
 
 Это сделает верхние и нижние колонтитулы этого раздела связанными с верхними и нижними колонтитулами предыдущего раздела.
 
-### Примеры
+## Примеры
 
 Показывает, как очистить содержимое всех верхних и нижних колонтитулов в разделе.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

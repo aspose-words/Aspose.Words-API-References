@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Получает первый абзац фигуры.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words для .NET
+description: Shape FirstParagraph свойство. Получает первый абзац фигуры на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать и отформатировать текстовое поле.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

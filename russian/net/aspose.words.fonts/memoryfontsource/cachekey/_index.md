@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.CacheKey
-second_title: Справочник по API Aspose.Words для .NET
-description: MemoryFontSource свойство. Ключ этого источника в кеше.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words для .NET
+description: MemoryFontSource CacheKey свойство. Ключ этого источника в кеше на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/memoryfontsource/cachekey/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.fonts/memoryfontsource/cachekey/
 public string CacheKey { get; }
 ```
 
-### Примечания
+## Примечания
 
 Этот ключ используется для идентификации элемента кэша при сохранении/загрузке кэша поиска шрифтов с помощью [`SaveSearchCache`](../../fontsettings/savesearchcache/) и[`SetFontsSources`](../../fontsettings/setfontssources/)методы.
 
 ### Смотрите также
 
 * class [MemoryFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../memoryfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

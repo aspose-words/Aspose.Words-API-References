@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag метод. Удаляет только этот узел SDT но сохраняет его содержимое внутри дерева документа.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag RemoveSelfOnly метод. Удаляет только этот узел SDT но сохраняет его содержимое внутри дерева документа на С#.
 type: docs
-weight: 370
+weight: 350
 url: /ru/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 public void RemoveSelfOnly()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

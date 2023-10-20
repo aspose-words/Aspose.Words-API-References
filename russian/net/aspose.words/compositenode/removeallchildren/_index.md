@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Удаляет все дочерние узлы текущего узла.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words для .NET
+description: CompositeNode RemoveAllChildren метод. Удаляет все дочерние узлы текущего узла на С#.
 type: docs
-weight: 180
+weight: 160
 url: /ru/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/compositenode/removeallchildren/
 public void RemoveAllChildren()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

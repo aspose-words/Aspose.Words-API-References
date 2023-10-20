@@ -1,7 +1,9 @@
 ---
-title: Enum VisitorAction
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.VisitorAction перечисление. Позволяет посетителю управлять перечислением узлов.
+title: VisitorAction Enum
+linktitle: VisitorAction
+articleTitle: VisitorAction
+second_title: Aspose.Words для .NET
+description: Aspose.Words.VisitorAction перечисление. Позволяет посетителю управлять перечислением узлов на С#.
 type: docs
 weight: 6620
 url: /ru/net/aspose.words/visitoraction/
@@ -26,5 +28,3 @@ public enum VisitorAction
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

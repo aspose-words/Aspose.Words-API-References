@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или устанавливает предустановкуMargins страницы.
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words для .NET
+description: PageSetup Margins свойство. Возвращает или устанавливает предустановкуMargins страницы на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/margins/
 public Margins Margins { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, когда следует пересчитать макет страницы документа.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

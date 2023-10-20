@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.FitToViewPort
-second_title: Справочник по API Aspose.Words для .NET
-description: SvgSaveOptions свойство. Указывает должен ли выходной SVG заполнять доступную область просмотра окно браузера или контейнер. Если установлено значениеистинный ширина и высота выходного SVG установлены на 100.
+linktitle: FitToViewPort
+articleTitle: FitToViewPort
+second_title: Aspose.Words для .NET
+description: SvgSaveOptions FitToViewPort свойство. Указывает должен ли выходной SVG заполнять доступную область просмотра окно браузера или контейнер. Если установлено значениеистинный ширина и высота выходного SVG установлены на 100 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/svgsaveoptions/fittoviewport/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 public bool FitToViewPort { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как имитировать свойства изображений при преобразовании документа .docx в .svg.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Смотрите также
 
 * class [SvgSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../svgsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

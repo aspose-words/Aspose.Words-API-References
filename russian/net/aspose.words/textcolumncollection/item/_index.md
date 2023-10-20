@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Возвращает текстовый столбец по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: TextColumnCollection Item свойство. Возвращает текстовый столбец по указанному индексу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textcolumncollection/item/
 public TextColumn this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

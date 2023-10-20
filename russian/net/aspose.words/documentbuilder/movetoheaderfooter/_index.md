@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в начало верхнего или нижнего колонтитула текущего раздела.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToHeaderFooter метод. Перемещает курсор в начало верхнего или нижнего колонтитула текущего раздела на С#.
 type: docs
-weight: 550
+weight: 540
 url: /ru/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Указывает верхний или нижний колонтитул для перемещения. |
 
-### Примечания
+## Примечания
 
 После того как вы переместили курсор в верхний или нижний колонтитул, вы можете использовать остальную часть[`DocumentBuilder`](../) методы для изменения содержимого верхнего или нижнего колонтитула.
 
@@ -28,7 +30,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 Использовать[`MoveToSection`](../movetosection/) для перехода из шапки в основной текст.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить изображение и использовать его в качестве водяного знака.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

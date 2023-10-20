@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.OutlineOptions сорт. Позволяет указать параметры контура.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.OutlineOptions сорт. Позволяет указать параметры контура на С#.
 type: docs
 weight: 5360
 url: /ru/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Указывает, сколько уровней в структуре документа будет отображаться в развернутом виде при просмотре файла. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | Указывает, сколько уровней заголовков (абзацев, отформатированных с использованием стилей заголовков) включить в структуру документа . |
 
-### Примеры
+## Примеры
 
 Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

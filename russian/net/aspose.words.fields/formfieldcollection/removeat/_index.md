@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: FormFieldCollection метод. Удаляет поле формы по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: FormFieldCollection RemoveAt метод. Удаляет поле формы по указанному индексу на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Отсчитываемый от нуля индекс поля формы, которое необходимо удалить. |
 
-### Примечания
+## Примечания
 
 Если с полем формы связана закладка, она не удаляется.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormFieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../formfieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

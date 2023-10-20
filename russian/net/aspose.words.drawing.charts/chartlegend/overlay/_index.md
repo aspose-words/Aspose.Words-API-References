@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartLegend свойство. Определяет разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчаниюЛОЖЬ .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words для .NET
+description: ChartLegend Overlay свойство. Определяет разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartlegend/overlay/
 public bool Overlay { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид легенды диаграммы.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### Смотрите также
 
 * class [ChartLegend](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

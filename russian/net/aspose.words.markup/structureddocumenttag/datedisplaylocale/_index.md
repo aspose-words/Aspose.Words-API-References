@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateDisplayLocale
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Позволяет установить/получить языковой формат даты отображаемой в этом СДТ .
+linktitle: DateDisplayLocale
+articleTitle: DateDisplayLocale
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag DateDisplayLocale свойство. Позволяет установить/получить языковой формат даты отображаемой в этомСДТ  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.markup/structureddocumenttag/datedisplaylocale/
 ---
 ## StructuredDocumentTag.DateDisplayLocale property
 
-Позволяет установить/получить языковой формат даты, отображаемой в этом **СДТ** .
+Позволяет установить/получить языковой формат даты, отображаемой в этом**СДТ** .
 
 ```csharp
 public int DateDisplayLocale { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляDate Тип SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как предложить пользователю ввести дату с помощью тега структурированного документа.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

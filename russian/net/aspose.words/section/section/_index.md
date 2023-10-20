@@ -1,7 +1,9 @@
 ---
-title: Section.Section
-second_title: Справочник по API Aspose.Words для .NET
-description: Section строитель. Инициализирует новый экземпляр класса Раздел.
+title: Section
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words для .NET
+description: Section строитель. Инициализирует новый экземпляр класса Раздел на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/section/section/
@@ -18,13 +20,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда раздел создается, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Включать[`Section`](../) в использование документаNode) и Node) методы[`Document`](../../document/) ИЛИ [`Add`](../../nodecollection/add/) и[`Insert`](../../nodecollection/insert/) методы[`Sections`](../../document/sections/) свойство.
+Включать[`Section`](../) в использование документа[`InsertAfter`](../../compositenode/insertafter/) и [`InsertBefore`](../../compositenode/insertbefore/) методы[`Document`](../../document/) ИЛИ [`Add`](../../nodecollection/add/) и[`Insert`](../../nodecollection/insert/) методы[`Sections`](../../document/sections/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

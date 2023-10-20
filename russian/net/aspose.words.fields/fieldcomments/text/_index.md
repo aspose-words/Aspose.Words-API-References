@@ -1,7 +1,9 @@
 ---
 title: FieldComments.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldComments свойство. Получает или задает текст комментариев.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldComments Text свойство. Получает или задает текст комментариев на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldcomments/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcomments/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле КОММЕНТАРИИ.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ### Смотрите также
 
 * class [FieldComments](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcomments/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

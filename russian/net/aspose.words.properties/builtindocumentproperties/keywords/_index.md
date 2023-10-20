@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает ключевые слова документа.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Keywords свойство. Получает или задает ключевые слова документа на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/keywords/
 public string Keywords { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа в категории «Описание».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

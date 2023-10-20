@@ -1,7 +1,9 @@
 ---
-title: Class DocumentLoadingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.DocumentLoadingArgs сорт. Аргумент переданный вNotify .
+title: DocumentLoadingArgs Class
+linktitle: DocumentLoadingArgs
+articleTitle: DocumentLoadingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.DocumentLoadingArgs сорт. Аргумент переданный вNotify  на С#.
 type: docs
 weight: 3590
 url: /ru/net/aspose.words.loading/documentloadingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentLoadingArgs
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает имя закладки которая отмечает часть документа используемую для построения индекса.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldIndex BookmarkName свойство. Получает или задает имя закладки которая отмечает часть документа используемую для построения индекса на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INDEX, а затем использовать поля XE для заполнения его записями.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: CellCollection метод. Копирует все ячейки из коллекции в новый массив ячеек.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: CellCollection ToArray метод. Копирует все ячейки из коллекции в новый массив ячеек на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/cellcollection/toarray/
@@ -18,7 +20,7 @@ public Cell[] ToArray()
 
 Массив ячеек.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* пространство имен [Aspose.Words.Tables](../../cellcollection/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: SmartTag метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: SmartTag Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/smarttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для all дочерних узлов смарт-тега и вызовов[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -132,7 +134,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [SmartTag](../)
-* пространство имен [Aspose.Words.Markup](../../smarttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

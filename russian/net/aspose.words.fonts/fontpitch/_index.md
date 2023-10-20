@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontPitch перечисление. Обозначает шаг шрифта.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontPitch перечисление. Обозначает шаг шрифта на С#.
 type: docs
 weight: 2960
 url: /ru/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Указывает, что это шрифт фиксированной ширины. |
 | Variable | `2` | Указывает, что это шрифт пропорциональной ширины. |
 
-### Примечания
+## Примечания
 
 Шаг указывает, является ли шрифт фиксированным, пропорциональным или основан на настройке по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

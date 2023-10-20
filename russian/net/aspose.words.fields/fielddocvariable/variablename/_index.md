@@ -1,7 +1,9 @@
 ---
 title: FieldDocVariable.VariableName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDocVariable свойство. Получает или задает имя извлекаемой переменной документа.
+linktitle: VariableName
+articleTitle: VariableName
+second_title: Aspose.Words для .NET
+description: FieldDocVariable VariableName свойство. Получает или задает имя извлекаемой переменной документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddocvariable/variablename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddocvariable/variablename/
 public string VariableName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля DOCPROPERTY для отображения свойств и переменных документа.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
 ### Смотрите также
 
 * class [FieldDocVariable](../)
-* пространство имен [Aspose.Words.Fields](../../fielddocvariable/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

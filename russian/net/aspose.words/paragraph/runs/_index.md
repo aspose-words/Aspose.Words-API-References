@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Предоставляет доступ к набору фрагментов текста внутри абзаца.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words для .NET
+description: Paragraph Runs свойство. Предоставляет доступ к набору фрагментов текста внутри абзаца на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/runs/
 public RunCollection Runs { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

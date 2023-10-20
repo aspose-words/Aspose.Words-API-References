@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает последний раздел документа.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words для .NET
+description: Document LastSection свойство. Получает последний раздел документа на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/lastsection/
 public Section LastSection { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает`нулевой` если разделов нет.
 
-### Примеры
+## Примеры
 
 Показывает, как создать новый раздел с помощью конструктора документов.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

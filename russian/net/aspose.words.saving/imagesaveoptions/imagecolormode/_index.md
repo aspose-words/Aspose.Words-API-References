@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageColorMode
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает цветовой режим для создаваемых изображений.
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions ImageColorMode свойство. Получает или задает цветовой режим для создаваемых изображений на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при сохранении в форматах растровых изображений.
 
 Значение по умолчанию:None.
 
-### Примеры
+## Примеры
 
 Показывает, как установить цветовой режим при рендеринге документов.
 
@@ -80,7 +82,5 @@ Document doc = new Document();
 
 * enum [ImageColorMode](../../imagecolormode/)
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

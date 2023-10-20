@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Hyphenation сорт. Предоставляет методы для работы со словарями расстановки переносов. Эти словари предписывают где слова определенного языка могут быть расставлены через дефис.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Hyphenation сорт. Предоставляет методы для работы со словарями расстановки переносов. Эти словари предписывают где слова определенного языка могут быть расставлены через дефис на С#.
 type: docs
 weight: 3150
 url: /ru/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | Имя | Описание |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Возвращает`ЛОЖЬ` если для указанного языка не зарегистрирован словарь или зарегистрирован пустой словарь,`истинный` иначе. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Регистрирует и загружает словарь расстановки переносов для указанного языка из потока. Выдает, если словарь не может быть прочитан или имеет неверный формат. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Регистрирует и загружает словарь расстановки переносов для указанного языка из файла. Выдает, если словарь не может быть прочитан или имеет неверный формат. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Отменяет регистрацию словаря переносов для указанного языка. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Возвращает`ЛОЖЬ` если для указанного языка не зарегистрирован словарь или зарегистрирован пустой словарь,`истинный` иначе. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Регистрирует и загружает словарь расстановки переносов для указанного языка из потока. Выдает, если словарь не может быть прочитан или имеет неверный формат. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Регистрирует и загружает словарь расстановки переносов для указанного языка из файла. Выдает, если словарь не может быть прочитан или имеет неверный формат. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Отменяет регистрацию словаря переносов для указанного языка. |
 
-### Примеры
+## Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

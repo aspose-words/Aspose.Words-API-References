@@ -1,7 +1,9 @@
 ---
-title: Enum SdtDateStorageFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtDateStorageFormat перечисление. Указывает как дата для SDT даты сохраняется/извлекается когда SDT привязан к узлу XML в хранилище данных документа.
+title: SdtDateStorageFormat Enum
+linktitle: SdtDateStorageFormat
+articleTitle: SdtDateStorageFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.SdtDateStorageFormat перечисление. Указывает как дата для SDT даты сохраняется/извлекается когда SDT привязан к узлу XML в хранилище данных документа на С#.
 type: docs
 weight: 4010
 url: /ru/net/aspose.words.markup/sdtdatestorageformat/
@@ -27,5 +29,3 @@ public enum SdtDateStorageFormat
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

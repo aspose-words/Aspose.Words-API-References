@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToSection
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в начало тела указанного раздела.
+linktitle: MoveToSection
+articleTitle: MoveToSection
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToSection метод. Перемещает курсор в начало тела указанного раздела на С#.
 type: docs
-weight: 580
+weight: 570
 url: /ru/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -18,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 | --- | --- | --- |
 | sectionIndex | Int32 | Индекс раздела, в который нужно перейти. |
 
-### Примечания
+## Примечания
 
 Когда*sectionIndex* больше или равно 0, он указывает индекс from начала документа, где 0 соответствует первому разделу. Когда*sectionIndex* меньше 0, указывается индекс с конца документа, где -1 соответствует последнему разделу.
 
 Курсор перемещается на первый абзац в[`Body`](../../body/) указанного раздела.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

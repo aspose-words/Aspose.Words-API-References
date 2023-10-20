@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Загружает предопределенные параметры замены таблиц для платформы Windows.
+linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule LoadWindowsSettings метод. Загружает предопределенные параметры замены таблиц для платформы Windows на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 public void LoadWindowsSettings()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к таблицам замены шрифтов для Windows и Linux.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

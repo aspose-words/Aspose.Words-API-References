@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListCollection сорт. Хранит и управляет форматированием маркированных и нумерованных списков используемых в документе.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListCollection сорт. Хранит и управляет форматированием маркированных и нумерованных списков используемых в документе на С#.
 type: docs
 weight: 3470
 url: /ru/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Создает новый список, ссылающийся на стиль списка, и добавляет его в коллекцию списков в документе. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Создает новый список, копируя указанный список и добавляя его в коллекцию списков в документе. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Создает новый список, ссылающийся на стиль списка, и добавляет его в коллекцию списков в документе. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Создает новый список, копируя указанный список и добавляя его в коллекцию списков в документе. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Получает объект перечислителя, который будет перечислять списки в документе. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Получает список по идентификатору списка. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Получает список по идентификатору списка. |
 
-### Примечания
+## Примечания
 
 Список в документе Microsoft Word представляет собой набор свойств форматирования списка. Форматирование списков хранится в`ListCollection` сбор отдельно из абзацев текста.
 
@@ -54,7 +56,7 @@ public class ListCollection : IEnumerable<List>
 
 Невозможно удалить списки после их создания в текущей версии Aspose.Words. . Это похоже на Microsoft Word, где пользователь не имеет явного контроля над определениями списков.
 
-### Примеры
+## Примеры
 
 Показывает, как создать документ с выборкой всех списков из другого документа.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

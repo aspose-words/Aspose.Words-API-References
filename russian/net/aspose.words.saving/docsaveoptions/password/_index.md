@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions свойство. Получает/устанавливает пароль для шифрования документа с использованием метода шифрования RC4.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words для .NET
+description: DocSaveOptions Password свойство. Получает/устанавливает пароль для шифрования документа с использованием метода шифрования RC4 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/docsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Чтобы сохранить документ без шифрования, это свойство должно быть`нулевой` или пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [DocSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../docsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

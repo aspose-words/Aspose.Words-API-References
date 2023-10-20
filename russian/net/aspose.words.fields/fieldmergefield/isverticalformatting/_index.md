@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsVerticalFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeField свойство. Получает или задает включить ли преобразование символов для вертикального форматирования.
+linktitle: IsVerticalFormatting
+articleTitle: IsVerticalFormatting
+second_title: Aspose.Words для .NET
+description: FieldMergeField IsVerticalFormatting свойство. Получает или задает включить ли преобразование символов для вертикального форматирования на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldmergefield/isverticalformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergefield/isverticalformatting/
 public bool IsVerticalFormatting { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Смотрите также
 
 * class [FieldMergeField](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergefield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

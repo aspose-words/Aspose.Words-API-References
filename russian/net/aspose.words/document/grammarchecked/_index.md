@@ -1,7 +1,9 @@
 ---
 title: Document.GrammarChecked
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращаетистинный если документ проверен на грамматику.
+linktitle: GrammarChecked
+articleTitle: GrammarChecked
+second_title: Aspose.Words для .NET
+description: Document GrammarChecked свойство. Возвращаетистинный если документ проверен на грамматику на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/document/grammarchecked/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/grammarchecked/
 public bool GrammarChecked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Чтобы перепроверить грамматику в документе, установите для этого свойства значение`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как настроить проверку орфографии или грамматики.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает относительное горизонтальное выравнивание плавающей таблицы.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words для .NET
+description: Table RelativeHorizontalAlignment свойство. Получает или задает относительное горизонтальное выравнивание плавающей таблицы на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/relativehorizontalalignment/
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать расположение плавающих таблиц.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. True указывает что oldValue должно быть отдельным словом.
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions FindWholeWordsOnly свойство. True указывает что oldValue должно быть отдельным словом на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ True указывает, что oldValue должно быть отдельны�
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переключать отдельные операции поиска и замены только по словам.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

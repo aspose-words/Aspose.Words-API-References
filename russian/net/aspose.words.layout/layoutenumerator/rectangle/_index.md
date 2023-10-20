@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator свойство. Возвращает ограничивающий прямоугольник текущего объекта относительно верхнего левого угла страницы в пунктах.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator Rectangle свойство. Возвращает ограничивающий прямоугольник текущего объекта относительно верхнего левого угла страницы в пунктах на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/rectangle/
 public RectangleF Rectangle { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

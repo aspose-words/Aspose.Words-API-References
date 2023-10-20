@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает как верхние и нижние колонтитулы выводятся в HTML MHTML или EPUB. Значение по умолчаниюPerSection для HTML/MHTML иNone для EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportHeadersFootersMode свойство. Указывает как верхние и нижние колонтитулы выводятся в HTML MHTML или EPUB. Значение по умолчаниюPerSection для HTML/MHTML иNone для EPUB на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Трудно осмысленно выводить верхние и нижние колонтитулы в HTML, поскольку HTML не разбит на страницы.
 
@@ -24,7 +26,7 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 Вы можете полностью отключить экспорт верхних и нижних колонтитулов, установив для этого свойства значениеNone.
 
-### Примеры
+## Примеры
 
 Показывает, как пропустить верхние и нижние колонтитулы при сохранении документа в формате HTML.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

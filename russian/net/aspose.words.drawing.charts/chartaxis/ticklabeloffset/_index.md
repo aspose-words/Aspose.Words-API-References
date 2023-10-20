@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает расстояние меток от оси.
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: Aspose.Words для .NET
+description: ChartAxis TickLabelOffset свойство. Получает или задает расстояние меток от оси на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 public int TickLabelOffset { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство представляет собой процент смещения метки по умолчанию.
 
@@ -22,7 +24,7 @@ public int TickLabelOffset { get; set; }
 
 Свойство действует только для осей категорий. Он не поддерживается новыми диаграммами MS Office 2016.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

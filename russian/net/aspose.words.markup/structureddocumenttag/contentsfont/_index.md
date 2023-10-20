@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Форматирование шрифта которое будет применяться к тексту введенному в СДТ .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag ContentsFont свойство. Форматирование шрифта которое будет применяться к тексту введенному вСДТ  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Форматирование шрифта, которое будет применяться к тексту, введенному в **СДТ** .
+Форматирование шрифта, которое будет применяться к тексту, введенному в**СДТ** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Fill.TwoColorGradient
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill метод. Устанавливает для указанной заливки двухцветный градиент.
+linktitle: TwoColorGradient
+articleTitle: TwoColorGradient
+second_title: Aspose.Words для .NET
+description: Fill TwoColorGradient метод. Устанавливает для указанной заливки двухцветный градиент на С#.
 type: docs
-weight: 270
+weight: 260
 url: /ru/net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 Устанавливает для указанной заливки двухцветный градиент.
 
@@ -19,7 +21,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | Градиентный стиль[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant/) |
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -62,12 +64,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 Устанавливает для указанной заливки двухцветный градиент.
 
@@ -83,7 +85,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | Градиентный стиль[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant/) |
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -126,7 +128,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

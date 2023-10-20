@@ -1,12 +1,14 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFontSource строитель. Cтор.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words для .NET
+description: FileFontSource строитель. Cтор на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
 Cтор.
 
@@ -18,7 +20,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | Путь к файлу шрифта. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Смотрите также
 
 * class [FileFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../filefontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
 Cтор.
 
@@ -55,7 +57,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | Путь к файлу шрифта. |
 | priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Смотрите также
 
 * class [FileFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../filefontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
 Cтор.
 
@@ -93,7 +95,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 | cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey/) описание недвижимости для получения дополнительной информации. |
 
-### Примеры
+## Примеры
 
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Смотрите также
 
 * class [FileFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../filefontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

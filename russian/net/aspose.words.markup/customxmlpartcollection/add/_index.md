@@ -1,12 +1,14 @@
 ---
 title: CustomXmlPartCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPartCollection метод. Добавляет элемент в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: CustomXmlPartCollection Add метод. Добавляет элемент в коллекцию на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/customxmlpartcollection/add/
 ---
-## Add(CustomXmlPart) {#add_1}
+## Add(*[CustomXmlPart](../../customxmlpart/)*) {#add_1}
 
 Добавляет элемент в коллекцию.
 
@@ -18,7 +20,7 @@ public void Add(CustomXmlPart part)
 | --- | --- | --- |
 | part | CustomXmlPart | Добавляемая пользовательская часть XML. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -86,12 +88,12 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, string) {#add}
+## Add(*string, string*) {#add}
 
 Создает новую часть XML с указанным XML и добавляет ее в коллекцию.
 
@@ -108,7 +110,7 @@ public CustomXmlPart Add(string id, string xml)
 
 Создана пользовательская часть XML.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -176,7 +178,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldLink.FormatUpdateType
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLink свойство. Получает или задает способ обновления форматирования связанного объекта.
+linktitle: FormatUpdateType
+articleTitle: FormatUpdateType
+second_title: Aspose.Words для .NET
+description: FieldLink FormatUpdateType свойство. Получает или задает способ обновления форматирования связанного объекта на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldlink/formatupdatetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlink/formatupdatetype/
 public string FormatUpdateType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldLink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

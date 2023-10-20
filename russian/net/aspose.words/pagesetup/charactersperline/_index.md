@@ -1,7 +1,9 @@
 ---
 title: PageSetup.CharactersPerLine
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает количество символов в строке в сетке документа.
+linktitle: CharactersPerLine
+articleTitle: CharactersPerLine
+second_title: Aspose.Words для .NET
+description: PageSetup CharactersPerLine свойство. Получает или задает количество символов в строке в сетке документа на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/pagesetup/charactersperline/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/pagesetup/charactersperline/
 public int CharactersPerLine { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Минимальное значение свойства — 1. Максимальное значение зависит от ширины страницы и размера шрифта стиля Normal . Минимальный шаг символов составляет 90 процентов размера шрифта. Например, максимальное количество символов в строке страницы Letter с полями в один дюйм составляет 43.
 
 По умолчанию свойство имеет значение, при котором шаг символов равен размеру шрифта стиля Normal .
 
-### Примеры
+## Примеры
 
 Показывает, как указать количество символов, которое может иметь каждая строка.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

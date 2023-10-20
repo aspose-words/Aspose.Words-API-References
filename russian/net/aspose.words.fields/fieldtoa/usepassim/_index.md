@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UsePassim
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToa свойство. Получает или задает необходимость замены пяти или более различных ссылок на страницы одного и того же авторитетного источника на passim который используется для указания того что слово или отрывок часто встречается в цитируемой работе.
+linktitle: UsePassim
+articleTitle: UsePassim
+second_title: Aspose.Words для .NET
+description: FieldToa UsePassim свойство. Получает или задает необходимость замены пяти или более различных ссылок на страницы одного и того же авторитетного источника на passim который используется для указания того что слово или отрывок часто встречается в цитируемой работе на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldtoa/usepassim/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoa/usepassim/
 public bool UsePassim { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldToa](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoa/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает последовательность символов которая используется для разделения записи указателя и номера ее страницы.
+linktitle: PageNumberSeparator
+articleTitle: PageNumberSeparator
+second_title: Aspose.Words для .NET
+description: FieldIndex PageNumberSeparator свойство. Получает или задает последовательность символов которая используется для разделения записи указателя и номера ее страницы на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldindex/pagenumberseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/pagenumberseparator/
 public string PageNumberSeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать разделитель номеров страниц в поле ИНДЕКС.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

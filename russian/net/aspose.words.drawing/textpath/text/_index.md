@@ -1,7 +1,9 @@
 ---
 title: TextPath.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет текст текстового пути.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: TextPath Text свойство. Определяет текст текстового пути на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/textpath/text/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/text/
 public string Text { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

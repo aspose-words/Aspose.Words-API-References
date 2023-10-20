@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ToString
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisBound метод. Возвращает удобную для пользователя строку отображающую значение этого объекта.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words для .NET
+description: AxisBound ToString метод. Возвращает удобную для пользователя строку отображающую значение этого объекта на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/axisbound/tostring/
@@ -17,7 +19,5 @@ public override string ToString()
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentType
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задаетContentType документа.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties ContentType свойство. Получает или задаетContentType документа на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.properties/builtindocumentproperties/contenttype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/contenttype/
 public string ContentType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Содержимое».
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

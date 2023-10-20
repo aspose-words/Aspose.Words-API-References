@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.IsEncrypted
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatInfo свойство. Возвращаетистинный если документ зашифрован и для открытия требуется пароль.
+linktitle: IsEncrypted
+articleTitle: IsEncrypted
+second_title: Aspose.Words для .NET
+description: FileFormatInfo IsEncrypted свойство. Возвращаетистинный если документ зашифрован и для открытия требуется пароль на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/fileformatinfo/isencrypted/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/fileformatinfo/isencrypted/
 public bool IsEncrypted { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство существует, чтобы помочь вам сортировать зашифрованные документы от незашифрованных. Если вы попытаетесь загрузить зашифрованный документ с помощью Aspose.Words без указания пароля, будет выдано исключение . Вы можете использовать это свойство, чтобы определить, требует ли документ пароля , и выполнить какое-либо действие перед загрузкой документа, например, запросить у пользователя пароль.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать класс FileFormatUtil для определения формата и шифрования документа.
 
@@ -42,7 +44,5 @@ Assert.True(info.IsEncrypted);
 ### Смотрите также
 
 * class [FileFormatInfo](../)
-* пространство имен [Aspose.Words](../../fileformatinfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

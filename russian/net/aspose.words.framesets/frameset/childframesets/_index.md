@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Справочник по API Aspose.Words для .NET
-description: Frameset свойство. Получает коллекцию дочерних фреймов и страниц фреймов.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words для .NET
+description: Frameset ChildFramesets свойство. Получает коллекцию дочерних фреймов и страниц фреймов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.framesets/frameset/childframesets/
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к фреймам на странице.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* пространство имен [Aspose.Words.Framesets](../../frameset/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.CellFormat сорт. Представляет все форматирование ячейки таблицы.
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.CellFormat сорт. Представляет все форматирование ячейки таблицы на С#.
 type: docs
 weight: 6260
 url: /ru/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Получает коллекцию границ ячейки. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Возвращает или задает количество места (в пунктах), которое нужно добавить под содержимым ячейки. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Если`истинный` , помещает текст в ячейку, сжимая каждый абзац до ширины ячейки. |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Указывает, как ячейка объединяется по горизонтали с другими ячейками в строке. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Возвращает или задает количество места (в пунктах), которое нужно добавить слева от содержимого ячейки. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Возвращает или задает ориентацию текста в ячейке таблицы. |
@@ -41,9 +42,9 @@ public class CellFormat
 | Имя | Описание |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Сбрасывает формат ячейки по умолчанию. Не меняет ширину ячейки. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Устанавливает количество места (в пунктах), добавляемое слева/сверху/справа/снизу содержимого ячейки. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Устанавливает количество места (в пунктах), добавляемое слева/сверху/справа/снизу содержимого ячейки. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить форматирование ячейки таблицы.
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

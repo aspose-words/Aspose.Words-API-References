@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Указывает должна ли отображаться граница вокруг страниц. Значение по умолчаниюистинный .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions ShowPageBorder свойство. Указывает должна ли отображаться граница вокруг страниц. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 public bool ShowPageBorder { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для печати URI внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -93,7 +95,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

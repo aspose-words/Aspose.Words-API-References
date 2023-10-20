@@ -1,9 +1,11 @@
 ---
 title: Style.ParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает форматирование абзаца стиля.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words для .NET
+description: Style ParagraphFormat свойство. Получает форматирование абзаца стиля на С#.
 type: docs
-weight: 150
+weight: 140
 url: /ru/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/style/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Примечания
+## Примечания
 
 Для стилей символов и списков это свойство возвращает`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать и использовать стиль абзаца с форматированием списка.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

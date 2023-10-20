@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection метод. Удаляет элемент по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: CustomPartCollection RemoveAt метод. Удаляет элемент по указанному индексу на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

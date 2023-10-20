@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HorizontalResolution
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize свойство. Получает горизонтальное разрешение в DPI.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words для .NET
+description: ImageSize HorizontalResolution свойство. Получает горизонтальное разрешение в DPI на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/imagesize/horizontalresolution/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagesize/horizontalresolution/
 public double HorizontalResolution { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как читать свойства изображения в фигуре.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Смотрите также
 
 * class [ImageSize](../)
-* пространство имен [Aspose.Words.Drawing](../../imagesize/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

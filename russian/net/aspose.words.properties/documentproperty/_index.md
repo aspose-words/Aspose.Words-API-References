@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.DocumentProperty сорт. Представляет пользовательское или встроенное свойство документа.
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Properties.DocumentProperty сорт. Представляет пользовательское или встроенное свойство документа на С#.
 type: docs
 weight: 4470
 url: /ru/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Возвращает значение свойства как bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Возвращает значение свойства в виде массива байтов. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Возвращает значение свойства как **ДатаВремя** в формате UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Возвращает значение свойства как**ДатаВремя** в формате UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Возвращает значение свойства как двойное. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Возвращает значение свойства как целое число. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Возвращает значение свойства в виде строки, отформатированной в соответствии с текущим языковым стандартом. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * пространство имен [Aspose.Words.Properties](../../aspose.words.properties/)
 * сборка [Aspose.Words](../../)
-
-

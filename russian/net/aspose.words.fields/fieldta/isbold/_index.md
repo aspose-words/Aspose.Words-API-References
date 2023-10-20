@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsBold
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTA свойство. Получает или задает необходимость применения жирного форматирования к номеру страницы для записи.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words для .NET
+description: FieldTA IsBold свойство. Получает или задает необходимость применения жирного форматирования к номеру страницы для записи на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldta/isbold/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldta/isbold/
 public bool IsBold { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldTA](../)
-* пространство имен [Aspose.Words.Fields](../../fieldta/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeValue
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает значение штрихкода.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode BarcodeValue свойство. Получает или задает значение штрихкода на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
 public string BarcodeValue { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

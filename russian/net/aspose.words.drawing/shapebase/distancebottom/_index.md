@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceBottom
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает или задает расстояние в пунктах между текстом документа и нижним краем фигуры.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words для .NET
+description: ShapeBase DistanceBottom свойство. Возвращает или задает расстояние в пунктах между текстом документа и нижним краем фигуры на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/shapebase/distancebottom/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/distancebottom/
 public double DistanceBottom { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0.
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как установить расстояние переноса для текста, окружающего фигуру.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

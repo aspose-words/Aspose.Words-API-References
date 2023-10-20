@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Получает или задает правило определения высоты строки таблицы.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words для .NET
+description: RowFormat HeightRule свойство. Получает или задает правило определения высоты строки таблицы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/rowformat/heightrule/
 public HeightRule HeightRule { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать строки с помощью построителя документов.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* пространство имен [Aspose.Words.Tables](../../rowformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

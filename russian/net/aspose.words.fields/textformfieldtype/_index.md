@@ -1,7 +1,9 @@
 ---
-title: Enum TextFormFieldType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.TextFormFieldType перечисление. Указывает тип поля текстовой формы.
+title: TextFormFieldType Enum
+linktitle: TextFormFieldType
+articleTitle: TextFormFieldType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.TextFormFieldType перечисление. Указывает тип поля текстовой формы на С#.
 type: docs
 weight: 2770
 url: /ru/net/aspose.words.fields/textformfieldtype/
@@ -25,7 +27,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | Значение поля текстовой формы — это текущее время обновления поля. |
 | Calculated | `5` | Значение поля текстовой формы вычисляется на основе выражения, указанного в [`TextInputDefault`](../formfield/textinputdefault/) свойство. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля формы.
 
@@ -54,5 +56,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

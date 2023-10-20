@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfEncryptionDetails свойство. Указывает пароль владельца для зашифрованного PDFдокумента.
+linktitle: OwnerPassword
+articleTitle: OwnerPassword
+second_title: Aspose.Words для .NET
+description: PdfEncryptionDetails OwnerPassword свойство. Указывает пароль владельца для зашифрованного PDFдокумента на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
 public string OwnerPassword { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Пароль владельца позволяет пользователю открывать зашифрованный PDF-документ без каких-либо ограничений доступа , указанных в[`Permissions`](../permissions/).
 
 Пароль владельца не может совпадать с паролем пользователя.
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Смотрите также
 
 * class [PdfEncryptionDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

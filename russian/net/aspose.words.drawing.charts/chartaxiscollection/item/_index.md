@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxisCollection свойство. Получает ось по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ChartAxisCollection Item свойство. Получает ось по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartaxiscollection/item/
@@ -18,7 +20,5 @@ public ChartAxis this[int index] { get; }
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

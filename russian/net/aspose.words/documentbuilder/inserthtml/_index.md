@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет в документ HTMLстроку.
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertHtml метод. Вставляет в документ HTMLстроку на С#.
 type: docs
-weight: 360
+weight: 350
 url: /ru/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 Вставляет в документ HTML-строку.
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | Строка HTML для вставки в документ. |
 
-### Примечания
+## Примечания
 
 Вы можете использовать этот метод для вставки фрагмента HTML или всего документа HTML.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать построитель документов для вставки HTML-содержимого в документ.
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 Вставляет в документ HTML-строку.
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | Строка HTML для вставки в документ. |
 | useBuilderFormatting | Boolean | Значение, указывающее, указано ли форматирование, указанное в[`DocumentBuilder`](../) используется в качестве базового форматирования текста, импортированного из HTML. |
 
-### Примечания
+## Примечания
 
 Вы можете использовать этот метод для вставки фрагмента HTML или всего документа HTML.
 
@@ -148,7 +150,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 Когда*useBuilderFormatting* является`истинный` , форматирование вставленного текста основано на[`DocumentBuilder`](../) форматирование, и текст выглядит так, как будто он был вставлен с помощью[`Write`](../write/) .
 
-### Примеры
+## Примеры
 
 Показывает, как применить форматирование построителя документов при вставке содержимого HTML.
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 Вставляет в документ строку HTML. Позволяет указать дополнительные параметры.
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | Строка HTML для вставки в документ. |
 | options | HtmlInsertOptions | Параметры, которые используются при вставке строки HTML. |
 
-### Примечания
+## Примечания
 
 Вы можете использовать этот метод для вставки фрагмента HTML или всего документа HTML.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать параметры при вставке HTML.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

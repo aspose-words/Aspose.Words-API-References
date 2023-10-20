@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseFELayout
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не обходить код макета восточноазиатского/сложного сценария.
+linktitle: UseFELayout
+articleTitle: UseFELayout
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions UseFELayout свойство. Не обходить код макета восточноазиатского/сложного сценария на С#.
 type: docs
 weight: 620
 url: /ru/net/aspose.words.settings/compatibilityoptions/usefelayout/
@@ -17,7 +19,5 @@ public bool UseFELayout { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: CommentRangeEnd свойство. Указывает идентификатор комментария с которым связан этот регион.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: CommentRangeEnd Id свойство. Указывает идентификатор комментария с которым связан этот регион на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/commentrangeend/id/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/commentrangeend/id/
 public int Id { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [CommentRangeEnd](../)
-* пространство имен [Aspose.Words](../../commentrangeend/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

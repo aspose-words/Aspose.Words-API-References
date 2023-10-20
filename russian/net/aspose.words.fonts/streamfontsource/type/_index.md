@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: StreamFontSource свойство. Возвращает тип источника шрифта.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: StreamFontSource Type свойство. Возвращает тип источника шрифта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/streamfontsource/type/
@@ -18,7 +20,5 @@ public FontSourceType Type { get; }
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [StreamFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../streamfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

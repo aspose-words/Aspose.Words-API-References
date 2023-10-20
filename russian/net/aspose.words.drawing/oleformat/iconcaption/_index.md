@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает заголовок значка объекта OLE.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words для .NET
+description: OleFormat IconCaption свойство. Получает заголовок значка объекта OLE на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.drawing/oleformat/iconcaption/
 public string IconCaption { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять связанные и несвязанные объекты OLE.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

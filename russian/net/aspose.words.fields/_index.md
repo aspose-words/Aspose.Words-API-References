@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Fields
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields пространство имен содержит классы которые представляют поля Microsoft Word в документе.
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields пространство имен содержит классы которые представляют поля Microsoft Word в документе на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/
@@ -153,5 +155,3 @@ url: /ru/net/aspose.words.fields/
 | [GeneralFormat](./generalformat/) | Указывает общий формат, который применяется к числовому, текстовому или любому результату поля. Поле может иметь комбинацию общих форматов. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | Указывает единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния почты. |
 | [TextFormFieldType](./textformfieldtype/) | Указывает тип поля текстовой формы. |
-
-

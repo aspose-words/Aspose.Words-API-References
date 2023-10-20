@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает CLSID объекта OLE.
+linktitle: Clsid
+articleTitle: Clsid
+second_title: Aspose.Words для .NET
+description: OleFormat Clsid свойство. Получает CLSID объекта OLE на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/clsid/
 public Guid Clsid { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к элементу управления OLE, встроенному в документ, и его дочерним элементам управления.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

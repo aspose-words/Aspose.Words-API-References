@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает объект который представляет текущие настройки страницы и свойства раздела.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words для .NET
+description: DocumentBuilder PageSetup свойство. Возвращает объект который представляет текущие настройки страницы и свойства раздела на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/pagesetup/
 public PageSetup PageSetup { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

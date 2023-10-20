@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumn свойство. Получает или задает ширину текстового столбца в пунктах.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words для .NET
+description: TextColumn Width свойство. Получает или задает ширину текстового столбца в пунктах на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textcolumn/width/
 public double Width { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Смотрите также
 
 * class [TextColumn](../)
-* пространство имен [Aspose.Words](../../textcolumn/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

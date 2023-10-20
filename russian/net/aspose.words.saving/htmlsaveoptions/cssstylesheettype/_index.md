@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetType
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает как стили CSS каскадная таблица стилей экспортируются в HTML MHTML или EPUB. Значение по умолчаниюInline для HTML/MHTML и External для EPUB.
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions CssStyleSheetType свойство. Указывает как стили CSS каскадная таблица стилей экспортируются в HTML MHTML или EPUB. Значение по умолчаниюInline для HTML/MHTML и External для EPUB на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Сохранение таблицы стилей CSS во внешний файл поддерживается только при сохранении в HTML. При экспорте в один из форматов контейнера (EPUB или MHTML) и указании External, файл CSS будет инкапсулирован в выходной пакет.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
@@ -81,7 +83,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetFileName](../cssstylesheetfilename/)
 * enum [CssStyleSheetType](../../cssstylesheettype/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Получает родительский элементSection абзаца.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words для .NET
+description: Paragraph ParentSection свойство. Получает родительский элементSection абзаца на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/parentsection/
 public Section ParentSection { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

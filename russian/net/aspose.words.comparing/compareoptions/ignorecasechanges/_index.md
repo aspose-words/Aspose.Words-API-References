@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. True указывает что сравнение документов выполняется без учета регистра. По умолчанию сравнение выполняется с учетом регистра.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words для .NET
+description: CompareOptions IgnoreCaseChanges свойство. True указывает что сравнение документов выполняется без учета регистра. По умолчанию сравнение выполняется с учетом регистра на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ True указывает, что сравнение документов выпо
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

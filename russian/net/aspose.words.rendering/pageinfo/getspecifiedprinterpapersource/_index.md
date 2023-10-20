@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Справочник по API Aspose.Words для .NET
-description: PageInfo метод. ПолучаетPaperSource объект подходящий для печати страницы представленной этимPageInfo .
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: Aspose.Words для .NET
+description: PageInfo GetSpecifiedPrinterPaperSource метод. ПолучаетPaperSource объект подходящий для печати страницы представленной этимPageInfo  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
@@ -24,11 +26,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 Объект, который можно использовать в среде печати .NET для указания источника бумаги.
 
-### Примечания
+## Примечания
 
 Для этого метода требуется .NET Framework 2.0 или более поздняя версия.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Смотрите также
 
 * class [PageInfo](../)
-* пространство имен [Aspose.Words.Rendering](../../pageinfo/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

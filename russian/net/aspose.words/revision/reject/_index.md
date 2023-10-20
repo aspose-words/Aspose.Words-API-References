@@ -1,7 +1,9 @@
 ---
 title: Revision.Reject
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision метод. Отклонить эту версию.
+linktitle: Reject
+articleTitle: Reject
+second_title: Aspose.Words для .NET
+description: Revision Reject метод. Отклонить эту версию на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/revision/reject/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revision/reject/
 public void Reject()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Смотрите также
 
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ScalingFactor
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах допустимые значения 10 1000 .
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode ScalingFactor свойство. Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах допустимые значения 10 1000  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 public string ScalingFactor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

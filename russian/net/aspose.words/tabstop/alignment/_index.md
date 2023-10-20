@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop свойство. Получает или задает выравнивание текста на этой позиции табуляции.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words для .NET
+description: TabStop Alignment свойство. Получает или задает выравнивание текста на этой позиции табуляции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstop/alignment/
 public TabAlignment Alignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

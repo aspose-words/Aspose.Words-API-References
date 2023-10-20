@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection метод. Получает индекс свойства по имени.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection IndexOf метод. Получает индекс свойства по имени на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.InsertHyperlinks
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает следует ли создавать гиперссылки на записи оглавления.
+linktitle: InsertHyperlinks
+articleTitle: InsertHyperlinks
+second_title: Aspose.Words для .NET
+description: FieldToc InsertHyperlinks свойство. Получает или задает следует ли создавать гиперссылки на записи оглавления на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldtoc/inserthyperlinks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/inserthyperlinks/
 public bool InsertHyperlinks { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

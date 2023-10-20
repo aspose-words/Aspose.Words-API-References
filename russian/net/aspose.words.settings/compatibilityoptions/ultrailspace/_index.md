@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Подчеркнуть все конечные пробелы.
+linktitle: UlTrailSpace
+articleTitle: UlTrailSpace
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions UlTrailSpace свойство. Подчеркнуть все конечные пробелы на С#.
 type: docs
 weight: 580
 url: /ru/net/aspose.words.settings/compatibilityoptions/ultrailspace/
@@ -17,7 +19,5 @@ public bool UlTrailSpace { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

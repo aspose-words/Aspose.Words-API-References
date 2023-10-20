@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignTime
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Получает время подписания документа.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words для .NET
+description: DigitalSignature SignTime свойство. Получает время подписания документа на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 public DateTime SignTime { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Смотрите также
 
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

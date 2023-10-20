@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Определяет поля вокруг страниц в документе HTML. Значение полей измеряется в пунктах и должно быть равно или больше 0. Значение по умолчанию  10 пунктов.
+linktitle: PageMargins
+articleTitle: PageMargins
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions PageMargins свойство. Определяет поля вокруг страниц в документе HTML. Значение полей измеряется в пунктах и должно быть равно или больше 0. Значение по умолчанию  10 пунктов на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 public double PageMargins { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Зависит от стоимости[`PageHorizontalAlignment`](../pagehorizontalalignment/) свойство:
 
@@ -22,7 +24,7 @@ public double PageMargins { get; set; }
 * Определяет верхнее, нижнее и правое поля страницы, если значение равноRight .
 * Определяет верхние и нижние поля страницы, если значение равноCenter .
 
-### Примеры
+## Примеры
 
 Показывает, как настроить поля страницы при сохранении документа в формате HTML.
 
@@ -45,7 +47,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

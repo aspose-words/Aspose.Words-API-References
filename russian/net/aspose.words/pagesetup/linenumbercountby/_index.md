@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает числовой прирост для номеров строк.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words для .NET
+description: PageSetup LineNumberCountBy свойство. Возвращает или задает числовой прирост для номеров строк на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/linenumbercountby/
 public int LineNumberCountBy { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить нумерацию строк для раздела.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

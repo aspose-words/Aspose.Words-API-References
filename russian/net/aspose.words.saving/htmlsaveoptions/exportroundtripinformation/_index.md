@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает следует ли записывать двустороннюю информацию при сохранении в HTML MHTML или EPUB. Значение по умолчаниюистинный для HTML иЛОЖЬ для MHTML и EPUB.
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportRoundtripInformation свойство. Указывает следует ли записывать двустороннюю информацию при сохранении в HTML MHTML или EPUB. Значение по умолчаниюистинный для HTML иЛОЖЬ для MHTML и EPUB на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Сохранение информации о возврате позволяет восстановить свойства документа, такие как позиции табуляции, комментарии , верхние и нижние колонтитулы во время загрузки HTML-документов обратно в файл.[`Document`](../../../aspose.words/document/) объект.
 
@@ -22,7 +24,7 @@ public bool ExportRoundtripInformation { get; set; }
 
 Когда`ЛОЖЬ`, не приводит к выводу информации о обратном пути в создаваемые файлы.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить скрытые элементы при преобразовании в .html.
 
@@ -99,7 +101,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

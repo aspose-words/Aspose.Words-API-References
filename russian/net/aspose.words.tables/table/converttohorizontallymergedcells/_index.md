@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Преобразует ячейки объединенные горизонтально по ширине в ячейки объединенные по ширине.HorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words для .NET
+description: Table ConvertToHorizontallyMergedCells метод. Преобразует ячейки объединенные горизонтально по ширине в ячейки объединенные по ширине.HorizontalMerge  на С#.
 type: docs
-weight: 410
+weight: 390
 url: /ru/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/converttohorizontallymergedcells/
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### Примечания
+## Примечания
 
 Ячейки таблицы можно объединить горизонтально либо с помощью флагов слияния.[`HorizontalMerge`](../../cellformat/horizontalmerge/) или используя ширину ячейки[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ public void ConvertToHorizontallyMergedCells()
 
 Используйте этот метод для преобразования ячеек таблицы, объединенных горизонтально по ширине, в ячейки, объединенные флагами слияния.
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать ячейки, объединенные горизонтально по ширине, в ячейки, объединенные с помощью CellFormat.HorizontalMerge.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

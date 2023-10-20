@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection метод. Добавляет элемент в эту коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection Add метод. Добавляет элемент в эту коллекцию на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitemcollection/add/
 public void Add(SdtListItem item)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

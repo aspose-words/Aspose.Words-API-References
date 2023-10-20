@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageWatermarkOptions свойство. Получает или задает масштабный коэффициент выраженный как часть изображения. Значение по умолчанию 0  auto. .
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words для .NET
+description: ImageWatermarkOptions Scale свойство. Получает или задает масштабный коэффициент выраженный как часть изображения. Значение по умолчанию 0  auto.  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
-### Примечания
+## Примечания
 
 Допустимые значения находятся в диапазоне от 0 до 65,5 включительно.
 
 Автоматическое масштабирование означает, что водяной знак будет масштабироваться до максимальной ширины и максимальной высоты относительно полей страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как создать водяной знак из изображения в локальной файловой системе.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Смотрите также
 
 * class [ImageWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../imagewatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

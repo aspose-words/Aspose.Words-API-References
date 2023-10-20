@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeed
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ перевода строки x000a или n. Такой же какLf .
+linktitle: LineFeed
+articleTitle: LineFeed
+second_title: Aspose.Words для .NET
+description: ControlChar LineFeed поле. Символ перевода строки x000a или n. Такой же какLf  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/controlchar/linefeed/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/linefeed/
 public static readonly string LineFeed;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

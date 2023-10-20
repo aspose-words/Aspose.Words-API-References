@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает идентификатор локали языка форматированных символов.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words для .NET
+description: Font LocaleId свойство. Получает или задает идентификатор локали языка форматированных символов на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/font/localeid/
 public int LocaleId { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Список идентификаторов локали см. на https://msdn.microsoft.com/en-us/library/cc233965.aspx .
 
-### Примеры
+## Примеры
 
 Показывает, как установить языковой стандарт текста, который мы добавляем с помощью построителя документов.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

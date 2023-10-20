@@ -1,7 +1,9 @@
 ---
-title: FieldTemplate.FieldTemplate
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTemplate строитель. Конструктор по умолчанию.
+title: FieldTemplate
+linktitle: FieldTemplate
+articleTitle: FieldTemplate
+second_title: Aspose.Words для .NET
+description: FieldTemplate строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldtemplate/fieldtemplate/
@@ -17,7 +19,5 @@ public FieldTemplate()
 ### Смотрите также
 
 * class [FieldTemplate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtemplate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

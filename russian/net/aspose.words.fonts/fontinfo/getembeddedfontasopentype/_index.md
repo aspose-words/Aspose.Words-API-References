@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFontAsOpenType
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo метод. Получает файл встроенного шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType. .
+linktitle: GetEmbeddedFontAsOpenType
+articleTitle: GetEmbeddedFontAsOpenType
+second_title: Aspose.Words для .NET
+description: FontInfo GetEmbeddedFontAsOpenType метод. Получает файл встроенного шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType.  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
@@ -22,7 +24,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 Возврат`нулевой`если указанный шрифт не встроен.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальной файловой системе.
 
@@ -50,7 +52,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

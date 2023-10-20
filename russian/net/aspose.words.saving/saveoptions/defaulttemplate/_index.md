@@ -1,24 +1,26 @@
 ---
 title: SaveOptions.DefaultTemplate
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает путь к шаблону по умолчанию включая имя файла. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: DefaultTemplate
+articleTitle: DefaultTemplate
+second_title: Aspose.Words для .NET
+description: SaveOptions DefaultTemplate свойство. Получает или задает путь к шаблону по умолчанию включая имя файла. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string DefaultTemplate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если указано, этот путь используется для загрузки шаблона при[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) является`истинный` , но[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) пусто.
 
-### Примеры
+## Примеры
 
 Показывает, как установить шаблон по умолчанию для документов, к которым не прикреплены шаблоны.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

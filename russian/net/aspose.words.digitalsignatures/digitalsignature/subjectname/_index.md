@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SubjectName
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Возвращает различающееся имя субъекта сертификата который использовался для подписи документа.
+linktitle: SubjectName
+articleTitle: SubjectName
+second_title: Aspose.Words для .NET
+description: DigitalSignature SubjectName свойство. Возвращает различающееся имя субъекта сертификата который использовался для подписи документа на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 public string SubjectName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Смотрите также
 
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

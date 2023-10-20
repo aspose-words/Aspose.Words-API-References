@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase свойство. Получает непрозрачные границы фигуры в точках.
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: Aspose.Words для .NET
+description: NodeRendererBase OpaqueBoundsInPoints свойство. Получает непрозрачные границы фигуры в точках на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство возвращает непрозрачный (т.е. прозрачные части фигуры игнорируются) ограничивающий прямоугольник фигуры. Границы учитывают вращение фигуры.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

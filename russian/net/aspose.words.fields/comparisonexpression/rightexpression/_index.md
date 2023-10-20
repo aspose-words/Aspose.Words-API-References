@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonExpression свойство. Получает правильное выражение.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words для .NET
+description: ComparisonExpression RightExpression свойство. Получает правильное выражение на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/comparisonexpression/rightexpression/
 public string RightExpression { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Смотрите также
 
 * class [ComparisonExpression](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonexpression/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

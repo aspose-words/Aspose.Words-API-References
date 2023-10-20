@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает информацию о родительском регионе ноль для региона верхнего уровня.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo ParentRegion свойство. Возвращает информацию о родительском регионе ноль для региона верхнего уровня на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать, составлять список и читать регионы слияния почты.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Смотрите также
 
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

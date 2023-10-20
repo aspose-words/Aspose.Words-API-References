@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает тип источника данных слияния почты и метод доступа к данным. Значение по умолчаниюDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words для .NET
+description: MailMergeSettings DataType свойство. Указывает тип источника данных слияния почты и метод доступа к данным. Значение по умолчаниюDefault  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/datatype/
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

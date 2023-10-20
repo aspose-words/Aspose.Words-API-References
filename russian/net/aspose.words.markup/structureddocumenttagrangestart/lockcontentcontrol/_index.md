@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContentControl
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Если установлено значениеистинный  это свойство запретит пользователю удалять этот тег структурированного документа.
+linktitle: LockContentControl
+articleTitle: LockContentControl
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart LockContentControl свойство. Если установлено значениеистинный  это свойство запретит пользователю удалять этот тег структурированного документа на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcont
 public bool LockContentControl { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

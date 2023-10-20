@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionCollection свойство. ВозвращаетRevision по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: RevisionCollection Item свойство. ВозвращаетRevision по указанному индексу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/revisioncollection/item/
@@ -18,7 +20,7 @@ public Revision this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Revision this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -112,7 +114,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* пространство имен [Aspose.Words](../../revisioncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

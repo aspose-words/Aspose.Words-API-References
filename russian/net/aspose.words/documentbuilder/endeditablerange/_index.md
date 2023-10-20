@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Отмечает текущую позицию в документе как конец редактируемого диапазона.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words для .NET
+description: DocumentBuilder EndEditableRange метод. Отмечает текущую позицию в документе как конец редактируемого диапазона на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 Только что созданный редактируемый конечный узел диапазона.
 
-### Примечания
+## Примечания
 
 Редактируемый диапазон в документе может перекрываться и охватывать любой диапазон. Чтобы создать действительный редактируемый диапазон, вам нужно вызвать оба[`StartEditableRange`](../starteditablerange/) и`EndEditableRange` или`EndEditableRange` методы.
 
 Плохо сформированный редактируемый диапазон будет игнорироваться при сохранении документа.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Отмечает текущую позицию в документе как конец редактируемого диапазона.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Только что созданный редактируемый конечный узел диапазона.
 
-### Примечания
+## Примечания
 
 Используйте эту перегрузку при создании вложенных редактируемых диапазонов.
 
@@ -100,7 +102,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Плохо сформированный редактируемый диапазон будет игнорироваться при сохранении документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать вложенные редактируемые диапазоны.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

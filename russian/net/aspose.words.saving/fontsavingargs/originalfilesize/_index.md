@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Получает исходный размер файла шрифта.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words для .NET
+description: FontSavingArgs OriginalFileSize свойство. Получает исходный размер файла шрифта на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/fontsavingargs/originalfilesize/
 public int OriginalFileSize { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство содержит исходный размер файла текущего шрифта, если он известен. В противном случае оно может быть нулевым.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

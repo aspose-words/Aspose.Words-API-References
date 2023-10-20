@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: XpsSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вXps формат.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words для .NET
+description: XpsSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вXps формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 public XpsSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить уровень заголовков, которые будут отображаться в структуре сохраненного документа XPS.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### Смотрите также
 
 * class [XpsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xpssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вXps илиOpenXps формат.
 
@@ -70,7 +72,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в формате XPS в виде сгиба книги.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xpssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

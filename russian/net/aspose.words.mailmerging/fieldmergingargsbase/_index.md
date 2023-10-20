@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.FieldMergingArgsBase сорт. Базовый класс дляFieldMergingArgs иImageFieldMergingArgs .
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.FieldMergingArgsBase сорт. Базовый класс дляFieldMergingArgs иImageFieldMergingArgs  на С#.
 type: docs
 weight: 3780
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Получает индекс объединяемой записи, начинающийся с нуля. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

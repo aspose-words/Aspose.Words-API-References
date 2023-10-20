@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. ВозвращаетChartNumberFormat объект позволяющий определять числовые форматы для оси.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words для .NET
+description: ChartAxis NumberFormat свойство. ВозвращаетChartNumberFormat объект позволяющий определять числовые форматы для оси на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать форматирование значений диаграммы.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

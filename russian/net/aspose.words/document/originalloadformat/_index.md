@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalLoadFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает формат исходного документа который был загружен в этот объект.
+linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
+second_title: Aspose.Words для .NET
+description: Document OriginalLoadFormat свойство. Получает формат исходного документа который был загружен в этот объект на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words/document/originalloadformat/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/originalloadformat/
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если вы создали новый пустой документ, возвращаетDoc ценить.
 
-### Примеры
+## Примеры
 
 Показывает, как получить сведения об операции загрузки документа.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

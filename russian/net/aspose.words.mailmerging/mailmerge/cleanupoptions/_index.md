@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает набор флагов определяющих какие элементы следует удалить во время слияния почты.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words для .NET
+description: MailMerge CleanupOptions свойство. Получает или задает набор флагов определяющих какие элементы следует удалить во время слияния почты на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить пустые абзацы, которые может создать слияние почты, из выходного документа слияния.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

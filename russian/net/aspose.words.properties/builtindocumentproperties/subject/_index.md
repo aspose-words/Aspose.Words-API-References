@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Subject
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает тему документа.
+linktitle: Subject
+articleTitle: Subject
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Subject свойство. Получает или задает тему документа на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.properties/builtindocumentproperties/subject/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/subject/
 public string Subject { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа в категории «Описание».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

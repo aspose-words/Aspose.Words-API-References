@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ForegroundColor
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает цвет переднего плана символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF .
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode ForegroundColor свойство. Получает или задает цвет переднего плана символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
 public string ForegroundColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

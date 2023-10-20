@@ -1,7 +1,9 @@
 ---
-title: Class ThemeColors
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.ThemeColors сорт. Представляет цветовую схему темы документа содержащую двенадцать цветов.
+title: ThemeColors Class
+linktitle: ThemeColors
+articleTitle: ThemeColors
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Themes.ThemeColors сорт. Представляет цветовую схему темы документа содержащую двенадцать цветов на С#.
 type: docs
 weight: 6480
 url: /ru/net/aspose.words.themes/themecolors/
@@ -33,7 +35,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Определяет цвет Light 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | Определяет цвет Light 2. |
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * пространство имен [Aspose.Words.Themes](../../aspose.words.themes/)
 * сборка [Aspose.Words](../../)
-
-

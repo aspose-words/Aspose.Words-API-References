@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает угол градиентной заливки.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words для .NET
+description: Fill GradientAngle свойство. Получает или задает угол градиентной заливки на С#.
 type: docs
-weight: 100
+weight: 90
 url: /ru/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/gradientangle/
 public double GradientAngle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

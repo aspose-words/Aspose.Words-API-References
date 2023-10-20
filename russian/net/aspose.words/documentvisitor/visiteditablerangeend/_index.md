@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда в документе встречается конец редактируемого диапазона.
+linktitle: VisitEditableRangeEnd
+articleTitle: VisitEditableRangeEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitEditableRangeEnd метод. Вызывается когда в документе встречается конец редактируемого диапазона на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого редактируемого диапазона в документе.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

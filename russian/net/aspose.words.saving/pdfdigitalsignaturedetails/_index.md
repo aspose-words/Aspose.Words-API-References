@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails сорт. Содержит сведения о подписании PDFдокумента цифровой подписью.
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails сорт. Содержит сведения о подписании PDFдокумента цифровой подписью на С#.
 type: docs
 weight: 5430
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -19,7 +21,7 @@ public class PdfDigitalSignatureDetails
 | Имя | Описание |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | Инициализирует экземпляр этого класса. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | Инициализирует экземпляр этого класса. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | Инициализирует экземпляр этого класса. |
 
 ## Характеристики
 
@@ -32,7 +34,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | Получает или задает дату подписания. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | Получает или задает настройки отметки времени цифровой подписи. |
 
-### Примечания
+## Примечания
 
 На данный момент цифровая подпись документов PDF доступна только в .NET 2.0 или более поздней версии.
 
@@ -40,7 +42,7 @@ public class PdfDigitalSignatureDetails
 
 Aspose.Words создает подпись PKCS#7 для всего PDF-документа и использует фильтр «Adobe.PPKMS» и подфильтр «adbe.pkcs7.sha1» при создании цифровой подписи.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

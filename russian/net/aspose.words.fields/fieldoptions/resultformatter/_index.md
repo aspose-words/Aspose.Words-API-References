@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ResultFormatter
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Позволяет контролировать форматирование результата поля.
+linktitle: ResultFormatter
+articleTitle: ResultFormatter
+second_title: Aspose.Words для .NET
+description: FieldOptions ResultFormatter свойство. Позволяет контролировать форматирование результата поля на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/resultformatter/
 public IFieldResultFormatter ResultFormatter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -152,7 +154,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

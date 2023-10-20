@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Получает или задает имя серии. Если имя не задано явно оно генерируется с использованием индекса. По умолчанию возвращает серию плюс один индекс на основе индекса.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: ChartSeries Name свойство. Получает или задает имя серии. Если имя не задано явно оно генерируется с использованием индекса. По умолчанию возвращает серию плюс один индекс на основе индекса на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/name/
 public string Name { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

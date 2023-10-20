@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceSavingArgs свойство. Получает или задает имя файла без пути в котором будет сохранен ресурс.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words для .NET
+description: ResourceSavingArgs ResourceFileName свойство. Получает или задает имя файла без пути в котором будет сохранен ресурс на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/resourcesavingargs/resourcefilename/
 public string ResourceFileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет переопределить способ генерации имен файлов ресурсов во время экспорта в HTML или SVG с фиксированной страницей.
 
@@ -30,7 +32,7 @@ Aspose.Words автоматически генерирует уникально�
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Смотрите также
 
 * class [ResourceSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../resourcesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

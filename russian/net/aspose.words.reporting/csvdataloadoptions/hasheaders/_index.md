@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.HasHeaders
-second_title: Справочник по API Aspose.Words для .NET
-description: CsvDataLoadOptions свойство. Получает или задает значение указывающее содержит ли первая запись данных CSV имена столбцов.
+linktitle: HasHeaders
+articleTitle: HasHeaders
+second_title: Aspose.Words для .NET
+description: CsvDataLoadOptions HasHeaders свойство. Получает или задает значение указывающее содержит ли первая запись данных CSV имена столбцов на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/hasheaders/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.reporting/csvdataloadoptions/hasheaders/
 public bool HasHeaders { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` .
 
 ### Смотрите также
 
 * class [CsvDataLoadOptions](../)
-* пространство имен [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Show
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartTitle свойство. Определяет будет ли отображаться заголовок для этой диаграммы. Значение по умолчаниюистинный .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words для .NET
+description: ChartTitle Show свойство. Определяет будет ли отображаться заголовок для этой диаграммы. Значение по умолчаниюистинный  на С#.
 type: docs
-weight: 30
+weight: 20
 url: /ru/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/charttitle/show/
 public bool Show { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и задать заголовок.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Смотрите также
 
 * class [ChartTitle](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../charttitle/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

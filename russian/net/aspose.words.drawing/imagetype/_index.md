@@ -1,7 +1,9 @@
 ---
-title: Enum ImageType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ImageType перечисление. Указывает тип формат изображения в документе Microsoft Word.
+title: ImageType Enum
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ImageType перечисление. Указывает тип формат изображения в документе Microsoft Word на С#.
 type: docs
 weight: 1080
 url: /ru/net/aspose.words.drawing/imagetype/
@@ -28,7 +30,7 @@ public enum ImageType
 | Bmp | `7` | Растровое изображение Windows. |
 | Eps | `8` | Инкапсулированный PostScript. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить изображение в фигуру и проверить его тип.
 
@@ -53,5 +55,3 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 * property [ImageType](../imagedata/imagetype/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

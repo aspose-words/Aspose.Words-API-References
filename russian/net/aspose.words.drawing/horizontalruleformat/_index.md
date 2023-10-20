@@ -1,7 +1,9 @@
 ---
-title: Class HorizontalRuleFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat сорт. Представляет горизонтальное форматирование правил.
+title: HorizontalRuleFormat Class
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.HorizontalRuleFormat сорт. Представляет горизонтальное форматирование правил на С#.
 type: docs
 weight: 1050
 url: /ru/net/aspose.words.drawing/horizontalruleformat/
@@ -26,7 +28,7 @@ public class HorizontalRuleFormat
 | [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Указывает наличие 3D-затенения для горизонтальной линейки. Если`истинный` то горизонтальная линейка без 3D-затенения и используется сплошной цвет. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Получает или задает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
 
@@ -50,5 +52,3 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

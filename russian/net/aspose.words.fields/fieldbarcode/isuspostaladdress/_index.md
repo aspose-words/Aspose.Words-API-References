@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsUSPostalAddress
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBarcode свойство. Получает или устанавливаетPostalAddress  почтовый адрес США.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words для .NET
+description: FieldBarcode IsUSPostalAddress свойство. Получает или устанавливаетPostalAddress  почтовый адрес США на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШТРИХ-КОД для отображения почтовых индексов США в виде штрих-кода.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Смотрите также
 
 * class [FieldBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

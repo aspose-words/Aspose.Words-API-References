@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: Body метод. Если последний дочерний элемент не является абзацем создается и добавляется один пустой абзац.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: Body EnsureMinimum метод. Если последний дочерний элемент не является абзацем создается и добавляется один пустой абзац на С#.
 type: docs
-weight: 70
+weight: 50
 url: /ru/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/body/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Удаляет основной текст из всех разделов документа, оставляя сами разделы.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [Body](../)
-* пространство имен [Aspose.Words](../../body/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

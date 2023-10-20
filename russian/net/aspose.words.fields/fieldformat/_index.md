@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldFormat сорт. Обеспечивает вводимый доступ к числовым значениям поля дате и времени а также общему форматированию.
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldFormat сорт. Обеспечивает вводимый доступ к числовым значениям поля дате и времени а также общему форматированию на С#.
 type: docs
 weight: 1940
 url: /ru/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Получает коллекцию общих форматов, которые применяются к числовым, текстовым или любым результатам поля. Соответствует переключателям \*. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Получает или задает форматирование, применяемое к результату числового поля. Соответствует переключателю \#. |
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

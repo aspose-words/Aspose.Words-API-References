@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition перечисление. Указывает возможные позиции для меток деления.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition перечисление. Указывает возможные позиции для меток деления на С#.
 type: docs
 weight: 580
 url: /ru/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Указывает, что метки осей не отображаются. |
 | Default | `2` | Указывает значение по умолчанию для положения меток делений. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

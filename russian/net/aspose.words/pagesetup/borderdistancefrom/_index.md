@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderDistanceFrom
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает значение указывающее измеряется ли указанная граница страницы от края страницы или от текста который она окружает.
+linktitle: BorderDistanceFrom
+articleTitle: BorderDistanceFrom
+second_title: Aspose.Words для .NET
+description: PageSetup BorderDistanceFrom свойство. Получает или задает значение указывающее измеряется ли указанная граница страницы от края страницы или от текста который она окружает на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/pagesetup/borderdistancefrom/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/borderdistancefrom/
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать широкую синюю рамку в верхней части первой страницы.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

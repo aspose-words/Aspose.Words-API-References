@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает или устанавливает является ли текущий результат поля более неправильным устаревшим изза других изменений внесенных в документ.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words для .NET
+description: Field IsDirty свойство. Получает или устанавливает является ли текущий результат поля более неправильным устаревшим изза других изменений внесенных в документ на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/isdirty/
 public bool IsDirty { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать специальное свойство для обновления результатов поля.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

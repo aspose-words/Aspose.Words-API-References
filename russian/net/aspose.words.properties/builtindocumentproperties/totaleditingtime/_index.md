@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TotalEditingTime
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает общее время редактирования в минутах.
+linktitle: TotalEditingTime
+articleTitle: TotalEditingTime
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties TotalEditingTime свойство. Получает или задает общее время редактирования в минутах на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
 public int TotalEditingTime { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Происхождение».
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

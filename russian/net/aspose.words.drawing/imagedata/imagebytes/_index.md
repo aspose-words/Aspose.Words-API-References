@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает или задает необработанные байты изображения хранящегося в форме.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words для .NET
+description: ImageData ImageBytes свойство. Получает или задает необработанные байты изображения хранящегося в форме на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/imagedata/imagebytes/
 public byte[] ImageBytes { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установка значения`нулевой` или пустой массив удалит изображение из фигуры.
 
 Возврат`нулевой` если изображение не сохранено в документе (например, в этом случае изображение, вероятно, связано).
 
-### Примеры
+## Примеры
 
 Показывает, как создать файл изображения из необработанных данных изображения фигуры.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Указывает значение ширины по умолчанию для этого экземпляра области задач.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words для .NET
+description: TaskPane Width свойство. Указывает значение ширины по умолчанию для этого экземпляра области задач на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/taskpane/width/
 public double Width { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [TaskPane](../)
-* пространство имен [Aspose.Words.WebExtensions](../../taskpane/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

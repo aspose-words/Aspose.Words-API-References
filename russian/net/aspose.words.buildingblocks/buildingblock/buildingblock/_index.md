@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock строитель. Инициализирует новый экземпляр этого класса.
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: Aspose.Words для .NET
+description: BuildingBlock строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`BuildingBlock`](../)создан, он принадлежит указанному документу глоссария , но еще не является частью документа глоссария и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`BuildingBlock`](../)к[`GlossaryDocument`](../../glossarydocument/) используйте Node).
+Чтобы добавить[`BuildingBlock`](../)к[`GlossaryDocument`](../../glossarydocument/) используйте [`AppendChild`](../../../aspose.words/compositenode/appendchild/).
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

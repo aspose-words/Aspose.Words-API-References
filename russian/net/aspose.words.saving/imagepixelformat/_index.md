@@ -1,7 +1,9 @@
 ---
-title: Enum ImagePixelFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImagePixelFormat перечисление. Определяет формат пикселей для создаваемых изображений страниц документа.
+title: ImagePixelFormat Enum
+linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ImagePixelFormat перечисление. Определяет формат пикселей для создаваемых изображений страниц документа на С#.
 type: docs
 weight: 5220
 url: /ru/net/aspose.words.saving/imagepixelformat/
@@ -30,7 +32,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 64 бита на пиксель, ARGB, предварительно умноженная альфа. |
 | Format1bppIndexed | `10` | 1 бит на пиксель, индексированный. |
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать скорость передачи битов на пиксель для преобразования документа в изображение.
 
@@ -96,5 +98,3 @@ Document doc = new Document();
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

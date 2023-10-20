@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает флаг указывающий что Microsoft Word удалит всю пользовательскую информацию из комментариев редакций и свойств документа при сохранении документа.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words для .NET
+description: Document RemovePersonalInformation свойство. Получает или задает флаг указывающий что Microsoft Word удалит всю пользовательскую информацию из комментариев редакций и свойств документа при сохранении документа на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/removepersonalinformation/
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить удаление личной информации во время сохранения вручную.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

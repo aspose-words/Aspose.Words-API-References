@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CharactersWithSpaces
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Представляет оценку количества символов включая пробелы в документе.
+linktitle: CharactersWithSpaces
+articleTitle: CharactersWithSpaces
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties CharactersWithSpaces свойство. Представляет оценку количества символов включая пробелы в документе на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/characterswithspa
 public int CharactersWithSpaces { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words обновляет это свойство при вызове[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Содержимое».
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

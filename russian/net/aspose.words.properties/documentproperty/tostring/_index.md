@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty метод. Возвращает значение свойства в виде строки отформатированной в соответствии с текущим языковым стандартом.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words для .NET
+description: DocumentProperty ToString метод. Возвращает значение свойства в виде строки отформатированной в соответствии с текущим языковым стандартом на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/documentproperty/tostring/
 public override string ToString()
 ```
 
-### Примечания
+## Примечания
 
 Преобразует логическое свойство в "Y" или "N". Преобразует свойство даты в короткую строку даты. Для всех остальных типов преобразует свойство с помощью Object.ToString().
 
-### Примеры
+## Примеры
 
 Показывает различные методы преобразования типов пользовательских свойств документа.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

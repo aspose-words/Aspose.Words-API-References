@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Получает родительский раздел этой статьи.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words для .NET
+description: HeaderFooter ParentSection свойство. Получает родительский раздел этой статьи на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/headerfooter/parentsection/
 public Section ParentSection { get; }
 ```
 
-### Примечания
+## Примечания
 
 `ParentSection` эквивалентно[`ParentNode`](../../node/parentnode/) брошен в[`Section`](../../section/).
 
-### Примеры
+## Примеры
 
 Показывает, как связать верхние и нижние колонтитулы между разделами.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* пространство имен [Aspose.Words](../../headerfooter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

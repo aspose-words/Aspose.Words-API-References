@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Hyperlink
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цвет гиперссылки.
+linktitle: Hyperlink
+articleTitle: Hyperlink
+second_title: Aspose.Words для .NET
+description: ThemeColors Hyperlink свойство. Определяет цвет гиперссылки на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.themes/themecolors/hyperlink/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/hyperlink/
 public Color Hyperlink { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

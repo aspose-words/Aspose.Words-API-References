@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldUpdatingProgressCallback метод. Определенный пользователем метод который вызывается при изменении хода обновления.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words для .NET
+description: IFieldUpdatingProgressCallback Notify метод. Определенный пользователем метод который вызывается при изменении хода обновления на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы обратного вызова во время обновления поля.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

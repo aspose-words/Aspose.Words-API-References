@@ -1,7 +1,9 @@
 ---
-title: Class ImageData
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ImageData сорт. Определяет изображение для фигуры.
+title: ImageData Class
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ImageData сорт. Определяет изображение для фигуры на С#.
 type: docs
 weight: 1060
 url: /ru/net/aspose.words.drawing/imagedata/
@@ -43,17 +45,16 @@ public class ImageData
 
 | Имя | Описание |
 | --- | --- |
-| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
-| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Сохраняет изображение в указанный поток. |
-| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Сохраняет изображение в файл. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Устанавливает изображение, отображаемое фигурой. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Устанавливает изображение, отображаемое фигурой. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Устанавливает изображение, отображаемое фигурой. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | Сохраняет изображение в указанный поток. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | Сохраняет изображение в файл. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Устанавливает изображение, отображаемое фигурой. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | Устанавливает изображение, отображаемое фигурой. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | Устанавливает изображение, отображаемое фигурой. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Возвращает байты изображения для любого изображения независимо от того, сохранено оно или связано с ним. |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Получает изображение, хранящееся в фигуре в видеImage объект. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Создает и возвращает поток, содержащий байты изображения. |
 
-### Примечания
+## Примечания
 
 Использовать[`ImageData`](../shape/imagedata/) свойство для доступа и изменения изображения внутри фигуры. Вы не создаете экземпляры`ImageData` класс напрямую.
 
@@ -63,7 +64,7 @@ public class ImageData
 
 Чтобы сохранить изображение внутри фигуры, используйте[`SetImage`](./setimage/) метод. Чтобы связать изображение с фигурой, установите[`SourceFullName`](./sourcefullname/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
 
@@ -132,5 +133,3 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

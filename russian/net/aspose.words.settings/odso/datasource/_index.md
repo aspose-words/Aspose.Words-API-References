@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает расположение внешнего источника данных который будет подключен к документу для выполнения слияния почты. Значение по умолчанию  пустая строка.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words для .NET
+description: Odso DataSource свойство. Указывает расположение внешнего источника данных который будет подключен к документу для выполнения слияния почты. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odso/datasource/
 public string DataSource { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

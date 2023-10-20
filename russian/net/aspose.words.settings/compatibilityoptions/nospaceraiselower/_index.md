@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.NoSpaceRaiseLower
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не увеличивать высоту строки для поднятого/опущенного текста.
+linktitle: NoSpaceRaiseLower
+articleTitle: NoSpaceRaiseLower
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions NoSpaceRaiseLower свойство. Не увеличивать высоту строки для поднятого/опущенного текста на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words.settings/compatibilityoptions/nospaceraiselower/
@@ -17,7 +19,5 @@ public bool NoSpaceRaiseLower { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartLegend свойство. Возвращает коллекцию записей легенды для всех рядов и линий тренда родительской диаграммы.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words для .NET
+description: ChartLegend LegendEntries свойство. Возвращает коллекцию записей легенды для всех рядов и линий тренда родительской диаграммы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartlegend/legendentries/
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с записью легенды для серий диаграмм.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection метод. Определяет задано ли указанноеTabStopCollection по значению равен текущемуTabStopCollection .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: TabStopCollection Equals метод. Определяет задано ли указанноеTabStopCollection по значению равен текущемуTabStopCollection  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 Определяет, задано ли указанное[`TabStopCollection`](../) по значению равен текущему[`TabStopCollection`](../) .
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstopcollection/equals/
 public bool Equals(TabStopCollection rhs)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Определяет, равен ли указанный объект по значению текущему объекту.
 
@@ -71,7 +73,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 public override bool Equals(object obj)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

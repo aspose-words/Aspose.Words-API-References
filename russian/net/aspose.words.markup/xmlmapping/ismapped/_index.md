@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping свойство. Возвращаетистинный если тег родительского структурированного документа успешно сопоставлен с данными XML.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words для .NET
+description: XmlMapping IsMapped свойство. Возвращаетистинный если тег родительского структурированного документа успешно сопоставлен с данными XML на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/xmlmapping/ismapped/
 public bool IsMapped { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сопоставления XML для пользовательских частей XML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Смотрите также
 
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

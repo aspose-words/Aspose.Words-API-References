@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLegendKey
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowLegendKey свойство. Позволяет указать должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
 public bool ShowLegendKey { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

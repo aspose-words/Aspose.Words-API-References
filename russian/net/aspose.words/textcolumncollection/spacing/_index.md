@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Spacing
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Если столбцы расположены равномерно получает или задает расстояние между каждым столбцом в пунктах.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words для .NET
+description: TextColumnCollection Spacing свойство. Если столбцы расположены равномерно получает или задает расстояние между каждым столбцом в пунктах на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/textcolumncollection/spacing/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/textcolumncollection/spacing/
 public double Spacing { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Действует только тогда, когда[`EvenlySpaced`](../evenlyspaced/) установлено на`истинный` .
 
-### Примеры
+## Примеры
 
 Показывает, как создать в разделе несколько равномерно расположенных столбцов.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Смотрите также
 
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

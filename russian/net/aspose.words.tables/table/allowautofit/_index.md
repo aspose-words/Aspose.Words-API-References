@@ -1,7 +1,9 @@
 ---
 title: Table.AllowAutoFit
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Позволяет Microsoft Word и Aspose.Words автоматически изменять размеры ячеек таблицы в соответствии с их содержимым.
+linktitle: AllowAutoFit
+articleTitle: AllowAutoFit
+second_title: Aspose.Words для .NET
+description: Table AllowAutoFit свойство. Позволяет Microsoft Word и Aspose.Words автоматически изменять размеры ячеек таблицы в соответствии с их содержимым на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/table/allowautofit/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.tables/table/allowautofit/
 public bool AllowAutoFit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как включить/отключить автоматическое изменение размера ячеек таблицы.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

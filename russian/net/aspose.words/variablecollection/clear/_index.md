@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Удаляет все элементы из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: VariableCollection Clear метод. Удаляет все элементы из коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/variablecollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/variablecollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

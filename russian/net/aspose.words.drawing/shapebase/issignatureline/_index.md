@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает что фигура являетсяSignatureLine .
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: Aspose.Words для .NET
+description: ShapeBase IsSignatureLine свойство. Указывает что фигура являетсяSignatureLine  на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/issignatureline/
 public bool IsSignatureLine { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

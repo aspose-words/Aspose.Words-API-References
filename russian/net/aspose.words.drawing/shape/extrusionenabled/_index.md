@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Возвращаетистинный если эффект выдавливания включен.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: Aspose.Words для .NET
+description: Shape ExtrusionEnabled свойство. Возвращаетистинный если эффект выдавливания включен на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/extrusionenabled/
 public bool ExtrusionEnabled { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

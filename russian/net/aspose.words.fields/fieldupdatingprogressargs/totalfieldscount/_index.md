@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.TotalFieldsCount
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUpdatingProgressArgs свойство. Получает общее количество обновляемых полей.
+linktitle: TotalFieldsCount
+articleTitle: TotalFieldsCount
+second_title: Aspose.Words для .NET
+description: FieldUpdatingProgressArgs TotalFieldsCount свойство. Получает общее количество обновляемых полей на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
 public int TotalFieldsCount { get; }
 ```
 
-### Примечания
+## Примечания
 
 Значение не является постоянным и может быть увеличено в процессе обновления.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы обратного вызова во время обновления поля.
 
@@ -86,7 +88,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Смотрите также
 
 * class [FieldUpdatingProgressArgs](../)
-* пространство имен [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

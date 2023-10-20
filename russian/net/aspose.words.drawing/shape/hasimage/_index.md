@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Возвращаетистинный если фигура содержит байты изображения или связывает изображение.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words для .NET
+description: Shape HasImage свойство. Возвращаетистинный если фигура содержит байты изображения или связывает изображение на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/hasimage/
 public bool HasImage { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все фигуры с изображениями из документа.
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat свойство. Возвращает форматирование уровня списка плюс любые переопределения форматирования примененные к текущему абзацу.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words для .NET
+description: ListFormat ListLevel свойство. Возвращает форматирование уровня списка плюс любые переопределения форматирования примененные к текущему абзацу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listformat/listlevel/
 public ListLevel ListLevel { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

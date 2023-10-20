@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldResultFormatter метод. Вызывается когда Aspose.Words применяет переключатель числового формата т.е.  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: Aspose.Words для .NET
+description: IFieldResultFormatter FormatNumeric метод. Вызывается когда Aspose.Words применяет переключатель числового формата т.е.   на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 public string FormatNumeric(double value, string format)
 ```
 
-### Примечания
+## Примечания
 
 Реализация должна вернуть результат`нулевой` чтобы указать, что должно быть применено форматирование по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### Смотрите также
 
 * interface [IFieldResultFormatter](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldresultformatter/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

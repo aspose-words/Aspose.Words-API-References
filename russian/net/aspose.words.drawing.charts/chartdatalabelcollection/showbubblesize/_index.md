@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowBubbleSize
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Позволяет указать должен ли отображаться размер пузырьков для меток данных всей серии. Применяется только к пузырьковым диаграммам. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection ShowBubbleSize свойство. Позволяет указать должен ли отображаться размер пузырьков для меток данных всей серии. Применяется только к пузырьковым диаграммам. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с метками данных пузырьковой диаграммы.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

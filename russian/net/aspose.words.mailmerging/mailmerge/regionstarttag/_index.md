@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionStartTag
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает начальный тег региона слияния почты.
+linktitle: RegionStartTag
+articleTitle: RegionStartTag
+second_title: Aspose.Words для .NET
+description: MailMerge RegionStartTag свойство. Получает или задает начальный тег региона слияния почты на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.mailmerging/mailmerge/regionstarttag/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/regionstarttag/
 public string RegionStartTag { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать, составлять список и читать регионы слияния почты.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

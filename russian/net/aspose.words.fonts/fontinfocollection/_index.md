@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontInfoCollection сорт. Представляет коллекцию шрифтов используемых в документе.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontInfoCollection сорт. Представляет коллекцию шрифтов используемых в документе на С#.
 type: docs
 weight: 2930
 url: /ru/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | Имя | Описание |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Определяет, содержит ли коллекция шрифт с данным именем. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Определяет, содержит ли коллекция шрифт с данным именем. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 
-### Примечания
+## Примечания
 
 Предметы[`FontInfo`](../fontinfo/) объекты.
 
 Вы не создаете экземпляры этого класса напрямую. Используйте[`FontInfos`](../../aspose.words/documentbase/fontinfos/) свойство для доступа к коллекции шрифтов , определенной в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Получает коллекцию границ ячейки.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: CellFormat Borders свойство. Получает коллекцию границ ячейки на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/cellformat/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как объединить строки из двух таблиц в одну.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PageLayoutCallbackArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.PageLayoutCallbackArgs сорт. Аргумент переданный вNotify
+title: PageLayoutCallbackArgs Class
+linktitle: PageLayoutCallbackArgs
+articleTitle: PageLayoutCallbackArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.PageLayoutCallbackArgs сорт. Аргумент переданный вNotify на С#.
 type: docs
 weight: 3360
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/
@@ -28,5 +30,3 @@ public class PageLayoutCallbackArgs
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

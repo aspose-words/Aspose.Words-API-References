@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Email
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает предполагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words для .NET
+description: SignatureLineOptions Email свойство. Получает или задает предполагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Получает или задает предполагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает предполагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать документ личным удостоверением и строкой подписи.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Смотрите также
 
 * class [SignatureLineOptions](../)
-* пространство имен [Aspose.Words](../../signaturelineoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureUtil метод. Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения.
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: Aspose.Words для .NET
+description: DigitalSignatureUtil RemoveAllSignatures метод. Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения.
 
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignat
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить цифровые подписи из документа с цифровой подписью.
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Смотрите также
 
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 Удаляет все цифровые подписи из документа в исходном потоке и записывает неподписанный документ в целевой поток.
 
@@ -61,7 +63,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить цифровые подписи из документа с цифровой подписью.
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Смотрите также
 
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

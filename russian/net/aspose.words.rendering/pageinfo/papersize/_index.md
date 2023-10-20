@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Справочник по API Aspose.Words для .NET
-description: PageInfo свойство. Получает размер бумаги в виде перечисления.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words для .NET
+description: PageInfo PaperSize свойство. Получает размер бумаги в виде перечисления на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/pageinfo/papersize/
 public PaperSize PaperSize { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* пространство имен [Aspose.Words.Rendering](../../pageinfo/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

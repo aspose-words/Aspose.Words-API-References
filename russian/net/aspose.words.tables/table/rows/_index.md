@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Обеспечивает типизированный доступ к строкам таблицы.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words для .NET
+description: Table Rows свойство. Обеспечивает типизированный доступ к строкам таблицы на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/rows/
 public RowCollection Rows { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как объединить строки из двух таблиц в одну.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Value
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlProperty свойство. Получает или задает значение пользовательского атрибута XML или свойства смарттега.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words для .NET
+description: CustomXmlProperty Value свойство. Получает или задает значение пользовательского атрибута XML или свойства смарттега на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/customxmlproperty/value/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/customxmlproperty/value/
 public string Value { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [CustomXmlProperty](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlproperty/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

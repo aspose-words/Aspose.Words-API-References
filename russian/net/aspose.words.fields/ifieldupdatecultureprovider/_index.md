@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdateCultureProvider
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider интерфейс. При реализации предоставляетCultureInfo объект который следует использовать при обновлении определенного поля.
+title: IFieldUpdateCultureProvider Interface
+linktitle: IFieldUpdateCultureProvider
+articleTitle: IFieldUpdateCultureProvider
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider интерфейс. При реализации предоставляетCultureInfo объект который следует использовать при обновлении определенного поля на С#.
 type: docs
 weight: 2710
 url: /ru/net/aspose.words.fields/ifieldupdatecultureprovider/
@@ -18,9 +20,9 @@ public interface IFieldUpdateCultureProvider
 
 | Имя | Описание |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | ВозвращаетCultureInfoобъект, который будет использоваться во время обновления поля. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | ВозвращаетCultureInfoобъект, который будет использоваться во время обновления поля. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
@@ -92,5 +94,3 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. Получает документ которому принадлежит этот узел.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: Node Document свойство. Получает документ которому принадлежит этот узел на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/node/document/
 public virtual DocumentBase Document { get; }
 ```
 
-### Примечания
+## Примечания
 
 Узел всегда принадлежит документу, даже если он только что был создан и еще не добавлен в дерево, или если он был удален из дерева.
 
-### Примеры
+## Примеры
 
 Показывает, как создать узел и установить для него документ-владелец.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Loading
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loadingпространство имен предоставляет классы и перечисления которые позволяют указывать дополнительные параметры при загрузке документов.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loadingпространство имен предоставляет классы и перечисления которые позволяют указывать дополнительные параметры при загрузке документов на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.loading/
@@ -39,5 +41,3 @@ url: /ru/net/aspose.words.loading/
 | [ResourceType](./resourcetype/) | Тип загружаемого ресурса. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Указывает доступные параметры обработки начального пробела во время импорта изText файл. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Указывает доступные параметры обработки конечных пробелов во время импорта изText файл. |
-
-

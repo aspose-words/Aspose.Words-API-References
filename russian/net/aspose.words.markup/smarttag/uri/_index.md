@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Справочник по API Aspose.Words для .NET
-description: SmartTag свойство. Указывает URI пространства имен смарттега.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words для .NET
+description: SmartTag Uri свойство. Указывает URI пространства имен смарттега на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/smarttag/uri/
 public string Uri { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [SmartTag](../)
-* пространство имен [Aspose.Words.Markup](../../smarttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

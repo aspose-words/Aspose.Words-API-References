@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает расстояние между правым краем номеров строк и левым краем документа.
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: Aspose.Words для .NET
+description: PageSetup LineNumberDistanceFromText свойство. Получает или задает расстояние между правым краем номеров строк и левым краем документа на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/linenumberdistancefromtext/
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установите для этого свойства значение 0 для автоматического расстояния между номерами строк и текстом документа.
 
-### Примеры
+## Примеры
 
 Показывает, как включить нумерацию строк для раздела.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

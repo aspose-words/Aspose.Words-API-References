@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ParagraphFormat сорт. Представляет все форматирование абзаца.
+title: ParagraphFormat Class
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ParagraphFormat сорт. Представляет все форматирование абзаца на С#.
 type: docs
 weight: 4420
 url: /ru/net/aspose.words/paragraphformat/
@@ -68,7 +70,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | Сбрасывает форматирование абзаца по умолчанию. |
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -119,5 +121,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Указывает папку для временных файлов используемых при сохранении в файл DOC или DOCX. По умолчанию это свойство имеет значениенулевой и никакие временные файлы не используются.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words для .NET
+description: SaveOptions TempFolder свойство. Указывает папку для временных файлов используемых при сохранении в файл DOC или DOCX. По умолчанию это свойство имеет значениенулевой и никакие временные файлы не используются на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/tempfolder/
 public string TempFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда Aspose.Words сохраняет документ, ему необходимо создать временные внутренние структуры. По умолчанию, эти внутренние структуры создаются в памяти, и использование памяти резко возрастает в течение короткого периода времени, пока сохраняется документ. Когда сохранение завершено, память освобождается и утилизируется сборщиком мусора.
 
@@ -24,7 +26,7 @@ public string TempFolder { get; set; }
 
 Aspose.Words автоматически удаляет все временные файлы после завершения сохранения.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать жесткий диск вместо памяти при сохранении документа.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

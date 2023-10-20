@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет будет ли использоваться прямой текстовый путь вместо контура фигуры.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words для .NET
+description: TextPath XScale свойство. Определяет будет ли использоваться прямой текстовый путь вместо контура фигуры на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/textpath/xscale/
 public bool XScale { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
 Если`истинный`текст проходит вдоль пути слева направо вдоль значения x нижней границы фигуры.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает коллекцию границ изображения. Границы действуют только для встроенных изображений.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: ImageData Borders свойство. Получает коллекцию границ изображения. Границы действуют только для встроенных изображений на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagedata/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

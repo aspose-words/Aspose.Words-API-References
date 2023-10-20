@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. ВозвращаетMailMerge объект представляющий функцию слияния почты для документа.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words для .NET
+description: Document MailMerge свойство. ВозвращаетMailMerge объект представляющий функцию слияния почты для документа на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/mailmerge/
 public MailMerge MailMerge { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из DataTable.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

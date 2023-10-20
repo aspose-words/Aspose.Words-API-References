@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CanHaveImage
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращаетистинный если тип фигуры позволяет фигуре иметь изображение.
+linktitle: CanHaveImage
+articleTitle: CanHaveImage
+second_title: Aspose.Words для .NET
+description: ShapeBase CanHaveImage свойство. Возвращаетистинный если тип фигуры позволяет фигуре иметь изображение на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/shapebase/canhaveimage/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/canhaveimage/
 public bool CanHaveImage { get; }
 ```
 
-### Примечания
+## Примечания
 
 Хотя Microsoft Word имеет специальный тип фигуры для изображений, похоже, что в документах Microsoft Word любая shape , за исключением групповой фигуры, может иметь изображение, поэтому это свойство возвращает`истинный` для всех фигур, кроме[`GroupShape`](../../groupshape/).
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять и поворачивать изображение.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

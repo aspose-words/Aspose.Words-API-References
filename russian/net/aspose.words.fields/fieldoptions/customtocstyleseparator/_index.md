@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает собственный разделитель стилей для переключателя t вFieldToc поле.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: Aspose.Words для .NET
+description: FieldOptions CustomTocStyleSeparator свойство. Получает или задает собственный разделитель стилей для переключателя t вFieldToc поле на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию пользовательские стили, определенные переключателем \t в файле[`FieldToc`](../../fieldtoc/)поля разделены разделителем, взятым из текущего языка и региональных параметров. Это свойство переопределяет это поведение, указывая определенный пользователем разделитель.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

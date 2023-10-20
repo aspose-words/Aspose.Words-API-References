@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает выравнивание для заливки текстуры плитки.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words для .NET
+description: Fill TextureAlignment свойство. Получает или задает выравнивание для заливки текстуры плитки на С#.
 type: docs
-weight: 190
+weight: 180
 url: /ru/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/texturealignment/
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить и расположить текстуру внутри фигуры.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

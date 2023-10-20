@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает интервал с которым рисуются деления.
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: Aspose.Words для .NET
+description: ChartAxis TickMarkSpacing свойство. Получает или задает интервал с которым рисуются деления на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 public int TickMarkSpacing { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство действует для осей текстовых категорий и рядов. Он не поддерживается новыми диаграммами MS Office 2016 .
 
 Допустимый диапазон значений больше или равен 1.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

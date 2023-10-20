@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataRow.Values
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabaseDataRow свойство. Получает значения принадлежащие этой строке.
+linktitle: Values
+articleTitle: Values
+second_title: Aspose.Words для .NET
+description: FieldDatabaseDataRow Values свойство. Получает значения принадлежащие этой строке на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddatabasedatarow/values/
@@ -17,7 +19,5 @@ public string[] Values { get; }
 ### Смотрите также
 
 * class [FieldDatabaseDataRow](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

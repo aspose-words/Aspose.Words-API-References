@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает верхнюю границу.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words для .NET
+description: BorderCollection Top свойство. Получает верхнюю границу на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/top/
 public Border Top { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять цвет границы и заливки при построении таблицы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

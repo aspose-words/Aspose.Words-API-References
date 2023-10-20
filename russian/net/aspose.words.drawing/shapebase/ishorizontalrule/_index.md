@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsHorizontalRule
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращаетистинный если эта фигура является горизонтальной линейкой.
+linktitle: IsHorizontalRule
+articleTitle: IsHorizontalRule
+second_title: Aspose.Words для .NET
+description: ShapeBase IsHorizontalRule свойство. Возвращаетистинный если эта фигура является горизонтальной линейкой на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.drawing/shapebase/ishorizontalrule/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/ishorizontalrule/
 public bool IsHorizontalRule { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
 
@@ -37,7 +39,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

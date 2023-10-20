@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping свойство. Возвращает пользовательскую часть данных XML с которой сопоставлен тег родительского структурированного документа.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words для .NET
+description: XmlMapping CustomXmlPart свойство. Возвращает пользовательскую часть данных XML с которой сопоставлен тег родительского структурированного документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/xmlmapping/customxmlpart/
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сопоставления XML для пользовательских частей XML.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

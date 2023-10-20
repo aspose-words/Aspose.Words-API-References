@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPartSavingArgs свойство. Получает или задает имя файла без пути в котором будет сохранена часть документа.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words для .NET
+description: DocumentPartSavingArgs DocumentPartFileName свойство. Получает или задает имя файла без пути в котором будет сохранена часть документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
 public string DocumentPartFileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет переопределить способ создания имен файлов частей документа во время экспорта в HTML или EPUB.
 
@@ -22,7 +24,7 @@ public string DocumentPartFileName { get; set; }
 
 `DocumentPartFileName` должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения по имени файла документа. Если имя файла выходного документа не указано, например, при сохранении в поток, это имя файла используется только для ссылки на части документа. То же самое справедливо и при сохранении в формате EPUB.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Смотрите также
 
 * class [DocumentPartSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../documentpartsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

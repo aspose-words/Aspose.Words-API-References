@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageType
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает тип изображения.
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words для .NET
+description: ImageData ImageType свойство. Получает тип изображения на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/imagedata/imagetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagedata/imagetype/
 public ImageType ImageType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
 
@@ -46,7 +48,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../imagetype/)
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

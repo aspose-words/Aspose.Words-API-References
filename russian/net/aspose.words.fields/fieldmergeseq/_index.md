@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeSeq
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldMergeSeq сорт. Реализует поле MERGESEQ.
+title: FieldMergeSeq Class
+linktitle: FieldMergeSeq
+articleTitle: FieldMergeSeq
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldMergeSeq сорт. Реализует поле MERGESEQ на С#.
 type: docs
 weight: 2170
 url: /ru/net/aspose.words.fields/fieldmergeseq/
@@ -42,17 +44,17 @@ public class FieldMergeSeq : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 На данный момент поля MERGEREC и MERGESEQ реализуют одинаковую функциональность, поскольку мы точно не знаем , как пропускать записи в Aspose.Words mail merge.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MERGEREC и MERGESEQ для подсчета количества записей слияния в выходных документах слияния.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

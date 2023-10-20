@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooterCollection метод. Копирует всеЗаголовокФоортер s из коллекции в новый массивЗаголовокФоортер s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: HeaderFooterCollection ToArray метод. Копирует всеЗаголовокФоортер s из коллекции в новый массивЗаголовокФоортер s на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 Массив`ЗаголовокФоортер`с.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* пространство имен [Aspose.Words](../../headerfootercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

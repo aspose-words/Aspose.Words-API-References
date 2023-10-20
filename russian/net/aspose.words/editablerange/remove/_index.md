@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRange метод. Удаляет редактируемый диапазон из документа. Не удаляет содержимое внутри редактируемого диапазона.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: EditableRange Remove метод. Удаляет редактируемый диапазон из документа. Не удаляет содержимое внутри редактируемого диапазона на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/editablerange/remove/
 public void Remove()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Смотрите также
 
 * class [EditableRange](../)
-* пространство имен [Aspose.Words](../../editablerange/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

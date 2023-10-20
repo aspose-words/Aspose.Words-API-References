@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TabPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или устанавливает позицию табуляции в пунктах для уровня списка.
+linktitle: TabPosition
+articleTitle: TabPosition
+second_title: Aspose.Words для .NET
+description: ListLevel TabPosition свойство. Возвращает или устанавливает позицию табуляции в пунктах для уровня списка на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.lists/listlevel/tabposition/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/tabposition/
 public double TabPosition { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Имеет эффект только тогда, когда[`TrailingCharacter`](../trailingcharacter/) это вкладка.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

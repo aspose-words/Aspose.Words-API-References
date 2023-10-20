@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.UserName
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureTimestampSettings свойство. Имя пользователя сервера меток времени.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureTimestampSettings UserName свойство. Имя пользователя сервера меток времени на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
 public string UserName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой` .
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Смотрите также
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

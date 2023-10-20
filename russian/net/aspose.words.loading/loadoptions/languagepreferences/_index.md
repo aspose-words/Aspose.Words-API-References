@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LanguagePreferences
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает языковые настройки которые будут использоваться при загрузке документа.
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words для .NET
+description: LoadOptions LanguagePreferences свойство. Получает языковые настройки которые будут использоваться при загрузке документа на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.loading/loadoptions/languagepreferences/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/loadoptions/languagepreferences/
 public LanguagePreferences LanguagePreferences { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить языковые настройки при загрузке документа.
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * class [LanguagePreferences](../../languagepreferences/)
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

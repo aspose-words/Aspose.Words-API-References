@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAsk свойство. Получает или задает имя закладки.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldAsk BookmarkName свойство. Получает или задает имя закладки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldask/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldask/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldAsk](../)
-* пространство имен [Aspose.Words.Fields](../../fieldask/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

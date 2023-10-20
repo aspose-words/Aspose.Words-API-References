@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ конца поля MS Word char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: Aspose.Words для .NET
+description: ControlChar FieldEndChar поле. Символ конца поля MS Word char21 на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/fieldendchar/
 public const char FieldEndChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

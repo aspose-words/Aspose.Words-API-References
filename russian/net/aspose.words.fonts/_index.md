@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts Пространство имен предоставляет классы и перечисления для доступа к информации о шрифтах  используемых в документе.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts Пространство имен предоставляет классы и перечисления для доступа к информации о шрифтах  используемых в документе на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fonts/
@@ -39,5 +41,3 @@ url: /ru/net/aspose.words.fonts/
 | [FontFamily](./fontfamily/) | Представляет семейство шрифтов. |
 | [FontPitch](./fontpitch/) | Обозначает шаг шрифта. |
 | [FontSourceType](./fontsourcetype/) | Указывает тип источника шрифта. |
-
-

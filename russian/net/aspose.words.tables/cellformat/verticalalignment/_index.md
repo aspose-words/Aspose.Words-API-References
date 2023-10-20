@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает вертикальное выравнивание текста в ячейке.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words для .NET
+description: CellFormat VerticalAlignment свойство. Возвращает или задает вертикальное выравнивание текста в ячейке на С#.
 type: docs
-weight: 120
+weight: 110
 url: /ru/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/verticalalignment/
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать таблицу с настраиваемыми границами.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

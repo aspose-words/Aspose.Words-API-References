@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagCollection свойство. Возвращает тег структурированного документа по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagCollection Item свойство. Возвращает тег структурированного документа по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/item/
@@ -22,7 +24,5 @@ public IStructuredDocumentTag this[int index] { get; }
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

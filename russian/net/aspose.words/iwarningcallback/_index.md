@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.IWarningCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы ваш собственный метод вызывался для захвата предупреждений о потере точности воспроизведения которые могут возникнуть во время загрузки или сохранения документа.
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.IWarningCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы ваш собственный метод вызывался для захвата предупреждений о потере точности воспроизведения которые могут возникнуть во время загрузки или сохранения документа на С#.
 type: docs
 weight: 3210
 url: /ru/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words вызывает этот метод, когда сталкивается с какой-либо проблемой во время загрузки или сохранения документа , которая может привести к потере форматирования или точности данных. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words вызывает этот метод, когда сталкивается с какой-либо проблемой во время загрузки или сохранения документа , которая может привести к потере форматирования или точности данных. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о подмене шрифтов.
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

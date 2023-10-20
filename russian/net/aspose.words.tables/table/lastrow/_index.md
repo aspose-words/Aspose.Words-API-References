@@ -1,7 +1,9 @@
 ---
 title: Table.LastRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Возвращает последнийRow узел в таблице.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words для .NET
+description: Table LastRow свойство. Возвращает последнийRow узел в таблице на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.tables/table/lastrow/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/lastrow/
 public Row LastRow { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить первую и последнюю строки всех таблиц в документе.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [Row](../../row/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

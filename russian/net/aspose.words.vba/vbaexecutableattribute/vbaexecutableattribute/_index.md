@@ -1,7 +1,9 @@
 ---
-title: VbaExecutableAttribute.VbaExecutableAttribute
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaExecutableAttribute строитель. Конструктор по умолчанию.
+title: VbaExecutableAttribute
+linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
+second_title: Aspose.Words для .NET
+description: VbaExecutableAttribute строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbaexecutableattribute/vbaexecutableattribute/
@@ -17,7 +19,5 @@ public VbaExecutableAttribute()
 ### Смотрите также
 
 * class [VbaExecutableAttribute](../)
-* пространство имен [Aspose.Words.Vba](../../vbaexecutableattribute/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

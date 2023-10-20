@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает расширение файла предложенное для текущего внедренного объекта если вы хотите сохранить его в файл.
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: Aspose.Words для .NET
+description: OleFormat SuggestedExtension свойство. Получает расширение файла предложенное для текущего внедренного объекта если вы хотите сохранить его в файл на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/suggestedextension/
 public string SuggestedExtension { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает в каком формате метафайлы сохраняются при экспорте в HTML MHTML или EPUB. Значение по умолчаниюPng  что означает что метафайлы преобразуются в растровые изображения PNG.
+linktitle: MetafileFormat
+articleTitle: MetafileFormat
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions MetafileFormat свойство. Указывает в каком формате метафайлы сохраняются при экспорте в HTML MHTML или EPUB. Значение по умолчаниюPng  что означает что метафайлы преобразуются в растровые изображения PNG на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words.saving/htmlsaveoptions/metafileformat/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 public HtmlMetafileFormat MetafileFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Метафайлы не отображаются в HTML-браузерах изначально. По умолчанию Aspose.Words преобразует изображения WMF и EMF в файлы PNG при экспорте в HTML. Другие варианты — преобразовать метафайлы в изображения SVG или экспортировать их в исходное состояние без преобразования.
 
 Некоторые преобразования изображений, в частности обрезка изображений, не будут применяться к изображениям метафайлов, если они экспортируются в HTML без преобразования.
 
-### Примеры
+## Примеры
 
 Показывает, как конвертировать объекты SVG в другой формат при сохранении HTML-документов.
 
@@ -82,7 +84,5 @@ switch (htmlMetafileFormat)
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * enum [HtmlMetafileFormat](../../htmlmetafileformat/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

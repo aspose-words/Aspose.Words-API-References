@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldChar свойство. Получает или устанавливает является ли текущий результат поля более неправильным устаревшим изза других изменений  внесенных в документ.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words для .NET
+description: FieldChar IsDirty свойство. Получает или устанавливает является ли текущий результат поля более неправильным устаревшим изза других изменений  внесенных в документ на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldchar/isdirty/
 public bool IsDirty { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с узлом FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Смотрите также
 
 * class [FieldChar](../)
-* пространство имен [Aspose.Words.Fields](../../fieldchar/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

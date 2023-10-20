@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Tables
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables пространство имен содержит классы которые представляют таблицы строки ячейки и их форматирование.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables пространство имен содержит классы которые представляют таблицы строки ячейки и их форматирование на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.tables/
@@ -32,5 +34,3 @@ url: /ru/net/aspose.words.tables/
 | [TableAlignment](./tablealignment/) | Задает выравнивание встроенной таблицы. |
 | [TableStyleOptions](./tablestyleoptions/) | Указывает, как стиль таблицы применяется к таблице. |
 | [TextWrapping](./textwrapping/) | Указывает, как текст обтекает таблицу. |
-
-

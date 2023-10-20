@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Указывает как эта ось пересекает перпендикулярную ось.
+linktitle: Crosses
+articleTitle: Crosses
+second_title: Aspose.Words для .NET
+description: ChartAxis Crosses свойство. Указывает как эта ось пересекает перпендикулярную ось на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/crosses/
 public AxisCrosses Crosses { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Automatic.
 
 Это свойство не поддерживается новыми диаграммами MS Office 2016.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

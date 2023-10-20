@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: CustomPartCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/custompartcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/custompartcollection/getenumerator/
 public IEnumerator<CustomPart> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE по расширению файла.
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertOleObjectAsIcon метод. Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE по расширению файла на С#.
 type: docs
-weight: 410
+weight: 400
 url: /ru/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE по расширению файла.
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить объект OLE в документ.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE, используя заданный параметр progID.
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ внедренный или связанный объект OLE в виде значка.
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 Вставляет внедренный объект OLE в виде значка из потока в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE, используя заданный параметр progID.
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ внедренный или связанный объект OLE в виде значка.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

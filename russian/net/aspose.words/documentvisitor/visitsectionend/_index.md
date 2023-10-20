@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSectionEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление раздела завершено.
+linktitle: VisitSectionEnd
+articleTitle: VisitSectionEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitSectionEnd метод. Вызывается когда перечисление раздела завершено на С#.
 type: docs
 weight: 370
 url: /ru/net/aspose.words/documentvisitor/visitsectionend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSectionEnd(Section section)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

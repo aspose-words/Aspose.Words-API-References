@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonExpression свойство. Получает оператор сравнения.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words для .NET
+description: ComparisonExpression ComparisonOperator свойство. Получает оператор сравнения на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/comparisonexpression/comparisonoperator/
 public string ComparisonOperator { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Смотрите также
 
 * class [ComparisonExpression](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonexpression/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

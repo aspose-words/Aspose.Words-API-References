@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.Save
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase метод. Преобразует форму в изображение и сохраняет в файл.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words для .NET
+description: NodeRendererBase Save метод. Преобразует форму в изображение и сохраняет в файл на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.rendering/noderendererbase/save/
 ---
-## Save(string, ImageSaveOptions) {#save_1}
+## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_1}
 
 Преобразует форму в изображение и сохраняет в файл.
 
@@ -19,7 +21,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | fileName | String | Имя файла изображения. Если файл с указанным именем уже существует, существующий файл перезаписывается. |
 | saveOptions | ImageSaveOptions | Указывает параметры, управляющие отрисовкой и сохранением фигуры. Возможно`нулевой`. |
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать объект Office Math в файл изображения в локальной файловой системе.
 
@@ -42,12 +44,12 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, ImageSaveOptions) {#save}
+## Save(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save}
 
 Преобразует фигуру в изображение и сохраняет в поток.
 
@@ -60,7 +62,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | stream | Stream | Поток, в котором сохраняется изображение фигуры. |
 | saveOptions | ImageSaveOptions | Указывает параметры, управляющие отрисовкой и сохранением фигуры. Возможно`нулевой` . Если это`нулевой`, изображение будет сохранено в формате PNG. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать средство рендеринга фигур для экспорта фигур в файлы в локальной файловой системе.
 
@@ -86,7 +88,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

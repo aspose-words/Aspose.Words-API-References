@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает конкретный набор данных к которому должен быть подключен источник внутри внешнего источника данных. Значение по умолчанию  пустая строка.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words для .NET
+description: Odso TableName свойство. Указывает конкретный набор данных к которому должен быть подключен источник внутри внешнего источника данных. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odso/tablename/
 public string TableName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

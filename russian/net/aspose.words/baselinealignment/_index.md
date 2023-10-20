@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BaselineAlignment перечисление. Определяет вертикальное положение шрифтов в строке.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BaselineAlignment перечисление. Определяет вертикальное положение шрифтов в строке на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | Выравнивается по нижней части каждого шрифта. |
 | Auto | `4` | Базовая линия корректируется автоматически. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить вертикальное положение шрифтов в строке.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.CustomDocumentProperties
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращает коллекцию которая представляет все пользовательские свойства документа.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words для .NET
+description: Document CustomDocumentProperties свойство. Возвращает коллекцию которая представляет все пользовательские свойства документа на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/document/customdocumentproperties/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/customdocumentproperties/
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

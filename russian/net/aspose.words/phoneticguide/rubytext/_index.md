@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Справочник по API Aspose.Words для .NET
-description: PhoneticGuide свойство. Получает рубиновый текст фонетического руководства.
+linktitle: RubyText
+articleTitle: RubyText
+second_title: Aspose.Words для .NET
+description: PhoneticGuide RubyText свойство. Получает рубиновый текст фонетического руководства на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/phoneticguide/rubytext/
 public string RubyText { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства фонетического справочника.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Смотрите также
 
 * class [PhoneticGuide](../)
-* пространство имен [Aspose.Words](../../phoneticguide/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

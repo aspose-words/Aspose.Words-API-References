@@ -1,7 +1,9 @@
 ---
-title: Enum ReportBuildOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.ReportBuildOptions перечисление. Определяет параметры управляющие поведениемReportingEngine при построении отчета.
+title: ReportBuildOptions Enum
+linktitle: ReportBuildOptions
+articleTitle: ReportBuildOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.ReportBuildOptions перечисление. Определяет параметры управляющие поведениемReportingEngine при построении отчета на С#.
 type: docs
 weight: 4720
 url: /ru/net/aspose.words.reporting/reportbuildoptions/
@@ -30,5 +32,3 @@ public enum ReportBuildOptions
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

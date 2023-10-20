@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotSuppressIndentation
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не игнорировать плавающие объекты при расчете отступа абзаца.
+linktitle: DoNotSuppressIndentation
+articleTitle: DoNotSuppressIndentation
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DoNotSuppressIndentation свойство. Не игнорировать плавающие объекты при расчете отступа абзаца на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/
@@ -17,7 +19,5 @@ public bool DoNotSuppressIndentation { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

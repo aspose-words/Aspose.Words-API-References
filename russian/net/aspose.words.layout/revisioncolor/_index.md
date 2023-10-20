@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.RevisionColor перечисление. Позволяет указать цвет редакций документа.
+title: RevisionColor Enum
+linktitle: RevisionColor
+articleTitle: RevisionColor
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.RevisionColor перечисление. Позволяет указать цвет редакций документа на С#.
 type: docs
 weight: 3380
 url: /ru/net/aspose.words.layout/revisioncolor/
@@ -40,7 +42,7 @@ public enum RevisionColor
 | NoHighlight | `19` | Для выделения изменений версии цвет не используется. |
 | ByAuthor | `20` | Редакции каждого автора получают свой цвет для выделения из заранее заданного набора высококонтрастных цветов. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

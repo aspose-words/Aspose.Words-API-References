@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает тип поля текстовой формы.
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: Aspose.Words для .NET
+description: FormField TextInputType свойство. Получает или задает тип поля текстовой формы на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/textinputtype/
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

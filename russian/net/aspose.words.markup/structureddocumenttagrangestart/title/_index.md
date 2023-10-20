@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Указывает понятное имя связанное с этим тегом структурированного документа. Не может бытьнулевой .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart Title свойство. Указывает понятное имя связанное с этим тегом структурированного документа. Не может бытьнулевой  на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/title/
 public string Title { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

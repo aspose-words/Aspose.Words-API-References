@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartTitle сорт. Предоставляет доступ к свойствам заголовка диаграммы.
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartTitle сорт. Предоставляет доступ к свойствам заголовка диаграммы на С#.
 type: docs
 weight: 820
 url: /ru/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | Имя | Описание |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию наложение установлено.`ЛОЖЬ` . |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Определяет, будет ли отображаться заголовок для этой диаграммы. Значение по умолчанию:`истинный` . |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Получает или задает текст заголовка диаграммы. Если`нулевой` или указано пустое значение, будет показан автоматически сгенерированный заголовок. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и задать заголовок.
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

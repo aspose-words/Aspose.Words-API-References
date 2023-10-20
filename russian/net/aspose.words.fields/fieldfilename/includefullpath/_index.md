@@ -1,7 +1,9 @@
 ---
 title: FieldFileName.IncludeFullPath
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFileName свойство. Получает или задает необходимость включения полного пути к файлу.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words для .NET
+description: FieldFileName IncludeFullPath свойство. Получает или задает необходимость включения полного пути к файлу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldfilename/includefullpath/
 public bool IncludeFullPath { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать FieldOptions для переопределения значения по умолчанию для поля FILENAME.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Смотрите также
 
 * class [FieldFileName](../)
-* пространство имен [Aspose.Words.Fields](../../fieldfilename/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

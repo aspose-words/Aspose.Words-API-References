@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.IgnorePrinterMetrics
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или задает индикатор того игнорируется ли параметр совместимости Использовать метрики принтера для макета документа. Значение по умолчанию истинный .
+linktitle: IgnorePrinterMetrics
+articleTitle: IgnorePrinterMetrics
+second_title: Aspose.Words для .NET
+description: LayoutOptions IgnorePrinterMetrics свойство. Получает или задает индикатор того игнорируется ли параметр совместимости Использовать метрики принтера для макета документа. Значение по умолчанию истинный  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 public bool IgnorePrinterMetrics { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как игнорировать параметр «Использовать показатели принтера для компоновки документа».
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Document.IgnorePrinterMetrics.docx");
 ### Смотрите также
 
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает количество строк которые необходимо включить в группировку когда стиль определяет нечетную/четную группировку строк.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words для .NET
+description: TableStyle RowStripe свойство. Получает или задает количество строк которые необходимо включить в группировку когда стиль определяет нечетную/четную группировку строк на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tablestyle/rowstripe/
 public int RowStripe { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать стили условных таблиц, которые чередуются между строками.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Смотрите также
 
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

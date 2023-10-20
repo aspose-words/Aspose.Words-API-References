@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacingIsAuto
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает флаг указывающий следует ли использовать автоматический интервал рисования меток делений.
+linktitle: TickLabelSpacingIsAuto
+articleTitle: TickLabelSpacingIsAuto
+second_title: Aspose.Words для .NET
+description: ChartAxis TickLabelSpacingIsAuto свойство. Получает или задает флаг указывающий следует ли использовать автоматический интервал рисования меток делений на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
 public bool TickLabelSpacingIsAuto { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный`.
 
 Свойство действует для осей текстовых категорий и рядов. Он не поддерживается новыми диаграммами MS Office 2016 .
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

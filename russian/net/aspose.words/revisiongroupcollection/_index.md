@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroupCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RevisionGroupCollection сорт. КоллекцияRevisionGroup объекты которые представляют группы редакций в документе.
+title: RevisionGroupCollection Class
+linktitle: RevisionGroupCollection
+articleTitle: RevisionGroupCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.RevisionGroupCollection сорт. КоллекцияRevisionGroup объекты которые представляют группы редакций в документе на С#.
 type: docs
 weight: 4790
 url: /ru/net/aspose.words/revisiongroupcollection/
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примечания
+## Примечания
 
 Вы не создаете экземпляры этого класса напрямую. Использовать[`Groups`](../revisioncollection/groups/) Свойство для получения групп редакций, присутствующих в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как получить группу редакций в документе.
 
@@ -62,5 +64,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 * class [RevisionGroup](../revisiongroup/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

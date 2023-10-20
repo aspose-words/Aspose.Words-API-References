@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveLastChild
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator метод. Переход к последнему дочернему объекту.
+linktitle: MoveLastChild
+articleTitle: MoveLastChild
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator MoveLastChild метод. Переход к последнему дочернему объекту на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.layout/layoutenumerator/movelastchild/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/movelastchild/
 public bool MoveLastChild()
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldAddressBlock
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAddressBlock сорт. Реализует поле ADDRESSBLOCK.
+title: FieldAddressBlock Class
+linktitle: FieldAddressBlock
+articleTitle: FieldAddressBlock
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldAddressBlock сорт. Реализует поле ADDRESSBLOCK на С#.
 type: docs
 weight: 1530
 url: /ru/net/aspose.words.fields/fieldaddressblock/
@@ -47,18 +49,18 @@ public class FieldAddressBlock : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [GetFieldNames](../../aspose.words.fields/fieldaddressblock/getfieldnames/)() | Возвращает коллекцию имен полей слияния почты, используемых этим полем. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Представляет блок адреса. Анадресный блокпредставляет собой блок текста, определяющий information , соответствующий почтовому адресу, в порядке, требуемом страной назначения.
 
-### Примеры
+## Примеры
 
 Показывает, как получить имена полей слияния почты, используемые полем.
 
@@ -80,5 +82,3 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

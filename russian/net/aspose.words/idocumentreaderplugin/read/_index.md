@@ -1,7 +1,9 @@
 ---
 title: IDocumentReaderPlugin.Read
-second_title: Справочник по API Aspose.Words для .NET
-description: IDocumentReaderPlugin метод. Считывает данные из указанного потока вDocument экземпляр.
+linktitle: Read
+articleTitle: Read
+second_title: Aspose.Words для .NET
+description: IDocumentReaderPlugin Read метод. Считывает данные из указанного потока вDocument экземпляр на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/idocumentreaderplugin/read/
@@ -25,7 +27,5 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../../document/)
 * interface [IDocumentReaderPlugin](../)
-* пространство имен [Aspose.Words](../../idocumentreaderplugin/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

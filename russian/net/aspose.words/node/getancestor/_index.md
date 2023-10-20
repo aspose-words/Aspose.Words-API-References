@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Получает первого предка указанного типа объекта.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words для .NET
+description: Node GetAncestor метод. Получает первого предка указанного типа объекта на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Получает первого предка указанного типа объекта.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 Предок указанного типа или`нулевой` если предок этого типа не был найден.
 
-### Примечания
+## Примечания
 
 Тип предка соответствует, если он равен*ancestorType* или получено из*ancestorType*.
 
-### Примеры
+## Примеры
 
 Показывает, как узнать, являются ли таблицы вложенными.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Получает первого предка указанного[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 Предок указанного типа или`нулевой` если предок этого типа не был найден.
 
-### Примеры
+## Примеры
 
 Показывает, как узнать, являются ли таблицы вложенными.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

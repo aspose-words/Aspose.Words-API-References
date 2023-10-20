@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Справочник по API Aspose.Words для .NET
-description: Body свойство. Получает родительский раздел этой статьи.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words для .NET
+description: Body ParentSection свойство. Получает родительский раздел этой статьи на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/body/parentsection/
 public Section ParentSection { get; }
 ```
 
-### Примечания
+## Примечания
 
 `ParentSection` эквивалентно[`ParentNode`](../../node/parentnode/) брошен в[`Section`](../../section/).
 
-### Примеры
+## Примеры
 
 Показывает, как сохранять концевые сноски в конце каждого раздела и изменять их положение.
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* пространство имен [Aspose.Words](../../body/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

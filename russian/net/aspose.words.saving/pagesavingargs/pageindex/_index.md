@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSavingArgs свойство. Индекс текущей страницы.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words для .NET
+description: PageSavingArgs PageIndex свойство. Индекс текущей страницы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pagesavingargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Смотрите также
 
 * class [PageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../pagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

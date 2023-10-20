@@ -1,7 +1,9 @@
 ---
-title: Class KnownTypeSet
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.KnownTypeSet сорт. Представляет неупорядоченный набор т. е. коллекцию уникальных элементов содержащийType объекты  полные или частичные имена которых можно использовать в шаблонах отчетов для вызова статических членов соответствующих типов  выполнения приведения типов и т. д.
+title: KnownTypeSet Class
+linktitle: KnownTypeSet
+articleTitle: KnownTypeSet
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.KnownTypeSet сорт. Представляет неупорядоченный набор т. е. коллекцию уникальных элементов содержащийType объекты  полные или частичные имена которых можно использовать в шаблонах отчетов для вызова статических членов соответствующих типов  выполнения приведения типов и т. д на С#.
 type: docs
 weight: 4710
 url: /ru/net/aspose.words.reporting/knowntypeset/
@@ -26,14 +28,12 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях: |
+| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | Удаляет все элементы из набора. |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | ВозвращаетIEnumerator объект для перебора элементов набора. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Удаляет указанныйTypeпредмет из набора. БроскиArgumentException if *type* является`нулевой` . |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | Удаляет указанныйTypeпредмет из набора. БроскиArgumentException if *type* является`нулевой` . |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

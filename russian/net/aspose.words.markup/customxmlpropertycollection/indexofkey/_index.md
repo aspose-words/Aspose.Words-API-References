@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection метод. Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection IndexOfKey метод. Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: PageSet.PageSet
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSet строитель. Создает одностраничный набор на основе точного индекса страниц.
+title: PageSet
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words для .NET
+description: PageSet строитель. Создает одностраничный набор на основе точного индекса страниц на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet(*int*) {#constructor_1}
 
 Создает одностраничный набор на основе точного индекса страниц.
 
@@ -18,19 +20,19 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Индекс страницы, начинающийся с нуля. |
 
-### Примечания
+## Примечания
 
 Если встречается страница, которой нет в документе, во время рендеринга будет выдано исключение. MaxValue означает последнюю страницу документа.
 
 ### Смотрите также
 
 * class [PageSet](../)
-* пространство имен [Aspose.Words.Saving](../../pageset/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet(*params int[]*) {#constructor_2}
 
 Создает набор страниц на основе точных индексов страниц.
 
@@ -42,11 +44,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Индексы страниц начинаются с нуля. |
 
-### Примечания
+## Примечания
 
 Если встречается страница, которой нет в документе, во время рендеринга будет выдано исключение. MaxValue означает последнюю страницу документа.
 
-### Примеры
+## Примеры
 
 Показывает, как извлекать страницы на основе точных индексов страниц.
 
@@ -75,12 +77,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### Смотрите также
 
 * class [PageSet](../)
-* пространство имен [Aspose.Words.Saving](../../pageset/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet(*params PageRange[]*) {#constructor}
 
 Создает набор страниц на основе диапазонов.
 
@@ -92,11 +94,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Массив диапазонов страниц. |
 
-### Примечания
+## Примечания
 
 Если обнаружен диапазон, который начинается после последней страницы документа, во время рендеринга будет выдано исключение. Все диапазоны, заканчивающиеся после последней страницы, усекаются, чтобы соответствовать размеру документа.
 
-### Примеры
+## Примеры
 
 Показывает, как извлекать страницы на основе точных диапазонов страниц.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* пространство имен [Aspose.Words.Saving](../../pageset/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

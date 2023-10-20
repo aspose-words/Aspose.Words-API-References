@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Выполняет слияние почты из объекта набора записей ADO в документ с областями слияния почты.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words для .NET
+description: MailMerge ExecuteWithRegionsADO метод. Выполняет слияние почты из объекта набора записей ADO в документ с областями слияния почты на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | Набор записей ADO или объект записи. |
 | tableName | String | Имя региона слияния почты в заполняемом документе. |
 
-### Примечания
+## Примечания
 
 Этот метод полезен, если вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, например приложения, созданного с использованием ASP или Visual Basic 6.0.
 
 Более подробную информацию смотрите в описании[`ExecuteWithRegions`](../executewithregions/).
 
-### Примеры
+## Примеры
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Обеспечивает типизированный доступ кCell дочерние узлы строки.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words для .NET
+description: Row Cells свойство. Обеспечивает типизированный доступ кCell дочерние узлы строки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/row/cells/
 public CellCollection Cells { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

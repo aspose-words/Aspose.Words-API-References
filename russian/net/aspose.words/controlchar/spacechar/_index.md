@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SpaceChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ пробела char32.
+linktitle: SpaceChar
+articleTitle: SpaceChar
+second_title: Aspose.Words для .NET
+description: ControlChar SpaceChar поле. Символ пробела char32 на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/controlchar/spacechar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/spacechar/
 public const char SpaceChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

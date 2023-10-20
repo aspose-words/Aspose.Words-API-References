@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextBoxAnchor перечисление. Указывает значения используемые для вертикального выравнивания текста фигуры.
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.TextBoxAnchor перечисление. Указывает значения используемые для вертикального выравнивания текста фигуры на С#.
 type: docs
 weight: 1330
 url: /ru/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Текст выравнивается по центральной верхней базовой линии текстового поля. |
 | BottomCenteredBaseline | `9` | Текст выравнивается по нижней центральной базовой линии текстового поля. |
 
-### Примеры
+## Примеры
 
 Показывает, как выровнять текстовое содержимое текстового поля по вертикали.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

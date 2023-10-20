@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает или задает имя стиля.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: Style Name свойство. Получает или задает имя стиля на С#.
 type: docs
-weight: 130
+weight: 120
 url: /ru/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/style/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть пустой строки.
 
 Если в коллекции уже есть стиль с таким именем, то этот стиль его переопределит. Все затронутые узлы будут ссылаться на новый стиль.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

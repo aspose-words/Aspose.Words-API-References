@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark2
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цвет Темный 2.
+linktitle: Dark2
+articleTitle: Dark2
+second_title: Aspose.Words для .NET
+description: ThemeColors Dark2 свойство. Определяет цвет Темный 2 на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.themes/themecolors/dark2/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/dark2/
 public Color Dark2 { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

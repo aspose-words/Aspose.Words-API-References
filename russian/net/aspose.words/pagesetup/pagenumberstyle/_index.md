@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает формат номера страницы.
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: Aspose.Words для .NET
+description: PageSetup PageNumberStyle свойство. Получает или задает формат номера страницы на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/pagenumberstyle/
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить нумерацию страниц в разделе.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

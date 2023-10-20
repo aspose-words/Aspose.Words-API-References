@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Story свойство. Получает первый абзац статьи.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words для .NET
+description: Story FirstParagraph свойство. Получает первый абзац статьи на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/story/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

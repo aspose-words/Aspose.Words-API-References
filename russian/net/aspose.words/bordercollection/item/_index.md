@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. ПолучаетBorder объект по типу границы.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: BorderCollection Item свойство. ПолучаетBorder объект по типу границы на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | А[`BorderType`](../../bordertype/) value , указывающее тип извлекаемой границы. |
 
-### Примечания
+## Примечания
 
 Обратите внимание, что не все границы присутствуют для разных элементов документа. Этот метод генерирует исключение, если вы запрашиваете границу, неприменимую к текущему объекту.
 
-### Примеры
+## Примеры
 
 Показывает, как украшать текст границами и заливкой.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Индекс границы, начинающийся с нуля, для получения. |
 
-### Примеры
+## Примеры
 
 Показывает, как коллекции границ могут совместно использовать элементы.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

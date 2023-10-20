@@ -1,7 +1,9 @@
 ---
-title: Class FieldPrintDate
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldPrintDate сорт. Реализует поле PRINTDATE.
+title: FieldPrintDate Class
+linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldPrintDate сорт. Реализует поле PRINTDATE на С#.
 type: docs
 weight: 2290
 url: /ru/net/aspose.words.fields/fieldprintdate/
@@ -45,17 +47,17 @@ public class FieldPrintDate : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Получает дату и время последней печати документа. По умолчанию используется григорианский календарь.
 
-### Примеры
+## Примеры
 
 Показывает прочитанные поля PRINTDATE.
 
@@ -99,5 +101,3 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

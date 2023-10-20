@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает масштаб ширины символов в процентах.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words для .NET
+description: Font Scaling свойство. Получает или задает масштаб ширины символов в процентах на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/scaling/
 public int Scaling { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить горизонтальное масштабирование и интервал для символов.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

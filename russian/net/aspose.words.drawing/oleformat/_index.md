@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.OleFormat сорт. Обеспечивает доступ к данным объекта OLE или элемента управления ActiveX.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.OleFormat сорт. Обеспечивает доступ к данным объекта OLE или элемента управления ActiveX на С#.
 type: docs
 weight: 1150
 url: /ru/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | Имя | Описание |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Получает запись данных объекта OLE. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Получает запись данных объекта OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Получает необработанные данные объекта OLE. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Сохраняет данные внедренного объекта в указанный поток. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Сохраняет данные внедренного объекта в файл с указанным именем. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Сохраняет данные внедренного объекта в указанный поток. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Сохраняет данные внедренного объекта в файл с указанным именем. |
 
-### Примечания
+## Примечания
 
 Использовать[`OleFormat`](../shape/oleformat/)свойство для доступа к данным объекта OLE. Вы не создаете экземпляры`OleFormat` класс напрямую.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

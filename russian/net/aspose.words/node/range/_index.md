@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. ВозвращаетRange объект представляющий часть документа содержащуюся в этом узле.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words для .NET
+description: Node Range свойство. ВозвращаетRange объект представляющий часть документа содержащуюся в этом узле на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/node/range/
 public Range Range { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все узлы из диапазона.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

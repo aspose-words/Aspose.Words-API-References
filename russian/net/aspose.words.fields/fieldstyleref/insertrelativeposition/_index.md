@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertRelativePosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldStyleRef свойство. Получает или задает следует ли вставлять относительную позицию абзаца на который указывает ссылка.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words для .NET
+description: FieldStyleRef InsertRelativePosition свойство. Получает или задает следует ли вставлять относительную позицию абзаца на который указывает ссылка на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Смотрите также
 
 * class [FieldStyleRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldstyleref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

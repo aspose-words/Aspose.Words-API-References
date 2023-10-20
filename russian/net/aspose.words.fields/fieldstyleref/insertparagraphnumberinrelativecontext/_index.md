@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInRelativeContext
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldStyleRef свойство. Получает или задает следует ли вставлять номер абзаца на который имеется ссылка в относительном контексте.
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: Aspose.Words для .NET
+description: FieldStyleRef InsertParagraphNumberInRelativeContext свойство. Получает или задает следует ли вставлять номер абзаца на который имеется ссылка в относительном контексте на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativeco
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Смотрите также
 
 * class [FieldStyleRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldstyleref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

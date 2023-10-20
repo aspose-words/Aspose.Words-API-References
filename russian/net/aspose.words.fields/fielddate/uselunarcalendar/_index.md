@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLunarCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDate свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words для .NET
+description: FieldDate UseLunarCalendar свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Смотрите также
 
 * class [FieldDate](../)
-* пространство имен [Aspose.Words.Fields](../../fielddate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

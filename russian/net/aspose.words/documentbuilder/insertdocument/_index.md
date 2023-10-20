@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет документ в позицию курсора.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertDocument метод. Вставляет документ в позицию курсора на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 Вставляет документ в позицию курсора.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Первый узел вставленного контента.
 
-### Примечания
+## Примечания
 
 Этот метод имитирует поведение MS Word, как если бы было нажато CTRL+'A' (выделить все содержимое), затем CTRL+'C' (копировать выбранное в буфер) внутри одного документа , а затем CTRL+'V' (вставить содержимое из буфер) внутри другого документа.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить документ в другой документ.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 Вставляет документ в позицию курсора.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Первый узел вставленного контента.
 
-### Примечания
+## Примечания
 
 Этот метод имитирует поведение MS Word, как если бы было нажато CTRL+'A' (выделить все содержимое), затем CTRL+'C' (копировать выбранное в буфер) внутри одного документа , а затем CTRL+'V' (вставить содержимое из буфер) внутри другого документа.
 
-### Примеры
+## Примеры
 
 Показывает, как устранить повторяющиеся стили при вставке документов.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

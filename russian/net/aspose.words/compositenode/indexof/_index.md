@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.IndexOf
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Возвращает индекс указанного дочернего узла в массиве дочерних узлов.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words для .NET
+description: CompositeNode IndexOf метод. Возвращает индекс указанного дочернего узла в массиве дочерних узлов на С#.
 type: docs
-weight: 140
+weight: 120
 url: /ru/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/compositenode/indexof/
 public int IndexOf(Node child)
 ```
 
-### Примечания
+## Примечания
 
 Возвращает -1, если узел не найден среди дочерних узлов.
 
-### Примеры
+## Примеры
 
 Показывает, как получить индекс данного дочернего узла от его родительского узла.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastPar
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument сорт. Предоставляет реализацию по умолчанию для печатиDocument внутри среды печати .NET.
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument сорт. Предоставляет реализацию по умолчанию для печатиDocument внутри среды печати .NET на С#.
 type: docs
 weight: 4530
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Инициализирует новый экземпляр этого класса. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Считывает и кэширует некоторые поляPrinterSettings для сокращения времени печати. |
 
-### Примечания
+## Примечания
 
 `AsposeWordsPrintDocument` переопределяетPrintEventArgs) для печати диапазона страниц, указанного вPrinterSettings.
 
@@ -47,5 +49,3 @@ Microsoft Word хранит специфичные для принтера зн�
 
 * пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
-
-

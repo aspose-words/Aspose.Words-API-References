@@ -1,7 +1,9 @@
 ---
-title: Class TextWatermarkOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextWatermarkOptions сорт. Содержит параметры которые можно указать при добавлении водяного знака с текстом.
+title: TextWatermarkOptions Class
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TextWatermarkOptions сорт. Содержит параметры которые можно указать при добавлении водяного знака с текстом на С#.
 type: docs
 weight: 6440
 url: /ru/net/aspose.words/textwatermarkoptions/
@@ -36,5 +38,3 @@ public class TextWatermarkOptions
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldUnknown.FieldUnknown
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUnknown строитель. Конструктор по умолчанию.
+title: FieldUnknown
+linktitle: FieldUnknown
+articleTitle: FieldUnknown
+second_title: Aspose.Words для .NET
+description: FieldUnknown строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldunknown/fieldunknown/
@@ -17,7 +19,5 @@ public FieldUnknown()
 ### Смотрите также
 
 * class [FieldUnknown](../)
-* пространство имен [Aspose.Words.Fields](../../fieldunknown/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapDataCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapDataCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

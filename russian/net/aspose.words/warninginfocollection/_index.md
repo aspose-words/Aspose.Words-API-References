@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfoCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WarningInfoCollection сорт. Представляет типизированную коллекциюWarningInfo объекты.
+title: WarningInfoCollection Class
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WarningInfoCollection сорт. Представляет типизированную коллекциюWarningInfo объекты на С#.
 type: docs
 weight: 6640
 url: /ru/net/aspose.words/warninginfocollection/
@@ -35,13 +37,13 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Удаляет все элементы из коллекции. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Реализует[`IWarningCallback`](../iwarningcallback/) интерфейс. Добавляет предупреждение в эту коллекцию. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Реализует[`IWarningCallback`](../iwarningcallback/) интерфейс. Добавляет предупреждение в эту коллекцию. |
 
-### Примечания
+## Примечания
 
 Вы можете использовать этот объект коллекции как простейшую форму[`IWarningCallback`](../iwarningcallback/) реализация для сбора всех предупреждений, которые Aspose.Words генерирует во время операции загрузки или сохранения. Создайте экземпляр этого класса и присвойте ему [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) или[`WarningCallback`](../documentbase/warningcallback/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -104,5 +106,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * interface [IWarningCallback](../iwarningcallback/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

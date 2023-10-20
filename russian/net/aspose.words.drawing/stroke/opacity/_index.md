@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет степень прозрачности обводки. Допустимый диапазон от 0 до 1. .
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words для .NET
+description: Stroke Opacity свойство. Определяет степень прозрачности обводки. Допустимый диапазон от 0 до 1.  на С#.
 type: docs
-weight: 160
+weight: 150
 url: /ru/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/opacity/
 public double Opacity { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

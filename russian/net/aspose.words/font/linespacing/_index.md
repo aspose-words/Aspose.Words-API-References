@@ -1,7 +1,9 @@
 ---
 title: Font.LineSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Возвращает межстрочный интервал этого шрифта в пунктах.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words для .NET
+description: Font LineSpacing свойство. Возвращает межстрочный интервал этого шрифта в пунктах на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/font/linespacing/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/linespacing/
 public double LineSpacing { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить межстрочный интервал шрифта в пунктах.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

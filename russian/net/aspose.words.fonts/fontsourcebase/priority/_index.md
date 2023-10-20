@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Priority
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSourceBase свойство. Возвращает приоритет источника шрифта.
+linktitle: Priority
+articleTitle: Priority
+second_title: Aspose.Words для .NET
+description: FontSourceBase Priority свойство. Возвращает приоритет источника шрифта на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsourcebase/priority/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fonts/fontsourcebase/priority/
 public int Priority { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это значение используется, когда в разных источниках шрифтов имеются шрифты с одинаковым названием и стилем. В этом случае Aspose.Words выбирает шрифт из источника с более высоким значением приоритета.
 
 Значение по умолчанию — 0.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Смотрите также
 
 * class [FontSourceBase](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsourcebase/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

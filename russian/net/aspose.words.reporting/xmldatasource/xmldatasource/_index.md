@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlDataSource строитель. Создает новый источник данных с данными из файла XML используя параметры по умолчанию для загрузки данных XML.
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words для .NET
+description: XmlDataSource строитель. Создает новый источник данных с данными из файла XML используя параметры по умолчанию для загрузки данных XML на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 Создает новый источник данных с данными из файла XML, используя параметры по умолчанию для загрузки данных XML.
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### Смотрите также
 
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 Создает новый источник данных с данными из потока XML, используя параметры по умолчанию для загрузки данных XML.
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### Смотрите также
 
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 Создает новый источник данных с данными из файла XML, используя файл определения схемы XML. Опции по умолчанию используются для загрузки данных XML.
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### Смотрите также
 
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 Создает новый источник данных с данными из потока XML, используя поток определения схемы XML. Опции по умолчанию используются для загрузки данных XML.
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### Смотрите также
 
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 Создает новый источник данных с данными из файла XML, используя указанные параметры загрузки данных XML.
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 Создает новый источник данных с данными из потока XML, используя указанные параметры загрузки данных XML.
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 Создает новый источник данных с данными из файла XML, используя файл определения схемы XML. Указанные параметры используются для загрузки данных XML.
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 Создает новый источник данных с данными из потока XML, используя поток определения схемы XML. Указанные параметры используются для загрузки данных XML.
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../xmldatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

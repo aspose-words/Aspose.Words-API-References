@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: MustacheTag свойство. Получает текст тега.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: MustacheTag Text свойство. Получает текст тега на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mustachetag/text/
 public string Text { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами усов.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Смотрите также
 
 * class [MustacheTag](../)
-* пространство имен [Aspose.Words.MailMerging](../../mustachetag/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

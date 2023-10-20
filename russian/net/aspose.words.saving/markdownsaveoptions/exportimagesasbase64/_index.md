@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ExportImagesAsBase64
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Указывает сохраняются ли изображения в формате Base64 в выходной файл. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportImagesAsBase64
+articleTitle: ExportImagesAsBase64
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions ExportImagesAsBase64 свойство. Указывает сохраняются ли изображения в формате Base64 в выходной файл. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 public bool ExportImagesAsBase64 { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Когда для этого свойства установлено значение`истинный` данные изображений экспортируются непосредственно в **изображение** элементы и отдельные файлы не создаются.
+Когда для этого свойства установлено значение`истинный` данные изображений экспортируются непосредственно в**изображение** элементы и отдельные файлы не создаются.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ .md со встроенными в него изображениями.
 
@@ -39,7 +41,5 @@ Assert.True(exportImagesAsBase64
 ### Смотрите также
 
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

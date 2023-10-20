@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.PostalAddress
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBarcode свойство. Получает или задает почтовый адрес используемый для создания штрихкода или имя закладки которая ссылается на него.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words для .NET
+description: FieldBarcode PostalAddress свойство. Получает или задает почтовый адрес используемый для создания штрихкода или имя закладки которая ссылается на него на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldbarcode/postaladdress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldbarcode/postaladdress/
 public string PostalAddress { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШТРИХ-КОД для отображения почтовых индексов США в виде штрих-кода.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Смотрите также
 
 * class [FieldBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

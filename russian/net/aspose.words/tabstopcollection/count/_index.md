@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection свойство. Получает количество позиций табуляции в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: TabStopCollection Count свойство. Получает количество позиций табуляции в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstopcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

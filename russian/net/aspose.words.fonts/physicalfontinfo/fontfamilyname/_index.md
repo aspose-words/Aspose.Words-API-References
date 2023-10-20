@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Справочник по API Aspose.Words для .NET
-description: PhysicalFontInfo свойство. Фамилия шрифта.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words для .NET
+description: PhysicalFontInfo FontFamilyName свойство. Фамилия шрифта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 public string FontFamilyName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как составить список доступных шрифтов.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Смотрите также
 
 * class [PhysicalFontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../physicalfontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

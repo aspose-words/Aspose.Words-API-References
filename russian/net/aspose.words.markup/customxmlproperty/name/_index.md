@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlProperty свойство. Указывает имя пользовательского атрибута XML или свойства смарттега.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: CustomXmlProperty Name свойство. Указывает имя пользовательского атрибута XML или свойства смарттега на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/customxmlproperty/name/
 public string Name { get; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [CustomXmlProperty](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlproperty/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

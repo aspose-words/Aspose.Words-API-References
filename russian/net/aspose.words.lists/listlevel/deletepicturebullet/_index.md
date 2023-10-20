@@ -1,7 +1,9 @@
 ---
 title: ListLevel.DeletePictureBullet
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel метод. Удаляет графический маркер для текущего уровня списка.
+linktitle: DeletePictureBullet
+articleTitle: DeletePictureBullet
+second_title: Aspose.Words для .NET
+description: ListLevel DeletePictureBullet метод. Удаляет графический маркер для текущего уровня списка на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.lists/listlevel/deletepicturebullet/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/deletepicturebullet/
 public void DeletePictureBullet()
 ```
 
-### Примечания
+## Примечания
 
 После удаления будет показан маркер по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как установить собственный значок изображения для меток элементов списка.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

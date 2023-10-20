@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.ComplexScript
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeFonts свойство. Указывает имя шрифта для символов ComplexScript.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words для .NET
+description: ThemeFonts ComplexScript свойство. Указывает имя шрифта для символов ComplexScript на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.themes/themefonts/complexscript/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themefonts/complexscript/
 public string ComplexScript { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeFonts](../)
-* пространство имен [Aspose.Words.Themes](../../themefonts/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

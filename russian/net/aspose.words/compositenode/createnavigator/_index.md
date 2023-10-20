@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Создает навигатор который можно использовать для перемещения и чтения узлов.
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: Aspose.Words для .NET
+description: CompositeNode CreateNavigator метод. Создает навигатор который можно использовать для перемещения и чтения узлов на С#.
 type: docs
-weight: 90
+weight: 70
 url: /ru/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ url: /ru/net/aspose.words/compositenode/createnavigator/
 public XPathNavigator CreateNavigator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать XPathNavigator, а затем использовать его для перемещения и чтения узлов.
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

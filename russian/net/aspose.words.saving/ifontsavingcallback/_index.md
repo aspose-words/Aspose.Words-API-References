@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.IFontSavingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления и контролировать как Aspose.Words сохраняет шрифты при экспорте документа в формат HTML.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.IFontSavingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления и контролировать как Aspose.Words сохраняет шрифты при экспорте документа в формат HTML на С#.
 type: docs
 weight: 5160
 url: /ru/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Вызывается, когда Aspose.Words собирается сохранить ресурс шрифта. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Вызывается, когда Aspose.Words собирается сохранить ресурс шрифта. |
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

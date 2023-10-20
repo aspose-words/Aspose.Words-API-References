@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.MailMergeRegionInfo сорт. Содержит информацию о регионе слияния почты.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo сорт. Содержит информацию о регионе слияния почты на С#.
 type: docs
 weight: 3860
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Возвращает начальное поле региона. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Возвращает начальный тег «усы» для региона. |
 
-### Примеры
+## Примеры
 
 Показывает, как проверить регионы слияния почты.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

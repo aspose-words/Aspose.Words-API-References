@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

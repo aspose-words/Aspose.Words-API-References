@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.IFieldMergingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как данные вставляются в поля слияния во время операции слияния почты.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как данные вставляются в поля слияния во время операции слияния почты на С#.
 type: docs
 weight: 3790
 url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Вызывается, когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Вызывается, когда механизм слияния почты Aspose.Words собирается вставить изображение в поле слияния. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Вызывается, когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Вызывается, когда механизм слияния почты Aspose.Words собирается вставить изображение в поле слияния. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

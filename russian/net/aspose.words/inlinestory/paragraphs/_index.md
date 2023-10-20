@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Paragraphs
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Получает коллекцию абзацев которые являются непосредственными дочерними элементами истории.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words для .NET
+description: InlineStory Paragraphs свойство. Получает коллекцию абзацев которые являются непосредственными дочерними элементами истории на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/inlinestory/paragraphs/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить комментарий к абзацу.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

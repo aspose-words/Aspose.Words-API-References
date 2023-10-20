@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. Получает или задает направление документа. Значение по умолчаниюLeftToRight .
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words для .NET
+description: TxtLoadOptions DocumentDirection свойство. Получает или задает направление документа. Значение по умолчаниюLeftToRight  на С#.
 type: docs
-weight: 50
+weight: 40
 url: /ru/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/txtloadoptions/documentdirection/
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить направление текста документа в виде открытого текста.
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

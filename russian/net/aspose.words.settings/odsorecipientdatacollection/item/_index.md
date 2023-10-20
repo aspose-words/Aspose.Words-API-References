@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientDataCollection свойство. Получает или задает элемент в этой коллекции.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: OdsoRecipientDataCollection Item свойство. Получает или задает элемент в этой коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsorecipientdatacollection/item/
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

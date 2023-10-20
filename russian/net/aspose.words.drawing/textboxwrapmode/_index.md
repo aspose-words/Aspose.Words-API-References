@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxWrapMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextBoxWrapMode перечисление. Указывает как текст переносится внутри фигуры.
+title: TextBoxWrapMode Enum
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.TextBoxWrapMode перечисление. Указывает как текст переносится внутри фигуры на С#.
 type: docs
 weight: 1340
 url: /ru/net/aspose.words.drawing/textboxwrapmode/
@@ -21,7 +23,7 @@ public enum TextBoxWrapMode
 | Square | `0` | Текст переносится внутри фигуры. |
 | None | `2` | Текст не переносится внутри фигуры. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить режим переноса содержимого текстового поля.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

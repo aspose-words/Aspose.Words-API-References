@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlLoadOptions свойство. Получает или задает предпочтительный тип узлов документа которые будут представлять импортированные элементы input и select. Значение по умолчаниюFormField .
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: Aspose.Words для .NET
+description: HtmlLoadOptions PreferredControlType свойство. Получает или задает предпочтительный тип узлов документа которые будут представлять импортированные элементы input и select. Значение по умолчаниюFormField  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что установка этого свойства не гарантирует, что все импортированные элементы управления будут иметь указанный тип. Если элемент управления HTML не может быть представлен узлами документа предпочтительного типа, Aspose.Words будет использовать совместимый[`HtmlControlType`](../../htmlcontroltype/) для этого элемента управления.
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительный тип узлов документа, которые будут представлять импортированные элементы &lt;input&gt; и &lt;select&gt;.
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

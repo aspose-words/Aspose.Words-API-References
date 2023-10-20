@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBuilder метод. Создает и вставляет поле в документ перед указанным встроенным узлом.
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: Aspose.Words для .NET
+description: FieldBuilder BuildAndInsert метод. Создает и вставляет поле в документ перед указанным встроенным узлом на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 Создает и вставляет поле в документ перед указанным встроенным узлом.
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 А[`Field`](../../field/) объект, представляющий вставленное поле.
 
-### Примеры
+## Примеры
 
 Показывает, как создать и вставить поле с помощью построителя полей.
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 Создает и вставляет поле в документ до конца указанного абзаца.
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 А[`Field`](../../field/) объект, представляющий вставленное поле.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

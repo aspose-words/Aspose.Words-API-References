@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.HtmlLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке HTMLдокумента в файл.Document объект.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.HtmlLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке HTMLдокумента в файл.Document объект на С#.
 type: docs
 weight: 3620
 url: /ru/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | Имя | Описание |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Инициализирует новый экземпляр этого класса со значениями по умолчанию. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | Ярлык для инициализации нового экземпляра этого класса с указанным паролем для загрузки зашифрованного документа. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | Ярлык для инициализации нового экземпляра этого класса с указанным паролем для загрузки зашифрованного документа. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения. |
 
 ## Характеристики
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Смотрите также
 
 * class [LoadOptions](../loadoptions/)
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotLeaveBackslashAlone
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Преобразовать обратную косую черту в знак иены при вводе.
+linktitle: DoNotLeaveBackslashAlone
+articleTitle: DoNotLeaveBackslashAlone
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DoNotLeaveBackslashAlone свойство. Преобразовать обратную косую черту в знак иены при вводе на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
@@ -17,7 +19,5 @@ public bool DoNotLeaveBackslashAlone { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

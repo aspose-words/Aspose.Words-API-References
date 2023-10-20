@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
 public IEnumerator<ChartDataLabel> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

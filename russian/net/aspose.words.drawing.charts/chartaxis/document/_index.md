@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает документ которому принадлежит правообладатель.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: ChartAxis Document свойство. Возвращает документ которому принадлежит правообладатель на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartaxis/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

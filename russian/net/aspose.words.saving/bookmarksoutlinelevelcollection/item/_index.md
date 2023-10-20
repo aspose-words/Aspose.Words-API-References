@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection свойство. Получает или задает уровень структуры закладки по имени закладки.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection Item свойство. Получает или задает уровень структуры закладки по имени закладки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 Уровень структуры закладки. Допустимый диапазон: от 0 до 9.
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 Уровень структуры закладки. Допустимый диапазон: от 0 до 9.
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

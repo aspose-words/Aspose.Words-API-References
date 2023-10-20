@@ -1,7 +1,9 @@
 ---
-title: Enum LegendPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition перечисление. Указывает возможные положения легенды диаграммы.
+title: LegendPosition Enum
+linktitle: LegendPosition
+articleTitle: LegendPosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.LegendPosition перечисление. Указывает возможные положения легенды диаграммы на С#.
 type: docs
 weight: 910
 url: /ru/net/aspose.words.drawing.charts/legendposition/
@@ -25,7 +27,7 @@ public enum LegendPosition
 | Top | `4` | Указывает, что легенда должна отображаться в верхней части диаграммы. |
 | TopRight | `5` | Указывает, что легенда должна отображаться в правом верхнем углу диаграммы. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид легенды диаграммы.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

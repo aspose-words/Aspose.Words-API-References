@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeVerticalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает относительное вертикальное положение кадра.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words для .NET
+description: FrameFormat RelativeVerticalPosition свойство. Получает относительное вертикальное положение кадра на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/frameformat/relativeverticalposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/relativeverticalposition/
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

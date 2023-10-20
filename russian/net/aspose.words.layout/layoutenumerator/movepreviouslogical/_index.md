@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePreviousLogical
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator метод. Переходит к предыдущему одноуровневому объекту в логическом порядке. При повторении строк абзаца разбитого на страницы этот метод переместится на предыдущую строку даже если она находится на другой странице.
+linktitle: MovePreviousLogical
+articleTitle: MovePreviousLogical
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator MovePreviousLogical метод. Переходит к предыдущему одноуровневому объекту в логическом порядке. При повторении строк абзаца разбитого на страницы этот метод переместится на предыдущую строку даже если она находится на другой странице на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
 public bool MovePreviousLogical()
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что всеSpan сущности связаны друг с другом, таким образом, если[`Current`](../current/) Сущность представляет собой интервал повторного вызова этого метода, который будет повторять всю историю документа.
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Справочник по API Aspose.Words для .NET
-description: Footnote строитель. Инициализирует экземплярFootnote класс.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words для .NET
+description: Footnote строитель. Инициализирует экземплярFootnote класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | Документ владельца. |
 | footnoteType | FootnoteType | А[`FootnoteType`](../footnotetype/) value , указывающее, является ли это сноской или концевой сноской. |
 
-### Примечания
+## Примечания
 
 Когда[`Footnote`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Footnote`](../) к использованию документаNode) илиNode) в абзаце, в который вы хотите вставить сноску.
+Чтобы добавить[`Footnote`](../) к использованию документа[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) в абзаце, в который вы хотите вставить сноску.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять и настраивать сноски.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* пространство имен [Aspose.Words.Notes](../../footnote/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

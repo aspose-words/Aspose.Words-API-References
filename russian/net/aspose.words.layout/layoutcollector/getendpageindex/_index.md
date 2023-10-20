@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEndPageIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutCollector метод. Получает индекс страницы отсчитываемый от 1 на которой заканчивается узел. Возвращает 0 если узел не может быть сопоставлен со страницей.
+linktitle: GetEndPageIndex
+articleTitle: GetEndPageIndex
+second_title: Aspose.Words для .NET
+description: LayoutCollector GetEndPageIndex метод. Получает индекс страницы отсчитываемый от 1 на которой заканчивается узел. Возвращает 0 если узел не может быть сопоставлен со страницей на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.layout/layoutcollector/getendpageindex/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutcollector/getendpageindex/
 public int GetEndPageIndex(Node node)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* пространство имен [Aspose.Words.Layout](../../layoutcollector/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

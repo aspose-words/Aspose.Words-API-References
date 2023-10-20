@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Math.OfficeMathDisplayType перечисление. Указывает тип формата отображения уравнения.
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Math.OfficeMathDisplayType перечисление. Указывает тип формата отображения уравнения на С#.
 type: docs
 weight: 4130
 url: /ru/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | Математическая часть Office отображается в отдельной строке. |
 | Inline | `1` | Математическая часть Office отображается вместе с текстом. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование отображения математических функций Office.
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * пространство имен [Aspose.Words.Math](../../aspose.words.math/)
 * сборка [Aspose.Words](../../)
-
-

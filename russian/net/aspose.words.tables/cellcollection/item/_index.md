@@ -1,7 +1,9 @@
 ---
 title: CellCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: CellCollection свойство. ПолучаетCell по данному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: CellCollection Item свойство. ПолучаетCell по данному индексу на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/cellcollection/item/
@@ -18,7 +20,7 @@ public Cell this[int index] { get; }
 | --- | --- |
 | index | Индекс в коллекции. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Cell this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* пространство имен [Aspose.Words.Tables](../../cellcollection/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

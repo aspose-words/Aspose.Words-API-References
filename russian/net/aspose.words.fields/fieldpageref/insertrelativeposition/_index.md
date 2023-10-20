@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertRelativePosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPageRef свойство. Получает или задает следует ли вставлять относительную позицию абзаца отмеченного закладкой.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words для .NET
+description: FieldPageRef InsertRelativePosition свойство. Получает или задает следует ли вставлять относительную позицию абзаца отмеченного закладкой на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля PAGEREF для отображения относительного расположения закладок.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Смотрите также
 
 * class [FieldPageRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldpageref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

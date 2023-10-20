@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. True если уровень преобразует все унаследованные числа в арабский false если он сохраняет их нумерационный стиль.
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: Aspose.Words для .NET
+description: ListLevel IsLegal свойство. True если уровень преобразует все унаследованные числа в арабский false если он сохраняет их нумерационный стиль на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ True, если уровень преобразует все унаследова
 public bool IsLegal { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает усовершенствованные способы настройки меток списков.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

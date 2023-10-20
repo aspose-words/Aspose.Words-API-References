@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.IsLinked
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDdeAuto свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words для .NET
+description: FieldDdeAuto IsLinked свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldddeauto/islinked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldddeauto/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldDdeAuto](../)
-* пространство имен [Aspose.Words.Fields](../../fieldddeauto/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

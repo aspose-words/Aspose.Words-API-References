@@ -1,12 +1,14 @@
 ---
 title: ImageData.SetImage
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData метод. Устанавливает изображение отображаемое фигурой.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words для .NET
+description: ImageData SetImage метод. Устанавливает изображение отображаемое фигурой на С#.
 type: docs
-weight: 210
+weight: 200
 url: /ru/net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Устанавливает изображение, отображаемое фигурой.
 
@@ -18,7 +20,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | Объект изображения. |
 
-### Примеры
+## Примеры
 
 Показывает, как отображать изображения из локальной файловой системы в документе.
 
@@ -53,12 +55,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Устанавливает изображение, отображаемое фигурой.
 
@@ -70,7 +72,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Поток, содержащий изображение. |
 
-### Примеры
+## Примеры
 
 Показывает, как отображать изображения из локальной файловой системы в документе.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Устанавливает изображение, отображаемое фигурой.
 
@@ -122,7 +124,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Файл изображения. Может быть именем файла или URL-адресом. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить связанное изображение в документ.
 
@@ -164,7 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

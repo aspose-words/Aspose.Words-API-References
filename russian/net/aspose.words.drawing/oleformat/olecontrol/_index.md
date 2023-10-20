@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. ПолучаетOleControl объекты если этот объект OLE является элементом управления ActiveX. В противном случае это свойство имеет значение null.
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words для .NET
+description: OleFormat OleControl свойство. ПолучаетOleControl объекты если этот объект OLE является элементом управления ActiveX. В противном случае это свойство имеет значение null на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/olecontrol/
 public OleControl OleControl { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

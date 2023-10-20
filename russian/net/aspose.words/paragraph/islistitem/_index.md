@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Истинно если абзац является элементом маркированного или нумерованного списка в исходной версии.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words для .NET
+description: Paragraph IsListItem свойство. Истинно если абзац является элементом маркированного или нумерованного списка в исходной версии на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/islistitem/
 public bool IsListItem { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вложить список в другой список.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

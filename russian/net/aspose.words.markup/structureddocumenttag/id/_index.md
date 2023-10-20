@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения. СДТ.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Id свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения.СДТ на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения. **СДТ**.
+Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения.**СДТ**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### Примечания
+## Примечания
 
 Атрибут Id должен соответствовать следующим правилам:
 
@@ -24,7 +26,7 @@ public int Id { get; }
 * Во время автономного SDTINodeCloningListener) Для клонированного узла SDT будет сгенерирован новый уникальный идентификатор.
 * Если идентификатор не указан в исходном документе, то узлу SDT должен быть присвоен новый уникальный идентификатор при загрузке документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

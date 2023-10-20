@@ -1,7 +1,9 @@
 ---
-title: ChmLoadOptions.ChmLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: ChmLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию.
+title: ChmLoadOptions
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words для .NET
+description: ChmLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/chmloadoptions/chmloadoptions/
@@ -17,7 +19,5 @@ public ChmLoadOptions()
 ### Смотрите также
 
 * class [ChmLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../chmloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Получает последний абзац фигуры.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words для .NET
+description: Shape LastParagraph свойство. Получает последний абзац фигуры на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать ориентацию текста внутри текстового поля.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. True если этот абзац является непосредственным дочерним элементомCell  ложь в противном случае.
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: Aspose.Words для .NET
+description: Paragraph IsInCell свойство. True если этот абзац является непосредственным дочерним элементомCell  ложь в противном случае на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ True, если этот абзац является непосредственн
 public bool IsInCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить таблицу так, чтобы она оставалась вместе на одной странице.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

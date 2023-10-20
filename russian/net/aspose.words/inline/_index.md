@@ -1,7 +1,9 @@
 ---
-title: Class Inline
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Inline сорт. Базовый класс для узлов строчного уровня с которыми может быть связано форматирование символов но не может иметь собственных дочерних узлов.
+title: Inline Class
+linktitle: Inline
+articleTitle: Inline
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Inline сорт. Базовый класс для узлов строчного уровня с которыми может быть связано форматирование символов но не может иметь собственных дочерних узлов на С#.
 type: docs
 weight: 3260
 url: /ru/net/aspose.words/inline/
@@ -40,22 +42,22 @@ public abstract class Inline : Node
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Класс, производный от`Inline` может быть ребенком[`Paragraph`](../paragraph/).
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -113,5 +115,3 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 * class [Node](../node/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

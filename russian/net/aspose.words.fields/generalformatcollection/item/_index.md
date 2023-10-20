@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: GeneralFormatCollection свойство. Получает общий формат по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: GeneralFormatCollection Item свойство. Получает общий формат по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/generalformatcollection/item/
@@ -22,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 Общий формат.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -87,7 +89,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* пространство имен [Aspose.Words.Fields](../../generalformatcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.IHyphenationCallback интерфейс. Реализовано классами которые могут регистрировать словари расстановки переносов.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.IHyphenationCallback интерфейс. Реализовано классами которые могут регистрировать словари расстановки переносов на С#.
 type: docs
 weight: 3190
 url: /ru/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | Имя | Описание |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Уведомляет приложение о том, что словарь расстановки переносов для указанного языка не найден и, возможно, его необходимо зарегистрировать. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Уведомляет приложение о том, что словарь расстановки переносов для указанного языка не найден и, возможно, его необходимо зарегистрировать. |
 
-### Примеры
+## Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

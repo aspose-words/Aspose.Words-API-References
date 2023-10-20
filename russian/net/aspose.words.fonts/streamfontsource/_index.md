@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.StreamFontSource сорт. Базовый класс для пользовательского источника шрифтов потока.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.StreamFontSource сорт. Базовый класс для пользовательского источника шрифтов потока на С#.
 type: docs
 weight: 3040
 url: /ru/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Этот метод должен открывать поток с данными шрифта по запросу. |
 
-### Примечания
+## Примечания
 
 Чтобы использовать источник потокового шрифта, вам следует создать производный класс из`StreamFontSource` и обеспечить реализацию[`OpenFontDataStream`](./openfontdatastream/) метод.
 
@@ -40,7 +42,7 @@ public abstract class StreamFontSource : FontSourceBase
 
 `StreamFontSource` может быть полезным, поскольку позволяет загружать данные шрифта только тогда, когда это требуется , а не хранить их в памяти для[`FontSettings`](../fontsettings/) продолжительность жизни.
 
-### Примеры
+## Примеры
 
 Показывает, как загружать шрифты из потока.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

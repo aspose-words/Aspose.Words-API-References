@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AllowOverlap
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает значение указывающее может ли эта фигура перекрывать другие фигуры.
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words для .NET
+description: ShapeBase AllowOverlap свойство. Получает или задает значение указывающее может ли эта фигура перекрывать другие фигуры на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/allowoverlap/
 public bool AllowOverlap { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство влияет на поведение фигуры в Microsoft Word. Aspose.Words игнорирует значение этого свойства.
 
@@ -22,7 +24,7 @@ public bool AllowOverlap { get; set; }
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами плавающих таблиц.
 
@@ -50,7 +52,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode перечисление. Указывает режим анализа простых значений JSON нулевое логическое число целое число и строка при загрузке JSON. Такой режим не влияет на анализ значений даты и времени.
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode перечисление. Указывает режим анализа простых значений JSON нулевое логическое число целое число и строка при загрузке JSON. Такой режим не влияет на анализ значений даты и времени на С#.
 type: docs
 weight: 4700
 url: /ru/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение указывающее следует ли копировать конфликтующие стили вKeepSourceFormatting mode. Значение по умолчаниюЛОЖЬ .
+linktitle: ForceCopyStyles
+articleTitle: ForceCopyStyles
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions ForceCopyStyles свойство. Получает или задает логическое значение указывающее следует ли копировать конфликтующие стили вKeepSourceFormatting mode. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/importformatoptions/forcecopystyles/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/importformatoptions/forcecopystyles/
 public bool ForceCopyStyles { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию, если соответствующий стиль уже существует в целевом документе, исходный стиль formatting расширяется до прямых атрибутов узла, а стиль этого узла сбрасывается до значения по умолчанию.
 
@@ -22,7 +24,7 @@ public bool ForceCopyStyles { get; set; }
 
 Обратите внимание: в этом случае не гарантируется сохранение форматирования импортированного узла в целевом документе document .
 
-### Примеры
+## Примеры
 
 Показывает, как принудительно копировать исходные стили с уникальными именами.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

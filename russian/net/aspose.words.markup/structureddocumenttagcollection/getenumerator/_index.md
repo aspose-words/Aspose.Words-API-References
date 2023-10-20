@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<IStructuredDocumentTag> GetEnumerator()
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

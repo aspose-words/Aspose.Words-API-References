@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeList свойство. Получает количество узлов в списке.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: NodeList Count свойство. Получает количество узлов в списке на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/nodelist/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать XPaths для навигации по NodeList.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### Смотрите также
 
 * class [NodeList](../)
-* пространство имен [Aspose.Words](../../nodelist/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

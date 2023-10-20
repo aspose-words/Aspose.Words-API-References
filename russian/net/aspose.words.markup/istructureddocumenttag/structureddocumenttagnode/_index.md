@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag метод. Возвращает объект Node реализующий этот интерфейс.
+linktitle: StructuredDocumentTagNode
+articleTitle: StructuredDocumentTagNode
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag StructuredDocumentTagNode метод. Возвращает объект Node реализующий этот интерфейс на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
@@ -18,7 +20,5 @@ public Node StructuredDocumentTagNode()
 
 * class [Node](../../../aspose.words/node/)
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

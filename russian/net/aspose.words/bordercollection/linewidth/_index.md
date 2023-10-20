@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает или задает ширину границы в пунктах.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words для .NET
+description: BorderCollection LineWidth свойство. Получает или задает ширину границы в пунктах на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/bordercollection/linewidth/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/bordercollection/linewidth/
 public double LineWidth { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает ширину первой границы в коллекции.
 
 Устанавливает ширину всех границ в коллекции, исключая диагональные границы.
 
-### Примеры
+## Примеры
 
 Показывает, как создать зеленую волнистую рамку страницы с тенью.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Смотрите также
 
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

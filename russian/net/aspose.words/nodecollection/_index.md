@@ -1,7 +1,9 @@
 ---
-title: Class NodeCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NodeCollection сорт. Представляет коллекцию узлов определенного типа.
+title: NodeCollection Class
+linktitle: NodeCollection
+articleTitle: NodeCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.NodeCollection сорт. Представляет коллекцию узлов определенного типа на С#.
 type: docs
 weight: 4200
 url: /ru/net/aspose.words/nodecollection/
@@ -27,17 +29,17 @@ public class NodeCollection : IEnumerable<Node>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Копирует все узлы из коллекции в новый массив узлов. |
 
-### Примечания
+## Примечания
 
 `NodeCollection` не владеет узлами, которые он содержит, а представляет собой просто выбор узлов указанного типа, но узлы хранятся в дереве под соответствующими родительскими узлами.
 
@@ -49,7 +51,7 @@ public class NodeCollection : IEnumerable<Node>
 
 `NodeCollection` может быть «плоским» и содержать только непосредственных дочерних элементов узла, из которого он был создан, или он может быть «глубоким» и содержать всех дочерних элементов.
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все фигуры текстовых полей фигурами изображений.
 
@@ -96,5 +98,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * class [Node](../node/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

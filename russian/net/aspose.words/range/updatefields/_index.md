@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Обновляет значения полей документа в этом диапазоне.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words для .NET
+description: Range UpdateFields метод. Обновляет значения полей документа в этом диапазоне на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/range/updatefields/
 public void UpdateFields()
 ```
 
-### Примечания
+## Примечания
 
 Когда вы открываете, изменяете и затем сохраняете документ, Aspose.Words не обновляет поля автоматически, он сохраняет их нетронутыми. Поэтому обычно вам нужно вызвать этот метод перед сохранением, если вы изменили document программно и хотите убедиться, что правильные (вычисленные) значения полей появятся в сохраненном документе.
 
@@ -26,7 +28,7 @@ public void UpdateFields()
 
 Чтобы обновить поля во всем документе, используйте[`UpdateFields`](../../document/updatefields/).
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все поля в диапазоне.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### Смотрите также
 
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

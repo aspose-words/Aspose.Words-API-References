@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Флаг указывает следует ли помещать правила CSS fontface в отдельный файл fontFaces.css  когда документ сохраняется с внешней таблицей стилей т. е. когдаExportEmbeddedCss этоЛОЖЬ . Значение по умолчаниюЛОЖЬ  все правила CSS записаны в один файл styles.css.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately свойство. Флаг указывает следует ли помещать правила CSS fontface в отдельный файл fontFaces.css  когда документ сохраняется с внешней таблицей стилей т. е. когдаExportEmbeddedCss этоЛОЖЬ . Значение по умолчаниюЛОЖЬ  все правила CSS записаны в один файл styles.css на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установка этого свойства в`истинный` восстанавливает старое поведение (отдельные файлы) для совместимости с устаревшим кодом.
 
-### Примеры
+## Примеры
 
 Показывает, как поместить CSS в отдельный файл и добавить префикс ко всем именам его классов CSS.
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

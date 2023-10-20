@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. True если поле формы включено.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words для .NET
+description: FormField Enabled свойство. True если поле формы включено на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ True, если поле формы включено.
 public bool Enabled { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если поле формы включено, его содержимое можно изменять по мере заполнения формы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

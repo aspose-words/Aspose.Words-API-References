@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Добавляет узел в конец коллекции.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: NodeCollection Add метод. Добавляет узел в конец коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | [`NodeCollection`](../) это «глубокая» коллекция. |
 
-### Примечания
+## Примечания
 
 Узел вставляется как дочерний в объект узла, из которого была создана коллекция.
 
 Если вставляемый узел был создан из другого документа, вам следует использовать [`ImportNode`](../../documentbase/importnode/) для импорта узла в текущий документ. Импортированный узел можно затем вставить в текущий документ.
 
-### Примеры
+## Примеры
 
 Показывает, как подготовить новый узел раздела к редактированию.
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

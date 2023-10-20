@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Возвращает или задает шрифт используемый для символов с кодами символов от 128 до 255.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words для .NET
+description: Font NameOther свойство. Возвращает или задает шрифт используемый для символов с кодами символов от 128 до 255 на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/nameother/
 public string NameOther { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как Microsoft Word может комбинировать два разных шрифта за один проход.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

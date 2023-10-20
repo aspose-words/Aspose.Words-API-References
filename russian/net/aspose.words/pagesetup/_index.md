@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PageSetup сорт. Представляет свойства настройки страницы раздела.
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words для .NET
+description: Aspose.Words.PageSetup сорт. Представляет свойства настройки страницы раздела на С#.
 type: docs
 weight: 4360
 url: /ru/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Сбрасывает настройки страницы на размер бумаги, поля и ориентацию по умолчанию. |
 
-### Примечания
+## Примечания
 
 `PageSetup` Объект содержит все атрибуты настройки страницыsection (левое поле, нижнее поле, размер бумаги и т. д.) в качестве свойств.
 
-### Примеры
+## Примеры
 
 Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

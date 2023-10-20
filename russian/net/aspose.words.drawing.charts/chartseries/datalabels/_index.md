@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Указывает настройки меток данных для всей серии.
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: Aspose.Words для .NET
+description: ChartSeries DataLabels свойство. Указывает настройки меток данных для всей серии на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/datalabels/
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

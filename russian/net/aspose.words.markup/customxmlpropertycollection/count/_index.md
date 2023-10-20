@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpropertycollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

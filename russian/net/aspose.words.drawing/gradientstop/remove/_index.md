@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStop метод. Удаляет точку градиента из родительского элемента.GradientStopCollection .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: GradientStop Remove метод. Удаляет точку градиента из родительского элемента.GradientStopCollection  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/gradientstop/remove/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/gradientstop/remove/
 public void Remove()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStop](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstop/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

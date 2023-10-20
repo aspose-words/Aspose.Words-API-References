@@ -1,7 +1,9 @@
 ---
 title: Document.AcceptAllRevisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Принимает все отслеживаемые изменения в документе.
+linktitle: AcceptAllRevisions
+articleTitle: AcceptAllRevisions
+second_title: Aspose.Words для .NET
+description: Document AcceptAllRevisions метод. Принимает все отслеживаемые изменения в документе на С#.
 type: docs
 weight: 520
 url: /ru/net/aspose.words/document/acceptallrevisions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/acceptallrevisions/
 public void AcceptAllRevisions()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод является ярлыком для[`AcceptAll`](../../revisioncollection/acceptall/).
 
-### Примеры
+## Примеры
 
 Показывает, как принять все отслеживаемые изменения в документе.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetTe
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

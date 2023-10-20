@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreakChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ конца раздела char12 или f.
+linktitle: SectionBreakChar
+articleTitle: SectionBreakChar
+second_title: Aspose.Words для .NET
+description: ControlChar SectionBreakChar поле. Символ конца раздела char12 или f на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words/controlchar/sectionbreakchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/sectionbreakchar/
 public const char SectionBreakChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

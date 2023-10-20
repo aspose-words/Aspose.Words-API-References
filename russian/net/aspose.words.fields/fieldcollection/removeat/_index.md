@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCollection метод. Удаляет поле по указанному индексу из этой коллекции и из документа.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: FieldCollection RemoveAt метод. Удаляет поле по указанному индексу из этой коллекции и из документа на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс в коллекции. |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить поля из коллекции полей.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, fields.Count);
 ### Смотрите также
 
 * class [FieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

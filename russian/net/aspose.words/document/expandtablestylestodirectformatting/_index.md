@@ -1,9 +1,11 @@
 ---
 title: Document.ExpandTableStylesToDirectFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Преобразует форматирование указанное в стилях таблиц в прямое форматирование таблиц в документе.
+linktitle: ExpandTableStylesToDirectFormatting
+articleTitle: ExpandTableStylesToDirectFormatting
+second_title: Aspose.Words для .NET
+description: Document ExpandTableStylesToDirectFormatting метод. Преобразует форматирование указанное в стилях таблиц в прямое форматирование таблиц в документе на С#.
 type: docs
-weight: 610
+weight: 590
 url: /ru/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/expandtablestylestodirectformatting/
 public void ExpandTableStylesToDirectFormatting()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод существует, потому что эта версия Aspose.Words обеспечивает лишь ограниченную поддержку стилей таблиц (см. ниже). Этот метод может быть полезен, когда вы загружаете документ DOCX или WordprocessingML , содержащий таблицы, отформатированные с использованием стилей таблиц, и вам необходимо запросить форматирование таблиц, ячеек, абзацев или текста.
 
@@ -24,7 +26,7 @@ public void ExpandTableStylesToDirectFormatting()
 * Стили таблиц, определенные в документах DOCX или WordprocessingML, автоматически преобразуются в прямое форматирование таблиц при сохранении документа в любом другом формате, рендеринге или печати.
 * Стили таблиц, определенные в документах DOC, сохраняются как стили таблиц при сохранении документа только в формате DOC.
 
-### Примеры
+## Примеры
 
 Показывает, как применить свойства стиля таблицы непосредственно к ее элементам.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

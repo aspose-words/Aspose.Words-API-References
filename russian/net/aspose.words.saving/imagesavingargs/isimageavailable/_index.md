@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.IsImageAvailable
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. Возвращаетистинный если текущее изображение доступно для экспорта.
+linktitle: IsImageAvailable
+articleTitle: IsImageAvailable
+second_title: Aspose.Words для .NET
+description: ImageSavingArgs IsImageAvailable свойство. Возвращаетистинный если текущее изображение доступно для экспорта на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/imagesavingargs/isimageavailable/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/imagesavingargs/isimageavailable/
 public bool IsImageAvailable { get; }
 ```
 
-### Примечания
+## Примечания
 
 Некоторые изображения в документе могут быть недоступны, например, потому, что ссылка image недоступна или не указывает на действительное изображение. В этом случае Aspose.Words экспортирует значок с красным крестом. Это свойство возвращает `истинный` доступно ли исходное изображение; возвращает`ЛОЖЬ`если исходное изображение недоступно и для сохранения будет предложен значок «нет изображения».
 
 При сохранении фигуры группы или фигуры, не требующей изображения, это свойство всегда имеет значение.`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как включить обратный вызов сохранения изображения в процесс преобразования HTML.
 
@@ -67,7 +69,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * property [CurrentShape](../currentshape/)
 * class [ImageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../imagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

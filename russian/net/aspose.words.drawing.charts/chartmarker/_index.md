@@ -1,7 +1,9 @@
 ---
-title: Class ChartMarker
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartMarker сорт. Представляет маркер данных диаграммы.
+title: ChartMarker Class
+linktitle: ChartMarker
+articleTitle: ChartMarker
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartMarker сорт. Представляет маркер данных диаграммы на С#.
 type: docs
 weight: 750
 url: /ru/net/aspose.words.drawing.charts/chartmarker/
@@ -24,7 +26,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Получает или задает размер маркера диаграммы. Значение по умолчанию — 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Получает или задает символ маркера диаграммы. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -87,5 +89,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PixelToPoint
-second_title: Справочник по API Aspose.Words для .NET
-description: ConvertUtil метод. Преобразует пиксели в точки с разрешением 96 точек на дюйм.
+linktitle: PixelToPoint
+articleTitle: PixelToPoint
+second_title: Aspose.Words для .NET
+description: ConvertUtil PixelToPoint метод. Преобразует пиксели в точки с разрешением 96 точек на дюйм на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/convertutil/pixeltopoint/
 ---
-## PixelToPoint(double) {#pixeltopoint}
+## PixelToPoint(*double*) {#pixeltopoint}
 
 Преобразует пиксели в точки с разрешением 96 точек на дюйм.
 
@@ -18,11 +20,11 @@ public static double PixelToPoint(double pixels)
 | --- | --- | --- |
 | pixels | Double | Значение для преобразования. |
 
-### Примечания
+## Примечания
 
 1 дюйм равен 72 баллам.
 
-### Примеры
+## Примеры
 
 Показывает, как указать свойства страницы в пикселях.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Смотрите также
 
 * class [ConvertUtil](../)
-* пространство имен [Aspose.Words](../../convertutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PixelToPoint(double, double) {#pixeltopoint_1}
+## PixelToPoint(*double, double*) {#pixeltopoint_1}
 
 Преобразует пиксели в точки с указанным разрешением в пикселях.
 
@@ -76,11 +78,11 @@ public static double PixelToPoint(double pixels, double resolution)
 | pixels | Double | Значение для преобразования. |
 | resolution | Double | Разрешение dpi (точек на дюйм). |
 
-### Примечания
+## Примечания
 
 1 дюйм равен 72 баллам.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать преобразование точек в пиксели с разрешением по умолчанию и пользовательским разрешением.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Смотрите также
 
 * class [ConvertUtil](../)
-* пространство имен [Aspose.Words](../../convertutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

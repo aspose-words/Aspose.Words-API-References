@@ -1,7 +1,9 @@
 ---
 title: TextBox.Parent
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Получает родительскую фигуру дляTextBox .
+linktitle: Parent
+articleTitle: Parent
+second_title: Aspose.Words для .NET
+description: TextBox Parent свойство. Получает родительскую фигуру дляTextBox  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing/textbox/parent/
@@ -18,7 +20,5 @@ public Shape Parent { get; }
 
 * class [Shape](../../shape/)
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

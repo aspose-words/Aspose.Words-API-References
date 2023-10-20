@@ -1,7 +1,9 @@
 ---
-title: Class EditableRangeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.EditableRangeStart сорт. Представляет начало редактируемого диапазона в документе Word.
+title: EditableRangeStart Class
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words для .NET
+description: Aspose.Words.EditableRangeStart сорт. Представляет начало редактируемого диапазона в документе Word на С#.
 type: docs
 weight: 1440
 url: /ru/net/aspose.words/editablerangestart/
@@ -35,18 +37,18 @@ public sealed class EditableRangeStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [Accept](../../aspose.words/editablerangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Полный редактируемый диапазон в документе Word состоит из`EditableRangeStart` и соответствие[`EditableRangeEnd`](../editablerangeend/) с тем же идентификатором.
 
@@ -56,7 +58,7 @@ public sealed class EditableRangeStart : Node
 
 В настоящее время редактируемые диапазоны поддерживаются только на линейном уровне, то есть внутри[`Paragraph`](../paragraph/), но начало редактируемого диапазона и конец редактируемого диапазона могут находиться в разных абзацах.
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить права редактирования редактируемых диапазонов определенной группой/пользователем.
 
@@ -169,5 +171,3 @@ public class EditableRangePrinter : DocumentVisitor
 * class [Node](../node/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

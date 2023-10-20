@@ -1,7 +1,9 @@
 ---
-title: Enum ShadowType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShadowType перечисление. Указывает тип тени фигуры.
+title: ShadowType Enum
+linktitle: ShadowType
+articleTitle: ShadowType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ShadowType перечисление. Указывает тип тени фигуры на С#.
 type: docs
 weight: 1240
 url: /ru/net/aspose.words.drawing/shadowtype/
@@ -63,11 +65,11 @@ public enum ShadowType
 | Shadow8 | `8` | Восьмой тип тени. |
 | Shadow9 | `9` | Девятый тип тени. |
 
-### Примечания
+## Примечания
 
 ShadowType — это не простой атрибут, а пресет, который задает сразу несколько атрибутов, формирующих внешний вид тени.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с форматированием тени для фигуры.
 
@@ -86,5 +88,3 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

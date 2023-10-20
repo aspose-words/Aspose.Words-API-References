@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда в документе заканчивается поле.
+linktitle: VisitFieldEnd
+articleTitle: VisitFieldEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitFieldEnd метод. Вызывается когда в документе заканчивается поле на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/documentvisitor/visitfieldend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примечания
+## Примечания
 
 Для получения дополнительной информации см.[`VisitFieldStart`](../visitfieldstart/)
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узла каждого поля в документе.
 
@@ -131,7 +133,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection метод. Удаляет все элементы из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection Clear метод. Удаляет все элементы из коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpropertycollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

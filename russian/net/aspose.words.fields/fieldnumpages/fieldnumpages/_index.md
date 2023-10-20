@@ -1,7 +1,9 @@
 ---
-title: FieldNumPages.FieldNumPages
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNumPages строитель. Конструктор по умолчанию.
+title: FieldNumPages
+linktitle: FieldNumPages
+articleTitle: FieldNumPages
+second_title: Aspose.Words для .NET
+description: FieldNumPages строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldnumpages/fieldnumpages/
@@ -17,7 +19,5 @@ public FieldNumPages()
 ### Смотрите также
 
 * class [FieldNumPages](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnumpages/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

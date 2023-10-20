@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.TimeValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue свойство. Получает сохраненное значение времени.
+linktitle: TimeValue
+articleTitle: TimeValue
+second_title: Aspose.Words для .NET
+description: ChartXValue TimeValue свойство. Получает сохраненное значение времени на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/timevalue/
@@ -17,7 +19,5 @@ public TimeSpan TimeValue { get; }
 ### Смотрите также
 
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

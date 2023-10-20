@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление ячейки таблицы завершено.
+linktitle: VisitCellEnd
+articleTitle: VisitCellEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitCellEnd метод. Вызывается когда перечисление ячейки таблицы завершено на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/documentvisitor/visitcellend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellEnd(Cell cell)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

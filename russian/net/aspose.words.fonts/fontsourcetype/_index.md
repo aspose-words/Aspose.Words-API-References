@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontSourceType перечисление. Указывает тип источника шрифта.
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontSourceType перечисление. Указывает тип источника шрифта на С#.
 type: docs
 weight: 2990
 url: /ru/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | А[`SystemFontSource`](../systemfontsource/) объект, представляющий все шрифты, установленные в системе. |
 | FontStream | `4` | А[`StreamFontSource`](../streamfontsource/) объект, представляющий поток с данными шрифта. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

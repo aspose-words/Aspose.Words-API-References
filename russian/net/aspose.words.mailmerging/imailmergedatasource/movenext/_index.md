@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeDataSource метод. Переход к следующей записи в источнике данных.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words для .NET
+description: IMailMergeDataSource MoveNext метод. Переход к следующей записи в источнике данных на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `истинный` при успешном переходе к следующей записи;`ЛОЖЬ` если достигнут конец источника данных.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Смотрите также
 
 * interface [IMailMergeDataSource](../)
-* пространство имен [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

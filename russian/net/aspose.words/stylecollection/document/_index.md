@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: StyleCollection свойство. Получает документ владельца.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: StyleCollection Document свойство. Получает документ владельца на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/stylecollection/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/stylecollection/document/
 public DocumentBase Document { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

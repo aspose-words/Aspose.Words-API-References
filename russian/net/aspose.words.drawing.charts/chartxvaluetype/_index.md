@@ -1,7 +1,9 @@
 ---
-title: Enum ChartXValueType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueType перечисление. Позволяет указать тип значения X серии диаграмм.
+title: ChartXValueType Enum
+linktitle: ChartXValueType
+articleTitle: ChartXValueType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueType перечисление. Позволяет указать тип значения X серии диаграмм на С#.
 type: docs
 weight: 860
 url: /ru/net/aspose.words.drawing.charts/chartxvaluetype/
@@ -28,5 +30,3 @@ public enum ChartXValueType
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

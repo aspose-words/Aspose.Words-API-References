@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtension сорт. Представляет объект вебрасширения.
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.WebExtension сорт. Представляет объект вебрасширения на С#.
 type: docs
 weight: 6740
 url: /ru/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Представляет набор пользовательских свойств веб-расширения. |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Указывает основную ссылку на веб-расширение. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

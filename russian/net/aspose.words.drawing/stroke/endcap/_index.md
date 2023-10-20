@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет стиль окончания штриха.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words для .NET
+description: Stroke EndCap свойство. Определяет стиль окончания штриха на С#.
 type: docs
-weight: 90
+weight: 80
 url: /ru/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/endcap/
 public EndCap EndCap { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Flat.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgsBase свойство. Получает или задает значение поля из источника данных.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words для .NET
+description: FieldMergingArgsBase FieldValue свойство. Получает или задает значение поля из источника данных на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 public object FieldValue { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство содержит значение, которое только что было выбрано из вашего источника данных для этого поля механизмом слияния почты. Вы также можете заменить значение, установив свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать значения, которые поля MERGEFIELD получают при слиянии почты.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### Смотрите также
 
 * class [FieldMergingArgsBase](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

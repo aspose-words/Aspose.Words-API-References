@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает объект который представляет свойства форматирования текущего списка.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words для .NET
+description: DocumentBuilder ListFormat свойство. Возвращает объект который представляет свойства форматирования текущего списка на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать маркированные и нумерованные списки.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

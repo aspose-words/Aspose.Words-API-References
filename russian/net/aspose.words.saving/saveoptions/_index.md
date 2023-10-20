@@ -1,7 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.SaveOptions сорт. Это абстрактный базовый класс для классов которые позволяют пользователю указывать дополнительные параметры при сохранении документа в определенном формате.
+title: SaveOptions Class
+linktitle: SaveOptions
+articleTitle: SaveOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.SaveOptions сорт. Это абстрактный базовый класс для классов которые позволяют пользователю указывать дополнительные параметры при сохранении документа в определенном формате на С#.
 type: docs
 weight: 5580
 url: /ru/net/aspose.words.saving/saveoptions/
@@ -22,7 +24,7 @@ public abstract class SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Получает или задает логическое значение, указывающее, разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию:`ЛОЖЬ` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Получает или задает пользовательский часовой пояс, используемый для полей даты и времени. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации 3D-эффектов. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации эффектов DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ отрисовки фигур DrawingML. |
@@ -44,14 +46,14 @@ public abstract class SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(SaveFormat) | Создает объект параметров сохранения класса, подходящего для указанного формата сохранения. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(string) | Создает объект параметров сохранения класса, соответствующего расширению файла, указанному в данном имени файла. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(*[SaveFormat](../../aspose.words/saveformat/)*) | Создает объект параметров сохранения класса, подходящего для указанного формата сохранения. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(*string*) | Создает объект параметров сохранения класса, соответствующего расширению файла, указанному в данном имени файла. |
 
-### Примечания
+## Примечания
 
 Экземпляр`SaveOptions` класс или любой производный класс передается в поток[`Save`](../../aspose.words/document/save/) или строка[`Save`](../../aspose.words/document/save/) перегрузки, позволяющие пользователю определять собственные параметры при сохранении документа.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать определенную кодировку при сохранении документа в формате .epub.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

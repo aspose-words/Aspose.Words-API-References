@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontSubstitutionSettings сорт. Задает настройки механизма замены шрифтов.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings сорт. Задает настройки механизма замены шрифтов на С#.
 type: docs
 weight: 3010
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Настройки, связанные с правилом подстановки имени шрифта. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Настройки, связанные с правилом подстановки таблиц. |
 
-### Примечания
+## Примечания
 
 Процесс замены шрифта состоит из нескольких правил, которые проверяются одно за другим в определенном порядке. Если первое правило не может разрешить шрифт, проверяется второе правило и так далее.
 
@@ -36,7 +38,7 @@ public class FontSubstitutionSettings
 
 Обратите внимание, что правило подстановки конфигурации шрифта в большинстве случаев разрешает шрифт и, таким образом, переопределяет все остальные правила.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

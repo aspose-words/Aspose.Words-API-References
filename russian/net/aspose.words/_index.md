@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Слова Пространство имен предоставляет классы для создания преобразования изменения рендеринга и печати документов Microsoft Word без использования Microsoft Word.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words для .NET
+description: Aspose.Слова Пространство имен предоставляет классы для создания преобразования изменения рендеринга и печати документов Microsoft Word без использования Microsoft Word на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/
@@ -82,7 +84,7 @@ url: /ru/net/aspose.words/
 | [Story](./story/) | Базовый класс для элементов, содержащих узлы блочного уровня.[`Paragraph`](../aspose.words/paragraph/) и[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Представляет один встроенный или пользовательский стиль. |
 | [StyleCollection](./stylecollection/) | Коллекция[`Style`](../aspose.words/style/) объекты, которые представляют как встроенные, так и пользовательские стили в документе. |
-| [SubDocument](./subdocument/) | Представляет **Поддокумент** - который является ссылкой на документ, хранящийся во внешнем мире. |
+| [SubDocument](./subdocument/) | Представляет**Поддокумент** - который является ссылкой на документ, хранящийся во внешнем мире. |
 | [TableStyle](./tablestyle/) | Представляет стиль таблицы. |
 | [TabStop](./tabstop/) | Представляет одну настраиваемую позицию табуляции.[`TabStop`](../aspose.words/tabstop/)объект является членом the [`TabStopCollection`](../aspose.words/tabstopcollection/) коллекция. |
 | [TabStopCollection](./tabstopcollection/) | Коллекция[`TabStop`](../aspose.words/tabstop/) объекты, которые представляют пользовательские вкладки для абзаца или стиля. |
@@ -159,5 +161,3 @@ url: /ru/net/aspose.words/
 | [WarningType](./warningtype/) | Указывает тип предупреждения, выдаваемого Aspose.Words во время загрузки или сохранения документа. |
 | [WatermarkLayout](./watermarklayout/) | Определяет расположение водяного знака относительно центра водяного знака. |
 | [WatermarkType](./watermarktype/) | Указывает тип водяного знака. |
-
-

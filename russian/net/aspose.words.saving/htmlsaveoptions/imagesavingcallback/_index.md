@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Позволяет контролировать сохранение изображений при сохранении документа в формате HTML MHTML или EPUB.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ImageSavingCallback свойство. Позволяет контролировать сохранение изображений при сохранении документа в формате HTML MHTML или EPUB на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

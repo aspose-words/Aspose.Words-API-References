@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или задает режим поведения для вычисления номеров страниц когда непрерывный раздел перезапускает нумерацию страниц.
+linktitle: ContinuousSectionPageNumberingRestart
+articleTitle: ContinuousSectionPageNumberingRestart
+second_title: Aspose.Words для .NET
+description: LayoutOptions ContinuousSectionPageNumberingRestart свойство. Получает или задает режим поведения для вычисления номеров страниц когда непрерывный раздел перезапускает нумерацию страниц на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingres
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Always. Он соответствует поведению MS Word 2019, который был последней версией на момент введения этой опции. С помощью этой опции доступна более старая логика нумерации страниц, продемонстрированная MS Word 2016. Пожалуйста[`ContinuousSectionRestart`](../../continuoussectionrestart/) для описания поведения.
 
-### Примеры
+## Примеры
 
 Показывает, как управлять нумерацией страниц в непрерывном разделе.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

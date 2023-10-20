@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.PageLayoutEvent перечисление. Код события возникающий во время построения и рендеринга модели макета страницы.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.PageLayoutEvent перечисление. Код события возникающий во время построения и рендеринга модели макета страницы на С#.
 type: docs
 weight: 3370
 url: /ru/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Начался рендеринг страницы. Это запускается один раз на страницу. |
 | PartRenderingFinished | `11` | Отрисовка страницы завершена. Это запускается один раз на страницу. |
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

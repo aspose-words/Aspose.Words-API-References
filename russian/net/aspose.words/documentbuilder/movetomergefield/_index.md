@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в позицию сразу за указанным полем слияния и удаляет поле слияния.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToMergeField метод. Перемещает курсор в позицию сразу за указанным полем слияния и удаляет поле слияния на С#.
 type: docs
-weight: 560
+weight: 550
 url: /ru/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 Перемещает курсор в позицию сразу за указанным полем слияния и удаляет поле слияния.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `истинный` если поле слияния было найдено и курсор был перемещен;`ЛОЖЬ` в противном случае.
 
-### Примечания
+## Примечания
 
 Обратите внимание, что этот метод удаляет поле слияния из документа после перемещения курсора.
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поля MERGEFIELD данными с помощью построителя документов вместо слияния почты.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 Перемещает поле слияния в указанное поле слияния.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `истинный` если поле слияния было найдено и курсор был перемещен;`ЛОЖЬ` в противном случае.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля и перемещать к ним курсор построителя документов.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

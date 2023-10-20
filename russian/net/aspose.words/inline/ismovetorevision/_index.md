@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveToRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: Inline свойство. Возвращаетистинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words для .NET
+description: Inline IsMoveToRevision свойство. Возвращаетистинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/inline/ismovetorevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inline/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Смотрите также
 
 * class [Inline](../)
-* пространство имен [Aspose.Words](../../inline/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

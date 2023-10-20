@@ -1,7 +1,9 @@
 ---
-title: FieldTA.FieldTA
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTA строитель. Конструктор по умолчанию.
+title: FieldTA
+linktitle: FieldTA
+articleTitle: FieldTA
+second_title: Aspose.Words для .NET
+description: FieldTA строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldta/fieldta/
@@ -17,7 +19,5 @@ public FieldTA()
 ### Смотрите также
 
 * class [FieldTA](../)
-* пространство имен [Aspose.Words.Fields](../../fieldta/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

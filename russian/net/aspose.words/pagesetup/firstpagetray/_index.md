@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает лоток для бумаги корзину который будет использоваться для первой страницы раздела. Значение зависит от реализации принтера.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words для .NET
+description: PageSetup FirstPageTray свойство. Получает или задает лоток для бумаги корзину который будет использоваться для первой страницы раздела. Значение зависит от реализации принтера на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/firstpagetray/
 public int FirstPageTray { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заставить все разделы документа использовать лоток для бумаги по умолчанию выбранного принтера.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.FlipOrientation перечисление. Возможные значения ориентации фигуры.
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.FlipOrientation перечисление. Возможные значения ориентации фигуры на С#.
 type: docs
 weight: 970
 url: /ru/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | Перевернуть вдоль оси X, изменив координаты Y. |
 | Both | `3` | Перевернуть по осям Y и X. |
 
-### Примеры
+## Примеры
 
 Показывает, как перевернуть фигуру по оси.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

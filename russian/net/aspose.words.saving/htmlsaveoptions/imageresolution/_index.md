@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает выходное разрешение изображений при экспорте в HTML MHTML или EPUB. Значение по умолчанию96 точек на дюйм .
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ImageResolution свойство. Указывает выходное разрешение изображений при экспорте в HTML MHTML или EPUB. Значение по умолчанию96 точек на дюйм  на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 public int ImageResolution { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство влияет на растровые изображения, когда[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) это`истинный` метафайлы и эффекты, экспортированные в виде растровых изображений. Некоторые свойства изображения, такие как обрезка или вращение, требуют сохранения преобразованных изображений, и в этом случае преобразованные изображения создаются с заданным разрешением .
 
-### Примеры
+## Примеры
 
 Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

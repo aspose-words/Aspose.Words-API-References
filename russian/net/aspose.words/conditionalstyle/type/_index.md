@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает область таблицы к которой относится этот условный стиль.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: ConditionalStyle Type свойство. Получает область таблицы к которой относится этот условный стиль на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/conditionalstyle/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/type/
 public ConditionalStyleType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

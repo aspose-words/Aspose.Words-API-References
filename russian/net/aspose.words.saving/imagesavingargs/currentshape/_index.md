@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. ПолучаетShapeBase объект соответствующий форме или группе фигур  которая будет сохранена.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words для .NET
+description: ImageSavingArgs CurrentShape свойство. ПолучаетShapeBase объект соответствующий форме или группе фигур  которая будет сохранена на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesavingargs/currentshape/
 public ShapeBase CurrentShape { get; }
 ```
 
-### Примечания
+## Примечания
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) может быть запущен при сохранении формы или формы группы. Вот почему в собственности есть[`ShapeBase`](../../../aspose.words.drawing/shapebase/) тип. Вы можете проверить, является ли это фигурой группы, сравнивая [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) сGroup или приведя его к одному из производных классов: [`Shape`](../../../aspose.words.drawing/shape/) или[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words использует имя файла документа и уни
 
 Некоторые изображения в документе могут быть недоступны. Чтобы проверить доступность изображения , используйте команду[`IsImageAvailable`](../isimageavailable/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как включить обратный вызов сохранения изображения в процесс преобразования HTML.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../imagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

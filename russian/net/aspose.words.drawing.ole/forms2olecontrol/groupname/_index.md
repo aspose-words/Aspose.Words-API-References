@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.GroupName
-second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControl свойство. Получает или задает строку задающую группу взаимоисключающих элементов управления. Значение по умолчанию  пустая строка.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words для .NET
+description: Forms2OleControl GroupName свойство. Получает или задает строку задающую группу взаимоисключающих элементов управления. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
 public string GroupName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Смотрите также
 
 * class [Forms2OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

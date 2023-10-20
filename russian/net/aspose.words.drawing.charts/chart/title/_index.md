@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: Chart свойство. Предоставляет доступ к свойствам заголовка диаграммы.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: Chart Title свойство. Предоставляет доступ к свойствам заголовка диаграммы на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing.charts/chart/title/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chart/title/
 public ChartTitle Title { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и задать заголовок.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chart/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

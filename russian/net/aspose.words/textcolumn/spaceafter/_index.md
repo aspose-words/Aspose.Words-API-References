@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumn свойство. Получает или задает расстояние между этим столбцом и следующим столбцом в пунктах. Не требуется для последнего столбца.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words для .NET
+description: TextColumn SpaceAfter свойство. Получает или задает расстояние между этим столбцом и следующим столбцом в пунктах. Не требуется для последнего столбца на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textcolumn/spaceafter/
 public double SpaceAfter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Смотрите также
 
 * class [TextColumn](../)
-* пространство имен [Aspose.Words](../../textcolumn/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

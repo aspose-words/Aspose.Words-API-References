@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection метод. Удаляет закладку по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection RemoveAt метод. Удаляет закладку по указанному индексу на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

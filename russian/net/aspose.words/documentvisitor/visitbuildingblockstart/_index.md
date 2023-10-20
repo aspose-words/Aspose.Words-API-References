@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление стандартного блока.
+linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitBuildingBlockStart метод. Вызывается когда началось перечисление стандартного блока на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/documentvisitor/visitbuildingblockstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примечания
+## Примечания
 
 Примечание. Узел стандартного блока и его дочерние элементы не посещаются, когда вы выполняете a Visitor через[`Document`](../../document/) . Если вы хотите выполнить посетителя поверх строительного блока a , вам необходимо выполнить посетителя поверх[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or звонок[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

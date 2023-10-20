@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSectionStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда начинается перечисление раздела.
+linktitle: VisitSectionStart
+articleTitle: VisitSectionStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitSectionStart метод. Вызывается когда начинается перечисление раздела на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words/documentvisitor/visitsectionstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

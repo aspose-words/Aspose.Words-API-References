@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: StyleCollection свойство. Получает стиль по имени или псевдониму.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: StyleCollection Item свойство. Получает стиль по имени или псевдониму на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/stylecollection/item/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/stylecollection/item/
 public Style this[string name] { get; }
 ```
 
-### Примечания
+## Примечания
 
 С учетом регистра, возвращает`нулевой` если стиль с данным именем не найден.
 
 Если это английское название встроенного стиля, которого еще не существует, он автоматически создается.
 
-### Примеры
+## Примеры
 
 Показывает, когда следует пересчитать макет страницы документа.
 
@@ -48,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -65,11 +67,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | А[`StyleIdentifier`](../../styleidentifier/) значение, указывающее встроенный стиль для получения. |
 
-### Примечания
+## Примечания
 
 При обращении к стилю, которого еще нет, автоматически создает его.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить стиль в коллекцию стилей документа.
 
@@ -94,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -107,7 +109,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 public Style this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить стиль в коллекцию стилей документа.
 
@@ -131,7 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

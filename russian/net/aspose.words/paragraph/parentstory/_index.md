@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Извлекает историю на уровне родительского раздела которую можноBody илиHeaderFooter .
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: Aspose.Words для .NET
+description: Paragraph ParentStory свойство. Извлекает историю на уровне родительского раздела которую можноBody илиHeaderFooter  на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/parentstory/
 public Story ParentStory { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

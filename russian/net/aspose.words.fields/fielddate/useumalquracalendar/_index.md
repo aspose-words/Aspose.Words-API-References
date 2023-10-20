@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseUmAlQuraCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDate свойство. Получает или задает необходимость использования календаря УмальКура.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words для .NET
+description: FieldDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Смотрите также
 
 * class [FieldDate](../)
-* пространство имен [Aspose.Words.Fields](../../fielddate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

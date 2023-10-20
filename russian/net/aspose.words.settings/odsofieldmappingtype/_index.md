@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMappingType перечисление. Указывает возможные типы используемые для указания того было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных.
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.OdsoFieldMappingType перечисление. Указывает возможные типы используемые для указания того было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных на С#.
 type: docs
 weight: 5920
 url: /ru/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,7 +24,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Указывает, что поле слияния почты не сопоставлено со столбцом в данном внешнем источнике данных. |
 | Default | `1` | РавноNull . |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

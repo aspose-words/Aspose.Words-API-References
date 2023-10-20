@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Получает тип верхнего/нижнего колонтитула.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words для .NET
+description: HeaderFooter HeaderFooterType свойство. Получает тип верхнего/нижнего колонтитула на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/headerfooter/headerfootertype/
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* пространство имен [Aspose.Words](../../headerfooter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

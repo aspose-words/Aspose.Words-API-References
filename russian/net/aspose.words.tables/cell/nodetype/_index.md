@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. ВозвращаетCell .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Cell NodeType свойство. ВозвращаетCell  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

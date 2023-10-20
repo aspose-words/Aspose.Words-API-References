@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Получает или задает имя файла без пути в котором будет сохранен шрифт.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words для .NET
+description: FontSavingArgs FontFileName свойство. Получает или задает имя файла без пути в котором будет сохранен шрифт на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fontsavingargs/fontfilename/
 public string FontFileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет переопределить способ создания имен файлов шрифтов во время экспорта в HTML.
 
@@ -28,7 +30,7 @@ Aspose.Words автоматически генерирует уникально�
 
 `FontFileName` должно содержать только имя файла без пути. Aspose.Words определяет путь для сохранения, используя имя файла документа, [`FontsFolder`](../../htmlsaveoptions/fontsfolder/) and [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) характеристики.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

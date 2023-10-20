@@ -1,7 +1,9 @@
 ---
-title: Enum ExportListLabels
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ExportListLabels перечисление. Указывает как метки списков экспортируются в HTML MHTML и EPUB.
+title: ExportListLabels Enum
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ExportListLabels перечисление. Указывает как метки списков экспортируются в HTML MHTML и EPUB на С#.
 type: docs
 weight: 5010
 url: /ru/net/aspose.words.saving/exportlistlabels/
@@ -22,7 +24,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | Выводит все метки списка в виде встроенного текста. |
 | ByHtmlTags | `2` | Выводит все метки списков как собственные элементы HTML. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить экспорт списка в HTML.
 
@@ -110,5 +112,3 @@ switch (exportListLabels)
 * property [ExportListLabels](../htmlsaveoptions/exportlistlabels/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

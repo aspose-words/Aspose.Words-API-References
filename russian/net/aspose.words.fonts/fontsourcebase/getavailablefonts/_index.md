@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.GetAvailableFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSourceBase метод. Возвращает список шрифтов доступных через этот источник.
+linktitle: GetAvailableFonts
+articleTitle: GetAvailableFonts
+second_title: Aspose.Words для .NET
+description: FontSourceBase GetAvailableFonts метод. Возвращает список шрифтов доступных через этот источник на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 public IList<PhysicalFontInfo> GetAvailableFonts()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как составить список доступных шрифтов.
 
@@ -35,7 +37,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * class [PhysicalFontInfo](../../physicalfontinfo/)
 * class [FontSourceBase](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsourcebase/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

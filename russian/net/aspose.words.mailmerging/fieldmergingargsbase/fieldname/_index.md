@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgsBase свойство. Получает имя поля слияния в источнике данных.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words для .NET
+description: FieldMergingArgsBase FieldName свойство. Получает имя поля слияния в источнике данных на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
 public string FieldName { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если у вас есть сопоставление имени поля документа с другим именем поля источника данных, , то это имя сопоставленного поля.
 
 Если вы указали префикс имени поля, например «Image:MyFieldName» в документе, , то`FieldName` возвращает имя поля без префикса, то есть «MyFieldName».
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Смотрите также
 
 * class [FieldMergingArgsBase](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

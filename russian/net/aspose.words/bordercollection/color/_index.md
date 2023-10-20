@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Color
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает или задает цвет границы.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words для .NET
+description: BorderCollection Color свойство. Получает или задает цвет границы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/bordercollection/color/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/bordercollection/color/
 public Color Color { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает цвет первой границы в коллекции.
 
 Задает цвет всех границ в коллекции, за исключением диагональных границ.
 
-### Примеры
+## Примеры
 
 Показывает, как создать зеленую волнистую рамку страницы с тенью.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Смотрите также
 
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.AppRef
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionBinding свойство. Указывает ключ привязки используемый для сопоставления записи привязки в этом списке с привязанными данными в документе.
+linktitle: AppRef
+articleTitle: AppRef
+second_title: Aspose.Words для .NET
+description: WebExtensionBinding AppRef свойство. Указывает ключ привязки используемый для сопоставления записи привязки в этом списке с привязанными данными в документе на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/webextensionbinding/appref/
@@ -17,7 +19,5 @@ public string AppRef { get; set; }
 ### Смотрите также
 
 * class [WebExtensionBinding](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

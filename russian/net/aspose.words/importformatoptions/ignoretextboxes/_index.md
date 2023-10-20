@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение указывающее что исходное форматирование содержимого текстовых полей игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions IgnoreTextBoxes свойство. Получает или задает логическое значение указывающее что исходное форматирование содержимого текстовых полей игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/importformatoptions/ignoretextboxes/
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как управлять форматированием текстового поля при добавлении документа.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

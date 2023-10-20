@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection метод. Добавляет элемент в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: CustomXmlSchemaCollection Add метод. Добавляет элемент в коллекцию на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlschemacollection/add/
@@ -18,7 +20,7 @@ public void Add(string value)
 | --- | --- | --- |
 | value | String | Добавляемый элемент. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Смотрите также
 
 * class [CustomXmlSchemaCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlschemacollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

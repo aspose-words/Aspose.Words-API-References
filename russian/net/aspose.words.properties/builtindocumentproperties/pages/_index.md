@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Pages
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Представляет приблизительное количество страниц в документе.
+linktitle: Pages
+articleTitle: Pages
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Pages свойство. Представляет приблизительное количество страниц в документе на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.properties/builtindocumentproperties/pages/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/pages/
 public int Pages { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words обновляет это свойство при вызове[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/).
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Содержимое».
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

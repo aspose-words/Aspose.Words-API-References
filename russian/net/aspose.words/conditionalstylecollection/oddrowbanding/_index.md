@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddRowBanding
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль полосирования нечетных строк.
+linktitle: OddRowBanding
+articleTitle: OddRowBanding
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection OddRowBanding свойство. Получает стиль полосирования нечетных строк на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/conditionalstylecollection/oddrowbanding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/oddrowbanding/
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

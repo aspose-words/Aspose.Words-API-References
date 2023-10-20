@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает значение определяющее способ отрисовки составных изображений в этом объекте Graphics. .
+linktitle: CompositingMode
+articleTitle: CompositingMode
+second_title: Aspose.Words для .NET
+description: GraphicsQualityOptions CompositingMode свойство. Получает или задает значение определяющее способ отрисовки составных изображений в этом объекте Graphics.  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Смотрите также
 
 * class [GraphicsQualityOptions](../)
-* пространство имен [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

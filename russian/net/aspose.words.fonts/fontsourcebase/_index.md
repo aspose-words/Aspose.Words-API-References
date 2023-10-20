@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontSourceBase сорт. Это абстрактный базовый класс для классов которые позволяют пользователю указывать различные источники шрифтов.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontSourceBase сорт. Это абстрактный базовый класс для классов которые позволяют пользователю указывать различные источники шрифтов на С#.
 type: docs
 weight: 2980
 url: /ru/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифта.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

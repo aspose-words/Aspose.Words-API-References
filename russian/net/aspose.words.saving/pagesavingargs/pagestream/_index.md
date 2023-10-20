@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSavingArgs свойство. Позволяет указать поток в котором будет сохранена страница документа.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words для .NET
+description: PageSavingArgs PageStream свойство. Позволяет указать поток в котором будет сохранена страница документа на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pagesavingargs/pagestream/
 public Stream PageStream { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет сохранять страницы документа в потоки, а не в файлы.
 
@@ -22,7 +24,7 @@ public Stream PageStream { get; set; }
 
 Если оба`PageStream` и[`PageFileName`](../pagefilename/) установлены, то будет использоваться PageStream.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Смотрите также
 
 * class [PageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../pagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

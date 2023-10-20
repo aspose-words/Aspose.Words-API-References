@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery перечисление. Указывает предопределенную галерею в которую классифицируется стандартный блок.
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery перечисление. Указывает предопределенную галерею в которую классифицируется стандартный блок на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | То же, что иAll . |
 
-### Примечания
+## Примечания
 
-Соответствует **ST_DocPartGallery** введите OOXML.
+Соответствует**ST_DocPartGallery** введите OOXML.
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * пространство имен [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../)
-
-

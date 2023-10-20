@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToSaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatUtil метод. Преобразует тип контента IANA в перечислимое значение формата сохранения.
+linktitle: ContentTypeToSaveFormat
+articleTitle: ContentTypeToSaveFormat
+second_title: Aspose.Words для .NET
+description: FileFormatUtil ContentTypeToSaveFormat метод. Преобразует тип контента IANA в перечислимое значение формата сохранения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/fileformatutil/contenttypetosaveformat/
@@ -20,7 +22,7 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 | --- | --- |
 | ArgumentException | Выдает, когда невозможно преобразовать. |
 
-### Примеры
+## Примеры
 
 Показывает, как найти соответствующий формат загрузки/сохранения Aspose из каждой строки типа мультимедиа.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* пространство имен [Aspose.Words](../../fileformatutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

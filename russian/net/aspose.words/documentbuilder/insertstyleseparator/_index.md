@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет в документ разделитель стилей.
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertStyleSeparator метод. Вставляет в документ разделитель стилей на С#.
 type: docs
-weight: 460
+weight: 450
 url: /ru/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/documentbuilder/insertstyleseparator/
 public void InsertStyleSeparator()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод позволяет применять разные стили абзаца к двум разным частям текстовой строки.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с разделителями стилей.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

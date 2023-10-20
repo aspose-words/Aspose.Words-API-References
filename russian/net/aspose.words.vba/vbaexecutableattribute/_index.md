@@ -1,7 +1,9 @@
 ---
-title: Class VbaExecutableAttribute
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaExecutableAttribute сорт. 
+title: VbaExecutableAttribute Class
+linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Vba.VbaExecutableAttribute сорт.  на С#.
 type: docs
 weight: 6540
 url: /ru/net/aspose.words.vba/vbaexecutableattribute/
@@ -23,5 +25,3 @@ public class VbaExecutableAttribute : Attribute
 
 * пространство имен [Aspose.Words.Vba](../../aspose.words.vba/)
 * сборка [Aspose.Words](../../)
-
-

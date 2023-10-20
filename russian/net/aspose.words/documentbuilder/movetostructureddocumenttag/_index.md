@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор на тег структурированного документа в текущем разделе.
+linktitle: MoveToStructuredDocumentTag
+articleTitle: MoveToStructuredDocumentTag
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToStructuredDocumentTag метод. Перемещает курсор на тег структурированного документа в текущем разделе на С#.
 type: docs
-weight: 590
+weight: 580
 url: /ru/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 Перемещает курсор на тег структурированного документа в текущем разделе.
 
@@ -19,13 +21,13 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 | structuredDocumentTagIndex | Int32 | Индекс тега структурированного документа, к которому необходимо перейти. |
 | characterIndex | Int32 | Индекс символа внутри тега структурированного документа. Отрицательное значение позволяет указать позицию от конца тега структурированного документа. Используйте -1 to для перехода в конец тега структурированного документа. Если тег структурированного документа находится на уровне блока и вы хотите переместить курсор в конец его последнего абзаца, укажите -2. |
 
-### Примечания
+## Примечания
 
 Навигация осуществляется внутри текущей истории текущего раздела. То есть, если вы переместили курсор в основной заголовок первого раздела, то*structuredDocumentTagIndex* указал индекс тега структурированного документа внутри этого заголовка этого раздела.
 
 Когда*structuredDocumentTagIndex* больше или равно 0, он указывает index с начала раздела, где 0 является первым тегом структурированного документа. When *structuredDocumentTagIndex* меньше 0, он указывает индекс с конца раздела the , где -1 — это последний тег структурированного документа.
 
-### Примеры
+## Примеры
 
 Показывает, как переместить курсор DocumentBuilder внутри тега структурированного документа.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 Перемещает курсор к тегу структурированного документа.
 
@@ -76,7 +78,7 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 | structuredDocumentTag | StructuredDocumentTag | Тег структурированного документа, к которому необходимо перейти. |
 | characterIndex | Int32 | Индекс символа внутри тега структурированного документа. Отрицательное значение позволяет указать позицию от конца тега структурированного документа. Используйте -1 to для перехода в конец тега структурированного документа. Если тег структурированного документа находится на уровне блока и вы хотите переместить курсор в конец его последнего абзаца, укажите -2. |
 
-### Примеры
+## Примеры
 
 Показывает, как переместить курсор DocumentBuilder внутри тега структурированного документа.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

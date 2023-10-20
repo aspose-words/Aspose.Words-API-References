@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddColumnBanding
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает нечетный стиль полосирования столбцов.
+linktitle: OddColumnBanding
+articleTitle: OddColumnBanding
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection OddColumnBanding свойство. Получает нечетный стиль полосирования столбцов на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
 public ConditionalStyle OddColumnBanding { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

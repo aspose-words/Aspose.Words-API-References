@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Справочник по API Aspose.Words для .NET
-description: Hyphenation метод. Отменяет регистрацию словаря переносов для указанного языка.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words для .NET
+description: Hyphenation UnregisterDictionary метод. Отменяет регистрацию словаря переносов для указанного языка на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Название языка, например «en-US». Подробности см. в документации .NET для «имени культуры» и RFC 4646. |
 
-### Примеры
+## Примеры
 
 Показывает, как зарегистрировать словарь переносов.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Смотрите также
 
 * class [Hyphenation](../)
-* пространство имен [Aspose.Words](../../hyphenation/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

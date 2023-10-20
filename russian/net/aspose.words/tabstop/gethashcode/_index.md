@@ -1,7 +1,9 @@
 ---
 title: TabStop.GetHashCode
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop метод. Вычисляет хешкод для этого объекта.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words для .NET
+description: TabStop GetHashCode метод. Вычисляет хешкод для этого объекта на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/tabstop/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### Смотрите также
 
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

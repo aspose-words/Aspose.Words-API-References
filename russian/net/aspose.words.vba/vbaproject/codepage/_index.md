@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaProject свойство. Получает или задает кодовую страницу проекта VBA.
+linktitle: CodePage
+articleTitle: CodePage
+second_title: Aspose.Words для .NET
+description: VbaProject CodePage свойство. Получает или задает кодовую страницу проекта VBA на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.vba/vbaproject/codepage/
 public int CodePage { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что VBA является функцией, предшествующей Unicode, и вам необходимо явно установить соответствующую кодовую страницу , чтобы сохранить региональные наборы символов.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к информации о проекте VBA документа.
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Смотрите также
 
 * class [VbaProject](../)
-* пространство имен [Aspose.Words.Vba](../../vbaproject/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

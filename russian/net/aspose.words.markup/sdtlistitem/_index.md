@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtListItem сорт. Этот элемент определяет один элемент списка в родительском списке.ComboBox илиDropDownList тег структурированного документа.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.SdtListItem сорт. Этот элемент определяет один элемент списка в родительском списке.ComboBox илиDropDownList тег структурированного документа на С#.
 type: docs
 weight: 4020
 url: /ru/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | Имя | Описание |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Инициализирует новый экземпляр этого класса. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Инициализирует новый экземпляр этого класса. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Инициализирует новый экземпляр этого класса. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Получает текст, отображаемый в содержимом выполнения вместо[`Value`](./value/) содержимое атрибута для этого элемента списка. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Получает значение этого элемента списка. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

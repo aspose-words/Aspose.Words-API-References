@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsUnicode
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDde свойство. Получает или задает следует ли вставлять связанный объект как текст в Юникоде.
+linktitle: InsertAsUnicode
+articleTitle: InsertAsUnicode
+second_title: Aspose.Words для .NET
+description: FieldDde InsertAsUnicode свойство. Получает или задает следует ли вставлять связанный объект как текст в Юникоде на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fielddde/insertasunicode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddde/insertasunicode/
 public bool InsertAsUnicode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldDde](../)
-* пространство имен [Aspose.Words.Fields](../../fielddde/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

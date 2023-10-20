@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. True если это последняя строка в таблице ложь в противном случае.
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: Aspose.Words для .NET
+description: Row IsLastRow свойство. True если это последняя строка в таблице ложь в противном случае на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ True, если это последняя строка в таблице; лож�
 public bool IsLastRow { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить таблицу так, чтобы она оставалась вместе на одной странице.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Смотрите также
 
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

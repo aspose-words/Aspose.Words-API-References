@@ -1,7 +1,9 @@
 ---
-title: Class ChartNumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat сорт. Представляет числовое форматирование родительского элемента.
+title: ChartNumberFormat Class
+linktitle: ChartNumberFormat
+articleTitle: ChartNumberFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat сорт. Представляет числовое форматирование родительского элемента на С#.
 type: docs
 weight: 770
 url: /ru/net/aspose.words.drawing.charts/chartnumberformat/
@@ -23,7 +25,7 @@ public class ChartNumberFormat
 | [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | Получает или задает код формата, применяемый к метке данных. |
 | [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | Указывает, связан ли код формата с исходной ячейкой. Значение по умолчанию — true. |
 
-### Примеры
+## Примеры
 
 Показывает, как задать форматирование значений диаграммы.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

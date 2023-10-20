@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает заблокирована ли привязка фигуры.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words для .NET
+description: ShapeBase AnchorLocked свойство. Указывает заблокирована ли привязка фигуры на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/anchorlocked/
 public bool AnchorLocked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
@@ -22,7 +24,7 @@ public bool AnchorLocked { get; set; }
 
 Это свойство влияет на поведение привязки фигуры в Microsoft Word. Если привязка не заблокирована, перемещение фигуры в Microsoft Word может также переместить привязку фигуры.
 
-### Примеры
+## Примеры
 
 Показывает, как заблокировать или разблокировать привязку абзаца фигуры.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

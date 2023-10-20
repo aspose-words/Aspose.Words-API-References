@@ -1,7 +1,9 @@
 ---
-title: FieldAutoNumLgl.FieldAutoNumLgl
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoNumLgl строитель. Конструктор по умолчанию.
+title: FieldAutoNumLgl
+linktitle: FieldAutoNumLgl
+articleTitle: FieldAutoNumLgl
+second_title: Aspose.Words для .NET
+description: FieldAutoNumLgl строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldautonumlgl/fieldautonumlgl/
@@ -17,7 +19,5 @@ public FieldAutoNumLgl()
 ### Смотрите также
 
 * class [FieldAutoNumLgl](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautonumlgl/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

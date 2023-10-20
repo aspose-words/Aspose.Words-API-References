@@ -1,7 +1,9 @@
 ---
-title: Class Comment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Comment сорт. Представляет контейнер для текста комментария.
+title: Comment Class
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Comment сорт. Представляет контейнер для текста комментария на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/comment/
@@ -20,8 +22,8 @@ public sealed class Comment : InlineStory
 
 | Имя | Описание |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Инициализирует новый экземпляр`Comment` класс. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Инициализирует новый экземпляр`Comment` класс. |
+| [Comment](comment/#constructor)(*[DocumentBase](../documentbase/)*) | Инициализирует новый экземпляр`Comment` класс. |
+| [Comment](comment/#constructor_1)(*[DocumentBase](../documentbase/), string, string, DateTime*) | Инициализирует новый экземпляр`Comment` класс. |
 
 ## Характеристики
 
@@ -38,7 +40,7 @@ public sealed class Comment : InlineStory
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Получает первый абзац статьи. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Предоставляет доступ к форматированию шрифта символа привязки этого объекта. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает`истинный` если у этого узла есть дочерние узлы. |
-| [Id](../../aspose.words/comment/id/) { get; set; } | Получает идентификатор комментария. |
+| [Id](../../aspose.words/comment/id/) { get; } | Получает идентификатор комментария. |
 | [Initial](../../aspose.words/comment/initial/) { get; set; } | Возвращает или устанавливает инициалы пользователя, связанного с определенным комментарием. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает`истинный` поскольку этот узел может иметь дочерние узлы. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
@@ -50,7 +52,6 @@ public sealed class Comment : InlineStory
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words/comment/nodetype/) { get; } | ВозвращаетComment . |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Получает коллекцию абзацев, которые являются непосредственными дочерними элементами истории. |
-| [ParentId](../../aspose.words/comment/parentid/) { get; set; } |  |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Получает родительский элемент[`Paragraph`](../paragraph/) этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
@@ -63,39 +64,37 @@ public sealed class Comment : InlineStory
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/comment/accept/)(DocumentVisitor) | Принимает посетителя. |
-| override [AcceptEnd](../../aspose.words/comment/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/comment/acceptstart/)(DocumentVisitor) |  |
-| [AddReply](../../aspose.words/comment/addreply/)(string, string, DateTime, string) | Добавляет ответ на этот комментарий. |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| override [Accept](../../aspose.words/comment/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [AddReply](../../aspose.words/comment/addreply/)(*string, string, DateTime, string*) | Добавляет ответ на этот комментарий. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Если последний дочерний элемент не является абзацем, создается и добавляется один пустой абзац. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies/)() | Удаляет все ответы на этот комментарий. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
-| [RemoveReply](../../aspose.words/comment/removereply/)(Comment) | Удаляет указанный ответ на этот комментарий. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Удаляет указанный дочерний узел. |
+| [RemoveReply](../../aspose.words/comment/removereply/)(*Comment*) | Удаляет указанный ответ на этот комментарий. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
-| [SetText](../../aspose.words/comment/settext/)(string) | Это удобный метод, позволяющий легко задать текст комментария. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
+| [SetText](../../aspose.words/comment/settext/)(*string*) | Это удобный метод, позволяющий легко задать текст комментария. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Комментарий — это аннотация, привязанная к области текста или к позиции в тексте. Комментарий может содержать произвольное количество контента на уровне блока.
 
@@ -107,7 +106,7 @@ public sealed class Comment : InlineStory
 
 `Comment` может содержать[`Paragraph`](../paragraph/) и[`Table`](../../aspose.words.tables/table/) дочерние узлы.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить комментарий к абзацу.
 
@@ -161,5 +160,3 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 * class [InlineStory](../inlinestory/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

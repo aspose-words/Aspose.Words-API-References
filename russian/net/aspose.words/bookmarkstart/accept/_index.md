@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkStart метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: BookmarkStart Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `ЛОЖЬ` если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkStart](../)
-* пространство имен [Aspose.Words](../../bookmarkstart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

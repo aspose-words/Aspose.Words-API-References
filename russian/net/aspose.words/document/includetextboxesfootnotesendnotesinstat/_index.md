@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Указывает включать ли текстовые поля сноски и концевые сноски в статистику количества слов.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words для .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat свойство. Указывает включать ли текстовые поля сноски и концевые сноски в статистику количества слов на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить или исключить текстовые поля, сноски и концевые сноски из статистики количества слов.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.Field сорт. Представляет поле документа Microsoft Word.
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.Field сорт. Представляет поле документа Microsoft Word на С#.
 type: docs
 weight: 1510
 url: /ru/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Поле в документе Word представляет собой сложную структуру, состоящую из нескольких узлов, которые включают начало поля, код поля , разделитель полей, результат поля и конец поля. Поля могут быть вложенными, содержать богатое содержимое и содержать несколько абзацев или разделов в документе.`Field` class — это «фасадный» объект, который предоставляет свойства и методы , позволяющие работать с полем как с единым объектом.
 
@@ -56,7 +58,7 @@ public class Field
 
 Вы не создаете экземпляры`Field` напрямую класс. Чтобы создать новое поле, используйте[`InsertField`](../../aspose.words/documentbuilder/insertfield/) метод.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью кода поля.
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

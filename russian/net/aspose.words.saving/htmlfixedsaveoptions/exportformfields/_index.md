@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Получает или задает указание того экспортируются ли поля формы как элементы интерактивного как тег ввода а не преобразуются ли они в текст или графику.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions ExportFormFields свойство. Получает или задает указание того экспортируются ли поля формы как элементы интерактивного как тег ввода а не преобразуются ли они в текст или графику на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 public bool ExportFormFields { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как экспортировать поля формы в Html.
 
@@ -56,7 +58,5 @@ else
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

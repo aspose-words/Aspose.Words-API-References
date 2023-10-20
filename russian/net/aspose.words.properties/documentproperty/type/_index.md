@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty свойство. Получает тип данных свойства.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: DocumentProperty Type свойство. Получает тип данных свойства на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/documentproperty/type/
 public PropertyType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

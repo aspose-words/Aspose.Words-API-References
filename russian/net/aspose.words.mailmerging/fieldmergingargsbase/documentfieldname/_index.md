@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgsBase свойство. Получает имя поля слияния указанное в документе.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words для .NET
+description: FieldMergingArgsBase DocumentFieldName свойство. Получает имя поля слияния указанное в документе на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
 public string DocumentFieldName { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если у вас есть сопоставление имени поля документа с другим именем поля источника данных, , то это исходное имя поля, указанное в документе.
 
 Если вы указали префикс имени поля, например «Image:MyFieldName» в документе, , то`DocumentFieldName` возвращает имя поля без префикса, то есть «MyFieldName».
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Смотрите также
 
 * class [FieldMergingArgsBase](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

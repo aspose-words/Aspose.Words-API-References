@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Отмечает текущую позицию в документе как конец закладки столбца. Позиция должна находиться в ячейке таблицы.
+linktitle: EndColumnBookmark
+articleTitle: EndColumnBookmark
+second_title: Aspose.Words для .NET
+description: DocumentBuilder EndColumnBookmark метод. Отмечает текущую позицию в документе как конец закладки столбца. Позиция должна находиться в ячейке таблицы на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words/documentbuilder/endcolumnbookmark/
@@ -22,7 +24,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 Конечный узел закладки, который был только что создан.
 
-### Примечания
+## Примечания
 
 Закладка столбца охватывает один или несколько столбцов в диапазоне строк. Чтобы создать действительную закладку, you необходимо вызвать оба[`StartColumnBookmark`](../startcolumnbookmark/) и`EndColumnBookmark` с тем же *bookmarkName*параметр.
 
@@ -30,7 +32,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 Фактическое положение вставленного[`BookmarkEnd`](../../bookmarkend/) узел может отличаться от текущей позиции компоновщика document .
 
-### Примеры
+## Примеры
 
 Показывает, как создать закладку столбца.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

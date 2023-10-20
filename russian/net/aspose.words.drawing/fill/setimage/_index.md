@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill метод. Изменяет тип заливки на одно изображение.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words для .NET
+description: Fill SetImage метод. Изменяет тип заливки на одно изображение на С#.
 type: docs
-weight: 250
+weight: 240
 url: /ru/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Изменяет тип заливки на одно изображение.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Путь к файлу изображения. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить тип заливки фигуры как изображение.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Изменяет тип заливки на одно изображение.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Изменяет тип заливки на одно изображение.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

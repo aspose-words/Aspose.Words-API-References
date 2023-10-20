@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Underline перечисление. Указывает тип подчеркивания примененного к шрифту.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Underline перечисление. Указывает тип подчеркивания примененного к шрифту на С#.
 type: docs
 weight: 6510
 url: /ru/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле гиперссылки.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

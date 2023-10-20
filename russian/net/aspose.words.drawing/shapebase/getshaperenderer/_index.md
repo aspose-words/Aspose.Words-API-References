@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetShapeRenderer
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase метод. Создает и возвращает объект который можно использовать для рендеринга этой фигуры в изображение.
+linktitle: GetShapeRenderer
+articleTitle: GetShapeRenderer
+second_title: Aspose.Words для .NET
+description: ShapeBase GetShapeRenderer метод. Создает и возвращает объект который можно использовать для рендеринга этой фигуры в изображение на С#.
 type: docs
 weight: 660
 url: /ru/net/aspose.words.drawing/shapebase/getshaperenderer/
@@ -18,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 Объект рендеринга для этой фигуры.
 
-### Примечания
+## Примечания
 
 Этот метод просто вызывает[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) конструктор и передает этот объект в качестве параметра.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать средство рендеринга фигур для экспорта фигур в файлы в локальной файловой системе.
 
@@ -48,7 +50,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

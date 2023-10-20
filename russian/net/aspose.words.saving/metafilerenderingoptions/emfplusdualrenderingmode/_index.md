@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmfPlusDualRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: MetafileRenderingOptions свойство. Получает или задает значение определяющее способ отображения метафайлов EMF Dual.
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: Aspose.Words для .NET
+description: MetafileRenderingOptions EmfPlusDualRenderingMode свойство. Получает или задает значение определяющее способ отображения метафайлов EMF Dual на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmo
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Метафайлы EMF+ Dual содержат как части EMF+, так и EMF. MS Word и GDI+ всегда отображают часть EMF+. Aspose.Words в настоящее время не полностью поддерживает все записи EMF+, и в некоторых случаях результат рендеринга части EMF выглядит лучше, чем результат рендеринга части EMF+.
 
@@ -22,7 +24,7 @@ public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 
 Значение по умолчанию:EmfPlusWithFallback.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры рендеринга, связанные с расширенными метафайлами Windows, при сохранении в PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
 * class [MetafileRenderingOptions](../)
-* пространство имен [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

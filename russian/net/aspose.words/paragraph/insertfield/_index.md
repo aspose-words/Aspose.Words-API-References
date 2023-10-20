@@ -1,12 +1,14 @@
 ---
 title: Paragraph.InsertField
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph метод. Вставляет поле в этот абзац.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words для .NET
+description: Paragraph InsertField метод. Вставляет поле в этот абзац на С#.
 type: docs
-weight: 290
+weight: 270
 url: /ru/net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 Вставляет поле в этот абзац.
 
@@ -25,7 +27,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примеры
+## Примеры
 
 Показаны различные способы добавления полей в абзац.
 
@@ -67,12 +69,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 Вставляет поле в этот абзац.
 
@@ -90,7 +92,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примеры
+## Примеры
 
 Показаны различные способы добавления полей в абзац.
 
@@ -131,12 +133,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 Вставляет поле в этот абзац.
 
@@ -155,7 +157,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примеры
+## Примеры
 
 Показаны различные способы добавления полей в абзац.
 
@@ -196,7 +198,5 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

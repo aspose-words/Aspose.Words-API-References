@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает флаг указывающий есть ли на оси второстепенные линии сетки.
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: Aspose.Words для .NET
+description: ChartAxis HasMinorGridlines свойство. Получает или задает флаг указывающий есть ли на оси второстепенные линии сетки на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
 public bool HasMinorGridlines { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

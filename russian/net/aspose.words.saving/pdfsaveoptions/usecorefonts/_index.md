@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли заменять шрифты TrueType Arial Times New Roman Courier New и символ базовыми шрифтами PDF Type 1.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions UseCoreFonts свойство. Получает или задает значение определяющее следует ли заменять шрифты TrueType Arial Times New Roman Courier New и символ базовыми шрифтами PDF Type 1 на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 public bool UseCoreFonts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` . Когда это значение установлено на`истинный` Шрифты Arial, Times New Roman, Courier New и Symbol заменяются в PDF-документе соответствующим базовым шрифтом Type 1.
 
@@ -28,7 +30,7 @@ public bool UseCoreFonts { get; set; }
 
 Эта опция имеет более высокий приоритет, чем[`FontEmbeddingMode`](../fontembeddingmode/) вариант.
 
-### Примеры
+## Примеры
 
 Показывает, как включить/отключить замену шрифта PDF Type 1.
 
@@ -61,7 +63,5 @@ else
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

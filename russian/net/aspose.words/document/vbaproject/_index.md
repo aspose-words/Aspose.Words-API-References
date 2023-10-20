@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или устанавливаетVbaProject .
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words для .NET
+description: Document VbaProject свойство. Получает или устанавливаетVbaProject  на С#.
 type: docs
 weight: 450
 url: /ru/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/vbaproject/
 public VbaProject VbaProject { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к информации о проекте VBA документа.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell строитель. Инициализирует новый экземплярCell класс.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words для .NET
+description: Cell строитель. Инициализирует новый экземплярCell класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`Cell`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Cell`](../) к использованию документаNode) илиNode) в строке, в которую вы хотите вставить ячейку.
+Чтобы добавить[`Cell`](../) к использованию документа[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) в строке, в которую вы хотите вставить ячейку.
 
-### Примеры
+## Примеры
 
 Показывает, как построить вложенную таблицу без использования построителя документов.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

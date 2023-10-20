@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее объединяются ли поля слияния и области слияния независимо от состояния родительского поля IF.
+linktitle: UnconditionalMergeFieldsAndRegions
+articleTitle: UnconditionalMergeFieldsAndRegions
+second_title: Aspose.Words для .NET
+description: MailMerge UnconditionalMergeFieldsAndRegions свойство. Получает или задает значение указывающее объединяются ли поля слияния и области слияния независимо от состояния родительского поля IF на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregio
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как объединить поля или регионы независимо от состояния родительского поля IF.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

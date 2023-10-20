@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Предоставляет доступ к форматированию шрифта символа разрыва абзаца.
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: Aspose.Words для .NET
+description: Paragraph ParagraphBreakFont свойство. Предоставляет доступ к форматированию шрифта символа разрыва абзаца на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/paragraphbreakfont/
 public Font ParagraphBreakFont { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

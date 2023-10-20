@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.IDocumentSavingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время сохранения документа вызывался собственный метод.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время сохранения документа вызывался собственный метод на С#.
 type: docs
 weight: 5150
 url: /ru/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | Вызывается для уведомления о ходе сохранения документа. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | Вызывается для уведомления о ходе сохранения документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как управлять документом при сохранении в HTML.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

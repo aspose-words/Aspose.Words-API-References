@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Справочник по API Aspose.Words для .NET
-description: Range свойство. ВозвращаетBookmarks коллекция представляющая все закладки в диапазоне.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words для .NET
+description: Range Bookmarks свойство. ВозвращаетBookmarks коллекция представляющая все закладки в диапазоне на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/range/bookmarks/
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

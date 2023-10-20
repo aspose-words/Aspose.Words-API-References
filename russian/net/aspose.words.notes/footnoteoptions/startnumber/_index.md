@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.StartNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FootnoteOptions свойство. Указывает начальный номер или символ для первых автоматически нумерованных сносок.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words для .NET
+description: FootnoteOptions StartNumber свойство. Указывает начальный номер или символ для первых автоматически нумерованных сносок на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.notes/footnoteoptions/startnumber/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.notes/footnoteoptions/startnumber/
 public int StartNumber { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство имеет эффект только тогда, когда[`RestartRule`](../restartrule/) установлено значение Continuous.
 
-### Примеры
+## Примеры
 
 Показывает, как установить номер, с которого в документе начинается счетчик сносок/концевых сносок.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Смотрите также
 
 * class [FootnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../footnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

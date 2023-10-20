@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptionsBase свойство. Определяет способ экспорта верхних и нижних колонтитулов в текстовые форматы. Значение по умолчаниюPrimaryOnly .
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words для .NET
+description: TxtSaveOptionsBase ExportHeadersFootersMode свойство. Определяет способ экспорта верхних и нижних колонтитулов в текстовые форматы. Значение по умолчаниюPrimaryOnly  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать способ экспорта верхних и нижних колонтитулов в текстовый формат.
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

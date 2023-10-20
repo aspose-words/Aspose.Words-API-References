@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.HorizontalResolution
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает горизонтальное разрешение для созданных изображений в точках на дюйм.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions HorizontalResolution свойство. Получает или задает горизонтальное разрешение для созданных изображений в точках на дюйм на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
 public float HorizontalResolution { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при сохранении в форматах растровых изображений и влияет на выходной размер в пикселях.
 
 Значение по умолчанию — 96.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать изображение, пока Aspose.Words преобразует документ в него.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает использует ли Microsoft Word поля для раздела на основе языка с письмом справа налево или языка с письмом слева направо.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words для .NET
+description: PageSetup RtlGutter свойство. Получает или задает использует ли Microsoft Word поля для раздела на основе языка с письмом справа налево или языка с письмом слева направо на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/rtlgutter/
 public bool RtlGutter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить поля переплета.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldDocVariable.FieldDocVariable
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDocVariable строитель. Конструктор по умолчанию.
+title: FieldDocVariable
+linktitle: FieldDocVariable
+articleTitle: FieldDocVariable
+second_title: Aspose.Words для .NET
+description: FieldDocVariable строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddocvariable/fielddocvariable/
@@ -17,7 +19,5 @@ public FieldDocVariable()
 ### Смотрите также
 
 * class [FieldDocVariable](../)
-* пространство имен [Aspose.Words.Fields](../../fielddocvariable/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

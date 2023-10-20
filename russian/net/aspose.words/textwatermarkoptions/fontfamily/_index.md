@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает имя семейства шрифтов. Значение по умолчанию  Калибри. .
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words для .NET
+description: TextWatermarkOptions FontFamily свойство. Получает или задает имя семейства шрифтов. Значение по умолчанию  Калибри.  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textwatermarkoptions/fontfamily/
 public string FontFamily { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Смотрите также
 
 * class [TextWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../textwatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

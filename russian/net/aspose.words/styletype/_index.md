@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.StyleType перечисление. Представляет тип стиля.
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.StyleType перечисление. Представляет тип стиля на С#.
 type: docs
 weight: 6160
 url: /ru/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | Стиль представляет собой стиль таблицы. |
 | List | `4` | Стиль представляет собой стиль списка. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

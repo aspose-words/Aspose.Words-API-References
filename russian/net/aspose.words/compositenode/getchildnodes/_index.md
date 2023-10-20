@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Возвращает живую коллекцию дочерних узлов соответствующих указанному типу.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words для .NET
+description: CompositeNode GetChildNodes метод. Возвращает живую коллекцию дочерних узлов соответствующих указанному типу на С#.
 type: docs
-weight: 110
+weight: 90
 url: /ru/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 Живая коллекция дочерних узлов указанного типа.
 
-### Примечания
+## Примечания
 
 Коллекция узлов, возвращаемая этим методом, всегда активна.
 
 Живая коллекция всегда синхронизируется с документом. Например, если вы выбрали все разделы в документе и выполнили перечисление в коллекции , удалив разделы, раздел будет удален из коллекции немедленно при его удалении из документа.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать все комментарии к документу и ответы на них.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

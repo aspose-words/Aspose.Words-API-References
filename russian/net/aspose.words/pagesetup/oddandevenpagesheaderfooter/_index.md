@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Истинно если документ имеет разные верхние и нижние колонтитулы для страниц с нечетными и четными номерами.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words для .NET
+description: PageSetup OddAndEvenPagesHeaderFooter свойство. Истинно если документ имеет разные верхние и нижние колонтитулы для страниц с нечетными и четными номерами на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание: изменение этого свойства влияет на все разделы документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

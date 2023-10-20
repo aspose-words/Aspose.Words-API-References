@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Определяет форматирование символов используемое для метки списка.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: ListLevel Font свойство. Определяет форматирование символов используемое для метки списка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevel/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateFields
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее следует ли обновлять поля определенных типов перед сохранением документа в фиксированном формате страницы. Значение по умолчанию для этого свойстваистинный .
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words для .NET
+description: SaveOptions UpdateFields свойство. Получает или задает значение определяющее следует ли обновлять поля определенных типов перед сохранением документа в фиксированном формате страницы. Значение по умолчанию для этого свойстваистинный  на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/saveoptions/updatefields/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/saveoptions/updatefields/
 public bool UpdateFields { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Позволяет указать, следует ли имитировать поведение MS Word.
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все поля в документе непосредственно перед сохранением его в PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

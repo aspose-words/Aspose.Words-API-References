@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: CustomPartCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/custompartcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/custompartcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

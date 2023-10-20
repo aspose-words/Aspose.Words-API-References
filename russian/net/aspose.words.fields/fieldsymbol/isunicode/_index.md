@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsUnicode
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает значение интерпретируется ли код символа как значение символа Юникода.
+linktitle: IsUnicode
+articleTitle: IsUnicode
+second_title: Aspose.Words для .NET
+description: FieldSymbol IsUnicode свойство. Получает или задает значение интерпретируется ли код символа как значение символа Юникода на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldsymbol/isunicode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/isunicode/
 public bool IsUnicode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

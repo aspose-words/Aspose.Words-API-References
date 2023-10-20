@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращаетистинный если в документе есть отслеживаемые изменения.
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: Aspose.Words для .NET
+description: Document HasRevisions свойство. Возвращаетистинный если в документе есть отслеживаемые изменения на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/hasrevisions/
 public bool HasRevisions { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство является ярлыком для сравнения[`Count`](../../revisioncollection/count/)до нуля.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLastFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDate свойство. Получает или задает следует ли использовать формат который последний раз использовался ведущим приложением при вставке нового поля ДАТЫ.
+linktitle: UseLastFormat
+articleTitle: UseLastFormat
+second_title: Aspose.Words для .NET
+description: FieldDate UseLastFormat свойство. Получает или задает следует ли использовать формат который последний раз использовался ведущим приложением при вставке нового поля ДАТЫ на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddate/uselastformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddate/uselastformat/
 public bool UseLastFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Смотрите также
 
 * class [FieldDate](../)
-* пространство имен [Aspose.Words.Fields](../../fielddate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

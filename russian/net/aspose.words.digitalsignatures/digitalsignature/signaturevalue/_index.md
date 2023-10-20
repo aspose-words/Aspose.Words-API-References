@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureValue
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Получает массив байтов представляющий значение подписи.
+linktitle: SignatureValue
+articleTitle: SignatureValue
+second_title: Aspose.Words для .NET
+description: DigitalSignature SignatureValue свойство. Получает массив байтов представляющий значение подписи на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 public byte[] SignatureValue { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить значение цифровой подписи из документа с цифровой подписью.
 
@@ -33,7 +35,5 @@ foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 ### Смотрите также
 
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

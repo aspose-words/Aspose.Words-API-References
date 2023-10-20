@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Получает или задает цвет переднего плана обводки.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words для .NET
+description: Stroke ForeColor свойство. Получает или задает цвет переднего плана обводки на С#.
 type: docs
-weight: 110
+weight: 100
 url: /ru/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/forecolor/
 public Color ForeColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) is Black.
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

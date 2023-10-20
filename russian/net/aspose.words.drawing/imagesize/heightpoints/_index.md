@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize свойство. Получает высоту изображения в пунктах. 1 балл равен 1/72 дюйма.
+linktitle: HeightPoints
+articleTitle: HeightPoints
+second_title: Aspose.Words для .NET
+description: ImageSize HeightPoints свойство. Получает высоту изображения в пунктах. 1 балл равен 1/72 дюйма на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/imagesize/heightpoints/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagesize/heightpoints/
 public double HeightPoints { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить размер фигуры с помощью изображения.
 
@@ -71,7 +73,5 @@ public double HeightPoints { get; }
 ### Смотрите также
 
 * class [ImageSize](../)
-* пространство имен [Aspose.Words.Drawing](../../imagesize/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

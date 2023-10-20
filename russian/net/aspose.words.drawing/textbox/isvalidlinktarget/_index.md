@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox метод. Определяет является ли этоTextBox может быть привязан к целиTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words для .NET
+description: TextBox IsValidLinkTarget метод. Определяет является ли этоTextBox может быть привязан к целиTextBox  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/textbox/isvalidlinktarget/
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как связать текстовые поля.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

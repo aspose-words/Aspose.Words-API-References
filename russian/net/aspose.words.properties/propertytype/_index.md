@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.PropertyType перечисление. Указывает тип данных свойства документа.
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Properties.PropertyType перечисление. Указывает тип данных свойства документа на С#.
 type: docs
 weight: 4500
 url: /ru/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | Свойство представляет собой массив байтов. |
 | Other | `8` | Свойство другого типа. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * пространство имен [Aspose.Words.Properties](../../aspose.words.properties/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.Shadow
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет применяется ли тень к тексту на пути к тексту.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words для .NET
+description: TextPath Shadow свойство. Определяет применяется ли тень к тексту на пути к тексту на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/textpath/shadow/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/shadow/
 public bool Shadow { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

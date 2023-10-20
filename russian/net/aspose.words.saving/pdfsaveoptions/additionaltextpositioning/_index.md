@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Флаг определяющий писать ли дополнительные операторы позиционирования текста или нет.
+linktitle: AdditionalTextPositioning
+articleTitle: AdditionalTextPositioning
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions AdditionalTextPositioning свойство. Флаг определяющий писать ли дополнительные операторы позиционирования текста или нет на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 public bool AdditionalTextPositioning { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если`истинный` , в выходной PDF-файл записываются дополнительные операторы позиционирования текста. Это может помочь решить проблемы с неточным позиционированием текста на некоторых принтерах. Обратной стороной является увеличенный размер PDF-документа.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Покажите, как писать дополнительные операторы позиционирования текста.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOpti
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

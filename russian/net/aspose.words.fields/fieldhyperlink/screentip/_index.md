@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldHyperlink свойство. Получает или задает текст всплывающей подсказки для гиперссылки.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words для .NET
+description: FieldHyperlink ScreenTip свойство. Получает или задает текст всплывающей подсказки для гиперссылки на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldhyperlink/screentip/
 public string ScreenTip { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Смотрите также
 
 * class [FieldHyperlink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldhyperlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает должны ли ресурсы шрифтов быть встроены в HTML в кодировке Base64. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportFontsAsBase64
+articleTitle: ExportFontsAsBase64
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportFontsAsBase64 свойство. Указывает должны ли ресурсы шрифтов быть встроены в HTML в кодировке Base64. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 public bool ExportFontsAsBase64 { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию шрифты записываются в отдельные файлы. Если для этой опции установлено значение`истинный`, шрифты будут встроены в CSS документа в кодировке Base64.
 
-### Примеры
+## Примеры
 
 Показывает, как встроить шрифты в сохраненный HTML-документ.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

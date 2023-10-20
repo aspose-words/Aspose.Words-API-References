@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInFullContext
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRef свойство. Получает или задает следует ли вставлять номер абзаца на который указана ссылка в полном контексте.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words для .NET
+description: FieldRef InsertParagraphNumberInFullContext свойство. Получает или задает следует ли вставлять номер абзаца на который указана ссылка в полном контексте на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля REF в ссылочные закладки.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Смотрите также
 
 * class [FieldRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

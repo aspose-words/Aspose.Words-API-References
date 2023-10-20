@@ -1,7 +1,9 @@
 ---
 title: TextPath.Trim
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет удаляется ли лишнее пространство выше и ниже текста.
+linktitle: Trim
+articleTitle: Trim
+second_title: Aspose.Words для .NET
+description: TextPath Trim свойство. Определяет удаляется ли лишнее пространство выше и ниже текста на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.drawing/textpath/trim/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/trim/
 public bool Trim { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.TableContentAlignment перечисление. Позволяет указать выравнивание содержимого таблицы которая будет использоваться при экспорте в формат Markdown.
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.TableContentAlignment перечисление. Позволяет указать выравнивание содержимого таблицы которая будет использоваться при экспорте в формат Markdown на С#.
 type: docs
 weight: 5620
 url: /ru/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

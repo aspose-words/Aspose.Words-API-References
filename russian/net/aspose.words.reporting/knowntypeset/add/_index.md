@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: KnownTypeSet метод. Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: KnownTypeSet Add метод. Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.reporting/knowntypeset/add/
@@ -33,7 +35,5 @@ public void Add(Type type)
 ### Смотрите также
 
 * class [KnownTypeSet](../)
-* пространство имен [Aspose.Words.Reporting](../../knowntypeset/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

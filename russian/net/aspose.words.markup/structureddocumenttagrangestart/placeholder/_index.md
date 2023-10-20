@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. ПолучаетBuildingBlockсодержащий текстзаполнитель который должен отображаться когда содержимое этого пробега тега структурированного документа пусто связанный сопоставленный XMLэлемент пуст как указано черезXmlMapping элемент илиIsShowingPlaceholderText элементистинный .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart Placeholder свойство. ПолучаетBuildingBlockсодержащий текстзаполнитель который должен отображаться когда содержимое этого пробега тега структурированного документа пусто связанный сопоставленный XMLэлемент пуст как указано черезXmlMapping элемент илиIsShowingPlaceholderText элементистинный  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возможно`нулевой`, что означает, что заполнитель неприменим для этого тега структурированного документа.
 
@@ -22,7 +24,5 @@ public BuildingBlock Placeholder { get; }
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

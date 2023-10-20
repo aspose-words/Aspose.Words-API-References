@@ -1,7 +1,9 @@
 ---
-title: Enum ColorMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ColorMode перечисление. Указывает как отображаются цвета.
+title: ColorMode Enum
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ColorMode перечисление. Указывает как отображаются цвета на С#.
 type: docs
 weight: 4860
 url: /ru/net/aspose.words.saving/colormode/
@@ -21,7 +23,7 @@ public enum ColorMode
 | Normal | `0` | Рендеринг с неизмененными цветами. |
 | Grayscale | `1` | Рендеринг с использованием цветов в диапазоне оттенков серого от белого до черного. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить цвет изображения с сохранением свойства параметров.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

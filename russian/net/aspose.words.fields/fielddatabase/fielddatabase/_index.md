@@ -1,7 +1,9 @@
 ---
-title: FieldDatabase.FieldDatabase
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabase строитель. Конструктор по умолчанию.
+title: FieldDatabase
+linktitle: FieldDatabase
+articleTitle: FieldDatabase
+second_title: Aspose.Words для .NET
+description: FieldDatabase строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddatabase/fielddatabase/
@@ -17,7 +19,5 @@ public FieldDatabase()
 ### Смотрите также
 
 * class [FieldDatabase](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabase/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

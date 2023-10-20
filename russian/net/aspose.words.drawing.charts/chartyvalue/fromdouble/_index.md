@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartYValue метод. СоздаетChartYValue экземплярDouble тип.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words для .NET
+description: ChartYValue FromDouble метод. СоздаетChartYValue экземплярDouble тип на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
 public static ChartYValue FromDouble(double value)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить ряды диаграмм данными.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Смотрите также
 
 * class [ChartYValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

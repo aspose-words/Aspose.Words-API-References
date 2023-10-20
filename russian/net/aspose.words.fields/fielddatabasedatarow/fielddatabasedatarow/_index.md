@@ -1,7 +1,9 @@
 ---
-title: FieldDatabaseDataRow.FieldDatabaseDataRow
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabaseDataRow строитель. Инициализирует новый экземплярFieldDatabaseDataRow класс.
+title: FieldDatabaseDataRow
+linktitle: FieldDatabaseDataRow
+articleTitle: FieldDatabaseDataRow
+second_title: Aspose.Words для .NET
+description: FieldDatabaseDataRow строитель. Инициализирует новый экземплярFieldDatabaseDataRow класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
@@ -17,7 +19,5 @@ public FieldDatabaseDataRow(params string[] values)
 ### Смотрите также
 
 * class [FieldDatabaseDataRow](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

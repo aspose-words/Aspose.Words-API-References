@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Возвращает непосредственную родительскую таблицу строки.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words для .NET
+description: Row ParentTable свойство. Возвращает непосредственную родительскую таблицу строки на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.tables/row/parenttable/
 public Table ParentTable { get; }
 ```
 
-### Примечания
+## Примечания
 
 ЭквивалентноFirstNonMarkupParentNode брошен в[`Table`](../../table/).
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

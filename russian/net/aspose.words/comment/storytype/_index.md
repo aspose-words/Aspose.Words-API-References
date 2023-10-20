@@ -1,9 +1,11 @@
 ---
 title: Comment.StoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. ВозвращаетComments .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words для .NET
+description: Comment StoryType свойство. ВозвращаетComments  на С#.
 type: docs
-weight: 110
+weight: 100
 url: /ru/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/comment/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

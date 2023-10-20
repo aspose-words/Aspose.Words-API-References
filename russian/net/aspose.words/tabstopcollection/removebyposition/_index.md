@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection метод. Удаляет позицию табуляции в указанной позиции из коллекции.
+linktitle: RemoveByPosition
+articleTitle: RemoveByPosition
+second_title: Aspose.Words для .NET
+description: TabStopCollection RemoveByPosition метод. Удаляет позицию табуляции в указанной позиции из коллекции на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/tabstopcollection/removebyposition/
@@ -18,7 +20,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | Позиция (в пунктах) табуляции, которую нужно удалить. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

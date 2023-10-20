@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfterAuto
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. True если интервал после абзаца устанавливается автоматически.
+linktitle: SpaceAfterAuto
+articleTitle: SpaceAfterAuto
+second_title: Aspose.Words для .NET
+description: ParagraphFormat SpaceAfterAuto свойство. True если интервал после абзаца устанавливается автоматически на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/paragraphformat/spaceafterauto/
@@ -14,7 +16,7 @@ True, если интервал после абзаца устанавливае
 public bool SpaceAfterAuto { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если установлено значение`истинный` , переопределяет эффект[`SpaceAfter`](../spaceafter/).
 
@@ -27,7 +29,7 @@ public bool SpaceAfterAuto { get; set; }
 * Пробел не добавляется после таблицы, если это последний блок в ячейке таблицы.
 * Интервал не добавляется после последнего абзаца в ячейке таблицы.
 
-### Примеры
+## Примеры
 
 Показывает, как установить автоматический интервал между абзацами.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

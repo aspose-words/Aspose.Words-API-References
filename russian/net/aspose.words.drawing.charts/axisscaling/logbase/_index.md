@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisScaling свойство. Получает или задает логарифмическое основание для логарифмической оси.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words для .NET
+description: AxisScaling LogBase свойство. Получает или задает логарифмическое основание для логарифмической оси на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/axisscaling/logbase/
 public double LogBase { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство не поддерживается новыми диаграммами MS Office 2016.
 
@@ -22,7 +24,7 @@ public double LogBase { get; set; }
 
 Установка этого свойства устанавливает[`Type`](../type/) собственностьLogarithmic .
 
-### Примеры
+## Примеры
 
 Показывает, как применить логарифмическое масштабирование к оси диаграммы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### Смотрите также
 
 * class [AxisScaling](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает или задает LCID поля.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words для .NET
+description: Field LocaleId свойство. Получает или задает LCID поля на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/localeid/
 public int LocaleId { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле и работать с его языковым стандартом.
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

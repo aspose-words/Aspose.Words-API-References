@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Справочник по API Aspose.Words для .NET
-description: WarningInfo свойство. Возвращает тип предупреждения.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words для .NET
+description: WarningInfo WarningType свойство. Возвращает тип предупреждения на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/warninginfo/warningtype/
 public WarningType WarningType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* пространство имен [Aspose.Words](../../warninginfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

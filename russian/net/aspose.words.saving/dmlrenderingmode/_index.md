@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DmlRenderingMode перечисление. Указывает как фигуры DrawingML отображаются в фиксированных форматах страниц.
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.DmlRenderingMode перечисление. Указывает как фигуры DrawingML отображаются в фиксированных форматах страниц на С#.
 type: docs
 weight: 4920
 url: /ru/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | Если для DrawingML доступна резервная форма, Aspose.Words отображает резервную форму вместо DrawingML. |
 | DrawingML | `1` | Aspose.Words игнорирует резервную форму DrawingML и отображает сам DrawingML. Это режим по умолчанию. |
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать резервные фигуры при сохранении в PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

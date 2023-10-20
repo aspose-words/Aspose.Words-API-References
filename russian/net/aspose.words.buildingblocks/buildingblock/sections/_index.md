@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Sections
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Возвращает коллекцию представляющую все разделы стандартного блока.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words для .NET
+description: BuildingBlock Sections свойство. Возвращает коллекцию представляющую все разделы стандартного блока на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.buildingblocks/buildingblock/sections/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/sections/
 public SectionCollection Sections { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [SectionCollection](../../../aspose.words/sectioncollection/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

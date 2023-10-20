@@ -1,7 +1,9 @@
 ---
 title: Document.DigitalSignatures
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает коллекцию цифровых подписей для этого документа и результаты их проверки.
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: Aspose.Words для .NET
+description: Document DigitalSignatures свойство. Получает коллекцию цифровых подписей для этого документа и результаты их проверки на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/document/digitalsignatures/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/digitalsignatures/
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### Примечания
+## Примечания
 
 Эта коллекция содержит цифровые подписи, загруженные из исходного документа. Эти цифровые подписи не будут сохранены при сохранении этого документа.[`Document`](../) object в файл или поток, поскольку при сохранении или преобразовании будет создан документ, отличный от оригинала , и исходные цифровые подписи перестанут быть действительными.
 
 Эта коллекция никогда не`нулевой`. Если документ не подписан, он будет содержать ноль элементов.
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает тег связанный с текущим узлом SDT. Не может бытьнулевой .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Tag свойство. Указывает тег связанный с текущим узлом SDT. Не может бытьнулевой  на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/tag/
 public string Tag { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Тег — это произвольная строка, которую приложения могут связать с SDT , чтобы идентифицировать ее без указания видимого понятного имени.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

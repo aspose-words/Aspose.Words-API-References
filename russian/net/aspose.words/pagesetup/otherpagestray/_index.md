@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает лоток для бумаги приемник который будет использоваться для всех страниц раздела кроме первой. Значение зависит от реализации принтера.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words для .NET
+description: PageSetup OtherPagesTray свойство. Получает или задает лоток для бумаги приемник который будет использоваться для всех страниц раздела кроме первой. Значение зависит от реализации принтера на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/otherpagestray/
 public int OtherPagesTray { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заставить все разделы документа использовать лоток для бумаги по умолчанию выбранного принтера.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

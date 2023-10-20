@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroup свойство. Возвращает вставленный/удаленный/перемещенный текст или описание изменения формата.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: RevisionGroup Text свойство. Возвращает вставленный/удаленный/перемещенный текст или описание изменения формата на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/revisiongroup/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisiongroup/text/
 public string Text { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о группе редакций в документе.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Смотрите также
 
 * class [RevisionGroup](../)
-* пространство имен [Aspose.Words](../../revisiongroup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

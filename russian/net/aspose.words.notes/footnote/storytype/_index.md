@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: Footnote свойство. ВозвращаетFootnotes илиEndnotes .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words для .NET
+description: Footnote StoryType свойство. ВозвращаетFootnotes илиEndnotes  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.notes/footnote/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* пространство имен [Aspose.Words.Notes](../../footnote/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

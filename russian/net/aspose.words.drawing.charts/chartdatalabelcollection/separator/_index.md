@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Получает или задает разделитель строк используемый для меток данных всей серии. По умолчанию используется запятая за исключением круговых диаграмм показывающих только имя категории и процентное соотношение когда вместо этого должен использоваться разрыв строки .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection Separator свойство. Получает или задает разделитель строк используемый для меток данных всей серии. По умолчанию используется запятая за исключением круговых диаграмм показывающих только имя категории и процентное соотношение когда вместо этого должен использоваться разрыв строки  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 public string Separator { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`Separator`](../../chartdatalabel/separator/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с метками данных пузырьковой диаграммы.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

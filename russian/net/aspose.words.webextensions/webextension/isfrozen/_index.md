@@ -1,7 +1,9 @@
 ---
 title: WebExtension.IsFrozen
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtension свойство. Указывает может ли пользователь взаимодействовать с вебрасширением или нет.
+linktitle: IsFrozen
+articleTitle: IsFrozen
+second_title: Aspose.Words для .NET
+description: WebExtension IsFrozen свойство. Указывает может ли пользователь взаимодействовать с вебрасширением или нет на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.webextensions/webextension/isfrozen/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextension/isfrozen/
 public bool IsFrozen { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [WebExtension](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextension/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

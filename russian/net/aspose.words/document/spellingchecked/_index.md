@@ -1,7 +1,9 @@
 ---
 title: Document.SpellingChecked
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращаетистинный если документ проверен на орфографию.
+linktitle: SpellingChecked
+articleTitle: SpellingChecked
+second_title: Aspose.Words для .NET
+description: Document SpellingChecked свойство. Возвращаетистинный если документ проверен на орфографию на С#.
 type: docs
 weight: 410
 url: /ru/net/aspose.words/document/spellingchecked/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/spellingchecked/
 public bool SpellingChecked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Чтобы перепроверить орфографию в документе, установите для этого свойства значение`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как настроить проверку орфографии или грамматики.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

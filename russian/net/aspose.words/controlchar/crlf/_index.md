@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Возврат каретки за которым следует символ перевода строки x000dx000a или rn. Не используется как таковой в документах Microsoft Word но обычно используется в текстовых файлах для разрывов абзацев.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words для .NET
+description: ControlChar CrLf поле. Возврат каретки за которым следует символ перевода строки x000dx000a или rn. Не используется как таковой в документах Microsoft Word но обычно используется в текстовых файлах для разрывов абзацев на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/crlf/
 public static readonly string CrLf;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

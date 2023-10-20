@@ -1,7 +1,9 @@
 ---
 title: Range.NormalizeFieldTypes
-second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Изменяет значения типов полей.FieldType изFieldStart FieldSeparator FieldEnd в этом диапазоне чтобы они соответствовали типам полей содержащимся в кодах полей.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words для .NET
+description: Range NormalizeFieldTypes метод. Изменяет значения типов полей.FieldType изFieldStart FieldSeparator FieldEnd в этом диапазоне чтобы они соответствовали типам полей содержащимся в кодах полей на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/range/normalizefieldtypes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/range/normalizefieldtypes/
 public void NormalizeFieldTypes()
 ```
 
-### Примечания
+## Примечания
 
 Используйте этот метод после изменений документа, которые влияют на типы полей.
 
@@ -23,7 +25,5 @@ public void NormalizeFieldTypes()
 ### Смотрите также
 
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

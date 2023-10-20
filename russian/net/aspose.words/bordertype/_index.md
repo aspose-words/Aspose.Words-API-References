@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BorderType перечисление. Определяет стороны границы.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BorderType перечисление. Определяет стороны границы на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | Определяет диагональную границу ячейки таблицы. |
 | DiagonalUp | `7` | Определяет диагональную границу ячейки таблицы. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац с верхней границей.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

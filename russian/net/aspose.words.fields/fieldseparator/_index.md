@@ -1,7 +1,9 @@
 ---
-title: Class FieldSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldSeparator сорт. Представляет разделитель полей Word который отделяет код поля от результата поля.
+title: FieldSeparator Class
+linktitle: FieldSeparator
+articleTitle: FieldSeparator
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldSeparator сорт. Представляет разделитель полей Word который отделяет код поля от результата поля на С#.
 type: docs
 weight: 2380
 url: /ru/net/aspose.words.fields/fieldseparator/
@@ -43,19 +45,19 @@ public class FieldSeparator : FieldChar
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Возвращает поле для поля char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Получает специальный символ, который представляет этот узел. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 `FieldSeparator` является узлом встроенного уровня и представлен [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) управляющий символ в документе.
 
@@ -65,7 +67,7 @@ public class FieldSeparator : FieldChar
 
 Чтобы легко вставить новое поле в документ, используйте команду[`InsertField`](../../aspose.words/documentbuilder/insertfield/) метод.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -170,5 +172,3 @@ public class FieldVisitor : DocumentVisitor
 * class [FieldChar](../fieldchar/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

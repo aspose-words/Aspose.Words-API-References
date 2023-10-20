@@ -1,12 +1,14 @@
 ---
 title: Fill.OneColorGradient
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill метод. Устанавливает для указанной заливки одноцветный градиент.
+linktitle: OneColorGradient
+articleTitle: OneColorGradient
+second_title: Aspose.Words для .NET
+description: Fill OneColorGradient метод. Устанавливает для указанной заливки одноцветный градиент на С#.
 type: docs
-weight: 220
+weight: 210
 url: /ru/net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
+## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
 Устанавливает для указанной заливки одноцветный градиент.
 
@@ -20,7 +22,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Степень градиента. Может иметь значение от 0,0 (темный) до 1,0 (светлый). |
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
+## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
 Устанавливает для указанной заливки одноцветный градиент с использованием указанного цвета.
 
@@ -84,7 +86,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Степень градиента. Может иметь значение от 0,0 (темный) до 1,0 (светлый). |
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -127,7 +129,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

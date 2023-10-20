@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Справочник по API Aspose.Words для .NET
-description: ConvertUtil метод. Преобразует миллиметры в точки.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words для .NET
+description: ConvertUtil MillimeterToPoint метод. Преобразует миллиметры в точки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | Значение для преобразования. |
 
-### Примечания
+## Примечания
 
 1 дюйм равен 25,4 миллиметра. 1 дюйм равен 72 очкам.
 
-### Примеры
+## Примеры
 
 Показывает, как указать свойства страницы в миллиметрах.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### Смотрите также
 
 * class [ConvertUtil](../)
-* пространство имен [Aspose.Words](../../convertutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

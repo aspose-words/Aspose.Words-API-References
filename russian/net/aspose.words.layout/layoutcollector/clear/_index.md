@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutCollector метод. Очищает все собранные данные макета. Вызовите этот метод после обновления документа вручную или перестройки макета.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: LayoutCollector Clear метод. Очищает все собранные данные макета. Вызовите этот метод после обновления документа вручную или перестройки макета на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutcollector/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Смотрите также
 
 * class [LayoutCollector](../)
-* пространство имен [Aspose.Words.Layout](../../layoutcollector/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

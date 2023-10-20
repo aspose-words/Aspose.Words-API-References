@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Справочник по API Aspose.Words для .NET
-description: SignOptions свойство. Изображение которое будет отображаться в связанномSignatureLine . Значение по умолчаниюнулевой .
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: Aspose.Words для .NET
+description: SignOptions SignatureLineImage свойство. Изображение которое будет отображаться в связанномSignatureLine . Значение по умолчаниюнулевой  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
@@ -130,7 +132,5 @@ public byte[] SignatureLineImage { get; set; }
 ### Смотрите также
 
 * class [SignOptions](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../signoptions/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

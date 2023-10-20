@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.BlockImportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlLoadOptions свойство. Получает или задает значение определяющее способ импорта свойств элементов уровня блока. Значение по умолчаниюMerge .
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words для .NET
+description: HtmlLoadOptions BlockImportMode свойство. Получает или задает значение определяющее способ импорта свойств элементов уровня блока. Значение по умолчаниюMerge  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/htmlloadoptions/blockimportmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/htmlloadoptions/blockimportmode/
 public BlockImportMode BlockImportMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как свойства элементов уровня блока импортируются из документов на основе HTML.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * enum [BlockImportMode](../../blockimportmode/)
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

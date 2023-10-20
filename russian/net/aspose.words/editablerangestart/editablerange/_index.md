@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.EditableRange
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRangeStart свойство. Получает объект фасада который инкапсулирует начало и конец этого редактируемого диапазона.
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words для .NET
+description: EditableRangeStart EditableRange свойство. Получает объект фасада который инкапсулирует начало и конец этого редактируемого диапазона на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/editablerangestart/editablerange/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/editablerangestart/editablerange/
 public EditableRange EditableRange { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRange](../../editablerange/)
 * class [EditableRangeStart](../)
-* пространство имен [Aspose.Words](../../editablerangestart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

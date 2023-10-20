@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastRow
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль последней строки.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection LastRow свойство. Получает стиль последней строки на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/conditionalstylecollection/lastrow/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/lastrow/
 public ConditionalStyle LastRow { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

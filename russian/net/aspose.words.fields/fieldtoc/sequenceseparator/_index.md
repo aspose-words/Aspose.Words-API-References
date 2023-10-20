@@ -1,7 +1,9 @@
 ---
 title: FieldToc.SequenceSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает последовательность символов которая используется для разделения порядковых номеров и номеров страниц.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words для .NET
+description: FieldToc SequenceSeparator свойство. Получает или задает последовательность символов которая используется для разделения порядковых номеров и номеров страниц на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.fields/fieldtoc/sequenceseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/sequenceseparator/
 public string SequenceSeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле TOC записями с использованием полей SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

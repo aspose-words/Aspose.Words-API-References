@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает имя файла предложенное для текущего внедренного объекта если вы хотите сохранить его в файл.
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: Aspose.Words для .NET
+description: OleFormat SuggestedFileName свойство. Получает имя файла предложенное для текущего внедренного объекта если вы хотите сохранить его в файл на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/suggestedfilename/
 public string SuggestedFileName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить предложенное имя файла объекта OLE.
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

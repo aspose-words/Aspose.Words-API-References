@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousPreOrder
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа.
+linktitle: PreviousPreOrder
+articleTitle: PreviousPreOrder
+second_title: Aspose.Words для .NET
+description: Node PreviousPreOrder метод. Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/node/previouspreorder/
@@ -22,7 +24,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 Предыдущий узел в порядке предзаказа. Нуль, если достигнуто*rootNode*.
 
-### Примеры
+## Примеры
 
 Показывает, как пройти по дереву узлов документа с помощью алгоритма обхода предварительного порядка и удалить любую встреченную фигуру с изображением.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

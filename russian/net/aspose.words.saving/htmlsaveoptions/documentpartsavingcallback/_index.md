@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentPartSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Позволяет контролировать сохранение частей документа при сохранении документа в формате HTML или EPUB.
+linktitle: DocumentPartSavingCallback
+articleTitle: DocumentPartSavingCallback
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions DocumentPartSavingCallback свойство. Позволяет контролировать сохранение частей документа при сохранении документа в формате HTML или EPUB на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/
 public IDocumentPartSavingCallback DocumentPartSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

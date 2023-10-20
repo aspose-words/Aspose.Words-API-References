@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CrossesAt
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Указывает где на перпендикулярной оси пересекается ось.
+linktitle: CrossesAt
+articleTitle: CrossesAt
+second_title: Aspose.Words для .NET
+description: ChartAxis CrossesAt свойство. Указывает где на перпендикулярной оси пересекается ось на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/crossesat/
 public double CrossesAt { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство имеет силу только в том случае, если[`Crosses`](../crosses/) настроены наCustom. Не поддерживается новыми диаграммами MS Office 2016.
 
 Единицы измерения определяются типом оси. Если ось является осью значений, значение свойства представляет собой десятичное число на оси значений. Если ось является осью категории времени, значение определяется как целое число дней относительно базовой даты (30.12.1899). Для оси текстовых категорий значение is представляет собой целочисленный номер категории, начиная с 1 в качестве первой категории.
 
-### Примеры
+## Примеры
 
 Показывает, как заставить ось графика пересекаться в произвольном месте.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

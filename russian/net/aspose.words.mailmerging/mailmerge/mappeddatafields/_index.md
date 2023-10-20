@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Возвращает коллекцию представляющую сопоставленные поля данных для операции слияния почты.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words для .NET
+description: MailMerge MappedDataFields свойство. Возвращает коллекцию представляющую сопоставленные поля данных для операции слияния почты на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Примечания
+## Примечания
 
 Сопоставленные поля данных позволяют автоматически сопоставлять имена полей в вашем источнике данных с именами полей слияния почты в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

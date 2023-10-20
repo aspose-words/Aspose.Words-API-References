@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapData свойство. Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию  0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapData Column свойство. Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию  0 на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdata/column/
 public int Column { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapData](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

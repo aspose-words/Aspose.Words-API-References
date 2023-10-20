@@ -1,7 +1,9 @@
 ---
 title: TextPath.On
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет отображается ли текст.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words для .NET
+description: TextPath On свойство. Определяет отображается ли текст на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/textpath/on/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/on/
 public bool On { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

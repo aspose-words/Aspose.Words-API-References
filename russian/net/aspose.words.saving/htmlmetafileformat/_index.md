@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlMetafileFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlMetafileFormat перечисление. Указывает формат в котором метафайлы сохраняются в HTMLдокументах.
+title: HtmlMetafileFormat Enum
+linktitle: HtmlMetafileFormat
+articleTitle: HtmlMetafileFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.HtmlMetafileFormat перечисление. Указывает формат в котором метафайлы сохраняются в HTMLдокументах на С#.
 type: docs
 weight: 5090
 url: /ru/net/aspose.words.saving/htmlmetafileformat/
@@ -22,7 +24,7 @@ public enum HtmlMetafileFormat
 | Svg | `1` | Метафайлы преобразуются в векторные изображения SVG. |
 | EmfOrWmf | `2` | Метафайлы сохраняются как есть, без преобразования. |
 
-### Примеры
+## Примеры
 
 Показывает, как конвертировать объекты SVG в другой формат при сохранении HTML-документов.
 
@@ -82,5 +84,3 @@ switch (htmlMetafileFormat)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

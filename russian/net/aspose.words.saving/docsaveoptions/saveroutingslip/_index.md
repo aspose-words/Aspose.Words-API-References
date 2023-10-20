@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
-second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions свойство. КогдаЛОЖЬ  данные RoutingSlip не сохраняются в выходной документ. Значение по умолчаниюистинный .
+linktitle: SaveRoutingSlip
+articleTitle: SaveRoutingSlip
+second_title: Aspose.Words для .NET
+description: DocSaveOptions SaveRoutingSlip свойство. КогдаЛОЖЬ  данные RoutingSlip не сохраняются в выходной документ. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/docsaveoptions/saveroutingslip/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 public bool SaveRoutingSlip { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [DocSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../docsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

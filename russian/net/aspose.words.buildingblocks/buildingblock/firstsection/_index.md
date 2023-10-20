@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.FirstSection
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Получает первый раздел в стандартном блоке.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words для .NET
+description: BuildingBlock FirstSection свойство. Получает первый раздел в стандартном блоке на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.buildingblocks/buildingblock/firstsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/firstsection/
 public Section FirstSection { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает`нулевой` если разделов нет.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

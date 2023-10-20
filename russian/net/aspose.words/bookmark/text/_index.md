@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: Bookmark свойство. Получает или задает текст заключенный в закладку.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: Bookmark Text свойство. Получает или задает текст заключенный в закладку на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmark/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Bookmark](../)
-* пространство имен [Aspose.Words](../../bookmark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

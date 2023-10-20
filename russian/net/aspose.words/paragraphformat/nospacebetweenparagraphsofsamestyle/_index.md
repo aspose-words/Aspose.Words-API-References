@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Когдаистинный SpaceBefore иSpaceAfter будет игнорироваться между абзацами одного стиля.
+linktitle: NoSpaceBetweenParagraphsOfSameStyle
+articleTitle: NoSpaceBetweenParagraphsOfSameStyle
+second_title: Aspose.Words для .NET
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle свойство. Когдаистинный SpaceBefore иSpaceAfter будет игнорироваться между абзацами одного стиля на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Этот параметр действует только при применении к стилю абзаца. Если применить к абзац напрямую, это не имеет никакого эффекта.
 
-### Примеры
+## Примеры
 
 Показывает, как не применять интервалы между абзацами одного стиля.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

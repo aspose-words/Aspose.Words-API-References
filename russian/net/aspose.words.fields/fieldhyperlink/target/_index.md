@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Target
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldHyperlink свойство. Получает или задает цель на которую должна быть перенаправлена ссылка.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words для .NET
+description: FieldHyperlink Target свойство. Получает или задает цель на которую должна быть перенаправлена ссылка на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldhyperlink/target/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldhyperlink/target/
 public string Target { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Смотрите также
 
 * class [FieldHyperlink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldhyperlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

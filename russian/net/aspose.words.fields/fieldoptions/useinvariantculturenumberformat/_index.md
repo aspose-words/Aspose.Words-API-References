@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает значение указывающее что числовой формат анализируется с использованием инвариантного языка и региональных параметров или нет
+linktitle: UseInvariantCultureNumberFormat
+articleTitle: UseInvariantCultureNumberFormat
+second_title: Aspose.Words для .NET
+description: FieldOptions UseInvariantCultureNumberFormat свойство. Получает или задает значение указывающее что числовой формат анализируется с использованием инвариантного языка и региональных параметров или нет на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 public bool UseInvariantCultureNumberFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда для этого свойства установлено значение`истинный` , числовой формат взят из инвариантного языка и региональных параметров.
 
@@ -22,7 +24,7 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать числа в соответствии с инвариантным языком и региональными параметрами.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("$1.234.567,89", field.Result);
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

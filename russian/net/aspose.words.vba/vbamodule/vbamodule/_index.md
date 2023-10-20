@@ -1,7 +1,9 @@
 ---
-title: VbaModule.VbaModule
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaModule строитель. Создает пустой модуль.
+title: VbaModule
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words для .NET
+description: VbaModule строитель. Создает пустой модуль на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbamodule/vbamodule/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbamodule/vbamodule/
 public VbaModule()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Смотрите также
 
 * class [VbaModule](../)
-* пространство имен [Aspose.Words.Vba](../../vbamodule/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Odso.Odso
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso строитель. Конструктор по умолчанию.
+title: Odso
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words для .NET
+description: Odso строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/odso/odso/
@@ -17,7 +19,5 @@ public Odso()
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

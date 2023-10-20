@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FooterDistance
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает расстояние в пунктах между нижним колонтитулом и нижней частью страницы.
+linktitle: FooterDistance
+articleTitle: FooterDistance
+second_title: Aspose.Words для .NET
+description: PageSetup FooterDistance свойство. Возвращает или задает расстояние в пунктах между нижним колонтитулом и нижней частью страницы на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/pagesetup/footerdistance/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/footerdistance/
 public double FooterDistance { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

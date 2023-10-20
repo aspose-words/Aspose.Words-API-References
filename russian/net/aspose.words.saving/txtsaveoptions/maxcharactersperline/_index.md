@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. Получает или задает целочисленное значение указывающее максимальное количество символов в одной строке. Значение по умолчанию  0 что означает отсутствие ограничений.
+linktitle: MaxCharactersPerLine
+articleTitle: MaxCharactersPerLine
+second_title: Aspose.Words для .NET
+description: TxtSaveOptions MaxCharactersPerLine свойство. Получает или задает целочисленное значение указывающее максимальное количество символов в одной строке. Значение по умолчанию  0 что означает отсутствие ограничений на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
 public int MaxCharactersPerLine { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить максимальное количество символов в строке.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ### Смотрите также
 
 * class [TxtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

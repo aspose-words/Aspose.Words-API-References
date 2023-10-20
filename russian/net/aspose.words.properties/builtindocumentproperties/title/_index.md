@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает заголовок документа.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Title свойство. Получает или задает заголовок документа на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.properties/builtindocumentproperties/title/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/title/
 public string Title { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа в категории «Описание».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

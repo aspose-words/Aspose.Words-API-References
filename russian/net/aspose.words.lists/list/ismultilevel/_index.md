@@ -1,7 +1,9 @@
 ---
 title: List.IsMultiLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Возвращаетистинный когда список содержит 9 уровнейЛОЖЬ когда 1 уровень.
+linktitle: IsMultiLevel
+articleTitle: IsMultiLevel
+second_title: Aspose.Words для .NET
+description: List IsMultiLevel свойство. Возвращаетистинный когда список содержит 9 уровнейЛОЖЬ когда 1 уровень на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.lists/list/ismultilevel/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.lists/list/ismultilevel/
 public bool IsMultiLevel { get; }
 ```
 
-### Примечания
+## Примечания
 
 Списки, которые вы создаете с помощью Aspose.Words, всегда являются многоуровневыми списками и содержат 9 уровней.
 
 Microsoft Word 2003 и более поздние версии всегда создают многоуровневые списки с 9 уровнями. Но в некоторых документах, созданных с помощью более ранних версий Microsoft Word, вы можете встретить списки, имеющие только 1 уровень.
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -81,7 +83,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Смотрите также
 
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

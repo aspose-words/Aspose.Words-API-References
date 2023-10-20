@@ -1,7 +1,9 @@
 ---
 title: IDocumentPartSavingCallback.DocumentPartSaving
-second_title: Справочник по API Aspose.Words для .NET
-description: IDocumentPartSavingCallback метод. Вызывается когда Aspose.Words собирается сохранить часть документа.
+linktitle: DocumentPartSaving
+articleTitle: DocumentPartSaving
+second_title: Aspose.Words для .NET
+description: IDocumentPartSavingCallback DocumentPartSaving метод. Вызывается когда Aspose.Words собирается сохранить часть документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
 public void DocumentPartSaving(DocumentPartSavingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * interface [IDocumentPartSavingCallback](../)
-* пространство имен [Aspose.Words.Saving](../../idocumentpartsavingcallback/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

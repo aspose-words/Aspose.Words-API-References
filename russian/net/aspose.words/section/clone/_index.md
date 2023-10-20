@@ -1,9 +1,11 @@
 ---
 title: Section.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Создает дубликат этого раздела.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: Section Clone метод. Создает дубликат этого раздела на С#.
 type: docs
-weight: 130
+weight: 110
 url: /ru/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/section/clone/
 public Section Clone()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять и удалять разделы в документе.
 
@@ -44,7 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

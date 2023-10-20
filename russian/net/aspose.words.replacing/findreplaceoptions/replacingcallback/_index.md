@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Пользовательский метод который вызывается перед каждой заменой.
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions ReplacingCallback свойство. Пользовательский метод который вызывается перед каждой заменой на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
@@ -139,7 +141,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

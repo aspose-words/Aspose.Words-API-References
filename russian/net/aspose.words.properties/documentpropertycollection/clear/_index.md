@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection метод. Удаляет все свойства из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection Clear метод. Удаляет все свойства из коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.properties/documentpropertycollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/documentpropertycollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

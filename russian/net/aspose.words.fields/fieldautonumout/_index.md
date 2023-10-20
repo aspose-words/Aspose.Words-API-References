@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoNumOut
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAutoNumOut сорт. Реализует поле AUTONUMOUT.
+title: FieldAutoNumOut Class
+linktitle: FieldAutoNumOut
+articleTitle: FieldAutoNumOut
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldAutoNumOut сорт. Реализует поле AUTONUMOUT на С#.
 type: docs
 weight: 1600
 url: /ru/net/aspose.words.fields/fieldautonumout/
@@ -42,17 +44,17 @@ public class FieldAutoNumOut : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Вставляет автоматический номер в структурном формате.
 
-### Примеры
+## Примеры
 
 Показывает, как нумеровать абзацы с помощью полей AUTONUMOUT.
 
@@ -84,5 +86,3 @@ doc.Save(ArtifactsDir + "Field.AUTONUMOUT.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Version
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionReference свойство. Указывает версию вебрасширения.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words для .NET
+description: WebExtensionReference Version свойство. Указывает версию вебрасширения на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.webextensions/webextensionreference/version/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextensionreference/version/
 public string Version { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [WebExtensionReference](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionreference/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

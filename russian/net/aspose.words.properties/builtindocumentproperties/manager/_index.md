@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Manager
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задает свойство менеджера.
+linktitle: Manager
+articleTitle: Manager
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Manager свойство. Получает или задает свойство менеджера на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.properties/builtindocumentproperties/manager/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/manager/
 public string Manager { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Происхождение».
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

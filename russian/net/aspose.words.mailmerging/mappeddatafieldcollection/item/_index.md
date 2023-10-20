@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: MappedDataFieldCollection свойство. Получает или задает имя поля в источнике данных связанном с указанным полем слияния почты.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: MappedDataFieldCollection Item свойство. Получает или задает имя поля в источнике данных связанном с указанным полем слияния почты на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Смотрите также
 
 * class [MappedDataFieldCollection](../)
-* пространство имен [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

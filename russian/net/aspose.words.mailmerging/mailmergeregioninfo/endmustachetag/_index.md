@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndMustacheTag
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает конечный тег усы для региона.
+linktitle: EndMustacheTag
+articleTitle: EndMustacheTag
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo EndMustacheTag свойство. Возвращает конечный тег усы для региона на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
 public MustacheTag EndMustacheTag { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами усов.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

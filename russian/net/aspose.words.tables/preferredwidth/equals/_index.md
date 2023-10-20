@@ -1,12 +1,14 @@
 ---
 title: PreferredWidth.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth метод. Определяет задано ли указанноеPreferredWidth по значению равен текущемуPreferredWidth .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: PreferredWidth Equals метод. Определяет задано ли указанноеPreferredWidth по значению равен текущемуPreferredWidth  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {#equals}
+## Equals(*[PreferredWidth](../)*) {#equals}
 
 Определяет, задано ли указанное[`PreferredWidth`](../) по значению равен текущему[`PreferredWidth`](../) .
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/preferredwidth/equals/
 public bool Equals(PreferredWidth other)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительную ширину ячеек таблицы.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Определяет, равен ли указанный объект по значению текущему объекту.
 
@@ -67,7 +69,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 public override bool Equals(object obj)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительную ширину ячеек таблицы.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

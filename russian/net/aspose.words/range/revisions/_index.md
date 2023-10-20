@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Range свойство. Получает коллекцию редакций отслеживаемых изменений существующих в этом диапазоне.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words для .NET
+description: Range Revisions свойство. Получает коллекцию редакций отслеживаемых изменений существующих в этом диапазоне на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/range/revisions/
 public RevisionCollection Revisions { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращенная коллекция является «живой» коллекцией, что означает, что если вы удалите части документа, содержащие версии , удаленные версии автоматически исчезнут из этой коллекции.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редакциями в диапазоне.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

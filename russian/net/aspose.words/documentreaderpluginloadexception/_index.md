@@ -1,7 +1,9 @@
 ---
-title: Class DocumentReaderPluginLoadException
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.DocumentReaderPluginLoadException сорт. Выдается во время загрузки документа когда не удается загрузить плагин необходимый для чтения формата документа.
+title: DocumentReaderPluginLoadException Class
+linktitle: DocumentReaderPluginLoadException
+articleTitle: DocumentReaderPluginLoadException
+second_title: Aspose.Words для .NET
+description: Aspose.Words.DocumentReaderPluginLoadException сорт. Выдается во время загрузки документа когда не удается загрузить плагин необходимый для чтения формата документа на С#.
 type: docs
 weight: 460
 url: /ru/net/aspose.words/documentreaderpluginloadexception/
@@ -18,5 +20,3 @@ public class DocumentReaderPluginLoadException : Exception
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

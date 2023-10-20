@@ -1,7 +1,9 @@
 ---
 title: Table.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает заголовок этой таблицы. Он обеспечивает альтернативное текстовое представление информации содержащейся в таблице.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: Table Title свойство. Получает или задает заголовок этой таблицы. Он обеспечивает альтернативное текстовое представление информации содержащейся в таблице на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.tables/table/title/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.tables/table/title/
 public string Title { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
 Это свойство имеет смысл для документов DOCX , соответствующих стандарту ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). При сохранении в форматах, предшествующих ISO/IEC 29500, это свойство игнорируется.
 
-### Примеры
+## Примеры
 
 Показывает, как построить вложенную таблицу без использования построителя документов.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaReferenceCollection свойство. ПолучаетVbaReference объект по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: VbaReferenceCollection Item свойство. ПолучаетVbaReference объект по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbareferencecollection/item/
@@ -22,7 +24,5 @@ public VbaReference this[int index] { get; }
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* пространство имен [Aspose.Words.Vba](../../vbareferencecollection/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

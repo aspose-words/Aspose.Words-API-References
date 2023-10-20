@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureTimestampSettings свойство. URLадрес сервера меток времени.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl свойство. URLадрес сервера меток времени на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ URL-адрес сервера меток времени.
 public string ServerUrl { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой` . Если`нулевой` , то цифровая подпись не будет иметь отметки времени.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Смотрите также
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

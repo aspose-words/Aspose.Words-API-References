@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Создает дубликат узла.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: Node Clone метод. Создает дубликат узла на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 Клонированный узел.
 
-### Примечания
+## Примечания
 
 Этот метод служит конструктором копирования узлов. Клонированный узел не имеет родительского узла, но принадлежит тому же документу, что и исходный узел.
 
 Этот метод всегда выполняет глубокую копию узла.*isCloneChildren* Параметр указывает, следует ли также копировать все дочерние узлы.
 
-### Примеры
+## Примеры
 
 Показывает, как клонировать составной узел.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

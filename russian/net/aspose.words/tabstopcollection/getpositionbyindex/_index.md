@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetPositionByIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection метод. Получает позицию в пунктах позиции табуляции по указанному индексу.
+linktitle: GetPositionByIndex
+articleTitle: GetPositionByIndex
+second_title: Aspose.Words для .NET
+description: TabStopCollection GetPositionByIndex метод. Получает позицию в пунктах позиции табуляции по указанному индексу на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -22,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 Положение табуляции.
 
-### Примеры
+## Примеры
 
 Показывает, как найти вкладку, остановиться по ее индексу и проверить ее положение.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

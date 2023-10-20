@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Удаляет себя от родителя.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: Node Remove метод. Удаляет себя от родителя на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/node/remove/
 public void Remove()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все фигуры с изображениями из документа.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.LegendEntry
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Получает запись легенды для этой серии диаграмм.
+linktitle: LegendEntry
+articleTitle: LegendEntry
+second_title: Aspose.Words для .NET
+description: ChartSeries LegendEntry свойство. Получает запись легенды для этой серии диаграмм на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartseries/legendentry/
@@ -18,7 +20,5 @@ public ChartLegendEntry LegendEntry { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

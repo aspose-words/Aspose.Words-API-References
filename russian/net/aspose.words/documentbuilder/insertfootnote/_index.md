@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет в документ сноску или концевую сноску.
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertFootnote метод. Вставляет в документ сноску или концевую сноску на С#.
 type: docs
-weight: 340
+weight: 330
 url: /ru/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 Вставляет в документ сноску или концевую сноску.
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 Возвращает только что созданный объект сноски.
 
-### Примеры
+## Примеры
 
 Показывает, как ссылаться на текст с помощью сноски и концевой сноски.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 Вставляет в документ сноску или концевую сноску.
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 Возвращает только что созданный объект сноски.
 
-### Примеры
+## Примеры
 
 Показывает, как ссылаться на текст с помощью сноски и концевой сноски.
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

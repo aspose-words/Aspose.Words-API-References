@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartShapeType перечисление. Указывает тип формы элементов диаграммы.
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartShapeType перечисление. Указывает тип формы элементов диаграммы на С#.
 type: docs
 weight: 810
 url: /ru/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | Звезда диаграммы. |
 | ChartX | `187` | Диаграмма X. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование заливки, обводки и выносок для меток данных диаграммы.
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

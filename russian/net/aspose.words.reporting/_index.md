@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Справочник по API Aspose.Words для .NET
-description: Это пространство имен содержит классы нового механизма отчетов Aspose.Words который поддерживает шаблоны отчетов размеченные с помощью языка основанного на синтаксисе метода LINQ.
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: Aspose.Words для .NET
+description: Это пространство имен содержит классы нового механизма отчетов Aspose.Words который поддерживает шаблоны отчетов размеченные с помощью языка основанного на синтаксисе метода LINQ на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ url: /ru/net/aspose.words.reporting/
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | Указывает режим анализа простых значений JSON (нулевое, логическое, число, целое число и строка) при загрузке JSON. Такой режим не влияет на анализ значений даты и времени. |
 | [ReportBuildOptions](./reportbuildoptions/) | Определяет параметры, управляющие поведением[`ReportingEngine`](../aspose.words.reporting/reportingengine/) при построении отчета. |
-
-

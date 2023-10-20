@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell метод. Если последний дочерний элемент не является абзацем создается и добавляется один пустой абзац.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: Cell EnsureMinimum метод. Если последний дочерний элемент не является абзацем создается и добавляется один пустой абзац на С#.
 type: docs
-weight: 160
+weight: 140
 url: /ru/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как убедиться, что узел ячейки содержит узлы, которые нам нужны, чтобы начать добавлять в него содержимое.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Смотрите также
 
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

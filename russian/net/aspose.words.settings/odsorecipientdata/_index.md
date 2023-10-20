@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoRecipientData сорт. Представляет информацию об одной записи во внешнем источнике данных которая должна быть исключена из слияния почты.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.OdsoRecipientData сорт. Представляет информацию об одной записи во внешнем источнике данных которая должна быть исключена из слияния почты на С#.
 type: docs
 weight: 5930
 url: /ru/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Возвращает глубокую копию этого объекта. |
 
-### Примечания
+## Примечания
 
 Если запись должна быть объединена в объединенный документ, то никакой информации об этой записи не требуется. Однако, если данная запись не должна быть объединена в объединенный документ, то значение уникального ключа для этой записи должно храниться в[`UniqueTag`](./uniquetag/)свойство этого объекта, чтобы указать это исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

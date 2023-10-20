@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает пути к встроенным шаблонам MS Word.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words для .NET
+description: FieldOptions BuiltInTemplatesPaths свойство. Получает или задает пути к встроенным шаблонам MS Word на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство используется[`FieldAutoText`](../../fieldautotext/) и[`FieldGlossary`](../../fieldglossary/) поля, если указанная запись автоматического текста не найдена в[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) шаблон.
 
 По умолчанию MS Word хранит встроенные шаблоны в папках c:\Users\&lt;имя пользователя&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx и C:\Users\&lt;имя пользователя&gt;\. Файлы AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
-### Примеры
+## Примеры
 
 Показывает, как отобразить стандартный блок с полями АВТОТЕКСТ и ГЛОССАРИЙ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

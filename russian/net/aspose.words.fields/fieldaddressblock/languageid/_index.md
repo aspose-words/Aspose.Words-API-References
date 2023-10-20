@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.LanguageId
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock свойство. Получает или задает идентификатор языка используемый для форматирования адреса.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words для .NET
+description: FieldAddressBlock LanguageId свойство. Получает или задает идентификатор языка используемый для форматирования адреса на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldaddressblock/languageid/
 public string LanguageId { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FieldAddressBlock](../)
-* пространство имен [Aspose.Words.Fields](../../fieldaddressblock/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShapeType перечисление. Указывает тип фигуры в документе Microsoft Word.
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ShapeType перечисление. Указывает тип фигуры в документе Microsoft Word на С#.
 type: docs
 weight: 1290
 url: /ru/net/aspose.words.drawing/shapetype/
@@ -269,7 +271,7 @@ public enum ShapeType
 | ChartX | `246` | Диаграмма X. |
 | MinValue | `-2` | Зарезервировано для использования системой. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ фигуру с изображением из локальной файловой системы.
 
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

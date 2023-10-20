@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Позволяет указать параметры контура.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions OutlineOptions свойство. Позволяет указать параметры контура на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Примечания
+## Примечания
 
 Контуры можно создавать из заголовков и закладок.
 
@@ -26,7 +28,7 @@ public OutlineOptions OutlineOptions { get; }
 
 Кроме того, контуры можно экспортировать в формат XPS, используя тот же`OutlineOptions` сорт.
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить уровень заголовков, которые будут отображаться в структуре сохраненного PDF-документа.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

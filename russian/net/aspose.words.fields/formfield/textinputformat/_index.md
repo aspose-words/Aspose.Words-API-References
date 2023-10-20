@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Возвращает или задает форматирование текста для поля текстовой формы.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words для .NET
+description: FormField TextInputFormat свойство. Возвращает или задает форматирование текста для поля текстовой формы на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/textinputformat/
 public string TextInputFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если поле текстовой формы содержит обычный текст, то допустимыми строками формата являются "", "ВЕРХНИЙ РЕГИСТР", "НИЖНИЙ РЕГИСТР", "ПЕРВАЯ ЗАГЛАВНАЯ" и "ЗАГЛАВНЫЙ РЕГИСТР". strings нечувствительны к регистру.
 
@@ -22,7 +24,7 @@ public string TextInputFormat { get; set; }
 
 Microsoft Word допускает строки длиной не более 64 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

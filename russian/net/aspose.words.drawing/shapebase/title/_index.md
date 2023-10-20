@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает заголовок подпись текущего объекта формы.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: ShapeBase Title свойство. Получает или задает заголовок подпись текущего объекта формы на С#.
 type: docs
 weight: 530
 url: /ru/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/title/
 public string Title { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию — пустая строка.
 
 Не может быть`нулевой`, но может быть пустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как задать заголовок фигуры.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

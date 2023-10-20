@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор на абзац текущего раздела.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToParagraph метод. Перемещает курсор на абзац текущего раздела на С#.
 type: docs
-weight: 570
+weight: 560
 url: /ru/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | Индекс абзаца, к которому необходимо перейти. |
 | characterIndex | Int32 | Индекс символа внутри абзаца. Отрицательное значение позволяет указать позицию от конца абзаца. Используйте -1, чтобы перейти к концу абзаца. |
 
-### Примечания
+## Примечания
 
 Навигация осуществляется внутри текущей истории текущего раздела. То есть, если вы переместили курсор на основной заголовок первого раздела, , то*paragraphIndex*указал индекс абзаца внутри header этого раздела.
 
 Когда*paragraphIndex* больше или равно 0, он указывает индекс from начала раздела, где 0 соответствует первому абзацу. Когда*paragraphIndex* меньше 0, указан индекс с конца раздела, где -1 является последним абзацем.
 
-### Примеры
+## Примеры
 
 Показывает, как переместить позицию курсора построителя в указанный абзац.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourceSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: XamlFixedSaveOptions свойство. Позволяет контролировать сохранение ресурсов изображений и шрифтов при экспорте документа в формат Xaml с фиксированной страницей.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words для .NET
+description: XamlFixedSaveOptions ResourceSavingCallback свойство. Позволяет контролировать сохранение ресурсов изображений и шрифтов при экспорте документа в формат Xaml с фиксированной страницей на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать URI связанных ресурсов, созданных при преобразовании документа в формат .xaml фиксированной формы.
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [XamlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

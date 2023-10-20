@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Range сорт. Представляет непрерывную область документа.
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Range сорт. Представляет непрерывную область документа на С#.
 type: docs
 weight: 4520
 url: /ru/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Удаляет все символы диапазона. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Изменяет значения типов полей.[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) из[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) в этом диапазоне, чтобы они соответствовали типам полей, содержащимся в кодах полей. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Заменяет все вхождения указанного шаблона строки символов заменяющей строкой. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Заменяет все вхождения указанного шаблона строки символов заменяющей строкой. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Заменяет все вхождения указанного шаблона строки символов заменяющей строкой. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Заменяет все вхождения указанного шаблона строки символов заменяющей строкой. |
 | [ToDocument](../../aspose.words/range/todocument/)() | Создает новый полностью сформированный документ, содержащий диапазон. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Отменяет связь полей в этом диапазоне. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | Обновляет значения полей документа в этом диапазоне. |
 
-### Примечания
+## Примечания
 
 Документ представлен деревом узлов, и узлы предоставляют Operations для работы с деревом, но некоторые операции легче выполнить, если document рассматривается как непрерывная последовательность текста.
 
@@ -49,7 +51,7 @@ public class Range
 
 `Range` не содержит никакого текста или узлов, это просто представление или «окно» над фрагментом документа.
 
-### Примеры
+## Примеры
 
 Показывает, как получить текстовое содержимое всех узлов, охватываемых диапазоном.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.NumeralFormat перечисление. Указывает набор символов который используется для представления чисел при рендеринге в фиксированные форматы страниц.
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.NumeralFormat перечисление. Указывает набор символов который используется для представления чисел при рендеринге в фиксированные форматы страниц на С#.
 type: docs
 weight: 5310
 url: /ru/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | Набор символов определяется из контекста (локаль и свойство RTL). |
 | System | `4` | ЭТА ОПЦИЯ НЕ ПОДДЕРЖИВАЕТСЯ. Набор символов определяется региональными настройками. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить числовой формат, используемый при сохранении в PDF.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

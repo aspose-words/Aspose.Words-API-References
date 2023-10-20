@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в .Pdf формат.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в .Pdf формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 public PdfSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить или отключить поднабор при встраивании шрифтов во время рендеринга документа в PDF.
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

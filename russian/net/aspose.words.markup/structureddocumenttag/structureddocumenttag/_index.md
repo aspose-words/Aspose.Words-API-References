@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag строитель. Инициализирует новый экземпляр Тег структурированного документа класс.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag строитель. Инициализирует новый экземплярТег структурированного документа класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Инициализирует новый экземпляр **Тег структурированного документа** класс.
+Инициализирует новый экземпляр**Тег структурированного документа** класс.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | Тип узла SDT. |
 | level | MarkupLevel | Уровень узла SDT в документе. |
 
-### Примечания
+## Примечания
 
 Могут быть созданы следующие типы SDT:
 
@@ -34,7 +36,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 * RichText
 * PlainText
 
-### Примеры
+## Примеры
 
 Покажите, как создать структурированный тег документа в виде флажка.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

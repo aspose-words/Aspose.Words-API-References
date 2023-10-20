@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent2
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цветовой акцент 2.
+linktitle: Accent2
+articleTitle: Accent2
+second_title: Aspose.Words для .NET
+description: ThemeColors Accent2 свойство. Определяет цветовой акцент 2 на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.themes/themecolors/accent2/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/accent2/
 public Color Accent2 { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

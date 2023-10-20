@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчаниюЛОЖЬ .
+linktitle: IgnoreDmlUniqueId
+articleTitle: IgnoreDmlUniqueId
+second_title: Aspose.Words для .NET
+description: CompareOptions IgnoreDmlUniqueId свойство. Указывает следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 public bool IgnoreDmlUniqueId { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сравнивать документы, игнорируя уникальный идентификатор DML.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

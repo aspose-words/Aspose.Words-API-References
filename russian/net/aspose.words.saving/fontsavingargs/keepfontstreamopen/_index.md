@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения шрифта.
+linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
+second_title: Aspose.Words для .NET
+description: FontSavingArgs KeepFontStreamOpen свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения шрифта на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`FontStream`](../fontstream/) свойство после записи в него шрифта. Укажите`истинный` чтобы поток оставался открытым.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

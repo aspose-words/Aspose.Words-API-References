@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection метод. Возвращает перечислитель который может перебирать коллекцию.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: BaseWebExtensionCollection GetEnumerator метод. Возвращает перечислитель который может перебирать коллекцию на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerat
 public IEnumerator<T> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией веб-расширений документа.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* пространство имен [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

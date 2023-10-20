@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection свойство. Получает количество элементов в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection Count свойство. Получает количество элементов в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitemcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

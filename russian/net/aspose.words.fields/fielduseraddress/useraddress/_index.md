@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUserAddress свойство. Получает или задает почтовый адрес текущего пользователя.
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: Aspose.Words для .NET
+description: FieldUserAddress UserAddress свойство. Получает или задает почтовый адрес текущего пользователя на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielduseraddress/useraddress/
 public string UserAddress { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле USERADDRESS.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### Смотрите также
 
 * class [FieldUserAddress](../)
-* пространство имен [Aspose.Words.Fields](../../fielduseraddress/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

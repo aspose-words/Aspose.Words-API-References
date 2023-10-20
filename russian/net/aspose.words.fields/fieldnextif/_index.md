@@ -1,7 +1,9 @@
 ---
-title: Class FieldNextIf
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldNextIf сорт. Реализует поле NEXTIF.
+title: FieldNextIf Class
+linktitle: FieldNextIf
+articleTitle: FieldNextIf
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldNextIf сорт. Реализует поле NEXTIF на С#.
 type: docs
 weight: 2190
 url: /ru/net/aspose.words.fields/fieldnextif/
@@ -45,17 +47,17 @@ public class FieldNextIf : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Сравнивает значения, указанные в выражениях.[`LeftExpression`](./leftexpression/) и[`RightExpression`](./rightexpression/) в сравнении с использованием оператора, обозначенного[`ComparisonOperator`](./comparisonoperator/) . Если сравнение верно, следующая запись данных объединяется с текущим документом слияния. (Поля слияния, следующие за NEXTIF в документе main , заменяются значениями из следующей записи данных, а не из текущей записи данных.) Если сравнение ложно, следующая запись данных объединяется в новый документ слияния.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля NEXT/NEXTIF для объединения нескольких строк на одну страницу во время слияния почты.
 
@@ -139,5 +141,3 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

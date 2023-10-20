@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает ориентацию страницы.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words для .NET
+description: PageSetup Orientation свойство. Возвращает или задает ориентацию страницы на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/pagesetup/orientation/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/orientation/
 public Orientation Orientation { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Изменение`Orientation` свопы[`PageWidth`](../pagewidth/) и[`PageHeight`](../pageheight/).
 
-### Примеры
+## Примеры
 
 Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

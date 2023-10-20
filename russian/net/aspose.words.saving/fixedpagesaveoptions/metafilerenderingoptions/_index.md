@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: FixedPageSaveOptions свойство. Позволяет указать параметры рендеринга метафайла.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words для .NET
+description: FixedPageSaveOptions MetafileRenderingOptions свойство. Позволяет указать параметры рендеринга метафайла на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

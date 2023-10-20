@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Справочник по API Aspose.Words для .NET
-description: OutlineOptions свойство. Указывает сколько уровней в структуре документа будет отображаться в развернутом виде при просмотре файла.
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: Aspose.Words для .NET
+description: OutlineOptions ExpandedOutlineLevels свойство. Указывает сколько уровней в структуре документа будет отображаться в развернутом виде при просмотре файла на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что эти параметры не будут работать при сохранении в формате XPS.
 
@@ -22,7 +24,7 @@ public int ExpandedOutlineLevels { get; set; }
 
 По умолчанию — 0. Допустимый диапазон — от 0 до 9.
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать весь документ в PDF с тремя уровнями структуры документа.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Смотрите также
 
 * class [OutlineOptions](../)
-* пространство имен [Aspose.Words.Saving](../../outlineoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

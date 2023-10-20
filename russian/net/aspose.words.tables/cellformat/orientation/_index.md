@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Orientation
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает ориентацию текста в ячейке таблицы.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words для .NET
+description: CellFormat Orientation свойство. Возвращает или задает ориентацию текста в ячейке таблицы на С#.
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/orientation/
 public TextOrientation Orientation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить форматированную таблицу 2x2.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

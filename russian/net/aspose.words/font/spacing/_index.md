@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Возвращает или устанавливает интервал в пунктах между символами .
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words для .NET
+description: Font Spacing свойство. Возвращает или устанавливает интервал в пунктах между символами  на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/spacing/
 public double Spacing { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить горизонтальное масштабирование и интервал для символов.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Revision
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Revision сорт. Представляет редакцию отслеживаемое изменение в узле документа или стиле. ИспользованиеRevisionType чтобы проверить тип этой ревизии.
+title: Revision Class
+linktitle: Revision
+articleTitle: Revision
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Revision сорт. Представляет редакцию отслеживаемое изменение в узле документа или стиле. ИспользованиеRevisionType чтобы проверить тип этой ревизии на С#.
 type: docs
 weight: 4760
 url: /ru/net/aspose.words/revision/
@@ -34,7 +36,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept/)() | Принимает эту версию. |
 | [Reject](../../aspose.words/revision/reject/)() | Отклонить эту версию. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

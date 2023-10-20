@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает горизонтальное расстояние между краем кадра и элементом указаннымRelativeHorizontalPosition свойство.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words для .NET
+description: FrameFormat HorizontalPosition свойство. Получает горизонтальное расстояние между краем кадра и элементом указаннымRelativeHorizontalPosition свойство на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/frameformat/horizontalposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/horizontalposition/
 public double HorizontalPosition { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Смотрите также
 
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

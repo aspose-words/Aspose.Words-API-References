@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRange свойство. Получает узел представляющий конец редактируемого диапазона.
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words для .NET
+description: EditableRange EditableRangeEnd свойство. Получает узел представляющий конец редактируемого диапазона на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/editablerange/editablerangeend/
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* пространство имен [Aspose.Words](../../editablerange/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

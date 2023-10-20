@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode перечисление. Указывает способ экспорта верхних и нижних колонтитулов в текстовый формат.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode перечисление. Указывает способ экспорта верхних и нижних колонтитулов в текстовый формат на С#.
 type: docs
 weight: 5640
 url: /ru/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | В начале и конце каждого раздела экспортируются только основные верхние и нижние колонтитулы. |
 | AllAtEnd | `2` | Все верхние и нижние колонтитулы размещаются после всех разделов в самом конце документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать способ экспорта верхних и нижних колонтитулов в текстовый формат.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

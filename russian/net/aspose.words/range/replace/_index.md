@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Заменяет все вхождения указанного шаблона строки символов заменяющей строкой.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words для .NET
+description: Range Replace метод. Заменяет все вхождения указанного шаблона строки символов заменяющей строкой на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Заменяет все вхождения указанного шаблона строки символов заменяющей строкой.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 Количество произведенных замен.
 
-### Примечания
+## Примечания
 
 Шаблон не будет использоваться в качестве регулярного выражения. Пожалуйста, используйте`Replace`если вам нужны регулярные выражения.
 
@@ -40,7 +42,7 @@ public int Replace(string pattern, string replacement)
 
 Использовать метод`Replace` чтобы иметь более гибкую настройку.
 
-### Примеры
+## Примеры
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### Смотрите также
 
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 Количество произведенных замен.
 
-### Примечания
+## Примечания
 
 Заменяет все совпадение, полученное регулярным выражением.
 
@@ -141,7 +143,7 @@ public int Replace(Regex pattern, string replacement)
 
 Использовать метод`Replace` чтобы иметь более гибкую настройку.
 
-### Примеры
+## Примеры
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### Смотрите также
 
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Заменяет все вхождения указанного шаблона строки символов заменяющей строкой.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 Количество произведенных замен.
 
-### Примечания
+## Примечания
 
 Шаблон не будет использоваться в качестве регулярного выражения. Пожалуйста, используйте`Replace`если вам нужны регулярные выражения.
 
@@ -205,7 +207,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 * **&amp;л** - ручной разрыв строки
 * **&amp;&amp;** - &amp; характер
 
-### Примеры
+## Примеры
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 Количество произведенных замен.
 
-### Примечания
+## Примечания
 
 Заменяет все совпадение, полученное регулярным выражением.
 
@@ -352,7 +354,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 * **&amp;л** - ручной разрыв строки
 * **&amp;&amp;** - &amp; характер
 
-### Примеры
+## Примеры
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

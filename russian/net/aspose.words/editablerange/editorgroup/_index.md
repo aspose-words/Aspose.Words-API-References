@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRange свойство. Возвращает или устанавливает псевдоним или группу редактирования который будет использоваться для определения разрешено ли текущему пользователю редактировать этот редактируемый диапазон.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words для .NET
+description: EditableRange EditorGroup свойство. Возвращает или устанавливает псевдоним или группу редактирования который будет использоваться для определения разрешено ли текущему пользователю редактировать этот редактируемый диапазон на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/editablerange/editorgroup/
 public EditorType EditorGroup { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Один пользователь и группа редакторов не могут быть установлены одновременно для определенного редактируемого диапазона, , если один установлен, другой будет пуст.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать вложенные редактируемые диапазоны.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* пространство имен [Aspose.Words](../../editablerange/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

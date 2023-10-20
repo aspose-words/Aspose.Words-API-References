@@ -1,7 +1,9 @@
 ---
 title: Cell.PreviousCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает предыдущееCell узел.
+linktitle: PreviousCell
+articleTitle: PreviousCell
+second_title: Aspose.Words для .NET
+description: Cell PreviousCell свойство. Получает предыдущееCell узел на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.tables/cell/previouscell/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.tables/cell/previouscell/
 public Cell PreviousCell { get; }
 ```
 
-### Примечания
+## Примечания
 
 Этот метод можно использовать, когда вам необходимо иметь типизированный доступ к ячейкам[`Row`](../../row/) . Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в строке, а не в ячейке, он автоматически проходится, чтобы получить ячейку, содержащуюся внутри.
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все ячейки таблицы.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Смотрите также
 
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

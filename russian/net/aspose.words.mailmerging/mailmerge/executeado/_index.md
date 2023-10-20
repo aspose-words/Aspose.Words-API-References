@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteADO
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Выполняет слияние почты из объекта набора записей ADO в документ.
+linktitle: ExecuteADO
+articleTitle: ExecuteADO
+second_title: Aspose.Words для .NET
+description: MailMerge ExecuteADO метод. Выполняет слияние почты из объекта набора записей ADO в документ на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.mailmerging/mailmerge/executeado/
@@ -18,7 +20,7 @@ public void ExecuteADO(object recordset)
 | --- | --- | --- |
 | recordset | Object | Набор записей ADO или объект записи. |
 
-### Примечания
+## Примечания
 
 Этот метод полезен, если вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, например приложения, созданного с использованием ASP или Visual Basic 6.0.
 
@@ -26,7 +28,7 @@ public void ExecuteADO(object recordset)
 
 Более подробную информацию смотрите в описании[`Execute`](../execute/).
 
-### Примеры
+## Примеры
 
 ```csharp
 [VBScript]
@@ -101,7 +103,5 @@ private static Document CreateSourceDocADOMailMerge()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

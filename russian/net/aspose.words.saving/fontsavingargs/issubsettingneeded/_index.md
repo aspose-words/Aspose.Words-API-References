@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Позволяет указать будет ли текущий шрифт подмножеством перед экспортом в качестве ресурса шрифта.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words для .NET
+description: FontSavingArgs IsSubsettingNeeded свойство. Позволяет указать будет ли текущий шрифт подмножеством перед экспортом в качестве ресурса шрифта на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Шрифты можно экспортировать как полные исходные файлы шрифтов или как подмножества, включающие только символы , используемые в документе. Поднабор позволяет уменьшить размер результирующего ресурса шрифта.
 
 По умолчанию Aspose.Words решает, выполнять ли поднабор или нет, сравнивая исходный размер файла шрифта с размером, указанным в[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Вы можете переопределить это поведение для отдельных шрифтов, установив`IsSubsettingNeeded` свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
-second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает режим рендеринга для текста связанного с этим объектом Graphics.
+linktitle: TextRenderingHint
+articleTitle: TextRenderingHint
+second_title: Aspose.Words для .NET
+description: GraphicsQualityOptions TextRenderingHint свойство. Получает или задает режим рендеринга для текста связанного с этим объектом Graphics на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 public TextRenderingHint? TextRenderingHint { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Смотрите также
 
 * class [GraphicsQualityOptions](../)
-* пространство имен [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

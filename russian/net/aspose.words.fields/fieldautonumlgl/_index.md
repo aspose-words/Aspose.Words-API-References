@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoNumLgl
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAutoNumLgl сорт. Реализует поле AUTONUMLGL.
+title: FieldAutoNumLgl Class
+linktitle: FieldAutoNumLgl
+articleTitle: FieldAutoNumLgl
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldAutoNumLgl сорт. Реализует поле AUTONUMLGL на С#.
 type: docs
 weight: 1590
 url: /ru/net/aspose.words.fields/fieldautonumlgl/
@@ -44,17 +46,17 @@ public class FieldAutoNumLgl : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Вставляет автоматический номер в допустимом формате.
 
-### Примеры
+## Примеры
 
 Показывает, как организовать документ с помощью полей AUTONUMLGL.
 
@@ -132,5 +134,3 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

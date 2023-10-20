@@ -1,7 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaModule сорт. Обеспечивает доступ к модулю проекта VBA.
+title: VbaModule Class
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Vba.VbaModule сорт. Обеспечивает доступ к модулю проекта VBA на С#.
 type: docs
 weight: 6550
 url: /ru/net/aspose.words.vba/vbamodule/
@@ -36,7 +38,7 @@ public class VbaModule
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbamodule/clone/)() | Выполняет копию`VbaModule` . |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к информации о проекте VBA документа.
 
@@ -68,5 +70,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * пространство имен [Aspose.Words.Vba](../../aspose.words.vba/)
 * сборка [Aspose.Words](../../)
-
-

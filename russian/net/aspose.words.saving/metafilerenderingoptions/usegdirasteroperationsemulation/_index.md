@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
-second_title: Справочник по API Aspose.Words для .NET
-description: MetafileRenderingOptions свойство. Получает или задает значение определяющее использовать ли GDI для эмуляции растровых операций.
+linktitle: UseGdiRasterOperationsEmulation
+articleTitle: UseGdiRasterOperationsEmulation
+second_title: Aspose.Words для .NET
+description: MetafileRenderingOptions UseGdiRasterOperationsEmulation свойство. Получает или задает значение определяющее использовать ли GDI для эмуляции растровых операций на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperations
 public bool UseGdiRasterOperationsEmulation { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Библиотеку Windows GDI+ можно использовать для эмуляции растровых операций. Он обеспечивает поддержку всех растровых операций по сравнению с собственной эмуляцией Aspose.Words, но в некоторых случаях производительность может быть ниже.
 
@@ -26,7 +28,7 @@ public bool UseGdiRasterOperationsEmulation { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как установить режим рендеринга при сохранении документов с изображениями метафайлов Windows в другие форматы изображений.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ### Смотрите также
 
 * class [MetafileRenderingOptions](../)
-* пространство имен [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

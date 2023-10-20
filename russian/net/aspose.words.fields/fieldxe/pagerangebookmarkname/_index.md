@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает имя закладки которая отмечает диапазон страниц вставленных в качестве номера страницы записи.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words для .NET
+description: FieldXE PageRangeBookmarkName свойство. Получает или задает имя закладки которая отмечает диапазон страниц вставленных в качестве номера страницы записи на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать составные страницы закладки в качестве диапазона страниц для записи поля ИНДЕКС.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

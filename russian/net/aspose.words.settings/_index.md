@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Settings
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings пространство имен содержит классы и перечисления  которые используются при указании различных настроек и опций хранящихся в документе. Это слияние почты защита от записи совместимость и другие настройки.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings пространство имен содержит классы и перечисления  которые используются при указании различных настроек и опций хранящихся в документе. Это слияние почты защита от записи совместимость и другие настройки на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.settings/
@@ -12,7 +14,7 @@ url: /ru/net/aspose.words.settings/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Содержит параметры совместимости (т. е. пользовательские настройки, введенные на **Совместимость** вкладка  **Параметры** диалог в Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | Содержит параметры совместимости (т. е. пользовательские настройки, введенные на**Совместимость** вкладка **Параметры** диалог в Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | Позволяет настроить параметры расстановки переносов в документе. |
 | [MailMergeSettings](./mailmergesettings/) | Указывает всю информацию о слиянии почты для документа. |
 | [Odso](./odso/) | Указывает параметры объекта источника данных Office (ODSO) для источника данных слияния почты. |
@@ -38,5 +40,3 @@ url: /ru/net/aspose.words.settings/
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Указывает возможные типы, используемые для указания того, было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных. |
 | [ViewType](./viewtype/) | Возможные значения для режима просмотра в Microsoft Word. |
 | [ZoomType](./zoomtype/) | Возможные значения того, насколько большим или маленьким документ будет отображаться на экране в Microsoft Word. |
-
-

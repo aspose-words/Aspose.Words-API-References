@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Получает последний раздел в стандартном блоке.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words для .NET
+description: BuildingBlock LastSection свойство. Получает последний раздел в стандартном блоке на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/lastsection/
 public Section LastSection { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает`нулевой` если разделов нет.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

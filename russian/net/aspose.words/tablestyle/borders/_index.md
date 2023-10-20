@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает коллекцию границ ячеек по умолчанию для стиля.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: TableStyle Borders свойство. Получает коллекцию границ ячеек по умолчанию для стиля на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/tablestyle/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tablestyle/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать пользовательские настройки стиля для таблицы.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

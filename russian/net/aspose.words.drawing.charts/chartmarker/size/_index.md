@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartMarker свойство. Получает или задает размер маркера диаграммы. Значение по умолчанию  7.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words для .NET
+description: ChartMarker Size свойство. Получает или задает размер маркера диаграммы. Значение по умолчанию  7 на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartmarker/size/
 public int Size { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Смотрите также
 
 * class [ChartMarker](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/
@@ -17,7 +19,5 @@ public IEnumerator<KeyValuePair<string, int>> GetEnumerator()
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

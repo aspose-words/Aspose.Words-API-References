@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty свойство. Получает источник связанного свойства пользовательского документа.
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: Aspose.Words для .NET
+description: DocumentProperty LinkSource свойство. Получает источник связанного свойства пользовательского документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/documentproperty/linksource/
 public string LinkSource { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как связать настраиваемое свойство документа с закладкой.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

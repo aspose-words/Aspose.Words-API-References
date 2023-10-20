@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает цвет темы в примененной цветовой схеме связанной с этимFont объект.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words для .NET
+description: Font ThemeColor свойство. Получает или задает цвет темы в примененной цветовой схеме связанной с этимFont объект на С#.
 type: docs
 weight: 460
 url: /ru/net/aspose.words/font/themecolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/themecolor/
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать и использовать тематический стиль.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

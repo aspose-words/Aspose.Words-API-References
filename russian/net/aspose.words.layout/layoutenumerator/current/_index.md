@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator свойство. Получает или задает текущую позицию в модели макета страницы. Это свойство возвращает непрозрачный объект соответствующий текущему объекту макета.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator Current свойство. Получает или задает текущую позицию в модели макета страницы. Это свойство возвращает непрозрачный объект соответствующий текущему объекту макета на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/current/
 public object Current { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

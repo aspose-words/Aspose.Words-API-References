@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Когдаистинный  указывает что помимо полей MERGEFIELD слияние почты выполняется с некоторыми другими типами полей и также с тегами fieldName.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words для .NET
+description: MailMerge UseNonMergeFields свойство. Когдаистинный  указывает что помимо полей MERGEFIELD слияние почты выполняется с некоторыми другими типами полей и также с тегами fieldName на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обычно слияние почты выполняется только в полях MERGEFIELD, но у некоторых клиентов отчеты report были созданы с использованием других полей, и многие документы были созданы таким образом. Для упрощения миграции (и поскольку подход this независимо использовался несколькими клиентами) была введена возможность слияния почты в другие поля.
 
@@ -28,7 +30,7 @@ MACROBUTTON NOMACRO Имя поля
 
 Кроме того, когда`UseNonMergeFields` установлено на`истинный`, Aspose.Words выполнит объединение почты в текстовые tags "{{fieldName}}". Это не поля, а просто текстовые теги.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить внешний вид альтернативных тегов слияния почты, которые не используются во время слияния почты.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

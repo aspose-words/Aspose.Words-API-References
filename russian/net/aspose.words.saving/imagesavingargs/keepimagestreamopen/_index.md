@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения изображения.
+linktitle: KeepImageStreamOpen
+articleTitle: KeepImageStreamOpen
+second_title: Aspose.Words для .NET
+description: ImageSavingArgs KeepImageStreamOpen свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения изображения на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`ImageStream`](../imagestream/) свойство после записи в него изображения. Укажите`истинный` чтобы поток оставался открытым.
 
-### Примеры
+## Примеры
 
 Показывает, как включить обратный вызов сохранения изображения в процесс преобразования HTML.
 
@@ -64,7 +66,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Смотрите также
 
 * class [ImageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../imagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

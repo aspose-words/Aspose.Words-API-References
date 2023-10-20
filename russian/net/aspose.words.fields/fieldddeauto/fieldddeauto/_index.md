@@ -1,7 +1,9 @@
 ---
-title: FieldDdeAuto.FieldDdeAuto
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDdeAuto строитель. Конструктор по умолчанию.
+title: FieldDdeAuto
+linktitle: FieldDdeAuto
+articleTitle: FieldDdeAuto
+second_title: Aspose.Words для .NET
+description: FieldDdeAuto строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldddeauto/fieldddeauto/
@@ -17,7 +19,5 @@ public FieldDdeAuto()
 ### Смотрите также
 
 * class [FieldDdeAuto](../)
-* пространство имен [Aspose.Words.Fields](../../fieldddeauto/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

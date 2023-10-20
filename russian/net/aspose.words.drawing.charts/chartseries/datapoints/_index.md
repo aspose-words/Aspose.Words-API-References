@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Возвращает коллекцию объектов форматирования для всех точек данных в этой серии.
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: Aspose.Words для .NET
+description: ChartSeries DataPoints свойство. Возвращает коллекцию объектов форматирования для всех точек данных в этой серии на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/datapoints/
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

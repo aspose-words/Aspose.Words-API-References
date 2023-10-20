@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: XpsSaveOptions свойство. Позволяет указать параметры контура.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words для .NET
+description: XpsSaveOptions OutlineOptions свойство. Позволяет указать параметры контура на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/xpssaveoptions/outlineoptions/
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) опция не будет работать при сохранении в XPS.
 
-### Примеры
+## Примеры
 
 Показывает, как ограничить уровень заголовков, которые будут отображаться в структуре сохраненного документа XPS.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xpssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

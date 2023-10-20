@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает необходимость добавления символов начала/остановки для типов штрихкодов NW7 и CODE39. .
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode AddStartStopChar свойство. Получает или задает необходимость добавления символов начала/остановки для типов штрихкодов NW7 и CODE39.  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 public bool AddStartStopChar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

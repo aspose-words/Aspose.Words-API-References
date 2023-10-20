@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Определяет горизонтальное выравнивание страниц в документе HTML. Значение по умолчаниюCenter .
+linktitle: PageHorizontalAlignment
+articleTitle: PageHorizontalAlignment
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions PageHorizontalAlignment свойство. Определяет горизонтальное выравнивание страниц в документе HTML. Значение по умолчаниюCenter  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить горизонтальное выравнивание страниц при сохранении документа в формате HTML.
 
@@ -51,7 +53,5 @@ switch (pageHorizontalAlignment)
 
 * enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

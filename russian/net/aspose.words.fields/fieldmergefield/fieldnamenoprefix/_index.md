@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldNameNoPrefix
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeField свойство. Возвращает только имя поля данных. Любой префикс удаляется из свойства prefix. .
+linktitle: FieldNameNoPrefix
+articleTitle: FieldNameNoPrefix
+second_title: Aspose.Words для .NET
+description: FieldMergeField FieldNameNoPrefix свойство. Возвращает только имя поля данных. Любой префикс удаляется из свойства prefix.  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
 public string FieldNameNoPrefix { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Смотрите также
 
 * class [FieldMergeField](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergefield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

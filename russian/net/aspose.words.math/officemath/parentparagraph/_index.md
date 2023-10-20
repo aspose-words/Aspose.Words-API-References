@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.ParentParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath свойство. Получает родительский элементParagraph этого узла.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words для .NET
+description: OfficeMath ParentParagraph свойство. Получает родительский элементParagraph этого узла на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.math/officemath/parentparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.math/officemath/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование отображения математических функций Office.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [OfficeMath](../)
-* пространство имен [Aspose.Words.Math](../../officemath/)
+* пространство имен [Aspose.Words.Math](../../../aspose.words.math/)
 * сборка [Aspose.Words](../../../)
-
-

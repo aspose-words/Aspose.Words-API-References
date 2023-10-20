@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.ScanSubfolders
-second_title: Справочник по API Aspose.Words для .NET
-description: FolderFontSource свойство. Определяет сканировать ли подпапки.
+linktitle: ScanSubfolders
+articleTitle: ScanSubfolders
+second_title: Aspose.Words для .NET
+description: FolderFontSource ScanSubfolders свойство. Определяет сканировать ли подпапки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/folderfontsource/scansubfolders/
 public bool ScanSubfolders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Смотрите также
 
 * class [FolderFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../folderfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

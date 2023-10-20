@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.BuiltInDocumentProperties
-second_title: Справочник по API Aspose.Words для .NET
-description: PlainTextDocument свойство. ПолучаетBuiltInDocumentProperties документа.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words для .NET
+description: PlainTextDocument BuiltInDocumentProperties свойство. ПолучаетBuiltInDocumentProperties документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/plaintextdocument/builtindocumentproperties/
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста, а затем получить доступ к встроенным свойствам исходного документа.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

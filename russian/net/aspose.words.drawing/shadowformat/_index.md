@@ -1,7 +1,9 @@
 ---
-title: Class ShadowFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShadowFormat сорт. Представляет теневое форматирование объекта.
+title: ShadowFormat Class
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ShadowFormat сорт. Представляет теневое форматирование объекта на С#.
 type: docs
 weight: 1230
 url: /ru/net/aspose.words.drawing/shadowformat/
@@ -33,5 +35,3 @@ public class ShadowFormat
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

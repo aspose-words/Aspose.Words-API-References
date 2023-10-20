@@ -1,7 +1,9 @@
 ---
-title: LanguagePreferences.LanguagePreferences
-second_title: Справочник по API Aspose.Words для .NET
-description: LanguagePreferences строитель. Конструктор по умолчанию.
+title: LanguagePreferences
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words для .NET
+description: LanguagePreferences строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/languagepreferences/languagepreferences/
@@ -17,7 +19,5 @@ public LanguagePreferences()
 ### Смотрите также
 
 * class [LanguagePreferences](../)
-* пространство имен [Aspose.Words.Loading](../../languagepreferences/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

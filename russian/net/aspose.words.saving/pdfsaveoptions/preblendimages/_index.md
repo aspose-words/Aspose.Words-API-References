@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли предварительно смешивать прозрачные изображения с черным цветом фона.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions PreblendImages свойство. Получает или задает значение определяющее следует ли предварительно смешивать прозрачные изображения с черным цветом фона на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 public bool PreblendImages { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Предварительное смешивание изображений может улучшить внешний вид PDF-документа в Adobe Reader и удалить артефакты сглаживания.
 
@@ -22,7 +24,7 @@ public bool PreblendImages { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как предварительно смешать изображения с прозрачным фоном при сохранении документа в формате PDF.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

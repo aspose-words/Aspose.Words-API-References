@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgsBase свойство. Получает индекс объединяемой записи начинающийся с нуля.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words для .NET
+description: FieldMergingArgsBase RecordIndex свойство. Получает индекс объединяемой записи начинающийся с нуля на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 public int RecordIndex { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Смотрите также
 
 * class [FieldMergingArgsBase](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

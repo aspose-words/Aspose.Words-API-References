@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlPropertyCollection сорт. Представляет коллекцию пользовательских атрибутов XML или свойств смарттегов.
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.CustomXmlPropertyCollection сорт. Представляет коллекцию пользовательских атрибутов XML или свойств смарттегов на С#.
 type: docs
 weight: 3950
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Добавляет свойство в коллекцию. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | Добавляет свойство в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Определяет, содержит ли коллекция свойство с заданным именем. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Определяет, содержит ли коллекция свойство с заданным именем. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Удаляет свойство с указанным именем из коллекции. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Удаляет свойство по указанному индексу. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | Удаляет свойство с указанным именем из коллекции. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | Удаляет свойство по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Предметы[`CustomXmlProperty`](../customxmlproperty/) объекты.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

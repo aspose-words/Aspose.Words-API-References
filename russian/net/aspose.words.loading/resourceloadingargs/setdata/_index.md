@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.SetData
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceLoadingArgs метод. Устанавливает предоставленные пользователем данные ресурса который используется  еслиResourceLoading возвращаетUserProvided .
+linktitle: SetData
+articleTitle: SetData
+second_title: Aspose.Words для .NET
+description: ResourceLoadingArgs SetData метод. Устанавливает предоставленные пользователем данные ресурса который используется  еслиResourceLoading возвращаетUserProvided  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/resourceloadingargs/setdata/
 public void SetData(byte[] data)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Смотрите также
 
 * class [ResourceLoadingArgs](../)
-* пространство имен [Aspose.Words.Loading](../../resourceloadingargs/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

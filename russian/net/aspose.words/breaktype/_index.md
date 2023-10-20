@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BreakType перечисление. Указывает тип разрыва внутри документа.
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BreakType перечисление. Указывает тип разрыва внутри документа на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | Указывает начало нового раздела на нечетной странице. |
 | LineBreak | `8` | Явный разрыв строки. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

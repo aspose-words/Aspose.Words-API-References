@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextColumn сорт. Представляет один текстовый столбец.TextColumn является членомTextColumnCollection коллекция. TextColumn коллекция включает в себя все столбцы раздела документа.
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TextColumn сорт. Представляет один текстовый столбец.TextColumn является членомTextColumnCollection коллекция. TextColumn коллекция включает в себя все столбцы раздела документа на С#.
 type: docs
 weight: 6390
 url: /ru/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Получает или задает расстояние между этим столбцом и следующим столбцом в пунктах. Не требуется для последнего столбца. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Получает или задает ширину текстового столбца в пунктах. |
 
-### Примечания
+## Примечания
 
 `TextColumn` объекты используются только для указания столбцов с произвольной шириной и интервалом. Если вы хотите столбцы в документе иметь одинаковую ширину, установите TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) к`истинный`.
 
 Когда новый`TextColumn` создается, его ширина и интервал установлены на ноль.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

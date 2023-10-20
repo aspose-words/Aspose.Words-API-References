@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.VerticalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAdvance свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вертикально от верхнего края страницы.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words для .NET
+description: FieldAdvance VerticalPosition свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вертикально от верхнего края страницы на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldadvance/verticalposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldadvance/verticalposition/
 public string VerticalPosition { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADVANCE и отредактировать его свойства.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Смотрите также
 
 * class [FieldAdvance](../)
-* пространство имен [Aspose.Words.Fields](../../fieldadvance/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

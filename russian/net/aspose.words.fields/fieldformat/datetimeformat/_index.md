@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.DateTimeFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormat свойство. Получает или задает форматирование которое применяется к результату поля даты и времени. Соответствует переключателю .
+linktitle: DateTimeFormat
+articleTitle: DateTimeFormat
+second_title: Aspose.Words для .NET
+description: FieldFormat DateTimeFormat свойство. Получает или задает форматирование которое применяется к результату поля даты и времени. Соответствует переключателю  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformat/datetimeformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldformat/datetimeformat/
 public string DateTimeFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Смотрите также
 
 * class [FieldFormat](../)
-* пространство имен [Aspose.Words.Fields](../../fieldformat/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

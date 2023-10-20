@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailSubject
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает текст который будет отображаться в строке темы электронных писем или факсов создаваемых во время слияния почты. Значение по умолчанию  пустая строка.
+linktitle: MailSubject
+articleTitle: MailSubject
+second_title: Aspose.Words для .NET
+description: MailMergeSettings MailSubject свойство. Указывает текст который будет отображаться в строке темы электронных писем или факсов создаваемых во время слияния почты. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.settings/mailmergesettings/mailsubject/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/mailsubject/
 public string MailSubject { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Позволяет указать нужно ли отображать выносные линии меток данных для меток данных всей серии. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection ShowLeaderLines свойство. Позволяет указать нужно ли отображать выносные линии меток данных для меток данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderline
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Применяется только к круговым диаграммам. Линии-выноски создают визуальную связь между меткой данных и соответствующей точкой данных.
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the .[`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с метками данных на круговой диаграмме.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

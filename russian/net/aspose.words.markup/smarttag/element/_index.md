@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Element
-second_title: Справочник по API Aspose.Words для .NET
-description: SmartTag свойство. Указывает имя смарттега в документе.
+linktitle: Element
+articleTitle: Element
+second_title: Aspose.Words для .NET
+description: SmartTag Element свойство. Указывает имя смарттега в документе на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/smarttag/element/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/smarttag/element/
 public string Element { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [SmartTag](../)
-* пространство имен [Aspose.Words.Markup](../../smarttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

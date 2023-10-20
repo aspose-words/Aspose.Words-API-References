@@ -1,9 +1,11 @@
 ---
 title: Stroke.Weight
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет толщину кисти обводящей контур фигуры в точках.
+linktitle: Weight
+articleTitle: Weight
+second_title: Aspose.Words для .NET
+description: Stroke Weight свойство. Определяет толщину кисти обводящей контур фигуры в точках на С#.
 type: docs
-weight: 220
+weight: 210
 url: /ru/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/weight/
 public double Weight { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) составляет 0,75.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

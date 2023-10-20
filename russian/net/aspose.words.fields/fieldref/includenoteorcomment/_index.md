@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldRef свойство. Получает или задает следует ли увеличивать номера сносок концевых сносок и примечаний которые отмечены закладкой и вставлять соответствующие сноски концевые сноски и текст комментария.
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: Aspose.Words для .NET
+description: FieldRef IncludeNoteOrComment свойство. Получает или задает следует ли увеличивать номера сносок концевых сносок и примечаний которые отмечены закладкой и вставлять соответствующие сноски концевые сноски и текст комментария на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldref/includenoteorcomment/
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля REF в ссылочные закладки.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Смотрите также
 
 * class [FieldRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

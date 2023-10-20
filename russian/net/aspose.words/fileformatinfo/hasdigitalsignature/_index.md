@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatInfo свойство. Возвращаетистинныйесли этот документ содержит цифровую подпись. Это свойство просто сообщает что в документе присутствует цифровая подпись  но не указывает действительна ли подпись или нет.
+linktitle: HasDigitalSignature
+articleTitle: HasDigitalSignature
+second_title: Aspose.Words для .NET
+description: FileFormatInfo HasDigitalSignature свойство. Возвращаетистинныйесли этот документ содержит цифровую подпись. Это свойство просто сообщает что в документе присутствует цифровая подпись  но не указывает действительна ли подпись или нет на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/fileformatinfo/hasdigitalsignature/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/fileformatinfo/hasdigitalsignature/
 public bool HasDigitalSignature { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство существует, чтобы помочь вам сортировать документы, имеющие цифровую подпись, от тех, которые не имеют цифровой подписи. Если вы используете Aspose.Words для изменения и сохранения документа, имеющего цифровую подпись, цифровая подпись будет потеряна. Это сделано специально, поскольку существует цифровая подпись для защиты подлинности документа. Используя это свойство, вы можете обнаружить документы с цифровой подписью перед их обработкой так же, как и обычные документы , и предпринять некоторые действия, чтобы избежать потери цифровой подписи, например уведомить пользователя.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 ### Смотрите также
 
 * class [FileFormatInfo](../)
-* пространство имен [Aspose.Words](../../fileformatinfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

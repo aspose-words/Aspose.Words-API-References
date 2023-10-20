@@ -1,7 +1,9 @@
 ---
 title: Document.VersionsCount
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает количество версий документа хранящихся в документе DOC.
+linktitle: VersionsCount
+articleTitle: VersionsCount
+second_title: Aspose.Words для .NET
+description: Document VersionsCount свойство. Получает количество версий документа хранящихся в документе DOC на С#.
 type: docs
 weight: 460
 url: /ru/net/aspose.words/document/versionscount/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/versionscount/
 public int VersionsCount { get; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к версиям в Microsoft Word осуществляется через меню «Файл/Версии». Microsoft Word поддерживает версии только для файлов DOC.
 
 Это свойство позволяет определить, хранились ли в этом document версии документа до того, как он был открыт в Aspose.Words. Aspose.Words не обеспечивает никакой другой поддержки версий документа. Если вы сохраните этот документ с помощью Aspose.Words, документ будет сохранен без версий.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с функцией подсчета версий старых документов Microsoft Word.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.VersionsCount);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

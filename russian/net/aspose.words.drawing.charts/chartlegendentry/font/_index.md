@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartLegendEntry свойство. Предоставляет доступ к форматированию шрифта этой записи легенды.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: ChartLegendEntry Font свойство. Предоставляет доступ к форматированию шрифта этой записи легенды на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartlegendentry/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с записью легенды для серий диаграмм.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

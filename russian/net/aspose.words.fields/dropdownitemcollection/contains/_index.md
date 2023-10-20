@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Определяет содержит ли коллекция указанное значение.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection Contains метод. Определяет содержит ли коллекция указанное значение на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `истинный` если предмет найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

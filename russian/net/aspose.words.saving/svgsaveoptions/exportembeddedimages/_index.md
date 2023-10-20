@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ExportEmbeddedImages
-second_title: Справочник по API Aspose.Words для .NET
-description: SvgSaveOptions свойство. Указывает должны ли изображения быть встроены в документ SVG в формате base64. Обратите внимание что установка этого флага может значительно увеличить размер выходного файла SVG.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words для .NET
+description: SvgSaveOptions ExportEmbeddedImages свойство. Указывает должны ли изображения быть встроены в документ SVG в формате base64. Обратите внимание что установка этого флага может значительно увеличить размер выходного файла SVG на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать и печатать URI связанных ресурсов, созданных при преобразовании документа в SVG.
 
@@ -57,7 +59,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Смотрите также
 
 * class [SvgSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../svgsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

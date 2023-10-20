@@ -1,7 +1,9 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: WordML2003SaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоWordML .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words для .NET
+description: WordML2003SaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоWordML  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/wordml2003saveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как управлять необработанным содержимым выходного документа.
 
@@ -62,7 +64,5 @@ else
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [WordML2003SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../wordml2003saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

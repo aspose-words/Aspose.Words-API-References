@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.TextConverter
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает имя преобразователя текста для формата включенного файла.
+linktitle: TextConverter
+articleTitle: TextConverter
+second_title: Aspose.Words для .NET
+description: FieldIncludeText TextConverter свойство. Получает или задает имя преобразователя текста для формата включенного файла на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldincludetext/textconverter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/textconverter/
 public string TextConverter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

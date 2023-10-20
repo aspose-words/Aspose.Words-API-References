@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.FieldMerging
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldMergingCallback метод. Вызывается когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе.
+linktitle: FieldMerging
+articleTitle: FieldMerging
+second_title: Aspose.Words для .NET
+description: IFieldMergingCallback FieldMerging метод. Вызывается когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergingArgs](../../fieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* пространство имен [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

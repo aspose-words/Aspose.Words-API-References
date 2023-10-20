@@ -1,7 +1,9 @@
 ---
-title: ShapeRenderer.ShapeRenderer
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeRenderer строитель. Инициализирует новый экземпляр этого класса.
+title: ShapeRenderer
+linktitle: ShapeRenderer
+articleTitle: ShapeRenderer
+second_title: Aspose.Words для .NET
+description: ShapeRenderer строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,7 +20,7 @@ public ShapeRenderer(ShapeBase shape)
 | --- | --- | --- |
 | shape | ShapeBase | Объект фигуры DrawinML, который вы хотите визуализировать. |
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
 
@@ -129,7 +131,5 @@ private class ShapeForm : Form
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ShapeRenderer](../)
-* пространство имен [Aspose.Words.Rendering](../../shaperenderer/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

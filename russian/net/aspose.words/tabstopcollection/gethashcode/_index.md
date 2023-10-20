@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetHashCode
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStopCollection метод. Служит хешфункцией для этого типа.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words для .NET
+description: TabStopCollection GetHashCode метод. Служит хешфункцией для этого типа на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/tabstopcollection/gethashcode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstopcollection/gethashcode/
 public override int GetHashCode()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStopCollection](../)
-* пространство имен [Aspose.Words](../../tabstopcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

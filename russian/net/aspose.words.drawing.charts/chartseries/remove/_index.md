@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries метод. Удаляет значение X значение Y и размер пузырька если поддерживается из серии диаграмм по указанному индексу. Соответствующая точка данных и метка данных также удаляются.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: ChartSeries Remove метод. Удаляет значение X значение Y и размер пузырька если поддерживается из серии диаграмм по указанному индексу. Соответствующая точка данных и метка данных также удаляются на С#.
 type: docs
-weight: 210
+weight: 200
 url: /ru/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/remove/
 public void Remove(int index)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять/удалять значения данных диаграммы.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Смотрите также
 
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

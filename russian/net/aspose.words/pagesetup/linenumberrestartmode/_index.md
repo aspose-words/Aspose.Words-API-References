@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberRestartMode
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает способ нумерации строк то есть начинается ли она заново в начале новой страницы или раздела или выполняется непрерывно.
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words для .NET
+description: PageSetup LineNumberRestartMode свойство. Получает или задает способ нумерации строк то есть начинается ли она заново в начале новой страницы или раздела или выполняется непрерывно на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/pagesetup/linenumberrestartmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/linenumberrestartmode/
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить нумерацию строк для раздела.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

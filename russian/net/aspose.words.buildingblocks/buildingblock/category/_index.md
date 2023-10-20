@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Указывает категоризацию второго уровня для стандартного блока.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words для .NET
+description: BuildingBlock Category свойство. Указывает категоризацию второго уровня для стандартного блока на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/category/
 public string Category { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Строительные блоки пользовательского интерфейса Microsoft Word сгруппированы в галереи. Каждый[`Gallery`](../gallery/) может иметь несколько категорий. Каждый блок внутри a`Category` имеет[`Name`](../name/).
 
 Не может быть`нулевой` и не может быть пустой строкой.
 
-Соответствует **docPartPr.category.name** элемент в OOXML.
+Соответствует**docPartPr.category.name** элемент в OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNoteRef свойство. Получает или задает следует ли вставлять относительную позицию абзаца отмеченного закладкой.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words для .NET
+description: FieldNoteRef InsertRelativePosition свойство. Получает или задает следует ли вставлять относительную позицию абзаца отмеченного закладкой на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля NOTEREF и изменить их внешний вид.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Смотрите также
 
 * class [FieldNoteRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnoteref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Справочник по API Aspose.Words для .NET
-description: Run свойство. Получает логическое значение указывающее является ли запуск фонетическим руководством.
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: Aspose.Words для .NET
+description: Run IsPhoneticGuide свойство. Получает логическое значение указывающее является ли запуск фонетическим руководством на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/run/isphoneticguide/
 public bool IsPhoneticGuide { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства фонетического справочника.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Смотрите также
 
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

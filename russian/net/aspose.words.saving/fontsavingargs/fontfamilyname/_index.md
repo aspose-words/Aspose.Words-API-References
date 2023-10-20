@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Указывает текущее имя семейства шрифтов.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words для .NET
+description: FontSavingArgs FontFamilyName свойство. Указывает текущее имя семейства шрифтов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fontsavingargs/fontfamilyname/
 public string FontFamilyName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

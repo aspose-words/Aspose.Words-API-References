@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgs свойство. Получает или задает текст который будет вставлен в документ для текущего поля слияния.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldMergingArgs Text свойство. Получает или задает текст который будет вставлен в документ для текущего поля слияния на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargs/text/
 public string Text { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вызывается ваш обработчик событий, для этого свойства устанавливается значение`нулевой`.
 
@@ -22,7 +24,7 @@ public string Text { get; set; }
 
 Если вы установите для параметра «Текст» любую строку (в том числе пустую), эта строка будет вставлена в документ вместо поля слияния.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Смотрите также
 
 * class [FieldMergingArgs](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

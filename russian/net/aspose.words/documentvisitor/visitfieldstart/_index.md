@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда в документе начинается поле.
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitFieldStart метод. Вызывается когда в документе начинается поле на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примечания
+## Примечания
 
 Поле в документе Word состоит из кода поля и значения поля.
 
@@ -34,7 +36,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 Поля могут быть вложенными.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узла каждого поля в документе.
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldAutoTextList.FieldAutoTextList
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoTextList строитель. Конструктор по умолчанию.
+title: FieldAutoTextList
+linktitle: FieldAutoTextList
+articleTitle: FieldAutoTextList
+second_title: Aspose.Words для .NET
+description: FieldAutoTextList строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldautotextlist/fieldautotextlist/
@@ -17,7 +19,5 @@ public FieldAutoTextList()
 ### Смотрите также
 
 * class [FieldAutoTextList](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautotextlist/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

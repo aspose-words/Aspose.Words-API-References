@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle метод. Очищает форматирование этого условного стиля.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: ConditionalStyle ClearFormatting метод. Очищает форматирование этого условного стиля на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/conditionalstyle/clearformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сбросить стили условных таблиц.
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### Смотрите также
 
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

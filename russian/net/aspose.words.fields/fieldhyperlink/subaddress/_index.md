@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.SubAddress
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldHyperlink свойство. Получает или задает местоположение в файле например закладку куда переходит эта гиперссылка.
+linktitle: SubAddress
+articleTitle: SubAddress
+second_title: Aspose.Words для .NET
+description: FieldHyperlink SubAddress свойство. Получает или задает местоположение в файле например закладку куда переходит эта гиперссылка на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldhyperlink/subaddress/
 public string SubAddress { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Смотрите также
 
 * class [FieldHyperlink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldhyperlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

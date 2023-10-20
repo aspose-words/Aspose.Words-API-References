@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection метод. Добавляет закладку в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection Add метод. Добавляет закладку в коллекцию на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | Имя добавляемой закладки без учета регистра. |
 | outlineLevel | Int32 | Уровень структуры закладки. Допустимый диапазон: от 0 до 9. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

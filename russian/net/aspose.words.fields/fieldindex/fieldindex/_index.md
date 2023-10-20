@@ -1,7 +1,9 @@
 ---
-title: FieldIndex.FieldIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex строитель. Конструктор по умолчанию.
+title: FieldIndex
+linktitle: FieldIndex
+articleTitle: FieldIndex
+second_title: Aspose.Words для .NET
+description: FieldIndex строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldindex/fieldindex/
@@ -17,7 +19,5 @@ public FieldIndex()
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

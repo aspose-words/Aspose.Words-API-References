@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowSeriesName
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Возвращает или задает логическое значение указывающее поведение отображения имени ряда для меток данных на диаграмме. истинный показать название серииЛОЖЬ прятаться. По умолчаниюЛОЖЬ .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowSeriesName свойство. Возвращает или задает логическое значение указывающее поведение отображения имени ряда для меток данных на диаграмме. истинный показать название серииЛОЖЬ прятаться. По умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 public bool ShowSeriesName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

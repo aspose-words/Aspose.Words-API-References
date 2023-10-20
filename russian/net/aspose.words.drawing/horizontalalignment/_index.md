@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.HorizontalAlignment перечисление. Указывает горизонтальное выравнивание плавающей фигуры текстового фрейма или плавающей таблицы.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.HorizontalAlignment перечисление. Указывает горизонтальное выравнивание плавающей фигуры текстового фрейма или плавающей таблицы на С#.
 type: docs
 weight: 1030
 url: /ru/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Объект позиционируется явно, обычно с использованием его **Левый** свойство. |
+| None | `0` | Объект позиционируется явно, обычно с использованием его**Левый** свойство. |
 | Default | `0` | То же, что иNone . |
 | Left | `1` | Указывает, что объект должен быть выровнен по левому краю по базе горизонтального выравнивания. |
 | Center | `2` | Указывает, что объект должен быть центрирован относительно базы горизонтального выравнивания. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Указывает, что объект должен находиться внутри базы горизонтального выравнивания. |
 | Outside | `5` | Указывает, что объект должен находиться за пределами базы горизонтального выравнивания. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

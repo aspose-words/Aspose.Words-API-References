@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPoint
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPoint сорт. Позволяет указать форматирование одной точки данных на диаграмме.
+title: ChartDataPoint Class
+linktitle: ChartDataPoint
+articleTitle: ChartDataPoint
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPoint сорт. Позволяет указать форматирование одной точки данных на диаграмме на С#.
 type: docs
 weight: 690
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/
@@ -33,11 +35,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Очищает формат этой точки данных. Для свойств установлены значения по умолчанию, определенные в родительской серии. |
 
-### Примечания
+## Примечания
 
 В сериале`ChartDataPoint` объект является членом[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) содержит`ChartDataPoint` объект для каждой точки.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -101,5 +103,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * interface [IChartDataPoint](../ichartdatapoint/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

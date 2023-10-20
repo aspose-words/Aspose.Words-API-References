@@ -1,9 +1,11 @@
 ---
 title: ChartDataPointCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPointCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: ChartDataPointCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
-weight: 50
+weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 public IEnumerator<ChartDataPoint> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

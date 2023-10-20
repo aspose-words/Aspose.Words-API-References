@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Удаляет все фигуры объекты рисования из верхних и нижних колонтитулов этого раздела.
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: Aspose.Words для .NET
+description: Section DeleteHeaderFooterShapes метод. Удаляет все фигуры объекты рисования из верхних и нижних колонтитулов этого раздела на С#.
 type: docs
-weight: 140
+weight: 120
 url: /ru/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/section/deleteheaderfootershapes/
 public void DeleteHeaderFooterShapes()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все фигуры из всех верхних и нижних колонтитулов раздела.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### Смотрите также
 
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

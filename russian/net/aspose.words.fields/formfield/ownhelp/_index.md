@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Указывает источник текста который отображается в окне сообщения когда поле формы находится в фокусе и пользователь нажимает F1.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words для .NET
+description: FormField OwnHelp свойство. Указывает источник текста который отображается в окне сообщения когда поле формы находится в фокусе и пользователь нажимает F1 на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/ownhelp/
 public bool OwnHelp { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если`истинный` , текст, заданный[`HelpText`](../helptext/) отображается свойство. Если`ЛОЖЬ` , текст в записи автотекста, заданный параметром[`HelpText`](../helptext/) отображается свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

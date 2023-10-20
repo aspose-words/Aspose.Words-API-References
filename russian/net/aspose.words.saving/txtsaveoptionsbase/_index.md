@@ -1,7 +1,9 @@
 ---
-title: Class TxtSaveOptionsBase
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.TxtSaveOptionsBase сорт. Базовый класс для указания дополнительных параметров при сохранении документа в текстовых форматах.
+title: TxtSaveOptionsBase Class
+linktitle: TxtSaveOptionsBase
+articleTitle: TxtSaveOptionsBase
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.TxtSaveOptionsBase сорт. Базовый класс для указания дополнительных параметров при сохранении документа в текстовых форматах на С#.
 type: docs
 weight: 5670
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/
@@ -22,11 +24,11 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Получает или задает логическое значение, указывающее, разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию:`ЛОЖЬ` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Получает или задает пользовательский часовой пояс, используемый для полей даты и времени. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации 3D-эффектов. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации эффектов DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ отрисовки фигур DrawingML. |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Указывает кодировку, которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию: **Кодировка.UTF8** . |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Указывает кодировку, которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию:**Кодировка.UTF8** . |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | Когда`истинный` , приводит к внедрению имени и версии Aspose.Words в создаваемые файлы. Значение по умолчанию:`истинный` . |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Определяет способ экспорта верхних и нижних колонтитулов в текстовые форматы. Значение по умолчанию:PrimaryOnly . |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | Позволяет указать, следует ли сохранять разрывы страниц во время экспорта. |
@@ -44,7 +46,7 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Получает или задает значение, определяющее, использовать ли сглаживание для рендеринга. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Получает или задает значение, определяющее, следует ли использовать алгоритмы высококачественного (т. е. медленного) рендеринга. |
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ .txt с настраиваемым разрывом абзаца.
 
@@ -79,5 +81,3 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 * class [SaveOptions](../saveoptions/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

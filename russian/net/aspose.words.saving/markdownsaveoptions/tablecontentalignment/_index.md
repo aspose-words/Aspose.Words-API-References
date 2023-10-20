@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.TableContentAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Получает или задает значение определяющее способ выравнивания содержимого в table при экспорте вMarkdown format. Значение по умолчаниюAuto .
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions TableContentAlignment свойство. Получает или задает значение определяющее способ выравнивания содержимого в table при экспорте вMarkdown format. Значение по умолчаниюAuto  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
@@ -18,7 +20,5 @@ public TableContentAlignment TableContentAlignment { get; set; }
 
 * enum [TableContentAlignment](../../tablecontentalignment/)
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

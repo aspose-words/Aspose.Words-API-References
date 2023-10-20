@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает стиль Caseкода для типа штрихкода ITF14. Допустимые значения STDEXTADD .
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode CaseCodeStyle свойство. Получает или задает стиль Caseкода для типа штрихкода ITF14. Допустимые значения STDEXTADD  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 public string CaseCodeStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

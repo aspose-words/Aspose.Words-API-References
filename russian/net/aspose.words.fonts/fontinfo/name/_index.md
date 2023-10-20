@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo свойство. Получает имя шрифта.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: FontInfo Name свойство. Получает имя шрифта на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fonts/fontinfo/name/
 public string Name { get; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`. Может быть пустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Смотрите также
 
 * class [FontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertCell
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет ячейку таблицы в документ.
+linktitle: InsertCell
+articleTitle: InsertCell
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertCell метод. Вставляет ячейку таблицы в документ на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/documentbuilder/insertcell/
@@ -18,7 +20,7 @@ public Cell InsertCell()
 
 Узел ячейки, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Чтобы начать стол, просто позвоните`InsertCell` . После этого любой контент, который вы добавляете с помощью других методов[`DocumentBuilder`](../) класс будет добавлен в текущую ячейку.
 
@@ -28,7 +30,7 @@ public Cell InsertCell()
 
 Использовать[`CellFormat`](../cellformat/)свойство, позволяющее указать форматирование ячейки.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать построитель документов для создания таблицы.
 
@@ -119,7 +121,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

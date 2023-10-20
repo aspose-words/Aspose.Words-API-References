@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIfComparisonResult
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldIfComparisonResult перечисление. Указывает результат оценки условия поля IF.
+title: FieldIfComparisonResult Enum
+linktitle: FieldIfComparisonResult
+articleTitle: FieldIfComparisonResult
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldIfComparisonResult перечисление. Указывает результат оценки условия поля IF на С#.
 type: docs
 weight: 2010
 url: /ru/net/aspose.words.fields/fieldifcomparisonresult/
@@ -22,7 +24,7 @@ public enum FieldIfComparisonResult
 | True | `1` | Условие`истинный` . |
 | False | `2` | Условие`ЛОЖЬ` . |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ЕСЛИ.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

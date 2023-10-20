@@ -1,7 +1,9 @@
 ---
 title: FieldTitle.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTitle свойство. Получает или задает текст заголовка.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldTitle Text свойство. Получает или задает текст заголовка на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtitle/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtitle/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле TITLE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### Смотрите также
 
 * class [FieldTitle](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtitle/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

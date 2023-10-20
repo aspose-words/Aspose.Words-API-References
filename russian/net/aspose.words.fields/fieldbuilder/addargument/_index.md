@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBuilder метод. Добавляет аргумент поля.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words для .NET
+description: FieldBuilder AddArgument метод. Добавляет аргумент поля на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 Добавляет аргумент поля.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | Значение аргумента. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 Добавляет аргумент поля.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | Значение аргумента. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 Добавляет аргумент поля.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | Значение аргумента. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 Добавляет дочернее поле, представленное другим[`FieldBuilder`](../) к коду поля.
 
@@ -314,11 +316,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Примечания
+## Примечания
 
 Эта перегрузка используется, когда аргумент состоит из одного дочернего поля.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../../fieldargumentbuilder/) к коду поля.
 
@@ -414,11 +416,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Примечания
+## Примечания
 
 Эта перегрузка используется, когда аргумент состоит из смеси различных частей, таких как дочерние поля, узлы и простой текст.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

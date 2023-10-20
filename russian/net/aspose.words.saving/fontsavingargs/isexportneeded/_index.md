@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsExportNeeded
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Позволяет указать будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчаниюистинный .
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words для .NET
+description: FontSavingArgs IsExportNeeded свойство. Позволяет указать будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчаниюистинный  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fontsavingargs/isexportneeded/
 public bool IsExportNeeded { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

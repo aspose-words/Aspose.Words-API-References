@@ -1,7 +1,9 @@
 ---
 title: Glyph.Advance
-second_title: Справочник по API Aspose.Words для .NET
-description: Glyph свойство. Расширенная ширина указывающая размещение последующего глифа.
+linktitle: Advance
+articleTitle: Advance
+second_title: Aspose.Words для .NET
+description: Glyph Advance свойство. Расширенная ширина указывающая размещение последующего глифа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.shaping/glyph/advance/
@@ -17,7 +19,5 @@ public short Advance { get; set; }
 ### Смотрите также
 
 * class [Glyph](../)
-* пространство имен [Aspose.Words.Shaping](../../glyph/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastPrintedProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее будет лиLastPrinted свойство обновляется перед сохранением.
+linktitle: UpdateLastPrintedProperty
+articleTitle: UpdateLastPrintedProperty
+second_title: Aspose.Words для .NET
+description: SaveOptions UpdateLastPrintedProperty свойство. Получает или задает значение определяющее будет лиLastPrinted свойство обновляется перед сохранением на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обновить свойство CreatedTime документа при сохранении.
 
@@ -61,7 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

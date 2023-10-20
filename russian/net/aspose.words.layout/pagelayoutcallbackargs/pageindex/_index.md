@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: PageLayoutCallbackArgs свойство. Получает отсчитываемый от 0 индекс страницы в документе к которому относится это событие. Возвращает отрицательное значение если связанная страница отсутствует или если страница была удалена во время перекомпоновки.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words для .NET
+description: PageLayoutCallbackArgs PageIndex свойство. Получает отсчитываемый от 0 индекс страницы в документе к которому относится это событие. Возвращает отрицательное значение если связанная страница отсутствует или если страница была удалена во время перекомпоновки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### Смотрите также
 
 * class [PageLayoutCallbackArgs](../)
-* пространство имен [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

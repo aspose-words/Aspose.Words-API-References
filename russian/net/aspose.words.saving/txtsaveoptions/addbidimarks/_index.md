@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. Указывает добавлять ли двунаправленные метки перед каждым запуском двунаправленного текста при экспорте в текстовом формате.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words для .NET
+description: TxtSaveOptions AddBidiMarks свойство. Указывает добавлять ли двунаправленные метки перед каждым запуском двунаправленного текста при экспорте в текстовом формате на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.saving/txtsaveoptions/addbidimarks/
 public bool AddBidiMarks { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить символ Юникода «Знак справа налево» (U+200F) перед каждым двунаправленным вводом текста.
 
@@ -58,7 +60,5 @@ else
 ### Смотрите также
 
 * class [TxtSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

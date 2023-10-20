@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Определяет как экспортируются закладки в верхних и нижних колонтитулах.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode свойство. Определяет как экспортируются закладки в верхних и нижних колонтитулах на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:All.
 
 Это свойство используется совместно с[`OutlineOptions`](../outlineoptions/) вариант.
 
-### Примеры
+## Примеры
 
 Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

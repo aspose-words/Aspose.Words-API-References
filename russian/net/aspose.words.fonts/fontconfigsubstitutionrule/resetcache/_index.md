@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.ResetCache
-second_title: Справочник по API Aspose.Words для .NET
-description: FontConfigSubstitutionRule метод. Сбрасывает кеш результатов вызова Fontconfig.
+linktitle: ResetCache
+articleTitle: ResetCache
+second_title: Aspose.Words для .NET
+description: FontConfigSubstitutionRule ResetCache метод. Сбрасывает кеш результатов вызова Fontconfig на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 public void ResetCache()
 ```
 
-### Примеры
+## Примеры
 
 Показывает замену конфигурации шрифтов в зависимости от операционной системы.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Смотрите также
 
 * class [FontConfigSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

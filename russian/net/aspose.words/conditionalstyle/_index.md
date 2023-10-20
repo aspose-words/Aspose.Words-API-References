@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ConditionalStyle сорт. Представляет специальное форматирование примененное к некоторой области таблицы с назначенным стилем таблицы.
+title: ConditionalStyle Class
+linktitle: ConditionalStyle
+articleTitle: ConditionalStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ConditionalStyle сорт. Представляет специальное форматирование примененное к некоторой области таблицы с назначенным стилем таблицы на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/conditionalstyle/
@@ -35,10 +37,10 @@ public sealed class ConditionalStyle
 | Имя | Описание |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Очищает форматирование этого условного стиля. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Сравнивает этот условный стиль с указанным объектом. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | Сравнивает этот условный стиль с указанным объектом. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Вычисляет хеш-код для этого объекта. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

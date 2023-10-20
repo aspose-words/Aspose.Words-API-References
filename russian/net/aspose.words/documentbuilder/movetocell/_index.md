@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToCell
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в ячейку таблицы в текущем разделе.
+linktitle: MoveToCell
+articleTitle: MoveToCell
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveToCell метод. Перемещает курсор в ячейку таблицы в текущем разделе на С#.
 type: docs
-weight: 510
+weight: 500
 url: /ru/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -21,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | columnIndex | Int32 | Индекс столбца в таблице. |
 | characterIndex | Int32 | Индекс символа внутри ячейки. Отрицательное значение позволяет указать позицию от конца ячейки. Используйте -1, чтобы перейти к концу ячейки. |
 
-### Примечания
+## Примечания
 
 Навигация осуществляется внутри текущей истории текущего раздела.
 
 Для параметров индекса, если индекс больше или равен 0, он указывает индекс from , начиная с которого 0 является первым элементом. Когда индекс меньше 0, указывается индекс from the end, где -1 является последним элементом.
 
-### Примеры
+## Примеры
 
 Показывает, как переместить курсор построителя документов в ячейку таблицы.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

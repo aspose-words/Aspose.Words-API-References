@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.SizeInPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает размер фигуры в пунктах.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words для .NET
+description: ShapeBase SizeInPoints свойство. Получает размер фигуры в пунктах на С#.
 type: docs
 weight: 510
 url: /ru/net/aspose.words.drawing/shapebase/sizeinpoints/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить размер фигуры и язык разметки.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

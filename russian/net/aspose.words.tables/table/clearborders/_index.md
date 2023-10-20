@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Удаляет все границы таблиц и ячеек в этой таблице.
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: Aspose.Words для .NET
+description: Table ClearBorders метод. Удаляет все границы таблиц и ячеек в этой таблице на С#.
 type: docs
-weight: 390
+weight: 370
 url: /ru/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/clearborders/
 public void ClearBorders()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить контурную рамку к таблице.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

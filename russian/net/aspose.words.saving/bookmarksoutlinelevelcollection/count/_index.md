@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: BookmarksOutlineLevelCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Смотрите также
 
 * class [BookmarksOutlineLevelCollection](../)
-* пространство имен [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда в документе встречается начало закладки.
+linktitle: VisitBookmarkStart
+articleTitle: VisitBookmarkStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitBookmarkStart метод. Вызывается когда в документе встречается начало закладки на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/documentvisitor/visitbookmarkstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

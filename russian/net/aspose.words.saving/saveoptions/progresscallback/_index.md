@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ProgressCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Вызывается при сохранении документа и принимает данные о ходе сохранения.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words для .NET
+description: SaveOptions ProgressCallback свойство. Вызывается при сохранении документа и принимает данные о ходе сохранения на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.saving/saveoptions/progresscallback/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/saveoptions/progresscallback/
 public IDocumentSavingCallback ProgressCallback { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Прогресс сообщается при сохранении вDocx ,FlatOpc , Docm ,Dotm ,Dotx , Doc ,Dot , Html ,Mhtml ,Epub , XamlFlow , илиXamlFlowPack .
 
-### Примеры
+## Примеры
 
 Показывает, как управлять документом при сохранении в HTML.
 
@@ -189,7 +191,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

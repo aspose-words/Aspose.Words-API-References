@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Справочник по API Aspose.Words для .NET
-description: GlossaryDocument свойство. Возвращает типизированную коллекцию которая представляет все стандартные блоки в документе глоссария.
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: Aspose.Words для .NET
+description: GlossaryDocument BuildingBlocks свойство. Возвращает типизированную коллекцию которая представляет все стандартные блоки в документе глоссария на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

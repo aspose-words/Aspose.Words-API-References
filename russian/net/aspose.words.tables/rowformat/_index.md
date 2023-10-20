@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.RowFormat сорт. Представляет все форматирование строки таблицы.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.RowFormat сорт. Представляет все форматирование строки таблицы на С#.
 type: docs
 weight: 6330
 url: /ru/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Сбрасывает формат строки по умолчанию. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить форматирование строки таблицы.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

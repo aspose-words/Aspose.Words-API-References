@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPartCollection метод. Создает глубокую копию этой коллекции и ее элементов.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: CustomXmlPartCollection Clone метод. Создает глубокую копию этой коллекции и ее элементов на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/customxmlpartcollection/clone/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpartcollection/clone/
 public CustomXmlPartCollection Clone()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Смотрите также
 
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Указывает как ячейка объединяется по горизонтали с другими ячейками в строке.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words для .NET
+description: CellFormat HorizontalMerge свойство. Указывает как ячейка объединяется по горизонтали с другими ячейками в строке на С#.
 type: docs
-weight: 50
+weight: 40
 url: /ru/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/horizontalmerge/
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как объединить ячейки таблицы по горизонтали.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

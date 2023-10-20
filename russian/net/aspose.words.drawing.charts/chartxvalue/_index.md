@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValue
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartXValue сорт. Представляет значение X для серии диаграмм.
+title: ChartXValue Class
+linktitle: ChartXValue
+articleTitle: ChartXValue
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartXValue сорт. Представляет значение X для серии диаграмм на С#.
 type: docs
 weight: 840
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/
@@ -29,15 +31,15 @@ public class ChartXValue
 
 | Имя | Описание |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(DateTime) | Создает`ChartXValue` экземплярDateTime тип. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(double) | Создает`ChartXValue` экземплярDouble тип. |
-| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(ChartMultilevelValue) | Создает`ChartXValue` экземплярMultilevel тип. |
-| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(string) | Создает`ChartXValue` экземплярString тип. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(TimeSpan) | Создает`ChartXValue` экземплярTime тип. |
-| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(object) | Получает флаг, указывающий, равен ли указанный объект текущему объекту значения X. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(*DateTime*) | Создает`ChartXValue` экземплярDateTime тип. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(*double*) | Создает`ChartXValue` экземплярDouble тип. |
+| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(*[ChartMultilevelValue](../chartmultilevelvalue/)*) | Создает`ChartXValue` экземплярMultilevel тип. |
+| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(*string*) | Создает`ChartXValue` экземплярString тип. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(*TimeSpan*) | Создает`ChartXValue` экземплярTime тип. |
+| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(*object*) | Получает флаг, указывающий, равен ли указанный объект текущему объекту значения X. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartxvalue/gethashcode/)() | Получает хэш-код для текущего объекта значения X. |
 
-### Примечания
+## Примечания
 
 Этот класс содержит ряд статических методов для создания значения X определенного типа. The [`ValueType`](./valuetype/) Свойство позволяет определить тип существующего значения X.
 
@@ -47,5 +49,3 @@ public class ChartXValue
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

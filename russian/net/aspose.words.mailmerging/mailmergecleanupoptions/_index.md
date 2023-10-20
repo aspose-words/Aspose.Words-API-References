@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions перечисление. Указывает параметры определяющие какие элементы удаляются во время слияния почты.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions перечисление. Указывает параметры определяющие какие элементы удаляются во время слияния почты на С#.
 type: docs
 weight: 3850
 url: /ru/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Указывает, следует ли удалять статические поля из документа. Статические поля — это поля, результаты которых остаются неизменными при любом изменении документа. Поля, которые не сохраняют результаты в document и вычисляются «на лету» (например,FieldListNum , FieldSymbol и т. д.) не считаются статическими. |
 | RemoveEmptyTableRows | `20` | Указывает, следует ли удалять из документа пустые строки, содержащие области слияния почты. |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить пустые абзацы, которые может создать слияние почты, из выходного документа слияния.
 
@@ -100,5 +102,3 @@ else
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

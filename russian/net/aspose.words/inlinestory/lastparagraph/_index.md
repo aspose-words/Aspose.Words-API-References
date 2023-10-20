@@ -1,7 +1,9 @@
 ---
 title: InlineStory.LastParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Получает последний абзац истории.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words для .NET
+description: InlineStory LastParagraph свойство. Получает последний абзац истории на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/inlinestory/lastparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

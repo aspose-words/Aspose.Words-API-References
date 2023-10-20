@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.AutoHyphenation
-second_title: Справочник по API Aspose.Words для .NET
-description: HyphenationOptions свойство. Получает или задает значение определяющее включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойстваЛОЖЬ .
+linktitle: AutoHyphenation
+articleTitle: AutoHyphenation
+second_title: Aspose.Words для .NET
+description: HyphenationOptions AutoHyphenation свойство. Получает или задает значение определяющее включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/hyphenationoptions/autohyphenation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 public bool AutoHyphenation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическую расстановку переносов.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Смотрите также
 
 * class [HyphenationOptions](../)
-* пространство имен [Aspose.Words.Settings](../../hyphenationoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

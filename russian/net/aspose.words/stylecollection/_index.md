@@ -1,7 +1,9 @@
 ---
-title: Class StyleCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.StyleCollection сорт. КоллекцияStyle объекты которые представляют как встроенные так и пользовательские стили в документе.
+title: StyleCollection Class
+linktitle: StyleCollection
+articleTitle: StyleCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.StyleCollection сорт. КоллекцияStyle объекты которые представляют как встроенные так и пользовательские стили в документе на С#.
 type: docs
 weight: 6140
 url: /ru/net/aspose.words/stylecollection/
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Создает новый пользовательский стиль и добавляет его в коллекцию. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Копирует стиль в эту коллекцию. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Создает новый пользовательский стиль и добавляет его в коллекцию. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Копирует стиль в эту коллекцию. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Удаляет все стили с панели «Галерея экспресс-стилей». |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Получает объект перечислителя, который будет перечислять стили в алфавитном порядке их имен. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать и использовать стиль абзаца с форматированием списка.
 
@@ -69,5 +71,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 * class [Style](../style/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.End
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает узел представляющий конец поля.
+linktitle: End
+articleTitle: End
+second_title: Aspose.Words для .NET
+description: Field End свойство. Получает узел представляющий конец поля на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/field/end/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/end/
 public FieldEnd End { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией полей.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldEnd](../../fieldend/)
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

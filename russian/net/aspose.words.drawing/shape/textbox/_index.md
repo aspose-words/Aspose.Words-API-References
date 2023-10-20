@@ -1,7 +1,9 @@
 ---
 title: Shape.TextBox
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет атрибуты определяющие способ отображения текста в фигуре.
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words для .NET
+description: Shape TextBox свойство. Определяет атрибуты определяющие способ отображения текста в фигуре на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.drawing/shape/textbox/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/textbox/
 public TextBox TextBox { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать ориентацию текста внутри текстового поля.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [TextBox](../../textbox/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

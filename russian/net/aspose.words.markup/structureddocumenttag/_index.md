@@ -1,7 +1,9 @@
 ---
-title: Class StructuredDocumentTag
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.StructuredDocumentTag сорт. Представляет структурированный тег документа SDT или элемент управления содержимым в документе.
+title: StructuredDocumentTag Class
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.StructuredDocumentTag сорт. Представляет структурированный тег документа SDT или элемент управления содержимым в документе на С#.
 type: docs
 weight: 4060
 url: /ru/net/aspose.words.markup/structureddocumenttag/
@@ -20,39 +22,39 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 | Имя | Описание |
 | --- | --- |
-| [StructuredDocumentTag](structureddocumenttag/)(DocumentBase, SdtType, MarkupLevel) | Инициализирует новый экземпляр **Тег структурированного документа** класс. |
+| [StructuredDocumentTag](structureddocumenttag/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/), [MarkupLevel](../markuplevel/)*) | Инициализирует новый экземпляр**Тег структурированного документа** класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Appearance](../../aspose.words.markup/structureddocumenttag/appearance/) { get; set; } | Получает/устанавливает внешний вид тега структурированного документа. |
-| [BuildingBlockCategory](../../aspose.words.markup/structureddocumenttag/buildingblockcategory/) { get; set; } | Указывает категорию стандартного блока для этого **СДТ** node. Не может быть`нулевой` . |
-| [BuildingBlockGallery](../../aspose.words.markup/structureddocumenttag/buildingblockgallery/) { get; set; } | Указывает тип строительного блока для этого **СДТ** . Не может быть`нулевой` . |
-| [CalendarType](../../aspose.words.markup/structureddocumenttag/calendartype/) { get; set; } | Указывает тип календаря для этого **СДТ** . По умолчаниюDefault |
-| [Checked](../../aspose.words.markup/structureddocumenttag/checked/) { get; set; } | Получает/устанавливает текущее состояние флажка. **СДТ** . Значение по умолчанию для этого свойства:`ЛОЖЬ` . |
+| [BuildingBlockCategory](../../aspose.words.markup/structureddocumenttag/buildingblockcategory/) { get; set; } | Указывает категорию стандартного блока для этого**СДТ** node. Не может быть`нулевой` . |
+| [BuildingBlockGallery](../../aspose.words.markup/structureddocumenttag/buildingblockgallery/) { get; set; } | Указывает тип строительного блока для этого**СДТ** . Не может быть`нулевой` . |
+| [CalendarType](../../aspose.words.markup/structureddocumenttag/calendartype/) { get; set; } | Указывает тип календаря для этого**СДТ** . По умолчаниюDefault |
+| [Checked](../../aspose.words.markup/structureddocumenttag/checked/) { get; set; } | Получает/устанавливает текущее состояние флажка.**СДТ** . Значение по умолчанию для этого свойства:`ЛОЖЬ` . |
 | [Color](../../aspose.words.markup/structureddocumenttag/color/) { get; set; } | Получает или задает цвет тега структурированного документа. |
-| [ContentsFont](../../aspose.words.markup/structureddocumenttag/contentsfont/) { get; } | Форматирование шрифта, которое будет применяться к тексту, введенному в **СДТ** . |
+| [ContentsFont](../../aspose.words.markup/structureddocumenttag/contentsfont/) { get; } | Форматирование шрифта, которое будет применяться к тексту, введенному в**СДТ** . |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
 | [DateDisplayFormat](../../aspose.words.markup/structureddocumenttag/datedisplayformat/) { get; set; } | Строка, представляющая формат отображения дат. Не может быть`нулевой` . Даты на английском языке (США) — «мм/дд/гггг». |
-| [DateDisplayLocale](../../aspose.words.markup/structureddocumenttag/datedisplaylocale/) { get; set; } | Позволяет установить/получить языковой формат даты, отображаемой в этом **СДТ** . |
-| [DateStorageFormat](../../aspose.words.markup/structureddocumenttag/datestorageformat/) { get; set; } | Получает/устанавливает формат, в котором хранится дата для SDT даты, когда **СДТ**привязан к узлу XML в хранилище данных документа. Значение по умолчанию:DateTime |
+| [DateDisplayLocale](../../aspose.words.markup/structureddocumenttag/datedisplaylocale/) { get; set; } | Позволяет установить/получить языковой формат даты, отображаемой в этом**СДТ** . |
+| [DateStorageFormat](../../aspose.words.markup/structureddocumenttag/datestorageformat/) { get; set; } | Получает/устанавливает формат, в котором хранится дата для SDT даты, когда**СДТ**привязан к узлу XML в хранилище данных документа. Значение по умолчанию:DateTime |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
-| [EndCharacterFont](../../aspose.words.markup/structureddocumenttag/endcharacterfont/) { get; } | Форматирование шрифта, которое будет применяться к последнему символу введенного текста. **СДТ** . |
+| [EndCharacterFont](../../aspose.words.markup/structureddocumenttag/endcharacterfont/) { get; } | Форматирование шрифта, которое будет применяться к последнему символу введенного текста.**СДТ** . |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого дочернего элемента узла. |
-| [FullDate](../../aspose.words.markup/structureddocumenttag/fulldate/) { get; set; } | Указывает полную дату и время, введенные в этот последний раз. **СДТ** . |
+| [FullDate](../../aspose.words.markup/structureddocumenttag/fulldate/) { get; set; } | Указывает полную дату и время, введенные в этот последний раз.**СДТ** . |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает`истинный` если у этого узла есть дочерние узлы. |
-| [Id](../../aspose.words.markup/structureddocumenttag/id/) { get; } | Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения. **СДТ**. |
+| [Id](../../aspose.words.markup/structureddocumenttag/id/) { get; } | Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения.**СДТ**. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает`истинный` поскольку этот узел может иметь дочерние узлы. |
-| [IsShowingPlaceholderText](../../aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/) { get; set; } | Указывает, будет ли содержимое этого **СДТ**должно интерпретироваться как содержащее заполнитель text (в отличие от обычного текстового содержимого в SDT). |
-| [IsTemporary](../../aspose.words.markup/structureddocumenttag/istemporary/) { get; set; } | Указывает, является ли это **СДТ** должен быть удален из документа WordProcessingML при изменении его содержимого . |
+| [IsShowingPlaceholderText](../../aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/) { get; set; } | Указывает, будет ли содержимое этого**СДТ**должно интерпретироваться как содержащее заполнитель text (в отличие от обычного текстового содержимого в SDT). |
+| [IsTemporary](../../aspose.words.markup/structureddocumenttag/istemporary/) { get; set; } | Указывает, является ли это**СДТ** должен быть удален из документа WordProcessingML при изменении его содержимого . |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последнего дочернего узла узла. |
-| [Level](../../aspose.words.markup/structureddocumenttag/level/) { get; } | Получает уровень, на котором это **СДТ** встречается в дереве документа. |
-| [ListItems](../../aspose.words.markup/structureddocumenttag/listitems/) { get; } | Получает[`SdtListItemCollection`](../sdtlistitemcollection/) связанный с этим **СДТ** . |
-| [LockContentControl](../../aspose.words.markup/structureddocumenttag/lockcontentcontrol/) { get; set; } | Если установлено значение`истинный` , это свойство запретит пользователю удалять это **СДТ** . |
-| [LockContents](../../aspose.words.markup/structureddocumenttag/lockcontents/) { get; set; } | Если установлено значение`истинный` , это свойство запретит пользователю редактировать содержимое этого **СДТ** . |
-| [Multiline](../../aspose.words.markup/structureddocumenttag/multiline/) { get; set; } | Указывает, является ли это **СДТ** позволяет использовать несколько строк текста. |
+| [Level](../../aspose.words.markup/structureddocumenttag/level/) { get; } | Получает уровень, на котором это**СДТ** встречается в дереве документа. |
+| [ListItems](../../aspose.words.markup/structureddocumenttag/listitems/) { get; } | Получает[`SdtListItemCollection`](../sdtlistitemcollection/) связанный с этим**СДТ** . |
+| [LockContentControl](../../aspose.words.markup/structureddocumenttag/lockcontentcontrol/) { get; set; } | Если установлено значение`истинный` , это свойство запретит пользователю удалять это**СДТ** . |
+| [LockContents](../../aspose.words.markup/structureddocumenttag/lockcontents/) { get; set; } | Если установлено значение`истинный` , это свойство запретит пользователю редактировать содержимое этого**СДТ** . |
+| [Multiline](../../aspose.words.markup/structureddocumenttag/multiline/) { get; set; } | Указывает, является ли это**СДТ** позволяет использовать несколько строк текста. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttag/nodetype/) { get; } | ВозвращаетStructuredDocumentTag . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
@@ -60,11 +62,11 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [PlaceholderName](../../aspose.words.markup/structureddocumenttag/placeholdername/) { get; set; } | Получает или задает Имя[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) содержащий текст-заполнитель. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
 | [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/) объект, представляющий часть документа, содержащуюся в этом узле. |
-| [SdtType](../../aspose.words.markup/structureddocumenttag/sdttype/) { get; } | Получает тип этого **Тег структурированного документа** . |
+| [SdtType](../../aspose.words.markup/structureddocumenttag/sdttype/) { get; } | Получает тип этого**Тег структурированного документа** . |
 | [Style](../../aspose.words.markup/structureddocumenttag/style/) { get; set; } | Получает или задает стиль тега структурированного документа. |
 | [StyleName](../../aspose.words.markup/structureddocumenttag/stylename/) { get; set; } | Получает или задает имя стиля, примененного к тегу структурированного документа. |
 | [Tag](../../aspose.words.markup/structureddocumenttag/tag/) { get; set; } | Указывает тег, связанный с текущим узлом SDT. Не может быть`нулевой` . |
-| [Title](../../aspose.words.markup/structureddocumenttag/title/) { get; set; } | Указывает понятное имя, связанное с этим **СДТ** . Не может быть`нулевой` . |
+| [Title](../../aspose.words.markup/structureddocumenttag/title/) { get; set; } | Указывает понятное имя, связанное с этим**СДТ** . Не может быть`нулевой` . |
 | [WordOpenXML](../../aspose.words.markup/structureddocumenttag/wordopenxml/) { get; } | Получает строку, представляющую XML, содержащийся в узле вFlatOpc формат. |
 | [WordOpenXMLMinimal](../../aspose.words.markup/structureddocumenttag/wordopenxmlminimal/) { get; } | Получает строку, представляющую XML, содержащийся в узле вFlatOpc format. В отличие от[`WordOpenXML`](./wordopenxml/)Свойство этот метод создает урезанный документ, который исключает любые части, не связанные с содержанием. |
 | [XmlMapping](../../aspose.words.markup/structureddocumenttag/xmlmapping/) { get; } | Получает объект, который представляет сопоставление этого тега структурированного документа с XML-данными в пользовательской части XML текущего документа. |
@@ -73,38 +75,36 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttag/accept/)(DocumentVisitor) | Принимает посетителя. |
-| override [AcceptEnd](../../aspose.words.markup/structureddocumenttag/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.markup/structureddocumenttag/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
+| override [Accept](../../aspose.words.markup/structureddocumenttag/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
 | [Clear](../../aspose.words.markup/structureddocumenttag/clear/)() | Очищает содержимое этого тега структурированного документа и отображает заполнитель, если он определен. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Удаляет указанный дочерний узел. |
 | [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttag/removeselfonly/)() | Удаляет только этот узел SDT, но сохраняет его содержимое внутри дерева документа. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../smarttag/)узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../../aspose.words/node/) которое соответствует выражению XPath. |
-| [SetCheckedSymbol](../../aspose.words.markup/structureddocumenttag/setcheckedsymbol/)(int, string) | Устанавливает символ, используемый для обозначения отмеченного состояния элемента управления содержимым флажка. |
-| [SetUncheckedSymbol](../../aspose.words.markup/structureddocumenttag/setuncheckedsymbol/)(int, string) | Устанавливает символ, используемый для обозначения неотмеченного состояния элемента управления содержимым флажка. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../../aspose.words/node/) которое соответствует выражению XPath. |
+| [SetCheckedSymbol](../../aspose.words.markup/structureddocumenttag/setcheckedsymbol/)(*int, string*) | Устанавливает символ, используемый для обозначения отмеченного состояния элемента управления содержимым флажка. |
+| [SetUncheckedSymbol](../../aspose.words.markup/structureddocumenttag/setuncheckedsymbol/)(*int, string*) | Устанавливает символ, используемый для обозначения неотмеченного состояния элемента управления содержимым флажка. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Теги структурированных документов (SDT) позволяют встраивать в документ определяемую пользователем семантику, а также поведение и внешний вид его .
 
@@ -118,7 +118,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 * Встроенный уровень — среди встроенного содержимого внутри, как дочерний элемент[`Paragraph`](../../aspose.words/paragraph/).
 * Вложенный в другой`StructuredDocumentTag`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со стилями элементов управления содержимым.
 
@@ -160,5 +160,3 @@ foreach (Node node in tags)
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

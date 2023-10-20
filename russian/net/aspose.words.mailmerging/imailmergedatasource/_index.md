@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource интерфейс. Реализуйте этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных например списка объектов. Также поддерживаются основные данные.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource интерфейс. Реализуйте этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных например списка объектов. Также поддерживаются основные данные на С#.
 type: docs
 weight: 3810
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | Имя | Описание |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Механизм слияния почты Aspose.Words вызывает этот метод, когда обнаруживает начало вложенной области слияния почты. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Возвращает значение для указанного имени поля или`ЛОЖЬ` если поле не найдено. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Механизм слияния почты Aspose.Words вызывает этот метод, когда обнаруживает начало вложенной области слияния почты. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Возвращает значение для указанного имени поля или`ЛОЖЬ` если поле не найдено. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Переход к следующей записи в источнике данных. |
 
-### Примечания
+## Примечания
 
 Когда источник данных создан, он должен быть инициализирован, чтобы указать на BOF (перед первой записью). Механизм слияния почты Aspose.Words вызовет[`MoveNext`](./movenext/) для перехода к следующей записи and затем вызвать[`GetValue`](./getvalue/) для каждого поля слияния, встречающегося в документе или в текущей области слияния почты.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

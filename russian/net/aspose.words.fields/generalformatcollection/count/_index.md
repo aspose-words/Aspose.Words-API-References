@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: GeneralFormatCollection свойство. Получает общее количество элементов в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: GeneralFormatCollection Count свойство. Получает общее количество элементов в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/generalformatcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/generalformatcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Смотрите также
 
 * class [GeneralFormatCollection](../)
-* пространство имен [Aspose.Words.Fields](../../generalformatcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

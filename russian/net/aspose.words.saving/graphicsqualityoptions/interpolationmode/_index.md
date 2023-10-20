@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
-second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает режим интерполяции связанный с этим графическим объектом.
+linktitle: InterpolationMode
+articleTitle: InterpolationMode
+second_title: Aspose.Words для .NET
+description: GraphicsQualityOptions InterpolationMode свойство. Получает или задает режим интерполяции связанный с этим графическим объектом на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 public InterpolationMode? InterpolationMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Смотрите также
 
 * class [GraphicsQualityOptions](../)
-* пространство имен [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

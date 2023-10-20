@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Удаляет все символы диапазона.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words для .NET
+description: Range Delete метод. Удаляет все символы диапазона на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/range/delete/
 public void Delete()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все узлы из диапазона.
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### Смотрите также
 
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

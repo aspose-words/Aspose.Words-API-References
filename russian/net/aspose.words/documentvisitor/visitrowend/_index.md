@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRowEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление строки таблицы завершено.
+linktitle: VisitRowEnd
+articleTitle: VisitRowEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitRowEnd метод. Вызывается когда перечисление строки таблицы завершено на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/documentvisitor/visitrowend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRowEnd(Row row)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

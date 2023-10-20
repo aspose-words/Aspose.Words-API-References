@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.MarkupLanguage
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает язык разметки используемый для этого графического объекта.
+linktitle: MarkupLanguage
+articleTitle: MarkupLanguage
+second_title: Aspose.Words для .NET
+description: ShapeBase MarkupLanguage свойство. Получает язык разметки используемый для этого графического объекта на С#.
 type: docs
 weight: 390
 url: /ru/net/aspose.words.drawing/shapebase/markuplanguage/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/markuplanguage/
 public ShapeMarkupLanguage MarkupLanguage { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить размер фигуры и язык разметки.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 
 * enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

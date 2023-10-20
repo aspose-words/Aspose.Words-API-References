@@ -1,7 +1,9 @@
 ---
 title: Revision.DateTime
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision свойство. Получает или задает дату/время этой версии.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words для .NET
+description: Revision DateTime свойство. Получает или задает дату/время этой версии на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revision/datetime/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revision/datetime/
 public DateTime DateTime { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Смотрите также
 
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

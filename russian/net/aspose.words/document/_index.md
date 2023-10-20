@@ -1,7 +1,9 @@
 ---
-title: Class Document
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Document сорт. Представляет документ Word.
+title: Document Class
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Document сорт. Представляет документ Word на С#.
 type: docs
 weight: 430
 url: /ru/net/aspose.words/document/
@@ -21,10 +23,10 @@ public class Document : DocumentBase
 | Имя | Описание |
 | --- | --- |
 | [Document](document/#constructor)() | Создает пустой документ Word. |
-| [Document](document/#constructor_1)(Stream) | Открывает существующий документ из потока. Автоматически определяет формат файла. |
-| [Document](document/#constructor_3)(string) | Открывает существующий документ из файла. Автоматически определяет формат файла. |
-| [Document](document/#constructor_2)(Stream, LoadOptions) | Открывает существующий документ из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
-| [Document](document/#constructor_4)(string, LoadOptions) | Открывает существующий документ из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [Document](document/#constructor_1)(*Stream*) | Открывает существующий документ из потока. Автоматически определяет формат файла. |
+| [Document](document/#constructor_3)(*string*) | Открывает существующий документ из файла. Автоматически определяет формат файла. |
+| [Document](document/#constructor_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Открывает существующий документ из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [Document](document/#constructor_4)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Открывает существующий документ из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
 
 ## Характеристики
 
@@ -34,7 +36,7 @@ public class Document : DocumentBase
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Получает или задает флаг, указывающий, обновляются ли стили в документе в соответствии со стилями в прикрепленном шаблоне каждый раз, когда документ открывается в MS Word. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Получает или задает форму фона документа. Возможно`нулевой` . |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Возвращает коллекцию, которая представляет все встроенные свойства документа document. . |
-| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Предоставляет доступ к параметрам совместимости документов (т. е. к пользовательским настройкам, введенным в **Совместимость** вкладка  **Параметры** диалог в Word). |
+| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Предоставляет доступ к параметрам совместимости документов (т. е. к пользовательским настройкам, введенным в**Совместимость** вкладка **Параметры** диалог в Word). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | Получает версию соответствия OOXML, определенную на основе содержимого загруженного документа. Имеет смысл только для документов OOXML. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/) { get; } | Возвращает коллекцию, которая представляет все пользовательские свойства документа. |
@@ -103,81 +105,79 @@ public class Document : DocumentBase
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/document/accept/)(DocumentVisitor) | Принимает посетителя. |
+| override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | Принимает все отслеживаемые изменения в документе. |
-| override [AcceptEnd](../../aspose.words/document/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/document/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(Document, ImportFormatMode) | Добавляет указанный документ в конец этого документа. |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Добавляет указанный документ в конец этого документа. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | Добавляет указанный документ в конец этого документа. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Добавляет указанный документ в конец этого документа. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Удаляет неиспользуемые стили и списки из документа. |
-| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Удаляет из документа неиспользуемые стили и списки в зависимости от заданных[`CleanupOptions`](../cleanupoptions/) . |
+| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(*[CleanupOptions](../cleanupoptions/)*) | Удаляет из документа неиспользуемые стили и списки в зависимости от заданных[`CleanupOptions`](../cleanupoptions/) . |
 | [Clone](../../aspose.words/document/clone/#clone)() | Выполняет глубокое копирование`Document` . |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Сравнивает этот документ с другим документом, внося изменения в зависимости от количества изменений формата и редактирования.[`Revision`](../revision/) . |
-| [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Сравнивает этот документ с другим документом, внося изменения в результате ряда изменений редактирования и формата.[`Revision`](../revision/) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | Копирует стили из указанного шаблона в документ. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | Копирует стили из указанного шаблона в документ. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [Compare](../../aspose.words/document/compare/#compare)(*Document, string, DateTime*) | Сравнивает этот документ с другим документом, внося изменения в зависимости от количества изменений формата и редактирования.[`Revision`](../revision/) . |
+| [Compare](../../aspose.words/document/compare/#compare_1)(*Document, string, DateTime, [CompareOptions](../../aspose.words.comparing/compareoptions/)*) | Сравнивает этот документ с другим документом, внося изменения в результате ряда изменений редактирования и формата.[`Revision`](../revision/) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(*Document*) | Копирует стили из указанного шаблона в документ. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(*string*) | Копирует стили из указанного шаблона в документ. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Если документ не содержит разделов, создается один раздел с одним абзацем. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Преобразует форматирование, указанное в стилях таблиц, в прямое форматирование таблиц в документе. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Возвращает`Document` объект, представляющий указанный диапазон страниц. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | Возвращает`Document` объект, представляющий указанный диапазон страниц. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
-| [GetPageInfo](../../aspose.words/document/getpageinfo/)(int) | Получает размер страницы, ориентацию и другую информацию о странице, которая может быть полезна для печати или рендеринга. |
+| [GetPageInfo](../../aspose.words/document/getpageinfo/)(*int*) | Получает размер страницы, ориентацию и другую информацию о странице, которая может быть полезна для печати или рендеринга. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | Импортирует узел из другого документа в текущий документ. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | Импортирует узел из другого документа в текущий документ с возможностью управления форматированием. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | Импортирует узел из другого документа в текущий документ. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | Импортирует узел из другого документа в текущий документ с возможностью управления форматированием. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | Объединяет прогоны с одинаковым форматированием во всех абзацах документа. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | Изменяет значения типов полей.[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) из[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) во всем документе, чтобы они соответствовали типам полей, содержащимся в кодах полей. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Print](../../aspose.words/document/print/#print)() | Печатает весь документ на принтере по умолчанию. |
-| [Print](../../aspose.words/document/print/#print_1)(PrinterSettings) | Печатает документ в соответствии с указанными настройками принтера, с использованием стандартного (без пользовательского интерфейса) контроллера печати. |
-| [Print](../../aspose.words/document/print/#print_3)(string) | Распечатайте весь документ на указанном принтере, , используя стандартный контроллер печати (без пользовательского интерфейса). |
-| [Print](../../aspose.words/document/print/#print_2)(PrinterSettings, string) | Печатает документ в соответствии с указанными настройками принтера, с использованием стандартного контроллера печати (без пользовательского интерфейса) и имени документа. |
-| [Protect](../../aspose.words/document/protect/#protect)(ProtectionType) | Защищает документ от изменений без изменения существующего пароля или назначает случайный пароль. |
-| [Protect](../../aspose.words/document/protect/#protect_1)(ProtectionType, string) | Защищает документ от изменений и дополнительно устанавливает пароль защиты. |
+| [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | Печатает документ в соответствии с указанными настройками принтера, с использованием стандартного (без пользовательского интерфейса) контроллера печати. |
+| [Print](../../aspose.words/document/print/#print_3)(*string*) | Распечатайте весь документ на указанном принтере, , используя стандартный контроллер печати (без пользовательского интерфейса). |
+| [Print](../../aspose.words/document/print/#print_2)(*PrinterSettings, string*) | Печатает документ в соответствии с указанными настройками принтера, с использованием стандартного контроллера печати (без пользовательского интерфейса) и имени документа. |
+| [Protect](../../aspose.words/document/protect/#protect)(*[ProtectionType](../protectiontype/)*) | Защищает документ от изменений без изменения существующего пароля или назначает случайный пароль. |
+| [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Защищает документ от изменений и дополнительно устанавливает пароль защиты. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Удаляет указанный дочерний узел. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Удаляет внешние ссылки на схемы XML из этого документа. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Удаляет из документа все макросы (проект VBA), а также панели инструментов и настройки команд. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
-| [RenderToScale](../../aspose.words/document/rendertoscale/)(int, Graphics, float, float, float) | Преобразует страницу документа вGraphics объект в указанном масштабе. |
-| [RenderToSize](../../aspose.words/document/rendertosize/)(int, Graphics, float, float, float, float) | Преобразует страницу документа вGraphics объект указанного размера. |
-| [Save](../../aspose.words/document/save/#save_2)(string) | Сохраняет документ в файл. Автоматически определяет формат сохранения из расширения. |
-| [Save](../../aspose.words/document/save/#save)(Stream, SaveFormat) | Сохраняет документ в поток, используя указанный формат. |
-| [Save](../../aspose.words/document/save/#save_1)(Stream, SaveOptions) | Сохраняет документ в поток, используя указанные параметры сохранения. |
-| [Save](../../aspose.words/document/save/#save_3)(string, SaveFormat) | Сохраняет документ в файл указанного формата. |
-| [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | Сохраняет документ в файл, используя указанные параметры сохранения. |
-| [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Отправляет документ в браузер клиента. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | Начинает автоматически отмечать все дальнейшие изменения, которые вы вносите в документ программно, как изменения версии. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | Начинает автоматически отмечать все дальнейшие изменения, которые вы вносите в документ программно, как изменения версии. |
+| [RenderToScale](../../aspose.words/document/rendertoscale/)(*int, Graphics, float, float, float*) | Преобразует страницу документа вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words/document/rendertosize/)(*int, Graphics, float, float, float, float*) | Преобразует страницу документа вGraphics объект указанного размера. |
+| [Save](../../aspose.words/document/save/#save_2)(*string*) | Сохраняет документ в файл. Автоматически определяет формат сохранения из расширения. |
+| [Save](../../aspose.words/document/save/#save)(*Stream, [SaveFormat](../saveformat/)*) | Сохраняет документ в поток, используя указанный формат. |
+| [Save](../../aspose.words/document/save/#save_1)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Сохраняет документ в поток, используя указанные параметры сохранения. |
+| [Save](../../aspose.words/document/save/#save_3)(*string, [SaveFormat](../saveformat/)*) | Сохраняет документ в файл указанного формата. |
+| [Save](../../aspose.words/document/save/#save_4)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Сохраняет документ в файл, используя указанные параметры сохранения. |
+| [Save](../../aspose.words/document/save/#save_5)(*HttpResponse, string, [ContentDisposition](../contentdisposition/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Отправляет документ в браузер клиента. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(*string*) | Начинает автоматически отмечать все дальнейшие изменения, которые вы вносите в документ программно, как изменения версии. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(*string, DateTime*) | Начинает автоматически отмечать все дальнейшие изменения, которые вы вносите в документ программно, как изменения версии. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | Останавливает автоматическую маркировку изменений документа как редакций. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | Отменяет связь полей во всем документе. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | Снимает защиту с документа независимо от пароля. |
-| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(string) | Снимает защиту с документа, если указан правильный пароль. |
+| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | Снимает защиту с документа, если указан правильный пароль. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | Обновляет значения полей во всем документе. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | Обновляет метки списка для всех элементов списка в документе. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | Перестраивает макет страницы документа. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail)() | Обновления[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) документа с использованием параметров по умолчанию. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(ThumbnailGeneratingOptions) | Обновления[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) документа согласно указанным параметрам. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(*[ThumbnailGeneratingOptions](../../aspose.words.rendering/thumbnailgeneratingoptions/)*) | Обновления[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) документа согласно указанным параметрам. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount)() | Обновляет свойства количества слов в документе. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(bool) | Обновляет свойства количества слов в документе, при необходимости обновляет.[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) свойство. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(*bool*) | Обновляет свойства количества слов в документе, при необходимости обновляет.[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) свойство. |
 
-### Примечания
+## Примечания
 
 `Document` является центральным объектом в библиотеке Aspose.Words.
 
@@ -185,11 +185,11 @@ public class Document : DocumentBase
 
 Используйте одну из перегрузок метода Save, чтобы сохранить документ в любом из [`SaveFormat`](../saveformat/) форматы.
 
-Чтобы нарисовать страницы документа непосредственно на **Графика** объект use [`RenderToScale`](./rendertoscale/) или[`RenderToSize`](./rendertosize/) метод.
+Чтобы нарисовать страницы документа непосредственно на**Графика** объект use [`RenderToScale`](./rendertoscale/) или[`RenderToSize`](./rendertosize/) метод.
 
 Чтобы распечатать документ, воспользуйтесь одним из[`Print`](./print/) методы.
 
-[`MailMerge`](./mailmerge/) - это механизм отчетов Aspose.Words, который позволяет быстро и легко заполнять отчеты, созданные в Microsoft Word, данными из различных источников данных. Данные могут быть из DataSet, DataTable, DataView, IDataReader или массива значений.  **MailMerge** просматривает записи, найденные в источнике данных, и вставляет их в поля слияния почты в документе, увеличивая его по мере необходимости.
+[`MailMerge`](./mailmerge/) - это механизм отчетов Aspose.Words, который позволяет быстро и легко заполнять отчеты, созданные в Microsoft Word, данными из различных источников данных. Данные могут быть из DataSet, DataTable, DataView, IDataReader или массива значений. **MailMerge** просматривает записи, найденные в источнике данных, и вставляет их в поля слияния почты в документе, увеличивая его по мере необходимости.
 
 `Document` хранит информацию по всему документу, такую как[`Styles`](../documentbase/styles/) , [`BuiltInDocumentProperties`](./builtindocumentproperties/) ,[`CustomDocumentProperties`](./customdocumentproperties/) списки и макросы. Большинство этих объектов доступны через соответствующие свойства`Document`.
 
@@ -197,7 +197,7 @@ public class Document : DocumentBase
 
 * Доступ к узлам документа можно получить через типизированные коллекции, например[`Sections`](./sections/) , [`ParagraphCollection`](../paragraphcollection/) и т. д.
 * Узлы документа можно выбрать по типу узла с помощью .[`GetChildNodes`](../compositenode/getchildnodes/) или используя запрос XPath с[`SelectNodes`](../compositenode/selectnodes/) или[`SelectSingleNode`](../compositenode/selectsinglenode/).
-* Узлы контента можно добавлять или удалять из любого места документа с помощью .Node) ,Node) , Node) и другие методы, предоставляемые базовым классом[`CompositeNode`](../compositenode/).
+* Узлы контента можно добавлять или удалять из любого места документа с помощью .[`InsertBefore`](../compositenode/insertbefore/) ,[`InsertAfter`](../compositenode/insertafter/) , [`RemoveChild`](../compositenode/removechild/) и другие методы, предоставляемые базовым классом[`CompositeNode`](../compositenode/).
 * Атрибуты форматирования каждого узла можно изменить с помощью свойств этого узла.
 
 Рассмотрите возможность использования[`DocumentBuilder`](../documentbuilder/)это упрощает задачу программного создания или заполнения дерева документа.
@@ -206,7 +206,7 @@ public class Document : DocumentBase
 
 В Microsoft Word действительный документ должен иметь хотя бы один раздел.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из DataTable.
 
@@ -256,5 +256,3 @@ private static Document CreateSourceDocExecuteDataTable()
 * class [DocumentBase](../documentbase/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

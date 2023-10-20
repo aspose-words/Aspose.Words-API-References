@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsBookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBarcode свойство. Получает или устанавливаетPostalAddress это имя закладки.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words для .NET
+description: FieldBarcode IsBookmark свойство. Получает или устанавливаетPostalAddress это имя закладки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldbarcode/isbookmark/
 public bool IsBookmark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ШТРИХ-КОД для отображения почтовых индексов США в виде штрих-кода.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Смотрите также
 
 * class [FieldBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfTextCompression
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfTextCompression перечисление. Указывает тип сжатия применяемый ко всему содержимому PDFфайла кроме изображений.
+title: PdfTextCompression Enum
+linktitle: PdfTextCompression
+articleTitle: PdfTextCompression
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfTextCompression перечисление. Указывает тип сжатия применяемый ко всему содержимому PDFфайла кроме изображений на С#.
 type: docs
 weight: 5530
 url: /ru/net/aspose.words.saving/pdftextcompression/
@@ -21,7 +23,7 @@ public enum PdfTextCompression
 | None | `0` | Без сжатия. |
 | Flate | `1` | Плоское (ZIP) сжатие. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить сжатие текста при сохранении документа в формате PDF.
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

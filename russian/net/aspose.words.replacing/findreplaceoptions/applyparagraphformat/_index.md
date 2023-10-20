@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Форматирование абзацев применено к новому содержимому.
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions ApplyParagraphFormat свойство. Форматирование абзацев применено к новому содержимому на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить форматирование к абзацам, в которых операция поиска и замены обнаружила совпадения.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

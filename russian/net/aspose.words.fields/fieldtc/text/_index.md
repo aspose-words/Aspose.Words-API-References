@@ -1,7 +1,9 @@
 ---
 title: FieldTC.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTC свойство. Получает или задает текст записи.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldTC Text свойство. Получает или задает текст записи на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldtc/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtc/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Смотрите также
 
 * class [FieldTC](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

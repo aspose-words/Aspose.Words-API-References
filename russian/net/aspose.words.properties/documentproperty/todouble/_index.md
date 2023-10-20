@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToDouble
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty метод. Возвращает значение свойства как двойное.
+linktitle: ToDouble
+articleTitle: ToDouble
+second_title: Aspose.Words для .NET
+description: DocumentProperty ToDouble метод. Возвращает значение свойства как двойное на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.properties/documentproperty/todouble/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/documentproperty/todouble/
 public double ToDouble()
 ```
 
-### Примечания
+## Примечания
 
 Выдает исключение, если тип свойства неNumber .
 
-### Примеры
+## Примеры
 
 Показывает различные методы преобразования типов пользовательских свойств документа.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

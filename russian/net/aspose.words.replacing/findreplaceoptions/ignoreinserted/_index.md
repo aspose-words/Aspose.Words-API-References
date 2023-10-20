@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри редакций вставки. Значение по умолчаниюЛОЖЬ .
+linktitle: IgnoreInserted
+articleTitle: IgnoreInserted
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions IgnoreInserted свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри редакций вставки. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
 public bool IgnoreInserted { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включать или игнорировать текст внутри редакций вставки во время операции поиска и замены.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

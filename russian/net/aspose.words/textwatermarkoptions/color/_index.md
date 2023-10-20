@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Color
-second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает цвет шрифта. Значение по умолчаниюSilver .
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words для .NET
+description: TextWatermarkOptions Color свойство. Получает или задает цвет шрифта. Значение по умолчаниюSilver  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textwatermarkoptions/color/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textwatermarkoptions/color/
 public Color Color { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Смотрите также
 
 * class [TextWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../textwatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

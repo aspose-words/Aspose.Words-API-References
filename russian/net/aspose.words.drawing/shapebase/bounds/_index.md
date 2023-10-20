@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bounds
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает расположение и размер содержащего блока фигуры.
+linktitle: Bounds
+articleTitle: Bounds
+second_title: Aspose.Words для .NET
+description: ShapeBase Bounds свойство. Получает или задает расположение и размер содержащего блока фигуры на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/shapebase/bounds/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/bounds/
 public RectangleF Bounds { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Игнорирует блокировку соотношения сторон при настройке.
 
@@ -22,7 +24,7 @@ public RectangleF Bounds { get; set; }
 
 Для фигур в группе значение находится в координатном пространстве и единицах родительской группы.
 
-### Примеры
+## Примеры
 
 Показывает, как проверить форму, содержащую границы блоков.
 
@@ -179,7 +181,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

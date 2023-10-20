@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat свойство. Получает или задает список членом которого является этот абзац.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words для .NET
+description: ListFormat List свойство. Получает или задает список членом которого является этот абзац на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listformat/list/
 public List List { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Список, присваиваемый этому свойству, должен принадлежать текущему документу.
 
@@ -22,7 +24,7 @@ public List List { get; set; }
 
 Установка этого свойства в`нулевой` удаляет маркеры и нумерацию из параграфа и устанавливает номер уровня списка равным нулю. Установка этого свойства в`нулевой` эквивалентно вызову[`RemoveNumbers`](../removenumbers/).
 
-### Примеры
+## Примеры
 
 Показывает, как вложить список в другой список.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

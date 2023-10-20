@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ScalingFactor
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Коэффициент масштабирования символа. Значение указано в целых процентных пунктах допустимые значения 10 1000.
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words для .NET
+description: BarcodeParameters ScalingFactor свойство. Коэффициент масштабирования символа. Значение указано в целых процентных пунктах допустимые значения 10 1000 на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.fields/barcodeparameters/scalingfactor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/scalingfactor/
 public string ScalingFactor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

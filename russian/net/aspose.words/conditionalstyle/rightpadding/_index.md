@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает или задает объем места в пунктах добавляемый справа от содержимого ячеек таблицы.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words для .NET
+description: ConditionalStyle RightPadding свойство. Получает или задает объем места в пунктах добавляемый справа от содержимого ячеек таблицы на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Смотрите также
 
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreShapes
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли игнорировать фигуры в тексте.
+linktitle: IgnoreShapes
+articleTitle: IgnoreShapes
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions IgnoreShapes свойство. Получает или задает логическое значение указывающее следует ли игнорировать фигуры в тексте на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
 public bool IgnoreShapes { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как игнорировать фигуры при замене текста.
 
@@ -36,7 +38,5 @@ Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", buil
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает заблокировано ли соотношение сторон фигуры.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words для .NET
+description: ShapeBase AspectRatioLocked свойство. Указывает заблокировано ли соотношение сторон фигуры на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/aspectratiolocked/
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию зависит от[`ShapeType`](../../shapetype/) , дляImage это`истинный` , но для других типов фигур это`ЛОЖЬ`.
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как заблокировать/разблокировать соотношение сторон фигуры.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.INodeChangingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления при вставке или удалении узлов в документе.
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.INodeChangingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления при вставке или удалении узлов в документе на С#.
 type: docs
 weight: 3200
 url: /ru/net/aspose.words/inodechangingcallback/
@@ -18,12 +20,12 @@ public interface INodeChangingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет вставлен в другой узел. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был удален из его родительского узла. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет удален из документа. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет вставлен в другой узел. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Вызывается, когда узел, принадлежащий этому документу, был удален из его родительского узла. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет удален из документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
@@ -101,5 +103,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

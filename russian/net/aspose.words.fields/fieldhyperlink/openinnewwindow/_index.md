@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldHyperlink свойство. Получает или задает следует ли открывать целевой сайт в новом окне веббраузера.
+linktitle: OpenInNewWindow
+articleTitle: OpenInNewWindow
+second_title: Aspose.Words для .NET
+description: FieldHyperlink OpenInNewWindow свойство. Получает или задает следует ли открывать целевой сайт в новом окне веббраузера на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
 public bool OpenInNewWindow { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Смотрите также
 
 * class [FieldHyperlink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldhyperlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

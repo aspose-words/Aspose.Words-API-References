@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Справочник по API Aspose.Words для .NET
-description: SignOptions свойство. Указывает комментарии к цифровой подписи. Значение по умолчанию пустая строка Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words для .NET
+description: SignOptions Comments свойство. Указывает комментарии к цифровой подписи. Значение по умолчаниюпустая строка Empty на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Указывает комментарии к цифровой подписи. Значение по умолчанию: **пустая строка** (Empty).
+Указывает комментарии к цифровой подписи. Значение по умолчанию:**пустая строка** (Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы цифровой подписью.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Смотрите также
 
 * class [SignOptions](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../signoptions/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

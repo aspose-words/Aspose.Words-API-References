@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Справочник по API Aspose.Words для .NET
-description: UserInformation свойство. Получает или задает почтовый адрес пользователя.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words для .NET
+description: UserInformation Address свойство. Получает или задает почтовый адрес пользователя на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/userinformation/address/
 public string Address { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Смотрите также
 
 * class [UserInformation](../)
-* пространство имен [Aspose.Words.Fields](../../userinformation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

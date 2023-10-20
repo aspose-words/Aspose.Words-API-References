@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPoint свойство. Предоставляет доступ к форматированию заливки и строк этой точки данных.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: ChartDataPoint Format свойство. Предоставляет доступ к форматированию заливки и строк этой точки данных на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatapoint/format/
 public ChartFormat Format { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить индивидуальное форматирование для категорий гистограммы.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

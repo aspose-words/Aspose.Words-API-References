@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStopCollection метод. УдаляетGradientStop из коллекции по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: GradientStopCollection RemoveAt метод. УдаляетGradientStop из коллекции по указанному индексу на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/gradientstopcollection/removeat/
@@ -18,7 +20,7 @@ public GradientStop RemoveAt(int index)
 
 Удаленный[`GradientStop`](../../gradientstop/).
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstopcollection/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

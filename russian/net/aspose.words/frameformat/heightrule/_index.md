@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает правило определения высоты указанного кадра.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words для .NET
+description: FrameFormat HeightRule свойство. Получает правило определения высоты указанного кадра на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/heightrule/
 public HeightRule HeightRule { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

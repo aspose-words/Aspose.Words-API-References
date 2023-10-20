@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag метод. Возвращает true если этот экземпляр является тегом структурированного документа с ранжированием.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag IsRanged метод. Возвращает true если этот экземпляр является тегом структурированного документа с ранжированием на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/istructureddocumenttag/isranged/
 public bool IsRanged()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить структурированный тег документа.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Смотрите также
 
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GroupShape.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: GroupShape метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: GroupShape Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/groupshape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних фигур этой группы и вызовов[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
@@ -122,7 +124,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GroupShape](../)
-* пространство имен [Aspose.Words.Drawing](../../groupshape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

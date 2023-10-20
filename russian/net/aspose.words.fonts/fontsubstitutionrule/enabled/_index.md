@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionRule.Enabled
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSubstitutionRule свойство. Указывает включено правило или нет.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words для .NET
+description: FontSubstitutionRule Enabled свойство. Указывает включено правило или нет на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsubstitutionrule/enabled/
 public virtual bool Enabled { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает замену конфигурации шрифтов в зависимости от операционной системы.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(1,
 ### Смотрите также
 
 * class [FontSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

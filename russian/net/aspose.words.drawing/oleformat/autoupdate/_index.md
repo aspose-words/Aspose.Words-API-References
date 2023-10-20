@@ -1,7 +1,9 @@
 ---
 title: OleFormat.AutoUpdate
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Указывает обновляется ли ссылка на объект OLE автоматически или нет в Microsoft Word.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words для .NET
+description: OleFormat AutoUpdate свойство. Указывает обновляется ли ссылка на объект OLE автоматически или нет в Microsoft Word на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/oleformat/autoupdate/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/oleformat/autoupdate/
 public bool AutoUpdate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

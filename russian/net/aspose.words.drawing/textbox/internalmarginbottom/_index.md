@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginBottom
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет внутреннее нижнее поле фигуры в пунктах.
+linktitle: InternalMarginBottom
+articleTitle: InternalMarginBottom
+second_title: Aspose.Words для .NET
+description: TextBox InternalMarginBottom свойство. Определяет внутреннее нижнее поле фигуры в пунктах на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/textbox/internalmarginbottom/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/internalmarginbottom/
 public double InternalMarginBottom { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1/20 дюйма.
 
-### Примеры
+## Примеры
 
 Показывает, как установить внутренние поля для текстового поля.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

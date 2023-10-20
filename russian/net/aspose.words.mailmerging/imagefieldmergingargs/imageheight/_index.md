@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageFieldMergingArgs свойство. Указывает высоту изображения для вставки в документ.
+linktitle: ImageHeight
+articleTitle: ImageHeight
+second_title: Aspose.Words для .NET
+description: ImageFieldMergingArgs ImageHeight свойство. Указывает высоту изображения для вставки в документ на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
 public MergeFieldImageDimension ImageHeight { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение этого свойства изначально берется из соответствующего кода MERGEFIELD, содержащегося в документе шаблона . Чтобы переопределить начальное значение, вам следует назначить экземпляр [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) класс для этого свойства или установите свойства для экземпляра экземпляра [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) класс, возвращаемый этим свойством.
 
 Чтобы указать, что должно быть применено исходное значение высоты изображения, вам следует присвоить`нулевой` для этого свойства или установите[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) свойство для экземпляра из[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class, возвращаемый этим свойством, имеет отрицательное значение.
 
-### Примеры
+## Примеры
 
 Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* пространство имен [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

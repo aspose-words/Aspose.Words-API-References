@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientDataCollection метод. Удаляет все элементы из этой коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: OdsoRecipientDataCollection Clear метод. Удаляет все элементы из этой коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsorecipientdatacollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoRecipientDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

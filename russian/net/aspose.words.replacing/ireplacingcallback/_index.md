@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Replacing.IReplacingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время операции поиска и замены вызывался собственный метод.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Replacing.IReplacingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время операции поиска и замены вызывался собственный метод на С#.
 type: docs
 weight: 4630
 url: /ru/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | Определенный пользователем метод, который вызывается во время операции замены для каждого совпадения, найденного непосредственно перед выполнением замены. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Определенный пользователем метод, который вызывается во время операции замены для каждого совпадения, найденного непосредственно перед выполнением замены. |
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * пространство имен [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../)
-
-

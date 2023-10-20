@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор к строчному узлу или в конец абзаца.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words для .NET
+description: DocumentBuilder MoveTo метод. Перемещает курсор к строчному узлу или в конец абзаца на С#.
 type: docs
-weight: 490
+weight: 480
 url: /ru/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | Узел должен быть абзацем или прямым дочерним элементом абзаца. |
 
-### Примечания
+## Примечания
 
 Когдаузел является узлом встроенного уровня, курсор перемещается на этот узел node , и дальнейшее содержимое будет вставлено перед этим узлом.
 
@@ -26,7 +28,7 @@ public void MoveTo(Node node)
 
 Когдаузел является узлом блочного уровня, но не[`Paragraph`](../../paragraph/), курсор перемещается в конец первого абзаца в node уровня блока, и дальнейшее содержимое будет вставлено непосредственно перед разрывом абзаца.
 
-### Примеры
+## Примеры
 
 Показывает, как переместить позицию курсора DocumentBuilder в указанный узел.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

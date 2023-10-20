@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. Получает или задает имя файла без пути в котором будет сохранено изображение.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words для .NET
+description: ImageSavingArgs ImageFileName свойство. Получает или задает имя файла без пути в котором будет сохранено изображение на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/imagesavingargs/imagefilename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesavingargs/imagefilename/
 public string ImageFileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет переопределить способ создания имен файлов изображений во время экспорта в HTML.
 
@@ -28,7 +30,7 @@ Aspose.Words автоматически генерирует уникально�
 
 `ImageFileName` должно содержать только имя файла без пути. Aspose.Words определяет путь для сохранения и значение параметра`источник` атрибут для записи в HTML с использованием имени файла документа,[`ImagesFolder`](../../htmlsaveoptions/imagesfolder/) and [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias/) характеристики.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -145,7 +147,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Смотрите также
 
 * class [ImageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../imagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

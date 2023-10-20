@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.IResourceSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет внешние ресурсы изображения шрифты и CSS при сохранении документа в HTML или SVG с фиксированной страницей.
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.IResourceSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет внешние ресурсы изображения шрифты и CSS при сохранении документа в HTML или SVG с фиксированной страницей на С#.
 type: docs
 weight: 5190
 url: /ru/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Вызывается, когда Aspose.Words сохраняет внешний ресурс в формате фиксированной страницы HTML или SVG. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Вызывается, когда Aspose.Words сохраняет внешний ресурс в формате фиксированной страницы HTML или SVG. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

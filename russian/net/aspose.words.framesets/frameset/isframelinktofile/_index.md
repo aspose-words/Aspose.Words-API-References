@@ -1,7 +1,9 @@
 ---
 title: Frameset.IsFrameLinkToFile
-second_title: Справочник по API Aspose.Words для .NET
-description: Frameset свойство. Получает или задает значение указывающее указано ли имя вебстраницы или файла документа указанное в the .FrameDefaultUrl свойство  это внешний ресурс с которым связан фрейм.
+linktitle: IsFrameLinkToFile
+articleTitle: IsFrameLinkToFile
+second_title: Aspose.Words для .NET
+description: Frameset IsFrameLinkToFile свойство. Получает или задает значение указывающее указано ли имя вебстраницы или файла документа указанное в the .FrameDefaultUrl свойство  это внешний ресурс с которым связан фрейм на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.framesets/frameset/isframelinktofile/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.framesets/frameset/isframelinktofile/
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к фреймам на странице.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Смотрите также
 
 * class [Frameset](../)
-* пространство имен [Aspose.Words.Framesets](../../frameset/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

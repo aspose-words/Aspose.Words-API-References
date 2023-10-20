@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeFonts свойство. Указывает имя шрифта для латинских символов.
+linktitle: Latin
+articleTitle: Latin
+second_title: Aspose.Words для .NET
+description: ThemeFonts Latin свойство. Указывает имя шрифта для латинских символов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themefonts/latin/
 public string Latin { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeFonts](../)
-* пространство имен [Aspose.Words.Themes](../../themefonts/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

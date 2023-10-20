@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureDetails свойство. Получает или задает местоположение подписи.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureDetails Location свойство. Получает или задает местоположение подписи на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 public string Location { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой` .
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Смотрите также
 
 * class [PdfDigitalSignatureDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

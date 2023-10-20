@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Right
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает правую границу.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words для .NET
+description: BorderCollection Right свойство. Получает правую границу на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/bordercollection/right/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/right/
 public Border Right { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять цвет границы и заливки при построении таблицы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

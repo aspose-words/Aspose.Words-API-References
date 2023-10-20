@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AlternativeText
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Определяет альтернативный текст который будет отображаться вместо изображения.
+linktitle: AlternativeText
+articleTitle: AlternativeText
+second_title: Aspose.Words для .NET
+description: ShapeBase AlternativeText свойство. Определяет альтернативный текст который будет отображаться вместо изображения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/shapebase/alternativetext/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/alternativetext/
 public string AlternativeText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать альтернативный текст фигуры.
 
@@ -42,7 +44,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

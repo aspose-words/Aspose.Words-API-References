@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooterCollection метод. Связывает или отключает все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words для .NET
+description: HeaderFooterCollection LinkToPrevious метод. Связывает или отключает все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Связывает или отключает все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `истинный` чтобы связать верхние и нижние колонтитулы с предыдущим разделом; `ЛОЖЬ` чтобы разъединить их. |
 
-### Примечания
+## Примечания
 
 Если какие-либо верхние или нижние колонтитулы не существуют, они создаются автоматически.
 
-### Примеры
+## Примеры
 
 Показывает, как связать верхние и нижние колонтитулы между разделами.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Смотрите также
 
 * class [HeaderFooterCollection](../)
-* пространство имен [Aspose.Words](../../headerfootercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Связывает или отменяет связь указанного верхнего или нижнего колонтитула с соответствующим заголовком или нижним колонтитулом в предыдущем разделе.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../../headerfootertype/) value , указывающее верхний или нижний колонтитул для связывания/отсоединения. |
 | isLinkToPrevious | Boolean | `истинный`чтобы связать верхний или нижний колонтитул с предыдущим разделом; `ЛОЖЬ` чтобы отменить связь. |
 
-### Примечания
+## Примечания
 
 Если верхний или нижний колонтитул указанного типа не существует, создает его автоматически.
 
-### Примеры
+## Примеры
 
 Показывает, как связать верхние и нижние колонтитулы между разделами.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* пространство имен [Aspose.Words](../../headerfootercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

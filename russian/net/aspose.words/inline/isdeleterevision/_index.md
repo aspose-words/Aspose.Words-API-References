@@ -1,7 +1,9 @@
 ---
 title: Inline.IsDeleteRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: Inline свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words для .NET
+description: Inline IsDeleteRevision свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/inline/isdeleterevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inline/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Смотрите также
 
 * class [Inline](../)
-* пространство имен [Aspose.Words](../../inline/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

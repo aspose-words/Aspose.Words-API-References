@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать должен ли отображаться исходный текст вместо измененного. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowOriginalRevision
+articleTitle: ShowOriginalRevision
+second_title: Aspose.Words для .NET
+description: RevisionOptions ShowOriginalRevision свойство. Позволяет указать должен ли отображаться исходный текст вместо измененного. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.layout/revisionoptions/showoriginalrevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/revisionoptions/showoriginalrevision/
 public bool ShowOriginalRevision { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Смотрите также
 
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

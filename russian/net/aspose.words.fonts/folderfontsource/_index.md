@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FolderFontSource сорт. Представляет папку содержащую файлы шрифтов TrueType.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FolderFontSource сорт. Представляет папку содержащую файлы шрифтов TrueType на С#.
 type: docs
 weight: 2880
 url: /ru/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Cтор. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Cтор. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Cтор. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Cтор. |
 
 ## Характеристики
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlOfficeMathOutputMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlOfficeMathOutputMode перечисление. Указывает как Aspose.Words экспортирует OfficeMath в HTML MHTML и EPUB.
+title: HtmlOfficeMathOutputMode Enum
+linktitle: HtmlOfficeMathOutputMode
+articleTitle: HtmlOfficeMathOutputMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.HtmlOfficeMathOutputMode перечисление. Указывает как Aspose.Words экспортирует OfficeMath в HTML MHTML и EPUB на С#.
 type: docs
 weight: 5100
 url: /ru/net/aspose.words.saving/htmlofficemathoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlOfficeMathOutputMode
 | MathML | `1` | OfficeMath преобразуется в HTML с помощью MathML. |
 | Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, заданная тегами &lt;span&gt;. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать способ экспорта объектов Microsoft OfficeMath в HTML.
 
@@ -78,5 +80,3 @@ switch (htmlOfficeMathOutputMode)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

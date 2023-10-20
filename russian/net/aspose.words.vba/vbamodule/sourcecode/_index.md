@@ -1,7 +1,9 @@
 ---
 title: VbaModule.SourceCode
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaModule свойство. Получает или задает исходный код модуля проекта VBA.
+linktitle: SourceCode
+articleTitle: SourceCode
+second_title: Aspose.Words для .NET
+description: VbaModule SourceCode свойство. Получает или задает исходный код модуля проекта VBA на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.vba/vbamodule/sourcecode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbamodule/sourcecode/
 public string SourceCode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Смотрите также
 
 * class [VbaModule](../)
-* пространство имен [Aspose.Words.Vba](../../vbamodule/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

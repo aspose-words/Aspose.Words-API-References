@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatDateTime
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldResultFormatter метод. Вызывается когда Aspose.Words применяет переключатель формата даты/времени т.е.  dd.MM.yyyy.
+linktitle: FormatDateTime
+articleTitle: FormatDateTime
+second_title: Aspose.Words для .NET
+description: IFieldResultFormatter FormatDateTime метод. Вызывается когда Aspose.Words применяет переключатель формата даты/времени т.е.  dd.MM.yyyy на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
 ```
 
-### Примечания
+## Примечания
 
 Реализация должна вернуть результат`нулевой` чтобы указать, что должно быть применено форматирование по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -156,7 +158,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [CalendarType](../../../aspose.words/calendartype/)
 * interface [IFieldResultFormatter](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldresultformatter/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

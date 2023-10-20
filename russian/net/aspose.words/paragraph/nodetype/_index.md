@@ -1,7 +1,9 @@
 ---
 title: Paragraph.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. ВозвращаетParagraph .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Paragraph NodeType свойство. ВозвращаетParagraph  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/paragraph/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

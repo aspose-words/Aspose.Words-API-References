@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление документа глоссария завершено.
+linktitle: VisitGlossaryDocumentEnd
+articleTitle: VisitGlossaryDocumentEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitGlossaryDocumentEnd метод. Вызывается когда перечисление документа глоссария завершено на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примечания
+## Примечания
 
 Примечание. Узел документа глоссария и его дочерние элементы не посещаются, когда вы выполняете a Visitor через[`Document`](../../document/) . Если вы хотите выполнить Посетителя над документом глоссария a , вам нужно вызвать[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

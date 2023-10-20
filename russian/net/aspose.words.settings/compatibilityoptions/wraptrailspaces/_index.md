@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WrapTrailSpaces
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Конечные пробелы переноса строк.
+linktitle: WrapTrailSpaces
+articleTitle: WrapTrailSpaces
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions WrapTrailSpaces свойство. Конечные пробелы переноса строк на С#.
 type: docs
 weight: 710
 url: /ru/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
@@ -17,7 +19,5 @@ public bool WrapTrailSpaces { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

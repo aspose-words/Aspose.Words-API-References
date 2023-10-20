@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldGreetingLine метод. Возвращает коллекцию имен полей слияния почты используемых этим полем.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words для .NET
+description: FieldGreetingLine GetFieldNames метод. Возвращает коллекцию имен полей слияния почты используемых этим полем на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldgreetingline/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Смотрите также
 
 * class [FieldGreetingLine](../)
-* пространство имен [Aspose.Words.Fields](../../fieldgreetingline/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

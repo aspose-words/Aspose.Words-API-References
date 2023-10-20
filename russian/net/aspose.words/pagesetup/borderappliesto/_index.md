@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAppliesTo
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Указывает на каких страницах печатается граница страницы.
+linktitle: BorderAppliesTo
+articleTitle: BorderAppliesTo
+second_title: Aspose.Words для .NET
+description: PageSetup BorderAppliesTo свойство. Указывает на каких страницах печатается граница страницы на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/pagesetup/borderappliesto/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/borderappliesto/
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать широкую синюю рамку в верхней части первой страницы.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderAppliesTo](../../pageborderappliesto/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.TableStyleOptions перечисление. Указывает как стиль таблицы применяется к таблице.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.TableStyleOptions перечисление. Указывает как стиль таблицы применяется к таблице на С#.
 type: docs
 weight: 6370
 url: /ru/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Применено группирование строк и столбцов. Это значение Microsoft Word по умолчанию для старых форматов, таких как DOC, WML и RTF. . |
 | Default | `2A0` | Это настройки Microsoft Word по умолчанию. |
 
-### Примеры
+## Примеры
 
 Показывает, как построить новую таблицу с применением стиля.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ImportFormatOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ImportFormatOptions сорт. Позволяет указать различные параметры импорта для форматирования вывода.
+title: ImportFormatOptions Class
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ImportFormatOptions сорт. Позволяет указать различные параметры импорта для форматирования вывода на С#.
 type: docs
 weight: 3240
 url: /ru/net/aspose.words/importformatoptions/
@@ -34,7 +36,7 @@ public class ImportFormatOptions
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | Получает или задает логическое значение, определяющее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:`ЛОЖЬ` . |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | Получает или задает логическое значение, определяющее, как будут импортироваться стили , если они имеют одинаковые имена в исходном и целевом документах. Значение по умолчанию:`ЛОЖЬ` . |
 
-### Примеры
+## Примеры
 
 Показывает, как устранить повторяющиеся стили при вставке документов.
 
@@ -70,5 +72,3 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

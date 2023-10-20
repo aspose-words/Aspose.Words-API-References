@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.LayoutFlow перечисление. Определяет порядок расположения текста в текстовом поле.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.LayoutFlow перечисление. Определяет порядок расположения текста в текстовом поле на С#.
 type: docs
 weight: 1100
 url: /ru/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | Идеографический текст отображается горизонтально. |
 | Vertical | `5` | Текст отображается вертикально. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить текст в текстовое поле и изменить его ориентацию.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

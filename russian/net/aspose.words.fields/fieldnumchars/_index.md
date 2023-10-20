@@ -1,7 +1,9 @@
 ---
-title: Class FieldNumChars
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldNumChars сорт. Реализует поле NUCHARS.
+title: FieldNumChars Class
+linktitle: FieldNumChars
+articleTitle: FieldNumChars
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldNumChars сорт. Реализует поле NUCHARS на С#.
 type: docs
 weight: 2210
 url: /ru/net/aspose.words.fields/fieldnumchars/
@@ -42,17 +44,17 @@ public class FieldNumChars : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
-Получает количество символов в текущем документе, записанное в **Персонажи** свойство встроенных свойств документа the .
+Получает количество символов в текущем документе, записанное в**Персонажи** свойство встроенных свойств документа the .
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля NUMCHARS, NUMWORDS, NUMPAGES и PAGE для отслеживания размера наших документов.
 
@@ -97,5 +99,3 @@ doc.Save(ArtifactsDir + "Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

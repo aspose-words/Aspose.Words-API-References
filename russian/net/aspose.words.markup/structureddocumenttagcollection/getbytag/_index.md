@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTag
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagCollection метод. Возвращает первый тег структурированного документа обнаруженный в коллекции с указанным тегом.
+linktitle: GetByTag
+articleTitle: GetByTag
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagCollection GetByTag метод. Возвращает первый тег структурированного документа обнаруженный в коллекции с указанным тегом на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
@@ -18,7 +20,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 | --- | --- | --- |
 | tag | String | Тег тега структурированного документа. |
 
-### Примечания
+## Примечания
 
 Возвращает значение NULL, если тег структурированного документа с указанным тегом не найден.
 
@@ -26,7 +28,5 @@ public IStructuredDocumentTag GetByTag(string tag)
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

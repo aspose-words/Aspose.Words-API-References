@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Справочник по API Aspose.Words для .NET
-description: Hyphenation метод. Регистрирует и загружает словарь расстановки переносов для указанного языка из потока. Выдает если словарь не может быть прочитан или имеет неверный формат.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words для .NET
+description: Hyphenation RegisterDictionary метод. Регистрирует и загружает словарь расстановки переносов для указанного языка из потока. Выдает если словарь не может быть прочитан или имеет неверный формат на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 Регистрирует и загружает словарь расстановки переносов для указанного языка из потока. Выдает, если словарь не может быть прочитан или имеет неверный формат.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | Название языка, например «en-US». Подробности см. в документации .NET для «имени культуры» и RFC 4646. |
 | stream | Stream | Поток для файла словаря в формате OpenOffice. |
 
-### Примеры
+## Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Смотрите также
 
 * class [Hyphenation](../)
-* пространство имен [Aspose.Words](../../hyphenation/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 Регистрирует и загружает словарь расстановки переносов для указанного языка из файла. Выдает, если словарь не может быть прочитан или имеет неверный формат.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | Название языка, например «en-US». Подробности см. в документации .NET для «имени культуры» и RFC 4646. |
 | fileName | String | Путь к файлу словаря в формате Open Office. |
 
-### Примеры
+## Примеры
 
 Показывает, как зарегистрировать словарь переносов.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Смотрите также
 
 * class [Hyphenation](../)
-* пространство имен [Aspose.Words](../../hyphenation/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection свойство. Получает количество узлов в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: NodeCollection Count свойство. Получает количество узлов в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/nodecollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по коллекции дочерних узлов составного узла.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### Смотрите также
 
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

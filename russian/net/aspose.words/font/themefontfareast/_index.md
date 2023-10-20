@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает шрифт восточноазиатской темы в применяемой схеме шрифтов связанной с этимFont объект.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words для .NET
+description: Font ThemeFontFarEast свойство. Получает или задает шрифт восточноазиатской темы в применяемой схеме шрифтов связанной с этимFont объект на С#.
 type: docs
 weight: 500
 url: /ru/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/themefontfareast/
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со шрифтами и цветами темы.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

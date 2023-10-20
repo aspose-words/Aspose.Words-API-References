@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет будет ли заполнен замкнутый контур фигуры.
+linktitle: Filled
+articleTitle: Filled
+second_title: Aspose.Words для .NET
+description: Shape Filled свойство. Определяет будет ли заполнен замкнутый контур фигуры на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shape/filled/
 public bool Filled { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это ярлык для[`Visible`](../../fill/visible/) свойство.
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

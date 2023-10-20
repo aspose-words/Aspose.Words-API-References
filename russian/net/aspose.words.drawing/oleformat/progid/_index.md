@@ -1,7 +1,9 @@
 ---
 title: OleFormat.ProgId
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает или задает ProgID объекта OLE.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words для .NET
+description: OleFormat ProgId свойство. Получает или задает ProgID объекта OLE на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing/oleformat/progid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/progid/
 public string ProgId { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство ProgID не всегда присутствует в документах Microsoft Word, и на него нельзя полагаться.
 
@@ -22,7 +24,7 @@ public string ProgId { get; set; }
 
 Значение по умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -57,7 +59,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

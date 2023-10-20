@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CurrentUser
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает информацию о текущем пользователе.
+linktitle: CurrentUser
+articleTitle: CurrentUser
+second_title: Aspose.Words для .NET
+description: FieldOptions CurrentUser свойство. Получает или задает информацию о текущем пользователе на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldoptions/currentuser/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/currentuser/
 public UserInformation CurrentUser { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * class [UserInformation](../../userinformation/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

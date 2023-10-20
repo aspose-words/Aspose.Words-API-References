@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabase свойство. Получает или задает следует ли вставлять имена полей из базы данных в качестве заголовков столбцов в результирующую таблицу.
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: Aspose.Words для .NET
+description: FieldDatabase InsertHeadings свойство. Получает или задает следует ли вставлять имена полей из базы данных в качестве заголовков столбцов в результирующую таблицу на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddatabase/insertheadings/
 public bool InsertHeadings { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь данные из базы данных и вставить их как поле в документ.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Смотрите также
 
 * class [FieldDatabase](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabase/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

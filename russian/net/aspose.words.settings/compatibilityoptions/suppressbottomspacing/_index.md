@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressBottomSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Игнорировать точную высоту строки для последней строки на странице.
+linktitle: SuppressBottomSpacing
+articleTitle: SuppressBottomSpacing
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions SuppressBottomSpacing свойство. Игнорировать точную высоту строки для последней строки на странице на С#.
 type: docs
 weight: 480
 url: /ru/net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
@@ -17,7 +19,5 @@ public bool SuppressBottomSpacing { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

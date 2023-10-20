@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultFont
-second_title: Справочник по API Aspose.Words для .NET
-description: StyleCollection свойство. Получает форматирование текста документа по умолчанию.
+linktitle: DefaultFont
+articleTitle: DefaultFont
+second_title: Aspose.Words для .NET
+description: StyleCollection DefaultFont свойство. Получает форматирование текста документа по умолчанию на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/stylecollection/defaultfont/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/stylecollection/defaultfont/
 public Font DefaultFont { get; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что значения по умолчанию для всего документа были введены в Microsoft Word 2007 и полностью поддерживаются в форматах OOXML (Docx) only. Более ранние форматы документов имеют ограниченную поддержку этой функции, и можно сохранять только имена шрифтов.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить стиль в коллекцию стилей документа.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

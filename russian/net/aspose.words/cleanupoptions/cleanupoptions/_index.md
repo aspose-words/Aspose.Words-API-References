@@ -1,7 +1,9 @@
 ---
-title: CleanupOptions.CleanupOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: CleanupOptions строитель. Конструктор по умолчанию.
+title: CleanupOptions
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words для .NET
+description: CleanupOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/cleanupoptions/cleanupoptions/
@@ -17,7 +19,5 @@ public CleanupOptions()
 ### Смотрите также
 
 * class [CleanupOptions](../)
-* пространство имен [Aspose.Words](../../cleanupoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

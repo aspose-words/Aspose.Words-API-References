@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. True если этот абзац является последним абзацем вBody основной текстовый рассказSection  ложь в противном случае.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words для .NET
+description: Paragraph IsEndOfSection свойство. True если этот абзац является последним абзацем вBody основной текстовый рассказSection  ложь в противном случае на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ True, если этот абзац является последним абза�
 public bool IsEndOfSection { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить содержимое одного документа в закладку в другом документе.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Смотрите также
 
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

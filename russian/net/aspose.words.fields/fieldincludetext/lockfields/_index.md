@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.LockFields
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает следует ли запретить обновление полей во включенном документе.
+linktitle: LockFields
+articleTitle: LockFields
+second_title: Aspose.Words для .NET
+description: FieldIncludeText LockFields свойство. Получает или задает следует ли запретить обновление полей во включенном документе на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldincludetext/lockfields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/lockfields/
 public bool LockFields { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

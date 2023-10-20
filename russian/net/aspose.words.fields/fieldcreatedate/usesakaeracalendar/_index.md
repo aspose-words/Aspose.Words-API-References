@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCreateDate свойство. Получает или задает следует ли использовать календарь эпохи Сака.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words для .NET
+description: FieldCreateDate UseSakaEraCalendar свойство. Получает или задает следует ли использовать календарь эпохи Сака на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле CREATEDATE для отображения даты/времени создания документа.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Смотрите также
 
 * class [FieldCreateDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcreatedate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

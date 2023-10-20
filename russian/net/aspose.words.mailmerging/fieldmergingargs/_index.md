@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs сорт. Предоставляет данные для Объединить поле событие.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs сорт. Предоставляет данные дляОбъединить поле событие на С#.
 type: docs
 weight: 3770
 url: /ru/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Предоставляет данные для **Объединить поле** событие.
+Предоставляет данные для**Объединить поле** событие.
 
 Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Получает или задает текст, который будет вставлен в документ для текущего поля слияния. |
 
-### Примечания
+## Примечания
 
 **Объединить поле** Событие происходит во время слияния почты, когда в документе встречается простое поле mail merge . Вы можете ответить на это событие текстом return , который механизм слияния почты вставит в документ.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

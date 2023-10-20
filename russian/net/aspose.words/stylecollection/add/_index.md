@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: StyleCollection метод. Создает новый пользовательский стиль и добавляет его в коллекцию.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: StyleCollection Add метод. Создает новый пользовательский стиль и добавляет его в коллекцию на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/stylecollection/add/
@@ -19,7 +21,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | А[`StyleType`](../../styletype/) значение, указывающее тип создаваемого стиля. |
 | name | String | Имя создаваемого стиля с учетом регистра. |
 
-### Примечания
+## Примечания
 
 Вы можете создать стиль символа, абзаца или списка.
 
@@ -27,7 +29,7 @@ public Style Add(StyleType type, string name)
 
 Выдает исключение, если стиль с таким именем уже существует.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить стиль в коллекцию стилей документа.
 
@@ -108,7 +110,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [Style](../../style/)
 * enum [StyleType](../../styletype/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

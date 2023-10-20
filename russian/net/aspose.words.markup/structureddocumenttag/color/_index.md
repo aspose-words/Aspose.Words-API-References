@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Color
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает или задает цвет тега структурированного документа.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Color свойство. Получает или задает цвет тега структурированного документа на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/structureddocumenttag/color/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/color/
 public Color Color { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

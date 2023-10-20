@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.GetFieldNames
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock метод. Возвращает коллекцию имен полей слияния почты используемых этим полем.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words для .NET
+description: FieldAddressBlock GetFieldNames метод. Возвращает коллекцию имен полей слияния почты используемых этим полем на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить имена полей слияния почты, используемые полем.
 
@@ -34,7 +36,5 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 ### Смотрите также
 
 * class [FieldAddressBlock](../)
-* пространство имен [Aspose.Words.Fields](../../fieldaddressblock/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Обновляет метки списка для всех элементов списка в документе.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words для .NET
+description: Document UpdateListLabels метод. Обновляет метки списка для всех элементов списка в документе на С#.
 type: docs
-weight: 780
+weight: 760
 url: /ru/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/updatelistlabels/
 public void UpdateListLabels()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод обновляет свойства метки списка, такие как[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) and [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) для каждого[`ListLabel`](../../paragraph/listlabel/)объект в документе.
 
 Также этот метод иногда неявно вызывается при обновлении полей в документе. Это требуется , потому что некоторые поля, которые могут ссылаться на номера списка (например, TOC или REF), требуют их актуальности.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь метки списка всех абзацев, которые являются элементами списка.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

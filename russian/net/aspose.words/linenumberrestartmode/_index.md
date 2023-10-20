@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.LineNumberRestartMode перечисление. Определяет когда перезапускается автоматическая нумерация строк.
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.LineNumberRestartMode перечисление. Определяет когда перезапускается автоматическая нумерация строк на С#.
 type: docs
 weight: 3430
 url: /ru/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | Нумерация строк возобновляется с начала раздела. |
 | Continuous | `2` | Нумерация строк непрерывная из предыдущего раздела. |
 
-### Примеры
+## Примеры
 
 Показывает, как включить нумерацию строк для раздела.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: SystemFontSource строитель. Cтор.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words для .NET
+description: SystemFontSource строитель. Cтор на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ Cтор.
 public SystemFontSource()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### Смотрите также
 
 * class [SystemFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../systemfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 Cтор.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### Смотрите также
 
 * class [SystemFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../systemfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

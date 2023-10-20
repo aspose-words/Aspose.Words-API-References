@@ -1,7 +1,9 @@
 ---
 title: FieldLink.ProgId
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLink свойство. Получает или задает тип приложения информации о ссылке.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words для .NET
+description: FieldLink ProgId свойство. Получает или задает тип приложения информации о ссылке на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldlink/progid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlink/progid/
 public string ProgId { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldLink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

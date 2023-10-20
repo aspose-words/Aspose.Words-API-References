@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Справочник по API Aspose.Words для .NET
-description: Border свойство. Возвращаетистинный еслиLineStyle не являетсяNone .
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words для .NET
+description: Border IsVisible свойство. Возвращаетистинный еслиLineStyle не являетсяNone  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/border/isvisible/
 public bool IsVisible { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить границы абзаца.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

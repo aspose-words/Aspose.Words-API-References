@@ -1,7 +1,9 @@
 ---
 title: FieldTC.TypeIdentifier
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTC свойство. Получает или задает идентификатор типа для этого поля обычно это буква.
+linktitle: TypeIdentifier
+articleTitle: TypeIdentifier
+second_title: Aspose.Words для .NET
+description: FieldTC TypeIdentifier свойство. Получает или задает идентификатор типа для этого поля обычно это буква на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldtc/typeidentifier/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtc/typeidentifier/
 public string TypeIdentifier { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Смотрите также
 
 * class [FieldTC](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

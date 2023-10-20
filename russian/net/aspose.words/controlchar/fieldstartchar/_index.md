@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldStartChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Начало символа поля MS Word char19.
+linktitle: FieldStartChar
+articleTitle: FieldStartChar
+second_title: Aspose.Words для .NET
+description: ControlChar FieldStartChar поле. Начало символа поля MS Word char19 на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/controlchar/fieldstartchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/fieldstartchar/
 public const char FieldStartChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

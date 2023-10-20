@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ClearFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel метод. Очищает формат этой метки данных. Для свойств установлены значения по умолчанию определенные в родительской коллекции меток data . .
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ClearFormat метод. Очищает формат этой метки данных. Для свойств установлены значения по умолчанию определенные в родительской коллекции меток data .  на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
@@ -17,7 +19,5 @@ public void ClearFormat()
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

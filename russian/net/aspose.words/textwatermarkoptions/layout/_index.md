@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает макет водяного знака. Значение по умолчаниюDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words для .NET
+description: TextWatermarkOptions Layout свойство. Получает или задает макет водяного знака. Значение по умолчаниюDiagonal  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textwatermarkoptions/layout/
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../textwatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

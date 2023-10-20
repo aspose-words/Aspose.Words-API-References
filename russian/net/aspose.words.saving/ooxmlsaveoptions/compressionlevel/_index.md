@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.CompressionLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: OoxmlSaveOptions свойство. Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words для .NET
+description: OoxmlSaveOptions CompressionLevel свойство. Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать уровень сжатия, который будет использоваться при сохранении документа OOXML.
 
@@ -47,7 +49,5 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [OoxmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

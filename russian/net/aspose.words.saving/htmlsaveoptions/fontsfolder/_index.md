@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает физическую папку в которой сохраняются шрифты при экспорте документа в HTML. По умолчанию  пустая строка.
+linktitle: FontsFolder
+articleTitle: FontsFolder
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions FontsFolder свойство. Указывает физическую папку в которой сохраняются шрифты при экспорте документа в HTML. По умолчанию  пустая строка на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 public string FontsFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате HTML и[`ExportFontResources`](../exportfontresources/) установлено на`истинный` , Aspose.Words необходимо сохранять шрифты, используемые в документе, как отдельные файлы. `FontsFolder` позволяет указать, где будут сохраняться шрифты и [`FontsFolderAlias`](../fontsfolderalias/) позволяет указать, как будут создаваться URI шрифтов.
 
@@ -26,7 +28,7 @@ public string FontsFolder { get; set; }
 
 [`ResourceFolder`](../resourcefolder/) это еще один способ указать папку, в которой следует сохранять шрифты.
 
-### Примеры
+## Примеры
 
 Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

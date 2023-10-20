@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Panose
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo свойство. Получает или задает классификационный номер шрифта PANOSE.
+linktitle: Panose
+articleTitle: Panose
+second_title: Aspose.Words для .NET
+description: FontInfo Panose свойство. Получает или задает классификационный номер шрифта PANOSE на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/fontinfo/panose/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fonts/fontinfo/panose/
 public byte[] Panose { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 PANOSE — это компактное 10-байтовое описание важнейших визуальных характеристик шрифта , таких как контрастность, вес и стиль засечек. Цифры обозначают семейный вид, стиль с засечками, толщину , пропорции, контраст, вариант штриха, стиль руки, форму буквы, среднюю линию и высоту X.
 
 Возможно`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
 
@@ -59,7 +61,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Смотрите также
 
 * class [FontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

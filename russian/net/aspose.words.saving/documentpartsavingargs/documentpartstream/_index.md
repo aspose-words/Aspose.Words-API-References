@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPartSavingArgs свойство. Позволяет указать поток в котором будет сохранена часть документа.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words для .NET
+description: DocumentPartSavingArgs DocumentPartStream свойство. Позволяет указать поток в котором будет сохранена часть документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
 public Stream DocumentPartStream { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет сохранять части документа в потоки, а не в файлы во время экспорта HTML.
 
@@ -24,7 +26,7 @@ public Stream DocumentPartStream { get; set; }
 
 При сохранении в формате EPUB, который является форматом контейнера на основе HTML,`DocumentPartStream` невозможно указать , поскольку все вспомогательные части будут инкапсулированы в один выходной пакет.
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части и сохранить их.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Смотрите также
 
 * class [DocumentPartSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../documentpartsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

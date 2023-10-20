@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает или задает контрастность указанного изображения. Значение для этого свойства должно быть числом от 00 наименьший контраст до 10 наибольший контраст.
+linktitle: Contrast
+articleTitle: Contrast
+second_title: Aspose.Words для .NET
+description: ImageData Contrast свойство. Получает или задает контрастность указанного изображения. Значение для этого свойства должно быть числом от 00 наименьший контраст до 10 наибольший контраст на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/contrast/
 public double Contrast { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0,5.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

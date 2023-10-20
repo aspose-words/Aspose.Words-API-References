@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageCompression
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Указывает тип сжатия который будет использоваться для всех изображений в документе.
+linktitle: ImageCompression
+articleTitle: ImageCompression
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions ImageCompression свойство. Указывает тип сжатия который будет использоваться для всех изображений в документе на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 public PdfImageCompression ImageCompression { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчаниюAuto.
 
@@ -24,7 +26,7 @@ public PdfImageCompression ImageCompression { get; set; }
 
 С использованиемAuto позволяет контролировать качество Jpeg в выходном документе через[`JpegQuality`](../jpegquality/)property, , но для других форматов необработанные пиксельные данные извлекаются и сохраняются со сжатием Flate. Этот случай медленнее, чем преобразование Jpeg, но без потерь.
 
-### Примеры
+## Примеры
 
 Показывает, как указать тип сжатия для всех изображений в документе, который мы конвертируем в PDF.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * enum [PdfImageCompression](../../pdfimagecompression/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

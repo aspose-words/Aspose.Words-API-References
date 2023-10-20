@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPartCollection свойство. Получает или задает элемент по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: CustomXmlPartCollection Item свойство. Получает или задает элемент по указанному индексу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlpartcollection/item/
@@ -18,7 +20,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | Индекс элемента, начинающийся с нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

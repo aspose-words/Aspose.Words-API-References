@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.MustacheTag сорт. Представляет тег усы.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.MustacheTag сорт. Представляет тег усы на С#.
 type: docs
 weight: 3880
 url: /ru/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

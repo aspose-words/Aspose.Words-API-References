@@ -1,7 +1,9 @@
 ---
 title: FieldSubject.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSubject свойство. Получает или задает текст темы.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldSubject Text свойство. Получает или задает текст темы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldsubject/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsubject/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ТЕМА.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ### Смотрите также
 
 * class [FieldSubject](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsubject/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

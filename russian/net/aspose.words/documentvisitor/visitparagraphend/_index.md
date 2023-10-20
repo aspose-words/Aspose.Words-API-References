@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление абзаца закончилось.
+linktitle: VisitParagraphEnd
+articleTitle: VisitParagraphEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitParagraphEnd метод. Вызывается когда перечисление абзаца закончилось на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words/documentvisitor/visitparagraphend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphEnd(Paragraph paragraph)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

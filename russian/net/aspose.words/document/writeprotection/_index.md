@@ -1,7 +1,9 @@
 ---
 title: Document.WriteProtection
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Предоставляет доступ к параметрам защиты документа от записи.
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words для .NET
+description: Document WriteProtection свойство. Предоставляет доступ к параметрам защиты документа от записи на С#.
 type: docs
 weight: 500
 url: /ru/net/aspose.words/document/writeprotection/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/writeprotection/
 public WriteProtection WriteProtection { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как защитить документ паролем.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

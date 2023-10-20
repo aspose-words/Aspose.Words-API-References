@@ -1,7 +1,9 @@
 ---
 title: Table.Style
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает стиль таблицы примененный к этой таблице.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words для .NET
+description: Table Style свойство. Получает или задает стиль таблицы примененный к этой таблице на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.tables/table/style/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/style/
 public Style Style { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать пользовательские настройки стиля для таблицы.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

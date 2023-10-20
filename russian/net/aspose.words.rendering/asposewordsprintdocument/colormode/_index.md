@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Справочник по API Aspose.Words для .NET
-description: AsposeWordsPrintDocument свойство. Получает или задает способ печати нецветных страниц если устройство поддерживает цветную печать.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words для .NET
+description: AsposeWordsPrintDocument ColorMode свойство. Получает или задает способ печати нецветных страниц если устройство поддерживает цветную печать на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.rendering/asposewordsprintdocument/colormode/
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не влияет на печать буклетов.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать диапазон страниц и принтер для печати документа, а затем вызвать предварительный просмотр печати.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* пространство имен [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

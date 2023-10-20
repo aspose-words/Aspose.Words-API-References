@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. ПолучаетLayoutOptions объект представляющий параметры управления процессом макетирования этого документа.
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words для .NET
+description: Document LayoutOptions свойство. ПолучаетLayoutOptions объект представляющий параметры управления процессом макетирования этого документа на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/layoutoptions/
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как скрыть текст в визуализированном выходном документе.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

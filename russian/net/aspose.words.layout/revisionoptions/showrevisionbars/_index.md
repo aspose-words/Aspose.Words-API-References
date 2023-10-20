@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionBars
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать должны ли полосы изменений отображаться рядом со строками содержащими измененный контент. Значение по умолчаниюистинный .
+linktitle: ShowRevisionBars
+articleTitle: ShowRevisionBars
+second_title: Aspose.Words для .NET
+description: RevisionOptions ShowRevisionBars свойство. Позволяет указать должны ли полосы изменений отображаться рядом со строками содержащими измененный контент. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.layout/revisionoptions/showrevisionbars/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/revisionoptions/showrevisionbars/
 public bool ShowRevisionBars { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ### Смотрите также
 
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionReference свойство. Идентификатор связанный с вебрасширением в поставщике каталога.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: WebExtensionReference Id свойство. Идентификатор связанный с вебрасширением в поставщике каталога на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextensionreference/id/
 public string Id { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [WebExtensionReference](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionreference/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

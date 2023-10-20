@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Справочник по API Aspose.Words для .NET
-description: MustacheTag свойство. Получает начальную позицию тега отсчитывающуюся от нуля от началаReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words для .NET
+description: MustacheTag ReferenceOffset свойство. Получает начальную позицию тега отсчитывающуюся от нуля от началаReferenceRun  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 public int ReferenceOffset { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами усов.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Смотрите также
 
 * class [MustacheTag](../)
-* пространство имен [Aspose.Words.MailMerging](../../mustachetag/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

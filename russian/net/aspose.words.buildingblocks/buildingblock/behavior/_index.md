@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Определяет поведение которое должно применяться когда содержимое стандартного блока вставляется в основной документ.
+linktitle: Behavior
+articleTitle: Behavior
+second_title: Aspose.Words для .NET
+description: BuildingBlock Behavior свойство. Определяет поведение которое должно применяться когда содержимое стандартного блока вставляется в основной документ на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/behavior/
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Border.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: Border метод. Определяет равна ли указанная граница по значению текущей границе.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: Border Equals метод. Определяет равна ли указанная граница по значению текущей границе на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
 Определяет, равна ли указанная граница по значению текущей границе.
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/border/equals/
 public bool Equals(Border rhs)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как коллекции границ могут совместно использовать элементы.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Определяет, равен ли указанный объект по значению текущему объекту.
 
@@ -69,7 +71,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 public override bool Equals(object obj)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как коллекции границ могут совместно использовать элементы.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

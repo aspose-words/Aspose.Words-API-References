@@ -1,9 +1,11 @@
 ---
 title: Style.NextParagraphStyleName
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает/устанавливает имя стиля который будет автоматически применяться к новому абзацу вставленному после абзаца a  отформатированного с использованием указанного стиля.
+linktitle: NextParagraphStyleName
+articleTitle: NextParagraphStyleName
+second_title: Aspose.Words для .NET
+description: Style NextParagraphStyleName свойство. Получает/устанавливает имя стиля который будет автоматически применяться к новому абзацу вставленному после абзаца a  отформатированного с использованием указанного стиля на С#.
 type: docs
-weight: 140
+weight: 130
 url: /ru/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/style/nextparagraphstylename/
 public string NextParagraphStyleName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство не используется Aspose.Words. Следующий стиль абзаца only будет применен автоматически при редактировании документа в MS Word.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -46,7 +48,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

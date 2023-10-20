@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает диапазон уровней включаемых записей оглавления.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words для .NET
+description: FieldToc EntryLevelRange свойство. Получает или задает диапазон уровней включаемых записей оглавления на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/entrylevelrange/
 public string EntryLevelRange { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

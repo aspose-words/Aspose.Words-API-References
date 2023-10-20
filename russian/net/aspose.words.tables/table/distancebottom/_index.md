@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceBottom
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает расстояние между нижней частью таблицы и окружающим текстом в пунктах.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words для .NET
+description: Table DistanceBottom свойство. Получает или задает расстояние между нижней частью таблицы и окружающим текстом в пунктах на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.tables/table/distancebottom/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/distancebottom/
 public double DistanceBottom { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить расстояние между границами таблицы и текстом.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

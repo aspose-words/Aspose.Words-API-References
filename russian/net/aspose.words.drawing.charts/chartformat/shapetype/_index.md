@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartFormat свойство. Получает или задает тип фигуры родительского элемента диаграммы.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words для .NET
+description: ChartFormat ShapeType свойство. Получает или задает тип фигуры родительского элемента диаграммы на С#.
 type: docs
-weight: 30
+weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartformat/shapetype/
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 В настоящее время это свойство можно использовать только для меток данных.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование заливки, обводки и выносок для меток данных диаграммы.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartformat/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

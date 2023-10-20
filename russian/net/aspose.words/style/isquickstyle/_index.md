@@ -1,7 +1,9 @@
 ---
 title: Style.IsQuickStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Указывает отображается ли этот стиль в галерее быстрых стилей в пользовательском интерфейсе MS Word.
+linktitle: IsQuickStyle
+articleTitle: IsQuickStyle
+second_title: Aspose.Words для .NET
+description: Style IsQuickStyle свойство. Указывает отображается ли этот стиль в галерее быстрых стилей в пользовательском интерфейсе MS Word на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/style/isquickstyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/isquickstyle/
 public bool IsQuickStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции стилей документа.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

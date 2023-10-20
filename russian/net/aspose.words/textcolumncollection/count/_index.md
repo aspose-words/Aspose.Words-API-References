@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Получает количество столбцов в разделе документа.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: TextColumnCollection Count свойство. Получает количество столбцов в разделе документа на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/textcolumncollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Смотрите также
 
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

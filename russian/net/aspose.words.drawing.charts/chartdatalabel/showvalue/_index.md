@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать должны ли значения отображаться в метках данных. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowValue свойство. Позволяет указать должны ли значения отображаться в метках данных. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showvalue/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showvalue/
 public bool ShowValue { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

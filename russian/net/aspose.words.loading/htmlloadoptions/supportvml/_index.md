@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlLoadOptions свойство. Получает или задает значение указывающее поддерживаются ли изображения VML.
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: Aspose.Words для .NET
+description: HtmlLoadOptions SupportVml свойство. Получает или задает значение указывающее поддерживаются ли изображения VML на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/htmlloadoptions/supportvml/
 public bool SupportVml { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как поддерживать условные комментарии при загрузке HTML-документа.
 
@@ -39,7 +41,5 @@ else
 ### Смотрите также
 
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

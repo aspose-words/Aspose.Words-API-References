@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: MappedDataFieldCollection метод. Удаляет сопоставление полей.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: MappedDataFieldCollection Remove метод. Удаляет сопоставление полей на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Имя поля слияния почты в документе, чувствительное к регистру. |
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Смотрите также
 
 * class [MappedDataFieldCollection](../)
-* пространство имен [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: KnownTypeSet метод. ВозвращаетIEnumerator объект для перебора элементов набора.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: KnownTypeSet GetEnumerator метод. ВозвращаетIEnumerator объект для перебора элементов набора на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.reporting/knowntypeset/getenumerator/
@@ -21,7 +23,5 @@ public IEnumerator<Type> GetEnumerator()
 ### Смотрите также
 
 * class [KnownTypeSet](../)
-* пространство имен [Aspose.Words.Reporting](../../knowntypeset/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

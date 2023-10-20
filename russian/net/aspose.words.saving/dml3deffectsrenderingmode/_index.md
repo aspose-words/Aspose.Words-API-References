@@ -1,7 +1,9 @@
 ---
-title: Enum Dml3DEffectsRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.Dml3DEffectsRenderingMode перечисление. Указывает как визуализируются эффекты 3Dфигур.
+title: Dml3DEffectsRenderingMode Enum
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.Dml3DEffectsRenderingMode перечисление. Указывает как визуализируются эффекты 3Dфигур на С#.
 type: docs
 weight: 4900
 url: /ru/net/aspose.words.saving/dml3deffectsrenderingmode/
@@ -25,5 +27,3 @@ public enum Dml3DEffectsRenderingMode
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

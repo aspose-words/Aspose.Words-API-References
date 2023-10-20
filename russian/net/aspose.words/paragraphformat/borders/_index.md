@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает коллекцию границ абзаца.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: ParagraphFormat Borders свойство. Получает коллекцию границ абзаца на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/paragraphformat/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац с верхней границей.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

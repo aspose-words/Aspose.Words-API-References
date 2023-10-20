@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: Style метод. Удаляет указанный стиль из документа.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: Style Remove метод. Удаляет указанный стиль из документа на С#.
 type: docs
-weight: 200
+weight: 190
 url: /ru/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/remove/
 public void Remove()
 ```
 
-### Примечания
+## Примечания
 
 Удаление стиля влияет на модель документа следующим образом:
 
@@ -22,7 +24,7 @@ public void Remove()
 * Если базовый стиль удален, его форматирование переносится в дочерние стили.
 * Если удаляемый стиль имеет связанный стиль, то удаляются оба стиля.
 
-### Примеры
+## Примеры
 
 Показывает, как создать и применить собственный стиль.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

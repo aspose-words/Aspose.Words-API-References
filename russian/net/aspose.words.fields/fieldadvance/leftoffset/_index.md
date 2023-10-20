@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.LeftOffset
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAdvance свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен влево.
+linktitle: LeftOffset
+articleTitle: LeftOffset
+second_title: Aspose.Words для .NET
+description: FieldAdvance LeftOffset свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен влево на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldadvance/leftoffset/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldadvance/leftoffset/
 public string LeftOffset { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADVANCE и отредактировать его свойства.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Смотрите также
 
 * class [FieldAdvance](../)
-* пространство имен [Aspose.Words.Fields](../../fieldadvance/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: WebExtensionBinding.WebExtensionBinding
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionBinding строитель. Создает привязку вебрасширения с указанными параметрами.
+title: WebExtensionBinding
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words для .NET
+description: WebExtensionBinding строитель. Создает привязку вебрасширения с указанными параметрами на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
@@ -20,7 +22,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | Тип привязки. |
 | appRef | String | Ключ привязки, используемый для сопоставления записи привязки в этом списке с привязанными данными в документе. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

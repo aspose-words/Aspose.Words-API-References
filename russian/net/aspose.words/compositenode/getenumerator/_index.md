@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: CompositeNode GetEnumerator метод. Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла на С#.
 type: docs
-weight: 120
+weight: 100
 url: /ru/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/compositenode/getenumerator/
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по коллекции дочерних узлов составного узла.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

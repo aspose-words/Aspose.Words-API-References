@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Справочник по API Aspose.Words для .NET
-description: FootnoteOptions свойство. Определяет положение сносок.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words для .NET
+description: FootnoteOptions Position свойство. Определяет положение сносок на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.notes/footnoteoptions/position/
 public FootnotePosition Position { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его сноски.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../footnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

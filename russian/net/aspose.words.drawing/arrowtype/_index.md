@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ArrowType перечисление. Указывает тип стрелки в конце строки.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ArrowType перечисление. Указывает тип стрелки в конце строки на С#.
 type: docs
 weight: 490
 url: /ru/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | Стрелка представляет собой открытую стрелку. |
 | Default | `0` | То же, что иNone . |
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

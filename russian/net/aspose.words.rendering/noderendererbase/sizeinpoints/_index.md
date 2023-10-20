@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase свойство. Получает фактический размер фигуры в точках.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words для .NET
+description: NodeRendererBase SizeInPoints свойство. Получает фактический размер фигуры в точках на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство возвращает размер фактического (отрисованного на странице) ограничивающего прямоугольника фигуры. Размер учитывает поворот фигуры (если таковой имеется).
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

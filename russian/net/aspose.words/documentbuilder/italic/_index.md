@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Italic
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. True если шрифт отформатирован как курсив.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words для .NET
+description: DocumentBuilder Italic свойство. True если шрифт отформатирован как курсив на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/documentbuilder/italic/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как курсив.
 public bool Italic { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поля MERGEFIELD данными с помощью построителя документов вместо слияния почты.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

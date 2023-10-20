@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PageVerticalAlignment перечисление. Определяет вертикальное выравнивание текста на каждой странице.
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.PageVerticalAlignment перечисление. Определяет вертикальное выравнивание текста на каждой странице на С#.
 type: docs
 weight: 4370
 url: /ru/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | Текст занимает всю страницу. |
 | Top | `0` | Текст выравнивается по верху страницы. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

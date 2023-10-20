@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Bindings
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtension свойство. Указывает список привязок вебрасширений.
+linktitle: Bindings
+articleTitle: Bindings
+second_title: Aspose.Words для .NET
+description: WebExtension Bindings свойство. Указывает список привязок вебрасширений на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/webextension/bindings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextension/bindings/
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * class [WebExtension](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextension/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

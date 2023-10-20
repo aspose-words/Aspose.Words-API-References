@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchOffset
-second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Получает начальную позицию совпадения с отсчетом от нуля от начала узла содержащего начало совпадения.
+linktitle: MatchOffset
+articleTitle: MatchOffset
+second_title: Aspose.Words для .NET
+description: ReplacingArgs MatchOffset свойство. Получает начальную позицию совпадения с отсчетом от нуля от начала узла содержащего начало совпадения на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.replacing/replacingargs/matchoffset/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/replacingargs/matchoffset/
 public int MatchOffset { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
@@ -87,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 ### Смотрите также
 
 * class [ReplacingArgs](../)
-* пространство имен [Aspose.Words.Replacing](../../replacingargs/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveMacros
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Удаляет из документа все макросы проект VBA а также панели инструментов и настройки команд.
+linktitle: RemoveMacros
+articleTitle: RemoveMacros
+second_title: Aspose.Words для .NET
+description: Document RemoveMacros метод. Удаляет из документа все макросы проект VBA а также панели инструментов и настройки команд на С#.
 type: docs
-weight: 690
+weight: 670
 url: /ru/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/removemacros/
 public void RemoveMacros()
 ```
 
-### Примечания
+## Примечания
 
 Удалив все макросы из документа, вы можете гарантировать, что документ не содержит макровирусов.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все макросы из документа.
 
@@ -38,7 +40,5 @@ Assert.Null(doc.VbaProject);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

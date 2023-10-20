@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartMultilevelValue метод. Получает флаг указывающий равен ли указанный объект текущему многоуровневому объекту данных.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: ChartMultilevelValue Equals метод. Получает флаг указывающий равен ли указанный объект текущему многоуровневому объекту данных на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartmultilevelvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Смотрите также
 
 * class [ChartMultilevelValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает коллекцию редакций отслеживаемых изменений существующих в этом документе.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words для .NET
+description: Document Revisions свойство. Получает коллекцию редакций отслеживаемых изменений существующих в этом документе на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/revisions/
 public RevisionCollection Revisions { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращенная коллекция является «живой» коллекцией, что означает, что если вы удалите части документа, содержащие версии , удаленные версии автоматически исчезнут из этой коллекции.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

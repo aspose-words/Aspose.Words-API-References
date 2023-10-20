@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает поворот символа штрихкода. Допустимые значения 0 3 .
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode SymbolRotation свойство. Получает или задает поворот символа штрихкода. Допустимые значения 0 3  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
 public string SymbolRotation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

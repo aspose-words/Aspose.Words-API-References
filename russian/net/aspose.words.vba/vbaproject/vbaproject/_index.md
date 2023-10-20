@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaProject строитель. Создает пробелVbaProject .
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words для .NET
+description: VbaProject строитель. Создает пробелVbaProject  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbaproject/vbaproject/
 public VbaProject()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Смотрите также
 
 * class [VbaProject](../)
-* пространство имен [Aspose.Words.Vba](../../vbaproject/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.NumberStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: EndnoteOptions свойство. Определяет числовой формат для автоматически нумерованных сносок.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words для .NET
+description: EndnoteOptions NumberStyle свойство. Определяет числовой формат для автоматически нумерованных сносок на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.notes/endnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.notes/endnoteoptions/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не все числовые стили применимы к этому свойству. Список применимых стилей номеров см. в диалоговом окне «Вставка сноски» или «Конечная сноска» в Microsoft Word. Если вы выберете стиль нумерации, который неприменим, Microsoft Word вернется к значению по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить стиль нумерации сносок/заключительных сносок.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [EndnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../endnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Получает или задает имя этого стандартного блока.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: BuildingBlock Name свойство. Получает или задает имя этого стандартного блока на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Имя может содержать любое строковое содержимое, обычно понятный идентификатор. Несколько строительных блоков могут иметь одно и то же имя.
 
 Не может быть`нулевой` и не может быть пустой строкой.
 
-Соответствует **docPartPr.name** элемент в OOXML.
+Соответствует**docPartPr.name** элемент в OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

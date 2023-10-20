@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartMarker свойство. Предоставляет доступ к форматированию заливки и строк этого маркера.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: ChartMarker Format свойство. Предоставляет доступ к форматированию заливки и строк этого маркера на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartmarker/format/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartmarker/format/
 public ChartFormat Format { get; }
 ```
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartMarker](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

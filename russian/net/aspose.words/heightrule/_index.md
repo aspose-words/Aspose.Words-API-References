@@ -1,7 +1,9 @@
 ---
-title: Enum HeightRule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.HeightRule перечисление. Определяет правило определения высоты объекта.
+title: HeightRule Enum
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.HeightRule перечисление. Определяет правило определения высоты объекта на С#.
 type: docs
 weight: 3130
 url: /ru/net/aspose.words/heightrule/
@@ -22,7 +24,7 @@ public enum HeightRule
 | Exactly | `1` | Высота указывается точно в пунктах. Обратите внимание: если текст не может поместиться внутри объекта этой высоты, он будет обрезан. |
 | Auto | `2` | Высота будет увеличиваться автоматически, чтобы разместить весь текст внутри объекта. |
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать строки с помощью построителя документов.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

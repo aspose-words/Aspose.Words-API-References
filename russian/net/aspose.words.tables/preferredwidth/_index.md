@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.PreferredWidth сорт. Представляет значение и его единицу измерения которая используется для указания предпочтительной ширины таблицы или ячейки.
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.PreferredWidth сорт. Представляет значение и его единицу измерения которая используется для указания предпочтительной ширины таблицы или ячейки на С#.
 type: docs
 weight: 6290
 url: /ru/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | Имя | Описание |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную в процентах. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную с использованием количества точек. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Определяет, задано ли указанное`PreferredWidth` по значению равен текущему`PreferredWidth` . |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную в процентах. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную с использованием количества точек. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Определяет, задано ли указанное`PreferredWidth` по значению равен текущему`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Служит хеш-функцией для этого типа. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Возвращает экземпляр, представляющий значение «предпочтительная ширина не указана». |
 
-### Примечания
+## Примечания
 
 Предпочтительную ширину можно указать в процентах, количестве пунктов или в специальном значении «нет/авто».
 
 Экземпляры этого класса неизменяемы.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическое размещение таблицы на 50 % ширины страницы.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

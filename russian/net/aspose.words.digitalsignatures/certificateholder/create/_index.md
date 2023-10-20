@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Справочник по API Aspose.Words для .NET
-description: CertificateHolder метод. СоздаетCertificateHolder объект использующий массив байтов хранилища PKCS12 и его пароль.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words для .NET
+description: CertificateHolder Create метод. СоздаетCertificateHolder объект использующий массив байтов хранилища PKCS12 и его пароль на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 Создает[`CertificateHolder`](../) объект, использующий массив байтов хранилища PKCS12 и его пароль.
 
@@ -32,7 +34,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 | SecurityException | Выдается, если хранилище PKCS12 не содержит псевдонимов. |
 | IOException | Выдается, если указан неверный пароль или поврежден файл. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать объекты CertificateHolder.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Смотрите также
 
 * class [CertificateHolder](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 Создает[`CertificateHolder`](../) объект, использующий массив байтов хранилища PKCS12 и его пароль.
 
@@ -108,7 +110,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 | SecurityException | Выдается, если хранилище PKCS12 не содержит псевдонимов. |
 | IOException | Выдается, если указан неверный пароль или поврежден файл. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать объекты CertificateHolder.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Смотрите также
 
 * class [CertificateHolder](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 Создает[`CertificateHolder`](../) объект, используя путь к хранилищу PKCS12 и его пароль.
 
@@ -184,7 +186,7 @@ public static CertificateHolder Create(string fileName, string password)
 | SecurityException | Выдается, если хранилище PKCS12 не содержит псевдонимов. |
 | IOException | Выдается, если указан неверный пароль или поврежден файл. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы цифровой подписью.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Смотрите также
 
 * class [CertificateHolder](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 Создает[`CertificateHolder`](../) объект, используя путь к хранилищу PKCS12, его пароль и псевдоним, по которому будут найдены закрытый ключ и сертификат.
 
@@ -246,7 +248,7 @@ public static CertificateHolder Create(string fileName, string password, string 
 | IOException | Выдается, если указан неверный пароль или поврежден файл. |
 | SecurityException | Вызывается, если нет закрытого ключа с данным псевдонимом. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать объекты CertificateHolder.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Смотрите также
 
 * class [CertificateHolder](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

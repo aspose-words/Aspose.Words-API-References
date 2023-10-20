@@ -1,7 +1,9 @@
 ---
 title: TextBox.FitShapeToText
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет будет ли Microsoft Word увеличивать форму до размера текста.
+linktitle: FitShapeToText
+articleTitle: FitShapeToText
+second_title: Aspose.Words для .NET
+description: TextBox FitShapeToText свойство. Определяет будет ли Microsoft Word увеличивать форму до размера текста на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/textbox/fitshapetotext/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/fitshapetotext/
 public bool FitShapeToText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить размер текстового поля, чтобы оно плотно вписывалось в его содержимое.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

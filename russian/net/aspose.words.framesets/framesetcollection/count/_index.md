@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: FramesetCollection свойство. Получает количество кадров или страниц кадров содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: FramesetCollection Count свойство. Получает количество кадров или страниц кадров содержащихся в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.framesets/framesetcollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Смотрите также
 
 * class [FramesetCollection](../)
-* пространство имен [Aspose.Words.Framesets](../../framesetcollection/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

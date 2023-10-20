@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как курсив.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words для .NET
+description: Font Italic свойство. True если шрифт отформатирован как курсив на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как курсив.
 public bool Italic { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как написать курсивный текст с помощью построителя документов.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

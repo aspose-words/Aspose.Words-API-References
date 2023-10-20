@@ -1,7 +1,9 @@
 ---
 title: UserInformation.DefaultUser
-second_title: Справочник по API Aspose.Words для .NET
-description: UserInformation свойство. Информация о пользователе по умолчанию.
+linktitle: DefaultUser
+articleTitle: DefaultUser
+second_title: Aspose.Words для .NET
+description: UserInformation DefaultUser свойство. Информация о пользователе по умолчанию на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/userinformation/defaultuser/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/userinformation/defaultuser/
 public static UserInformation DefaultUser { get; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте[`CurrentUser`](../../fieldoptions/currentuser/) свойство для указания информации о пользователе для одного документа.
 
-### Примеры
+## Примеры
 
 Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Смотрите также
 
 * class [UserInformation](../)
-* пространство имен [Aspose.Words.Fields](../../userinformation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

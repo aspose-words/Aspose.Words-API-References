@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает физическую папку в которой сохраняются все ресурсы такие как изображения шрифты и внешний CSS когда document экспортируется в HTML. По умолчанию  пустая строка.
+linktitle: ResourceFolder
+articleTitle: ResourceFolder
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ResourceFolder свойство. Указывает физическую папку в которой сохраняются все ресурсы такие как изображения шрифты и внешний CSS когда document экспортируется в HTML. По умолчанию  пустая строка на С#.
 type: docs
 weight: 420
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 public string ResourceFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 `ResourceFolder` — самый простой способ указать папку, в которую должны быть записаны все ресурсы. Другой способ — использовать отдельные свойства[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , и[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
@@ -22,7 +24,7 @@ public string ResourceFolder { get; set; }
 
 Если папка, указанная`ResourceFolder` не существует, он будет создан автоматически.
 
-### Примеры
+## Примеры
 
 Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

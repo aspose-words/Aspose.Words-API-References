@@ -1,9 +1,11 @@
 ---
 title: Table.ClearShading
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Удаляет всю тень на столе.
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: Aspose.Words для .NET
+description: Table ClearShading метод. Удаляет всю тень на столе на С#.
 type: docs
-weight: 400
+weight: 380
 url: /ru/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/clearshading/
 public void ClearShading()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить контурную рамку к таблице.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

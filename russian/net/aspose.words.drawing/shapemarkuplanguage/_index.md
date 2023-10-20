@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeMarkupLanguage
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShapeMarkupLanguage перечисление. Указывает язык разметки используемый для фигуры.
+title: ShapeMarkupLanguage Enum
+linktitle: ShapeMarkupLanguage
+articleTitle: ShapeMarkupLanguage
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ShapeMarkupLanguage перечисление. Указывает язык разметки используемый для фигуры на С#.
 type: docs
 weight: 1280
 url: /ru/net/aspose.words.drawing/shapemarkuplanguage/
@@ -21,7 +23,7 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | Язык разметки чертежей используется для определения формы. |
 | Vml | `1` | Язык векторной разметки используется для определения формы. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить спецификацию соответствия OOXML для сохраненного документа.
 
@@ -57,5 +59,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

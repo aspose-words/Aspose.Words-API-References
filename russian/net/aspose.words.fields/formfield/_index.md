@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FormField сорт. Представляет одно поле формы.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FormField сорт. Представляет одно поле формы на С#.
 type: docs
 weight: 2620
 url: /ru/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Получает специальный символ, который представляет этот узел. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | Удаляет все поле формы, а не только специальный символ поля формы. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | Применяет текстовый формат, указанный в[`TextInputFormat`](./textinputformat/) и сохраняет значение в[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | Применяет текстовый формат, указанный в[`TextInputFormat`](./textinputformat/) и сохраняет значение в[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Microsoft Word предоставляет следующие поля формы: флажок, ввод текста и раскрывающийся список (поле со списком).
 
@@ -84,7 +86,7 @@ Microsoft Word предоставляет следующие поля формы
 
 Полное поле формы в документе Word представляет собой сложную структуру, представленную несколькими узлами : начало поля, код поля, например FORMTEXT, данные поля формы, разделитель полей, результат поля , конец поля и закладка. Чтобы программно создать поля формы в документе Word, используйте .[`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/) , [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) and [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) Which убедитесь, что все узлы полей формы созданы в правильном порядке и в подходящем состоянии.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать весь FormField, включая значение поля.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

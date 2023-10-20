@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection свойство. Получает или задает элемент по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: BaseWebExtensionCollection Item свойство. Получает или задает элемент по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +20,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Индекс элемента, начинающийся с нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией веб-расширений документа.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* пространство имен [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

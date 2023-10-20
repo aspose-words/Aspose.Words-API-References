@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetBoundsInPixels
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase метод. Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
+linktitle: GetBoundsInPixels
+articleTitle: GetBoundsInPixels
+second_title: Aspose.Words для .NET
+description: NodeRendererBase GetBoundsInPixels метод. Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## GetBoundsInPixels(float, float) {#getboundsinpixels}
+## GetBoundsInPixels(*float, float*) {#getboundsinpixels}
 
 Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
 
@@ -23,11 +25,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 Фактическая (отображаемая на странице) ограничивающая рамка фигуры в пикселях.
 
-### Примечания
+## Примечания
 
 Этот метод преобразует[`BoundsInPoints`](../boundsinpoints/)в прямоугольник в пикселях.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
+## GetBoundsInPixels(*float, float, float*) {#getboundsinpixels_1}
 
 Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения.
 
@@ -97,11 +99,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 Фактическая (отображаемая на странице) ограничивающая рамка фигуры в пикселях.
 
-### Примечания
+## Примечания
 
 Этот метод преобразует[`BoundsInPoints`](../boundsinpoints/)в прямоугольник в пикселях.
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

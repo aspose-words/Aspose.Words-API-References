@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndField
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает конечное поле региона.
+linktitle: EndField
+articleTitle: EndField
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo EndField свойство. Возвращает конечное поле региона на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
 public FieldMergeField EndField { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить регионы слияния почты.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

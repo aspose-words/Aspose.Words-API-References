@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Replacing
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Replaceing пространство имен предоставляет классы для манипулирования с помощью операций поиска/замены в дереве документа.
+linktitle: Aspose.Words.Replacing
+articleTitle: Aspose.Words.Replacing
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Replaceing пространство имен предоставляет классы для манипулирования с помощью операций поиска/замены в дереве документа на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.replacing/
@@ -25,5 +27,3 @@ url: /ru/net/aspose.words.replacing/
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Указывает направление операций замены. |
 | [ReplaceAction](./replaceaction/) | Позволяет пользователю указать, что происходит с текущим совпадением во время операции замены. |
-
-

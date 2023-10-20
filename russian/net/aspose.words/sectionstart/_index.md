@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.SectionStart перечисление. Тип разрыва в начале раздела.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words для .NET
+description: Aspose.Words.SectionStart перечисление. Тип разрыва в начале раздела на С#.
 type: docs
 weight: 5760
 url: /ru/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | Раздел начинается с новой четной страницы. |
 | OddPage | `4` | Раздел начинается с новой нечетной страницы. |
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

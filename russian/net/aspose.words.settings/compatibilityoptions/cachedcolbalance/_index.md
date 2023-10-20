@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.CachedColBalance
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Использовать кэшированную информацию о абзацах для балансировки столбцов.
+linktitle: CachedColBalance
+articleTitle: CachedColBalance
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions CachedColBalance свойство. Использовать кэшированную информацию о абзацах для балансировки столбцов на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
@@ -17,7 +19,5 @@ public bool CachedColBalance { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

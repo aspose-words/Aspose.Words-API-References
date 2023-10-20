@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfoCollection свойство. Указывает следует ли встраивать системные шрифты в документ. Значение по умолчанию для этого свойстваЛОЖЬ.
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: Aspose.Words для .NET
+description: FontInfoCollection EmbedSystemFonts свойство. Указывает следует ли встраивать системные шрифты в документ. Значение по умолчанию для этого свойстваЛОЖЬ на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -16,13 +18,13 @@ url: /ru/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установка этого свойства в`истинный`полезно, если пользователь находится в восточноазиатской системе и хочет создать документ, который будет доступен для чтения другим пользователям, у которых нет шрифтов для этого языка в их системе. Например, пользователь японской системы может выбрать встраивание шрифтов the в документ, чтобы японский документ можно было читать во всех системах.
 
 Эта опция работает только для форматов DOC, DOCX и RTF.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ со встроенными шрифтами TrueType.
 
@@ -45,7 +47,5 @@ else
 ### Смотрите также
 
 * class [FontInfoCollection](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfocollection/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

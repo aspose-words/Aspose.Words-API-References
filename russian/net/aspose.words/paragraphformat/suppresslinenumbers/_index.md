@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Указывает следует ли исключить строки текущего абзаца из нумерации строк  которая применяется в родительском разделе.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words для .NET
+description: ParagraphFormat SuppressLineNumbers свойство. Указывает следует ли исключить строки текущего абзаца из нумерации строк  которая применяется в родительском разделе на С#.
 type: docs
 weight: 380
 url: /ru/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/suppresslinenumbers/
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить нумерацию строк для раздела.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

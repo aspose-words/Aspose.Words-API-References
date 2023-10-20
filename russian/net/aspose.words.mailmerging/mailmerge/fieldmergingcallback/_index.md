@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Происходит во время слияния почты когда в документе встречается поле слияния почты.
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: Aspose.Words для .NET
+description: MailMerge FieldMergingCallback свойство. Происходит во время слияния почты когда в документе встречается поле слияния почты на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

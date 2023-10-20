@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartTitle свойство. Получает или задает текст заголовка диаграммы. Еслинулевой или указано пустое значение будет показан автоматически сгенерированный заголовок.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: ChartTitle Text свойство. Получает или задает текст заголовка диаграммы. Еслинулевой или указано пустое значение будет показан автоматически сгенерированный заголовок на С#.
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/charttitle/text/
 public string Text { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Использовать[`Show`](../show/) вариант, если вам нужно скрыть заголовок.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и задать заголовок.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Смотрите также
 
 * class [ChartTitle](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../charttitle/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.BuiltIn
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. True если этот стиль является одним из встроенных стилей MS Word.
+linktitle: BuiltIn
+articleTitle: BuiltIn
+second_title: Aspose.Words для .NET
+description: Style BuiltIn свойство. True если этот стиль является одним из встроенных стилей MS Word на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/style/builtin/
@@ -14,7 +16,7 @@ True, если этот стиль является одним из встрое
 public bool BuiltIn { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отличить пользовательские стили от встроенных.
 
@@ -41,7 +43,5 @@ Assert.False(style.BuiltIn);
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

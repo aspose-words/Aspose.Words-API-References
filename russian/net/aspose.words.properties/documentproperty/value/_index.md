@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty свойство. Получает или задает значение свойства.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words для .NET
+description: DocumentProperty Value свойство. Получает или задает значение свойства на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/documentproperty/value/
 public object Value { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

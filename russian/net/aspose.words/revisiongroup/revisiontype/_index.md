@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.RevisionType
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroup свойство. Получает тип редакций включенных в эту группу.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words для .NET
+description: RevisionGroup RevisionType свойство. Получает тип редакций включенных в эту группу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisiongroup/revisiontype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisiongroup/revisiontype/
 public RevisionType RevisionType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о группе редакций в документе.
 
@@ -34,7 +36,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * enum [RevisionType](../../revisiontype/)
 * class [RevisionGroup](../)
-* пространство имен [Aspose.Words](../../revisiongroup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextBefore
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeField свойство. Получает или задает текст который будет вставлен перед полем если поле не пустое.
+linktitle: TextBefore
+articleTitle: TextBefore
+second_title: Aspose.Words для .NET
+description: FieldMergeField TextBefore свойство. Получает или задает текст который будет вставлен перед полем если поле не пустое на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldmergefield/textbefore/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergefield/textbefore/
 public string TextBefore { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Смотрите также
 
 * class [FieldMergeField](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergefield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

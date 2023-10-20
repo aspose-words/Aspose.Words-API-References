@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Предоставляет доступ к свойствам заголовка оси.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: ChartAxis Title свойство. Предоставляет доступ к свойствам заголовка оси на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words.drawing.charts/chartaxis/title/
@@ -18,7 +20,5 @@ public ChartAxisTitle Title { get; }
 
 * class [ChartAxisTitle](../../chartaxistitle/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

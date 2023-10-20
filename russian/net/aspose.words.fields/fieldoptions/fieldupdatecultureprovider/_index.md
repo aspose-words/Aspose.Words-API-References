@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает поставщика который возвращает объект культуры специфичный для каждого конкретного поля.
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: Aspose.Words для .NET
+description: FieldOptions FieldUpdateCultureProvider свойство. Получает или задает поставщика который возвращает объект культуры специфичный для каждого конкретного поля на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Поставщик запрашивается, когда значение[`FieldUpdateCultureSource`](../fieldupdateculturesource/) являетсяFieldCode.
 
 Если поставщик присутствует, то возвращаемый им объект культуры используется для обновления поля. В противном случае используется системная культура.
 
-### Примеры
+## Примеры
 
 Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

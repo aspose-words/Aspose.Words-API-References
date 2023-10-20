@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Scale
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает коэффициент масштабирования для созданных изображений.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions Scale свойство. Получает или задает коэффициент масштабирования для созданных изображений на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.saving/imagesaveoptions/scale/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/scale/
 public float Scale { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1,0. Значение должно быть больше 0. .
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать объект Office Math в файл изображения в локальной файловой системе.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

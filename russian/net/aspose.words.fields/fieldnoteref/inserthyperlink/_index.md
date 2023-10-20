@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertHyperlink
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNoteRef свойство. Получает или задает необходимость вставки гиперссылки на абзац отмеченный закладкой.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words для .NET
+description: FieldNoteRef InsertHyperlink свойство. Получает или задает необходимость вставки гиперссылки на абзац отмеченный закладкой на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldnoteref/inserthyperlink/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldnoteref/inserthyperlink/
 public bool InsertHyperlink { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля NOTEREF и изменить их внешний вид.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Смотрите также
 
 * class [FieldNoteRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnoteref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CommentCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.CommentCollection сорт. Обеспечивает типизированный доступ к коллекцииComment узлы.
+title: CommentCollection Class
+linktitle: CommentCollection
+articleTitle: CommentCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.CommentCollection сорт. Обеспечивает типизированный доступ к коллекцииComment узлы на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/commentcollection/
@@ -27,17 +29,17 @@ public class CommentCollection : NodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Копирует все узлы из коллекции в новый массив узлов. |
 
-### Примеры
+## Примеры
 
 Показывает, как пометить комментарий как «готовый».
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Comment.Done.docx");
 * class [NodeCollection](../nodecollection/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

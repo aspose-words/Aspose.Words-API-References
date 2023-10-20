@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает имя шрифта.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: Font Name свойство. Получает или задает имя шрифта на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/font/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 При получении возвращает[`NameAscii`](../nameascii/).
 
 При настройке устанавливается[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) и[`NameOther`](../nameother/) до указанного значения.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

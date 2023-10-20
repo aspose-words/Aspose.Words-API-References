@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ArrowWidth перечисление. Ширина стрелки в конце линии.
+title: ArrowWidth Enum
+linktitle: ArrowWidth
+articleTitle: ArrowWidth
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.ArrowWidth перечисление. Ширина стрелки в конце линии на С#.
 type: docs
 weight: 500
 url: /ru/net/aspose.words.drawing/arrowwidth/
@@ -23,7 +25,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | То же, что иNarrow . |
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowWidth](../stroke/endarrowwidth/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

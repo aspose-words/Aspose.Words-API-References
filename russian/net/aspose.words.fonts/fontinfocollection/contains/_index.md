@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfoCollection метод. Определяет содержит ли коллекция шрифт с данным именем.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: FontInfoCollection Contains метод. Определяет содержит ли коллекция шрифт с данным именем на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `истинный` если предмет найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает информацию о шрифтах, присутствующих в пустом документе.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Смотрите также
 
 * class [FontInfoCollection](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfocollection/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

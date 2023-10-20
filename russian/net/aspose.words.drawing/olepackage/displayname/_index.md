@@ -1,7 +1,9 @@
 ---
 title: OlePackage.DisplayName
-second_title: Справочник по API Aspose.Words для .NET
-description: OlePackage свойство. Получает или задает отображаемое имя пакета OLE.
+linktitle: DisplayName
+articleTitle: DisplayName
+second_title: Aspose.Words для .NET
+description: OlePackage DisplayName свойство. Получает или задает отображаемое имя пакета OLE на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/olepackage/displayname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/olepackage/displayname/
 public string DisplayName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить объект OLE в документ.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Смотрите также
 
 * class [OlePackage](../)
-* пространство имен [Aspose.Words.Drawing](../../olepackage/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

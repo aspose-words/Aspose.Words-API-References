@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreakChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ разрыва строки char11 или v.
+linktitle: LineBreakChar
+articleTitle: LineBreakChar
+second_title: Aspose.Words для .NET
+description: ControlChar LineBreakChar поле. Символ разрыва строки char11 или v на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/controlchar/linebreakchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/linebreakchar/
 public const char LineBreakChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

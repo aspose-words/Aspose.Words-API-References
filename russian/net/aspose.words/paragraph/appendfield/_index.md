@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph метод. Добавляет поле к этому абзацу.
+linktitle: AppendField
+articleTitle: AppendField
+second_title: Aspose.Words для .NET
+description: Paragraph AppendField метод. Добавляет поле к этому абзацу на С#.
 type: docs
-weight: 260
+weight: 240
 url: /ru/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 Добавляет поле к этому абзацу.
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий добавленное поле.
 
-### Примеры
+## Примеры
 
 Показывает различные способы добавления полей в абзац.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 Добавляет поле к этому абзацу.
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий добавленное поле.
 
-### Примеры
+## Примеры
 
 Показывает различные способы добавления полей в абзац.
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 Добавляет поле к этому абзацу.
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий добавленное поле.
 
-### Примеры
+## Примеры
 
 Показывает различные способы добавления полей в абзац.
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

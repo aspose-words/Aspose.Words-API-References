@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill метод. Устанавливает указанную заливку в шаблон.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words для .NET
+description: Fill Patterned метод. Устанавливает указанную заливку в шаблон на С#.
 type: docs
-weight: 230
+weight: 220
 url: /ru/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 Устанавливает указанную заливку в шаблон.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### Примеры
+## Примеры
 
 Показывает, как задать шаблон для фигуры.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 Устанавливает указанную заливку в шаблон.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | Цвет заливки переднего плана. |
 | backColor | Color | Цвет заливки фона. |
 
-### Примеры
+## Примеры
 
 Показывает, как задать шаблон для фигуры.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-
