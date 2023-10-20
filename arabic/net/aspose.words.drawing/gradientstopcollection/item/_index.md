@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection ملكية. الحصول على أو تعيين aGradientStop كائن في المجموعة.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: GradientStopCollection Item ملكية. الحصول على أو تعيين aGradientStop كائن في المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstopcollection/item/
 public GradientStop this[int index] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstopcollection/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

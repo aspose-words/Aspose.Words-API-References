@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: CustomXmlSchemaCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/customxmlschemacollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 public IEnumerator<string> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### أنظر أيضا
 
 * class [CustomXmlSchemaCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlschemacollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

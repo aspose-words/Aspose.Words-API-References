@@ -1,7 +1,9 @@
 ---
 title: FieldToc.SequenceSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldToc SequenceSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.fields/fieldtoc/sequenceseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/sequenceseparator/
 public string SequenceSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ملء حقل جدول المحتويات بالإدخالات باستخدام حقول التسلسل.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

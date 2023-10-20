@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsFormatRevision
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsFormatRevision ملكية. إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/paragraph/isformatrevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isformatrevision/
 public bool IsFormatRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق مما إذا كانت الفقرة عبارة عن مراجعة للتنسيق.
 
@@ -29,7 +31,5 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

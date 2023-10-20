@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator طريقة. ينتقل إلى الكيان الأصلي.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator MoveParent طريقة. ينتقل إلى الكيان الأصلي في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/moveparent/
 public bool MoveParent()
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 للانتقال إلى الكيان الأصلي للنوع المحدد.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | نوع الكيان الأصلي الذي سيتم الانتقال إليه. استخدم bitwise-OR لتحديد أنواع أصل متعددة. |
 
-### ملاحظات
+## ملاحظات
 
 تعد هذه الطريقة مفيدة إذا كنت بحاجة إلى العثور على الخلية أو العمود أو رأس/تذييل الصفحة الأصل للكيان.
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

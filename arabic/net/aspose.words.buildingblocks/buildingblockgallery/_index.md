@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery تعداد. يحدد المعرض المحدد مسبقًا الذي تم تصنيف الكتلة البرمجية الإنشائية فيه.
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery تعداد. يحدد المعرض المحدد مسبقًا الذي تم تصنيف الكتلة البرمجية الإنشائية فيه في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | نفسAll . |
 
-### ملاحظات
+## ملاحظات
 
-يتوافق مع **ST_DocPartGallery** اكتب OOXML.
+يتوافق مع**ST_DocPartGallery** اكتب OOXML.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
-
-

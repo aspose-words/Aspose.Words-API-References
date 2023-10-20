@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.BuiltInDocumentProperties
-second_title: Aspose.Words لمراجع .NET API
-description: PlainTextDocument ملكية. يحصلBuiltInDocumentProperties من الوثيقة.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words لـ .NET
+description: PlainTextDocument BuiltInDocumentProperties ملكية. يحصلBuiltInDocumentProperties من الوثيقة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/plaintextdocument/builtindocumentproperties/
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي ثم الوصول إلى الخصائص المضمنة للمستند الأصلي.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

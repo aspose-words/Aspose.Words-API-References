@@ -1,7 +1,9 @@
 ---
-title: Class FieldStart
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldStart فصل. يمثل بداية حقل Word في المستند.
+title: FieldStart Class
+linktitle: FieldStart
+articleTitle: FieldStart
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldStart فصل. يمثل بداية حقل Word في المستند في C#.
 type: docs
 weight: 2430
 url: /ar/net/aspose.words.fields/fieldstart/
@@ -44,19 +46,19 @@ public class FieldStart : FieldChar
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldstart/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words.fields/fieldstart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | إرجاع حقل للحقل char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | الحصول على الحرف الخاص الذي تمثله هذه العقدة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 `FieldStart` هي عقدة على المستوى المضمّن ويتم تمثيلها بواسطة [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) حرف التحكم في المستند.
 
@@ -66,7 +68,7 @@ public class FieldStart : FieldChar
 
 لإدراج حقل جديد في مستند بسهولة، استخدم[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -383,5 +385,3 @@ namespace ApiExamples
 * class [FieldChar](../fieldchar/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

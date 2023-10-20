@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropRight
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. يحدد جزء إزالة الصورة من الجانب الأيمن.
+linktitle: CropRight
+articleTitle: CropRight
+second_title: Aspose.Words لـ .NET
+description: ImageData CropRight ملكية. يحدد جزء إزالة الصورة من الجانب الأيمن في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/imagedata/cropright/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/imagedata/cropright/
 public double CropRight { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تتراوح كمية الاقتصاص من -1.0 إلى 1.0. القيمة الافتراضية هي 0. لاحظ أن القيمة 1 لن تعرض أي صورة على الإطلاق. ستؤدي القيم السالبة إلى ضغط الصورة للداخل من الحافة التي يتم اقتصاصها (سيتم ملء المساحة الفارغة بين الصورة والحافة المقصوصة بلون تعبئة الشكل ). ستؤدي القيم الموجبة الأقل من 1 إلى تمديد الصورة المتبقية لتناسب الشكل.
 
 القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

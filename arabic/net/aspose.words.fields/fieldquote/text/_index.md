@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldQuote ملكية. الحصول على النص أو تعيينه لاسترداده.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldQuote Text ملكية. الحصول على النص أو تعيينه لاسترداده في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldquote/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر كيفية استخدام حقل عرض الأسعار.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### أنظر أيضا
 
 * class [FieldQuote](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldquote/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

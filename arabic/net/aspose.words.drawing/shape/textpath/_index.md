@@ -1,7 +1,9 @@
 ---
 title: Shape.TextPath
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحدد نص مسار النص لكائن WordArt.
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words لـ .NET
+description: Shape TextPath ملكية. يحدد نص مسار النص لكائن WordArt في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.drawing/shape/textpath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/textpath/
 public TextPath TextPath { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -118,7 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

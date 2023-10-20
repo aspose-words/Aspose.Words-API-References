@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolRotation
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode ملكية. الحصول على أو ضبط دوران رمز الباركود. القيم الصالحة هي 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode SymbolRotation ملكية. الحصول على أو ضبط دوران رمز الباركود. القيم الصالحة هي 0 3 في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
 public string SymbolRotation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل DISPLAYBARCODE وتعيين خصائصه.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

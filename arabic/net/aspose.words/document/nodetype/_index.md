@@ -1,7 +1,9 @@
 ---
 title: Document.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاعDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Document NodeType ملكية. إرجاعDocument  في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words/document/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

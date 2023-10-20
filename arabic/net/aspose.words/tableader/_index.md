@@ -1,7 +1,9 @@
 ---
-title: Enum TabLeader
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TabLeader تعداد. يحدد نوع السطر السابق المعروض أسفل حرف علامة التبويب.
+title: TabLeader Enum
+linktitle: TabLeader
+articleTitle: TabLeader
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TabLeader تعداد. يحدد نوع السطر السابق المعروض أسفل حرف علامة التبويب في C#.
 type: docs
 weight: 6190
 url: /ar/net/aspose.words/tableader/
@@ -29,5 +31,3 @@ public enum TabLeader
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

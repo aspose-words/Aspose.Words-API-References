@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPartCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: CustomPartCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/custompartcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/custompartcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GroupShape.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: GroupShape ملكية. إرجاعGroupShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: GroupShape NodeType ملكية. إرجاعGroupShape  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/groupshape/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/groupshape/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../groupshape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: Style طريقة. يقارن مع النمط المحدد. تتم مقارنة أنماط الأنماط للأنماط المضمنة فقط. لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالية بشكل متكرر.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: Style Equals طريقة. يقارن مع النمط المحدد. تتم مقارنة أنماط الأنماط للأنماط المضمنة فقط. لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالية بشكل متكرر في C#.
 type: docs
-weight: 190
+weight: 180
 url: /ar/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/equals/
 public bool Equals(Style style)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الأسماء المستعارة للأسلوب.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

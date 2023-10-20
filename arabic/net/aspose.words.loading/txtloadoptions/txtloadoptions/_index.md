@@ -1,7 +1,9 @@
 ---
-title: TxtLoadOptions.TxtLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
+title: TxtLoadOptions
+linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
+second_title: Aspose.Words لـ .NET
+description: TxtLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/txtloadoptions/txtloadoptions/
@@ -17,7 +19,5 @@ public TxtLoadOptions()
 ### أنظر أيضا
 
 * class [TxtLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../txtloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

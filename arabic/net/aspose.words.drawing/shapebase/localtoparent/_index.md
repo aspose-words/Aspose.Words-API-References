@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LocalToParent
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase طريقة. تحويل قيمة من المساحة الإحداثية المحلية إلى المساحة الإحداثية للشكل الأصلي.
+linktitle: LocalToParent
+articleTitle: LocalToParent
+second_title: Aspose.Words لـ .NET
+description: ShapeBase LocalToParent طريقة. تحويل قيمة من المساحة الإحداثية المحلية إلى المساحة الإحداثية للشكل الأصلي في C#.
 type: docs
 weight: 670
 url: /ar/net/aspose.words.drawing/shapebase/localtoparent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/localtoparent/
 public PointF LocalToParent(PointF value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ترجمة الموقع الإحداثي x وy على المستوى الإحداثي للشكل إلى موقع على المستوى الإحداثي للشكل الأصلي.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.LocalToParent.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

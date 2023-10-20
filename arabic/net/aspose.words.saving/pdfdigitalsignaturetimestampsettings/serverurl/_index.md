@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureTimestampSettings ملكية. عنوان URL لخادم الطابع الزمني.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl ملكية. عنوان URL لخادم الطابع الزمني في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
 public string ServerUrl { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل` . إذا`باطل` ، فلن يتم ختم التوقيع الرقمي بالوقت.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocumentLoadingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.DocumentLoadingArgs فصل. تم تمرير وسيطةNotify .
+title: DocumentLoadingArgs Class
+linktitle: DocumentLoadingArgs
+articleTitle: DocumentLoadingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.DocumentLoadingArgs فصل. تم تمرير وسيطةNotify  في C#.
 type: docs
 weight: 3590
 url: /ar/net/aspose.words.loading/documentloadingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentLoadingArgs
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

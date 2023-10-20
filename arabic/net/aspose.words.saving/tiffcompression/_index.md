@@ -1,7 +1,9 @@
 ---
-title: Enum TiffCompression
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.TiffCompression تعداد. يحدد نوع الضغط المطلوب تطبيقه عند حفظ صور الصفحة في ملف TIFF.
+title: TiffCompression Enum
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.TiffCompression تعداد. يحدد نوع الضغط المطلوب تطبيقه عند حفظ صور الصفحة في ملف TIFF في C#.
 type: docs
 weight: 5630
 url: /ar/net/aspose.words.saving/tiffcompression/
@@ -24,7 +26,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | يحدد نظام الضغط CCITT3. |
 | Ccitt4 | `4` | يحدد نظام الضغط CCITT4. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نظام الضغط لتطبيقه على مستند نقوم بتحويله إلى صورة TIFF.
 
@@ -76,5 +78,3 @@ Document doc = new Document();
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

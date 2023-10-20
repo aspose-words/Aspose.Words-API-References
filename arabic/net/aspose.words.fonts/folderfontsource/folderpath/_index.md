@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Aspose.Words لمراجع .NET API
-description: FolderFontSource ملكية. المسار إلى المجلد.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words لـ .NET
+description: FolderFontSource FolderPath ملكية. المسار إلى المجلد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/folderfontsource/folderpath/
 public string FolderPath { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### أنظر أيضا
 
 * class [FolderFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../folderfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

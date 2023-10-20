@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: DocSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc التنسيق.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words لـ .NET
+description: DocSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 public DocSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word الأقدم.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [DocSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../docsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc أو Dot التنسيق.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | يمكن ان يكونDoc أوDot. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word الأقدم.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../docsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

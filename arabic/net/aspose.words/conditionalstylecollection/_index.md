@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyleCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ConditionalStyleCollection فصل. يمثل مجموعة منConditionalStyle الكائنات.
+title: ConditionalStyleCollection Class
+linktitle: ConditionalStyleCollection
+articleTitle: ConditionalStyleCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ConditionalStyleCollection فصل. يمثل مجموعة منConditionalStyle الكائنات في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/conditionalstylecollection/
@@ -42,11 +44,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | مسح كافة الأنماط الشرطية لنمط الجدول. |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | يُرجع كائن العداد الذي يمكن استخدامه للتكرار على جميع الأنماط الشرطية في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد for لكل قيمة[`ConditionalStyleType`](../conditionalstyletype/) نوع التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../conditionalstyle/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

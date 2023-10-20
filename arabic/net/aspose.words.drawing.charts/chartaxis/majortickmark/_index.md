@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorTickMark
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين علامات التجزئة الرئيسية.
+linktitle: MajorTickMark
+articleTitle: MajorTickMark
+second_title: Aspose.Words لـ .NET
+description: ChartAxis MajorTickMark ملكية. إرجاع أو تعيين علامات التجزئة الرئيسية في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartaxis/majortickmark/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

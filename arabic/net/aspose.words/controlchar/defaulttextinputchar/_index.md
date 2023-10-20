@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. هذا هو الحرف o المستخدم كقيمة افتراضية في حقول نموذج إدخال النص.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar DefaultTextInputChar مجال. هذا هو الحرف o المستخدم كقيمة افتراضية في حقول نموذج إدخال النص في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/defaulttextinputchar/
 public const char DefaultTextInputChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.MailMergeRegionInfo فصل. يحتوي على معلومات حول منطقة دمج البريد.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo فصل. يحتوي على معلومات حول منطقة دمج البريد في C#.
 type: docs
 weight: 3860
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | إرجاع حقل البداية للمنطقة. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | إرجاع علامة البداية "شارب" للمنطقة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مناطق دمج البريد.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

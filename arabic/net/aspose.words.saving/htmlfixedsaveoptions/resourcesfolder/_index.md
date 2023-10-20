@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور الخطوط CSS عند تصدير مستند إلى تنسيق Html. الافتراضي هوباطل .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ResourcesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور الخطوط CSS عند تصدير مستند إلى تنسيق Html. الافتراضي هوباطل  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليس له تأثير إلا إذا[`ExportEmbeddedImages`](../exportembeddedimages/) الملكية هي`خطأ شنيع`.
 
@@ -24,7 +26,7 @@ public string ResourcesFolder { get; set; }
 
 إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه باستخدام الملف`ResourcesFolder` ملكية
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -103,7 +105,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

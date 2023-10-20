@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Compliance
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد مستوى التوافق مع معايير PDF لمستندات المخرجات.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions Compliance ملكية. يحدد مستوى التوافق مع معايير PDF لمستندات المخرجات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pdfsaveoptions/compliance/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/compliance/
 public PdfCompliance Compliance { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هوPdf17.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستوى الامتثال لمعايير PDF لمستندات PDF المحفوظة.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * enum [PdfCompliance](../../pdfcompliance/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

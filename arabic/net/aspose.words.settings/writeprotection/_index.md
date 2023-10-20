@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.WriteProtection فصل. يحدد إعدادات الحماية ضد الكتابة للمستند.
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.WriteProtection فصل. يحدد إعدادات الحماية ضد الكتابة للمستند في C#.
 type: docs
 weight: 5970
 url: /ar/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | اسم | وصف |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | يضبط كلمة مرور الحماية ضد الكتابة للمستند. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | إرجاع`حقيقي` إذا كانت كلمة المرور المحددة هي نفس كلمة مرور الحماية ضد الكتابة التي تمت حماية المستند بها. إذا لم تكن الوثيقة محمية ضد الكتابة بكلمة مرور، فسيتم إرجاعها`خطأ شنيع` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | يضبط كلمة مرور الحماية ضد الكتابة للمستند. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | إرجاع`حقيقي` إذا كانت كلمة المرور المحددة هي نفس كلمة مرور الحماية ضد الكتابة التي تمت حماية المستند بها. إذا لم تكن الوثيقة محمية ضد الكتابة بكلمة مرور، فسيتم إرجاعها`خطأ شنيع` . |
 
-### ملاحظات
+## ملاحظات
 
 تحدد الحماية ضد الكتابة ما إذا كان المؤلف قد أوصى بفتح المستند للقراءة فقط و/أو طلب كلمة مرور لتعديل المستند.
 
@@ -38,7 +40,7 @@ public class WriteProtection
 
 لا تقم بإنشاء مثيلات هذه الفئة مباشرة. يمكنك الوصول إلى إعدادات حماية المستندات عبر[`WriteProtection`](../../aspose.words/document/writeprotection/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند بكلمة مرور.
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

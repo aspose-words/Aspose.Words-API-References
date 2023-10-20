@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. يحصل على أو مجموعاتIFieldUpdatingCallback التنفيذ
+linktitle: FieldUpdatingCallback
+articleTitle: FieldUpdatingCallback
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FieldUpdatingCallback ملكية. يحصل على أو مجموعاتIFieldUpdatingCallback التنفيذ في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }
 
 * interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

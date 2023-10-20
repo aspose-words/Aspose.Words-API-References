@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Aspose.Words لمراجع .NET API
-description: FileFontSource ملكية. المسار إلى ملف الخط.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words لـ .NET
+description: FileFontSource FilePath ملكية. المسار إلى ملف الخط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/filefontsource/filepath/
 public string FilePath { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### أنظر أيضا
 
 * class [FileFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../filefontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

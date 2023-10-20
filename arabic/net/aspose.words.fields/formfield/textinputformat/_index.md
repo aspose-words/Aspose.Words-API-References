@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. إرجاع أو تعيين تنسيق النص لحقل نموذج نصي.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words لـ .NET
+description: FormField TextInputFormat ملكية. إرجاع أو تعيين تنسيق النص لحقل نموذج نصي في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/textinputformat/
 public string TextInputFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كان حقل النموذج النصي يحتوي على نص عادي، فإن سلاسل التنسيق الصالحة هي "" و"UPPERCASE" و"LOWERCASE" و"FIRST CAPITAL" و"TITLE CASE". تعتبر strings غير حساسة لحالة الأحرف.
 
@@ -22,7 +24,7 @@ public string TextInputFormat { get; set; }
 
 يسمح Microsoft Word بسلاسل تحتوي على 64 حرفًا على الأكثر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

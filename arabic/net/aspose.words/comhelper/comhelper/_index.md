@@ -1,7 +1,9 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.Words لمراجع .NET API
-description: ComHelper البناء. تهيئة مثيل جديد لهذه الفئة.
+title: ComHelper
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: Aspose.Words لـ .NET
+description: ComHelper البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/comhelper/comhelper/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/comhelper/comhelper/
 public ComHelper()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح المستندات باستخدام فئة ComHelper.
 
@@ -39,7 +41,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 ### أنظر أيضا
 
 * class [ComHelper](../)
-* مساحة الاسم [Aspose.Words](../../comhelper/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

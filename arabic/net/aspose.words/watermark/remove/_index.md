@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: Watermark طريقة. إزالة العلامة المائية.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: Watermark Remove طريقة. إزالة العلامة المائية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/watermark/remove/
 public void Remove()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### أنظر أيضا
 
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

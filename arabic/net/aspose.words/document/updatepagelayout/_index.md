@@ -1,9 +1,11 @@
 ---
 title: Document.UpdatePageLayout
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يعيد بناء تخطيط الصفحة للمستند.
+linktitle: UpdatePageLayout
+articleTitle: UpdatePageLayout
+second_title: Aspose.Words لـ .NET
+description: Document UpdatePageLayout طريقة. يعيد بناء تخطيط الصفحة للمستند في C#.
 type: docs
-weight: 790
+weight: 770
 url: /ar/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/updatepagelayout/
 public void UpdatePageLayout()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بتنسيق المستند إلى صفحات وتحديث الحقول ذات الصلة برقم الصفحة في المستند مثل مثل PAGE وPAGES وPAGEREF وREF. معلومات تخطيط الصفحة المحدثة مطلوبة للعرض الصحيح للمستند إلى تنسيقات الصفحات الثابتة.
 
 يتم استدعاء هذه الطريقة تلقائيًا عندما تقوم لأول مرة بتحويل مستند إلى PDF أو XPS أو صورة أو طباعته. ومع ذلك، إذا قمت بتعديل المستند بعد عرضه ثم حاولت عرضه مرة أخرى - فلن يقوم Aspose.Words بتحديث تخطيط الصفحة تلقائيًا. في هذه الحالة يجب عليك الاتصال`UpdatePageLayout` قبل العرض مرة أخرى.
 
-### أمثلة
+## أمثلة
 
 يوضح متى يجب إعادة حساب تخطيط صفحة المستند.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection ملكية. الحصول على علامة جدولة عند الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection Item ملكية. الحصول على علامة جدولة عند الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/tabstopcollection/item/
@@ -18,7 +20,7 @@ public TabStop this[int index] { get; }
 | --- | --- |
 | index | فهرس في مجموعة علامات الجدولة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -63,7 +65,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -80,11 +82,11 @@ public TabStop this[double position] { get; }
 | --- | --- |
 | position | موضع علامة التبويب (بالنقاط). |
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم يتم العثور على علامة جدولة في الموضع المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

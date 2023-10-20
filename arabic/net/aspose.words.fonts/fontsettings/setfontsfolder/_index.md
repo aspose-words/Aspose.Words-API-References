@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolder
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. يعين المجلد الذي يبحث فيه Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. هذا اختصار لـSetFontsFolders لتعيين دليل خط واحد فقط.
+linktitle: SetFontsFolder
+articleTitle: SetFontsFolder
+second_title: Aspose.Words لـ .NET
+description: FontSettings SetFontsFolder طريقة. يعين المجلد الذي يبحث فيه Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. هذا اختصار لـSetFontsFolders لتعيين دليل خط واحد فقط في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fonts/fontsettings/setfontsfolder/
@@ -19,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | المجلد الذي يحتوي على خطوط تروتايب. |
 | recursive | Boolean | صحيح لفحص المجلدات المحددة بحثًا عن الخطوط بشكل متكرر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين دليل مصدر الخط.
 
@@ -78,7 +80,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### أنظر أيضا
 
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

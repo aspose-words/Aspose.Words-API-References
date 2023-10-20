@@ -1,9 +1,11 @@
 ---
 title: Stroke.ImageBytes
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد الصورة لصورة الحد أو تعبئة النمط.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words لـ .NET
+description: Stroke ImageBytes ملكية. يحدد الصورة لصورة الحد أو تعبئة النمط في C#.
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/stroke/imagebytes/
 public byte[] ImageBytes { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معالجة ميزات حدود الشكل.
 
@@ -35,7 +37,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

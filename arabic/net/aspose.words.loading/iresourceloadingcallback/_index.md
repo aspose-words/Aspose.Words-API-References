@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceLoadingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.IResourceLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بتحميل الموارد الخارجية عند استيراد مستند وإدراج الصور باستخدامDocumentBuilder .
+title: IResourceLoadingCallback Interface
+linktitle: IResourceLoadingCallback
+articleTitle: IResourceLoadingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.IResourceLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بتحميل الموارد الخارجية عند استيراد مستند وإدراج الصور باستخدامDocumentBuilder  في C#.
 type: docs
 weight: 3640
 url: /ar/net/aspose.words.loading/iresourceloadingcallback/
@@ -18,9 +20,9 @@ public interface IResourceLoadingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | يتم استدعاؤه عندما يقوم Aspose.Words بتحميل أي مورد خارجي. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتحميل أي مورد خارجي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -84,5 +86,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد الفقرة.
+linktitle: VisitParagraphEnd
+articleTitle: VisitParagraphEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitParagraphEnd طريقة. يتم استدعاؤه عند انتهاء تعداد الفقرة في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/documentvisitor/visitparagraphend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphEnd(Paragraph paragraph)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

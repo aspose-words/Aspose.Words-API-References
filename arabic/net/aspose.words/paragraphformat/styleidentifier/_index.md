@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الفقرة المطبق على هذا التنسيق.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat StyleIdentifier ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الفقرة المطبق على هذا التنسيق في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

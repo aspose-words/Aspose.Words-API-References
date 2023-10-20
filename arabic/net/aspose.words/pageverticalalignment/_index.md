@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageVerticalAlignment تعداد. يحدد الضبط الرأسي للنص في كل صفحة.
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.PageVerticalAlignment تعداد. يحدد الضبط الرأسي للنص في كل صفحة في C#.
 type: docs
 weight: 4370
 url: /ar/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | النص منتشر لملء الصفحة. |
 | Top | `0` | تتم محاذاة النص في أعلى الصفحة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

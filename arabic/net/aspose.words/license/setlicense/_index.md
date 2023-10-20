@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Aspose.Words لمراجع .NET API
-description: License طريقة. ترخيص المكون.
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: Aspose.Words لـ .NET
+description: License SetLicense طريقة. ترخيص المكون في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 ترخيص المكون.
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | يمكن أن يكون اسم ملف كاملاً أو قصيرًا أو اسمًا لمورد مضمن. استخدم سلسلة فارغة للتبديل إلى وضع التقييم. |
 
-### ملاحظات
+## ملاحظات
 
 يحاول العثور على الترخيص في المواقع التالية:
 
@@ -38,7 +40,7 @@ public void SetLicense(string licenseName)
 
 2. مورد مضمن في تجميع الاستدعاء الخاص بالعميل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تهيئة ترخيص Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### أنظر أيضا
 
 * class [License](../)
-* مساحة الاسم [Aspose.Words](../../license/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 ترخيص المكون.
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | دفق يحتوي على الترخيص. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لتحميل ترخيص من الدفق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تهيئة ترخيص Aspose.Words من التدفق.
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### أنظر أيضا
 
 * class [License](../)
-* مساحة الاسم [Aspose.Words](../../license/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

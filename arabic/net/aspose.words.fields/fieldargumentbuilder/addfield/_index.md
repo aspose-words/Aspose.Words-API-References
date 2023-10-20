@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddField
-second_title: Aspose.Words لمراجع .NET API
-description: FieldArgumentBuilder طريقة. يضيف حقلاً يمثله أFieldBuilder إلى الوسيطة.
+linktitle: AddField
+articleTitle: AddField
+second_title: Aspose.Words لـ .NET
+description: FieldArgumentBuilder AddField طريقة. يضيف حقلاً يمثله أFieldBuilder إلى الوسيطة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldargumentbuilder/addfield/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldargumentbuilder/addfield/
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -98,7 +100,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldBuilder](../../fieldbuilder/)
 * class [FieldArgumentBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

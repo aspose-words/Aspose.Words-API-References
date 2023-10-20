@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. يضبط التعبئة المحددة على النمط.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words لـ .NET
+description: Fill Patterned طريقة. يضبط التعبئة المحددة على النمط في C#.
 type: docs
-weight: 230
+weight: 220
 url: /ar/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 يضبط التعبئة المحددة على النمط.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين نمط للشكل.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 يضبط التعبئة المحددة على النمط.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | لون تعبئة المقدمة. |
 | backColor | Color | لون تعبئة الخلفية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين نمط للشكل.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

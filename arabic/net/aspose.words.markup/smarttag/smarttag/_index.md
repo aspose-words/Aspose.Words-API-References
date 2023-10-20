@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Aspose.Words لمراجع .NET API
-description: SmartTag البناء. تهيئة مثيل جديد لـSmartTag فئة.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words لـ .NET
+description: SmartTag البناء. تهيئة مثيل جديد لـSmartTag فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بإنشاء عقدة جديدة، يجب عليك تحديد المستند الذي تنتمي إليه العقدة. لا يمكن أن توجد العقدة بدون مستند لأنها تعتمد على الهياكل على مستوى المستند مثل القوائم والأنماط. على الرغم من أن العقدة تنتمي دائمًا إلى مستند، إلا أن العقدة قد تكون أو لا تكون جزءًا من شجرة المستندات.
 
-عند إنشاء عقدة، فإنها تنتمي إلى مستند، ولكنها ليست بعد جزءًا من شجرة المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل` . لإدراج عقدة في المستند، استخدم Node) أوNode) methods على العقدة الأصلية.
+عند إنشاء عقدة، فإنها تنتمي إلى مستند، ولكنها ليست بعد جزءًا من شجرة المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل` . لإدراج عقدة في المستند، استخدم [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) أو[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) methods على العقدة الأصلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../smarttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

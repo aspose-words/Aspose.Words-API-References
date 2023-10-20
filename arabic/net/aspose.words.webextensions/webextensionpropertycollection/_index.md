@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionPropertyCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection فصل. يحدد مجموعة من الخصائص المخصصة لامتداد الويب.
+title: WebExtensionPropertyCollection Class
+linktitle: WebExtensionPropertyCollection
+articleTitle: WebExtensionPropertyCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection فصل. يحدد مجموعة من الخصائص المخصصة لامتداد الويب في C#.
 type: docs
 weight: 6790
 url: /ar/net/aspose.words.webextensions/webextensionpropertycollection/
@@ -27,12 +29,12 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionProperty) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionProperty](../webextensionproperty/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionProperty](../webextensionproperty/)
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

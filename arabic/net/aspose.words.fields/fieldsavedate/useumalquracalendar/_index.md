@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseUmAlQuraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSaveDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldSaveDate UseUmAlQuraCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الحقل "حفظ" لعرض تاريخ/وقت آخر عملية حفظ للمستند تم تنفيذها باستخدام Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### أنظر أيضا
 
 * class [FieldSaveDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsavedate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

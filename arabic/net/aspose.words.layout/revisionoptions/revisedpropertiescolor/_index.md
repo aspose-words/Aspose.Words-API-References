@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesColor
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNoHighlight .
+linktitle: RevisedPropertiesColor
+articleTitle: RevisedPropertiesColor
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions RevisedPropertiesColor ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNoHighlight  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.layout/revisionoptions/revisedpropertiescolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/revisedpropertiescolor/
 public RevisionColor RevisedPropertiesColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

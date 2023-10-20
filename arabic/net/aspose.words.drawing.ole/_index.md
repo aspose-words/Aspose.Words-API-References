@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words لمراجع .NET API
-description: يحتوي على فئات للعمل مع عناصر تحكم ونماذج OLE / ActiveX في مستندات Microsoft Word.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words لـ .NET
+description: يحتوي على فئات للعمل مع عناصر تحكم ونماذج OLE / ActiveX في مستندات Microsoft Word في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ url: /ar/net/aspose.words.drawing.ole/
 | تعداد | وصف |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | تعداد أنواع عناصر التحكم في Forms 2.0. |
-
-

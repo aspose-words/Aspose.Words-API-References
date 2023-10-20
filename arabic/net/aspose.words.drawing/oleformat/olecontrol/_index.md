@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. يحصلOleControl الكائنات إذا كان كائن OLE هذا هو عنصر تحكم ActiveX. وإلا فإن هذه الخاصية فارغة.
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words لـ .NET
+description: OleFormat OleControl ملكية. يحصلOleControl الكائنات إذا كان كائن OLE هذا هو عنصر تحكم ActiveX. وإلا فإن هذه الخاصية فارغة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/oleformat/olecontrol/
 public OleControl OleControl { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

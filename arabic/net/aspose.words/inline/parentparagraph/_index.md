@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Inline ملكية. يسترد الأصلParagraph من هذه العقدة.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words لـ .NET
+description: Inline ParentParagraph ملكية. يسترد الأصلParagraph من هذه العقدة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inline/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع المراجعة للعقدة المضمنة.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* مساحة الاسم [Aspose.Words](../../inline/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

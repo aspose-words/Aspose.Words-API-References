@@ -1,7 +1,9 @@
 ---
-title: Class ToaCategories
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.ToaCategories فصل. يمثل جدول فئات السلطات.
+title: ToaCategories Class
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.ToaCategories فصل. يمثل جدول فئات السلطات في C#.
 type: docs
 weight: 2780
 url: /ar/net/aspose.words.fields/toacategories/
@@ -29,7 +31,7 @@ public class ToaCategories
 | static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | الحصول على الجدول الافتراضي لفئات المراجع. |
 | [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | الحصول على عنوان الفئة أو تعيينه حسب رقم الفئة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعة من الفئات لحقول TOA.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

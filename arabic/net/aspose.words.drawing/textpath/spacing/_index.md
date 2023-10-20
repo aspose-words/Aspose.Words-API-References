@@ -1,7 +1,9 @@
 ---
 title: TextPath.Spacing
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. يحدد مقدار التباعد للنص. 1 يعني 100.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words لـ .NET
+description: TextPath Spacing ملكية. يحدد مقدار التباعد للنص. 1 يعني 100 في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/textpath/spacing/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/spacing/
 public double Spacing { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 1.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

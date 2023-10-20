@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInKilobytes
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFileSize ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالكيلوبايت.
+linktitle: IsInKilobytes
+articleTitle: IsInKilobytes
+second_title: Aspose.Words لـ .NET
+description: FieldFileSize IsInKilobytes ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالكيلوبايت في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldfilesize/isinkilobytes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldfilesize/isinkilobytes/
 public bool IsInKilobytes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض حجم ملف المستند باستخدام حقل FILESIZE.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### أنظر أيضا
 
 * class [FieldFileSize](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfilesize/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

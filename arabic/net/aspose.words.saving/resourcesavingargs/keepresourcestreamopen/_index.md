@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceSavingArgs ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ المورد.
+linktitle: KeepResourceStreamOpen
+articleTitle: KeepResourceStreamOpen
+second_title: Aspose.Words لـ .NET
+description: ResourceSavingArgs KeepResourceStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ المورد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`ResourceStream`](../resourcestream/) الخاصية بعد كتابة المصدر فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../resourcesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

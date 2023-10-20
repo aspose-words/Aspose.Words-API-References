@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FullFontName
-second_title: Aspose.Words لمراجع .NET API
-description: PhysicalFontInfo ملكية. اسم الخط بالكامل.
+linktitle: FullFontName
+articleTitle: FullFontName
+second_title: Aspose.Words لـ .NET
+description: PhysicalFontInfo FullFontName ملكية. اسم الخط بالكامل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/physicalfontinfo/fullfontname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 public string FullFontName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية سرد الخطوط المتاحة.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### أنظر أيضا
 
 * class [PhysicalFontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../physicalfontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على قيمة تشير إلى ما إذا كان قد تم تجاوز فاصل رقم الصفحة من خلال رمز الحقل.
+linktitle: HasPageNumberSeparator
+articleTitle: HasPageNumberSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldIndex HasPageNumberSeparator ملكية. الحصول على قيمة تشير إلى ما إذا كان قد تم تجاوز فاصل رقم الصفحة من خلال رمز الحقل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldindex/haspagenumberseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/haspagenumberseparator/
 public bool HasPageNumberSeparator { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير فاصل رقم الصفحة في حقل INDEX.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

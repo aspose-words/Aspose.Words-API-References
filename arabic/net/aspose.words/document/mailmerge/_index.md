@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع أMailMerge الكائن الذي يمثل وظيفة دمج البريد للمستند.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words لـ .NET
+description: Document MailMerge ملكية. إرجاع أMailMerge الكائن الذي يمثل وظيفة دمج البريد للمستند في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/mailmerge/
 public MailMerge MailMerge { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من DataTable.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

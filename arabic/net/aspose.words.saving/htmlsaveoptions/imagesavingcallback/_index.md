@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند بتنسيق HTML أو MHTML أو EPUB.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ImageSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند بتنسيق HTML أو MHTML أو EPUB في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUserInitials.UserInitials
-second_title: Aspose.Words لمراجع .NET API
-description: FieldUserInitials ملكية. الحصول على الأحرف الأولى من اسم المستخدم الحالي أو تعيينها.
+linktitle: UserInitials
+articleTitle: UserInitials
+second_title: Aspose.Words لـ .NET
+description: FieldUserInitials UserInitials ملكية. الحصول على الأحرف الأولى من اسم المستخدم الحالي أو تعيينها في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielduserinitials/userinitials/
 public string UserInitials { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل USERINITIALS.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### أنظر أيضا
 
 * class [FieldUserInitials](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielduserinitials/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

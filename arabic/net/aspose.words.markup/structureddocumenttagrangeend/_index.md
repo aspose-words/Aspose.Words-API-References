@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd فصل. يمثل نهاية تراوحت علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًاStructuredDocumentTagRangeStart العقدة
+title: StructuredDocumentTagRangeEnd Class
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd فصل. يمثل نهايةتراوحت علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًاStructuredDocumentTagRangeStart العقدة في C#.
 type: docs
 weight: 4080
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-يمثل نهاية **تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًا[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) العقدة
+يمثل نهاية**تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. راجع أيضًا[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) العقدة
 
 لمعرفة المزيد، قم بزيارة[علامات المستندات المنظمة أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | تهيئة مثيل جديد لـ **نهاية نطاق علامات الوثيقة المنظمة** فئة. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | تهيئة مثيل جديد لـ**نهاية نطاق علامات الوثيقة المنظمة** فئة. |
 
 ## الخصائص
 
@@ -28,7 +30,7 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض **هيكلةDocumentTagRange** العقدة. المقابلة[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) العقدة لديها نفس[`Id`](../structureddocumenttagrangestart/id/) . |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض**هيكلةDocumentTagRange** العقدة. المقابلة[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) العقدة لديها نفس[`Id`](../structureddocumenttagrangestart/id/) . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | إرجاعStructuredDocumentTagRangeEnd . |
@@ -40,22 +42,22 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
-يمكن أن يكون الطفل المباشر لـ[`Body`](../../aspose.words/body/) العقدة **فقط** .
+يمكن أن يكون الطفل المباشر لـ[`Body`](../../aspose.words/body/) العقدة**فقط** .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -92,5 +94,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * class [Node](../../aspose.words/node/)
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

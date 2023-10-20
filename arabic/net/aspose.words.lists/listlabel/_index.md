@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListLabel فصل. يحدد الخصائص الخاصة بتسمية القائمة.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListLabel فصل. يحدد الخصائص الخاصة بتسمية القائمة في C#.
 type: docs
 weight: 3490
 url: /ar/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | الحصول على تمثيل سلسلة لتسمية القائمة. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | الحصول على قيمة رقمية لهذه التسمية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

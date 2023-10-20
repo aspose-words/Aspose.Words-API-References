@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit فصل. يوفر الوصول إلى خيارات القياس لوحدات العرض لمحور القيمة.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit فصل. يوفر الوصول إلى خيارات القياس لوحدات العرض لمحور القيمة في C#.
 type: docs
 weight: 550
 url: /ar/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | إرجاع المستند الذي ينتمي إليه حامل العنوان. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | الحصول على أو تعيين قيمة القياس لوحدات العرض كواحدة من القيم المحددة مسبقًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

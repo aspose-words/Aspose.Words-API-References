@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGoToButton ملكية. الحصول على أو تعيين اسم الإشارة المرجعية أو رقم الصفحة أو أي عنصر آخر للانتقال إليه.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words لـ .NET
+description: FieldGoToButton Location ملكية. الحصول على أو تعيين اسم الإشارة المرجعية أو رقم الصفحة أو أي عنصر آخر للانتقال إليه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldgotobutton/location/
 public string Location { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقل GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### أنظر أيضا
 
 * class [FieldGoToButton](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldgotobutton/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

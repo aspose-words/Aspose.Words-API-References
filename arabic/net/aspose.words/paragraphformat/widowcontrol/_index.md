@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا كان السطر الأول والأخير في الفقرة سيبقى في نفس الصفحة مثل بقية الفقرة.
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat WidowControl ملكية. صحيح إذا كان السطر الأول والأخير في الفقرة سيبقى في نفس الصفحة مثل بقية الفقرة في C#.
 type: docs
 weight: 400
 url: /ar/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/widowcontrol/
 public bool WidowControl { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين التحكم في الأرملة/اليتيم لفقرة ما.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

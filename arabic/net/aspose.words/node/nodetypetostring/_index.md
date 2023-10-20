@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. طريقة مساعدة تقوم بتحويل قيمة تعداد نوع العقدة إلى سلسلة سهلة الاستخدام.
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: Aspose.Words لـ .NET
+description: Node NodeTypeToString طريقة. طريقة مساعدة تقوم بتحويل قيمة تعداد نوع العقدة إلى سلسلة سهلة الاستخدام في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/node/nodetypetostring/
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خاصية NextSibling الخاصة بالعقدة للتعداد من خلال أبنائها المباشرين.
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

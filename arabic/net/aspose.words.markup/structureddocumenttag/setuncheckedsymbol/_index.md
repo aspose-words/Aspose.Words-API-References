@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetUncheckedSymbol
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag طريقة. يعين الرمز المستخدم لتمثيل الحالة غير المحددة لعنصر التحكم في محتوى خانة الاختيار.
+linktitle: SetUncheckedSymbol
+articleTitle: SetUncheckedSymbol
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag SetUncheckedSymbol طريقة. يعين الرمز المستخدم لتمثيل الحالة غير المحددة لعنصر التحكم في محتوى خانة الاختيار في C#.
 type: docs
-weight: 390
+weight: 370
 url: /ar/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
@@ -19,13 +21,13 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | رمز الحرف للرمز المحدد. |
 | fontName | String | اسم الخط الذي يحتوي على الرمز. |
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الطريقة لن يعمل إلا من أجلCheckbox أنواع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية إنشاء علامة مستند منظمة على شكل مربع اختيار.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

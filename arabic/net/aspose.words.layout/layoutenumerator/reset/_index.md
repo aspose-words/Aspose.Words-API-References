@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Reset
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator طريقة. ينقل العداد إلى الصفحة الأولى من المستند.
+linktitle: Reset
+articleTitle: Reset
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Reset طريقة. ينقل العداد إلى الصفحة الأولى من المستند في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.layout/layoutenumerator/reset/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/reset/
 public void Reset()
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark طريقة. إزالة الإشارة المرجعية من المستند. لا يزيل النص الموجود داخل الإشارة المرجعية.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: Bookmark Remove طريقة. إزالة الإشارة المرجعية من المستند. لا يزيل النص الموجود داخل الإشارة المرجعية في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmark/remove/
 public void Remove()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الإشارات المرجعية من مستند.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### أنظر أيضا
 
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

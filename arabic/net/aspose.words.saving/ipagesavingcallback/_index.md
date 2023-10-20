@@ -1,7 +1,9 @@
 ---
-title: Interface IPageSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IPageSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ صفحات منفصلة عند حفظ مستند بتنسيقات صفحات ثابتة.
+title: IPageSavingCallback Interface
+linktitle: IPageSavingCallback
+articleTitle: IPageSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.IPageSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ صفحات منفصلة عند حفظ مستند بتنسيقات صفحات ثابتة في C#.
 type: docs
 weight: 5180
 url: /ar/net/aspose.words.saving/ipagesavingcallback/
@@ -18,9 +20,9 @@ public interface IPageSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صفحة منفصلة في تنسيقات الصفحات الثابتة. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صفحة منفصلة في تنسيقات الصفحات الثابتة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -78,5 +80,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

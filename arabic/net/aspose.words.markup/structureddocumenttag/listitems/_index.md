@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.ListItems
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصلSdtListItemCollection المرتبطة بهذا المعاملة الخاصة والتفضيلية .
+linktitle: ListItems
+articleTitle: ListItems
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag ListItems ملكية. يحصلSdtListItemCollection المرتبطة بهذاالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-يحصل[`SdtListItemCollection`](../../sdtlistitemcollection/) المرتبطة بهذا **المعاملة الخاصة والتفضيلية** .
+يحصل[`SdtListItemCollection`](../../sdtlistitemcollection/) المرتبطة بهذا**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلComboBox أوDropDownList أنواع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

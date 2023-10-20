@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد أنه يجب إرسال المستندات التي يتم إنتاجها أثناء عملية دمج البريد عبر البريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. القيمة الافتراضية هيخطأ شنيع .
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings MailAsAttachment ملكية. يحدد أنه يجب إرسال المستندات التي يتم إنتاجها أثناء عملية دمج البريد عبر البريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/mailasattachment/
 public bool MailAsAttachment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

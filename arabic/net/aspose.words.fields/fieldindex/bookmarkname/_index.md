@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الفهرس.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldIndex BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الفهرس في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INDEX، ثم استخدام حقول XE لملئه بالإدخالات.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

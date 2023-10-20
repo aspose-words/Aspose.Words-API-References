@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. إرجاع مجموعة من كائنات التنسيق لجميع نقاط البيانات في هذه السلسلة.
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: Aspose.Words لـ .NET
+description: ChartSeries DataPoints ملكية. إرجاع مجموعة من كائنات التنسيق لجميع نقاط البيانات في هذه السلسلة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/datapoints/
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

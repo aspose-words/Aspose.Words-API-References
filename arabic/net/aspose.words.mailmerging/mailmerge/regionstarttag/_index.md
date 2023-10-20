@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionStartTag
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على علامة بدء منطقة دمج البريد أو تعيينها.
+linktitle: RegionStartTag
+articleTitle: RegionStartTag
+second_title: Aspose.Words لـ .NET
+description: MailMerge RegionStartTag ملكية. الحصول على علامة بدء منطقة دمج البريد أو تعيينها في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.mailmerging/mailmerge/regionstarttag/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/regionstarttag/
 public string RegionStartTag { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مناطق دمج البريد وإدراجها وقراءتها.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

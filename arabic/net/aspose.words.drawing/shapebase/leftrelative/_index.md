@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LeftRelative
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين القيمة التي تمثل الموضع الأيسر النسبي للشكل بالنسبة المئوية.
+linktitle: LeftRelative
+articleTitle: LeftRelative
+second_title: Aspose.Words لـ .NET
+description: ShapeBase LeftRelative ملكية. الحصول على أو تعيين القيمة التي تمثل الموضع الأيسر النسبي للشكل بالنسبة المئوية في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words.drawing/shapebase/leftrelative/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/leftrelative/
 public float LeftRelative { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

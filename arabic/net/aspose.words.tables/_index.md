@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Tables
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Tables تحتوي مساحة الاسم على فئات تمثل الجداول والصفوف والخلايا وتنسيقاتها.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Tables تحتوي مساحة الاسم على فئات تمثل الجداول والصفوف والخلايا وتنسيقاتها في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.tables/
 ---
-ال **Aspose.Words.Tables** تحتوي مساحة الاسم على فئات تمثل الجداول والصفوف والخلايا وتنسيقاتها.
+ال**Aspose.Words.Tables** تحتوي مساحة الاسم على فئات تمثل الجداول والصفوف والخلايا وتنسيقاتها.
 
 ## الطبقات
 
@@ -32,5 +34,3 @@ url: /ar/net/aspose.words.tables/
 | [TableAlignment](./tablealignment/) | تحديد المحاذاة للجدول المضمن. |
 | [TableStyleOptions](./tablestyleoptions/) | يحدد كيفية تطبيق نمط الجدول على الجدول. |
 | [TextWrapping](./textwrapping/) | يحدد كيفية التفاف النص حول الجدول. |
-
-

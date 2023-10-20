@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. يحصل على نص كيان الامتداد الحالي. رميات لأنواع الكيانات الأخرى.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Text ملكية. يحصل على نص كيان الامتداد الحالي. رميات لأنواع الكيانات الأخرى في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/text/
 public string Text { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

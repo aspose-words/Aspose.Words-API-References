@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات الخلية.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words لـ .NET
+description: CellFormat BottomPadding ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات الخلية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

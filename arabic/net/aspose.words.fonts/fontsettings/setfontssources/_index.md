@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words لـ .NET
+description: FontSettings SetFontsSources طريقة. يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | مجموعة من المصادر التي تحتوي على خطوط TrueType. |
 
-### ملاحظات
+## ملاحظات
 
 افتراضيًا، يبحث Aspose.Words عن الخطوط المثبتة على النظام.
 
 يؤدي تعيين هذه الخاصية إلى إعادة تعيين ذاكرة التخزين المؤقت لجميع الخطوط التي تم تحميلها مسبقًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة مصدر خط إلى مصادر الخطوط الموجودة لدينا.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType ويقوم بالإضافة إلى ذلك بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا.
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | مجموعة من المصادر التي تحتوي على خطوط TrueType. |
 | cacheInputStream | Stream | دفق الإدخال مع ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة. |
 
-### ملاحظات
+## ملاحظات
 
 سيؤدي تحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا إلى تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط. إنه مفيد بشكل خاص عندما يكون الوصول إلى مصادر الخطوط معقدًا (على سبيل المثال، عندما يتم تحميل الخطوط عبر الشبكة).
 
@@ -100,7 +102,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 يوصى بشدة بتوفير نفس مصادر الخطوط عند تحميل ذاكرة التخزين المؤقت كما كانت في وقت حفظ ذاكرة التخزين المؤقت. أي تغييرات في مصادر الخطوط (مثل إضافة خطوط جديدة أو نقل ملفات الخطوط أو تغيير مفتاح ذاكرة التخزين المؤقت) قد تؤدي إلى خط غير دقيق حل بواسطة Aspose.Words.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.AcceptAllRevisions
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. قبول كافة التغييرات المتعقبة في المستند.
+linktitle: AcceptAllRevisions
+articleTitle: AcceptAllRevisions
+second_title: Aspose.Words لـ .NET
+description: Document AcceptAllRevisions طريقة. قبول كافة التغييرات المتعقبة في المستند في C#.
 type: docs
 weight: 520
 url: /ar/net/aspose.words/document/acceptallrevisions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/acceptallrevisions/
 public void AcceptAllRevisions()
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة هي اختصار ل[`AcceptAll`](../../revisioncollection/acceptall/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قبول جميع تغييرات التتبع في المستند.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetTe
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

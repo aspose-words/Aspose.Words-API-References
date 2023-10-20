@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection ملكية. الحصول على خط بالاسم المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection Item ملكية. الحصول على خط بالاسم المحدد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | اسم الخط الذي سيتم تحديد موقعه غير حساس لحالة الأحرف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | الفهرس الصفري للخط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

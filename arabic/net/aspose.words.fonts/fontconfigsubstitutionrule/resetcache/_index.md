@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.ResetCache
-second_title: Aspose.Words لمراجع .NET API
-description: FontConfigSubstitutionRule طريقة. إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء Fontconfig.
+linktitle: ResetCache
+articleTitle: ResetCache
+second_title: Aspose.Words لـ .NET
+description: FontConfigSubstitutionRule ResetCache طريقة. إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء Fontconfig في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 public void ResetCache()
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض استبدال تكوين الخط المعتمد على نظام التشغيل.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### أنظر أيضا
 
 * class [FontConfigSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Comment طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Comment Accept طريقة. يقبل الزائر في C#.
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) ، ثم يتصل[`Accept`](../../node/accept/) لـ all العقد الفرعية للتعليق والمكالمات[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -192,7 +194,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

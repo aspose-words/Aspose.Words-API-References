@@ -1,7 +1,9 @@
 ---
-title: Class StyleCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.StyleCollection فصل. مجموعة منStyle الكائنات التي تمثل الأنماط المضمنة والمحددة من قبل المستخدم في المستند.
+title: StyleCollection Class
+linktitle: StyleCollection
+articleTitle: StyleCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.StyleCollection فصل. مجموعة منStyle الكائنات التي تمثل الأنماط المضمنة والمحددة من قبل المستخدم في المستند في C#.
 type: docs
 weight: 6140
 url: /ar/net/aspose.words/stylecollection/
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | إنشاء نمط جديد محدد من قبل المستخدم وإضافته إلى المجموعة. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | لنسخ النمط إلى هذه المجموعة. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | إنشاء نمط جديد محدد من قبل المستخدم وإضافته إلى المجموعة. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | لنسخ النمط إلى هذه المجموعة. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | إزالة كافة الأنماط من لوحة Quick Style Gallery. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | الحصول على كائن التعداد الذي سيقوم بتعداد الأنماط بالترتيب الأبجدي لأسمائها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
@@ -69,5 +71,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 * class [Style](../style/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

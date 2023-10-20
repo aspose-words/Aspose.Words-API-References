@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetRawData
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat طريقة. يحصل على البيانات الأولية لكائن OLE.
+linktitle: GetRawData
+articleTitle: GetRawData
+second_title: Aspose.Words لـ .NET
+description: OleFormat GetRawData طريقة. يحصل على البيانات الأولية لكائن OLE في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/oleformat/getrawdata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/oleformat/getrawdata/
 public byte[] GetRawData()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى البيانات الأولية لكائن OLE المضمن.
 
@@ -37,7 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

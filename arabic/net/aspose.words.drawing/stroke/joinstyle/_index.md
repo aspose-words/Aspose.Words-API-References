@@ -1,9 +1,11 @@
 ---
 title: Stroke.JoinStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد نمط ربط الخطوط المتعددة.
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words لـ .NET
+description: Stroke JoinStyle ملكية. يحدد نمط ربط الخطوط المتعددة في C#.
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/joinstyle/
 public JoinStyle JoinStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيRound.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [JoinStyle](../../joinstyle/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

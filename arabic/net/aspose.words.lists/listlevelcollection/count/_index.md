@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevelCollection ملكية. الحصول على عدد المستويات في هذه القائمة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ListLevelCollection Count ملكية. الحصول على عدد المستويات في هذه القائمة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevelcollection/count/
 public int Count { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يكون هناك مستوى واحد أو 9 مستويات في القائمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### أنظر أيضا
 
 * class [ListLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevelcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

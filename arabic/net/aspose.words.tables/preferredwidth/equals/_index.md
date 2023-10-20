@@ -1,12 +1,14 @@
 ---
 title: PreferredWidth.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth طريقة. تحديد ما إذا كان المحددPreferredWidth يساوي القيمة الحاليةPreferredWidth .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth Equals طريقة. تحديد ما إذا كان المحددPreferredWidth يساوي القيمة الحاليةPreferredWidth  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {#equals}
+## Equals(*[PreferredWidth](../)*) {#equals}
 
 تحديد ما إذا كان المحدد[`PreferredWidth`](../) يساوي القيمة الحالية[`PreferredWidth`](../) .
 
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/preferredwidth/equals/
 public bool Equals(PreferredWidth other)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين العرض المفضل لخلايا الجدول.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
 
@@ -67,7 +69,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 public override bool Equals(object obj)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين العرض المفضل لخلايا الجدول.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

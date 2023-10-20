@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها.
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText NamespaceMappings ملكية. الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludetext/namespacemappings/
 public string NamespaceMappings { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDETEXT وتعيين خصائصه.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

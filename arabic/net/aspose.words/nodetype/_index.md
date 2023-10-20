@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeType تعداد. يحدد نوع عقدة مستند Word.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.NodeType تعداد. يحدد نوع عقدة مستند Word في C#.
 type: docs
 weight: 4230
 url: /ar/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | حرف خاص لا يعد أحد أنواع الأحرف الخاصة الأكثر تحديدًا. |
 | SmartTag | `27` | علامة ذكية حول بنية سطرية واحدة أو أكثر (عمليات التشغيل والصور والحقول وما إلى ذلك) داخل الفقرة |
 | StructuredDocumentTag | `28` | يسمح بتحديد المعلومات الخاصة بالعميل ووسائل عرضها. |
-| StructuredDocumentTagRangeStart | `29` | بداية **تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. |
-| StructuredDocumentTagRangeEnd | `30` | نهاية **تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. |
+| StructuredDocumentTagRangeStart | `29` | بداية**تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. |
+| StructuredDocumentTagRangeEnd | `30` | نهاية**تراوحت** علامة مستند منظمة تقبل محتوى متعدد الأقسام. |
 | GlossaryDocument | `31` | مستند مسرد ضمن الوثيقة الرئيسية. |
 | BuildingBlock | `32` | كتلة بناء داخل مستند المسرد (على سبيل المثال، إدخال مستند المسرد). |
 | CommentRangeStart | `33` | عقدة علامة تمثل بداية النطاق الذي تم التعليق عليه. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | محجوز للاستخدام الداخلي بواسطة Aspose.Words. |
 | Null | `38` | محجوز للاستخدام الداخلي بواسطة Aspose.Words. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

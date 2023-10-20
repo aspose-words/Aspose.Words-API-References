@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolHeight
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. ارتفاع صورة الرمز الشريطي بمرتين  1/1440 بوصة
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters SymbolHeight ملكية. ارتفاع صورة الرمز الشريطي بمرتين  1/1440 بوصة في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/barcodeparameters/symbolheight/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/symbolheight/
 public string SymbolHeight { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

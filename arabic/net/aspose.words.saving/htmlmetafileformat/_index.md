@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlMetafileFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlMetafileFormat تعداد. يشير إلى التنسيق الذي يتم به حفظ ملفات التعريف في مستندات HTML.
+title: HtmlMetafileFormat Enum
+linktitle: HtmlMetafileFormat
+articleTitle: HtmlMetafileFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.HtmlMetafileFormat تعداد. يشير إلى التنسيق الذي يتم به حفظ ملفات التعريف في مستندات HTML في C#.
 type: docs
 weight: 5090
 url: /ar/net/aspose.words.saving/htmlmetafileformat/
@@ -22,7 +24,7 @@ public enum HtmlMetafileFormat
 | Svg | `1` | يتم تحويل ملفات التعريف إلى صور SVG متجهة. |
 | EmfOrWmf | `2` | يتم حفظ ملفات التعريف كما هي، بدون تحويل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل كائنات SVG إلى تنسيق مختلف عند حفظ مستندات HTML.
 
@@ -82,5 +84,3 @@ switch (htmlMetafileFormat)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

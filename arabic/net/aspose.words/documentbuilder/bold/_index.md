@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Bold
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. صحيح إذا كان الخط منسقًا بالخط الغامق.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder Bold ملكية. صحيح إذا كان الخط منسقًا بالخط الغامق في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/documentbuilder/bold/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/bold/
 public bool Bold { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة MERGEFIELDs بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

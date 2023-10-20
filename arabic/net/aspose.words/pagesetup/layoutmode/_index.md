@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين وضع التخطيط لهذا القسم.
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: Aspose.Words لـ .NET
+description: PageSetup LayoutMode ملكية. الحصول على أو تعيين وضع التخطيط لهذا القسم في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/layoutmode/
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عدد الأحرف التي قد يحتوي عليها كل سطر.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

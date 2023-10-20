@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndMustacheTag
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeRegionInfo ملكية. إرجاع علامة نهاية الشارب للمنطقة.
+linktitle: EndMustacheTag
+articleTitle: EndMustacheTag
+second_title: Aspose.Words لـ .NET
+description: MailMergeRegionInfo EndMustacheTag ملكية. إرجاع علامة نهاية الشارب للمنطقة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
 public MustacheTag EndMustacheTag { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات الشارب.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

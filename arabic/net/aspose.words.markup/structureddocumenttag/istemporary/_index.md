@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.IsTemporary
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد ما إذا كان هذا المعاملة الخاصة والتفضيلية ستتم إزالته من مستند WordProcessingML عند تعديل محتوياته .
+linktitle: IsTemporary
+articleTitle: IsTemporary
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag IsTemporary ملكية. يحدد ما إذا كان هذاالمعاملة الخاصة والتفضيلية ستتم إزالته من مستند WordProcessingML عند تعديل محتوياته  في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** ستتم إزالته من مستند WordProcessingML عند تعديل محتوياته .
+يحدد ما إذا كان هذا**المعاملة الخاصة والتفضيلية** ستتم إزالته من مستند WordProcessingML عند تعديل محتوياته .
 
 ```csharp
 public bool IsTemporary { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء عناصر تحكم للاستخدام الفردي.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IsTemporary.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

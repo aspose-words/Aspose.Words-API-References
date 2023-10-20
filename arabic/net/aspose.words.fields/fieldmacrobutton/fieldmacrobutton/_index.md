@@ -1,7 +1,9 @@
 ---
-title: FieldMacroButton.FieldMacroButton
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMacroButton البناء. Default_Constructor
+title: FieldMacroButton
+linktitle: FieldMacroButton
+articleTitle: FieldMacroButton
+second_title: Aspose.Words لـ .NET
+description: FieldMacroButton البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/
@@ -17,7 +19,5 @@ public FieldMacroButton()
 ### أنظر أيضا
 
 * class [FieldMacroButton](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmacrobutton/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

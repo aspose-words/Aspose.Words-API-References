@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE ملكية. الحصول على نص الإدخال أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldXE Text ملكية. الحصول على نص الإدخال أو تعيينه في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldxe/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INDEX، ثم استخدام حقول XE لملئه بالإدخالات.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

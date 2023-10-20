@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: MappedDataFieldCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: MappedDataFieldCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### أنظر أيضا
 
 * class [MappedDataFieldCollection](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

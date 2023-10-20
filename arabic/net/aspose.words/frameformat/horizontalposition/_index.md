@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على المسافة الأفقية بين حافة الإطار والعنصر المحدد بواسطةRelativeHorizontalPosition الملكية.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words لـ .NET
+description: FrameFormat HorizontalPosition ملكية. يحصل على المسافة الأفقية بين حافة الإطار والعنصر المحدد بواسطةRelativeHorizontalPosition الملكية في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/frameformat/horizontalposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/horizontalposition/
 public double HorizontalPosition { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### أنظر أيضا
 
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

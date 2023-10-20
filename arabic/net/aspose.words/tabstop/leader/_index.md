@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop ملكية. الحصول على أو تعيين نوع السطر الرئيسي المعروض أسفل حرف علامة التبويب.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words لـ .NET
+description: TabStop Leader ملكية. الحصول على أو تعيين نوع السطر الرئيسي المعروض أسفل حرف علامة التبويب في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstop/leader/
 public TabLeader Leader { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

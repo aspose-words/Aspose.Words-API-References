@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphCollection طريقة. نسخ كافة الفقرات من المجموعة إلى مجموعة جديدة من الفقرات.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: ParagraphCollection ToArray طريقة. نسخ كافة الفقرات من المجموعة إلى مجموعة جديدة من الفقرات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 مجموعة من الفقرات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مصفوفة من NodeCollection.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* مساحة الاسم [Aspose.Words](../../paragraphcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

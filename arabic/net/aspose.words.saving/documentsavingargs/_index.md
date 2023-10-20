@@ -1,7 +1,9 @@
 ---
-title: Class DocumentSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DocumentSavingArgs فصل. تم تمرير وسيطةNotify .
+title: DocumentSavingArgs Class
+linktitle: DocumentSavingArgs
+articleTitle: DocumentSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.DocumentSavingArgs فصل. تم تمرير وسيطةNotify  في C#.
 type: docs
 weight: 4950
 url: /ar/net/aspose.words.saving/documentsavingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentSavingArgs
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

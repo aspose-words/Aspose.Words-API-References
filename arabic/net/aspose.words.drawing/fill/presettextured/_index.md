@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTextured
-second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. يضبط التعبئة على مادة محددة مسبقًا.
+linktitle: PresetTextured
+articleTitle: PresetTextured
+second_title: Aspose.Words لـ .NET
+description: Fill PresetTextured طريقة. يضبط التعبئة على مادة محددة مسبقًا في C#.
 type: docs
-weight: 240
+weight: 230
 url: /ar/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -18,7 +20,7 @@ public void PresetTextured(PresetTexture presetTexture)
 | --- | --- | --- |
 | presetTexture | PresetTexture | [`PresetTexture`](../../presettexture/) |
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

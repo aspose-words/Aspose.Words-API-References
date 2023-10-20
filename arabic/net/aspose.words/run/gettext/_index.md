@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Aspose.Words لمراجع .NET API
-description: Run طريقة. يحصل على نص التشغيل.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words لـ .NET
+description: Run GetText طريقة. يحصل على نص التشغيل في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 نص الجري.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في المستند.
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

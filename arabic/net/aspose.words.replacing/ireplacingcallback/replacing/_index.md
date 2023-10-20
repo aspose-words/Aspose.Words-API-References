@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Aspose.Words لمراجع .NET API
-description: IReplacingCallback طريقة. طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً.
+linktitle: Replacing
+articleTitle: Replacing
+second_title: Aspose.Words لـ .NET
+description: IReplacingCallback Replacing طريقة. طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 أ[`ReplaceAction`](../../replaceaction/) القيمة التي تحدد الإجراء الذي سيتم اتخاذه للمطابقة الحالية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../ireplacingcallback/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

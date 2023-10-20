@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. إرجاعBuildingBlock القيمة.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock NodeType ملكية. إرجاعBuildingBlock القيمة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.buildingblocks/buildingblock/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

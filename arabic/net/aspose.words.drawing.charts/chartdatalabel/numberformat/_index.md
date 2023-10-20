@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. إرجاع تنسيق الرقم للعنصر الأصلي.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel NumberFormat ملكية. إرجاع تنسيق الرقم للعنصر الأصلي في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. يحدد مصدر النص الذي يتم عرضه في مربع رسالة عندما يكون التركيز على حقل النموذج ويقوم المستخدم بالضغط على F1.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words لـ .NET
+description: FormField OwnHelp ملكية. يحدد مصدر النص الذي يتم عرضه في مربع رسالة عندما يكون التركيز على حقل النموذج ويقوم المستخدم بالضغط على F1 في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/ownhelp/
 public bool OwnHelp { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لو`حقيقي` ، النص المحدد بواسطة[`HelpText`](../helptext/) يتم عرض الخاصية. إذا`خطأ شنيع` ، النص الموجود في إدخال النص التلقائي المحدد بواسطة[`HelpText`](../helptext/) يتم عرض الممتلكات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

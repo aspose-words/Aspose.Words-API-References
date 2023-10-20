@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Compliance
-second_title: Aspose.Words لمراجع .NET API
-description: OoxmlSaveOptions ملكية. يحدد إصدار OOXML للمستند الناتج. القيمة الافتراضية هيEcma376_2006 .
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words لـ .NET
+description: OoxmlSaveOptions Compliance ملكية. يحدد إصدار OOXML للمستند الناتج. القيمة الافتراضية هيEcma376_2006  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/compliance/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/ooxmlsaveoptions/compliance/
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أشكال DML في مستند.
 
@@ -106,7 +108,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [OoxmlCompliance](../../ooxmlcompliance/)
 * class [OoxmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

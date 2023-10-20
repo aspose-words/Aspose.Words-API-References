@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IFieldUpdatingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يتم استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
+title: IFieldUpdatingCallback Interface
+linktitle: IFieldUpdatingCallback
+articleTitle: IFieldUpdatingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.IFieldUpdatingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يتم استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني في C#.
 type: docs
 weight: 2720
 url: /ar/net/aspose.words.fields/ifieldupdatingcallback/
@@ -18,10 +20,10 @@ public interface IFieldUpdatingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | طريقة يحددها المستخدم ويتم استدعاؤها مباشرة بعد تحديث الحقل. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | طريقة يحددها المستخدم ويتم استدعاؤها مباشرة بعد تحديث الحقل. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -90,5 +92,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup طريقة. إعادة ضبط إعداد الصفحة على حجم الورق والهوامش والاتجاه الافتراضي.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: PageSetup ClearFormatting طريقة. إعادة ضبط إعداد الصفحة على حجم الورق والهوامش والاتجاه الافتراضي في C#.
 type: docs
 weight: 460
 url: /ar/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/clearformatting/
 public void ClearFormatting()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

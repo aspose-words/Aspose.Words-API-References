@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Level3
-second_title: Aspose.Words لمراجع .NET API
-description: ChartMultilevelValue ملكية. يحصل على اسم المستوى السفلي للمخطط الذي تشير إليه هذه القيمة.
+linktitle: Level3
+articleTitle: Level3
+second_title: Aspose.Words لـ .NET
+description: ChartMultilevelValue Level3 ملكية. يحصل على اسم المستوى السفلي للمخطط الذي تشير إليه هذه القيمة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartmultilevelvalue/level3/
@@ -17,7 +19,5 @@ public string Level3 { get; }
 ### أنظر أيضا
 
 * class [ChartMultilevelValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

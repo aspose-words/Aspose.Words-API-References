@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeVerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين المحاذاة العمودية النسبية للجدول العائم.
+linktitle: RelativeVerticalAlignment
+articleTitle: RelativeVerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: Table RelativeVerticalAlignment ملكية. الحصول على أو تعيين المحاذاة العمودية النسبية للجدول العائم في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.tables/table/relativeverticalalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/relativeverticalalignment/
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط موقع الجداول العائمة.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

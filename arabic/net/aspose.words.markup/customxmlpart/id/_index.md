@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Id
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart ملكية. الحصول على أو تعيين السلسلة التي تحدد جزء XML المخصص هذا داخل مستند OOXML.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPart Id ملكية. الحصول على أو تعيين السلسلة التي تحدد جزء XML المخصص هذا داخل مستند OOXML في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/customxmlpart/id/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpart/id/
 public string Id { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحدد ISO/IEC 29500 أن هذه القيمة هي GUID، لكن الإصدارات القديمة من Microsoft Word تسمح بأي سلسلة هنا. يقوم Aspose.Words بنفس الشيء بالنسبة لتنسيق ECMA-376. لكن لاحظ أن Microsoft Word Online يفشل في فتح مستند تم إنشاؤه بقيمة غير GUID. لذا، فإن المعرف الفريد العمومي (GUID) هو القيمة المفضلة لهذه الخاصية.
 
@@ -22,7 +24,7 @@ public string Id { get; set; }
 
 القيمة الافتراضية هي سلسلة فارغة. لا يمكن أن تكون القيمة`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### أنظر أيضا
 
 * class [CustomXmlPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

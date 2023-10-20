@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. إضافة عقدة إلى نهاية المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Add طريقة. إضافة عقدة إلى نهاية المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | ال[`NodeCollection`](../) هي مجموعة "عميقة". |
 
-### ملاحظات
+## ملاحظات
 
 يتم إدراج العقدة كطفل في كائن العقدة الذي تم إنشاء المجموعة منه.
 
 إذا تم إنشاء العقدة التي يتم إدراجها من مستند آخر، فيجب عليك استخدام [`ImportNode`](../../documentbase/importnode/) لاستيراد العقدة إلى المستند الحالي. يمكن بعد ذلك إدراج العقدة المستوردة في المستند الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحضير عقدة قسم جديدة للتحرير.
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

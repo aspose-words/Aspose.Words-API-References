@@ -1,7 +1,9 @@
 ---
-title: Enum ColorPrintMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.ColorPrintMode تعداد. يحدد كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة.
+title: ColorPrintMode Enum
+linktitle: ColorPrintMode
+articleTitle: ColorPrintMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Rendering.ColorPrintMode تعداد. يحدد كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة في C#.
 type: docs
 weight: 4540
 url: /ar/net/aspose.words.rendering/colorprintmode/
@@ -21,7 +23,7 @@ public enum ColorPrintMode
 | Normal | `0` | تتم طباعة كافة الصفحات حسب إمكانيات الطابعة وإعداداتها. |
 | GrayscaleAuto | `1` | تتم طباعة الصفحات غير الملونة في حالة اكتشافها بتدرج الرمادي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند بها، ثم إظهار معاينة الطباعة.
 
@@ -71,5 +73,3 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
-
-

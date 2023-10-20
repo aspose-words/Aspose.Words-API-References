@@ -1,7 +1,9 @@
 ---
-title: Class FieldBarcode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldBarcode فصل. ينفذ حقل الباركود.
+title: FieldBarcode Class
+linktitle: FieldBarcode
+articleTitle: FieldBarcode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldBarcode فصل. ينفذ حقل الباركود في C#.
 type: docs
 weight: 1630
 url: /ar/net/aspose.words.fields/fieldbarcode/
@@ -46,17 +48,17 @@ public class FieldBarcode : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 إدراج رمز شريطي بريدي في نموذج عنوان يمكن قراءته آليًا والذي تستخدمه خدمة البريد الأمريكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

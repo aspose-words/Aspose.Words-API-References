@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحدد ما إذا كان يجب تفسير محتوى علامة المستند المنظم هذه بحيث يحتوي على نص نائب على عكس محتويات النص العادي داخل علامة المستند المنظم.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText ملكية. يحدد ما إذا كان يجب تفسير محتوى علامة المستند المنظم هذه بحيث يحتوي على نص نائب على عكس محتويات النص العادي داخل علامة المستند المنظم في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

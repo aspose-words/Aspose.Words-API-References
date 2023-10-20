@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد كيفية تقسيم المستند عند الحفظ فيهHtmlEpub أوAzw3 شكل. الافتراضي هوNone لـ HTML و HeadingParagraph لـ EPUB وAZW3.
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions DocumentSplitCriteria ملكية. يحدد كيفية تقسيم المستند عند الحفظ فيهHtmlEpub أوAzw3 شكل. الافتراضي هوNone لـ HTML و HeadingParagraph لـ EPUB وAZW3 في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عادةً ما تريد حفظ مستند بتنسيق HTML كملف واحد. ولكن في بعض الحالات يفضل تقسيم المخرجات إلى عدة صفحات HTML أصغر. عند الحفظ بتنسيق HTML، سيتم إخراج هذه الصفحات إلى ملفات أو تدفقات فردية. عند الحفظ بتنسيق EPUB، سيتم دمجها في الحزم المقابلة.
 
 لا يمكن تقسيم المستند عند حفظه بتنسيق MHTML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [DocumentSplitCriteria](../../documentsplitcriteria/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

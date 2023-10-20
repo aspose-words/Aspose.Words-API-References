@@ -1,7 +1,9 @@
 ---
-title: Class ShadowFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ShadowFormat فصل. يمثل تنسيق الظل للكائن.
+title: ShadowFormat Class
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ShadowFormat فصل. يمثل تنسيق الظل للكائن في C#.
 type: docs
 weight: 1230
 url: /ar/net/aspose.words.drawing/shadowformat/
@@ -33,5 +35,3 @@ public class ShadowFormat
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

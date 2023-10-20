@@ -1,7 +1,9 @@
 ---
 title: Font.Subscript
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط كخط منخفض.
+linktitle: Subscript
+articleTitle: Subscript
+second_title: Aspose.Words لـ .NET
+description: Font Subscript ملكية. صحيح إذا تم تنسيق الخط كخط منخفض في C#.
 type: docs
 weight: 430
 url: /ar/net/aspose.words/font/subscript/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/subscript/
 public bool Subscript { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النص لتعويض موضعه.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Aspose.Words لمراجع .NET API
-description: FontSubstitutionSettings ملكية. الإعدادات المتعلقة بقاعدة استبدال تكوين الخط.
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: Aspose.Words لـ .NET
+description: FontSubstitutionSettings FontConfigSubstitution ملكية. الإعدادات المتعلقة بقاعدة استبدال تكوين الخط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض استبدال تكوين الخط المعتمد على نظام التشغيل.
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

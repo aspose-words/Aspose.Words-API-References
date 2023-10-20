@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. يوفر الوصول إلى خصائص تنسيق القائمة لنمط الفقرة.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words لـ .NET
+description: Style ListFormat ملكية. يوفر الوصول إلى خصائص تنسيق القائمة لنمط الفقرة في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/style/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية صالحة فقط لأنماط الفقرة. بالنسبة لأنواع الأنماط الأخرى، تُرجع هذه الخاصية`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

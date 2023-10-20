@@ -1,7 +1,9 @@
 ---
 title: FieldDde.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDde ملكية. الحصول على أو تعيين اسم وموقع الملف المصدر.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: FieldDde SourceFullName ملكية. الحصول على أو تعيين اسم وموقع الملف المصدر في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fielddde/sourcefullname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddde/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldDde](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddde/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

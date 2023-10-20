@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldUpdatingProgressCallback طريقة. طريقة يحددها المستخدم يتم استدعاؤها عند تغيير تقدم التحديث.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words لـ .NET
+description: IFieldUpdatingProgressCallback Notify طريقة. طريقة يحددها المستخدم يتم استدعاؤها عند تغيير تقدم التحديث في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

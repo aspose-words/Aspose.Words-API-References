@@ -1,7 +1,9 @@
 ---
-title: Class UserInformation
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.UserInformation فصل. يحدد معلومات حول المستخدم.
+title: UserInformation Class
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.UserInformation فصل. يحدد معلومات حول المستخدم في C#.
 type: docs
 weight: 2790
 url: /ar/net/aspose.words.fields/userinformation/
@@ -31,7 +33,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | الحصول على الأحرف الأولى من اسم المستخدم أو تعيينها. |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | الحصول على اسم المستخدم أو تعيينه. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تفاصيل المستخدم وعرضها باستخدام الحقول.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

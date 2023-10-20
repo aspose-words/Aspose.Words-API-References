@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر الوصول إلى خيارات الواصلة في المستند.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words لـ .NET
+description: Document HyphenationOptions ملكية. يوفر الوصول إلى خيارات الواصلة في المستند في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/hyphenationoptions/
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الواصلة التلقائية.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

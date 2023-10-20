@@ -1,7 +1,9 @@
 ---
 title: Font.StyleIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الأحرف المطبق على هذا التنسيق.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words لـ .NET
+description: Font StyleIdentifier ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الأحرف المطبق على هذا التنسيق في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words/font/styleidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير نمط النص الموجود.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

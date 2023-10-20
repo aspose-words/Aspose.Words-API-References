@@ -1,7 +1,9 @@
 ---
 title: IDocumentReaderPlugin.Read
-second_title: Aspose.Words لمراجع .NET API
-description: IDocumentReaderPlugin طريقة. يقرأ البيانات من الدفق المحدد إلى ملفDocument المثال.
+linktitle: Read
+articleTitle: Read
+second_title: Aspose.Words لـ .NET
+description: IDocumentReaderPlugin Read طريقة. يقرأ البيانات من الدفق المحدد إلى ملفDocument المثال في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/idocumentreaderplugin/read/
@@ -25,7 +27,5 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../../document/)
 * interface [IDocumentReaderPlugin](../)
-* مساحة الاسم [Aspose.Words](../../idocumentreaderplugin/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

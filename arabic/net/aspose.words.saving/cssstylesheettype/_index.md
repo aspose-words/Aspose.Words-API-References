@@ -1,7 +1,9 @@
 ---
-title: Enum CssStyleSheetType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.CssStyleSheetType تعداد. يحدد كيفية تصدير أنماط CSS ورقة الأنماط المتتالية إلى HTML.
+title: CssStyleSheetType Enum
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.CssStyleSheetType تعداد. يحدد كيفية تصدير أنماط CSS ورقة الأنماط المتتالية إلى HTML في C#.
 type: docs
 weight: 4890
 url: /ar/net/aspose.words.saving/cssstylesheettype/
@@ -18,11 +20,11 @@ public enum CssStyleSheetType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Inline | `0` | تتم كتابة أنماط CSS بشكل مضمن (كقيمة لـ **أسلوب** سمة على كل عنصر). |
+| Inline | `0` | تتم كتابة أنماط CSS بشكل مضمن (كقيمة لـ**أسلوب** سمة على كل عنصر). |
 | Embedded | `1` | تتم كتابة أنماط CSS بشكل منفصل عن المحتوى في ورقة الأنماط المضمنة في ملف HTML. |
 | External | `2` | تتم كتابة أنماط CSS بشكل منفصل عن المحتوى الموجود في ورقة الأنماط في ملف خارجي. يربط ملف HTML ورقة الأنماط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -85,5 +87,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetType](../htmlsaveoptions/cssstylesheettype/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

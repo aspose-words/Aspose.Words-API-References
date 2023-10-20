@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitScale
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين قيمة المقياس لعلامات التجزئة الرئيسية على محور الفئة الزمنية.
+linktitle: MajorUnitScale
+articleTitle: MajorUnitScale
+second_title: Aspose.Words لـ .NET
+description: ChartAxis MajorUnitScale ملكية. إرجاع أو تعيين قيمة المقياس لعلامات التجزئة الرئيسية على محور الفئة الزمنية في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير فقط على محاور الفئات الزمنية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

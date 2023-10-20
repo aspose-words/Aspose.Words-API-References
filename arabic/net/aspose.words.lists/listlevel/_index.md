@@ -1,7 +1,9 @@
 ---
-title: Class ListLevel
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListLevel فصل. يحدد التنسيق لمستوى القائمة.
+title: ListLevel Class
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListLevel فصل. يحدد التنسيق لمستوى القائمة في C#.
 type: docs
 weight: 3500
 url: /ar/net/aspose.words.lists/listlevel/
@@ -41,17 +43,17 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | إنشاء شكل نقطي للصورة لمستوى القائمة الحالي. |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | حذف رمز نقطي للصورة لمستوى القائمة الحالي. |
-| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | يقارن مع مستوى القائمة المحدد. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | يقارن مع مستوى القائمة المحدد. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | حساب رمز التجزئة لهذا الكائن. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | يُبلغ عن تمثيل السلسلة لـ`ListLevel`كائن لـ Index المحدد لعنصر القائمة. تحدد المعلمات[`NumberStyle`](../../aspose.words/numberstyle/) وتنسيق اختياري string يُستخدم متىCustom تم تحديده. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | يُبلغ عن تمثيل السلسلة لـ`ListLevel`كائن لـ Index المحدد لعنصر القائمة. تحدد المعلمات[`NumberStyle`](../../aspose.words/numberstyle/) وتنسيق اختياري string يُستخدم متىCustom تم تحديده. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء كائنات من هذه الفئة. يتم إنشاء كائنات مستوى القائمة تلقائيًا عند إنشاء القائمة. يمكنك الوصول`ListLevel` الكائنات عبر the [`ListLevelCollection`](../listlevelcollection/) مجموعة.
 
 استخدم خصائص`ListLevel` لتحديد تنسيق القائمة لمستويات القائمة الفردية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -111,5 +113,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

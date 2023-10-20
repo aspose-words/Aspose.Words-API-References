@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.TaskPaneDockState تعداد. تعداد المواقع المتاحة لكائن جزء المهام.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState تعداد. تعداد المواقع المتاحة لكائن جزء المهام في C#.
 type: docs
 weight: 6730
 url: /ar/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | قم بإرساء جزء المهام على الجانب الأيمن من نافذة المستند. |
 | Left | `1` | قم بإرساء جزء المهام على الجانب الأيسر من نافذة المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

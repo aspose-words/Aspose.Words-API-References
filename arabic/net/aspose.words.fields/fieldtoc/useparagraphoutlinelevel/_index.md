@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UseParagraphOutlineLevel
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام مستوى مخطط الفقرة المطبق.
+linktitle: UseParagraphOutlineLevel
+articleTitle: UseParagraphOutlineLevel
+second_title: Aspose.Words لـ .NET
+description: FieldToc UseParagraphOutlineLevel ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام مستوى مخطط الفقرة المطبق في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

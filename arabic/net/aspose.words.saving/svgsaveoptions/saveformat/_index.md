@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطSvg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: SvgSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطSvg  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/svgsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/svgsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معالجة وطباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى .svg.
 
@@ -58,7 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SvgSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../svgsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

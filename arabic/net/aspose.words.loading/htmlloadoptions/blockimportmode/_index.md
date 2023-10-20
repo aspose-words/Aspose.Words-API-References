@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.BlockImportMode
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على أو تعيين قيمة تحدد كيفية استيراد خصائص عناصر مستوى الكتلة. القيمة الافتراضية هيMerge .
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions BlockImportMode ملكية. الحصول على أو تعيين قيمة تحدد كيفية استيراد خصائص عناصر مستوى الكتلة. القيمة الافتراضية هيMerge  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/htmlloadoptions/blockimportmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/blockimportmode/
 public BlockImportMode BlockImportMode { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استيراد خصائص العناصر على مستوى الكتلة من المستندات المستندة إلى HTML.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * enum [BlockImportMode](../../blockimportmode/)
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

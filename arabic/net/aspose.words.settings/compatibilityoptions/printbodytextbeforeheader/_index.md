@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.PrintBodyTextBeforeHeader
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. طباعة النص الأساسي قبل محتويات الرأس/التذييل.
+linktitle: PrintBodyTextBeforeHeader
+articleTitle: PrintBodyTextBeforeHeader
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions PrintBodyTextBeforeHeader ملكية. طباعة النص الأساسي قبل محتويات الرأس/التذييل في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
@@ -17,7 +19,5 @@ public bool PrintBodyTextBeforeHeader { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

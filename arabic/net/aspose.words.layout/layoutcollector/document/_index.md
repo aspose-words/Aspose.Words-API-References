@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector ملكية. الحصول على أو تعيين المستند الذي تم إرفاق نسخة المجمع به.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: LayoutCollector Document ملكية. الحصول على أو تعيين المستند الذي تم إرفاق نسخة المجمع به في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/layoutcollector/document/
 public Document Document { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كنت بحاجة إلى الوصول إلى فهارس الصفحات الخاصة بعقد المستند، فأنت بحاجة إلى تعيين هذه الخاصية للإشارة إلى مثيل المستند، قبل إنشاء تخطيط الصفحة للمستند. من الأفضل ضبط هذه الخاصية على`باطل` بعد ذلك، وإلا سيستمر المجمع في تجميع المعلومات من عمليات إعادة البناء اللاحقة لتخطيط صفحة المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutcollector/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

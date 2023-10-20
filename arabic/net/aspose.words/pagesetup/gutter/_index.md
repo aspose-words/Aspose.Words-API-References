@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين مقدار المساحة الإضافية المضافة إلى هامش ربط المستند.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words لـ .NET
+description: PageSetup Gutter ملكية. الحصول على أو تعيين مقدار المساحة الإضافية المضافة إلى هامش ربط المستند في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/gutter/
 public double Gutter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين مستند يمكن طباعته كطي كتاب.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

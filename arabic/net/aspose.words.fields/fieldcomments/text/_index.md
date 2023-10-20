@@ -1,7 +1,9 @@
 ---
 title: FieldComments.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldComments ملكية. الحصول على نص التعليقات أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldComments Text ملكية. الحصول على نص التعليقات أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcomments/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcomments/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل التعليقات.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ### أنظر أيضا
 
 * class [FieldComments](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcomments/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

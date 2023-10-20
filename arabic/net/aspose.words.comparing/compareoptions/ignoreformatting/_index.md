@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يشير True إلى أنه تم تجاهل التنسيق. بشكل افتراضي لا يتم تجاهل تنسيق المستند.
+linktitle: IgnoreFormatting
+articleTitle: IgnoreFormatting
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreFormatting ملكية. يشير True إلى أنه تم تجاهل التنسيق. بشكل افتراضي لا يتم تجاهل تنسيق المستند في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.comparing/compareoptions/ignoreformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignoreformatting/
 public bool IgnoreFormatting { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

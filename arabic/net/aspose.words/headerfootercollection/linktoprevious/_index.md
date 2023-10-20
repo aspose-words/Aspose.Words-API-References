@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooterCollection طريقة. ربط أو إلغاء ربط جميع الرؤوس والتذييلات بالرؤوس والتذييلات المقابلة لها في القسم السابق.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words لـ .NET
+description: HeaderFooterCollection LinkToPrevious طريقة. ربط أو إلغاء ربط جميع الرؤوس والتذييلات بالرؤوس والتذييلات المقابلة لها في القسم السابق في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 ربط أو إلغاء ربط جميع الرؤوس والتذييلات بالرؤوس والتذييلات المقابلة لها في القسم السابق.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `حقيقي` لربط الرؤوس والتذييلات بالقسم السابق؛ `خطأ شنيع` لفك الارتباط بينهما. |
 
-### ملاحظات
+## ملاحظات
 
 في حالة عدم وجود أي من الرؤوس أو التذييلات، قم بإنشائها تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط الرؤوس والتذييلات بين الأقسام.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### أنظر أيضا
 
 * class [HeaderFooterCollection](../)
-* مساحة الاسم [Aspose.Words](../../headerfootercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 ربط أو إلغاء ربط الرأس أو التذييل المحدد بالرأس أو التذييل المقابل في القسم السابق.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | أ[`HeaderFooterType`](../../headerfootertype/) value الذي يحدد الرأس أو التذييل للربط/إلغاء الارتباط. |
 | isLinkToPrevious | Boolean | `حقيقي`لربط الرأس أو التذييل بالقسم السابق؛ `خطأ شنيع` لإلغاء الارتباط. |
 
-### ملاحظات
+## ملاحظات
 
 في حالة عدم وجود رأس أو تذييل من النوع المحدد، قم بإنشائه تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط الرؤوس والتذييلات بين الأقسام.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* مساحة الاسم [Aspose.Words](../../headerfootercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
-second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هيحقيقي .
+linktitle: IsSemitrasparent
+articleTitle: IsSemitrasparent
+second_title: Aspose.Words لـ .NET
+description: TextWatermarkOptions IsSemitrasparent ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/textwatermarkoptions/issemitrasparent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textwatermarkoptions/issemitrasparent/
 public bool IsSemitrasparent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### أنظر أيضا
 
 * class [TextWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../textwatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

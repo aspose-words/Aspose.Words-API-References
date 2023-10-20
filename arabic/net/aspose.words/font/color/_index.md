@@ -1,7 +1,9 @@
 ---
 title: Font.Color
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين لون الخط.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: Font Color ملكية. الحصول على أو تعيين لون الخط في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/font/color/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/color/
 public Color Color { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج نص منسق باستخدام DocumentBuilder.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

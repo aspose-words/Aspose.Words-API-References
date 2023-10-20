@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag طريقة. يمسح محتويات علامة المستند المنظمة ويعرض عنصرًا نائبًا إذا تم تعريفه.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Clear طريقة. يمسح محتويات علامة المستند المنظمة ويعرض عنصرًا نائبًا إذا تم تعريفه في C#.
 type: docs
-weight: 360
+weight: 340
 url: /ar/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/clear/
 public void Clear()
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليس من الممكن مسح محتويات علامة المستند المنظمة إذا كانت تحتوي على مراجعات.
 
 إذا تم تعيين علامة المستند المنظمة هذه إلى XML مخصص (باستخدام[`XmlMapping`](../xmlmapping/) )، يتم مسح عقدة XML المشار إليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف محتويات عناصر علامة المستند المنظمة.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToInt
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty طريقة. إرجاع قيمة الخاصية كعدد صحيح.
+linktitle: ToInt
+articleTitle: ToInt
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty ToInt طريقة. إرجاع قيمة الخاصية كعدد صحيح في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.properties/documentproperty/toint/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/documentproperty/toint/
 public int ToInt()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يطرح استثناءً إذا لم يكن نوع الخاصية كذلكNumber .
 
-### أمثلة
+## أمثلة
 
 يعرض طرق تحويل النوع المختلفة لخصائص المستند المخصصة.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

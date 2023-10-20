@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب إخراج أحجام الخطوط بوحدات نسبية عند الحفظ في HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع .
+linktitle: ExportRelativeFontSize
+articleTitle: ExportRelativeFontSize
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportRelativeFontSize ملكية. يحدد ما إذا كان يجب إخراج أحجام الخطوط بوحدات نسبية عند الحفظ في HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -14,15 +16,15 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 في العديد من المستندات الموجودة (HTML، IDPF EPUB) يتم تحديد أحجام الخطوط بوحدات نسبية. يتيح ذلك لتطبيقات ضبط حجم النص عند عرض/معالجة المستندات. على سبيل المثال، يحتوي Microsoft Internet Explorer على القائمة الفرعية "عرض-&gt;حجم النص"، ويحتوي Adobe Digital Editions على زرين: زيادة/تقليل حجم النص. إذا كنت تتوقع أن تعمل هذه الوظيفة، فقم بتعيين`ExportRelativeFontSize` الملكية ل`حقيقي` .
 
-يحتوي نموذج مستند Aspose Words على وحدات حجم الخط المطلقة ويعمل بها فقط. تحتاج الوحدات النسبية إلى منطق إضافي لإعادة حسابه من بعض الحجم الأولي (القياسي). حجم الخط **طبيعي** يتم أخذ نمط المستند بشكل قياسي. على سبيل المثال، إذا **طبيعي** يحتوي على خط بحجم 12pt وبعض النصوص بحجم 18pt، ثم سيتم إخراجه كـ **1.5 م.** إلى HTML.
+يحتوي نموذج مستند Aspose Words على وحدات حجم الخط المطلقة ويعمل بها فقط. تحتاج الوحدات النسبية إلى منطق إضافي لإعادة حسابه من بعض الحجم الأولي (القياسي). حجم الخط**طبيعي** يتم أخذ نمط المستند بشكل قياسي. على سبيل المثال، إذا**طبيعي** يحتوي على خط بحجم 12pt وبعض النصوص بحجم 18pt، ثم سيتم إخراجه كـ**1.5 م.** إلى HTML.
 
 عند تمكين هذا الخيار، ستظل عناصر المستند بخلاف النص ذات أحجام مطلقة. كما قد يتم التعبير عن بعض السمات المتعلقة بالنص بشكل مطلق. على وجه الخصوص، قد يؤدي تباعد الأسطر المحدد بقاعدة "بالضبط" إلى نتائج غير مرغوب فيها عند تغيير حجم النص. لذلك يجب تصميم المستندات المصدر واختبارها بشكل صحيح عند التصدير باستخدام`ExportRelativeFontSize` ضبط ل`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أحجام الخطوط النسبية عند الحفظ بتنسيق .html.
 
@@ -87,7 +89,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Aspose.Words لمراجع .NET API
-description: Footnote ملكية. يحمل قيمة تحدد ما إذا كانت هذه حاشية سفلية مرقمة تلقائيًا أو حاشية سفلية بعلامة مرجعية مخصصة يحددها المستخدم.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words لـ .NET
+description: Footnote IsAuto ملكية. يحمل قيمة تحدد ما إذا كانت هذه حاشية سفلية مرقمة تلقائيًا أو حاشية سفلية بعلامة مرجعية مخصصة يحددها المستخدم في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/footnote/isauto/
 public bool IsAuto { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 [`ReferenceMark`](../referencemark/)تمت تهيئته بسلسلة فارغة إذا`IsAuto` ضبط ل`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الحواشي السفلية وتخصيصها.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### أنظر أيضا
 
 * class [Footnote](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnote/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

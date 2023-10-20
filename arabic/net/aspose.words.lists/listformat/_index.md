@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListFormat فصل. يسمح بالتحكم في تنسيق القائمة المطبق على الفقرة.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListFormat فصل. يسمح بالتحكم في تنسيق القائمة المطبق على الفقرة في C#.
 type: docs
 weight: 3480
 url: /ar/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | تقليل مستوى القائمة للفقرة الحالية بمقدار مستوى واحد. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | إزالة الأرقام أو التعداد النقطي من الفقرة الحالية وتعيين مستوى القائمة إلى صفر. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن تعداد فقرة في مستند Microsoft Word أو تعدادها. عندما يتم تعداد فقرة أو تعدادها، يقال أنه يتم تطبيق تنسيق القائمة على الفقرة.
 
@@ -51,7 +53,7 @@ public class ListFormat
 
 الفقرات لا تنتمي فعليًا إلى القائمة. تشير الفقرات just إلى كائن قائمة معين عبر ملف[`List`](./list/) property ومستوى معين في القائمة عبر[`ListLevelNumber`](./listlevelnumber/) property. من خلال تعيين هاتين الخاصيتين، يمكنك التحكم في التعداد النقطي والترقيم الذي سيتم تطبيقه على الفقرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مستويات القائمة.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذا كانتRemoveEmptyParagraphs تم تحديد الخيار.
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: Aspose.Words لـ .NET
+description: MailMerge CleanupParagraphsWithPunctuationMarks ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذا كانتRemoveEmptyParagraphs تم تحديد الخيار في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuation
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي` .
 
@@ -29,7 +31,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 * ¡
 * ¿
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الفقرات التي تحتوي على علامات الترقيم بعد عملية دمج البريد.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

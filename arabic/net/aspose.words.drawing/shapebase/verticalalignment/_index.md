@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.VerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد كيفية وضع الشكل عموديًا.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: ShapeBase VerticalAlignment ملكية. يحدد كيفية وضع الشكل عموديًا في C#.
 type: docs
 weight: 560
 url: /ar/net/aspose.words.drawing/shapebase/verticalalignment/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/verticalalignment/
 public VerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
 له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [VerticalAlignment](../../verticalalignment/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

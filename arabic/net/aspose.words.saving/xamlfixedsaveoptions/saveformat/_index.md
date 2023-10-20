@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: XamlFixedSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطXamlFixed .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: XamlFixedSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطXamlFixed  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى صيغة .xaml ذات النموذج الثابت.
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

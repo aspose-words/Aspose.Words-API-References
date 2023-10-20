@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageCompression
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfImageCompression تعداد. يحدد نوع الضغط المطبق على الصور في ملف PDF.
+title: PdfImageCompression Enum
+linktitle: PdfImageCompression
+articleTitle: PdfImageCompression
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfImageCompression تعداد. يحدد نوع الضغط المطبق على الصور في ملف PDF في C#.
 type: docs
 weight: 5490
 url: /ar/net/aspose.words.saving/pdfimagecompression/
@@ -21,7 +23,7 @@ public enum PdfImageCompression
 | Auto | `0` | يقوم تلقائيًا بتحديد الضغط الأنسب لكل صورة. |
 | Jpeg | `1` | ضغط Jpeg. لا يدعم الشفافية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع الضغط لجميع الصور في المستند الذي نقوم بتحويله إلى PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

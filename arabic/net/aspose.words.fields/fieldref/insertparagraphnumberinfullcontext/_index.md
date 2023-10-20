@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words لـ .NET
+description: FieldRef InsertParagraphNumberInFullContext ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول REF للإشارة إلى الإشارات المرجعية.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.PageLayoutEvent تعداد. رمز الحدث الذي تم رفعه أثناء إنشاء نموذج تخطيط الصفحة وعرضه.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.PageLayoutEvent تعداد. رمز الحدث الذي تم رفعه أثناء إنشاء نموذج تخطيط الصفحة وعرضه في C#.
 type: docs
 weight: 3370
 url: /ar/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | بدأ عرض الصفحة. يتم إطلاق هذا مرة واحدة لكل صفحة. |
 | PartRenderingFinished | `11` | انتهى عرض الصفحة. يتم إطلاق هذا مرة واحدة لكل صفحة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

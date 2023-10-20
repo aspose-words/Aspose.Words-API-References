@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Aspose.Words لمراجع .NET API
-description: PageSavingArgs ملكية. الحصول على أو تعيين اسم الملف الذي سيتم حفظ صفحة المستند فيه.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words لـ .NET
+description: PageSavingArgs PageFileName ملكية. الحصول على أو تعيين اسم الملف الذي سيتم حفظ صفحة المستند فيه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pagesavingargs/pagefilename/
 public string PageFileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم يتم تحديده، فسيتم إنشاء اسم ملف الصفحة ومساره تلقائيًا باستخدام اسم الملف الأصلي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### أنظر أيضا
 
 * class [PageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

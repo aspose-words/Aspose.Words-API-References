@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftPadding
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات خلايا الجدول.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words لـ .NET
+description: TableStyle LeftPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات خلايا الجدول في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/tablestyle/leftpadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/leftpadding/
 public double LeftPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

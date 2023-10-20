@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.BaselineAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين الوضع الرأسي للخطوط على السطر.
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat BaselineAlignment ملكية. الحصول على أو تعيين الوضع الرأسي للخطوط على السطر في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/paragraphformat/baselinealignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/baselinealignment/
 public BaselineAlignment BaselineAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الوضع الرأسي للخطوط على السطر.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * enum [BaselineAlignment](../../baselinealignment/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

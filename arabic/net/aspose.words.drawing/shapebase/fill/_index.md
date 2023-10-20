@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على تنسيق التعبئة للشكل.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Fill ملكية. الحصول على تنسيق التعبئة للشكل في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/fill/
 public Fill Fill { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بلون خالص.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

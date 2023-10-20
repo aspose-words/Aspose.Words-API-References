@@ -1,7 +1,9 @@
 ---
 title: Table.StyleName
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين اسم نمط الجدول المطبق على هذا الجدول.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words لـ .NET
+description: Table StyleName ملكية. الحصول على أو تعيين اسم نمط الجدول المطبق على هذا الجدول في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.tables/table/stylename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/stylename/
 public string StyleName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

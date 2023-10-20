@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.AllowComments
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار تسجيل أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words لـ .NET
+description: SignatureLine AllowComments ملكية. الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار تسجيل أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/signatureline/allowcomments/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/signatureline/allowcomments/
 public bool AllowComments { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### أنظر أيضا
 
 * class [SignatureLine](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../signatureline/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

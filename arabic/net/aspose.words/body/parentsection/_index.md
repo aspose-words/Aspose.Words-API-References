@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Aspose.Words لمراجع .NET API
-description: Body ملكية. للحصول على القسم الأصلي لهذه القصة.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words لـ .NET
+description: Body ParentSection ملكية. للحصول على القسم الأصلي لهذه القصة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/body/parentsection/
 public Section ParentSection { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `ParentSection` يعادل[`ParentNode`](../../node/parentnode/) يلقي ل[`Section`](../../section/).
 
-### أمثلة
+## أمثلة
 
 يبين كيفية تخزين الحواشي الختامية في نهاية كل قسم، وتعديل مواضعها.
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* مساحة الاسم [Aspose.Words](../../body/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

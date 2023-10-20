@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: RowCollection طريقة. نسخ كافة الصفوف من المجموعة إلى مجموعة جديدة من الصفوف.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: RowCollection ToArray طريقة. نسخ كافة الصفوف من المجموعة إلى مجموعة جديدة من الصفوف في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 مجموعة من الصفوف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowcollection/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

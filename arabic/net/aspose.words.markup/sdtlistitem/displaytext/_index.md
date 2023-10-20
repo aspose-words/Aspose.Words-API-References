@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItem ملكية. يحصل على النص الذي سيتم عرضه في محتوى التشغيل بدلاً منValue محتويات السمة لعنصر القائمة هذا.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words لـ .NET
+description: SdtListItem DisplayText ملكية. يحصل على النص الذي سيتم عرضه في محتوى التشغيل بدلاً منValue محتويات السمة لعنصر القائمة هذا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/sdtlistitem/displaytext/
 public string DisplayText { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل` ولا يمكن أن تكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### أنظر أيضا
 
 * class [SdtListItem](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitem/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

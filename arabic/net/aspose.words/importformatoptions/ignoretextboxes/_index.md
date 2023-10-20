@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هيحقيقي .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words لـ .NET
+description: ImportFormatOptions IgnoreTextBoxes ملكية. الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله إذاKeepSourceFormatting يتم استخدام الوضع. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/importformatoptions/ignoretextboxes/
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة تنسيق مربع النص أثناء إلحاق مستند.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### أنظر أيضا
 
 * class [ImportFormatOptions](../)
-* مساحة الاسم [Aspose.Words](../../importformatoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

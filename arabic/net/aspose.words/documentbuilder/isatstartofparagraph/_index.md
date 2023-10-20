@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاعحقيقي إذا كان المؤشر في بداية الفقرة الحالية لا يوجد نص قبل المؤشر.
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder IsAtStartOfParagraph ملكية. إرجاعحقيقي إذا كان المؤشر في بداية الفقرة الحالية لا يوجد نص قبل المؤشر في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/isatstartofparagraph/
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى عقد مختلفة في المستند.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

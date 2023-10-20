@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPartCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPartCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/customxmlpartcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpartcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### أنظر أيضا
 
 * class [CustomXmlPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

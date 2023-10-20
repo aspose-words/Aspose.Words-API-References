@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Properties.PropertyType تعداد. يحدد نوع بيانات خاصية المستند.
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Properties.PropertyType تعداد. يحدد نوع بيانات خاصية المستند في C#.
 type: docs
 weight: 4500
 url: /ar/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | الخاصية عبارة عن مصفوفة من البايتات. |
 | Other | `8` | الخاصية من نوع آخر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
-
-

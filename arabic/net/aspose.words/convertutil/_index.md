@@ -1,7 +1,9 @@
 ---
-title: Class ConvertUtil
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ConvertUtil فصل. يوفر وظائف مساعدة للتحويل بين وحدات القياس المختلفة.
+title: ConvertUtil Class
+linktitle: ConvertUtil
+articleTitle: ConvertUtil
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ConvertUtil فصل. يوفر وظائف مساعدة للتحويل بين وحدات القياس المختلفة في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words/convertutil/
@@ -20,16 +22,16 @@ public static class ConvertUtil
 
 | اسم | وصف |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | تحويل البوصات إلى نقاط. |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | تحويل المليمترات إلى نقاط. |
-| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | تحويل وحدات البكسل من دقة إلى أخرى. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | تحويل البكسل إلى نقاط بدقة 96 نقطة في البوصة. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | تحويل وحدات البكسل إلى نقاط بدقة بكسل محددة. |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | تحويل النقاط إلى بوصات. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | تحويل النقاط إلى بكسلات بدقة البكسل المحددة. |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | تحويل البوصات إلى نقاط. |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | تحويل المليمترات إلى نقاط. |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | تحويل وحدات البكسل من دقة إلى أخرى. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | تحويل البكسل إلى نقاط بدقة 96 نقطة في البوصة. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | تحويل وحدات البكسل إلى نقاط بدقة بكسل محددة. |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | تحويل النقاط إلى بوصات. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | تحويل النقاط إلى بكسلات بدقة البكسل المحددة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

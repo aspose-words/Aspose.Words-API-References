@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين مقدار التباعد في خطوط الشبكة قبل الفقرات.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat LineUnitBefore ملكية. الحصول على أو تعيين مقدار التباعد في خطوط الشبكة قبل الفقرات في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/lineunitbefore/
 public double LineUnitBefore { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير تباعد الفقرات والمسافات البادئة.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

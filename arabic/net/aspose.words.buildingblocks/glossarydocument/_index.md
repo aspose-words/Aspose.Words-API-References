@@ -1,7 +1,9 @@
 ---
-title: Class GlossaryDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildingBlocks.GlossaryDocument فصل. يمثل العنصر الجذر لمستند المسرد ضمن مستند Word. مستند المسرد عبارة عن مخزن للنص التلقائي وإدخالات التصحيح التلقائي والكتل البرمجية الإنشائية.
+title: GlossaryDocument Class
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BuildingBlocks.GlossaryDocument فصل. يمثل العنصر الجذر لمستند المسرد ضمن مستند Word. مستند المسرد عبارة عن مخزن للنص التلقائي وإدخالات التصحيح التلقائي والكتل البرمجية الإنشائية في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/
@@ -54,37 +56,35 @@ public class GlossaryDocument : DocumentBase
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.buildingblocks/glossarydocument/accept/)(DocumentVisitor) | يقبل الزائر. |
-| override [AcceptEnd](../../aspose.words.buildingblocks/glossarydocument/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.buildingblocks/glossarydocument/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| override [Accept](../../aspose.words.buildingblocks/glossarydocument/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | يقبل الزائر. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | إضافة العقدة المحددة إلى نهاية قائمة العقد التابعة لهذه العقدة. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
-| [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock/)(BuildingBlockGallery, string, string) | يبحث عن الكتلة البرمجية الإنشائية باستخدام المعرض والفئة والاسم المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock/)(*[BuildingBlockGallery](../buildingblockgallery/), string, string*) | يبحث عن الكتلة البرمجية الإنشائية باستخدام المعرض والفئة والاسم المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | يستورد عقدة من مستند آخر إلى المستند الحالي. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | يستورد عقدة من مستند آخر إلى المستند الحالي مع خيار التحكم في التنسيق. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../../aspose.words/node/), bool*) | يستورد عقدة من مستند آخر إلى المستند الحالي. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../../aspose.words/node/), bool, [ImportFormatMode](../../aspose.words/importformatmode/)*) | يستورد عقدة من مستند آخر إلى المستند الحالي مع خيار التحكم في التنسيق. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | يقوم بإدراج العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | إضافة العقدة المحددة إلى بداية قائمة العقد التابعة لهذه العقدة. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | إزالة جميع العقد الفرعية للعقدة الحالية. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | إزالة العقدة الفرعية المحددة. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/)العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة العقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد الأول[`Node`](../../aspose.words/node/) الذي يطابق تعبير XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | تحديد قائمة العقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | تحديد الأول[`Node`](../../aspose.words/node/) الذي يطابق تعبير XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تحتوي بعض المستندات، عادةً القوالب، على نص تلقائي وإدخالات التصحيح التلقائي و/أو كتل الإنشاء (المعروفة أيضًا باسمإدخالات مستند المسرد ,أجزاء الوثيقة أواللبنات).
 
@@ -92,9 +92,9 @@ public class GlossaryDocument : DocumentBase
 
 `GlossaryDocument` يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock/) الكائنات. كل منهما[`BuildingBlock`](../buildingblock/) يمثل جزءًا واحدًا من الوثيقة.
 
-يتوافق مع **Document** و **docParts** العناصر في OOXML
+يتوافق مع**Document** و**docParts** العناصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -200,5 +200,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [DocumentBase](../../aspose.words/documentbase/)
 * مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
-
-

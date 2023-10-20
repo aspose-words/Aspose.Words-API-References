@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. الحصول على أو تعيين علامة تشير إلى أنه تم وضع علامة تم على التعليق.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words لـ .NET
+description: Comment Done ملكية. الحصول على أو تعيين علامة تشير إلى أنه تم وضع علامة تم على التعليق في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/comment/done/
 public bool Done { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية وضع علامة "تم" على التعليق.
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

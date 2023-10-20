@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
-second_title: Aspose.Words لمراجع .NET API
-description: FontConfigSubstitutionRule طريقة. تحقق مما إذا كانت الأداة المساعدة لتكوين الخطوط متاحة أم لا.
+linktitle: IsFontConfigAvailable
+articleTitle: IsFontConfigAvailable
+second_title: Aspose.Words لـ .NET
+description: FontConfigSubstitutionRule IsFontConfigAvailable طريقة. تحقق مما إذا كانت الأداة المساعدة لتكوين الخطوط متاحة أم لا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable
 public bool IsFontConfigAvailable()
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض استبدال تكوين الخط المعتمد على نظام التشغيل.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### أنظر أيضا
 
 * class [FontConfigSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

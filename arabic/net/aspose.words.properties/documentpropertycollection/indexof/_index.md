@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection طريقة. الحصول على فهرس الخاصية بالاسم.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection IndexOf طريقة. الحصول على فهرس الخاصية بالاسم في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

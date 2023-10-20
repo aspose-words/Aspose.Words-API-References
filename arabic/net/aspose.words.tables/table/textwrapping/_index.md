@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يحصل على أو مجموعاتTextWrapping للجدول.
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words لـ .NET
+description: Table TextWrapping ملكية. يحصل على أو مجموعاتTextWrapping للجدول في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/textwrapping/
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع التفاف نص الجدول.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

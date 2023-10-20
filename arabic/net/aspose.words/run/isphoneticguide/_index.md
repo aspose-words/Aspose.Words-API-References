@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Aspose.Words لمراجع .NET API
-description: Run ملكية. الحصول على قيمة منطقية تشير إلى أن التشغيل هو دليل صوتي.
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: Aspose.Words لـ .NET
+description: Run IsPhoneticGuide ملكية. الحصول على قيمة منطقية تشير إلى أن التشغيل هو دليل صوتي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/run/isphoneticguide/
 public bool IsPhoneticGuide { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يبين كيفية الحصول على خصائص الدليل الصوتي.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### أنظر أيضا
 
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

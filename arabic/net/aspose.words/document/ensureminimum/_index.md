@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. إذا كانت الوثيقة لا تحتوي على أقسام قم بإنشاء قسم واحد بفقرة واحدة.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: Document EnsureMinimum طريقة. إذا كانت الوثيقة لا تحتوي على أقسام قم بإنشاء قسم واحد بفقرة واحدة في C#.
 type: docs
-weight: 600
+weight: 580
 url: /ar/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التأكد من أن المستند يحتوي على الحد الأدنى من العقد المطلوبة لتحرير محتوياته.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

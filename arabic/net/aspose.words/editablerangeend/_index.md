@@ -1,7 +1,9 @@
 ---
-title: Class EditableRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.EditableRangeEnd فصل. يمثل نهاية النطاق القابل للتحرير في مستند Word.
+title: EditableRangeEnd Class
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.EditableRangeEnd فصل. يمثل نهاية النطاق القابل للتحرير في مستند Word في C#.
 type: docs
 weight: 1430
 url: /ar/net/aspose.words/editablerangeend/
@@ -35,18 +37,18 @@ public sealed class EditableRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 يتكون النطاق الكامل القابل للتحرير في مستند Word من ملف[`EditableRangeStart`](./editablerangestart/) ومطابقة`EditableRangeEnd` بنفس المعرف.
 
@@ -56,7 +58,7 @@ public sealed class EditableRangeEnd : Node
 
 النطاقات القابلة للتحرير حاليًا مدعومة فقط على المستوى المضمن، أي بالداخل[`Paragraph`](../paragraph/)، لكن بداية النطاق القابل للتحرير ونهاية النطاق القابل للتحرير يمكن أن تكون في فقرات مختلفة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
@@ -169,5 +171,3 @@ public class EditableRangePrinter : DocumentVisitor
 * class [Node](../node/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

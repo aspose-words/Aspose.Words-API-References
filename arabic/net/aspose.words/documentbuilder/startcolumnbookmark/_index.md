@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartColumnBookmark
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحدد الموضع الحالي في المستند كبداية عمود الإشارة المرجعية. يجب أن يكون الموضع في خلية الجدول.
+linktitle: StartColumnBookmark
+articleTitle: StartColumnBookmark
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder StartColumnBookmark طريقة. يحدد الموضع الحالي في المستند كبداية عمود الإشارة المرجعية. يجب أن يكون الموضع في خلية الجدول في C#.
 type: docs
-weight: 630
+weight: 620
 url: /ar/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -22,7 +24,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 عقدة بداية الإشارة المرجعية التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 تغطي الإشارة المرجعية للعمود عمودًا واحدًا أو أكثر في نطاق من الصفوف. لإنشاء إشارة مرجعية صالحة، يجب عليك الاتصال بكليهما`StartColumnBookmark` و[`EndColumnBookmark`](../endcolumnbookmark/) بنفس *bookmarkName*معامل.
 
@@ -30,7 +32,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 الموضع الفعلي للإدراج[`BookmarkStart`](../../bookmarkstart/) قد تختلف العقدة عن موضع منشئ document الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إشارة مرجعية للعمود.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

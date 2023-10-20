@@ -1,7 +1,9 @@
 ---
-title: Class ThumbnailGeneratingOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة للمستند.
+title: ThumbnailGeneratingOptions Class
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة للمستند في C#.
 type: docs
 weight: 4600
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/
@@ -27,11 +29,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى للمستند أو الصورة الأولى. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن للمستخدم الاتصال بالطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث الصورة المصغرة للمستند.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
-
-

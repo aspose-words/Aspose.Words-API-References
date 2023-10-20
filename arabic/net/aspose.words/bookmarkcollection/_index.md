@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BookmarkCollection فصل. مجموعة منBookmark الكائنات التي تمثل الإشارات المرجعية في النطاق المحدد.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BookmarkCollection فصل. مجموعة منBookmark الكائنات التي تمثل الإشارات المرجعية في النطاق المحدد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | إزالة كافة الإشارات المرجعية من هذه المجموعة ومن المستند. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | يُرجع كائن العداد. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | إزالة الإشارة المرجعية المحددة من المستند. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | إزالة إشارة مرجعية بالاسم المحدد. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | إزالة الإشارة المرجعية في الفهرس المحدد. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | إزالة الإشارة المرجعية المحددة من المستند. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | إزالة إشارة مرجعية بالاسم المحدد. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | إزالة الإشارة المرجعية في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

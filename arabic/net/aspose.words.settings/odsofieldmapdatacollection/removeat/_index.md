@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection طريقة. إزالة العنصر الموجود في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapDataCollection RemoveAt طريقة. إزالة العنصر الموجود في الفهرس المحدد في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري للعنصر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoFieldMapDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

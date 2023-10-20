@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickMark
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisTickMark تعداد. يحدد المواضع المحتملة لعلامات التجزئة.
+title: AxisTickMark Enum
+linktitle: AxisTickMark
+articleTitle: AxisTickMark
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisTickMark تعداد. يحدد المواضع المحتملة لعلامات التجزئة في C#.
 type: docs
 weight: 590
 url: /ar/net/aspose.words.drawing.charts/axistickmark/
@@ -23,7 +25,7 @@ public enum AxisTickMark
 | Outside | `2` | يحدد أن علامات التجزئة يجب أن تكون خارج منطقة الرسم. |
 | None | `3` | يحدد عدم وجود علامات اختيار. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

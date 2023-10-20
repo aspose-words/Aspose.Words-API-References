@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAppliesTo
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها.
+linktitle: BorderAppliesTo
+articleTitle: BorderAppliesTo
+second_title: Aspose.Words لـ .NET
+description: PageSetup BorderAppliesTo ملكية. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/pagesetup/borderappliesto/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/borderappliesto/
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderAppliesTo](../../pageborderappliesto/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

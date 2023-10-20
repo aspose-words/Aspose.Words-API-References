@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupIndex
-second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. يحدد حسب الفهرس المجموعة الملتقطة فيMatch الذي سيتم استبداله بـReplacement سلسلة.
+linktitle: GroupIndex
+articleTitle: GroupIndex
+second_title: Aspose.Words لـ .NET
+description: ReplacingArgs GroupIndex ملكية. يحدد حسب الفهرس المجموعة الملتقطة فيMatch الذي سيتم استبداله بـReplacement سلسلة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/replacingargs/groupindex/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.replacing/replacingargs/groupindex/
 public int GroupIndex { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `GroupIndex`له تأثير فقط عندما[`GroupName`](../groupname/) يكون`باطل`.
 
 الافتراضي هو صفر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### أنظر أيضا
 
 * class [ReplacingArgs](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../replacingargs/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

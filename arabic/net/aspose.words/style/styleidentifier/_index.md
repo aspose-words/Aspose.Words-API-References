@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على معرف النمط المحلي المستقل للنمط المدمج.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words لـ .NET
+description: Style StyleIdentifier ملكية. الحصول على معرف النمط المحلي المستقل للنمط المدمج في C#.
 type: docs
-weight: 160
+weight: 150
 url: /ar/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/style/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة للأنماط المحددة من قبل المستخدم (المخصصة)، ترجع هذه الخاصيةUser.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

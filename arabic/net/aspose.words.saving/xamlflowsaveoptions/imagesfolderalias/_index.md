@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words لمراجع .NET API
-description: XamlFlowSaveOptions ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند XAML. الافتراضي هو سلسلة فارغة.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words لـ .NET
+description: XamlFlowSaveOptions ImagesFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند XAML. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
 public string ImagesFolderAlias { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق XAML، يحتاج Aspose.Words إلى حفظ كافة الصور المضمنة في المستند كملفات مستقلة.[`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ImagesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
@@ -24,7 +26,7 @@ public string ImagesFolderAlias { get; set; }
 
 لو`ImagesFolderAlias` تم ضبطه على "." (نقطة)، فسيتم كتابة اسم ملف الصورة إلى XAML بدون مسار بغض النظر عن الخيارات الأخرى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
@@ -90,7 +92,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### أنظر أيضا
 
 * class [XamlFlowSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

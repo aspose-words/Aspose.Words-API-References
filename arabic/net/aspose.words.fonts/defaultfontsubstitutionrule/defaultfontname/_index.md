@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Aspose.Words لمراجع .NET API
-description: DefaultFontSubstitutionRule ملكية. الحصول على اسم الخط الافتراضي أو تعيينه.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words لـ .NET
+description: DefaultFontSubstitutionRule DefaultFontName ملكية. الحصول على اسم الخط الافتراضي أو تعيينه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
 public string DefaultFontName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي "تايمز نيو رومان".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين قاعدة استبدال الخط الافتراضية.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### أنظر أيضا
 
 * class [DefaultFontSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

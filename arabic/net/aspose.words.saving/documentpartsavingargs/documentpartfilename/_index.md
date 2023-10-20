@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPartSavingArgs ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ جزء المستند إليه.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words لـ .NET
+description: DocumentPartSavingArgs DocumentPartFileName ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ جزء المستند إليه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
 public string DocumentPartFileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات أجزاء المستند أثناء التصدير إلى HTML أو EPUB.
 
@@ -22,7 +24,7 @@ public string DocumentPartFileName { get; set; }
 
 `DocumentPartFileName` يجب أن يحتوي على اسم الملف فقط بدون المسار. يحدد Aspose.Words مسار الحفظ باستخدام اسم ملف المستند. إذا لم يتم تحديد اسم ملف مستند الإخراج ، على سبيل المثال عند الحفظ في دفق، فسيتم استخدام اسم الملف هذا فقط للإشارة إلى أجزاء المستند. وينطبق الشيء نفسه عند الحفظ بتنسيق EPUB.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### أنظر أيضا
 
 * class [DocumentPartSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../documentpartsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

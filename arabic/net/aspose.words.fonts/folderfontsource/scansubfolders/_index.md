@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.ScanSubfolders
-second_title: Aspose.Words لمراجع .NET API
-description: FolderFontSource ملكية. تحديد ما إذا كان سيتم فحص المجلدات الفرعية أم لا.
+linktitle: ScanSubfolders
+articleTitle: ScanSubfolders
+second_title: Aspose.Words لـ .NET
+description: FolderFontSource ScanSubfolders ملكية. تحديد ما إذا كان سيتم فحص المجلدات الفرعية أم لا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/folderfontsource/scansubfolders/
 public bool ScanSubfolders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### أنظر أيضا
 
 * class [FolderFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../folderfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

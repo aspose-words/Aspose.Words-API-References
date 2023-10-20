@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.StartNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FootnoteOptions ملكية. يحدد رقم البداية أو الحرف لأول الحواشي السفلية المرقمة تلقائيًا.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words لـ .NET
+description: FootnoteOptions StartNumber ملكية. يحدد رقم البداية أو الحرف لأول الحواشي السفلية المرقمة تلقائيًا في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.notes/footnoteoptions/startnumber/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/footnoteoptions/startnumber/
 public int StartNumber { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية لها تأثير فقط عندما[`RestartRule`](../restartrule/) تم ضبطه على Continuous.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين رقم يبدأ عنده المستند عدد الحواشي السفلية/التعليقات الختامية.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### أنظر أيضا
 
 * class [FootnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

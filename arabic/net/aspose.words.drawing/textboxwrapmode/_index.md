@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxWrapMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.TextBoxWrapMode تعداد. يحدد كيفية التفاف النص داخل الشكل.
+title: TextBoxWrapMode Enum
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.TextBoxWrapMode تعداد. يحدد كيفية التفاف النص داخل الشكل في C#.
 type: docs
 weight: 1340
 url: /ar/net/aspose.words.drawing/textboxwrapmode/
@@ -21,7 +23,7 @@ public enum TextBoxWrapMode
 | Square | `0` | يلتف النص داخل الشكل. |
 | None | `2` | عدم التفاف النص داخل الشكل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين وضع الالتفاف لمحتويات مربع النص.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

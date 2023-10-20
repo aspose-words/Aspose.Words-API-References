@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientDataCollection طريقة. إزالة العنصر الموجود في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientDataCollection RemoveAt طريقة. إزالة العنصر الموجود في الفهرس المحدد في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري للعنصر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

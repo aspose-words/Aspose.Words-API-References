@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetById
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection طريقة. إرجاع علامة المستند المنظمة حسب المعرف.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagCollection GetById طريقة. إرجاع علامة المستند المنظمة حسب المعرف في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetById(int id)
 | --- | --- | --- |
 | id | Int32 | معرف علامة الوثيقة المنظمة. |
 
-### ملاحظات
+## ملاحظات
 
 يُرجع قيمة فارغة إذا تعذر العثور على علامة المستند المنظمة ذات المعرف المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على علامة المستند المنظمة.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

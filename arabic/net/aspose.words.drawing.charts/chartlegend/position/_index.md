@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Aspose.Words لمراجع .NET API
-description: ChartLegend ملكية. يحدد موضع وسيلة الإيضاح على المخطط. القيمة الافتراضية هيRight .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words لـ .NET
+description: ChartLegend Position ملكية. يحدد موضع وسيلة الإيضاح على المخطط. القيمة الافتراضية هيRight  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartlegend/position/
 public LegendPosition Position { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

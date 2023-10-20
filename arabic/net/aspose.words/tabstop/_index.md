@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TabStop فصل. يمثل علامة تبويب مخصصة واحدة. الTabStopالكائن عضو في the TabStopCollection المجموعة.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TabStop فصل. يمثل علامة تبويب مخصصة واحدة. الTabStopالكائن عضو في the TabStopCollection المجموعة في C#.
 type: docs
 weight: 6200
 url: /ar/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | اسم | وصف |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | تهيئة مثيل جديد لهذه الفئة. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | تهيئة مثيل جديد لهذه الفئة. |
+| [TabStop](tabstop/#constructor)(*double*) | تهيئة مثيل جديد لهذه الفئة. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | يقارن مع المحدد`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | يقارن مع المحدد`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | حساب رمز التجزئة لهذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 عادةً، تحدد علامة الجدولة الموضع الذي توجد فيه علامة الجدولة. ولكن نظرًا لأنه يمكن وراثة علامات الجدولة من الأنماط الأصلية، فقد يكون من الضروري أن يحدد الكائن التابع object بشكل صريح أنه لا توجد علامة جدولة في موضع معين. لمسح علامة جدولة موروثة عند موضع معين، قم بإنشاء ملف`TabStop` الكائن وset [`Alignment`](./alignment/) لClear.
 
 لمزيد من المعلومات، راجع[`TabStopCollection`](../tabstopcollection/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

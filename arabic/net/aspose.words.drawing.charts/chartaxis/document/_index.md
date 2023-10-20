@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Document
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع المستند الذي ينتمي إليه حامل العنوان.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: ChartAxis Document ملكية. إرجاع المستند الذي ينتمي إليه حامل العنوان في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartaxis/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

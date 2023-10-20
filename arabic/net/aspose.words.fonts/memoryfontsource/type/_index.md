@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Aspose.Words لمراجع .NET API
-description: MemoryFontSource ملكية. إرجاع نوع مصدر الخط.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: MemoryFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/memoryfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../memoryfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

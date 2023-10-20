@@ -1,7 +1,9 @@
 ---
 title: Font.DoubleStrikeThrough
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط مزدوج.
+linktitle: DoubleStrikeThrough
+articleTitle: DoubleStrikeThrough
+second_title: Aspose.Words لـ .NET
+description: Font DoubleStrikeThrough ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط مزدوج في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/font/doublestrikethrough/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/doublestrikethrough/
 public bool DoubleStrikeThrough { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة خط يتوسطه خط إلى النص.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Font.StrikeThrough.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

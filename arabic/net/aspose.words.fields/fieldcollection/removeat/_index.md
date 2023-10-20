@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: FieldCollection RemoveAt طريقة. إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | فهرس في المجموعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحقول من مجموعة الحقول.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, fields.Count);
 ### أنظر أيضا
 
 * class [FieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

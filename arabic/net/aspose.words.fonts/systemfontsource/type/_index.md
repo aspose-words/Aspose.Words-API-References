@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Aspose.Words لمراجع .NET API
-description: SystemFontSource ملكية. إرجاع نوع مصدر الخط.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: SystemFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/systemfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../systemfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

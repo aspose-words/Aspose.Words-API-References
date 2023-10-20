@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfo ملكية. يُرجع نوع التحذير.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words لـ .NET
+description: WarningInfo WarningType ملكية. يُرجع نوع التحذير في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/warninginfo/warningtype/
 public WarningType WarningType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* مساحة الاسم [Aspose.Words](../../warninginfo/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

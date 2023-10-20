@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode ملكية. الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode PosCodeStyle ملكية. الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل DISPLAYBARCODE وتعيين خصائصه.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfo ملكية. إرجاع مصدر التحذير.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words لـ .NET
+description: WarningInfo Source ملكية. إرجاع مصدر التحذير في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* مساحة الاسم [Aspose.Words](../../warninginfo/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

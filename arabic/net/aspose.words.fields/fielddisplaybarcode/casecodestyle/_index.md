@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode ملكية. الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode CaseCodeStyle ملكية. الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي STDEXTADD في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 public string CaseCodeStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل DISPLAYBARCODE وتعيين خصائصه.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

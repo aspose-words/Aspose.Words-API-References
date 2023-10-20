@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. إرجاع مصفوفة من كافة علامات الجدولة المطبقة على هذه الفقرة بما في ذلك المطبقة بشكل غير مباشر بواسطة الأنماط أو القوائم.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words لـ .NET
+description: Paragraph GetEffectiveTabStops طريقة. إرجاع مصفوفة من كافة علامات الجدولة المطبقة على هذه الفقرة بما في ذلك المطبقة بشكل غير مباشر بواسطة الأنماط أو القوائم في C#.
 type: docs
-weight: 270
+weight: 250
 url: /ar/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/geteffectivetabstops/
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين علامات جدولة مخصصة للفقرة.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

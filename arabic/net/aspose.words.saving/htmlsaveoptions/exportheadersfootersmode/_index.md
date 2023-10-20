@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد كيفية إخراج الرؤوس والتذييلات إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيPerSection لـ HTML/MHTML وNone لـ EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportHeadersFootersMode ملكية. يحدد كيفية إخراج الرؤوس والتذييلات إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيPerSection لـ HTML/MHTML وNone لـ EPUB في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 من الصعب إخراج الرؤوس والتذييلات إلى HTML بشكل مفيد لأن HTML غير مرقّم.
 
@@ -24,7 +26,7 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 يمكنك تعطيل تصدير الرؤوس والتذييلات تمامًا عن طريق تعيين هذه الخاصية property علىNone.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف الرؤوس/التذييلات عند حفظ مستند إلى HTML.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

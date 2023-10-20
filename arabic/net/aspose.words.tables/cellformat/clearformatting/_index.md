@@ -1,9 +1,11 @@
 ---
 title: CellFormat.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat طريقة. إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: CellFormat ClearFormatting طريقة. إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية في C#.
 type: docs
-weight: 160
+weight: 150
 url: /ar/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج الصفوف من جدولين في جدول واحد.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

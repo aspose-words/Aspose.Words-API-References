@@ -1,12 +1,14 @@
 ---
 title: CustomXmlPartCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPartCollection طريقة. إضافة عنصر إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPartCollection Add طريقة. إضافة عنصر إلى المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/customxmlpartcollection/add/
 ---
-## Add(CustomXmlPart) {#add_1}
+## Add(*[CustomXmlPart](../../customxmlpart/)*) {#add_1}
 
 إضافة عنصر إلى المجموعة.
 
@@ -18,7 +20,7 @@ public void Add(CustomXmlPart part)
 | --- | --- | --- |
 | part | CustomXmlPart | جزء XML المخصص المراد إضافته. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -86,12 +88,12 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, string) {#add}
+## Add(*string, string*) {#add}
 
 إنشاء جزء XML جديد باستخدام XML المحدد وإضافته إلى المجموعة.
 
@@ -108,7 +110,7 @@ public CustomXmlPart Add(string id, string xml)
 
 تم إنشاء جزء XML مخصص.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -176,7 +178,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

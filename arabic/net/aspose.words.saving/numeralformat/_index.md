@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.NumeralFormat تعداد. يشير إلى مجموعة الرموز المستخدمة لتمثيل أرقام أثناء العرض إلى تنسيقات الصفحات الثابتة.
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.NumeralFormat تعداد. يشير إلى مجموعة الرموز المستخدمة لتمثيل أرقام أثناء العرض إلى تنسيقات الصفحات الثابتة في C#.
 type: docs
 weight: 5310
 url: /ar/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | يتم تحديد مجموعة الرموز من السياق (اللغة المحلية وخاصية RTL). |
 | System | `4` | هذا الخيار غير مدعوم. يتم تحديد مجموعة الرموز من الإعدادات الإقليمية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التنسيق الرقمي المستخدم عند الحفظ إلى PDF.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

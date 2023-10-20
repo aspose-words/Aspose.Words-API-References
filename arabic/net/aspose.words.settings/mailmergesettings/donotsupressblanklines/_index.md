@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد كيفية تعامل التطبيق الذي يقوم بدمج المراسلات مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج المراسلات. القيمة الافتراضية هيخطأ شنيع .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings DoNotSupressBlankLines ملكية. يحدد كيفية تعامل التطبيق الذي يقوم بدمج المراسلات مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج المراسلات. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

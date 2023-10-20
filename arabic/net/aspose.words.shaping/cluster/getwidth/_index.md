@@ -1,7 +1,9 @@
 ---
 title: Cluster.GetWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Cluster طريقة. إرجاع عرض المجموعة.
+linktitle: GetWidth
+articleTitle: GetWidth
+second_title: Aspose.Words لـ .NET
+description: Cluster GetWidth طريقة. إرجاع عرض المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.shaping/cluster/getwidth/
@@ -17,7 +19,5 @@ public float GetWidth(int em, float fontSize)
 ### أنظر أيضا
 
 * class [Cluster](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../cluster/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

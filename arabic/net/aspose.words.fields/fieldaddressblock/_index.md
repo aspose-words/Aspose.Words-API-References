@@ -1,7 +1,9 @@
 ---
-title: Class FieldAddressBlock
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldAddressBlock فصل. ينفذ حقل ADDRESSBLOCK.
+title: FieldAddressBlock Class
+linktitle: FieldAddressBlock
+articleTitle: FieldAddressBlock
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldAddressBlock فصل. ينفذ حقل ADDRESSBLOCK في C#.
 type: docs
 weight: 1530
 url: /ar/net/aspose.words.fields/fieldaddressblock/
@@ -47,18 +49,18 @@ public class FieldAddressBlock : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [GetFieldNames](../../aspose.words.fields/fieldaddressblock/getfieldnames/)() | إرجاع مجموعة من أسماء حقول دمج المراسلات المستخدمة بواسطة الحقل. |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 يمثل كتلة عنوان. انكتلة العنوانعبارة عن كتلة نصية تحدد المعلومات المناسبة لعنوان بريدي، بالترتيب المطلوب حسب بلد الوجهة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على أسماء حقول دمج البريد التي يستخدمها الحقل.
 
@@ -80,5 +82,3 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoving
-second_title: Aspose.Words لمراجع .NET API
-description: INodeChangingCallback طريقة. يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك الإزالة من المستند.
+linktitle: NodeRemoving
+articleTitle: NodeRemoving
+second_title: Aspose.Words لـ .NET
+description: INodeChangingCallback NodeRemoving طريقة. يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك الإزالة من المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/inodechangingcallback/noderemoving/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inodechangingcallback/noderemoving/
 public void NodeRemoving(NodeChangingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* مساحة الاسم [Aspose.Words](../../inodechangingcallback/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

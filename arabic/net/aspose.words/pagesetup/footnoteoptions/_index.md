@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FootnoteOptions
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا القسم.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words لـ .NET
+description: PageSetup FootnoteOptions ملكية. يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا القسم في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/pagesetup/footnoteoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/footnoteoptions/
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الخيارات التي تؤثر على الحواشي السفلية/التعليقات الختامية في القسم.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Ole.Forms2OleControl فصل. يمثل عنصر تحكم OLE لـ Microsoft Forms 2.0.
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControl فصل. يمثل عنصر تحكم OLE لـ Microsoft Forms 2.0 في C#.
 type: docs
 weight: 1110
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | الحصول على نوع التحكم في Forms 2.0. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | يحصل على خاصية القيمة الأساسية التي غالبًا ما تمثل حالة التحكم. على سبيل المثال، يحتوي زر الخيار المحدد على القيمة "1" بينما يحتوي زر الخيار غير المحدد على "0". القيمة الافتراضية هي سلسلة فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * مساحة الاسم [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../)
-
-

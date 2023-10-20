@@ -1,7 +1,9 @@
 ---
-title: Enum OoxmlCompliance
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.OoxmlCompliance تعداد. يسمح بتحديد مواصفات OOXML التي سيتم استخدامها عند الحفظ بتنسيق DOCX.
+title: OoxmlCompliance Enum
+linktitle: OoxmlCompliance
+articleTitle: OoxmlCompliance
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.OoxmlCompliance تعداد. يسمح بتحديد مواصفات OOXML التي سيتم استخدامها عند الحفظ بتنسيق DOCX في C#.
 type: docs
 weight: 5340
 url: /ar/net/aspose.words.saving/ooxmlcompliance/
@@ -22,7 +24,7 @@ public enum OoxmlCompliance
 | Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 مستوى الامتثال الانتقالي. |
 | Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 مستوى الامتثال الصارم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أشكال DML في مستند.
 
@@ -114,5 +116,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

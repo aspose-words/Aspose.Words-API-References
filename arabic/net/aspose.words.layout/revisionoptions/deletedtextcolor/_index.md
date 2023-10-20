@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextColor
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى المحذوفDeletion . القيمة الافتراضية هيByAuthor .
+linktitle: DeletedTextColor
+articleTitle: DeletedTextColor
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions DeletedTextColor ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى المحذوفDeletion . القيمة الافتراضية هيByAuthor  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/revisionoptions/deletedtextcolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/deletedtextcolor/
 public RevisionColor DeletedTextColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

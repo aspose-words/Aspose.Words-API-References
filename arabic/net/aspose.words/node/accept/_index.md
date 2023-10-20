@@ -1,7 +1,9 @@
 ---
 title: Node.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Node Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/node/accept/
@@ -22,13 +24,13 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
 
@@ -225,7 +227,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

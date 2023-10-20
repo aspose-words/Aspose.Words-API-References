@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. إرجاع أBookmarks المجموعة التي تمثل جميع الإشارات المرجعية في النطاق.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words لـ .NET
+description: Range Bookmarks ملكية. إرجاع أBookmarks المجموعة التي تمثل جميع الإشارات المرجعية في النطاق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/range/bookmarks/
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

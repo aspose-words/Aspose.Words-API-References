@@ -1,7 +1,9 @@
 ---
 title: CustomPart.ContentType
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. يحدد نوع محتوى هذا الجزء المخصص.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words لـ .NET
+description: CustomPart ContentType ملكية. يحدد نوع محتوى هذا الجزء المخصص في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/custompart/contenttype/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/custompart/contenttype/
 public string ContentType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية قابلة للتطبيق فقط عندما[`IsExternal`](../isexternal/) يكون`خطأ شنيع`.
 
 القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة عبارة عن سلسلة غير فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

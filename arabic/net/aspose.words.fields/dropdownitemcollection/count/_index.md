@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/dropdownitemcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/dropdownitemcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

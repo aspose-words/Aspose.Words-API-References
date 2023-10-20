@@ -1,7 +1,9 @@
 ---
-title: Enum ShadowType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ShadowType تعداد. يحدد نوع ظل الشكل.
+title: ShadowType Enum
+linktitle: ShadowType
+articleTitle: ShadowType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ShadowType تعداد. يحدد نوع ظل الشكل في C#.
 type: docs
 weight: 1240
 url: /ar/net/aspose.words.drawing/shadowtype/
@@ -63,11 +65,11 @@ public enum ShadowType
 | Shadow8 | `8` | نوع الظل الثامن. |
 | Shadow9 | `9` | نوع الظل التاسع. |
 
-### ملاحظات
+## ملاحظات
 
 ShadowType ليس سمة بسيطة، ولكنه إعداد مسبق يقوم بتعيين عدة سمات في وقت واحد والتي تشكل مظهر الظل .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع تنسيق الظل للشكل.
 
@@ -86,5 +88,3 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

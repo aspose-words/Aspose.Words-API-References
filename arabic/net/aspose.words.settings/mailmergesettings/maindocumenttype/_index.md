@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. تحديد نوع المستند الرئيسي لدمج المراسلات. القيمة الافتراضية هيDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings MainDocumentType ملكية. تحديد نوع المستند الرئيسي لدمج المراسلات. القيمة الافتراضية هيDefault  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 المستند الرئيسي هو المستند الذي يحتوي على المعلومات نفسها لكل إصدار من المستند المدمج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يحصل على اسم ملف الخط الأصلي بامتداد.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs OriginalFileName ملكية. يحصل على اسم ملف الخط الأصلي بامتداد في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/fontsavingargs/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي هذه الخاصية على اسم الملف الأصلي للخط الحالي إذا كان معروفًا. وإلا فإنه يمكن أن يكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

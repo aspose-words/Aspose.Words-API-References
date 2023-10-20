@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorder
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. يضبط حدود الجدول المحدد على نمط الخط المحدد والعرض واللون.
+linktitle: SetBorder
+articleTitle: SetBorder
+second_title: Aspose.Words لـ .NET
+description: Table SetBorder طريقة. يضبط حدود الجدول المحدد على نمط الخط المحدد والعرض واللون في C#.
 type: docs
-weight: 430
+weight: 410
 url: /ar/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
@@ -23,7 +25,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | color | Color | اللون الذي سيتم استخدامه للحدود. |
 | isOverrideCellBorders | Boolean | متى`حقيقي`، يؤدي إلى إزالة كافة حدود الخلايا الصريحة الموجودة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 * enum [BorderType](../../../aspose.words/bordertype/)
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

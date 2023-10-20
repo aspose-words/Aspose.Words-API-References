@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreak
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف فاصل الصفحات x000c أو f. لاحظ أن لها نفس القيمةSectionBreak .
+linktitle: PageBreak
+articleTitle: PageBreak
+second_title: Aspose.Words لـ .NET
+description: ControlChar PageBreak مجال. حرف فاصل الصفحات x000c أو f. لاحظ أن لها نفس القيمةSectionBreak  في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/controlchar/pagebreak/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/pagebreak/
 public static readonly string PageBreak;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

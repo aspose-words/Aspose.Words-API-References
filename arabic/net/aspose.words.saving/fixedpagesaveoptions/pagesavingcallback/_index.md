@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: FixedPageSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الصفحات المنفصلة عند تصدير مستند إلى تنسيق صفحة ثابت.
+linktitle: PageSavingCallback
+articleTitle: PageSavingCallback
+second_title: Aspose.Words لـ .NET
+description: FixedPageSaveOptions PageSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ الصفحات المنفصلة عند تصدير مستند إلى تنسيق صفحة ثابت في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. الحصول على العقدة التي تحتوي على بداية المباراة.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words لـ .NET
+description: ReplacingArgs MatchNode ملكية. الحصول على العقدة التي تحتوي على بداية المباراة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/replacingargs/matchnode/
 public Node MatchNode { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../replacingargs/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

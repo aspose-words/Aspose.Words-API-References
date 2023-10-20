@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين مسارات قوالب MS Word المضمنة.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words لـ .NET
+description: FieldOptions BuiltInTemplatesPaths ملكية. الحصول على أو تعيين مسارات قوالب MS Word المضمنة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذه الخاصية من قبل[`FieldAutoText`](../../fieldautotext/) و[`FieldGlossary`](../../fieldglossary/) الحقول، إذا لم يتم العثور على إدخال النص التلقائي المشار إليه في[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) نموذج.
 
 افتراضيًا، يقوم برنامج MS Word بتخزين القوالب المضمنة في c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ ملفات AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي النص التلقائي والمسرد.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

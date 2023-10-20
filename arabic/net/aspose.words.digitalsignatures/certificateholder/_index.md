@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DigitalSignatures.CertificateHolder فصل. يمثل صاحب شهادة X5092 المثال.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.DigitalSignatures.CertificateHolder فصل. يمثل صاحبشهادة X5092 المثال في C#.
 type: docs
 weight: 370
 url: /ar/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-يمثل صاحب **شهادة X5092** المثال.
+يمثل صاحب**شهادة X5092** المثال.
 
 لمعرفة المزيد، قم بزيارة[العمل مع التوقيعات الرقمية](https://docs.aspose.com/words/net/working-with-digital-signatures/) مقالة توثيقية.
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | اسم | وصف |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | إرجاع مثيل **شهادة X5092** الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | إرجاع مثيل**شهادة X5092** الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | ينشئ`CertificateHolder` كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | ينشئ`CertificateHolder` كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | ينشئ`CertificateHolder` كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | ينشئ`CertificateHolder` كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به والاسم المستعار باستخدام المفتاح الخاص والشهادة التي سيتم العثور عليها. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | ينشئ`CertificateHolder` كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | ينشئ`CertificateHolder` كائن يستخدم مصفوفة بايت من متجر PKCS12 وكلمة المرور الخاصة به. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | ينشئ`CertificateHolder` كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | ينشئ`CertificateHolder` كائن يستخدم المسار إلى متجر PKCS12 وكلمة المرور الخاصة به والاسم المستعار باستخدام المفتاح الخاص والشهادة التي سيتم العثور عليها. |
 
-### ملاحظات
+## ملاحظات
 
-`CertificateHolder` يمكن إنشاؤها بطرق المصنع الثابتة فقط. يحتوي على مثيل لـ **شهادة X5092** والذي يستخدم لإدخال المفاتيح الخاصة والعامة وسلاسل الشهادات في النظام. يتم تطبيق هذه الفئة في[`DigitalSignatureUtil`](../digitalsignatureutil/) و[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) بدلاً من الأساليب القديمة مع X509Certificate2 كمعلمات.
+`CertificateHolder` يمكن إنشاؤها بطرق المصنع الثابتة فقط. يحتوي على مثيل لـ**شهادة X5092** والذي يستخدم لإدخال المفاتيح الخاصة والعامة وسلاسل الشهادات في النظام. يتم تطبيق هذه الفئة في[`DigitalSignatureUtil`](../digitalsignatureutil/) و[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) بدلاً من الأساليب القديمة مع X509Certificate2 كمعلمات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع ملف المستند المشفر.
 
@@ -197,5 +199,3 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 * مساحة الاسم [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../)
-
-

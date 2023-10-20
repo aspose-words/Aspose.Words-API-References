@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.DefaultResponse
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAsk ملكية. الحصول على استجابة المستخدم الافتراضية أو تعيينها القيمة الأولية الموجودة في نافذة المطالبة.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words لـ .NET
+description: FieldAsk DefaultResponse ملكية. الحصول على استجابة المستخدم الافتراضية أو تعيينها القيمة الأولية الموجودة في نافذة المطالبة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldask/defaultresponse/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldask/defaultresponse/
 public string DefaultResponse { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * class [FieldAsk](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldask/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

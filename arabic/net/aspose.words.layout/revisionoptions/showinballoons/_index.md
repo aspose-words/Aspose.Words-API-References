@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد ما إذا كان سيتم عرض المراجعات في البالونات أم لا. القيمة الافتراضية هيNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions ShowInBalloons ملكية. يسمح بتحديد ما إذا كان سيتم عرض المراجعات في البالونات أم لا. القيمة الافتراضية هيNone  في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/revisionoptions/showinballoons/
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه لا يتم عرض المراجعات في بالوناتShowInAnnotations .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض المراجعات في البالونات.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

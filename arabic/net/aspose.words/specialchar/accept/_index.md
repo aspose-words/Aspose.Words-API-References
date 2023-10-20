@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: SpecialChar طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: SpecialChar Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/specialchar/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 `خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
@@ -32,7 +34,5 @@ public override bool Accept(DocumentVisitor visitor)
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* مساحة الاسم [Aspose.Words](../../specialchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

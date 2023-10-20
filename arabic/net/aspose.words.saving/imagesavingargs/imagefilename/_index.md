@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageFileName
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ الصورة.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words لـ .NET
+description: ImageSavingArgs ImageFileName ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ الصورة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/imagesavingargs/imagefilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesavingargs/imagefilename/
 public string ImageFileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الصور أثناء التصدير إلى HTML.
 
@@ -28,7 +30,7 @@ public string ImageFileName { get; set; }
 
 `ImageFileName` يجب أن يحتوي فقط على اسم الملف بدون المسار. يحدد Aspose.Words مسار الحفظ وقيمة الملف`src` سمة لكتابة إلى HTML باستخدام اسم ملف المستند،[`ImagesFolder`](../../htmlsaveoptions/imagesfolder/) و [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias/) ملكيات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -145,7 +147,5 @@ public class SavedImageRename : IImageSavingCallback
 ### أنظر أيضا
 
 * class [ImageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

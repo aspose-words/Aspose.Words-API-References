@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. يحدد التنسيق الذي سيتم به حفظ صفحات أو أشكال المستند المقدمة إذا تم استخدام كائن خيارات الحفظ هذا. يمكن أن يكون raster Tiff Png BmpJpeg أو ناقلاتEmf EpsSvg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم به حفظ صفحات أو أشكال المستند المقدمة إذا تم استخدام كائن خيارات الحفظ هذا. يمكن أن يكون raster Tiff Png BmpJpeg أو ناقلاتEmf EpsSvg  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.saving/imagesaveoptions/saveformat/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعتمد عدد الخيارات الأخرى على التنسيق المحدد.
 
 ومن الممكن أيضًا الحفظ إلى SVG عبر كليهما[`ImageSaveOptions`](../) وعبر[`SvgSaveOptions`](../../svgsaveoptions/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير الصورة بينما يقوم Aspose.Words بتحويل مستند إلى مستند.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

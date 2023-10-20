@@ -1,7 +1,9 @@
 ---
 title: FieldSubject.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSubject ملكية. الحصول على نص الموضوع أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldSubject Text ملكية. الحصول على نص الموضوع أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldsubject/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsubject/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل SUBJECT.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ### أنظر أيضا
 
 * class [FieldSubject](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsubject/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

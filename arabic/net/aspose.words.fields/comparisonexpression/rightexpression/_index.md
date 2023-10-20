@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Aspose.Words لمراجع .NET API
-description: ComparisonExpression ملكية. الحصول على التعبير الصحيح.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words لـ .NET
+description: ComparisonExpression RightExpression ملكية. الحصول على التعبير الصحيح في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/comparisonexpression/rightexpression/
 public string RightExpression { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### أنظر أيضا
 
 * class [ComparisonExpression](../)
-* مساحة الاسم [Aspose.Words.Fields](../../comparisonexpression/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

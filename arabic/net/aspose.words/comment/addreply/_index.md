@@ -1,9 +1,11 @@
 ---
 title: Comment.AddReply
-second_title: Aspose.Words لمراجع .NET API
-description: Comment طريقة. إضافة رد على هذا التعليق.
+linktitle: AddReply
+articleTitle: AddReply
+second_title: Aspose.Words لـ .NET
+description: Comment AddReply طريقة. إضافة رد على هذا التعليق في C#.
 type: docs
-weight: 150
+weight: 120
 url: /ar/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
@@ -25,11 +27,11 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 الذي تم إنشاؤه[`Comment`](../) عقدة للرد.
 
-### ملاحظات
+## ملاحظات
 
 نظرًا لقيود MS Office الحالية، يُسمح بمستوى واحد فقط من الردود في المستند. استثناء من النوعInvalidOperationException سيتم رفعه إذا تم استدعاء هذه الطريقة على تعليق الرد الموجود.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة تعليق إلى مستند، ثم الرد عليه.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.Save
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words لـ .NET
+description: Document Save طريقة. يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد في C#.
 type: docs
-weight: 720
+weight: 700
 url: /ar/net/aspose.words/document/save/
 ---
-## Save(string) {#save_2}
+## Save(*string*) {#save_2}
 
 يحفظ المستند في ملف. يحدد تنسيق الحفظ تلقائيًا من الامتداد.
 
@@ -22,7 +24,7 @@ public SaveOutputParameters Save(string fileName)
 
 معلومات إضافية يمكنك استخدامها اختياريًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح مستند وتحويله إلى .PDF.
 
@@ -52,12 +54,12 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveFormat) {#save_3}
+## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
 يحفظ المستند في ملف بالتنسيق المحدد.
 
@@ -74,7 +76,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 معلومات إضافية يمكنك استخدامها اختياريًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحويل من تنسيق DOCX إلى تنسيق HTML.
 
@@ -89,12 +91,12 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_4}
+## Save(*string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_4}
 
 يحفظ المستند في ملف باستخدام خيارات الحفظ المحددة.
 
@@ -111,7 +113,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 معلومات إضافية يمكنك استخدامها اختياريًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحسين جودة المستند المعروض باستخدام SaveOptions.
 
@@ -296,12 +298,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveFormat) {#save}
+## Save(*Stream, [SaveFormat](../../saveformat/)*) {#save}
 
 يحفظ المستند في دفق باستخدام التنسيق المحدد.
 
@@ -318,7 +320,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 معلومات إضافية يمكنك استخدامها اختياريًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند في الدفق.
 
@@ -388,12 +390,12 @@ Document doc = new Document();
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_1}
+## Save(*Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_1}
 
 يحفظ المستند في دفق باستخدام خيارات الحفظ المحددة.
 
@@ -410,7 +412,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 معلومات إضافية يمكنك استخدامها اختياريًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل بعض الصفحات فقط في مستند إلى PDF.
 
@@ -443,12 +445,12 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
+## Save(*HttpResponse, string, [ContentDisposition](../../contentdisposition/), [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_5}
 
 يرسل المستند إلى متصفح العميل.
 
@@ -468,11 +470,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 معلومات إضافية يمكنك استخدامها اختياريًا.
 
-### ملاحظات
+## ملاحظات
 
 داخليًا، تقوم هذه الطريقة بالحفظ في دفق الذاكرة أولاً ثم نسخها إلى دفق الاستجابة لأن دفق الاستجابة لا يدعم البحث.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد، ثم حفظ المستند في مستعرض العميل.
 
@@ -505,7 +507,5 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 * enum [ContentDisposition](../../contentdisposition/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

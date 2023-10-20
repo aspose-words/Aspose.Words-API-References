@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. إرجاعحقيقي إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة هو الاتجاه الأفقي.
+linktitle: Landscape
+articleTitle: Landscape
+second_title: Aspose.Words لـ .NET
+description: PageInfo Landscape ملكية. إرجاعحقيقي إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة هو الاتجاه الأفقي في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/pageinfo/landscape/
 public bool Landscape { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### أنظر أيضا
 
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

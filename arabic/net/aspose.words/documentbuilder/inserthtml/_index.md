@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج سلسلة HTML في المستند.
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertHtml طريقة. إدراج سلسلة HTML في المستند في C#.
 type: docs
-weight: 360
+weight: 350
 url: /ar/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 إدراج سلسلة HTML في المستند.
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | سلسلة HTML لإدراجها في المستند. |
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام هذه الطريقة لإدراج جزء HTML أو مستند HTML بأكمله.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام منشئ المستندات لإدراج محتوى html في المستند.
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 إدراج سلسلة HTML في المستند.
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | سلسلة HTML لإدراجها في المستند. |
 | useBuilderFormatting | Boolean | قيمة تشير إلى ما إذا كان التنسيق محددًا أم لا[`DocumentBuilder`](../) يتم استخدام كتنسيق أساسي للنص المستورد من HTML. |
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام هذه الطريقة لإدراج جزء HTML أو مستند HTML بأكمله.
 
@@ -148,7 +150,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 متى*useBuilderFormatting* يكون`حقيقي` ، يعتمد تنسيق النص المدرج[`DocumentBuilder`](../) التنسيق، ويبدو النص كما لو تم إدراجه به[`Write`](../write/) .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق أداة إنشاء المستندات أثناء إدراج محتوى HTML.
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 يقوم بإدراج سلسلة HTML في المستند. يسمح بتحديد خيارات إضافية.
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | سلسلة HTML لإدراجها في المستند. |
 | options | HtmlInsertOptions | الخيارات التي يتم استخدامها عند إدراج سلسلة HTML. |
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام هذه الطريقة لإدراج جزء HTML أو مستند HTML بأكمله.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الخيارات أثناء إدراج HTML.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.LineNumberRestartMode تعداد. تحديد وقت إعادة تشغيل ترقيم الأسطر التلقائي.
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.LineNumberRestartMode تعداد. تحديد وقت إعادة تشغيل ترقيم الأسطر التلقائي في C#.
 type: docs
 weight: 3430
 url: /ar/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | تتم إعادة تشغيل ترقيم الأسطر عند بداية القسم. |
 | Continuous | `2` | ترقيم الأسطر مستمر من القسم السابق. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين ترقيم الأسطر لقسم ما.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

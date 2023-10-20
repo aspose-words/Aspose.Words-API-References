@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevelCollection طريقة. الحصول على كائن العداد الذي سيقوم بتعداد المستويات في هذه القائمة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ListLevelCollection GetEnumerator طريقة. الحصول على كائن العداد الذي سيقوم بتعداد المستويات في هذه القائمة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listlevelcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevelcollection/getenumerator/
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا متقدمة لتخصيص تسميات القائمة.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevelcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

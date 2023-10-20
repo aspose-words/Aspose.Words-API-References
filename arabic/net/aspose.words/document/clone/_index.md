@@ -1,9 +1,11 @@
 ---
 title: Document.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. إجراء نسخة عميقة من ملفDocument .
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: Document Clone طريقة. إجراء نسخة عميقة من ملفDocument  في C#.
 type: docs
-weight: 570
+weight: 550
 url: /ar/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
@@ -18,7 +20,7 @@ public Document Clone()
 
 الوثيقة المستنسخة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استنساخ مستند بعمق.
 
@@ -41,7 +43,5 @@ Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

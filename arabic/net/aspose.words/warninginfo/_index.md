@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WarningInfo فصل. يحتوي على معلومات حول التحذير الذي أصدره Aspose.Words أثناء تحميل المستند أو حفظه.
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WarningInfo فصل. يحتوي على معلومات حول التحذير الذي أصدره Aspose.Words أثناء تحميل المستند أو حفظه في C#.
 type: docs
 weight: 6630
 url: /ar/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | إرجاع مصدر التحذير. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | يُرجع نوع التحذير. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات هذه الفئة. يتم إنشاء كائنات هذه الفئة وتمريرها بواسطة Aspose.Words إلى ملف[`Warning`](../iwarningcallback/warning/) طريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

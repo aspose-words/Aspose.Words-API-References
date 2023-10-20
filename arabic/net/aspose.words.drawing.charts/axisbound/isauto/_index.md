@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Aspose.Words لمراجع .NET API
-description: AxisBound ملكية. إرجاع علامة تشير إلى أنه يجب تحديد حدود المحور تلقائيًا.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words لـ .NET
+description: AxisBound IsAuto ملكية. إرجاع علامة تشير إلى أنه يجب تحديد حدود المحور تلقائيًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/axisbound/isauto/
 public bool IsAuto { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين حدود المحور المخصصة.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### أنظر أيضا
 
 * class [AxisBound](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisbound/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين خط السمة في نظام الخطوط المطبق المرتبط بهذاFont object في مستند لغة من اليمين إلى اليسار.
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words لـ .NET
+description: Font ThemeFontBi ملكية. الحصول على أو تعيين خط السمة في نظام الخطوط المطبق المرتبط بهذاFont object في مستند لغة من اليمين إلى اليسار في C#.
 type: docs
 weight: 490
 url: /ar/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/themefontbi/
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خطوط وألوان السمات.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

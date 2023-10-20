@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Font فصل. يحتوي على سمات الخط اسم الخط وحجم الخط واللون وما إلى ذلك لكائن ما.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Font فصل. يحتوي على سمات الخط اسم الخط وحجم الخط واللون وما إلى ذلك لكائن ما في C#.
 type: docs
 weight: 2830
 url: /ar/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | إعادة التعيين إلى تنسيق الخط الافتراضي. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | للتحقق من تطبيق تأثير نص معين لـ DrawML. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | للتحقق من تطبيق تأثير نص معين لـ DrawML. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات لـ`Font`الصف مباشرة. أنت فقط تستخدم `Font` للوصول إلى خصائص الخط للكائنات المختلفة مثل[`Run`](../run/)[`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

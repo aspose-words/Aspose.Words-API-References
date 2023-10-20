@@ -1,7 +1,9 @@
 ---
 title: Border.LineWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على أو تعيين عرض الحدود بالنقاط.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words لـ .NET
+description: Border LineWidth ملكية. الحصول على أو تعيين عرض الحدود بالنقاط في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/border/linewidth/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/border/linewidth/
 public double LineWidth { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بتعيين عرض الخط أكبر من الصفر عندما يكون نمط الخط بلا شيء، فسيتم تغيير نمط الخط is تلقائيًا إلى سطر واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

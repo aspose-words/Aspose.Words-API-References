@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureUtil طريقة. إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة.
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureUtil RemoveAllSignatures طريقة. إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة.
 
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignat
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة التوقيعات الرقمية من مستند موقع رقميًا.
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### أنظر أيضا
 
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 إزالة كافة التوقيعات الرقمية من المستند في التدفق المصدر وكتابة المستند غير الموقع إلى التدفق الوجهة.
 
@@ -61,7 +63,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة التوقيعات الرقمية من مستند موقع رقميًا.
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### أنظر أيضا
 
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

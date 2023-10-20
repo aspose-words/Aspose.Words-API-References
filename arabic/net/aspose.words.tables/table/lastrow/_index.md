@@ -1,7 +1,9 @@
 ---
 title: Table.LastRow
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. إرجاع الأخيرRow العقدة في الجدول.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words لـ .NET
+description: Table LastRow ملكية. إرجاع الأخيرRow العقدة في الجدول في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.tables/table/lastrow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/lastrow/
 public Row LastRow { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [Row](../../row/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

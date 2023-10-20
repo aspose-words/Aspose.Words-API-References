@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldincludetext/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludetext/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDETEXT وتعيين خصائصه.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

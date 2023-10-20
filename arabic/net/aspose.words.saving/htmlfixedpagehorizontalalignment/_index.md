@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlFixedPageHorizontalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment تعداد. يحدد المحاذاة الأفقية للصفحات في مستند HTML الناتج.
+title: HtmlFixedPageHorizontalAlignment Enum
+linktitle: HtmlFixedPageHorizontalAlignment
+articleTitle: HtmlFixedPageHorizontalAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment تعداد. يحدد المحاذاة الأفقية للصفحات في مستند HTML الناتج في C#.
 type: docs
 weight: 5070
 url: /ar/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
@@ -22,7 +24,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Center | `1` | صفحات المركز. هذه هي القيمة الافتراضية. |
 | Right | `2` | محاذاة الصفحات إلى اليمين. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط المحاذاة الأفقية للصفحات عند حفظ مستند بتنسيق HTML.
 
@@ -59,5 +61,3 @@ switch (pageHorizontalAlignment)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

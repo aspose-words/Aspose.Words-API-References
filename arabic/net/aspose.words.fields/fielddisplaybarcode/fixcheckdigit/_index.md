@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.FixCheckDigit
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode ملكية. الحصول على أو تحديد ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode FixCheckDigit ملكية. الحصول على أو تحديد ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
 public bool FixCheckDigit { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل DISPLAYBARCODE وتعيين خصائصه.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

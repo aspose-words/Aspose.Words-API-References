@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على نمط التدرجGradientStyle للتعبئة.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words لـ .NET
+description: Fill GradientStyle ملكية. الحصول على نمط التدرجGradientStyle للتعبئة في C#.
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/gradientstyle/
 public GradientStyle GradientStyle { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

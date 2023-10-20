@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.EastAsian
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeFonts ملكية. يحدد اسم الخط لأحرف EastAsian.
+linktitle: EastAsian
+articleTitle: EastAsian
+second_title: Aspose.Words لـ .NET
+description: ThemeFonts EastAsian ملكية. يحدد اسم الخط لأحرف EastAsian في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.themes/themefonts/eastasian/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themefonts/eastasian/
 public string EastAsian { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeFonts](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themefonts/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

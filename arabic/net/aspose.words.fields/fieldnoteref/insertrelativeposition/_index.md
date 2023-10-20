@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Aspose.Words لمراجع .NET API
-description: FieldNoteRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words لـ .NET
+description: FieldNoteRef InsertRelativePosition ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقول NOTREF، وتعديل مظهرها.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### أنظر أيضا
 
 * class [FieldNoteRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldnoteref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

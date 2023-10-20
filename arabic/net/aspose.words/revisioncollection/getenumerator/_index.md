@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: RevisionCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/revisioncollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisioncollection/getenumerator/
 public IEnumerator<Revision> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة مراجعات المستند.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

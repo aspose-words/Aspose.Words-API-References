@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. إرجاع عمود نصي في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: TextColumnCollection Item ملكية. إرجاع عمود نصي في الفهرس المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textcolumncollection/item/
 public TextColumn this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء أعمدة متباعدة بشكل غير متساو.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* مساحة الاسم [Aspose.Words](../../textcolumncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

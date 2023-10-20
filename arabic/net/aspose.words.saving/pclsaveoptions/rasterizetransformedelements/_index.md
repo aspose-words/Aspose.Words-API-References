@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.RasterizeTransformedElements
-second_title: Aspose.Words لمراجع .NET API
-description: PclSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تنقيط العناصر المحولة المعقدة أم لا. قبل الحفظ في مستند PCL. الافتراضي هوحقيقي .
+linktitle: RasterizeTransformedElements
+articleTitle: RasterizeTransformedElements
+second_title: Aspose.Words لـ .NET
+description: PclSaveOptions RasterizeTransformedElements ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تنقيط العناصر المحولة المعقدة أم لا. قبل الحفظ في مستند PCL. الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 public bool RasterizeTransformedElements { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يدعم PCL بعض أنواع التحويلات التي تستخدمها Aspose Words. على سبيل المثال، الصور المدورة والمائلة وفرش الملمس. لعرض هذه العناصر بشكل صحيح يتم استخدام عملية التنقيط، أي الحفظ في الصورة والقصاصة. يمكن أن تستغرق هذه العملية وقتًا وذاكرة إضافية. إذا تم تعيين العلامة على`خطأ شنيع` ، قد يكون بعض المحتوى في الإخراج مختلفًا مقارنة بالمستند المصدر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنقيط العناصر المعقدة أثناء حفظ مستند في PCL.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ### أنظر أيضا
 
 * class [PclSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pclsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

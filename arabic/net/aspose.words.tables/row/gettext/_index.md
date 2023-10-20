@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Aspose.Words لمراجع .NET API
-description: Row طريقة. الحصول على نص كافة الخلايا في هذا الصف بما في ذلك حرف نهاية الصف.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words لـ .NET
+description: Row GetText طريقة. الحصول على نص كافة الخلايا في هذا الصف بما في ذلك حرف نهاية الصف في C#.
 type: docs
-weight: 160
+weight: 140
 url: /ar/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.tables/row/gettext/
 public override string GetText()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع نص متسلسل لجميع العقد الفرعية بنهاية الصف Character [`Cell`](../../../aspose.words/controlchar/cell/) إلحاق في النهاية.
 
 تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../../aspose.words/controlchar/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

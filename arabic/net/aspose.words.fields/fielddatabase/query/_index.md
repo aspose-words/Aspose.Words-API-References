@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Query
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabase ملكية. الحصول على أو تعيين مجموعة من تعليمات SQL التي تستعلم عن قاعدة البيانات.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words لـ .NET
+description: FieldDatabase Query ملكية. الحصول على أو تعيين مجموعة من تعليمات SQL التي تستعلم عن قاعدة البيانات في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fielddatabase/query/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddatabase/query/
 public string Query { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج البيانات من قاعدة البيانات وإدراجها كحقل في المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### أنظر أيضا
 
 * class [FieldDatabase](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabase/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

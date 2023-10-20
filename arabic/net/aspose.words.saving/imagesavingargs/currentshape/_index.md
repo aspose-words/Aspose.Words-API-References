@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. يحصل علىShapeBase الكائن المطابق للشكل أو شكل المجموعة الذي على وشك أن يتم حفظه.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words لـ .NET
+description: ImageSavingArgs CurrentShape ملكية. يحصل علىShapeBase الكائن المطابق للشكل أو شكل المجموعة الذي على وشك أن يتم حفظه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesavingargs/currentshape/
 public ShapeBase CurrentShape { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) يمكن إطلاقها مع حفظ شكل أو شكل مجموعة. لهذا السبب الملكية[`ShapeBase`](../../../aspose.words.drawing/shapebase/) يكتب. يمكنك التحقق مما إذا كان شكل مجموعة يقارن [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) معGroup أو عن طريق إرسالها إلى أحد الفئات المشتقة: [`Shape`](../../../aspose.words.drawing/shape/) أو[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ public ShapeBase CurrentShape { get; }
 
 قد تكون بعض الصور في المستند غير متوفرة. للتحقق من توفر الصورة استخدم[`IsImageAvailable`](../isimageavailable/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

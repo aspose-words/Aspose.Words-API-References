@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceBottom
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على المسافة بين أسفل الجدول والنص المحيط بالنقاط أو تحديدها.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words لـ .NET
+description: Table DistanceBottom ملكية. الحصول على المسافة بين أسفل الجدول والنص المحيط بالنقاط أو تحديدها في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.tables/table/distancebottom/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/distancebottom/
 public double DistanceBottom { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط المسافة بين حدود الجدول والنص.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

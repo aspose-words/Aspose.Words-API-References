@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Shaping تحتوي مساحة الاسم على فئات لتوفير دعم لميزات OpenType باستخدام محركات تشكيل النص الخارجية.
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Shaping تحتوي مساحة الاسم على فئات لتوفير دعم لميزات OpenType باستخدام محركات تشكيل النص الخارجية في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.shaping/
 ---
-ال **Aspose.Words.Shaping** تحتوي مساحة الاسم على فئات لتوفير دعم لميزات OpenType باستخدام محركات تشكيل النص الخارجية.
+ال**Aspose.Words.Shaping** تحتوي مساحة الاسم على فئات لتوفير دعم لميزات OpenType باستخدام محركات تشكيل النص الخارجية.
 
 ## الطبقات
 
@@ -29,5 +31,3 @@ url: /ar/net/aspose.words.shaping/
 | [FontFeature](./fontfeature/) | توفر الميزات معلومات حول كيفية استخدام الحروف الرسومية في الخط لعرض البرنامج النصي. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | يصف مستويات التشكيل المطلوبة بواسطة البرنامج النصي. |
 | [UnicodeScript](./unicodescript/) | خاصية قاعدة بيانات أحرف Unicode: البرنامج النصي (sc). |
-
-

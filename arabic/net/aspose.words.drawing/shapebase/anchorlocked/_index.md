@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد ما إذا كان رابط الشكل مقفلاً أم لا.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words لـ .NET
+description: ShapeBase AnchorLocked ملكية. يحدد ما إذا كان رابط الشكل مقفلاً أم لا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/anchorlocked/
 public bool AnchorLocked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
@@ -22,7 +24,7 @@ public bool AnchorLocked { get; set; }
 
 تؤثر هذه الخاصية على سلوك نقطة ارتساء الشكل في Microsoft Word. عندما لا يتم تأمين نقطة الارتساء، يمكن أن يؤدي نقل الشكل في Microsoft Word إلى نقل نقطة ارتساء الشكل أيضًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قفل أو إلغاء قفل رابط فقرة الشكل.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

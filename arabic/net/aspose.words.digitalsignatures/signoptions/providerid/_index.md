@@ -1,20 +1,22 @@
 ---
 title: SignOptions.ProviderId
-second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. يحدد معرف الفئة لموفر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار. .
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words لـ .NET
+description: SignOptions ProviderId ملكية. يحدد معرف الفئة لموفر التوقيع. القيمة الافتراضية هيدليل فارغ جميع الأصفار.  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-يحدد معرف الفئة لموفر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار).** .
+يحدد معرف الفئة لموفر التوقيع. القيمة الافتراضية هي**دليل فارغ (جميع الأصفار).** .
 
 ```csharp
 public Guid ProviderId { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعد موفر خدمة التشفير (CSP) وحدة برمجية مستقلة تقوم بالفعل بتنفيذ خوارزميات التشفير للمصادقة والتشفير والتشفير. يحتفظ MS Office بالقيمة البالغة {00000000-0000-0000-0000-000000000000} لموفر التوقيع الافتراضي الخاص به.
 
@@ -22,7 +24,7 @@ public Guid ProviderId { get; set; }
 
 بالإضافة إلى ذلك، يتم تعداد كافة موفري التشفير المثبتين في سجل Windows. يمكن العثور عليه في المسار التالي: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. يوجد اسم مفتاح "CP Service UUID" الذي يتوافق مع GUID لموفر التوقيع.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### أنظر أيضا
 
 * class [SignOptions](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../signoptions/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

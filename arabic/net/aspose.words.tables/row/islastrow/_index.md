@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. صحيح إذا كان هذا هو الصف الأخير في الجدول كاذبة خلاف ذلك.
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: Aspose.Words لـ .NET
+description: Row IsLastRow ملكية. صحيح إذا كان هذا هو الصف الأخير في الجدول كاذبة خلاف ذلك في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/islastrow/
 public bool IsLastRow { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد جدول للبقاء معًا في نفس الصفحة.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### أنظر أيضا
 
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات التي سيتم حذف أرقام الصفحات منها.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words لـ .NET
+description: FieldToc PageNumberOmittingLevelRange ملكية. الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات التي سيتم حذف أرقام الصفحات منها في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

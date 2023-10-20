@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط بأحرف كبيرة صغيرة.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words لـ .NET
+description: Font SmallCaps ملكية. صحيح إذا تم تنسيق الخط بأحرف كبيرة صغيرة في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/smallcaps/
 public bool SmallCaps { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق التشغيل لعرض محتوياته بالأحرف الكبيرة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

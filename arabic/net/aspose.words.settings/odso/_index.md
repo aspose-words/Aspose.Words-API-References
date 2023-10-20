@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.Odso فصل. تحديد إعدادات كائن مصدر بيانات Office ODSO لمصدر بيانات دمج المراسلات.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.Odso فصل. تحديد إعدادات كائن مصدر بيانات Office ODSO لمصدر بيانات دمج المراسلات في C#.
 type: docs
 weight: 5880
 url: /ar/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | يُرجع نسخة عميقة من هذا الكائن. |
 
-### ملاحظات
+## ملاحظات
 
 يبدو أن ODSO هي الطريقة "الجديدة" التي تفضل إصدارات Microsoft Word الأحدث استخدامها عند تحديد أنواع معينة من مصادر البيانات لمستند دمج البريد. ربما ظهر ODSO لأول مرة في Microsoft Word 2000.
 
@@ -49,7 +51,7 @@ public class Odso
 
 لا تحتاج عادةً إلى إنشاء كائنات من هذه الفئة مباشرة لأن إعدادات ODSO متاحة دائمًا عبر[`Odso`](../mailmergesettings/odso/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

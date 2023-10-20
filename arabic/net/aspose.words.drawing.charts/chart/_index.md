@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.Chart فصل. يوفر الوصول إلى خصائص شكل المخطط.
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.Chart فصل. يوفر الوصول إلى خصائص شكل المخطط في C#.
 type: docs
 weight: 620
 url: /ar/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | يحصل على مسار واسم ملف xls/xlsx الذي يرتبط به هذا المخطط. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | يوفر الوصول إلى خصائص عنوان المخطط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعيين عنوان.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

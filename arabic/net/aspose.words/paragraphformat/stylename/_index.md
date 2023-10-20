@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleName
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين اسم نمط الفقرة المطبق على هذا التنسيق.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat StyleName ملكية. الحصول على أو تعيين اسم نمط الفقرة المطبق على هذا التنسيق في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words/paragraphformat/stylename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/stylename/
 public string StyleName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

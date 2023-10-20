@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: RunCollection طريقة. نسخ كافة عمليات التشغيل من المجموعة إلى مجموعة جديدة من عمليات التشغيل.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: RunCollection ToArray طريقة. نسخ كافة عمليات التشغيل من المجموعة إلى مجموعة جديدة من عمليات التشغيل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 مجموعة من الجري.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع المراجعة للعقدة المضمنة.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* مساحة الاسم [Aspose.Words](../../runcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

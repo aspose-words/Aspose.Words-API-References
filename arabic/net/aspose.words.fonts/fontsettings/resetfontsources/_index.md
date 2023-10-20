@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. إعادة ضبط مصادر الخطوط إلى الوضع الافتراضي للنظام.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words لـ .NET
+description: FontSettings ResetFontSources طريقة. إعادة ضبط مصادر الخطوط إلى الوضع الافتراضي للنظام في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsettings/resetfontsources/
 public void ResetFontSources()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### أنظر أيضا
 
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

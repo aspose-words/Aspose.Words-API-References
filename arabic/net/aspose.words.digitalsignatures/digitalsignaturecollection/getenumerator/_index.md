@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureCollection طريقة. يُرجع كائن عداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureCollection GetEnumerator طريقة. يُرجع كائن عداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumer
 public IEnumerator<DigitalSignature> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة جميع التوقيعات الرقمية للمستند الموقع.
 
@@ -38,7 +40,5 @@ using (IEnumerator<DigitalSignature> enumerator = digitalSignatures.GetEnumerato
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.CalendarType
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد نوع التقويم لذلك المعاملة الخاصة والتفضيلية . الافتراضي هوDefault
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag CalendarType ملكية. يحدد نوع التقويم لذلكالمعاملة الخاصة والتفضيلية . الافتراضي هوDefault في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-يحدد نوع التقويم لذلك **المعاملة الخاصة والتفضيلية** . الافتراضي هوDefault
+يحدد نوع التقويم لذلك**المعاملة الخاصة والتفضيلية** . الافتراضي هوDefault
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلDate نوع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مطالبة المستخدم بإدخال تاريخ باستخدام علامة مستند منظمة.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtCalendarType](../../sdtcalendartype/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

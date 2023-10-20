@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS fontface في ملف منفصل fontFaces.css عندما يتم حفظ مستند باستخدام ورقة أنماط خارجية أي عندماExportEmbeddedCss هوخطأ شنيع . القيمة الافتراضية هيخطأ شنيع جميع قواعد CSS مكتوبة في ملف واحد styles.css.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately ملكية. تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS fontface في ملف منفصل fontFaces.css عندما يتم حفظ مستند باستخدام ورقة أنماط خارجية أي عندماExportEmbeddedCss هوخطأ شنيع . القيمة الافتراضية هيخطأ شنيع جميع قواعد CSS مكتوبة في ملف واحد styles.css في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تعيين هذه الخاصية على`حقيقي` يستعيد السلوك القديم (ملفات منفصلة) للتوافق مع التعليمات البرمجية القديمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية وضع CSS في ملف منفصل وإضافة بادئة لجميع أسماء فئات CSS الخاصة به.
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

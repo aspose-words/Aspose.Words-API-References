@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أو ضبط التباعد بالنقاط بين الأحرف .
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words لـ .NET
+description: Font Spacing ملكية. إرجاع أو ضبط التباعد بالنقاط بين الأحرف  في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/spacing/
 public double Spacing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط القياس الأفقي والتباعد للأحرف.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

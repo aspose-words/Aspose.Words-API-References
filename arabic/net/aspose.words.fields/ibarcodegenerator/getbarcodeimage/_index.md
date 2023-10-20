@@ -1,7 +1,9 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
-second_title: Aspose.Words لمراجع .NET API
-description: IBarcodeGenerator طريقة. إنشاء صورة باركود باستخدام مجموعة المعلمات لحقل DisplayBarcode.
+linktitle: GetBarcodeImage
+articleTitle: GetBarcodeImage
+second_title: Aspose.Words لـ .NET
+description: IBarcodeGenerator GetBarcodeImage طريقة. إنشاء صورة باركود باستخدام مجموعة المعلمات لحقل DisplayBarcode في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
@@ -22,7 +24,7 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 
 صورة تمثل الباركود الذي تم إنشاؤه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * interface [IBarcodeGenerator](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ibarcodegenerator/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

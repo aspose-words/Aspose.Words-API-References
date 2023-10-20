@@ -1,7 +1,9 @@
 ---
-title: Class MemoryFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.MemoryFontSource فصل. يمثل ملف خط TrueType الفردي المخزن في الذاكرة.
+title: MemoryFontSource Class
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.MemoryFontSource فصل. يمثل ملف خط TrueType الفردي المخزن في الذاكرة في C#.
 type: docs
 weight: 3020
 url: /ar/net/aspose.words.fonts/memoryfontsource/
@@ -20,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | الممثل. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | الممثل. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | الممثل. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | الممثل. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | الممثل. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | الممثل. |
 
 ## الخصائص
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

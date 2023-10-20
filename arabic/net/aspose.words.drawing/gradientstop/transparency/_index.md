@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStop ملكية. الحصول على أو تعيين قيمة تمثل شفافية التدرج fill المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words لـ .NET
+description: GradientStop Transparency ملكية. الحصول على أو تعيين قيمة تمثل شفافية التدرج fill المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0 في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstop/transparency/
 public double Transparency { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### أنظر أيضا
 
 * class [GradientStop](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstop/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

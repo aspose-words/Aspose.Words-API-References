@@ -1,7 +1,9 @@
 ---
-title: Enum VbaReferenceType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaReferenceType تعداد. يسمح بتحديد نوع aVbaReference الكائن.
+title: VbaReferenceType Enum
+linktitle: VbaReferenceType
+articleTitle: VbaReferenceType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaReferenceType تعداد. يسمح بتحديد نوع aVbaReference الكائن في C#.
 type: docs
 weight: 6610
 url: /ar/net/aspose.words.vba/vbareferencetype/
@@ -23,7 +25,7 @@ public enum VbaReferenceType
 | Original | `51` | يحدد النوع المرجعي الأصلي لمكتبة نوع التنفيذ التلقائي. |
 | Control | `47` | يحدد نوع مرجع مكتبة النوع الملتوي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Aspose.Words لمراجع .NET API
-description: Theme ملكية. يسمح بتحديد مجموعة ألوان السمات للمستند.
+linktitle: Colors
+articleTitle: Colors
+second_title: Aspose.Words لـ .NET
+description: Theme Colors ملكية. يسمح بتحديد مجموعة ألوان السمات للمستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/theme/colors/
 public ThemeColors Colors { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* مساحة الاسم [Aspose.Words.Themes](../../theme/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

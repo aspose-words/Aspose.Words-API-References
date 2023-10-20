@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionProperty البناء. إنشاء خاصية مخصصة لامتداد الويب بالاسم والقيمة المحددين.
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words لـ .NET
+description: WebExtensionProperty البناء. إنشاء خاصية مخصصة لامتداد الويب بالاسم والقيمة المحددين في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | اسم الخاصية. |
 | value | String | قيمة العقار. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [WebExtensionProperty](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

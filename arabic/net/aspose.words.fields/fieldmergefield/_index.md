@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeField
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldMergeField فصل. ينفذ حقل MERGEFIELD.
+title: FieldMergeField Class
+linktitle: FieldMergeField
+articleTitle: FieldMergeField
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldMergeField فصل. ينفذ حقل MERGEFIELD في C#.
 type: docs
 weight: 2150
 url: /ar/net/aspose.words.fields/fieldmergefield/
@@ -42,17 +44,17 @@ public class FieldMergeField : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 استرداد اسم حقل البيانات ضمن أحرف الدمج في مستند رئيسي لدمج المراسلات. عند دمج المستند الرئيسي مع مصدر البيانات المحدد، يتم إدراج المعلومات من حقل البيانات المحدد بدلاً من حقل الدمج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
 
@@ -96,5 +98,3 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

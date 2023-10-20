@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.HtmlLoadOptions فصل. يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملفDocument الكائن.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.HtmlLoadOptions فصل. يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملفDocument الكائن في C#.
 type: docs
 weight: 3620
 url: /ar/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | اسم | وصف |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | اختصار لتهيئة مثيل جديد لهذه الفئة بكلمة المرور المحددة لتحميل مستند مشفر. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | اختصار لتهيئة مثيل جديد لهذه الفئة مع تعيين الخصائص على القيم المحددة. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | اختصار لتهيئة مثيل جديد لهذه الفئة بكلمة المرور المحددة لتحميل مستند مشفر. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | اختصار لتهيئة مثيل جديد لهذه الفئة مع تعيين الخصائص على القيم المحددة. |
 
 ## الخصائص
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### أنظر أيضا
 
 * class [LoadOptions](../loadoptions/)
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

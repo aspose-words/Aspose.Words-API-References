@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfoCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: WarningInfoCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/warninginfocollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### أنظر أيضا
 
 * class [WarningInfoCollection](../)
-* مساحة الاسم [Aspose.Words](../../warninginfocollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

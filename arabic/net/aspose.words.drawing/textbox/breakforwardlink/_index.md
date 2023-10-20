@@ -1,7 +1,9 @@
 ---
 title: TextBox.BreakForwardLink
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox طريقة. يقطع الرابط إلى التاليTextBox .
+linktitle: BreakForwardLink
+articleTitle: BreakForwardLink
+second_title: Aspose.Words لـ .NET
+description: TextBox BreakForwardLink طريقة. يقطع الرابط إلى التاليTextBox  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textbox/breakforwardlink/
 public void BreakForwardLink()
 ```
 
-### ملاحظات
+## ملاحظات
 
 `BreakForwardLink`لا يؤدي إلى قطع جميع الروابط الأخرى في التسلسل الحالي للأشكال. على سبيل المثال: تسلسل 1-2-3-4 و`BreakForwardLink` في مربع النص الثاني سيتم إنشاء تسلسلين 1-2، 3-4.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط مربعات النص.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

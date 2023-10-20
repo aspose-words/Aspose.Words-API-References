@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. تنسيق Get/sets الذي يتم فيه تخزين تاريخ SDT عندما المعاملة الخاصة والتفضيليةيرتبط بعقدة XML في مخزن بيانات المستند. القيمة الافتراضية هيDateTime
+linktitle: DateStorageFormat
+articleTitle: DateStorageFormat
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag DateStorageFormat ملكية. تنسيق Get/sets الذي يتم فيه تخزين تاريخ SDT عندماالمعاملة الخاصة والتفضيليةيرتبط بعقدة XML في مخزن بيانات المستند. القيمة الافتراضية هيDateTime في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-تنسيق Get/sets الذي يتم فيه تخزين تاريخ SDT عندما **المعاملة الخاصة والتفضيلية**يرتبط بعقدة XML في مخزن بيانات المستند. القيمة الافتراضية هيDateTime
+تنسيق Get/sets الذي يتم فيه تخزين تاريخ SDT عندما**المعاملة الخاصة والتفضيلية**يرتبط بعقدة XML في مخزن بيانات المستند. القيمة الافتراضية هيDateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلDate نوع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مطالبة المستخدم بإدخال تاريخ باستخدام علامة مستند منظمة.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

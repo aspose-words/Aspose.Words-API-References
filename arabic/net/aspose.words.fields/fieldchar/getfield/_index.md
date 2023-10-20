@@ -1,7 +1,9 @@
 ---
 title: FieldChar.GetField
-second_title: Aspose.Words لمراجع .NET API
-description: FieldChar طريقة. إرجاع حقل للحقل char.
+linktitle: GetField
+articleTitle: GetField
+second_title: Aspose.Words لـ .NET
+description: FieldChar GetField طريقة. إرجاع حقل للحقل char في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +20,11 @@ public Field GetField()
 
 حقل لحرف الحقل.
 
-### ملاحظات
+## ملاحظات
 
 جديد[`Field`](../../field/) يتم إنشاء الكائن في كل مرة يتم فيها استدعاء الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع عقدة FieldStart.
 
@@ -54,7 +56,5 @@ field.Update();
 
 * class [Field](../../field/)
 * class [FieldChar](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldchar/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

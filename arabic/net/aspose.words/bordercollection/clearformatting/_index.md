@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection طريقة. إزالة كافة حدود الكائن.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: BorderCollection ClearFormatting طريقة. إزالة كافة حدود الكائن في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/clearformatting/
 public void ClearFormatting()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة كافة الحدود من جميع الفقرات في المستند.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### أنظر أيضا
 
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

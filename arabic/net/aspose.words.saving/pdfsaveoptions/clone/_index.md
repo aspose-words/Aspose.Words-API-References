@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions طريقة. إنشاء نسخة عميقة لهذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions Clone طريقة. إنشاء نسخة عميقة لهذا الكائن في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words.saving/pdfsaveoptions/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/clone/
 public PdfSaveOptions Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث جميع الحقول في المستند مباشرة قبل حفظه في ملف PDF.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

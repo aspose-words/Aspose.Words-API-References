@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للنمط الشرطي.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle Borders ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للنمط الشرطي في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

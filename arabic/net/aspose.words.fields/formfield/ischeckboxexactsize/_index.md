@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على أو تعيين القيمة المنطقية التي تشير إلى ما إذا كان حجم مربع النص تلقائيًا أو محددًا بشكل صريح.
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: Aspose.Words لـ .NET
+description: FormField IsCheckBoxExactSize ملكية. الحصول على أو تعيين القيمة المنطقية التي تشير إلى ما إذا كان حجم مربع النص تلقائيًا أو محددًا بشكل صريح في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/ischeckboxexactsize/
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ينطبق على حقل نموذج خانة الاختيار فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

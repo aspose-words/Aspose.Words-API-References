@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionTextEffect
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.RevisionTextEffect تعداد. يسمح بتحديد تأثير الزخرفة لمراجعات نص المستند.
+title: RevisionTextEffect Enum
+linktitle: RevisionTextEffect
+articleTitle: RevisionTextEffect
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.RevisionTextEffect تعداد. يسمح بتحديد تأثير الزخرفة لمراجعات نص المستند في C#.
 type: docs
 weight: 3400
 url: /ar/net/aspose.words.layout/revisiontexteffect/
@@ -28,7 +30,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | يتم رسم المحتوى المنقح مرتين وتلوينه. |
 | Hidden | `8` | المحتوى الذي تمت مراجعته مخفي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

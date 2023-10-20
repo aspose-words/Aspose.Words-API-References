@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions ملكية. الحصول على أو تعيين الخيار المفضل لمعالجة المسافة البادئة. القيمة الافتراضية هيConvertToIndent .
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: Aspose.Words لـ .NET
+description: TxtLoadOptions LeadingSpacesOptions ملكية. الحصول على أو تعيين الخيار المفضل لمعالجة المسافة البادئة. القيمة الافتراضية هيConvertToIndent  في C#.
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قطع المسافة البيضاء عند تحميل مستندات النص العادي.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../txtloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

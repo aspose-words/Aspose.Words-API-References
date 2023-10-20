@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToStream
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData طريقة. إنشاء وإرجاع دفق يحتوي على بايتات الصورة.
+linktitle: ToStream
+articleTitle: ToStream
+second_title: Aspose.Words لـ .NET
+description: ImageData ToStream طريقة. إنشاء وإرجاع دفق يحتوي على بايتات الصورة في C#.
 type: docs
-weight: 240
+weight: 230
 url: /ar/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagedata/tostream/
 public Stream ToStream()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تخزين بايتات الصورة في الشكل، فسيتم إنشاء وإرجاع ملفMemoryStream هدف.
 
@@ -24,7 +26,7 @@ public Stream ToStream()
 
 هل تقع على عاتق المتصل مسؤولية التخلص من كائن الدفق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء ملف صورة من بيانات الصورة الأولية للشكل.
 
@@ -51,7 +53,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

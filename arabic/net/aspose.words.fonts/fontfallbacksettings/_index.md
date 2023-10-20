@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontFallbackSettings فصل. يحدد إعدادات آلية الرجوع للخط.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontFallbackSettings فصل. يحدد إعدادات آلية الرجوع للخط في C#.
 type: docs
 weight: 2900
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | اسم | وصف |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | إنشاء الإعدادات الاحتياطية تلقائيًا عن طريق فحص الخطوط المتاحة. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | يقوم بتحميل الإعدادات الاحتياطية من تدفق XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | تحميل الإعدادات الاحتياطية للخط من ملف XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | يقوم بتحميل الإعدادات الاحتياطية من تدفق XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | تحميل الإعدادات الاحتياطية للخط من ملف XML. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تحاكي الإجراء الاحتياطي لـ Microsoft Word وتستخدم خطوط Microsoft Office. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تستخدم خطوط Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | يحفظ الإعدادات الاحتياطية الحالية للبث. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | يحفظ الإعدادات الاحتياطية الحالية في الملف. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | يحفظ الإعدادات الاحتياطية الحالية للبث. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | يحفظ الإعدادات الاحتياطية الحالية في الملف. |
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضي تتم تهيئة الإعدادات الاحتياطية بإعدادات محددة مسبقًا والتي تحاكي الإجراء الاحتياطي لـ Microsoft Word.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توزيع الخطوط الاحتياطية عبر نطاقات رموز أحرف Unicode.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

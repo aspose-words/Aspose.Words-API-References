@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. الحصول على تاريخ ووقت كتابة التعليق.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words لـ .NET
+description: Comment DateTime ملكية. الحصول على تاريخ ووقت كتابة التعليق في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/comment/datetime/
 public DateTime DateTime { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هوMinValue.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

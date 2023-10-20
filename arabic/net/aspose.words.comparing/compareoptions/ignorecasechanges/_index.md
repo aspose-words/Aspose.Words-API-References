@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يشير True إلى أن مقارنة المستندات غير حساسة لحالة الأحرف. بشكل افتراضي تكون المقارنة حساسة لحالة الأحرف.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreCaseChanges ملكية. يشير True إلى أن مقارنة المستندات غير حساسة لحالة الأحرف. بشكل افتراضي تكون المقارنة حساسة لحالة الأحرف في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignorecasechanges/
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

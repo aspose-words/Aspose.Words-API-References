@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
-second_title: Aspose.Words لمراجع .NET API
-description: AsposeWordsPrintDocument طريقة. يقرأ ويخزن بعض حقولPrinterSettings لتقليل وقت الطباعة.
+linktitle: CachePrinterSettings
+articleTitle: CachePrinterSettings
+second_title: Aspose.Words لـ .NET
+description: AsposeWordsPrintDocument CachePrinterSettings طريقة. يقرأ ويخزن بعض حقولPrinterSettings لتقليل وقت الطباعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersetting
 public void CachePrinterSettings()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استدعاء هذه الطريقة قبل بدء الطباعة إذا لم يتم تنفيذها مسبقًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند بها، ثم إظهار معاينة الطباعة.
 
@@ -67,7 +69,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### أنظر أيضا
 
 * class [AsposeWordsPrintDocument](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

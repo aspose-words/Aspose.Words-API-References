@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض المعاملة الخاصة والتفضيلية.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Id ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرضالمعاملة الخاصة والتفضيلية في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض **المعاملة الخاصة والتفضيلية**.
+يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض**المعاملة الخاصة والتفضيلية**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن تتبع سمة المعرف هذه القواعد:
 
@@ -24,7 +26,7 @@ public int Id { get; }
 * خلال المعاملة الخاصة والتفضيلية المستقلةINodeCloningListener) سيتم إنشاء معرف فريد جديد لعقدة SDT المستنسخة.
 * إذا لم يتم تحديد المعرف في المستند المصدر، فيجب أن يكون لعقدة SDT معرف فريد جديد يتم تعيينه لها عند تحميل المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

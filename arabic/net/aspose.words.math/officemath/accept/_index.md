@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: OfficeMath Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) بالنسبة إلى العقد الفرعية all الخاصة بـ Office Math والمكالمات[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية في المكتب في المستند.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* مساحة الاسم [Aspose.Words.Math](../../officemath/)
+* مساحة الاسم [Aspose.Words.Math](../../../aspose.words.math/)
 * المجسم [Aspose.Words](../../../)
-
-

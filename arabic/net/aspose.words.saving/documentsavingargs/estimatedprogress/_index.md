@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentSavingArgs ملكية. النسبة المئوية الإجمالية المقدرة للتقدم.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words لـ .NET
+description: DocumentSavingArgs EstimatedProgress ملكية. النسبة المئوية الإجمالية المقدرة للتقدم في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/documentsavingargs/estimatedprogress/
 public double EstimatedProgress { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة مستند أثناء حفظه في html.
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### أنظر أيضا
 
 * class [DocumentSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../documentsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

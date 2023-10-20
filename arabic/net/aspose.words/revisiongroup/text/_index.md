@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Text
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroup ملكية. إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: RevisionGroup Text ملكية. إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/revisiongroup/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisiongroup/text/
 public string Text { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### أنظر أيضا
 
 * class [RevisionGroup](../)
-* مساحة الاسم [Aspose.Words](../../revisiongroup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.ReportingEngine فصل. يوفر إجراءات لملء مستندات القالب بالبيانات ومجموعة من الإعدادات للتحكم في هذه الإجراءات.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.ReportingEngine فصل. يوفر إجراءات لملء مستندات القالب بالبيانات ومجموعة من الإعدادات للتحكم في هذه الإجراءات في C#.
 type: docs
 weight: 4730
 url: /ar/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | اسم | وصف |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | يملأ مستند القالب المحدد بالبيانات من المصادر المحددة مما يجعله تقريرًا جاهزًا. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | يملأ مستند القالب المحدد بالبيانات من المصادر المحددة مما يجعله تقريرًا جاهزًا. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

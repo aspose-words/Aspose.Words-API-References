@@ -1,7 +1,9 @@
 ---
-title: FieldNext.FieldNext
-second_title: Aspose.Words لمراجع .NET API
-description: FieldNext البناء. Default_Constructor
+title: FieldNext
+linktitle: FieldNext
+articleTitle: FieldNext
+second_title: Aspose.Words لـ .NET
+description: FieldNext البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldnext/fieldnext/
@@ -17,7 +19,5 @@ public FieldNext()
 ### أنظر أيضا
 
 * class [FieldNext](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldnext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

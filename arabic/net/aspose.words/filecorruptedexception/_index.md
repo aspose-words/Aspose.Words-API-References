@@ -1,7 +1,9 @@
 ---
-title: Class FileCorruptedException
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.FileCorruptedException فصل. يتم طرحه أثناء تحميل المستند عندما يبدو المستند تالفًا ومن المستحيل تحميله.
+title: FileCorruptedException Class
+linktitle: FileCorruptedException
+articleTitle: FileCorruptedException
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.FileCorruptedException فصل. يتم طرحه أثناء تحميل المستند عندما يبدو المستند تالفًا ومن المستحيل تحميله في C#.
 type: docs
 weight: 2800
 url: /ar/net/aspose.words/filecorruptedexception/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words/filecorruptedexception/
 public class FileCorruptedException : Exception
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التقاط FileCorruptedException.
 
@@ -37,5 +39,3 @@ catch (FileCorruptedException e)
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Aspose.Words لمراجع .NET API
-description: PlainTextDocument البناء. إنشاء مستند نصي عادي من ملف. يكتشف تنسيق الملف تلقائيًا.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words لـ .NET
+description: PlainTextDocument البناء. إنشاء مستند نصي عادي من ملف. يكتشف تنسيق الملف تلقائيًا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 إنشاء مستند نصي عادي من ملف. يكتشف تنسيق الملف تلقائيًا.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### أنظر أيضا
 
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 إنشاء مستند نصي عادي من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word المشفر بنص عادي.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 إنشاء مستند نصي عادي من الدفق. يكتشف تنسيق الملف تلقائيًا.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
 
-### ملاحظات
+## ملاحظات
 
 يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق تحديد المواقع العشوائية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي باستخدام الدفق.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### أنظر أيضا
 
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 إنشاء مستند نصي عادي من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
 
-### ملاحظات
+## ملاحظات
 
 يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق تحديد المواقع العشوائية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word المشفر في نص عادي باستخدام الدفق.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد الشكل.
+linktitle: VisitShapeEnd
+articleTitle: VisitShapeEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitShapeEnd طريقة. يتم استدعاؤه عند انتهاء تعداد الشكل في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words/documentvisitor/visitshapeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
@@ -115,7 +117,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. الحصول على اسم حقل الدمج في مصدر البيانات.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgsBase FieldName ملكية. الحصول على اسم حقل الدمج في مصدر البيانات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
 public string FieldName { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كان لديك تعيين من اسم حقل مستند إلى اسم حقل مصدر بيانات مختلف، ، فهذا هو اسم الحقل المعين.
 
 إذا قمت بتحديد بادئة اسم حقل، على سبيل المثال "Image:MyFieldName" في المستند، ، ثم`FieldName` تقوم بإرجاع اسم الحقل بدون البادئة، وهي "MyFieldName".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول نموذج خانة الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### أنظر أيضا
 
 * class [FieldMergingArgsBase](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

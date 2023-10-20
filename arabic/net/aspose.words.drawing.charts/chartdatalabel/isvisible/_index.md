@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. إرجاعحقيقي إذا كان تصنيف البيانات هذا يحتوي على شيء لعرضه.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel IsVisible ملكية. إرجاعحقيقي إذا كان تصنيف البيانات هذا يحتوي على شيء لعرضه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 public bool IsVisible { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

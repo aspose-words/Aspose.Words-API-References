@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يسترد القصة على مستوى القسم الأصلي التي يمكن أن تكونBody أوHeaderFooter .
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: Aspose.Words لـ .NET
+description: Paragraph ParentStory ملكية. يسترد القصة على مستوى القسم الأصلي التي يمكن أن تكونBody أوHeaderFooter  في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/parentstory/
 public Story ParentStory { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Themes.ThemeColor تعداد. تحديد ألوان السمات لموضوعات المستند.
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Themes.ThemeColor تعداد. تحديد ألوان السمات لموضوعات المستند في C#.
 type: docs
 weight: 6470
 url: /ar/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | لون الخلفية 1. |
 | Background2 | `15` | لون الخلفية 2. |
 
-### ملاحظات
+## ملاحظات
 
 لون السمة المحدد هو مرجع لأحد ألوان السمة المحددة مسبقًا، والموجود في جزء السمة الخاص بالمستند ، والذي يسمح بتعيين معلومات اللون مركزيًا في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء واستخدام النمط الموضوعي.
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * مساحة الاسم [Aspose.Words.Themes](../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../)
-
-

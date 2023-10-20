@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToByteArray
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty طريقة. إرجاع قيمة الخاصية كمصفوفة بايت.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty ToByteArray طريقة. إرجاع قيمة الخاصية كمصفوفة بايت في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.properties/documentproperty/tobytearray/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/documentproperty/tobytearray/
 public byte[] ToByteArray()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يطرح استثناءً إذا لم يكن نوع الخاصية كذلكByteArray.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة صورة مصغرة إلى مستند نحفظه كملف Epub.
 
@@ -44,7 +46,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

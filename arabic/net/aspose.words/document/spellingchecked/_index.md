@@ -1,7 +1,9 @@
 ---
 title: Document.SpellingChecked
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاعحقيقي إذا تم التدقيق الإملائي للمستند.
+linktitle: SpellingChecked
+articleTitle: SpellingChecked
+second_title: Aspose.Words لـ .NET
+description: Document SpellingChecked ملكية. إرجاعحقيقي إذا تم التدقيق الإملائي للمستند في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words/document/spellingchecked/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/spellingchecked/
 public bool SpellingChecked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لإعادة التدقيق الإملائي في المستند، قم بتعيين هذه الخاصية إلى`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التدقيق الإملائي أو النحوي.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

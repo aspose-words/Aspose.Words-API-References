@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. يسترد أBorder الكائن حسب نوع الحدود.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Item ملكية. يسترد أBorder الكائن حسب نوع الحدود في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | أ[`BorderType`](../../bordertype/) value الذي يحدد نوع الحد المطلوب استرداده. |
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه ليست كل الحدود موجودة لعناصر وثيقة مختلفة. تطرح هذه الطريقة استثناءً إذا طلبت حدًا لا ينطبق على الكائن الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تزيين النص بالحدود والتظليل.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | الفهرس القائم على الصفر من الحدود لاسترداد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

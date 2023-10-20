@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحصل علىLayoutOptions الكائن الذي يمثل خيارات للتحكم في عملية التخطيط لهذا المستند.
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words لـ .NET
+description: Document LayoutOptions ملكية. يحصل علىLayoutOptions الكائن الذي يمثل خيارات للتحكم في عملية التخطيط لهذا المستند في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/layoutoptions/
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخفاء النص في مستند الإخراج المقدم.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

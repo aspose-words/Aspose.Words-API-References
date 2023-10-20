@@ -1,7 +1,9 @@
 ---
-title: DownsampleOptions.DownsampleOptions
-second_title: Aspose.Words لمراجع .NET API
-description: DownsampleOptions البناء. Default_Constructor
+title: DownsampleOptions
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words لـ .NET
+description: DownsampleOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/downsampleoptions/downsampleoptions/
@@ -17,7 +19,5 @@ public DownsampleOptions()
 ### أنظر أيضا
 
 * class [DownsampleOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../downsampleoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

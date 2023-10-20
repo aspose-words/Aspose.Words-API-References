@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreStructuredDocumentTags
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل المحتوىStructuredDocumentTag . القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreStructuredDocumentTags
+articleTitle: IgnoreStructuredDocumentTags
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions IgnoreStructuredDocumentTags ملكية. الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل المحتوىStructuredDocumentTag . القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumentt
 public bool IgnoreStructuredDocumentTags { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند ضبط هذا الخيار على`حقيقي` ، المحتوى من[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) سيتم التعامل مع كنص بسيط.
 
 وإلا،[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ستتم معالجتها كـ Story مستقل وسيتم البحث عن نمط الاستبدال بشكل منفصل لكل منها[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)، بحيث إذا تجاوز النمط a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، فلن يتم إجراء الاستبدال لمثل هذا النمط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاهل محتوى العلامات من الاستبدال.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

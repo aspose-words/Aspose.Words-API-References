@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين اسم التسلسل الذي تم تضمين رقمه مع رقم الصفحة.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words لـ .NET
+description: FieldIndex SequenceName ملكية. الحصول على أو تعيين اسم التسلسل الذي تم تضمين رقمه مع رقم الصفحة في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/sequencename/
 public string SequenceName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء من خلال دمج حقول INDEX وSEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

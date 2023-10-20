@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. يوفر الوصول إلى عناصر حقل النموذج المنسدل.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words لـ .NET
+description: FormField DropDownItems ملكية. يوفر الوصول إلى عناصر حقل النموذج المنسدل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/dropdownitems/
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يسمح Microsoft Word بحد أقصى 25 عنصرًا في حقل نموذج القائمة المنسدلة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

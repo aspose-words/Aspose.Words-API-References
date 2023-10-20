@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. نسخ الأنماط من القالب المحدد إلى مستند.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words لـ .NET
+description: Document CopyStylesFromTemplate طريقة. نسخ الأنماط من القالب المحدد إلى مستند في C#.
 type: docs
-weight: 590
+weight: 570
 url: /ar/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 نسخ الأنماط من القالب المحدد إلى مستند.
 
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/copystylesfromtemplate/
 public void CopyStylesFromTemplate(string template)
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند نسخ الأنماط من قالب إلى مستند، تتم إعادة تعريف الأنماط ذات الأسماء المتشابهة في المستند لتتوافق مع أوصاف الأنماط في القالب. يتم نسخ الأنماط الفريدة من القالب إلى المستند. تظل الأنماط الفريدة في المستند سليمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نسخ الأنماط من مستند إلى آخر.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 نسخ الأنماط من القالب المحدد إلى مستند.
 
@@ -83,11 +85,11 @@ Assert.AreEqual(21, target.Styles.Count);
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند نسخ الأنماط من قالب إلى مستند، تتم إعادة تعريف الأنماط ذات الأسماء المتشابهة في المستند لتتوافق مع أوصاف الأنماط في القالب. يتم نسخ الأنماط الفريدة من القالب إلى المستند. تظل الأنماط الفريدة في المستند سليمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نسخ الأنماط من القالب إلى مستند عبر المستند.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

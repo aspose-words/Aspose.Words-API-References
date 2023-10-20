@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. يقوم بتحديث قيم حقول المستند في هذا النطاق.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words لـ .NET
+description: Range UpdateFields طريقة. يقوم بتحديث قيم حقول المستند في هذا النطاق في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/range/updatefields/
 public void UpdateFields()
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند فتح مستند وتعديله ثم حفظه، لا يقوم Aspose.Words بتحديث الحقول تلقائيًا، بل يبقيها سليمة. لذلك، عادةً ما تريد استدعاء هذه الطريقة قبل الحفظ إذا قمت بتعديل document برمجيًا وتريد التأكد تظهر قيم الحقول المناسبة (المحسوبة) في المستند المحفوظ.
 
@@ -26,7 +28,7 @@ public void UpdateFields()
 
 لتحديث الحقول في استخدام الوثيقة بأكملها[`UpdateFields`](../../document/updatefields/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث كافة الحقول في النطاق.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### أنظر أيضا
 
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

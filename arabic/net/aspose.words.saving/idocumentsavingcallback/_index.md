@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IDocumentSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوبك المخصص الذي يتم استدعاؤه أثناء حفظ المستند.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوبك المخصص الذي يتم استدعاؤه أثناء حفظ المستند في C#.
 type: docs
 weight: 5150
 url: /ar/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | يتم استدعاؤه للإخطار بتقدم عملية حفظ المستند. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | يتم استدعاؤه للإخطار بتقدم عملية حفظ المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة مستند أثناء حفظه في html.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

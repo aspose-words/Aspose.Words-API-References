@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: VbaReferenceCollection ملكية. إرجاع عدد مراجع VBA في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: VbaReferenceCollection Count ملكية. إرجاع عدد مراجع VBA في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbareferencecollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbareferencecollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### أنظر أيضا
 
 * class [VbaReferenceCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbareferencecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

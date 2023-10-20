@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries طريقة. إضافة قيمة X المحددة إلى سلسلة المخططات. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات فستكون فارغة للقيمة X.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: ChartSeries Add طريقة. إضافة قيمة X المحددة إلى سلسلة المخططات. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات فستكون فارغة للقيمة X في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 إضافة قيمة X المحددة إلى سلسلة المخططات. إذا كانت السلسلة تدعم قيم Y وأحجام الفقاعات، فستكون فارغة للقيمة X.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 إضافة قيم X وY المحددة إلى سلسلة المخططات.
 
@@ -31,7 +33,7 @@ public void Add(ChartXValue xValue)
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة/إزالة قيم بيانات المخطط.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 إضافة قيمة X وقيمة Y وحجم الفقاعة المحددة إلى سلسلة المخطط.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

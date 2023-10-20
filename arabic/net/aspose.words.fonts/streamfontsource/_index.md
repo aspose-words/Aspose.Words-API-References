@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.StreamFontSource فصل. الفئة الأساسية لمصدر خط الدفق المحدد من قبل المستخدم.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.StreamFontSource فصل. الفئة الأساسية لمصدر خط الدفق المحدد من قبل المستخدم في C#.
 type: docs
 weight: 3040
 url: /ar/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب. |
 
-### ملاحظات
+## ملاحظات
 
 من أجل استخدام مصدر خط الدفق، يجب عليك إنشاء فئة مشتقة من`StreamFontSource` وتوفير تنفيذ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
 
@@ -40,7 +42,7 @@ public abstract class StreamFontSource : FontSourceBase
 
 `StreamFontSource` قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس تخزينها في الذاكرة[`FontSettings`](../fontsettings/) حياة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل الخطوط من الدفق.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureDetails ملكية. الحصول على أو تعيين موقع التوقيع.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureDetails Location ملكية. الحصول على أو تعيين موقع التوقيع في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 public string Location { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

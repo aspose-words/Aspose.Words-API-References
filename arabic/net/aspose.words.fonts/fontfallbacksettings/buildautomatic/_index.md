@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Aspose.Words لمراجع .NET API
-description: FontFallbackSettings طريقة. إنشاء الإعدادات الاحتياطية تلقائيًا عن طريق فحص الخطوط المتاحة.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words لـ .NET
+description: FontFallbackSettings BuildAutomatic طريقة. إنشاء الإعدادات الاحتياطية تلقائيًا عن طريق فحص الخطوط المتاحة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 public void BuildAutomatic()
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد تنتج هذه الطريقة إعدادات احتياطية غير مثالية. يتم فحص الخطوط من قبل[ نطاق أحرف Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) الحقول وليس من خلال وجود الحروف الرسومية الفعلي. يتم أيضًا فحص نطاقات Unicode بشكل فردي وقد تستخدم النطاقات المتعددة المرتبطة بلغة/برنامج نصي واحد خطوطًا احتياطية مختلفة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توزيع الخطوط الاحتياطية عبر نطاقات رموز أحرف Unicode.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

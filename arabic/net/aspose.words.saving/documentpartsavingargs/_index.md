@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPartSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DocumentPartSavingArgs فصل. يوفر بيانات لـDocumentPartSaving رد الاتصال.
+title: DocumentPartSavingArgs Class
+linktitle: DocumentPartSavingArgs
+articleTitle: DocumentPartSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.DocumentPartSavingArgs فصل. يوفر بيانات لـDocumentPartSaving رد الاتصال في C#.
 type: docs
 weight: 4940
 url: /ar/net/aspose.words.saving/documentpartsavingargs/
@@ -25,7 +27,7 @@ public class DocumentPartSavingArgs
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | يسمح بتحديد الدفق الذي سيتم حفظ جزء المستند فيه. |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ جزء من المستند. |
 
-### ملاحظات
+## ملاحظات
 
 عندما يقوم Aspose.Words بحفظ مستند بتنسيق HTML أو التنسيقات ذات الصلة و[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)يتم تحديد ، ويتم تقسيم المستند إلى أجزاء وبشكل افتراضي، يتم حفظ كل جزء من المستند في ملف منفصل.
 
@@ -33,7 +35,7 @@ public class DocumentPartSavingArgs
 
 لحفظ أجزاء المستند في تدفقات بدلاً من الملفات، استخدم الملف[`DocumentPartStream`](./documentpartstream/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -151,5 +153,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

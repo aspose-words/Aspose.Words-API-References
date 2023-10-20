@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Aspose.Words لمراجع .NET API
-description: PageLayoutCallbackArgs ملكية. الحصول على الحدث.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words لـ .NET
+description: PageLayoutCallbackArgs Event ملكية. الحصول على الحدث في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/event/
 public PageLayoutEvent Event { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* مساحة الاسم [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

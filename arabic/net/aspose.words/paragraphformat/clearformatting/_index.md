@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat طريقة. إعادة التعيين إلى تنسيق الفقرة الافتراضي.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat ClearFormatting طريقة. إعادة التعيين إلى تنسيق الفقرة الافتراضي في C#.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/paragraphformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تنسيق الفقرة الافتراضي هو النمط العادي، محاذاة إلى اليسار، بدون مسافة بادئة، بدون تباعد، بدون حدود أو تظليل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج قائمة داخل قائمة أخرى.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

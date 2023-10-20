@@ -1,7 +1,9 @@
 ---
-title: MetafileRenderingOptions.MetafileRenderingOptions
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions البناء. Default_Constructor
+title: MetafileRenderingOptions
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/metafilerenderingoptions/
@@ -17,7 +19,5 @@ public MetafileRenderingOptions()
 ### أنظر أيضا
 
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

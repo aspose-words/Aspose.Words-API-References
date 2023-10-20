@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.IndexOfKey
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. إرجاع الفهرس الصفري لمتغير المستند المحدد في المجموعة.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words لـ .NET
+description: VariableCollection IndexOfKey طريقة. إرجاع الفهرس الصفري لمتغير المستند المحدد في المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/variablecollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

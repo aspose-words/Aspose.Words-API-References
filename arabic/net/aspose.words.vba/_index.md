@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Vba
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Vba توفر مساحة الاسم فئات للعمل مع مشاريع VBA.
+linktitle: Aspose.Words.Vba
+articleTitle: Aspose.Words.Vba
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Vba توفر مساحة الاسم فئات للعمل مع مشاريع VBA في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.vba/
 ---
-ال **Aspose.Words.Vba** توفر مساحة الاسم فئات للعمل مع مشاريع VBA.
+ال**Aspose.Words.Vba** توفر مساحة الاسم فئات للعمل مع مشاريع VBA.
 
 ## الطبقات
 
@@ -24,5 +26,3 @@ url: /ar/net/aspose.words.vba/
 | --- | --- |
 | [VbaModuleType](./vbamoduletype/) | يحدد نوع النموذج في مشروع VBA. |
 | [VbaReferenceType](./vbareferencetype/) | يسمح بتحديد نوع a[`VbaReference`](../aspose.words.vba/vbareference/) الكائن. |
-
-

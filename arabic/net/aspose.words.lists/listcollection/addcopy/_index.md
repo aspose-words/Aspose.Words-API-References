@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Aspose.Words لمراجع .NET API
-description: ListCollection طريقة. إنشاء قائمة جديدة عن طريق نسخ القائمة المحددة وإضافتها إلى مجموعة القوائم في المستند.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words لـ .NET
+description: ListCollection AddCopy طريقة. إنشاء قائمة جديدة عن طريق نسخ القائمة المحددة وإضافتها إلى مجموعة القوائم في المستند في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 القائمة التي تم إنشاؤها حديثا.
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تكون قائمة المصدر من أي مستند. إذا كانت القائمة المصدر تنتمي إلى مستند مختلف، فسيتم إنشاء نسخة من القائمة وإضافتها إلى المستند الحالي.
 
 إذا كانت القائمة المصدر مرجعًا أو تعريفًا لنمط القائمة، فإن القائمة التي تم إنشاؤها حديثًا لا ترتبط بنمط القائمة الأصلي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند باستخدام عينة من كافة القوائم من مستند آخر.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

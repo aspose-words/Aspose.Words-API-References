@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldNameNoPrefix
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeField ملكية. يقوم بإرجاع اسم حقل البيانات فقط. يتم تجريد أي بادئة من خاصية البادئة.
+linktitle: FieldNameNoPrefix
+articleTitle: FieldNameNoPrefix
+second_title: Aspose.Words لـ .NET
+description: FieldMergeField FieldNameNoPrefix ملكية. يقوم بإرجاع اسم حقل البيانات فقط. يتم تجريد أي بادئة من خاصية البادئة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
 public string FieldNameNoPrefix { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### أنظر أيضا
 
 * class [FieldMergeField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergefield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

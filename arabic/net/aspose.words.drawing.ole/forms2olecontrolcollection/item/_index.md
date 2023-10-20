@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControlCollection ملكية. يحصلForms2OleControl كائن في فهرس محدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControlCollection Item ملكية. يحصلForms2OleControl كائن في فهرس محدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 public Forms2OleControl this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

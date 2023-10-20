@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words لـ .NET
+description: FontInfo Pitch ملكية. تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontinfo/pitch/
 public FontPitch Pitch { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<IStructuredDocumentTag> GetEnumerator()
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

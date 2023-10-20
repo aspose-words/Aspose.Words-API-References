@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeFonts ملكية. يحدد اسم الخط للأحرف اللاتينية.
+linktitle: Latin
+articleTitle: Latin
+second_title: Aspose.Words لـ .NET
+description: ThemeFonts Latin ملكية. يحدد اسم الخط للأحرف اللاتينية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themefonts/latin/
 public string Latin { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeFonts](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themefonts/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

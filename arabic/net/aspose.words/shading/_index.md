@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shading فصل. يحتوي على سمات تظليل لكائن ما.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shading فصل. يحتوي على سمات تظليل لكائن ما في C#.
 type: docs
 weight: 5990
 url: /ar/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | إزالة التظليل من الكائن. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | تحديد ما إذا كان المحدد`Shading` يساوي القيمة الحالية`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | تحديد ما إذا كان المحدد`Shading` يساوي القيمة الحالية`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | بمثابة وظيفة تجزئة لهذا النوع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تزيين النص بالحدود والتظليل.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentPartSavingCallback.DocumentPartSaving
-second_title: Aspose.Words لمراجع .NET API
-description: IDocumentPartSavingCallback طريقة. يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ جزء من المستند.
+linktitle: DocumentPartSaving
+articleTitle: DocumentPartSaving
+second_title: Aspose.Words لـ .NET
+description: IDocumentPartSavingCallback DocumentPartSaving طريقة. يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ جزء من المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
 public void DocumentPartSaving(DocumentPartSavingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * interface [IDocumentPartSavingCallback](../)
-* مساحة الاسم [Aspose.Words.Saving](../../idocumentpartsavingcallback/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

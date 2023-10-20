@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض صور ملف التعريف.
+linktitle: RenderingMode
+articleTitle: RenderingMode
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions RenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض صور ملف التعريف في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 public MetafileRenderingMode RenderingMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تعتمد القيمة الافتراضية على تنسيق الحفظ. بالنسبة للصور هوBitmap . بالنسبة للتنسيقات الأخرى فهو كذلكVectorWithFallback.
 
-### أمثلة
+## أمثلة
 
 تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
@@ -74,7 +76,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

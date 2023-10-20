@@ -1,7 +1,9 @@
 ---
 title: TextPath.On
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. يحدد ما إذا كان سيتم عرض النص أم لا.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words لـ .NET
+description: TextPath On ملكية. يحدد ما إذا كان سيتم عرض النص أم لا في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/textpath/on/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/on/
 public bool On { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

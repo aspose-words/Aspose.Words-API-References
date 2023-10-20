@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignature
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DigitalSignatures.DigitalSignature فصل. يمثل التوقيع الرقمي على المستند ونتيجة التحقق منه.
+title: DigitalSignature Class
+linktitle: DigitalSignature
+articleTitle: DigitalSignature
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignature فصل. يمثل التوقيع الرقمي على المستند ونتيجة التحقق منه في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/
@@ -35,7 +37,7 @@ public class DigitalSignature
 | --- | --- |
 | override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -58,5 +60,3 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * مساحة الاسم [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../)
-
-

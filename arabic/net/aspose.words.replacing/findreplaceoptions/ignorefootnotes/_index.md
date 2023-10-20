@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل الحواشي السفلية. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions IgnoreFootnotes ملكية. الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل الحواشي السفلية. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاهل الحواشي السفلية أثناء عملية البحث والاستبدال.
 
@@ -41,7 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

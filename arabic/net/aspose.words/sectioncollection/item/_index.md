@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: SectionCollection ملكية. استرداد قسم في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: SectionCollection Item ملكية. استرداد قسم في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | فهرس في قائمة الأقسام. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Section this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح متى يجب إعادة حساب تخطيط صفحة المستند.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* مساحة الاسم [Aspose.Words](../../sectioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

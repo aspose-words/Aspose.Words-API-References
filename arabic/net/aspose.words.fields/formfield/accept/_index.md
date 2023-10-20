@@ -1,7 +1,9 @@
 ---
 title: FormField.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: FormField طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: FormField Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.fields/formfield/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -163,7 +165,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.IsQuickStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. يحدد ما إذا كان سيتم عرض هذا النمط في معرض الأنماط السريعة داخل واجهة مستخدم MS Word.
+linktitle: IsQuickStyle
+articleTitle: IsQuickStyle
+second_title: Aspose.Words لـ .NET
+description: Style IsQuickStyle ملكية. يحدد ما إذا كان سيتم عرض هذا النمط في معرض الأنماط السريعة داخل واجهة مستخدم MS Word في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/style/isquickstyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/isquickstyle/
 public bool IsQuickStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة أنماط المستند.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

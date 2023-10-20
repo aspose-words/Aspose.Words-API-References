@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. إرجاع أو تعيين النص المعروض في مربع رسالة عندما يكون حقل النموذج هو التركيز ويقوم المستخدم بالضغط على F1.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words لـ .NET
+description: FormField HelpText ملكية. إرجاع أو تعيين النص المعروض في مربع رسالة عندما يكون حقل النموذج هو التركيز ويقوم المستخدم بالضغط على F1 في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/formfield/helptext/
 public string HelpText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا[`OwnHelp`](../ownhelp/) تم تعيين الخاصية على`حقيقي` ,`HelpText` يحدد قيمة السلسلة النصية. إذا[`OwnHelp`](../ownhelp/) تم ضبطه على`خطأ شنيع` ,`HelpText`يحدد اسم إدخال النص التلقائي الذي يحتوي على نص help لحقل النموذج.
 
 يسمح Microsoft Word بسلاسل تحتوي على 255 حرفًا على الأكثر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

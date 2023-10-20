@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.LayoutFlow تعداد. يحدد تدفق تخطيط النص في مربع النص.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.LayoutFlow تعداد. يحدد تدفق تخطيط النص في مربع النص في C#.
 type: docs
 weight: 1100
 url: /ar/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | يتم عرض النص الإيديوغرافي أفقيًا. |
 | Vertical | `5` | يتم عرض النص عموديًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نص إلى مربع نص وتغيير اتجاهه
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

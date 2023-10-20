@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox طريقة. يحدد ما إذا كان هذاTextBox يمكن ربطها بالهدفTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words لـ .NET
+description: TextBox IsValidLinkTarget طريقة. يحدد ما إذا كان هذاTextBox يمكن ربطها بالهدفTextBox  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/textbox/isvalidlinktarget/
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط مربعات النص.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

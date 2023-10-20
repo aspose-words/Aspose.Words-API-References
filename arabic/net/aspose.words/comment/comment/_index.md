@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Aspose.Words لمراجع .NET API
-description: Comment البناء. تهيئة مثيل جديد لـComment فئة.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words لـ .NET
+description: Comment البناء. تهيئة مثيل جديد لـComment فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 تهيئة مثيل جديد لـ[`Comment`](../) فئة.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Comment`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Comment`](../) لاستخدام الوثيقةNode) أوNode) في الفقرة التي تريد إدراج التعليق فيها.
+لإلحاق[`Comment`](../) لاستخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) في الفقرة التي تريد إدراج التعليق فيها.
 
 بعد إنشاء التعليق، لا تنس ضبطه[`Author`](../author/)[`Initial`](../initial/) و[`DateTime`](../datetime/) ملكيات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Comment`](../) فئة.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | الأحرف الأولى من اسم المؤلف للتعليق. لا يمكن`باطل`. |
 | dateTime | DateTime | تاريخ ووقت التعليق. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة تعليق إلى فقرة.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

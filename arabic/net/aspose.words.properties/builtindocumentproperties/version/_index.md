@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Version
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يمثل رقم إصدار التطبيق الذي أنشأ المستند.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Version ملكية. يمثل رقم إصدار التطبيق الذي أنشأ المستند في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words.properties/builtindocumentproperties/version/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/version/
 public int Version { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يتم إنشاء مستند بواسطة Microsoft Word، فإن 16 بت الأعلى يمثل الإصدار الرئيسي و16 بت المنخفض يمثل رقم الإصدار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

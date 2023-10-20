@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptionsBase ملكية. يسمح بتحديد ما إذا كان يجب الحفاظ على فواصل الصفحات أثناء التصدير.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptionsBase ForcePageBreaks ملكية. يسمح بتحديد ما إذا كان يجب الحفاظ على فواصل الصفحات أثناء التصدير في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ url: /ar/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 public bool ForcePageBreaks { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر الخاصية فقط على فواصل الصفحات التي يتم إدراجها بشكل صريح في المستند. لا يتعلق الأمر بفواصل الصفحات التي يقوم برنامج MS Word بإدراجها تلقائيًا في نهاية كل صفحة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بفواصل الصفحات عند تصدير مستند إلى نص عادي.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### أنظر أيضا
 
 * class [TxtSaveOptionsBase](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

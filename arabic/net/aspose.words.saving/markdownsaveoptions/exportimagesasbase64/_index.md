@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ExportImagesAsBase64
-second_title: Aspose.Words لمراجع .NET API
-description: MarkdownSaveOptions ملكية. يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 في ملف الإخراج. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportImagesAsBase64
+articleTitle: ExportImagesAsBase64
+second_title: Aspose.Words لـ .NET
+description: MarkdownSaveOptions ExportImagesAsBase64 ملكية. يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 في ملف الإخراج. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 public bool ExportImagesAsBase64 { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-عندما يتم تعيين هذه الخاصية إلى`حقيقي` يتم تصدير بيانات الصور مباشرة إلى ملف **img** لا يتم إنشاء العناصر والملفات المنفصلة.
+عندما يتم تعيين هذه الخاصية إلى`حقيقي` يتم تصدير بيانات الصور مباشرة إلى ملف**img** لا يتم إنشاء العناصر والملفات المنفصلة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند .md مع الصور المضمنة بداخله.
 
@@ -39,7 +41,5 @@ Assert.True(exportImagesAsBase64
 ### أنظر أيضا
 
 * class [MarkdownSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../markdownsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

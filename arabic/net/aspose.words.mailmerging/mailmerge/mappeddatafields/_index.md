@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. إرجاع مجموعة تمثل حقول البيانات المعينة لعملية دمج البريد.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words لـ .NET
+description: MailMerge MappedDataFields ملكية. إرجاع مجموعة تمثل حقول البيانات المعينة لعملية دمج البريد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح حقول البيانات المعينة بالتعيين تلقائيًا بين أسماء الحقول في مصدر البيانات الخاص بك وأسماء حقول دمج البريد في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Top
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين موضع الحافة العلوية للكتلة التي تحتوي على الشكل.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Top ملكية. الحصول على أو تعيين موضع الحافة العلوية للكتلة التي تحتوي على الشكل في C#.
 type: docs
 weight: 540
 url: /ar/net/aspose.words.drawing/shapebase/top/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/top/
 public double Top { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة لشكل المستوى الأعلى، تكون القيمة بالنقاط وترتبط بنقطة ارتساء الشكل.
 
@@ -24,7 +26,7 @@ public double Top { get; set; }
 
 له تأثير فقط على الأشكال العائمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة وتحديد موضعها وحجمها.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

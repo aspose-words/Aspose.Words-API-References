@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fields
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Fields تحتوي مساحة الاسم على فئات تمثل حقول Microsoft Word في المستند.
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Fields تحتوي مساحة الاسم على فئات تمثل حقول Microsoft Word في المستند في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/
 ---
-ال **Aspose.Words.Fields** تحتوي مساحة الاسم على فئات تمثل حقول Microsoft Word في المستند.
+ال**Aspose.Words.Fields** تحتوي مساحة الاسم على فئات تمثل حقول Microsoft Word في المستند.
 
 ## الطبقات
 
@@ -153,5 +155,3 @@ url: /ar/net/aspose.words.fields/
 | [GeneralFormat](./generalformat/) | يحدد تنسيقًا عامًا يتم تطبيقه على نتيجة رقمية أو نصية أو أي حقل. قد يحتوي الحقل على مجموعة من التنسيقات العامة. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | يحدد وحدة أبعاد الصورة (أي العرض أو الارتفاع) المستخدمة عبر عملية دمج البريد. |
 | [TextFormFieldType](./textformfieldtype/) | يحدد نوع حقل النموذج النصي. |
-
-

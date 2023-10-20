@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. يوفر الوصول إلى تنسيق الخط لحرف الربط لهذا الكائن.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: InlineStory Font ملكية. يوفر الوصول إلى تنسيق الخط لحرف الربط لهذا الكائن في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

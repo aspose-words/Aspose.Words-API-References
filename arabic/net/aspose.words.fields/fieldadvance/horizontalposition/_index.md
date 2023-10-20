@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.HorizontalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAdvance ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words لـ .NET
+description: FieldAdvance HorizontalPosition ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldadvance/horizontalposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldadvance/horizontalposition/
 public string HorizontalPosition { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل ADVANCE وتحرير خصائصه.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### أنظر أيضا
 
 * class [FieldAdvance](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldadvance/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

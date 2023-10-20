@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. يحدد المجلد للملفات المؤقتة المستخدمة عند الحفظ في ملف DOC أو DOCX. بشكل افتراضي تكون هذه الخاصيةباطل ولا يتم استخدام أي ملفات مؤقتة.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words لـ .NET
+description: SaveOptions TempFolder ملكية. يحدد المجلد للملفات المؤقتة المستخدمة عند الحفظ في ملف DOC أو DOCX. بشكل افتراضي تكون هذه الخاصيةباطل ولا يتم استخدام أي ملفات مؤقتة في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/tempfolder/
 public string TempFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يقوم Aspose.Words بحفظ مستند، فإنه يحتاج إلى إنشاء هياكل داخلية مؤقتة. افتراضيًا، يتم إنشاء هذه الهياكل الداخلية في الذاكرة ويرتفع استخدام الذاكرة لفترة قصيرة أثناء يتم حفظ المستند. عند اكتمال الحفظ، يتم تحرير الذاكرة واستعادتها بواسطة أداة تجميع البيانات المهملة.
 
@@ -24,7 +26,7 @@ public string TempFolder { get; set; }
 
 يقوم Aspose.Words تلقائيًا بحذف جميع الملفات المؤقتة عند اكتمال الحفظ.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام القرص الصلب بدلاً من الذاكرة عند حفظ مستند.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BackgroundColor
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode ملكية. الحصول على أو تعيين لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق 0 0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode BackgroundColor ملكية. الحصول على أو تعيين لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق 0 0xFFFFFF في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
 public string BackgroundColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل DISPLAYBARCODE وتعيين خصائصه.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

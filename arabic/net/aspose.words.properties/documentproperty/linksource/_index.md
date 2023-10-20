@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. الحصول على مصدر خاصية المستند المخصص المرتبط.
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty LinkSource ملكية. الحصول على مصدر خاصية المستند المخصص المرتبط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/documentproperty/linksource/
 public string LinkSource { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStop ملكية. الحصول على أو تعيين قيمة تمثل لون توقف التدرج.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: GradientStop Color ملكية. الحصول على أو تعيين قيمة تمثل لون توقف التدرج في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstop/color/
 public Color Color { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### أنظر أيضا
 
 * class [GradientStop](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstop/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

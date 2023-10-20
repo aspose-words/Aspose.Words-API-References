@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.IsLinkToContent
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. يوضح ما إذا كانت هذه الخاصية مرتبطة بالمحتوى أم لا.
+linktitle: IsLinkToContent
+articleTitle: IsLinkToContent
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty IsLinkToContent ملكية. يوضح ما إذا كانت هذه الخاصية مرتبطة بالمحتوى أم لا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/documentproperty/islinktocontent/
 public bool IsLinkToContent { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

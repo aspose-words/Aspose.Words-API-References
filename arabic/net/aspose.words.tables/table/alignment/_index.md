@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يحدد كيفية محاذاة الجدول المضمن في المستند.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words لـ .NET
+description: Table Alignment ملكية. يحدد كيفية محاذاة الجدول المضمن في المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/table/alignment/
 public TableAlignment Alignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيLeft.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.CacheKey
-second_title: Aspose.Words لمراجع .NET API
-description: FileFontSource ملكية. مفتاح هذا المصدر في ذاكرة التخزين المؤقت.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words لـ .NET
+description: FileFontSource CacheKey ملكية. مفتاح هذا المصدر في ذاكرة التخزين المؤقت في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/filefontsource/cachekey/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/filefontsource/cachekey/
 public string CacheKey { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يُستخدم هذا المفتاح لتحديد عنصر ذاكرة التخزين المؤقت عند حفظ/تحميل ذاكرة التخزين المؤقت للبحث عن الخطوط باستخدام [`SaveSearchCache`](../../fontsettings/savesearchcache/) و [`SetFontsSources`](../../fontsettings/setfontssources/) طُرق.
 
@@ -23,7 +25,5 @@ public string CacheKey { get; }
 ### أنظر أيضا
 
 * class [FileFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../filefontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. يحدد مصدر النص الذي يتم عرضه في شريط الحالة عندما يكون حقل النموذج هو التركيز.
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: Aspose.Words لـ .NET
+description: FormField OwnStatus ملكية. يحدد مصدر النص الذي يتم عرضه في شريط الحالة عندما يكون حقل النموذج هو التركيز في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/ownstatus/
 public bool OwnStatus { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لو`حقيقي` ، النص المحدد بواسطة[`StatusText`](../statustext/) يتم عرض الخاصية. إذا`خطأ شنيع` ، نص إدخال النص التلقائي المحدد بواسطة[`StatusText`](../statustext/) يتم عرض الممتلكات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

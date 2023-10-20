@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا تم فرض فاصل الصفحات قبل الفقرة.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat PageBreakBefore ملكية. صحيح إذا تم فرض فاصل الصفحات قبل الفقرة في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/pagebreakbefore/
 public bool PageBreakBefore { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء فقرات مع فواصل الصفحات في البداية.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

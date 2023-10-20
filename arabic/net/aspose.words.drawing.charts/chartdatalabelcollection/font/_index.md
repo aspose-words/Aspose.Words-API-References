@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يوفر الوصول إلى تنسيق الخط الخاص بتسميات البيانات الخاصة بالسلسلة بأكملها.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection Font ملكية. يوفر الوصول إلى تنسيق الخط الخاص بتسميات البيانات الخاصة بالسلسلة بأكملها في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
 public Font Font { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`Font`](../../chartdatalabel/font/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين تسميات البيانات وتكوينها لسلسلة مخططات.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

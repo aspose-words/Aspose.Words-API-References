@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. يوفر الوصول إلى خيارات القياس للمحور.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words لـ .NET
+description: ChartAxis Scaling ملكية. يوفر الوصول إلى خيارات القياس للمحور في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/scaling/
 public AxisScaling Scaling { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

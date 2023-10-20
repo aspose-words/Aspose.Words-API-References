@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Aspose.Words لمراجع .NET API
-description: AxisBound البناء. إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات .
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words لـ .NET
+description: AxisBound البناء. إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/axisbound/axisbound/
 public AxisBound()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين حدود المحور المخصصة.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### أنظر أيضا
 
 * class [AxisBound](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisbound/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 إنشاء محور محدد ممثلاً برقم.
 
@@ -87,7 +89,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 public AxisBound(double value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### أنظر أيضا
 
 * class [AxisBound](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisbound/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 ينشئ محورًا محددًا يتم تمثيله كقيمة تاريخ ووقت.
 
@@ -154,7 +156,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 public AxisBound(DateTime datetime)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### أنظر أيضا
 
 * class [AxisBound](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisbound/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

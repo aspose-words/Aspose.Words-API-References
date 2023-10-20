@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. الحصول على مجموعة من المراجعات التغييرات المتعقبة الموجودة في هذا النطاق.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words لـ .NET
+description: Range Revisions ملكية. الحصول على مجموعة من المراجعات التغييرات المتعقبة الموجودة في هذا النطاق في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/range/revisions/
 public RevisionCollection Revisions { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 المجموعة التي تم إرجاعها هي مجموعة "مباشرة"، مما يعني أنه إذا قمت بإزالة أجزاء من مستند يحتوي على مراجعات ، فإن المراجعات المحذوفة ستختفي تلقائيًا من هذه المجموعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع المراجعات في النطاق.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

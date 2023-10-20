@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Bold
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يشير إلى ما إذا كان الخط الحالي غامقًا أم لا.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs Bold ملكية. يشير إلى ما إذا كان الخط الحالي غامقًا أم لا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/fontsavingargs/bold/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fontsavingargs/bold/
 public bool Bold { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

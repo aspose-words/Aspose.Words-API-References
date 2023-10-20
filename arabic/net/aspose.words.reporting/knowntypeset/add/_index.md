@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Add
-second_title: Aspose.Words لمراجع .NET API
-description: KnownTypeSet طريقة. يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: KnownTypeSet Add طريقة. يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.reporting/knowntypeset/add/
@@ -33,7 +35,5 @@ public void Add(Type type)
 ### أنظر أيضا
 
 * class [KnownTypeSet](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../knowntypeset/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

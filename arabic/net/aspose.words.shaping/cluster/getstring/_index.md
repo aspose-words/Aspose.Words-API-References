@@ -1,12 +1,14 @@
 ---
 title: Cluster.GetString
-second_title: Aspose.Words لمراجع .NET API
-description: Cluster طريقة. ينشئString باستخدام نقاط التشفير من المجموعات المحددة.
+linktitle: GetString
+articleTitle: GetString
+second_title: Aspose.Words لـ .NET
+description: Cluster GetString طريقة. ينشئString باستخدام نقاط التشفير من المجموعات المحددة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.shaping/cluster/getstring/
 ---
-## GetString(Cluster[])
+## GetString(*Cluster[]*)
 
 ينشئString باستخدام نقاط التشفير من المجموعات المحددة.
 
@@ -17,7 +19,7 @@ public static string GetString(Cluster[] clusters)
 ### أنظر أيضا
 
 * class [Cluster](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../cluster/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -33,7 +35,5 @@ public string GetString()
 ### أنظر أيضا
 
 * class [Cluster](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../cluster/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

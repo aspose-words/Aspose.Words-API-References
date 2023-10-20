@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MeasurementUnit
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد وحدات القياس لتعليقات المراجعة. القيمة الافتراضية هيCentimeters
+linktitle: MeasurementUnit
+articleTitle: MeasurementUnit
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions MeasurementUnit ملكية. يسمح بتحديد وحدات القياس لتعليقات المراجعة. القيمة الافتراضية هيCentimeters في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/revisionoptions/measurementunit/
@@ -18,7 +20,5 @@ public MeasurementUnits MeasurementUnit { get; set; }
 
 * enum [MeasurementUnits](../../../aspose.words/measurementunits/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

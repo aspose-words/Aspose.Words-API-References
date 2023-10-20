@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. متىحقيقييضيف خطًا رأسيًا بين الأعمدة.
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: Aspose.Words لـ .NET
+description: TextColumnCollection LineBetween ملكية. متىحقيقييضيف خطًا رأسيًا بين الأعمدة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textcolumncollection/linebetween/
 public bool LineBetween { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فصل الأعمدة بخط عمودي.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### أنظر أيضا
 
 * class [TextColumnCollection](../)
-* مساحة الاسم [Aspose.Words](../../textcolumncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

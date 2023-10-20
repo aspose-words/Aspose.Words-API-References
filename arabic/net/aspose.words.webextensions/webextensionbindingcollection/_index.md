@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBindingCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionBindingCollection فصل. يحدد قائمة روابط امتدادات الويب.
+title: WebExtensionBindingCollection Class
+linktitle: WebExtensionBindingCollection
+articleTitle: WebExtensionBindingCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingCollection فصل. يحدد قائمة روابط امتدادات الويب في C#.
 type: docs
 weight: 6760
 url: /ar/net/aspose.words.webextensions/webextensionbindingcollection/
@@ -27,12 +29,12 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionBinding) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionBinding](../webextensionbinding/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionBinding](../webextensionbinding/)
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

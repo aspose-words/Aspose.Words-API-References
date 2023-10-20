@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisCategoryType تعداد. يحدد نوع محور الفئة.
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisCategoryType تعداد. يحدد نوع محور الفئة في C#.
 type: docs
 weight: 530
 url: /ar/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | يحدد محور مجموعة عشوائية من الفئات. |
 | Time | `2` | يحدد محور الفئة الزمنية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

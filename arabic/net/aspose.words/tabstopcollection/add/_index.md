@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. إضافة علامة جدولة أو استبدالها في المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: TabStopCollection Add طريقة. إضافة علامة جدولة أو استبدالها في المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 إضافة علامة جدولة أو استبدالها في المجموعة.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | كائن علامة جدولة لإضافته. |
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت علامة الجدولة موجودة بالفعل في الموضع المحدد، فسيتم استبدالها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة علامات جدولة مخصصة إلى مستند.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 إضافة علامة جدولة أو استبدالها في المجموعة.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | أ[`TabAlignment`](../../tabalignment/) تحدد القيمة that محاذاة النص عند علامة الجدولة. |
 | leader | TabLeader | أ[`TabLeader`](../../tableader/) تحدد القيمة that نوع السطر الرئيسي المعروض أسفل حرف علامة التبويب. |
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت علامة الجدولة موجودة بالفعل في الموضع المحدد، فسيتم استبدالها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة علامات جدولة مخصصة إلى مستند.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* مساحة الاسم [Aspose.Words](../../tabstopcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

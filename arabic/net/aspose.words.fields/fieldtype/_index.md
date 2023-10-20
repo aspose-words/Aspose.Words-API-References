@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldType تعداد. يحدد أنواع حقول Microsoft Word.
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldType تعداد. يحدد أنواع حقول Microsoft Word في C#.
 type: docs
 weight: 2540
 url: /ar/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | يحدد حقل USERINITIALS. |
 | FieldUserName | `60` | يحدد حقل اسم المستخدم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
@@ -163,5 +165,3 @@ field.Update();
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

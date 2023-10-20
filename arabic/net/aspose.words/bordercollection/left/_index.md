@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. يحصل على الحد الأيسر.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Left ملكية. يحصل على الحد الأيسر في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/left/
 public Border Left { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين زاوية التعبئة المتدرجة.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words لـ .NET
+description: Fill GradientAngle ملكية. الحصول على أو تعيين زاوية التعبئة المتدرجة في C#.
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/gradientangle/
 public double GradientAngle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

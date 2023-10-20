@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceSavingArgs ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ المورد فيه.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words لـ .NET
+description: ResourceSavingArgs ResourceFileName ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ المورد فيه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/resourcesavingargs/resourcefilename/
 public string ResourceFileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الموارد أثناء التصدير إلى صفحة ثابتة بتنسيق HTML أو SVG.
 
@@ -30,7 +32,7 @@ public string ResourceFileName { get; set; }
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../resourcesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.NoShade
-second_title: Aspose.Words لمراجع .NET API
-description: HorizontalRuleFormat ملكية. يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية. إذاحقيقي ثم تكون القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام اللون الصلب.
+linktitle: NoShade
+articleTitle: NoShade
+second_title: Aspose.Words لـ .NET
+description: HorizontalRuleFormat NoShade ملكية. يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية. إذاحقيقي ثم تكون القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام اللون الصلب في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/horizontalruleformat/noshade/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/horizontalruleformat/noshade/
 public bool NoShade { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
@@ -41,7 +43,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### أنظر أيضا
 
 * class [HorizontalRuleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../horizontalruleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

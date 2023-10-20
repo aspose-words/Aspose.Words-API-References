@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words لـ .NET
+description: CellFormat HorizontalMerge ملكية. يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف في C#.
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/horizontalmerge/
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج خلايا الجدول أفقياً.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

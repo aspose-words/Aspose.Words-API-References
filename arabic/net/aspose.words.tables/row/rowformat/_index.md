@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. يوفر الوصول إلى خصائص التنسيق للصف.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words لـ .NET
+description: Row RowFormat ملكية. يوفر الوصول إلى خصائص التنسيق للصف في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/rowformat/
 public RowFormat RowFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل تنسيق صف الجدول.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

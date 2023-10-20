@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. متىحقيقي  يحدد أنه بالإضافة إلى حقول MERGEFIELD يتم إجراء دمج البريد في بعض أنواع الحقول الأخرى و أيضًا في علامات fieldName.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words لـ .NET
+description: MailMerge UseNonMergeFields ملكية. متىحقيقي  يحدد أنه بالإضافة إلى حقول MERGEFIELD يتم إجراء دمج البريد في بعض أنواع الحقول الأخرى و أيضًا في علامات fieldName في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 public bool UseNonMergeFields { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عادةً، يتم تنفيذ دمج البريد فقط في حقول MERGEFIELD، ولكن تم إنشاء التقارير الخاصة بالعديد من العملاء باستخدام حقول أخرى وتم إنشاء العديد من المستندات بهذه الطريقة. لتبسيط الترحيل (ولأن أسلوب هذا تم استخدامه بشكل مستقل من قبل العديد من العملاء) تم تقديم القدرة على دمج البريد في الحقول الأخرى.
 
@@ -28,7 +30,7 @@ MACROBUTTON NOMACRO اسم الحقل
 
 وأيضا متى`UseNonMergeFields` تم ضبطه على`حقيقي`، سيقوم Aspose.Words بدمج البريد في العلامات النصية "{{fieldName}}". هذه ليست حقول، ولكنها مجرد علامات نصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على مظهر علامات دمج البريد البديلة التي لا يتم استخدامها أثناء عملية دمج البريد.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

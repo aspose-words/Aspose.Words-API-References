@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Type
-second_title: Aspose.Words لمراجع .NET API
-description: ShadowFormat ملكية. الحصول على المحدد أو تعيينهShadowType لـ ShadowFormat.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: ShadowFormat Type ملكية. الحصول على المحدد أو تعيينهShadowType لـ ShadowFormat في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shadowformat/type/
@@ -18,7 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shadowformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

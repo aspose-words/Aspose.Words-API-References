@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد الرأس أو التذييل في القسم.
+linktitle: VisitHeaderFooterEnd
+articleTitle: VisitHeaderFooterEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitHeaderFooterEnd طريقة. يتم استدعاؤه عند انتهاء تعداد الرأس أو التذييل في القسم في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words/documentvisitor/visitheaderfooterend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في المستند.
 
@@ -117,7 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

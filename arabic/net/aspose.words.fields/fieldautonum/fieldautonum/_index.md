@@ -1,7 +1,9 @@
 ---
-title: FieldAutoNum.FieldAutoNum
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoNum البناء. Default_Constructor
+title: FieldAutoNum
+linktitle: FieldAutoNum
+articleTitle: FieldAutoNum
+second_title: Aspose.Words لـ .NET
+description: FieldAutoNum البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldautonum/fieldautonum/
@@ -17,7 +19,5 @@ public FieldAutoNum()
 ### أنظر أيضا
 
 * class [FieldAutoNum](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautonum/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

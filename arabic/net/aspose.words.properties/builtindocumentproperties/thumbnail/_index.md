@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Thumbnail
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على الصورة المصغرة للمستند أو تعيينها.
+linktitle: Thumbnail
+articleTitle: Thumbnail
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Thumbnail ملكية. الحصول على الصورة المصغرة للمستند أو تعيينها في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.properties/builtindocumentproperties/thumbnail/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/thumbnail/
 public byte[] Thumbnail { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 في الوقت الحالي، يتم استخدام هذه الخاصية فقط عندما يتم تصدير مستند إلى ePub، ولا تتم قراءته منه أو كتابته إلى تنسيقات المستندات الأخرى.
 
@@ -22,7 +24,7 @@ public byte[] Thumbnail { get; set; }
 
 يمكن استخدام صور gif وjpeg وpng فقط لنشر ePub.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة صورة مصغرة إلى مستند نحفظه كملف Epub.
 
@@ -48,7 +50,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

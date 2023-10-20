@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLinkOnly
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. إرجاعحقيقي إذا كانت الصورة مرتبطة وغير مخزنة في المستند.
+linktitle: IsLinkOnly
+articleTitle: IsLinkOnly
+second_title: Aspose.Words لـ .NET
+description: ImageData IsLinkOnly ملكية. إرجاعحقيقي إذا كانت الصورة مرتبطة وغير مخزنة في المستند في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing/imagedata/islinkonly/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagedata/islinkonly/
 public bool IsLinkOnly { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

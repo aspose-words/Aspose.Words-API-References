@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEndPageIndex
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector طريقة. يحصل على فهرس مستند إلى 1 للصفحة التي تنتهي فيها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة.
+linktitle: GetEndPageIndex
+articleTitle: GetEndPageIndex
+second_title: Aspose.Words لـ .NET
+description: LayoutCollector GetEndPageIndex طريقة. يحصل على فهرس مستند إلى 1 للصفحة التي تنتهي فيها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.layout/layoutcollector/getendpageindex/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutcollector/getendpageindex/
 public int GetEndPageIndex(Node node)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutcollector/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

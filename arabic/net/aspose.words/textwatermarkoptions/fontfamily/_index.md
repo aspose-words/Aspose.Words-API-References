@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي كاليبر.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words لـ .NET
+description: TextWatermarkOptions FontFamily ملكية. الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي كاليبر في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textwatermarkoptions/fontfamily/
 public string FontFamily { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### أنظر أيضا
 
 * class [TextWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../textwatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

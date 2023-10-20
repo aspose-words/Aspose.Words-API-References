@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. عدد المللي ثانية التي يجب انتظارها قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية 100 ثانية.
+linktitle: WebRequestTimeout
+articleTitle: WebRequestTimeout
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions WebRequestTimeout ملكية. عدد المللي ثانية التي يجب انتظارها قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية 100 ثانية في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 public int WebRequestTimeout { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عدد المللي ثانية التي ينتظرها Aspose.Words للاستجابة، عند تحميل الموارد الخارجية (الصور، style Sheets) المرتبطة في مستندات HTML وMHTML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين حد زمني لطلبات الويب عند تحميل مستند بموارد خارجية مرتبطة بعناوين URL.
 
@@ -87,7 +89,5 @@ private class ListDocumentWarnings : IWarningCallback
 ### أنظر أيضا
 
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

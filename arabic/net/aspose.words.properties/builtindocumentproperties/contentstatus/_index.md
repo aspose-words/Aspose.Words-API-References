@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentStatus
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تعيينContentStatus من الوثيقة.
+linktitle: ContentStatus
+articleTitle: ContentStatus
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties ContentStatus ملكية. الحصول على أو تعيينContentStatus من الوثيقة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.properties/builtindocumentproperties/contentstatus/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/contentstatus/
 public string ContentStatus { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "المحتوى".
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

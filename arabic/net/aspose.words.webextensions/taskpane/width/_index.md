@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Aspose.Words لمراجع .NET API
-description: TaskPane ملكية. يحدد قيمة العرض الافتراضية لمثيل جزء المهام هذا.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words لـ .NET
+description: TaskPane Width ملكية. يحدد قيمة العرض الافتراضية لمثيل جزء المهام هذا في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/taskpane/width/
 public double Width { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [TaskPane](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../taskpane/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

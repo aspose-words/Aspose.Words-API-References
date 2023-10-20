@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين لون السمة في نظام الألوان المطبق المرتبط بهذاFont الكائن.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words لـ .NET
+description: Font ThemeColor ملكية. الحصول على أو تعيين لون السمة في نظام الألوان المطبق المرتبط بهذاFont الكائن في C#.
 type: docs
 weight: 460
 url: /ar/net/aspose.words/font/themecolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/themecolor/
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء واستخدام النمط الموضوعي.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

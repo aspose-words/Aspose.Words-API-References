@@ -1,7 +1,9 @@
 ---
 title: WebExtension.IsFrozen
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtension ملكية. يحدد ما إذا كان يمكن للمستخدم التفاعل مع ملحق الويب أم لا.
+linktitle: IsFrozen
+articleTitle: IsFrozen
+second_title: Aspose.Words لـ .NET
+description: WebExtension IsFrozen ملكية. يحدد ما إذا كان يمكن للمستخدم التفاعل مع ملحق الويب أم لا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.webextensions/webextension/isfrozen/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextension/isfrozen/
 public bool IsFrozen { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [WebExtension](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextension/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

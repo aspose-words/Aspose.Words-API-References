@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إذاحقيقي  التفاف النص للخلية.
+linktitle: WrapText
+articleTitle: WrapText
+second_title: Aspose.Words لـ .NET
+description: CellFormat WrapText ملكية. إذاحقيقي  التفاف النص للخلية في C#.
 type: docs
-weight: 150
+weight: 140
 url: /ar/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/wraptext/
 public bool WrapText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول بحدود مخصصة.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum LegendPosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.LegendPosition تعداد. يحدد المواضع المحتملة لوسيلة إيضاح المخطط.
+title: LegendPosition Enum
+linktitle: LegendPosition
+articleTitle: LegendPosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.LegendPosition تعداد. يحدد المواضع المحتملة لوسيلة إيضاح المخطط في C#.
 type: docs
 weight: 910
 url: /ar/net/aspose.words.drawing.charts/legendposition/
@@ -25,7 +27,7 @@ public enum LegendPosition
 | Top | `4` | يحدد أنه يجب رسم وسيلة الإيضاح في أعلى المخطط. |
 | TopRight | `5` | يحدد أنه سيتم رسم وسيلة الإيضاح في أعلى يمين المخطط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.DuplicateStyle
-second_title: Aspose.Words لمراجع .NET API
-description: CleanupOptions ملكية. الحصول على/تعيين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هيخطأ شنيع .
+linktitle: DuplicateStyle
+articleTitle: DuplicateStyle
+second_title: Aspose.Words لـ .NET
+description: CleanupOptions DuplicateStyle ملكية. الحصول على/تعيين علامة تشير إلى ما إذا كان يجب إزالة الأنماط المكررة من المستند. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/cleanupoptions/duplicatestyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/cleanupoptions/duplicatestyle/
 public bool DuplicateStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الأنماط المكررة من المستند.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### أنظر أيضا
 
 * class [CleanupOptions](../)
-* مساحة الاسم [Aspose.Words](../../cleanupoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

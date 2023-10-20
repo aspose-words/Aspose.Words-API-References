@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionReference ملكية. المعرف المرتبط بامتداد الويب داخل موفر الكتالوج.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: WebExtensionReference Id ملكية. المعرف المرتبط بامتداد الويب داخل موفر الكتالوج في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextensionreference/id/
 public string Id { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [WebExtensionReference](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextensionreference/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeValue
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. البيانات المراد تشفيرها.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters BarcodeValue ملكية. البيانات المراد تشفيرها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/barcodeparameters/barcodevalue/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/barcodevalue/
 public string BarcodeValue { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

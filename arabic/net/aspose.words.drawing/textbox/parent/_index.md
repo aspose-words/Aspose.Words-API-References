@@ -1,7 +1,9 @@
 ---
 title: TextBox.Parent
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. يحصل على الشكل الأصلي لـTextBox .
+linktitle: Parent
+articleTitle: Parent
+second_title: Aspose.Words لـ .NET
+description: TextBox Parent ملكية. يحصل على الشكل الأصلي لـTextBox  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/textbox/parent/
@@ -18,7 +20,5 @@ public Shape Parent { get; }
 
 * class [Shape](../../shape/)
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

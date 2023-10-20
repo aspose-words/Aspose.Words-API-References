@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToSize
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يعرض صفحة المستند إلى ملفGraphics كائن بحجم محدد.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words لـ .NET
+description: Document RenderToSize طريقة. يعرض صفحة المستند إلى ملفGraphics كائن بحجم محدد في C#.
 type: docs
-weight: 710
+weight: 690
 url: /ar/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -28,7 +30,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 المقياس الذي تم حسابه تلقائيًا للصفحة المعروضة ليناسب الحجم المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض المستند كصورة نقطية في موقع وحجم محددين (.NetStandard 2.0).
 
@@ -144,7 +146,5 @@ using (Bitmap bmp = new Bitmap(700, 700))
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

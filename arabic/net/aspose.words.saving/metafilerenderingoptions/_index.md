@@ -1,7 +1,9 @@
 ---
-title: Class MetafileRenderingOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.MetafileRenderingOptions فصل. يسمح بتحديد خيارات عرض ملف التعريف الإضافية.
+title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.MetafileRenderingOptions فصل. يسمح بتحديد خيارات عرض ملف التعريف الإضافية في C#.
 type: docs
 weight: 5300
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/
@@ -34,7 +36,7 @@ public class MetafileRenderingOptions
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف WMF مع ملفات تعريف EMF المضمنة. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام GDI+ لمحاكاة العمليات النقطية أم لا. |
 
-### أمثلة
+## أمثلة
 
 تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
@@ -90,5 +92,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

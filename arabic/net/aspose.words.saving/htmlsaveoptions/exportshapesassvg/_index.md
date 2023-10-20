@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في ما إذا كانShapeيتم تحويل العقد إلى صور SVG عند حفظ إلى HTML أو MHTML أو EPUB أو AZW3. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportShapesAsSvg ملكية. يتحكم في ما إذا كانShapeيتم تحويل العقد إلى صور SVG عند حفظ إلى HTML أو MHTML أو EPUB أو AZW3. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم ضبط هذا الخيار على`حقيقي` ,[`Shape`](../../../aspose.words.drawing/shape/) يتم تصدير العقد كعناصر &lt;svg&gt;. وبخلاف ذلك، يتم عرضها كصور نقطية ويتم تصديرها كعناصر &lt;img&gt;.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصدير الشكل كرسومات متجهة قابلة للتطوير.
 
@@ -61,7 +63,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

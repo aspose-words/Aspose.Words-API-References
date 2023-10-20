@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBuilder طريقة. إنشاء وإدراج حقل في المستند قبل العقدة المضمنة المحددة.
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: Aspose.Words لـ .NET
+description: FieldBuilder BuildAndInsert طريقة. إنشاء وإدراج حقل في المستند قبل العقدة المضمنة المحددة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 إنشاء وإدراج حقل في المستند قبل العقدة المضمنة المحددة.
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 أ[`Field`](../../field/) كائن يمثل الحقل المدرج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل وإدراجه باستخدام منشئ الحقول.
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 إنشاء حقل وإدراجه في المستند حتى نهاية الفقرة المحددة.
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 أ[`Field`](../../field/) كائن يمثل الحقل المدرج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

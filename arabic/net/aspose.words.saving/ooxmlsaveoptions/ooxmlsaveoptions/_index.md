@@ -1,7 +1,9 @@
 ---
-title: OoxmlSaveOptions.OoxmlSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: OoxmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDocx التنسيق.
+title: OoxmlSaveOptions
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: Aspose.Words لـ .NET
+description: OoxmlSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDocx التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 public OoxmlSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام به.
 
@@ -49,12 +51,12 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 ### أنظر أيضا
 
 * class [OoxmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## OoxmlSaveOptions(SaveFormat) {#constructor_1}
+## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDocxDocm ,Dotx ,Dotm أو FlatOpc التنسيق.
 
@@ -66,7 +68,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | يمكن ان يكونDocx ,DocmDotx ,Dotm أوFlatOpc . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دعم أحرف التحكم القديمة عند التحويل إلى .docx.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

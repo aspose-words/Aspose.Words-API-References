@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpropertycollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

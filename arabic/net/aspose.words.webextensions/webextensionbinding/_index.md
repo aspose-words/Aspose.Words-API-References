@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBinding
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionBinding فصل. يحدد علاقة ربط بين امتداد الويب والبيانات الموجودة في المستند.
+title: WebExtensionBinding Class
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionBinding فصل. يحدد علاقة ربط بين امتداد الويب والبيانات الموجودة في المستند في C#.
 type: docs
 weight: 6750
 url: /ar/net/aspose.words.webextensions/webextensionbinding/
@@ -20,7 +22,7 @@ public class WebExtensionBinding
 
 | اسم | وصف |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | ينشئ ربط ملحق الويب بمعلمات محددة. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | ينشئ ربط ملحق الويب بمعلمات محددة. |
 
 ## الخصائص
 
@@ -34,5 +36,3 @@ public class WebExtensionBinding
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

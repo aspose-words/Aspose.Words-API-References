@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. يسمح بمعالجة أحداث معينة أثناء دمج البريد.
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: Aspose.Words لـ .NET
+description: MailMerge MailMergeCallback ملكية. يسمح بمعالجة أحداث معينة أثناء دمج البريد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص للتعامل مع الأحداث أثناء دمج البريد.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

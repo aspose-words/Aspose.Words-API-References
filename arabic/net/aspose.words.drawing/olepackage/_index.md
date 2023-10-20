@@ -1,7 +1,9 @@
 ---
-title: Class OlePackage
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.OlePackage فصل. يسمح بالوصول إلى خصائص حزمة OLE.
+title: OlePackage Class
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.OlePackage فصل. يسمح بالوصول إلى خصائص حزمة OLE في C#.
 type: docs
 weight: 1160
 url: /ar/net/aspose.words.drawing/olepackage/
@@ -23,11 +25,11 @@ public class OlePackage
 | [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | الحصول على اسم عرض حزمة OLE أو تعيينه. |
 | [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | الحصول على اسم ملف حزمة OLE أو تعيينه. |
 
-### ملاحظات
+## ملاحظات
 
 حزمة OLE هي طريقة قديمة و"غير موثقة" لتخزين الكائن المضمن إذا كان معالج OLE غير معروف. كانت إصدارات Windows المبكرة مثل Windows 3.1 و95 و98 تحتوي على تطبيق Packager.exe الذي يمكن استخدامه لتضمين أي نوع من البيانات في المستند . الآن تم استبعاد هذا التطبيق من Windows ولكن MS Word والتطبيقات الأخرى لا تزال تستخدمه لتضمين البيانات إذا كان معالج OLE مفقودًا أو غير معروف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE في المستند.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

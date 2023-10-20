@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد كائن Office Math.
+linktitle: VisitOfficeMathStart
+articleTitle: VisitOfficeMathStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitOfficeMathStart طريقة. يتم استدعاؤه عند بدء تعداد كائن Office Math في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/documentvisitor/visitofficemathstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية في المكتب في المستند.
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

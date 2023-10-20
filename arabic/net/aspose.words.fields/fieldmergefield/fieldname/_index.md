@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeField ملكية. الحصول على اسم حقل البيانات أو تعيينه.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words لـ .NET
+description: FieldMergeField FieldName ملكية. الحصول على اسم حقل البيانات أو تعيينه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergefield/fieldname/
 public string FieldName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### أنظر أيضا
 
 * class [FieldMergeField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergefield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

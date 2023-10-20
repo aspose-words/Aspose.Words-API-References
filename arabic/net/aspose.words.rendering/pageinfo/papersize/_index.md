@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. الحصول على حجم الورق بالتعداد.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words لـ .NET
+description: PageInfo PaperSize ملكية. الحصول على حجم الورق بالتعداد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/pageinfo/papersize/
 public PaperSize PaperSize { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

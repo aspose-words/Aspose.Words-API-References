@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Themes.ThemeFont تعداد. يحدد أنواع أسماء خطوط السمات لموضوعات المستند.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Themes.ThemeFont تعداد. يحدد أنواع أسماء خطوط السمات لموضوعات المستند في C#.
 type: docs
 weight: 6490
 url: /ar/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | خط السمة الرئيسية. |
 | Minor | `2` | خط السمة الثانوي. |
 
-### ملاحظات
+## ملاحظات
 
 يحدد نوع خط السمة الذي يمكن الرجوع إليه كخط سمة ضمن خصائص الكائن الأصل. خط السمة هذا هو مرجع إلى أحد خطوط السمة المحددة مسبقًا، والموجود في جزء السمة بالمستند، والذي يسمح بمعلومات الخط يتم تعيينها مركزيًا في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء واستخدام النمط الموضوعي.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * مساحة الاسم [Aspose.Words.Themes](../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../)
-
-

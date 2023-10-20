@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBuilder طريقة. إضافة مفتاح الحقل.
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: Aspose.Words لـ .NET
+description: FieldBuilder AddSwitch طريقة. إضافة مفتاح الحقل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 إضافة مفتاح الحقل.
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | اسم التبديل. |
 
-### ملاحظات
+## ملاحظات
 
 يضيف هذا التحميل الزائد علامة (مفتاح بدون وسيطة).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 إضافة مفتاح الحقل.
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | اسم التبديل. |
 | switchArgument | String | قيمة التبديل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 إضافة مفتاح الحقل.
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | اسم التبديل. |
 | switchArgument | Int32 | قيمة التبديل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 إضافة مفتاح الحقل.
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | اسم التبديل. |
 | switchArgument | Double | قيمة التبديل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

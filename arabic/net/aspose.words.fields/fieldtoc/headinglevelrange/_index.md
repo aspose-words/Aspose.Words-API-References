@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HeadingLevelRange
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين نطاق من مستويات العناوين المراد تضمينها.
+linktitle: HeadingLevelRange
+articleTitle: HeadingLevelRange
+second_title: Aspose.Words لـ .NET
+description: FieldToc HeadingLevelRange ملكية. الحصول على أو تعيين نطاق من مستويات العناوين المراد تضمينها في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldtoc/headinglevelrange/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/headinglevelrange/
 public string HeadingLevelRange { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. الحصول على أو تعيين التشفير الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد التشفير داخل المستند. يمكن أن يكونباطل . الافتراضي هوباطل .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words لـ .NET
+description: LoadOptions Encoding ملكية. الحصول على أو تعيين التشفير الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد التشفير داخل المستند. يمكن أن يكونباطل . الافتراضي هوباطل  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.loading/loadoptions/encoding/
 public Encoding Encoding { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تُستخدم هذه الخاصية فقط عند تحميل مستندات HTML أو TXT أو CHM.
 
 إذا لم يتم تحديد الترميز داخل المستند وكانت هذه الخاصية`باطل`، فسيحاول النظام اكتشاف التشفير تلقائيًا .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الترميز الذي سيتم من خلاله فتح المستند.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

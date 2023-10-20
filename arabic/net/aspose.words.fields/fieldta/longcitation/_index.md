@@ -1,7 +1,9 @@
 ---
 title: FieldTA.LongCitation
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTA ملكية. الحصول على الاقتباس الطويل للإدخال أو تعيينه.
+linktitle: LongCitation
+articleTitle: LongCitation
+second_title: Aspose.Words لـ .NET
+description: FieldTA LongCitation ملكية. الحصول على الاقتباس الطويل للإدخال أو تعيينه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldta/longcitation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldta/longcitation/
 public string LongCitation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldTA](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldta/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

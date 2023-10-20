@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين الموضع بالنقاط للسطر الثاني من التفاف النص لمستوى القائمة.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words لـ .NET
+description: ListLevel TextPosition ملكية. إرجاع أو تعيين الموضع بالنقاط للسطر الثاني من التفاف النص لمستوى القائمة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/textposition/
 public double TextPosition { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `TextPosition` يتوافق مع المسافة البادئة اليسرى للفقرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

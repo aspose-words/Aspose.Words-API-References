@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد عرض رأس السهم لنهاية الحد.
+linktitle: EndArrowWidth
+articleTitle: EndArrowWidth
+second_title: Aspose.Words لـ .NET
+description: Stroke EndArrowWidth ملكية. يحدد عرض رأس السهم لنهاية الحد في C#.
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/endarrowwidth/
 public ArrowWidth EndArrowWidth { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيMedium.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

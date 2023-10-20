@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowDataLabelsRange
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ShowDataLabelsRange ملكية. يسمح بتحديد ما إذا كانت القيم من تسميات البيانات سيتم عرضها في تسميات البيانات للسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
@@ -14,14 +16,12 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabels
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) الملكية.
 
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

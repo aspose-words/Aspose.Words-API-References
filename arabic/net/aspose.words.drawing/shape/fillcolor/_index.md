@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحدد لون الفرشاة الذي يملأ المسار المغلق للشكل.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words لـ .NET
+description: Shape FillColor ملكية. يحدد لون الفرشاة الذي يملأ المسار المغلق للشكل في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shape/fillcolor/
 public Color FillColor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذا اختصار لل[`Color`](../../fill/color/) ملكية.
 
 القيمة الافتراضية هي White.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بلون خالص.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

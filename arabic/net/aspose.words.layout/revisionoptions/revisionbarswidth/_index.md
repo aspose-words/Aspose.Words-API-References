@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsWidth
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. الحصول على أو تعيين عرض أشرطة المراجعة والنقاط.
+linktitle: RevisionBarsWidth
+articleTitle: RevisionBarsWidth
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions RevisionBarsWidth ملكية. الحصول على أو تعيين عرض أشرطة المراجعة والنقاط في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.layout/revisionoptions/revisionbarswidth/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/revisionbarswidth/
 public float RevisionBarsWidth { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### أنظر أيضا
 
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

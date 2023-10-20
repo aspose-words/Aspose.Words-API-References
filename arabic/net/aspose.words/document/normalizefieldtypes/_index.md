@@ -1,9 +1,11 @@
 ---
 title: Document.NormalizeFieldTypes
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. تغيير قيم نوع الحقلFieldType لFieldStart FieldSeparator FieldEnd في المستند بأكمله بحيث تتوافق مع أنواع الحقول الموجودة في رموز الحقول.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words لـ .NET
+description: Document NormalizeFieldTypes طريقة. تغيير قيم نوع الحقلFieldType لFieldStart FieldSeparator FieldEnd في المستند بأكمله بحيث تتوافق مع أنواع الحقول الموجودة في رموز الحقول في C#.
 type: docs
-weight: 650
+weight: 630
 url: /ar/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/normalizefieldtypes/
 public void NormalizeFieldTypes()
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة بعد تغييرات المستند التي تؤثر على أنواع الحقول.
 
 لتغيير قيم نوع الحقل في جزء معين من استخدام المستند[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث نوع الحقل باستخدام رمز الحقل الخاص به.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphCollection ملكية. يسترد أParagraph في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ParagraphCollection Item ملكية. يسترد أParagraph في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Paragraph this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق مما إذا كانت الفقرة عبارة عن مراجعة منقولة.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* مساحة الاسم [Aspose.Words](../../paragraphcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

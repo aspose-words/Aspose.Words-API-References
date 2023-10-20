@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.Type
-second_title: Aspose.Words لمراجع .NET API
-description: FolderFontSource ملكية. إرجاع نوع مصدر الخط.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: FolderFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/folderfontsource/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/folderfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FolderFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../folderfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

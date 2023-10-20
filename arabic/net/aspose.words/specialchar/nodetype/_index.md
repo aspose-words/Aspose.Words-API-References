@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: SpecialChar ملكية. إرجاعSpecialChar .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: SpecialChar NodeType ملكية. إرجاعSpecialChar  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/specialchar/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* مساحة الاسم [Aspose.Words](../../specialchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

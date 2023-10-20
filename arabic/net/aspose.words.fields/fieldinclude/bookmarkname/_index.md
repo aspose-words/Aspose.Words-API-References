@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldInclude ملكية. الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldInclude BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldinclude/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldinclude/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDE وتعيين خصائصه.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### أنظر أيضا
 
 * class [FieldInclude](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldinclude/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

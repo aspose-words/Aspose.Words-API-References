@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق التحميل.
+linktitle: ContentTypeToLoadFormat
+articleTitle: ContentTypeToLoadFormat
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil ContentTypeToLoadFormat طريقة. تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق التحميل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 | --- | --- |
 | ArgumentException | يرمي عندما لا يمكن تحويل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العثور على تنسيق Aspose التحميل/الحفظ المطابق من كل سلسلة من أنواع الوسائط.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

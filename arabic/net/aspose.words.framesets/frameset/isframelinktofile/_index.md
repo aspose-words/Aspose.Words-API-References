@@ -1,7 +1,9 @@
 ---
 title: Frameset.IsFrameLinkToFile
-second_title: Aspose.Words لمراجع .NET API
-description: Frameset ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند محددًا في FrameDefaultUrl الخاصية هي مورد خارجي يرتبط به الإطار.
+linktitle: IsFrameLinkToFile
+articleTitle: IsFrameLinkToFile
+second_title: Aspose.Words لـ .NET
+description: Frameset IsFrameLinkToFile ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند محددًا في FrameDefaultUrl الخاصية هي مورد خارجي يرتبط به الإطار في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.framesets/frameset/isframelinktofile/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.framesets/frameset/isframelinktofile/
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى الإطارات الموجودة على الصفحة.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### أنظر أيضا
 
 * class [Frameset](../)
-* مساحة الاسم [Aspose.Words.Framesets](../../frameset/)
+* مساحة الاسم [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../../)
-
-

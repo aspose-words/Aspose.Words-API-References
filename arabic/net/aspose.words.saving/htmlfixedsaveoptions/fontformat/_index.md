@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحصل على أو مجموعاتExportFontFormat يستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
+linktitle: FontFormat
+articleTitle: FontFormat
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions FontFormat ملكية. يحصل على أو مجموعاتExportFontFormat يستخدم لتصدير الخط. القيمة الافتراضية هيWoff  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الخطوط فقط من الجهاز المستهدف عند حفظ مستند بتنسيق HTML.
 
@@ -45,7 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreakChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف فاصل الصفحات char12 أو f.
+linktitle: PageBreakChar
+articleTitle: PageBreakChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar PageBreakChar مجال. حرف فاصل الصفحات char12 أو f في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/controlchar/pagebreakchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/pagebreakchar/
 public const char PageBreakChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

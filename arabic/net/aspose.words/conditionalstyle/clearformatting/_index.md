@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle طريقة. مسح تنسيق هذا النمط الشرطي.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle ClearFormatting طريقة. مسح تنسيق هذا النمط الشرطي في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/conditionalstyle/clearformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/clearformatting/
 public void ClearFormatting()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تعيين أنماط الجدول الشرطي.
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### أنظر أيضا
 
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

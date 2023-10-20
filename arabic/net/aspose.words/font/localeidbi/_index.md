@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف المنسقة من اليمين إلى اليسار.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words لـ .NET
+description: Font LocaleIdBi ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف المنسقة من اليمين إلى اليسار في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/font/localeidbi/
 public int LocaleIdBi { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 للحصول على قائمة المعرفات المحلية، راجع https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعات منفصلة من إعدادات الخط للنص من اليمين إلى اليسار، ومن اليمين إلى اليسار.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

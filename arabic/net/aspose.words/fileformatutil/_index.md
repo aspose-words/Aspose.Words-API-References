@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatUtil
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.FileFormatUtil فصل. يوفر طرقًا مساعدة للعمل مع تنسيقات الملفات مثل اكتشاف تنسيق الملف أو تحويل امتدادات الملفات من/إلى تعداد تنسيقات الملفات.
+title: FileFormatUtil Class
+linktitle: FileFormatUtil
+articleTitle: FileFormatUtil
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.FileFormatUtil فصل. يوفر طرقًا مساعدة للعمل مع تنسيقات الملفات مثل اكتشاف تنسيق الملف أو تحويل امتدادات الملفات من/إلى تعداد تنسيقات الملفات في C#.
 type: docs
 weight: 2820
 url: /ar/net/aspose.words/fileformatutil/
@@ -20,18 +22,18 @@ public static class FileFormatUtil
 
 | اسم | وصف |
 | --- | --- |
-| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(string) | تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق التحميل. |
-| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(string) | تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق الحفظ. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(Stream) | يكتشف ويعيد المعلومات المتعلقة بتنسيق المستند المخزن في الدفق. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(string) | يكتشف ويعيد المعلومات المتعلقة بتنسيق مستند مخزن في ملف قرص. |
-| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(string) | تحويل امتداد اسم الملف إلى ملف[`SaveFormat`](../saveformat/) القيمة. |
-| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(ImageType) | تحويل قيمة تعدادية لنوع صورة Aspose.Words إلى امتداد ملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة. |
-| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(LoadFormat) | تحويل قيمة تعداد تنسيق التحميل إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة. |
-| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(LoadFormat) | تحويل أ[`LoadFormat`](../loadformat/) القيمة إلى أ[`SaveFormat`](../saveformat/) القيمة إن أمكن. |
-| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(SaveFormat) | تحويل قيمة تعداد تنسيق الحفظ إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة. |
-| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(SaveFormat) | تحويل أ[`SaveFormat`](../saveformat/) القيمة إلى أ[`LoadFormat`](../loadformat/) القيمة إن أمكن. |
+| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(*string*) | تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق التحميل. |
+| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق الحفظ. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | يكتشف ويعيد المعلومات المتعلقة بتنسيق المستند المخزن في الدفق. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | يكتشف ويعيد المعلومات المتعلقة بتنسيق مستند مخزن في ملف قرص. |
+| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | تحويل امتداد اسم الملف إلى ملف[`SaveFormat`](../saveformat/) القيمة. |
+| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(*[ImageType](../../aspose.words.drawing/imagetype/)*) | تحويل قيمة تعدادية لنوع صورة Aspose.Words إلى امتداد ملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة. |
+| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | تحويل قيمة تعداد تنسيق التحميل إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة. |
+| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | تحويل أ[`LoadFormat`](../loadformat/) القيمة إلى أ[`SaveFormat`](../saveformat/) القيمة إن أمكن. |
+| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | تحويل قيمة تعداد تنسيق الحفظ إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة. |
+| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | تحويل أ[`SaveFormat`](../saveformat/) القيمة إلى أ[`LoadFormat`](../loadformat/) القيمة إن أمكن. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف الترميز في ملف html.
 
@@ -49,5 +51,3 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

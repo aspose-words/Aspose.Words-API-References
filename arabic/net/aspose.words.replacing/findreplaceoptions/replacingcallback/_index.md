@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الطريقة المعرفة من قبل المستخدم والتي يتم استدعاؤها قبل كل حدث استبدال.
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions ReplacingCallback ملكية. الطريقة المعرفة من قبل المستخدم والتي يتم استدعاؤها قبل كل حدث استبدال في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
@@ -139,7 +141,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

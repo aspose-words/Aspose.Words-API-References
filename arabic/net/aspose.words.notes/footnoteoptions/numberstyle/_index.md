@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.NumberStyle
-second_title: Aspose.Words لمراجع .NET API
-description: FootnoteOptions ملكية. تحديد تنسيق الأرقام للحواشي السفلية المرقمة تلقائيًا.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words لـ .NET
+description: FootnoteOptions NumberStyle ملكية. تحديد تنسيق الأرقام للحواشي السفلية المرقمة تلقائيًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.notes/footnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/footnoteoptions/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليست كل أنماط الأرقام قابلة للتطبيق على هذه الخاصية. للحصول على قائمة أنماط الأرقام application ، راجع مربع الحوار "إدراج حاشية سفلية أو تعليق ختامي" في Microsoft Word. إذا قمت بتحديد نمط أرقام غير قابل للتطبيق، فسيعود Microsoft Word إلى القيمة الافتراضية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير نمط الأرقام للعلامات المرجعية للحاشية السفلية/التعليق الختامي.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [FootnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

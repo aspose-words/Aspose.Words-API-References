@@ -1,7 +1,9 @@
 ---
-title: Paragraph.Paragraph
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph البناء. تهيئة مثيل جديد لـParagraph فئة.
+title: Paragraph
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words لـ .NET
+description: Paragraph البناء. تهيئة مثيل جديد لـParagraph فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/paragraph/paragraph/
@@ -18,13 +20,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Paragraph`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Paragraph`](../) لاستخدام الوثيقةNode) أوNode) في القصة حيث تريد إدراج الفقرة.
+لإلحاق[`Paragraph`](../) لاستخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) في القصة حيث تريد إدراج الفقرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

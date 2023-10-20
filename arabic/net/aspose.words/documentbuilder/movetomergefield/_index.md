@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحرك المؤشر إلى موضع يقع خارج حقل الدمج المحدد مباشرة ويزيل حقل الدمج.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToMergeField طريقة. يحرك المؤشر إلى موضع يقع خارج حقل الدمج المحدد مباشرة ويزيل حقل الدمج في C#.
 type: docs
-weight: 560
+weight: 550
 url: /ar/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 يحرك المؤشر إلى موضع يقع خارج حقل الدمج المحدد مباشرة ويزيل حقل الدمج.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `حقيقي` إذا تم العثور على حقل الدمج وتم نقل المؤشر؛`خطأ شنيع` خلاف ذلك.
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن هذه الطريقة تحذف حقل الدمج من المستند بعد تحريك المؤشر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة MERGEFIELDs بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 ينقل حقل الدمج إلى حقل الدمج المحدد.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `حقيقي` إذا تم العثور على حقل الدمج وتم نقل المؤشر؛`خطأ شنيع` خلاف ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الحقول وتحريك مؤشر أداة إنشاء المستندات إليها.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

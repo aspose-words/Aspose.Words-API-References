@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: RtfSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطRtf .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: RtfSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطRtf  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/rtfsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/rtfsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند إلى .rtf مع خيارات مخصصة.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [RtfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../rtfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

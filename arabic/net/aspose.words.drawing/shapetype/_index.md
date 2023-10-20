@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ShapeType تعداد. يحدد نوع الشكل في مستند Microsoft Word.
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ShapeType تعداد. يحدد نوع الشكل في مستند Microsoft Word في C#.
 type: docs
 weight: 1290
 url: /ar/net/aspose.words.drawing/shapetype/
@@ -269,7 +271,7 @@ public enum ShapeType
 | ChartX | `246` | الرسم البياني X. |
 | MinValue | `-2` | محجوز لاستخدام النظام. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل به صورة من نظام الملفات المحلي في مستند.
 
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.NewParent
-second_title: Aspose.Words لمراجع .NET API
-description: NodeChangingArgs ملكية. يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية.
+linktitle: NewParent
+articleTitle: NewParent
+second_title: Aspose.Words لـ .NET
+description: NodeChangingArgs NewParent ملكية. يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodechangingargs/newparent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/nodechangingargs/newparent/
 public Node NewParent { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* مساحة الاسم [Aspose.Words](../../nodechangingargs/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

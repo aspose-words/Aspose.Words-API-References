@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم حل أسماء مجموعة الخطوط المستخدمة في المستند واستبدالها وفقًا لـ FontSettings عند كتابتها بتنسيقات مستندة إلى HTML.
+linktitle: ResolveFontNames
+articleTitle: ResolveFontNames
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ResolveFontNames ملكية. يحدد ما إذا كان سيتم حل أسماء مجموعة الخطوط المستخدمة في المستند واستبدالها وفقًا لـ FontSettings عند كتابتها بتنسيقات مستندة إلى HTML في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 public bool ResolveFontNames { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 افتراضيًا، يتم تعيين هذا الخيار على`خطأ شنيع` وتتم كتابة أسماء عائلة الخطوط إلى HTML كما هو محدد في المستندات المصدر. إنه،[`FontSettings`](../../../aspose.words/document/fontsettings/) يتم تجاهلها ولا يتم تنفيذ أي تحليل أو استبدال لأسماء عائلة الخطوط.
 
 إذا تم ضبط هذا الخيار على`حقيقي` ، يستخدم Aspose.Words[`FontSettings`](../../../aspose.words/document/fontsettings/) لتحويل كل اسم عائلة خطوط محدد في مستند مصدر إلى اسم عائلة خطوط متاحة، وإجراء استبدال الخط كما هو مطلوب.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حل جميع أسماء الخطوط قبل كتابتها إلى HTML.
 
@@ -64,7 +66,5 @@ Assert.True(resolveFontNames
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

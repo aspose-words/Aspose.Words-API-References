@@ -1,12 +1,14 @@
 ---
 title: ImageData.Save
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData طريقة. يحفظ الصورة في الدفق المحدد.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words لـ .NET
+description: ImageData Save طريقة. يحفظ الصورة في الدفق المحدد في C#.
 type: docs
-weight: 200
+weight: 190
 url: /ar/net/aspose.words.drawing/imagedata/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 يحفظ الصورة في الدفق المحدد.
 
@@ -18,11 +20,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | الدفق الذي سيتم حفظ الصورة فيه. |
 
-### ملاحظات
+## ملاحظات
 
 هل تقع على عاتق المتصل مسؤولية التخلص من كائن الدفق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ جميع الصور من مستند إلى نظام الملفات.
 
@@ -55,12 +57,12 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 يحفظ الصورة في ملف.
 
@@ -72,7 +74,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | اسم الملف الذي سيتم حفظ الصورة فيه. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصور من مستند وحفظها في نظام الملفات المحلي كملفات فردية.
 
@@ -103,7 +105,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

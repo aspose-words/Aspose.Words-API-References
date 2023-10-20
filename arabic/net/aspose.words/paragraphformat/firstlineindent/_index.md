@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على القيمة بالنقاط أو تعيينها للسطر الأول أو المسافة البادئة المعلقة.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat FirstLineIndent ملكية. الحصول على القيمة بالنقاط أو تعيينها للسطر الأول أو المسافة البادئة المعلقة في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words/paragraphformat/firstlineindent/
 public double FirstLineIndent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة في المستند.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

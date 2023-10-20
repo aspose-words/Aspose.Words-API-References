@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection ملكية. إرجاع أDocumentProperty كائن باسم الخاصية.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection Item ملكية. إرجاع أDocumentProperty كائن باسم الخاصية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | اسم الخاصية غير حساس لحالة الأحرف المراد استرداده. |
 
-### ملاحظات
+## ملاحظات
 
 عائدات`باطل` إذا لم يتم العثور على خاصية بالاسم المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء خاصية مستند مخصصة تحتوي على التاريخ والوقت.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | المؤشر الصفري[`DocumentProperty`](../../documentproperty/) لأسترجاع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المخصصة.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeImporter.ImportNode
-second_title: Aspose.Words لمراجع .NET API
-description: NodeImporter طريقة. يستورد عقدة من مستند إلى آخر.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words لـ .NET
+description: NodeImporter ImportNode طريقة. يستورد عقدة من مستند إلى آخر في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodeimporter/importnode/
@@ -23,15 +25,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 العقدة المستنسخة والمستوردة. تنتمي العقدة إلى المستند الوجهة، ولكن ليس لها أصل.
 
-### ملاحظات
+## ملاحظات
 
 يؤدي استيراد عقدة إلى إنشاء نسخة من العقدة المصدر التي تنتمي إلى مستند الاستيراد. العقدة التي تم إرجاعها ليس لها أصل. لا يتم تغيير العقدة المصدر أو إزالتها من المستند الأصلي.
 
-قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة، يمكن إدراجها في المكان المناسب في المستند باستخدامNode) أو Node).
+قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة، يمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
 
 إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء استنساخ عميق للعقدة المصدر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
@@ -100,7 +102,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * class [Node](../../node/)
 * class [NodeImporter](../)
-* مساحة الاسم [Aspose.Words](../../nodeimporter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

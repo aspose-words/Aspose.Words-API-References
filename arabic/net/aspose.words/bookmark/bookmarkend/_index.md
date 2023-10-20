@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark ملكية. يحصل على العقدة التي تمثل نهاية الإشارة المرجعية.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words لـ .NET
+description: Bookmark BookmarkEnd ملكية. يحصل على العقدة التي تمثل نهاية الإشارة المرجعية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmark/bookmarkend/
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

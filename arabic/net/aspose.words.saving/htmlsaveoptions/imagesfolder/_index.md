@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى تنسيق HTML. الافتراضي هو سلسلة فارغة.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ImagesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى تنسيق HTML. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق HTML، يحتاج Aspose.Words إلى حفظ كافة الصور المضمنة في المستند كملفات مستقلة.`ImagesFolder` يسمح لك بتحديد مكان حفظ الصور و[`ImagesFolderAlias`](../imagesfolderalias/) يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
@@ -26,7 +28,7 @@ public string ImagesFolder { get; set; }
 
 [`ResourceFolder`](../resourcefolder/) هي طريقة أخرى لتحديد المجلد الذي يجب حفظ الصور فيه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المجلد لتخزين الصور المرتبطة بعد حفظها في .html.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

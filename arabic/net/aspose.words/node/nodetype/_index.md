@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. يحصل على نوع هذه العقدة.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Node NodeType ملكية. يحصل على نوع هذه العقدة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/node/nodetype/
 public abstract NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خاصية NextSibling الخاصة بالعقدة للتعداد من خلال أبنائها المباشرين.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. يحدد ما إذا كانت محتويات هذا التشغيل يجب أن تكون ذات خصائص من اليمين إلى اليسار.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words لـ .NET
+description: Font Bidi ملكية. يحدد ما إذا كانت محتويات هذا التشغيل يجب أن تكون ذات خصائص من اليمين إلى اليسار في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/bidi/
 public bool Bidi { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يجوز استخدام هذه الخاصية، عند تشغيلها، مع نص من اليسار إلى اليمين بشدة. أي سلوك في ظل هذا الشرط غير محدد. لا يجوز استخدام هذه الخاصية، عند إيقاف تشغيلها، مع نص قوي من اليمين إلى اليسار. أي سلوك في ظل هذا الشرط غير محدد.
 
@@ -22,7 +24,7 @@ public bool Bidi { get; set; }
 
 أيضًا، عند عرض محتويات هذا التشغيل، تعمل هذه الخاصية كتجاوز من اليمين إلى اليسار لـ Characters والتي تم تصنيفها على أنها "أنواع ضعيفة" و"أنواع محايدة".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعات منفصلة من إعدادات الخط للنص من اليمين إلى اليسار، ومن اليمين إلى اليسار.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

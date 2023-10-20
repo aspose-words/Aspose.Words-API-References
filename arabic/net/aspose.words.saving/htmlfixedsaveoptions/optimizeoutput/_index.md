@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان مطلوبًا تحسين الإخراج. إذا تم تعيين هذه العلامة للوحات القماشية المتداخلة الزائدة وتمت إزالة اللوحات الفارغة يتم أيضًا ربط الحروف الرسومية المجاورة بنفس التنسيق. ملاحظة قد تتأثر دقة عرض المحتوى إذا تم تعيين هذه الخاصية علىحقيقي . الافتراضي هوحقيقي .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions OptimizeOutput ملكية. تشير العلامة إلى ما إذا كان مطلوبًا تحسين الإخراج. إذا تم تعيين هذه العلامة للوحات القماشية المتداخلة الزائدة وتمت إزالة اللوحات الفارغة يتم أيضًا ربط الحروف الرسومية المجاورة بنفس التنسيق. ملاحظة قد تتأثر دقة عرض المحتوى إذا تم تعيين هذه الخاصية علىحقيقي . الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 public override bool OptimizeOutput { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تبسيط مستند عند حفظه بتنسيق HTML عن طريق إزالة العديد من الكائنات الزائدة عن الحاجة.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

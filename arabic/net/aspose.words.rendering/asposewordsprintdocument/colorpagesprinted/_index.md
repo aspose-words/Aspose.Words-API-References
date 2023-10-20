@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorPagesPrinted
-second_title: Aspose.Words لمراجع .NET API
-description: AsposeWordsPrintDocument ملكية. يحصل على عدد الصفحات المطبوعة بالألوان على سبيل المثالColor تم ضبطه على صحيح.
+linktitle: ColorPagesPrinted
+articleTitle: ColorPagesPrinted
+second_title: Aspose.Words لـ .NET
+description: AsposeWordsPrintDocument ColorPagesPrinted ملكية. يحصل على عدد الصفحات المطبوعة بالألوان على سبيل المثالColor تم ضبطه على صحيح في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 public int ColorPagesPrinted { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند بها، ثم إظهار معاينة الطباعة.
 
@@ -63,7 +65,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### أنظر أيضا
 
 * class [AsposeWordsPrintDocument](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

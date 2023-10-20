@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLink
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. إرجاعحقيقي إذا كان كائن OLE مرتبطًا متىSourceFullName تم تحديده.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words لـ .NET
+description: OleFormat IsLink ملكية. إرجاعحقيقي إذا كان كائن OLE مرتبطًا متىSourceFullName تم تحديده في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/oleformat/islink/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/oleformat/islink/
 public bool IsLink { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائنات OLE المرتبطة وغير المرتبطة.
 
@@ -64,7 +66,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

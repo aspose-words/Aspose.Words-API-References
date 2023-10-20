@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين الحد الأدنى الذي يحدد قيمة لخطأ الترميز الثنائي في طريقة FloydSteinberg. عندماImageBinarizationMethod يكونFloydSteinbergDithering .
+linktitle: ThresholdForFloydSteinbergDithering
+articleTitle: ThresholdForFloydSteinbergDithering
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions ThresholdForFloydSteinbergDithering ملكية. الحصول على أو تعيين الحد الأدنى الذي يحدد قيمة لخطأ الترميز الثنائي في طريقة FloydSteinberg. عندماImageBinarizationMethod يكونFloydSteinbergDithering  في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdith
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 128.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين حد خطأ التنسيق الثنائي TIFF عند استخدام طريقة Floyd-Steinberg لعرض صورة TIFF.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

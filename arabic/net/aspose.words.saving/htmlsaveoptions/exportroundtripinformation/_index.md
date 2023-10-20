@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم كتابة معلومات رحلة الذهاب والإياب عند الحفظ في HTML أو MHTML أو EPUB. القيمة الافتراضية هيحقيقي لـ HTML وخطأ شنيع لـ MHTML وEPUB.
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportRoundtripInformation ملكية. يحدد ما إذا كان سيتم كتابة معلومات رحلة الذهاب والإياب عند الحفظ في HTML أو MHTML أو EPUB. القيمة الافتراضية هيحقيقي لـ HTML وخطأ شنيع لـ MHTML وEPUB في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتيح حفظ معلومات رحلة الذهاب والعودة استعادة خصائص المستند مثل علامات الجدولة وتعليقات والرؤوس والتذييلات أثناء تحميل مستندات HTML مرة أخرى إلى ملف[`Document`](../../../aspose.words/document/) هدف.
 
@@ -22,7 +24,7 @@ public bool ExportRoundtripInformation { get; set; }
 
 متى`خطأ شنيع`، لا يؤدي إلى إخراج أي معلومات ذهابًا وإيابًا في الملفات المنتجة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على العناصر المخفية عند التحويل إلى .html.
 
@@ -99,7 +101,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

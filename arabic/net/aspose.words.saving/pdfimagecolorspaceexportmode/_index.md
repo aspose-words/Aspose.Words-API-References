@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageColorSpaceExportMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfImageColorSpaceExportMode تعداد. يحدد كيفية تحديد مساحة اللون للصور في مستند PDF.
+title: PdfImageColorSpaceExportMode Enum
+linktitle: PdfImageColorSpaceExportMode
+articleTitle: PdfImageColorSpaceExportMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfImageColorSpaceExportMode تعداد. يحدد كيفية تحديد مساحة اللون للصور في مستند PDF في C#.
 type: docs
 weight: 5480
 url: /ar/net/aspose.words.saving/pdfimagecolorspaceexportmode/
@@ -21,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | يقوم Aspose.Words تلقائيًا بتحديد مساحة الألوان الأكثر ملاءمة لكل صورة. |
 | SimpleCmyk | `1` | Aspose.Words يغطي صور RGB إلى مساحة ألوان CMYK باستخدام صيغة بسيطة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مساحة ألوان مختلفة للصور في مستند أثناء تصديره إلى PDF.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

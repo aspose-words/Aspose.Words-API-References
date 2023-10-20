@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: FramesetCollection ملكية. الحصول على إطار أو صفحة إطارات في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: FramesetCollection Item ملكية. الحصول على إطار أو صفحة إطارات في الفهرس المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.framesets/framesetcollection/item/
@@ -18,7 +20,5 @@ public Frameset this[int index] { get; }
 
 * class [Frameset](../../frameset/)
 * class [FramesetCollection](../)
-* مساحة الاسم [Aspose.Words.Framesets](../../framesetcollection/)
+* مساحة الاسم [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../../)
-
-

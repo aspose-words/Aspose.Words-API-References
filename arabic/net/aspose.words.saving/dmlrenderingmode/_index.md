@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DmlRenderingMode تعداد. يحدد كيفية عرض أشكال DrawML إلى تنسيقات الصفحات الثابتة.
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.DmlRenderingMode تعداد. يحدد كيفية عرض أشكال DrawML إلى تنسيقات الصفحات الثابتة في C#.
 type: docs
 weight: 4920
 url: /ar/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | إذا كان الشكل الاحتياطي متاحًا لـ DrawML، فإن Aspose.Words يعرض الشكل الاحتياطي بدلاً من DrawML. |
 | DrawingML | `1` | يتجاهل Aspose.Words الشكل الاحتياطي لـ DrawML ويعرض DrawML نفسه. هذا هو الوضع الافتراضي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الأشكال الاحتياطية عند الحفظ في ملف PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

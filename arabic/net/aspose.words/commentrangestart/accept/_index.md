@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: CommentRangeStart طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: CommentRangeStart Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/commentrangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitCommentRangeStart`](../../documentvisitor/visitcommentrangestart/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -190,7 +192,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [CommentRangeStart](../)
-* مساحة الاسم [Aspose.Words](../../commentrangestart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

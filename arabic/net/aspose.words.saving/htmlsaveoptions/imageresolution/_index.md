@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد دقة الإخراج للصور عند التصدير إلى HTML أو MHTML أو EPUB. الافتراضي هو96 نقطة في البوصة .
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ImageResolution ملكية. يحدد دقة الإخراج للصور عند التصدير إلى HTML أو MHTML أو EPUB. الافتراضي هو96 نقطة في البوصة  في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 public int ImageResolution { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية على الصور النقطية عندما[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) هو`حقيقي` وملفات تعريف التأثيرات التي يتم تصديرها كصور نقطية. تتطلب بعض خصائص الصورة مثل Cropping أو التدوير حفظ الصور المحولة وفي هذه الحالة يتم إنشاء الصور المحولة بدقة معينة .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

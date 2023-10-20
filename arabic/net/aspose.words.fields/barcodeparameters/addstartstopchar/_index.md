@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.AddStartStopChar
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters AddStartStopChar ملكية. ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39 في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/barcodeparameters/addstartstopchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/addstartstopchar/
 public bool AddStartStopChar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

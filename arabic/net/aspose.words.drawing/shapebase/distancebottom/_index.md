@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceBottom
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع أو تعيين المسافة بالنقاط بين نص المستند والحافة السفلية للشكل.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words لـ .NET
+description: ShapeBase DistanceBottom ملكية. إرجاع أو تعيين المسافة بالنقاط بين نص المستند والحافة السفلية للشكل في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/shapebase/distancebottom/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/distancebottom/
 public double DistanceBottom { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.
 
 له تأثير فقط على أشكال المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مسافة الالتفاف للنص الذي يحيط بالشكل.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

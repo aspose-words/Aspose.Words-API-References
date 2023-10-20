@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping طريقة. حذف تعيين المستند المنظم الأصلي إلى بيانات XML.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words لـ .NET
+description: XmlMapping Delete طريقة. حذف تعيين المستند المنظم الأصلي إلى بيانات XML في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/xmlmapping/delete/
 public void Delete()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لأجزاء XML المخصصة.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### أنظر أيضا
 
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

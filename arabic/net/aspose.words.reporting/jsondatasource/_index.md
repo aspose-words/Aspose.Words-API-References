@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.JsonDataSource فصل. يوفر الوصول إلى بيانات ملف JSON أو التدفق لاستخدامه في التقرير.
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.JsonDataSource فصل. يوفر الوصول إلى بيانات ملف JSON أو التدفق لاستخدامه في التقرير في C#.
 type: docs
 weight: 4690
 url: /ar/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | اسم | وصف |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
 
-### ملاحظات
+## ملاحظات
 
 للوصول إلى بيانات الملف أو الدفق المقابل أثناء إنشاء تقرير، قم بتمرير مثيل من هذه الفئة as مصدر بيانات إلى أحدها[`ReportingEngine`](../reportingengine/) .BuildReport الحمولة الزائدة.
 
@@ -47,5 +49,3 @@ public class JsonDataSource
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

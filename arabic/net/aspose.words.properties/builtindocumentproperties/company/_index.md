@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Company
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على ملكية الشركة أو تعيينها.
+linktitle: Company
+articleTitle: Company
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Company ملكية. الحصول على ملكية الشركة أو تعيينها في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.properties/builtindocumentproperties/company/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/company/
 public string Company { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

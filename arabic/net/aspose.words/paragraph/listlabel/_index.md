@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يحصل علىListLabelالكائن الذي يوفر الوصول إلى قيمة ترقيم القائمة وتنسيق لهذه الفقرة.
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words لـ .NET
+description: Paragraph ListLabel ملكية. يحصل علىListLabelالكائن الذي يوفر الوصول إلى قيمة ترقيم القائمة وتنسيق لهذه الفقرة في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/listlabel/
 public ListLabel ListLabel { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. إنشاء نسخة مكررة من هذا القسم.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: Section Clone طريقة. إنشاء نسخة مكررة من هذا القسم في C#.
 type: docs
-weight: 130
+weight: 110
 url: /ar/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/clone/
 public Section Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
@@ -44,7 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

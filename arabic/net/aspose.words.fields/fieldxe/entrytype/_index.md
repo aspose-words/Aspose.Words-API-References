@@ -1,7 +1,9 @@
 ---
 title: FieldXE.EntryType
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE ملكية. الحصول على نوع إدخال الفهرس أو تعيينه.
+linktitle: EntryType
+articleTitle: EntryType
+second_title: Aspose.Words لـ .NET
+description: FieldXE EntryType ملكية. الحصول على نوع إدخال الفهرس أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldxe/entrytype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldxe/entrytype/
 public string EntryType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INDEX، ثم استخدام حقول XE لملئه بالإدخالات.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

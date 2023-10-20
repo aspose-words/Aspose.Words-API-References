@@ -1,7 +1,9 @@
 ---
-title: Enum ChartXValueType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartXValueType تعداد. يسمح بتحديد نوع قيمة X لسلسلة المخططات.
+title: ChartXValueType Enum
+linktitle: ChartXValueType
+articleTitle: ChartXValueType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueType تعداد. يسمح بتحديد نوع قيمة X لسلسلة المخططات في C#.
 type: docs
 weight: 860
 url: /ar/net/aspose.words.drawing.charts/chartxvaluetype/
@@ -28,5 +30,3 @@ public enum ChartXValueType
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

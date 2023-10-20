@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreakChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف نهاية القسم char12 أو f.
+linktitle: SectionBreakChar
+articleTitle: SectionBreakChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar SectionBreakChar مجال. حرف نهاية القسم char12 أو f في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/controlchar/sectionbreakchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/sectionbreakchar/
 public const char SectionBreakChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

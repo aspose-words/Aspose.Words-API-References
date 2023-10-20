@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. إرجاع نوع حقل النموذج.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: FormField Type ملكية. إرجاع نوع حقل النموذج في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/type/
 public FieldType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مربع التحرير والسرد.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.FollowedHyperlink
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد لون الارتباط التشعبي الذي تم النقر عليه.
+linktitle: FollowedHyperlink
+articleTitle: FollowedHyperlink
+second_title: Aspose.Words لـ .NET
+description: ThemeColors FollowedHyperlink ملكية. يحدد لون الارتباط التشعبي الذي تم النقر عليه في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.themes/themecolors/followedhyperlink/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/followedhyperlink/
 public Color FollowedHyperlink { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

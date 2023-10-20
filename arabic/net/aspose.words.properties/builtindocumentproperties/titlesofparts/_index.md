@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. تحدد كل سلسلة في المصفوفة اسم جزء في الوثيقة.
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties TitlesOfParts ملكية. تحدد كل سلسلة في المصفوفة اسم جزء في الوثيقة في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 public string[] TitlesOfParts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 إظهار العلاقة بين خصائص "HeadingPairs" و"TitlesOfParts".
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

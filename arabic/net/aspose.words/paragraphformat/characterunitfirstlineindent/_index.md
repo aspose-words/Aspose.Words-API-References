@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين القيمة بالأحرف للسطر الأول أو المسافة البادئة المعلقة.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent ملكية. الحصول على أو تعيين القيمة بالأحرف للسطر الأول أو المسافة البادئة المعلقة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير تباعد الفقرات والمسافات البادئة.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

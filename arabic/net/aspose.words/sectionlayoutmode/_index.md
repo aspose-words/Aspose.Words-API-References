@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.SectionLayoutMode تعداد. يحدد وضع التخطيط لقسم يسمح بتحديد سلوك شبكة الوثيقة.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.SectionLayoutMode تعداد. يحدد وضع التخطيط لقسم يسمح بتحديد سلوك شبكة الوثيقة في C#.
 type: docs
 weight: 5750
 url: /ar/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | يحدد أن القسم المقابل يجب أن يحتوي على خطوة إضافية للخط تضاف إلى كل سطر بداخله من أجل الحفاظ على عدد الأسطر المحدد لكل صفحة. |
 | SnapToChars | `3` | يحدد أن القسم المقابل يجب أن يحتوي على كل من درجة الخط الإضافية ودرجة الأحرف المضافة إلى كل سطر وحرف داخله من أجل الحفاظ على عدد معين من الأسطر لكل صفحة والأحرف لكل سطر. ستتم محاذاة الأحرف تلقائيًا مع خطوط الشبكة عند الكتابة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عدد الأحرف التي قد يحتوي عليها كل سطر.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

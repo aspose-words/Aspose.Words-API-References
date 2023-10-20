@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarksOutlineLevelCollection طريقة. إزالة إشارة مرجعية بالاسم المحدد من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: BookmarksOutlineLevelCollection Remove طريقة. إزالة إشارة مرجعية بالاسم المحدد من المجموعة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | اسم الإشارة المرجعية غير حساس لحالة الأحرف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### أنظر أيضا
 
 * class [BookmarksOutlineLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

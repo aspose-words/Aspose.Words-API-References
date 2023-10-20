@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetListByListId
-second_title: Aspose.Words لمراجع .NET API
-description: ListCollection طريقة. الحصول على قائمة حسب معرف القائمة.
+linktitle: GetListByListId
+articleTitle: GetListByListId
+second_title: Aspose.Words لـ .NET
+description: ListCollection GetListByListId طريقة. الحصول على قائمة حسب معرف القائمة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.lists/listcollection/getlistbylistid/
@@ -22,11 +24,11 @@ public List GetListByListId(int listId)
 
 إرجاع كائن القائمة. عائدات`باطل` إذا لم يتم العثور على قائمة بالمعرف المحدد.
 
-### ملاحظات
+## ملاحظات
 
 لا تحتاج عادةً إلى استخدام هذه الطريقة. في معظم الأوقات، تقوم بتطبيق تنسيق القائمة على الفقرات فقط من خلال الإعدادات[`List`](../../listformat/list/) property من[`ListFormat`](../../listformat/) هدف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص مستند المالك للقوائم.
 
@@ -49,7 +51,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

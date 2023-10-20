@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Columns
-second_title: Aspose.Words لمراجع .NET API
-description: FootnoteOptions ملكية. يحدد عدد الأعمدة التي يتم تنسيق منطقة الحواشي السفلية بها.
+linktitle: Columns
+articleTitle: Columns
+second_title: Aspose.Words لـ .NET
+description: FootnoteOptions Columns ملكية. يحدد عدد الأعمدة التي يتم تنسيق منطقة الحواشي السفلية بها في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.notes/footnoteoptions/columns/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/footnoteoptions/columns/
 public int Columns { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت قيمة هذه الخاصية 0، فسيتم تنسيق منطقة الحواشي السفلية بعدد من الأعمدة بناءً على عدد الأعمدة في الصفحة المعروضة. القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم قسم الحاشية السفلية إلى عدد معين من الأعمدة.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "Document.FootnoteColumns.docx");
 ### أنظر أيضا
 
 * class [FootnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

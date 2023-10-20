@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection ملكية. يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع.
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection SaveSubsetFonts ملكية. يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -16,11 +18,11 @@ url: /ar/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعمل هذا الخيار مع تنسيقات DOC وDOCX وRTF فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
 
@@ -43,7 +45,5 @@ else
 ### أنظر أيضا
 
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

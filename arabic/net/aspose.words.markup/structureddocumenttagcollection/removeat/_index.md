@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection طريقة. إزالة علامة مستند منظمة في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagCollection RemoveAt طريقة. إزالة علامة مستند منظمة في الفهرس المحدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | فهرس في المجموعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة علامة المستند المنظمة.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### أنظر أيضا
 
 * class [StructuredDocumentTagCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportLanguageToSpanTag
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء علامة Span في بنية المستند لتصدير لغة النص أم لا.
+linktitle: ExportLanguageToSpanTag
+articleTitle: ExportLanguageToSpanTag
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ExportLanguageToSpanTag ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء علامة Span في بنية المستند لتصدير لغة النص أم لا في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 public bool ExportLanguageToSpanTag { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`ويتم إرفاق السمة "Lang" بتسلسل محتوى محدد في تدفق محتوى الصفحة.
 
@@ -22,7 +24,7 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 يتم تجاهل هذه القيمة عندما[`ExportDocumentStructure`](../exportdocumentstructure/) يكون`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة "Span" في بنية المستند لتصدير لغة النص.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOption
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

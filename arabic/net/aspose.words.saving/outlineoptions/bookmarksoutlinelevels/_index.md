@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. يسمح بتحديد مستوى المخطط التفصيلي للإشارات المرجعية الفردية.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words لـ .NET
+description: OutlineOptions BookmarksOutlineLevels ملكية. يسمح بتحديد مستوى المخطط التفصيلي للإشارات المرجعية الفردية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم يتم تحديد مستوى الإشارة المرجعية في هذه المجموعة[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) يتم استخدام القيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../outlineoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

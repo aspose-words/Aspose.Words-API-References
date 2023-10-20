@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Aspose.Words لمراجع .NET API
-description: Fill طريقة. تغيير نوع التعبئة إلى صورة واحدة.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words لـ .NET
+description: Fill SetImage طريقة. تغيير نوع التعبئة إلى صورة واحدة في C#.
 type: docs
-weight: 250
+weight: 240
 url: /ar/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 تغيير نوع التعبئة إلى صورة واحدة.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | المسار إلى ملف الصورة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين نوع تعبئة الشكل كصورة.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 تغيير نوع التعبئة إلى صورة واحدة.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 تغيير نوع التعبئة إلى صورة واحدة.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

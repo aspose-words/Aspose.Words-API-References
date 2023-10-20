@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldCollection فصل. مجموعة منField الكائنات التي تمثل الحقول في النطاق المحدد.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldCollection فصل. مجموعة منField الكائنات التي تمثل الحقول في النطاق المحدد في C#.
 type: docs
 weight: 1690
 url: /ar/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | يُرجع كائن العداد. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | إزالة الحقل المحدد من هذه المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | إزالة الحقل المحدد من هذه المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند. |
 
-### ملاحظات
+## ملاحظات
 
 مثيل لهذه المجموعة يكرر الحقول التي تقع ضمن النطاق المحدد.
 
@@ -40,7 +42,7 @@ public class FieldCollection : IEnumerable<Field>
 
 ال`FieldCollection` المجموعة "مباشرة"، أي أن التغييرات التي يتم إجراؤها على العناصر الفرعية للعقدة object التي تم إنشاؤها منها تنعكس فورًا في الحقول التي يتم إرجاعها بواسطة`FieldCollection` الخصائص والأساليب.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحقول من مجموعة الحقول.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

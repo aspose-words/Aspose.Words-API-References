@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPointCollection ملكية. إرجاع عددChartDataPoint في هذه المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ChartDataPointCollection Count ملكية. إرجاع عددChartDataPoint في هذه المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### أنظر أيضا
 
 * class [ChartDataPointCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

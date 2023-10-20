@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على مجموعة علامات الجدولة المخصصة المحددة لهذا الكائن.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat TabStops ملكية. الحصول على مجموعة علامات الجدولة المخصصة المحددة لهذا الكائن في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/tabstops/
 public TabStopCollection TabStops { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بجدول المحتويات.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

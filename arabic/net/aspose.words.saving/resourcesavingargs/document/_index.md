@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceSavingArgs ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: ResourceSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/resourcesavingargs/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../resourcesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

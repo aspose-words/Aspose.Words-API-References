@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا كانت الفقرة ستبقى في نفس الصفحة مثل الفقرة التي تليها.
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat KeepWithNext ملكية. صحيح إذا كانت الفقرة ستبقى في نفس الصفحة مثل الفقرة التي تليها في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/keepwithnext/
 public bool KeepWithNext { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد جدول للبقاء معًا في نفس الصفحة.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

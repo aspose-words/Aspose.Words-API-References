@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تحديد ترتيب عرض الأشكال المتداخلة.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words لـ .NET
+description: ShapeBase ZOrder ملكية. تحديد ترتيب عرض الأشكال المتداخلة في C#.
 type: docs
 weight: 610
 url: /ar/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/zorder/
 public int ZOrder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 له تأثير فقط على أشكال المستوى الأعلى.
 
@@ -26,7 +28,7 @@ public int ZOrder { get; set; }
 
 يتم تحديد ترتيب عرض الأشكال الفرعية في شكل مجموعة حسب ترتيبها داخل شكل المجموعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع ترتيب الأشكال.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

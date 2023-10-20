@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase ملكية. الحصول على الحجم الفعلي للشكل بالنقاط.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase SizeInPoints ملكية. الحصول على الحجم الفعلي للشكل بالنقاط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تُرجع هذه الخاصية حجم المربع المحيط الفعلي (كما هو معروض في الصفحة) للشكل. يأخذ الحجم في الاعتبار دوران الشكل (إن وجد).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

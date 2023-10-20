@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كانت الارتباطات التشعبية الموجودة في مستند Pdf الناتج يجب أن يتم فتحها في نافذة أو علامة تبويب جديدة في المتصفح.
+linktitle: OpenHyperlinksInNewWindow
+articleTitle: OpenHyperlinksInNewWindow
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions OpenHyperlinksInNewWindow ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كانت الارتباطات التشعبية الموجودة في مستند Pdf الناتج يجب أن يتم فتحها في نافذة أو علامة تبويب جديدة في المتصفح في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` . عندما يتم ضبط هذه القيمة على`حقيقي` يتم حفظ الارتباطات التشعبية باستخدام كود JavaScript. كود JavaScript هو`app.launchURL("URL"، صحيح)؛` ، أين`عنوان URL` هو ارتباط تشعبي.
 
@@ -22,7 +24,7 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 إجراءات JavaScript محظورة بموجب التوافق مع PDF/A-1 وPDF/A-2.`خطأ شنيع`سيتم استخدامه تلقائيًا عند الحفظ في PDF/A-1 وPDF/A-2.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ الارتباطات التشعبية في مستند نقوم بتحويله إلى PDF بحيث تفتح صفحات جديدة عندما نضغط عليها.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options)
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

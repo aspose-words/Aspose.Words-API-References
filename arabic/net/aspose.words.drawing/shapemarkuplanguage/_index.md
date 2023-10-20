@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeMarkupLanguage
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ShapeMarkupLanguage تعداد. تحديد لغة الترميز المستخدمة للشكل.
+title: ShapeMarkupLanguage Enum
+linktitle: ShapeMarkupLanguage
+articleTitle: ShapeMarkupLanguage
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ShapeMarkupLanguage تعداد. تحديد لغة الترميز المستخدمة للشكل في C#.
 type: docs
 weight: 1280
 url: /ar/net/aspose.words.drawing/shapemarkuplanguage/
@@ -21,7 +23,7 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | يتم استخدام لغة ترميز الرسم لتحديد الشكل. |
 | Vml | `1` | يتم استخدام لغة ترميز المتجهات لتحديد الشكل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام به.
 
@@ -57,5 +59,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

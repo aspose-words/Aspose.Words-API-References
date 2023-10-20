@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsShiftJis
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSymbol ملكية. الحصول على أو تعيين ما إذا كان سيتم تفسير رمز الحرف كقيمة حرف SHIFTJIS.
+linktitle: IsShiftJis
+articleTitle: IsShiftJis
+second_title: Aspose.Words لـ .NET
+description: FieldSymbol IsShiftJis ملكية. الحصول على أو تعيين ما إذا كان سيتم تفسير رمز الحرف كقيمة حرف SHIFTJIS في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldsymbol/isshiftjis/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsymbol/isshiftjis/
 public bool IsShiftJis { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل الرمز.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldSymbol](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsymbol/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

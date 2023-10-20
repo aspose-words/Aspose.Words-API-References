@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.SystemFontSource فصل. يمثل كافة خطوط TrueType المثبتة على النظام.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.SystemFontSource فصل. يمثل كافة خطوط TrueType المثبتة على النظام في C#.
 type: docs
 weight: 3050
 url: /ar/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | اسم | وصف |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | الممثل. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | الممثل. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | الممثل. |
 
 ## الخصائص
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | إرجاع مجلدات خطوط النظام أو المصفوفة الفارغة إذا لم يكن من الممكن الوصول إلى المجلدات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

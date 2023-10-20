@@ -1,7 +1,9 @@
 ---
-title: Class PageInfo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.PageInfo فصل. يمثل معلومات حول صفحة مستند معينة.
+title: PageInfo Class
+linktitle: PageInfo
+articleTitle: PageInfo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Rendering.PageInfo فصل. يمثل معلومات حول صفحة مستند معينة في C#.
 type: docs
 weight: 4570
 url: /ar/net/aspose.words.rendering/pageinfo/
@@ -32,16 +34,16 @@ public class PageInfo
 
 | اسم | وصف |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | يحصل علىPaperSize كائن مناسب لطباعة الصفحة التي يمثلها هذا`PageInfo` . |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذا`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | يحصل علىPaperSize كائن مناسب لطباعة الصفحة التي يمثلها هذا`PageInfo` . |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين. |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذا`PageInfo` . |
 
-### ملاحظات
+## ملاحظات
 
 يمثل عرض الصفحة وارتفاعها الذي يتم إرجاعه بواسطة هذا الكائن الحجم "النهائي" للصفحة، على سبيل المثال، تم تدويرهما بالفعل إلى الاتجاه الصحيح.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -84,5 +86,3 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
-
-

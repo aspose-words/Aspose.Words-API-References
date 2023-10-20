@@ -1,7 +1,9 @@
 ---
 title: ImageData.Title
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. يحدد عنوان الصورة.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words لـ .NET
+description: ImageData Title ملكية. يحدد عنوان الصورة في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.drawing/imagedata/title/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/title/
 public string Title { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

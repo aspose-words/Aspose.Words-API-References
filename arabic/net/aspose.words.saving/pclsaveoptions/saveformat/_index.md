@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: PclSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPcl .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: PclSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPcl  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pclsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pclsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنقيط العناصر المعقدة أثناء حفظ مستند في PCL.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PclSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pclsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

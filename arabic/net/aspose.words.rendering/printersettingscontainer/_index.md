@@ -1,7 +1,9 @@
 ---
-title: Class PrinterSettingsContainer
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.PrinterSettingsContainer فصل. يمثل مخزنًا لبعض معلماتPrinterSettings الكائن.
+title: PrinterSettingsContainer Class
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Rendering.PrinterSettingsContainer فصل. يمثل مخزنًا لبعض معلماتPrinterSettings الكائن في C#.
 type: docs
 weight: 4580
 url: /ar/net/aspose.words.rendering/printersettingscontainer/
@@ -20,7 +22,7 @@ public class PrinterSettingsContainer
 
 | اسم | وصف |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | إنشاء حاوية لـPrinterSettings . |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | إنشاء حاوية لـPrinterSettings . |
 
 ## الخصائص
 
@@ -30,11 +32,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | انظرPaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | انظرPaperSources . |
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى بياناتPrinterSettings يستغرق وقتا طويلا. `PrinterSettingsContainer` تخزين المعلمات منPrinterSettings لذا فإن الطباعة تعمل بشكل أسرع.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصادر الورق وأحجامه وإدراجها في الطابعة.
 
@@ -68,5 +70,3 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 
 * مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
-
-

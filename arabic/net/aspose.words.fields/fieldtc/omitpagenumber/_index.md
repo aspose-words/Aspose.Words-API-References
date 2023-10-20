@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTC ملكية. الحصول على أو تعيين ما إذا كان يجب حذف رقم الصفحة في جدول المحتويات لهذا الحقل.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words لـ .NET
+description: FieldTC OmitPageNumber ملكية. الحصول على أو تعيين ما إذا كان يجب حذف رقم الصفحة في جدول المحتويات لهذا الحقل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtc/omitpagenumber/
 public bool OmitPageNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول TC التي تنتهي كمدخلات.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### أنظر أيضا
 
 * class [FieldTC](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

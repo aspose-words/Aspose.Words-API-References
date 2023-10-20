@@ -1,7 +1,9 @@
 ---
-title: Class TxtLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.TxtLoadOptions فصل. يسمح بتحديد خيارات إضافية عند التحميلText وثيقة فيDocument الكائن.
+title: TxtLoadOptions Class
+linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.TxtLoadOptions فصل. يسمح بتحديد خيارات إضافية عند التحميلText وثيقة فيDocument الكائن في C#.
 type: docs
 weight: 3730
 url: /ar/net/aspose.words.loading/txtloadoptions/
@@ -30,7 +32,6 @@ public class TxtLoadOptions : LoadOptions
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri/) { get; set; } | الحصول على أو تعيين السلسلة التي سيتم استخدامها لتحليل معرفات URI النسبية الموجودة في المستند إلى معرفات URI مطلقة عند الحاجة. يمكن أن يكون`باطل` أو سلسلة فارغة. الافتراضي هو`باطل` . |
 | [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم تحويل ملف التعريف (Wmf أوEmf ) الصور لPng تنسيق الصورة. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل الأشكال باستخدام EquationXML إلى كائنات Office Math. |
-| [DetectHyperlinks](../../aspose.words.loading/txtloadoptions/detecthyperlinks/) { get; set; } |  |
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) { get; set; } | يسمح بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد المستند من تنسيق نص عادي. القيمة الافتراضية هي`حقيقي`. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection/) { get; set; } | الحصول على اتجاه المستند أو تحديده. القيمة الافتراضية هيLeftToRight . |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding/) { get; set; } | الحصول على أو تعيين التشفير الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد التشفير داخل المستند. يمكن أن يكون`باطل` . الافتراضي هو`باطل` . |
@@ -53,12 +54,10 @@ public class TxtLoadOptions : LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### أنظر أيضا
 
 * class [LoadOptions](../loadoptions/)
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

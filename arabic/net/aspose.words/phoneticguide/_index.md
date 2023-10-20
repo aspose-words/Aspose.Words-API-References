@@ -1,7 +1,9 @@
 ---
-title: Class PhoneticGuide
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PhoneticGuide فصل. يمثل الدليل الصوتي.
+title: PhoneticGuide Class
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.PhoneticGuide فصل. يمثل الدليل الصوتي في C#.
 type: docs
 weight: 4430
 url: /ar/net/aspose.words/phoneticguide/
@@ -25,5 +27,3 @@ public class PhoneticGuide
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

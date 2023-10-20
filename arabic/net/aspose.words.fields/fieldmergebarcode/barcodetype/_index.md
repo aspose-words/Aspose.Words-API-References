@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeType
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على نوع الرمز الشريطي أو تعيينه QR وما إلى ذلك
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words لـ .NET
+description: FieldMergeBarcode BarcodeType ملكية. الحصول على نوع الرمز الشريطي أو تعيينه QR وما إلى ذلك في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergebarcode/barcodetype/
 public string BarcodeType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد على الرموز الشريطية ITF14.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### أنظر أيضا
 
 * class [FieldMergeBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergebarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على اسم الملف الأصلي للمستند.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words لـ .NET
+description: Document OriginalFileName ملكية. الحصول على اسم الملف الأصلي للمستند في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عائدات`باطل` إذا تم تحميل المستند من دفق أو تم إنشاؤه فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استرداد تفاصيل عملية تحميل المستند.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

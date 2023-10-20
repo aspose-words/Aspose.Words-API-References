@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItemCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: SdtListItemCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldIncludePicture.FieldIncludePicture
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludePicture البناء. Default_Constructor
+title: FieldIncludePicture
+linktitle: FieldIncludePicture
+articleTitle: FieldIncludePicture
+second_title: Aspose.Words لـ .NET
+description: FieldIncludePicture البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldincludepicture/fieldincludepicture/
@@ -17,7 +19,5 @@ public FieldIncludePicture()
 ### أنظر أيضا
 
 * class [FieldIncludePicture](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludepicture/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

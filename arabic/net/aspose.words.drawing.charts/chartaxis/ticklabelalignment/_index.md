@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على محاذاة النص لتسميات تحديد المحاور أو تعيينها.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words لـ .NET
+description: ChartAxis TickLabelAlignment ملكية. الحصول على محاذاة النص لتسميات تحديد المحاور أو تعيينها في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية لها تأثير فقط على التسميات متعددة الأسطر.
 
@@ -22,7 +24,7 @@ public ParagraphAlignment TickLabelAlignment { get; set; }
 
 .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

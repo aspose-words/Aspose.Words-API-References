@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. إزالة كافة حدود الجدول والخلايا في هذا الجدول.
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: Aspose.Words لـ .NET
+description: Table ClearBorders طريقة. إزالة كافة حدود الجدول والخلايا في هذا الجدول في C#.
 type: docs
-weight: 390
+weight: 370
 url: /ar/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/clearborders/
 public void ClearBorders()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

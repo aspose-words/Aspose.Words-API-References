@@ -1,7 +1,9 @@
 ---
 title: Run.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Run طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Run Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/run/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitRun`](../../documentvisitor/visitrun/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في المستند.
 
@@ -122,7 +124,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

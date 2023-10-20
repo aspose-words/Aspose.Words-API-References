@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreakChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف فاصل الأسطر char11 أو v.
+linktitle: LineBreakChar
+articleTitle: LineBreakChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar LineBreakChar مجال. حرف فاصل الأسطر char11 أو v في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/controlchar/linebreakchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/linebreakchar/
 public const char LineBreakChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

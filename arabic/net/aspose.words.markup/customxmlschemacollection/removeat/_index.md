@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection طريقة. إزالة قيمة في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: CustomXmlSchemaCollection RemoveAt طريقة. إزالة قيمة في الفهرس المحدد في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/customxmlschemacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر القائم على الصفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### أنظر أيضا
 
 * class [CustomXmlSchemaCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlschemacollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

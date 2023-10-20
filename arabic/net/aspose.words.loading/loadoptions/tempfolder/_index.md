@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.TempFolder
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يسمح باستخدام الملفات المؤقتة عند قراءة المستند. بشكل افتراضي هذه الخاصية هيباطل ولا يتم استخدام أي ملفات مؤقتة.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words لـ .NET
+description: LoadOptions TempFolder ملكية. يسمح باستخدام الملفات المؤقتة عند قراءة المستند. بشكل افتراضي هذه الخاصية هيباطل ولا يتم استخدام أي ملفات مؤقتة في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.loading/loadoptions/tempfolder/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.loading/loadoptions/tempfolder/
 public string TempFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يكون المجلد موجودًا وقابلاً للكتابة، وإلا فسيتم طرح استثناء.
 
 يقوم Aspose.Words تلقائيًا بحذف جميع الملفات المؤقتة عند اكتمال القراءة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل مستند باستخدام الملفات المؤقتة.
 
@@ -56,7 +58,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

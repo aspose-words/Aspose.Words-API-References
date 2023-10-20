@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsHtml
-second_title: Aspose.Words لمراجع .NET API
-description: FieldLink ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words لـ .NET
+description: FieldLink InsertAsHtml ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldlink/insertashtml/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlink/insertashtml/
 public bool InsertAsHtml { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldLink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

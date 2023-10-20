@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPartCollection طريقة. إزالة عنصر في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: CustomPartCollection RemoveAt طريقة. إزالة عنصر في الفهرس المحدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر القائم على الصفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

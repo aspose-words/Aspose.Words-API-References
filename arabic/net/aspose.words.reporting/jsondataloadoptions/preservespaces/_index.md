@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.PreserveSpaces
-second_title: Aspose.Words لمراجع .NET API
-description: JsonDataLoadOptions ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يجب الحفاظ على المسافات البادئة والزائدة عند تحميل قيم string لبيانات JSON.
+linktitle: PreserveSpaces
+articleTitle: PreserveSpaces
+second_title: Aspose.Words لـ .NET
+description: JsonDataLoadOptions PreserveSpaces ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يجب الحفاظ على المسافات البادئة والزائدة عند تحميل قيم string لبيانات JSON في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
@@ -14,14 +16,12 @@ url: /ar/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
 public bool PreserveSpaces { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` .
 
 ### أنظر أيضا
 
 * class [JsonDataLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

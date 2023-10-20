@@ -1,7 +1,9 @@
 ---
-title: Enum TxtLeadingSpacesOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions تعداد. يحدد الخيارات المتاحة للتعامل مع المساحة الرائدة أثناء الاستيراد منText ملف.
+title: TxtLeadingSpacesOptions Enum
+linktitle: TxtLeadingSpacesOptions
+articleTitle: TxtLeadingSpacesOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions تعداد. يحدد الخيارات المتاحة للتعامل مع المساحة الرائدة أثناء الاستيراد منText ملف في C#.
 type: docs
 weight: 3720
 url: /ar/net/aspose.words.loading/txtleadingspacesoptions/
@@ -22,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قطع المسافة البيضاء عند تحميل مستندات النص العادي.
 
@@ -99,5 +101,3 @@ switch (txtTrailingSpacesOptions)
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.StyleType تعداد. يمثل نوع النمط.
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.StyleType تعداد. يمثل نوع النمط في C#.
 type: docs
 weight: 6160
 url: /ar/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | النمط هو نمط الجدول. |
 | List | `4` | النمط هو نمط القائمة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

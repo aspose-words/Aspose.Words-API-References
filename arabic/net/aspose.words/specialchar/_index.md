@@ -1,7 +1,9 @@
 ---
-title: Class SpecialChar
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.SpecialChar فصل. الفئة الأساسية للأحرف الخاصة في المستند.
+title: SpecialChar Class
+linktitle: SpecialChar
+articleTitle: SpecialChar
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.SpecialChar فصل. الفئة الأساسية للأحرف الخاصة في المستند في C#.
 type: docs
 weight: 6100
 url: /ar/net/aspose.words/specialchar/
@@ -40,18 +42,18 @@ public class SpecialChar : Inline
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | الحصول على الحرف الخاص الذي تمثله هذه العقدة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يتضمن مستند Microsoft Word عددًا من الأحرف الخاصة التي تمثل الحقول وحقول النماذج والأشكال وكائنات OLE والحواشي السفلية وما إلى ذلك. للحصول على قائمة من الأحرف الخاصة، راجع[`ControlChar`](../controlchar/).
 
@@ -59,7 +61,7 @@ public class SpecialChar : Inline
 
 `SpecialChar` يتم استخدام char كفئة أساسية لـclasses الأكثر تحديدًا والتي تمثل الأحرف الخاصة التي يوفر Aspose.Words وصولاً برمجيًا لها. `SpecialChar` يتم أيضًا استخدام الفئة نفسها لتمثيل الحرف الخاص الذي Aspose.Words لا يوفر وصولاً برمجيًا مفصلاً.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
 
@@ -257,5 +259,3 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * class [Inline](../inline/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

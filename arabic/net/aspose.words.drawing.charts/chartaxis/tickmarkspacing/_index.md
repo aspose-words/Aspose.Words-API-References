@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين الفاصل الزمني الذي يتم عنده رسم علامات التجزئة.
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: Aspose.Words لـ .NET
+description: ChartAxis TickMarkSpacing ملكية. الحصول على أو تعيين الفاصل الزمني الذي يتم عنده رسم علامات التجزئة في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 public int TickMarkSpacing { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير على فئة النص ومحاور السلسلة. وهو غير مدعوم من قبل مخططات MS Office 2016 الجديدة.
 
 النطاق الصالح للقيمة أكبر من أو يساوي 1.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

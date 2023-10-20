@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.MappedDataFieldCollection فصل. يسمح بالتعيين تلقائيًا بين أسماء الحقول في مصدر بياناتك وأسماء حقول دمج البريد في المستند.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection فصل. يسمح بالتعيين تلقائيًا بين أسماء الحقول في مصدر بياناتك وأسماء حقول دمج البريد في المستند في C#.
 type: docs
 weight: 3870
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | إضافة تعيين حقل جديد. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | إضافة تعيين حقل جديد. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | إزالة كافة العناصر من المجموعة. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | تحديد ما إذا كان التعيين من الحقل المحدد في المستند موجودًا في المجموعة. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | تحديد ما إذا كان هناك تعيين من الحقل المحدد في مصدر البيانات موجودًا في المجموعة. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | تحديد ما إذا كان التعيين من الحقل المحدد في المستند موجودًا في المجموعة. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | تحديد ما إذا كان هناك تعيين من الحقل المحدد في مصدر البيانات موجودًا في المجموعة. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | يُرجع كائن عداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | إزالة تعيين الحقل. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | إزالة تعيين الحقل. |
 
-### ملاحظات
+## ملاحظات
 
 يتم تطبيق ذلك كمجموعة من مفاتيح السلسلة في قيم سلسلة. المفاتيح هي أسماء حقول دمج البريد في المستند وvalues هي أسماء الحقول في مصدر البيانات الخاص بك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

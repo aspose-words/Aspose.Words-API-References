@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.JpegQuality
-second_title: Aspose.Words لمراجع .NET API
-description: FixedPageSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد جودة صور JPEG داخل مستند Html.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words لـ .NET
+description: FixedPageSaveOptions JpegQuality ملكية. الحصول على أو تعيين قيمة تحدد جودة صور JPEG داخل مستند Html في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يكون له تأثير فقط عندما يحتوي المستند على صور JPEG.
 
@@ -22,7 +24,7 @@ public int JpegQuality { get; set; }
 
 القيمة الافتراضية هي 95.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الضغط أثناء حفظ مستند بتنسيق JPEG.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### أنظر أيضا
 
 * class [FixedPageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

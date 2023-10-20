@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartType تعداد. يحدد نوع المخطط.
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartType تعداد. يحدد نوع المخطط في C#.
 type: docs
 weight: 830
 url: /ar/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | مخطط سطحي. |
 | Surface3D | `34` | مخطط سطحي ثلاثي الأبعاد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

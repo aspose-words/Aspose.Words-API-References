@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowType
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد رأس السهم لبداية السكتة الدماغية.
+linktitle: StartArrowType
+articleTitle: StartArrowType
+second_title: Aspose.Words لـ .NET
+description: Stroke StartArrowType ملكية. يحدد رأس السهم لبداية السكتة الدماغية في C#.
 type: docs
-weight: 180
+weight: 170
 url: /ar/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/startarrowtype/
 public ArrowType StartArrowType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.UnlinkFields
-second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. إلغاء ربط الحقول في هذا النطاق.
+linktitle: UnlinkFields
+articleTitle: UnlinkFields
+second_title: Aspose.Words لـ .NET
+description: Range UnlinkFields طريقة. إلغاء ربط الحقول في هذا النطاق في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/range/unlinkfields/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/range/unlinkfields/
 public void UnlinkFields()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يستبدل كافة الحقول الموجودة في هذا النطاق بأحدث نتائجها.
 
 لإلغاء ربط الحقول في استخدام المستند بأكمله`UnlinkFields`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إلغاء ربط كافة الحقول في النطاق.
 
@@ -36,7 +38,5 @@ doc.Sections[1].Range.UnlinkFields();
 ### أنظر أيضا
 
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

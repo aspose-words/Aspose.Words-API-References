@@ -1,7 +1,9 @@
 ---
 title: Document.EndnoteOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر خيارات تتحكم في ترقيم التعليقات الختامية وموضعها في هذا المستند.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words لـ .NET
+description: Document EndnoteOptions ملكية. يوفر خيارات تتحكم في ترقيم التعليقات الختامية وموضعها في هذا المستند في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/document/endnoteoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/endnoteoptions/
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان مختلف حيث يتم تجميع المستند وعرض تعليقاته الختامية.
 
@@ -188,7 +190,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsPicture
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDdeAuto ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كصورة.
+linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
+second_title: Aspose.Words لـ .NET
+description: FieldDdeAuto InsertAsPicture ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كصورة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldddeauto/insertaspicture/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldddeauto/insertaspicture/
 public bool InsertAsPicture { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldDdeAuto](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldddeauto/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

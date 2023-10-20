@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين مقياس عرض الأحرف بالنسبة المئوية.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words لـ .NET
+description: Font Scaling ملكية. الحصول على أو تعيين مقياس عرض الأحرف بالنسبة المئوية في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/scaling/
 public int Scaling { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط القياس الأفقي والتباعد للأحرف.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

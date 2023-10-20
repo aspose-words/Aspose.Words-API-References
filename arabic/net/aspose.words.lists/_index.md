@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Lists
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Lists تحتوي مساحة الاسم على فئات لـ Working مع قوائم نقطية ومرقمة محددة في المستند.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Lists تحتوي مساحة الاسم على فئات لـ Working مع قوائم نقطية ومرقمة محددة في المستند في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.lists/
 ---
-ال **Aspose.Words.Lists** تحتوي مساحة الاسم على فئات لـ Working مع قوائم نقطية ومرقمة محددة في المستند.
+ال**Aspose.Words.Lists** تحتوي مساحة الاسم على فئات لـ Working مع قوائم نقطية ومرقمة محددة في المستند.
 
 ## الطبقات
 
@@ -25,5 +27,3 @@ url: /ar/net/aspose.words.lists/
 | [ListLevelAlignment](./listlevelalignment/) | يحدد محاذاة رقم القائمة أو الرمز النقطي. |
 | [ListTemplate](./listtemplate/) | يحدد أحد تنسيقات القائمة المحددة مسبقًا والمتوفرة في Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | يحدد الحرف الذي يفصل تسمية القائمة عن نص الفقرة. |
-
-

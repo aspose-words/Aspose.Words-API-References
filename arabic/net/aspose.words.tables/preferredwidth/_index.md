@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.PreferredWidth فصل. يمثل القيمة ووحدة القياس الخاصة بها المستخدمة لتحديد العرض المفضل للجدول أو الخلية.
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.PreferredWidth فصل. يمثل القيمة ووحدة القياس الخاصة بها المستخدمة لتحديد العرض المفضل للجدول أو الخلية في C#.
 type: docs
 weight: 6290
 url: /ar/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | اسم | وصف |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد كنسبة مئوية. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد باستخدام عدد من النقاط. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | تحديد ما إذا كان المحدد`PreferredWidth` يساوي القيمة الحالية`PreferredWidth` . |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد كنسبة مئوية. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد باستخدام عدد من النقاط. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | تحديد ما إذا كان المحدد`PreferredWidth` يساوي القيمة الحالية`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن. |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | إرجاع مثيل يمثل القيمة "لم يتم تحديد العرض المفضل". |
 
-### ملاحظات
+## ملاحظات
 
 يمكن تحديد العرض المفضل كنسبة مئوية أو عدد النقاط أو قيمة خاصة "لا شيء/تلقائي".
 
 مثيلات هذه الفئة غير قابلة للتغيير.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين جدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

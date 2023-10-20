@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Aspose.Words لمراجع .NET API
-description: Watermark طريقة. يضيف علامة مائية للصورة إلى المستند.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words لـ .NET
+description: Watermark SetImage طريقة. يضيف علامة مائية للصورة إلى المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 يضيف علامة مائية للصورة إلى المستند.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### أنظر أيضا
 
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 يضيف علامة مائية للصورة إلى المستند.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | يرمي عندما تكون الصورة`باطل` . |
 
-### ملاحظات
+## ملاحظات
 
 لو[`ImageWatermarkOptions`](../../imagewatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية من صورة في نظام الملفات المحلي.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 يضيف علامة مائية للصورة إلى المستند.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | يرمي عندما يكون المسار`باطل` . |
 
-### ملاحظات
+## ملاحظات
 
 لو[`ImageWatermarkOptions`](../../imagewatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
 
@@ -116,7 +118,5 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

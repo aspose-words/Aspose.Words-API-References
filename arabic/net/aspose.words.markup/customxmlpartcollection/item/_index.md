@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPartCollection ملكية. الحصول على عنصر أو تعيينه في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPartCollection Item ملكية. الحصول على عنصر أو تعيينه في الفهرس المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlpartcollection/item/
@@ -18,7 +20,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | الفهرس الصفري للعنصر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLocked
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. يحدد ما إذا كان الارتباط بكائن OLE مؤمنًا من التحديثات.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words لـ .NET
+description: OleFormat IsLocked ملكية. يحدد ما إذا كان الارتباط بكائن OLE مؤمنًا من التحديثات في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/oleformat/islocked/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/oleformat/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج كائنات OLE المضمنة في الملفات.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

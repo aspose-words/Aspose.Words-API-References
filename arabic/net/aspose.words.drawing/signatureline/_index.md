@@ -1,7 +1,9 @@
 ---
-title: Class SignatureLine
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.SignatureLine فصل. يوفر الوصول إلى خصائص سطر التوقيع.
+title: SignatureLine Class
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.SignatureLine فصل. يوفر الوصول إلى خصائص سطر التوقيع في C#.
 type: docs
 weight: 1300
 url: /ar/net/aspose.words.drawing/signatureline/
@@ -22,17 +24,17 @@ public class SignatureLine
 | --- | --- |
 | [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار "تسجيل" أو تعيينها. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
 | [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | الحصول على عنوان البريد الإلكتروني للمُوقع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | الحصول على عنوان البريد الإلكتروني للمُوقع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | الحصول على المعرف أو تعيينه لسطر التوقيع هذا. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](./defaultinstructions/)تم تعيينها. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](./defaultinstructions/)تم تعيينها. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي. |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي وأن هذا التوقيع الرقمي صالح. |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | الحصول على أو تعيين معرف موفر التوقيع لسطر التوقيع هذا. القيمة الافتراضية هي "{00000000-0000-0000-0000-000000000000}". |
 | [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | الحصول على أو تعيين عنوان المُوقع المقترح (على سبيل المثال، المدير). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | الحصول على أو تعيين الموقّع المقترح لسطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | الحصول على أو تعيين عنوان المُوقع المقترح (على سبيل المثال، المدير). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

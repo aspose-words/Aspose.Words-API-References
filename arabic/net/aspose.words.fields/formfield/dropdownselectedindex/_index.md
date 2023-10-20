@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على أو تعيين الفهرس الذي يحدد العنصر المحدد حاليًا في حقل نموذج القائمة المنسدلة.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words لـ .NET
+description: FormField DropDownSelectedIndex ملكية. الحصول على أو تعيين الفهرس الذي يحدد العنصر المحدد حاليًا في حقل نموذج القائمة المنسدلة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/dropdownselectedindex/
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

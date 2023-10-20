@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. الحصول على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType.
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: Aspose.Words لـ .NET
+description: FontSettings GetFontsSources طريقة. الحصول على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 نسخة من مصادر الخطوط الحالية.
 
-### ملاحظات
+## ملاحظات
 
 القيمة التي تم إرجاعها هي نسخة من البيانات التي يستخدمها Aspose.Words. إذا قمت بتغيير الإدخالات في المصفوفة التي تم إرجاعها، فلن يكون لذلك أي تأثير على عرض المستند. لتحديد مصادر الخطوط الجديدة استخدم[`SetFontsSources`](../setfontssources/) طريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة مصدر خط إلى مصادر الخطوط الموجودة لدينا.
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.JpegQuality
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد جودة صور JPEG داخل مستند PDF.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions JpegQuality ملكية. الحصول على أو تعيين قيمة تحدد جودة صور JPEG داخل مستند PDF في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.saving/pdfsaveoptions/jpegquality/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 100.
 
@@ -24,7 +26,7 @@ public int JpegQuality { get; set; }
 
 استخدم هذه الخاصية للحصول على جودة الصور داخل مستند أو تعيينها عند الحفظ بتنسيق PDF. قد تختلف القيمة من 0 إلى 100 حيث يعني 0 أسوأ جودة ولكن الحد الأقصى للضغط و100 يعني أفضل جودة ولكن الحد الأدنى من الضغط. إذا كانت الجودة هو 100 والصورة المصدر هي JPEG، وهذا يعني عدم وجود ضغط - سيتم حفظ البايتات الأصلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع الضغط لجميع الصور في المستند الذي نقوم بتحويله إلى PDF.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

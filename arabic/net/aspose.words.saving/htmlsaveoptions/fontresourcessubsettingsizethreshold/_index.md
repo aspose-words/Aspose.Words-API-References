@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في موارد الخطوط التي تحتاج إلى تعيين فرعي عند الحفظ في HTML أو MHTML أو EPUB. الإعداد الافتراضي هو0 .
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold ملكية. يتحكم في موارد الخطوط التي تحتاج إلى تعيين فرعي عند الحفظ في HTML أو MHTML أو EPUB. الإعداد الافتراضي هو0  في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethre
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 [`ExportFontResources`](../exportfontresources/) يسمح بتصدير الخطوط كملفات فرعية أو كأجزاء من حزمة الإخراج . إذا كانت الوثيقة تستخدم العديد من الخطوط، خاصة مع عدد كبير من الحروف الرسومية، فيمكن أن ينمو حجم الإخراج بشكل ملحوظ. يعمل الإعداد الفرعي للخط على تقليل حجم مصدر الخط المصدر عن طريق تصفية الصور الرمزية التي لا يستخدمها المستند الحالي .
 
@@ -24,9 +26,9 @@ public int FontResourcesSubsettingSizeThreshold { get; set; }
 * جلسة`FontResourcesSubsettingSizeThreshold`إلى قيمة موجبة يرشد Aspose.Words إلى تعيين الخطوط التي يكون حجم الملف فيها أكبر من القيمة المحددة.
 * ضبط العقار علىMaxValue يمنع ضبط الخط الفرعي.
 
-**مهم!** عند تصدير موارد الخطوط، يجب مراعاة مشكلات ترخيص الخطوط. يجب على المؤلفين الذين يرغبون في استخدام خطوط معينة عبر آلية الخط القابلة للتنزيل أن يتحققوا دائمًا بعناية من أن الاستخدام المقصود يقع ضمن نطاق ترخيص الخط. لا تسمح العديد من الخطوط التجارية في الوقت الحالي بتنزيل خطوطها من الويب بأي شكل من الأشكال. تشير اتفاقيات الترخيص التي تغطي بعض الخطوط على وجه التحديد إلى أن الاستخدام عبر **@الخط الوجه** Rules غير مسموح به في أوراق أنماط CSS. يمكن أن يؤدي تعيين الخط الفرعي أيضًا إلى انتهاك شروط الترخيص.
+**مهم!** عند تصدير موارد الخطوط، يجب مراعاة مشكلات ترخيص الخطوط. يجب على المؤلفين الذين يرغبون في استخدام خطوط معينة عبر آلية الخط القابلة للتنزيل أن يتحققوا دائمًا بعناية من أن الاستخدام المقصود يقع ضمن نطاق ترخيص الخط. لا تسمح العديد من الخطوط التجارية في الوقت الحالي بتنزيل خطوطها من الويب بأي شكل من الأشكال. تشير اتفاقيات الترخيص التي تغطي بعض الخطوط على وجه التحديد إلى أن الاستخدام عبر**@الخط الوجه** Rules غير مسموح به في أوراق أنماط CSS. يمكن أن يؤدي تعيين الخط الفرعي أيضًا إلى انتهاك شروط الترخيص.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع ضبط الخط الفرعي.
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

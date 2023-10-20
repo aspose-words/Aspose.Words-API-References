@@ -1,24 +1,26 @@
 ---
 title: SignOptions.DecryptionPassword
-second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. كلمة المرور لفك تشفير المستند المصدر. القيمة الافتراضية هي سلسلة فارغة Empty.
+linktitle: DecryptionPassword
+articleTitle: DecryptionPassword
+second_title: Aspose.Words لـ .NET
+description: SignOptions DecryptionPassword ملكية. كلمة المرور لفك تشفير المستند المصدر. القيمة الافتراضية هيسلسلة فارغة Empty في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-كلمة المرور لفك تشفير المستند المصدر. القيمة الافتراضية هي **سلسلة فارغة** (Empty).
+كلمة المرور لفك تشفير المستند المصدر. القيمة الافتراضية هي**سلسلة فارغة** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تشفير مستند OOXML، فيجب عليك توفير كلمة مرور فك التشفير لفك تشفير المستند المصدر قبل أن يتم توقيعه. هذا غير مطلوب للمستندات بتنسيق DOC الثنائي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع ملف المستند المشفر.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### أنظر أيضا
 
 * class [SignOptions](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../signoptions/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

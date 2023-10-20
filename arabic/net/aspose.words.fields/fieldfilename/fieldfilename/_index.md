@@ -1,7 +1,9 @@
 ---
-title: FieldFileName.FieldFileName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFileName البناء. Default_Constructor
+title: FieldFileName
+linktitle: FieldFileName
+articleTitle: FieldFileName
+second_title: Aspose.Words لـ .NET
+description: FieldFileName البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldfilename/fieldfilename/
@@ -17,7 +19,5 @@ public FieldFileName()
 ### أنظر أيضا
 
 * class [FieldFileName](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfilename/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

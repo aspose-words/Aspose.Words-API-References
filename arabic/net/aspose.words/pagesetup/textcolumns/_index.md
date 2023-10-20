@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextColumns
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع مجموعة تمثل مجموعة أعمدة النص.
+linktitle: TextColumns
+articleTitle: TextColumns
+second_title: Aspose.Words لـ .NET
+description: PageSetup TextColumns ملكية. إرجاع مجموعة تمثل مجموعة أعمدة النص في C#.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/pagesetup/textcolumns/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/textcolumns/
 public TextColumnCollection TextColumns { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * class [TextColumnCollection](../../textcolumncollection/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ChartYValueType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartYValueType تعداد. يسمح بتحديد نوع قيمة Y لسلسلة المخططات.
+title: ChartYValueType Enum
+linktitle: ChartYValueType
+articleTitle: ChartYValueType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueType تعداد. يسمح بتحديد نوع قيمة Y لسلسلة المخططات في C#.
 type: docs
 weight: 890
 url: /ar/net/aspose.words.drawing.charts/chartyvaluetype/
@@ -26,5 +28,3 @@ public enum ChartYValueType
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

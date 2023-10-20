@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRange ملكية. إرجاع أو تعيين اسم مستعار أو مجموعة تحرير والذي سيتم استخدامه لتحديد ما إذا كان user الحالي مسموحًا له بتحرير هذا النطاق القابل للتحرير.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words لـ .NET
+description: EditableRange EditorGroup ملكية. إرجاع أو تعيين اسم مستعار أو مجموعة تحرير والذي سيتم استخدامه لتحديد ما إذا كان user الحالي مسموحًا له بتحرير هذا النطاق القابل للتحرير في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/editablerange/editorgroup/
 public EditorType EditorGroup { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن تعيين مستخدم واحد ومجموعة محرر في وقت واحد للنطاق المحدد القابل للتحرير، إذا تم تعيين أحدهما، فسيكون الآخر واضحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نطاقات متداخلة قابلة للتحرير.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* مساحة الاسم [Aspose.Words](../../editablerange/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

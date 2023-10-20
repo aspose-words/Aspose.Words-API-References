@@ -1,12 +1,14 @@
 ---
-title: JsonDataSource.JsonDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: JsonDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON.
+title: JsonDataSource
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words لـ .NET
+description: JsonDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
-## JsonDataSource(string) {#constructor_2}
+## JsonDataSource(*string*) {#constructor_2}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON.
 
@@ -21,12 +23,12 @@ public JsonDataSource(string jsonPath)
 ### أنظر أيضا
 
 * class [JsonDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../jsondatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream) {#constructor}
+## JsonDataSource(*Stream*) {#constructor}
 
 إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON.
 
@@ -41,12 +43,12 @@ public JsonDataSource(Stream jsonStream)
 ### أنظر أيضا
 
 * class [JsonDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../jsondatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
+## JsonDataSource(*string, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_3}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات المحددة لتحليل بيانات JSON.
 
@@ -63,12 +65,12 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../jsondatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
+## JsonDataSource(*Stream, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_1}
 
 إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON.
 
@@ -85,7 +87,5 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../jsondatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

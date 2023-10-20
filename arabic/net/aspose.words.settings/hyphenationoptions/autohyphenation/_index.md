@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.AutoHyphenation
-second_title: Aspose.Words لمراجع .NET API
-description: HyphenationOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: AutoHyphenation
+articleTitle: AutoHyphenation
+second_title: Aspose.Words لـ .NET
+description: HyphenationOptions AutoHyphenation ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/hyphenationoptions/autohyphenation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 public bool AutoHyphenation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الواصلة التلقائية.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### أنظر أيضا
 
 * class [HyphenationOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../hyphenationoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

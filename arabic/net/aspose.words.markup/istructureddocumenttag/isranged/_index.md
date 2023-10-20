@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag طريقة. إرجاع صحيح إذا كان هذا المثيل عبارة عن علامة مستند منظمة ذات نطاق.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words لـ .NET
+description: IStructuredDocumentTag IsRanged طريقة. إرجاع صحيح إذا كان هذا المثيل عبارة عن علامة مستند منظمة ذات نطاق في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/istructureddocumenttag/isranged/
 public bool IsRanged()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على علامة المستند المنظمة.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### أنظر أيضا
 
 * interface [IStructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../istructureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

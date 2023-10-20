@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. إرجاعحقيقي إذا كانت هذه القائمة عبارة عن تعريف لنمط القائمة.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words لـ .NET
+description: List IsListStyleDefinition ملكية. إرجاعحقيقي إذا كانت هذه القائمة عبارة عن تعريف لنمط القائمة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/list/isliststyledefinition/
 public bool IsListStyleDefinition { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تكون هذه الخاصية`حقيقي` ، ال[`Style`](../style/) تُرجع الخاصية نمط القائمة الذي تحدده هذه القائمة .
 
@@ -22,7 +24,7 @@ public bool IsListStyleDefinition { get; }
 
 لا يمكن تطبيق القائمة التي تمثل تعريفًا لنمط القائمة مباشرة علىparas لجعلها مرقمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

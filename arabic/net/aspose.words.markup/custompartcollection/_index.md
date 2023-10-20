@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomPartCollection فصل. يمثل مجموعة منCustomPart الكائنات.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomPartCollection فصل. يمثل مجموعة منCustomPart الكائنات في C#.
 type: docs
 weight: 3910
 url: /ar/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | إضافة عنصر إلى المجموعة. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | إضافة عنصر إلى المجموعة. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | إزالة كافة العناصر من المجموعة. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | عمل نسخة عميقة من هذه المجموعة وعناصرها. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | إزالة عنصر في الفهرس المحدد. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | إزالة عنصر في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 لا تحتاج عادةً إلى إنشاء مثيلات لهذه الفئة. يمكنك الوصول إلى الأجزاء المخصصة المتعلقة بحزمة OOXML عبر ملف[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

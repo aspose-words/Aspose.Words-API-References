@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToCell
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى خلية الجدول في القسم الحالي.
+linktitle: MoveToCell
+articleTitle: MoveToCell
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToCell طريقة. ينقل المؤشر إلى خلية الجدول في القسم الحالي في C#.
 type: docs
-weight: 510
+weight: 500
 url: /ar/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -21,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | columnIndex | Int32 | فهرس العمود في الجدول. |
 | characterIndex | Int32 | فهرس الحرف الموجود داخل الخلية. القيمة السالبة تسمح لك بتحديد موضع من نهاية الخلية. استخدم -1 للانتقال إلى نهاية الخلية. |
 
-### ملاحظات
+## ملاحظات
 
 يتم التنقل داخل القصة الحالية للقسم الحالي.
 
 بالنسبة لمعلمات الفهرس، عندما يكون الفهرس أكبر من أو يساوي 0، فإنه يحدد فهرس from البداية حيث يكون 0 هو العنصر الأول. عندما يكون الفهرس أقل من 0، فإنه يحدد فهرس from النهاية مع -1 كونه العنصر الأخير.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى خلية في الجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

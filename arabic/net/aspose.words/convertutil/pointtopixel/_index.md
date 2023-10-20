@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PointToPixel
-second_title: Aspose.Words لمراجع .NET API
-description: ConvertUtil طريقة. تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة.
+linktitle: PointToPixel
+articleTitle: PointToPixel
+second_title: Aspose.Words لـ .NET
+description: ConvertUtil PointToPixel طريقة. تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/convertutil/pointtopixel/
 ---
-## PointToPixel(double) {#pointtopixel}
+## PointToPixel(*double*) {#pointtopixel}
 
 تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة.
 
@@ -18,11 +20,11 @@ public static double PointToPixel(double points)
 | --- | --- | --- |
 | points | Double | القيمة المراد تحويلها. |
 
-### ملاحظات
+## ملاحظات
 
 1 بوصة تساوي 72 نقطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد خصائص الصفحة بالبكسل.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### أنظر أيضا
 
 * class [ConvertUtil](../)
-* مساحة الاسم [Aspose.Words](../../convertutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PointToPixel(double, double) {#pointtopixel_1}
+## PointToPixel(*double, double*) {#pointtopixel_1}
 
 تحويل النقاط إلى بكسلات بدقة البكسل المحددة.
 
@@ -76,11 +78,11 @@ public static double PointToPixel(double points, double resolution)
 | points | Double | القيمة المراد تحويلها. |
 | resolution | Double | دقة نقطة في البوصة (نقطة في البوصة). |
 
-### ملاحظات
+## ملاحظات
 
 1 بوصة تساوي 72 نقطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تحويل النقاط إلى وحدات بكسل بدقة افتراضية ومخصصة.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### أنظر أيضا
 
 * class [ConvertUtil](../)
-* مساحة الاسم [Aspose.Words](../../convertutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ComparisonTargetType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Comparing.ComparisonTargetType تعداد. يسمح بتحديد المستند الأساسي الذي سيتم استخدامه أثناء المقارنة. القيمة الافتراضية هيCurrent .
+title: ComparisonTargetType Enum
+linktitle: ComparisonTargetType
+articleTitle: ComparisonTargetType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Comparing.ComparisonTargetType تعداد. يسمح بتحديد المستند الأساسي الذي سيتم استخدامه أثناء المقارنة. القيمة الافتراضية هيCurrent  في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.comparing/comparisontargettype/
@@ -21,11 +23,11 @@ public enum ComparisonTargetType
 | Current | `0` | يتم استخدام هذه الوثيقة كقاعدة أثناء المقارنة. |
 | New | `1` | يتم استخدام مستند آخر كقاعدة أثناء المقارنة. |
 
-### ملاحظات
+## ملاحظات
 
 يتعلق بخيار Microsoft Word "إظهار التغييرات في" في مربع الحوار "مقارنة المستندات".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -100,5 +102,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * مساحة الاسم [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../)
-
-

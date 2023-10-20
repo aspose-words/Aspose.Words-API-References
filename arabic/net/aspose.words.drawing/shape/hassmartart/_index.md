@@ -1,7 +1,9 @@
 ---
 title: Shape.HasSmartArt
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعحقيقي اذا هذاShape يحتوي على كائن SmartArt.
+linktitle: HasSmartArt
+articleTitle: HasSmartArt
+second_title: Aspose.Words لـ .NET
+description: Shape HasSmartArt ملكية. إرجاعحقيقي اذا هذاShape يحتوي على كائن SmartArt في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/shape/hassmartart/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/hassmartart/
 public bool HasSmartArt { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حساب عدد الأشكال في مستند باستخدام كائنات SmartArt.
 
@@ -29,7 +31,5 @@ Assert.AreEqual(2, numberOfSmartArtShapes);
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

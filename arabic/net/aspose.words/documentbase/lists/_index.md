@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Lists
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. يوفر الوصول إلى تنسيق القائمة المستخدم في المستند.
+linktitle: Lists
+articleTitle: Lists
+second_title: Aspose.Words لـ .NET
+description: DocumentBase Lists ملكية. يوفر الوصول إلى تنسيق القائمة المستخدم في المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/documentbase/lists/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/documentbase/lists/
 public ListCollection Lists { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لمزيد من المعلومات راجع وصف[`ListCollection`](../../../aspose.words.lists/listcollection/) فصل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مستويات القائمة.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

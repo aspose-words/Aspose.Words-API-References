@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValueCollection ملكية. الحصول على قيمة Y أو تعيينها في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ChartYValueCollection Item ملكية. الحصول على قيمة Y أو تعيينها في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartyvaluecollection/item/
@@ -14,15 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 public ChartYValue this[int index] { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يتم تمثيل القيم الفارغة كـ **باطل** .
+يتم تمثيل القيم الفارغة كـ**باطل** .
 
 ### أنظر أيضا
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

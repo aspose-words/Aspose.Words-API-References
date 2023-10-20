@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection طريقة. تحديد ما إذا كانت المجموعة تحتوي على خاصية بالاسم المحدد.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection Contains طريقة. تحديد ما إذا كانت المجموعة تحتوي على خاصية بالاسم المحدد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

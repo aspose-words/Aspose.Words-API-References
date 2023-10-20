@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة قديمة بسبب تعديلات أخرى تم إجراؤها على المستند.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words لـ .NET
+description: Field IsDirty ملكية. الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة قديمة بسبب تعديلات أخرى تم إجراؤها على المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/isdirty/
 public bool IsDirty { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خاصية خاصة لتحديث نتيجة الحقل.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

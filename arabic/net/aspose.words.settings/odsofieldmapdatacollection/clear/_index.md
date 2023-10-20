@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection طريقة. إزالة كافة العناصر من هذه المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapDataCollection Clear طريقة. إزالة كافة العناصر من هذه المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoFieldMapDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

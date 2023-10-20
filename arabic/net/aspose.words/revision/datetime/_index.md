@@ -1,7 +1,9 @@
 ---
 title: Revision.DateTime
-second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. الحصول على أو تعيين تاريخ/وقت هذه المراجعة.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words لـ .NET
+description: Revision DateTime ملكية. الحصول على أو تعيين تاريخ/وقت هذه المراجعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revision/datetime/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revision/datetime/
 public DateTime DateTime { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### أنظر أيضا
 
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

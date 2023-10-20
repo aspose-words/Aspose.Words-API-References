@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على الثقافة أو تعيينها لمعالجة قيم الحقول مسبقًا.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words لـ .NET
+description: FieldOptions PreProcessCulture ملكية. الحصول على الثقافة أو تعيينها لمعالجة قيم الحقول مسبقًا في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/fieldoptions/preprocessculture/
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 حاليا هذه الخاصية تؤثر فقط على قيمة[`FieldDocProperty`](../../fielddocproperty/) مجال.
 
 القيمة الافتراضية هي`باطل` . عندما يتم تعيين هذه الخاصية إلى`باطل` ، ال[`FieldDocProperty`](../../fielddocproperty/)تتم معالجة قيمة الحقل مسبقًا مع الثقافة التي يتحكم فيها[`FieldUpdateCultureSource`](../fieldupdateculturesource/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط ثقافة المعالجة المسبقة.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

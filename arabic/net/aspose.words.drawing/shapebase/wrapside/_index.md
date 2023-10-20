@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapSide
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد كيفية التفاف النص حول الشكل.
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words لـ .NET
+description: ShapeBase WrapSide ملكية. يحدد كيفية التفاف النص حول الشكل في C#.
 type: docs
 weight: 590
 url: /ar/net/aspose.words.drawing/shapebase/wrapside/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/wrapside/
 public WrapSide WrapSide { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيBoth.
 
 له تأثير فقط على أشكال المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال جميع أشكال مربعات النص بأشكال الصور.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * enum [WrapSide](../../wrapside/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

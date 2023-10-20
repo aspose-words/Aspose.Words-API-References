@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark1
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد اللون الداكن 1.
+linktitle: Dark1
+articleTitle: Dark1
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Dark1 ملكية. يحدد اللون الداكن 1 في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.themes/themecolors/dark1/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/dark1/
 public Color Dark1 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Aspose.Words لمراجع .NET API
-description: DocSaveOptions ملكية. الحصول على/تعيين كلمة مرور لتشفير المستند باستخدام طريقة التشفير RC4.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words لـ .NET
+description: DocSaveOptions Password ملكية. الحصول على/تعيين كلمة مرور لتشفير المستند باستخدام طريقة التشفير RC4 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/docsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 من أجل حفظ المستند بدون تشفير، يجب أن تكون هذه الخاصية`باطل` أو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word الأقدم.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [DocSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../docsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

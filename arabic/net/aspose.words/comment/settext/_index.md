@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Aspose.Words لمراجع .NET API
-description: Comment طريقة. هذه طريقة ملائمة تتيح لك ضبط نص التعليق بسهولة.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words لـ .NET
+description: Comment SetText طريقة. هذه طريقة ملائمة تتيح لك ضبط نص التعليق بسهولة في C#.
 type: docs
-weight: 180
+weight: 150
 url: /ar/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | النص الجديد للتعليق. |
 
-### ملاحظات
+## ملاحظات
 
 تسمح هذه الطريقة بتعيين نص التعليق بسرعة من سلسلة. يمكن أن تحتوي السلسلة على فواصل فقرات، سيؤدي ذلك إلى إنشاء فقرات نصية في التعليق وفقًا لذلك. إذا كنت تريد إدراج عناصر أكثر تعقيدًا في التعليق، على سبيل المثال bookmarks أو الجداول أو تطبيق تنسيق منسق، فأنت بحاجة إلى استخدام فئات العقدة المناسبة إلى إنشاء نص التعليق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة تعليق إلى مستند، ثم الرد عليه.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

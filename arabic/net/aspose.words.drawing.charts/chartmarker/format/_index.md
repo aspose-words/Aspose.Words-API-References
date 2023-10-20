@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Format
-second_title: Aspose.Words لمراجع .NET API
-description: ChartMarker ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط لهذه العلامة.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words لـ .NET
+description: ChartMarker Format ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط لهذه العلامة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartmarker/format/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartmarker/format/
 public ChartFormat Format { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartMarker](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

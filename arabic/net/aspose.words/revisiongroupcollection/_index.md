@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroupCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.RevisionGroupCollection فصل. مجموعة منRevisionGroup الكائنات التي تمثل مجموعات المراجعة في المستند.
+title: RevisionGroupCollection Class
+linktitle: RevisionGroupCollection
+articleTitle: RevisionGroupCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.RevisionGroupCollection فصل. مجموعة منRevisionGroup الكائنات التي تمثل مجموعات المراجعة في المستند في C#.
 type: docs
 weight: 4790
 url: /ar/net/aspose.words/revisiongroupcollection/
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | يُرجع كائن العداد. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات هذه الفئة مباشرة. استخدم ال[`Groups`](../revisioncollection/groups/) خاصية للحصول على مجموعات المراجعة الموجودة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على مجموعة من المراجعات في مستند.
 
@@ -62,5 +64,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 * class [RevisionGroup](../revisiongroup/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

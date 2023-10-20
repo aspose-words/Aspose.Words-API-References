@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection طريقة. إزالة كافة حقول النموذج من هذه المجموعة ومن المستند.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: FormFieldCollection Clear طريقة. إزالة كافة حقول النموذج من هذه المجموعة ومن المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/formfieldcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfieldcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

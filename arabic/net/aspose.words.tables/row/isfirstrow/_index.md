@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. صحيح إذا كان هذا هو الصف الأول في الجدول كاذبة خلاف ذلك.
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: Aspose.Words لـ .NET
+description: Row IsFirstRow ملكية. صحيح إذا كان هذا هو الصف الأول في الجدول كاذبة خلاف ذلك في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/isfirstrow/
 public bool IsFirstRow { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

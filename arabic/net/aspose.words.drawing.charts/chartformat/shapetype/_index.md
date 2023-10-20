@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Aspose.Words لمراجع .NET API
-description: ChartFormat ملكية. الحصول على أو تعيين نوع الشكل لعنصر المخطط الأصلي.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words لـ .NET
+description: ChartFormat ShapeType ملكية. الحصول على أو تعيين نوع الشكل لعنصر المخطط الأصلي في C#.
 type: docs
-weight: 30
+weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartformat/shapetype/
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 حاليًا، لا يمكن استخدام الخاصية إلا لتسميات البيانات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تنسيق التعبئة والحد ووسيلة الشرح لتسميات بيانات المخطط.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartformat/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

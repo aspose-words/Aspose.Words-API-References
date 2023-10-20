@@ -1,12 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions طريقة. إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد.
+linktitle: CreateSaveOptions
+articleTitle: CreateSaveOptions
+second_title: Aspose.Words لـ .NET
+description: SaveOptions CreateSaveOptions طريقة. إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {#createsaveoptions}
+## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
 إنشاء كائن خيارات الحفظ من فئة مناسبة لتنسيق الحفظ المحدد.
 
@@ -22,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 كائن من فئة مشتقة من[`SaveOptions`](../).
 
-### أمثلة
+## أمثلة
 
 يعرض خيارًا لتحسين استهلاك الذاكرة عند تحويل مستندات كبيرة إلى PDF.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## CreateSaveOptions(string) {#createsaveoptions_1}
+## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
 إنشاء كائن خيارات حفظ من فئة مناسبة لامتداد الملف المحدد في اسم الملف المحدد.
 
@@ -66,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 كائن من فئة مشتقة من[`SaveOptions`](../).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين قالب افتراضي للمستندات التي لا تحتوي على قوالب مرفقة.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

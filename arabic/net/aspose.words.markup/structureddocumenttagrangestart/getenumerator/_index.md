@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart GetEnumerator طريقة. يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<Node> GetEnumerator()
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

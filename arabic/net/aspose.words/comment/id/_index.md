@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. الحصول على معرف التعليق.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: Comment Id ملكية. الحصول على معرف التعليق في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /ar/net/aspose.words/comment/id/
 الحصول على معرف التعليق.
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يسمح معرف التعليق بتثبيت تعليق على منطقة من النص في المستند. يجب تحديد المنطقة باستخدام[`CommentRangeStart`](../../commentrangestart/) و[`CommentRangeEnd`](../../commentrangeend/) كائن يشارك نفس قيمة المعرف مثل[`Comment`](../) هدف.
 
@@ -22,7 +24,7 @@ public int Id { get; set; }
 
 من المفترض أن تكون معرفات التعليقات فريدة عبر المستند، ويحتفظ Aspose.Words تلقائيًا بمعرفات التعليقات عند تحميل المستندات وحفظها ودمجها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeDataType تعداد. تحديد نوع مصدر بيانات دمج المراسلات الخارجي.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MailMergeDataType تعداد. تحديد نوع مصدر بيانات دمج المراسلات الخارجي في C#.
 type: docs
 weight: 5820
 url: /ar/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | يحدد أنه تم توصيل مستند معين بمصدر بيانات خارجي عبر واجهة كائن مصدر بيانات Office (ODSO). |
 | Default | `-1` | يساويNone . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

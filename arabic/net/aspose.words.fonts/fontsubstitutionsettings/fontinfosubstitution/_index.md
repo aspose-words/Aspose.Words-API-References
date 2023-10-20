@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Aspose.Words لمراجع .NET API
-description: FontSubstitutionSettings ملكية. الإعدادات المتعلقة بقاعدة استبدال معلومات الخط.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words لـ .NET
+description: FontSubstitutionSettings FontInfoSubstitution ملكية. الإعدادات المتعلقة بقاعدة استبدال معلومات الخط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

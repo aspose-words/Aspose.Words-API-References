@@ -1,24 +1,26 @@
 ---
 title: SaveOptions.DefaultTemplate
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين المسار إلى القالب الافتراضي بما في ذلك اسم الملف. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
+linktitle: DefaultTemplate
+articleTitle: DefaultTemplate
+second_title: Aspose.Words لـ .NET
+description: SaveOptions DefaultTemplate ملكية. الحصول على أو تعيين المسار إلى القالب الافتراضي بما في ذلك اسم الملف. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
+الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
 
 ```csharp
 public string DefaultTemplate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تحديده، فسيتم استخدام هذا المسار لتحميل القالب عندما[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) يكون`حقيقي` , لكن[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) فارغ.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين قالب افتراضي للمستندات التي لا تحتوي على قوالب مرفقة.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

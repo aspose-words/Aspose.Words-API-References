@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. إجراء دمج البريد من كائن ADO Recordset في المستند باستخدام مناطق دمج البريد.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words لـ .NET
+description: MailMerge ExecuteWithRegionsADO طريقة. إجراء دمج البريد من كائن ADO Recordset في المستند باستخدام مناطق دمج البريد في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | مجموعة سجلات ADO أو كائن التسجيل. |
 | tableName | String | اسم منطقة دمج المراسلات في المستند المطلوب تعبئته. |
 
-### ملاحظات
+## ملاحظات
 
 تكون هذه الطريقة مفيدة عندما تنوي استخدام فئات Aspose.Words ككائنات COM من تعليمات برمجية غير مُدارة مثل تطبيق تم إنشاؤه باستخدام ASP أو Visual Basic 6.0.
 
 لمزيد من المعلومات انظر وصف[`ExecuteWithRegions`](../executewithregions/).
 
-### أمثلة
+## أمثلة
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

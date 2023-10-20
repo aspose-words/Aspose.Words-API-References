@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. التأكد من وجود القسمBody مع واحدParagraph .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: Section EnsureMinimum طريقة. التأكد من وجود القسمBody مع واحدParagraph  في C#.
 type: docs
-weight: 150
+weight: 130
 url: /ar/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحضير عقدة قسم جديدة للتحرير.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

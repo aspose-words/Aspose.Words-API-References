@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkStart طريقة. إرجاع سلسلة فارغة.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words لـ .NET
+description: BookmarkStart GetText طريقة. إرجاع سلسلة فارغة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [BookmarkStart](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkstart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

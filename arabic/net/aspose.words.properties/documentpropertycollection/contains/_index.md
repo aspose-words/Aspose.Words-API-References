@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection طريقة. إرجاعحقيقي في حالة وجود خاصية بالاسم المحدد في المجموعة.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection Contains طريقة. إرجاعحقيقي في حالة وجود خاصية بالاسم المحدد في المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `حقيقي` إذا كانت الخاصية موجودة في المجموعة؛`خطأ شنيع` خلاف ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

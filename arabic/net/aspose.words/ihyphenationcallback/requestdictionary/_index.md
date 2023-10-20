@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Aspose.Words لمراجع .NET API
-description: IHyphenationCallback طريقة. لإعلام التطبيق بأنه لم يتم العثور على قاموس الواصلة للغة المحددة وقد يلزم تسجيله.
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: Aspose.Words لـ .NET
+description: IHyphenationCallback RequestDictionary طريقة. لإعلام التطبيق بأنه لم يتم العثور على قاموس الواصلة للغة المحددة وقد يلزم تسجيله في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | اسم لغة، على سبيل المثال "en-US". راجع وثائق .NET لـ "اسم الثقافة" وRFC 4646 للحصول على التفاصيل. |
 
-### ملاحظات
+## ملاحظات
 
 ستؤدي الاستثناءات التي يتم طرحها بهذه الطريقة إلى إحباط تنفيذ عملية تخطيط الصفحة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### أنظر أيضا
 
 * interface [IHyphenationCallback](../)
-* مساحة الاسم [Aspose.Words](../../ihyphenationcallback/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

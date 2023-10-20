@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValueCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection فصل. يمثل مجموعة من قيم X لسلسلة مخططات.
+title: ChartXValueCollection Class
+linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueCollection فصل. يمثل مجموعة من قيم X لسلسلة مخططات في C#.
 type: docs
 weight: 850
 url: /ar/net/aspose.words.drawing.charts/chartxvaluecollection/
@@ -27,13 +29,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | يُرجع كائن العداد. |
 
-### ملاحظات
+## ملاحظات
 
-جميع عناصر المجموعة بخلاف **باطل** يجب أن يكون له نفس الشيء[`ValueType`](../chartxvalue/valuetype/).
+جميع عناصر المجموعة بخلاف**باطل** يجب أن يكون له نفس الشيء[`ValueType`](../chartxvalue/valuetype/).
 
 تسمح المجموعة بتغيير قيم X فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو إزالة القيم، الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الطبقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على بيانات سلسلة المخططات.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartXValue](../chartxvalue/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

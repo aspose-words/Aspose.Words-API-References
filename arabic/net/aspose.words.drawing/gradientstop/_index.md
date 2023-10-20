@@ -1,7 +1,9 @@
 ---
-title: Class GradientStop
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.GradientStop فصل. يمثل نقطة تدرج واحدة.
+title: GradientStop Class
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.GradientStop فصل. يمثل نقطة تدرج واحدة في C#.
 type: docs
 weight: 980
 url: /ar/net/aspose.words.drawing/gradientstop/
@@ -20,8 +22,8 @@ public class GradientStop
 
 | اسم | وصف |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | تهيئة مثيل جديد لـ`GradientStop` فئة. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | تهيئة مثيل جديد لـ`GradientStop` فئة. |
+| [GradientStop](gradientstop/#constructor)(*Color, double*) | تهيئة مثيل جديد لـ`GradientStop` فئة. |
+| [GradientStop](gradientstop/#constructor_1)(*Color, double, double*) | تهيئة مثيل جديد لـ`GradientStop` فئة. |
 
 ## الخصائص
 
@@ -42,5 +44,3 @@ public class GradientStop
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words لمراجع .NET API
-description: Section ملكية. يوفر الوصول إلى عقد الرؤوس والتذييلات الخاصة بالقسم.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words لـ .NET
+description: Section HeadersFooters ملكية. يوفر الوصول إلى عقد الرؤوس والتذييلات الخاصة بالقسم في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/headersfooters/
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال النص في تذييل المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

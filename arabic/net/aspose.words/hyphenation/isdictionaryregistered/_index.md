@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation طريقة. إرجاعخطأ شنيع إذا لم يكن هناك قاموس مسجل للغة المحددة أو إذا كان المسجل هو قاموس فارغحقيقي وإلا.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words لـ .NET
+description: Hyphenation IsDictionaryRegistered طريقة. إرجاعخطأ شنيع إذا لم يكن هناك قاموس مسجل للغة المحددة أو إذا كان المسجل هو قاموس فارغحقيقي وإلا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/hyphenation/isdictionaryregistered/
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسجيل قاموس الواصلة.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### أنظر أيضا
 
 * class [Hyphenation](../)
-* مساحة الاسم [Aspose.Words](../../hyphenation/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

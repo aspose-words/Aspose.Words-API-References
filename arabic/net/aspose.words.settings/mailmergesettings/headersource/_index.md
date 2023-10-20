@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.HeaderSource
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. تحديد المسار إلى مصدر رأس دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: HeaderSource
+articleTitle: HeaderSource
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings HeaderSource ملكية. تحديد المسار إلى مصدر رأس دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.settings/mailmergesettings/headersource/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/headersource/
 public string HeaderSource { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مصدر بيانات لدمج المراسلات من مصدر رأس ومصدر بيانات.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

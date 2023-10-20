@@ -1,7 +1,9 @@
 ---
 title: LanguagePreferences.AddEditingLanguage
-second_title: Aspose.Words لمراجع .NET API
-description: LanguagePreferences طريقة. يضيف لغة تحرير إضافية.
+linktitle: AddEditingLanguage
+articleTitle: AddEditingLanguage
+second_title: Aspose.Words لـ .NET
+description: LanguagePreferences AddEditingLanguage طريقة. يضيف لغة تحرير إضافية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/languagepreferences/addeditinglanguage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/languagepreferences/addeditinglanguage/
 public void AddEditingLanguage(EditingLanguage language)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تفضيلات اللغة عند تحميل مستند.
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* مساحة الاسم [Aspose.Words.Loading](../../languagepreferences/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

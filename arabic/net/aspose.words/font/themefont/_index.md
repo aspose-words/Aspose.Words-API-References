@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين خط السمة في نظام الخطوط المطبق المرتبط بهذاFont الكائن.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words لـ .NET
+description: Font ThemeFont ملكية. الحصول على أو تعيين خط السمة في نظام الخطوط المطبق المرتبط بهذاFont الكائن في C#.
 type: docs
 weight: 470
 url: /ar/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/themefont/
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء واستخدام النمط الموضوعي.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

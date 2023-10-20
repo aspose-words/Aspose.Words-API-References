@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDateTime
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValue طريقة. إنشاء ملفChartYValue مثال علىDateTime اكتب.
+linktitle: FromDateTime
+articleTitle: FromDateTime
+second_title: Aspose.Words لـ .NET
+description: ChartYValue FromDateTime طريقة. إنشاء ملفChartYValue مثال علىDateTime اكتب في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/fromdatetime/
@@ -17,7 +19,5 @@ public static ChartYValue FromDateTime(DateTime value)
 ### أنظر أيضا
 
 * class [ChartYValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لتتوافق مع الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في برنامج MS Word.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words لـ .NET
+description: Document AutomaticallyUpdateStyles ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لتتوافق مع الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في برنامج MS Word في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/automaticallyupdatestyles/
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إرفاق قالب بمستند.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

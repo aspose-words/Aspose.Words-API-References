@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ShowDate
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words لـ .NET
+description: SignatureLine ShowDate ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/signatureline/showdate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/signatureline/showdate/
 public bool ShowDate { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### أنظر أيضا
 
 * class [SignatureLine](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../signatureline/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

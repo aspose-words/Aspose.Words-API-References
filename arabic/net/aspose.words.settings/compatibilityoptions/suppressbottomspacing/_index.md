@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressBottomSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. تجاهل ارتفاع السطر المحدد للسطر الأخير في الصفحة.
+linktitle: SuppressBottomSpacing
+articleTitle: SuppressBottomSpacing
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions SuppressBottomSpacing ملكية. تجاهل ارتفاع السطر المحدد للسطر الأخير في الصفحة في C#.
 type: docs
 weight: 480
 url: /ar/net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
@@ -17,7 +19,5 @@ public bool SuppressBottomSpacing { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

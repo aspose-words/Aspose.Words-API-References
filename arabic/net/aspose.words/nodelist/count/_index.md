@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Aspose.Words لمراجع .NET API
-description: NodeList ملكية. الحصول على عدد العقد في القائمة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: NodeList Count ملكية. الحصول على عدد العقد في القائمة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/nodelist/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام XPaths للتنقل في NodeList.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### أنظر أيضا
 
 * class [NodeList](../)
-* مساحة الاسم [Aspose.Words](../../nodelist/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

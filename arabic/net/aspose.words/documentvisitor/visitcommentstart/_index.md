@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم الاتصال به عند بدء تعداد نص التعليق.
+linktitle: VisitCommentStart
+articleTitle: VisitCommentStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitCommentStart طريقة. يتم الاتصال به عند بدء تعداد نص التعليق في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/documentvisitor/visitcommentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentStart(Comment comment)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل تعليق ونطاق التعليقات في المستند.
 
@@ -334,7 +336,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SavePictureBullet
-second_title: Aspose.Words لمراجع .NET API
-description: DocSaveOptions ملكية. متىخطأ شنيع  لا يتم حفظ بيانات PictureBullet في مستند الإخراج. القيمة الافتراضية هيحقيقي .
+linktitle: SavePictureBullet
+articleTitle: SavePictureBullet
+second_title: Aspose.Words لـ .NET
+description: DocSaveOptions SavePictureBullet ملكية. متىخطأ شنيع  لا يتم حفظ بيانات PictureBullet في مستند الإخراج. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/docsaveoptions/savepicturebullet/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 public bool SavePictureBullet { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم توفير هذا الخيار لـ Word 97، والذي لا يمكنه العمل بشكل صحيح مع بيانات PictureBullet. لإزالة بيانات PictureBullet، اضبط الخيار على "خطأ".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف بيانات PictureBullet من المستند عند الحفظ.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocSaveOptions.PictureBullets.doc", saveOptions);
 ### أنظر أيضا
 
 * class [DocSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../docsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

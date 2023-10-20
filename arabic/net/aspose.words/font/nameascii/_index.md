@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أو تعيين الخط المستخدم للنص اللاتيني الأحرف ذات رموز الأحرف من 0 صفر إلى 127.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words لـ .NET
+description: Font NameAscii ملكية. إرجاع أو تعيين الخط المستخدم للنص اللاتيني الأحرف ذات رموز الأحرف من 0 صفر إلى 127 في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/nameascii/
 public string NameAscii { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لـ Microsoft Word الجمع بين خطين مختلفين في تشغيل واحد.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveToRevision
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن إدراجه في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words لـ .NET
+description: InlineStory IsMoveToRevision ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن إدراجه في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/inlinestory/ismovetorevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الخصائص المتعلقة بالمراجعة لعقد InlineStory.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### أنظر أيضا
 
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

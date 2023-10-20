@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يحصل علىChartNumberFormat مثيل يسمح بتعيين تنسيق الأرقام لتسميات البيانات الخاصة بسلسلة بأكملها.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection NumberFormat ملكية. يحصل علىChartNumberFormat مثيل يسمح بتعيين تنسيق الأرقام لتسميات البيانات الخاصة بسلسلة بأكملها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين تسميات البيانات وتكوينها لسلسلة مخططات.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

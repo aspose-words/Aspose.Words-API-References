@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.Dml3DEffectsRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد.
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words لـ .NET
+description: SaveOptions Dml3DEffectsRenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيBasic .
 
@@ -22,7 +24,5 @@ public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 
 * enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

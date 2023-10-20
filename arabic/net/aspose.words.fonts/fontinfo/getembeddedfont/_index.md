@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFont
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo طريقة. يحصل على ملف خط مضمن محدد.
+linktitle: GetEmbeddedFont
+articleTitle: GetEmbeddedFont
+second_title: Aspose.Words لـ .NET
+description: FontInfo GetEmbeddedFont طريقة. يحصل على ملف خط مضمن محدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fonts/fontinfo/getembeddedfont/
@@ -23,7 +25,7 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 عائدات`باطل`إذا لم يتم تضمين الخط المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
 
@@ -52,7 +54,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 * enum [EmbeddedFontFormat](../../embeddedfontformat/)
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

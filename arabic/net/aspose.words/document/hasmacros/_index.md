@@ -1,7 +1,9 @@
 ---
 title: Document.HasMacros
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاعحقيقي إذا كان المستند يحتوي على مشروع VBA وحدات الماكرو.
+linktitle: HasMacros
+articleTitle: HasMacros
+second_title: Aspose.Words لـ .NET
+description: Document HasMacros ملكية. إرجاعحقيقي إذا كان المستند يحتوي على مشروع VBA وحدات الماكرو في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/document/hasmacros/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/hasmacros/
 public bool HasMacros { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات ماكرو للمستند من خلال النقر.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

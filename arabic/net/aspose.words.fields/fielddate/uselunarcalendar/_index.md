@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLunarCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldDate UseLunarCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول التاريخ لعرض التواريخ وفقًا لأنواع مختلفة من التقويمات.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### أنظر أيضا
 
 * class [FieldDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

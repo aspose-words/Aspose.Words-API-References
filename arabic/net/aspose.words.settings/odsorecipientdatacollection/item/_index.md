@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientDataCollection ملكية. الحصول على أو تعيين عنصر في هذه المجموعة.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientDataCollection Item ملكية. الحصول على أو تعيين عنصر في هذه المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdatacollection/item/
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

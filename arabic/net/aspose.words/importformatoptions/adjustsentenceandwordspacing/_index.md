@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.AdjustSentenceAndWordSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على قيمة منطقية أو تعيينها والتي تحدد ما إذا كان سيتم ضبط تباعد الجملة والكلمات تلقائيًا. القيمة الافتراضية هيخطأ شنيع .
+linktitle: AdjustSentenceAndWordSpacing
+articleTitle: AdjustSentenceAndWordSpacing
+second_title: Aspose.Words لـ .NET
+description: ImportFormatOptions AdjustSentenceAndWordSpacing ملكية. الحصول على قيمة منطقية أو تعيينها والتي تحدد ما إذا كان سيتم ضبط تباعد الجملة والكلمات تلقائيًا. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
 public bool AdjustSentenceAndWordSpacing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط تباعد الجملة والكلمات تلقائيًا.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("Lorem ipsum. Dolor sit amet.", dstDoc.FirstSection.Body.FirstPa
 ### أنظر أيضا
 
 * class [ImportFormatOptions](../)
-* مساحة الاسم [Aspose.Words](../../importformatoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellCollection.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: CellCollection طريقة. نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: CellCollection ToArray طريقة. نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/cellcollection/toarray/
@@ -18,7 +20,7 @@ public Cell[] ToArray()
 
 مصفوفة من الخلايا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellcollection/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.LeftExpression
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSkipIf ملكية. الحصول على أو تعيين الجزء الأيسر من تعبير المقارنة.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words لـ .NET
+description: FieldSkipIf LeftExpression ملكية. الحصول على أو تعيين الجزء الأيسر من تعبير المقارنة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldskipif/leftexpression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldskipif/leftexpression/
 public string LeftExpression { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخطي الصفحات في عملية دمج البريد باستخدام حقل SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### أنظر أيضا
 
 * class [FieldSkipIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldskipif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

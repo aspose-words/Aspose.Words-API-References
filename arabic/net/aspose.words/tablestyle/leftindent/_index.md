@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words لـ .NET
+description: TableStyle LeftIndent ملكية. الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط موضع الجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

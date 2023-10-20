@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. إرجاعحقيقي إذا كانت الصورة مرتبطة بالشكل متىSourceFullName تم تحديده.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words لـ .NET
+description: ImageData IsLink ملكية. إرجاعحقيقي إذا كانت الصورة مرتبطة بالشكل متىSourceFullName تم تحديده في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagedata/islink/
 public bool IsLink { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

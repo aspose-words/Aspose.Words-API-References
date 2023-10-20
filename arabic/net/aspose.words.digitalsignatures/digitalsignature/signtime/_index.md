@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignTime
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. الحصول على الوقت الذي تم فيه توقيع المستند.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature SignTime ملكية. الحصول على الوقت الذي تم فيه توقيع المستند في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 public DateTime SignTime { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### أنظر أيضا
 
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

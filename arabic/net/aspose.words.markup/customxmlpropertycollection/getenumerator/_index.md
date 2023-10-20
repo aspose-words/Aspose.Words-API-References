@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
 public IEnumerator<CustomXmlProperty> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

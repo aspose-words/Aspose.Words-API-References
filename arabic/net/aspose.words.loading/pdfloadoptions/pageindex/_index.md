@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.PageIndex
-second_title: Aspose.Words لمراجع .NET API
-description: PdfLoadOptions ملكية. الحصول على أو تعيين الفهرس المستند إلى 0 للصفحة الأولى المراد قراءتها. الافتراضي هو 0.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words لـ .NET
+description: PdfLoadOptions PageIndex ملكية. الحصول على أو تعيين الفهرس المستند إلى 0 للصفحة الأولى المراد قراءتها. الافتراضي هو 0 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/pdfloadoptions/pageindex/
@@ -17,7 +19,5 @@ public int PageIndex { get; set; }
 ### أنظر أيضا
 
 * class [PdfLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../pdfloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

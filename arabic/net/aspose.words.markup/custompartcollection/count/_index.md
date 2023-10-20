@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPartCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: CustomPartCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/custompartcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/custompartcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

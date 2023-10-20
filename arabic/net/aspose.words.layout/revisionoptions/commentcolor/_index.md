@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.CommentColor
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للتعليقات. القيمة الافتراضية هيRed .
+linktitle: CommentColor
+articleTitle: CommentColor
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions CommentColor ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للتعليقات. القيمة الافتراضية هيRed  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/revisionoptions/commentcolor/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/revisionoptions/commentcolor/
 public RevisionColor CommentColor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تعيين هذه الخاصية علىByAuthor أوNoHighlight القيم ونتيجة لذلك سيتم تعيين هذه الخاصية إلى اللون الافتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

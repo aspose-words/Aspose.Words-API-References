@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: FieldEnd طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: FieldEnd Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **خطأ شنيع** إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldEnd](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldend/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

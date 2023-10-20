@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageRangeSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين بداية نطاق الصفحات ونهايته.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldToa PageRangeSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين بداية نطاق الصفحات ونهايته في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldtoa/pagerangeseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/pagerangeseparator/
 public string PageRangeSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

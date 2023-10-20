@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Show
-second_title: Aspose.Words لمراجع .NET API
-description: ChartTitle ملكية. يحدد ما إذا كان سيتم عرض العنوان لهذا المخطط أم لا. القيمة الافتراضية هيحقيقي .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words لـ .NET
+description: ChartTitle Show ملكية. يحدد ما إذا كان سيتم عرض العنوان لهذا المخطط أم لا. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
-weight: 30
+weight: 20
 url: /ar/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/charttitle/show/
 public bool Show { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعيين عنوان.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### أنظر أيضا
 
 * class [ChartTitle](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../charttitle/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

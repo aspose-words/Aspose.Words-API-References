@@ -1,7 +1,9 @@
 ---
-title: Class FieldComments
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldComments فصل. ينفذ حقل التعليقات.
+title: FieldComments Class
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldComments فصل. ينفذ حقل التعليقات في C#.
 type: docs
 weight: 1700
 url: /ar/net/aspose.words.fields/fieldcomments/
@@ -43,17 +45,17 @@ public class FieldComments : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 استرداد التعليقات المتعلقة بالمستند الحالي وتعيينها بشكل اختياري، كما هو مسجل في[`Comments`](../../aspose.words.properties/builtindocumentproperties/comments/) property من خصائص المستند المضمنة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل التعليقات.
 
@@ -88,5 +90,3 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

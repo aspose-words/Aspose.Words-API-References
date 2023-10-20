@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntrySeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل جدول إدخال المراجع ورقم الصفحة الخاص به.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words لـ .NET
+description: FieldToa EntrySeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل جدول إدخال المراجع ورقم الصفحة الخاص به في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldtoa/entryseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/entryseparator/
 public string EntrySeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

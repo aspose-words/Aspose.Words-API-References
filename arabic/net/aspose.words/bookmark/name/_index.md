@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: Bookmark Name ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/bookmark/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه إذا قمت بتغيير اسم الإشارة المرجعية إلى اسم موجود بالفعل في المستند، فلن يتم تقديم أي خطأ وسيتم تخزين الإشارة المرجعية الأولى فقط عند حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج إشارة مرجعية.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

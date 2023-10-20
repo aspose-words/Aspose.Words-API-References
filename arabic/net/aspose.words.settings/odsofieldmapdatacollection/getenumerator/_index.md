@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapDataCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

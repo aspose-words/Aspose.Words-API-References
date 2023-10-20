@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يتحكم في كيفية تضمين الخطوط في مستندات PDF الناتجة.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions EmbedFullFonts ملكية. يتحكم في كيفية تضمين الخطوط في مستندات PDF الناتجة في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 public bool EmbedFullFonts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`، مما يعني أنه تم تعيين الخطوط فرعيًا قبل التضمين. يعد الإعداد الفرعي مفيدًا إذا كنت تريد الاحتفاظ بحجم ملف الإخراج أصغر. يؤدي الإعداد الفرعي إلى إزالة جميع الحروف الرسومية غير المستخدمة من الخط.
 
@@ -22,7 +24,7 @@ public bool EmbedFullFonts { get; set; }
 
 بعض الخطوط كبيرة الحجم (عدة ميغابايت) وسيؤدي تضمينها بدون subsetting إلى إنتاج مستندات كبيرة الحجم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين الإعداد الفرعي أو تعطيله عند تضمين الخطوط أثناء عرض مستند إلى PDF.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

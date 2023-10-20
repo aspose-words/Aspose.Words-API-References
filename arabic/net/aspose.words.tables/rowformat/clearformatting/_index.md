@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: RowFormat طريقة. إعادة التعيين إلى تنسيق الصف الافتراضي.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: RowFormat ClearFormatting طريقة. إعادة التعيين إلى تنسيق الصف الافتراضي في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/rowformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول بحدود مخصصة.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### أنظر أيضا
 
 * class [RowFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

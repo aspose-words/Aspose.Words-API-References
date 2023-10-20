@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Rotation
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تحدد الزاوية بالدرجات التي يتم تدوير الشكل بها. القيمة الموجبة تتوافق مع زاوية الدوران في اتجاه عقارب الساعة.
+linktitle: Rotation
+articleTitle: Rotation
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Rotation ملكية. تحدد الزاوية بالدرجات التي يتم تدوير الشكل بها. القيمة الموجبة تتوافق مع زاوية الدوران في اتجاه عقارب الساعة في C#.
 type: docs
 weight: 470
 url: /ar/net/aspose.words.drawing/shapebase/rotation/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/rotation/
 public double Rotation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة وتدويرها.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.WebExtensionTaskPanes
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع مجموعة تمثل قائمة بالوظائف الإضافية لجزء المهام.
+linktitle: WebExtensionTaskPanes
+articleTitle: WebExtensionTaskPanes
+second_title: Aspose.Words لـ .NET
+description: Document WebExtensionTaskPanes ملكية. إرجاع مجموعة تمثل قائمة بالوظائف الإضافية لجزء المهام في C#.
 type: docs
 weight: 490
 url: /ar/net/aspose.words/document/webextensiontaskpanes/
@@ -18,7 +20,5 @@ public TaskPaneCollection WebExtensionTaskPanes { get; }
 
 * class [TaskPaneCollection](../../../aspose.words.webextensions/taskpanecollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

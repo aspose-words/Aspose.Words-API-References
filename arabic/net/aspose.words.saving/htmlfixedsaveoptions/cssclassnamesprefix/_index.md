@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.CssClassNamesPrefix
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد البادئة التي تتم إضافتها إلى كافة أسماء الفئات في ملف style.css. القيمة الافتراضية هيعذرا .
+linktitle: CssClassNamesPrefix
+articleTitle: CssClassNamesPrefix
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions CssClassNamesPrefix ملكية. يحدد البادئة التي تتم إضافتها إلى كافة أسماء الفئات في ملف style.css. القيمة الافتراضية هيعذرا  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 public string CssClassNamesPrefix { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية وضع CSS في ملف منفصل وإضافة بادئة لجميع أسماء فئات CSS الخاصة به.
 
@@ -46,7 +48,5 @@ Assert.True(Regex.Match(outDocContents,
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

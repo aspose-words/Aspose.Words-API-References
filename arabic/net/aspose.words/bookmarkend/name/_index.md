@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.Name
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkEnd ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: BookmarkEnd Name ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bookmarkend/name/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/bookmarkend/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [BookmarkEnd](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkend/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

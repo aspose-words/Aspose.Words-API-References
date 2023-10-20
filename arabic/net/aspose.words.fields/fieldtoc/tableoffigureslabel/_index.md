@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين اسم معرف التسلسل المستخدم عند إنشاء جدول الأشكال.
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: Aspose.Words لـ .NET
+description: FieldToc TableOfFiguresLabel ملكية. الحصول على أو تعيين اسم معرف التسلسل المستخدم عند إنشاء جدول الأشكال في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ملء حقل جدول المحتويات بالإدخالات باستخدام حقول التسلسل.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

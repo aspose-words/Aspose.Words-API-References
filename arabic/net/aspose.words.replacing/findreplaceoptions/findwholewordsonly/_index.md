@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. يشير True إلى أن القيمة القديمة يجب أن تكون كلمة مستقلة.
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions FindWholeWordsOnly ملكية. يشير True إلى أن القيمة القديمة يجب أن تكون كلمة مستقلة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تبديل عمليات البحث والاستبدال المستقلة للكلمات فقط.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

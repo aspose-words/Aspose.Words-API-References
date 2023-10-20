@@ -1,7 +1,9 @@
 ---
 title: Story.DeleteShapes
-second_title: Aspose.Words لمراجع .NET API
-description: Story طريقة. حذف جميع الأشكال من نص هذه القصة.
+linktitle: DeleteShapes
+articleTitle: DeleteShapes
+second_title: Aspose.Words لـ .NET
+description: Story DeleteShapes طريقة. حذف جميع الأشكال من نص هذه القصة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/story/deleteshapes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/story/deleteshapes/
 public void DeleteShapes()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة كافة الأشكال من العقدة.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 ### أنظر أيضا
 
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

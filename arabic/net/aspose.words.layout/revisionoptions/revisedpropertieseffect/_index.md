@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد التأثير لمناطق المحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNone
+linktitle: RevisedPropertiesEffect
+articleTitle: RevisedPropertiesEffect
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions RevisedPropertiesEffect ملكية. يسمح بتحديد التأثير لمناطق المحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNone في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 Hiddenغير مسموح به وسوف يسببArgumentOutOfRangeException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

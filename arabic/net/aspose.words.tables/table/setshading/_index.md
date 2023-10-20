@@ -1,9 +1,11 @@
 ---
 title: Table.SetShading
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. يضبط التظليل على القيم المحددة في الجدول بأكمله.
+linktitle: SetShading
+articleTitle: SetShading
+second_title: Aspose.Words لـ .NET
+description: Table SetShading طريقة. يضبط التظليل على القيم المحددة في الجدول بأكمله في C#.
 type: docs
-weight: 450
+weight: 430
 url: /ar/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -20,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | لون الملمس. |
 | backgroundColor | Color | لون تعبئة الخلفية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

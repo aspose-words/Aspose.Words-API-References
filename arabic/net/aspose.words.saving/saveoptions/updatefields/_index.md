@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateFields
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تحديث الحقول من أنواع معينة قبل حفظ المستند بتنسيق صفحة ثابت. القيمة الافتراضية لهذه الخاصية هيحقيقي .
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words لـ .NET
+description: SaveOptions UpdateFields ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تحديث الحقول من أنواع معينة قبل حفظ المستند بتنسيق صفحة ثابت. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/saveoptions/updatefields/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/saveoptions/updatefields/
 public bool UpdateFields { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يسمح بتحديد ما إذا كان سيتم محاكاة سلوك MS Word أم لا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث جميع الحقول في المستند مباشرة قبل حفظه في ملف PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

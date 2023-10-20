@@ -1,7 +1,9 @@
 ---
-title: Enum ScriptShapingLevel
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.ScriptShapingLevel تعداد. يصف مستويات التشكيل المطلوبة بواسطة البرنامج النصي.
+title: ScriptShapingLevel Enum
+linktitle: ScriptShapingLevel
+articleTitle: ScriptShapingLevel
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shaping.ScriptShapingLevel تعداد. يصف مستويات التشكيل المطلوبة بواسطة البرنامج النصي في C#.
 type: docs
 weight: 6070
 url: /ar/net/aspose.words.shaping/scriptshapinglevel/
@@ -27,5 +29,3 @@ public enum ScriptShapingLevel
 
 * مساحة الاسم [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../)
-
-

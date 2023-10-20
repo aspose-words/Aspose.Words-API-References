@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بحقل INCLUDEPICTURE عند قراءة تنسيقات Microsoft Word. القيمة الافتراضية هيخطأ شنيع .
+linktitle: PreserveIncludePictureField
+articleTitle: PreserveIncludePictureField
+second_title: Aspose.Words لـ .NET
+description: LoadOptions PreserveIncludePictureField ملكية. الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بحقل INCLUDEPICTURE عند قراءة تنسيقات Microsoft Word. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضي، يتم تحويل الحقل INCLUDEPICTURE إلى كائن شكل. يمكنك تجاوز ذلك إذا كنت تحتاج إلى الحقل المراد الاحتفاظ به، على سبيل المثال، إذا كنت ترغب في تحديثه برمجيًا. ومع ذلك، لاحظ أن أسلوب this ليس شائعًا في Aspose.Words. استخدامه على مسؤوليتك الخاصة.
 
 قد تكون إحدى حالات الاستخدام المحتملة هي استخدام MERGEFIELD كحقل فرعي لتغيير مسار المصدر للصورة ديناميكيًا. في هذه الحالة تحتاج إلى حفظ INCLUDEPICTURE في النموذج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على حقول INCLUDEPICTURE أو تجاهلها عند تحميل مستند.
 
@@ -62,7 +64,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

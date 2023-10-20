@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تشير إلى عنصر في مكان آخر في المستند بدلاً من الموقع الحالي.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldSeq BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تشير إلى عنصر في مكان آخر في المستند بدلاً من الموقع الحالي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldseq/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الجمع بين جدول المحتويات وحقول التسلسل.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### أنظر أيضا
 
 * class [FieldSeq](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldseq/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ComplexScript
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. يحدد ما إذا كان سيتم التعامل مع محتويات هذا التشغيل كنص نصي معقد بغض النظر عن قيم أحرف Unicode الخاصة بها عند تحديد التنسيق لهذا التشغيل.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words لـ .NET
+description: Font ComplexScript ملكية. يحدد ما إذا كان سيتم التعامل مع محتويات هذا التشغيل كنص نصي معقد بغض النظر عن قيم أحرف Unicode الخاصة بها عند تحديد التنسيق لهذا التشغيل في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/font/complexscript/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/complexscript/
 public bool ComplexScript { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نص يتم التعامل معه دائمًا على أنه نص معقد.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.ComplexScript.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

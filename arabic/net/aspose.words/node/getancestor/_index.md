@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. الحصول على السلف الأول لنوع الكائن المحدد.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words لـ .NET
+description: Node GetAncestor طريقة. الحصول على السلف الأول لنوع الكائن المحدد في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 الحصول على السلف الأول لنوع الكائن المحدد.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 سلف النوع المحدد أو`باطل` إذا لم يتم العثور على سلف من هذا النوع.
 
-### ملاحظات
+## ملاحظات
 
 يتطابق نوع السلف إذا كان يساوي*ancestorType* أو مشتقة من*ancestorType*.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معرفة ما إذا كانت الجداول متداخلة.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 يحصل على السلف الأول للمحدد[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 سلف النوع المحدد أو`باطل` إذا لم يتم العثور على سلف من هذا النوع.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معرفة ما إذا كانت الجداول متداخلة.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

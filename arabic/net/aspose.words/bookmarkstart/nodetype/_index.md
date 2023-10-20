@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkStart ملكية. إرجاعBookmarkStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: BookmarkStart NodeType ملكية. إرجاعBookmarkStart  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bookmarkstart/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmarkstart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkStart](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkstart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

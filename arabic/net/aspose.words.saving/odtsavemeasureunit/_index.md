@@ -1,7 +1,9 @@
 ---
-title: Enum OdtSaveMeasureUnit
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.OdtSaveMeasureUnit تعداد. وحدات قياس محددة لتطبيقها على محتوى المستند القابل للقياس مثل الشكل والعروض وغيرها أثناء الحفظ.
+title: OdtSaveMeasureUnit Enum
+linktitle: OdtSaveMeasureUnit
+articleTitle: OdtSaveMeasureUnit
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.OdtSaveMeasureUnit تعداد. وحدات قياس محددة لتطبيقها على محتوى المستند القابل للقياس مثل الشكل والعروض وغيرها أثناء الحفظ في C#.
 type: docs
 weight: 5320
 url: /ar/net/aspose.words.saving/odtsavemeasureunit/
@@ -21,7 +23,7 @@ public enum OdtSaveMeasureUnit
 | Centimeters | `0` | يحدد حفظ محتوى المستند باستخدام السنتيمترات. |
 | Inches | `1` | يحدد حفظ محتوى المستند بالبوصة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام وحدات قياس مختلفة لتحديد معلمات النمط لمستند ODT المحفوظ.
 
@@ -45,5 +47,3 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.StoryType
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. إرجاع نوع القصة.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words لـ .NET
+description: InlineStory StoryType ملكية. إرجاع نوع القصة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/inlinestory/storytype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/storytype/
 public abstract StoryType StoryType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

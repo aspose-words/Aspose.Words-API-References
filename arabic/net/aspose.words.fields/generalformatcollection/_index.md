@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.GeneralFormatCollection فصل. يمثل مجموعة مكتوبة من التنسيقات العامة.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.GeneralFormatCollection فصل. يمثل مجموعة مكتوبة من التنسيقات العامة في C#.
 type: docs
 weight: 2650
 url: /ar/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | إضافة تنسيق عام إلى المجموعة. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | إضافة تنسيق عام إلى المجموعة. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | يُرجع كائن العداد. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | إزالة كافة تكرارات التنسيق العام المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | إزالة تكرار التنسيق العام في الفهرس المحدد. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | إزالة كافة تكرارات التنسيق العام المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | إزالة تكرار التنسيق العام في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

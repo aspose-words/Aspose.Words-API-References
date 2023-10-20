@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToField
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحرك المؤشر إلى حقل في المستند.
+linktitle: MoveToField
+articleTitle: MoveToField
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToField طريقة. يحرك المؤشر إلى حقل في المستند في C#.
 type: docs
-weight: 540
+weight: 530
 url: /ar/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +21,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | الحقل الذي سيتم نقل المؤشر إليه. |
 | isAfter | Boolean | متى`حقيقي` ، يحرك المؤشر ليكون بعد نهاية الحقل. متى`خطأ شنيع`، يحرك المؤشر ليكون قبل بدء الحقل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر نقطة إدراج عقدة منشئ المستندات إلى حقل معين.
 
@@ -62,7 +64,5 @@ else
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

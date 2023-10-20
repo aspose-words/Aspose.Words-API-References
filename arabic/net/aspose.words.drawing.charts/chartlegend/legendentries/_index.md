@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Aspose.Words لمراجع .NET API
-description: ChartLegend ملكية. إرجاع مجموعة من إدخالات وسيلة الإيضاح لجميع السلاسل وخطوط الاتجاه للمخطط الأصلي.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words لـ .NET
+description: ChartLegend LegendEntries ملكية. إرجاع مجموعة من إدخالات وسيلة الإيضاح لجميع السلاسل وخطوط الاتجاه للمخطط الأصلي في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartlegend/legendentries/
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع إدخال وسيلة الإيضاح لسلسلة المخططات.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

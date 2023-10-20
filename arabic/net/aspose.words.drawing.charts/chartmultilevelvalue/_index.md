@@ -1,7 +1,9 @@
 ---
-title: Class ChartMultilevelValue
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartMultilevelValue فصل. يمثل قيمة للمخططات التي تعرض بيانات متعددة المستويات.
+title: ChartMultilevelValue Class
+linktitle: ChartMultilevelValue
+articleTitle: ChartMultilevelValue
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartMultilevelValue فصل. يمثل قيمة للمخططات التي تعرض بيانات متعددة المستويات في C#.
 type: docs
 weight: 760
 url: /ar/net/aspose.words.drawing.charts/chartmultilevelvalue/
@@ -18,9 +20,9 @@ public class ChartMultilevelValue
 
 | اسم | وصف |
 | --- | --- |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor)(string) | تهيئة مثيل جديد لهذه الفئة يمثل قيمة ذات مستوى واحد. |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor_1)(string, string) | تهيئة مثيل جديد لهذه الفئة يمثل قيمة ذات مستويين. |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor_2)(string, string, string) | تهيئة مثيل جديد لهذه الفئة يمثل قيمة ثلاثية المستويات. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor)(*string*) | تهيئة مثيل جديد لهذه الفئة يمثل قيمة ذات مستوى واحد. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor_1)(*string, string*) | تهيئة مثيل جديد لهذه الفئة يمثل قيمة ذات مستويين. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor_2)(*string, string, string*) | تهيئة مثيل جديد لهذه الفئة يمثل قيمة ثلاثية المستويات. |
 
 ## الخصائص
 
@@ -34,12 +36,10 @@ public class ChartMultilevelValue
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/chartmultilevelvalue/equals/)(object) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن البيانات متعدد المستويات الحالي. |
+| override [Equals](../../aspose.words.drawing.charts/chartmultilevelvalue/equals/)(*object*) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن البيانات متعدد المستويات الحالي. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartmultilevelvalue/gethashcode/)() | الحصول على رمز التجزئة لكائن البيانات الحالي متعدد المستويات. |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

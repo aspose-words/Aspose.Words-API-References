@@ -1,7 +1,9 @@
 ---
 title: OleFormat.AutoUpdate
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. يحدد ما إذا كان الارتباط بكائن OLE سيتم تحديثه تلقائيًا أم لا في Microsoft Word.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words لـ .NET
+description: OleFormat AutoUpdate ملكية. يحدد ما إذا كان الارتباط بكائن OLE سيتم تحديثه تلقائيًا أم لا في Microsoft Word في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/oleformat/autoupdate/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/oleformat/autoupdate/
 public bool AutoUpdate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج كائنات OLE المضمنة في الملفات.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

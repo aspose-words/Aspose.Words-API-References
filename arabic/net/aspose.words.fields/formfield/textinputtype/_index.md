@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على أو تعيين نوع حقل النموذج النصي.
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: Aspose.Words لـ .NET
+description: FormField TextInputType ملكية. الحصول على أو تعيين نوع حقل النموذج النصي في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/textinputtype/
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

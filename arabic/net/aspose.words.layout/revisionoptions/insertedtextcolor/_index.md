@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextColor
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى المدرجInsertion . القيمة الافتراضية هيByAuthor .
+linktitle: InsertedTextColor
+articleTitle: InsertedTextColor
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions InsertedTextColor ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى المدرجInsertion . القيمة الافتراضية هيByAuthor  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.layout/revisionoptions/insertedtextcolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 public RevisionColor InsertedTextColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

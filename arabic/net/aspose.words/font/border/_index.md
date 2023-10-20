@@ -1,7 +1,9 @@
 ---
 title: Font.Border
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أBorder الكائن الذي يحدد الحدود للخط.
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words لـ .NET
+description: Font Border ملكية. إرجاع أBorder الكائن الذي يحدد الحدود للخط في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/font/border/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/border/
 public Border Border { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

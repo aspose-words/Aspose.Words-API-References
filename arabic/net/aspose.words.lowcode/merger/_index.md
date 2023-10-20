@@ -1,7 +1,9 @@
 ---
-title: Class Merger
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.LowCode.Merger فصل. يمثل مجموعة من الأساليب التي تهدف إلى دمج مجموعة متنوعة من أنواع المستندات المختلفة في مستند مخرج واحد.
+title: Merger Class
+linktitle: Merger
+articleTitle: Merger
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.LowCode.Merger فصل. يمثل مجموعة من الأساليب التي تهدف إلى دمج مجموعة متنوعة من أنواع المستندات المختلفة في مستند مخرج واحد في C#.
 type: docs
 weight: 3760
 url: /ar/net/aspose.words.lowcode/merger/
@@ -18,15 +20,15 @@ public static class Merger
 
 | اسم | وصف |
 | --- | --- |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge)(Stream[], MergeFormatMode) | يدمج مستندات الإدخال المحددة في مستند واحد ويعيدها[`Document`](../../aspose.words/document/) مثيل للوثيقة النهائية. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_4)(string, string[]) | دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_1)(string[], MergeFormatMode) | يدمج مستندات الإدخال المحددة في مستند واحد ويعيدها[`Document`](../../aspose.words/document/) مثيل للوثيقة النهائية. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_2)(Stream, Stream[], SaveFormat) | دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام تدفقات إخراج الإدخال المحددة وتنسيق المستند النهائي. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_3)(Stream, Stream[], SaveOptions, MergeFormatMode) | دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام تدفقات إخراج الإدخال المحددة وخيارات الحفظ. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_5)(string, string[], SaveFormat, MergeFormatMode) | يدمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة وتنسيق المستند النهائي. |
-| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_6)(string, string[], SaveOptions, MergeFormatMode) | يدمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة وخيارات الحفظ. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge)(*Stream[], [MergeFormatMode](../mergeformatmode/)*) | يدمج مستندات الإدخال المحددة في مستند واحد ويعيدها[`Document`](../../aspose.words/document/) مثيل للوثيقة النهائية. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_4)(*string, string[]*) | دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_1)(*string[], [MergeFormatMode](../mergeformatmode/)*) | يدمج مستندات الإدخال المحددة في مستند واحد ويعيدها[`Document`](../../aspose.words/document/) مثيل للوثيقة النهائية. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_2)(*Stream, Stream[], [SaveFormat](../../aspose.words/saveformat/)*) | دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام تدفقات إخراج الإدخال المحددة وتنسيق المستند النهائي. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_3)(*Stream, Stream[], [SaveOptions](../../aspose.words.saving/saveoptions/), [MergeFormatMode](../mergeformatmode/)*) | دمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام تدفقات إخراج الإدخال المحددة وخيارات الحفظ. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_5)(*string, string[], [SaveFormat](../../aspose.words/saveformat/), [MergeFormatMode](../mergeformatmode/)*) | يدمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة وتنسيق المستند النهائي. |
+| static [Merge](../../aspose.words.lowcode/merger/merge/#merge_6)(*string, string[], [SaveOptions](../../aspose.words.saving/saveoptions/), [MergeFormatMode](../mergeformatmode/)*) | يدمج مستندات الإدخال المحددة في مستند إخراج واحد باستخدام أسماء ملفات الإدخال والإخراج المحددة وخيارات الحفظ. |
 
-### ملاحظات
+## ملاحظات
 
 تُستخدم ملفات أو تدفقات الإدخال والإخراج المحددة، جنبًا إلى جنب مع خيارات الدمج والحفظ المطلوبة، لدمج مستندات الإدخال المحددة في مستند إخراج واحد.
 
@@ -36,5 +38,3 @@ public static class Merger
 
 * مساحة الاسم [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../)
-
-

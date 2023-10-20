@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: MappedDataFieldCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: MappedDataFieldCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### أنظر أيضا
 
 * class [MappedDataFieldCollection](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

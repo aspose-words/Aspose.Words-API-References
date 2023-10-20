@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين موضع النص الاستهلالي المسقط.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat DropCapPosition ملكية. الحصول على أو تعيين موضع النص الاستهلالي المسقط في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/dropcapposition/
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج قائمة داخل قائمة أخرى.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

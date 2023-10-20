@@ -1,7 +1,9 @@
 ---
 title: ImageSize.VerticalResolution
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSize ملكية. الحصول على الدقة الرأسية بـ DPI.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words لـ .NET
+description: ImageSize VerticalResolution ملكية. الحصول على الدقة الرأسية بـ DPI في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/imagesize/verticalresolution/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagesize/verticalresolution/
 public double VerticalResolution { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قراءة خصائص الصورة في الشكل.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

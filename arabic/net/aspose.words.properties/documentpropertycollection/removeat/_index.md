@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection طريقة. إزالة خاصية في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection RemoveAt طريقة. إزالة خاصية في الفهرس المحدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر القائم على الصفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

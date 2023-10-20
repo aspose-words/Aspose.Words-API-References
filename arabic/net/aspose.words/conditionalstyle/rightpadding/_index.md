@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات خلايا الجدول.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle RightPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات خلايا الجدول في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### أنظر أيضا
 
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

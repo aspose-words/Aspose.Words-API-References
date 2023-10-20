@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. يحدد عائلة خط مسار النص.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words لـ .NET
+description: TextPath FontFamily ملكية. يحدد عائلة خط مسار النص في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/fontfamily/
 public string FontFamily { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي Arial.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

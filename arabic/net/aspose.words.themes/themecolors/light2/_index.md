@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Light2
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد لون الضوء 2.
+linktitle: Light2
+articleTitle: Light2
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Light2 ملكية. يحدد لون الضوء 2 في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.themes/themecolors/light2/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/light2/
 public Color Light2 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

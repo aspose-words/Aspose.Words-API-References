@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRange ملكية. إرجاع أو تعيين المستخدم الفردي للنطاق القابل للتحرير.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words لـ .NET
+description: EditableRange SingleUser ملكية. إرجاع أو تعيين المستخدم الفردي للنطاق القابل للتحرير في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/editablerange/singleuser/
 public string SingleUser { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تخزين هذا المحرر بأحد الأشكال التالية:
 
@@ -26,7 +28,7 @@ user@domain.com - للمستخدمين الذين يجب مصادقة وصوله
 
 لا يمكن تعيين مستخدم واحد ومجموعة محرر في وقت واحد لنطاق محدد قابل للتحرير، إذا تم تعيين أحدهما، فسيكون الآخر واضحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [EditableRange](../)
-* مساحة الاسم [Aspose.Words](../../editablerange/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

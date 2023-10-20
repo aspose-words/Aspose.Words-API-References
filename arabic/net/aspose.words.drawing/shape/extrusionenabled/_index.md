@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعحقيقي إذا تم تمكين تأثير البثق.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: Aspose.Words لـ .NET
+description: Shape ExtrusionEnabled ملكية. إرجاعحقيقي إذا تم تمكين تأثير البثق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/extrusionenabled/
 public bool ExtrusionEnabled { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

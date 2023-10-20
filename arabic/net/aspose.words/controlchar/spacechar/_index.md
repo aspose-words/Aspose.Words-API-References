@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SpaceChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف المسافة char32.
+linktitle: SpaceChar
+articleTitle: SpaceChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar SpaceChar مجال. حرف المسافة char32 في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/controlchar/spacechar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/spacechar/
 public const char SpaceChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

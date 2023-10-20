@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. الحصول على نوع التحكم في Forms 2.0.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControl Type ملكية. الحصول على نوع التحكم في Forms 2.0 في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/type/
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

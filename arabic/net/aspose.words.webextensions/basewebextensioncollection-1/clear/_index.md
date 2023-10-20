@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: BaseWebExtensionCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: BaseWebExtensionCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

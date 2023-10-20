@@ -1,9 +1,11 @@
 ---
 title: Table.ClearShading
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. إزالة كل التظليل الموجود على الطاولة.
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: Aspose.Words لـ .NET
+description: Table ClearShading طريقة. إزالة كل التظليل الموجود على الطاولة في C#.
 type: docs
-weight: 400
+weight: 380
 url: /ar/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/clearshading/
 public void ClearShading()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. صحيح إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ.
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: Aspose.Words لـ .NET
+description: TextColumnCollection EvenlySpaced ملكية. صحيح إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/textcolumncollection/evenlyspaced/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textcolumncollection/evenlyspaced/
 public bool EvenlySpaced { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء أعمدة متباعدة بشكل غير متساو.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### أنظر أيضا
 
 * class [TextColumnCollection](../)
-* مساحة الاسم [Aspose.Words](../../textcolumncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

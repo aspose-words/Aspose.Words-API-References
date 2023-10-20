@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين عدد الأسطر لكل صفحة في شبكة المستند.
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: Aspose.Words لـ .NET
+description: PageSetup LinesPerPage ملكية. الحصول على أو تعيين عدد الأسطر لكل صفحة في شبكة المستند في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/pagesetup/linesperpage/
 public int LinesPerPage { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الحد الأدنى لقيمة الخاصية هو 1. وتعتمد القيمة القصوى على ارتفاع الصفحة وحجم الخط للنمط Normal . الحد الأدنى لمسافة الخط هو 136 بالمائة من حجم الخط. على سبيل المثال، الحد الأقصى لعدد الأسطر في كل صفحة صفحة Letter بهامش بوصة واحدة هو 39.
 
 بشكل افتراضي، تحتوي الخاصية على قيمة، حيث تكون خطوة الخط أكبر بمقدار 1.5 مرة من حجم الخط بالنمط العادي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد حد لعدد الأسطر التي قد تحتوي عليها كل صفحة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

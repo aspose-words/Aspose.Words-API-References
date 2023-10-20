@@ -1,7 +1,9 @@
 ---
-title: VbaModule.VbaModule
-second_title: Aspose.Words لمراجع .NET API
-description: VbaModule البناء. إنشاء وحدة فارغة.
+title: VbaModule
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words لـ .NET
+description: VbaModule البناء. إنشاء وحدة فارغة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbamodule/vbamodule/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbamodule/vbamodule/
 public VbaModule()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مشروع VBA باستخدام وحدات الماكرو.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### أنظر أيضا
 
 * class [VbaModule](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodule/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

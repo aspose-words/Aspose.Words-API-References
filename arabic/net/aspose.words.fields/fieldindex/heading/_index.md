@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين العنوان الذي يظهر في بداية كل مجموعة من الإدخالات لأي حرف معين.
+linktitle: Heading
+articleTitle: Heading
+second_title: Aspose.Words لـ .NET
+description: FieldIndex Heading ملكية. الحصول على أو تعيين العنوان الذي يظهر في بداية كل مجموعة من الإدخالات لأي حرف معين في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/heading/
 public string Heading { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة حقل INDEX بالإدخالات باستخدام حقول XE، وكذلك تعديل مظهره.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

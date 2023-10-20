@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في كيفية حفظ حقول النموذج المنسدل في HTML أو MHTML. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText ملكية. يتحكم في كيفية حفظ حقول النموذج المنسدل في HTML أو MHTML. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند التعيين على`حقيقي` ، يصدر حقول النموذج المنسدلة كنص عادي. متى`خطأ شنيع`، يقوم بتصدير حقول النموذج المنسدلة كعنصر SELECT في HTML.
 
 عند التصدير إلى EPUB، يتم دائمًا حفظ حقول نموذج القائمة المنسدلة النصية كنص بسبب لمتطلبات هذا التنسيق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على حقول نموذج مربع التحرير والسرد المنسدلة لتندمج مع نص الفقرة عند الحفظ في html.
 
@@ -58,7 +60,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

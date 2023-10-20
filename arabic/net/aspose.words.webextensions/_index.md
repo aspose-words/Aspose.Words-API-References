@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.WebExtensionsتوفر مساحة الاسم فئات تسمح بتخصيص العناصر والسمات التي تعمل على توسيع مفردات XML لتمثيل وظائف Office الإضافية.
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.WebExtensionsتوفر مساحة الاسم فئات تسمح بتخصيص العناصر والسمات التي تعمل على توسيع مفردات XML لتمثيل وظائف Office الإضافية في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.webextensions/
 ---
-ال **Aspose.Words.WebExtensions**توفر مساحة الاسم فئات تسمح بتخصيص العناصر والسمات التي تعمل على توسيع مفردات XML لتمثيل وظائف Office الإضافية.
+ال**Aspose.Words.WebExtensions**توفر مساحة الاسم فئات تسمح بتخصيص العناصر والسمات التي تعمل على توسيع مفردات XML لتمثيل وظائف Office الإضافية.
 
 ## الطبقات
 
@@ -29,5 +31,3 @@ url: /ar/net/aspose.words.webextensions/
 | [TaskPaneDockState](./taskpanedockstate/) | تعداد المواقع المتاحة لكائن جزء المهام. |
 | [WebExtensionBindingType](./webextensionbindingtype/) | تعداد أنواع الارتباط المتاحة بين امتداد الويب والبيانات الموجودة في المستند. |
 | [WebExtensionStoreType](./webextensionstoretype/) | تعداد الأنواع المتوفرة لمتجر ملحقات الويب. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientData ملكية. تحديد العمود داخل مصدر البيانات الذي يحتوي على بيانات فريدة للسجل الحالي. القيمة الافتراضية هي 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientData Column ملكية. تحديد العمود داخل مصدر البيانات الذي يحتوي على بيانات فريدة للسجل الحالي. القيمة الافتراضية هي 0 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdata/column/
 public int Column { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

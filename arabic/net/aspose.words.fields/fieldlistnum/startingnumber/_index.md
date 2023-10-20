@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.StartingNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldListNum ملكية. الحصول على أو تعيين قيمة البداية لهذا الحقل.
+linktitle: StartingNumber
+articleTitle: StartingNumber
+second_title: Aspose.Words لـ .NET
+description: FieldListNum StartingNumber ملكية. الحصول على أو تعيين قيمة البداية لهذا الحقل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldlistnum/startingnumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlistnum/startingnumber/
 public string StartingNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ترقيم الفقرات باستخدام حقول LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### أنظر أيضا
 
 * class [FieldListNum](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlistnum/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

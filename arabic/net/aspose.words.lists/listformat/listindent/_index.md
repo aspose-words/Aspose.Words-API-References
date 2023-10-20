@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListIndent
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat طريقة. زيادة مستوى القائمة للفقرة الحالية بمقدار مستوى واحد.
+linktitle: ListIndent
+articleTitle: ListIndent
+second_title: Aspose.Words لـ .NET
+description: ListFormat ListIndent طريقة. زيادة مستوى القائمة للفقرة الحالية بمقدار مستوى واحد في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.lists/listformat/listindent/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.lists/listformat/listindent/
 public void ListIndent()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بتغيير مستوى القائمة وتطبيق خصائص التنسيق للمستوى الجديد.
 
 في مستندات Word، قد تتكون القوائم من تسعة مستويات كحد أقصى. تحدد قائمة formatting لكل مستوى التعداد النقطي أو الرقم المستخدم، والمسافة البادئة اليسرى، والمسافة بين التعداد النقطي والنص وما إلى ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قوائم ذات تعداد نقطي ومرقمة.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### أنظر أيضا
 
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

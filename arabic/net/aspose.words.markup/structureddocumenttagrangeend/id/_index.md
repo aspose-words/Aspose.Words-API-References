@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeEnd ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض هيكلةDocumentTagRange العقدة. المقابلةStructuredDocumentTagRangeStart العقدة لديها نفسId .
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeEnd Id ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرضهيكلةDocumentTagRange العقدة. المقابلةStructuredDocumentTagRangeStart العقدة لديها نفسId  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض **هيكلةDocumentTagRange** العقدة. المقابلة[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) العقدة لديها نفس[`Id`](../../structureddocumenttagrangestart/id/) .
+يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض**هيكلةDocumentTagRange** العقدة. المقابلة[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) العقدة لديها نفس[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeEnd](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

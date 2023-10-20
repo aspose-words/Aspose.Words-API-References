@@ -1,7 +1,9 @@
 ---
-title: FieldDisplayBarcode.FieldDisplayBarcode
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode البناء. Default_Constructor
+title: FieldDisplayBarcode
+linktitle: FieldDisplayBarcode
+articleTitle: FieldDisplayBarcode
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/fielddisplaybarcode/
@@ -17,7 +19,5 @@ public FieldDisplayBarcode()
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

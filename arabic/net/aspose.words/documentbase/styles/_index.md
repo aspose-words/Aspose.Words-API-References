@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Styles
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. إرجاع مجموعة من الأنماط المحددة في المستند.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words لـ .NET
+description: DocumentBase Styles ملكية. إرجاع مجموعة من الأنماط المحددة في المستند في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/documentbase/styles/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/documentbase/styles/
 public StyleCollection Styles { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لمزيد من المعلومات راجع وصف[`StyleCollection`](../../stylecollection/) فصل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة أنماط المستند.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

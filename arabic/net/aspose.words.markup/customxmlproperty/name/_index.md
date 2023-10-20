@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlProperty ملكية. يحدد اسم سمة XML المخصصة أو خاصية العلامة الذكية.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: CustomXmlProperty Name ملكية. يحدد اسم سمة XML المخصصة أو خاصية العلامة الذكية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/customxmlproperty/name/
 public string Name { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [CustomXmlProperty](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlproperty/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

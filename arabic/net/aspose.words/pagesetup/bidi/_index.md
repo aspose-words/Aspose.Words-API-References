@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يحدد أن هذا القسم يحتوي على نص ثنائي الاتجاه برامج نصية معقدة.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words لـ .NET
+description: PageSetup Bidi ملكية. يحدد أن هذا القسم يحتوي على نص ثنائي الاتجاه برامج نصية معقدة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/bidi/
 public bool Bidi { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 متى`حقيقي`، تم ترتيب الأعمدة الموجودة في هذا القسم من اليمين إلى اليسار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين ترتيب أعمدة النص في القسم.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

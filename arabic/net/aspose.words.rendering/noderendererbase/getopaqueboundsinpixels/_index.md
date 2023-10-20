@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase طريقة. حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين.
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase GetOpaqueBoundsInPixels طريقة. حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين.
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 المستطيل المعتم للشكل بالبكسل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تحول[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) إلى مستطيل بالبكسل وهو مفيد عندما تريد إنشاء صورة نقطية لعرض الشكل مع الجزء غير الشفاف فقط من الشكل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين.
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 المستطيل المعتم للشكل بالبكسل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تحول[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) إلى مستطيل بالبكسل وهو مفيد عندما تريد إنشاء صورة نقطية لعرض الشكل مع الجزء غير الشفاف فقط من الشكل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

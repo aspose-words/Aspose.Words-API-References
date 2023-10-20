@@ -1,7 +1,9 @@
 ---
-title: Class FieldIf
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldIf فصل. ينفذ حقل IF.
+title: FieldIf Class
+linktitle: FieldIf
+articleTitle: FieldIf
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldIf فصل. ينفذ حقل IF في C#.
 type: docs
 weight: 2000
 url: /ar/net/aspose.words.fields/fieldif/
@@ -48,19 +50,19 @@ public class FieldIf : Field
 | --- | --- |
 | [EvaluateCondition](../../aspose.words.fields/fieldif/evaluatecondition/)() | تقييم الحالة. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 يقارن القيم المعينة بواسطة التعبيرات[`LeftExpression`](./leftexpression/) و[`RightExpression`](./rightexpression/) بالمقارنة باستخدام عامل التشغيل المعين بواسطة[`ComparisonOperator`](./comparisonoperator/).
 
 سيتم استخدام حقل بالتنسيق التالي كمصدر لدمج البريد: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل IF.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

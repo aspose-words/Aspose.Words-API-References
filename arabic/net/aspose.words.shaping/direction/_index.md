@@ -1,7 +1,9 @@
 ---
-title: Enum Direction
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.Direction تعداد. اتجاه النص.
+title: Direction Enum
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shaping.Direction تعداد. اتجاه النص في C#.
 type: docs
 weight: 6020
 url: /ar/net/aspose.words.shaping/direction/
@@ -28,5 +30,3 @@ public enum Direction
 
 * مساحة الاسم [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../)
-
-

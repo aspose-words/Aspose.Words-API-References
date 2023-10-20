@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. إرجاع مصفوفة تحتوي على أسماء خطوط بديلة لاسم الخط الأصلي المحدد.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule GetSubstitutes طريقة. إرجاع مصفوفة تحتوي على أسماء خطوط بديلة لاسم الخط الأصلي المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 قائمة أسماء الخطوط البديلة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

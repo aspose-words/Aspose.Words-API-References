@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words لـ .NET
+description: FieldMergeBarcode ErrorCorrectionLevel ملكية. الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي 0 3 في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد على رموز QR الشريطية.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### أنظر أيضا
 
 * class [FieldMergeBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergebarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

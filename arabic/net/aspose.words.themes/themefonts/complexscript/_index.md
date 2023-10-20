@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.ComplexScript
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeFonts ملكية. يحدد اسم الخط لأحرف ComplexScript.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words لـ .NET
+description: ThemeFonts ComplexScript ملكية. يحدد اسم الخط لأحرف ComplexScript في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.themes/themefonts/complexscript/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themefonts/complexscript/
 public string ComplexScript { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeFonts](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themefonts/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

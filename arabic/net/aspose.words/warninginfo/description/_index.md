@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfo ملكية. يُرجع وصف التحذير.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words لـ .NET
+description: WarningInfo Description ملكية. يُرجع وصف التحذير في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/warninginfo/description/
 public string Description { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### أنظر أيضا
 
 * class [WarningInfo](../)
-* مساحة الاسم [Aspose.Words](../../warninginfo/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTA.EntryCategory
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTA ملكية. الحصول على أو تعيين فئة الإدخال المتكامل وهو رقم يتوافق مع ترتيب الفئات.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words لـ .NET
+description: FieldTA EntryCategory ملكية. الحصول على أو تعيين فئة الإدخال المتكامل وهو رقم يتوافق مع ترتيب الفئات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldta/entrycategory/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldta/entrycategory/
 public string EntryCategory { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldTA](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldta/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

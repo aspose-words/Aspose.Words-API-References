@@ -1,7 +1,9 @@
 ---
 title: InlineStory.LastParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. الحصول على الفقرة الأخيرة في القصة.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words لـ .NET
+description: InlineStory LastParagraph ملكية. الحصول على الفقرة الأخيرة في القصة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/inlinestory/lastparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

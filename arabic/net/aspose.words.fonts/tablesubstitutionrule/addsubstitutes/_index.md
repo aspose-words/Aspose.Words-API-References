@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. إضافة أسماء الخطوط البديلة لاسم الخط الأصلي المحدد.
+linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule AddSubstitutes طريقة. إضافة أسماء الخطوط البديلة لاسم الخط الأصلي المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
@@ -19,7 +21,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | اسم الخط الأصلي. |
 | substituteFontNames | String[] | قائمة أسماء الخطوط البديلة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -131,7 +133,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

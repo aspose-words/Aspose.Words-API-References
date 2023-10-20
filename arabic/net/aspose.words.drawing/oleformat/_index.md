@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.OleFormat فصل. يوفر الوصول إلى بيانات كائن OLE أو عنصر تحكم ActiveX.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.OleFormat فصل. يوفر الوصول إلى بيانات كائن OLE أو عنصر تحكم ActiveX في C#.
 type: docs
 weight: 1150
 url: /ar/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | اسم | وصف |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | يحصل على إدخال بيانات كائن OLE. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | يحصل على إدخال بيانات كائن OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | يحصل على البيانات الأولية لكائن OLE. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | يحفظ بيانات الكائن المضمن في الدفق المحدد. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | يحفظ بيانات الكائن المضمن في ملف بالاسم المحدد. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | يحفظ بيانات الكائن المضمن في الدفق المحدد. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | يحفظ بيانات الكائن المضمن في ملف بالاسم المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم ال[`OleFormat`](../shape/oleformat/)الخاصية للوصول إلى بيانات كائن OLE. لا تقم بإنشاء مثيلات لـ`OleFormat` الصف مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج كائنات OLE المضمنة في الملفات.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

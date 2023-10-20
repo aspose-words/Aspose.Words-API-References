@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.AllowComments
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار تسجيل أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions AllowComments ملكية. الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار تسجيل أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/signaturelineoptions/allowcomments/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/signaturelineoptions/allowcomments/
 public bool AllowComments { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

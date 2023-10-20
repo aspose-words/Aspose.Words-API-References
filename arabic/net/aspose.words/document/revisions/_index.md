@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على مجموعة من المراجعات التغييرات المتعقبة الموجودة في هذا المستند.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words لـ .NET
+description: Document Revisions ملكية. الحصول على مجموعة من المراجعات التغييرات المتعقبة الموجودة في هذا المستند في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/revisions/
 public RevisionCollection Revisions { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 المجموعة التي تم إرجاعها هي مجموعة "مباشرة"، مما يعني أنه إذا قمت بإزالة أجزاء من مستند يحتوي على مراجعات ، فإن المراجعات المحذوفة ستختفي تلقائيًا من هذه المجموعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

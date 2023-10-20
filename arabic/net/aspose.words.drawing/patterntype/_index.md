@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.PatternType تعداد. يحدد نمط التعبئة الذي سيتم استخدامه لملء الشكل.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.PatternType تعداد. يحدد نمط التعبئة الذي سيتم استخدامه لملء الشكل في C#.
 type: docs
 weight: 1170
 url: /ar/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceLoadingArgs ملكية. عنوان URI الأصلي للمورد كما هو محدد في المستند المستورد.
+linktitle: OriginalUri
+articleTitle: OriginalUri
+second_title: Aspose.Words لـ .NET
+description: ResourceLoadingArgs OriginalUri ملكية. عنوان URI الأصلي للمورد كما هو محدد في المستند المستورد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/resourceloadingargs/originaluri/
 public string OriginalUri { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### أنظر أيضا
 
 * class [ResourceLoadingArgs](../)
-* مساحة الاسم [Aspose.Words.Loading](../../resourceloadingargs/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Paragraph.InsertField
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. إدراج حقل في هذه الفقرة.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words لـ .NET
+description: Paragraph InsertField طريقة. إدراج حقل في هذه الفقرة في C#.
 type: docs
-weight: 290
+weight: 270
 url: /ar/net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 إدراج حقل في هذه الفقرة.
 
@@ -25,7 +27,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا مختلفة لإضافة الحقول إلى الفقرة.
 
@@ -67,12 +69,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 إدراج حقل في هذه الفقرة.
 
@@ -90,7 +92,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا مختلفة لإضافة الحقول إلى الفقرة.
 
@@ -131,12 +133,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 إدراج حقل في هذه الفقرة.
 
@@ -155,7 +157,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا مختلفة لإضافة الحقول إلى الفقرة.
 
@@ -196,7 +198,5 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

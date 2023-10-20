@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValueCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection فصل. يمثل مجموعة من قيم Y لسلسلة مخططات.
+title: ChartYValueCollection Class
+linktitle: ChartYValueCollection
+articleTitle: ChartYValueCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueCollection فصل. يمثل مجموعة من قيم Y لسلسلة مخططات في C#.
 type: docs
 weight: 880
 url: /ar/net/aspose.words.drawing.charts/chartyvaluecollection/
@@ -27,13 +29,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | يُرجع كائن العداد. |
 
-### ملاحظات
+## ملاحظات
 
-جميع عناصر المجموعة بخلاف **باطل** يجب أن يكون له نفس الشيء[`ValueType`](../chartyvalue/valuetype/).
+جميع عناصر المجموعة بخلاف**باطل** يجب أن يكون له نفس الشيء[`ValueType`](../chartyvalue/valuetype/).
 
 تسمح المجموعة بتغيير قيم Y فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو إزالة القيم، الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الطبقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على بيانات سلسلة المخططات.
 
@@ -91,5 +93,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartYValue](../chartyvalue/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

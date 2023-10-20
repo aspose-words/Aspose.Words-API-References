@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Aspose.Words لمراجع .NET API
-description: PhysicalFontInfo ملكية. اسم عائلة الخط.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words لـ .NET
+description: PhysicalFontInfo FontFamilyName ملكية. اسم عائلة الخط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 public string FontFamilyName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية سرد الخطوط المتاحة.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### أنظر أيضا
 
 * class [PhysicalFontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../physicalfontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

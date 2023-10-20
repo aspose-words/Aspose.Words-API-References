@@ -1,7 +1,9 @@
 ---
-title: Enum FindReplaceDirection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.FindReplaceDirection تعداد. يحدد اتجاه عمليات الاستبدال.
+title: FindReplaceDirection Enum
+linktitle: FindReplaceDirection
+articleTitle: FindReplaceDirection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Replacing.FindReplaceDirection تعداد. يحدد اتجاه عمليات الاستبدال في C#.
 type: docs
 weight: 4610
 url: /ar/net/aspose.words.replacing/findreplacedirection/
@@ -21,7 +23,7 @@ public enum FindReplaceDirection
 | Forward | `0` | يتم استبدال العناصر المطابقة من الأول إلى الأخير. |
 | Backward | `1` | يتم استبدال العناصر المطابقة من الأخير إلى الأول. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد الاتجاه الذي تعبر فيه عملية البحث والاستبدال المستند.
 
@@ -88,5 +90,3 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * مساحة الاسم [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../)
-
-

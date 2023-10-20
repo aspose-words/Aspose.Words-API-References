@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceSavingArgs ملكية. يسمح بتحديد الدفق الذي سيتم حفظ المورد فيه.
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: Aspose.Words لـ .NET
+description: ResourceSavingArgs ResourceStream ملكية. يسمح بتحديد الدفق الذي سيتم حفظ المورد فيه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/resourcesavingargs/resourcestream/
 public Stream ResourceStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتيح لك هذه الخاصية حفظ الموارد في التدفقات بدلاً من الملفات.
 
@@ -22,7 +24,7 @@ public Stream ResourceStream { get; set; }
 
 استخدام[`IResourceSavingCallback`](../../iresourcesavingcallback/) لا يمكنك استبدال مورد بـ آخر. الغرض منه هو فقط التحكم في الموقع حيث يتم حفظ الموارد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [ResourceSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../resourcesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.FootnotePosition تعداد. يحدد موضع الحاشية السفلية.
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Notes.FootnotePosition تعداد. يحدد موضع الحاشية السفلية في C#.
 type: docs
 weight: 4290
 url: /ar/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | يتم إخراج الحواشي أسفل كل صفحة. |
 | BeneathText | `2` | يتم إخراج الحواشي أسفل النص في كل صفحة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان مختلف حيث يتم تجميع المستند وعرض حواشيه السفلية.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * مساحة الاسم [Aspose.Words.Notes](../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../)
-
-

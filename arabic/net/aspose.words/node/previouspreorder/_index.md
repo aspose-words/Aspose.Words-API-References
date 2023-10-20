@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousPreOrder
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق.
+linktitle: PreviousPreOrder
+articleTitle: PreviousPreOrder
+second_title: Aspose.Words لـ .NET
+description: Node PreviousPreOrder طريقة. الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/node/previouspreorder/
@@ -22,7 +24,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 العقدة السابقة بترتيب مسبق. لاغية إذا وصلت إلى*rootNode*.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة عقدة المستند باستخدام خوارزمية اجتياز الطلب المسبق، وحذف أي شكل يتم مواجهته مع الصورة.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاع مجموعة منComment الكائنات التي تعتبر أبناء مباشرين للتعليق المحدد.
+linktitle: Replies
+articleTitle: Replies
+second_title: Aspose.Words لـ .NET
+description: Comment Replies ملكية. إرجاع مجموعة منComment الكائنات التي تعتبر أبناء مباشرين للتعليق المحدد في C#.
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/comment/replies/
 public CommentCollection Replies { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

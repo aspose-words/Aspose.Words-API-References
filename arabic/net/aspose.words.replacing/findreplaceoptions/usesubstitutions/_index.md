@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هيخطأ شنيع .
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions UseSubstitutions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 public bool UseSubstitutions { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 للحصول على تفاصيل حول العناصر البديلة، يرجى الرجوع إلى: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

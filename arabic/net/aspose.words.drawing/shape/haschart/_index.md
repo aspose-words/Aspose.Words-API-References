@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعحقيقي اذا هذاShape لديهChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words لـ .NET
+description: Shape HasChart ملكية. إرجاعحقيقي اذا هذاShape لديهChart  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/haschart/
 public bool HasChart { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

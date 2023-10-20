@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي علىChart .
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words لـ .NET
+description: Shape Chart ملكية. يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي علىChart  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shape/chart/
 public Chart Chart { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 سوف تقوم هذه الخاصية بإرجاع[`Chart`](../../../aspose.words.drawing.charts/chart/) كائن فقط إذا[`HasChart`](../haschart/) الخاصية هي`حقيقي` لهذا[`Shape`](../)، وسوف يطرح استثناءً بخلاف ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

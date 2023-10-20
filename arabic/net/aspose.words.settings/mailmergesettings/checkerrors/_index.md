@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد نوع الإبلاغ عن الأخطاء الذي يجب أن يتم إجراؤه بواسطة Microsoft Word عند إجراء عملية دمج البريد. القيمة الافتراضية هيDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings CheckErrors ملكية. يحدد نوع الإبلاغ عن الأخطاء الذي يجب أن يتم إجراؤه بواسطة Microsoft Word عند إجراء عملية دمج البريد. القيمة الافتراضية هيDefault  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/checkerrors/
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

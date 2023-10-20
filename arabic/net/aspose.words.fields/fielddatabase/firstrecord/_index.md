@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FirstRecord
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabase ملكية. الحصول على رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه أو تعيينه.
+linktitle: FirstRecord
+articleTitle: FirstRecord
+second_title: Aspose.Words لـ .NET
+description: FieldDatabase FirstRecord ملكية. الحصول على رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه أو تعيينه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fielddatabase/firstrecord/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddatabase/firstrecord/
 public string FirstRecord { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج البيانات من قاعدة البيانات وإدراجها كحقل في المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### أنظر أيضا
 
 * class [FieldDatabase](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabase/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

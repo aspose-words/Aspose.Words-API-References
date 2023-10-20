@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.SaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words لـ .NET
+description: SaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.saving/saveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/saveformat/
 public abstract SaveFormat SaveFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

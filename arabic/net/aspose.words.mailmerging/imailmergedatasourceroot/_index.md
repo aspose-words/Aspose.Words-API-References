@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot واجهه المستخدم. قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مع البيانات الرئيسية التفصيلية.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot واجهه المستخدم. قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مع البيانات الرئيسية التفصيلية في C#.
 type: docs
 weight: 3820
 url: /ar/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | اسم | وصف |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات ذات المستوى الأعلى. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات ذات المستوى الأعلى. |
 
-### أمثلة
+## أمثلة
 
 تنفيذ دمج البريد من مصدر بيانات مخصص مع بيانات رئيسية وتفصيلية.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. إرجاعحقيقي إذاLineStyle ليسNone .
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words لـ .NET
+description: Border IsVisible ملكية. إرجاعحقيقي إذاLineStyle ليسNone  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/border/isvisible/
 public bool IsVisible { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحدود من الفقرة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

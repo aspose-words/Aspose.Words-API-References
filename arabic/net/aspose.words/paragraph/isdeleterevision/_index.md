@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsDeleteRevision ملكية. إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع فقرات المراجعة.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

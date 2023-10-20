@@ -1,7 +1,9 @@
 ---
 title: Table.Bidi
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تحديد ما إذا كان هذا جدولًا من اليمين إلى اليسار.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words لـ .NET
+description: Table Bidi ملكية. الحصول على أو تحديد ما إذا كان هذا جدولًا من اليمين إلى اليسار في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.tables/table/bidi/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.tables/table/bidi/
 public bool Bidi { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 متى`حقيقي`، تم وضع الخلايا الموجودة في هذا الصف من اليمين إلى اليسار.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

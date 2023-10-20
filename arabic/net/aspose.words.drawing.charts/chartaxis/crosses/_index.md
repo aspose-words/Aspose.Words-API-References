@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. يحدد كيفية تقاطع هذا المحور مع المحور العمودي.
+linktitle: Crosses
+articleTitle: Crosses
+second_title: Aspose.Words لـ .NET
+description: ChartAxis Crosses ملكية. يحدد كيفية تقاطع هذا المحور مع المحور العمودي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/crosses/
 public AxisCrosses Crosses { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيAutomatic.
 
 الخاصية غير مدعومة بمخططات MS Office 2016 الجديدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

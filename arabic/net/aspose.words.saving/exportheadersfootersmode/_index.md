@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ExportHeadersFootersMode تعداد. يحدد كيفية تصدير الرؤوس والتذييلات إلى HTML أو MHTML أو EPUB.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode تعداد. يحدد كيفية تصدير الرؤوس والتذييلات إلى HTML أو MHTML أو EPUB في C#.
 type: docs
 weight: 5000
 url: /ar/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | يتم تصدير الرأس الأساسي للقسم الأول في بداية المستند والتذييل الأساسي في النهاية. |
 | FirstPageHeaderFooterPerSection | `3` | يتم تصدير رأس وتذييل الصفحة الأولى في بداية ونهاية كل قسم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف الرؤوس/التذييلات عند حفظ مستند إلى HTML.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

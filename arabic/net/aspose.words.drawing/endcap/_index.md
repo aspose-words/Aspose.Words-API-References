@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.EndCap تعداد. يحدد نمط الحروف الكبيرة.
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.EndCap تعداد. يحدد نمط الحروف الكبيرة في C#.
 type: docs
 weight: 940
 url: /ar/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | ينتهي السطر عند نقطة النهاية. |
 | Default | `2` | القيمة الافتراضية هيFlat . |
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

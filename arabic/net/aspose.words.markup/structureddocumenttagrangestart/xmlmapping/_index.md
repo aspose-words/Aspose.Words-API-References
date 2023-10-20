@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. الحصول على كائن يمثل تعيين نطاق علامات المستند المنظم هذا إلى بيانات XML في جزء XML مخصص من المستند الحالي.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart XmlMapping ملكية. الحصول على كائن يمثل تعيين نطاق علامات المستند المنظم هذا إلى بيانات XML في جزء XML مخصص من المستند الحالي في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 public XmlMapping XmlMapping { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام[`SetMapping`](../../xmlmapping/setmapping/) طريقة الكائن this لتعيين نطاق علامات المستند المنظم إلى بيانات XML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لنطاق بداية علامة المستند المنظمة.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

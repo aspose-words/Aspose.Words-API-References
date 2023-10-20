@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. يسمح بتحديد ما إذا كان الخط الذي يربط النقاط على الرسم البياني سيتم تنعيمه باستخدام خطوط CatmullRom.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words لـ .NET
+description: ChartSeries Smooth ملكية. يسمح بتحديد ما إذا كان الخط الذي يربط النقاط على الرسم البياني سيتم تنعيمه باستخدام خطوط CatmullRom في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/smooth/
 public bool Smooth { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### أنظر أيضا
 
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

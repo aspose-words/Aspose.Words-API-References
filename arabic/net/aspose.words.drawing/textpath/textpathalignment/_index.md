@@ -1,7 +1,9 @@
 ---
 title: TextPath.TextPathAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. يحدد محاذاة النص.
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words لـ .NET
+description: TextPath TextPathAlignment ملكية. يحدد محاذاة النص في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.drawing/textpath/textpathalignment/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/textpathalignment/
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيCenter.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -122,7 +124,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * enum [TextPathAlignment](../../textpathalignment/)
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

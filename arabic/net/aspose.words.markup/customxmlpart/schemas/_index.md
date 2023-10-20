@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart ملكية. يحدد مجموعة مخططات XML المرتبطة بجزء XML المخصص هذا.
+linktitle: Schemas
+articleTitle: Schemas
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPart Schemas ملكية. يحدد مجموعة مخططات XML المرتبطة بجزء XML المخصص هذا في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpart/schemas/
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

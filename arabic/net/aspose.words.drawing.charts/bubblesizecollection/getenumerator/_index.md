@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: BubbleSizeCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: BubbleSizeCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
@@ -17,7 +19,5 @@ public IEnumerator<double> GetEnumerator()
 ### أنظر أيضا
 
 * class [BubbleSizeCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

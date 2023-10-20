@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. الحصول على الفقرة الأولى في الشكل.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words لـ .NET
+description: Shape FirstParagraph ملكية. الحصول على الفقرة الأولى في الشكل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مربع نص وتنسيقه.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

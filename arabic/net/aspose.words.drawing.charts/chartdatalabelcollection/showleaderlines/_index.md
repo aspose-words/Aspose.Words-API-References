@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. يسمح بتحديد ما إذا كان من الضروري إظهار الخطوط الرئيسية لتسمية البيانات لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection ShowLeaderLines ملكية. يسمح بتحديد ما إذا كان من الضروري إظهار الخطوط الرئيسية لتسمية البيانات لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderline
 public bool ShowLeaderLines { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ينطبق على المخططات الدائرية فقط. تُنشئ الخطوط الرئيسية اتصالاً مرئيًا بين تسمية البيانات ونقطة البيانات المقابلة لها.
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الدائري.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

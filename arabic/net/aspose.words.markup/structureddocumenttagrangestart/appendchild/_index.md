@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.AppendChild
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. إضافة العقدة المحددة إلى نهاية نطاق stdContent.
+linktitle: AppendChild
+articleTitle: AppendChild
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart AppendChild طريقة. إضافة العقدة المحددة إلى نهاية نطاق stdContent في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
@@ -26,7 +28,5 @@ public Node AppendChild(Node newChild)
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTitle
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection طريقة. إرجاع أول علامة مستند منظمة تمت مواجهتها في المجموعة بالعنوان المحدد.
+linktitle: GetByTitle
+articleTitle: GetByTitle
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagCollection GetByTitle طريقة. إرجاع أول علامة مستند منظمة تمت مواجهتها في المجموعة بالعنوان المحدد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetByTitle(string title)
 | --- | --- | --- |
 | title | String | عنوان علامة المستند المنظمة. |
 
-### ملاحظات
+## ملاحظات
 
 يُرجع قيمة فارغة إذا تعذر العثور على علامة المستند المنظمة ذات العنوان المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على علامة المستند المنظمة.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapData ملكية. يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطةColumn الخاصية ضمن تعيين هذا الحقل. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapData MappedName ملكية. يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطةColumn الخاصية ضمن تعيين هذا الحقل. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdata/mappedname/
 public string MappedName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoFieldMapData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

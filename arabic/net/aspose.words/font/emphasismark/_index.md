@@ -1,7 +1,9 @@
 ---
 title: Font.EmphasisMark
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين علامة التركيز المطبقة على هذا التنسيق.
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words لـ .NET
+description: Font EmphasisMark ملكية. الحصول على أو تعيين علامة التركيز المطبقة على هذا التنسيق في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/font/emphasismark/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/emphasismark/
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة حرف إضافي معروض أعلى/أسفل الحرف الرسومي.
 
@@ -37,7 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

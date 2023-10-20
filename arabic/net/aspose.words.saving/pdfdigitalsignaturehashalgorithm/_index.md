@@ -1,7 +1,9 @@
 ---
-title: Enum PdfDigitalSignatureHashAlgorithm
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm تعداد. يحدد خوارزمية التجزئة الرقمية المستخدمة بواسطة التوقيع الرقمي.
+title: PdfDigitalSignatureHashAlgorithm Enum
+linktitle: PdfDigitalSignatureHashAlgorithm
+articleTitle: PdfDigitalSignatureHashAlgorithm
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm تعداد. يحدد خوارزمية التجزئة الرقمية المستخدمة بواسطة التوقيع الرقمي في C#.
 type: docs
 weight: 5440
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
@@ -23,7 +25,7 @@ public enum PdfDigitalSignatureHashAlgorithm
 | Sha512 | `2` | خوارزمية التجزئة SHA-512. |
 | RipeMD160 | `3` | خوارزمية التجزئة RIPEMD-160. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

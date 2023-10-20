@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.RelativeVerticalPosition تعداد. يحدد الموضع الرأسي للشكل أو إطار النص النسبي.
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.RelativeVerticalPosition تعداد. يحدد الموضع الرأسي للشكل أو إطار النص النسبي في C#.
 type: docs
 weight: 1210
 url: /ar/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | القيمة الافتراضية هيMargin . |
 | TextFrameDefault | `2` | القيمة الافتراضية هيParagraph . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

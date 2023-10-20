@@ -1,7 +1,9 @@
 ---
-title: Class OdtSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.OdtSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفOdt أو Ott التنسيق.
+title: OdtSaveOptions Class
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.OdtSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفOdt أو Ott التنسيق في C#.
 type: docs
 weight: 5330
 url: /ar/net/aspose.words.saving/odtsaveoptions/
@@ -21,8 +23,8 @@ public class OdtSaveOptions : SaveOptions
 | اسم | وصف |
 | --- | --- |
 | [OdtSaveOptions](odtsaveoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt التنسيق. |
-| [OdtSaveOptions](odtsaveoptions/#constructor_1)(SaveFormat) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt أو Ott التنسيق. |
-| [OdtSaveOptions](odtsaveoptions/#constructor_2)(string) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt format مشفر بكلمة مرور. |
+| [OdtSaveOptions](odtsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt أو Ott التنسيق. |
+| [OdtSaveOptions](odtsaveoptions/#constructor_2)(*string*) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt format مشفر بكلمة مرور. |
 
 ## الخصائص
 
@@ -30,7 +32,7 @@ public class OdtSaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -51,11 +53,11 @@ public class OdtSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا. |
 
-### ملاحظات
+## ملاحظات
 
 في هذه اللحظة يوفر فقط[`SaveFormat`](./saveformat/) الخاصية، ولكن في المستقبل ستتم إضافة خيارات أخرى، مثل كلمة مرور التشفير أو إعدادات التوقيع الرقمي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية جعل المستند المحفوظ يتوافق مع مخطط ODT الأقدم.
 
@@ -94,5 +96,3 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 * class [SaveOptions](../saveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

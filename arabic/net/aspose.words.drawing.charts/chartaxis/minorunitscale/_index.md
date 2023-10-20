@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitScale
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين قيمة المقياس لعلامات التجزئة الصغيرة على محور الفئة الزمنية.
+linktitle: MinorUnitScale
+articleTitle: MinorUnitScale
+second_title: Aspose.Words لـ .NET
+description: ChartAxis MinorUnitScale ملكية. إرجاع أو تعيين قيمة المقياس لعلامات التجزئة الصغيرة على محور الفئة الزمنية في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير فقط على محاور الفئات الزمنية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

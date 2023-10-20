@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat ملكية. إرجاع التنسيق على مستوى القائمة بالإضافة إلى أي تجاوزات تنسيق مطبقة على الفقرة الحالية.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words لـ .NET
+description: ListFormat ListLevel ملكية. إرجاع التنسيق على مستوى القائمة بالإضافة إلى أي تجاوزات تنسيق مطبقة على الفقرة الحالية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listformat/listlevel/
 public ListLevel ListLevel { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

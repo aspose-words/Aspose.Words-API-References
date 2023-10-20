@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Aspose.Words لمراجع .NET API
-description: UserInformation ملكية. الحصول على الأحرف الأولى من اسم المستخدم أو تعيينها.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words لـ .NET
+description: UserInformation Initials ملكية. الحصول على الأحرف الأولى من اسم المستخدم أو تعيينها في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/userinformation/initials/
 public string Initials { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تفاصيل المستخدم وعرضها باستخدام الحقول.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### أنظر أيضا
 
 * class [UserInformation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../userinformation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentConverterPlugin.Convert
-second_title: Aspose.Words لمراجع .NET API
-description: IDocumentConverterPlugin طريقة. تحويل المستند باستخدام تدفقات الإدخال والإخراج المحددة وخيارات الحفظ.
+linktitle: Convert
+articleTitle: Convert
+second_title: Aspose.Words لـ .NET
+description: IDocumentConverterPlugin Convert طريقة. تحويل المستند باستخدام تدفقات الإدخال والإخراج المحددة وخيارات الحفظ في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/idocumentconverterplugin/convert/
@@ -24,7 +26,5 @@ public void Convert(Stream inputStream, Stream outputStream, SaveOptions saveOpt
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * interface [IDocumentConverterPlugin](../)
-* مساحة الاسم [Aspose.Words](../../idocumentconverterplugin/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

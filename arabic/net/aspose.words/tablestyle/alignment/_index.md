@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Alignment
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. يحدد المحاذاة لنمط الجدول.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words لـ .NET
+description: TableStyle Alignment ملكية. يحدد المحاذاة لنمط الجدول في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/tablestyle/alignment/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/tablestyle/alignment/
 public TableAlignment Alignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيLeft .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط موضع الجدول.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

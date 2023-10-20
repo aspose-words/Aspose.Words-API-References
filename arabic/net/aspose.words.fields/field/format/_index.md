@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. يحصل علىFieldFormat الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words لـ .NET
+description: Field Format ملكية. يحصل علىFieldFormat الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/format/
 public FieldFormat Format { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

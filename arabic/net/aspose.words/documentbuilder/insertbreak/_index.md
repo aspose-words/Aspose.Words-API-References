@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج فاصل من النوع المحدد في المستند.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertBreak طريقة. إدراج فاصل من النوع المحدد في المستند في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | يحدد نوع الفاصل المراد إدراجه. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الطريقة لإدراج فقرة أو صفحة أو عمود أو قسم أو فاصل أسطر في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderAppliesTo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageBorderAppliesTo تعداد. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها.
+title: PageBorderAppliesTo Enum
+linktitle: PageBorderAppliesTo
+articleTitle: PageBorderAppliesTo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.PageBorderAppliesTo تعداد. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها في C#.
 type: docs
 weight: 4340
 url: /ar/net/aspose.words/pageborderappliesto/
@@ -22,7 +24,7 @@ public enum PageBorderAppliesTo
 | FirstPage | `1` | يظهر حد الصفحة في الصفحة الأولى من القسم فقط. |
 | OtherPages | `2` | يظهر حد الصفحة في جميع الصفحات باستثناء الصفحة الأولى من القسم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderAppliesTo](../pagesetup/borderappliesto/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

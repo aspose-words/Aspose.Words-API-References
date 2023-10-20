@@ -1,7 +1,9 @@
 ---
 title: Font.Size
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على حجم الخط أو تعيينه بالنقاط.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words لـ .NET
+description: Font Size ملكية. الحصول على حجم الخط أو تعيينه بالنقاط في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words/font/size/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/size/
 public double Size { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -51,7 +53,5 @@ builder.Write("Hello world!");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

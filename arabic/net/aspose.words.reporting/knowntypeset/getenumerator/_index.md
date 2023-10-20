@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: KnownTypeSet طريقة. إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: KnownTypeSet GetEnumerator طريقة. إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.reporting/knowntypeset/getenumerator/
@@ -21,7 +23,5 @@ public IEnumerator<Type> GetEnumerator()
 ### أنظر أيضا
 
 * class [KnownTypeSet](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../knowntypeset/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

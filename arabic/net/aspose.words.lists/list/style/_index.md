@@ -1,7 +1,9 @@
 ---
 title: List.Style
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. الحصول على نمط القائمة الذي تشير إليه هذه القائمة أو تحدده.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words لـ .NET
+description: List Style ملكية. الحصول على نمط القائمة الذي تشير إليه هذه القائمة أو تحدده في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.lists/list/style/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/list/style/
 public Style Style { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن هذه القائمة مرتبطة بنمط القائمة، فستعود الخاصية`باطل`.
 
@@ -22,7 +24,7 @@ public Style Style { get; }
 
 يمكن أن تكون القائمة تعريفًا لنمط القائمة، في هذه الحالة[`IsListStyleDefinition`](../isliststyledefinition/) سيكون`حقيقي`. لا يمكن تطبيق هذه القائمة على الفقرات الموجودة في المستند مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -84,7 +86,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في أCell  كاذبة خلاف ذلك.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsEndOfCell ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في أCell  كاذبة خلاف ذلك في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isendofcell/
 public bool IsEndOfCell { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد جدول للبقاء معًا في نفس الصفحة.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

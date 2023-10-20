@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CrossesAt
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. يحدد مكان تقاطع المحور على المحور العمودي.
+linktitle: CrossesAt
+articleTitle: CrossesAt
+second_title: Aspose.Words لـ .NET
+description: ChartAxis CrossesAt ملكية. يحدد مكان تقاطع المحور على المحور العمودي في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/crossesat/
 public double CrossesAt { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير فقط إذا[`Crosses`](../crosses/) تم ضبطها علىCustom. غير مدعوم من مخططات MS Office 2016 الجديدة.
 
 يتم تحديد الوحدات حسب نوع المحور. عندما يكون المحور محور قيمة، تكون قيمة property رقمًا عشريًا على محور القيمة. عندما يكون المحور عبارة عن محور فئة زمنية، يتم تعريف القيمة كـ عدد صحيح من الأيام بالنسبة إلى التاريخ الأساسي (1899/12/30). بالنسبة لمحور فئة النص، تكون القيمة رقم فئة صحيحًا، يبدأ بـ 1 كفئة أولى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على محور الرسم البياني للعبور في موقع مخصص.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

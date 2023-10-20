@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. الحصول على الفقرة الأولى في القصة.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words لـ .NET
+description: InlineStory FirstParagraph ملكية. الحصول على الفقرة الأولى في القصة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة تعليق إلى فقرة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

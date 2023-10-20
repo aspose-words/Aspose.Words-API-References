@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlockCollection ملكية. استرداد الكتلة البرمجية الإنشائية في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: BuildingBlockCollection Item ملكية. استرداد الكتلة البرمجية الإنشائية في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -18,7 +20,7 @@ public BuildingBlock this[int index] { get; }
 | --- | --- |
 | index | فهرس في قائمة اللبنات الأساسية. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public BuildingBlock this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -133,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldKeywords.FieldKeywords
-second_title: Aspose.Words لمراجع .NET API
-description: FieldKeywords البناء. Default_Constructor
+title: FieldKeywords
+linktitle: FieldKeywords
+articleTitle: FieldKeywords
+second_title: Aspose.Words لـ .NET
+description: FieldKeywords البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldkeywords/fieldkeywords/
@@ -17,7 +19,5 @@ public FieldKeywords()
 ### أنظر أيضا
 
 * class [FieldKeywords](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldkeywords/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
-second_title: Aspose.Words لمراجع .NET API
-description: GlossaryDocument ملكية. الحصول على الكتلة البرمجية الإنشائية الأولى في مستند المسرد.
+linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
+second_title: Aspose.Words لـ .NET
+description: GlossaryDocument FirstBuildingBlock ملكية. الحصول على الكتلة البرمجية الإنشائية الأولى في مستند المسرد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
 public BuildingBlock FirstBuildingBlock { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم تكن هناك كتل بناء متاحة.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPoint
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartDataPoint فصل. يسمح بتحديد تنسيق نقطة بيانات واحدة على المخطط.
+title: ChartDataPoint Class
+linktitle: ChartDataPoint
+articleTitle: ChartDataPoint
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPoint فصل. يسمح بتحديد تنسيق نقطة بيانات واحدة على المخطط في C#.
 type: docs
 weight: 690
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/
@@ -33,11 +35,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | مسح تنسيق نقطة البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في السلسلة الأصلية. |
 
-### ملاحظات
+## ملاحظات
 
 في مسلسل`ChartDataPoint` الكائن هو عضو في[`ChartDataPointCollection`](../chartdatapointcollection/) . ال[`ChartDataPointCollection`](../chartdatapointcollection/) يحتوي على`ChartDataPoint` كائن لكل نقطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -101,5 +103,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * interface [IChartDataPoint](../ichartdatapoint/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

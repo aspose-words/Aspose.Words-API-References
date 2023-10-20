@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. يوفر تكرارًا بسيطًا لنمط foreach عبر مجموعة العقد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: NodeCollection GetEnumerator طريقة. يوفر تكرارًا بسيطًا لنمط foreach عبر مجموعة العقد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/nodecollection/getenumerator/
@@ -22,7 +24,5 @@ public IEnumerator<Node> GetEnumerator()
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

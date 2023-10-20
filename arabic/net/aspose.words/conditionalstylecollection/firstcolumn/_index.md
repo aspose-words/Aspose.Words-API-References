@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstColumn
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط العمود الأول.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection FirstColumn ملكية. الحصول على نمط العمود الأول في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/conditionalstylecollection/firstcolumn/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/firstcolumn/
 public ConditionalStyle FirstColumn { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

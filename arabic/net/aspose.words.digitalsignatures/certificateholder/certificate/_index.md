@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Aspose.Words لمراجع .NET API
-description: CertificateHolder ملكية. إرجاع مثيل شهادة X5092 الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات.
+linktitle: Certificate
+articleTitle: Certificate
+second_title: Aspose.Words لـ .NET
+description: CertificateHolder Certificate ملكية. إرجاع مثيلشهادة X5092 الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-إرجاع مثيل **شهادة X5092** الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات.
+إرجاع مثيل**شهادة X5092** الذي يحمل المفاتيح الخاصة والعامة وسلسلة الشهادات.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 مثال
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### أنظر أيضا
 
 * class [CertificateHolder](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

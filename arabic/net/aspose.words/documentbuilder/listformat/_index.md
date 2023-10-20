@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق القائمة الحالية.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder ListFormat ملكية. إرجاع كائن يمثل خصائص تنسيق القائمة الحالية في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قوائم ذات تعداد نقطي ومرقمة.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

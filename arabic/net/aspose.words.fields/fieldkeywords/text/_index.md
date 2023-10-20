@@ -1,7 +1,9 @@
 ---
 title: FieldKeywords.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldKeywords ملكية. الحصول على نص الكلمات الرئيسية أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldKeywords Text ملكية. الحصول على نص الكلمات الرئيسية أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldkeywords/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldkeywords/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقل الكلمات الرئيسية.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ### أنظر أيضا
 
 * class [FieldKeywords](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldkeywords/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

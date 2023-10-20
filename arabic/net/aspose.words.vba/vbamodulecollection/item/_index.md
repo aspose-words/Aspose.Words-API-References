@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: VbaModuleCollection ملكية. يسترد أVbaModule كائن حسب الفهرس.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: VbaModuleCollection Item ملكية. يسترد أVbaModule كائن حسب الفهرس في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | الفهرس الصفري للوحدة المطلوب استردادها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodulecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ vbaModules.Remove(vbaModules[2]);
 public VbaModule this[string name] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodulecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

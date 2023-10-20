@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalRuleAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.HorizontalRuleAlignment تعداد. يمثل المحاذاة للقاعدة الأفقية المحددة.
+title: HorizontalRuleAlignment Enum
+linktitle: HorizontalRuleAlignment
+articleTitle: HorizontalRuleAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.HorizontalRuleAlignment تعداد. يمثل المحاذاة للقاعدة الأفقية المحددة في C#.
 type: docs
 weight: 1040
 url: /ar/net/aspose.words.drawing/horizontalrulealignment/
@@ -26,5 +28,3 @@ public enum HorizontalRuleAlignment
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection طريقة. إزالة علامة المستند المنظمة بالمعرف المحدد.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagCollection Remove طريقة. إزالة علامة المستند المنظمة بالمعرف المحدد في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(int id)
 | --- | --- | --- |
 | id | Int32 | معرف علامة الوثيقة المنظمة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة علامة المستند المنظمة.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### أنظر أيضا
 
 * class [StructuredDocumentTagCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

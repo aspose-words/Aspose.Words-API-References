@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: SmartTag ملكية. إرجاعSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: SmartTag NodeType ملكية. إرجاعSmartTag  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/smarttag/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../smarttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

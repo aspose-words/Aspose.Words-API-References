@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat ملكية. الحصول على القائمة التي تنتمي إليها هذه الفقرة أو تعيينها.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words لـ .NET
+description: ListFormat List ملكية. الحصول على القائمة التي تنتمي إليها هذه الفقرة أو تعيينها في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listformat/list/
 public List List { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن تنتمي القائمة التي تم تعيينها لهذه الخاصية إلى المستند الحالي.
 
@@ -22,7 +24,7 @@ public List List { get; set; }
 
 تعيين هذه الخاصية إلى`باطل` إزالة التعداد النقطي والترقيم من الفقرة وتعيين رقم مستوى القائمة على صفر. تعيين هذه الخاصية إلى`باطل` يعادل للاتصال[`RemoveNumbers`](../removenumbers/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج قائمة داخل قائمة أخرى.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

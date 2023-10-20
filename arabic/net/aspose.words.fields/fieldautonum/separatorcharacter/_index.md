@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoNum ملكية. الحصول على أو تعيين الحرف الفاصل المطلوب استخدامه.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words لـ .NET
+description: FieldAutoNum SeparatorCharacter ملكية. الحصول على أو تعيين الحرف الفاصل المطلوب استخدامه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautonum/separatorcharacter/
 public string SeparatorCharacter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ترقيم الفقرات باستخدام الحقول التلقائية.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### أنظر أيضا
 
 * class [FieldAutoNum](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautonum/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

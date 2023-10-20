@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Aspose.Words لمراجع .NET API
-description: Row البناء. تهيئة مثيل جديد لـRow فئة.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words لـ .NET
+description: Row البناء. تهيئة مثيل جديد لـRow فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Row`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Row`](../) لاستخدام الوثيقةNode) أوNode) على الجدول حيث تريد إدراج الصف.
+لإلحاق[`Row`](../) لاستخدام الوثيقة[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) أو[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) على الجدول حيث تريد إدراج الصف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول متداخل دون استخدام أداة إنشاء المستندات.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

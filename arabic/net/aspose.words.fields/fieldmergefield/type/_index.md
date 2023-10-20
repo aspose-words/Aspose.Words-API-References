@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.Type
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeField ملكية. الحصول على نوع حقل Microsoft Word.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: FieldMergeField Type ملكية. الحصول على نوع حقل Microsoft Word في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldmergefield/type/
@@ -18,7 +20,5 @@ public override FieldType Type { get; }
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldMergeField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergefield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

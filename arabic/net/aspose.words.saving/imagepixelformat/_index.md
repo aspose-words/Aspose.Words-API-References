@@ -1,7 +1,9 @@
 ---
-title: Enum ImagePixelFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ImagePixelFormat تعداد. يحدد تنسيق البكسل للصور التي تم إنشاؤها لصفحات المستند.
+title: ImagePixelFormat Enum
+linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ImagePixelFormat تعداد. يحدد تنسيق البكسل للصور التي تم إنشاؤها لصفحات المستند في C#.
 type: docs
 weight: 5220
 url: /ar/net/aspose.words.saving/imagepixelformat/
@@ -30,7 +32,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 64 بت لكل بكسل، ARGB، ألفا المضاعف مسبقًا. |
 | Format1bppIndexed | `10` | 1 بت لكل بكسل، مفهرسة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد معدل بت لكل بكسل لعرض مستند على صورة.
 
@@ -96,5 +98,3 @@ Document doc = new Document();
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

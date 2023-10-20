@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### أنظر أيضا
 
 * class [DigitalSignatureCollection](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words لـ .NET
+description: InlineStory Tables ملكية. الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/tables/
 public TableCollection Tables { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

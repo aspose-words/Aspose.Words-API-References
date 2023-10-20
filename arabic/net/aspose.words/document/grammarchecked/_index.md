@@ -1,7 +1,9 @@
 ---
 title: Document.GrammarChecked
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاعحقيقي إذا تم تدقيق المستند من الناحية النحوية.
+linktitle: GrammarChecked
+articleTitle: GrammarChecked
+second_title: Aspose.Words لـ .NET
+description: Document GrammarChecked ملكية. إرجاعحقيقي إذا تم تدقيق المستند من الناحية النحوية في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/document/grammarchecked/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/grammarchecked/
 public bool GrammarChecked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لإعادة التدقيق النحوي في المستند، قم بتعيين هذه الخاصية إلى`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التدقيق الإملائي أو النحوي.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

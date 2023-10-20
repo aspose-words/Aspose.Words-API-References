@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.JsonDataLoadOptions فصل. يمثل خيارات لتحليل بيانات JSON.
+title: JsonDataLoadOptions Class
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.JsonDataLoadOptions فصل. يمثل خيارات لتحليل بيانات JSON في C#.
 type: docs
 weight: 4680
 url: /ar/net/aspose.words.reporting/jsondataloadoptions/
@@ -31,7 +33,7 @@ public class JsonDataLoadOptions
 | [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان يجب الحفاظ على المسافات البادئة والزائدة عند تحميل قيم string لبيانات JSON. |
 | [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | الحصول على أو تعيين وضع لتحليل قيم JSON البسيطة (فارغة ومنطقية ورقم وعدد صحيح وسلسلة) أثناء تحميل JSON. لا يؤثر هذا الوضع على تحليل قيم التاريخ والوقت. الافتراضي هو Loose . |
 
-### ملاحظات
+## ملاحظات
 
 يمكن تمرير مثيل لهذه الفئة إلى منشئي[`JsonDataSource`](../jsondatasource/) .
 
@@ -39,5 +41,3 @@ public class JsonDataLoadOptions
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

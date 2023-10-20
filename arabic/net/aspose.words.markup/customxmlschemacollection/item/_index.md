@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlSchemaCollection ملكية. الحصول على العنصر أو تعيينه في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: CustomXmlSchemaCollection Item ملكية. الحصول على العنصر أو تعيينه في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlschemacollection/item/
 public string this[int index] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة مخططات XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### أنظر أيضا
 
 * class [CustomXmlSchemaCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlschemacollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

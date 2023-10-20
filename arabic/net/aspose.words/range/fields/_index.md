@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. إرجاع أFields المجموعة التي تمثل جميع الحقول في النطاق.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words لـ .NET
+description: Range Fields ملكية. إرجاع أFields المجموعة التي تمثل جميع الحقول في النطاق في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

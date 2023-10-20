@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أو تعيين اسم الخط في مستند لغة من اليمين إلى اليسار.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words لـ .NET
+description: Font NameBi ملكية. إرجاع أو تعيين اسم الخط في مستند لغة من اليمين إلى اليسار في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/namebi/
 public string NameBi { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعات منفصلة من إعدادات الخط للنص من اليمين إلى اليسار، ومن اليمين إلى اليسار.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

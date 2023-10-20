@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.IsLinked
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludePicture ملكية. الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words لـ .NET
+description: FieldIncludePicture IsLinked ملكية. الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldincludepicture/islinked/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludepicture/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### أنظر أيضا
 
 * class [FieldIncludePicture](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludepicture/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

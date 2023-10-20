@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontSubstitutionSettings فصل. يحدد إعدادات آلية استبدال الخط.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings فصل. يحدد إعدادات آلية استبدال الخط في C#.
 type: docs
 weight: 3010
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | الإعدادات المتعلقة بقاعدة استبدال اسم الخط. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | الإعدادات المتعلقة بقاعدة استبدال الجدول. |
 
-### ملاحظات
+## ملاحظات
 
 تتكون عملية استبدال الخط من عدة قواعد يتم فحصها واحدة تلو الأخرى بترتيب معين. إذا لم تتمكن القاعدة الأولى من حل الخط، فسيتم فحص القاعدة الثانية وهكذا.
 
@@ -36,7 +38,7 @@ public class FontSubstitutionSettings
 
 لاحظ أن قاعدة استبدال تكوين الخط سوف تحل الخط في معظم الحالات وبالتالي تتجاوز كافة القواعد الأخرى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

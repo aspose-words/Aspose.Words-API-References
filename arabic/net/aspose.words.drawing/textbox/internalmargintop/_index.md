@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginTop
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. يحدد الهامش العلوي الداخلي بالنقاط للشكل.
+linktitle: InternalMarginTop
+articleTitle: InternalMarginTop
+second_title: Aspose.Words لـ .NET
+description: TextBox InternalMarginTop ملكية. يحدد الهامش العلوي الداخلي بالنقاط للشكل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/textbox/internalmargintop/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textbox/internalmargintop/
 public double InternalMarginTop { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 1/20 بوصة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الهوامش الداخلية لمربع النص.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

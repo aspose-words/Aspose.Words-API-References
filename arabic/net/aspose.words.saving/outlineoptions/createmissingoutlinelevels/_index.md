@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء مستويات مخطط تفصيلي مفقودة أم لا عندما يتم تصدير المستند .
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words لـ .NET
+description: OutlineOptions CreateMissingOutlineLevels ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء مستويات مخطط تفصيلي مفقودة أم لا عندما يتم تصدير المستند  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مستويات المخطط التفصيلي التي لا تحتوي على أي عناوين مقابلة عند حفظ مستند PDF.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### أنظر أيضا
 
 * class [OutlineOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../outlineoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

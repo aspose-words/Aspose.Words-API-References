@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على أو تعيين قيمة منطقية تحدد ما إذا كان سيتم دمج القوائم الملصقة مع القوائم المحيطة. القيمة الافتراضية هيخطأ شنيع .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words لـ .NET
+description: ImportFormatOptions MergePastedLists ملكية. الحصول على أو تعيين قيمة منطقية تحدد ما إذا كان سيتم دمج القوائم الملصقة مع القوائم المحيطة. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/importformatoptions/mergepastedlists/
 public bool MergePastedLists { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج القوائم من المستندات.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### أنظر أيضا
 
 * class [ImportFormatOptions](../)
-* مساحة الاسم [Aspose.Words](../../importformatoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

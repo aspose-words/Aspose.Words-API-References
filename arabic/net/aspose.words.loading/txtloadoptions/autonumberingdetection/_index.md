@@ -1,7 +1,9 @@
 ---
 title: TxtLoadOptions.AutoNumberingDetection
-second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى أنه سيتم إجراء اكتشاف الترقيم التلقائي أثناء تحميل مستند. القيمة الافتراضية هيحقيقي .
+linktitle: AutoNumberingDetection
+articleTitle: AutoNumberingDetection
+second_title: Aspose.Words لـ .NET
+description: TxtLoadOptions AutoNumberingDetection ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى أنه سيتم إجراء اكتشاف الترقيم التلقائي أثناء تحميل مستند. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
 public bool AutoNumberingDetection { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعطيل الكشف التلقائي عن الترقيم.
 
@@ -26,7 +28,5 @@ Document doc = new Document(MyDir + "Number detection.txt", options);
 ### أنظر أيضا
 
 * class [TxtLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../txtloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

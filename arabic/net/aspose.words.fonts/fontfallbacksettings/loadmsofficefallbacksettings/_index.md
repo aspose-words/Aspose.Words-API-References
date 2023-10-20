@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Aspose.Words لمراجع .NET API
-description: FontFallbackSettings طريقة. يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تحاكي الإجراء الاحتياطي لـ Microsoft Word وتستخدم خطوط Microsoft Office.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words لـ .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings طريقة. يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تحاكي الإجراء الاحتياطي لـ Microsoft Word وتستخدم خطوط Microsoft Office في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksetting
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل إعدادات الخط الاحتياطي المحددة مسبقًا.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

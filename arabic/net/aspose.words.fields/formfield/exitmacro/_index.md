@@ -1,7 +1,9 @@
 ---
 title: FormField.ExitMacro
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. إرجاع أو تعيين اسم ماكرو للخروج لحقل النموذج.
+linktitle: ExitMacro
+articleTitle: ExitMacro
+second_title: Aspose.Words لـ .NET
+description: FormField ExitMacro ملكية. إرجاع أو تعيين اسم ماكرو للخروج لحقل النموذج في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/formfield/exitmacro/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/formfield/exitmacro/
 public string ExitMacro { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم تشغيل ماكرو الخروج عندما يفقد حقل النموذج التركيز في Microsoft Word.
 
 يسمح Microsoft Word بسلاسل تحتوي على 32 حرفًا على الأكثر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

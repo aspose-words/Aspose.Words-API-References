@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. يحدد ما إذا كانت الصورة سيتم عرضها في وضع التدرج الرمادي.
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: Aspose.Words لـ .NET
+description: ImageData GrayScale ملكية. يحدد ما إذا كانت الصورة سيتم عرضها في وضع التدرج الرمادي في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/grayscale/
 public bool GrayScale { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. الحصول على تنسيق نمط الأرقام المخصص لمستوى القائمة هذا. على سبيل المثال أ ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words لـ .NET
+description: ListLevel CustomNumberStyleFormat ملكية. الحصول على تنسيق نمط الأرقام المخصص لمستوى القائمة هذا. على سبيل المثال أ ç ĝ  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevel/customnumberstyleformat/
 public string CustomNumberStyleFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على تنسيق القائمة بنمط الأرقام المخصص.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

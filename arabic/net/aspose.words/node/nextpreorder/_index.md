@@ -1,7 +1,9 @@
 ---
 title: Node.NextPreOrder
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق.
+linktitle: NextPreOrder
+articleTitle: NextPreOrder
+second_title: Aspose.Words لـ .NET
+description: Node NextPreOrder طريقة. الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/node/nextpreorder/
@@ -22,7 +24,7 @@ public Node NextPreOrder(Node rootNode)
 
 العقدة التالية في الطلب المسبق. لاغية إذا وصلت إلى*rootNode*.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة عقدة المستند باستخدام خوارزمية اجتياز الطلب المسبق، وحذف أي شكل يتم مواجهته مع الصورة.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

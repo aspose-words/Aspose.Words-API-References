@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Id
-second_title: Aspose.Words لمراجع .NET API
-description: CommentRangeStart ملكية. يحدد معرف التعليق الذي ترتبط به هذه المنطقة.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: CommentRangeStart Id ملكية. يحدد معرف التعليق الذي ترتبط به هذه المنطقة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/commentrangestart/id/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/commentrangestart/id/
 public int Id { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [CommentRangeStart](../)
-* مساحة الاسم [Aspose.Words](../../commentrangestart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

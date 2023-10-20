@@ -1,7 +1,9 @@
 ---
-title: Class BubbleSizeCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection فصل. يمثل مجموعة من أحجام الفقاعات لسلسلة من الرسوم البيانية.
+title: BubbleSizeCollection Class
+linktitle: BubbleSizeCollection
+articleTitle: BubbleSizeCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.BubbleSizeCollection فصل. يمثل مجموعة من أحجام الفقاعات لسلسلة من الرسوم البيانية في C#.
 type: docs
 weight: 610
 url: /ar/net/aspose.words.drawing.charts/bubblesizecollection/
@@ -27,7 +29,7 @@ public class BubbleSizeCollection : IEnumerable<double>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | يُرجع كائن العداد. |
 
-### ملاحظات
+## ملاحظات
 
 تسمح المجموعة بتغيير أحجام الفقاعات فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو قيم إزالة ، فإن الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الطبقة.
 
@@ -44,5 +46,3 @@ public class BubbleSizeCollection : IEnumerable<double>
 * method [Remove](../chartseries/remove/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/dropdownitemcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/dropdownitemcollection/getenumerator/
 public IEnumerator<string> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين موضع النص بالنقاط بالنسبة إلى السطر الأساسي. الرقم الموجب يرفع النص والرقم السالب يخفضه.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words لـ .NET
+description: Font Position ملكية. الحصول على أو تعيين موضع النص بالنقاط بالنسبة إلى السطر الأساسي. الرقم الموجب يرفع النص والرقم السالب يخفضه في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/position/
 public double Position { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النص لتعويض موضعه.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.BottomPadding
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات الخلايا.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words لـ .NET
+description: Table BottomPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات الخلايا في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.tables/table/bottompadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين حشوة المحتوى في الجدول.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

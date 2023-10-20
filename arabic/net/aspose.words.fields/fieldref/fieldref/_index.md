@@ -1,7 +1,9 @@
 ---
-title: FieldRef.FieldRef
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef البناء. Default_Constructor
+title: FieldRef
+linktitle: FieldRef
+articleTitle: FieldRef
+second_title: Aspose.Words لـ .NET
+description: FieldRef البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldref/fieldref/
@@ -17,7 +19,5 @@ public FieldRef()
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

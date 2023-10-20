@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgsBase TableName ملكية. يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 public string TableName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول نموذج خانة الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### أنظر أيضا
 
 * class [FieldMergingArgsBase](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

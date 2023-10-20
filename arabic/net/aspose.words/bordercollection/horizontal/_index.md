@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Horizontal ملكية. يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/horizontal/
 public Border Horizontal { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق الإعدادات على الحدود الأفقية على تنسيق الفقرة.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

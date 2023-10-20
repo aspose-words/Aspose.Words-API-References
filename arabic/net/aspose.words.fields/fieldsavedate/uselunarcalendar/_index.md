@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseLunarCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSaveDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldSaveDate UseLunarCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الحقل "حفظ" لعرض تاريخ/وقت آخر عملية حفظ للمستند تم تنفيذها باستخدام Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### أنظر أيضا
 
 * class [FieldSaveDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsavedate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

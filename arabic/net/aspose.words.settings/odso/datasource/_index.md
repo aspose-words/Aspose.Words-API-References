@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد موقع مصدر البيانات الخارجي المراد توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words لـ .NET
+description: Odso DataSource ملكية. يحدد موقع مصدر البيانات الخارجي المراد توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odso/datasource/
 public string DataSource { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

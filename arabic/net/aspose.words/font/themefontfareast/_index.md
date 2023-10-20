@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين خط سمة شرق آسيا في نظام الخطوط المطبق المرتبط بهذاFont الكائن.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words لـ .NET
+description: Font ThemeFontFarEast ملكية. الحصول على أو تعيين خط سمة شرق آسيا في نظام الخطوط المطبق المرتبط بهذاFont الكائن في C#.
 type: docs
 weight: 500
 url: /ar/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/themefontfareast/
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خطوط وألوان السمات.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

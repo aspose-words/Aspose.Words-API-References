@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.LegacyMode
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى استخدام خوارزمية البحث/الاستبدال القديمة.
+linktitle: LegacyMode
+articleTitle: LegacyMode
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions LegacyMode ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى استخدام خوارزمية البحث/الاستبدال القديمة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.replacing/findreplaceoptions/legacymode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/legacymode/
 public bool LegacyMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه العلامة إذا كنت بحاجة إلى نفس السلوك تمامًا كما كان قبل تقديم ميزة البحث/الاستبدال المتقدمة. لاحظ أن الخوارزمية القديمة لا تدعم الميزات المتقدمة مثل الاستبدال بالفواصل وتطبيق التنسيق وما إلى ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

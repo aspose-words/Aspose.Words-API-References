@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.PostalAddress
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBarcode ملكية. الحصول على أو تعيين العنوان البريدي المستخدم لإنشاء رمز شريطي أو اسم الإشارة المرجعية التي تشير إليه.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words لـ .NET
+description: FieldBarcode PostalAddress ملكية. الحصول على أو تعيين العنوان البريدي المستخدم لإنشاء رمز شريطي أو اسم الإشارة المرجعية التي تشير إليه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldbarcode/postaladdress/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldbarcode/postaladdress/
 public string PostalAddress { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

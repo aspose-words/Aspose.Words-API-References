@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على عدد الأنماط الشرطية في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection Count ملكية. الحصول على عدد الأنماط الشرطية في المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### أنظر أيضا
 
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

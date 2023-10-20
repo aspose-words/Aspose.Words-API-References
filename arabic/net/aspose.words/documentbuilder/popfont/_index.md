@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. استرداد تنسيق الأحرف الذي تم حفظه مسبقًا على المكدس.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder PopFont طريقة. استرداد تنسيق الأحرف الذي تم حفظه مسبقًا على المكدس في C#.
 type: docs
-weight: 600
+weight: 590
 url: /ar/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/popfont/
 public void PopFont()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مكدس التنسيق الخاص بمنشئ المستندات.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

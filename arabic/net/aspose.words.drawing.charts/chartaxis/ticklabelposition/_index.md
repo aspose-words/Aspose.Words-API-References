@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين موضع تسميات التجزئة على المحور.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words لـ .NET
+description: ChartAxis TickLabelPosition ملكية. إرجاع أو تعيين موضع تسميات التجزئة على المحور في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية غير مدعومة من قبل مخططات MS Office 2016 الجديدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

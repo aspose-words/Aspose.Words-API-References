@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.PhysicalFontInfo فصل. يحدد معلومات حول الخط الفعلي المتاح لمحرك الخطوط Aspose.Words.
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.PhysicalFontInfo فصل. يحدد معلومات حول الخط الفعلي المتاح لمحرك الخطوط Aspose.Words في C#.
 type: docs
 weight: 3030
 url: /ar/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | اسم الخط بالكامل. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | سلسلة إصدار الخط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية سرد الخطوط المتاحة.
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

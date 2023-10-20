@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل المراجع الترافقية والمدخلات الأخرى.
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldIndex CrossReferenceSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل المراجع الترافقية والمدخلات الأخرى في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/crossreferenceseparator/
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المراجع الترافقية في حقل INDEX.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

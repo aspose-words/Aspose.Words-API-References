@@ -1,9 +1,11 @@
 ---
 title: Fill.RotateWithObject
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تحديد ما إذا كان سيتم تدوير التعبئة مع الكائن المحدد.
+linktitle: RotateWithObject
+articleTitle: RotateWithObject
+second_title: Aspose.Words لـ .NET
+description: Fill RotateWithObject ملكية. الحصول على أو تحديد ما إذا كان سيتم تدوير التعبئة مع الكائن المحدد في C#.
 type: docs
-weight: 180
+weight: 170
 url: /ar/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property
@@ -17,7 +19,5 @@ public bool RotateWithObject { get; set; }
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

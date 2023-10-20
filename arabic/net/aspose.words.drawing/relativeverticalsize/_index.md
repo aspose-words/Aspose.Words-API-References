@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalSize
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.RelativeVerticalSize تعداد. يحدد نسبيًا ارتفاع الشكل أو إطار النص الذي يتم حسابه عموديًا.
+title: RelativeVerticalSize Enum
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.RelativeVerticalSize تعداد. يحدد نسبيًا ارتفاع الشكل أو إطار النص الذي يتم حسابه عموديًا في C#.
 type: docs
 weight: 1220
 url: /ar/net/aspose.words.drawing/relativeverticalsize/
@@ -26,7 +28,7 @@ public enum RelativeVerticalSize
 | OuterMargin | `5` | يحدد أن الارتفاع يتم حسابه نسبيًا لحجم مساحة الهامش الخارجي، لحجم مساحة الهامش السفلي للصفحات الفردية وحجم مساحة الهامش العلوي للصفحات الزوجية. |
 | Default | `1` | القيمة الافتراضية هيMargin . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeVerticalSize](../shapebase/relativeverticalsize/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

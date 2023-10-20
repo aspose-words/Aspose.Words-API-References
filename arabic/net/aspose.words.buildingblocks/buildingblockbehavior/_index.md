@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior تعداد. يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية عند إدراجها في المستند الرئيسي.
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior تعداد. يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية عند إدراجها في المستند الرئيسي في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | يحدد أنه يجب إضافة الكتلة البرمجية الإنشائية إلى الصفحة الخاصة بها. |
 | Default | `0` | نفسContent . |
 
-### ملاحظات
+## ملاحظات
 
-يتوافق مع **ST_DocPartBehavior** اكتب OOXML.
+يتوافق مع**ST_DocPartBehavior** اكتب OOXML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
-
-

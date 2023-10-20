@@ -1,12 +1,14 @@
 ---
-title: ImageSize.ImageSize
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSize البناء. تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة.
+title: ImageSize
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words لـ .NET
+description: ImageSize البناء. تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/imagesize/imagesize/
 ---
-## ImageSize(int, int) {#constructor}
+## ImageSize(*int, int*) {#constructor}
 
 تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة.
 
@@ -22,12 +24,12 @@ public ImageSize(int widthPixels, int heightPixels)
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ImageSize(int, int, double, double) {#constructor_1}
+## ImageSize(*int, int, double, double*) {#constructor_1}
 
 تهيئة العرض والارتفاع والدقة للقيم المحددة.
 
@@ -46,7 +48,5 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

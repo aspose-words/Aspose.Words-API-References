@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.HashAlgorithm
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureDetails ملكية. الحصول على خوارزمية التجزئة أو تعيينها.
+linktitle: HashAlgorithm
+articleTitle: HashAlgorithm
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureDetails HashAlgorithm ملكية. الحصول على خوارزمية التجزئة أو تعيينها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/
 public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي خوارزمية SHA-256.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

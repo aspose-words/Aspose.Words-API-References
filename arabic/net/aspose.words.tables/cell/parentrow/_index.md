@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. إرجاع الصف الأصلي للخلية.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words لـ .NET
+description: Cell ParentRow ملكية. إرجاع الصف الأصلي للخلية في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/cell/parentrow/
 public Row ParentRow { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 أي ما يعادلFirstNonMarkupParentNode يلقي ل[`Row`](../../row/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد جدول للبقاء معًا في نفس الصفحة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

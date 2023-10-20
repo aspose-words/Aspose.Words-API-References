@@ -1,7 +1,9 @@
 ---
-title: License.License
-second_title: Aspose.Words لمراجع .NET API
-description: License البناء. تهيئة مثيل جديد لهذه الفئة.
+title: License
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words لـ .NET
+description: License البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/license/license/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/license/license/
 public License()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تهيئة ترخيص Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
 
@@ -38,7 +40,5 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### أنظر أيضا
 
 * class [License](../)
-* مساحة الاسم [Aspose.Words](../../license/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

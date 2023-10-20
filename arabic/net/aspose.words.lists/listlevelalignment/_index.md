@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListLevelAlignment تعداد. يحدد محاذاة رقم القائمة أو الرمز النقطي.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListLevelAlignment تعداد. يحدد محاذاة رقم القائمة أو الرمز النقطي في C#.
 type: docs
 weight: 3510
 url: /ar/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | يتم توسيط تسمية القائمة في موضع الرقم. |
 | Right | `2` | تتم محاذاة تسمية القائمة هذه إلى يمين موضع الرقم. |
 
-### ملاحظات
+## ملاحظات
 
 تستخدم كقيمة ل[`Alignment`](../listlevel/alignment/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيBody قصة النص الرئيسي من أSection  كاذبة خلاف ذلك.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsEndOfSection ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيBody قصة النص الرئيسي من أSection  كاذبة خلاف ذلك في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isendofsection/
 public bool IsEndOfSection { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Theme
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Themes.Theme فصل. يمثل سمة المستند ويوفر الوصول إلى أجزاء السمة الرئيسية بما في ذلكMajorFonts MinorFonts وColors
+title: Theme Class
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Themes.Theme فصل. يمثل سمة المستند ويوفر الوصول إلى أجزاء السمة الرئيسية بما في ذلكMajorFonts MinorFonts وColors في C#.
 type: docs
 weight: 6460
 url: /ar/net/aspose.words.themes/theme/
@@ -30,7 +32,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | يسمح بتحديد مجموعة الخطوط الرئيسية للغات المختلفة. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | يسمح بتحديد مجموعة الخطوط الثانوية للغات المختلفة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * مساحة الاسم [Aspose.Words.Themes](../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../)
-
-

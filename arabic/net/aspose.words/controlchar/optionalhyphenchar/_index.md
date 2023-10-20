@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. الواصلة الاختيارية في Microsoft Word هي char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar OptionalHyphenChar مجال. الواصلة الاختيارية في Microsoft Word هي char31 في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/controlchar/optionalhyphenchar/
 public const char OptionalHyphenChar;
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا تتوافق الواصلة الاختيارية في Microsoft Word مع الواصلة الناعمة U+00AD لحرف Unicode. بدلاً من ذلك، تقوم بإدراج معلومات داخلية تخبر Word عن نقطة الواصلة المحتملة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

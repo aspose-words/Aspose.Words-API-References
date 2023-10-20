@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين حجم الخط الذي يبدأ عنده تقنين الأحرف.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words لـ .NET
+description: Font Kerning ملكية. الحصول على أو تعيين حجم الخط الذي يبدأ عنده تقنين الأحرف في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/kerning/
 public double Kerning { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد حجم الخط الذي يبدأ عنده تطبيق تقنين الأحرف.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

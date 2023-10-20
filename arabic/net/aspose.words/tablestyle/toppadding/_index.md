@@ -1,7 +1,9 @@
 ---
 title: TableStyle.TopPadding
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات خلايا الجدول.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words لـ .NET
+description: TableStyle TopPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات خلايا الجدول في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/tablestyle/toppadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/toppadding/
 public double TopPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

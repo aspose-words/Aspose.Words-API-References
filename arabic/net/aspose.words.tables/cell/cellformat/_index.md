@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. يوفر الوصول إلى خصائص تنسيق الخلية.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words لـ .NET
+description: Cell CellFormat ملكية. يوفر الوصول إلى خصائص تنسيق الخلية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/cell/cellformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل تنسيق خلية الجدول.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

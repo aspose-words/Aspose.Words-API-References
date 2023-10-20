@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.FacingIdentificationMark
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBarcode ملكية. الحصول على أو تعيين نوع علامة التعريف المواجهة FIM المراد إدراجها.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words لـ .NET
+description: FieldBarcode FacingIdentificationMark ملكية. الحصول على أو تعيين نوع علامة التعريف المواجهة FIM المراد إدراجها في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 public string FacingIdentificationMark { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

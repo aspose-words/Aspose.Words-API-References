@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. الحصول على أو تعيين السلسلة التي سيتم استخدامها لتحليل معرفات URI النسبية الموجودة في المستند إلى معرفات URI مطلقة عند الحاجة. يمكن أن يكونباطل أو سلسلة فارغة. الافتراضي هوباطل .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words لـ .NET
+description: LoadOptions BaseUri ملكية. الحصول على أو تعيين السلسلة التي سيتم استخدامها لتحليل معرفات URI النسبية الموجودة في المستند إلى معرفات URI مطلقة عند الحاجة. يمكن أن يكونباطل أو سلسلة فارغة. الافتراضي هوباطل  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ url: /ar/net/aspose.words.loading/loadoptions/baseuri/
 public string BaseUri { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تُستخدم هذه الخاصية لتحويل عناوين URI النسبية إلى مطلقة في الحالات التالية:
 
 1. عند تحميل مستند HTML من دفق ويحتوي المستند على صور تحتوي على معرفات URI نسبية ولا يحتوي على معرف URI أساسي محدد في عنصر BASE HTML.
 2. عند حفظ مستند إلى PDF وتنسيقات أخرى، يمكنك استرداد الصور المرتبطة باستخدام URIs النسبية بحيث يمكن حفظ الصور في مستند الإخراج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح مستند HTML يحتوي على صور من دفق باستخدام عنوان URI أساسي.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

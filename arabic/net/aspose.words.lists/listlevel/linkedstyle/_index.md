@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. الحصول على أو تعيين نمط الفقرة المرتبط بمستوى القائمة هذا.
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: Aspose.Words لـ .NET
+description: ListLevel LinkedStyle ملكية. الحصول على أو تعيين نمط الفقرة المرتبط بمستوى القائمة هذا في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/linkedstyle/
 public Style LinkedStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية`باطل` عندما لا يكون مستوى القائمة مرتبطًا بنمط الفقرة. يمكن ضبط هذه الخاصية على`باطل`.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا متقدمة لتخصيص تسميات القائمة.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

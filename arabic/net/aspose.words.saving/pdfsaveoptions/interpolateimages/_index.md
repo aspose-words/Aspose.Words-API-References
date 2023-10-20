@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. علامة تشير إلى ما إذا كان سيتم تنفيذ استكمال الصورة بواسطة قارئ مطابق. متىخطأ شنيع تم تحديده ولم تتم كتابة العلامة في مستند الإخراج و يتم استخدام السلوك الافتراضي للقارئ بدلاً من ذلك.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions InterpolateImages ملكية. علامة تشير إلى ما إذا كان سيتم تنفيذ استكمال الصورة بواسطة قارئ مطابق. متىخطأ شنيع تم تحديده ولم تتم كتابة العلامة في مستند الإخراج و يتم استخدام السلوك الافتراضي للقارئ بدلاً من ذلك في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
 public bool InterpolateImages { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تكون دقة الصورة المصدر أقل بكثير من دقة جهاز الإخراج، تغطي كل عينة مصدر العديد من وحدات بكسل الجهاز. ونتيجة لذلك، يمكن أن تظهر الصور غير واضحة أو ممتلئة. يمكن تقليل هذه التأثيرات المرئية عن طريق تطبيق خوارزمية استيفاء الصورة أثناء العرض. بدلاً من طلاء جميع وحدات البكسل المغطاة بعينة مصدر بنفس اللون، يحاول استيفاء الصورة إنتاج صورة سلسة الانتقال بين قيم العينة المتجاورة.
 
@@ -24,7 +26,7 @@ public bool InterpolateImages { get; set; }
 
 علامة الاستيفاء محظورة بموجب الامتثال لـ PDF/A.`خطأ شنيع` سيتم استخدام القيمة تلقائيًا عند الحفظ في PDF/A.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء الاستيفاء على الصور أثناء حفظ مستند إلى PDF.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Overlay
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxisTitle ملكية. يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل العنوان. القيمة الافتراضية هيخطأ شنيع .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words لـ .NET
+description: ChartAxisTitle Overlay ملكية. يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل العنوان. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
-weight: 20
+weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 public bool Overlay { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عنوان محور المخطط.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### أنظر أيضا
 
 * class [ChartAxisTitle](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين عدد الصفحات التي سيتم تضمينها في كل كتيب.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words لـ .NET
+description: PageSetup SheetsPerBooklet ملكية. إرجاع أو تعيين عدد الصفحات التي سيتم تضمينها في كل كتيب في C#.
 type: docs
 weight: 400
 url: /ar/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/sheetsperbooklet/
 public int SheetsPerBooklet { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين مستند يمكن طباعته كطي كتاب.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

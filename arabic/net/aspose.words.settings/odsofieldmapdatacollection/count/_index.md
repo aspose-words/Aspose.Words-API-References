@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapDataCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapDataCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoFieldMapDataCollection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

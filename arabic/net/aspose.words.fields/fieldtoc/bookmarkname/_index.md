@@ -1,7 +1,9 @@
 ---
 title: FieldToc.BookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الجدول.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldToc BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الجدول في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtoc/bookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

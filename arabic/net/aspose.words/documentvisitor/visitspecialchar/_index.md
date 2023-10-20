@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSpecialChar
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. تم الاتصال به عندما أSpecialChar تمت مصادفة عقدة في المستند.
+linktitle: VisitSpecialChar
+articleTitle: VisitSpecialChar
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitSpecialChar طريقة. تم الاتصال به عندما أSpecialChar تمت مصادفة عقدة في المستند في C#.
 type: docs
 weight: 430
 url: /ar/net/aspose.words/documentvisitor/visitspecialchar/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### ملاحظات
+## ملاحظات
 
 لا يتم استدعاء هذه الطريقة لأحرف التحكم العامة (انظر[`ControlChar`](../../controlchar/) ) التي يمكن أن تكون موجودة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
 
@@ -224,7 +226,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SpecialChar](../../specialchar/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

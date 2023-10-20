@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. لتحديث خصائص عدد الكلمات في المستند.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words لـ .NET
+description: Document UpdateWordCount طريقة. لتحديث خصائص عدد الكلمات في المستند في C#.
 type: docs
-weight: 810
+weight: 790
 url: /ar/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/updatewordcount/
 public void UpdateWordCount()
 ```
 
-### ملاحظات
+## ملاحظات
 
 `UpdateWordCount` يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات في ملف[`BuiltInDocumentProperties`](../builtindocumentproperties/) جمع من[`Document`](../).
 
@@ -22,7 +24,7 @@ public void UpdateWordCount()
 
 عند استخدام إصدار تقييمي، سيتم أيضًا تضمين العلامة المائية للتقييم في عدد الكلمات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث جميع تسميات القائمة في المستند.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 يقوم بتحديث خصائص عدد الكلمات في المستند، ويتم تحديثه بشكل اختياري[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) الملكية.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `حقيقي` إذا تم حساب عدد الأسطر في الوثيقة. |
 
-### ملاحظات
+## ملاحظات
 
 ستعمل هذه الطريقة على إعادة بناء تخطيط صفحة المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث جميع تسميات القائمة في المستند.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

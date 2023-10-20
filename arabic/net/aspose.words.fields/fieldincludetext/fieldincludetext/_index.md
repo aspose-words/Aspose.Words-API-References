@@ -1,7 +1,9 @@
 ---
-title: FieldIncludeText.FieldIncludeText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText البناء. Default_Constructor
+title: FieldIncludeText
+linktitle: FieldIncludeText
+articleTitle: FieldIncludeText
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldincludetext/fieldincludetext/
@@ -17,7 +19,5 @@ public FieldIncludeText()
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

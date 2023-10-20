@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder EndBookmark طريقة. يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 عقدة نهاية الإشارة المرجعية التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تتداخل الإشارات المرجعية الموجودة في المستند وتمتد إلى أي نطاق. لإنشاء إشارة مرجعية صالحة تحتاج إلى استدعاء كليهما[`StartBookmark`](../startbookmark/) و`EndBookmark` مع نفس الشيء*bookmarkName* المعلمة.
 
 سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إشارة مرجعية.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

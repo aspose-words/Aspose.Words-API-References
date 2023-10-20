@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection طريقة. إزالة تكرار التنسيق العام في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: GeneralFormatCollection RemoveAt طريقة. إزالة تكرار التنسيق العام في الفهرس المحدد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/generalformatcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### أنظر أيضا
 
 * class [GeneralFormatCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../generalformatcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

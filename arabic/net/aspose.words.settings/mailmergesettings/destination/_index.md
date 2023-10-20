@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد كيفية قيام Microsoft Word بإخراج نتائج دمج البريد. القيمة الافتراضية هيDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings Destination ملكية. يحدد كيفية قيام Microsoft Word بإخراج نتائج دمج البريد. القيمة الافتراضية هيDefault  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/destination/
 public MailMergeDestination Destination { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

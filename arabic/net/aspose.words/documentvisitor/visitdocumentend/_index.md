@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitDocumentEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم الاتصال به عند انتهاء تعداد المستند.
+linktitle: VisitDocumentEnd
+articleTitle: VisitDocumentEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitDocumentEnd طريقة. يتم الاتصال به عند انتهاء تعداد المستند في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/documentvisitor/visitdocumentend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitDocumentEnd(Document doc)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Document](../../document/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

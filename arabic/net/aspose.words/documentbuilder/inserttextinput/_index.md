@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTextInput
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج حقل نموذج نصي في الموضع الحالي.
+linktitle: InsertTextInput
+articleTitle: InsertTextInput
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertTextInput طريقة. إدراج حقل نموذج نصي في الموضع الحالي في C#.
 type: docs
-weight: 480
+weight: 470
 url: /ar/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -27,11 +29,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 عقدة حقل النموذج التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل نموذج إدخال نص في مستند.
 
@@ -90,7 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

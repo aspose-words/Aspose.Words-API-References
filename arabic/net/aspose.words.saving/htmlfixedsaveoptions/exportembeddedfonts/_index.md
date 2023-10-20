@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
+linktitle: ExportEmbeddedFonts
+articleTitle: ExportEmbeddedFonts
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ExportEmbeddedFonts ملكية. يحدد ما إذا كان يجب تضمين الخطوط في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 public bool ExportEmbeddedFonts { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان تخزين الخطوط المضمنة عند تصدير مستند إلى Html.
 
@@ -54,7 +56,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

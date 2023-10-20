@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Suffix
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين اللاحقة الملحقة بالاقتباس.
+linktitle: Suffix
+articleTitle: Suffix
+second_title: Aspose.Words لـ .NET
+description: FieldCitation Suffix ملكية. الحصول على أو تعيين اللاحقة الملحقة بالاقتباس في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldcitation/suffix/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcitation/suffix/
 public string Suffix { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

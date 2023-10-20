@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptionsBase ملكية. يحدد طريقة تصدير الرؤوس والتذييلات إلى تنسيقات النص. القيمة الافتراضية هيPrimaryOnly .
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptionsBase ExportHeadersFootersMode ملكية. يحدد طريقة تصدير الرؤوس والتذييلات إلى تنسيقات النص. القيمة الافتراضية هيPrimaryOnly  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد كيفية تصدير الرؤوس والتذييلات إلى تنسيق نص عادي.
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

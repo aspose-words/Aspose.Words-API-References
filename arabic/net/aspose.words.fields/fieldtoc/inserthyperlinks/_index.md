@@ -1,7 +1,9 @@
 ---
 title: FieldToc.InsertHyperlinks
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباطات تشعبية لمدخلات جدول المحتويات.
+linktitle: InsertHyperlinks
+articleTitle: InsertHyperlinks
+second_title: Aspose.Words لـ .NET
+description: FieldToc InsertHyperlinks ملكية. الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباطات تشعبية لمدخلات جدول المحتويات في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fieldtoc/inserthyperlinks/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/inserthyperlinks/
 public bool InsertHyperlinks { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

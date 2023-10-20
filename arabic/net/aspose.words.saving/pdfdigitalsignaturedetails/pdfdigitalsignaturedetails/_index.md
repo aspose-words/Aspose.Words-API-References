@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureDetails البناء. تهيئة مثيل لهذه الفئة.
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureDetails البناء. تهيئة مثيل لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignatured
 public PdfDigitalSignatureDetails()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 تهيئة مثيل لهذه الفئة.
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | مكان التوقيع . |
 | signatureDate | DateTime | تاريخ ووقت التوقيع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف فاصل الحقل يفصل رمز الحقل عن قيمة الحقل. اختيارية في بعض المجالات. القيمة شار20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar FieldSeparatorChar مجال. حرف فاصل الحقل يفصل رمز الحقل عن قيمة الحقل. اختيارية في بعض المجالات. القيمة شار20 في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/fieldseparatorchar/
 public const char FieldSeparatorChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.DateDisplayFormat
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. سلسلة تمثل التنسيق الذي يتم عرض التواريخ به. لا يمكن أن يكونباطل . التواريخ للغة الإنجليزية الولايات المتحدة هي mm/dd/yyyy
+linktitle: DateDisplayFormat
+articleTitle: DateDisplayFormat
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag DateDisplayFormat ملكية. سلسلة تمثل التنسيق الذي يتم عرض التواريخ به. لا يمكن أن يكونباطل . التواريخ للغة الإنجليزية الولايات المتحدة هي mm/dd/yyyy في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 public string DateDisplayFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلDate نوع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مطالبة المستخدم بإدخال تاريخ باستخدام علامة مستند منظمة.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

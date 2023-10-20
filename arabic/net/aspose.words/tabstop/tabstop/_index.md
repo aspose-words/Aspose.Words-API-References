@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop البناء. تهيئة مثيل جديد لهذه الفئة.
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words لـ .NET
+description: TabStop البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 تهيئة مثيل جديد لهذه الفئة.
 
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstop/tabstop/
 public TabStop(double position)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة.
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | أ[`TabAlignment`](../../tabalignment/) تحدد القيمة that محاذاة النص عند علامة التبويب هذه. |
 | leader | TabLeader | أ[`TabLeader`](../../tableader/) القيمة التي تحدد نوع السطر الرئيسي المعروض أسفل حرف علامة التبويب. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

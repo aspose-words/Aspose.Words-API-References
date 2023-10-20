@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words لمراجع .NET API
-description: XamlFixedSaveOptions ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور والخطوط عند تصدير مستند إلى تنسيق Xaml لصفحة ثابتة. الافتراضي هوباطل .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words لـ .NET
+description: XamlFixedSaveOptions ResourcesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور والخطوط عند تصدير مستند إلى تنسيق Xaml لصفحة ثابتة. الافتراضي هوباطل  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) في تنسيق Xaml للصفحة الثابتة، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.`ResourcesFolder` يسمح لك بتحديد مكان حفظ الصور و[`ResourcesFolderAlias`](../resourcesfolderalias/) يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
@@ -22,7 +24,7 @@ public string ResourcesFolder { get; set; }
 
 إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه باستخدام الملف`ResourcesFolder` ملكية
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى صيغة .xaml ذات النموذج الثابت.
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### أنظر أيضا
 
 * class [XamlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

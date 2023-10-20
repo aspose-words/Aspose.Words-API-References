@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPermissions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfPermissions تعداد. يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر.
+title: PdfPermissions Enum
+linktitle: PdfPermissions
+articleTitle: PdfPermissions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfPermissions تعداد. يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر في C#.
 type: docs
 weight: 5510
 url: /ar/net/aspose.words.saving/pdfpermissions/
@@ -30,7 +32,7 @@ public enum PdfPermissions
 | Printing | `4` | طباعة المستند (ربما ليس على أعلى مستوى من الجودة، اعتمادًا على ما إذا كان HighResolutionPrinting تم ضبطه أيضًا). |
 | HighResolutionPrinting | `804` | اطبع المستند إلى تمثيل يمكن من خلاله إنشاء نسخة رقمية صحيحة من محتوى PDF ، بناءً على خوارزمية تعتمد على التنفيذ. عندما تكون هذه العلامة واضحة (and Printing تم تعيينه)، يجب أن تقتصر الطباعة على تمثيل منخفض المستوى للمظهر، ربما ذو جودة متدهورة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

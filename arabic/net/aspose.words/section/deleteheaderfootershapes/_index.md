@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. حذف كافة الأشكال الكائنات الرسومية من رؤوس وتذييلات هذا القسم.
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: Aspose.Words لـ .NET
+description: Section DeleteHeaderFooterShapes طريقة. حذف كافة الأشكال الكائنات الرسومية من رؤوس وتذييلات هذا القسم في C#.
 type: docs
-weight: 140
+weight: 120
 url: /ar/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/deleteheaderfootershapes/
 public void DeleteHeaderFooterShapes()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة كافة الأشكال من كافة الرؤوس والتذييلات في القسم.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### أنظر أيضا
 
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

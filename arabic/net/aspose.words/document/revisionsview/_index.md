@@ -1,7 +1,9 @@
 ---
 title: Document.RevisionsView
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند.
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words لـ .NET
+description: Document RevisionsView ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند في C#.
 type: docs
 weight: 360
 url: /ar/net/aspose.words/document/revisionsview/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/revisionsview/
 public RevisionsView RevisionsView { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التبديل بين العرض الأصلي والمراجع للمستند.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

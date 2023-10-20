@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين سلسلة يجب أن تتطابق مع معرفات النوع لحقول TC المضمنة.
+linktitle: EntryIdentifier
+articleTitle: EntryIdentifier
+second_title: Aspose.Words لـ .NET
+description: FieldToc EntryIdentifier ملكية. الحصول على أو تعيين سلسلة يجب أن تتطابق مع معرفات النوع لحقول TC المضمنة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/entryidentifier/
 public string EntryIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول TC التي تنتهي كمدخلات.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

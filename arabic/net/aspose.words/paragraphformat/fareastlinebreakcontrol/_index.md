@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على علامة تشير إلى ما إذا كانت قواعد فصل الأسطر في شرق آسيا مطبقة على الفقرة الحالية أو تعيينها.
+linktitle: FarEastLineBreakControl
+articleTitle: FarEastLineBreakControl
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat FarEastLineBreakControl ملكية. الحصول على علامة تشير إلى ما إذا كانت قواعد فصل الأسطر في شرق آسيا مطبقة على الفقرة الحالية أو تعيينها في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خصائص خاصة للطباعة الآسيوية.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

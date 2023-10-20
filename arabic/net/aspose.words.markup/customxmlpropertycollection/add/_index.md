@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection طريقة. إضافة خاصية إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection Add طريقة. إضافة خاصية إلى المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomXmlProperty property)
 | --- | --- | --- |
 | property | CustomXmlProperty | الخاصية المراد إضافتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -76,7 +78,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

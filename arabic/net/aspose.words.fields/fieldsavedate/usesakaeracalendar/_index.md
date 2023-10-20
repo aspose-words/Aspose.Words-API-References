@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseSakaEraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSaveDate ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldSaveDate UseSakaEraCalendar ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الحقل "حفظ" لعرض تاريخ/وقت آخر عملية حفظ للمستند تم تنفيذها باستخدام Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### أنظر أيضا
 
 * class [FieldSaveDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsavedate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

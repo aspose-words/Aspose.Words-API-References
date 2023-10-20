@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Aspose.Words لمراجع .NET API
-description: PlainTextDocument ملكية. الحصول على المحتوى النصي للمستند متسلسل كسلسلة.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: PlainTextDocument Text ملكية. الحصول على المحتوى النصي للمستند متسلسل كسلسلة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/plaintextdocument/text/
 public string Text { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### أنظر أيضا
 
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

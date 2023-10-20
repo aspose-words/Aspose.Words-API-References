@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Underline
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل على/يحدد نوع التسطير للخط الحالي.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder Underline ملكية. يحصل على/يحدد نوع التسطير للخط الحالي في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/documentbuilder/underline/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/underline/
 public Underline Underline { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النص المدرج بواسطة منشئ المستندات.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");
 
 * enum [Underline](../../underline/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

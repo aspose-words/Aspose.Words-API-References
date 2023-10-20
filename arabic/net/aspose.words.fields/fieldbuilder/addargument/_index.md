@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBuilder طريقة. إضافة وسيطة الحقل.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words لـ .NET
+description: FieldBuilder AddArgument طريقة. إضافة وسيطة الحقل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 إضافة وسيطة الحقل.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | قيمة الوسيطة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 إضافة وسيطة الحقل.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | قيمة الوسيطة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 إضافة وسيطة الحقل.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | قيمة الوسيطة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 إضافة حقل فرعي يمثله حقل آخر[`FieldBuilder`](../) إلى رمز الحقل.
 
@@ -314,11 +316,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذا التحميل الزائد عندما تتكون الوسيطة من حقل فرعي واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 يضيف وسيطة الحقل الممثلة بـ[`FieldArgumentBuilder`](../../fieldargumentbuilder/) إلى رمز الحقل.
 
@@ -414,11 +416,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذا التحميل الزائد عندما تتكون الوسيطة من خليط من أجزاء مختلفة مثل الحقول الفرعية والعقد والنص العادي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

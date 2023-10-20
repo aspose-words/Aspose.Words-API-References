@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions ملكية. الحصول على أو تعيين الخيار المفضل لمعالجة المسافة الزائدة. القيمة الافتراضية هيTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words لـ .NET
+description: TxtLoadOptions TrailingSpacesOptions ملكية. الحصول على أو تعيين الخيار المفضل لمعالجة المسافة الزائدة. القيمة الافتراضية هيTrim  في C#.
 type: docs
-weight: 70
+weight: 60
 url: /ar/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قطع المسافة البيضاء عند تحميل مستندات النص العادي.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../txtloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

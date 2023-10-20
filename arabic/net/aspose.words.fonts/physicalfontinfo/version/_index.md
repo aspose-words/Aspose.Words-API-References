@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Aspose.Words لمراجع .NET API
-description: PhysicalFontInfo ملكية. سلسلة إصدار الخط.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words لـ .NET
+description: PhysicalFontInfo Version ملكية. سلسلة إصدار الخط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/physicalfontinfo/version/
 public string Version { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية سرد الخطوط المتاحة.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### أنظر أيضا
 
 * class [PhysicalFontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../physicalfontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

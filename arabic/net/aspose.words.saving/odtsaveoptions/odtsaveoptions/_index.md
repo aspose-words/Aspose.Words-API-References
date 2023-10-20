@@ -1,7 +1,9 @@
 ---
-title: OdtSaveOptions.OdtSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: OdtSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt التنسيق.
+title: OdtSaveOptions
+linktitle: OdtSaveOptions
+articleTitle: OdtSaveOptions
+second_title: Aspose.Words لـ .NET
+description: OdtSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 public OdtSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية جعل المستند المحفوظ يتوافق مع مخطط ODT الأقدم.
 
@@ -33,12 +35,12 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### أنظر أيضا
 
 * class [OdtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../odtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions(*string*) {#constructor_2}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt format مشفر بكلمة مرور.
 
@@ -49,12 +51,12 @@ public OdtSaveOptions(string password)
 ### أنظر أيضا
 
 * class [OdtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../odtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt أو Ott التنسيق.
 
@@ -66,7 +68,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | يمكن ان يكونOdt أوOtt. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تشفير مستند ODT/OTT المحفوظ بكلمة مرور، ثم تحميله باستخدام Aspose.Words.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../odtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

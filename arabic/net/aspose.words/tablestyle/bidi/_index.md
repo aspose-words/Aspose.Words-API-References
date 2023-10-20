@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Bidi
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words لـ .NET
+description: TableStyle Bidi ملكية. الحصول على أو تعيين ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/tablestyle/bidi/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/tablestyle/bidi/
 public bool Bidi { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 متى`حقيقي`، يتم وضع الخلايا الموجودة في الصفوف من اليمين إلى اليسار.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFormatMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.LowCode.MergeFormatMode تعداد. يحدد كيفية دمج التنسيق عند دمج مستندات متعددة.
+title: MergeFormatMode Enum
+linktitle: MergeFormatMode
+articleTitle: MergeFormatMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.LowCode.MergeFormatMode تعداد. يحدد كيفية دمج التنسيق عند دمج مستندات متعددة في C#.
 type: docs
 weight: 3750
 url: /ar/net/aspose.words.lowcode/mergeformatmode/
@@ -26,5 +28,3 @@ public enum MergeFormatMode
 
 * مساحة الاسم [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * المجسم [Aspose.Words](../../)
-
-

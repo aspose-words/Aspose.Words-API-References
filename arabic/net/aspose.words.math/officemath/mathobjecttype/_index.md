@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.MathObjectType
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath ملكية. يحصل على النوعMathObjectType لكائن Office Math هذا.
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words لـ .NET
+description: OfficeMath MathObjectType ملكية. يحصل على النوعMathObjectType لكائن Office Math هذا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.math/officemath/mathobjecttype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.math/officemath/mathobjecttype/
 public MathObjectType MathObjectType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية في المكتب في المستند.
 
@@ -107,7 +109,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * enum [MathObjectType](../../mathobjecttype/)
 * class [OfficeMath](../)
-* مساحة الاسم [Aspose.Words.Math](../../officemath/)
+* مساحة الاسم [Aspose.Words.Math](../../../aspose.words.math/)
 * المجسم [Aspose.Words](../../../)
-
-

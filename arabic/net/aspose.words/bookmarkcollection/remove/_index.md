@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkCollection طريقة. إزالة الإشارة المرجعية المحددة من المستند.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: BookmarkCollection Remove طريقة. إزالة الإشارة المرجعية المحددة من المستند في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 إزالة الإشارة المرجعية المحددة من المستند.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | الإشارة المرجعية المراد إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الإشارات المرجعية من مستند.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 إزالة إشارة مرجعية بالاسم المحدد.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | الاسم غير الحساس لحالة الأحرف للإشارة المرجعية المطلوب إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الإشارات المرجعية من مستند.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### أنظر أيضا
 
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

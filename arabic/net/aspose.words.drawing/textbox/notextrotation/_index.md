@@ -1,7 +1,9 @@
 ---
 title: TextBox.NoTextRotation
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى عدم تدوير نص مربع النص عند تدوير الشكل.
+linktitle: NoTextRotation
+articleTitle: NoTextRotation
+second_title: Aspose.Words لـ .NET
+description: TextBox NoTextRotation ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى عدم تدوير نص مربع النص عند تدوير الشكل في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/textbox/notextrotation/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textbox/notextrotation/
 public bool NoTextRotation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعطيل تدوير النص عند تدوير الشكل.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Shape.NoTextRotation.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

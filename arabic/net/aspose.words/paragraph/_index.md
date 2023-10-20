@@ -1,7 +1,9 @@
 ---
-title: Class Paragraph
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Paragraph فصل. يمثل فقرة من النص.
+title: Paragraph Class
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Paragraph فصل. يمثل فقرة من النص في C#.
 type: docs
 weight: 4390
 url: /ar/net/aspose.words/paragraph/
@@ -20,7 +22,7 @@ public class Paragraph : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | تهيئة مثيل جديد لـ`Paragraph` فئة. |
+| [Paragraph](paragraph/)(*[DocumentBase](../documentbase/)*) | تهيئة مثيل جديد لـ`Paragraph` فئة. |
 
 ## الخصائص
 
@@ -63,42 +65,40 @@ public class Paragraph : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | يقبل الزائر. |
-| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | إلحاق حقل بهذه الفقرة. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | إلحاق حقل بهذه الفقرة. |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | إلحاق حقل بهذه الفقرة. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| override [Accept](../../aspose.words/paragraph/accept/)(*[DocumentVisitor](../documentvisitor/)*) | يقبل الزائر. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | إضافة العقدة المحددة إلى نهاية قائمة العقد التابعة لهذه العقدة. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(*string*) | إلحاق حقل بهذه الفقرة. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | إلحاق حقل بهذه الفقرة. |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(*string, string*) | إلحاق حقل بهذه الفقرة. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
 | [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | إرجاع مصفوفة من كافة علامات الجدولة المطبقة على هذه الفقرة، بما في ذلك المطبقة بشكل غير مباشر بواسطة الأنماط أو القوائم. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة. |
 | override [GetText](../../aspose.words/paragraph/gettext/)() | الحصول على نص هذه الفقرة بما في ذلك حرف نهاية الفقرة. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | إدراج حقل في هذه الفقرة. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | إدراج حقل في هذه الفقرة. |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | إدراج حقل في هذه الفقرة. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | يقوم بإدراج العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | إدراج حقل في هذه الفقرة. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | إدراج حقل في هذه الفقرة. |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | إدراج حقل في هذه الفقرة. |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | يتم تشغيل عمليات الانضمام بنفس التنسيق في الفقرة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | إضافة العقدة المحددة إلى بداية قائمة العقد التابعة لهذه العقدة. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | إزالة جميع العقد الفرعية للعقدة الحالية. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | إزالة العقدة الفرعية المحددة. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/)العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة العقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد الأول[`Node`](../node/) الذي يطابق تعبير XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | تحديد قائمة العقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | تحديد الأول[`Node`](../node/) الذي يطابق تعبير XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 `Paragraph` هي عقدة على مستوى الكتلة ويمكن أن تكون فرعًا للفئات المشتقة من [`Story`](../story/) أو[`InlineStory`](../inlinestory/).
 
@@ -110,7 +110,7 @@ public class Paragraph : CompositeNode
 
 لا تقم بتضمين نهاية الفقرة[`ParagraphBreak`](../controlchar/paragraphbreak/) أو نهاية الخلية[`Cell`](../controlchar/cell/) الأحرف الموجودة داخل نص الفقرة لأنها قد تجعل الفقرة غير صالحة عند فتح المستند في Microsoft Word.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -162,5 +162,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

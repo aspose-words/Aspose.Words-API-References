@@ -1,7 +1,9 @@
 ---
 title: Document.DigitalSignatures
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على مجموعة التوقيعات الرقمية لهذه الوثيقة ونتائج التحقق من صحتها.
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: Aspose.Words لـ .NET
+description: Document DigitalSignatures ملكية. الحصول على مجموعة التوقيعات الرقمية لهذه الوثيقة ونتائج التحقق من صحتها في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/document/digitalsignatures/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/digitalsignatures/
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي هذه المجموعة على التوقيعات الرقمية التي تم تحميلها من المستند الأصلي. لن يتم حفظ هذه التوقيعات الرقمية عندما تقوم بحفظ هذا[`Document`](../) object في ملف أو دفق لأن الحفظ أو التحويل سيؤدي إلى إنتاج مستند مختلف عن المستند الأصلي ولن تعد التوقيعات الرقمية الأصلية صالحة.
 
 هذه المجموعة ليست أبدا`باطل`. إذا لم يتم توقيع المستند، فسوف يحتوي على صفر عناصر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

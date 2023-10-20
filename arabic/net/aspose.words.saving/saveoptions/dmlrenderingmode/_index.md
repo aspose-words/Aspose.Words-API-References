@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML.
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words لـ .NET
+description: SaveOptions DmlRenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/saveoptions/dmlrenderingmode/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/saveoptions/dmlrenderingmode/
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيFallback .
 
 يتم استخدام هذه الخاصية عند تصدير المستند إلى تنسيقات صفحات ثابتة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الأشكال الاحتياطية عند الحفظ في ملف PDF.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

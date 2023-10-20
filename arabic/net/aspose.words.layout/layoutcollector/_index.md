@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.LayoutCollector فصل. تسمح هذه الفئة بحساب أرقام الصفحات لعقد المستند.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.LayoutCollector فصل. تسمح هذه الفئة بحساب أرقام الصفحات لعقد المستند في C#.
 type: docs
 weight: 3320
 url: /ar/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | اسم | وصف |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | تهيئة مثيل لهذه الفئة. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | تهيئة مثيل لهذه الفئة. |
 
 ## الخصائص
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | اسم | وصف |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | مسح كافة بيانات التخطيط المجمعة. قم باستدعاء هذه الطريقة بعد تحديث المستند يدويًا، أو إعادة إنشاء التخطيط. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | يحصل على فهرس مستند إلى 1 للصفحة التي تنتهي فيها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | إرجاع موضع معتم للملف[`LayoutEnumerator`](../layoutenumerator/) الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة ل[`Current`](../layoutenumerator/current/) نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | يحصل على عدد الصفحات التي تمتد عليها العقدة المحددة. 0 إذا كانت العقدة ضمن صفحة واحدة. وهذا هو نفسه[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | يحصل على فهرس مستند إلى 1 للصفحة التي تبدأ منها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | يحصل على فهرس مستند إلى 1 للصفحة التي تنتهي فيها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | إرجاع موضع معتم للملف[`LayoutEnumerator`](../layoutenumerator/) الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة ل[`Current`](../layoutenumerator/current/) نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | يحصل على عدد الصفحات التي تمتد عليها العقدة المحددة. 0 إذا كانت العقدة ضمن صفحة واحدة. وهذا هو نفسه[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | يحصل على فهرس مستند إلى 1 للصفحة التي تبدأ منها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة. |
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بإنشاء`LayoutCollector` وحدد أ[`Document`](../../aspose.words/document/) كائن المستند الذي سيتم إرفاقه به، سيقوم المجمع بتسجيل تعيين عقد المستند إلى كائنات التخطيط عند تنسيق المستند في صفحات.
 
@@ -46,7 +48,7 @@ public class LayoutCollector
 
 عندما لم تعد بحاجة إلى جمع معلومات التخطيط، فمن الأفضل تعيين[`Document`](./document/) الملكية ل`باطل` لتجنب التجميع غير الضروري لمزيد من تعيينات التخطيط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج البريد.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words لـ .NET
+description: MailMerge CleanupOptions ملكية. الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج البريد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الفقرات الفارغة التي قد تنشئها عملية دمج البريد من مستند إخراج الدمج.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

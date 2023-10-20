@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. صحيح إذا تم تحديث المراجع إلى حقل النموذج المحدد تلقائيًا عند الخروج من الحقل.
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: Aspose.Words لـ .NET
+description: FormField CalculateOnExit ملكية. صحيح إذا تم تحديث المراجع إلى حقل النموذج المحدد تلقائيًا عند الخروج من الحقل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/calculateonexit/
 public bool CalculateOnExit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 جلسة`CalculateOnExit` يؤثر فقط على سلوك حقل النموذج عندما يتم فتح المستند في Microsoft Word. لا يقوم Aspose.Words أبدًا بتحديث References إلى حقل النموذج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

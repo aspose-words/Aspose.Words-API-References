@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على أو تحديد ارتفاع الرمز. الوحدات في TWIPS 1/1440 بوصة.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words لـ .NET
+description: FieldMergeBarcode SymbolHeight ملكية. الحصول على أو تحديد ارتفاع الرمز. الوحدات في TWIPS 1/1440 بوصة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/fieldmergebarcode/symbolheight/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 public string SymbolHeight { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إجراء دمج البريد على رموز QR الشريطية.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### أنظر أيضا
 
 * class [FieldMergeBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergebarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

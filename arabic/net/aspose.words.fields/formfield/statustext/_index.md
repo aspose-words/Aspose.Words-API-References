@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. إرجاع أو تعيين النص المعروض في شريط الحالة عندما يكون حقل النموذج هو التركيز.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words لـ .NET
+description: FormField StatusText ملكية. إرجاع أو تعيين النص المعروض في شريط الحالة عندما يكون حقل النموذج هو التركيز في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/formfield/statustext/
 public string StatusText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا[`OwnStatus`](../ownstatus/) تم تعيين الخاصية على`حقيقي` ، ال`StatusText` تحدد الخاصية نص شريط الحالة. إذا كان[`OwnStatus`](../ownstatus/) تم تعيين الخاصية على`خطأ شنيع` ، ال`StatusText` تحدد الخاصية اسم إدخال AutoText الذي يحتوي على نص شريط الحالة لحقل النموذج.
 
 يسمح Microsoft Word بسلاسل تحتوي على 138 حرفًا على الأكثر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

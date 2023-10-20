@@ -1,7 +1,9 @@
 ---
-title: Enum MeasurementUnits
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MeasurementUnits تعداد. تحدد وحدة القياس.
+title: MeasurementUnits Enum
+linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MeasurementUnits تعداد. تحدد وحدة القياس في C#.
 type: docs
 weight: 4150
 url: /ar/net/aspose.words/measurementunits/
@@ -28,5 +30,3 @@ public enum MeasurementUnits
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.ClearQuickStyleGallery
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection طريقة. إزالة كافة الأنماط من لوحة Quick Style Gallery.
+linktitle: ClearQuickStyleGallery
+articleTitle: ClearQuickStyleGallery
+second_title: Aspose.Words لـ .NET
+description: StyleCollection ClearQuickStyleGallery طريقة. إزالة كافة الأنماط من لوحة Quick Style Gallery في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/stylecollection/clearquickstylegallery/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/stylecollection/clearquickstylegallery/
 public void ClearQuickStyleGallery()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الأنماط من لوحة Style Gallery.
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");
 ### أنظر أيضا
 
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

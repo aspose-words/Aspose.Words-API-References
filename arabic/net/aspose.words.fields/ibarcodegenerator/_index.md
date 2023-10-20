@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IBarcodeGenerator واجهه المستخدم. الواجهة العامة لمولد الباركود المخصص. يجب أن يتم التنفيذ من قبل المستخدم.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.IBarcodeGenerator واجهه المستخدم. الواجهة العامة لمولد الباركود المخصص. يجب أن يتم التنفيذ من قبل المستخدم في C#.
 type: docs
 weight: 2660
 url: /ar/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | اسم | وصف |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | إنشاء صورة باركود باستخدام مجموعة المعلمات (لحقل DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | إنشاء صورة باركود باستخدام مجموعة المعلمات (لحقل الباركود القديم). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | إنشاء صورة باركود باستخدام مجموعة المعلمات (لحقل DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | إنشاء صورة باركود باستخدام مجموعة المعلمات (لحقل الباركود القديم). |
 
-### ملاحظات
+## ملاحظات
 
 يجب تمرير مثيل المولد عبر ملف[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

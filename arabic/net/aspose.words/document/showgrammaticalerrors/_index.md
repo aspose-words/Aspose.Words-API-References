@@ -1,7 +1,9 @@
 ---
 title: Document.ShowGrammaticalErrors
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحدد ما إذا كان سيتم عرض الأخطاء النحوية في هذا المستند.
+linktitle: ShowGrammaticalErrors
+articleTitle: ShowGrammaticalErrors
+second_title: Aspose.Words لـ .NET
+description: Document ShowGrammaticalErrors ملكية. يحدد ما إذا كان سيتم عرض الأخطاء النحوية في هذا المستند في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words/document/showgrammaticalerrors/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/showgrammaticalerrors/
 public bool ShowGrammaticalErrors { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إظهار/إخفاء الأخطاء في المستند.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

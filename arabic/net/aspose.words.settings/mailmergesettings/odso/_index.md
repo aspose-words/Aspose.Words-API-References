@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. الحصول على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office ODSO أو تعيينه.
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings Odso ملكية. الحصول على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office ODSO أو تعيينه في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/mailmergesettings/odso/
 public Odso Odso { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذا الكائن أبدا`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.MWSmallCaps
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة Word 5.x لتنسيق Macintosh Small Caps.
+linktitle: MWSmallCaps
+articleTitle: MWSmallCaps
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions MWSmallCaps ملكية. محاكاة Word 5.x لتنسيق Macintosh Small Caps في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words.settings/compatibilityoptions/mwsmallcaps/
@@ -17,7 +19,5 @@ public bool MWSmallCaps { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

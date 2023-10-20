@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator البناء. تهيئة المثيل الجديد لهذه الفئة.
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator البناء. تهيئة المثيل الجديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,13 +20,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | مستند يتم تعداد نموذج تخطيط صفحته. |
 
-### ملاحظات
+## ملاحظات
 
 إذا لم يتم إنشاء نموذج تخطيط الصفحة للمستند، فسيتم استدعاء العداد[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) لبناءه.
 
 كلما تم تحديث المستند وإنشاء نموذج تخطيط صفحة جديد، يجب استخدام عداد جديد للوصول إليه.
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

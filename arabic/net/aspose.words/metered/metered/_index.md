@@ -1,7 +1,9 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Words لمراجع .NET API
-description: Metered البناء. تهيئة مثيل جديد لهذه الفئة.
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words لـ .NET
+description: Metered البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/metered/metered/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/metered/metered/
 public Metered()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تفعيل الترخيص المقنن وتتبع الرصيد/الاستهلاك.
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### أنظر أيضا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Words](../../metered/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

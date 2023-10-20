@@ -1,7 +1,9 @@
 ---
-title: Class Table
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.Table فصل. يمثل جدولاً في مستند Word.
+title: Table Class
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.Table فصل. يمثل جدولاً في مستند Word في C#.
 type: docs
 weight: 6340
 url: /ar/net/aspose.words.tables/table/
@@ -20,7 +22,7 @@ public class Table : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [Table](table/)(DocumentBase) | تهيئة مثيل جديد لـ`Table` فئة. |
+| [Table](table/)(*[DocumentBase](../../aspose.words/documentbase/)*) | تهيئة مثيل جديد لـ`Table` فئة. |
 
 ## الخصائص
 
@@ -75,42 +77,40 @@ public class Table : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/table/accept/)(DocumentVisitor) | يقبل الزائر. |
-| override [AcceptEnd](../../aspose.words.tables/table/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.tables/table/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AutoFit](../../aspose.words.tables/table/autofit/)(AutoFitBehavior) | تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد. |
+| override [Accept](../../aspose.words.tables/table/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | يقبل الزائر. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | إضافة العقدة المحددة إلى نهاية قائمة العقد التابعة لهذه العقدة. |
+| [AutoFit](../../aspose.words.tables/table/autofit/)(*[AutoFitBehavior](../autofitbehavior/)*) | تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد. |
 | [ClearBorders](../../aspose.words.tables/table/clearborders/)() | إزالة كافة حدود الجدول والخلايا في هذا الجدول. |
 | [ClearShading](../../aspose.words.tables/table/clearshading/)() | إزالة كل التظليل الموجود على الطاولة. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | تحويل الخلايا المدمجة أفقيا حسب العرض إلى الخلايا المدمجة بها[`HorizontalMerge`](../cellformat/horizontalmerge/) . |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها. |
 | [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | إذا لم يكن الجدول يحتوي على صفوف، فسيتم إنشاء واحد وإلحاقه[`Row`](../row/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | يقوم بإدراج العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | إضافة العقدة المحددة إلى بداية قائمة العقد التابعة لهذه العقدة. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | إزالة جميع العقد الفرعية للعقدة الحالية. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | إزالة العقدة الفرعية المحددة. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/)العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة العقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد الأول[`Node`](../../aspose.words/node/) الذي يطابق تعبير XPath. |
-| [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | يضبط حدود الجدول المحدد على نمط الخط المحدد والعرض واللون. |
-| [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد. |
-| [SetShading](../../aspose.words.tables/table/setshading/)(TextureIndex, Color, Color) | يضبط التظليل على القيم المحددة في الجدول بأكمله. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | تحديد قائمة العقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | تحديد الأول[`Node`](../../aspose.words/node/) الذي يطابق تعبير XPath. |
+| [SetBorder](../../aspose.words.tables/table/setborder/)(*[BorderType](../../aspose.words/bordertype/), [LineStyle](../../aspose.words/linestyle/), double, Color, bool*) | يضبط حدود الجدول المحدد على نمط الخط المحدد والعرض واللون. |
+| [SetBorders](../../aspose.words.tables/table/setborders/)(*[LineStyle](../../aspose.words/linestyle/), double, Color*) | يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد. |
+| [SetShading](../../aspose.words.tables/table/setshading/)(*[TextureIndex](../../aspose.words/textureindex/), Color, Color*) | يضبط التظليل على القيم المحددة في الجدول بأكمله. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 `Table`هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة منها[`Story`](../../aspose.words/story/) أو [`InlineStory`](../../aspose.words/inlinestory/).
 
@@ -118,7 +118,7 @@ public class Table : CompositeNode
 
 يجب أن يحتوي الحد الأدنى من الجدول الصالح على واحد على الأقل[`Row`](../row/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول.
 
@@ -285,5 +285,3 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 * class [CompositeNode](../../aspose.words/compositenode/)
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

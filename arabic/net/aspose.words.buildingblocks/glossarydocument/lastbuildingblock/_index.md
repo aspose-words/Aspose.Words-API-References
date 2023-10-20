@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
-second_title: Aspose.Words لمراجع .NET API
-description: GlossaryDocument ملكية. الحصول على العنصر الأساسي الأخير في مستند المسرد.
+linktitle: LastBuildingBlock
+articleTitle: LastBuildingBlock
+second_title: Aspose.Words لـ .NET
+description: GlossaryDocument LastBuildingBlock ملكية. الحصول على العنصر الأساسي الأخير في مستند المسرد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم تكن هناك كتل بناء متاحة.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

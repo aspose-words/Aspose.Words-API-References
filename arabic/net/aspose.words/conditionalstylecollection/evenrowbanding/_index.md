@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط ربط الصفوف الزوجية.
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection EvenRowBanding ملكية. الحصول على نمط ربط الصفوف الزوجية في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/evenrowbanding/
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

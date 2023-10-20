@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveFromRevision
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن حذفه في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsMoveFromRevision ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن حذفه في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/paragraph/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق مما إذا كانت الفقرة عبارة عن مراجعة منقولة.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

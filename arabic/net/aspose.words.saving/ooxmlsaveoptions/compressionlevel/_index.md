@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.CompressionLevel
-second_title: Aspose.Words لمراجع .NET API
-description: OoxmlSaveOptions ملكية. يحدد مستوى الضغط المستخدم لحفظ المستند. القيمة الافتراضية هيNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words لـ .NET
+description: OoxmlSaveOptions CompressionLevel ملكية. يحدد مستوى الضغط المستخدم لحفظ المستند. القيمة الافتراضية هيNormal  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مستوى الضغط المطلوب استخدامه أثناء حفظ مستند OOXML.
 
@@ -47,7 +49,5 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [OoxmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

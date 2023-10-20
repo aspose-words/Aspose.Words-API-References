@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.LockFields
-second_title: Aspose.Words لمراجع .NET API
-description: FieldInclude ملكية. الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن.
+linktitle: LockFields
+articleTitle: LockFields
+second_title: Aspose.Words لـ .NET
+description: FieldInclude LockFields ملكية. الحصول على أو تعيين ما إذا كان سيتم منع تحديث الحقول الموجودة في المستند المضمن في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldinclude/lockfields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldinclude/lockfields/
 public bool LockFields { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDE وتعيين خصائصه.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### أنظر أيضا
 
 * class [FieldInclude](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldinclude/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

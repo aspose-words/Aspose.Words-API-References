@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControlCollection ملكية. الحصول على عدد الكائنات الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: Forms2OleControlCollection Count ملكية. الحصول على عدد الكائنات الموجودة في المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### أنظر أيضا
 
 * class [Forms2OleControlCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

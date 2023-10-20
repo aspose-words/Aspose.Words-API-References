@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListTrailingCharacter تعداد. يحدد الحرف الذي يفصل تسمية القائمة عن نص الفقرة.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListTrailingCharacter تعداد. يحدد الحرف الذي يفصل تسمية القائمة عن نص الفقرة في C#.
 type: docs
 weight: 3540
 url: /ar/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | يتم وضع مسافة بين عنوان القائمة ونص الفقرة. |
 | Nothing | `2` | لا يوجد حرف فاصل بين تسمية القائمة ونص الفقرة. |
 
-### ملاحظات
+## ملاحظات
 
 تستخدم كقيمة ل[`TrailingCharacter`](../listlevel/trailingcharacter/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Show
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxisTitle ملكية. تحديد ما إذا كان سيتم عرض العنوان للمحور أم لا. القيمة الافتراضية هيخطأ شنيع .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words لـ .NET
+description: ChartAxisTitle Show ملكية. تحديد ما إذا كان سيتم عرض العنوان للمحور أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
-weight: 30
+weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxistitle/show/
 public bool Show { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عنوان محور المخطط.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### أنظر أيضا
 
 * class [ChartAxisTitle](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

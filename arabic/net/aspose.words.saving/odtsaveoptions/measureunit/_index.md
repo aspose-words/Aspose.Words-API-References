@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.MeasureUnit
-second_title: Aspose.Words لمراجع .NET API
-description: OdtSaveOptions ملكية. يسمح بتحديد وحدات القياس لتطبيقها على محتوى المستند. القيمة الافتراضية هيCentimeters
+linktitle: MeasureUnit
+articleTitle: MeasureUnit
+second_title: Aspose.Words لـ .NET
+description: OdtSaveOptions MeasureUnit ملكية. يسمح بتحديد وحدات القياس لتطبيقها على محتوى المستند. القيمة الافتراضية هيCentimeters في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/odtsaveoptions/measureunit/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/odtsaveoptions/measureunit/
 public OdtSaveMeasureUnit MeasureUnit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يستخدم Open Office السنتيمترات عند تحديد الأطوال والعروض وغيرها من التنسيقات القابلة للقياس وخصائص المحتوى في المستندات بينما يستخدم MS Office البوصات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام وحدات قياس مختلفة لتحديد معلمات النمط لمستند ODT المحفوظ.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
 * class [OdtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../odtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين مقيم تعبيرات مقارنة الحقول.
+linktitle: ComparisonExpressionEvaluator
+articleTitle: ComparisonExpressionEvaluator
+second_title: Aspose.Words لـ .NET
+description: FieldOptions ComparisonExpressionEvaluator ملكية. الحصول على أو تعيين مقيم تعبيرات مقارنة الحقول في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -99,7 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldFileName.IncludeFullPath
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFileName ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words لـ .NET
+description: FieldFileName IncludeFullPath ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldfilename/includefullpath/
 public bool IncludeFullPath { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام FieldOptions لتجاوز القيمة الافتراضية لحقل FILENAME.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### أنظر أيضا
 
 * class [FieldFileName](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfilename/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

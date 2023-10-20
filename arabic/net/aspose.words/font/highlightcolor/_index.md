@@ -1,7 +1,9 @@
 ---
 title: Font.HighlightColor
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين لون التمييز علامة التحديد.
+linktitle: HighlightColor
+articleTitle: HighlightColor
+second_title: Aspose.Words لـ .NET
+description: Font HighlightColor ملكية. الحصول على أو تعيين لون التمييز علامة التحديد في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/font/highlightcolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/highlightcolor/
 public Color HighlightColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

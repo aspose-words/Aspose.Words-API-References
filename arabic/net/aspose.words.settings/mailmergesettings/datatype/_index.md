@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. تحديد نوع مصدر بيانات دمج المراسلات وطريقة الوصول إلى البيانات. القيمة الافتراضية هيDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings DataType ملكية. تحديد نوع مصدر بيانات دمج المراسلات وطريقة الوصول إلى البيانات. القيمة الافتراضية هيDefault  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/datatype/
 public MailMergeDataType DataType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

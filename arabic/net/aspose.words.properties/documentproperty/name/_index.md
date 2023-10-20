@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. إرجاع اسم الخاصية.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty Name ملكية. إرجاع اسم الخاصية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.properties/documentproperty/name/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/documentproperty/name/
 public string Name { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل` ولا يمكن أن تكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

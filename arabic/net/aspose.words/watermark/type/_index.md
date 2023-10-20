@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Aspose.Words لمراجع .NET API
-description: Watermark ملكية. الحصول على نوع العلامة المائية.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: Watermark Type ملكية. الحصول على نوع العلامة المائية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

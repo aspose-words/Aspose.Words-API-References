@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف الإرجاع x000d أو r. مثلParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words لـ .NET
+description: ControlChar Cr مجال. حرف الإرجاع x000d أو r. مثلParagraphBreak  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/cr/
 public static readonly string Cr;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أحرف التحكم.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

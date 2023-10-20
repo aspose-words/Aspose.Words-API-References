@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeInserting
-second_title: Aspose.Words لمراجع .NET API
-description: INodeChangingCallback طريقة. يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك أن يتم إدراجها في عقدة أخرى.
+linktitle: NodeInserting
+articleTitle: NodeInserting
+second_title: Aspose.Words لـ .NET
+description: INodeChangingCallback NodeInserting طريقة. يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك أن يتم إدراجها في عقدة أخرى في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/inodechangingcallback/nodeinserting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inodechangingcallback/nodeinserting/
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* مساحة الاسم [Aspose.Words](../../inodechangingcallback/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

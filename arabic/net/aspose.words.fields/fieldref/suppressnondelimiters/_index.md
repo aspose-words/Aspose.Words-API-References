@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تعيين ما إذا كان سيتم منع الأحرف غير المحددة.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words لـ .NET
+description: FieldRef SuppressNonDelimiters ملكية. الحصول على أو تعيين ما إذا كان سيتم منع الأحرف غير المحددة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldref/suppressnondelimiters/
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول REF للإشارة إلى الإشارات المرجعية.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### أنظر أيضا
 
 * class [FieldRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

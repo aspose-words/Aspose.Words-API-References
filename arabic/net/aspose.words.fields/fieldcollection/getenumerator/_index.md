@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: FieldCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcollection/getenumerator/
 public IEnumerator<Field> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

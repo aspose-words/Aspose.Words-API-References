@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
-second_title: Aspose.Words لمراجع .NET API
-description: ImageFieldMergingArgs ملكية. يحدد ارتفاع الصورة المراد إدراجها في المستند.
+linktitle: ImageHeight
+articleTitle: ImageHeight
+second_title: Aspose.Words لـ .NET
+description: ImageFieldMergingArgs ImageHeight ملكية. يحدد ارتفاع الصورة المراد إدراجها في المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
 public MergeFieldImageDimension ImageHeight { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تأتي قيمة هذه الخاصية في البداية من كود MERGEFIELD المطابق، الموجود في مستند قالب . لتجاوز القيمة الأولية، يجب عليك تعيين مثيل of [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) فئة لهذه الخاصية أو قم بتعيين خصائص المثيل of[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) فئة تم إرجاعها بواسطة هذه الخاصية.
 
 للإشارة إلى ضرورة تطبيق القيمة الأصلية لارتفاع الصورة، يجب عليك تعيين`باطل` قيمة لهذه الخاصية أو قم بتعيين القيمة[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) خاصية المثيل of[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) الفئة التي تم إرجاعها بواسطة هذه الخاصية إلى قيمة سالبة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أبعاد الصور كما يقبلها MERGEFIELDS أثناء دمج البريد.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. وضع خط تحت الحرف التالي للترقيم.
+linktitle: UnderlineTabInNumList
+articleTitle: UnderlineTabInNumList
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions UnderlineTabInNumList ملكية. وضع خط تحت الحرف التالي للترقيم في C#.
 type: docs
 weight: 590
 url: /ar/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
@@ -17,7 +19,5 @@ public bool UnderlineTabInNumList { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

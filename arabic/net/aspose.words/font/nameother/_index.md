@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أو تعيين الخط المستخدم للأحرف ذات رموز الأحرف من 128 إلى 255.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words لـ .NET
+description: Font NameOther ملكية. إرجاع أو تعيين الخط المستخدم للأحرف ذات رموز الأحرف من 128 إلى 255 في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/nameother/
 public string NameOther { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لـ Microsoft Word الجمع بين خطين مختلفين في تشغيل واحد.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.XPath
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على XPath أو تعيينه للجزء المطلوب من ملف XML.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText XPath ملكية. الحصول على XPath أو تعيينه للجزء المطلوب من ملف XML في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fieldincludetext/xpath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludetext/xpath/
 public string XPath { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDETEXT وتعيين خصائصه.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

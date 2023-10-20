@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FormFieldCollection فصل. مجموعة منFormField الكائنات التي تمثل جميع حقول النموذج في النطاق.
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FormFieldCollection فصل. مجموعة منFormField الكائنات التي تمثل جميع حقول النموذج في النطاق في C#.
 type: docs
 weight: 2630
 url: /ar/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | إزالة كافة حقول النموذج من هذه المجموعة ومن المستند. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | يُرجع كائن العداد. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | إزالة حقل نموذج بالاسم المحدد. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | إزالة حقل نموذج في الفهرس المحدد. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | إزالة حقل نموذج بالاسم المحدد. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | إزالة حقل نموذج في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.VerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. يحدد المحاذاة العمودية للخلايا.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: TableStyle VerticalAlignment ملكية. يحدد المحاذاة العمودية للخلايا في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/tablestyle/verticalalignment/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/tablestyle/verticalalignment/
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيTop .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValue طريقة. الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: ChartYValue Equals طريقة. الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### أنظر أيضا
 
 * class [ChartYValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

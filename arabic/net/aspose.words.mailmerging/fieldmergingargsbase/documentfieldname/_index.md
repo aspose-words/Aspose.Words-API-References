@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. يحصل على اسم حقل الدمج كما هو محدد في الوثيقة.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgsBase DocumentFieldName ملكية. يحصل على اسم حقل الدمج كما هو محدد في الوثيقة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
 public string DocumentFieldName { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كان لديك تعيين من اسم حقل مستند إلى اسم حقل مصدر بيانات مختلف، ، فهذا هو اسم الحقل الأصلي كما هو محدد في المستند.
 
 إذا قمت بتحديد بادئة اسم حقل، على سبيل المثال "Image:MyFieldName" في المستند، ، ثم`DocumentFieldName` تقوم بإرجاع اسم الحقل بدون البادئة، وهي "MyFieldName".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [FieldMergingArgsBase](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

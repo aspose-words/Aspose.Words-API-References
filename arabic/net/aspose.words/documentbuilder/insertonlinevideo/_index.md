@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج كائن فيديو عبر الإنترنت في المستند وتغيير حجمه إلى الحجم المحدد.
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertOnlineVideo طريقة. إدراج كائن فيديو عبر الإنترنت في المستند وتغيير حجمه إلى الحجم المحدد في C#.
 type: docs
-weight: 420
+weight: 410
 url: /ar/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 إدراج كائن فيديو عبر الإنترنت في المستند وتغيير حجمه إلى الحجم المحدد.
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
@@ -37,7 +39,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 يمكن أن يختلف رمز تضمين الفيديو بين مقدمي الخدمة، لذا استشر المزود الذي تختاره للحصول على التفاصيل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مقطع فيديو عبر الإنترنت في مستند باستخدام عنوان URL.
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 إدراج كائن فيديو عبر الإنترنت في المستند وتغيير حجمه إلى الحجم المحدد.
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
@@ -97,7 +99,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 يمكن أن يختلف رمز تضمين الفيديو بين مقدمي الخدمة، لذا استشر المزود الذي تختاره للحصول على التفاصيل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مقطع فيديو عبر الإنترنت في مستند.
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 إدراج كائن فيديو عبر الإنترنت في المستند وتغيير حجمه إلى الحجم المحدد.
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مقطع فيديو عبر الإنترنت في مستند باستخدام صورة مصغرة مخصصة.
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 إدراج كائن فيديو عبر الإنترنت في المستند وتغيير حجمه إلى الحجم المحدد.
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مقطع فيديو عبر الإنترنت في مستند باستخدام صورة مصغرة مخصصة.
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

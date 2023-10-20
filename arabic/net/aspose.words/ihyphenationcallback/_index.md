@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.IHyphenationCallback واجهه المستخدم. يتم تنفيذه بواسطة الفئات التي يمكنها تسجيل قواميس الواصلة.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.IHyphenationCallback واجهه المستخدم. يتم تنفيذه بواسطة الفئات التي يمكنها تسجيل قواميس الواصلة في C#.
 type: docs
 weight: 3190
 url: /ar/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | اسم | وصف |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | لإعلام التطبيق بأنه لم يتم العثور على قاموس الواصلة للغة المحددة وقد يلزم تسجيله. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | لإعلام التطبيق بأنه لم يتم العثور على قاموس الواصلة للغة المحددة وقد يلزم تسجيله. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

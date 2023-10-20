@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPart طريقة. يقوم بإنشاء نسخة عميقة بما فيه الكفاية من الكائن. لا يكرر بايتات ملفData القيمة.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: CustomPart Clone طريقة. يقوم بإنشاء نسخة عميقة بما فيه الكفاية من الكائن. لا يكرر بايتات ملفData القيمة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/custompart/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/custompart/clone/
 public CustomPart Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

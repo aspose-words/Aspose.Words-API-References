@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين إشارات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول.
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: Aspose.Words لـ .NET
+description: Table StyleOptions ملكية. الحصول على أو تعيين إشارات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/styleoptions/
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

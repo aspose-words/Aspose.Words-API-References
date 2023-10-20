@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين تباعد الأسطر بالنقاط للفقرة.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat LineSpacing ملكية. الحصول على أو تعيين تباعد الأسطر بالنقاط للفقرة في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/paragraphformat/linespacing/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/paragraphformat/linespacing/
 public double LineSpacing { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 متى[`LineSpacingRule`](../linespacingrule/) تم تعيين الخاصية علىAtLeast ، يمكن أن يكون تباعد الأسطر أكبر من أو يساوي ‎ ولكن لا يقل أبدًا عن المحدد`LineSpacing` قيمة.
 
 متى[`LineSpacingRule`](../linespacingrule/) تم تعيين الخاصية علىExactly ، لا يتغير تباعد الأسطر أبدًا من المحدد`LineSpacing` القيمة، حتى إذا تم استخدام خط أكبر داخل الفقرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع تباعد الأسطر.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

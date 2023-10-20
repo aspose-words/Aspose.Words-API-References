@@ -1,7 +1,9 @@
 ---
-title: WebExtensionBinding.WebExtensionBinding
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionBinding البناء. ينشئ ربط ملحق الويب بمعلمات محددة.
+title: WebExtensionBinding
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words لـ .NET
+description: WebExtensionBinding البناء. ينشئ ربط ملحق الويب بمعلمات محددة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
@@ -20,7 +22,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | نوع ملزمة. |
 | appRef | String | مفتاح الربط المستخدم لتعيين إدخال الربط في هذه القائمة مع البيانات المرتبطة في المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

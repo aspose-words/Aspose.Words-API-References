@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IBibliographyStylesProvider واجهه المستخدم. قم بتنفيذ هذه الواجهة لتوفير نمط المراجع لـ FieldBibliography وFieldCitation الحقول عند تحديثها.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider واجهه المستخدم. قم بتنفيذ هذه الواجهة لتوفير نمط المراجع لـ FieldBibliography وFieldCitation الحقول عند تحديثها في C#.
 type: docs
 weight: 2670
 url: /ar/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | اسم | وصف |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | إرجاع نمط المراجع. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | إرجاع نمط المراجع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاوز الأنماط المضمنة أو توفير أنماط مخصصة.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

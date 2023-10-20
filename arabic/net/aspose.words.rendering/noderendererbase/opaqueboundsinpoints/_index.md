@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase ملكية. الحصول على الحدود المعتمة للشكل بالنقاط.
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase OpaqueBoundsInPoints ملكية. الحصول على الحدود المعتمة للشكل بالنقاط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الخاصية بإرجاع المربع المحيط بالشكل المعتم (أي يتم تجاهل الأجزاء الشفافة من الشكل). تأخذ الحدود دوران الشكل في الاعتبار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

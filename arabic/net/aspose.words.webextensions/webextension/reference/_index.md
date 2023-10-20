@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtension ملكية. يحدد المرجع الأساسي لامتداد الويب.
+linktitle: Reference
+articleTitle: Reference
+second_title: Aspose.Words لـ .NET
+description: WebExtension Reference ملكية. يحدد المرجع الأساسي لامتداد الويب في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextension/reference/
 public WebExtensionReference Reference { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextension/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

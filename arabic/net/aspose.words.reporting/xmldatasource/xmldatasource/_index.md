@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: XmlDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات الافتراضية لتحميل بيانات XML.
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words لـ .NET
+description: XmlDataSource البناء. إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات الافتراضية لتحميل بيانات XML في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات الافتراضية لتحميل بيانات XML.
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### أنظر أيضا
 
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 إنشاء مصدر بيانات جديد ببيانات من تدفق XML باستخدام الخيارات الافتراضية لتحميل بيانات XML.
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### أنظر أيضا
 
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام options الافتراضية لتحميل بيانات XML.
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### أنظر أيضا
 
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام options الافتراضية لتحميل بيانات XML.
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### أنظر أيضا
 
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات المحددة لتحميل بيانات XML.
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 إنشاء مصدر بيانات جديد ببيانات من تدفق XML باستخدام الخيارات المحددة لتحميل بيانات XML.
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML.
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML.
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../xmldatasource/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

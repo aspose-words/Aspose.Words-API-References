@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions طريقة. يسمح بتحسين محتويات المستند بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدارات معينة من MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions OptimizeFor طريقة. يسمح بتحسين محتويات المستند بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدارات معينة من MS Word في C#.
 type: docs
 weight: 720
 url: /ar/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.settings/compatibilityoptions/optimizefor/
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية محاذاة محتويات النص في مربع النص عموديًا.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

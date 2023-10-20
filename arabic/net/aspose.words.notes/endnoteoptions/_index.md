@@ -1,7 +1,9 @@
 ---
-title: Class EndnoteOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.EndnoteOptions فصل. يمثل خيارات ترقيم التعليقات الختامية لمستند أو قسم.
+title: EndnoteOptions Class
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Notes.EndnoteOptions فصل. يمثل خيارات ترقيم التعليقات الختامية لمستند أو قسم في C#.
 type: docs
 weight: 4240
 url: /ar/net/aspose.words.notes/endnoteoptions/
@@ -25,7 +27,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule/) { get; set; } | تحديد وقت إعادة تشغيل الترقيم التلقائي. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber/) { get; set; } | يحدد رقم البداية أو الحرف للتعليقات الختامية الأولى المرقمة تلقائيًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان مختلف حيث يتم تجميع المستند وعرض تعليقاته الختامية.
 
@@ -201,5 +203,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/)
 * مساحة الاسم [Aspose.Words.Notes](../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../)
-
-

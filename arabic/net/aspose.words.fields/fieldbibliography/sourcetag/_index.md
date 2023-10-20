@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.SourceTag
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBibliography ملكية. الحصول على قيمة أو تعيينها بحيث يتم عرض المصادر ذات قيمة عنصر العلامة المطابقة فقط في قائمة المراجع.
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: Aspose.Words لـ .NET
+description: FieldBibliography SourceTag ملكية. الحصول على قيمة أو تعيينها بحيث يتم عرض المصادر ذات قيمة عنصر العلامة المطابقة فقط في قائمة المراجع في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldbibliography/sourcetag/
@@ -17,7 +19,5 @@ public string SourceTag { get; set; }
 ### أنظر أيضا
 
 * class [FieldBibliography](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbibliography/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

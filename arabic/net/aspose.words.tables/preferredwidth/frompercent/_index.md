@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth طريقة. طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد كنسبة مئوية.
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth FromPercent طريقة. طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد كنسبة مئوية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | يجب أن تكون القيمة من 0 إلى 100. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين جدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

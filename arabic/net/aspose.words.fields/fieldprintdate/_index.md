@@ -1,7 +1,9 @@
 ---
-title: Class FieldPrintDate
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldPrintDate فصل. ينفذ حقل PRINTDATE.
+title: FieldPrintDate Class
+linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldPrintDate فصل. ينفذ حقل PRINTDATE في C#.
 type: docs
 weight: 2290
 url: /ar/net/aspose.words.fields/fieldprintdate/
@@ -45,17 +47,17 @@ public class FieldPrintDate : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 استرداد التاريخ والوقت الذي تمت فيه طباعة المستند آخر مرة. بشكل افتراضي، يتم استخدام التقويم الغريغوري.
 
-### أمثلة
+## أمثلة
 
 يظهر قراءة حقول PRINTDATE.
 
@@ -99,5 +101,3 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

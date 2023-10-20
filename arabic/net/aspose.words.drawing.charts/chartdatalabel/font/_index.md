@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. يوفر الوصول إلى تنسيق الخط لتسمية البيانات هذه.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel Font ملكية. يوفر الوصول إلى تنسيق الخط لتسمية البيانات هذه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام التأثيرات ثلاثية الأبعاد مع المخططات الفقاعية.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

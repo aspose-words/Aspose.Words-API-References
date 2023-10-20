@@ -1,12 +1,14 @@
 ---
-title: PageSet.PageSet
-second_title: Aspose.Words لمراجع .NET API
-description: PageSet البناء. إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد.
+title: PageSet
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words لـ .NET
+description: PageSet البناء. إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet(*int*) {#constructor_1}
 
 إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد.
 
@@ -18,19 +20,19 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | الفهرس الصفري للصفحة. |
 
-### ملاحظات
+## ملاحظات
 
 إذا تمت مصادفة صفحة غير موجودة في المستند، فسيتم طرح استثناء أثناء العرض. MaxValue تعني الصفحة الأخيرة في المستند.
 
 ### أنظر أيضا
 
 * class [PageSet](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pageset/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet(*params int[]*) {#constructor_2}
 
 إنشاء مجموعة صفحات بناءً على فهارس الصفحات المحددة.
 
@@ -42,11 +44,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | الفهارس الصفرية للصفحات. |
 
-### ملاحظات
+## ملاحظات
 
 إذا تمت مصادفة صفحة غير موجودة في المستند، فسيتم طرح استثناء أثناء العرض. MaxValue تعني الصفحة الأخيرة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصفحات بناءً على فهارس الصفحات الدقيقة.
 
@@ -75,12 +77,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### أنظر أيضا
 
 * class [PageSet](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pageset/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet(*params PageRange[]*) {#constructor}
 
 إنشاء مجموعة صفحات بناءً على النطاقات.
 
@@ -92,11 +94,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | مجموعة من نطاقات الصفحات. |
 
-### ملاحظات
+## ملاحظات
 
 إذا تمت مواجهة نطاق يبدأ بعد الصفحة الأخيرة في المستند، فسيتم طرح استثناء أثناء العرض. يتم اقتطاع جميع النطاقات التي تنتهي بعد الصفحة الأخيرة لتناسب المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات المحددة.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pageset/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين.
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FieldUpdateCultureProvider ملكية. الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم طلب الموفر عندما تكون قيمة[`FieldUpdateCultureSource`](../fieldupdateculturesource/) يكونFieldCode.
 
 إذا كان الموفر موجودًا، فسيتم استخدام كائن الثقافة الذي يُرجعه للتحديث الميداني. وبخلاف ذلك، يتم استخدام ثقافة النظام.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد ثقافة تقوم بتوزيع تنسيق التاريخ/الوقت لكل حقل.
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

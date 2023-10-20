@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ImageSavingArgs فصل. يوفر بيانات لـImageSaving حدث.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ImageSavingArgs فصل. يوفر بيانات لـImageSaving حدث في C#.
 type: docs
 weight: 5240
 url: /ar/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | إرجاع`حقيقي` إذا كانت الصورة الحالية متاحة للتصدير. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الصورة. |
 
-### ملاحظات
+## ملاحظات
 
 افتراضيًا، عندما يقوم Aspose.Words بحفظ مستند بتنسيق HTML، فإنه يحفظ كل صورة في ملف منفصل. يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء ملف name فريد لكل صورة موجودة في المستند.
 
@@ -37,7 +39,7 @@ public class ImageSavingArgs
 
 لحفظ الصور في التدفقات بدلاً من الملفات، استخدم الملف[`ImageStream`](./imagestream/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

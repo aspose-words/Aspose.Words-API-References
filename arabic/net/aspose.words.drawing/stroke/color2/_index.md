@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color2
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد اللون الثاني للحد.
+linktitle: Color2
+articleTitle: Color2
+second_title: Aspose.Words لـ .NET
+description: Stroke Color2 ملكية. يحدد اللون الثاني للحد في C#.
 type: docs
-weight: 40
+weight: 30
 url: /ar/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/color2/
 public Color Color2 { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية ل[`Shape`](../../shape/) is White.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معالجة ميزات حدود الشكل.
 
@@ -39,7 +41,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

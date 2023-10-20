@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldIndex SequenceSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.fields/fieldindex/sequenceseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/sequenceseparator/
 public string SequenceSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء من خلال دمج حقول INDEX وSEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

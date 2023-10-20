@@ -1,7 +1,9 @@
 ---
-title: Enum MarkupLevel
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.MarkupLevel تعداد. يحدد المستوى في شجرة الوثيقة حيث يوجد مستوى معينStructuredDocumentTag يمكن أن يحدث.
+title: MarkupLevel Enum
+linktitle: MarkupLevel
+articleTitle: MarkupLevel
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.MarkupLevel تعداد. يحدد المستوى في شجرة الوثيقة حيث يوجد مستوى معينStructuredDocumentTag يمكن أن يحدث في C#.
 type: docs
 weight: 3980
 url: /ar/net/aspose.words.markup/markuplevel/
@@ -24,7 +26,7 @@ public enum MarkupLevel
 | Row | `3` | يظهر العنصر بين صفوف الجدول. |
 | Cell | `4` | يحدث العنصر بين الخلايا في صف واحد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
 
@@ -64,5 +66,3 @@ foreach (Node node in tags)
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

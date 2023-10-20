@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. يحدد ما إذا كان ينبغي استثناء الفقرة الحالية من أي وصلة يتم تطبيقها في إعدادات المستند.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat SuppressAutoHyphens ملكية. يحدد ما إذا كان ينبغي استثناء الفقرة الحالية من أي وصلة يتم تطبيقها في إعدادات المستند في C#.
 type: docs
 weight: 370
 url: /ar/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/suppressautohyphens/
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية منع الواصلة للفقرة.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

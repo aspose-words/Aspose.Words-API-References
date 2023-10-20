@@ -1,7 +1,9 @@
 ---
-title: Enum DmlEffectsRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DmlEffectsRenderingMode تعداد. يحدد كيفية عرض تأثيرات DrawML إلى تنسيقات الصفحات الثابتة.
+title: DmlEffectsRenderingMode Enum
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.DmlEffectsRenderingMode تعداد. يحدد كيفية عرض تأثيرات DrawML إلى تنسيقات الصفحات الثابتة في C#.
 type: docs
 weight: 4910
 url: /ar/net/aspose.words.saving/dmleffectsrenderingmode/
@@ -22,7 +24,7 @@ public enum DmlEffectsRenderingMode
 | None | `1` | لم يتم عرض تأثيرات DrawML. |
 | Fine | `2` | يتم عرض تأثيرات DrawML في الوضع الدقيق الذي يتضمن معالجة متقدمة. في هذا الوضع، يؤدي عرض التأثيرات إلى نتائج أفضل ولكن بتكلفة أداء أعلى منSimplified الوضع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين جودة العرض لتأثيرات DrawML في المستند أثناء حفظه في ملف PDF.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

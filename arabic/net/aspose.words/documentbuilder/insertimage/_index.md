@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج صورة من .NETImage كائن في المستند. تم إدراج الصورة سطريًا وبحجم 100.
+linktitle: InsertImage
+articleTitle: InsertImage
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertImage طريقة. إدراج صورة من .NETImage كائن في المستند. تم إدراج الصورة سطريًا وبحجم 100 في C#.
 type: docs
-weight: 380
+weight: 370
 url: /ar/net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {#insertimage_3}
+## InsertImage(*Image*) {#insertimage_3}
 
 إدراج صورة من .NETImage كائن في المستند. تم إدراج الصورة سطريًا وبحجم 100%.
 
@@ -22,11 +24,11 @@ public Shape InsertImage(Image image)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من كائن في مستند.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string) {#insertimage_9}
+## InsertImage(*string*) {#insertimage_9}
 
 إدراج صورة من ملف أو عنوان URL في المستند. تم إدراج الصورة سطريًا وبحجم 100%.
 
@@ -79,13 +81,13 @@ public Shape InsertImage(string fileName)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 سيؤدي هذا التحميل الزائد إلى تنزيل الصورة تلقائيًا قبل إدراجها في document إذا قمت بتحديد عنوان URI بعيد.
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة gif في المستند.
 
@@ -191,12 +193,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream) {#insertimage_6}
+## InsertImage(*Stream*) {#insertimage_6}
 
 يقوم بإدراج صورة من الدفق إلى المستند. تم إدراج الصورة سطريًا وبحجم 100%.
 
@@ -212,11 +214,11 @@ public Shape InsertImage(Stream stream)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل به صورة من دفق إلى مستند.
 
@@ -264,12 +266,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[]) {#insertimage}
+## InsertImage(*byte[]*) {#insertimage}
 
 إدراج صورة من مصفوفة بايت في المستند. تم إدراج الصورة سطريًا وبحجم 100%.
 
@@ -285,11 +287,11 @@ public Shape InsertImage(byte[] imageBytes)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من مصفوفة بايت في مستند.
 
@@ -363,12 +365,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, double, double) {#insertimage_5}
+## InsertImage(*Image, double, double*) {#insertimage_5}
 
 إدراج صورة مضمنة من .NETImage كائن في المستند وقياسه إلى الحجم المحدد.
 
@@ -386,11 +388,11 @@ public Shape InsertImage(Image image, double width, double height)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من كائن في مستند.
 
@@ -450,12 +452,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, double, double) {#insertimage_11}
+## InsertImage(*string, double, double*) {#insertimage_11}
 
 إدراج صورة مضمنة من ملف أو عنوان URL في المستند وتغيير حجمها إلى الحجم المحدد.
 
@@ -473,11 +475,11 @@ public Shape InsertImage(string fileName, double width, double height)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من نظام الملفات المحلي في مستند.
 
@@ -508,12 +510,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, double, double) {#insertimage_8}
+## InsertImage(*Stream, double, double*) {#insertimage_8}
 
 إدراج صورة مضمّنة من الدفق في المستند وتغيير حجمها إلى الحجم المحدد.
 
@@ -531,11 +533,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من دفق إلى مستند.
 
@@ -568,12 +570,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], double, double) {#insertimage_2}
+## InsertImage(*byte[], double, double*) {#insertimage_2}
 
 إدراج صورة مضمّنة من مصفوفة بايت في المستند وتغيير حجمها إلى الحجم المحدد.
 
@@ -591,11 +593,11 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من مصفوفة بايت في مستند.
 
@@ -669,12 +671,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
+## InsertImage(*Image, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_4}
 
 إدراج صورة من .NETImageكائن في الموضع والحجم المحددين.
 
@@ -698,11 +700,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من كائن في مستند.
 
@@ -765,12 +767,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
+## InsertImage(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_10}
 
 إدراج صورة من ملف أو عنوان URL في الموضع والحجم المحددين.
 
@@ -794,11 +796,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة.
 
@@ -869,12 +871,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
+## InsertImage(*Stream, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_7}
 
 إدراج صورة من دفق في الموضع والحجم المحددين.
 
@@ -898,11 +900,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من دفق إلى مستند.
 
@@ -938,12 +940,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
+## InsertImage(*byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_1}
 
 إدراج صورة من مصفوفة بايت في الموضع والحجم المحددين.
 
@@ -967,11 +969,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 عقدة الصورة التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة من مصفوفة بايت في مستند.
 
@@ -1048,7 +1050,5 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

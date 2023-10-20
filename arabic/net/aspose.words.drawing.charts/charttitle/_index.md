@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartTitle فصل. يوفر الوصول إلى خصائص عنوان المخطط.
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartTitle فصل. يوفر الوصول إلى خصائص عنوان المخطط في C#.
 type: docs
 weight: 820
 url: /ar/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | اسم | وصف |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل العنوان. بشكل افتراضي يكون التراكب`خطأ شنيع` . |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | يحدد ما إذا كان سيتم عرض العنوان لهذا المخطط أم لا. القيمة الافتراضية هي`حقيقي` . |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | الحصول على نص عنوان المخطط أو تعيينه. If`باطل` أو تم تحديد قيمة فارغة، سيتم عرض العنوان الذي تم إنشاؤه تلقائيًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعيين عنوان.
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

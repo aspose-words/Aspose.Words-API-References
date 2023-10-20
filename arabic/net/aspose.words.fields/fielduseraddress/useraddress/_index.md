@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Aspose.Words لمراجع .NET API
-description: FieldUserAddress ملكية. الحصول على أو تعيين العنوان البريدي للمستخدم الحالي.
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: Aspose.Words لـ .NET
+description: FieldUserAddress UserAddress ملكية. الحصول على أو تعيين العنوان البريدي للمستخدم الحالي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielduseraddress/useraddress/
 public string UserAddress { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل عنوان المستخدم.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### أنظر أيضا
 
 * class [FieldUserAddress](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielduseraddress/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

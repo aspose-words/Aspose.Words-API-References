@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة بداية نطاق قابل للتحرير في المستند.
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitEditableRangeStart طريقة. يتم استدعاؤه عند مواجهة بداية نطاق قابل للتحرير في المستند في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل نطاق قابل للتحرير في المستند.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

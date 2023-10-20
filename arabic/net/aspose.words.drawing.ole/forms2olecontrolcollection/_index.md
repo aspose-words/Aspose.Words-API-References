@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControlCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection فصل. يمثل مجموعة منForms2OleControl الكائنات.
+title: Forms2OleControlCollection Class
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection فصل. يمثل مجموعة منForms2OleControl الكائنات في C#.
 type: docs
 weight: 1120
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/
@@ -35,7 +37,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | يحصل على العداد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
 
@@ -69,5 +71,3 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 * class [Forms2OleControl](../forms2olecontrol/)
 * مساحة الاسم [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../)
-
-

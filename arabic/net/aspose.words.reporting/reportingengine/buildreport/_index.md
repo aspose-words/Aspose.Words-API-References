@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Aspose.Words لمراجع .NET API
-description: ReportingEngine طريقة. يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words لـ .NET
+description: ReportingEngine BuildReport طريقة. يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 علامة تشير إلى ما إذا كان تحليل مستند القالب ناجحًا. تكون العلامة التي تم إرجاعها منطقية فقط إذا كانت قيمة[`Options`](../options/)تتضمن الخاصية وInlineErrorMessages خيار.
 
-### ملاحظات
+## ملاحظات
 
 باستخدام هذا التحميل الزائد يمكنك الإشارة إلى أعضاء مصدر البيانات في مستند القالب، لكن لا يمكنك الإشارة إلى كائن مصدر البيانات نفسه. يجب عليك استخدام`BuildReport` التحميل الزائد لتحقيق ذلك.
 
@@ -47,12 +49,12 @@ public bool BuildReport(Document document, object dataSource)
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 يملأ مستند القالب المحدد بالبيانات من المصدر المحدد مما يجعله تقريرًا جاهزًا.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 علامة تشير إلى ما إذا كان تحليل مستند القالب ناجحًا. تكون العلامة التي تم إرجاعها منطقية فقط إذا كانت قيمة[`Options`](../options/)تتضمن الخاصية وInlineErrorMessages خيار.
 
-### ملاحظات
+## ملاحظات
 
 باستخدام هذا التحميل الزائد يمكنك الرجوع إلى أعضاء مصدر البيانات وكائن مصدر البيانات نفسه في القالب. إذا كنت لن تقوم بالإشارة إلى كائن مصدر البيانات نفسه، فيمكنك حذفه*dataSourceName* عابر`باطل` أو استخدم`BuildReport` الزائد.
 
@@ -94,12 +96,12 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 يملأ مستند القالب المحدد بالبيانات من المصادر المحددة مما يجعله تقريرًا جاهزًا.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 علامة تشير إلى ما إذا كان تحليل مستند القالب ناجحًا. تكون العلامة التي تم إرجاعها منطقية فقط إذا كانت قيمة[`Options`](../options/)تتضمن الخاصية وInlineErrorMessages خيار.
 
-### ملاحظات
+## ملاحظات
 
 باستخدام هذا التحميل الزائد يمكنك الرجوع إلى كائنات مصدر بيانات متعددة وأعضائها في القالب. يمكن حذف اسم مصدر البيانات الأول (أي أن يكون سلسلة فارغة أو`باطل` إذا كنت ستقوم بالإشارة إلى إلى أعضاء مصدر البيانات وليس إلى كائن مصدر البيانات نفسه. يجب أن تكون أسماء مصادر البيانات الأخرى محددة وفريدة من نوعها.
 
@@ -143,7 +145,5 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

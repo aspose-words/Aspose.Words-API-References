@@ -1,7 +1,9 @@
 ---
 title: Document.ViewOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word.
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words لـ .NET
+description: Document ViewOptions ملكية. يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word في C#.
 type: docs
 weight: 470
 url: /ar/net/aspose.words/document/viewoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/viewoptions/
 public ViewOptions ViewOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * class [ViewOptions](../../../aspose.words.settings/viewoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

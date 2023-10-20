@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى عقدة مضمنة أو إلى نهاية الفقرة.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveTo طريقة. ينقل المؤشر إلى عقدة مضمنة أو إلى نهاية الفقرة في C#.
 type: docs
-weight: 490
+weight: 480
 url: /ar/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | يجب أن تكون العقدة فقرة أو فرعًا مباشرًا للفقرة. |
 
-### ملاحظات
+## ملاحظات
 
 متىالعقدة هي عقدة ذات مستوى مضمّن، ويتم نقل المؤشر إلى هذه العقدة وسيتم إدراج محتوى إضافي قبل تلك العقدة.
 
@@ -26,7 +28,7 @@ public void MoveTo(Node node)
 
 متىالعقدة هي عقدة على مستوى الكتلة ولكنها ليست عقدة[`Paragraph`](../../paragraph/)، يتم نقل المؤشر إلى نهاية الفقرة الأولى إلى مستوى الكتلة العقدة وسيتم إدراج محتوى إضافي قبل فاصل الفقرة مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل موضع مؤشر DocumentBuilder إلى عقدة محددة.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

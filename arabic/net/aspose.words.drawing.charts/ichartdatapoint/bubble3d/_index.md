@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Aspose.Words لمراجع .NET API
-description: IChartDataPoint ملكية. يحدد ما إذا كان يجب أن يكون للفقاعات الموجودة في المخطط الفقاعي تأثير ثلاثي الأبعاد مطبق عليها.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words لـ .NET
+description: IChartDataPoint Bubble3D ملكية. يحدد ما إذا كان يجب أن يكون للفقاعات الموجودة في المخطط الفقاعي تأثير ثلاثي الأبعاد مطبق عليها في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 public bool Bubble3D { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام التأثيرات ثلاثية الأبعاد مع المخططات الفقاعية.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### أنظر أيضا
 
 * interface [IChartDataPoint](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

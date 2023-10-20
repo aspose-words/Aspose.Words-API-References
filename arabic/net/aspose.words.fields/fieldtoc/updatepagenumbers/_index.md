@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc طريقة. يقوم بتحديث أرقام الصفحات للعناصر الموجودة في جدول المحتويات هذا.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words لـ .NET
+description: FieldToc UpdatePageNumbers طريقة. يقوم بتحديث أرقام الصفحات للعناصر الموجودة في جدول المحتويات هذا في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `حقيقي` إذا كانت العملية ناجحة. إذا تمت إزالة أي من الإشارات المرجعية لجدول المحتويات ذات الصلة،`خطأ شنيع` سيتم إرجاعها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

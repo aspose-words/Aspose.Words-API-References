@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. يحصل على الأصل المباشر لهذه العقدة.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words لـ .NET
+description: Node ParentNode ملكية. يحصل على الأصل المباشر لهذه العقدة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/node/parentnode/
 public CompositeNode ParentNode { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم إنشاء العقدة للتو ولم تتم إضافتها بعد إلى الشجرة، أو إذا تمت إزالتها من الشجرة، فإن الأصل هو`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى العقدة الأصلية للعقدة.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

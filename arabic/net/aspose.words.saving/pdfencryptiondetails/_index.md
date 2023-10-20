@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfEncryptionDetails فصل. يحتوي على تفاصيل التشفير وأذونات الوصول لمستند PDF.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails فصل. يحتوي على تفاصيل التشفير وأذونات الوصول لمستند PDF في C#.
 type: docs
 weight: 5460
 url: /ar/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | اسم | وصف |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | تهيئة مثيل لهذه الفئة. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | تهيئة مثيل لهذه الفئة. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | تهيئة مثيل لهذه الفئة. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | تهيئة مثيل لهذه الفئة. |
 
 ## الخصائص
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر. القيمة الافتراضية هيDisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | يحدد كلمة مرور المستخدم المطلوبة لفتح مستند PDF المشفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

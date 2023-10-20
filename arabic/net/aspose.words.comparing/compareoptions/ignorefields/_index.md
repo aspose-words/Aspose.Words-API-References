@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFields
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في الحقول أم لا. بشكل افتراضي لا يتم تجاهل الحقول.
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreFields ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات في الحقول أم لا. بشكل افتراضي لا يتم تجاهل الحقول في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.comparing/compareoptions/ignorefields/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignorefields/
 public bool IgnoreFields { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

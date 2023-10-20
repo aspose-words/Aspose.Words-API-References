@@ -1,7 +1,9 @@
 ---
-title: Enum Dml3DEffectsRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.Dml3DEffectsRenderingMode تعداد. يحدد كيفية عرض تأثيرات الأشكال ثلاثية الأبعاد.
+title: Dml3DEffectsRenderingMode Enum
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.Dml3DEffectsRenderingMode تعداد. يحدد كيفية عرض تأثيرات الأشكال ثلاثية الأبعاد في C#.
 type: docs
 weight: 4900
 url: /ar/net/aspose.words.saving/dml3deffectsrenderingmode/
@@ -25,5 +27,3 @@ public enum Dml3DEffectsRenderingMode
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

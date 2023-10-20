@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.BoundsInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase ملكية. الحصول على الحدود الفعلية للشكل بالنقاط.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase BoundsInPoints ملكية. الحصول على الحدود الفعلية للشكل بالنقاط في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/noderendererbase/boundsinpoints/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.rendering/noderendererbase/boundsinpoints/
 public RectangleF BoundsInPoints { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تُرجع هذه الخاصية المربع المحيط الفعلي (كما هو معروض على الصفحة) للشكل. تأخذ الحدود في الاعتبار تدوير الشكل (إن وجد).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words لـ .NET
+description: PageSetup RtlGutter ملكية. الحصول على أو تعيين ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/rtlgutter/
 public bool RtlGutter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين هوامش الحضيض.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

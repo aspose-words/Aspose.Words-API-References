@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على تنسيق الأحرف للنمط.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: Style Font ملكية. الحصول على تنسيق الأحرف للنمط في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/style/font/
 public Font Font { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة لأنماط القائمة، تُرجع هذه الخاصية`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

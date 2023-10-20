@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يسمح بتحديد ما إذا كان الخط الحالي سيتم تعيينه فرعيًا قبل التصدير كمورد خط.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs IsSubsettingNeeded ملكية. يسمح بتحديد ما إذا كان الخط الحالي سيتم تعيينه فرعيًا قبل التصدير كمورد خط في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تصدير الخطوط كملفات خطوط أصلية كاملة أو تجميعها فرعيًا لتضمين الأحرف المستخدمة في المستند فقط. يسمح الإعداد الفرعي بتقليل حجم مورد الخط الناتج.
 
 افتراضيًا، يقرر Aspose.Words ما إذا كان سيتم إجراء الإعداد الفرعي أم لا من خلال مقارنة حجم ملف الخط الأصلي مع الحجم المحدد في[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . يمكنك تجاوز هذا السلوك للخطوط الفردية عن طريق تعيين`IsSubsettingNeeded` ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

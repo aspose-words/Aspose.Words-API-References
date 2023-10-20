@@ -1,7 +1,9 @@
 ---
-title: Class ShapeRenderer
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.ShapeRenderer فصل. يوفر طرقًا لتمثيل الفردShape أوGroupShape إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
+title: ShapeRenderer Class
+linktitle: ShapeRenderer
+articleTitle: ShapeRenderer
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Rendering.ShapeRenderer فصل. يوفر طرقًا لتمثيل الفردShape أوGroupShape إلى صورة نقطية أو متجهة أو إلى كائن رسومي في C#.
 type: docs
 weight: 4590
 url: /ar/net/aspose.words.rendering/shaperenderer/
@@ -20,7 +22,7 @@ public class ShapeRenderer : NodeRendererBase
 
 | اسم | وصف |
 | --- | --- |
-| [ShapeRenderer](shaperenderer/)(ShapeBase) | تهيئة مثيل جديد لهذه الفئة. |
+| [ShapeRenderer](shaperenderer/)(*[ShapeBase](../../aspose.words.drawing/shapebase/)*) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -34,18 +36,18 @@ public class ShapeRenderer : NodeRendererBase
 
 | اسم | وصف |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | يحول الشكل إلى aGraphics كائن بمقياس محدد. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | يحول الشكل إلى aGraphics كائن بحجم محدد. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | يعرض الشكل في صورة ويحفظ في دفق. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | يحول الشكل إلى صورة ويحفظ في ملف. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | يحول الشكل إلى aGraphics كائن بمقياس محدد. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | يحول الشكل إلى aGraphics كائن بحجم محدد. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | يعرض الشكل في صورة ويحفظ في دفق. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | يحول الشكل إلى صورة ويحفظ في ملف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
@@ -157,5 +159,3 @@ private class ShapeForm : Form
 * class [NodeRendererBase](../noderendererbase/)
 * مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
-
-

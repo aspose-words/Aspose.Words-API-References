@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolders
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. يقوم بتعيين المجلدات التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
+linktitle: SetFontsFolders
+articleTitle: SetFontsFolders
+second_title: Aspose.Words لـ .NET
+description: FontSettings SetFontsFolders طريقة. يقوم بتعيين المجلدات التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fonts/fontsettings/setfontsfolders/
@@ -19,13 +21,13 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | fontsFolders | String[] | مجموعة من المجلدات التي تحتوي على خطوط TrueType. |
 | recursive | Boolean | صحيح لفحص المجلدات المحددة بحثًا عن الخطوط بشكل متكرر. |
 
-### ملاحظات
+## ملاحظات
 
 افتراضيًا، يبحث Aspose.Words عن الخطوط المثبتة على النظام.
 
 يؤدي تعيين هذه الخاصية إلى إعادة تعيين ذاكرة التخزين المؤقت لجميع الخطوط التي تم تحميلها مسبقًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أدلة مصدر خطوط متعددة.
 
@@ -85,7 +87,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### أنظر أيضا
 
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

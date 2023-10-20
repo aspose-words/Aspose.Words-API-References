@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. يحصل على متغير التدرجGradientVariant للتعبئة.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words لـ .NET
+description: Fill GradientVariant ملكية. يحصل على متغير التدرجGradientVariant للتعبئة في C#.
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/gradientvariant/
 public GradientVariant GradientVariant { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بالتدرجات اللونية.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

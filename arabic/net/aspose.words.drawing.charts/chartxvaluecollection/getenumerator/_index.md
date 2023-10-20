@@ -1,7 +1,9 @@
 ---
 title: ChartXValueCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValueCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: ChartXValueCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartXValue> GetEnumerator()
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartXValueCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvaluecollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

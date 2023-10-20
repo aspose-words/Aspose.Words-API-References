@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat طريقة. يحفظ بيانات الكائن المضمن في الدفق المحدد.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words لـ .NET
+description: OleFormat Save طريقة. يحفظ بيانات الكائن المضمن في الدفق المحدد في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 يحفظ بيانات الكائن المضمن في الدفق المحدد.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | يرمي إذا حاولت حفظ كائن مرتبط. |
 
-### ملاحظات
+## ملاحظات
 
 تقع على عاتق المتصل مسؤولية التخلص من الدفق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج كائنات OLE المضمنة في الملفات.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 يحفظ بيانات الكائن المضمن في ملف بالاسم المحدد.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | يرمي إذا حاولت حفظ كائن مرتبط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج كائنات OLE المضمنة في الملفات.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

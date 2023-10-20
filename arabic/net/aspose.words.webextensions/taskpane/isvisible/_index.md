@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Aspose.Words لمراجع .NET API
-description: TaskPane ملكية. يحدد ما إذا كان جزء المهام يظهر بشكل افتراضي عند فتح المستند.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words لـ .NET
+description: TaskPane IsVisible ملكية. يحدد ما إذا كان جزء المهام يظهر بشكل افتراضي عند فتح المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/taskpane/isvisible/
 public bool IsVisible { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [TaskPane](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../taskpane/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

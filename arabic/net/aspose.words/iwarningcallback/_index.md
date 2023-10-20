@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.IWarningCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوب مخصص خاص بك يسمى لالتقاط تحذيرات فقدان الدقة التي يمكن أن تحدث أثناء تحميل المستند أو حفظه.
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.IWarningCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك أسلوب مخصص خاص بك يسمى لالتقاط تحذيرات فقدان الدقة التي يمكن أن تحدث أثناء تحميل المستند أو حفظه في C#.
 type: docs
 weight: 3210
 url: /ar/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام واجهة IWarningCallback لمراقبة تحذيرات استبدال الخط.
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

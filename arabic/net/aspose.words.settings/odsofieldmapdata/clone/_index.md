@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapData طريقة. يُرجع نسخة عميقة من هذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapData Clone طريقة. يُرجع نسخة عميقة من هذا الكائن في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdata/clone/
 public OdsoFieldMapData Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoFieldMapData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

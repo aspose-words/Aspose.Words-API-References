@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف WMF مع ملفات تعريف EMF المضمنة.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف WMF مع ملفات تعريف EMF المضمنة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تحتوي ملفات تعريف WMF على بيانات EMF مضمنة. يستخدم برنامج MS Word في معظم الحالات بيانات EMF المضمنة. يستخدم GDI+ دائمًا بيانات WMF.
 
@@ -26,7 +28,7 @@ public bool UseEmfEmbeddedToWmf { get; set; }
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين خيارات العرض ذات الصلة بملف Windows Metafile المحسن عند الحفظ في ملف PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### أنظر أيضا
 
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

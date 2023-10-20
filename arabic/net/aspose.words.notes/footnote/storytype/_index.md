@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Aspose.Words لمراجع .NET API
-description: Footnote ملكية. إرجاعFootnotes أوEndnotes .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words لـ .NET
+description: Footnote StoryType ملكية. إرجاعFootnotes أوEndnotes  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.notes/footnote/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnote/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

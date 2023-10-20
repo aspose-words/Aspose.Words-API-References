@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.BubbleSizes
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. الحصول على مجموعة من أحجام الفقاعات لسلسلة المخططات هذه.
+linktitle: BubbleSizes
+articleTitle: BubbleSizes
+second_title: Aspose.Words لـ .NET
+description: ChartSeries BubbleSizes ملكية. الحصول على مجموعة من أحجام الفقاعات لسلسلة المخططات هذه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartseries/bubblesizes/
@@ -18,7 +20,5 @@ public BubbleSizeCollection BubbleSizes { get; }
 
 * class [BubbleSizeCollection](../../bubblesizecollection/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

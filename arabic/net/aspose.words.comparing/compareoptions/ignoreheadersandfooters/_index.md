@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يشير True إلى أنه تم تجاهل محتوى الرؤوس والتذييلات. بشكل افتراضي لا يتم تجاهل الرؤوس والتذييلات.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreHeadersAndFooters ملكية. يشير True إلى أنه تم تجاهل محتوى الرؤوس والتذييلات. بشكل افتراضي لا يتم تجاهل الرؤوس والتذييلات في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

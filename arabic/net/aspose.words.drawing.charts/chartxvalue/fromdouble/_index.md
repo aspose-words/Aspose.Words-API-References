@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValue طريقة. إنشاء ملفChartXValue مثال علىDouble اكتب.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words لـ .NET
+description: ChartXValue FromDouble طريقة. إنشاء ملفChartXValue مثال علىDouble اكتب في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
 public static ChartXValue FromDouble(double value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة سلسلة المخططات بالبيانات.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### أنظر أيضا
 
 * class [ChartXValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

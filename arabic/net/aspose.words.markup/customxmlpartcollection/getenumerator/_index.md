@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPartCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPartCollection GetEnumerator طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/customxmlpartcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpartcollection/getenumerator/
 public IEnumerator<CustomXmlPart> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

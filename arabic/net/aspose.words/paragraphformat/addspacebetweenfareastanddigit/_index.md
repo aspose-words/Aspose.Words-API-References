@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق من الأرقام ومناطق نص شرق آسيا في الفقرة الحالية.
+linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndDigit ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق من الأرقام ومناطق نص شرق آسيا في الفقرة الحالية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة في المستند.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

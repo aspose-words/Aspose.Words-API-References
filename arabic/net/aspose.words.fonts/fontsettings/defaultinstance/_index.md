@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Aspose.Words لمراجع .NET API
-description: FontSettings ملكية. إعدادات الخط الافتراضية الثابتة.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words لـ .NET
+description: FontSettings DefaultInstance ملكية. إعدادات الخط الافتراضية الثابتة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fonts/fontsettings/defaultinstance/
 public static FontSettings DefaultInstance { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذا المثيل افتراضيًا في المستند ما لم[`FontSettings`](../../../aspose.words/document/fontsettings/) تم تحديده.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين مثيل إعدادات الخط الافتراضي.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### أنظر أيضا
 
 * class [FontSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج ارتباط تشعبي في المستند.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertHyperlink طريقة. إدراج ارتباط تشعبي في المستند في C#.
 type: docs
-weight: 370
+weight: 360
 url: /ar/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي صريح باستخدام ملف[`Font`](../font/) ملكية.
 
 هذه الأساليب تدعو داخليا[`InsertField`](../insertfield/) لإدراج حقل MS Word HYPERLINK field في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج ارتباط تشعبي يشير إلى إشارة مرجعية محلية.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

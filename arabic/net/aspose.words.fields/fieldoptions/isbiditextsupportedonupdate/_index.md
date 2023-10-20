@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.IsBidiTextSupportedOnUpdate
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين القيمة التي تشير إلى ما إذا كان النص ثنائي الاتجاه مدعومًا بالكامل أثناء التحديث الميداني أم لا.
+linktitle: IsBidiTextSupportedOnUpdate
+articleTitle: IsBidiTextSupportedOnUpdate
+second_title: Aspose.Words لـ .NET
+description: FieldOptions IsBidiTextSupportedOnUpdate ملكية. الحصول على أو تعيين القيمة التي تشير إلى ما إذا كان النص ثنائي الاتجاه مدعومًا بالكامل أثناء التحديث الميداني أم لا في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 public bool IsBidiTextSupportedOnUpdate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يتم تعيين هذه الخاصية إلى`حقيقي`، يتم تنفيذ خطوات إضافية لإنتاج نتيجة حقل متوافقة من اليمين إلى اليسار language (أي العربية أو العبرية) أثناء تحديثها.
 
@@ -22,7 +24,7 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام FieldOptions للتأكد من أن تحديث الحقل يدعم بشكل كامل النص ثنائي الاتجاه.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "FieldOptions.Bidi.docx");
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

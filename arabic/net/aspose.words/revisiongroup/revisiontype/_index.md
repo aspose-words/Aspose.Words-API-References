@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.RevisionType
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroup ملكية. الحصول على نوع المراجعات المضمنة في هذه المجموعة.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words لـ .NET
+description: RevisionGroup RevisionType ملكية. الحصول على نوع المراجعات المضمنة في هذه المجموعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revisiongroup/revisiontype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisiongroup/revisiontype/
 public RevisionType RevisionType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
 
@@ -34,7 +36,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * enum [RevisionType](../../revisiontype/)
 * class [RevisionGroup](../)
-* مساحة الاسم [Aspose.Words](../../revisiongroup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

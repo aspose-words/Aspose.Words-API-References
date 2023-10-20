@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تعيين aVbaProject .
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words لـ .NET
+description: Document VbaProject ملكية. الحصول على أو تعيين aVbaProject  في C#.
 type: docs
 weight: 450
 url: /ar/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/vbaproject/
 public VbaProject VbaProject { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

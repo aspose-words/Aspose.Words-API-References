@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart طريقة. يقوم بإنشاء نسخة عميقة بما فيه الكفاية من الكائن. لا يكرر بايتات ملفData القيمة.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPart Clone طريقة. يقوم بإنشاء نسخة عميقة بما فيه الكفاية من الكائن. لا يكرر بايتات ملفData القيمة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/customxmlpart/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpart/clone/
 public CustomXmlPart Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### أنظر أيضا
 
 * class [CustomXmlPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

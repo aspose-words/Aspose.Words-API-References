@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Aspose.Words لمراجع .NET API
-description: AxisScaling ملكية. الحصول على أو تعيين نوع القياس للمحور.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: AxisScaling Type ملكية. الحصول على أو تعيين نوع القياس للمحور في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/axisscaling/type/
 public AxisScaleType Type { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الLinear القيمة هي الوحيدة المسموح بها في مخططات MS Office 2016 الجديدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق القياس اللوغاريتمي على محور المخطط.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. صحيح إذا تم تعقب التغييرات عند تحرير هذا المستند في Microsoft Word.
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: Aspose.Words لـ .NET
+description: Document TrackRevisions ملكية. صحيح إذا تم تعقب التغييرات عند تحرير هذا المستند في Microsoft Word في C#.
 type: docs
 weight: 430
 url: /ar/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/trackrevisions/
 public bool TrackRevisions { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يؤدي تعيين هذا الخيار إلى توجيه Microsoft Word فقط إلى ما إذا كان المسار Change قيد التشغيل أو الإيقاف. ليس لهذه الخاصية أي تأثير على التغييرات التي يتم إجراؤها على المستند الذي تجريه برمجيًا عبر Aspose.Words.
 
 إذا كنت تريد تتبع التغييرات تلقائيًا كما تم إجراؤها برمجيًا بواسطة Aspose.Words على هذا المستند، فاستخدم[`StartTrackRevisions`](../starttrackrevisions/) طريقة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين نوع الفاصل المقطعي للكائن المحدد.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words لـ .NET
+description: PageSetup SectionStart ملكية. إرجاع أو تعيين نوع الفاصل المقطعي للكائن المحدد في C#.
 type: docs
 weight: 390
 url: /ar/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/sectionstart/
 public SectionStart SectionStart { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

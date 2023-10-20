@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffCompression
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين نوع الضغط الذي سيتم تطبيقه عند حفظ الصور التي تم إنشاؤها بتنسيق TIFF.
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions TiffCompression ملكية. الحصول على أو تعيين نوع الضغط الذي سيتم تطبيقه عند حفظ الصور التي تم إنشاؤها بتنسيق TIFF في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.saving/imagesaveoptions/tiffcompression/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يكون له تأثير فقط عند الحفظ في TIFF.
 
 القيمة الافتراضية هيLzw.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نظام الضغط لتطبيقه على مستند نقوم بتحويله إلى صورة TIFF.
 
@@ -72,7 +74,5 @@ Document doc = new Document();
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

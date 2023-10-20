@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. يحصل على العقدة التي تلي هذه العقدة مباشرة.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words لـ .NET
+description: Node NextSibling ملكية. يحصل على العقدة التي تلي هذه العقدة مباشرة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/node/nextsibling/
 public Node NextSibling { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن هناك عقدة تالية، أ`باطل` تم إرجاعها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خاصية NextSibling الخاصة بالعقدة للتعداد من خلال أبنائها المباشرين.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

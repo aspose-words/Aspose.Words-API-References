@@ -1,7 +1,9 @@
 ---
 title: Document.ProtectionType
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. للحصول على نوع حماية المستند النشط حاليًا.
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words لـ .NET
+description: Document ProtectionType ملكية. للحصول على نوع حماية المستند النشط حاليًا في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/document/protectiontype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/protectiontype/
 public ProtectionType ProtectionType { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح هذه الخاصية باسترداد نوع حماية المستند المحدد حاليًا. لتغيير نوع حماية المستند، استخدم[`Protect`](../protect/) و[`Unprotect`](../unprotect/) طُرق.
 
@@ -22,7 +24,7 @@ public ProtectionType ProtectionType { get; }
 
 لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند وإلغاء حمايته.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

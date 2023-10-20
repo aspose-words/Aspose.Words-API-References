@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValue طريقة. إنشاء ملفChartYValue مثال علىDouble اكتب.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words لـ .NET
+description: ChartYValue FromDouble طريقة. إنشاء ملفChartYValue مثال علىDouble اكتب في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
 public static ChartYValue FromDouble(double value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة سلسلة المخططات بالبيانات.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### أنظر أيضا
 
 * class [ChartYValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

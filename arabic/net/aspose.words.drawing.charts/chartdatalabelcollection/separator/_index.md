@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات الخاصة بالسلسلة بأكملها. الإعداد الافتراضي هو فاصلة باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط عند استخدام فاصل الأسطر بدلاً من ذلك.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabelCollection Separator ملكية. الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات الخاصة بالسلسلة بأكملها. الإعداد الافتراضي هو فاصلة باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط عند استخدام فاصل الأسطر بدلاً من ذلك في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 public string Separator { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`Separator`](../../chartdatalabel/separator/) الملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الفقاعي.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabelCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

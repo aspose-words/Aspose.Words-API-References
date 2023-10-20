@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGreetingLine ملكية. الحصول على النص الذي سيتم تضمينه في الحقل أو تعيينه إذا كان الاسم فارغًا.
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: Aspose.Words لـ .NET
+description: FieldGreetingLine AlternateText ملكية. الحصول على النص الذي سيتم تضمينه في الحقل أو تعيينه إذا كان الاسم فارغًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldgreetingline/alternatetext/
 public string AlternateText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### أنظر أيضا
 
 * class [FieldGreetingLine](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldgreetingline/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

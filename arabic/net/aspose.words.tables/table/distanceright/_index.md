@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceRight
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين المسافة بين يمين الجدول والنص المحيط بالنقاط.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words لـ .NET
+description: Table DistanceRight ملكية. الحصول على أو تعيين المسافة بين يمين الجدول والنص المحيط بالنقاط في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.tables/table/distanceright/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/distanceright/
 public double DistanceRight { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط المسافة بين حدود الجدول والنص.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

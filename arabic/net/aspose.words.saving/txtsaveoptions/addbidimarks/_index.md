@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptions ملكية. يحدد ما إذا كان سيتم إضافة علامات ثنائية الاتجاه قبل كل تشغيل BiDi عند التصدير بتنسيق نص عادي.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptions AddBidiMarks ملكية. يحدد ما إذا كان سيتم إضافة علامات ثنائية الاتجاه قبل كل تشغيل BiDi عند التصدير بتنسيق نص عادي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.saving/txtsaveoptions/addbidimarks/
 public bool AddBidiMarks { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حرف Unicode "علامة من اليمين إلى اليسار" (U+200F) قبل كل تشغيل ثنائي الاتجاه في النص.
 
@@ -58,7 +60,5 @@ else
 ### أنظر أيضا
 
 * class [TxtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

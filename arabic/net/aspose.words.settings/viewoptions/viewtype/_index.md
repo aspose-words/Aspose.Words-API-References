@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ViewType
-second_title: Aspose.Words لمراجع .NET API
-description: ViewOptions ملكية. يتحكم في وضع العرض في Microsoft Word.
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words لـ .NET
+description: ViewOptions ViewType ملكية. يتحكم في وضع العرض في Microsoft Word في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/viewoptions/viewtype/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/viewoptions/viewtype/
 public ViewType ViewType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 على الرغم من أن Aspose.Words قادر على قراءة هذا الخيار وكتابته، إلا أن استخدامه خاص بالتطبيق. على سبيل المثال لا يحترم MS Word 2013 قيمة هذا الخيار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../viewoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

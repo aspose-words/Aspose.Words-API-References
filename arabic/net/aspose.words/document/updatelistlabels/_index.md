@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. تحديث تسميات القائمة لجميع عناصر القائمة في المستند.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words لـ .NET
+description: Document UpdateListLabels طريقة. تحديث تسميات القائمة لجميع عناصر القائمة في المستند في C#.
 type: docs
-weight: 780
+weight: 760
 url: /ar/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/updatelistlabels/
 public void UpdateListLabels()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بتحديث خصائص تسمية القائمة مثل[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) و [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) لكل[`ListLabel`](../../paragraph/listlabel/)الكائن في المستند.
 
 كما يتم أحيانًا استدعاء هذه الطريقة ضمنيًا عند تحديث الحقول في المستند. هذا مطلوب لأن بعض الحقول التي قد تشير إلى أرقام القائمة (مثل جدول المحتويات أو REF) تحتاج إلى تحديثها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

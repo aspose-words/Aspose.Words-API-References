@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على عدد الحدود في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Count ملكية. الحصول على عدد الحدود في المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### أنظر أيضا
 
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج كافة مناطق دمج مراسلات المستند التي تحمل اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو المصدر الأول فقط.
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: Aspose.Words لـ .NET
+description: MailMerge MergeDuplicateRegions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج كافة مناطق دمج مراسلات المستند التي تحمل اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو المصدر الأول فقط في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مناطق دمج البريد المكررة.
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

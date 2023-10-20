@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words لـ .NET
+description: Table LeftIndent ملكية. الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول منسق باستخدام DocumentBuilder.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

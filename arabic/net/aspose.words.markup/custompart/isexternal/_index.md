@@ -1,7 +1,9 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. خطأ إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML. صحيح إذا كان هذا الجزء المخصص هدفًا خارجيًا.
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: Aspose.Words لـ .NET
+description: CustomPart IsExternal ملكية. خطأ إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML. صحيح إذا كان هذا الجزء المخصص هدفًا خارجيًا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/custompart/isexternal/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/custompart/isexternal/
 public bool IsExternal { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

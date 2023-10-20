@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FilePath
-second_title: Aspose.Words لمراجع .NET API
-description: PhysicalFontInfo ملكية. المسار إلى ملف الخط إن وجد.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words لـ .NET
+description: PhysicalFontInfo FilePath ملكية. المسار إلى ملف الخط إن وجد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/physicalfontinfo/filepath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/physicalfontinfo/filepath/
 public string FilePath { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية سرد الخطوط المتاحة.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### أنظر أيضا
 
 * class [PhysicalFontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../physicalfontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FileName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على اسم ملف المستند أو تعيينه.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FileName ملكية. الحصول على اسم ملف المستند أو تعيينه في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/fieldoptions/filename/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/fieldoptions/filename/
 public string FileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام هذه الخاصية من قبل[`FieldFileName`](../../fieldfilename/) الحقل ذو أولوية أعلى من[`OriginalFileName`](../../../aspose.words/document/originalfilename/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام FieldOptions لتجاوز القيمة الافتراضية لحقل FILENAME.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

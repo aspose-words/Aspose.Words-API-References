@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldMergingCallback طريقة. يتم استدعاؤه عندما يكون محرك دمج البريد Aspose.Words على وشك إدراج صورة في حقل دمج.
+linktitle: ImageFieldMerging
+articleTitle: ImageFieldMerging
+second_title: Aspose.Words لـ .NET
+description: IFieldMergingCallback ImageFieldMerging طريقة. يتم استدعاؤه عندما يكون محرك دمج البريد Aspose.Words على وشك إدراج صورة في حقل دمج في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 public void ImageFieldMerging(ImageFieldMergingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
@@ -64,7 +66,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 * class [ImageFieldMergingArgs](../../imagefieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

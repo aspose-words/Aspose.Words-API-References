@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على موقع وحجم الكتلة التي تحتوي على الشكل بالنقاط بالنسبة إلى نقطة ارتساء الشكل العلوي.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words لـ .NET
+description: ShapeBase BoundsInPoints ملكية. الحصول على موقع وحجم الكتلة التي تحتوي على الشكل بالنقاط بالنسبة إلى نقطة ارتساء الشكل العلوي في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/boundsinpoints/
 public RectangleF BoundsInPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من الشكل الذي يحتوي على حدود الكتلة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

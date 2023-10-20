@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحرك المؤشر إلى نهاية المستند.
+linktitle: MoveToDocumentEnd
+articleTitle: MoveToDocumentEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToDocumentEnd طريقة. يحرك المؤشر إلى نهاية المستند في C#.
 type: docs
-weight: 520
+weight: 510
 url: /ar/net/aspose.words/documentbuilder/movetodocumentend/
 ---
 ## DocumentBuilder.MoveToDocumentEnd method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/movetodocumentend/
 public void MoveToDocumentEnd()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى عقد مختلفة في المستند.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

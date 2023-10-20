@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.ComparisonOperator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSkipIf ملكية. الحصول على عامل المقارنة أو تعيينه.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words لـ .NET
+description: FieldSkipIf ComparisonOperator ملكية. الحصول على عامل المقارنة أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldskipif/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldskipif/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخطي الصفحات في عملية دمج البريد باستخدام حقل SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### أنظر أيضا
 
 * class [FieldSkipIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldskipif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.TopPadding
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات الخلايا.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words لـ .NET
+description: Table TopPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات الخلايا في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words.tables/table/toppadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/toppadding/
 public double TopPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين حشوة المحتوى في الجدول.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

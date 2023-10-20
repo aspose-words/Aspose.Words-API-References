@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.IndexOf
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words لـ .NET
+description: CompositeNode IndexOf طريقة. إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية في C#.
 type: docs
-weight: 140
+weight: 120
 url: /ar/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/compositenode/indexof/
 public int IndexOf(Node child)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يُرجع -1 إذا لم يتم العثور على العقدة في العقد الفرعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على فهرس عقدة فرعية معينة من العقدة الأم.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastPar
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

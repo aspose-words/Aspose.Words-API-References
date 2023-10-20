@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Aspose.Words لمراجع .NET API
-description: MergeFieldImageDimension البناء. إنشاء مثيل لأبعاد الصورة بالقيمة المحددة بالنقاط.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words لـ .NET
+description: MergeFieldImageDimension البناء. إنشاء مثيل لأبعاد الصورة بالقيمة المحددة بالنقاط في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 إنشاء مثيل لأبعاد الصورة بالقيمة المحددة بالنقاط.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | القيمة. |
 
-### ملاحظات
+## ملاحظات
 
 يجب عليك استخدام قيمة سالبة للإشارة إلى أنه يجب تطبيق القيمة الأصلية لبعد الصورة المقابل .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أبعاد الصور كما يقبلها MERGEFIELDS أثناء دمج البريد.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [MergeFieldImageDimension](../)
-* مساحة الاسم [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 إنشاء مثيل لأبعاد الصورة بالقيمة المحددة والوحدة المحددة.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | القيمة. |
 | unit | MergeFieldImageDimensionUnit | الوحدة. |
 
-### ملاحظات
+## ملاحظات
 
 يجب عليك استخدام قيمة سالبة للإشارة إلى أنه يجب تطبيق القيمة الأصلية لبعد الصورة المقابل .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أبعاد الصور كما يقبلها MERGEFIELDS أثناء دمج البريد.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* مساحة الاسم [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

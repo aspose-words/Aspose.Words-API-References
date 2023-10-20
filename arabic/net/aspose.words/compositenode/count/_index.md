@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode ملكية. يحصل على عدد الأطفال المباشرين لهذه العقدة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: CompositeNode Count ملكية. يحصل على عدد الأطفال المباشرين لهذه العقدة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/compositenode/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وتحديث وحذف العقد الفرعية في مجموعة CompositeNode الفرعية.
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

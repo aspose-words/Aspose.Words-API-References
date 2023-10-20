@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldDatabaseProvider
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـFieldDatabase الحقل.
+linktitle: FieldDatabaseProvider
+articleTitle: FieldDatabaseProvider
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FieldDatabaseProvider ملكية. الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـFieldDatabase الحقل في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
@@ -18,7 +20,5 @@ public IFieldDatabaseProvider FieldDatabaseProvider { get; set; }
 
 * interface [IFieldDatabaseProvider](../../ifielddatabaseprovider/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

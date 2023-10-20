@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد الحد الأقصى لمستوى العناوين التي سيتم عندها تقسيم المستند. القيمة الافتراضية هي2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel ملكية. يحدد الحد الأقصى لمستوى العناوين التي سيتم عندها تقسيم المستند. القيمة الافتراضية هي2  في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-متى[`DocumentSplitCriteria`](../documentsplitcriteria/) يشملHeadingParagraph وتم ضبط هذه الخاصية على قيمة من 1 إلى 9، سيتم تقسيم المستند إلى فقرات منسقة باستخدام  **عنوان 1** , **العنوان 2** , **العنوان 3**إلخ. الأنماط تصل إلى مستوى العنوان المحدد.
+متى[`DocumentSplitCriteria`](../documentsplitcriteria/) يشملHeadingParagraph وتم ضبط هذه الخاصية على قيمة من 1 إلى 9، سيتم تقسيم المستند إلى فقرات منسقة باستخدام **عنوان 1** ,**العنوان 2** ,**العنوان 3**إلخ. الأنماط تصل إلى مستوى العنوان المحدد.
 
-افتراضيا فقط **عنوان 1** و **العنوان 2** تؤدي الفقرات إلى تقسيم المستند. سيؤدي تعيين هذه الخاصية إلى الصفر إلى عدم تقسيم المستند عند فقرات العناوين على الإطلاق.
+افتراضيا فقط**عنوان 1** و**العنوان 2** تؤدي الفقرات إلى تقسيم المستند. سيؤدي تعيين هذه الخاصية إلى الصفر إلى عدم تقسيم المستند عند فقرات العناوين على الإطلاق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند HTML الناتج عن طريق العناوين إلى عدة أجزاء.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يسمح بتحديد خيارات المخطط التفصيلي.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions OutlineOptions ملكية. يسمح بتحديد خيارات المخطط التفصيلي في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن إنشاء الخطوط العريضة من العناوين والإشارات المرجعية.
 
@@ -26,7 +28,7 @@ public OutlineOptions OutlineOptions { get; }
 
 كما يمكن تصدير المخططات التفصيلية إلى تنسيق XPS باستخدام نفس التنسيق`OutlineOptions` فصل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند PDF محفوظ.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

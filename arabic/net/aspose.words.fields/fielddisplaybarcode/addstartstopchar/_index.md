@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDisplayBarcode ملكية. الحصول على أو تعيين ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words لـ .NET
+description: FieldDisplayBarcode AddStartStopChar ملكية. الحصول على أو تعيين ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39 في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 public bool AddStartStopChar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل DISPLAYBARCODE وتعيين خصائصه.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldDisplayBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

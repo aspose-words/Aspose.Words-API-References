@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/dropdownitemcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.JpegQuality
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد جودة صور JPEG التي تم إنشاؤها.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions JpegQuality ملكية. الحصول على أو تعيين قيمة تحدد جودة صور JPEG التي تم إنشاؤها في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/imagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يكون له تأثير فقط عند الحفظ إلى JPEG.
 
@@ -22,7 +24,7 @@ public int JpegQuality { get; set; }
 
 القيمة الافتراضية هي 95.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الضغط أثناء حفظ مستند بتنسيق JPEG.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الإحداثيات في الزاوية العلوية اليسرى للكتلة التي تحتوي على هذا الشكل.
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: Aspose.Words لـ .NET
+description: ShapeBase CoordOrigin ملكية. الإحداثيات في الزاوية العلوية اليسرى للكتلة التي تحتوي على هذا الشكل في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/coordorigin/
 public Point CoordOrigin { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي (0,0).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ترجمة الموقع الإحداثي x وy على المستوى الإحداثي للشكل إلى موقع على المستوى الإحداثي للشكل الأصلي.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

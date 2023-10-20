@@ -1,7 +1,9 @@
 ---
 title: FieldIf.ComparisonOperator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIf ملكية. الحصول على عامل المقارنة أو تعيينه.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words لـ .NET
+description: FieldIf ComparisonOperator ملكية. الحصول على عامل المقارنة أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldif/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل IF.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### أنظر أيضا
 
 * class [FieldIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

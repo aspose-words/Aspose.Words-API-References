@@ -1,7 +1,9 @@
 ---
-title: Enum ContinuousSectionRestart
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.ContinuousSectionRestart تعداد. يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات.
+title: ContinuousSectionRestart Enum
+linktitle: ContinuousSectionRestart
+articleTitle: ContinuousSectionRestart
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.ContinuousSectionRestart تعداد. يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات في C#.
 type: docs
 weight: 3300
 url: /ar/net/aspose.words.layout/continuoussectionrestart/
@@ -21,7 +23,7 @@ public enum ContinuousSectionRestart
 | Always | `0` | تتم إعادة تشغيل ترقيم الصفحات دائمًا بغض النظر عن تدفق المحتوى. |
 | FromNewPageOnly | `1` | تتم إعادة تشغيل ترقيم الصفحات فقط في حالة عدم وجود محتوى آخر قبل القسم الموجود في الصفحة التي يبدأ فيها القسم. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحكم في ترقيم الصفحات في قسم مستمر.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

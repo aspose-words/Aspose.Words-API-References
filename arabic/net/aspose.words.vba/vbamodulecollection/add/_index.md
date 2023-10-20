@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: VbaModuleCollection طريقة. إضافة وحدة إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: VbaModuleCollection Add طريقة. إضافة وحدة إلى المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.vba/vbamodulecollection/add/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbamodulecollection/add/
 public void Add(VbaModule vbaModule)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مشروع VBA باستخدام وحدات الماكرو.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbamodulecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

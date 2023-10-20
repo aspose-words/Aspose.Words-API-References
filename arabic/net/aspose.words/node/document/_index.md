@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. الحصول على المستند الذي تنتمي إليه هذه العقدة.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: Node Document ملكية. الحصول على المستند الذي تنتمي إليه هذه العقدة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/node/document/
 public virtual DocumentBase Document { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تنتمي العقدة دائمًا إلى مستند حتى لو تم إنشاؤه للتو ولم تتم إضافته بعد إلى الشجرة، أو إذا تمت إزالته من الشجرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء عقدة وتعيين المستند الخاص بها.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

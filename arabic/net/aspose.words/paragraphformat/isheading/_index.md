@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح عندما يكون نمط الفقرة أحد أنماط العناوين المضمنة.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat IsHeading ملكية. صحيح عندما يكون نمط الفقرة أحد أنماط العناوين المضمنة في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/isheading/
 public bool IsHeading { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند PDF محفوظ.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

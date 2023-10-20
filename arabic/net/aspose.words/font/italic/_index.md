@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا كان الخط منسقًا بالخط المائل.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words لـ .NET
+description: Font Italic ملكية. صحيح إذا كان الخط منسقًا بالخط المائل في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/italic/
 public bool Italic { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية كتابة نص مائل باستخدام أداة إنشاء المستندات.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

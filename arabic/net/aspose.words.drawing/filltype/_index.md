@@ -1,7 +1,9 @@
 ---
-title: Enum FillType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.FillType تعداد. يحدد نوع التعبئة للكائن القابل للتعبئة.
+title: FillType Enum
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.FillType تعداد. يحدد نوع التعبئة للكائن القابل للتعبئة في C#.
 type: docs
 weight: 960
 url: /ar/net/aspose.words.drawing/filltype/
@@ -29,5 +31,3 @@ public enum FillType
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

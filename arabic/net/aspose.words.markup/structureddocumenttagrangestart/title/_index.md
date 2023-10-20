@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكونباطل .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart Title ملكية. يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكونباطل  في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/title/
 public string Title { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

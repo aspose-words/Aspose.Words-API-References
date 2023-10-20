@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.IsEncrypted
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatInfo ملكية. إرجاعحقيقي إذا كان المستند مشفرًا ويتطلب كلمة مرور لفتحه.
+linktitle: IsEncrypted
+articleTitle: IsEncrypted
+second_title: Aspose.Words لـ .NET
+description: FileFormatInfo IsEncrypted ملكية. إرجاعحقيقي إذا كان المستند مشفرًا ويتطلب كلمة مرور لفتحه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/fileformatinfo/isencrypted/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/fileformatinfo/isencrypted/
 public bool IsEncrypted { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 توجد هذه الخاصية لمساعدتك في فرز المستندات المشفرة عن تلك غير المشفرة. إذا حاولت تحميل مستند مشفر باستخدام Aspose.Words دون توفير كلمة مرور، فسيتم طرح استثناء . يمكنك استخدام هذه الخاصية لاكتشاف ما إذا كان المستند يتطلب كلمة مرور واتخاذ بعض الإجراءات قبل تحميل مستند، على سبيل المثال، مطالبة المستخدم بإدخال كلمة مرور.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند وتشفيره.
 
@@ -42,7 +44,5 @@ Assert.True(info.IsEncrypted);
 ### أنظر أيضا
 
 * class [FileFormatInfo](../)
-* مساحة الاسم [Aspose.Words](../../fileformatinfo/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

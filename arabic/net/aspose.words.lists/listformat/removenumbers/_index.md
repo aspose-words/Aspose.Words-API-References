@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat طريقة. إزالة الأرقام أو التعداد النقطي من الفقرة الحالية وتعيين مستوى القائمة إلى صفر.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words لـ .NET
+description: ListFormat RemoveNumbers طريقة. إزالة الأرقام أو التعداد النقطي من الفقرة الحالية وتعيين مستوى القائمة إلى صفر في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listformat/removenumbers/
 public void RemoveNumbers()
 ```
 
-### ملاحظات
+## ملاحظات
 
 استدعاء هذه الطريقة يعادل تعيين[`List`](../list/) الملكية ل`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة تنسيق القائمة من كافة الفقرات في النص الرئيسي للقسم.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### أنظر أيضا
 
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

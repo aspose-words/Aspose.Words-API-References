@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.BarcodeParameters فصل. فئة الحاوية لمعلمات الباركود لتمريرها إلى BarcodeGenerator.
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.BarcodeParameters فصل. فئة الحاوية لمعلمات الباركود لتمريرها إلى BarcodeGenerator في C#.
 type: docs
 weight: 1470
 url: /ar/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | ارتفاع صورة الرمز الشريطي (بمرتين - 1/1440 بوصة) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | تدوير رمز الباركود. القيم الصالحة هي [0، 3]. |
 
-### ملاحظات
+## ملاحظات
 
 مجموعة المعلمات وفقًا لخيارات حقل DISPLAYBARCODE. راجع القائمة الدقيقة في[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

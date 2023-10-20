@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.HyphenationOptions فصل. يسمح بتكوين خيارات الواصلة للمستند.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.HyphenationOptions فصل. يسمح بتكوين خيارات الواصلة للمستند في C#.
 type: docs
 weight: 5790
 url: /ar/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | الحصول على أو تعيين المسافة بـ 1/20 نقطة من الهامش الأيمن الذي لا تريد وصل الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الواصلة التلقائية.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

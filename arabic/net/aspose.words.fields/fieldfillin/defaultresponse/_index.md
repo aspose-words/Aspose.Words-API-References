@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.DefaultResponse
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFillIn ملكية. الحصول على استجابة المستخدم الافتراضية أو تعيينها القيمة الأولية الموجودة في نافذة المطالبة.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words لـ .NET
+description: FieldFillIn DefaultResponse ملكية. الحصول على استجابة المستخدم الافتراضية أو تعيينها القيمة الأولية الموجودة في نافذة المطالبة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldfillin/defaultresponse/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldfillin/defaultresponse/
 public string DefaultResponse { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل FILLIN لمطالبة المستخدم بالرد.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * class [FieldFillIn](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfillin/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentLoadingCallback.Notify
-second_title: Aspose.Words لمراجع .NET API
-description: IDocumentLoadingCallback طريقة. يتم استدعاؤه للإخطار بتقدم تحميل المستند.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words لـ .NET
+description: IDocumentLoadingCallback Notify طريقة. يتم استدعاؤه للإخطار بتقدم تحميل المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentLoadingArgs args)
 | --- | --- | --- |
 | args | DocumentLoadingArgs | حجة الحدث. |
 
-### ملاحظات
+## ملاحظات
 
 الاستخدامات الأساسية لهذه الواجهة هي السماح لرمز التطبيق بالحصول على حالة التقدم وإلغاء عملية التحميل.
 
 يجب طرح استثناء من رد اتصال التقدم للإجهاض ويجب اكتشافه في كود المستهلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
@@ -90,7 +92,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* مساحة الاسم [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

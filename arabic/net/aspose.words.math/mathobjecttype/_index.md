@@ -1,7 +1,9 @@
 ---
-title: Enum MathObjectType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Math.MathObjectType تعداد. يحدد نوع كائن Office Math.
+title: MathObjectType Enum
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Math.MathObjectType تعداد. يحدد نوع كائن Office Math في C#.
 type: docs
 weight: 4110
 url: /ar/net/aspose.words.math/mathobjecttype/
@@ -49,7 +51,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | كائن مرتفع فرعي، يتكون من عنصر أساسي، وبرنامج نصي صغير الحجم موضوع بالأسفل وإلى اليمين، وبرنامج نصي صغير الحجم موضوع بالأعلى وإلى اليمين. |
 | Supercript | `29` | كائن مرتفع، يتكون من عنصر أساسي وبرنامج نصي صغير الحجم موضوع في الأعلى وعلى اليمين. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية في المكتب في المستند.
 
@@ -142,5 +144,3 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words.Math](../../aspose.words.math/)
 * المجسم [Aspose.Words](../../)
-
-

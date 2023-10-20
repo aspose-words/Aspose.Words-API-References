@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomXmlProperty فصل. يمثل سمة XML مخصصة واحدة أو خاصية علامة ذكية.
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomXmlProperty فصل. يمثل سمة XML مخصصة واحدة أو خاصية علامة ذكية في C#.
 type: docs
 weight: 3940
 url: /ar/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | اسم | وصف |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | تهيئة مثيل جديد لهذه الفئة. |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | الحصول على أو تعيين معرف URI لمساحة الاسم لسمة XML المخصصة أو خاصية العلامة الذكية. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | الحصول على قيمة سمة XML المخصصة أو خاصية العلامة الذكية أو تعيينها. |
 
-### ملاحظات
+## ملاحظات
 
 تستخدم كعنصر من أ[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) مجموعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

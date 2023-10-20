@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.XmlMapping
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على كائن يمثل تعيين علامة المستند المنظمة هذه إلى بيانات XML في جزء XML مخصص من المستند الحالي.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag XmlMapping ملكية. الحصول على كائن يمثل تعيين علامة المستند المنظمة هذه إلى بيانات XML في جزء XML مخصص من المستند الحالي في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words.markup/structureddocumenttag/xmlmapping/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/xmlmapping/
 public XmlMapping XmlMapping { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكنك استخدام[`SetMapping`](../../xmlmapping/setmapping/) طريقة هذا الكائن إلى Map علامة مستند منظمة إلى بيانات XML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

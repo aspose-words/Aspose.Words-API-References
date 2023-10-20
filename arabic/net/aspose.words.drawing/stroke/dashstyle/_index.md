@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد نمط النقطة والشرطة للحد.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words لـ .NET
+description: Stroke DashStyle ملكية. يحدد نمط النقطة والشرطة للحد في C#.
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/dashstyle/
 public DashStyle DashStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيSolid.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

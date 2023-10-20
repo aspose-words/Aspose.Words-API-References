@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionBindingType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionBindingType تعداد. تعداد أنواع الارتباط المتاحة بين امتداد الويب والبيانات الموجودة في المستند.
+title: WebExtensionBindingType Enum
+linktitle: WebExtensionBindingType
+articleTitle: WebExtensionBindingType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingType تعداد. تعداد أنواع الارتباط المتاحة بين امتداد الويب والبيانات الموجودة في المستند في C#.
 type: docs
 weight: 6770
 url: /ar/net/aspose.words.webextensions/webextensionbindingtype/
@@ -23,7 +25,7 @@ public enum WebExtensionBindingType
 | Text | `2` | نص عادي. |
 | Default | `0` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -69,5 +71,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

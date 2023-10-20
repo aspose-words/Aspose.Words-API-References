@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.ReplaceAction تعداد. يسمح للمستخدم بتحديد ما يحدث للمطابقة الحالية أثناء عملية الاستبدال.
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Replacing.ReplaceAction تعداد. يسمح للمستخدم بتحديد ما يحدث للمطابقة الحالية أثناء عملية الاستبدال في C#.
 type: docs
 weight: 4640
 url: /ar/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | تخطي المباراة الحالية. |
 | Stop | `2` | إنهاء عملية الاستبدال. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * مساحة الاسم [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../)
-
-

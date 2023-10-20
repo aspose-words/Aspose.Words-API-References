@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على حجم الخط أو تعيينه بالنقاط المستخدمة في مستند من اليمين إلى اليسار.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words لـ .NET
+description: Font SizeBi ملكية. الحصول على حجم الخط أو تعيينه بالنقاط المستخدمة في مستند من اليمين إلى اليسار في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/sizebi/
 public double SizeBi { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعات منفصلة من إعدادات الخط للنص من اليمين إلى اليسار، ومن اليمين إلى اليسار.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

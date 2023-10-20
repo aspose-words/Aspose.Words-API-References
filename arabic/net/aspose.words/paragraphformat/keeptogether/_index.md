@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا كانت جميع الأسطر في الفقرة ستبقى في نفس الصفحة.
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat KeepTogether ملكية. صحيح إذا كانت جميع الأسطر في الفقرة ستبقى في نفس الصفحة في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/keeptogether/
 public bool KeepTogether { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة في المستند.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

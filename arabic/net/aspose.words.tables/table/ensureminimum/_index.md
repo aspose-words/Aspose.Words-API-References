@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. إذا لم يكن الجدول يحتوي على صفوف فسيتم إنشاء واحد وإلحاقهRow .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: Table EnsureMinimum طريقة. إذا لم يكن الجدول يحتوي على صفوف فسيتم إنشاء واحد وإلحاقهRow  في C#.
 type: docs
-weight: 420
+weight: 400
 url: /ar/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التأكد من أن عقدة الجدول تحتوي على العقد التي نحتاجها لإضافة المحتوى.
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

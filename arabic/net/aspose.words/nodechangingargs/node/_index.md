@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words لمراجع .NET API
-description: NodeChangingArgs ملكية. يحصل علىNode التي تتم إضافتها أو إزالتها.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words لـ .NET
+description: NodeChangingArgs Node ملكية. يحصل علىNode التي تتم إضافتها أو إزالتها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/nodechangingargs/node/
 public Node Node { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* مساحة الاسم [Aspose.Words](../../nodechangingargs/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.WarningCallback
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يتم استدعاؤه أثناء عملية التحميل عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words لـ .NET
+description: LoadOptions WarningCallback ملكية. يتم استدعاؤه أثناء عملية التحميل عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.loading/loadoptions/warningcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/loadoptions/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة وتخزين التحذيرات التي تحدث أثناء تحميل المستندات.
 
@@ -59,7 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

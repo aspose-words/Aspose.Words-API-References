@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Aspose.Words لمراجع .NET API
-description: GlossaryDocument ملكية. إرجاع مجموعة مكتوبة تمثل كافة العناصر الأساسية في مستند المسرد.
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: Aspose.Words لـ .NET
+description: GlossaryDocument BuildingBlocks ملكية. إرجاع مجموعة مكتوبة تمثل كافة العناصر الأساسية في مستند المسرد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.Next
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. إرجاع أو تعيين أTextBox الذي يمثل القادمTextBox في تسلسل من الأشكال.
+linktitle: Next
+articleTitle: Next
+second_title: Aspose.Words لـ .NET
+description: TextBox Next ملكية. إرجاع أو تعيين أTextBox الذي يمثل القادمTextBox في تسلسل من الأشكال في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/textbox/next/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/textbox/next/
 public TextBox Next { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط مربعات النص.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

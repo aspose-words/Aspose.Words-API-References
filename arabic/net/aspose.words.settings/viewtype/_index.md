@@ -1,7 +1,9 @@
 ---
-title: Enum ViewType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.ViewType تعداد. القيم الممكنة لوضع العرض في Microsoft Word.
+title: ViewType Enum
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.ViewType تعداد. القيم الممكنة لوضع العرض في Microsoft Word في C#.
 type: docs
 weight: 5960
 url: /ar/net/aspose.words.settings/viewtype/
@@ -25,7 +27,7 @@ public enum ViewType
 | Normal | `4` | يجب أن يتم عرض المستند في عرض محسّن لتحديد الخطوط العريضة أو إنشاء مستندات طويلة. |
 | Web | `5` | يجب أن يتم عرض المستند في طريقة عرض تحاكي الطريقة التي سيتم بها عرض هذا المستند في صفحة ويب. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 * property [ViewType](../viewoptions/viewtype/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

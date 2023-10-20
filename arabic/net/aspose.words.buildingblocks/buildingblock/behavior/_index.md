@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. يحدد السلوك الذي يجب تطبيقه عند إدراج محتويات الكتلة البرمجية الإنشائية في المستند الرئيسي.
+linktitle: Behavior
+articleTitle: Behavior
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Behavior ملكية. يحدد السلوك الذي يجب تطبيقه عند إدراج محتويات الكتلة البرمجية الإنشائية في المستند الرئيسي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/behavior/
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

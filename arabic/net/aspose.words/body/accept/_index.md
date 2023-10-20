@@ -1,7 +1,9 @@
 ---
 title: Body.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: Body طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: Body Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/body/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitBodyStart`](../../documentvisitor/visitbodystart/) ، ثم يتصل[`Accept`](../../node/accept/) لجميع العقد التابعة للقسم والمكالمات[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
 
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Body](../)
-* مساحة الاسم [Aspose.Words](../../body/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

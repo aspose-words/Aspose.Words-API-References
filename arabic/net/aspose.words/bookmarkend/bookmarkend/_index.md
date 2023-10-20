@@ -1,7 +1,9 @@
 ---
-title: BookmarkEnd.BookmarkEnd
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkEnd البناء. تهيئة مثيل جديد لـBookmarkEnd فئة.
+title: BookmarkEnd
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words لـ .NET
+description: BookmarkEnd البناء. تهيئة مثيل جديد لـBookmarkEnd فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +21,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | وثيقة المالك. |
 | name | String | اسم الإشارة المرجعية. لا يمكن`باطل`. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkEnd](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkend/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

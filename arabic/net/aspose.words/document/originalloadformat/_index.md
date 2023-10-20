@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalLoadFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على تنسيق المستند الأصلي الذي تم تحميله في هذا الكائن.
+linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
+second_title: Aspose.Words لـ .NET
+description: Document OriginalLoadFormat ملكية. الحصول على تنسيق المستند الأصلي الذي تم تحميله في هذا الكائن في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words/document/originalloadformat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/originalloadformat/
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بإنشاء مستند فارغ جديد، فسيتم إرجاع الملفDoc قيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استرداد تفاصيل عملية تحميل المستند.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

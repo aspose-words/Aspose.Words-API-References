@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على البايتات الأولية لملمس التعبئة أو النمط.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words لـ .NET
+description: Fill ImageBytes ملكية. الحصول على البايتات الأولية لملمس التعبئة أو النمط في C#.
 type: docs
-weight: 140
+weight: 130
 url: /ar/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/fill/imagebytes/
 public byte[] ImageBytes { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل`.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.EditorType تعداد. يحدد مجموعة الأسماء المستعارة المحتملة أو مجموعات التحرير التي يمكن استخدامها كأسماء مستعارة to لتحديد ما إذا كان سيتم السماح للمستخدم الحالي بتحرير نطاق واحد محدد بواسطة نطاق قابل للتحرير داخل المستند.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.EditorType تعداد. يحدد مجموعة الأسماء المستعارة المحتملة أو مجموعات التحرير التي يمكن استخدامها كأسماء مستعارة to لتحديد ما إذا كان سيتم السماح للمستخدم الحالي بتحرير نطاق واحد محدد بواسطة نطاق قابل للتحرير داخل المستند في C#.
 type: docs
 weight: 1450
 url: /ar/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | يحدد السماح للمستخدمين المرتبطين بمجموعة المالكين بتحرير النطاقات القابلة للتحرير باستخدام نوع التحرير هذا عند تمكين حماية المستند. |
 | Default | `0` | نفسUnspecified . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-
