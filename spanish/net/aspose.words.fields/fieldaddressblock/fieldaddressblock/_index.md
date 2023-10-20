@@ -1,7 +1,9 @@
 ---
-title: FieldAddressBlock.FieldAddressBlock
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAddressBlock constructor. Constructor predeterminado
+title: FieldAddressBlock
+linktitle: FieldAddressBlock
+articleTitle: FieldAddressBlock
+second_title: Aspose.Words para .NET
+description: FieldAddressBlock constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldaddressblock/fieldaddressblock/
@@ -17,7 +19,5 @@ public FieldAddressBlock()
 ### Ver también
 
 * class [FieldAddressBlock](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldaddressblock/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

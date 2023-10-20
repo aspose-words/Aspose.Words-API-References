@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Email
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLine propiedad. Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad es cuerda vacía Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words para .NET
+description: SignatureLine Email propiedad. Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty).
+Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una línea para una firma e insertarla en un documento.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ver también
 
 * class [SignatureLine](../)
-* espacio de nombres [Aspose.Words.Drawing](../../signatureline/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Obtiene o establece el número de línea inicial.
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: Aspose.Words para .NET
+description: PageSetup LineStartingNumber propiedad. Obtiene o establece el número de línea inicial en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ Obtiene o establece el número de línea inicial.
 public int LineStartingNumber { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar la numeración de líneas para una sección.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

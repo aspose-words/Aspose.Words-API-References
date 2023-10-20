@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Tables.CellVerticalAlignment enumeración. Especifica la justificación vertical del texto dentro de una celda de la tabla.
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Tables.CellVerticalAlignment enumeración. Especifica la justificación vertical del texto dentro de una celda de la tabla en C#.
 type: docs
 weight: 6280
 url: /es/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | El texto está alineado en el medio de una celda. |
 | Bottom | `2` | El texto está alineado en la parte inferior de la celda. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla formateada de 2x2.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * espacio de nombres [Aspose.Words.Tables](../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../)
-
-

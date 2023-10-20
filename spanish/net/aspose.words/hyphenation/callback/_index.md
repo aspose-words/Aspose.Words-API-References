@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Hyphenation propiedad. Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios lo que puede resultar útil al procesar documentos en muchos idiomas.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words para .NET
+description: Hyphenation Callback propiedad. Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios lo que puede resultar útil al procesar documentos en muchos idiomas en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ Obtiene o establece la interfaz de devolución de llamada utilizada para solicit
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir y registrar un diccionario desde un archivo.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* espacio de nombres [Aspose.Words](../../hyphenation/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.CustomXmlPropertyCollection clase. Representa una colección de atributos XML personalizados o propiedades de etiquetas inteligentes.
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.CustomXmlPropertyCollection clase. Representa una colección de atributos XML personalizados o propiedades de etiquetas inteligentes en C#.
 type: docs
 weight: 3950
 url: /es/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Agrega una propiedad a la colección. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | Agrega una propiedad a la colección. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Elimina todos los elementos de la colección. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Determina si la colección contiene una propiedad con el nombre indicado. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Determina si la colección contiene una propiedad con el nombre indicado. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Devuelve el índice de base cero de la propiedad especificada en la colección. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Elimina una propiedad con el nombre especificado de la colección. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Elimina una propiedad en el índice especificado. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | Devuelve el índice de base cero de la propiedad especificada en la colección. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | Elimina una propiedad con el nombre especificado de la colección. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | Elimina una propiedad en el índice especificado. |
 
-### Observaciones
+## Observaciones
 
 Los artículos son[`CustomXmlProperty`](../customxmlproperty/) objetos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

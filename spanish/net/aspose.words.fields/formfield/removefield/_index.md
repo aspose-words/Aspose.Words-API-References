@@ -1,7 +1,9 @@
 ---
 title: FormField.RemoveField
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField método. Elimina el campo completo del formulario no solo el carácter especial del campo del formulario.
+linktitle: RemoveField
+articleTitle: RemoveField
+second_title: Aspose.Words para .NET
+description: FormField RemoveField método. Elimina el campo completo del formulario no solo el carácter especial del campo del formulario en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.fields/formfield/removefield/
@@ -14,11 +16,11 @@ Elimina el campo completo del formulario, no solo el carácter especial del camp
 public void RemoveField()
 ```
 
-### Observaciones
+## Observaciones
 
 Si hay un marcador asociado con el campo del formulario, el marcador no se elimina.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar un campo de formulario.
 
@@ -32,7 +34,5 @@ formField.RemoveField();
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

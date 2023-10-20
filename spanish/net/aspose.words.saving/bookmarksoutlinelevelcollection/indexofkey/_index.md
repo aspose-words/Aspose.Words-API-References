@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarksOutlineLevelCollection método. Devuelve el índice de base cero del marcador especificado en la colección.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words para .NET
+description: BookmarksOutlineLevelCollection IndexOfKey método. Devuelve el índice de base cero del marcador especificado en la colección en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 El índice de base cero. Valor negativo si no se encuentra.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Ver también
 
 * class [BookmarksOutlineLevelCollection](../)
-* espacio de nombres [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

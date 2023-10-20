@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator método. Se mueve a la entidad hermana anterior.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator MovePrevious método. Se mueve a la entidad hermana anterior en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ Se mueve a la entidad hermana anterior.
 public bool MovePrevious()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

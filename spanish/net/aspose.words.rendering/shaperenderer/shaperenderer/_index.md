@@ -1,7 +1,9 @@
 ---
-title: ShapeRenderer.ShapeRenderer
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeRenderer constructor. Inicializa una nueva instancia de esta clase.
+title: ShapeRenderer
+linktitle: ShapeRenderer
+articleTitle: ShapeRenderer
+second_title: Aspose.Words para .NET
+description: ShapeRenderer constructor. Inicializa una nueva instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,7 +20,7 @@ public ShapeRenderer(ShapeBase shape)
 | --- | --- | --- |
 | shape | ShapeBase | El objeto de forma DrawinML que desea renderizar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
 
@@ -129,7 +131,5 @@ private class ShapeForm : Form
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ShapeRenderer](../)
-* espacio de nombres [Aspose.Words.Rendering](../../shaperenderer/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

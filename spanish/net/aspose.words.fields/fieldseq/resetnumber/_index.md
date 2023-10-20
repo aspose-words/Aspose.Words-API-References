@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSeq propiedad. Obtiene o establece un número entero para restablecer el número de secuencia. Devuelve 1 si el número está ausente.
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: Aspose.Words para .NET
+description: FieldSeq ResetNumber propiedad. Obtiene o establece un número entero para restablecer el número de secuencia. Devuelve 1 si el número está ausente en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ Obtiene o establece un número entero para restablecer el número de secuencia. 
 public string ResetNumber { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra la numeración creada utilizando campos SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Ver también
 
 * class [FieldSeq](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldseq/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

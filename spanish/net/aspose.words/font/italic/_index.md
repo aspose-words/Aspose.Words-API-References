@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de cursiva.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words para .NET
+description: Font Italic propiedad. Verdadero si la fuente tiene el formato de cursiva en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de cursiva.
 public bool Italic { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo escribir texto en cursiva utilizando un generador de documentos.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

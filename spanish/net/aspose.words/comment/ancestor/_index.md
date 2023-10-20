@@ -1,7 +1,9 @@
 ---
 title: Comment.Ancestor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Comment propiedad. Devuelve el padreComment objeto. Devolucionesnulo para comentarios de nivel superior.
+linktitle: Ancestor
+articleTitle: Ancestor
+second_title: Aspose.Words para .NET
+description: Comment Ancestor propiedad. Devuelve el padreComment objeto. Devolucionesnulo para comentarios de nivel superior en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/comment/ancestor/
@@ -14,7 +16,7 @@ Devuelve el padre[`Comment`](../) objeto. Devoluciones`nulo` para comentarios de
 public Comment Ancestor { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir todos los comentarios de un documento y sus respuestas.
 
@@ -40,7 +42,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Ver también
 
 * class [Comment](../)
-* espacio de nombres [Aspose.Words](../../comment/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

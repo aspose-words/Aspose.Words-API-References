@@ -1,7 +1,9 @@
 ---
-title: OdsoRecipientData.OdsoRecipientData
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientData constructor. Constructor predeterminado
+title: OdsoRecipientData
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words para .NET
+description: OdsoRecipientData constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/odsorecipientdata/odsorecipientdata/
@@ -17,7 +19,5 @@ public OdsoRecipientData()
 ### Ver también
 
 * class [OdsoRecipientData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

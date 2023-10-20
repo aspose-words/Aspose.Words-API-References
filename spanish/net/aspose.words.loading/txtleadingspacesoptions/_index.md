@@ -1,7 +1,9 @@
 ---
-title: Enum TxtLeadingSpacesOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions enumeración. Especifica las opciones disponibles para el manejo del espacio inicial durante la importación desdeText archivo.
+title: TxtLeadingSpacesOptions Enum
+linktitle: TxtLeadingSpacesOptions
+articleTitle: TxtLeadingSpacesOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions enumeración. Especifica las opciones disponibles para el manejo del espacio inicial durante la importación desdeText archivo en C#.
 type: docs
 weight: 3720
 url: /es/net/aspose.words.loading/txtleadingspacesoptions/
@@ -22,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recortar espacios en blanco al cargar documentos de texto sin formato.
 
@@ -99,5 +101,3 @@ switch (txtTrailingSpacesOptions)
 
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

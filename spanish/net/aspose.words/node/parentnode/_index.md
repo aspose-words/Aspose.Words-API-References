@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Obtiene el padre inmediato de este nodo.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words para .NET
+description: Node ParentNode propiedad. Obtiene el padre inmediato de este nodo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ Obtiene el padre inmediato de este nodo.
 public CompositeNode ParentNode { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si se acaba de crear un nodo y aún no se ha agregado al árbol, o si se ha eliminado del árbol, el padre es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder al nodo principal de un nodo.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

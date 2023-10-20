@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica si se reconocen y utilizan sustituciones dentro de los patrones de reemplazo. El valor predeterminado esFALSO .
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions UseSubstitutions propiedad. Obtiene o establece un valor booleano que indica si se reconocen y utilizan sustituciones dentro de los patrones de reemplazo. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ Obtiene o establece un valor booleano que indica si se reconocen y utilizan sust
 public bool UseSubstitutions { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para obtener detalles sobre los elementos de sustitución, consulte: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reconocer y utilizar sustituciones dentro de patrones de reemplazo.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### Ver también
 
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

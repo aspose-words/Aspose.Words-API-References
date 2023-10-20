@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Selecciona la dirección para reemplazar. El valor predeterminado esForward .
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions Direction propiedad. Selecciona la dirección para reemplazar. El valor predeterminado esForward  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,7 +16,7 @@ Selecciona la dirección para reemplazar. El valor predeterminado esForward .
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo determinar en qué dirección atraviesa el documento una operación de buscar y reemplazar.
 
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

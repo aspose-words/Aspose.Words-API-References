@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions método. Crea un clon profundo de este objeto.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions Clone método. Crea un clon profundo de este objeto en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ Crea un clon profundo de este objeto.
 public ImageSaveOptions Clone()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar una velocidad de bits por píxel con la que representar un documento en una imagen.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Ver también
 
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

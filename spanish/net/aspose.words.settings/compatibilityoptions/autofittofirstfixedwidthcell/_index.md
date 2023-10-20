@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AutofitToFirstFixedWidthCell
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Permitir que las columnas de la tabla excedan los anchos preferidos de las celdas constituyentes.
+linktitle: AutofitToFirstFixedWidthCell
+articleTitle: AutofitToFirstFixedWidthCell
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions AutofitToFirstFixedWidthCell propiedad. Permitir que las columnas de la tabla excedan los anchos preferidos de las celdas constituyentes en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell/
@@ -14,14 +16,12 @@ Permitir que las columnas de la tabla excedan los anchos preferidos de las celda
 public bool AutofitToFirstFixedWidthCell { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La opción se llama "Usar reglas de ajuste automático de tablas de Word 2003" en la interfaz de usuario de MS Word 2013. En realidad, también afecta la forma en que se calcula la cuadrícula para tablas de diseño fijo (en algunos casos).
 
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

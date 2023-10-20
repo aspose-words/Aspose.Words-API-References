@@ -1,7 +1,9 @@
 ---
-title: Class FieldRevNum
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldRevNum clase. Implementa el campo REVNUM.
+title: FieldRevNum Class
+linktitle: FieldRevNum
+articleTitle: FieldRevNum
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldRevNum clase. Implementa el campo REVNUM en C#.
 type: docs
 weight: 2340
 url: /es/net/aspose.words.fields/fieldrevnum/
@@ -42,17 +44,17 @@ public class FieldRevNum : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
-Recupera el número de revisión del documento, tal como está registrado en el **Revisión** propiedad de las propiedades del documento incorporado.
+Recupera el número de revisión del documento, tal como está registrado en el**Revisión** propiedad de las propiedades del documento incorporado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con campos REVNUM.
 
@@ -83,5 +85,3 @@ Assert.AreEqual("2", field.Result);
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

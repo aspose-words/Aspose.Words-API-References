@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignatureCollection método. Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: DigitalSignatureCollection GetEnumerator método. Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar s
 public IEnumerator<DigitalSignature> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir todas las firmas digitales de un documento firmado.
 
@@ -38,7 +40,5 @@ using (IEnumerator<DigitalSignature> enumerator = digitalSignatures.GetEnumerato
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

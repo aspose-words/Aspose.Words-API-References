@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapData propiedad. Especifica el nombre de la columna dentro de una fuente de datos externa para la columna cuyo índice está especificado por elColumnpropiedad. El valor predeterminado es una cadena vacía.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: OdsoFieldMapData Name propiedad. Especifica el nombre de la columna dentro de una fuente de datos externa para la columna cuyo índice está especificado por elColumnpropiedad. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ Especifica el nombre de la columna dentro de una fuente de datos externa para la
 public string Name { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoFieldMapData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

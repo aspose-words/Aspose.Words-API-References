@@ -1,7 +1,9 @@
 ---
 title: Font.Size
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el tamaño de fuente en puntos.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words para .NET
+description: Font Size propiedad. Obtiene o establece el tamaño de fuente en puntos en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words/font/size/
@@ -14,7 +16,7 @@ Obtiene o establece el tamaño de fuente en puntos.
 public double Size { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
@@ -51,7 +53,5 @@ builder.Write("Hello world!");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

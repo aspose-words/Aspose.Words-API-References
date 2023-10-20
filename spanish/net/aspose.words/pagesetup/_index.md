@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.PageSetup clase. Representa las propiedades de configuración de página de una sección.
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words para .NET
+description: Aspose.Words.PageSetup clase. Representa las propiedades de configuración de página de una sección en C#.
 type: docs
 weight: 4360
 url: /es/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Restablece la configuración de página al tamaño, márgenes y orientación predeterminados del papel. |
 
-### Observaciones
+## Observaciones
 
 `PageSetup` El objeto contiene todos los atributos de configuración de página de una sección (margen izquierdo, margen inferior, tamaño de papel, etc.) como propiedades.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldDatabaseDataRow.FieldDatabaseDataRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabaseDataRow constructor. Inicializa una nueva instancia delFieldDatabaseDataRow clase.
+title: FieldDatabaseDataRow
+linktitle: FieldDatabaseDataRow
+articleTitle: FieldDatabaseDataRow
+second_title: Aspose.Words para .NET
+description: FieldDatabaseDataRow constructor. Inicializa una nueva instancia delFieldDatabaseDataRow clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
@@ -17,7 +19,5 @@ public FieldDatabaseDataRow(params string[] values)
 ### Ver también
 
 * class [FieldDatabaseDataRow](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

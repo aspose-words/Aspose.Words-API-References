@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: PclSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedePcl .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: PclSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedePcl  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/pclsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Especifica el formato en el que se guardará el documento si se utiliza este obj
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rasterizar elementos complejos mientras se guarda un documento en PCL.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PclSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pclsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

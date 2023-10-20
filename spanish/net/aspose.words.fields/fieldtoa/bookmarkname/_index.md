@@ -1,7 +1,9 @@
 ---
 title: FieldToa.BookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToa propiedad. Obtiene o establece el nombre del marcador que marca la parte del documento utilizada para crear la tabla.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words para .NET
+description: FieldToa BookmarkName propiedad. Obtiene o establece el nombre del marcador que marca la parte del documento utilizada para crear la tabla en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldtoa/bookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador que marca la parte del documento util
 public string BookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldToa](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoa/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

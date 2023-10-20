@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. ObtieneOleControl objetos si este objeto OLE es un control ActiveX. De lo contrario esta propiedad es nula.
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words para .NET
+description: OleFormat OleControl propiedad. ObtieneOleControl objetos si este objeto OLE es un control ActiveX. De lo contrario esta propiedad es nula en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ Obtiene`OleControl` objetos si este objeto OLE es un control ActiveX. De lo cont
 public OleControl OleControl { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar las propiedades de un control ActiveX.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

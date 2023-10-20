@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Obtiene el título del icono del objeto OLE.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words para .NET
+description: OleFormat IconCaption propiedad. Obtiene el título del icono del objeto OLE en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ En caso de que el objeto OLE no esté incrustado como icono o no se pueda recupe
 public string IconCaption { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar objetos OLE vinculados y no vinculados.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

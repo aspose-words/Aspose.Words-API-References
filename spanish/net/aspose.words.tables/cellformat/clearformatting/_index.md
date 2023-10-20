@@ -1,9 +1,11 @@
 ---
 title: CellFormat.ClearFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat método. Restablece el formato de celda predeterminado. No cambia el ancho de la celda.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words para .NET
+description: CellFormat ClearFormatting método. Restablece el formato de celda predeterminado. No cambia el ancho de la celda en C#.
 type: docs
-weight: 160
+weight: 150
 url: /es/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -14,7 +16,7 @@ Restablece el formato de celda predeterminado. No cambia el ancho de la celda.
 public void ClearFormatting()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo combinar las filas de dos tablas en una.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Ver también
 
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

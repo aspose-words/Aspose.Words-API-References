@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clone
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPartCollection método. Hace una copia profunda de esta colección y sus elementos.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words para .NET
+description: CustomPartCollection Clone método. Hace una copia profunda de esta colección y sus elementos en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/custompartcollection/clone/
@@ -14,7 +16,7 @@ Hace una copia profunda de esta colección y sus elementos.
 public CustomPartCollection Clone()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ver también
 
 * class [CustomPartCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../custompartcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

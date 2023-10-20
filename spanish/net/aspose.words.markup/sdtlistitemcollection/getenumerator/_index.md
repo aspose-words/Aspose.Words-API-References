@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItemCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: SdtListItemCollection GetEnumerator método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los 
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

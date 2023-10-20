@@ -1,20 +1,22 @@
 ---
 title: IStructuredDocumentTag.Title
-second_title: Referencia de API de Aspose.Words para .NET
-description: IStructuredDocumentTag propiedad. Especifica el nombre descriptivo asociado con este TED . No puede ser nulo.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words para .NET
+description: IStructuredDocumentTag Title propiedad. Especifica el nombre descriptivo asociado con esteTED . No puede ser nulo en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Especifica el nombre descriptivo asociado con este **TED** . No puede ser nulo.
+Especifica el nombre descriptivo asociado con este**TED** . No puede ser nulo.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener una etiqueta de documento estructurado.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Ver también
 
 * interface [IStructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

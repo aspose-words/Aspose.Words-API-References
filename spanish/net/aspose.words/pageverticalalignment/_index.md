@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.PageVerticalAlignment enumeración. Especifica la justificación vertical del texto en cada página.
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.PageVerticalAlignment enumeración. Especifica la justificación vertical del texto en cada página en C#.
 type: docs
 weight: 4370
 url: /es/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | El texto se extiende para llenar la página. |
 | Top | `0` | El texto está alineado en la parte superior de la página. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

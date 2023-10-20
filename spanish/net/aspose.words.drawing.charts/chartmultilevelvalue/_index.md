@@ -1,7 +1,9 @@
 ---
-title: Class ChartMultilevelValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartMultilevelValue clase. Representa un valor para gráficos que muestran datos multinivel.
+title: ChartMultilevelValue Class
+linktitle: ChartMultilevelValue
+articleTitle: ChartMultilevelValue
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartMultilevelValue clase. Representa un valor para gráficos que muestran datos multinivel en C#.
 type: docs
 weight: 760
 url: /es/net/aspose.words.drawing.charts/chartmultilevelvalue/
@@ -18,9 +20,9 @@ public class ChartMultilevelValue
 
 | Nombre | Descripción |
 | --- | --- |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor)(string) | Inicializa una nueva instancia de esta clase que representa un valor de un solo nivel. |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor_1)(string, string) | Inicializa una nueva instancia de esta clase que representa un valor de dos niveles. |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor_2)(string, string, string) | Inicializa una nueva instancia de esta clase que representa un valor de tres niveles. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor)(*string*) | Inicializa una nueva instancia de esta clase que representa un valor de un solo nivel. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor_1)(*string, string*) | Inicializa una nueva instancia de esta clase que representa un valor de dos niveles. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor_2)(*string, string, string*) | Inicializa una nueva instancia de esta clase que representa un valor de tres niveles. |
 
 ## Propiedades
 
@@ -34,12 +36,10 @@ public class ChartMultilevelValue
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/chartmultilevelvalue/equals/)(object) | Obtiene un indicador que indica si el objeto especificado es igual al objeto de datos multinivel actual. |
+| override [Equals](../../aspose.words.drawing.charts/chartmultilevelvalue/equals/)(*object*) | Obtiene un indicador que indica si el objeto especificado es igual al objeto de datos multinivel actual. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartmultilevelvalue/gethashcode/)() | Obtiene un código hash para el objeto de datos multinivel actual. |
 
 ### Ver también
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

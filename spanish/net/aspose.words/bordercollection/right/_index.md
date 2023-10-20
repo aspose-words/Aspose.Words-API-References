@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Right
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde derecho.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words para .NET
+description: BorderCollection Right propiedad. Obtiene el borde derecho en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/bordercollection/right/
@@ -14,7 +16,7 @@ Obtiene el borde derecho.
 public Border Right { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

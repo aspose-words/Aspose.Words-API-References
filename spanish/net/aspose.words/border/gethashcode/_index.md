@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Border método. Sirve como función hash para este tipo.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words para .NET
+description: Border GetHashCode método. Sirve como función hash para este tipo en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ Sirve como función hash para este tipo.
 public override int GetHashCode()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo las colecciones de bordes pueden compartir elementos.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ver también
 
 * class [Border](../)
-* espacio de nombres [Aspose.Words](../../border/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

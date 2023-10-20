@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. Especifica la carpeta para archivos temporales utilizados al guardar en un archivo DOC o DOCX. De forma predeterminada esta propiedad esnulo y no se utilizan archivos temporales.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words para .NET
+description: SaveOptions TempFolder propiedad. Especifica la carpeta para archivos temporales utilizados al guardar en un archivo DOC o DOCX. De forma predeterminada esta propiedad esnulo y no se utilizan archivos temporales en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ Especifica la carpeta para archivos temporales utilizados al guardar en un archi
 public string TempFolder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando Aspose.Words guarda un documento, necesita crear estructuras internas temporales. De forma predeterminada, estas estructuras internas se crean en la memoria y el uso de la memoria aumenta durante un breve período mientras se guarda el documento. Cuando se completa el guardado, el recolector de basura libera y recupera la memoria.
 
@@ -24,7 +26,7 @@ La carpeta debe existir y poder escribirse; de lo contrario, se generará una ex
 
 Aspose.Words elimina automáticamente todos los archivos temporales cuando se completa el guardado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el disco duro en lugar de la memoria al guardar un documento.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Ver también
 
 * class [SaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../saveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

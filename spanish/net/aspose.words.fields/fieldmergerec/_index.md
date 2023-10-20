@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeRec
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldMergeRec clase. Implementa el campo MERGEREC.
+title: FieldMergeRec Class
+linktitle: FieldMergeRec
+articleTitle: FieldMergeRec
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldMergeRec clase. Implementa el campo MERGEREC en C#.
 type: docs
 weight: 2160
 url: /es/net/aspose.words.fields/fieldmergerec/
@@ -42,17 +44,17 @@ public class FieldMergeRec : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Por el momento los campos MERGEREC y MERGESEQ implementan la misma funcionalidad porque no sabemos con certeza cómo omitir registros en la combinación de correspondencia de Aspose.Words.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos MERGEREC y MERGESEQ para numerar y contar registros de combinación de correspondencia en los documentos de salida de una combinación de correspondencia.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración de un documento de glosario.
+linktitle: VisitGlossaryDocumentStart
+articleTitle: VisitGlossaryDocumentStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitGlossaryDocumentStart método. Se llama cuando ha comenzado la enumeración de un documento de glosario en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words/documentvisitor/visitglossarydocumentstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossar
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Observaciones
+## Observaciones
 
 Nota: Un nodo de documento de glosario y sus hijos no se visitan cuando ejecuta a Visitor sobre un[`Document`](../../document/) . Si desea ejecutar un Visitante sobre un documento de glosario , debe llamar[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

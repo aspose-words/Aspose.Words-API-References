@@ -1,7 +1,9 @@
 ---
-title: Enum AxisScaleType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisScaleType enumeración. Especifica los posibles tipos de escala para un eje.
+title: AxisScaleType Enum
+linktitle: AxisScaleType
+articleTitle: AxisScaleType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.AxisScaleType enumeración. Especifica los posibles tipos de escala para un eje en C#.
 type: docs
 weight: 560
 url: /es/net/aspose.words.drawing.charts/axisscaletype/
@@ -21,7 +23,7 @@ public enum AxisScaleType
 | Linear | `0` | Escala lineal. |
 | Logarithmic | `1` | Escalado logarítmico. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar una escala logarítmica a un eje de gráfico.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

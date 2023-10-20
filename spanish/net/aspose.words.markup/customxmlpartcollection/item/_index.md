@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPartCollection propiedad. Obtiene o establece un elemento en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: CustomXmlPartCollection Item propiedad. Obtiene o establece un elemento en el índice especificado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/customxmlpartcollection/item/
@@ -18,7 +20,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | Índice de base cero del artículo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

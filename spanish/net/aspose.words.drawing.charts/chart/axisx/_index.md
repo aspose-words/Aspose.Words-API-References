@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Referencia de API de Aspose.Words para .NET
-description: Chart propiedad. Proporciona acceso a las propiedades del eje X del gráfico.
+linktitle: AxisX
+articleTitle: AxisX
+second_title: Aspose.Words para .NET
+description: Chart AxisX propiedad. Proporciona acceso a las propiedades del eje X del gráfico en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,7 +16,7 @@ Proporciona acceso a las propiedades del eje X del gráfico.
 public ChartAxis AxisX { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chart/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

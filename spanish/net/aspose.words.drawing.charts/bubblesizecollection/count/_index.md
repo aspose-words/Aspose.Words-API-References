@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: BubbleSizeCollection propiedad. Obtiene el número de elementos de esta colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: BubbleSizeCollection Count propiedad. Obtiene el número de elementos de esta colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/bubblesizecollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Ver también
 
 * class [BubbleSizeCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

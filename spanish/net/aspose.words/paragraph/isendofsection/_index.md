@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Verdadero si este párrafo es el último párrafo delBody historia del texto principal de unSection  falso en caso contrario.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words para .NET
+description: Paragraph IsEndOfSection propiedad. Verdadero si este párrafo es el último párrafo delBody historia del texto principal de unSection  falso en caso contrario en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ Verdadero si este párrafo es el último párrafo del[`Body`](../../body/) (hist
 public bool IsEndOfSection { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar el contenido de un documento en un marcador de otro documento.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

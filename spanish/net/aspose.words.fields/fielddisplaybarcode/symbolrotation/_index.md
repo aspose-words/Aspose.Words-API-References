@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolRotation
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece la rotación del símbolo del código de barras. Los valores válidos son 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words para .NET
+description: FieldDisplayBarcode SymbolRotation propiedad. Obtiene o establece la rotación del símbolo del código de barras. Los valores válidos son 0 3 en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
@@ -14,7 +16,7 @@ Obtiene o establece la rotación del símbolo del código de barras. Los valores
 public string SymbolRotation { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ver también
 
 * class [FieldDisplayBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

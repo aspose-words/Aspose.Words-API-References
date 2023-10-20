@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDeleteRevision
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words para .NET
+description: ShapeBase IsDeleteRevision propiedad. Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words.drawing/shapebase/isdeleterevision/
@@ -14,7 +16,7 @@ Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el segu
 public bool IsDeleteRevision { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con formas de revisión.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

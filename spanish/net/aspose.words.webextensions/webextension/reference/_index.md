@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtension propiedad. Especifica la referencia principal a una extensión web.
+linktitle: Reference
+articleTitle: Reference
+second_title: Aspose.Words para .NET
+description: WebExtension Reference propiedad. Especifica la referencia principal a una extensión web en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ Especifica la referencia principal a una extensión web.
 public WebExtensionReference Reference { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextension/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

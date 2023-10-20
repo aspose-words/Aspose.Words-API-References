@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Referencia de API de Aspose.Words para .NET
-description: MetafileRenderingOptions propiedad. Obtiene o establece un valor que determina cómo se deben representar los metarchivos WMF con metarchivos EMF incrustados.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words para .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf propiedad. Obtiene o establece un valor que determina cómo se deben representar los metarchivos WMF con metarchivos EMF incrustados en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina cómo se deben representar los metarc
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los metarchivos WMF podrían contener datos EMF incrustados. MS Word en la mayoría de los casos usa datos EMF incrustados. GDI+ siempre usa datos WMF.
 
@@ -26,7 +28,7 @@ Esta opción se utiliza sólo cuando el metarchivo se representa como gráficos 
 
 El valor predeterminado es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar las opciones de representación mejoradas relacionadas con el metarchivo de Windows al guardar en PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Ver también
 
 * class [MetafileRenderingOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

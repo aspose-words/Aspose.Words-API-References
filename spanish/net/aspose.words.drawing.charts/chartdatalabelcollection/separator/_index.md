@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Obtiene o establece el separador de cadena utilizado para las etiquetas de datos de toda la serie. El valor predeterminado es una coma excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje cuando en su lugar se utilizará un salto de línea .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words para .NET
+description: ChartDataLabelCollection Separator propiedad. Obtiene o establece el separador de cadena utilizado para las etiquetas de datos de toda la serie. El valor predeterminado es una coma excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje cuando en su lugar se utilizará un salto de línea  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ Obtiene o establece el separador de cadena utilizado para las etiquetas de datos
 public string Separator { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`Separator`](../../chartdatalabel/separator/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de datos de un gráfico de burbujas.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Ver también
 
 * class [ChartDataLabelCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

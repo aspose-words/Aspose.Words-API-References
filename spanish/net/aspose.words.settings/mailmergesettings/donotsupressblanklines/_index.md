@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica cómo una aplicación que realiza la combinación de correspondencia manejará las líneas en blanco en los documentos combinados resultantes de la combinación de correspondencia. El valor predeterminado esFALSO .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words para .NET
+description: MailMergeSettings DoNotSupressBlankLines propiedad. Especifica cómo una aplicación que realiza la combinación de correspondencia manejará las líneas en blanco en los documentos combinados resultantes de la combinación de correspondencia. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ Especifica cómo una aplicación que realiza la combinación de correspondencia 
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

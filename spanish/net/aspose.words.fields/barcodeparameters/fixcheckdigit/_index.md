@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FixCheckDigit
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Si se debe corregir el dígito de control si no es válido.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words para .NET
+description: BarcodeParameters FixCheckDigit propiedad. Si se debe corregir el dígito de control si no es válido en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
@@ -14,7 +16,7 @@ Si se debe corregir el dígito de control si no es válido.
 public bool FixCheckDigit { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

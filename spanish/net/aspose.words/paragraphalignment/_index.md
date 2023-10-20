@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.ParagraphAlignment enumeración. Especifica la alineación del texto en un párrafo.
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.ParagraphAlignment enumeración. Especifica la alineación del texto en un párrafo en C#.
 type: docs
 weight: 4400
 url: /es/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Solo tailandés. El texto está justificado con una optimización para tailandés. |
 | MathElementCenterAsGroup | `10` | El único elemento matemático en una línea, alineado como 'Centrado como grupo'. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

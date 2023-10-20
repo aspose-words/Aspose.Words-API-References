@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDecorative
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece la bandera que especifica si la forma es decorativa en el documento.
+linktitle: IsDecorative
+articleTitle: IsDecorative
+second_title: Aspose.Words para .NET
+description: ShapeBase IsDecorative propiedad. Obtiene o establece la bandera que especifica si la forma es decorativa en el documento en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.drawing/shapebase/isdecorative/
@@ -14,11 +16,11 @@ Obtiene o establece la bandera que especifica si la forma es decorativa en el do
 public bool IsDecorative { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que la forma no está vacía[`AlternativeText`](../alternativetext/) no puede ser decorativo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar que la forma sea decorativa.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.IsDecorative.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

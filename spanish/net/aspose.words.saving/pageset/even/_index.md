@@ -1,7 +1,9 @@
 ---
 title: PageSet.Even
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSet propiedad. Obtiene un conjunto con todas las páginas pares del documento en su orden original.
+linktitle: Even
+articleTitle: Even
+second_title: Aspose.Words para .NET
+description: PageSet Even propiedad. Obtiene un conjunto con todas las páginas pares del documento en su orden original en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/pageset/even/
@@ -14,14 +16,12 @@ Obtiene un conjunto con todas las páginas pares del documento en su orden origi
 public static PageSet Even { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Las páginas pares tienen índices impares ya que los índices de las páginas están basados en cero.
 
 ### Ver también
 
 * class [PageSet](../)
-* espacio de nombres [Aspose.Words.Saving](../../pageset/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

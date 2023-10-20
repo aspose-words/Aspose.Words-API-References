@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode CaseCodeStyle propiedad. Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
@@ -14,7 +16,7 @@ Obtiene o establece el estilo de un Código de caso para el tipo de código de b
 public string CaseCodeStyle { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras ITF14.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

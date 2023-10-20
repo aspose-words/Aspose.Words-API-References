@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Tables
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Tablas El espacio de nombres contiene clases que representan tablas filas celdas y su formato.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Tablas El espacio de nombres contiene clases que representan tablas filas celdas y su formato en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words.tables/
 ---
-El **Aspose.Palabras.Tablas** El espacio de nombres contiene clases que representan tablas, filas, celdas y su formato.
+El**Aspose.Palabras.Tablas** El espacio de nombres contiene clases que representan tablas, filas, celdas y su formato.
 
 ## Clases
 
@@ -32,5 +34,3 @@ El **Aspose.Palabras.Tablas** El espacio de nombres contiene clases que represen
 | [TableAlignment](./tablealignment/) | Especifica la alineación de una tabla en línea. |
 | [TableStyleOptions](./tablestyleoptions/) | Especifica cómo se aplica el estilo de tabla a una tabla. |
 | [TextWrapping](./textwrapping/) | Especifica cómo se ajusta el texto alrededor de la tabla. |
-
-

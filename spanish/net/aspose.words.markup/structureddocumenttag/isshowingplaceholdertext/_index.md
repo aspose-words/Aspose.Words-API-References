@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Especifica si el contenido de este TEDse interpretará como que contiene texto de marcador de posición a diferencia del contenido de texto normal dentro del SDT.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag IsShowingPlaceholderText propiedad. Especifica si el contenido de esteTEDse interpretará como que contiene texto de marcador de posición a diferencia del contenido de texto normal dentro del SDT en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Especifica si el contenido de este **TED**se interpretará como que contiene texto de marcador de posición (a diferencia del contenido de texto normal dentro del SDT).
+Especifica si el contenido de este**TED**se interpretará como que contiene texto de marcador de posición (a diferencia del contenido de texto normal dentro del SDT).
 
 si está configurado en`verdadero` , este estado se reanudará (mostrando texto de marcador de posición) al abrir este documento.
 
@@ -16,7 +18,7 @@ si está configurado en`verdadero` , este estado se reanudará (mostrando texto 
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el contenido de un bloque de creación como texto de marcador de posición personalizado para una etiqueta de documento estructurado.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

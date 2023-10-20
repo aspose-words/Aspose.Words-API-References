@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge método. Realiza una combinación de correspondencia desde un objeto Recordset de ADO en el documento con regiones de combinación de correspondencia.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words para .NET
+description: MailMerge ExecuteWithRegionsADO método. Realiza una combinación de correspondencia desde un objeto Recordset de ADO en el documento con regiones de combinación de correspondencia en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | Conjunto de registros ADO u objeto de registro. |
 | tableName | String | Nombre de la región de combinación de correspondencia en el documento que se va a completar. |
 
-### Observaciones
+## Observaciones
 
 Este método es útil cuando pretende utilizar clases Aspose.Words como objetos COM de código no administrado, como una aplicación creada con ASP o Visual Basic 6.0.
 
 Para más información ver descripción de[`ExecuteWithRegions`](../executewithregions/).
 
-### Ejemplos
+## Ejemplos
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

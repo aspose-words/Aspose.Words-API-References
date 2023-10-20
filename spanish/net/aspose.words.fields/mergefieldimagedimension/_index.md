@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.MergeFieldImageDimension clase. Representa una dimensión de imagen es decir el ancho o el alto utilizada en un proceso de combinación de correspondencia.
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.MergeFieldImageDimension clase. Representa una dimensión de imagen es decir el ancho o el alto utilizada en un proceso de combinación de correspondencia en C#.
 type: docs
 weight: 2750
 url: /es/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | Nombre | Descripción |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Crea una instancia de dimensión de imagen con el valor dado en puntos. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Crea una instancia de dimensión de imagen con el valor y la unidad dados. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Crea una instancia de dimensión de imagen con el valor dado en puntos. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Crea una instancia de dimensión de imagen con el valor y la unidad dados. |
 
 ## Propiedades
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | La unidad. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | El valor. |
 
-### Observaciones
+## Observaciones
 
 Para indicar que la imagen debe insertarse con su dimensión original durante una combinación de correspondencia, debe asignar un valor negativo al[`Value`](./value/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar las dimensiones de las imágenes según las acepta MERGEFIELDS durante una combinación de correspondencia.
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

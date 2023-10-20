@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Devuelve la fila principal de la celda.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words para .NET
+description: Cell ParentRow propiedad. Devuelve la fila principal de la celda en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ Devuelve la fila principal de la celda.
 public Row ParentRow { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Equivalente aFirstNonMarkupParentNode lanzado a[`Row`](../../row/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

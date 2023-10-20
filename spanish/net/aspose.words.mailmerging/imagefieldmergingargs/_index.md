@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs clase. Proporciona datos para elImageFieldMerging evento.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs clase. Proporciona datos para elImageFieldMerging evento en C#.
 type: docs
 weight: 3830
 url: /es/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Especifica la forma que el motor de combinación de correspondencia debe insertar en el documento. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible. |
 
-### Observaciones
+## Observaciones
 
 Este evento ocurre durante la combinación de correspondencia cuando se encuentra un campo de imagen mail merge en el documento. Puede responder a este evento para devolver un nombre de archivo, secuencia o un archivo .Image objeto al motor mail merge para que se inserte en el documento.
 
@@ -42,7 +44,7 @@ Hay tres propiedades disponibles.[`ImageFileName`](./imagefilename/) , [`ImageSt
 
 Para insertar un campo de combinación de correspondencia de imagen en un documento en Word, seleccione el comando Insertar/Campo, , luego seleccione MergeField y escriba Imagen:MyFieldName.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

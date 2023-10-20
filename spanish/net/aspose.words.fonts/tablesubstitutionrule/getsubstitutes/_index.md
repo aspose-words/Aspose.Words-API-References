@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableSubstitutionRule método. Devuelve una matriz que contiene nombres de fuentes sustitutos para el nombre de fuente original especificado.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words para .NET
+description: TableSubstitutionRule GetSubstitutes método. Devuelve una matriz que contiene nombres de fuentes sustitutos para el nombre de fuente original especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 Lista de nombres de fuentes alternativas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ver también
 
 * class [TableSubstitutionRule](../)
-* espacio de nombres [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

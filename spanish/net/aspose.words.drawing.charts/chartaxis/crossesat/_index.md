@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CrossesAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Especifica en qué parte del eje perpendicular se cruza el eje.
+linktitle: CrossesAt
+articleTitle: CrossesAt
+second_title: Aspose.Words para .NET
+description: ChartAxis CrossesAt propiedad. Especifica en qué parte del eje perpendicular se cruza el eje en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -14,13 +16,13 @@ Especifica en qué parte del eje perpendicular se cruza el eje.
 public double CrossesAt { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad sólo tiene efecto si[`Crosses`](../crosses/) están configurados paraCustom. No es compatible con los nuevos gráficos de MS Office 2016.
 
 Las unidades vienen determinadas por el tipo de eje. Cuando el eje es un eje de valores, el valor de property es un número decimal en el eje de valores. Cuando el eje es un eje de categoría de tiempo, el valor se define como un número entero de días con respecto a la fecha base (30/12/1899). Para un eje de categorías de texto, el valor es un número de categoría entero, comenzando con 1 como primera categoría.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que un eje de gráfico se cruce en una ubicación personalizada.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

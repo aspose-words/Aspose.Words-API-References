@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreakChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de salto de página char12 o f.
+linktitle: PageBreakChar
+articleTitle: PageBreakChar
+second_title: Aspose.Words para .NET
+description: ControlChar PageBreakChar campo. Carácter de salto de página char12 o f en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words/controlchar/pagebreakchar/
@@ -14,7 +16,7 @@ Carácter de salto de página: (char)12 o "\f".
 public const char PageBreakChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

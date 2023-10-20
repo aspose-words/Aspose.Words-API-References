@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.OutlineOptions clase. Permite especificar opciones de contorno.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.OutlineOptions clase. Permite especificar opciones de contorno en C#.
 type: docs
 weight: 5360
 url: /es/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Especifica cuántos niveles en el esquema del documento se mostrarán expandidos cuando se visualice el archivo. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | Especifica cuántos niveles de encabezados (párrafos formateados con los estilos de encabezado) se incluirán en el esquema del documento . |
 
-### Ejemplos
+## Ejemplos
 
 Se muestra cómo procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

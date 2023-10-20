@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Referencia de API de Aspose.Words para .NET
-description: TaskPane propiedad. Especifica la última ubicación acoplada de este objeto del panel de tareas.
+linktitle: DockState
+articleTitle: DockState
+second_title: Aspose.Words para .NET
+description: TaskPane DockState propiedad. Especifica la última ubicación acoplada de este objeto del panel de tareas en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ Especifica la última ubicación acoplada de este objeto del panel de tareas.
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../taskpane/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

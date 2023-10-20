@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Revision propiedad. Obtiene el nodo principal inmediato propietario de esta revisión. Esta propiedad funcionará para cualquier tipo de revisión que no seaStyleDefinitionChange .
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words para .NET
+description: Revision ParentNode propiedad. Obtiene el nodo principal inmediato propietario de esta revisión. Esta propiedad funcionará para cualquier tipo de revisión que no seaStyleDefinitionChange  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ Obtiene el nodo principal inmediato (propietario) de esta revisión. Esta propie
 public Node ParentNode { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si esta revisión se relaciona con el cambio de formato de estilo, use[`ParentStyle`](../parentstyle/) en lugar.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo determinar el tipo de revisión de un nodo en línea.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* espacio de nombres [Aspose.Words](../../revision/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

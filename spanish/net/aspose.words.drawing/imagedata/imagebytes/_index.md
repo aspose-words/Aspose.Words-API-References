@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Obtiene o establece los bytes sin formato de la imagen almacenada en la forma.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words para .NET
+description: ImageData ImageBytes propiedad. Obtiene o establece los bytes sin formato de la imagen almacenada en la forma en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ Obtiene o establece los bytes sin formato de la imagen almacenada en la forma.
 public byte[] ImageBytes { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Establecer el valor en`nulo` o una matriz vacía eliminará la imagen de la forma.
 
 Devoluciones`nulo` si la imagen no está almacenada en el documento (por ejemplo, en este caso la imagen probablemente esté vinculada).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un archivo de imagen a partir de los datos de imagen sin procesar de una forma.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Ver también
 
 * class [ImageData](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagedata/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

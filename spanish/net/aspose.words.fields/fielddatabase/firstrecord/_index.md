@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FirstRecord
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece el número de registro integral del primer registro de datos a insertar.
+linktitle: FirstRecord
+articleTitle: FirstRecord
+second_title: Aspose.Words para .NET
+description: FieldDatabase FirstRecord propiedad. Obtiene o establece el número de registro integral del primer registro de datos a insertar en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fielddatabase/firstrecord/
@@ -14,7 +16,7 @@ Obtiene o establece el número de registro integral del primer registro de datos
 public string FirstRecord { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

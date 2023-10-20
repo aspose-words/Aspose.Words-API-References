@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphCollection método. Copia todos los párrafos de la colección en una nueva matriz de párrafos.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words para .NET
+description: ParagraphCollection ToArray método. Copia todos los párrafos de la colección en una nueva matriz de párrafos en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 Una serie de párrafos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una matriz a partir de NodeCollection.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* espacio de nombres [Aspose.Words](../../paragraphcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

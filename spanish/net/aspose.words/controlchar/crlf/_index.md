@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Retorno de carro seguido de un carácter de avance de línea x000dx000a o rn. No se usa como tal en documentos de Microsoft Word pero se usa comúnmente en archivos de texto para saltos de párrafo.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words para .NET
+description: ControlChar CrLf campo. Retorno de carro seguido de un carácter de avance de línea x000dx000a o rn. No se usa como tal en documentos de Microsoft Word pero se usa comúnmente en archivos de texto para saltos de párrafo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ Retorno de carro seguido de un carácter de avance de línea: "\x000d\x000a" o "
 public static readonly string CrLf;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

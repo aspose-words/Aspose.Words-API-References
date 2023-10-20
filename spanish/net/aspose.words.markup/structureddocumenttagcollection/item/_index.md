@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagCollection propiedad. Devuelve la etiqueta del documento estructurado en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagCollection Item propiedad. Devuelve la etiqueta del documento estructurado en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/structureddocumenttagcollection/item/
@@ -22,7 +24,5 @@ public IStructuredDocumentTag this[int index] { get; }
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.GetHashCode
-second_title: Referencia de API de Aspose.Words para .NET
-description: List método. Calcula el código hash para este objeto de lista.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words para .NET
+description: List GetHashCode método. Calcula el código hash para este objeto de lista en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.lists/list/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### Ver también
 
 * class [List](../)
-* espacio de nombres [Aspose.Words.Lists](../../list/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

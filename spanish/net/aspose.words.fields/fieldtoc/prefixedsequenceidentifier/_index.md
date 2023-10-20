@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PrefixedSequenceIdentifier
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc propiedad. Obtiene o establece el identificador de una secuencia para la cual se debe agregar un prefijo al número de página de la entrada.
+linktitle: PrefixedSequenceIdentifier
+articleTitle: PrefixedSequenceIdentifier
+second_title: Aspose.Words para .NET
+description: FieldToc PrefixedSequenceIdentifier propiedad. Obtiene o establece el identificador de una secuencia para la cual se debe agregar un prefijo al número de página de la entrada en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
@@ -14,7 +16,7 @@ Obtiene o establece el identificador de una secuencia para la cual se debe agreg
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo completar un campo TOC con entradas utilizando campos SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

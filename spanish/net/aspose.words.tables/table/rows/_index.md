@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Proporciona acceso escrito a las filas de la tabla.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words para .NET
+description: Table Rows propiedad. Proporciona acceso escrito a las filas de la tabla en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ Proporciona acceso escrito a las filas de la tabla.
 public RowCollection Rows { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo combinar las filas de dos tablas en una.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

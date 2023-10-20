@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Shading
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene unShading objeto que hace referencia al formato de sombreado de las celdas de la tabla.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words para .NET
+description: TableStyle Shading propiedad. Obtiene unShading objeto que hace referencia al formato de sombreado de las celdas de la tabla en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/tablestyle/shading/
@@ -14,7 +16,7 @@ Obtiene un[`Shading`](../../shading/) objeto que hace referencia al formato de s
 public Shading Shading { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear configuraciones de estilo personalizadas para la tabla.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Shading](../../shading/)
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

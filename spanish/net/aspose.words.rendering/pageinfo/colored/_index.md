@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Colored
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo propiedad. Devolucionesverdadero si la página contiene contenido en color.
+linktitle: Colored
+articleTitle: Colored
+second_title: Aspose.Words para .NET
+description: PageInfo Colored propiedad. Devolucionesverdadero si la página contiene contenido en color en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.rendering/pageinfo/colored/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si la página contiene contenido en color.
 public bool Colored { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo comprobar si la página está en color o no.
 
@@ -28,7 +30,5 @@ Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ### Ver también
 
 * class [PageInfo](../)
-* espacio de nombres [Aspose.Words.Rendering](../../pageinfo/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

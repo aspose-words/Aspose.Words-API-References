@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Proporciona acceso al formato de fuente de esta etiqueta de datos.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: ChartDataLabel Font propiedad. Proporciona acceso al formato de fuente de esta etiqueta de datos en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ Proporciona acceso al formato de fuente de esta etiqueta de datos.
 public Font Font { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar efectos 3D con gráficos de burbujas.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

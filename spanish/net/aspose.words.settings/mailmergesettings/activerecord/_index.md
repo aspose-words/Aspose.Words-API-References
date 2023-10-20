@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ActiveRecord
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica el índice de base uno del registro de la fuente de datos que se mostrará en Microsoft Word. El valor predeterminado es 1.
+linktitle: ActiveRecord
+articleTitle: ActiveRecord
+second_title: Aspose.Words para .NET
+description: MailMergeSettings ActiveRecord propiedad. Especifica el índice de base uno del registro de la fuente de datos que se mostrará en Microsoft Word. El valor predeterminado es 1 en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -14,7 +16,7 @@ Especifica el índice de base uno del registro de la fuente de datos que se most
 public int ActiveRecord { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia mientras se conecta a una fuente de datos externa.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection método. Elimina una propiedad con el nombre especificado de la colección.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: CustomXmlPropertyCollection Remove método. Elimina una propiedad con el nombre especificado de la colección en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.markup/customxmlpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | El nombre de la propiedad que distingue entre mayúsculas y minúsculas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

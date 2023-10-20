@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Obtiene el nombre del archivo de fuente original con una extensión.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words para .NET
+description: FontSavingArgs OriginalFileName propiedad. Obtiene el nombre del archivo de fuente original con una extensión en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ Obtiene el nombre del archivo de fuente original con una extensión.
 public string OriginalFileName { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad contiene el nombre de archivo original de la fuente actual, si se conoce. De lo contrario, puede ser una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

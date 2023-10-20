@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldQuote propiedad. Obtiene o establece el texto a recuperar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: FieldQuote Text propiedad. Obtiene o establece el texto a recuperar en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto a recuperar.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo COTIZACIÓN.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### Ver también
 
 * class [FieldQuote](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldquote/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

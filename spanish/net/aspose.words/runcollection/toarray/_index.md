@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Referencia de API de Aspose.Words para .NET
-description: RunCollection método. Copia todas las ejecuciones de la colección en una nueva matriz de ejecuciones.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words para .NET
+description: RunCollection ToArray método. Copia todas las ejecuciones de la colección en una nueva matriz de ejecuciones en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 Una variedad de carreras.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo determinar el tipo de revisión de un nodo en línea.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* espacio de nombres [Aspose.Words](../../runcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

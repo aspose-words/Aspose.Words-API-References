@@ -1,7 +1,9 @@
 ---
 title: UserInformation.DefaultUser
-second_title: Referencia de API de Aspose.Words para .NET
-description: UserInformation propiedad. Información de usuario predeterminada.
+linktitle: DefaultUser
+articleTitle: DefaultUser
+second_title: Aspose.Words para .NET
+description: UserInformation DefaultUser propiedad. Información de usuario predeterminada en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/userinformation/defaultuser/
@@ -14,11 +16,11 @@ Información de usuario predeterminada.
 public static UserInformation DefaultUser { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice el[`CurrentUser`](../../fieldoptions/currentuser/) propiedad para especificar información de usuario para un solo documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar los detalles del usuario y mostrarlos mediante campos.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Ver también
 
 * class [UserInformation](../)
-* espacio de nombres [Aspose.Words.Fields](../../userinformation/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSubstitutionSettings propiedad. Configuraciones relacionadas con la regla de sustitución de información de fuente.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words para .NET
+description: FontSubstitutionSettings FontInfoSubstitution propiedad. Configuraciones relacionadas con la regla de sustitución de información de fuente en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ Configuraciones relacionadas con la regla de sustitución de información de fue
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

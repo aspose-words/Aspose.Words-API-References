@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.FollowedHyperlink
-second_title: Referencia de API de Aspose.Words para .NET
-description: ThemeColors propiedad. Especifica el color de un hipervínculo en el que se hace clic.
+linktitle: FollowedHyperlink
+articleTitle: FollowedHyperlink
+second_title: Aspose.Words para .NET
+description: ThemeColors FollowedHyperlink propiedad. Especifica el color de un hipervínculo en el que se hace clic en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.themes/themecolors/followedhyperlink/
@@ -14,7 +16,7 @@ Especifica el color de un hipervínculo en el que se hace clic.
 public Color FollowedHyperlink { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar colores y fuentes personalizados para temas.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ver también
 
 * class [ThemeColors](../)
-* espacio de nombres [Aspose.Words.Themes](../../themecolors/)
+* espacio de nombres [Aspose.Words.Themes](../../../aspose.words.themes/)
 * asamblea [Aspose.Words](../../../)
-
-

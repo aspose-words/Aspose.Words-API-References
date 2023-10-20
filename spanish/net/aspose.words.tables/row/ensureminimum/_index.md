@@ -1,9 +1,11 @@
 ---
 title: Row.EnsureMinimum
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row método. Si elRow no tiene celdas crea y agrega unaCell .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words para .NET
+description: Row EnsureMinimum método. Si elRow no tiene celdas crea y agrega unaCell  en C#.
 type: docs
-weight: 150
+weight: 130
 url: /es/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -14,7 +16,7 @@ Si el[`Row`](../) no tiene celdas, crea y agrega una[`Cell`](../../cell/) .
 public void EnsureMinimum()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo garantizar que un nodo de fila contenga los nodos que necesitamos para comenzar a agregarle contenido.
 
@@ -38,7 +40,5 @@ row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Ver también
 
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

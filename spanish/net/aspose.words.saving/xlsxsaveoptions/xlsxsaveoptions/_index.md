@@ -1,7 +1,9 @@
 ---
-title: XlsxSaveOptions.XlsxSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: XlsxSaveOptions constructor. Constructor predeterminado
+title: XlsxSaveOptions
+linktitle: XlsxSaveOptions
+articleTitle: XlsxSaveOptions
+second_title: Aspose.Words para .NET
+description: XlsxSaveOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/xlsxsaveoptions/xlsxsaveoptions/
@@ -17,7 +19,5 @@ public XlsxSaveOptions()
 ### Ver también
 
 * class [XlsxSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

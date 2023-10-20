@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Obtiene una colección de tablas que son hijas inmediatas de la celda.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words para .NET
+description: Cell Tables propiedad. Obtiene una colección de tablas que son hijas inmediatas de la celda en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ Obtiene una colección de tablas que son hijas inmediatas de la celda.
 public TableCollection Tables { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo saber si una tabla está anidada.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

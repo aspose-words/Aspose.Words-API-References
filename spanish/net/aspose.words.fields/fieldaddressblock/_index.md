@@ -1,7 +1,9 @@
 ---
-title: Class FieldAddressBlock
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldAddressBlock clase. Implementa el campo ADDRESSBLOCK.
+title: FieldAddressBlock Class
+linktitle: FieldAddressBlock
+articleTitle: FieldAddressBlock
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldAddressBlock clase. Implementa el campo ADDRESSBLOCK en C#.
 type: docs
 weight: 1530
 url: /es/net/aspose.words.fields/fieldaddressblock/
@@ -47,18 +49,18 @@ public class FieldAddressBlock : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [GetFieldNames](../../aspose.words.fields/fieldaddressblock/getfieldnames/)() | Devuelve una colección de nombres de campos de combinación de correspondencia utilizados por el campo. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Representa un bloque de direcciones. Unbloque de direccioneses un bloque de texto que especifica información apropiada para una dirección postal, en el orden requerido por el país de destino.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener los nombres de los campos de combinación de correspondencia utilizados por un campo.
 
@@ -80,5 +82,3 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

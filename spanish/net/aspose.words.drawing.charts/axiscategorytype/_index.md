@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType enumeración. Especifica el tipo de eje de categoría.
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.AxisCategoryType enumeración. Especifica el tipo de eje de categoría en C#.
 type: docs
 weight: 530
 url: /es/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | Especifica un eje de un conjunto arbitrario de categorías. |
 | Time | `2` | Especifica un eje de categoría de tiempo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

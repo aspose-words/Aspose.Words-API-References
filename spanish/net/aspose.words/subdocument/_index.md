@@ -1,14 +1,16 @@
 ---
-title: Class SubDocument
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.SubDocument clase. Representa un Subdocumento  que es una referencia a un documento almacenado externamente.
+title: SubDocument Class
+linktitle: SubDocument
+articleTitle: SubDocument
+second_title: Aspose.Words para .NET
+description: Aspose.Words.SubDocument clase. Representa unSubdocumento  que es una referencia a un documento almacenado externamente en C#.
 type: docs
 weight: 6170
 url: /es/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-Representa un **Subdocumento** - que es una referencia a un documento almacenado externamente.
+Representa un**Subdocumento** - que es una referencia a un documento almacenado externamente.
 
 Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
@@ -33,24 +35,24 @@ public class SubDocument : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/subdocument/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| override [Accept](../../aspose.words/subdocument/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 En esta versión de Aspose.Words,`SubDocument` Los nodos no proporcionan métodos públicos ni propiedades para crear o modificar un subdocumento. En esta versión no puedes crear una instancia `SubDocument` nodos o modificar los existentes excepto eliminarlos.
 
 `SubDocument` sólo puede ser hijo de[`Paragraph`](../paragraph/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder al subdocumento de un documento maestro.
 
@@ -69,5 +71,3 @@ Assert.False(subDocument.IsComposite);
 * class [Node](../node/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

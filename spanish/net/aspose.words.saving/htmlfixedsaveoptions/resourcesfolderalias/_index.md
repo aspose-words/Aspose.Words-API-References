@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolderAlias
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. Especifica el nombre de la carpeta utilizada para construir URI de imágenes escritas en un documento HTML. El valor predeterminado esnulo .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words para .NET
+description: HtmlFixedSaveOptions ResourcesFolderAlias propiedad. Especifica el nombre de la carpeta utilizada para construir URI de imágenes escritas en un documento HTML. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Especifica el nombre de la carpeta utilizada para construir URI de imágenes esc
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.[`ResourcesFolder`](../resourcesfolder/) le permite especificar dónde se guardarán las imágenes y`ResourcesFolderAlias` permite especificar cómo se construirán los URI de la imagen.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para imprimir los URI de recursos externos creados al convertir un documento a HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ver también
 
 * class [HtmlFixedSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

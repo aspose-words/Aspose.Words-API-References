@@ -1,7 +1,9 @@
 ---
-title: FieldNext.FieldNext
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldNext constructor. Constructor predeterminado
+title: FieldNext
+linktitle: FieldNext
+articleTitle: FieldNext
+second_title: Aspose.Words para .NET
+description: FieldNext constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldnext/fieldnext/
@@ -17,7 +19,5 @@ public FieldNext()
 ### Ver también
 
 * class [FieldNext](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldnext/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarksOutlineLevelCollection método. Agrega un marcador a la colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: BookmarksOutlineLevelCollection Add método. Agrega un marcador a la colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | El nombre del marcador que se va a agregar, que no distingue entre mayúsculas y minúsculas. |
 | outlineLevel | Int32 | El nivel de esquema del marcador. El rango válido es de 0 a 9. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### Ver también
 
 * class [BookmarksOutlineLevelCollection](../)
-* espacio de nombres [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

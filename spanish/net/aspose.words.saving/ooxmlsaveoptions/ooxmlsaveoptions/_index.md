@@ -1,7 +1,9 @@
 ---
-title: OoxmlSaveOptions.OoxmlSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: OoxmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDocx formato.
+title: OoxmlSaveOptions
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: Aspose.Words para .NET
+description: OoxmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDocx formato en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase que se puede utilizar para guardar 
 public OoxmlSaveOptions()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer una especificación de cumplimiento de OOXML para que se adhiera a un documento guardado.
 
@@ -49,12 +51,12 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 ### Ver también
 
 * class [OoxmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## OoxmlSaveOptions(SaveFormat) {#constructor_1}
+## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDocx , Docm ,Dotx ,Dotm o FlatOpc formato.
 
@@ -66,7 +68,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Puede serDocx ,Docm , Dotx ,Dotm oFlatOpc . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo admitir caracteres de control heredados al convertir a .docx.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

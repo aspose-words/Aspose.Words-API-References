@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.NumberStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: FootnoteOptions propiedad. Especifica el formato numérico para las notas al pie numeradas automáticamente.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words para .NET
+description: FootnoteOptions NumberStyle propiedad. Especifica el formato numérico para las notas al pie numeradas automáticamente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.notes/footnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ Especifica el formato numérico para las notas al pie numeradas automáticamente
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No todos los estilos de números son aplicables para esta propiedad. Para obtener la lista de estilos de números aplicables, consulte el cuadro de diálogo Insertar nota al pie o nota al final en Microsoft Word. Si selecciona un estilo de número que no es aplicable, Microsoft Word volverá a un valor predeterminado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el estilo numérico de las marcas de referencia de notas al pie/notas al final.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [FootnoteOptions](../)
-* espacio de nombres [Aspose.Words.Notes](../../footnoteoptions/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

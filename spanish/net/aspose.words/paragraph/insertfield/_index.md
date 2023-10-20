@@ -1,12 +1,14 @@
 ---
 title: Paragraph.InsertField
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph método. Inserta un campo en este párrafo.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words para .NET
+description: Paragraph InsertField método. Inserta un campo en este párrafo en C#.
 type: docs
-weight: 290
+weight: 270
 url: /es/net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 Inserta un campo en este párrafo.
 
@@ -25,7 +27,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra varias formas de agregar campos a un párrafo.
 
@@ -67,12 +69,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 Inserta un campo en este párrafo.
 
@@ -90,7 +92,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra varias formas de agregar campos a un párrafo.
 
@@ -131,12 +133,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 Inserta un campo en este párrafo.
 
@@ -155,7 +157,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra varias formas de agregar campos a un párrafo.
 
@@ -196,7 +198,5 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Devuelve elDocument objeto para el cual se realiza la combinación de correspondencia.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase Document propiedad. Devuelve elDocument objeto para el cual se realiza la combinación de correspondencia en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ Devuelve el`Document` objeto para el cual se realiza la combinación de correspo
 public Document Document { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

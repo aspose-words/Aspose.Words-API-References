@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WarningSource enumeración. Especifica el módulo que produce una advertencia durante la carga o el guardado del documento.
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.WarningSource enumeración. Especifica el módulo que produce una advertencia durante la carga o el guardado del documento en C#.
 type: docs
 weight: 6650
 url: /es/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

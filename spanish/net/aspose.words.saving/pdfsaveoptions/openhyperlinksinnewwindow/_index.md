@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si los hipervínculos en el documento PDF de salida se fuerzan a abrirse en una nueva ventana o pestaña de un navegador.
+linktitle: OpenHyperlinksInNewWindow
+articleTitle: OpenHyperlinksInNewWindow
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions OpenHyperlinksInNewWindow propiedad. Obtiene o establece un valor que determina si los hipervínculos en el documento PDF de salida se fuerzan a abrirse en una nueva ventana o pestaña de un navegador en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si los hipervínculos en el documento
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` . Cuando este valor se establece en`verdadero` los hipervínculos se guardan usando código JavaScript. El código JavaScript es`app.launchURL("URL", verdadero);` , donde`URL` es un hipervínculo.
 
@@ -22,7 +24,7 @@ Tenga en cuenta que si esta opción está configurada en`verdadero` los hiperví
 
 Las acciones de JavaScript están prohibidas por el cumplimiento de PDF/A-1 y PDF/A-2.`FALSO`se utilizará automáticamente cuando guarde en PDF/A-1 y PDF/A-2.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar hipervínculos en un documento que convertimos a PDF para que abran nuevas páginas cuando hagamos clic en ellos.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options)
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

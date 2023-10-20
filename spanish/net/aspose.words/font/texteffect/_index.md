@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el efecto de animación de la fuente.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words para .NET
+description: Font TextEffect propiedad. Obtiene o establece el efecto de animación de la fuente en C#.
 type: docs
 weight: 450
 url: /es/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ Obtiene o establece el efecto de animación de la fuente.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un efecto visual a una ejecución.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

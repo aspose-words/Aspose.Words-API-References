@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Obtiene o establece elDocumentobjeto al que está adjunto este objeto.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: DocumentBuilder Document propiedad. Obtiene o establece elDocumentobjeto al que está adjunto este objeto en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ Obtiene o establece el`Document`objeto al que está adjunto este objeto.
 public Document Document { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

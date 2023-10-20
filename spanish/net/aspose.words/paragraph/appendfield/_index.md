@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph método. Agrega un campo a este párrafo.
+linktitle: AppendField
+articleTitle: AppendField
+second_title: Aspose.Words para .NET
+description: Paragraph AppendField método. Agrega un campo a este párrafo en C#.
 type: docs
-weight: 260
+weight: 240
 url: /es/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 Agrega un campo a este párrafo.
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo adjunto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra varias formas de agregar campos a un párrafo.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 Agrega un campo a este párrafo.
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo adjunto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra varias formas de agregar campos a un párrafo.
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 Agrega un campo a este párrafo.
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo adjunto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra varias formas de agregar campos a un párrafo.
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

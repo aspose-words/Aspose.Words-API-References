@@ -1,7 +1,9 @@
 ---
-title: FieldAutoNumLgl.FieldAutoNumLgl
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAutoNumLgl constructor. Constructor predeterminado
+title: FieldAutoNumLgl
+linktitle: FieldAutoNumLgl
+articleTitle: FieldAutoNumLgl
+second_title: Aspose.Words para .NET
+description: FieldAutoNumLgl constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldautonumlgl/fieldautonumlgl/
@@ -17,7 +19,5 @@ public FieldAutoNumLgl()
 ### Ver también
 
 * class [FieldAutoNumLgl](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldautonumlgl/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

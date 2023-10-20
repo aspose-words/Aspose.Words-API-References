@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsShiftJis
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSymbol propiedad. Obtiene o establece si el código de carácter se interpreta como el valor de un carácter SHIFTJIS.
+linktitle: IsShiftJis
+articleTitle: IsShiftJis
+second_title: Aspose.Words para .NET
+description: FieldSymbol IsShiftJis propiedad. Obtiene o establece si el código de carácter se interpreta como el valor de un carácter SHIFTJIS en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldsymbol/isshiftjis/
@@ -14,7 +16,7 @@ Obtiene o establece si el código de carácter se interpreta como el valor de un
 public bool IsShiftJis { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo SÍMBOLO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldSymbol](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldsymbol/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

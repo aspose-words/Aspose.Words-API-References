@@ -1,7 +1,9 @@
 ---
-title: FieldRef.FieldRef
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef constructor. Constructor predeterminado
+title: FieldRef
+linktitle: FieldRef
+articleTitle: FieldRef
+second_title: Aspose.Words para .NET
+description: FieldRef constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldref/fieldref/
@@ -17,7 +19,5 @@ public FieldRef()
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

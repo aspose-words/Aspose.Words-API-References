@@ -1,7 +1,9 @@
 ---
-title: Class NodeCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.NodeCollection clase. Representa una colección de nodos de un tipo específico.
+title: NodeCollection Class
+linktitle: NodeCollection
+articleTitle: NodeCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.NodeCollection clase. Representa una colección de nodos de un tipo específico en C#.
 type: docs
 weight: 4200
 url: /es/net/aspose.words/nodecollection/
@@ -27,17 +29,17 @@ public class NodeCollection : IEnumerable<Node>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Agrega un nodo al final de la colección. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Agrega un nodo al final de la colección. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Elimina todos los nodos de esta colección y del documento. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determina si un nodo está en la colección. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determina si un nodo está en la colección. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Devuelve el índice de base cero del nodo especificado. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Devuelve el índice de base cero del nodo especificado. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserta un nodo en la colección en el índice especificado. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Elimina el nodo de la colección y del documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Elimina el nodo en el índice especificado de la colección y del documento. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia todos los nodos de la colección en una nueva matriz de nodos. |
 
-### Observaciones
+## Observaciones
 
 `NodeCollection` no es propietario de los nodos que contiene, sino que es solo una selección de nodes del tipo especificado, pero los nodos se almacenan en el árbol debajo de sus respectivos nodos principales.
 
@@ -49,7 +51,7 @@ El`NodeCollection` La colección está "activa", es decir, los cambios en los hi
 
 `NodeCollection` puede ser "plano" y contener sólo hijos inmediatos del nodo desde el que se creó , o puede ser "profundo" y contener todos los hijos descendientes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
 
@@ -96,5 +98,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * class [Node](../node/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

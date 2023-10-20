@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItemCollection propiedad. Obtiene el número de elementos de la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: SdtListItemCollection Count propiedad. Obtiene el número de elementos de la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/sdtlistitemcollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de elementos de la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ver también
 
 * class [SdtListItemCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

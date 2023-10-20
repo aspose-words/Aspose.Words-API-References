@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPrintDate propiedad. Obtiene o establece si se debe utilizar el calendario de la Era Saka.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words para .NET
+description: FieldPrintDate UseSakaEraCalendar propiedad. Obtiene o establece si se debe utilizar el calendario de la Era Saka en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe utilizar el calendario de la Era Saka.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra los campos leídos PRINTDATE.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Ver también
 
 * class [FieldPrintDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldprintdate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ForegroundColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Color de primer plano del código de barras 0x000000  0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words para .NET
+description: BarcodeParameters ForegroundColor propiedad. Color de primer plano del código de barras 0x000000  0xFFFFFF en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/barcodeparameters/foregroundcolor/
@@ -14,7 +16,7 @@ Color de primer plano del código de barras (0x000000 - 0xFFFFFF)
 public string ForegroundColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

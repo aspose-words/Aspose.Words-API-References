@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica cómo se importarán los estilos cuando tienen nombres iguales en los documentos de origen y de destino. El valor predeterminado esFALSO .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words para .NET
+description: ImportFormatOptions SmartStyleBehavior propiedad. Obtiene o establece un valor booleano que especifica cómo se importarán los estilos cuando tienen nombres iguales en los documentos de origen y de destino. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ Obtiene o establece un valor booleano que especifica cómo se importarán los es
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
-Cuando esta opción es **activado** , el estilo de origen se expandirá a atributos directos dentro de un documento de destino , siKeepSourceFormatting Se utiliza el modo de importación.
+Cuando esta opción es**activado** , el estilo de origen se expandirá a atributos directos dentro de un documento de destino , siKeepSourceFormatting Se utiliza el modo de importación.
 
-Cuando esta opción es **desactivado**, el estilo fuente se expandirá solo si está numerado. Los atributos de destino existentes no se anularán, incluidas las listas.
+Cuando esta opción es**desactivado**, el estilo fuente se expandirá solo si está numerado. Los atributos de destino existentes no se anularán, incluidas las listas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver estilos duplicados al insertar documentos.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Ver también
 
 * class [ImportFormatOptions](../)
-* espacio de nombres [Aspose.Words](../../importformatoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

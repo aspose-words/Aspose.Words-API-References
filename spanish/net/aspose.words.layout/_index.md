@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Diseño.de.palabras.aspose El espacio de nombres proporciona clases que permiten acceder a información como en qué página y en qué parte de una página se colocan elementos particulares del documento  cuando el documento se formatea en páginas.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words para .NET
+description: ElDiseño.de.palabras.aspose El espacio de nombres proporciona clases que permiten acceder a información como en qué página y en qué parte de una página se colocan elementos particulares del documento  cuando el documento se formatea en páginas en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.layout/
 ---
-El **Diseño.de.palabras.aspose** El espacio de nombres proporciona clases que permiten acceder a información, como en qué página y en qué parte de una página se colocan elementos particulares del documento , cuando el documento se formatea en páginas.
+El**Diseño.de.palabras.aspose** El espacio de nombres proporciona clases que permiten acceder a información, como en qué página y en qué parte de una página se colocan elementos particulares del documento , cuando el documento se formatea en páginas.
 
 ## Clases
 
@@ -33,5 +35,3 @@ El **Diseño.de.palabras.aspose** El espacio de nombres proporciona clases que p
 | [RevisionColor](./revisioncolor/) | Permite especificar el color de las revisiones del documento. |
 | [RevisionTextEffect](./revisiontexteffect/) | Permite especificar el efecto de decoración para revisiones del texto del documento. |
 | [ShowInBalloons](./showinballoons/) | Especifica qué revisiones se representan en globos. |
-
-

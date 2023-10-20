@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row método. Obtiene el texto de todas las celdas de esta fila incluido el carácter de final de fila.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words para .NET
+description: Row GetText método. Obtiene el texto de todas las celdas de esta fila incluido el carácter de final de fila en C#.
 type: docs
-weight: 160
+weight: 140
 url: /es/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ Obtiene el texto de todas las celdas de esta fila, incluido el carácter de fina
 public override string GetText()
 ```
 
-### Observaciones
+## Observaciones
 
 Devuelve texto concatenado de todos los nodos secundarios con el final de la fila carácter [`Cell`](../../../aspose.words/controlchar/cell/) adjunto al final.
 
 La cadena devuelta incluye todos los caracteres de control y especiales como se describe en[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada tabla en un documento.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Ver también
 
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

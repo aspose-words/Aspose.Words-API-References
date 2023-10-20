@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Referencia de API de Aspose.Words para .NET
-description: PlainTextDocument propiedad. ObtieneCustomDocumentProperties del documento.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words para .NET
+description: PlainTextDocument CustomDocumentProperties propiedad. ObtieneCustomDocumentProperties del documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ Obtiene`CustomDocumentProperties` del documento.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento de Microsoft Word en texto sin formato y luego acceder a las propiedades personalizadas del documento original.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

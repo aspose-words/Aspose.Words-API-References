@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontFallbackSettings método. Carga la configuración de reserva de fuentes desde el archivo XML.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words para .NET
+description: FontFallbackSettings Load método. Carga la configuración de reserva de fuentes desde el archivo XML en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Carga la configuración de reserva de fuentes desde el archivo XML.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Nombre del archivo de entrada. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde un documento XML en el sistema de archivos local.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Ver también
 
 * class [FontFallbackSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Carga la configuración alternativa desde la secuencia XML.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Flujo de entrada. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde una secuencia.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### Ver también
 
 * class [FontFallbackSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

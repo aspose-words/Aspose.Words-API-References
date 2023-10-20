@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si los tamaños de fuente deben generarse en unidades relativas al guardar en HTML MHTML o EPUB. El valor predeterminado esFALSO .
+linktitle: ExportRelativeFontSize
+articleTitle: ExportRelativeFontSize
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportRelativeFontSize propiedad. Especifica si los tamaños de fuente deben generarse en unidades relativas al guardar en HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -14,15 +16,15 @@ Especifica si los tamaños de fuente deben generarse en unidades relativas al gu
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 En muchos documentos existentes (HTML, IDPF EPUB), los tamaños de fuente se especifican en unidades relativas. Esto permite que las aplicaciones ajusten el tamaño del texto al ver/procesar documentos. Por ejemplo, Microsoft Internet Explorer tiene el submenú "Ver-&gt;Tamaño del texto", Adobe Digital Editions tiene dos botones: Aumentar/Reducir el tamaño del texto. Si espera que esta funcionalidad funcione, configure`ExportRelativeFontSize` propiedad a`verdadero` .
 
-El modelo de documento de Aspose Words contiene y funciona sólo con unidades de tamaño de fuente absolutas. Las unidades relativas necesitan lógica adicional para volver a calcularse a partir de algún tamaño inicial (estándar). Tamaño de fuente de **Normal** El estilo del documento se toma como estándar. Por ejemplo, si **Normal** tiene una fuente de 12 puntos y parte del texto es de 18 puntos, entonces se generará como **1,5 em.** al HTML.
+El modelo de documento de Aspose Words contiene y funciona sólo con unidades de tamaño de fuente absolutas. Las unidades relativas necesitan lógica adicional para volver a calcularse a partir de algún tamaño inicial (estándar). Tamaño de fuente de**Normal** El estilo del documento se toma como estándar. Por ejemplo, si**Normal** tiene una fuente de 12 puntos y parte del texto es de 18 puntos, entonces se generará como**1,5 em.** al HTML.
 
 Cuando esta opción está habilitada, los elementos del documento que no sean texto seguirán teniendo tamaños absolutos. Además, algunos atributos relacionados con el texto pueden expresarse de forma absoluta. En particular, el interlineado especificado con la regla "exactamente" podría producir resultados no deseados al escalar el texto. Por lo tanto, los documentos fuente deben diseñarse y probarse adecuadamente al exportar con`ExportRelativeFontSize` ajustado a`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar tamaños de fuente relativos al guardar en .html.
 
@@ -87,7 +89,5 @@ else
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

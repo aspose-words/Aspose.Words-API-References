@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeWholeDocument
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si los campos de todo el documento se actualizan durante la ejecución de una combinación de correspondencia con regiones.
+linktitle: MergeWholeDocument
+articleTitle: MergeWholeDocument
+second_title: Aspose.Words para .NET
+description: MailMerge MergeWholeDocument propiedad. Obtiene o establece un valor que indica si los campos de todo el documento se actualizan durante la ejecución de una combinación de correspondencia con regiones en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
@@ -14,11 +16,11 @@ Obtiene o establece un valor que indica si los campos de todo el documento se ac
 public bool MergeWholeDocument { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra la relación entre la combinación de correspondencia con las regiones y la actualización de campos.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableMergeWholeDocument()
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Manager
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Obtiene o establece la propiedad del administrador.
+linktitle: Manager
+articleTitle: Manager
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Manager propiedad. Obtiene o establece la propiedad del administrador en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words.properties/builtindocumentproperties/manager/
@@ -14,7 +16,7 @@ Obtiene o establece la propiedad del administrador.
 public string Manager { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

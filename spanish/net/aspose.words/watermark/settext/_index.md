@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Referencia de API de Aspose.Words para .NET
-description: Watermark método. Agrega una marca de agua de texto al documento.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words para .NET
+description: Watermark SetText método. Agrega una marca de agua de texto al documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 Agrega una marca de agua de texto al documento.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Se lanza cuando la longitud del texto está fuera de rango o el texto contiene solo espacios en blanco. |
 | ArgumentNullException | Se lanza cuando el texto es`nulo` . |
 
-### Observaciones
+## Observaciones
 
 La longitud del texto debe estar en el rango de 1 a 200 inclusive. El texto no puede`nulo` o contener solo espacios en blanco.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ver también
 
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 Agrega una marca de agua de texto al documento.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Se lanza cuando la longitud del texto está fuera de rango o el texto contiene solo espacios en blanco. |
 | ArgumentNullException | Se lanza cuando el texto es`nulo` . |
 
-### Observaciones
+## Observaciones
 
 La longitud del texto debe estar en el rango de 1 a 200 inclusive. El texto no puede`nulo` o contener solo espacios en blanco.
 
 Si[`TextWatermarkOptions`](../../textwatermarkoptions/) es`nulo`, la marca de agua se configurará con las opciones predeterminadas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

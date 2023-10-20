@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section propiedad. DevolucionesSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Section NodeType propiedad. DevolucionesSection  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ DevolucionesSection .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

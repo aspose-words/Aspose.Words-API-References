@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table constructor. Inicializa una nueva instancia delTable clase.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words para .NET
+description: Table constructor. Inicializa una nueva instancia delTable clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Table`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo`.
 
-Para anexar[`Table`](../) al uso del documentoNode) oNode) en la historia donde desea insertar la tabla.
+Para anexar[`Table`](../) al uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) en la historia donde desea insertar la tabla.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla.
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

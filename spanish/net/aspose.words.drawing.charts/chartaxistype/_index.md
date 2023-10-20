@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisType enumeración. Especifica el tipo de eje del gráfico.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType enumeración. Especifica el tipo de eje del gráfico en C#.
 type: docs
 weight: 660
 url: /es/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | Eje de serie de un gráfico. |
 | Value | `2` | Eje de valores de un gráfico. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

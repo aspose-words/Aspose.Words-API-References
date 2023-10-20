@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece el valor del tamaño relativo de la forma en dirección vertical.
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words para .NET
+description: ShapeBase RelativeVerticalSize propiedad. Obtiene o establece el valor del tamaño relativo de la forma en dirección vertical en C#.
 type: docs
 weight: 450
 url: /es/net/aspose.words.drawing/shapebase/relativeverticalsize/
@@ -14,13 +16,13 @@ Obtiene o establece el valor del tamaño relativo de la forma en dirección vert
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esMargin.
 
 Tiene efecto sólo si[`HeightRelative`](../heightrelative/) Está establecido.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el tamaño y la posición relativos.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeVerticalSize](../../relativeverticalsize/)
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

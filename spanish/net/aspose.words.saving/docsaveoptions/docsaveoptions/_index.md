@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDoc formato.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words para .NET
+description: DocSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDoc formato en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase que se puede utilizar para guardar 
 public DocSaveOptions()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ver también
 
 * class [DocSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../docsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDoc o Dot formato.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Puede serDoc oDot. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../docsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

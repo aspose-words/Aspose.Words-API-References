@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.GetHashCode
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle método. Calcula el código hash para este objeto.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words para .NET
+description: ConditionalStyle GetHashCode método. Calcula el código hash para este objeto en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/conditionalstyle/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### Ver también
 
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

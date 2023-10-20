@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberRestartMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Obtiene o establece la forma en que se ejecuta la numeración de líneas es decir si comienza de nuevo al principio de una nueva página o sección o se ejecuta continuamente.
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words para .NET
+description: PageSetup LineNumberRestartMode propiedad. Obtiene o establece la forma en que se ejecuta la numeración de líneas es decir si comienza de nuevo al principio de una nueva página o sección o se ejecuta continuamente en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words/pagesetup/linenumberrestartmode/
@@ -14,7 +16,7 @@ Obtiene o establece la forma en que se ejecuta la numeración de líneas, es dec
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar la numeración de líneas para una sección.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

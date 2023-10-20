@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.KnownTypes
-second_title: Referencia de API de Aspose.Words para .NET
-description: ReportingEngine propiedad. Obtiene un conjunto desordenado es decir una colección de elementos únicos que contieneTypeobjetos cuyos nombres total o parcialmente calificados se pueden usar dentro de las plantillas de informes procesadas por esta instancia de motor para invocar los miembros estáticos de los tipos correspondientes realizar conversiones de tipos etc.
+linktitle: KnownTypes
+articleTitle: KnownTypes
+second_title: Aspose.Words para .NET
+description: ReportingEngine KnownTypes propiedad. Obtiene un conjunto desordenado es decir una colección de elementos únicos que contieneTypeobjetos cuyos nombres total o parcialmente calificados se pueden usar dentro de las plantillas de informes procesadas por esta instancia de motor para invocar los miembros estáticos de los tipos correspondientes realizar conversiones de tipos etc en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.reporting/reportingengine/knowntypes/
@@ -18,7 +20,5 @@ public KnownTypeSet KnownTypes { get; }
 
 * class [KnownTypeSet](../../knowntypeset/)
 * class [ReportingEngine](../)
-* espacio de nombres [Aspose.Words.Reporting](../../reportingengine/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

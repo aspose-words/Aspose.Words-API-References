@@ -1,7 +1,9 @@
 ---
-title: FieldSet.FieldSet
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSet constructor. Constructor predeterminado
+title: FieldSet
+linktitle: FieldSet
+articleTitle: FieldSet
+second_title: Aspose.Words para .NET
+description: FieldSet constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldset/fieldset/
@@ -17,7 +19,5 @@ public FieldSet()
 ### Ver también
 
 * class [FieldSet](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldset/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

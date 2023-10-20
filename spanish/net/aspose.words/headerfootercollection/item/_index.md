@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooterCollection propiedad. Recupera unHeaderFooter en el índice dado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: HeaderFooterCollection Item propiedad. Recupera unHeaderFooter en el índice dado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular encabezados y pies de página entre secciones.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* espacio de nombres [Aspose.Words](../../headerfootercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | A[`HeaderFooterType`](../../headerfootertype/) value que especifica el tipo de encabezado/pie de página que se recuperará. |
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo` si no se encuentra el encabezado/pie de página del tipo especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar texto en el pie de página de un documento.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* espacio de nombres [Aspose.Words](../../headerfootercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

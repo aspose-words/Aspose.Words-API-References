@@ -1,7 +1,9 @@
 ---
 title: IBarcodeGenerator.GetOldBarcodeImage
-second_title: Referencia de API de Aspose.Words para .NET
-description: IBarcodeGenerator método. Generar imagen de código de barras utilizando el conjunto de parámetros para el campo de código de barras antiguo.
+linktitle: GetOldBarcodeImage
+articleTitle: GetOldBarcodeImage
+second_title: Aspose.Words para .NET
+description: IBarcodeGenerator GetOldBarcodeImage método. Generar imagen de código de barras utilizando el conjunto de parámetros para el campo de código de barras antiguo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
@@ -22,7 +24,7 @@ public Image GetOldBarcodeImage(BarcodeParameters parameters)
 
 Imagen que representa el código de barras generado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * interface [IBarcodeGenerator](../)
-* espacio de nombres [Aspose.Words.Fields](../../ibarcodegenerator/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

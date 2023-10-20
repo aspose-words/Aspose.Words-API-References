@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece la ruta completa y el nombre de archivo de la base de datos
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words para .NET
+description: FieldDatabase FileName propiedad. Obtiene o establece la ruta completa y el nombre de archivo de la base de datos en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fielddatabase/filename/
@@ -14,7 +16,7 @@ Obtiene o establece la ruta completa y el nombre de archivo de la base de datos
 public string FileName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

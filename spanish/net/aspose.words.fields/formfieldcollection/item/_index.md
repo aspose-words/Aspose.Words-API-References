@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormFieldCollection propiedad. Devuelve un campo de formulario en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: FormFieldCollection Item propiedad. Devuelve un campo de formulario en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/formfieldcollection/item/
@@ -18,7 +20,7 @@ public FormField this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -163,7 +165,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -180,11 +182,11 @@ public FormField this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Nombre del marcador que no distingue entre mayúsculas y minúsculas. |
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo` si no se puede encontrar el campo del formulario con el nombre del marcador especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -319,7 +321,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator método. Se mueve a la entidad principal.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator MoveParent método. Se mueve a la entidad principal en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ Se mueve a la entidad principal.
 public bool MoveParent()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Se mueve a la entidad principal del tipo especificado.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | El tipo de entidad principal a la que moverse. Utilice OR bit a bit para especificar varios tipos de padres. |
 
-### Observaciones
+## Observaciones
 
 Este método es útil si necesita encontrar la celda, columna o encabezado/pie de página principal de la entidad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: Table Accept método. Acepta un visitante en C#.
 type: docs
 weight: 350
 url: /es/net/aspose.words.tables/table/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
-### Observaciones
+## Observaciones
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Para obtener más información, consulte el patrón de diseño Visitante.
 
 llamadas[`VisitTableStart`](../../../aspose.words/documentvisitor/visittablestart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todos los nodos secundarios de la sección y llamadas[`VisitTableEnd`](../../../aspose.words/documentvisitor/visittableend/) al final.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

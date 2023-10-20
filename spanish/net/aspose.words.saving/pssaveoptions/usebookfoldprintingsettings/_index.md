@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.UseBookFoldPrintingSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: PsSaveOptions propiedad. Obtiene o establece un valor booleano que indica si el documento debe guardarse usando un diseño de impresión de folleto si se especifica medianteMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words para .NET
+description: PsSaveOptions UseBookFoldPrintingSettings propiedad. Obtiene o establece un valor booleano que indica si el documento debe guardarse usando un diseño de impresión de folleto si se especifica medianteMultiplePages  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Obtiene o establece un valor booleano que indica si el documento debe guardarse 
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si se especifica esta opción,[`PageSet`](../../fixedpagesaveoptions/pageset/) se ignora al guardar. Este comportamiento coincide con MS Word. Si la configuración de impresión de plegado de libro no se especifica en la configuración de página, esta opción no tendrá ningún efecto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en formato Postscript en forma de libro plegado.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### Ver también
 
 * class [PsSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pssaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

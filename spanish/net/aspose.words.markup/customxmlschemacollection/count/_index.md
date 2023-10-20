@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlSchemaCollection propiedad. Obtiene el número de elementos contenidos en la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: CustomXmlSchemaCollection Count propiedad. Obtiene el número de elementos contenidos en la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/customxmlschemacollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de elementos contenidos en la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con una colección de esquemas XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ver también
 
 * class [CustomXmlSchemaCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlschemacollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

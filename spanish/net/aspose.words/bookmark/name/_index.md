@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: Bookmark propiedad. Obtiene o establece el nombre del marcador.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: Bookmark Name propiedad. Obtiene o establece el nombre del marcador en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ Obtiene o establece el nombre del marcador.
 public string Name { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que si cambia el nombre de un marcador a un nombre que ya existe en el documento, no se dará ningún error y solo se almacenará el primer marcador cuando guarde el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un marcador.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Ver también
 
 * class [Bookmark](../)
-* espacio de nombres [Aspose.Words](../../bookmark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

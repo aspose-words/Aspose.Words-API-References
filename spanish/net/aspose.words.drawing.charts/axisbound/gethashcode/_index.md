@@ -1,7 +1,9 @@
 ---
 title: AxisBound.GetHashCode
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisBound método. Sirve como función hash para este tipo.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words para .NET
+description: AxisBound GetHashCode método. Sirve como función hash para este tipo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing.charts/axisbound/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

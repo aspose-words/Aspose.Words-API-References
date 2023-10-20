@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Bold
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Indica si la fuente actual está en negrita.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words para .NET
+description: FontSavingArgs Bold propiedad. Indica si la fuente actual está en negrita en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/fontsavingargs/bold/
@@ -14,7 +16,7 @@ Indica si la fuente actual está en negrita.
 public bool Bold { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

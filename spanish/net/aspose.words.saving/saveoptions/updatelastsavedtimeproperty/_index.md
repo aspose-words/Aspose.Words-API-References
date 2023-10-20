@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. Obtiene o establece un valor que determina si elLastSavedTime la propiedad se actualiza antes de guardar.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words para .NET
+description: SaveOptions UpdateLastSavedTimeProperty propiedad. Obtiene o establece un valor que determina si elLastSavedTime la propiedad se actualiza antes de guardar en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si el[`LastSavedTime`](../../../aspos
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo determinar si se conserva la propiedad "Última hora guardada" del documento al guardarlo.
 
@@ -48,7 +50,5 @@ else
 ### Ver también
 
 * class [SaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../saveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

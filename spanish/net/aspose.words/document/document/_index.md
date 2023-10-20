@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document constructor. Crea un documento de Word en blanco.
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: Document constructor. Crea un documento de Word en blanco en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ Crea un documento de Word en blanco.
 public Document()
 ```
 
-### Observaciones
+## Observaciones
 
 El tamaño del papel del documento es Carta de forma predeterminada. Si desea cambiar la configuración de la página, use [`PageSetup`](../../section/pagesetup/).
 
 Después de la creación, puedes usar[`DocumentBuilder`](../../documentbuilder/) para agregar contenido al documento fácilmente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 Abre un documento existente desde un archivo. Detecta automáticamente el formato del archivo.
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir un documento y convertirlo a .PDF.
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 Abre un documento existente desde un archivo. Permite especificar opciones adicionales como una contraseña de cifrado.
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar un documento cifrado de Microsoft Word.
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 Abre un documento existente desde una secuencia. Detecta automáticamente el formato del archivo.
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | La transmisión no admite lectura ni búsqueda. |
 | ObjectDisposedException | El arroyo es un objeto desechado. |
 
-### Observaciones
+## Observaciones
 
 El documento debe almacenarse al comienzo de la secuencia. La transmisión debe admitir el posicionamiento aleatorio.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar un documento usando una secuencia.
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 Abre un documento existente desde una secuencia. Permite especificar opciones adicionales como una contraseña de cifrado.
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | La transmisión no admite lectura ni búsqueda. |
 | ObjectDisposedException | El arroyo es un objeto desechado. |
 
-### Observaciones
+## Observaciones
 
 El documento debe almacenarse al comienzo de la secuencia. La transmisión debe admitir el posicionamiento aleatorio.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir un documento HTML con imágenes de una secuencia utilizando un URI base.
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

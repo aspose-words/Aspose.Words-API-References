@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Referencia de API de Aspose.Words para .NET
-description: IPageLayoutCallback método. Esto se llama para notificar sobre la construcción del diseño y el progreso de la representación.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words para .NET
+description: IPageLayoutCallback Notify método. Esto se llama para notificar sobre la construcción del diseño y el progreso de la representación en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | Un argumento del evento. |
 
-### Observaciones
+## Observaciones
 
 La excepción lanzada por la implementación anula el proceso de creación del diseño.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* espacio de nombres [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

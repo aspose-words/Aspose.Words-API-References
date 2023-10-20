@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Devuelve unRange objeto que representa la parte de un documento contenido en este nodo.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words para .NET
+description: Node Range propiedad. Devuelve unRange objeto que representa la parte de un documento contenido en este nodo en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ Devuelve un[`Range`](../../range/) objeto que representa la parte de un document
 public Range Range { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todos los nodos de un rango.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFontAsOpenType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo método. Obtiene un archivo de fuente incrustado en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType.
+linktitle: GetEmbeddedFontAsOpenType
+articleTitle: GetEmbeddedFontAsOpenType
+second_title: Aspose.Words para .NET
+description: FontInfo GetEmbeddedFontAsOpenType método. Obtiene un archivo de fuente incrustado en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
@@ -22,7 +24,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 Devoluciones`nulo`si la fuente especificada no está incrustada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer una fuente incrustada de un documento y guardarla en el sistema de archivos local.
 
@@ -50,7 +52,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

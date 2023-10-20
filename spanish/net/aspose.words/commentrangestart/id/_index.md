@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Id
-second_title: Referencia de API de Aspose.Words para .NET
-description: CommentRangeStart propiedad. Especifica el identificador del comentario al que está vinculada esta región.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words para .NET
+description: CommentRangeStart Id propiedad. Especifica el identificador del comentario al que está vinculada esta región en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/commentrangestart/id/
@@ -14,7 +16,7 @@ Especifica el identificador del comentario al que está vinculada esta región.
 public int Id { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir el contenido de todos los comentarios y sus rangos de comentarios utilizando un visitante de documentos.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ver también
 
 * class [CommentRangeStart](../)
-* espacio de nombres [Aspose.Words](../../commentrangestart/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

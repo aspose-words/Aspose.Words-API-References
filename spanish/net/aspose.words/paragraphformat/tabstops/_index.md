@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene la colección de tabulaciones personalizadas definidas para este objeto.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words para .NET
+description: ParagraphFormat TabStops propiedad. Obtiene la colección de tabulaciones personalizadas definidas para este objeto en C#.
 type: docs
 weight: 390
 url: /es/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ Obtiene la colección de tabulaciones personalizadas definidas para este objeto.
 public TabStopCollection TabStops { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con TOC.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

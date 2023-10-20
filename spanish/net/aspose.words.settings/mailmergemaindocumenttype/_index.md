@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType enumeración. Especifica los tipos posibles para un documento de origen de combinación de correspondencia.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType enumeración. Especifica los tipos posibles para un documento de origen de combinación de correspondencia en C#.
 type: docs
 weight: 5840
 url: /es/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Especifica que el documento de origen de combinación de correspondencia es del tipo fax. |
 | Default | `0` | Igual aNotAMergeDocument |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

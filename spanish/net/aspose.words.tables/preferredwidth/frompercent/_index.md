@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Referencia de API de Aspose.Words para .NET
-description: PreferredWidth método. Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado como porcentaje.
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: Aspose.Words para .NET
+description: PreferredWidth FromPercent método. Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado como porcentaje en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | El valor debe ser de 0 a 100. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una tabla para que se ajuste automáticamente al 50% del ancho de la página.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ver también
 
 * class [PreferredWidth](../)
-* espacio de nombres [Aspose.Words.Tables](../../preferredwidth/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

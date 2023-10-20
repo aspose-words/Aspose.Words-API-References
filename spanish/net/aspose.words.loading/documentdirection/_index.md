@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentDirection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.DocumentDirection enumeración. Permite especificar la dirección en la que fluirá el texto en un documento.
+title: DocumentDirection Enum
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.DocumentDirection enumeración. Permite especificar la dirección en la que fluirá el texto en un documento en C#.
 type: docs
 weight: 3580
 url: /es/net/aspose.words.loading/documentdirection/
@@ -26,5 +28,3 @@ public enum DocumentDirection
 
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextColumnCollection propiedad. cuandoverdadero agrega una línea vertical entre columnas.
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: Aspose.Words para .NET
+description: TextColumnCollection LineBetween propiedad. cuandoverdadero agrega una línea vertical entre columnas en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ cuando`verdadero` agrega una línea vertical entre columnas.
 public bool LineBetween { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo separar columnas con una línea vertical.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### Ver también
 
 * class [TextColumnCollection](../)
-* espacio de nombres [Aspose.Words](../../textcolumncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldUnknown.FieldUnknown
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldUnknown constructor. Constructor predeterminado
+title: FieldUnknown
+linktitle: FieldUnknown
+articleTitle: FieldUnknown
+second_title: Aspose.Words para .NET
+description: FieldUnknown constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldunknown/fieldunknown/
@@ -17,7 +19,5 @@ public FieldUnknown()
 ### Ver también
 
 * class [FieldUnknown](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldunknown/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

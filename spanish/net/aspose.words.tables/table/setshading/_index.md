@@ -1,9 +1,11 @@
 ---
 title: Table.SetShading
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Establece el sombreado en los valores especificados en toda la tabla.
+linktitle: SetShading
+articleTitle: SetShading
+second_title: Aspose.Words para .NET
+description: Table SetShading método. Establece el sombreado en los valores especificados en toda la tabla en C#.
 type: docs
-weight: 450
+weight: 430
 url: /es/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -20,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | El color de la textura. |
 | backgroundColor | Color | El color del relleno de fondo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un borde de contorno a una tabla.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

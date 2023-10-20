@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc propiedad. Obtiene o establece una lista de estilos distintos de los estilos de encabezado integrados para incluirlos en la tabla de contenido.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words para .NET
+description: FieldToc CustomStyles propiedad. Obtiene o establece una lista de estilos distintos de los estilos de encabezado integrados para incluirlos en la tabla de contenido en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ Obtiene o establece una lista de estilos distintos de los estilos de encabezado 
 public string CustomStyles { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de relieve.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words para .NET
+description: Font Emboss propiedad. Verdadero si la fuente tiene el formato de relieve en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de relieve.
 public bool Emboss { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar efectos de grabado/relieve al texto.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

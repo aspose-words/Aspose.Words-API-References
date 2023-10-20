@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FetchInheritedShapeAttr
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase método. Reservado para uso del sistema. IShapeAttrSource.
+linktitle: FetchInheritedShapeAttr
+articleTitle: FetchInheritedShapeAttr
+second_title: Aspose.Words para .NET
+description: ShapeBase FetchInheritedShapeAttr método. Reservado para uso del sistema. IShapeAttrSource en C#.
 type: docs
 weight: 630
 url: /es/net/aspose.words.drawing/shapebase/fetchinheritedshapeattr/
@@ -18,7 +20,5 @@ public object FetchInheritedShapeAttr(int key)
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

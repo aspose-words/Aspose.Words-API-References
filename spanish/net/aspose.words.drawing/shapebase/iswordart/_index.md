@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsWordArt
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devolucionesverdadero si esta forma es un objeto de WordArt.
+linktitle: IsWordArt
+articleTitle: IsWordArt
+second_title: Aspose.Words para .NET
+description: ShapeBase IsWordArt propiedad. Devolucionesverdadero si esta forma es un objeto de WordArt en C#.
 type: docs
 weight: 360
 url: /es/net/aspose.words.drawing/shapebase/iswordart/
@@ -14,11 +16,11 @@ Devoluciones`verdadero` si esta forma es un objeto de WordArt.
 public bool IsWordArt { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Funciona hasta el modo de compatibilidad 2007. En el modo de compatibilidad 2010 y superiores, WordArt es solo un TextBox con fuentes elegantes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

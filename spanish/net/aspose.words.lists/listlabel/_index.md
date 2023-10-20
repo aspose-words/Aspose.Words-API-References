@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Lists.ListLabel clase. Define propiedades específicas de una etiqueta de lista.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Lists.ListLabel clase. Define propiedades específicas de una etiqueta de lista en C#.
 type: docs
 weight: 3490
 url: /es/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Obtiene una representación de cadena de la etiqueta de la lista. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Obtiene un valor numérico para esta etiqueta. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer las etiquetas de la lista de todos los párrafos que son elementos de la lista.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class NodeRendererBase
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Rendering.NodeRendererBase clase. Clase base paraShapeRenderer yOfficeMathRenderer .
+title: NodeRendererBase Class
+linktitle: NodeRendererBase
+articleTitle: NodeRendererBase
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Rendering.NodeRendererBase clase. Clase base paraShapeRenderer yOfficeMathRenderer  en C#.
 type: docs
 weight: 4550
 url: /es/net/aspose.words.rendering/noderendererbase/
@@ -28,18 +30,18 @@ public abstract class NodeRendererBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels)(float, float) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels_1)(float, float, float) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels)(float, float) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(float, float, float) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(float, float) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Representa la forma en unGraphics objeto a una escala especificada. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Representa la forma en unGraphics objeto a un tamaño especificado. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Representa la forma en una imagen y la guarda en una secuencia. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Representa la forma en una imagen y la guarda en un archivo. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels)(*float, float*) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels_1)(*float, float, float*) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels)(*float, float*) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(*float, float, float*) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(*float, float*) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Representa la forma en unGraphics objeto a una escala especificada. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Representa la forma en unGraphics objeto a un tamaño especificado. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Representa la forma en una imagen y la guarda en una secuencia. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Representa la forma en una imagen y la guarda en un archivo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -87,5 +89,3 @@ Assert.AreEqual(30, bounds.Height);
 
 * espacio de nombres [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../)
-
-

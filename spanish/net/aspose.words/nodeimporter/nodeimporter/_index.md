@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeImporter constructor. Inicializa una nueva instancia delNodeImporter clase.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words para .NET
+description: NodeImporter constructor. Inicializa una nueva instancia delNodeImporter clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 Inicializa una nueva instancia del[`NodeImporter`](../) clase.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | El documento de destino que será el propietario de los nodos importados. |
 | importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar el contenido de un documento en un marcador de otro documento.
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* espacio de nombres [Aspose.Words](../../nodeimporter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 Inicializa una nueva instancia del[`NodeImporter`](../) clase.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
 | importFormatOptions | ImportFormatOptions | Especifica varias opciones para formatear el nodo importado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver un conflicto al importar documentos que tienen listas con el mismo identificador de definición de lista.
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* espacio de nombres [Aspose.Words](../../nodeimporter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddColumnBanding
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyleCollection propiedad. Obtiene el estilo de bandas de columna impar.
+linktitle: OddColumnBanding
+articleTitle: OddColumnBanding
+second_title: Aspose.Words para .NET
+description: ConditionalStyleCollection OddColumnBanding propiedad. Obtiene el estilo de bandas de columna impar en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
@@ -14,7 +16,7 @@ Obtiene el estilo de bandas de columna impar.
 public ConditionalStyle OddColumnBanding { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espacio de nombres [Aspose.Words](../../conditionalstylecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Referencia de API de Aspose.Words para .NET
-description: Footnote propiedad. Contiene un valor que especifica si se trata de una nota al pie numerada automáticamente o una nota al pie con una marca de referencia personalizada definida por el usuario.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words para .NET
+description: Footnote IsAuto propiedad. Contiene un valor que especifica si se trata de una nota al pie numerada automáticamente o una nota al pie con una marca de referencia personalizada definida por el usuario en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ Contiene un valor que especifica si se trata de una nota al pie numerada automá
 public bool IsAuto { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 [`ReferenceMark`](../referencemark/)inicializado con una cadena vacía si`IsAuto` ajustado a`FALSO` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar y personalizar notas al pie.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Ver también
 
 * class [Footnote](../)
-* espacio de nombres [Aspose.Words.Notes](../../footnote/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

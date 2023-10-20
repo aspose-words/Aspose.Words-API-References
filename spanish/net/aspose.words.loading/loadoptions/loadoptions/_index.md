@@ -1,7 +1,9 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions constructor. Inicializa una nueva instancia de esta clase con valores predeterminados.
+title: LoadOptions
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words para .NET
+description: LoadOptions constructor. Inicializa una nueva instancia de esta clase con valores predeterminados en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.loading/loadoptions/loadoptions/
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase con valores predeterminados.
 public LoadOptions()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir un documento HTML con imágenes de una secuencia utilizando un URI base.
 
@@ -41,12 +43,12 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Ver también
 
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 Un acceso directo para inicializar una nueva instancia de esta clase con la contraseña especificada para cargar un documento cifrado.
 
@@ -58,7 +60,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | La contraseña para abrir un documento cifrado. Puede ser`nulo` o cadena vacía. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar un documento cifrado de Microsoft Word.
 
@@ -84,12 +86,12 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 ### Ver también
 
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 Un acceso directo para inicializar una nueva instancia de esta clase con propiedades establecidas en los valores especificados.
 
@@ -103,7 +105,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | La contraseña para abrir un documento cifrado. Puede ser`nulo` o cadena vacía. |
 | baseUri | String | La cadena que se utilizará para resolver los URI relativos a absolutos. Puede ser`nulo` o cadena vacía. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar una página web como un archivo .docx.
 
@@ -151,7 +153,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

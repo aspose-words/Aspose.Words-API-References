@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.BookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldInclude propiedad. Obtiene o establece el nombre del marcador en el documento que se incluirá.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words para .NET
+description: FieldInclude BookmarkName propiedad. Obtiene o establece el nombre del marcador en el documento que se incluirá en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldinclude/bookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador en el documento que se incluirá.
 public string BookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo INCLUDE y establecer sus propiedades.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Ver también
 
 * class [FieldInclude](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldinclude/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

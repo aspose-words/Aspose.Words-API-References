@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Obtiene el ancho de la celda en puntos.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words para .NET
+description: CellFormat Width propiedad. Obtiene el ancho de la celda en puntos en C#.
 type: docs
-weight: 140
+weight: 130
 url: /es/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ Obtiene el ancho de la celda en puntos.
 public double Width { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words calcula el ancho al cargar y guardar el documento. Actualmente, no se admiten todas las combinaciones de propiedades de tabla, celda y documento. Es posible que el valor devuelto no sea preciso para algunos documentos. Puede que no coincida exactamente con el ancho de celda calculado por MS Word cuando el documento se abre en MS Word.
 
 No se recomienda establecer esta propiedad. No hay garantía de que la celda realmente tenga el ancho establecido. El ancho se puede ajustar para acomodar el contenido de la celda en un diseño de tabla de ajuste automático. Las celdas en otras filas pueden tener anchos conflictivos settings. Se puede cambiar el tamaño de la tabla para que quepa en el contenedor o para cumplir con la configuración de ancho de la tabla. Considere usar[`PreferredWidth`](../preferredwidth/) para establecer el ancho de la celda. Establecer esta propiedad establece[`PreferredWidth`](../preferredwidth/)implícitamente desde la versión 15.8.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a celdas con un generador de documentos.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ver también
 
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

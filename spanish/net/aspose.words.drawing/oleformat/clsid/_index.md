@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Obtiene el CLSID del objeto OLE.
+linktitle: Clsid
+articleTitle: Clsid
+second_title: Aspose.Words para .NET
+description: OleFormat Clsid propiedad. Obtiene el CLSID del objeto OLE en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ Obtiene el CLSID del objeto OLE.
 public Guid Clsid { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a un control OLE incrustado en un documento y sus controles secundarios.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

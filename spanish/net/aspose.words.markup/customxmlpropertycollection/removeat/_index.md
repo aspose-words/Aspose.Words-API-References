@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection método. Elimina una propiedad en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: CustomXmlPropertyCollection RemoveAt método. Elimina una propiedad en el índice especificado en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.markup/customxmlpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

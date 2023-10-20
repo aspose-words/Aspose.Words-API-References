@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece unVbaProject .
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words para .NET
+description: Document VbaProject propiedad. Obtiene o establece unVbaProject  en C#.
 type: docs
 weight: 450
 url: /es/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ Obtiene o establece un`VbaProject` .
 public VbaProject VbaProject { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la información del proyecto VBA de un documento.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.IsLinked
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDdeAuto propiedad. Obtiene o establece si se debe reducir el tamaño del archivo al no almacenar datos gráficos con el documento.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words para .NET
+description: FieldDdeAuto IsLinked propiedad. Obtiene o establece si se debe reducir el tamaño del archivo al no almacenar datos gráficos con el documento en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/fieldddeauto/islinked/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe reducir el tamaño del archivo al no almacenar da
 public bool IsLinked { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldDdeAuto](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldddeauto/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

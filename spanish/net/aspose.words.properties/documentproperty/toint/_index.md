@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToInt
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentProperty método. Devuelve el valor de la propiedad como un número entero.
+linktitle: ToInt
+articleTitle: ToInt
+second_title: Aspose.Words para .NET
+description: DocumentProperty ToInt método. Devuelve el valor de la propiedad como un número entero en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.properties/documentproperty/toint/
@@ -14,11 +16,11 @@ Devuelve el valor de la propiedad como un número entero.
 public int ToInt()
 ```
 
-### Observaciones
+## Observaciones
 
 Lanza una excepción si el tipo de propiedad no esNumber .
 
-### Ejemplos
+## Ejemplos
 
 Muestra varios métodos de conversión de tipos de propiedades de documentos personalizados.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Ver también
 
 * class [DocumentProperty](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentproperty/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

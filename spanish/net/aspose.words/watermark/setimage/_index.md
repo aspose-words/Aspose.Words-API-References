@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Referencia de API de Aspose.Words para .NET
-description: Watermark método. Agrega una marca de agua de imagen al documento.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words para .NET
+description: Watermark SetImage método. Agrega una marca de agua de imagen al documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Agrega una marca de agua de imagen al documento.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### Ver también
 
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Agrega una marca de agua de imagen al documento.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Se lanza cuando la imagen es`nulo` . |
 
-### Observaciones
+## Observaciones
 
 Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es`nulo`, la marca de agua se configurará con las opciones predeterminadas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua a partir de una imagen en el sistema de archivos local.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Agrega una marca de agua de imagen al documento.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Lanza cuando la ruta es`nulo` . |
 
-### Observaciones
+## Observaciones
 
 Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es`nulo`, la marca de agua se configurará con las opciones predeterminadas.
 
@@ -116,7 +118,5 @@ Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) es`nulo`, la marca de 
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* espacio de nombres [Aspose.Words](../../watermark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

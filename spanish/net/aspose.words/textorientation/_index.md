@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TextOrientation enumeración. Especifica la orientación del texto en una página en una celda de una tabla o en un marco de texto.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words para .NET
+description: Aspose.Words.TextOrientation enumeración. Especifica la orientación del texto en una página en una celda de una tabla o en un marco de texto en C#.
 type: docs
 weight: 6430
 url: /es/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Los caracteres del Lejano Oriente aparecen verticales, el resto del texto se gira 90 grados hacia la derecha para aparecer de arriba a abajo (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Los caracteres del Lejano Oriente aparecen verticales, el resto del texto se gira 90 grados hacia la derecha para aparecer de arriba a abajo verticalmente, luego de izquierda a derecha horizontalmente (tb-lr-v). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla formateada de 2x2.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

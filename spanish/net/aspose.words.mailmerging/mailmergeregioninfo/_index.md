@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.MailMergeRegionInfo clase. Contiene información sobre una región de combinación de correspondencia.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo clase. Contiene información sobre una región de combinación de correspondencia en C#.
 type: docs
 weight: 3860
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Devuelve un campo inicial para la región. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Devuelve una etiqueta inicial "bigote" para la región. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar regiones de combinación de correspondencia.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

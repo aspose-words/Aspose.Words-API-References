@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.VolumeNumber
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldCitation propiedad. Obtiene o establece un número de volumen asociado con la cita.
+linktitle: VolumeNumber
+articleTitle: VolumeNumber
+second_title: Aspose.Words para .NET
+description: FieldCitation VolumeNumber propiedad. Obtiene o establece un número de volumen asociado con la cita en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldcitation/volumenumber/
@@ -14,7 +16,7 @@ Obtiene o establece un número de volumen asociado con la cita.
 public string VolumeNumber { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con los campos CITACIÓN y BIBLIOGRAFÍA.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ver también
 
 * class [FieldCitation](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcitation/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

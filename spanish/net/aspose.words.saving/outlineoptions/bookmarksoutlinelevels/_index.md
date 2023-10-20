@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Referencia de API de Aspose.Words para .NET
-description: OutlineOptions propiedad. Permite especificar el nivel de esquema de marcadores individuales.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words para .NET
+description: OutlineOptions BookmarksOutlineLevels propiedad. Permite especificar el nivel de esquema de marcadores individuales en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ Permite especificar el nivel de esquema de marcadores individuales.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si el nivel de marcador no se especifica en esta colección, entonces[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) Se utiliza el valor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../outlineoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

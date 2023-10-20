@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode método. Elimina todos los nodos secundarios del nodo actual.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words para .NET
+description: CompositeNode RemoveAllChildren método. Elimina todos los nodos secundarios del nodo actual en C#.
 type: docs
-weight: 180
+weight: 160
 url: /es/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ Elimina todos los nodos secundarios del nodo actual.
 public void RemoveAllChildren()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ver también
 
 * class [CompositeNode](../)
-* espacio de nombres [Aspose.Words](../../compositenode/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

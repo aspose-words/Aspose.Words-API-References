@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Especifica una etiqueta asociada con el nodo SDT actual. No se puedenulo .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Tag propiedad. Especifica una etiqueta asociada con el nodo SDT actual. No se puedenulo  en C#.
 type: docs
 weight: 280
 url: /es/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ Especifica una etiqueta asociada con el nodo SDT actual. No se puede`nulo` .
 public string Tag { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Una etiqueta es una cadena arbitraria que las aplicaciones pueden asociar con SDT para identificarla sin proporcionar un nombre descriptivo visible.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado en un cuadro de texto sin formato y modificar su apariencia.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

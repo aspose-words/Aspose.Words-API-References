@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Verdadero si se fuerza un salto de página antes del párrafo.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words para .NET
+description: ParagraphFormat PageBreakBefore propiedad. Verdadero si se fuerza un salto de página antes del párrafo en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ Verdadero si se fuerza un salto de página antes del párrafo.
 public bool PageBreakBefore { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear párrafos con saltos de página al principio.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

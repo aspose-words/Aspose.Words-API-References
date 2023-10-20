@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.SdtType
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene el tipo de esta etiqueta de documento estructurado.
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart SdtType propiedad. Obtiene el tipo de esta etiqueta de documento estructurado en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
@@ -14,7 +16,7 @@ Obtiene el tipo de esta etiqueta de documento estructurado.
 public SdtType SdtType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

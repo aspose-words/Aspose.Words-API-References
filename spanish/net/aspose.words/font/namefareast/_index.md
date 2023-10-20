@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve o establece un nombre de fuente de Asia oriental.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words para .NET
+description: Font NameFarEast propiedad. Devuelve o establece un nombre de fuente de Asia oriental en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ Devuelve o establece un nombre de fuente de Asia oriental.
 public string NameFarEast { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar y dar formato a texto en un idioma del Lejano Oriente.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

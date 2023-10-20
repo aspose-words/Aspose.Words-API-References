@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.GraphicFilter
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludePicture propiedad. Obtiene o establece el nombre del filtro para el formato del gráfico que se va a insertar.
+linktitle: GraphicFilter
+articleTitle: GraphicFilter
+second_title: Aspose.Words para .NET
+description: FieldIncludePicture GraphicFilter propiedad. Obtiene o establece el nombre del filtro para el formato del gráfico que se va a insertar en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldincludepicture/graphicfilter/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del filtro para el formato del gráfico que se va 
 public string GraphicFilter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes usando los campos IMPORTAR e INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ver también
 
 * class [FieldIncludePicture](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldincludepicture/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

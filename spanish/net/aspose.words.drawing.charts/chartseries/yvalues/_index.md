@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.YValues
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeries propiedad. Obtiene una colección de valores Y para esta serie de gráficos.
+linktitle: YValues
+articleTitle: YValues
+second_title: Aspose.Words para .NET
+description: ChartSeries YValues propiedad. Obtiene una colección de valores Y para esta serie de gráficos en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.drawing.charts/chartseries/yvalues/
@@ -18,7 +20,5 @@ public ChartYValueCollection YValues { get; }
 
 * class [ChartYValueCollection](../../chartyvaluecollection/)
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

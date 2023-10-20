@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece si se deben insertar los nombres de los campos de la base de datos como encabezados de columna en la tabla resultante.
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: Aspose.Words para .NET
+description: FieldDatabase InsertHeadings propiedad. Obtiene o establece si se deben insertar los nombres de los campos de la base de datos como encabezados de columna en la tabla resultante en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben insertar los nombres de los campos de la base de
 public bool InsertHeadings { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

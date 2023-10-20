@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Obtiene o establece el valor predeterminado del campo del formulario de casilla de verificación. El valor predeterminado para esta propiedad esFALSO .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words para .NET
+description: FormField Default propiedad. Obtiene o establece el valor predeterminado del campo del formulario de casilla de verificación. El valor predeterminado para esta propiedad esFALSO  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ Obtiene o establece el valor predeterminado del campo del formulario de casilla 
 public bool Default { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aplicable únicamente a un campo de formulario de casilla de verificación.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

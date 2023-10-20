@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeEnd constructor. Inicializa una nueva instancia del Fin del rango de etiquetas de documentos estructurados clase.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeEnd constructor. Inicializa una nueva instancia delFin del rango de etiquetas de documentos estructurados clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Inicializa una nueva instancia del **Fin del rango de etiquetas de documentos estructurados** clase.
+Inicializa una nueva instancia del**Fin del rango de etiquetas de documentos estructurados** clase.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | El documento del propietario. |
 | id | Int32 | Identificador del inicio del rango de etiquetas del documento estructurado correspondiente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

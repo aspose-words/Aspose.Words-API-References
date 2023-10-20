@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Right
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene la posición del borde derecho del bloque contenedor de la forma.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words para .NET
+description: ShapeBase Right propiedad. Obtiene la posición del borde derecho del bloque contenedor de la forma en C#.
 type: docs
 weight: 460
 url: /es/net/aspose.words.drawing/shapebase/right/
@@ -14,13 +16,13 @@ Obtiene la posición del borde derecho del bloque contenedor de la forma.
 public double Right { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para una forma de nivel superior, el valor está en puntos y es relativo al anclaje de la forma.
 
 Para formas en un grupo, el valor está en el espacio de coordenadas y las unidades del grupo principal.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen flotante y especificar su posición y tamaño.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

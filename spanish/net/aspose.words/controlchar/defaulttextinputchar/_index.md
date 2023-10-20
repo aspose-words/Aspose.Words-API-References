@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Este es el carácter o utilizado como valor predeterminado en los campos del formulario de entrada de texto.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words para .NET
+description: ControlChar DefaultTextInputChar campo. Este es el carácter o utilizado como valor predeterminado en los campos del formulario de entrada de texto en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ Este es el carácter "o" utilizado como valor predeterminado en los campos del f
 public const char DefaultTextInputChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

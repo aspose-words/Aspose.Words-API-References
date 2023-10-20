@@ -1,7 +1,9 @@
 ---
-title: FieldSaveDate.FieldSaveDate
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSaveDate constructor. Constructor predeterminado
+title: FieldSaveDate
+linktitle: FieldSaveDate
+articleTitle: FieldSaveDate
+second_title: Aspose.Words para .NET
+description: FieldSaveDate constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldsavedate/fieldsavedate/
@@ -17,7 +19,5 @@ public FieldSaveDate()
 ### Ver también
 
 * class [FieldSaveDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldsavedate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

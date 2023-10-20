@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsBold
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldXE propiedad. Obtiene o establece si se aplica formato en negrita al número de página de la entrada.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words para .NET
+description: FieldXE IsBold propiedad. Obtiene o establece si se aplica formato en negrita al número de página de la entrada en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldxe/isbold/
@@ -14,7 +16,7 @@ Obtiene o establece si se aplica formato en negrita al número de página de la 
 public bool IsBold { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo completar un campo ÍNDICE con entradas utilizando campos XE y también modificar su apariencia.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ver también
 
 * class [FieldXE](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldxe/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

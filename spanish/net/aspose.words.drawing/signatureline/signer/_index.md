@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Signer
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLine propiedad. Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es cuerda vacía Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words para .NET
+description: SignatureLine Signer propiedad. Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty).
+Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una línea para una firma e insertarla en un documento.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ver también
 
 * class [SignatureLine](../)
-* espacio de nombres [Aspose.Words.Drawing](../../signatureline/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

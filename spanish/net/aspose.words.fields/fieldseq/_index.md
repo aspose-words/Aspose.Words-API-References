@@ -1,7 +1,9 @@
 ---
-title: Class FieldSeq
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldSeq clase. Implementa el campo SEQ.
+title: FieldSeq Class
+linktitle: FieldSeq
+articleTitle: FieldSeq
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldSeq clase. Implementa el campo SEQ en C#.
 type: docs
 weight: 2390
 url: /es/net/aspose.words.fields/fieldseq/
@@ -47,17 +49,17 @@ public class FieldSeq : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Numera secuencialmente capítulos, tablas, figuras y otras listas de elementos definidas por el usuario en un documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra la numeración creada utilizando campos SEQ.
 
@@ -265,5 +267,3 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.CommentChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: CsvDataLoadOptions propiedad. Obtiene o establece el carácter que se utiliza para comentar líneas de datos CSV.
+linktitle: CommentChar
+articleTitle: CommentChar
+second_title: Aspose.Words para .NET
+description: CsvDataLoadOptions CommentChar propiedad. Obtiene o establece el carácter que se utiliza para comentar líneas de datos CSV en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.reporting/csvdataloadoptions/commentchar/
@@ -14,14 +16,12 @@ Obtiene o establece el carácter que se utiliza para comentar líneas de datos C
 public char CommentChar { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es '#' (signo numérico).
 
 ### Ver también
 
 * class [CsvDataLoadOptions](../)
-* espacio de nombres [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

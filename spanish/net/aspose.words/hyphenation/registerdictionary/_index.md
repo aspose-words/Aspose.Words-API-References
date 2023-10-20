@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Referencia de API de Aspose.Words para .NET
-description: Hyphenation método. Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words para .NET
+description: Hyphenation RegisterDictionary método. Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
 | stream | Stream | Una secuencia para el archivo de diccionario en formato OpenOffice. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir y registrar un diccionario desde un archivo.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Ver también
 
 * class [Hyphenation](../)
-* espacio de nombres [Aspose.Words](../../hyphenation/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 Registra y carga un diccionario de separación de palabras para el idioma especificado desde el archivo. Se lanza si el diccionario no se puede leer o tiene un formato no válido.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
 | fileName | String | Una ruta al archivo de diccionario en formato Open Office. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo registrar un diccionario de separación de palabras.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Ver también
 
 * class [Hyphenation](../)
-* espacio de nombres [Aspose.Words](../../hyphenation/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

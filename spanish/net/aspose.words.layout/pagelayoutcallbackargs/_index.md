@@ -1,7 +1,9 @@
 ---
-title: Class PageLayoutCallbackArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.PageLayoutCallbackArgs clase. Un argumento pasado aNotify
+title: PageLayoutCallbackArgs Class
+linktitle: PageLayoutCallbackArgs
+articleTitle: PageLayoutCallbackArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.PageLayoutCallbackArgs clase. Un argumento pasado aNotify en C#.
 type: docs
 weight: 3360
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/
@@ -28,5 +30,3 @@ public class PageLayoutCallbackArgs
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

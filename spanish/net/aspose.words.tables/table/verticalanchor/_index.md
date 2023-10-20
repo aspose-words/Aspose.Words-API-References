@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene el objeto base a partir del cual se debe calcular el posicionamiento vertical de la tabla flotante. El valor predeterminado esMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words para .NET
+description: Table VerticalAnchor propiedad. Obtiene el objeto base a partir del cual se debe calcular el posicionamiento vertical de la tabla flotante. El valor predeterminado esMargin  en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ Obtiene el objeto base a partir del cual se debe calcular el posicionamiento ver
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de tablas flotantes.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.DefaultCategories
-second_title: Referencia de API de Aspose.Words para .NET
-description: ToaCategories propiedad. Obtiene la tabla predeterminada de categorías de autoridades.
+linktitle: DefaultCategories
+articleTitle: DefaultCategories
+second_title: Aspose.Words para .NET
+description: ToaCategories DefaultCategories propiedad. Obtiene la tabla predeterminada de categorías de autoridades en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/toacategories/defaultcategories/
@@ -14,11 +16,11 @@ Obtiene la tabla predeterminada de categorías de autoridades.
 public static ToaCategories DefaultCategories { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice el[`ToaCategories`](../../fieldoptions/toacategories/) propiedad para especificar una tabla de categorías de autoridades para un solo documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar un conjunto de categorías para campos TOA.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Ver también
 
 * class [ToaCategories](../)
-* espacio de nombres [Aspose.Words.Fields](../../toacategories/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

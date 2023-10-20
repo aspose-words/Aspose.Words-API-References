@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.FrameFormat clase. Representa el formato relacionado con el marco para un párrafo.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.FrameFormat clase. Representa el formato relacionado con el marco para un párrafo en C#.
 type: docs
 weight: 3070
 url: /es/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Obtiene la distancia vertical entre el borde del marco y el elemento especificado por el[`RelativeVerticalPosition`](./relativeverticalposition/) propiedad. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Obtiene el ancho del marco especificado, en puntos. |
 
-### Observaciones
+## Observaciones
 
 Este objeto siempre se crea. Si un párrafo es un marco, todas las propiedades contendrán los valores respectivos; de lo contrario, todas las propiedades se establecen en sus valores predeterminados.
 
 Usar[`IsFrame`](./isframe/) para comprobar si el párrafo es un marco.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.NextRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. Obtiene el siguienteRow nodo.
+linktitle: NextRow
+articleTitle: NextRow
+second_title: Aspose.Words para .NET
+description: Row NextRow propiedad. Obtiene el siguienteRow nodo en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.tables/row/nextrow/
@@ -14,11 +16,11 @@ Obtiene el siguiente[`Row`](../) nodo.
 public Row NextRow { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El método se puede utilizar cuando necesita tener acceso escrito a las filas de la tabla. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)El nodo se encuentra en una tabla en lugar de en una fila, se recorre automáticamente para obtener una fila contenida dentro.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo enumerar todas las celdas de la tabla.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Ver también
 
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

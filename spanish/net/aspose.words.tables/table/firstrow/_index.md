@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Devuelve el primeroRow nodo en la tabla.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words para .NET
+description: Table FirstRow propiedad. Devuelve el primeroRow nodo en la tabla en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ Devuelve el primero[`Row`](../../row/) nodo en la tabla.
 public Row FirstRow { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar la primera y la última fila de todas las tablas de un documento.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

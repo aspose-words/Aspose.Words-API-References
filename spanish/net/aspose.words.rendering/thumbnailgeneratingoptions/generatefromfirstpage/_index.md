@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
-second_title: Referencia de API de Aspose.Words para .NET
-description: ThumbnailGeneratingOptions propiedad. Especifica si se genera una miniatura de la primera página del documento o de la primera imagen.
+linktitle: GenerateFromFirstPage
+articleTitle: GenerateFromFirstPage
+second_title: Aspose.Words para .NET
+description: ThumbnailGeneratingOptions GenerateFromFirstPage propiedad. Especifica si se genera una miniatura de la primera página del documento o de la primera imagen en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -14,11 +16,11 @@ Especifica si se genera una miniatura de la primera página del documento o de l
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero` , lo que significa que se generará una miniatura desde la primera página del documento. Si el valor es`FALSO` y no hay ninguna imagen en el documento, se generará una miniatura desde la primera página del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo actualizar la miniatura de un documento.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Ver también
 
 * class [ThumbnailGeneratingOptions](../)
-* espacio de nombres [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

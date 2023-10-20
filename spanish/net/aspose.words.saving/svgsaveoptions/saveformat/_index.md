@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: SvgSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeSvg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: SvgSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeSvg  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/svgsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Especifica el formato en el que se guardará el documento si se utiliza este obj
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular e imprimir los URI de los recursos vinculados creados al convertir un documento a .svg.
 
@@ -58,7 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SvgSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../svgsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

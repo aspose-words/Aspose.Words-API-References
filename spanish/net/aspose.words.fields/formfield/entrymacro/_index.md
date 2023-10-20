@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Devuelve o establece un nombre de macro de entrada para el campo del formulario.
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: Aspose.Words para .NET
+description: FormField EntryMacro propiedad. Devuelve o establece un nombre de macro de entrada para el campo del formulario en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ Devuelve o establece un nombre de macro de entrada para el campo del formulario.
 public string EntryMacro { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La macro de entrada se ejecuta cuando el campo del formulario recibe el foco en Microsoft Word.
 
 Microsoft Word permite cadenas con un máximo de 32 caracteres.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartSeries clase. Representa las propiedades de la serie de gráficos.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries clase. Representa las propiedades de la serie de gráficos en C#.
 type: docs
 weight: 780
 url: /es/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Agrega el valor X especificado a la serie del gráfico. Si la serie admite valores Y y tamaños de burbujas, estarán vacíos para el valor X. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Agrega los valores X e Y especificados a la serie del gráfico. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Agrega el valor X, el valor Y y el tamaño de burbuja especificados a la serie del gráfico. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | Agrega el valor X especificado a la serie del gráfico. Si la serie admite valores Y y tamaños de burbujas, estarán vacíos para el valor X. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Agrega los valores X e Y especificados a la serie del gráfico. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Agrega el valor X, el valor Y y el tamaño de burbuja especificados a la serie del gráfico. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Elimina todos los valores de datos de la serie de gráficos. Se borra el formato de todos los puntos de datos individuales y las etiquetas de datos. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Elimina todos los valores de datos de la serie de gráficos conservando el formato de los puntos de datos y las etiquetas de datos. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Inserta el valor X especificado en la serie del gráfico en el índice especificado. Si la serie admite valores Y y tamaños de burbuja, estarán vacíos para el valor X. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Inserta los valores X e Y especificados en la serie del gráfico en el índice especificado. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Inserta el valor X, el valor Y y el tamaño de burbuja especificados en la serie del gráfico en el índice especificado. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Elimina el valor X, el valor Y y el tamaño de la burbuja, si se admiten, de la serie de gráficos en el índice especificado. También se eliminan el punto de datos y la etiqueta de datos correspondientes. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Inserta el valor X especificado en la serie del gráfico en el índice especificado. Si la serie admite valores Y y tamaños de burbuja, estarán vacíos para el valor X. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Inserta los valores X e Y especificados en la serie del gráfico en el índice especificado. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Inserta el valor X, el valor Y y el tamaño de burbuja especificados en la serie del gráfico en el índice especificado. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Elimina el valor X, el valor Y y el tamaño de la burbuja, si se admiten, de la serie de gráficos en el índice especificado. También se eliminan el punto de datos y la etiqueta de datos correspondientes. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

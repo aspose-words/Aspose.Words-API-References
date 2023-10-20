@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode propiedad. Devolucionesverdadero si este nodo tiene nodos secundarios.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words para .NET
+description: CompositeNode HasChildNodes propiedad. Devolucionesverdadero si este nodo tiene nodos secundarios en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si este nodo tiene nodos secundarios.
 public bool HasChildNodes { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo combinar las filas de dos tablas en una.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Ver también
 
 * class [CompositeNode](../)
-* espacio de nombres [Aspose.Words](../../compositenode/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

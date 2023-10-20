@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. El paso indica si la fuente tiene un paso fijo un espaciado proporcional o se basa en una configuración predeterminada.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words para .NET
+description: FontInfo Pitch propiedad. El paso indica si la fuente tiene un paso fijo un espaciado proporcional o se basa en una configuración predeterminada en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ El paso indica si la fuente tiene un paso fijo, un espaciado proporcional o se b
 public FontPitch Pitch { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder e imprimir detalles de cada fuente en un documento.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

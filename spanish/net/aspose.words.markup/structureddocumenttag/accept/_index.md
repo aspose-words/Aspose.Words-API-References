@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Accept método. Acepta un visitante en C#.
 type: docs
 weight: 330
 url: /es/net/aspose.words.markup/structureddocumenttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
-### Observaciones
+## Observaciones
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Para obtener más información, consulte el patrón de diseño Visitante.
 
 llamadas[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todos los nodos secundarios de la etiqueta inteligente y las llamadas[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) al final.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada etiqueta de documento estructurado en un documento.
 
@@ -121,7 +123,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

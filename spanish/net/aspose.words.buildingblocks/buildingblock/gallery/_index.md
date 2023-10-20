@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuildingBlock propiedad. Especifica la categorización de primer nivel para el bloque de creación a efectos de clasificación o ordenación de la interfaz de usuario.
+linktitle: Gallery
+articleTitle: Gallery
+second_title: Aspose.Words para .NET
+description: BuildingBlock Gallery propiedad. Especifica la categorización de primer nivel para el bloque de creación a efectos de clasificación o ordenación de la interfaz de usuario en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ Especifica la categorización de primer nivel para el bloque de creación a efec
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los bloques de construcción en la interfaz de usuario de Microsoft Word están organizados en Galerías. Cada`Gallery` puede tener varias categorías. Cada bloque dentro de a[`Category`](../category/) tiene un[`Name`](../name/).
 
-Corresponde a la **docPartPr.categoría.galería** elemento en OOXML.
+Corresponde a la**docPartPr.categoría.galería** elemento en OOXML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un bloque de creación personalizado a un documento.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

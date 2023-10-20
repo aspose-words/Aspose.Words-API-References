@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontPitch enumeración. Representa el paso de la fuente.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontPitch enumeración. Representa el paso de la fuente en C#.
 type: docs
 weight: 2960
 url: /es/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Especifica que se trata de una fuente de ancho fijo. |
 | Variable | `2` | Especifica que se trata de una fuente de ancho proporcional. |
 
-### Observaciones
+## Observaciones
 
 El paso indica si la fuente tiene un paso fijo, un espaciado proporcional o depende de una configuración predeterminada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder e imprimir detalles de cada fuente en un documento.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

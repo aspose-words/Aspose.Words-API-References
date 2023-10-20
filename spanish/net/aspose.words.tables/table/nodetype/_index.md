@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. DevolucionesTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Table NodeType propiedad. DevolucionesTable  en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ DevolucionesTable .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

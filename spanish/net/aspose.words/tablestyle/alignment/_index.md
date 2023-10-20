@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Alignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Especifica la alineación del estilo de tabla.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words para .NET
+description: TableStyle Alignment propiedad. Especifica la alineación del estilo de tabla en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/tablestyle/alignment/
@@ -14,11 +16,11 @@ Especifica la alineación del estilo de tabla.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esLeft .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer la posición de una mesa.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

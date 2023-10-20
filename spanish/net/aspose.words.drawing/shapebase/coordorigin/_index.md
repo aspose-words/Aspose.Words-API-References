@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Las coordenadas en la esquina superior izquierda del bloque que contiene esta forma.
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: Aspose.Words para .NET
+description: ShapeBase CoordOrigin propiedad. Las coordenadas en la esquina superior izquierda del bloque que contiene esta forma en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ Las coordenadas en la esquina superior izquierda del bloque que contiene esta fo
 public Point CoordOrigin { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es (0,0).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trasladar la ubicación de las coordenadas xey en el plano de coordenadas de una forma a una ubicación en el plano de coordenadas de la forma principal.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

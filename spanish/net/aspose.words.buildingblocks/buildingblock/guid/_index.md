@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuildingBlock propiedad. Obtiene o establece un identificador un GUID de 128 bits que identifica de forma exclusiva este bloque de creación.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words para .NET
+description: BuildingBlock Guid propiedad. Obtiene o establece un identificador un GUID de 128 bits que identifica de forma exclusiva este bloque de creación en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ Obtiene o establece un identificador (un GUID de 128 bits) que identifica de for
 public Guid Guid { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puede ser utilizado por una aplicación para hacer referencia de forma única a un bloque de creación independientemente de nombres diferentes debido a la localización.
 
-Corresponde a la **docPartPr.guid** elemento en OOXML.
+Corresponde a la**docPartPr.guid** elemento en OOXML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un bloque de creación personalizado a un documento.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Ver también
 
 * class [BuildingBlock](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

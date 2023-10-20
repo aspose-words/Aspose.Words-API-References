@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato grabado.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words para .NET
+description: Font Engrave propiedad. Verdadero si la fuente tiene el formato grabado en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato grabado.
 public bool Engrave { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar efectos de grabado/relieve al texto.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

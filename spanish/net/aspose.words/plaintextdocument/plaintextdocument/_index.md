@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Referencia de API de Aspose.Words para .NET
-description: PlainTextDocument constructor. Crea un documento de texto sin formato a partir de un archivo. Detecta automáticamente el formato del archivo.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words para .NET
+description: PlainTextDocument constructor. Crea un documento de texto sin formato a partir de un archivo. Detecta automáticamente el formato del archivo en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Crea un documento de texto sin formato a partir de un archivo. Detecta automáticamente el formato del archivo.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento de Microsoft Word en texto sin formato.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Ver también
 
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Crea un documento de texto sin formato a partir de un archivo. Permite especificar opciones adicionales como una contraseña de cifrado.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento cifrado de Microsoft Word en texto sin formato.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Crea un documento de texto sin formato a partir de una secuencia. Detecta automáticamente el formato del archivo.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | La transmisión no admite lectura ni búsqueda. |
 | ObjectDisposedException | El arroyo es un objeto desechado. |
 
-### Observaciones
+## Observaciones
 
 El documento debe almacenarse al comienzo de la secuencia. La transmisión debe admitir el posicionamiento aleatorio.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento de Microsoft Word en texto sin formato usando Stream.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Ver también
 
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Crea un documento de texto sin formato a partir de una secuencia. Permite especificar opciones adicionales como una contraseña de cifrado.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | La transmisión no admite lectura ni búsqueda. |
 | ObjectDisposedException | El arroyo es un objeto desechado. |
 
-### Observaciones
+## Observaciones
 
 El documento debe almacenarse al comienzo de la secuencia. La transmisión debe admitir el posicionamiento aleatorio.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento cifrado de Microsoft Word en texto sin formato mediante streaming.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

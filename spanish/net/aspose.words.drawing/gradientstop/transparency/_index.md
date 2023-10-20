@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Referencia de API de Aspose.Words para .NET
-description: GradientStop propiedad. Obtiene o establece un valor que representa la transparencia del gradiente fill expresado como porcentaje en el rango de 00 a 10.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words para .NET
+description: GradientStop Transparency propiedad. Obtiene o establece un valor que representa la transparencia del gradiente fill expresado como porcentaje en el rango de 00 a 10 en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que representa la transparencia del gradiente fill 
 public double Transparency { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ver también
 
 * class [GradientStop](../)
-* espacio de nombres [Aspose.Words.Drawing](../../gradientstop/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

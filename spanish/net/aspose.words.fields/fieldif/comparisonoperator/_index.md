@@ -1,7 +1,9 @@
 ---
 title: FieldIf.ComparisonOperator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIf propiedad. Obtiene o establece el operador de comparación.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words para .NET
+description: FieldIf ComparisonOperator propiedad. Obtiene o establece el operador de comparación en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -14,7 +16,7 @@ Obtiene o establece el operador de comparación.
 public string ComparisonOperator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo IF.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Ver también
 
 * class [FieldIf](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldif/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

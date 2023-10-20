@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Exporta el contenido del nodo a una cadena en el formato especificado.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words para .NET
+description: Node ToString método. Exporta el contenido del nodo a una cadena en el formato especificado en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Exporta el contenido del nodo a una cadena en el formato especificado.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 El contenido del nodo en el formato especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra la diferencia entre llamar a los métodos GetText y ToString en un nodo.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 El contenido del nodo en el formato especificado.
 
-### Ejemplos
+## Ejemplos
 
 Exporta el contenido de un nodo a String en formato HTML.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

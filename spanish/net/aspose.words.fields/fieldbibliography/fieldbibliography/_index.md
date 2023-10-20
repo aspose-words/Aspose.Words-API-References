@@ -1,7 +1,9 @@
 ---
-title: FieldBibliography.FieldBibliography
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldBibliography constructor. Constructor predeterminado
+title: FieldBibliography
+linktitle: FieldBibliography
+articleTitle: FieldBibliography
+second_title: Aspose.Words para .NET
+description: FieldBibliography constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldbibliography/fieldbibliography/
@@ -17,7 +19,5 @@ public FieldBibliography()
 ### Ver también
 
 * class [FieldBibliography](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbibliography/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

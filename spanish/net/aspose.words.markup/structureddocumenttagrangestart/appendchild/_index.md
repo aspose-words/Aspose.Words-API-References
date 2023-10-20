@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.AppendChild
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart método. Agrega el nodo especificado al final del rango de contenido estándar.
+linktitle: AppendChild
+articleTitle: AppendChild
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart AppendChild método. Agrega el nodo especificado al final del rango de contenido estándar en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
@@ -26,7 +28,5 @@ Agregó el nodo.
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

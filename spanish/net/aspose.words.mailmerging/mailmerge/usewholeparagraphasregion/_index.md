@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si el párrafo completo con Inicio de tabla o Fin de la tabla field o rango particular entre Inicio de tabla y Fin de la tabla Los campos deben incluirse en la región de combinación de correspondencia.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words para .NET
+description: MailMerge UseWholeParagraphAsRegion propiedad. Obtiene o establece un valor que indica si el párrafo completo conInicio de tabla oFin de la tabla field o rango particular entreInicio de tabla yFin de la tabla Los campos deben incluirse en la región de combinación de correspondencia en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Obtiene o establece un valor que indica si el párrafo completo con **Inicio de tabla** o **Fin de la tabla** field o rango particular entre **Inicio de tabla** y **Fin de la tabla** Los campos deben incluirse en la región de combinación de correspondencia.
+Obtiene o establece un valor que indica si el párrafo completo con**Inicio de tabla** o**Fin de la tabla** field o rango particular entre**Inicio de tabla** y**Fin de la tabla** Los campos deben incluirse en la región de combinación de correspondencia.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra la relación entre regiones y párrafos de combinación de correspondencia.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

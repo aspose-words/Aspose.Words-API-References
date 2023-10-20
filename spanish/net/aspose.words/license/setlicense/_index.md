@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Referencia de API de Aspose.Words para .NET
-description: License método. Licencia el componente.
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: Aspose.Words para .NET
+description: License SetLicense método. Licencia el componente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 Licencia el componente.
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | Puede ser un nombre de archivo completo o breve o el nombre de un recurso incrustado. Utilice una cadena vacía para cambiar al modo de evaluación. |
 
-### Observaciones
+## Observaciones
 
 Intenta encontrar la licencia en las siguientes ubicaciones:
 
@@ -38,7 +40,7 @@ Intenta encontrar la licencia en las siguientes ubicaciones:
 
 2. Un recurso integrado en el ensamblado de llamada del cliente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo inicializar una licencia para Aspose.Words usando un archivo de licencia en el sistema de archivos local.
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Ver también
 
 * class [License](../)
-* espacio de nombres [Aspose.Words](../../license/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 Licencia el componente.
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Una secuencia que contiene la licencia. |
 
-### Observaciones
+## Observaciones
 
 Utilice este método para cargar una licencia desde una transmisión.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo inicializar una licencia para Aspose.Words desde una secuencia.
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### Ver también
 
 * class [License](../)
-* espacio de nombres [Aspose.Words](../../license/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

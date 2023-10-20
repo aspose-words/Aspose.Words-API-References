@@ -1,7 +1,9 @@
 ---
 title: NodeImporter.ImportNode
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeImporter método. Importa un nodo de un documento a otro.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words para .NET
+description: NodeImporter ImportNode método. Importa un nodo de un documento a otro en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/nodeimporter/importnode/
@@ -23,15 +25,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 El nodo clonado e importado. El nodo pertenece al documento de destino, pero no tiene padre.
 
-### Observaciones
+## Observaciones
 
 La importación de un nodo crea una copia del nodo de origen que pertenece al documento de importación. El nodo devuelto no tiene padre. El nodo de origen no se modifica ni se elimina del documento original.
 
-Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usandoNode) o Node).
+Antes de poder insertar un nodo de otro documento en este documento, se debe importar. Durante la importación, las propiedades específicas del documento, como las referencias a estilos y listas, se traducen del original al documento de importación. Después de importar el nodo, se puede insertar en el lugar apropiado del documento usando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
 
 Si el nodo de origen ya pertenece al documento de destino, simplemente se crea un clone profundo del nodo de origen.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar el contenido de un documento en un marcador de otro documento.
 
@@ -100,7 +102,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * class [Node](../../node/)
 * class [NodeImporter](../)
-* espacio de nombres [Aspose.Words](../../nodeimporter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

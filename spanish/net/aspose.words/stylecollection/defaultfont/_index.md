@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: StyleCollection propiedad. Obtiene el formato de texto predeterminado del documento.
+linktitle: DefaultFont
+articleTitle: DefaultFont
+second_title: Aspose.Words para .NET
+description: StyleCollection DefaultFont propiedad. Obtiene el formato de texto predeterminado del documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/stylecollection/defaultfont/
@@ -14,11 +16,11 @@ Obtiene el formato de texto predeterminado del documento.
 public Font DefaultFont { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que los valores predeterminados para todo el documento se introdujeron en Microsoft Word 2007 y son totalmente compatibles con los formatos OOXML (Docx) solamente. Los formatos de documentos anteriores tienen soporte limitado para esta función y solo se pueden almacenar nombres de fuentes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un estilo a la colección de estilos de un documento.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* espacio de nombres [Aspose.Words](../../stylecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

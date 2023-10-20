@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si se escriben los números de página en la tabla de contenido al guardar HTML MHTML y EPUB. El valor predeterminado esFALSO .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportTocPageNumbers propiedad. Especifica si se escriben los números de página en la tabla de contenido al guardar HTML MHTML y EPUB. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ Especifica si se escriben los números de página en la tabla de contenido al gu
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar los números de página al guardar un documento con una tabla de contenido en .html.
 
@@ -72,7 +74,5 @@ else
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

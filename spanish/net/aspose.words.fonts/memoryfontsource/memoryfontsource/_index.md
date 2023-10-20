@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: MemoryFontSource constructor. Director.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words para .NET
+description: MemoryFontSource constructor. Director en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 Director.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Datos de fuente binaria. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Ver también
 
 * class [MemoryFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../memoryfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 Director.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Datos de fuente binaria. |
 | priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Ver también
 
 * class [MemoryFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../memoryfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 Director.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
 | cacheKey | String | La clave de esta fuente en el caché. Ver[`CacheKey`](../cachekey/) descripción de la propiedad para más información. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acelerar el proceso de inicialización de la caché de fuentes.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Ver también
 
 * class [MemoryFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../memoryfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

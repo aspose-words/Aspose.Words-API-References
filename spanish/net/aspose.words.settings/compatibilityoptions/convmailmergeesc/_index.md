@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ConvMailMergeEsc
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Trate el delimitador de comillas con barra invertida como dos comillas.
+linktitle: ConvMailMergeEsc
+articleTitle: ConvMailMergeEsc
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions ConvMailMergeEsc propiedad. Trate el delimitador de comillas con barra invertida como dos comillas en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.settings/compatibilityoptions/convmailmergeesc/
@@ -17,7 +19,5 @@ public bool ConvMailMergeEsc { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

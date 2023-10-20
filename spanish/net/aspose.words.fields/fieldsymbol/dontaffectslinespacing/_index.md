@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSymbol propiedad. Obtiene o establece si el carácter recuperado por el campo afecta el interlineado del párrafo.
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: Aspose.Words para .NET
+description: FieldSymbol DontAffectsLineSpacing propiedad. Obtiene o establece si el carácter recuperado por el campo afecta el interlineado del párrafo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ Obtiene o establece si el carácter recuperado por el campo afecta el interlinea
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo SÍMBOLO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldSymbol](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldsymbol/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

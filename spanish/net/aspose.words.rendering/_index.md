@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Rendering
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Renderizado El espacio de nombres proporciona clases que permiten to personalizar la impresión o representación de documentos.
+linktitle: Aspose.Words.Rendering
+articleTitle: Aspose.Words.Rendering
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Renderizado El espacio de nombres proporciona clases que permiten to personalizar la impresión o representación de documentos en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words.rendering/
 ---
-El **Aspose.Palabras.Renderizado** El espacio de nombres proporciona clases que permiten to personalizar la impresión o representación de documentos.
+El**Aspose.Palabras.Renderizado** El espacio de nombres proporciona clases que permiten to personalizar la impresión o representación de documentos.
 
 ## Clases
 
@@ -24,5 +26,3 @@ El **Aspose.Palabras.Renderizado** El espacio de nombres proporciona clases que 
 | Enumeración | Descripción |
 | --- | --- |
 | [ColorPrintMode](./colorprintmode/) | Especifica cómo se imprimen las páginas sin color si el dispositivo admite la impresión en color. |
-
-

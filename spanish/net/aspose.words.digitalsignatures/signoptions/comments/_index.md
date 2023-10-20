@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignOptions propiedad. Especifica comentarios sobre la firma digital. El valor predeterminado es cuerda vacía Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words para .NET
+description: SignOptions Comments propiedad. Especifica comentarios sobre la firma digital. El valor predeterminado escuerda vacía Empty en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Especifica comentarios sobre la firma digital. El valor predeterminado es **cuerda vacía** (Empty).
+Especifica comentarios sobre la firma digital. El valor predeterminado es**cuerda vacía** (Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar documentos digitalmente.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Ver también
 
 * class [SignOptions](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devuelve un objeto que representa las propiedades de formato de la lista actual.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words para .NET
+description: DocumentBuilder ListFormat propiedad. Devuelve un objeto que representa las propiedades de formato de la lista actual en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ Devuelve un objeto que representa las propiedades de formato de la lista actual.
 public ListFormat ListFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear listas numeradas y con viñetas.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

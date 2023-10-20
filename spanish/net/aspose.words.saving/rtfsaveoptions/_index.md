@@ -1,7 +1,9 @@
 ---
-title: Class RtfSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.RtfSaveOptions clase. Se puede utilizar para especificar opciones adicionales al guardar un documento en elRtf formato.
+title: RtfSaveOptions Class
+linktitle: RtfSaveOptions
+articleTitle: RtfSaveOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.RtfSaveOptions clase. Se puede utilizar para especificar opciones adicionales al guardar un documento en elRtf formato en C#.
 type: docs
 weight: 5570
 url: /es/net/aspose.words.saving/rtfsaveoptions/
@@ -28,7 +30,7 @@ public class RtfSaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Obtiene o establece un valor booleano que indica si se permite incrustar fuentes con contornos PostScript al incrustar fuentes TrueType en un documento una vez guardado. El valor predeterminado es`FALSO` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtiene o establece la zona horaria local personalizada utilizada para los campos de fecha/hora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtiene o establece la ruta a la plantilla predeterminada (incluido el nombre del archivo). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtiene o establece la ruta a la plantilla predeterminada (incluido el nombre del archivo). El valor predeterminado para esta propiedad es**cuerda vacía** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtiene o establece un valor que determina cómo se representan los efectos 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtiene o establece un valor que determina cómo se representan los efectos de DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtiene o establece un valor que determina cómo se representan las formas de DrawingML. |
@@ -49,7 +51,7 @@ public class RtfSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Obtiene o establece un valor que determina si se utiliza o no el suavizado para la representación. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Obtiene o establece un valor que determina si se utilizan o no algoritmos de renderizado de alta calidad (es decir, lentos). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en .rtf con opciones personalizadas.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 * class [SaveOptions](../saveoptions/)
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

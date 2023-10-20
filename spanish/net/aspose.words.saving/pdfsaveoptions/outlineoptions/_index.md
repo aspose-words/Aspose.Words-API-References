@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Permite especificar opciones de contorno.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions OutlineOptions propiedad. Permite especificar opciones de contorno en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ Permite especificar opciones de contorno.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Se pueden crear esquemas a partir de encabezados y marcadores.
 
@@ -26,7 +28,7 @@ Para los marcadores, el nivel de esquema se puede configurar en las opciones com
 
 Además, los esquemas se pueden exportar al formato XPS utilizando el mismo`OutlineOptions` clase.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo limitar el nivel de los títulos que aparecerán en el esquema de un documento PDF guardado.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

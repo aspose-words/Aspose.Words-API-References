@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BackgroundColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Color de fondo del código de barras 0x000000  0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words para .NET
+description: BarcodeParameters BackgroundColor propiedad. Color de fondo del código de barras 0x000000  0xFFFFFF en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/barcodeparameters/backgroundcolor/
@@ -14,7 +16,7 @@ Color de fondo del código de barras (0x000000 - 0xFFFFFF)
 public string BackgroundColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

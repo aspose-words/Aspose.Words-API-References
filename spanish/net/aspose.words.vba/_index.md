@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Vba
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Words.Vba namespace proporciona clases para trabajar con proyectos de VBA.
+linktitle: Aspose.Words.Vba
+articleTitle: Aspose.Words.Vba
+second_title: Aspose.Words para .NET
+description: ElAspose.Words.Vba namespace proporciona clases para trabajar con proyectos de VBA en C#.
 type: docs
 weight: 280
 url: /es/net/aspose.words.vba/
 ---
-El **Aspose.Words.Vba** namespace proporciona clases para trabajar con proyectos de VBA.
+El**Aspose.Words.Vba** namespace proporciona clases para trabajar con proyectos de VBA.
 
 ## Clases
 
@@ -24,5 +26,3 @@ El **Aspose.Words.Vba** namespace proporciona clases para trabajar con proyectos
 | --- | --- |
 | [VbaModuleType](./vbamoduletype/) | Especifica el tipo de modelo en un proyecto VBA. |
 | [VbaReferenceType](./vbareferencetype/) | Permite especificar el tipo de un[`VbaReference`](../aspose.words.vba/vbareference/) objeto. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.AutoUpdate
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Especifica si el enlace al objeto OLE se actualiza automáticamente o no en Microsoft Word.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words para .NET
+description: OleFormat AutoUpdate propiedad. Especifica si el enlace al objeto OLE se actualiza automáticamente o no en Microsoft Word en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/oleformat/autoupdate/
@@ -14,11 +16,11 @@ Especifica si el enlace al objeto OLE se actualiza automáticamente o no en Micr
 public bool AutoUpdate { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer objetos OLE incrustados en archivos.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

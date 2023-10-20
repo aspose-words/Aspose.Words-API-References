@@ -1,7 +1,9 @@
 ---
 title: Cell.IsFirstCell
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Verdadero si esta es la primera celda dentro de una fila falso en caso contrario.
+linktitle: IsFirstCell
+articleTitle: IsFirstCell
+second_title: Aspose.Words para .NET
+description: Cell IsFirstCell propiedad. Verdadero si esta es la primera celda dentro de una fila falso en caso contrario en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.tables/cell/isfirstcell/
@@ -14,7 +16,7 @@ Verdadero si esta es la primera celda dentro de una fila; falso en caso contrari
 public bool IsFirstCell { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada tabla en un documento.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Ver también
 
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

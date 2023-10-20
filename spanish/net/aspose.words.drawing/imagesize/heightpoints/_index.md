@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPoints
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSize propiedad. Obtiene la altura de la imagen en puntos. 1 punto es 1/72 de pulgada.
+linktitle: HeightPoints
+articleTitle: HeightPoints
+second_title: Aspose.Words para .NET
+description: ImageSize HeightPoints propiedad. Obtiene la altura de la imagen en puntos. 1 punto es 1/72 de pulgada en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/imagesize/heightpoints/
@@ -14,7 +16,7 @@ Obtiene la altura de la imagen en puntos. 1 punto es 1/72 de pulgada.
 public double HeightPoints { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el tamaño de una forma con una imagen.
 
@@ -71,7 +73,5 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
 ### Ver también
 
 * class [ImageSize](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagesize/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

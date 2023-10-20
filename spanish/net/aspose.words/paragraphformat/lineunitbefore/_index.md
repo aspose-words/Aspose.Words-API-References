@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece la cantidad de espacio en líneas de cuadrícula antes de los párrafos.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words para .NET
+description: ParagraphFormat LineUnitBefore propiedad. Obtiene o establece la cantidad de espacio en líneas de cuadrícula antes de los párrafos en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ Obtiene o establece la cantidad de espacio (en líneas de cuadrícula) antes de 
 public double LineUnitBefore { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el espaciado y la sangría de los párrafos.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

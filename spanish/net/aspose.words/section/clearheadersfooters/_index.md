@@ -1,9 +1,11 @@
 ---
 title: Section.ClearHeadersFooters
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section método. Borra los encabezados y pies de página de esta sección.
+linktitle: ClearHeadersFooters
+articleTitle: ClearHeadersFooters
+second_title: Aspose.Words para .NET
+description: Section ClearHeadersFooters método. Borra los encabezados y pies de página de esta sección en C#.
 type: docs
-weight: 120
+weight: 100
 url: /es/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -14,13 +16,13 @@ Borra los encabezados y pies de página de esta sección.
 public void ClearHeadersFooters()
 ```
 
-### Observaciones
+## Observaciones
 
 Se borra el texto de todos los encabezados y pies de página, pero[`HeaderFooter`](../../headerfooter/) Los objetos en sí no se eliminan.
 
 Esto hace que los encabezados y pies de página de esta sección estén vinculados a los encabezados y pies de página de la sección anterior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo borrar el contenido de todos los encabezados y pies de página de una sección.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### Ver también
 
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

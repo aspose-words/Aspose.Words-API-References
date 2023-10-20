@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.CssSavingArgs clase. Proporciona datos para elCssSaving evento.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.CssSavingArgs clase. Proporciona datos para elCssSaving evento en C#.
 type: docs
 weight: 4880
 url: /es/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | Permite especificar si el CSS se exportará a un archivo y se incrustará en un documento HTML. El valor predeterminado es`verdadero` . Cuando esta propiedad es`FALSO` , la información CSS no se guardará en un archivo CSS y no se incrustará en el documento HTML. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una información CSS. |
 
-### Observaciones
+## Observaciones
 
-De forma predeterminada, cuando Aspose.Words guarda un documento en HTML, guarda la información CSS inline (como un valor del **estilo** atributo en cada elemento).
+De forma predeterminada, cuando Aspose.Words guarda un documento en HTML, guarda la información CSS inline (como un valor del**estilo** atributo en cada elemento).
 
 `CssSavingArgs`permite guardar información CSS en un archivo proporcionando su propio objeto de flujo.
 
@@ -35,7 +37,7 @@ Para guardar CSS en la secuencia, use el[`CssStream`](./cssstream/) propiedad.
 
 Para evitar guardar CSS en un archivo e incrustarlo en un documento HTML, utilice el[`IsExportNeeded`](./isexportneeded/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con hojas de estilo CSS que crea una conversión HTML.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

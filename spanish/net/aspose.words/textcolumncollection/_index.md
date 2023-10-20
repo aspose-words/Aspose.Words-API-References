@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TextColumnCollection clase. Una colección deTextColumn objetos que representan todas las columnas de texto en una sección de un documento.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.TextColumnCollection clase. Una colección deTextColumn objetos que representan todas las columnas de texto en una sección de un documento en C#.
 type: docs
 weight: 6400
 url: /es/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Organiza el texto en el número especificado de columnas de texto. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Organiza el texto en el número especificado de columnas de texto. |
 
-### Observaciones
+## Observaciones
 
 Usar[`SetCount`](./setcount/) para establecer el número de columnas de texto.
 
@@ -43,7 +45,7 @@ Si usted tiene[`EvenlySpaced`](./evenlyspaced/) ajustado a`FALSO` , debe especif
 
 Cuando utilice anchos de columna personalizados, asegúrese de que la suma de todos los anchos de columna y los espacios entre ellos sea igual al ancho de la página menos los márgenes de página izquierdo y derecho.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear varias columnas espaciadas uniformemente en una sección.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

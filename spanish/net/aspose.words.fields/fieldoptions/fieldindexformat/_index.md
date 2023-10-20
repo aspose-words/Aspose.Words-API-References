@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldIndexFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece unFieldIndexFormat que representa el formato para elFieldIndex campos en el documento.
+linktitle: FieldIndexFormat
+articleTitle: FieldIndexFormat
+second_title: Aspose.Words para .NET
+description: FieldOptions FieldIndexFormat propiedad. Obtiene o establece unFieldIndexFormat que representa el formato para elFieldIndex campos en el documento en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldoptions/fieldindexformat/
@@ -14,7 +16,7 @@ Obtiene o establece un`FieldIndexFormat` que representa el formato para el[`Fiel
 public FieldIndexFormat FieldIndexFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo formatear los campos FieldIndex.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
 
 * enum [FieldIndexFormat](../../fieldindexformat/)
 * class [FieldOptions](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldoptions/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

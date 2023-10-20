@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldArgumentBuilder método. Agrega un texto sin formato al argumento.
+linktitle: AddText
+articleTitle: AddText
+second_title: Aspose.Words para .NET
+description: FieldArgumentBuilder AddText método. Agrega un texto sin formato al argumento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldargumentbuilder/addtext/
@@ -14,7 +16,7 @@ Agrega un texto sin formato al argumento.
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ver también
 
 * class [FieldArgumentBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

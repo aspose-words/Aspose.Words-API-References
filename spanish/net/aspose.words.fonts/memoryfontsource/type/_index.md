@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: MemoryFontSource propiedad. Devuelve el tipo de fuente fuente.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: MemoryFontSource Type propiedad. Devuelve el tipo de fuente fuente en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ Devuelve el tipo de fuente fuente.
 public override FontSourceType Type { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../memoryfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

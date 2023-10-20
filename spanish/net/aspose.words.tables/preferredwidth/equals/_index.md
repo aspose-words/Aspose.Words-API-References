@@ -1,12 +1,14 @@
 ---
 title: PreferredWidth.Equals
-second_title: Referencia de API de Aspose.Words para .NET
-description: PreferredWidth método. Determina si el especificadoPreferredWidth es igual en valor a la corrientePreferredWidth .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words para .NET
+description: PreferredWidth Equals método. Determina si el especificadoPreferredWidth es igual en valor a la corrientePreferredWidth  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {#equals}
+## Equals(*[PreferredWidth](../)*) {#equals}
 
 Determina si el especificado[`PreferredWidth`](../) es igual en valor a la corriente[`PreferredWidth`](../) .
 
@@ -14,7 +16,7 @@ Determina si el especificado[`PreferredWidth`](../) es igual en valor a la corri
 public bool Equals(PreferredWidth other)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer un ancho preferido para las celdas de la tabla.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ver también
 
 * class [PreferredWidth](../)
-* espacio de nombres [Aspose.Words.Tables](../../preferredwidth/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Determina si el objeto especificado tiene el mismo valor que el objeto actual.
 
@@ -67,7 +69,7 @@ Determina si el objeto especificado tiene el mismo valor que el objeto actual.
 public override bool Equals(object obj)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer un ancho preferido para las celdas de la tabla.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ver también
 
 * class [PreferredWidth](../)
-* espacio de nombres [Aspose.Words.Tables](../../preferredwidth/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

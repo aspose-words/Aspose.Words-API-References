@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Query
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece un conjunto de instrucciones SQL que consultan la base de datos.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words para .NET
+description: FieldDatabase Query propiedad. Obtiene o establece un conjunto de instrucciones SQL que consultan la base de datos en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fielddatabase/query/
@@ -14,7 +16,7 @@ Obtiene o establece un conjunto de instrucciones SQL que consultan la base de da
 public string Query { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

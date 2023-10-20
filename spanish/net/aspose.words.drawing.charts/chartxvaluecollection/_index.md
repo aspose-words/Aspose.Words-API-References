@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValueCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection clase. Representa una colección de valores X para una serie de gráficos.
+title: ChartXValueCollection Class
+linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueCollection clase. Representa una colección de valores X para una serie de gráficos en C#.
 type: docs
 weight: 850
 url: /es/net/aspose.words.drawing.charts/chartxvaluecollection/
@@ -27,13 +29,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Devuelve un objeto enumerador. |
 
-### Observaciones
+## Observaciones
 
-Todos los artículos de la colección excepto **nulo** debe tener el mismo[`ValueType`](../chartxvalue/valuetype/).
+Todos los artículos de la colección excepto**nulo** debe tener el mismo[`ValueType`](../chartxvalue/valuetype/).
 
 La colección solo permite cambiar los valores de X. Para agregar o insertar nuevos valores a una serie de gráficos, o eliminar valores, los métodos apropiados del[`ChartSeries`](../chartseries/) Se puede utilizar la clase.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener datos de series de gráficos.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartXValue](../chartxvalue/)
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

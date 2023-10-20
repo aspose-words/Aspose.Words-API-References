@@ -1,7 +1,9 @@
 ---
 title: FieldSeparator.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSeparator propiedad. DevolucionesFieldSeparator .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: FieldSeparator NodeType propiedad. DevolucionesFieldSeparator  en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldseparator/nodetype/
@@ -14,7 +16,7 @@ DevolucionesFieldSeparator .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldSeparator](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldseparator/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

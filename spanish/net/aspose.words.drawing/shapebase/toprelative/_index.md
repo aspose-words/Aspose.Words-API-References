@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.TopRelative
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece el valor que representa la posición superior relativa de la forma en porcentaje.
+linktitle: TopRelative
+articleTitle: TopRelative
+second_title: Aspose.Words para .NET
+description: ShapeBase TopRelative propiedad. Obtiene o establece el valor que representa la posición superior relativa de la forma en porcentaje en C#.
 type: docs
 weight: 550
 url: /es/net/aspose.words.drawing/shapebase/toprelative/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que representa la posición superior relativa de la
 public float TopRelative { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el tamaño y la posición relativos.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

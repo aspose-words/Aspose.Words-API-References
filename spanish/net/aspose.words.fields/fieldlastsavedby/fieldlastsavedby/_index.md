@@ -1,7 +1,9 @@
 ---
-title: FieldLastSavedBy.FieldLastSavedBy
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldLastSavedBy constructor. Constructor predeterminado
+title: FieldLastSavedBy
+linktitle: FieldLastSavedBy
+articleTitle: FieldLastSavedBy
+second_title: Aspose.Words para .NET
+description: FieldLastSavedBy constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldlastsavedby/fieldlastsavedby/
@@ -17,7 +19,5 @@ public FieldLastSavedBy()
 ### Ver también
 
 * class [FieldLastSavedBy](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlastsavedby/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

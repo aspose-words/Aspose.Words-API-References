@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToScale
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Representa una página de documento en unGraphics objeto a una escala especificada.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words para .NET
+description: Document RenderToScale método. Representa una página de documento en unGraphics objeto a una escala especificada en C#.
 type: docs
-weight: 700
+weight: 680
 url: /es/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -26,7 +28,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 El ancho y alto (en unidades mundiales) de la página representada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir las páginas individuales de un documento en gráficos para crear una imagen con miniaturas de todas las páginas.
 
@@ -133,7 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

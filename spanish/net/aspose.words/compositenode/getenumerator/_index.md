@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode método. Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: CompositeNode GetEnumerator método. Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo en C#.
 type: docs
-weight: 120
+weight: 100
 url: /es/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ Proporciona soporte para cada iteración de estilo sobre los nodos secundarios d
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer la colección de nodos secundarios de un nodo compuesto.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* espacio de nombres [Aspose.Words](../../compositenode/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

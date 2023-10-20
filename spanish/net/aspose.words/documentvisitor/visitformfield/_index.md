@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFormField
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra un campo de formulario en el documento.
+linktitle: VisitFormField
+articleTitle: VisitFormField
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitFormField método. Se llama cuando se encuentra un campo de formulario en el documento en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words/documentvisitor/visitformfield/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
 
@@ -220,7 +222,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

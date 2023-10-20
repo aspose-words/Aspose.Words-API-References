@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoFieldMapData clase. Especifica cómo se asignará una columna de la fuente de datos externa a los campos de combinación predefinidos dentro del documento.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.OdsoFieldMapData clase. Especifica cómo se asignará una columna de la fuente de datos externa a los campos de combinación predefinidos dentro del documento en C#.
 type: docs
 weight: 5900
 url: /es/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Devuelve un clon profundo de este objeto. |
 
-### Observaciones
+## Observaciones
 
 Microsoft Word proporciona algunos nombres de campos de combinación predefinidos que permiten insertar en un documento como MERGEFIELD o en los campos ADDRESSBLOCK o GREETINGLINE. La información especificada en`OdsoFieldMapData` permite asignar una columna en la fuente de datos externa a un único campo de combinación predefinido.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

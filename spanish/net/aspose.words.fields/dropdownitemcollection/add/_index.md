@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection método. Agrega una cadena al final de la colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection Add método. Agrega una cadena al final de la colección en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 El índice de base cero en el que se inserta el nuevo elemento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

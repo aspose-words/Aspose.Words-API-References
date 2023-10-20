@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIndex propiedad. Obtiene o establece un encabezado que aparece al principio de cada conjunto de entradas para cualquier letra determinada.
+linktitle: Heading
+articleTitle: Heading
+second_title: Aspose.Words para .NET
+description: FieldIndex Heading propiedad. Obtiene o establece un encabezado que aparece al principio de cada conjunto de entradas para cualquier letra determinada en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ Obtiene o establece un encabezado que aparece al principio de cada conjunto de e
 public string Heading { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo completar un campo ÍNDICE con entradas utilizando campos XE y también modificar su apariencia.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ver también
 
 * class [FieldIndex](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldindex/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

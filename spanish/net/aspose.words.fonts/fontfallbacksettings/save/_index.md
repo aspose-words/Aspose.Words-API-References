@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontFallbackSettings método. Guarda la configuración alternativa actual en la transmisión.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words para .NET
+description: FontFallbackSettings Save método. Guarda la configuración alternativa actual en la transmisión en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Guarda la configuración alternativa actual en la transmisión.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Flujo de salida. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde una secuencia.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### Ver también
 
 * class [FontFallbackSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Guarda la configuración alternativa actual en un archivo.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Nombre del archivo de salida. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde un documento XML en el sistema de archivos local.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Ver también
 
 * class [FontFallbackSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

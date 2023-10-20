@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutOptions propiedad. Obtiene o establece el modo de comportamiento para calcular los números de página cuando una sección continua reinicia la numeración de páginas.
+linktitle: ContinuousSectionPageNumberingRestart
+articleTitle: ContinuousSectionPageNumberingRestart
+second_title: Aspose.Words para .NET
+description: LayoutOptions ContinuousSectionPageNumberingRestart propiedad. Obtiene o establece el modo de comportamiento para calcular los números de página cuando una sección continua reinicia la numeración de páginas en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
@@ -14,11 +16,11 @@ Obtiene o establece el modo de comportamiento para calcular los números de pág
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esAlways. Coincide con el comportamiento de MS Word 2019, que era la última versión en el momento en que se introdujo la opción. La lógica de numeración de páginas anterior demostrada por MS Word 2016 está disponible a través de esta opción. Por favor[`ContinuousSectionRestart`](../../continuoussectionrestart/) para la descripción del comportamiento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo controlar la numeración de páginas en una sección continua.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutoptions/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

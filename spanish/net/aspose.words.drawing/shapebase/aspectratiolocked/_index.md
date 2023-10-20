@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Especifica si la relación de aspecto de la forma está bloqueada.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words para .NET
+description: ShapeBase AspectRatioLocked propiedad. Especifica si la relación de aspecto de la forma está bloqueada en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ Especifica si la relación de aspecto de la forma está bloqueada.
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado depende del[`ShapeType`](../../shapetype/) , Para elImage es`verdadero` pero para los otros tipos de formas es`FALSO`.
 
 Tiene efecto sólo para formas de nivel superior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo bloquear/desbloquear la relación de aspecto de una forma.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

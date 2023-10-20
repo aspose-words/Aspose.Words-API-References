@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule clase. Regla de sustitución de información de fuente.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule clase. Regla de sustitución de información de fuente en C#.
 type: docs
 weight: 2940
 url: /es/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Especifica si la regla está habilitada o no. |
 
-### Observaciones
+## Observaciones
 
 Según esta regla, Aspose.Words evalúa todos los campos relacionados en[`FontInfo`](../fontinfo/) (Panose, Sig, etc.) for la fuente que falta y encuentra la coincidencia más cercana entre las fuentes de fuentes disponibles. Si[`FontInfo`](../fontinfo/)no está disponible para la fuente que falta, entonces no se hará nada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

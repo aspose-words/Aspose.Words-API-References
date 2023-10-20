@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si los párrafos con signos de puntuación se consideran vacíos y deben eliminarse si elRemoveEmptyParagraphs se especifica la opción.
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: Aspose.Words para .NET
+description: MailMerge CleanupParagraphsWithPunctuationMarks propiedad. Obtiene o establece un valor que indica si los párrafos con signos de puntuación se consideran vacíos y deben eliminarse si elRemoveEmptyParagraphs se especifica la opción en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que indica si los párrafos con signos de puntuaci�
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero` .
 
@@ -29,7 +31,7 @@ Aquí está la lista completa de signos de puntuación que se pueden limpiar:
 * ¡
 * ¿
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar párrafos con signos de puntuación después de una operación de combinación de correspondencia.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

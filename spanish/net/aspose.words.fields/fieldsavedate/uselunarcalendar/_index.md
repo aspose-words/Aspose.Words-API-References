@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseLunarCalendar
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSaveDate propiedad. Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words para .NET
+description: FieldSaveDate UseLunarCalendar propiedad. Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo GUARDAR FECHA para mostrar la fecha/hora de la operación de guardado más reciente del documento realizada con Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Ver también
 
 * class [FieldSaveDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldsavedate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

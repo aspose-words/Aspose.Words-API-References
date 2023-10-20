@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra el final de un rango editable en el documento.
+linktitle: VisitEditableRangeEnd
+articleTitle: VisitEditableRangeEnd
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitEditableRangeEnd método. Se llama cuando se encuentra el final de un rango editable en el documento en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada rango editable en un documento.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

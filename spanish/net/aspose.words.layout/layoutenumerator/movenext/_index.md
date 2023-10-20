@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNext
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator método. Se mueve a la siguiente entidad hermana en orden visual. Al iterar líneas de un párrafo divididas en páginas este método no se moverá a la página siguiente sino que se moverá a la siguiente entidad en la misma página.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator MoveNext método. Se mueve a la siguiente entidad hermana en orden visual. Al iterar líneas de un párrafo divididas en páginas este método no se moverá a la página siguiente sino que se moverá a la siguiente entidad en la misma página en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.layout/layoutenumerator/movenext/
@@ -14,7 +16,7 @@ Se mueve a la siguiente entidad hermana en orden visual. Al iterar líneas de un
 public bool MoveNext()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

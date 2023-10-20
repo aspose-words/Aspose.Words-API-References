@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Shading clase. Contiene atributos de sombreado para un objeto.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Shading clase. Contiene atributos de sombreado para un objeto en C#.
 type: docs
 weight: 5990
 url: /es/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | Nombre | Descripción |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Elimina el sombreado del objeto. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determina si el especificado`Shading` es igual en valor a la corriente`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Determina si el especificado`Shading` es igual en valor a la corriente`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Sirve como función hash para este tipo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo decorar texto con bordes y sombreado.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

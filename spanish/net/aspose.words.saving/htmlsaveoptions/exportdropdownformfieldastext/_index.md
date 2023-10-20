@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado esFALSO .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText propiedad. Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML.
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se establece en`verdadero` , exporta los campos del formulario desplegable como texto normal. Cuando`FALSO`, exporta campos de formulario desplegables como elemento SELECT en HTML.
 
 Al exportar a EPUB, los campos de texto del formulario desplegable siempre se guardan como texto debido a los requisitos de este formato.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que los campos del formulario del cuadro combinado desplegable se mezclen con el texto del párrafo al guardar en HTML.
 
@@ -58,7 +60,5 @@ else
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

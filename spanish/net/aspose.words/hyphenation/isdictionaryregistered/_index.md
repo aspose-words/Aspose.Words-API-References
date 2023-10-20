@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Referencia de API de Aspose.Words para .NET
-description: Hyphenation método. DevolucionesFALSO si para el idioma especificado no hay ningún diccionario registrado o si el registrado es un diccionario nuloverdadero de lo contrario.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words para .NET
+description: Hyphenation IsDictionaryRegistered método. DevolucionesFALSO si para el idioma especificado no hay ningún diccionario registrado o si el registrado es un diccionario nuloverdadero de lo contrario en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ Devoluciones`FALSO` si para el idioma especificado no hay ningún diccionario re
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo registrar un diccionario de separación de palabras.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Ver también
 
 * class [Hyphenation](../)
-* espacio de nombres [Aspose.Words](../../hyphenation/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

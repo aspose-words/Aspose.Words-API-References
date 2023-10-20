@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Referencia de API de Aspose.Words para .NET
-description: IMailMergeDataSource propiedad. Devuelve el nombre de la fuente de datos.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words para .NET
+description: IMailMergeDataSource TableName propiedad. Devuelve el nombre de la fuente de datos en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 El nombre de la fuente de datos. Cadena vacía si la fuente de datos no tiene nombre.
 
-### Observaciones
+## Observaciones
 
 Si estás implementando[`IMailMergeDataSource`](../), devuelve el nombre de la fuente data de esta propiedad.
 
 Aspose.Words utiliza este nombre para compararlo con el nombre de la región de combinación de correspondencia especificado en el documento de plantilla. La comparación entre el nombre de la fuente de datos y el nombre de la región de combinación de correspondencia no distingue entre mayúsculas y minúsculas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Ver también
 
 * interface [IMailMergeDataSource](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

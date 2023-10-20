@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: XpsSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeXps .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: XpsSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeXps  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/xpssaveoptions/saveformat/
@@ -14,7 +16,7 @@ Especifica el formato en el que se guardará el documento si se utiliza este obj
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo limitar el nivel de los encabezados que aparecerán en el esquema de un documento XPS guardado.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../xpssaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class StyleCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.StyleCollection clase. Una colección deStyle objetos que representan los estilos integrados y definidos por el usuario en un documento.
+title: StyleCollection Class
+linktitle: StyleCollection
+articleTitle: StyleCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.StyleCollection clase. Una colección deStyle objetos que representan los estilos integrados y definidos por el usuario en un documento en C#.
 type: docs
 weight: 6140
 url: /es/net/aspose.words/stylecollection/
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Crea un nuevo estilo definido por el usuario y lo agrega a la colección. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Copia un estilo en esta colección. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Crea un nuevo estilo definido por el usuario y lo agrega a la colección. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Copia un estilo en esta colección. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Elimina todos los estilos del panel Galería de estilos rápidos. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Obtiene un objeto enumerador que enumerará los estilos en el orden alfabético de sus nombres. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar un estilo de párrafo con formato de lista.
 
@@ -69,5 +71,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 * class [Style](../style/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSeq propiedad. Obtiene o establece un nombre de marcador que hace referencia a un elemento en otra parte del documento en lugar de en la ubicación actual.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words para .NET
+description: FieldSeq BookmarkName propiedad. Obtiene o establece un nombre de marcador que hace referencia a un elemento en otra parte del documento en lugar de en la ubicación actual en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece un nombre de marcador que hace referencia a un elemento en o
 public string BookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo combinar tablas de contenido y campos de secuencia.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Ver también
 
 * class [FieldSeq](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldseq/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

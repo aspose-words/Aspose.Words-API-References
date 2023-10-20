@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Referencia de API de Aspose.Words para .NET
-description: RowFormat propiedad. Verdadero si se permite que el texto de una fila de la tabla se divida en un salto de página.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words para .NET
+description: RowFormat AllowBreakAcrossPages propiedad. Verdadero si se permite que el texto de una fila de la tabla se divida en un salto de página en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ Verdadero si se permite que el texto de una fila de la tabla se divida en un sal
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo deshabilitar las filas que se dividen entre páginas para cada fila de una tabla.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Ver también
 
 * class [RowFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../rowformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

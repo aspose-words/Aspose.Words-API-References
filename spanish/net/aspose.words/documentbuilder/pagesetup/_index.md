@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devuelve un objeto que representa la configuración de página actual y las propiedades de la sección.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words para .NET
+description: DocumentBuilder PageSetup propiedad. Devuelve un objeto que representa la configuración de página actual y las propiedades de la sección en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ Devuelve un objeto que representa la configuración de página actual y las prop
 public PageSetup PageSetup { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

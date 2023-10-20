@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol enumeración. Especifica el estilo del símbolo del marcador.
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.MarkerSymbol enumeración. Especifica el estilo del símbolo del marcador en C#.
 type: docs
 weight: 920
 url: /es/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | Especifica que se dibujará un triángulo en cada punto de datos. |
 | X | `11` | Especifica que se dibujará una X en cada punto de datos. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con puntos de datos en un gráfico de líneas.
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

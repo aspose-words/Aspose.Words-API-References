@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLabel propiedad. Obtiene un valor numérico para esta etiqueta.
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: Aspose.Words para .NET
+description: ListLabel LabelValue propiedad. Obtiene un valor numérico para esta etiqueta en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ Obtiene un valor numérico para esta etiqueta.
 public int LabelValue { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice el[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) método para actualizar el valor de esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer las etiquetas de la lista de todos los párrafos que son elementos de la lista.
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Ver también
 
 * class [ListLabel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlabel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

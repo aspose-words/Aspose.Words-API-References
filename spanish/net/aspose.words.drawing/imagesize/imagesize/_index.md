@@ -1,12 +1,14 @@
 ---
-title: ImageSize.ImageSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSize constructor. Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp.
+title: ImageSize
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words para .NET
+description: ImageSize constructor. Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/imagesize/imagesize/
 ---
-## ImageSize(int, int) {#constructor}
+## ImageSize(*int, int*) {#constructor}
 
 Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp.
 
@@ -22,12 +24,12 @@ public ImageSize(int widthPixels, int heightPixels)
 ### Ver también
 
 * class [ImageSize](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagesize/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## ImageSize(int, int, double, double) {#constructor_1}
+## ImageSize(*int, int, double, double*) {#constructor_1}
 
 Inicializa el ancho, alto y resolución a los valores dados.
 
@@ -46,7 +48,5 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 ### Ver también
 
 * class [ImageSize](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagesize/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

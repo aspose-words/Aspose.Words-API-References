@@ -1,7 +1,9 @@
 ---
-title: Class FieldToa
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldToa clase. Implementa el campo TOA.
+title: FieldToa Class
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldToa clase. Implementa el campo TOA en C#.
 type: docs
 weight: 2520
 url: /es/net/aspose.words.fields/fieldtoa/
@@ -52,17 +54,17 @@ public class FieldToa : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Crea una tabla de autoridades (es decir, una lista de las referencias en un documento legal, como referencias a casos, estatutos y reglas, junto con los números de las páginas en las que aparecen las referencias) utilizando las entradas especificadas por TA campos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -187,5 +189,3 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

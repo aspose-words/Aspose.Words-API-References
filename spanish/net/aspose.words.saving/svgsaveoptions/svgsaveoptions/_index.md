@@ -1,7 +1,9 @@
 ---
-title: SvgSaveOptions.SvgSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: SvgSaveOptions constructor. Constructor predeterminado
+title: SvgSaveOptions
+linktitle: SvgSaveOptions
+articleTitle: SvgSaveOptions
+second_title: Aspose.Words para .NET
+description: SvgSaveOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/svgsaveoptions/svgsaveoptions/
@@ -17,7 +19,5 @@ public SvgSaveOptions()
 ### Ver también
 
 * class [SvgSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../svgsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

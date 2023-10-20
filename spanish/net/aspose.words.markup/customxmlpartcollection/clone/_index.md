@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clone
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPartCollection método. Hace una copia profunda de esta colección y sus elementos.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words para .NET
+description: CustomXmlPartCollection Clone método. Hace una copia profunda de esta colección y sus elementos en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/customxmlpartcollection/clone/
@@ -14,7 +16,7 @@ Hace una copia profunda de esta colección y sus elementos.
 public CustomXmlPartCollection Clone()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ver también
 
 * class [CustomXmlPartCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T clase. Clase base paraTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection yWebExtensionReferenceCollection colecciones.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words para .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T clase. Clase base paraTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection yWebExtensionReferenceCollection colecciones en C#.
 type: docs
 weight: 6700
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Agrega el elemento especificado a la colección. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Agrega el elemento especificado a la colección. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Elimina todos los elementos de la colección. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Devuelve un enumerador que puede iterar a través de una colección. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Elimina el elemento en el índice especificado de la colección. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Elimina el elemento en el índice especificado de la colección. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de extensiones web de un documento.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * espacio de nombres [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../)
-
-

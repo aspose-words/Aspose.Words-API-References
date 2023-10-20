@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UseHeading
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToa propiedad. Obtiene o establece si se debe incluir el encabezado de categoría para las entradas en una tabla de autoridades.
+linktitle: UseHeading
+articleTitle: UseHeading
+second_title: Aspose.Words para .NET
+description: FieldToa UseHeading propiedad. Obtiene o establece si se debe incluir el encabezado de categoría para las entradas en una tabla de autoridades en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fields/fieldtoa/useheading/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe incluir el encabezado de categoría para las entr
 public bool UseHeading { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldToa](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoa/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuildingBlock propiedad. Especifica la categorización de segundo nivel para el bloque de creación.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words para .NET
+description: BuildingBlock Category propiedad. Especifica la categorización de segundo nivel para el bloque de creación en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ Especifica la categorización de segundo nivel para el bloque de creación.
 public string Category { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los bloques de construcción en la interfaz de usuario de Microsoft Word están organizados en Galerías. Cada[`Gallery`](../gallery/) puede tener varias categorías. Cada bloque dentro de a`Category` tiene un[`Name`](../name/).
 
 No puede ser`nulo` y no puede ser una cadena vacía.
 
-Corresponde a la **docPartPr.categoría.nombre** elemento en OOXML.
+Corresponde a la**docPartPr.categoría.nombre** elemento en OOXML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un bloque de creación personalizado a un documento.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Ver también
 
 * class [BuildingBlock](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

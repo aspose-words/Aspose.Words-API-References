@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator propiedad. Obtiene el tipo de entidad actual. Esto puede ser una cadena vacía pero nuncanulo .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator Kind propiedad. Obtiene el tipo de entidad actual. Esto puede ser una cadena vacía pero nuncanulo  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ Obtiene el tipo de entidad actual. Esto puede ser una cadena vacía pero nunca`n
 public string Kind { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un tipo más específico de entidad actual, por ejemplo, el intervalo de marcadores tieneSpan type and puede tener un tipo BOOKMARKSTART o BOOKMARKEND.
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

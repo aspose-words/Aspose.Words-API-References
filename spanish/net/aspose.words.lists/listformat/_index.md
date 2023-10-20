@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Lists.ListFormat clase. Permite controlar qué formato de lista se aplica a un párrafo.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Lists.ListFormat clase. Permite controlar qué formato de lista se aplica a un párrafo en C#.
 type: docs
 weight: 3480
 url: /es/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Disminuye el nivel de lista del párrafo actual en un nivel. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Elimina números o viñetas del párrafo actual y establece el nivel de lista en cero. |
 
-### Observaciones
+## Observaciones
 
 Un párrafo en un documento de Microsoft Word puede tener viñetas o numerarse. Cuando un párrafo tiene viñetas o numerarse, se dice que se aplica el formato de lista al párrafo.
 
@@ -51,7 +53,7 @@ El formato de la lista en sí se almacena dentro de un[`List`](../list/) objeto 
 
 Los párrafos no pertenecen físicamente a una lista. Los párrafos just hacen referencia a un objeto de lista particular a través de la[`List`](./list/) property y un nivel particular en la lista a través del[`ListLevelNumber`](./listlevelnumber/) property. Al establecer estas dos propiedades, usted controla qué viñetas y numeración se se aplican a un párrafo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con niveles de lista.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
-
-

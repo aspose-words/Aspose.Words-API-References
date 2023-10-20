@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxWrapMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.TextBoxWrapMode enumeración. Especifica cómo se ajusta el texto dentro de una forma.
+title: TextBoxWrapMode Enum
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.TextBoxWrapMode enumeración. Especifica cómo se ajusta el texto dentro de una forma en C#.
 type: docs
 weight: 1340
 url: /es/net/aspose.words.drawing/textboxwrapmode/
@@ -21,7 +23,7 @@ public enum TextBoxWrapMode
 | Square | `0` | El texto se ajusta dentro de una forma. |
 | None | `2` | El texto no se ajusta dentro de una forma. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un modo de ajuste para el contenido de un cuadro de texto.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

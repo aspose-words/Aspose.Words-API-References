@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Story propiedad. Obtiene una colección de párrafos que son hijos inmediatos de la historia.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words para .NET
+description: Story Paragraphs propiedad. Obtiene una colección de párrafos que son hijos inmediatos de la historia en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ Obtiene una colección de párrafos que son hijos inmediatos de la historia.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo comprobar si un párrafo es una revisión movida.
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* espacio de nombres [Aspose.Words](../../story/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

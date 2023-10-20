@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el estilo de carácter aplicado a este formato.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words para .NET
+description: Font Style propiedad. Obtiene o establece el estilo de carácter aplicado a este formato en C#.
 type: docs
 weight: 400
 url: /es/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ Obtiene o establece el estilo de carácter aplicado a este formato.
 public Style Style { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Aplica un subrayado doble a todas las ejecuciones de un documento formateadas con estilos de caracteres personalizados.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

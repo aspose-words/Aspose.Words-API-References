@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TextureIndex enumeración. Especifica la textura de sombreado.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words para .NET
+description: Aspose.Words.TextureIndex enumeración. Especifica la textura de sombreado en C#.
 type: docs
 weight: 6450
 url: /es/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Especifica que no se utilizará ningún patrón en la región sombreada actual (es decir, el patrón deberá ser un relleno completo con el color de fondo). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo decorar texto con bordes y sombreado.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

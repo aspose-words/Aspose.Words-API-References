@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfoCollection método. Elimina todos los elementos de la colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: WarningInfoCollection Clear método. Elimina todos los elementos de la colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/warninginfocollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Ver también
 
 * class [WarningInfoCollection](../)
-* espacio de nombres [Aspose.Words](../../warninginfocollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

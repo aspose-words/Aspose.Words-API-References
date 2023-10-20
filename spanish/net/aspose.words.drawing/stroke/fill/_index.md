@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Obtiene el formato de relleno para elStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words para .NET
+description: Stroke Fill propiedad. Obtiene el formato de relleno para elStroke  en C#.
 type: docs
-weight: 100
+weight: 90
 url: /es/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ Obtiene el formato de relleno para el[`Stroke`](../) .
 public Fill Fill { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar las propiedades del trazo.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

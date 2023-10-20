@@ -1,9 +1,11 @@
 ---
 title: CellFormat.LeftPadding
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de la celda.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words para .NET
+description: CellFormat LeftPadding propiedad. Devuelve o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de la celda en C#.
 type: docs
-weight: 60
+weight: 50
 url: /es/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
@@ -14,7 +16,7 @@ Devuelve o establece la cantidad de espacio (en puntos) que se agregará a la iz
 public double LeftPadding { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a celdas con un generador de documentos.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Ver también
 
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

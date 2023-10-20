@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se deben precombinar imágenes transparentes con color de fondo negro.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions PreblendImages propiedad. Obtiene o establece un valor que determina si se deben precombinar imágenes transparentes con color de fondo negro en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se deben precombinar imágenes tra
 public bool PreblendImages { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La combinación previa de imágenes puede mejorar la apariencia visual del documento PDF en Adobe Reader y eliminar artefactos de suavizado.
 
@@ -22,7 +24,7 @@ Para mostrar correctamente las imágenes precombinadas, la aplicación de visual
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo precombinar imágenes con fondos transparentes mientras se guarda un documento en PDF.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

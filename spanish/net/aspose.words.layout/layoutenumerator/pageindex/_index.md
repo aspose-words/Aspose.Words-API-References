@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator propiedad. Obtiene el índice basado en 1 de una página que contiene la entidad actual.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator PageIndex propiedad. Obtiene el índice basado en 1 de una página que contiene la entidad actual en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ Obtiene el índice basado en 1 de una página que contiene la entidad actual.
 public int PageIndex { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

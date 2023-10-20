@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se deben almacenar en caché los gráficos colocados en el fondo del documento.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions CacheBackgroundGraphics propiedad. Obtiene o establece un valor que determina si se deben almacenar en caché los gráficos colocados en el fondo del documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se deben almacenar en caché los g
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero` y los gráficos de fondo se escriben en el documento PDF como un xObject.
 
@@ -24,7 +26,7 @@ Algunas formas no son compatibles con el almacenamiento en caché (formas con ca
 
 El gráfico de fondo del documento consta de varias formas, cuadros, imágenes colocadas en el pie de página o encabezado, , así como el fondo y el borde de una página.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo almacenar en caché los gráficos colocados en el fondo del documento.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

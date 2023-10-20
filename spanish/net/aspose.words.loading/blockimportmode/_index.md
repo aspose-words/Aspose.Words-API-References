@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.BlockImportMode enumeración. Especifica cómo se importan las propiedades de los elementos a nivel de bloque desde documentos basados en HTML.
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.BlockImportMode enumeración. Especifica cómo se importan las propiedades de los elementos a nivel de bloque desde documentos basados en HTML en C#.
 type: docs
 weight: 3560
 url: /es/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | Las propiedades de los bloques principales se fusionan y almacenan en elementos secundarios (es decir, párrafos o tablas). |
 | Preserve | `1` | Las propiedades de los bloques principales se importan a una estructura lógica especial y se almacenan por separado de los nodos de documento . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo se importan las propiedades de los elementos a nivel de bloque desde documentos basados en HTML.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

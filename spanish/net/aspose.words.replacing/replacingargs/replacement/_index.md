@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Referencia de API de Aspose.Words para .NET
-description: ReplacingArgs propiedad. Obtiene o establece la cadena de reemplazo.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words para .NET
+description: ReplacingArgs Replacement propiedad. Obtiene o establece la cadena de reemplazo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ Obtiene o establece la cadena de reemplazo.
 public string Replacement { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Ver también
 
 * class [ReplacingArgs](../)
-* espacio de nombres [Aspose.Words.Replacing](../../replacingargs/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

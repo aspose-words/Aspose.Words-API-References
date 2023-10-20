@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.BaseText
-second_title: Referencia de API de Aspose.Words para .NET
-description: PhoneticGuide propiedad. Obtiene el texto base de la guía fonética.
+linktitle: BaseText
+articleTitle: BaseText
+second_title: Aspose.Words para .NET
+description: PhoneticGuide BaseText propiedad. Obtiene el texto base de la guía fonética en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/phoneticguide/basetext/
@@ -14,7 +16,7 @@ Obtiene el texto base de la guía fonética.
 public string BaseText { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener propiedades de la guía fonética.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Ver también
 
 * class [PhoneticGuide](../)
-* espacio de nombres [Aspose.Words](../../phoneticguide/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

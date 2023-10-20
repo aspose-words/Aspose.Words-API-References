@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.CachedColBalance
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Utilice información de párrafos en caché para equilibrar columnas.
+linktitle: CachedColBalance
+articleTitle: CachedColBalance
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions CachedColBalance propiedad. Utilice información de párrafos en caché para equilibrar columnas en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
@@ -17,7 +19,5 @@ public bool CachedColBalance { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

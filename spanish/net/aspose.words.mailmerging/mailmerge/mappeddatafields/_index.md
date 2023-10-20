@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Devuelve una colección que representa campos de datos asignados para la operación de combinación de correspondencia.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words para .NET
+description: MailMerge MappedDataFields propiedad. Devuelve una colección que representa campos de datos asignados para la operación de combinación de correspondencia en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ Devuelve una colección que representa campos de datos asignados para la operaci
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los campos de datos asignados permiten asignar automáticamente entre los nombres de los campos en su fuente de datos y los nombres de los campos de combinación de correspondencia en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

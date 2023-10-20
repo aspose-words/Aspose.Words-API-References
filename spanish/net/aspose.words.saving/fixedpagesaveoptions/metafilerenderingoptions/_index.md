@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: FixedPageSaveOptions propiedad. Permite especificar opciones de representación de metarchivos.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words para .NET
+description: FixedPageSaveOptions MetafileRenderingOptions propiedad. Permite especificar opciones de representación de metarchivos en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Permite especificar opciones de representación de metarchivos.
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Los programas agregaron un respaldo a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no compatibles.
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

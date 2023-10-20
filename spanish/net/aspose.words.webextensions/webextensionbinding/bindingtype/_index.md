@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.BindingType
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtensionBinding propiedad. Especifica el tipo de enlace.
+linktitle: BindingType
+articleTitle: BindingType
+second_title: Aspose.Words para .NET
+description: WebExtensionBinding BindingType propiedad. Especifica el tipo de enlace en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.webextensions/webextensionbinding/bindingtype/
@@ -18,7 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

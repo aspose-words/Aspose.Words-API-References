@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Referencia de API de Aspose.Words para .NET
-description: ComparisonExpression propiedad. Obtiene el operador de comparación.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words para .NET
+description: ComparisonExpression ComparisonOperator propiedad. Obtiene el operador de comparación en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ Obtiene el operador de comparación.
 public string ComparisonOperator { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo implementar una evaluación personalizada para los campos SI y COMPARAR.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ver también
 
 * class [ComparisonExpression](../)
-* espacio de nombres [Aspose.Words.Fields](../../comparisonexpression/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

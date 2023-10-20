@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldListNum propiedad. Obtiene o establece el nombre de la definición de numeración abstracta utilizada para la numeración.
+linktitle: ListName
+articleTitle: ListName
+second_title: Aspose.Words para .NET
+description: FieldListNum ListName propiedad. Obtiene o establece el nombre de la definición de numeración abstracta utilizada para la numeración en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldlistnum/listname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre de la definición de numeración abstracta utiliza
 public string ListName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo numerar párrafos con campos LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Ver también
 
 * class [FieldListNum](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlistnum/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlLoadOptions propiedad. Obtiene o establece el tipo preferido de nodos de documento que representarán los elementos input y select importados. El valor predeterminado esFormField .
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: Aspose.Words para .NET
+description: HtmlLoadOptions PreferredControlType propiedad. Obtiene o establece el tipo preferido de nodos de documento que representarán los elementos input y select importados. El valor predeterminado esFormField  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ Obtiene o establece el tipo preferido de nodos de documento que representarán l
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que establecer esta propiedad no garantiza que todos los controles importados sean del tipo especificado. Si un control HTML no se puede representar con nodos de documento del tipo preferido, Aspose.Words usará un control compatible[`HtmlControlType`](../../htmlcontroltype/) para ese control.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el tipo preferido de nodos de documento que representarán los elementos &lt;input&gt; y &lt;select&gt; importados.
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../htmlloadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtensionProperty constructor. Crea una propiedad personalizada de extensión web con el nombre y valor especificados.
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words para .NET
+description: WebExtensionProperty constructor. Crea una propiedad personalizada de extensión web con el nombre y valor especificados en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | Nombre de la propiedad. |
 | value | String | El valor de la propiedad. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [WebExtensionProperty](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

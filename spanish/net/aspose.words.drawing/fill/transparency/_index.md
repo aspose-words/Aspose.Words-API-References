@@ -1,9 +1,11 @@
 ---
 title: Fill.Transparency
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene o establece el grado de transparencia del relleno especificado como un valor entre 00 opaco y 10 claro.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words para .NET
+description: Fill Transparency propiedad. Obtiene o establece el grado de transparencia del relleno especificado como un valor entre 00 opaco y 10 claro en C#.
 type: docs
-weight: 200
+weight: 190
 url: /es/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
@@ -14,14 +16,12 @@ Obtiene o establece el grado de transparencia del relleno especificado como un v
 public double Transparency { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad es lo opuesto a la propiedad.[`Opacity`](../opacity/).
 
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

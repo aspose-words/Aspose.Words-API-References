@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Especifica si el párrafo actual debe estar exento de cualquier separación de palabras que se aplique en la configuración del documento.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words para .NET
+description: ParagraphFormat SuppressAutoHyphens propiedad. Especifica si el párrafo actual debe estar exento de cualquier separación de palabras que se aplique en la configuración del documento en C#.
 type: docs
 weight: 370
 url: /es/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ Especifica si el párrafo actual debe estar exento de cualquier separación de p
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo suprimir la separación de palabras en un párrafo.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

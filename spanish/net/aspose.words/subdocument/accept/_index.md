@@ -1,7 +1,9 @@
 ---
 title: SubDocument.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: SubDocument método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: SubDocument Accept método. Acepta un visitante en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/subdocument/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
-### Observaciones
+## Observaciones
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../documentvisitor/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un visitante de documentos para imprimir la estructura de nodos de un documento.
 
@@ -198,7 +200,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SubDocument](../)
-* espacio de nombres [Aspose.Words](../../subdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: TxtListIndentation.TxtListIndentation
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtListIndentation constructor. Constructor predeterminado
+title: TxtListIndentation
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words para .NET
+description: TxtListIndentation constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/txtlistindentation/txtlistindentation/
@@ -17,7 +19,5 @@ public TxtListIndentation()
 ### Ver también
 
 * class [TxtListIndentation](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtlistindentation/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

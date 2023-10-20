@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Guarda el formato de caracteres actual en la pila.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words para .NET
+description: DocumentBuilder PushFont método. Guarda el formato de caracteres actual en la pila en C#.
 type: docs
-weight: 610
+weight: 600
 url: /es/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ Guarda el formato de caracteres actual en la pila.
 public void PushFont()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la pila de formato del generador de documentos.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

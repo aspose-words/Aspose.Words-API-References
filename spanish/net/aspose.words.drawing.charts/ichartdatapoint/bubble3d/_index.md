@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Referencia de API de Aspose.Words para .NET
-description: IChartDataPoint propiedad. Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words para .NET
+description: IChartDataPoint Bubble3D propiedad. Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un ef
 public bool Bubble3D { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar efectos 3D con gráficos de burbujas.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Ver también
 
 * interface [IChartDataPoint](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

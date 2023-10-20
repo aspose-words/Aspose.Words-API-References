@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Referencia de API de Aspose.Words para .NET
-description: ReportingEngine método. Completa el documento de plantilla especificado con datos de la fuente especificada convirtiéndolo en un informe listo.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words para .NET
+description: ReportingEngine BuildReport método. Completa el documento de plantilla especificado con datos de la fuente especificada convirtiéndolo en un informe listo en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 Completa el documento de plantilla especificado con datos de la fuente especificada, convirtiéndolo en un informe listo.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 Un indicador que indica si el análisis del documento de plantilla fue exitoso. El indicador devuelto sólo tiene sentido si un valor del[`Options`](../options/)la propiedad incluye elInlineErrorMessages opción.
 
-### Observaciones
+## Observaciones
 
 Al utilizar esta sobrecarga, puede hacer referencia a los miembros de la fuente de datos en el documento de plantilla, pero no puede hacer referencia al objeto de la fuente de datos en sí. Deberías usar el`BuildReport` sobrecarga para lograr esto.
 
@@ -47,12 +49,12 @@ Para obtener información sobre cómo trabajar con fuentes de datos de diferente
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* espacio de nombres [Aspose.Words.Reporting](../../reportingengine/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 Completa el documento de plantilla especificado con datos de la fuente especificada, convirtiéndolo en un informe listo.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 Un indicador que indica si el análisis del documento de plantilla fue exitoso. El indicador devuelto sólo tiene sentido si un valor del[`Options`](../options/)la propiedad incluye elInlineErrorMessages opción.
 
-### Observaciones
+## Observaciones
 
 Al utilizar esta sobrecarga, puede hacer referencia a los miembros de la fuente de datos y al propio objeto de la fuente de datos en la plantilla. Si no va a hacer referencia al objeto de fuente de datos en sí, puede omitir*dataSourceName* pasando`nulo` o utilizar el`BuildReport` sobrecarga.
 
@@ -94,12 +96,12 @@ Para obtener información sobre cómo trabajar con fuentes de datos de diferente
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* espacio de nombres [Aspose.Words.Reporting](../../reportingengine/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 Completa el documento de plantilla especificado con datos de las fuentes especificadas, convirtiéndolo en un informe listo.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 Un indicador que indica si el análisis del documento de plantilla fue exitoso. El indicador devuelto sólo tiene sentido si un valor del[`Options`](../options/)la propiedad incluye elInlineErrorMessages opción.
 
-### Observaciones
+## Observaciones
 
 Con esta sobrecarga puede hacer referencia a múltiples objetos de origen de datos y sus miembros en la plantilla. El nombre de la primera fuente de datos se puede omitir (es decir, ser una cadena vacía o`nulo` si va a hacer referencia a los miembros de la fuente de datos pero no al objeto de la fuente de datos en sí. Los nombres de las otras fuentes de datos deben ser especificados y únicos.
 
@@ -143,7 +145,5 @@ Para obtener información sobre cómo trabajar con fuentes de datos de diferente
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* espacio de nombres [Aspose.Words.Reporting](../../reportingengine/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

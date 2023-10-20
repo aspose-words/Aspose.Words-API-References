@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.GroupName
-second_title: Referencia de API de Aspose.Words para .NET
-description: Forms2OleControl propiedad. Obtiene o establece una cadena que especifica un grupo de controles mutuamente excluyentes. El valor predeterminado es una cadena vacía.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words para .NET
+description: Forms2OleControl GroupName propiedad. Obtiene o establece una cadena que especifica un grupo de controles mutuamente excluyentes. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
@@ -14,7 +16,7 @@ Obtiene o establece una cadena que especifica un grupo de controles mutuamente e
 public string GroupName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar las propiedades de un control ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Ver también
 
 * class [Forms2OleControl](../)
-* espacio de nombres [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* espacio de nombres [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * asamblea [Aspose.Words](../../../)
-
-

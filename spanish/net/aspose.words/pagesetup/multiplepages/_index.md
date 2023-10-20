@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Para documentos de varias páginas obtiene o establece cómo se imprime o representa un documento para que pueda encuadernarse como un folleto.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words para .NET
+description: PageSetup MultiplePages propiedad. Para documentos de varias páginas obtiene o establece cómo se imprime o representa un documento para que pueda encuadernarse como un folleto en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ Para documentos de varias páginas, obtiene o establece cómo se imprime o repre
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un documento que se puede imprimir como un pliegue de libro.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

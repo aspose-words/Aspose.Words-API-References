@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle clase. Proporciona acceso a las propiedades del título del eje.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle clase. Proporciona acceso a las propiedades del título del eje en C#.
 type: docs
 weight: 650
 url: /es/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | Nombre | Descripción |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Determina si se permitirá que otros elementos del gráfico se superpongan al título. El valor predeterminado es`FALSO` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Determina si se mostrará el título para el eje. El valor predeterminado es`FALSO` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Obtiene o establece el texto del título del eje. Si`nulo` o se especifica un valor vacío, se mostrará el título generado automáticamente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el título del eje del gráfico.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

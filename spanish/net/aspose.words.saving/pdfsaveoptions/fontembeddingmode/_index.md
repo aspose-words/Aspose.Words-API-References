@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.FontEmbeddingMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Especifica el modo de incrustación de fuente.
+linktitle: FontEmbeddingMode
+articleTitle: FontEmbeddingMode
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions FontEmbeddingMode propiedad. Especifica el modo de incrustación de fuente en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
@@ -14,7 +16,7 @@ Especifica el modo de incrustación de fuente.
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esEmbedAll.
 
@@ -22,7 +24,7 @@ Esta configuración solo funciona para el texto en codificación ANSI (Windows-1
 
 La compatibilidad con PDF/A y PDF/UA requiere que todas las fuentes estén incrustadas. EmbedAll El valor se utilizará automáticamente al guardar en PDF/A y PDF/UA.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar Aspose.Words para omitir la incorporación de fuentes Arial y Times New Roman en un documento PDF.
 
@@ -68,7 +70,5 @@ switch (pdfFontEmbeddingMode)
 
 * enum [PdfFontEmbeddingMode](../../pdffontembeddingmode/)
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

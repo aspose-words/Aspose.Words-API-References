@@ -1,7 +1,9 @@
 ---
 title: FieldTA.ShortCitation
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldTA propiedad. Obtiene o establece la cita breve para la entrada.
+linktitle: ShortCitation
+articleTitle: ShortCitation
+second_title: Aspose.Words para .NET
+description: FieldTA ShortCitation propiedad. Obtiene o establece la cita breve para la entrada en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldta/shortcitation/
@@ -14,7 +16,7 @@ Obtiene o establece la cita breve para la entrada.
 public string ShortCitation { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldTA](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldta/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

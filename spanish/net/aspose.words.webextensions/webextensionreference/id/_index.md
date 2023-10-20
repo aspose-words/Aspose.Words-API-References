@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtensionReference propiedad. Identificador asociado a la extensión web dentro de un proveedor de catálogo.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words para .NET
+description: WebExtensionReference Id propiedad. Identificador asociado a la extensión web dentro de un proveedor de catálogo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ Identificador asociado a la extensión web dentro de un proveedor de catálogo.
 public string Id { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [WebExtensionReference](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextensionreference/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

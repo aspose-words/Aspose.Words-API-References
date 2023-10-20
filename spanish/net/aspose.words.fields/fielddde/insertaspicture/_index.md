@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsPicture
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDde propiedad. Obtiene o establece si se debe insertar el objeto vinculado como una imagen.
+linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
+second_title: Aspose.Words para .NET
+description: FieldDde InsertAsPicture propiedad. Obtiene o establece si se debe insertar el objeto vinculado como una imagen en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fielddde/insertaspicture/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe insertar el objeto vinculado como una imagen.
 public bool InsertAsPicture { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldDde](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddde/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

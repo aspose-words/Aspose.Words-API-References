@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetRawData
-second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat método. Obtiene datos sin procesar del objeto OLE.
+linktitle: GetRawData
+articleTitle: GetRawData
+second_title: Aspose.Words para .NET
+description: OleFormat GetRawData método. Obtiene datos sin procesar del objeto OLE en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.drawing/oleformat/getrawdata/
@@ -14,7 +16,7 @@ Obtiene datos sin procesar del objeto OLE.
 public byte[] GetRawData()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a los datos sin procesar de un objeto OLE incrustado.
 
@@ -37,7 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### Ver también
 
 * class [OleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../oleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

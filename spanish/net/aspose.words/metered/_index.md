@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Metered clase. Proporciona métodos para configurar la clave medida.
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Metered clase. Proporciona métodos para configurar la clave medida en C#.
 type: docs
 weight: 4160
 url: /es/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Establece la clave pública y privada medida. Si compra una licencia medida, cuando inicie la aplicación, se debe llamar a esta API; normalmente, esto es suficiente. Sin embargo, si siempre no se pueden cargar los datos de consumo y excede las 24 horas, la licencia se establecerá en estado de evaluación, para evitar tal caso, debe verificar periódicamente el estado de la licencia; si está en estado de evaluación, llame a esta API nuevamente. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Establece la clave pública y privada medida. Si compra una licencia medida, cuando inicie la aplicación, se debe llamar a esta API; normalmente, esto es suficiente. Sin embargo, si siempre no se pueden cargar los datos de consumo y excede las 24 horas, la licencia se establecerá en estado de evaluación, para evitar tal caso, debe verificar periódicamente el estado de la licencia; si está en estado de evaluación, llame a esta API nuevamente. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Obtiene crédito de consumo |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Obtiene el tamaño del archivo de consumo |
 
-### Ejemplos
+## Ejemplos
 
 En este ejemplo, se intentará establecer la clave pública y privada medida
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

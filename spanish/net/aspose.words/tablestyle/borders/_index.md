@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Borders
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene la colección de bordes de celda predeterminados para el estilo.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words para .NET
+description: TableStyle Borders propiedad. Obtiene la colección de bordes de celda predeterminados para el estilo en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/tablestyle/borders/
@@ -14,7 +16,7 @@ Obtiene la colección de bordes de celda predeterminados para el estilo.
 public BorderCollection Borders { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear configuraciones de estilo personalizadas para la tabla.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

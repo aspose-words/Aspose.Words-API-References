@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent4
-second_title: Referencia de API de Aspose.Words para .NET
-description: ThemeColors propiedad. Especifica el color Acento 4.
+linktitle: Accent4
+articleTitle: Accent4
+second_title: Aspose.Words para .NET
+description: ThemeColors Accent4 propiedad. Especifica el color Acento 4 en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.themes/themecolors/accent4/
@@ -14,7 +16,7 @@ Especifica el color Acento 4.
 public Color Accent4 { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar colores y fuentes personalizados para temas.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ver también
 
 * class [ThemeColors](../)
-* espacio de nombres [Aspose.Words.Themes](../../themecolors/)
+* espacio de nombres [Aspose.Words.Themes](../../../aspose.words.themes/)
 * asamblea [Aspose.Words](../../../)
-
-

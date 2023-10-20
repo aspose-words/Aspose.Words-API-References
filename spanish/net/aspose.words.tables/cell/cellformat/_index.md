@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Proporciona acceso a las propiedades de formato de la celda.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words para .NET
+description: Cell CellFormat propiedad. Proporciona acceso a las propiedades de formato de la celda en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/cell/cellformat/
@@ -14,7 +16,7 @@ Proporciona acceso a las propiedades de formato de la celda.
 public CellFormat CellFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar el formato de una celda de una tabla.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

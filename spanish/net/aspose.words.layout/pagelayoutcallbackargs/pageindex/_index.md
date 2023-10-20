@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageLayoutCallbackArgs propiedad. Obtiene el índice basado en 0 de la página en el documento con el que se relaciona este evento. Devuelve un valor negativo si no hay una página asociada o si la página se eliminó durante el reflujo.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words para .NET
+description: PageLayoutCallbackArgs PageIndex propiedad. Obtiene el índice basado en 0 de la página en el documento con el que se relaciona este evento. Devuelve un valor negativo si no hay una página asociada o si la página se eliminó durante el reflujo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ Obtiene el índice basado en 0 de la página en el documento con el que se relac
 public int PageIndex { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### Ver también
 
 * class [PageLayoutCallbackArgs](../)
-* espacio de nombres [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un campo de Word en un documento y opcionalmente actualiza el resultado del campo.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertField método. Inserta un campo de Word en un documento y opcionalmente actualiza el resultado del campo en C#.
 type: docs
-weight: 330
+weight: 320
 url: /es/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Inserta un campo de Word en un documento y, opcionalmente, actualiza el resultado del campo.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Observaciones
+## Observaciones
 
 Este método inserta un campo en un documento. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the `InsertField` sobrecarga.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo en un documento usando FieldType.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Inserta un campo de Word en un documento y actualiza el resultado del campo.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Observaciones
+## Observaciones
 
 Este método inserta un campo en un documento y actualiza el resultado del campo inmediatamente. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the `InsertField` sobrecarga.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo en un documento usando un código de campo.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Inserta un campo de Word en un documento sin actualizar el resultado del campo.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Observaciones
+## Observaciones
 
 Los campos en los documentos de Microsoft Word constan de un código de campo y un resultado de campo. El código de campo es como una fórmula y el resultado del campo es como el valor que produce la fórmula. El código de campo también puede contener cambios de campo que son como instrucciones adicionales para realizar una acción específica.
 
@@ -176,7 +178,7 @@ Para crear un campo, debe especificar un tipo de campo, un código de campo y un
 
 Aspose.Words puede calcular resultados de campo para la mayoría de los tipos de campo, pero este método no actualiza el resultado del campo automáticamente. Debido a que el resultado del campo no se calcula automáticamente, se espera que pase algún valor de cadena (o incluso una cadena vacía) que se insertará en el resultado del campo. Este valor permanecerá en el resultado del campo como marcador de posición hasta que el campo sea actualizado. Para actualizar el resultado del campo, puede llamar[`Update`](../../../aspose.words.fields/field/update/)en el objeto de campo devuelto a usted o[`UpdateFields`](../../document/updatefields/) para actualizar campos en todo el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la numeración de páginas en una sección.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

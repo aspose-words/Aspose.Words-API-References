@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsTopLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devolucionesverdaderosi esta forma no es hija de una forma de grupo.
+linktitle: IsTopLevel
+articleTitle: IsTopLevel
+second_title: Aspose.Words para .NET
+description: ShapeBase IsTopLevel propiedad. Devolucionesverdaderosi esta forma no es hija de una forma de grupo en C#.
 type: docs
 weight: 350
 url: /es/net/aspose.words.drawing/shapebase/istoplevel/
@@ -14,7 +16,7 @@ Devoluciones`verdadero`si esta forma no es hija de una forma de grupo.
 public bool IsTopLevel { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo saber si una forma es parte de una forma de grupo.
 
@@ -39,7 +41,5 @@ Assert.False(shape.IsTopLevel);
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

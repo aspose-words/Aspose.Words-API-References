@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfDigitalSignatureDetails constructor. Inicializa una instancia de esta clase.
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words para .NET
+description: PdfDigitalSignatureDetails constructor. Inicializa una instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ Inicializa una instancia de esta clase.
 public PdfDigitalSignatureDetails()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar un documento PDF generado.
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Ver también
 
 * class [PdfDigitalSignatureDetails](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 Inicializa una instancia de esta clase.
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | El lugar de la firma. |
 | signatureDate | DateTime | La fecha y hora de la firma. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar un documento PDF generado.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

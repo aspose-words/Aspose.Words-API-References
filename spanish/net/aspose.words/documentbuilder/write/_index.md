@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta una cadena en el documento en la posición de inserción actual.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words para .NET
+description: DocumentBuilder Write método. Inserta una cadena en el documento en la posición de inserción actual en C#.
 type: docs
-weight: 660
+weight: 650
 url: /es/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | La cadena que se insertará en el documento. |
 
-### Observaciones
+## Observaciones
 
 Formato de fuente actual especificado por el[`Font`](../font/) Se utiliza la propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una cadena rodeada por un borde en un documento.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

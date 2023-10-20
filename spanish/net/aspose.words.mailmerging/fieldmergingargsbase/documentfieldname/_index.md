@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene el nombre del campo de combinación tal como se especifica en el documento.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase DocumentFieldName propiedad. Obtiene el nombre del campo de combinación tal como se especifica en el documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ Obtiene el nombre del campo de combinación tal como se especifica en el documen
 public string DocumentFieldName { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si tiene una asignación de un nombre de campo de documento a un nombre de campo de origen de datos diferente, , entonces este es el nombre de campo original tal como se especifica en el documento.
 
 Si especificó un prefijo de nombre de campo, por ejemplo "Imagen:MiNombreDeCampo" en el documento, entonces`DocumentFieldName` devuelve el nombre del campo sin el prefijo, es decir, "MyFieldName".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Ver también
 
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

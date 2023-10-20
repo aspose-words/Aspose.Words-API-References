@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase TableName propiedad. Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ Obtiene el nombre de la tabla de datos para la operación de combinación actual
 public string TableName { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELD como datos de combinación durante la combinación de correspondencia.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Ver también
 
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

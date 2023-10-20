@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un campo de formulario de casilla de verificación en la posición actual.
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertCheckBox método. Inserta un campo de formulario de casilla de verificación en la posición actual en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 Inserta un campo de formulario de casilla de verificación en la posición actual.
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 El nodo del campo de formulario que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Si especifica un nombre para el campo del formulario, se crea automáticamente un marcador con el mismo nombre.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar casillas de verificación en el documento.
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 Inserta un campo de formulario de casilla de verificación en la posición actual.
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 El nodo del campo de formulario que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Si especifica un nombre para el campo del formulario, se crea automáticamente un marcador con el mismo nombre.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar casillas de verificación en el documento.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

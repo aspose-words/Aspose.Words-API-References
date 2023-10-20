@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.SystemFontSource clase. Representa todas las fuentes TrueType instaladas en el sistema.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.SystemFontSource clase. Representa todas las fuentes TrueType instaladas en el sistema en C#.
 type: docs
 weight: 3050
 url: /es/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | Nombre | Descripción |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Director. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Director. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Director. |
 
 ## Propiedades
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Devuelve carpetas de fuentes del sistema o una matriz vacía si no se puede acceder a las carpetas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

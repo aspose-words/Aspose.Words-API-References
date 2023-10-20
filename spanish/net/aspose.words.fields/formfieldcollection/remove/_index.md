@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormFieldCollection método. Elimina un campo de formulario con el nombre especificado.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: FormFieldCollection Remove método. Elimina un campo de formulario con el nombre especificado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/formfieldcollection/remove/
@@ -18,11 +20,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | El nombre que no distingue entre mayúsculas y minúsculas del campo del formulario que se va a eliminar. |
 
-### Observaciones
+## Observaciones
 
 Si hay un marcador asociado con el campo del formulario, el marcador no se elimina.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormFieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

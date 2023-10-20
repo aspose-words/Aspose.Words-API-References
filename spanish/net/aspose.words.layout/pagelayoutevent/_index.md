@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.PageLayoutEvent enumeración. Un código de evento generado durante la creación y representación del modelo de diseño de página.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.PageLayoutEvent enumeración. Un código de evento generado durante la creación y representación del modelo de diseño de página en C#.
 type: docs
 weight: 3370
 url: /es/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Se ha iniciado el procesamiento de la página. Esto se activa una vez por página. |
 | PartRenderingFinished | `11` | La renderización de la página ha finalizado. Esto se activa una vez por página. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

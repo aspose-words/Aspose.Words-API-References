@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldXE propiedad. Obtiene o establece el texto de la entrada.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: FieldXE Text propiedad. Obtiene o establece el texto de la entrada en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto de la entrada.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo ÍNDICE y luego usar campos XE para completarlo con entradas.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ver también
 
 * class [FieldXE](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldxe/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Obtiene el objeto del documento que se está guardando.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: FontSavingArgs Document propiedad. Obtiene el objeto del documento que se está guardando en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ Obtiene el objeto del documento que se está guardando.
 public Document Document { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece la alineación del texto de las etiquetas de marca del eje.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words para .NET
+description: ChartAxis TickLabelAlignment propiedad. Obtiene o establece la alineación del texto de las etiquetas de marca del eje en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ Obtiene o establece la alineación del texto de las etiquetas de marca del eje.
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad tiene efecto sólo para etiquetas de varias líneas.
 
@@ -22,7 +24,7 @@ El valor predeterminado esCenter.
 
 .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

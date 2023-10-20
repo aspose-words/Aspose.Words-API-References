@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con esteFont object en un documento de idioma de derecha a izquierda.
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words para .NET
+description: Font ThemeFontBi propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con esteFont object en un documento de idioma de derecha a izquierda en C#.
 type: docs
 weight: 490
 url: /es/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ Obtiene o establece la fuente del tema en el esquema de fuente aplicado que est�
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con fuentes y colores de temas.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowCategoryName
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Permite especificar si el nombre de la categoría se mostrará para las etiquetas de datos en un gráfico. El valor predeterminado esFALSO .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words para .NET
+description: ChartDataLabel ShowCategoryName propiedad. Permite especificar si el nombre de la categoría se mostrará para las etiquetas de datos en un gráfico. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
@@ -14,7 +16,7 @@ Permite especificar si el nombre de la categoría se mostrará para las etiqueta
 public bool ShowCategoryName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ver también
 
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

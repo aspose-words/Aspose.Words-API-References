@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetBoundsInPixels
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeRendererBase método. Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos.
+linktitle: GetBoundsInPixels
+articleTitle: GetBoundsInPixels
+second_title: Aspose.Words para .NET
+description: NodeRendererBase GetBoundsInPixels método. Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## GetBoundsInPixels(float, float) {#getboundsinpixels}
+## GetBoundsInPixels(*float, float*) {#getboundsinpixels}
 
 Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos.
 
@@ -23,11 +25,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 El cuadro delimitador real (como se representa en la página) de la forma en píxeles.
 
-### Observaciones
+## Observaciones
 
 Este método convierte[`BoundsInPoints`](../boundsinpoints/)en rectángulo en píxeles.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Ver también
 
 * class [NodeRendererBase](../)
-* espacio de nombres [Aspose.Words.Rendering](../../noderendererbase/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
+## GetBoundsInPixels(*float, float, float*) {#getboundsinpixels_1}
 
 Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos.
 
@@ -97,11 +99,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 El cuadro delimitador real (como se representa en la página) de la forma en píxeles.
 
-### Observaciones
+## Observaciones
 
 Este método convierte[`BoundsInPoints`](../boundsinpoints/)en rectángulo en píxeles.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ver también
 
 * class [NodeRendererBase](../)
-* espacio de nombres [Aspose.Words.Rendering](../../noderendererbase/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

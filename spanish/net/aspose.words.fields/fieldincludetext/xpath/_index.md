@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.XPath
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludeText propiedad. Obtiene o establece XPath para la parte deseada del archivo XML.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words para .NET
+description: FieldIncludeText XPath propiedad. Obtiene o establece XPath para la parte deseada del archivo XML en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldincludetext/xpath/
@@ -14,7 +16,7 @@ Obtiene o establece XPath para la parte deseada del archivo XML.
 public string XPath { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo INCLUDETEXT y establecer sus propiedades.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Ver también
 
 * class [FieldIncludeText](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldincludetext/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

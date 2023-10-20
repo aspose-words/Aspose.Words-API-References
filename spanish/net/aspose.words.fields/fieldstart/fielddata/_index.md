@@ -1,7 +1,9 @@
 ---
 title: FieldStart.FieldData
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldStart propiedad. Obtiene datos de campo personalizados asociados con el campo.
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words para .NET
+description: FieldStart FieldData propiedad. Obtiene datos de campo personalizados asociados con el campo en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldstart/fielddata/
@@ -14,7 +16,7 @@ Obtiene datos de campo personalizados asociados con el campo.
 public byte[] FieldData { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener datos asociados con el campo.
 
@@ -28,7 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### Ver también
 
 * class [FieldStart](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldstart/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

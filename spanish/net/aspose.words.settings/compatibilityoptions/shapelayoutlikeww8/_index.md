@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ShapeLayoutLikeWW8
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Emular texto de Word 97 ajustado alrededor de objetos flotantes.
+linktitle: ShapeLayoutLikeWW8
+articleTitle: ShapeLayoutLikeWW8
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions ShapeLayoutLikeWW8 propiedad. Emular texto de Word 97 ajustado alrededor de objetos flotantes en C#.
 type: docs
 weight: 420
 url: /es/net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/
@@ -17,7 +19,5 @@ public bool ShapeLayoutLikeWW8 { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

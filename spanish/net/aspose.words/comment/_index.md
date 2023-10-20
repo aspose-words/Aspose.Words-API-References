@@ -1,7 +1,9 @@
 ---
-title: Class Comment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Comment clase. Representa un contenedor para el texto de un comentario.
+title: Comment Class
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Comment clase. Representa un contenedor para el texto de un comentario en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words/comment/
@@ -20,8 +22,8 @@ public sealed class Comment : InlineStory
 
 | Nombre | Descripción |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Inicializa una nueva instancia del`Comment` clase. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Inicializa una nueva instancia del`Comment` clase. |
+| [Comment](comment/#constructor)(*[DocumentBase](../documentbase/)*) | Inicializa una nueva instancia del`Comment` clase. |
+| [Comment](comment/#constructor_1)(*[DocumentBase](../documentbase/), string, string, DateTime*) | Inicializa una nueva instancia del`Comment` clase. |
 
 ## Propiedades
 
@@ -38,7 +40,7 @@ public sealed class Comment : InlineStory
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Obtiene el primer párrafo de la historia. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Proporciona acceso al formato de fuente del carácter ancla de este objeto. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Devoluciones`verdadero` si este nodo tiene nodos secundarios. |
-| [Id](../../aspose.words/comment/id/) { get; set; } | Obtiene el identificador del comentario. |
+| [Id](../../aspose.words/comment/id/) { get; } | Obtiene el identificador del comentario. |
 | [Initial](../../aspose.words/comment/initial/) { get; set; } | Devuelve o establece las iniciales del usuario asociado con un comentario específico. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Devoluciones`verdadero` ya que este nodo puede tener nodos secundarios. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
@@ -50,7 +52,6 @@ public sealed class Comment : InlineStory
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
 | override [NodeType](../../aspose.words/comment/nodetype/) { get; } | DevolucionesComment . |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Obtiene una colección de párrafos que son hijos inmediatos de la historia. |
-| [ParentId](../../aspose.words/comment/parentid/) { get; set; } |  |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Recupera el padre[`Paragraph`](../paragraph/) de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
@@ -63,39 +64,37 @@ public sealed class Comment : InlineStory
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/comment/accept/)(DocumentVisitor) | Acepta un visitante. |
-| override [AcceptEnd](../../aspose.words/comment/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/comment/acceptstart/)(DocumentVisitor) |  |
-| [AddReply](../../aspose.words/comment/addreply/)(string, string, DateTime, string) | Agrega una respuesta a este comentario. |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
+| override [Accept](../../aspose.words/comment/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
+| [AddReply](../../aspose.words/comment/addreply/)(*string, string, DateTime, string*) | Agrega una respuesta a este comentario. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Agrega el nodo especificado al final de la lista de nodos secundarios para este nodo. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navegador que se puede utilizar para atravesar y leer nodos. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Si el último elemento secundario no es un párrafo, crea y agrega un párrafo vacío. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserta el nodo especificado inmediatamente después del nodo de referencia especificado. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserta el nodo especificado inmediatamente antes del nodo de referencia especificado. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Agrega el nodo especificado al principio de la lista de nodos secundarios para este nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Elimina todos los nodos secundarios del nodo actual. |
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies/)() | Elimina todas las respuestas a este comentario. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
-| [RemoveReply](../../aspose.words/comment/removereply/)(Comment) | Elimina la respuesta especificada a este comentario. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Elimina el nodo secundario especificado. |
+| [RemoveReply](../../aspose.words/comment/removereply/)(*Comment*) | Elimina la respuesta especificada a este comentario. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo[`SmartTag`](../../aspose.words.markup/smarttag/)nodos descendientes del nodo actual. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selecciona el primero[`Node`](../node/) que coincide con la expresión XPath. |
-| [SetText](../../aspose.words/comment/settext/)(string) | Este es un método conveniente que permite configurar fácilmente el texto del comentario. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selecciona el primero[`Node`](../node/) que coincide con la expresión XPath. |
+| [SetText](../../aspose.words/comment/settext/)(*string*) | Este es un método conveniente que permite configurar fácilmente el texto del comentario. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 Un comentario es una anotación anclada a una región del texto o a una posición en el texto. Un comentario puede contener una cantidad arbitraria de contenido a nivel de bloque.
 
@@ -107,7 +106,7 @@ Para anclar un comentario a una región de texto se requieren tres objetos:`Comm
 
 `Comment` puede contener[`Paragraph`](../paragraph/) y[`Table`](../../aspose.words.tables/table/) nodos secundarios.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un comentario a un párrafo.
 
@@ -161,5 +160,3 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 * class [InlineStory](../inlinestory/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

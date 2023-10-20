@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRun
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra una serie de texto en el.
+linktitle: VisitRun
+articleTitle: VisitRun
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitRun método. Se llama cuando se encuentra una serie de texto en el en C#.
 type: docs
 weight: 360
 url: /es/net/aspose.words/documentvisitor/visitrun/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRun(Run run)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un visitante de documentos para imprimir la estructura de nodos de un documento.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Run](../../run/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

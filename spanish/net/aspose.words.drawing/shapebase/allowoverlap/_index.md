@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AllowOverlap
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece un valor que especifica si esta forma puede superponerse a otras formas.
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words para .NET
+description: ShapeBase AllowOverlap propiedad. Obtiene o establece un valor que especifica si esta forma puede superponerse a otras formas en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que especifica si esta forma puede superponerse a o
 public bool AllowOverlap { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad afecta el comportamiento de la forma en Microsoft Word. Aspose.Words ignora el valor de esta propiedad.
 
@@ -22,7 +24,7 @@ Esta propiedad solo se aplica a formas de nivel superior.
 
 El valor predeterminado es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de tablas flotantes.
 
@@ -50,7 +52,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStopCollection método. Agrega o reemplaza una tabulación en la colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: TabStopCollection Add método. Agrega o reemplaza una tabulación en la colección en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 Agrega o reemplaza una tabulación en la colección.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | Un objeto de tabulación para agregar. |
 
-### Observaciones
+## Observaciones
 
 Si ya existe una tabulación en la posición especificada, se reemplaza.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar tabulaciones personalizadas a un documento.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 Agrega o reemplaza una tabulación en la colección.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) El valor that especifica la alineación del texto en la tabulación. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) El valor that especifica el tipo de línea guía que se muestra debajo del carácter de tabulación. |
 
-### Observaciones
+## Observaciones
 
 Si ya existe una tabulación en la posición especificada, se reemplaza.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar tabulaciones personalizadas a un documento.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

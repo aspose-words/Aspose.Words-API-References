@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devuelve unFramesetejemplo si este documento representa una página de marcos.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words para .NET
+description: Document Frameset propiedad. Devuelve unFramesetejemplo si este documento representa una página de marcos en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ Devuelve un`Frameset`ejemplo si este documento representa una página de marcos.
 public Frameset Frameset { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si el documento no está enmarcado, la propiedad tiene la`nulo` valor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a los marcos en la página.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldXE propiedad. Obtiene o establece el yomi primer carácter fonético para ordenar índices para la entrada del índice
+linktitle: Yomi
+articleTitle: Yomi
+second_title: Aspose.Words para .NET
+description: FieldXE Yomi propiedad. Obtiene o establece el yomi primer carácter fonético para ordenar índices para la entrada del índice en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ Obtiene o establece el yomi (primer carácter fonético para ordenar índices) p
 public string Yomi { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ordenar fonéticamente las entradas del campo ÍNDICE.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Ver también
 
 * class [FieldXE](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldxe/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

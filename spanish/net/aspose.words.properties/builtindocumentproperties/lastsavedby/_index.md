@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedBy
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Obtiene o establece el nombre del último autor.
+linktitle: LastSavedBy
+articleTitle: LastSavedBy
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties LastSavedBy propiedad. Obtiene o establece el nombre del último autor en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
@@ -14,11 +16,11 @@ Obtiene o establece el nombre del último autor.
 public string LastSavedBy { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words no actualiza esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

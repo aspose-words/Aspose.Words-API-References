@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeField propiedad. Obtiene el tipo de campo de Microsoft Word.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: FieldMergeField Type propiedad. Obtiene el tipo de campo de Microsoft Word en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldmergefield/type/
@@ -18,7 +20,5 @@ public override FieldType Type { get; }
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldMergeField](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergefield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.LineStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define el estilo de línea del trazo.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words para .NET
+description: Stroke LineStyle propiedad. Define el estilo de línea del trazo en C#.
 type: docs
-weight: 140
+weight: 130
 url: /es/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -14,11 +16,11 @@ Define el estilo de línea del trazo.
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esSingle.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar las propiedades del trazo.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

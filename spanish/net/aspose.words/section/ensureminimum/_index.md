@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section método. Asegura que la sección tieneBody con unoParagraph .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words para .NET
+description: Section EnsureMinimum método. Asegura que la sección tieneBody con unoParagraph  en C#.
 type: docs
-weight: 150
+weight: 130
 url: /es/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ Asegura que la sección tiene[`Body`](../body/) con uno[`Paragraph`](../../parag
 public void EnsureMinimum()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo preparar un nuevo nodo de sección para editarlo.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ver también
 
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

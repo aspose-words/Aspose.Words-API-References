@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssClassNamePrefix
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica un prefijo que se agrega a todos los nombres de clases CSS. El valor predeterminado es una cadena vacía y los nombres de clases CSS generados no tienen un prefijo común.
+linktitle: CssClassNamePrefix
+articleTitle: CssClassNamePrefix
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions CssClassNamePrefix propiedad. Especifica un prefijo que se agrega a todos los nombres de clases CSS. El valor predeterminado es una cadena vacía y los nombres de clases CSS generados no tienen un prefijo común en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
@@ -20,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 | --- | --- |
 | ArgumentException | El valor no está vacío y no es un identificador CSS válido. |
 
-### Observaciones
+## Observaciones
 
 Si este valor no está vacío, todas las clases CSS generadas por Aspose.Words comenzarán con el prefijo especificado. Esto puede ser útil, por ejemplo, si agrega CSS personalizado a los documentos generados y desea evitar conflictos de nombres class .
 
 Si el valor no es`nulo` o vacío, debe ser un identificador CSS válido.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en HTML y agregar un prefijo a todos sus nombres de clases CSS.
 
@@ -55,7 +57,5 @@ Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

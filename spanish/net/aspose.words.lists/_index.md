@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Lists
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Listas.de.palabras El espacio de nombres contiene clases paraworking con listas numeradas y con viñetas definidas en un documento.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words para .NET
+description: ElAspose.Listas.de.palabras El espacio de nombres contiene clases paraworking con listas numeradas y con viñetas definidas en un documento en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.lists/
 ---
-El **Aspose.Listas.de.palabras** El espacio de nombres contiene clases paraworking con listas numeradas y con viñetas definidas en un documento.
+El**Aspose.Listas.de.palabras** El espacio de nombres contiene clases paraworking con listas numeradas y con viñetas definidas en un documento.
 
 ## Clases
 
@@ -25,5 +27,3 @@ El **Aspose.Listas.de.palabras** El espacio de nombres contiene clases paraworki
 | [ListLevelAlignment](./listlevelalignment/) | Especifica la alineación del número de lista o viñeta. |
 | [ListTemplate](./listtemplate/) | Especifica uno de los formatos de lista predefinidos disponibles en Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Especifica el carácter que separa la etiqueta de la lista del texto del párrafo. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.UserPassword
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfEncryptionDetails propiedad. Especifica la contraseña de usuario requerida para abrir el documento PDF cifrado.
+linktitle: UserPassword
+articleTitle: UserPassword
+second_title: Aspose.Words para .NET
+description: PdfEncryptionDetails UserPassword propiedad. Especifica la contraseña de usuario requerida para abrir el documento PDF cifrado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -14,13 +16,13 @@ Especifica la contraseña de usuario requerida para abrir el documento PDF cifra
 public string UserPassword { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Se requerirá la contraseña de usuario para abrir un documento PDF cifrado para verlo. Los permisos especificados en [`Permissions`](../permissions/) será aplicado por el software del lector.
 
 La contraseña de usuario puede ser`nulo` o cadena vacía, en este caso no se requerirá contraseña del usuario cuando abra el documento PDF. La contraseña de usuario no puede ser la misma que la contraseña del propietario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer permisos en un documento PDF guardado.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Ver también
 
 * class [PdfEncryptionDetails](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

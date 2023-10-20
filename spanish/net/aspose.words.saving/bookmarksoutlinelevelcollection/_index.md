@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection clase. Una colección de marcadores individuales a nivel de esquema.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection clase. Una colección de marcadores individuales a nivel de esquema en C#.
 type: docs
 weight: 4850
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Agrega un marcador a la colección. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Agrega un marcador a la colección. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Elimina todos los elementos de la colección. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Determina si la colección contiene un marcador con el nombre de pila. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Determina si la colección contiene un marcador con el nombre de pila. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Devuelve el índice de base cero del marcador especificado en la colección. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Elimina un marcador con el nombre especificado de la colección. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Elimina un marcador en el índice especificado. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Devuelve el índice de base cero del marcador especificado en la colección. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Elimina un marcador con el nombre especificado de la colección. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Elimina un marcador en el índice especificado. |
 
-### Observaciones
+## Observaciones
 
 La clave es un nombre de marcador de cadena que no distingue entre mayúsculas y minúsculas. El valor es un nivel de esquema de marcador int.
 
 El nivel de esquema del marcador puede tener un valor de 0 a 9. Especifique 0 y el marcador de Word no se mostrará en el esquema del documento. Especifique 1 y el marcador de Word se mostrará en el esquema del documento en el nivel 1; 2 para el nivel 2 y así sucesivamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

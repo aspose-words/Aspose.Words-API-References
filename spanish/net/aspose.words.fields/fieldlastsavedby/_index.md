@@ -1,7 +1,9 @@
 ---
-title: Class FieldLastSavedBy
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldLastSavedBy clase. Implementa el campo LASTSAVEDBY.
+title: FieldLastSavedBy Class
+linktitle: FieldLastSavedBy
+articleTitle: FieldLastSavedBy
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldLastSavedBy clase. Implementa el campo LASTSAVEDBY en C#.
 type: docs
 weight: 2100
 url: /es/net/aspose.words.fields/fieldlastsavedby/
@@ -42,17 +44,17 @@ public class FieldLastSavedBy : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
-Recupera el nombre del usuario que modificó y guardó por última vez el documento actual, tal como está registrado en el **Ultima modificacion por** propiedad de las propiedades del documento integrado.
+Recupera el nombre del usuario que modificó y guardó por última vez el documento actual, tal como está registrado en el**Ultima modificacion por** propiedad de las propiedades del documento integrado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo LASTSAVEDBY.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Field.LASTSAVEDBY.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra el inicio de un rango editable en el documento.
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitEditableRangeStart método. Se llama cuando se encuentra el inicio de un rango editable en el documento en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada rango editable en un documento.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

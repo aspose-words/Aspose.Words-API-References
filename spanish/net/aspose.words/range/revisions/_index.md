@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Range propiedad. Obtiene una colección de revisiones cambios rastreados que existen en este rango.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words para .NET
+description: Range Revisions propiedad. Obtiene una colección de revisiones cambios rastreados que existen en este rango en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ Obtiene una colección de revisiones (cambios rastreados) que existen en este ra
 public RevisionCollection Revisions { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 La colección devuelta es una colección "activa", lo que significa que si elimina partes de un documento que contiene revisiones, las revisiones eliminadas desaparecerán automáticamente de esta colección.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con revisiones dentro del rango.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* espacio de nombres [Aspose.Words](../../range/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row constructor. Inicializa una nueva instancia delRow clase.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words para .NET
+description: Row constructor. Inicializa una nueva instancia delRow clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Row`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo`.
 
-Para anexar[`Row`](../) al uso del documentoNode) oNode) en la tabla donde desea insertar la fila.
+Para anexar[`Row`](../) al uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) en la tabla donde desea insertar la fila.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla anidada sin utilizar un generador de documentos.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene el objeto que representa el campo de combinación actual.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase Field propiedad. Obtiene el objeto que representa el campo de combinación actual en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ Obtiene el objeto que representa el campo de combinación actual.
 public FieldMergeField Field { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

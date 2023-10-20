@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.LoadSignatures
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignatureUtil método. Carga firmas digitales desde el documento.
+linktitle: LoadSignatures
+articleTitle: LoadSignatures
+second_title: Aspose.Words para .NET
+description: DigitalSignatureUtil LoadSignatures método. Carga firmas digitales desde el documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#loadsignatures_1}
+## LoadSignatures(*string*) {#loadsignatures_1}
 
 Carga firmas digitales desde el documento.
 
@@ -22,7 +24,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 Recogida de firmas digitales. Devuelve una colección vacía si el archivo no está firmado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar firmas desde un documento firmado digitalmente.
 
@@ -70,12 +72,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## LoadSignatures(Stream) {#loadsignatures}
+## LoadSignatures(*Stream*) {#loadsignatures}
 
 Carga firmas digitales del documento usando stream.
 
@@ -91,7 +93,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 Recogida de firmas digitales. Devuelve una colección vacía si el archivo no está firmado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar firmas desde un documento firmado digitalmente.
 
@@ -116,7 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

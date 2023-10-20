@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection método. Elimina todos los elementos de la colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection Clear método. Elimina todos los elementos de la colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

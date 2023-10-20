@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Especifica si se deben actualizar los campos con elsucio atributo.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words para .NET
+description: LoadOptions UpdateDirtyFields propiedad. Especifica si se deben actualizar los campos con elsucio atributo en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ Especifica si se deben actualizar los campos con el`sucio` atributo.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una propiedad especial para actualizar el resultado del campo.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ver también
 
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

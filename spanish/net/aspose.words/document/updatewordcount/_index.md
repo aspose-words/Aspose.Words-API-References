@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Actualiza las propiedades de recuento de palabras del documento.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words para .NET
+description: Document UpdateWordCount método. Actualiza las propiedades de recuento de palabras del documento en C#.
 type: docs
-weight: 810
+weight: 790
 url: /es/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ Actualiza las propiedades de recuento de palabras del documento.
 public void UpdateWordCount()
 ```
 
-### Observaciones
+## Observaciones
 
 `UpdateWordCount` recalcula y actualiza las propiedades Caracteres, Palabras y Párrafos en el[`BuiltInDocumentProperties`](../builtindocumentproperties/) colección de la[`Document`](../).
 
@@ -22,7 +24,7 @@ Tenga en cuenta que`UpdateWordCount`no actualiza el número de líneas y propied
 
 Cuando utilice una versión de evaluación, la marca de agua de evaluación también se incluirá en el recuento de palabras.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo actualizar todas las etiquetas de lista en un documento.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 Actualiza las propiedades de recuento de palabras del documento y, opcionalmente, actualiza[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) propiedad.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `verdadero` si se calculará el número de líneas del documento. |
 
-### Observaciones
+## Observaciones
 
 Este método reconstruirá el diseño de página del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo actualizar todas las etiquetas de lista en un documento.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

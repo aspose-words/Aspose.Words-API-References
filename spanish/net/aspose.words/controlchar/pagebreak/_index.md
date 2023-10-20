@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreak
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de salto de página x000c o f. Tenga en cuenta que tiene el mismo valor queSectionBreak .
+linktitle: PageBreak
+articleTitle: PageBreak
+second_title: Aspose.Words para .NET
+description: ControlChar PageBreak campo. Carácter de salto de página x000c o f. Tenga en cuenta que tiene el mismo valor queSectionBreak  en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words/controlchar/pagebreak/
@@ -14,7 +16,7 @@ Carácter de salto de página: "\x000c" o "\f". Tenga en cuenta que tiene el mis
 public static readonly string PageBreak;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

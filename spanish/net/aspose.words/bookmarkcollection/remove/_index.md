@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkCollection método. Elimina el marcador especificado del documento.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: BookmarkCollection Remove método. Elimina el marcador especificado del documento en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Elimina el marcador especificado del documento.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | El marcador a eliminar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar marcadores de un documento.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Elimina un marcador con el nombre especificado.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | El nombre del marcador que se va a eliminar, que no distingue entre mayúsculas y minúsculas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar marcadores de un documento.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ver también
 
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

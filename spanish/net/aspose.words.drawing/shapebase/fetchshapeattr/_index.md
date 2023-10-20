@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FetchShapeAttr
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase método. Reservado para uso del sistema. IShapeAttrSource.
+linktitle: FetchShapeAttr
+articleTitle: FetchShapeAttr
+second_title: Aspose.Words para .NET
+description: ShapeBase FetchShapeAttr método. Reservado para uso del sistema. IShapeAttrSource en C#.
 type: docs
 weight: 640
 url: /es/net/aspose.words.drawing/shapebase/fetchshapeattr/
@@ -18,7 +20,5 @@ public object FetchShapeAttr(int key)
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

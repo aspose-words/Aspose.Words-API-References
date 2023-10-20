@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene el último hijo en el rango stdContent.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart LastChild propiedad. Obtiene el último hijo en el rango stdContent en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
@@ -14,7 +16,7 @@ Obtiene el último hijo en el rango stdContent.
 public Node LastChild { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si no hay un último nodo secundario, se`nulo` se devuelve.
 
@@ -22,7 +24,5 @@ Si no hay un último nodo secundario, se`nulo` se devuelve.
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

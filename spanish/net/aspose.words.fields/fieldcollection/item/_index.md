@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldCollection propiedad. Devuelve un campo en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: FieldCollection Item propiedad. Devuelve un campo en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldcollection/item/
@@ -18,7 +20,7 @@ public Field this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar campos de una colección de campos.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

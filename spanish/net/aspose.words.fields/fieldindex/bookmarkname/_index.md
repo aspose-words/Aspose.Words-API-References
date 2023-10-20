@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIndex propiedad. Obtiene o establece el nombre del marcador que marca la parte del documento utilizada para crear el índice.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words para .NET
+description: FieldIndex BookmarkName propiedad. Obtiene o establece el nombre del marcador que marca la parte del documento utilizada para crear el índice en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del marcador que marca la parte del documento util
 public string BookmarkName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo ÍNDICE y luego usar campos XE para completarlo con entradas.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Ver también
 
 * class [FieldIndex](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldindex/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

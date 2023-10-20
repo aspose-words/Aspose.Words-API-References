@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeriesCollection método. Agrega nuevoChartSeries a esta colección. Utilice este método para agregar series a cualquier tipo de gráfico de barras columnas líneas y superficies.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: ChartSeriesCollection Add método. Agrega nuevoChartSeries a esta colección. Utilice este método para agregar series a cualquier tipo de gráfico de barras columnas líneas y superficies en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 Agrega nuevo[`ChartSeries`](../../chartseries/) a esta colección. Utilice este método para agregar series a cualquier tipo de gráfico de barras, columnas, líneas y superficies.
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Recientemente añadido[`ChartSeries`](../../chartseries/) objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 Agrega nuevo[`ChartSeries`](../../chartseries/) a esta colección. Utilice este método para agregar series a cualquier tipo de gráficos de dispersión.
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Recientemente añadido[`ChartSeries`](../../chartseries/) objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 Agrega nuevo[`ChartSeries`](../../chartseries/) a esta colección. Utilice este método para agregar series a cualquier tipo de gráfico de área, radar y cotización.
 
@@ -228,7 +230,7 @@ Agrega nuevo[`ChartSeries`](../../chartseries/) a esta colección. Utilice este 
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 Agrega nuevo[`ChartSeries`](../../chartseries/) esta colección. Utilice este método para agregar series a cualquier tipo de gráfico de burbujas.
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Recientemente añadido[`ChartSeries`](../../chartseries/) objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

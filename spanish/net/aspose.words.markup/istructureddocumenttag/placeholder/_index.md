@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Placeholder
-second_title: Referencia de API de Aspose.Words para .NET
-description: IStructuredDocumentTag propiedad. Obtiene elBuildingBlockque contiene texto de marcador de posición que debe mostrarse cuando el contenido de esta ejecución de SDT está vacío el elemento XML asignado asociado está vacío como se especifica mediante elXmlMapping element o elIsShowingPlaceholderText elemento es verdadero.
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words para .NET
+description: IStructuredDocumentTag Placeholder propiedad. Obtiene elBuildingBlockque contiene texto de marcador de posición que debe mostrarse cuando el contenido de esta ejecución de SDT está vacío el elemento XML asignado asociado está vacío como se especifica mediante elXmlMapping element o elIsShowingPlaceholderText elemento es verdadero en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/istructureddocumenttag/placeholder/
@@ -14,7 +16,7 @@ Obtiene el[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)
 public BuildingBlock Placeholder { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puede ser nulo, lo que significa que el marcador de posición no es aplicable a este SDT.
 
@@ -22,7 +24,5 @@ Puede ser nulo, lo que significa que el marcador de posición no es aplicable a 
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * interface [IStructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection método. Agrega un nodo al final de la colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: NodeCollection Add método. Agrega un nodo al final de la colección en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | El[`NodeCollection`](../) Es una colección "profunda". |
 
-### Observaciones
+## Observaciones
 
 El nodo se inserta como hijo en el objeto de nodo a partir del cual se creó la colección.
 
 Si el nodo que se está insertando se creó a partir de otro documento, debe usar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. El nodo importado luego se puede insertar en el documento actual.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo preparar un nuevo nodo de sección para editarlo.
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espacio de nombres [Aspose.Words](../../nodecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

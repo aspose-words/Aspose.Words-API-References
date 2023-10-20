@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FormField clase. Representa un único campo de formulario.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FormField clase. Representa un único campo de formulario en C#.
 type: docs
 weight: 2620
 url: /es/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
 | [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | Elimina el campo completo del formulario, no solo el carácter especial del campo del formulario. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | Aplica el formato de texto especificado en[`TextInputFormat`](./textinputformat/) y almacena el valor en[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | Aplica el formato de texto especificado en[`TextInputFormat`](./textinputformat/) y almacena el valor en[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
-### Observaciones
+## Observaciones
 
 Microsoft Word proporciona los siguientes campos de formulario: casilla de verificación, entrada de texto y menú desplegable (cuadro combinado).
 
@@ -84,7 +86,7 @@ Microsoft Word proporciona los siguientes campos de formulario: casilla de verif
 
 Un campo de formulario completo en un documento de Word es una estructura compleja representada por varios nodos : inicio del campo, código de campo como FORMTEXT, datos del campo del formulario, separador de campo, resultado del campo , final del campo y un marcador. Para crear campos de formulario mediante programación en un documento de Word use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/) , [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) y [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which asegúrese de que todos los nodos del campo del formulario se creen en el orden correcto y en un estado adecuado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo formatear todo el FormField, incluido el valor del campo.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

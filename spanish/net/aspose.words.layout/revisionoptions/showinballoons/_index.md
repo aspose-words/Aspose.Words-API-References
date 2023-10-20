@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionOptions propiedad. Permite especificar si las revisiones se representan en los globos. El valor predeterminado esNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words para .NET
+description: RevisionOptions ShowInBalloons propiedad. Permite especificar si las revisiones se representan en los globos. El valor predeterminado esNone  en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ Permite especificar si las revisiones se representan en los globos. El valor pre
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que las revisiones no se representan en globos paraShowInAnnotations .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar revisiones en globos.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* espacio de nombres [Aspose.Words.Layout](../../revisionoptions/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

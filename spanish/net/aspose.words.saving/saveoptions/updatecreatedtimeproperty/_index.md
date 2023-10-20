@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateCreatedTimeProperty
-second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. Obtiene o establece un valor que determina si elCreatedTime La propiedad se actualiza antes de guardar. El valor predeterminado esFALSO 
+linktitle: UpdateCreatedTimeProperty
+articleTitle: UpdateCreatedTimeProperty
+second_title: Aspose.Words para .NET
+description: SaveOptions UpdateCreatedTimeProperty propiedad. Obtiene o establece un valor que determina si elCreatedTime La propiedad se actualiza antes de guardar. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
@@ -17,7 +19,5 @@ public bool UpdateCreatedTimeProperty { get; set; }
 ### Ver también
 
 * class [SaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../saveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

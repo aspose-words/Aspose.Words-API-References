@@ -1,7 +1,9 @@
 ---
 title: FieldFileName.IncludeFullPath
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldFileName propiedad. Obtiene o establece si se debe incluir el nombre completo de la ruta del archivo.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words para .NET
+description: FieldFileName IncludeFullPath propiedad. Obtiene o establece si se debe incluir el nombre completo de la ruta del archivo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe incluir el nombre completo de la ruta del archivo
 public bool IncludeFullPath { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar FieldOptions para anular el valor predeterminado para el campo NOMBRE DE ARCHIVO.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Ver también
 
 * class [FieldFileName](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldfilename/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

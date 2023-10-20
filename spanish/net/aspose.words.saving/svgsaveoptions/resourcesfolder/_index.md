@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: SvgSaveOptions propiedad. Especifica la carpeta física donde se guardan los recursos imágenes al exportar un documento al formato Svg. El valor predeterminado esnulo .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words para .NET
+description: SvgSaveOptions ResourcesFolder propiedad. Especifica la carpeta física donde se guardan los recursos imágenes al exportar un documento al formato Svg. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Especifica la carpeta física donde se guardan los recursos (imágenes) al expor
 public string ResourcesFolder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tiene efecto sólo si[`ExportEmbeddedImages`](../exportembeddedimages/) la propiedad es`FALSO`.
 
@@ -24,7 +26,7 @@ Si guarda un documento en un archivo y proporciona un nombre de archivo, Aspose.
 
 Si guarda un documento en una secuencia, Aspose.Words no tiene una carpeta donde guardar las imágenes, pero aún necesita guardar las imágenes en algún lugar. En este caso, debe especificar una carpeta accesible en el`ResourcesFolder` propiedad
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular e imprimir los URI de los recursos vinculados creados al convertir un documento a .svg.
 
@@ -67,7 +69,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ver también
 
 * class [SvgSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../svgsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

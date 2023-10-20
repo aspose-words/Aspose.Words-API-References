@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator propiedad. Devuelve el rectángulo delimitador de la entidad actual en relación con la esquina superior izquierda de la página en puntos.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator Rectangle propiedad. Devuelve el rectángulo delimitador de la entidad actual en relación con la esquina superior izquierda de la página en puntos en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ Devuelve el rectángulo delimitador de la entidad actual en relación con la esq
 public RectangleF Rectangle { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

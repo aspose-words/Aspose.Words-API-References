@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Tables.TableAlignment enumeración. Especifica la alineación de una tabla en línea.
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Tables.TableAlignment enumeración. Especifica la alineación de una tabla en línea en C#.
 type: docs
 weight: 6350
 url: /es/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | La mesa está centrada. |
 | Right | `2` | La tabla está alineada a la derecha. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un borde de contorno a una tabla.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * espacio de nombres [Aspose.Words.Tables](../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.Comments
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Obtiene el comentario del propósito de la firma.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words para .NET
+description: DigitalSignature Comments propiedad. Obtiene el comentario del propósito de la firma en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -14,7 +16,7 @@ Obtiene el comentario del propósito de la firma.
 public string Comments { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo validar y mostrar información sobre cada firma en un documento.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ver también
 
 * class [DigitalSignature](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

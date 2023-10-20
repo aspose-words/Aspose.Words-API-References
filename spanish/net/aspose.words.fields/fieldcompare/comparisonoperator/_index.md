@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.ComparisonOperator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldCompare propiedad. Obtiene o establece el operador de comparación.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words para .NET
+description: FieldCompare ComparisonOperator propiedad. Obtiene o establece el operador de comparación en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -14,7 +16,7 @@ Obtiene o establece el operador de comparación.
 public string ComparisonOperator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo comparar expresiones usando un campo COMPARE.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Ver también
 
 * class [FieldCompare](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcompare/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

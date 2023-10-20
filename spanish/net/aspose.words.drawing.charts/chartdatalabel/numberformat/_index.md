@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Devuelve el formato numérico del elemento principal.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words para .NET
+description: ChartDataLabel NumberFormat propiedad. Devuelve el formato numérico del elemento principal en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ Devuelve el formato numérico del elemento principal.
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

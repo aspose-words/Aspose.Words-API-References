@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Determina si se utilizará una ruta de texto recta en lugar de la ruta de forma.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words para .NET
+description: TextPath XScale propiedad. Determina si se utilizará una ruta de texto recta en lugar de la ruta de forma en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ Determina si se utilizará una ruta de texto recta en lugar de la ruta de forma.
 public bool XScale { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
 Si`verdadero`el texto recorre un camino de izquierda a derecha a lo largo del valor x de el límite inferior de la forma.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con WordArt.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

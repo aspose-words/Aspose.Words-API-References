@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece una marca que indica que Microsoft Word eliminará toda la información del usuario de los comentarios revisiones y propiedades del documento al guardar el documento.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words para .NET
+description: Document RemovePersonalInformation propiedad. Obtiene o establece una marca que indica que Microsoft Word eliminará toda la información del usuario de los comentarios revisiones y propiedades del documento al guardar el documento en C#.
 type: docs
 weight: 340
 url: /es/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ Obtiene o establece una marca que indica que Microsoft Word eliminará toda la i
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar la eliminación de información personal durante un guardado manual.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldPrivate.FieldPrivate
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPrivate constructor. Constructor predeterminado
+title: FieldPrivate
+linktitle: FieldPrivate
+articleTitle: FieldPrivate
+second_title: Aspose.Words para .NET
+description: FieldPrivate constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldprivate/fieldprivate/
@@ -17,7 +19,5 @@ public FieldPrivate()
 ### Ver también
 
 * class [FieldPrivate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldprivate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

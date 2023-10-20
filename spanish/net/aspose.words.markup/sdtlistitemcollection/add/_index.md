@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItemCollection método. Agrega un elemento a esta colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: SdtListItemCollection Add método. Agrega un elemento a esta colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ Agrega un elemento a esta colección.
 public void Add(SdtListItem item)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

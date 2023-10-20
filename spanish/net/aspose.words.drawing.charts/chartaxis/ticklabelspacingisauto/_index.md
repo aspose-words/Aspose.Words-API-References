@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacingIsAuto
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si se debe utilizar el intervalo automático de etiquetas de marca de dibujo.
+linktitle: TickLabelSpacingIsAuto
+articleTitle: TickLabelSpacingIsAuto
+second_title: Aspose.Words para .NET
+description: ChartAxis TickLabelSpacingIsAuto propiedad. Obtiene o establece un indicador que indica si se debe utilizar el intervalo automático de etiquetas de marca de dibujo en C#.
 type: docs
 weight: 260
 url: /es/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
@@ -14,13 +16,13 @@ Obtiene o establece un indicador que indica si se debe utilizar el intervalo aut
 public bool TickLabelSpacingIsAuto { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero`.
 
 La propiedad tiene efecto para la categoría de texto y los ejes de serie. No es compatible con MS Office 2016 nuevos gráficos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.LayoutTableRowsApart
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Permitir que las filas de la tabla ajusten objetos en línea de forma independiente.
+linktitle: LayoutTableRowsApart
+articleTitle: LayoutTableRowsApart
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions LayoutTableRowsApart propiedad. Permitir que las filas de la tabla ajusten objetos en línea de forma independiente en C#.
 type: docs
 weight: 300
 url: /es/net/aspose.words.settings/compatibilityoptions/layouttablerowsapart/
@@ -17,7 +19,5 @@ public bool LayoutTableRowsApart { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

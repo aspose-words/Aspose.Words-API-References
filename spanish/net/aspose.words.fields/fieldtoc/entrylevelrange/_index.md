@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc propiedad. Obtiene o establece un rango de niveles de las entradas de la tabla de contenido que se incluirán.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words para .NET
+description: FieldToc EntryLevelRange propiedad. Obtiene o establece un rango de niveles de las entradas de la tabla de contenido que se incluirán en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ Obtiene o establece un rango de niveles de las entradas de la tabla de contenido
 public string EntryLevelRange { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo TOC y filtrar qué campos TC terminan como entradas.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

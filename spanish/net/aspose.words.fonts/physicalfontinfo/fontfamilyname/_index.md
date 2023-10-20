@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Referencia de API de Aspose.Words para .NET
-description: PhysicalFontInfo propiedad. Apellido de la fuente.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words para .NET
+description: PhysicalFontInfo FontFamilyName propiedad. Apellido de la fuente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ Apellido de la fuente.
 public string FontFamilyName { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo enumerar las fuentes disponibles.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Ver también
 
 * class [PhysicalFontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../physicalfontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

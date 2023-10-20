@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Referencia de API de Aspose.Words para .NET
-description: PhoneticGuide propiedad. Obtiene el texto rubí de la guía fonética.
+linktitle: RubyText
+articleTitle: RubyText
+second_title: Aspose.Words para .NET
+description: PhoneticGuide RubyText propiedad. Obtiene el texto rubí de la guía fonética en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ Obtiene el texto rubí de la guía fonética.
 public string RubyText { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener propiedades de la guía fonética.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Ver también
 
 * class [PhoneticGuide](../)
-* espacio de nombres [Aspose.Words](../../phoneticguide/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

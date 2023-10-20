@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginBottom
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Especifica el margen inferior interior en puntos para una forma.
+linktitle: InternalMarginBottom
+articleTitle: InternalMarginBottom
+second_title: Aspose.Words para .NET
+description: TextBox InternalMarginBottom propiedad. Especifica el margen inferior interior en puntos para una forma en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/textbox/internalmarginbottom/
@@ -14,11 +16,11 @@ Especifica el margen inferior interior en puntos para una forma.
 public double InternalMarginBottom { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 1/20 de pulgada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer márgenes internos para un cuadro de texto.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Ver también
 
 * class [TextBox](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textbox/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

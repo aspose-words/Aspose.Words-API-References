@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene o establece el grado de opacidad del relleno especificado como un valor entre 00 transparente y 10 opaco.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words para .NET
+description: Fill Opacity propiedad. Obtiene o establece el grado de opacidad del relleno especificado como un valor entre 00 transparente y 10 opaco en C#.
 type: docs
-weight: 150
+weight: 140
 url: /es/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ Obtiene o establece el grado de opacidad del relleno especificado como un valor 
 public double Opacity { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad es lo opuesto a la propiedad.[`Transparency`](../transparency/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con un color sólido.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

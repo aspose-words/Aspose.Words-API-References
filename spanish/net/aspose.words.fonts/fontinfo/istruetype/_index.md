@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. Indica que esta fuente es una fuente TrueType u OpenType en lugar de una fuente rasterizada o vectorial. El valor predeterminado esverdadero .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words para .NET
+description: FontInfo IsTrueType propiedad. Indica que esta fuente es una fuente TrueType u OpenType en lugar de una fuente rasterizada o vectorial. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ Indica que esta fuente es una fuente TrueType u OpenType en lugar de una fuente 
 public bool IsTrueType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Ver también
 
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

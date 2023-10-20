@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el valor en puntos que representa la sangría derecha del párrafo.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words para .NET
+description: ParagraphFormat RightIndent propiedad. Obtiene o establece el valor en puntos que representa la sangría derecha del párrafo en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ Obtiene o establece el valor (en puntos) que representa la sangría derecha del 
 public double RightIndent { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el formato de párrafo para crear texto descentrado.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

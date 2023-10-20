@@ -1,7 +1,9 @@
 ---
-title: Class GradientStopCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.GradientStopCollection clase. Contiene una colección deGradientStop objetos.
+title: GradientStopCollection Class
+linktitle: GradientStopCollection
+articleTitle: GradientStopCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.GradientStopCollection clase. Contiene una colección deGradientStop objetos en C#.
 type: docs
 weight: 990
 url: /es/net/aspose.words.drawing/gradientstopcollection/
@@ -27,17 +29,17 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | Agrega un especificado[`GradientStop`](../gradientstop/) a un gradiente. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | Agrega un especificado[`GradientStop`](../gradientstop/) a un gradiente. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Devuelve un enumerador que recorre en iteración la colección. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Inserta un[`GradientStop`](../gradientstop/) a la colección en un índice especificado. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Elimina un especificado[`GradientStop`](../gradientstop/) de la colección. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Elimina un[`GradientStop`](../gradientstop/) de la colección en un índice especificado. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | Inserta un[`GradientStop`](../gradientstop/) a la colección en un índice especificado. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | Elimina un especificado[`GradientStop`](../gradientstop/) de la colección. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | Elimina un[`GradientStop`](../gradientstop/) de la colección en un índice especificado. |
 
-### Observaciones
+## Observaciones
 
 No crea instancias de esta clase directamente. Utilice el[`GradientStops`](../fill/gradientstops/)propiedad para acceder a paradas de degradado de objetos de relleno.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 * class [GradientStop](../gradientstop/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

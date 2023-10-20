@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup método. Restablece la configuración de página al tamaño márgenes y orientación predeterminados del papel.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words para .NET
+description: PageSetup ClearFormatting método. Restablece la configuración de página al tamaño márgenes y orientación predeterminados del papel en C#.
 type: docs
 weight: 460
 url: /es/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ Restablece la configuración de página al tamaño, márgenes y orientación pre
 public void ClearFormatting()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

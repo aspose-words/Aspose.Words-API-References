@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece la configuración de fuente del documento.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words para .NET
+description: Document FontSettings propiedad. Obtiene o establece la configuración de fuente del documento en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ Obtiene o establece la configuración de fuente del documento.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad permite especificar la configuración de fuente por documento. Si se establece en`nulo` , configuración de fuente estática predeterminada [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) se utilizará.
 
 El valor predeterminado es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer reglas de sustitución de fuentes.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

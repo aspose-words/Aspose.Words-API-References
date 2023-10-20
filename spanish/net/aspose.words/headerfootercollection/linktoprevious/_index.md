@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooterCollection método. Vincula o desvincula todos los encabezados y pies de página a los encabezados y pies de página correspondientes en la sección anterior.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words para .NET
+description: HeaderFooterCollection LinkToPrevious método. Vincula o desvincula todos los encabezados y pies de página a los encabezados y pies de página correspondientes en la sección anterior en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Vincula o desvincula todos los encabezados y pies de página a los encabezados y pies de página correspondientes en la sección anterior.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `verdadero` para vincular los encabezados y pies de página a la sección anterior; `FALSO` para desvincularlos. |
 
-### Observaciones
+## Observaciones
 
 Si alguno de los encabezados o pies de página no existe, los crea automáticamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular encabezados y pies de página entre secciones.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Ver también
 
 * class [HeaderFooterCollection](../)
-* espacio de nombres [Aspose.Words](../../headerfootercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Vincula o desvincula el encabezado o pie de página especificado al encabezado o pie de página correspondiente en la sección anterior.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) value que especifica el encabezado o pie de página para vincular/desvincular. |
 | isLinkToPrevious | Boolean | `verdadero`para vincular el encabezado o pie de página a la sección anterior; `FALSO` para desvincularse. |
 
-### Observaciones
+## Observaciones
 
 Si el encabezado o pie de página del tipo especificado no existe, lo crea automáticamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular encabezados y pies de página entre secciones.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* espacio de nombres [Aspose.Words](../../headerfootercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

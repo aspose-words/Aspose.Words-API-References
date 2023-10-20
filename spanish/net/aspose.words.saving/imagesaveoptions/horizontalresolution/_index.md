@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.HorizontalResolution
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece la resolución horizontal de las imágenes generadas en puntos por pulgada.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions HorizontalResolution propiedad. Obtiene o establece la resolución horizontal de las imágenes generadas en puntos por pulgada en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
@@ -14,13 +16,13 @@ Obtiene o establece la resolución horizontal de las imágenes generadas, en pun
 public float HorizontalResolution { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad tiene efecto solo cuando se guarda en formatos de imagen rasterizada y afecta el tamaño de salida en píxeles.
 
 El valor predeterminado es 96.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar la imagen mientras Aspose.Words convierte un documento en uno.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Ver también
 
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

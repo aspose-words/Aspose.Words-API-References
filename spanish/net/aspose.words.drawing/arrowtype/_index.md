@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.ArrowType enumeración. Especifica el tipo de flecha al final de una línea.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.ArrowType enumeración. Especifica el tipo de flecha al final de una línea en C#.
 type: docs
 weight: 490
 url: /es/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | La flecha es una flecha abierta. |
 | Default | `0` | Igual queNone . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

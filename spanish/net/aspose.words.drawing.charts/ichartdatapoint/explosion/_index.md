@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Referencia de API de Aspose.Words para .NET
-description: IChartDataPoint propiedad. Especifica la cantidad que se moverá el punto de datos desde el centro del pastel. Puede ser negativo negativo significa que la propiedad no está establecida y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words para .NET
+description: IChartDataPoint Explosion propiedad. Especifica la cantidad que se moverá el punto de datos desde el centro del pastel. Puede ser negativo negativo significa que la propiedad no está establecida y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ Especifica la cantidad que se moverá el punto de datos desde el centro del past
 public int Explosion { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alejar las porciones de un gráfico circular del centro.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Ver también
 
 * interface [IChartDataPoint](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

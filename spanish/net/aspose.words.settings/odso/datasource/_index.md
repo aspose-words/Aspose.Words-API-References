@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Odso propiedad. Especifica la ubicación de la fuente de datos externa que se conectará a un documento para realizar la combinación de correspondencia. El valor predeterminado es una cadena vacía.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words para .NET
+description: Odso DataSource propiedad. Especifica la ubicación de la fuente de datos externa que se conectará a un documento para realizar la combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ Especifica la ubicación de la fuente de datos externa que se conectará a un do
 public string DataSource { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ver también
 
 * class [Odso](../)
-* espacio de nombres [Aspose.Words.Settings](../../odso/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

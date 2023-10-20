@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertHyperlink
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef propiedad. Obtiene o establece si se debe crear un hipervínculo al párrafo marcado.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words para .NET
+description: FieldRef InsertHyperlink propiedad. Obtiene o establece si se debe crear un hipervínculo al párrafo marcado en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldref/inserthyperlink/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe crear un hipervínculo al párrafo marcado.
 public bool InsertHyperlink { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos REF para hacer referencia a marcadores.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

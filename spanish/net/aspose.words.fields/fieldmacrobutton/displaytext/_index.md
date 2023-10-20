@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMacroButton propiedad. Obtiene o establece el texto para que aparezca como el botón seleccionado para ejecutar la macro o el comando.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words para .NET
+description: FieldMacroButton DisplayText propiedad. Obtiene o establece el texto para que aparezca como el botón seleccionado para ejecutar la macro o el comando en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ Obtiene o establece el texto para que aparezca como el "botón" seleccionado par
 public string DisplayText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos MACROBUTTON para permitirnos ejecutar las macros de un documento haciendo clic.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Ver también
 
 * class [FieldMacroButton](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmacrobutton/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

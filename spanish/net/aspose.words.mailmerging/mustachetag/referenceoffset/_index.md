@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Referencia de API de Aspose.Words para .NET
-description: MustacheTag propiedad. Obtiene la posición inicial de base cero de la etiqueta desde el inicio delReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words para .NET
+description: MustacheTag ReferenceOffset propiedad. Obtiene la posición inicial de base cero de la etiqueta desde el inicio delReferenceRun  en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ Obtiene la posición inicial de base cero de la etiqueta desde el inicio del[`Re
 public int ReferenceOffset { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las etiquetas de bigote.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Ver también
 
 * class [MustacheTag](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mustachetag/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

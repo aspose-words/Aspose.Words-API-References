@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AlignTablesRowByRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Alinear filas de tabla de forma independiente.
+linktitle: AlignTablesRowByRow
+articleTitle: AlignTablesRowByRow
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions AlignTablesRowByRow propiedad. Alinear filas de tabla de forma independiente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/
@@ -17,7 +19,5 @@ public bool AlignTablesRowByRow { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

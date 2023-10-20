@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Cuando se establece enverdadero  esta propiedad prohibirá a un usuario editar el contenido de esta etiqueta de documento estructurado.
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart LockContents propiedad. Cuando se establece enverdadero  esta propiedad prohibirá a un usuario editar el contenido de esta etiqueta de documento estructurado en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
@@ -14,7 +16,7 @@ Cuando se establece en`verdadero` , esta propiedad prohibirá a un usuario edita
 public bool LockContents { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ver también
 
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

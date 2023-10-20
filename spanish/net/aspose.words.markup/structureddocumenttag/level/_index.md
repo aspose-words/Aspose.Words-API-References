@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Obtiene el nivel en el que este TED ocurre en el árbol del documento.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Level propiedad. Obtiene el nivel en el que esteTED ocurre en el árbol del documento en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-Obtiene el nivel en el que este **TED** ocurre en el árbol del documento.
+Obtiene el nivel en el que este**TED** ocurre en el árbol del documento.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado en un cuadro de texto sin formato y modificar su apariencia.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

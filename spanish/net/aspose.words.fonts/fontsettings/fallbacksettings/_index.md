@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings propiedad. Configuraciones relacionadas con el mecanismo de reserva de fuentes.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words para .NET
+description: FontSettings FallbackSettings propiedad. Configuraciones relacionadas con el mecanismo de reserva de fuentes en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ Configuraciones relacionadas con el mecanismo de reserva de fuentes.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo distribuir fuentes alternativas en rangos de códigos de caracteres Unicode.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

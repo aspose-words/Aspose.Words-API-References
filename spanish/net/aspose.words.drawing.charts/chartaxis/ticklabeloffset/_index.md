@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece la distancia de las etiquetas desde el eje.
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: Aspose.Words para .NET
+description: ChartAxis TickLabelOffset propiedad. Obtiene o establece la distancia de las etiquetas desde el eje en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ Obtiene o establece la distancia de las etiquetas desde el eje.
 public int TickLabelOffset { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad representa un porcentaje del desplazamiento de etiqueta predeterminado.
 
@@ -22,7 +24,7 @@ El rango válido es del 0 al 1000 por ciento inclusive. El valor predeterminado 
 
 La propiedad tiene efecto sólo para los ejes de categoría. No es compatible con los nuevos gráficos de MS Office 2016.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

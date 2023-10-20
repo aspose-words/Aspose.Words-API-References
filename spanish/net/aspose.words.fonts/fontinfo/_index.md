@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontInfo clase. Especifica información sobre una fuente utilizada en el documento.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontInfo clase. Especifica información sobre una fuente utilizada en el documento en C#.
 type: docs
 weight: 2920
 url: /es/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Obtiene un archivo de fuente incrustado específico. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Obtiene un archivo de fuente incrustado en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Obtiene un archivo de fuente incrustado específico. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Obtiene un archivo de fuente incrustado en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType. |
 
-### Observaciones
+## Observaciones
 
 No crea instancias de esta clase directamente. Utilice el[`FontInfos`](../../aspose.words/documentbase/fontinfos/) Propiedad para acceder a la colección de fuentes definidas en un documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ViewType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.ViewType enumeración. Valores posibles para el modo de visualización en Microsoft Word.
+title: ViewType Enum
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.ViewType enumeración. Valores posibles para el modo de visualización en Microsoft Word en C#.
 type: docs
 weight: 5960
 url: /es/net/aspose.words.settings/viewtype/
@@ -25,7 +27,7 @@ public enum ViewType
 | Normal | `4` | El documento se presentará en una vista optimizada para delinear o crear documentos largos. |
 | Web | `5` | El documento se presentará en una vista que imite la forma en que se mostraría este documento en una página web. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un factor de zoom personalizado, que las versiones anteriores de Microsoft Word se aplicarán a un documento al cargarlo.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 * property [ViewType](../viewoptions/viewtype/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

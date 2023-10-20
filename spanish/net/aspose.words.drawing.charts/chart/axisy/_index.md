@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisY
-second_title: Referencia de API de Aspose.Words para .NET
-description: Chart propiedad. Proporciona acceso a las propiedades del eje Y del gráfico.
+linktitle: AxisY
+articleTitle: AxisY
+second_title: Aspose.Words para .NET
+description: Chart AxisY propiedad. Proporciona acceso a las propiedades del eje Y del gráfico en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chart/axisy/
@@ -14,7 +16,7 @@ Proporciona acceso a las propiedades del eje Y del gráfico.
 public ChartAxis AxisY { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chart/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

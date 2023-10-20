@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSplitCriteria
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.DocumentSplitCriteria enumeración. Especifica cómo se divide el documento en partes al guardarlo enHtml  Epub oAzw3 formato.
+title: DocumentSplitCriteria Enum
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.DocumentSplitCriteria enumeración. Especifica cómo se divide el documento en partes al guardarlo enHtml  Epub oAzw3 formato en C#.
 type: docs
 weight: 4960
 url: /es/net/aspose.words.saving/documentsplitcriteria/
@@ -23,15 +25,15 @@ public enum DocumentSplitCriteria
 | PageBreak | `1` | El documento se divide en partes en saltos de página explícitos. Un salto de página puede especificarse mediante un[`PageBreak`](../../aspose.words/controlchar/pagebreak/) carácter, un salto de sección que especifica el inicio de una nueva sección en una nueva página, o un párrafo que tiene su[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) propiedad establecida en`verdadero` . |
 | ColumnBreak | `2` | El documento se divide en partes en los saltos de columna. Un salto de columna se puede especificar mediante un[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/) carácter o un salto de sección que especifica el inicio de una nueva sección en una nueva columna. |
 | SectionBreak | `4` | El documento se divide en partes en un salto de sección de cualquier tipo. |
-| HeadingParagraph | `8` | El documento se divide en partes en un párrafo formateado usando un estilo de encabezado **Título 1** , **Título 2** etc. Usar junto con[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) para especificar los niveles de encabezado (de 1 al nivel especificado) en los que dividir. |
+| HeadingParagraph | `8` | El documento se divide en partes en un párrafo formateado usando un estilo de encabezado**Título 1** ,**Título 2** etc. Usar junto con[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) para especificar los niveles de encabezado (de 1 al nivel especificado) en los que dividir. |
 
-### Observaciones
+## Observaciones
 
 `DocumentSplitCriteria`es un conjunto de banderas que se pueden combinar. Por ejemplo, puede dividir document en saltos de página y párrafos de encabezado en la misma operación de exportación.
 
-Diferentes criterios pueden superponerse parcialmente. Por ejemplo, **Título 1** el estilo se da con frecuencia [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) propiedad por lo que se ajusta a dos criterios:PageBreak y HeadingParagraph. Algunos saltos de sección pueden provocar saltos de página, etc. En casos típicos, especificar solo un indicador es la opción más práctica.
+Diferentes criterios pueden superponerse parcialmente. Por ejemplo,**Título 1** el estilo se da con frecuencia [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) propiedad por lo que se ajusta a dos criterios:PageBreak y HeadingParagraph. Algunos saltos de sección pueden provocar saltos de página, etc. En casos típicos, especificar solo un indicador es la opción más práctica.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una codificación específica al guardar un documento en .epub.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

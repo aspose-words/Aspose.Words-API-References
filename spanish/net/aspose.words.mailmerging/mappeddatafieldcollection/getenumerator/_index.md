@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: MappedDataFieldCollection método. Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: MappedDataFieldCollection GetEnumerator método. Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar s
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ver también
 
 * class [MappedDataFieldCollection](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

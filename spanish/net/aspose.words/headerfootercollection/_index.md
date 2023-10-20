@@ -1,7 +1,9 @@
 ---
-title: Class HeaderFooterCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.HeaderFooterCollection clase. Proporciona acceso escrito aHeaderFooter nodos de unSection .
+title: HeaderFooterCollection Class
+linktitle: HeaderFooterCollection
+articleTitle: HeaderFooterCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.HeaderFooterCollection clase. Proporciona acceso escrito aHeaderFooter nodos de unSection  en C#.
 type: docs
 weight: 3110
 url: /es/net/aspose.words/headerfootercollection/
@@ -27,19 +29,19 @@ public class HeaderFooterCollection : NodeCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Agrega un nodo al final de la colección. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Agrega un nodo al final de la colección. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Elimina todos los nodos de esta colección y del documento. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determina si un nodo está en la colección. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determina si un nodo está en la colección. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Devuelve el índice de base cero del nodo especificado. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Vincula o desvincula todos los encabezados y pies de página a los encabezados y pies de página correspondientes en la sección anterior. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Vincula o desvincula el encabezado o pie de página especificado al encabezado o pie de página correspondiente en la sección anterior. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Devuelve el índice de base cero del nodo especificado. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserta un nodo en la colección en el índice especificado. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Vincula o desvincula todos los encabezados y pies de página a los encabezados y pies de página correspondientes en la sección anterior. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Vincula o desvincula el encabezado o pie de página especificado al encabezado o pie de página correspondiente en la sección anterior. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Elimina el nodo de la colección y del documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Elimina el nodo en el índice especificado de la colección y del documento. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Copia todo`Encabezado y pie de página` s de la colección a una nueva gama de`Encabezado y pie de página` s. (2 methods) |
 
-### Observaciones
+## Observaciones
 
 Puede haber como máximo uno[`HeaderFooter`](../headerfooter/)
 
@@ -47,7 +49,7 @@ de cada[`HeaderFooterType`](../headerfootertype/) por [`Section`](../section/) .
 
 [`HeaderFooter`](../headerfooter/) Los objetos pueden aparecer en cualquier orden en la colección.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todos los pies de página de un documento.
 
@@ -113,5 +115,3 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [NodeCollection](../nodecollection/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

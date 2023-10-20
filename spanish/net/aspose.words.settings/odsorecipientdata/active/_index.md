@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientData propiedad. Especifica si el registro de la fuente de datos se importará a un documento cuando se realice la combinación de correspondencia. El valor predeterminado esverdadero .
+linktitle: Active
+articleTitle: Active
+second_title: Aspose.Words para .NET
+description: OdsoRecipientData Active propiedad. Especifica si el registro de la fuente de datos se importará a un documento cuando se realice la combinación de correspondencia. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ Especifica si el registro de la fuente de datos se importará a un documento cua
 public bool Active { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSavingArgs propiedad. Obtiene elShapeBase objeto correspondiente a la forma o forma de grupo que está a punto de guardarse.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words para .NET
+description: ImageSavingArgs CurrentShape propiedad. Obtiene elShapeBase objeto correspondiente a la forma o forma de grupo que está a punto de guardarse en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ Obtiene el[`ShapeBase`](../../../aspose.words.drawing/shapebase/) objeto corresp
 public ShapeBase CurrentShape { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) se puede disparar mientras se guarda una forma o una forma de grupo. Por eso la propiedad tiene[`ShapeBase`](../../../aspose.words.drawing/shapebase/) tipo. Puedes comprobar si es una forma de grupo comparando [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) conGroup o transfiriéndolo a una de las clases derivadas: [`Shape`](../../../aspose.words.drawing/shape/) o[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words utiliza el nombre del archivo del documento y un número único par
 
 Algunas imágenes del documento pueden no estar disponibles. Para verificar la disponibilidad de la imagen use el[`IsImageAvailable`](../isimageavailable/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión HTML.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

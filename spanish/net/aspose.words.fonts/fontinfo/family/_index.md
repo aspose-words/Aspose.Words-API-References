@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. Obtiene o establece la familia de fuentes a la que pertenece esta fuente.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words para .NET
+description: FontInfo Family propiedad. Obtiene o establece la familia de fuentes a la que pertenece esta fuente en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ Obtiene o establece la familia de fuentes a la que pertenece esta fuente.
 public FontFamily Family { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder e imprimir detalles de cada fuente en un documento.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

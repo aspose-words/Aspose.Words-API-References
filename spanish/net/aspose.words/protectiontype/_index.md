@@ -1,7 +1,9 @@
 ---
-title: Enum ProtectionType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.ProtectionType enumeración. Tipo de protección para un documento.
+title: ProtectionType Enum
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.ProtectionType enumeración. Tipo de protección para un documento en C#.
 type: docs
 weight: 4510
 url: /es/net/aspose.words/protectiontype/
@@ -24,7 +26,7 @@ public enum ProtectionType
 | ReadOnly | `3` | No se permiten cambios en el documento. Disponible desde Microsoft Word 2003. |
 | NoProtection | `-1` | El documento no está protegido. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo desactivar la protección de una sección.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

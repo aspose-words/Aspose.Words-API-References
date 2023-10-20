@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: MappedDataFieldCollection propiedad. Obtiene o establece el nombre del campo en el origen de datos asociado con el campo de combinación de correspondencia especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: MappedDataFieldCollection Item propiedad. Obtiene o establece el nombre del campo en el origen de datos asociado con el campo de combinación de correspondencia especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del campo en el origen de datos asociado con el ca
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ver también
 
 * class [MappedDataFieldCollection](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

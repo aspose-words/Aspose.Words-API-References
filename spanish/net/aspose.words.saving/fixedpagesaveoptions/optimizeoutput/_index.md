@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Referencia de API de Aspose.Words para .NET
-description: FixedPageSaveOptions propiedad. El indicador indica si es necesario optimizar la salida. Si este indicador se establece en lienzos anidados redundantes y se eliminan los lienzos vacíos también se concatenan los glifos vecinos con el mismo formato. Nota La precisión de la visualización del contenido puede verse afectada si esta propiedad está establecida enverdadero . El valor predeterminado esFALSO .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words para .NET
+description: FixedPageSaveOptions OptimizeOutput propiedad. El indicador indica si es necesario optimizar la salida. Si este indicador se establece en lienzos anidados redundantes y se eliminan los lienzos vacíos también se concatenan los glifos vecinos con el mismo formato. Nota La precisión de la visualización del contenido puede verse afectada si esta propiedad está establecida enverdadero . El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ El indicador indica si es necesario optimizar la salida. Si este indicador se es
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo optimizar los objetos del documento mientras se guarda en XPS.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Ver también
 
 * class [FixedPageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

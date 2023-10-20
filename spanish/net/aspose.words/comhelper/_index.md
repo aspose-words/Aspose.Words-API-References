@@ -1,7 +1,9 @@
 ---
-title: Class ComHelper
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.ComHelper clase. Proporciona métodos para que los clientes COM carguen un documento en Aspose.Words.
+title: ComHelper Class
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: Aspose.Words para .NET
+description: Aspose.Words.ComHelper clase. Proporciona métodos para que los clientes COM carguen un documento en Aspose.Words en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words/comhelper/
@@ -24,17 +26,17 @@ public class ComHelper
 
 | Nombre | Descripción |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open/#open)(Stream) | Permite cargar una aplicación COM[`Document`](../document/) de una secuencia. |
-| [Open](../../aspose.words/comhelper/open/#open_1)(string) | Permite que una aplicación COM cargue un[`Document`](../document/) desde un archivo. |
-| [OpenIStream](../../aspose.words/comhelper/openistream/)(IStream) | Permite que una aplicación COM cargue un[`Document`](../document/) desde un objeto IStream. |
+| [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Permite cargar una aplicación COM[`Document`](../document/) de una secuencia. |
+| [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | Permite que una aplicación COM cargue un[`Document`](../document/) desde un archivo. |
+| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Permite que una aplicación COM cargue un[`Document`](../document/) desde un objeto IStream. |
 
-### Observaciones
+## Observaciones
 
 Utilizar el`ComHelper` clase para cargar un documento desde un archivo o secuencia en un [`Document`](../document/) objeto en una aplicación COM.
 
 El[`Document`](../document/) La clase proporciona un constructor predeterminado para crear un nuevo documento y también proporciona constructores sobrecargados para cargar un documento desde un archivo o secuencia. Si está utilizando Aspose.Words desde una aplicación .NET, puede utilizar todos los[`Document`](../document/) constructores directamente, pero si está utilizando Aspose.Words desde una aplicación COM, solo el valor predeterminado[`Document`](../document/) constructor está disponible.
 
-### Ejemplos
+## Ejemplos
 
 ```csharp
 [VBScript]
@@ -70,5 +72,3 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

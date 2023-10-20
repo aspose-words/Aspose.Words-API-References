@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Mueve el cursor a un marcador.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words para .NET
+description: DocumentBuilder MoveToBookmark método. Mueve el cursor a un marcador en C#.
 type: docs
-weight: 500
+weight: 490
 url: /es/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Mueve el cursor a un marcador.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `verdadero` si se encontró el marcador;`FALSO` de lo contrario.
 
-### Observaciones
+## Observaciones
 
 Mueve el cursor a una posición justo después del inicio del marcador con el nombre especificado .
 
@@ -32,7 +34,7 @@ La inserción de texto nuevo no reemplaza el texto existente del marcador.
 
 Tenga en cuenta que algunos marcadores en el documento están asignados a campos de formulario. Moverse a dicho marcador e insertar texto allí inserta el texto en el código de campo de formulario . Aunque esto no invalidará el campo del formulario, el texto insertado no será visible porque pasa a formar parte del código de campo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mover el cursor de un generador de documentos a diferentes nodos de un documento.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Mueve el cursor a un marcador con mayor precisión.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `verdadero` si se encontró el marcador;`FALSO` de lo contrario.
 
-### Observaciones
+## Observaciones
 
 Mueve el cursor a una posición antes o después del inicio o fin del marcador.
 
@@ -117,7 +119,7 @@ Si la posición deseada no está en el nivel en línea, pasa al siguiente párra
 
 La comparación no distingue entre mayúsculas y minúsculas. Si no se encontró el marcador,`FALSO` is devuelto y el cursor no se mueve.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mover el cursor del punto de inserción de un nodo del generador de documentos a un marcador.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

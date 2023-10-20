@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Properties
-second_title: Referencia de API de Aspose.Words para .NET
-description: SmartTag propiedad. Una colección de propiedades de etiquetas inteligentes.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words para .NET
+description: SmartTag Properties propiedad. Una colección de propiedades de etiquetas inteligentes en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/smarttag/properties/
@@ -14,11 +16,11 @@ Una colección de propiedades de etiquetas inteligentes.
 public CustomXmlPropertyCollection Properties { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear etiquetas inteligentes.
 
@@ -120,7 +122,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * class [SmartTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../smarttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

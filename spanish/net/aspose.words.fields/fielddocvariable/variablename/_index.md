@@ -1,7 +1,9 @@
 ---
 title: FieldDocVariable.VariableName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDocVariable propiedad. Obtiene o establece el nombre de la variable del documento que se va a recuperar.
+linktitle: VariableName
+articleTitle: VariableName
+second_title: Aspose.Words para .NET
+description: FieldDocVariable VariableName propiedad. Obtiene o establece el nombre de la variable del documento que se va a recuperar en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielddocvariable/variablename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre de la variable del documento que se va a recuperar
 public string VariableName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos DOCPROPERTY para mostrar propiedades y variables del documento.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
 ### Ver también
 
 * class [FieldDocVariable](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddocvariable/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

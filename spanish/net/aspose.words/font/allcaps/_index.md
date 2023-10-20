@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de letras mayúsculas.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words para .NET
+description: Font AllCaps propiedad. Verdadero si la fuente tiene el formato de letras mayúsculas en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de letras mayúsculas.
 public bool AllCaps { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo formatear una ejecución para mostrar su contenido en mayúsculas.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

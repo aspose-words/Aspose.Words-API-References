@@ -1,12 +1,14 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFontSource constructor. Director.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words para .NET
+description: FileFontSource constructor. Director en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
 Director.
 
@@ -18,7 +20,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | Ruta al archivo de fuente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un archivo de fuente en el sistema de archivos local como fuente de fuente.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Ver también
 
 * class [FileFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../filefontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
 Director.
 
@@ -55,7 +57,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | Ruta al archivo de fuente. |
 | priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un archivo de fuente en el sistema de archivos local como fuente de fuente.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Ver también
 
 * class [FileFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../filefontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
 Director.
 
@@ -93,7 +95,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | Prioridad de fuente de fuente. Ver el[`Priority`](../../fontsourcebase/priority/) descripción de la propiedad para más información. |
 | cacheKey | String | La clave de esta fuente en el caché. Ver[`CacheKey`](../cachekey/) descripción de la propiedad para más información. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acelerar el proceso de inicialización de la caché de fuentes.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Ver también
 
 * class [FileFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../filefontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

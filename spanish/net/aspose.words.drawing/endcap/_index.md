@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.EndCap enumeración. Especifica el estilo del límite de línea.
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.EndCap enumeración. Especifica el estilo del límite de línea en C#.
 type: docs
 weight: 940
 url: /es/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | La línea termina en el punto final. |
 | Default | `2` | El valor predeterminado esFlat . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

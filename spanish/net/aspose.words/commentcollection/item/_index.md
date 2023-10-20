@@ -1,7 +1,9 @@
 ---
 title: CommentCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: CommentCollection propiedad. Recupera unComment en el índice dado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: CommentCollection Item propiedad. Recupera unComment en el índice dado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/commentcollection/item/
@@ -18,7 +20,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar respuestas a comentarios.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* espacio de nombres [Aspose.Words](../../commentcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

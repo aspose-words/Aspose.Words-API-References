@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Especifica cómo se fusiona la celda con otras celdas verticalmente.
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: Aspose.Words para .NET
+description: CellFormat VerticalMerge propiedad. Especifica cómo se fusiona la celda con otras celdas verticalmente en C#.
 type: docs
-weight: 130
+weight: 120
 url: /es/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ Especifica cómo se fusiona la celda con otras celdas verticalmente.
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Las celdas sólo se pueden fusionar verticalmente si sus límites izquierdo y derecho son idénticos.
 
 Cuando las celdas se fusionan verticalmente, las áreas de visualización de las celdas fusionadas se consolidan. El área consolidada se utiliza para mostrar el contenido de la primera celda fusionada verticalmente y todas las demás celdas fusionadas verticalmente deben estar vacías.
 
-### Ejemplos
+## Ejemplos
 
 Imprime el tipo de combinación horizontal y vertical de una celda.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

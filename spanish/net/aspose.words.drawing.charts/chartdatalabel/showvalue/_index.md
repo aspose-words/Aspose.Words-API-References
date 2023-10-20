@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Permite especificar si se mostrarán valores en las etiquetas de datos. El valor predeterminado esFALSO .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words para .NET
+description: ChartDataLabel ShowValue propiedad. Permite especificar si se mostrarán valores en las etiquetas de datos. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showvalue/
@@ -14,7 +16,7 @@ Permite especificar si se mostrarán valores en las etiquetas de datos. El valor
 public bool ShowValue { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ver también
 
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

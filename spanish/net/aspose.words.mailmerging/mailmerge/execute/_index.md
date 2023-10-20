@@ -1,12 +1,14 @@
 ---
 title: MailMerge.Execute
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge método. Realiza una combinación de correspondencia desde una fuente de datos personalizada.
+linktitle: Execute
+articleTitle: Execute
+second_title: Aspose.Words para .NET
+description: MailMerge Execute método. Realiza una combinación de correspondencia desde una fuente de datos personalizada en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {#execute}
+## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
 Realiza una combinación de correspondencia desde una fuente de datos personalizada.
 
@@ -18,7 +20,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Un objeto que implementa la interfaz de origen de datos de combinación de correspondencia personalizada. |
 
-### Observaciones
+## Observaciones
 
 Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier fuente de datos, como una lista, tabla hash u objetos. Necesitas escribir tu propia clase que implemente el[`IMailMergeDataSource`](../../imailmergedatasource/) interfaz.
 
@@ -30,12 +32,12 @@ Este método ignora laRemoveUnusedRegions opción.
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(string[], object[]) {#execute_5}
+## Execute(*string[], object[]*) {#execute_5}
 
 Realiza una operación de combinación de correspondencia para un solo registro.
 
@@ -48,7 +50,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | Matriz de nombres de campos de combinación. Los nombres de los campos no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
 | values | Object[] | Matriz de valores que se insertarán en los campos de combinación. El número de elementos de esta matriz debe ser el mismo que el número de elementos de*fieldNames*. |
 
-### Observaciones
+## Observaciones
 
 Utilice este método para completar campos de combinación de correspondencia en el documento con valores de una matriz de objetos.
 
@@ -58,7 +60,7 @@ Este método no utiliza regiones de combinación de correspondencia.
 
 Este método ignora laRemoveUnusedRegions opción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo fusionar una imagen de un URI como datos de combinación de correspondencia en un MERGEFIELD.
 
@@ -111,12 +113,12 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataTable) {#execute_2}
+## Execute(*DataTable*) {#execute_2}
 
 Realiza combinación de correspondencia desde una tabla de datos en el documento.
 
@@ -128,19 +130,19 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | Tabla que contiene datos que se insertarán en los campos de combinación de correspondencia. Los nombres de los campos no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
 
-### Observaciones
+## Observaciones
 
-Utilice este método para completar los campos de combinación de correspondencia en el documento con valores de a  **Tabla de datos**.
+Utilice este método para completar los campos de combinación de correspondencia en el documento con valores de a **Tabla de datos**.
 
 Todos los registros de la tabla se fusionan en el documento.
 
-Puede utilizar el campo SIGUIENTE en el documento de Word para provocar[`MailMerge`](../) objeto para seleccionar siguiente registro del **Tabla de datos** y continuar fusionando. Esto se puede utilizar al crear documentos como etiquetas postales.
+Puede utilizar el campo SIGUIENTE en el documento de Word para provocar[`MailMerge`](../) objeto para seleccionar siguiente registro del**Tabla de datos** y continuar fusionando. Esto se puede utilizar al crear documentos como etiquetas postales.
 
-Cuando[`MailMerge`](../) El objeto llega al final del documento principal y todavía hay más filas en el **Tabla de datos**, copia el contenido completo de el documento principal y lo agrega al final del documento de destino usando un salto de sección como separador.
+Cuando[`MailMerge`](../) El objeto llega al final del documento principal y todavía hay más filas en el**Tabla de datos**, copia el contenido completo de el documento principal y lo agrega al final del documento de destino usando un salto de sección como separador.
 
 Este método ignora laRemoveUnusedRegions opción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un DataTable.
 
@@ -188,14 +190,14 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(IDataReader) {#execute_4}
+## Execute(*IDataReader*) {#execute_4}
 
-Realiza combinación de correspondencia desde **Lector de datos** en el documento.
+Realiza combinación de correspondencia desde**Lector de datos** en el documento.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +207,15 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | Fuente de datos para la operación de combinación de correspondencia. |
 
-### Observaciones
+## Observaciones
 
-Puedes pasar **Lector de datos SQL** o **Lector de datos OleDb** objeto en el método this como parámetro porque ambos implementaron **Lector de datos** interfaz.
+Puedes pasar**Lector de datos SQL** o**Lector de datos OleDb** objeto en el método this como parámetro porque ambos implementaron**Lector de datos** interfaz.
 
 Tenga en cuenta que este método no utiliza regiones de combinación de correspondencia y, para registros múltiples, el documento crecerá repitiendo todo el documento.
 
 Este método ignora laRemoveUnusedRegions opción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia utilizando datos de un lector de datos.
 
@@ -267,14 +269,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataView) {#execute_3}
+## Execute(*DataView*) {#execute_3}
 
-Realiza combinación de correspondencia desde un **Vista de datos** en el documento.
+Realiza combinación de correspondencia desde un**Vista de datos** en el documento.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +286,15 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Fuente de datos para la operación de combinación de correspondencia. |
 
-### Observaciones
+## Observaciones
 
-Este método es útil si recupera datos en un **Tabla de datos** pero entonces necesita aplicar un filtro u ordenar antes de combinar correspondencia.
+Este método es útil si recupera datos en un**Tabla de datos** pero entonces necesita aplicar un filtro u ordenar antes de combinar correspondencia.
 
 Tenga en cuenta que este método no utiliza regiones de combinación de correspondencia y, para registros múltiples, el documento crecerá repitiendo todo el documento.
 
 Este método ignora laRemoveUnusedRegions opción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar datos de combinación de correspondencia con un DataView.
 
@@ -329,14 +331,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataRow) {#execute_1}
+## Execute(*DataRow*) {#execute_1}
 
-Realiza combinación de correspondencia desde un **fila de datos** en el documento.
+Realiza combinación de correspondencia desde un**fila de datos** en el documento.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,13 +348,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | Fila que contiene datos que se insertarán en los campos de combinación de correspondencia. Los nombres de los campos no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
 
-### Observaciones
+## Observaciones
 
-Utilice este método para completar campos de combinación de correspondencia en el documento con valores de un **fila de datos**.
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de un**fila de datos**.
 
 Este método ignora laRemoveUnusedRegions opción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un DataTable.
 
@@ -400,7 +402,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.NodeType enumeración. Especifica el tipo de nodo de un documento de Word.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.NodeType enumeración. Especifica el tipo de nodo de un documento de Word en C#.
 type: docs
 weight: 4230
 url: /es/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | Un carácter especial que no es uno de los tipos de caracteres especiales más específicos. |
 | SmartTag | `27` | Una etiqueta inteligente alrededor de una o más estructuras en línea (ejecuciones, imágenes, campos, etc.) dentro de un párrafo |
 | StructuredDocumentTag | `28` | Permite definir información específica del cliente y sus medios de presentación. |
-| StructuredDocumentTagRangeStart | `29` | un comienzo de **a distancia** Etiqueta de documento estructurado que acepta contenido de varias secciones. |
-| StructuredDocumentTagRangeEnd | `30` | un fin de **a distancia** Etiqueta de documento estructurado que acepta contenido de varias secciones. |
+| StructuredDocumentTagRangeStart | `29` | un comienzo de**a distancia** Etiqueta de documento estructurado que acepta contenido de varias secciones. |
+| StructuredDocumentTagRangeEnd | `30` | un fin de**a distancia** Etiqueta de documento estructurado que acepta contenido de varias secciones. |
 | GlossaryDocument | `31` | Un documento de glosario dentro del documento principal. |
 | BuildingBlock | `32` | Un bloque de construcción dentro de un documento de glosario (por ejemplo, entrada de documento de glosario). |
 | CommentRangeStart | `33` | Un nodo marcador que representa el inicio de un rango comentado. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | Reservado para uso interno de Aspose.Words. |
 | Null | `38` | Reservado para uso interno de Aspose.Words. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer la colección de nodos secundarios de un nodo compuesto.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

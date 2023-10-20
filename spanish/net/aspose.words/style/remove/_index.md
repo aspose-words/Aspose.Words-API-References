@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: Style método. Elimina el estilo especificado del documento.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: Style Remove método. Elimina el estilo especificado del documento en C#.
 type: docs
-weight: 200
+weight: 190
 url: /es/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ Elimina el estilo especificado del documento.
 public void Remove()
 ```
 
-### Observaciones
+## Observaciones
 
 La eliminación de estilo tiene los siguientes efectos en el modelo del documento:
 
@@ -22,7 +24,7 @@ La eliminación de estilo tiene los siguientes efectos en el modelo del document
 * Si se elimina el estilo base, su formato se mueve a los estilos secundarios.
 * Si el estilo que se va a eliminar tiene un estilo vinculado, ambos se eliminarán.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y aplicar un estilo personalizado.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Ver también
 
 * class [Style](../)
-* espacio de nombres [Aspose.Words](../../style/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

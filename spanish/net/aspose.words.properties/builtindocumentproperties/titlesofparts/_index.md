@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Cada cadena de la matriz especifica el nombre de una parte del documento.
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties TitlesOfParts propiedad. Cada cadena de la matriz especifica el nombre de una parte del documento en C#.
 type: docs
 weight: 300
 url: /es/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ Cada cadena de la matriz especifica el nombre de una parte del documento.
 public string[] TitlesOfParts { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words no actualiza esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra la relación entre las propiedades "HeadingPairs" y "TitlesOfParts".
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

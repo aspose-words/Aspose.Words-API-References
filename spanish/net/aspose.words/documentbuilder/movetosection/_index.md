@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToSection
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Mueve el cursor al principio del cuerpo en una sección especificada.
+linktitle: MoveToSection
+articleTitle: MoveToSection
+second_title: Aspose.Words para .NET
+description: DocumentBuilder MoveToSection método. Mueve el cursor al principio del cuerpo en una sección especificada en C#.
 type: docs
-weight: 580
+weight: 570
 url: /es/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -18,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 | --- | --- | --- |
 | sectionIndex | Int32 | El índice de la sección a la que pasar. |
 
-### Observaciones
+## Observaciones
 
 Cuando*sectionIndex* es mayor o igual a 0, especifica un índice desde el comienzo del documento siendo 0 la primera sección. Cuando*sectionIndex* es menor que 0, , especificó un índice desde el final del documento, siendo -1 la última sección.
 
 El cursor se mueve al primer párrafo del[`Body`](../../body/) de la sección especificada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

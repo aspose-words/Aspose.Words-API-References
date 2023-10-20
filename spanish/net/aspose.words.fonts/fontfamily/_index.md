@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontFamily enumeración. Representa la familia de fuentes.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontFamily enumeración. Representa la familia de fuentes en C#.
 type: docs
 weight: 2910
 url: /es/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | Especifica una fuente diseñada para parecerse a escritura a mano; los ejemplos incluyen escritura y cursiva. |
 | Decorative | `5` | Especifica una fuente novedosa. Un ejemplo es el inglés antiguo. |
 
-### Observaciones
+## Observaciones
 
 Una familia de fuentes es un conjunto de fuentes que tienen características serif y ancho de trazo comunes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder e imprimir detalles de cada fuente en un documento.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

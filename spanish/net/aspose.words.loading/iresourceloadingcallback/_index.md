@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceLoadingCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback interfaz. Implemente esta interfaz si desea controlar cómo Aspose.Words carga recursos externos cuando importa un documento e inserta imágenes usandoDocumentBuilder .
+title: IResourceLoadingCallback Interface
+linktitle: IResourceLoadingCallback
+articleTitle: IResourceLoadingCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Loading.IResourceLoadingCallback interfaz. Implemente esta interfaz si desea controlar cómo Aspose.Words carga recursos externos cuando importa un documento e inserta imágenes usandoDocumentBuilder  en C#.
 type: docs
 weight: 3640
 url: /es/net/aspose.words.loading/iresourceloadingcallback/
@@ -18,9 +20,9 @@ public interface IResourceLoadingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Se llama cuando Aspose.Words carga cualquier recurso externo. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Se llama cuando Aspose.Words carga cualquier recurso externo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar el proceso de carga de recursos externos en un documento.
 
@@ -84,5 +86,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * espacio de nombres [Aspose.Words.Loading](../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../)
-
-

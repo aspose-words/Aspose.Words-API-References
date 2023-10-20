@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.DisplayText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece si se muestran datos de código de barras texto junto con la imagen.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words para .NET
+description: FieldDisplayBarcode DisplayText propiedad. Obtiene o establece si se muestran datos de código de barras texto junto con la imagen en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fielddisplaybarcode/displaytext/
@@ -14,7 +16,7 @@ Obtiene o establece si se muestran datos de código de barras (texto) junto con 
 public bool DisplayText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ver también
 
 * class [FieldDisplayBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

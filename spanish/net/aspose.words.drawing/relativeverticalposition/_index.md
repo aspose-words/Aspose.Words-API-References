@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.RelativeVerticalPosition enumeración. Especifica con qué es relativa la posición vertical de una forma o marco de texto.
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.RelativeVerticalPosition enumeración. Especifica con qué es relativa la posición vertical de una forma o marco de texto en C#.
 type: docs
 weight: 1210
 url: /es/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | El valor predeterminado esMargin . |
 | TextFrameDefault | `2` | El valor predeterminado esParagraph . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen flotante en el centro de una página.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

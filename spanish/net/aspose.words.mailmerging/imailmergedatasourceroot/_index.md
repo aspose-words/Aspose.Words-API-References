@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestrosdetallados.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestrosdetallados en C#.
 type: docs
 weight: 3820
 url: /es/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia de nivel superior. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia de nivel superior. |
 
-### Ejemplos
+## Ejemplos
 
 Realiza una combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detalles.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

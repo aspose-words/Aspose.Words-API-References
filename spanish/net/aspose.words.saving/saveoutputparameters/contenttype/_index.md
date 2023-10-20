@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOutputParameters propiedad. Devuelve la cadena de tipo de contenido tipo de medio de Internet que identifica el tipo del documento guardado.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words para .NET
+description: SaveOutputParameters ContentType propiedad. Devuelve la cadena de tipo de contenido tipo de medio de Internet que identifica el tipo del documento guardado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ Devuelve la cadena de tipo de contenido (tipo de medio de Internet) que identifi
 public string ContentType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a los parámetros de salida de la operación de guardar de un documento.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### Ver también
 
 * class [SaveOutputParameters](../)
-* espacio de nombres [Aspose.Words.Saving](../../saveoutputparameters/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

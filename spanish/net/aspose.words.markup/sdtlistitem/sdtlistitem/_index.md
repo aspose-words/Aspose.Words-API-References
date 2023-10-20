@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItem constructor. Inicializa una nueva instancia de esta clase.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words para .NET
+description: SdtListItem constructor. Inicializa una nueva instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase.
 
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase.
 public SdtListItem(string displayText, string value)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Ver también
 
 * class [SdtListItem](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitem/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Inicializa una nueva instancia de esta clase.
 
@@ -84,7 +86,7 @@ Inicializa una nueva instancia de esta clase.
 public SdtListItem(string value)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ver también
 
 * class [SdtListItem](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitem/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

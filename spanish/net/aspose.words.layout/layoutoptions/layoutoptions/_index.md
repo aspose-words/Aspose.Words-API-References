@@ -1,7 +1,9 @@
 ---
-title: LayoutOptions.LayoutOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutOptions constructor. Constructor predeterminado
+title: LayoutOptions
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words para .NET
+description: LayoutOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/layoutoptions/layoutoptions/
@@ -17,7 +19,5 @@ public LayoutOptions()
 ### Ver también
 
 * class [LayoutOptions](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutoptions/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

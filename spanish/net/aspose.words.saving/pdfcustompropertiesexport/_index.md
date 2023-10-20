@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCustomPropertiesExport
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.PdfCustomPropertiesExport enumeración. Especifica la formaCustomDocumentProperties se exportan a un archivo PDF.
+title: PdfCustomPropertiesExport Enum
+linktitle: PdfCustomPropertiesExport
+articleTitle: PdfCustomPropertiesExport
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.PdfCustomPropertiesExport enumeración. Especifica la formaCustomDocumentProperties se exportan a un archivo PDF en C#.
 type: docs
 weight: 5420
 url: /es/net/aspose.words.saving/pdfcustompropertiesexport/
@@ -22,7 +24,7 @@ public enum PdfCustomPropertiesExport
 | Standard | `1` | Las propiedades personalizadas se exportan como entradas en el diccionario /Info. |
 | Metadata | `2` | Las propiedades personalizadas son metadatos. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo exportar propiedades personalizadas al convertir un documento a PDF.
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

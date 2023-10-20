@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el identificador de estilo independiente de la configuración regional del estilo de párrafo aplicado a este formato.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words para .NET
+description: ParagraphFormat StyleIdentifier propiedad. Obtiene o establece el identificador de estilo independiente de la configuración regional del estilo de párrafo aplicado a este formato en C#.
 type: docs
 weight: 350
 url: /es/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ Obtiene o establece el identificador de estilo independiente de la configuració
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de encabezado como entradas.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

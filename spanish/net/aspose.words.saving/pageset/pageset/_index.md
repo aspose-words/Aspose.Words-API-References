@@ -1,12 +1,14 @@
 ---
-title: PageSet.PageSet
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSet constructor. Crea un conjunto de una página basado en el índice de página exacto.
+title: PageSet
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words para .NET
+description: PageSet constructor. Crea un conjunto de una página basado en el índice de página exacto en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet(*int*) {#constructor_1}
 
 Crea un conjunto de una página basado en el índice de página exacto.
 
@@ -18,19 +20,19 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Índice de base cero de la página. |
 
-### Observaciones
+## Observaciones
 
 Si se encuentra una página que no está en el documento, se generará una excepción durante la representación. MaxValue significa la última página del documento.
 
 ### Ver también
 
 * class [PageSet](../)
-* espacio de nombres [Aspose.Words.Saving](../../pageset/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet(*params int[]*) {#constructor_2}
 
 Crea un conjunto de páginas basado en índices de página exactos.
 
@@ -42,11 +44,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Índices de páginas de base cero. |
 
-### Observaciones
+## Observaciones
 
 Si se encuentra una página que no está en el documento, se generará una excepción durante la representación. MaxValue significa la última página del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer páginas basándose en índices de páginas exactos.
 
@@ -75,12 +77,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### Ver también
 
 * class [PageSet](../)
-* espacio de nombres [Aspose.Words.Saving](../../pageset/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet(*params PageRange[]*) {#constructor}
 
 Crea un conjunto de páginas basado en rangos.
 
@@ -92,11 +94,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Matriz de rangos de páginas. |
 
-### Observaciones
+## Observaciones
 
 Si se encuentra un rango que comienza después de la última página del documento, se generará una excepción durante la representación. Todos los rangos que terminan después de la última página se truncan para caber en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer páginas según rangos de páginas exactos.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* espacio de nombres [Aspose.Words.Saving](../../pageset/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

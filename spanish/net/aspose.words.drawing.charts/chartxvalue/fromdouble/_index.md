@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartXValue método. Crea unChartXValue instancia de laDouble tipo.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words para .NET
+description: ChartXValue FromDouble método. Crea unChartXValue instancia de laDouble tipo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ Crea un[`ChartXValue`](../) instancia de laDouble tipo.
 public static ChartXValue FromDouble(double value)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo completar series de gráficos con datos.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Ver también
 
 * class [ChartXValue](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Marca la posición actual en el documento como un inicio de rango editable.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words para .NET
+description: DocumentBuilder StartEditableRange método. Marca la posición actual en el documento como un inicio de rango editable en C#.
 type: docs
-weight: 640
+weight: 630
 url: /es/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 El nodo de inicio del rango editable que se acaba de crear.
 
-### Observaciones
+## Observaciones
 
 El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido necesita llamar a ambos`StartEditableRange` y[`EndEditableRange`](../endeditablerange/) o[`EndEditableRange`](../endeditablerange/) métodos.
 
 El rango editable mal formado se ignorará cuando se guarde el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear rangos editables anidados.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldLink.FormatUpdateType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldLink propiedad. Obtiene o establece una forma en que el objeto vinculado actualiza su formato.
+linktitle: FormatUpdateType
+articleTitle: FormatUpdateType
+second_title: Aspose.Words para .NET
+description: FieldLink FormatUpdateType propiedad. Obtiene o establece una forma en que el objeto vinculado actualiza su formato en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldlink/formatupdatetype/
@@ -14,7 +16,7 @@ Obtiene o establece una forma en que el objeto vinculado actualiza su formato.
 public string FormatUpdateType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldLink](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlink/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

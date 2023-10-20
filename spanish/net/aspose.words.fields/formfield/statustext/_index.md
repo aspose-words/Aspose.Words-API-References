@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Devuelve o establece el texto que se muestra en la barra de estado cuando un campo de formulario tiene el foco.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words para .NET
+description: FormField StatusText propiedad. Devuelve o establece el texto que se muestra en la barra de estado cuando un campo de formulario tiene el foco en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ Devuelve o establece el texto que se muestra en la barra de estado cuando un cam
 public string StatusText { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si el[`OwnStatus`](../ownstatus/) la propiedad está establecida en`verdadero` , el`StatusText` La propiedad especifica el texto de la barra de estado. Si el[`OwnStatus`](../ownstatus/) la propiedad está establecida en`FALSO` , el`StatusText` La propiedad especifica el nombre de una entrada AutoText que contiene texto de la barra de estado para el campo del formulario.
 
 Microsoft Word permite cadenas con un máximo de 138 caracteres.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Referencia de API de Aspose.Words para .NET
-description: DownsampleOptions propiedad. Especifica la resolución en píxeles por pulgada a la que se deben reducir las imágenes.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words para .NET
+description: DownsampleOptions Resolution propiedad. Especifica la resolución en píxeles por pulgada a la que se deben reducir las imágenes en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ Especifica la resolución en píxeles por pulgada a la que se deben reducir las 
 public int Resolution { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 220 ppp.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar la resolución de las imágenes en el documento PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Ver también
 
 * class [DownsampleOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../downsampleoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

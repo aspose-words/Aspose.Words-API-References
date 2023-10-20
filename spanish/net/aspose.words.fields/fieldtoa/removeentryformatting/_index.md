@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToa propiedad. Obtiene o establece si se debe eliminar el formato del texto de entrada en el documento de la entrada en la tabla de autoridades.
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: Aspose.Words para .NET
+description: FieldToa RemoveEntryFormatting propiedad. Obtiene o establece si se debe eliminar el formato del texto de entrada en el documento de la entrada en la tabla de autoridades en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe eliminar el formato del texto de entrada en el do
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y personalizar una tabla de autoridades utilizando los campos TOA y TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ver también
 
 * class [FieldToa](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoa/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

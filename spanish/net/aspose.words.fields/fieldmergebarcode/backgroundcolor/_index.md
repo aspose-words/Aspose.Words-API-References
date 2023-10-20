@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BackgroundColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece el color de fondo del símbolo del código de barras. Los valores válidos están en el rango 0 0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode BackgroundColor propiedad. Obtiene o establece el color de fondo del símbolo del código de barras. Los valores válidos están en el rango 0 0xFFFFFF en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldmergebarcode/backgroundcolor/
@@ -14,7 +16,7 @@ Obtiene o establece el color de fondo del símbolo del código de barras. Los va
 public string BackgroundColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

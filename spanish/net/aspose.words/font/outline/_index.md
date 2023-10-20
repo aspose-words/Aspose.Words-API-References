@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de contorno.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words para .NET
+description: Font Outline propiedad. Verdadero si la fuente tiene el formato de contorno en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de contorno.
 public bool Outline { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una serie de texto con formato de esquema.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

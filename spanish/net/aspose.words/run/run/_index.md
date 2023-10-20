@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Referencia de API de Aspose.Words para .NET
-description: Run constructor. Inicializa una nueva instancia delRun clase.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words para .NET
+description: Run constructor. Inicializa una nueva instancia delRun clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Inicializa una nueva instancia del[`Run`](../) clase.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Run`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../node/parentnode/) es`nulo`.
 
-Para anexar[`Run`](../) al uso del documentoNode) oNode) en el párrafo donde desea insertar la ejecución.
+Para anexar[`Run`](../) al uso del documento[`InsertAfter`](../../compositenode/insertafter/) o[`InsertBefore`](../../compositenode/insertbefore/) en el párrafo donde desea insertar la ejecución.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* espacio de nombres [Aspose.Words](../../run/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-Inicializa una nueva instancia del **Correr** clase.
+Inicializa una nueva instancia del**Correr** clase.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | El documento del propietario. |
 | text | String | El texto de la carrera. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Run`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../node/parentnode/) es`nulo`.
 
-Para anexar[`Run`](../) al uso del documentoNode) oNode) en el párrafo donde desea insertar la ejecución.
+Para anexar[`Run`](../) al uso del documento[`InsertAfter`](../../compositenode/insertafter/) o[`InsertBefore`](../../compositenode/insertbefore/) en el párrafo donde desea insertar la ejecución.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* espacio de nombres [Aspose.Words](../../run/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

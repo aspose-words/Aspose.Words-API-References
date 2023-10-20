@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Especifica si se incluyen cuadros de texto notas al pie y notas finales en las estadísticas de recuento de palabras.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words para .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat propiedad. Especifica si se incluyen cuadros de texto notas al pie y notas finales en las estadísticas de recuento de palabras en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ Especifica si se incluyen cuadros de texto, notas al pie y notas finales en las 
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo incluir o excluir cuadros de texto, notas al pie y notas al final de las estadísticas de recuento de palabras.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

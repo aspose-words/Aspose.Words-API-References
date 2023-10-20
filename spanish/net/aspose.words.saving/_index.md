@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Ahorro El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales para guardar o convertir documentos.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Ahorro El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales para guardar o convertir documentos en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.saving/
 ---
-El **Aspose.Palabras.Ahorro** El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales para guardar o convertir documentos.
+El**Aspose.Palabras.Ahorro** El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales para guardar o convertir documentos.
 
 ## Clases
 
@@ -108,5 +110,3 @@ El **Aspose.Palabras.Ahorro** El espacio de nombres proporciona clases y enumera
 | [TableContentAlignment](./tablecontentalignment/) | Permite especificar la alineación del contenido de la tabla que se utilizará al exportar al formato Markdown. |
 | [TiffCompression](./tiffcompression/) | Especifica qué tipo de compresión aplicar al guardar imágenes de páginas en un archivo TIFF. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Especifica la forma en que se exportan los encabezados y pies de página a formato de texto sin formato. |
-
-

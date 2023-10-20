@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Field método. Devuelve texto entre el inicio del campo y el separador de campo o el final del campo si no hay separador. Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words para .NET
+description: Field GetFieldCode método. Devuelve texto entre el inicio del campo y el separador de campo o el final del campo si no hay separador. Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ Devuelve texto entre el inicio del campo y el separador de campo (o el final del
 public string GetFieldCode()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo en un documento usando un código de campo.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Ver también
 
 * class [Field](../)
-* espacio de nombres [Aspose.Words.Fields](../../field/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `verdadero` si se deben incluir códigos de campo secundarios. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener el código de campo de un campo.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Ver también
 
 * class [Field](../)
-* espacio de nombres [Aspose.Words.Fields](../../field/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

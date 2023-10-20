@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Obtiene o establece un indicador que indica si el trazo es visible.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words para .NET
+description: Stroke Visible propiedad. Obtiene o establece un indicador que indica si el trazo es visible en C#.
 type: docs
-weight: 210
+weight: 200
 url: /es/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ Obtiene o establece un indicador que indica si el trazo es visible.
 public bool Visible { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado para un[`Shape`](../../shape/) es`verdadero` .
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo configurar el formato del marcador.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Ver también
 
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

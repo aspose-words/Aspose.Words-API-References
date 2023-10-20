@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPropertyCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: DocumentPropertyCollection GetEnumerator método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.properties/documentpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los 
 public IEnumerator<DocumentProperty> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentpropertycollection/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

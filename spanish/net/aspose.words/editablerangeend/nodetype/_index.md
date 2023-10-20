@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRangeEnd propiedad. DevolucionesEditableRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: EditableRangeEnd NodeType propiedad. DevolucionesEditableRangeEnd  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/editablerangeend/nodetype/
@@ -14,7 +16,7 @@ DevolucionesEditableRangeEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeEnd](../)
-* espacio de nombres [Aspose.Words](../../editablerangeend/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

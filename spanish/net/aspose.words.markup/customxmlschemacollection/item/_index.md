@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlSchemaCollection propiedad. Obtiene o establece el elemento en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: CustomXmlSchemaCollection Item propiedad. Obtiene o establece el elemento en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ Obtiene o establece el elemento en el índice especificado.
 public string this[int index] { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con una colección de esquemas XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ver también
 
 * class [CustomXmlSchemaCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlschemacollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

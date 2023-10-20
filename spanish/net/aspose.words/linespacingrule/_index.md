@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.LineSpacingRule enumeración. Especifica valores de interlineado para un párrafo.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words para .NET
+description: Aspose.Words.LineSpacingRule enumeración. Especifica valores de interlineado para un párrafo en C#.
 type: docs
 weight: 3440
 url: /es/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

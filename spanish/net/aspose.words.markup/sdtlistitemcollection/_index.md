@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.SdtListItemCollection clase. Proporciona acceso aSdtListItem elementos de una etiqueta de documento estructurado.
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.SdtListItemCollection clase. Proporciona acceso aSdtListItem elementos de una etiqueta de documento estructurado en C#.
 type: docs
 weight: 4030
 url: /es/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Agrega un elemento a esta colección. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Agrega un elemento a esta colección. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Borra todos los elementos de esta colección. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Elimina un elemento de la lista en el índice especificado. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Elimina un elemento de la lista en el índice especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Fields
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve una lista de campos secundarios.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words para .NET
+description: MailMergeRegionInfo Fields propiedad. Devuelve una lista de campos secundarios en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/fields/
@@ -14,7 +16,7 @@ Devuelve una lista de campos secundarios.
 public IList<Field> Fields { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar regiones de combinación de correspondencia.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [MailMergeRegionInfo](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

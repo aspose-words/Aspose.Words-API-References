@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el número de bordes de la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: BorderCollection Count propiedad. Obtiene el número de bordes de la colección en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de bordes de la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo las colecciones de bordes pueden compartir elementos.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ver también
 
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

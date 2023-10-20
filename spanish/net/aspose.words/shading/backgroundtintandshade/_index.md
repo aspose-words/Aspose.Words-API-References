@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundTintAndShade
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shading propiedad. Obtiene o establece un valor doble que aclara u oscurece el color de un tema de fondo.
+linktitle: BackgroundTintAndShade
+articleTitle: BackgroundTintAndShade
+second_title: Aspose.Words para .NET
+description: Shading BackgroundTintAndShade propiedad. Obtiene o establece un valor doble que aclara u oscurece el color de un tema de fondo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/shading/backgroundtintandshade/
@@ -14,13 +16,13 @@ Obtiene o establece un valor doble que aclara u oscurece el color de un tema de 
 public double BackgroundTintAndShade { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los valores permitidos están en el rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultadoArgumentOutOfRangeException.
 
 Establecer esta propiedad para el objeto Sombreado con colores no temáticos da como resultadoInvalidOperationException.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar los colores de primer plano y de fondo para sombrear la textura.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### Ver también
 
 * class [Shading](../)
-* espacio de nombres [Aspose.Words](../../shading/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveSmartTags
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode método. Elimina todoSmartTagnodos descendientes del nodo actual.
+linktitle: RemoveSmartTags
+articleTitle: RemoveSmartTags
+second_title: Aspose.Words para .NET
+description: CompositeNode RemoveSmartTags método. Elimina todoSmartTagnodos descendientes del nodo actual en C#.
 type: docs
-weight: 200
+weight: 180
 url: /es/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
@@ -14,11 +16,11 @@ Elimina todo[`SmartTag`](../../../aspose.words.markup/smarttag/)nodos descendien
 public void RemoveSmartTags()
 ```
 
-### Observaciones
+## Observaciones
 
 Este método no elimina el contenido de las etiquetas inteligentes.
 
-### Ejemplos
+## Ejemplos
 
 Elimina todas las etiquetas inteligentes de los nodos descendientes de un nodo compuesto.
 
@@ -131,7 +133,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ver también
 
 * class [CompositeNode](../)
-* espacio de nombres [Aspose.Words](../../compositenode/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

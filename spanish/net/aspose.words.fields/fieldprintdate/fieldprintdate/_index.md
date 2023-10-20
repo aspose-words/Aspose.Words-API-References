@@ -1,7 +1,9 @@
 ---
-title: FieldPrintDate.FieldPrintDate
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPrintDate constructor. Constructor predeterminado
+title: FieldPrintDate
+linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
+second_title: Aspose.Words para .NET
+description: FieldPrintDate constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldprintdate/fieldprintdate/
@@ -17,7 +19,5 @@ public FieldPrintDate()
 ### Ver también
 
 * class [FieldPrintDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldprintdate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

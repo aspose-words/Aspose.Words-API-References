@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection propiedad. Obtiene el número de elementos contenidos en la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: FontInfoCollection Count propiedad. Obtiene el número de elementos contenidos en la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontinfocollection/count/
@@ -14,7 +16,7 @@ Obtiene el número de elementos contenidos en la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra información sobre las fuentes que están presentes en el documento en blanco.
 
@@ -35,7 +37,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Ver también
 
 * class [FontInfoCollection](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfocollection/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

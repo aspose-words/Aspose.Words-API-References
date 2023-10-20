@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotSuppressIndentation
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No ignore los objetos flotantes al calcular la sangría de párrafo.
+linktitle: DoNotSuppressIndentation
+articleTitle: DoNotSuppressIndentation
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions DoNotSuppressIndentation propiedad. No ignore los objetos flotantes al calcular la sangría de párrafo en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/
@@ -17,7 +19,5 @@ public bool DoNotSuppressIndentation { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

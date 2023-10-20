@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Words.Configuración El espacio de nombres contiene clases y enumeraciones que se utilizan al especificar varias configuraciones y opciones almacenadas en un documento. Estas son combinación de correspondencia protección contra escritura compatibilidad y otras configuraciones.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words para .NET
+description: ElAspose.Words.Configuración El espacio de nombres contiene clases y enumeraciones que se utilizan al especificar varias configuraciones y opciones almacenadas en un documento. Estas son combinación de correspondencia protección contra escritura compatibilidad y otras configuraciones en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.settings/
 ---
-El **Aspose.Words.Configuración** El espacio de nombres contiene clases y enumeraciones que se utilizan al especificar varias configuraciones y opciones almacenadas en un documento. Estas son combinación de correspondencia, protección contra escritura, compatibilidad y otras configuraciones.
+El**Aspose.Words.Configuración** El espacio de nombres contiene clases y enumeraciones que se utilizan al especificar varias configuraciones y opciones almacenadas en un documento. Estas son combinación de correspondencia, protección contra escritura, compatibilidad y otras configuraciones.
 
 ## Clases
 
 | Clase | Descripción |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Contiene opciones de compatibilidad (es decir, las preferencias de usuario ingresadas en el **Compatibilidad** pestaña del **Opciones** cuadro de diálogo en Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | Contiene opciones de compatibilidad (es decir, las preferencias de usuario ingresadas en el**Compatibilidad** pestaña del**Opciones** cuadro de diálogo en Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | Permite configurar las opciones de separación de palabras del documento. |
 | [MailMergeSettings](./mailmergesettings/) | Especifica toda la información de combinación de correspondencia de un documento. |
 | [Odso](./odso/) | Especifica la configuración del objeto de origen de datos de Office (ODSO) para un origen de datos de combinación de correspondencia. |
@@ -38,5 +40,3 @@ El **Aspose.Words.Configuración** El espacio de nombres contiene clases y enume
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Especifica los posibles tipos utilizados para indicar si un campo de combinación de correspondencia determinado se ha asignado a una columna en la fuente de datos externa determinada. |
 | [ViewType](./viewtype/) | Valores posibles para el modo de visualización en Microsoft Word. |
 | [ZoomType](./zoomtype/) | Posibles valores de qué tan grande o pequeño aparece el documento en la pantalla en Microsoft Word. |
-
-

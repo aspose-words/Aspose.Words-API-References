@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeTintAndShade
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene o establece un valor doble que aclara u oscurece el color de primer plano.
+linktitle: ForeTintAndShade
+articleTitle: ForeTintAndShade
+second_title: Aspose.Words para .NET
+description: Fill ForeTintAndShade propiedad. Obtiene o establece un valor doble que aclara u oscurece el color de primer plano en C#.
 type: docs
-weight: 90
+weight: 80
 url: /es/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
@@ -14,11 +16,11 @@ Obtiene o establece un valor doble que aclara u oscurece el color de primer plan
 public double ForeTintAndShade { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los valores permitidos están dentro del rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultadoArgumentOutOfRangeException.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo gestionar el color de fuente de primer plano que se aclara y oscurece.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Shape.FillTintAndShade.docx");
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

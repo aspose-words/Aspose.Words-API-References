@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde superior.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words para .NET
+description: BorderCollection Top propiedad. Obtiene el borde superior en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ Obtiene el borde superior.
 public Border Top { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

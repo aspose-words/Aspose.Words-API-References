@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapData propiedad. Especifica si un campo de combinación de correspondencia determinado se ha asignado a una columna en la fuente de datos externa determinada o no. El valor predeterminado esDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: OdsoFieldMapData Type propiedad. Especifica si un campo de combinación de correspondencia determinado se ha asignado a una columna en la fuente de datos externa determinada o no. El valor predeterminado esDefault  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ Especifica si un campo de combinación de correspondencia determinado se ha asig
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

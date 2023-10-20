@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromTimeSpan
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartYValue método. Crea unChartYValue instancia de laTime tipo.
+linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
+second_title: Aspose.Words para .NET
+description: ChartYValue FromTimeSpan método. Crea unChartYValue instancia de laTime tipo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
@@ -17,7 +19,5 @@ public static ChartYValue FromTimeSpan(TimeSpan value)
 ### Ver también
 
 * class [ChartYValue](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

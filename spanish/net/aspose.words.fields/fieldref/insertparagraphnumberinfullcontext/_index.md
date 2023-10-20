@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInFullContext
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef propiedad. Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words para .NET
+description: FieldRef InsertParagraphNumberInFullContext propiedad. Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe insertar el número de párrafo del párrafo al q
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos REF para hacer referencia a marcadores.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

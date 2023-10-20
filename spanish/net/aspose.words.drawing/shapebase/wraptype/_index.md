@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Define si la forma está en línea o flotante. Para formas flotantes define el modo de ajuste del texto alrededor de la forma.
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words para .NET
+description: ShapeBase WrapType propiedad. Define si la forma está en línea o flotante. Para formas flotantes define el modo de ajuste del texto alrededor de la forma en C#.
 type: docs
 weight: 600
 url: /es/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ Define si la forma está en línea o flotante. Para formas flotantes, define el 
 public WrapType WrapType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esNone.
 
 Tiene efecto sólo para formas de nivel superior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen flotante en el centro de una página.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

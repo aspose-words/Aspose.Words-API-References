@@ -1,7 +1,9 @@
 ---
-title: Class IncorrectPasswordException
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.IncorrectPasswordException clase. Se produce si un documento está cifrado con una contraseña y la contraseña especificada al abrir el documento es incorrecta o falta.
+title: IncorrectPasswordException Class
+linktitle: IncorrectPasswordException
+articleTitle: IncorrectPasswordException
+second_title: Aspose.Words para .NET
+description: Aspose.Words.IncorrectPasswordException clase. Se produce si un documento está cifrado con una contraseña y la contraseña especificada al abrir el documento es incorrecta o falta en C#.
 type: docs
 weight: 3250
 url: /es/net/aspose.words/incorrectpasswordexception/
@@ -20,5 +22,3 @@ public class IncorrectPasswordException : Exception
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

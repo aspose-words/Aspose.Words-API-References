@@ -1,12 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomDocumentProperties método. Crea una nueva propiedad de documento personalizada delString tipo de datos.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: CustomDocumentProperties Add método. Crea una nueva propiedad de documento personalizada delString tipo de datos en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
 Crea una nueva propiedad de documento personalizada delString tipo de datos.
 
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 El objeto de propiedad recién creado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -84,12 +86,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../customdocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
 Crea una nueva propiedad de documento personalizada delNumber tipo de datos.
 
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 El objeto de propiedad recién creado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -167,12 +169,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../customdocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
 Crea una nueva propiedad de documento personalizada delDateTime tipo de datos.
 
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 El objeto de propiedad recién creado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una propiedad de documento personalizada que contiene una fecha y hora.
 
@@ -260,12 +262,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../customdocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
 Crea una nueva propiedad de documento personalizada delBoolean tipo de datos.
 
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 El objeto de propiedad recién creado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -343,12 +345,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../customdocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
 Crea una nueva propiedad de documento personalizada delDouble tipo de datos.
 
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 El objeto de propiedad recién creado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../customdocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: IMailMergeDataSource método. El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia anidada.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words para .NET
+description: IMailMergeDataSource GetChildDataSource método. El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia anidada en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Un objeto de fuente de datos que proporcionará acceso a los registros de datos de la tabla especificada.
 
-### Observaciones
+## Observaciones
 
 Cuando los motores de combinación de correspondencia de Aspose.Words completan una región de combinación de correspondencia con datos y encuentran el comienzo de una región de combinación de correspondencia anidada en el formato MERGEFIELD TableStart:TableName, invoca`GetChildDataSource` en el objeto de fuente de datos current . Su implementación debe devolver un nuevo objeto de fuente de datos que proporcionará acceso a los registros child del registro principal actual. Aspose.Words utilizará la fuente de datos devuelta para completar la región de combinación de correspondencia anidada.
 
@@ -34,7 +36,7 @@ Si este objeto de fuente de datos no tiene una relación con la tabla con el nom
 
 Si no existe una tabla con el nombre especificado, su implementación debería devolver`nulo` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Ver también
 
 * interface [IMailMergeDataSource](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeRendererBase método. Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words para .NET
+description: NodeRendererBase GetSizeInPixels método. Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 El tamaño de la forma en píxeles.
 
-### Observaciones
+## Observaciones
 
 Este método convierte[`SizeInPoints`](../sizeinpoints/) en tamaño en píxeles y es útil cuando desea crear un mapa de bits para representar la forma claramente en el mapa de bits.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Ver también
 
 * class [NodeRendererBase](../)
-* espacio de nombres [Aspose.Words.Rendering](../../noderendererbase/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 El tamaño de la forma en píxeles.
 
-### Observaciones
+## Observaciones
 
 Este método convierte[`SizeInPoints`](../sizeinpoints/) en tamaño en píxeles y es útil cuando desea crear un mapa de bits para representar la forma claramente en el mapa de bits.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo medir y escalar formas.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ver también
 
 * class [NodeRendererBase](../)
-* espacio de nombres [Aspose.Words.Rendering](../../noderendererbase/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

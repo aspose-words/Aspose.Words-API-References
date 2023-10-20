@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgs propiedad. Obtiene o establece el texto que se insertará en el documento para el campo de combinación actual.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: FieldMergingArgs Text propiedad. Obtiene o establece el texto que se insertará en el documento para el campo de combinación actual en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto que se insertará en el documento para el campo de 
 public string Text { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se llama a su controlador de eventos, esta propiedad se establece en`nulo`.
 
@@ -22,7 +24,7 @@ Si dejas Texto como`nulo` , el motor de combinación de correspondencia insertar
 
 Si configura Texto en cualquier cadena (incluso vacía), la cadena se insertará en el documento en lugar del campo de combinación.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Ver también
 
 * class [FieldMergingArgs](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageWatermarkOptions propiedad. Obtiene o establece el factor de escala expresado como una fracción de la imagen. El valor predeterminado es 0  auto.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words para .NET
+description: ImageWatermarkOptions Scale propiedad. Obtiene o establece el factor de escala expresado como una fracción de la imagen. El valor predeterminado es 0  auto en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Se lanza cuando el argumento estaba fuera del rango de valores válidos. |
 
-### Observaciones
+## Observaciones
 
 Los valores válidos oscilan entre 0 y 65,5 inclusive.
 
 Escala automática significa que la marca de agua se escalará a su ancho máximo y alto máximo en relación con los márgenes de la página.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua a partir de una imagen en el sistema de archivos local.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Ver también
 
 * class [ImageWatermarkOptions](../)
-* espacio de nombres [Aspose.Words](../../imagewatermarkoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Recupera el formato de caracteres previamente guardado en la pila.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words para .NET
+description: DocumentBuilder PopFont método. Recupera el formato de caracteres previamente guardado en la pila en C#.
 type: docs
-weight: 600
+weight: 590
 url: /es/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ Recupera el formato de caracteres previamente guardado en la pila.
 public void PopFont()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la pila de formato del generador de documentos.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

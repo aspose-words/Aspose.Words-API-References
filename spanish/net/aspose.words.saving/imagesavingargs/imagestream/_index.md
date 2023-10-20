@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSavingArgs propiedad. Permite especificar la secuencia donde se guardará la imagen.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words para .NET
+description: ImageSavingArgs ImageStream propiedad. Permite especificar la secuencia donde se guardará la imagen en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ Permite especificar la secuencia donde se guardará la imagen.
 public Stream ImageStream { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite guardar imágenes en secuencias en lugar de archivos durante HTML.
 
@@ -22,7 +24,7 @@ El valor predeterminado es`nulo` . Cuando esta propiedad es`nulo` , la imagen se
 
 Usando[`IImageSavingCallback`](../../iimagesavingcallback/) no puedes sustituir una imagen por otra. Está destinado únicamente al control de la ubicación donde guardar imágenes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión HTML.
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Ver también
 
 * class [ImageSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class MemoryFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.MemoryFontSource clase. Representa el único archivo de fuente TrueType almacenado en la memoria.
+title: MemoryFontSource Class
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.MemoryFontSource clase. Representa el único archivo de fuente TrueType almacenado en la memoria en C#.
 type: docs
 weight: 3020
 url: /es/net/aspose.words.fonts/memoryfontsource/
@@ -20,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Director. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Director. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Director. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Director. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Director. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Director. |
 
 ## Propiedades
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkStart método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: BookmarkStart Accept método. Acepta un visitante en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `FALSO` si el visitante solicitó que se detuviera la enumeración.
 
-### Observaciones
+## Observaciones
 
 llamadas[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkStart](../)
-* espacio de nombres [Aspose.Words](../../bookmarkstart/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

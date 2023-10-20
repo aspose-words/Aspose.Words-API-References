@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de retorno de carro x000d o r. Igual queParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words para .NET
+description: ControlChar Cr campo. Carácter de retorno de carro x000d o r. Igual queParagraphBreak  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ Carácter de retorno de carro: "\x000d" o "\r". Igual que[`ParagraphBreak`](../p
 public static readonly string Cr;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los personajes de control.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

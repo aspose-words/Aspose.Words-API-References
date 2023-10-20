@@ -1,7 +1,9 @@
 ---
 title: Border.DistanceFromText
-second_title: Referencia de API de Aspose.Words para .NET
-description: Border propiedad. Obtiene o establece la distancia del borde desde el texto o desde el borde de la página en puntos.
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: Aspose.Words para .NET
+description: Border DistanceFromText propiedad. Obtiene o establece la distancia del borde desde el texto o desde el borde de la página en puntos en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/border/distancefromtext/
@@ -14,11 +16,11 @@ Obtiene o establece la distancia del borde desde el texto o desde el borde de la
 public double DistanceFromText { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No tiene ningún efecto y se restablecerá automáticamente a cero para los bordes de las celdas de la tabla.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un borde de banda azul ancho en la parte superior de la primera página.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### Ver también
 
 * class [Border](../)
-* espacio de nombres [Aspose.Words](../../border/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

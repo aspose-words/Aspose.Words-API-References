@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devuelve un objeto que representa las propiedades de formato de fila de la tabla actual.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words para .NET
+description: DocumentBuilder RowFormat propiedad. Devuelve un objeto que representa las propiedades de formato de fila de la tabla actual en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ Devuelve un objeto que representa las propiedades de formato de fila de la tabla
 public RowFormat RowFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a filas con un generador de documentos.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

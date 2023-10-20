@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devuelve el párrafo padre inmediato.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words para .NET
+description: ShapeBase ParentParagraph propiedad. Devuelve el párrafo padre inmediato en C#.
 type: docs
 weight: 410
 url: /es/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ Devuelve el párrafo padre inmediato.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para formas secundarias de una forma de grupo y formas secundarias de un objeto de Office Math siempre devuelve`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un cuadro de texto y configurar la fuente de su contenido.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

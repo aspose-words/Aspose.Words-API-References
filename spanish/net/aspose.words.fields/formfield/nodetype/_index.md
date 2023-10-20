@@ -1,7 +1,9 @@
 ---
 title: FormField.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. DevolucionesFormField .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: FormField NodeType propiedad. DevolucionesFormField  en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/formfield/nodetype/
@@ -14,7 +16,7 @@ DevolucionesFormField .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

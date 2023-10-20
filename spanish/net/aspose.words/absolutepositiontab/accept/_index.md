@@ -1,7 +1,9 @@
 ---
 title: AbsolutePositionTab.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: AbsolutePositionTab método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: AbsolutePositionTab Accept método. Acepta un visitante en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/absolutepositiontab/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `FALSO` si el visitante solicitó que se detuviera la enumeración.
 
-### Observaciones
+## Observaciones
 
 llamadas[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo procesar caracteres de tabulación de posición absoluta con un visitante del documento.
 
@@ -105,7 +107,5 @@ public class DocTextExtractor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [AbsolutePositionTab](../)
-* espacio de nombres [Aspose.Words](../../absolutepositiontab/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

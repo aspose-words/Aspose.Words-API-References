@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEndPageIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutCollector método. Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 si el nodo no se puede asignar a una página.
+linktitle: GetEndPageIndex
+articleTitle: GetEndPageIndex
+second_title: Aspose.Words para .NET
+description: LayoutCollector GetEndPageIndex método. Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 si el nodo no se puede asignar a una página en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.layout/layoutcollector/getendpageindex/
@@ -14,7 +16,7 @@ Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 s
 public int GetEndPageIndex(Node node)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutcollector/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

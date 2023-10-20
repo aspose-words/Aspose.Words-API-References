@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Mueve el cursor al principio de un encabezado o pie de página en la sección actual.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words para .NET
+description: DocumentBuilder MoveToHeaderFooter método. Mueve el cursor al principio de un encabezado o pie de página en la sección actual en C#.
 type: docs
-weight: 550
+weight: 540
 url: /es/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Especifica el encabezado o pie de página al que moverse. |
 
-### Observaciones
+## Observaciones
 
 Después de mover el cursor a un encabezado o pie de página, puede usar el resto de[`DocumentBuilder`](../) métodos para modificar el contenido del encabezado o pie de página.
 
@@ -28,7 +30,7 @@ Si desea crear encabezados y pies de página diferentes para páginas pares e im
 
 Usar[`MoveToSection`](../movetosection/) para pasar del encabezado al texto principal.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

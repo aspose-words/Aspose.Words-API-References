@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un hipervínculo en el documento.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertHyperlink método. Inserta un hipervínculo en el documento en C#.
 type: docs
-weight: 370
+weight: 360
 url: /es/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que debe especificar el formato de fuente para el texto mostrado del hipervínculo explícitamente usando el[`Font`](../font/) propiedad.
 
 Este método llama internamente[`InsertField`](../insertfield/) para insertar un HIPERVÍNCULO de MS Word field en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un hipervínculo que haga referencia a un marcador local.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

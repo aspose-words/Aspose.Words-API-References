@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Framesets.Frameset clase. Representa una página de marcos o un solo marco en una página de marcos.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Framesets.Frameset clase. Representa una página de marcos o un solo marco en una página de marcos en C#.
 type: docs
 weight: 3080
 url: /es/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Obtiene o establece la URL de la página web o el nombre del archivo del documento para mostrar en este marco. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Obtiene o establece un valor que indica si la página web o el nombre del archivo del documento especificado en [`FrameDefaultUrl`](./framedefaulturl/) La propiedad es un recurso externo con el que el marco está vinculado. |
 
-### Observaciones
+## Observaciones
 
 Si el[`ChildFramesets`](./childframesets/) La propiedad contiene elementos; esta instancia es una página de marcos; de lo contrario, es un solo marco.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a los marcos en la página.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * espacio de nombres [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * asamblea [Aspose.Words](../../)
-
-

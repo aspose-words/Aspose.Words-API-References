@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlProperty propiedad. Especifica el nombre del atributo XML personalizado o propiedad de etiqueta inteligente.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words para .NET
+description: CustomXmlProperty Name propiedad. Especifica el nombre del atributo XML personalizado o propiedad de etiqueta inteligente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ Especifica el nombre del atributo XML personalizado o propiedad de etiqueta inte
 public string Name { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`.
 
 El valor predeterminado es una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear etiquetas inteligentes.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ver también
 
 * class [CustomXmlProperty](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlproperty/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

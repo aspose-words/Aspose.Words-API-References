@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Referencia de API de Aspose.Words para .NET
-description: DownsampleOptions propiedad. Especifica el umbral de resolución en píxeles por pulgada. Si la resolución de una imagen en el documento es inferior al valor umbral no se aplicará el algoritmo de reducción de resolución. Un valor de 0 significa que no se utiliza la verificación del umbral y todas las imágenes que se pueden reducir en tamaño y se reducen la resolución.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words para .NET
+description: DownsampleOptions ResolutionThreshold propiedad. Especifica el umbral de resolución en píxeles por pulgada. Si la resolución de una imagen en el documento es inferior al valor umbral no se aplicará el algoritmo de reducción de resolución. Un valor de 0 significa que no se utiliza la verificación del umbral y todas las imágenes que se pueden reducir en tamaño y se reducen la resolución en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ Especifica el umbral de resolución en píxeles por pulgada. Si la resolución d
 public int ResolutionThreshold { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 0.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar la resolución de las imágenes en el documento PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Ver también
 
 * class [DownsampleOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../downsampleoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

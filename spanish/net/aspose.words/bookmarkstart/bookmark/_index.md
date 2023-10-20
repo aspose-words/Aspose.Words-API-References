@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Bookmark
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkStart propiedad. Obtiene el objeto de fachada que encapsula el inicio y el final de este marcador.
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words para .NET
+description: BookmarkStart Bookmark propiedad. Obtiene el objeto de fachada que encapsula el inicio y el final de este marcador en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/bookmarkstart/bookmark/
@@ -14,7 +16,7 @@ Obtiene el objeto de fachada que encapsula el inicio y el final de este marcador
 public Bookmark Bookmark { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkStart](../)
-* espacio de nombres [Aspose.Words](../../bookmarkstart/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

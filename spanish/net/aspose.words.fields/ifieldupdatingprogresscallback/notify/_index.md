@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Referencia de API de Aspose.Words para .NET
-description: IFieldUpdatingProgressCallback método. Un método definido por el usuario que se llama cuando se cambia el progreso de la actualización.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words para .NET
+description: IFieldUpdatingProgressCallback Notify método. Un método definido por el usuario que se llama cuando se cambia el progreso de la actualización en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ Un método definido por el usuario que se llama cuando se cambia el progreso de 
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar métodos de devolución de llamada durante una actualización de campo.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* espacio de nombres [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

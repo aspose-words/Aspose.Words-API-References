@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldTC propiedad. Obtiene o establece si el número de página en la tabla de contenido debe omitirse para este campo.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words para .NET
+description: FieldTC OmitPageNumber propiedad. Obtiene o establece si el número de página en la tabla de contenido debe omitirse para este campo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ Obtiene o establece si el número de página en la tabla de contenido debe omiti
 public bool OmitPageNumber { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo TOC y filtrar qué campos TC terminan como entradas.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ver también
 
 * class [FieldTC](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

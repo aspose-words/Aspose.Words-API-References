@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Referencia de API de Aspose.Words para .NET
-description: IMailMergeCallback método. Se llama cuando las etiquetas de texto bigote se reemplazan con campos MERGEFIELD.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words para .NET
+description: IMailMergeCallback TagsReplaced método. Se llama cuando las etiquetas de texto bigote se reemplazan con campos MERGEFIELD en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ Se llama cuando las etiquetas de texto "bigote" se reemplazan con campos MERGEFI
 public void TagsReplaced()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para manejar eventos durante la combinación de correspondencia.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imailmergecallback/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

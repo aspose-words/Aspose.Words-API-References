@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece el evaluador de expresiones de comparación de campos.
+linktitle: ComparisonExpressionEvaluator
+articleTitle: ComparisonExpressionEvaluator
+second_title: Aspose.Words para .NET
+description: FieldOptions ComparisonExpressionEvaluator propiedad. Obtiene o establece el evaluador de expresiones de comparación de campos en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
@@ -14,7 +16,7 @@ Obtiene o establece el evaluador de expresiones de comparación de campos.
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo implementar una evaluación personalizada para los campos SI y COMPARAR.
 
@@ -99,7 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldoptions/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

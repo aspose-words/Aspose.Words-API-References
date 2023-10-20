@@ -1,7 +1,9 @@
 ---
 title: Node.NextPreOrder
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados.
+linktitle: NextPreOrder
+articleTitle: NextPreOrder
+second_title: Aspose.Words para .NET
+description: Node NextPreOrder método. Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/node/nextpreorder/
@@ -22,7 +24,7 @@ public Node NextPreOrder(Node rootNode)
 
 Siguiente nodo en orden de reserva. Nulo si se alcanza el*rootNode*.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos del documento utilizando el algoritmo transversal de pedido previo y eliminar cualquier forma encontrada con una imagen.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Ver también
 
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

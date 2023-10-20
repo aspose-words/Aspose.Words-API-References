@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.GetChildNodes
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart método. Devuelve una colección activa de nodos secundarios que coinciden con los tipos especificados.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart GetChildNodes método. Devuelve una colección activa de nodos secundarios que coinciden con los tipos especificados en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
@@ -14,7 +16,7 @@ Devuelve una colección activa de nodos secundarios que coinciden con los tipos 
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener nodos secundarios de StructuredDocumentTagRangeStart.
 
@@ -38,7 +40,5 @@ foreach (Node node in tag.GetChildNodes(NodeType.Run, true))
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

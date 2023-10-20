@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow clase. Proporciona datos para elFieldDatabase resultado de campo. Por favor miraDataRow instancia.
+title: FieldDatabaseDataRow Class
+linktitle: FieldDatabaseDataRow
+articleTitle: FieldDatabaseDataRow
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldDatabaseDataRow clase. Proporciona datos para elFieldDatabase resultado de campo. Por favor miraDataRow instancia en C#.
 type: docs
 weight: 1750
 url: /es/net/aspose.words.fields/fielddatabasedatarow/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataRow
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Inicializa una nueva instancia del`FieldDatabaseDataRow` clase. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Inicializa una nueva instancia del`FieldDatabaseDataRow` clase. |
 
 ## Propiedades
 
@@ -32,11 +34,9 @@ public class FieldDatabaseDataRow
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Inicializa una nueva instancia del`FieldDatabaseDataRow` class delDataRow instancia. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Inicializa una nueva instancia del`FieldDatabaseDataRow` class delDataRow instancia. |
 
 ### Ver también
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

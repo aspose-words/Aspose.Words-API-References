@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleName
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el nombre del estilo de párrafo aplicado a este formato.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words para .NET
+description: ParagraphFormat StyleName propiedad. Obtiene o establece el nombre del estilo de párrafo aplicado a este formato en C#.
 type: docs
 weight: 360
 url: /es/net/aspose.words/paragraphformat/stylename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del estilo de párrafo aplicado a este formato.
 public string StyleName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

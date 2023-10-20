@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSavingArgs propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la imagen.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words para .NET
+description: ImageSavingArgs ImageFileName propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la imagen en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/imagesavingargs/imagefilename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del archivo (sin ruta) donde se guardará la image
 public string ImageFileName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite redefinir cómo se generan los nombres de los archivos de imagen durante la exportación a HTML.
 
@@ -28,7 +30,7 @@ Al guardar un documento en una secuencia, el nombre del archivo de imagen genera
 
 `ImageFileName` debe contener solo el nombre del archivo sin la ruta. Aspose.Words determina la ruta para guardar y el valor del`src` atributo para escribir en HTML usando el nombre del archivo del documento, el[`ImagesFolder`](../../htmlsaveoptions/imagesfolder/) y [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias/) propiedades.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dividir un documento en partes y guardarlas.
 
@@ -145,7 +147,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ver también
 
 * class [ImageSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

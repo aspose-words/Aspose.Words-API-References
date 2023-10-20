@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeSettings clase. Especifica toda la información de combinación de correspondencia de un documento.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.MailMergeSettings clase. Especifica toda la información de combinación de correspondencia de un documento en C#.
 type: docs
 weight: 5850
 url: /es/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Borra la configuración de combinación de correspondencia de tal manera que cuando se guarde el documento, no se guardará ninguna configuración de combinación de correspondencia y se convertirá en un documento normal. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Devuelve un clon profundo de este objeto. |
 
-### Observaciones
+## Observaciones
 
 Puede usar este objeto para especificar una fuente de datos de combinación de correspondencia para un documento y esta información (junto con los campos de datos disponibles) aparecerá en Microsoft Word cuando el usuario abra este documento. O puede usar este objeto para consultar la configuración de combinación de correspondencia que el usuario ha especificado en Microsoft Word para este documento.
 
@@ -64,7 +66,7 @@ La mejor manera de aprender a usar las propiedades de este objeto es crear un do
 
 Aspose.Words conserva la información de combinación de correspondencia al cargar, guardar y convertir documentos entre diferentes formatos, pero no utiliza esta información cuando realiza su propia combinación de correspondencia usando el[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.NodeList clase. Representa una colección de nodos que coinciden con una consulta XPath ejecutada utilizando elSelectNodes método.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words para .NET
+description: Aspose.Words.NodeList clase. Representa una colección de nodos que coinciden con una consulta XPath ejecutada utilizando elSelectNodes método en C#.
 type: docs
 weight: 4220
 url: /es/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Copia todos los nodos de la colección en una nueva matriz de nodos. |
 
-### Observaciones
+## Observaciones
 
 `NodeList` es devuelto por[`SelectNodes`](../compositenode/selectnodes/) y contiene una colección de nodos que coinciden con la consulta XPath.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 Tratar el`NodeList` colección como una colección "instantánea".`NodeList`comienza como una colección "activa" porque los nodos en realidad no se recuperan cuando se ejecuta la consulta XPath. Los nodos sólo se recuperan al acceder y en este momento el nodo y todos los nodos que lo preceden se almacenan en caché formando una colección "instantánea".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo encontrar todos los hipervínculos en un documento de Word y luego cambiar sus URL y nombres para mostrar.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLevel propiedad. Devuelve o establece la posición en puntos del número o viñeta para el nivel de lista.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words para .NET
+description: ListLevel NumberPosition propiedad. Devuelve o establece la posición en puntos del número o viñeta para el nivel de lista en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ Devuelve o establece la posición (en puntos) del número o viñeta para el nive
 public double NumberPosition { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 `NumberPosition` corresponde a LeftIndent más FirstLineIndent del párrafo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Ver también
 
 * class [ListLevel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlevel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

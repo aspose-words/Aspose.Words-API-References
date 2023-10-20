@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Determina cómo se exportan los marcadores en encabezados/pies de página.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode propiedad. Determina cómo se exportan los marcadores en encabezados/pies de página en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ Determina cómo se exportan los marcadores en encabezados/pies de página.
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esAll.
 
 Esta propiedad se utiliza junto con la[`OutlineOptions`](../outlineoptions/) opción.
 
-### Ejemplos
+## Ejemplos
 
 Se muestra cómo procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

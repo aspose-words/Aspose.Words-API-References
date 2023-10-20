@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag método. Borra el contenido de esta etiqueta de documento estructurado y muestra un marcador de posición si está definido.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Clear método. Borra el contenido de esta etiqueta de documento estructurado y muestra un marcador de posición si está definido en C#.
 type: docs
-weight: 360
+weight: 340
 url: /es/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ Borra el contenido de esta etiqueta de documento estructurado y muestra un marca
 public void Clear()
 ```
 
-### Observaciones
+## Observaciones
 
 No es posible borrar el contenido de una etiqueta de documento estructurado si tiene revisiones.
 
 Si esta etiqueta de documento estructurado se asigna a XML personalizado (con el uso del[`XmlMapping`](../xmlmapping/) propiedad), se borra el nodo XML al que se hace referencia.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar el contenido de elementos de etiquetas de documentos estructurados.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

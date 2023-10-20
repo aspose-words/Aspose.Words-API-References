@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: XpsSaveOptions propiedad. Permite especificar opciones de contorno.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words para .NET
+description: XpsSaveOptions OutlineOptions propiedad. Permite especificar opciones de contorno en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ Permite especificar opciones de contorno.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) La opción no funcionará al guardar en XPS.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo limitar el nivel de los encabezados que aparecerán en el esquema de un documento XPS guardado.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../xpssaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

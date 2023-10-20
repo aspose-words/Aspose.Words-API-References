@@ -1,7 +1,9 @@
 ---
 title: WebExtensionProperty.Value
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtensionProperty propiedad. Especifica un valor de propiedad personalizado.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words para .NET
+description: WebExtensionProperty Value propiedad. Especifica un valor de propiedad personalizado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.webextensions/webextensionproperty/value/
@@ -17,7 +19,5 @@ public string Value { get; set; }
 ### Ver también
 
 * class [WebExtensionProperty](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

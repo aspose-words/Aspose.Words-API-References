@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.IBarcodeGenerator interfaz. Interfaz pública para generador personalizado de códigos de barras. La implementación debe ser proporcionada por el usuario.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.IBarcodeGenerator interfaz. Interfaz pública para generador personalizado de códigos de barras. La implementación debe ser proporcionada por el usuario en C#.
 type: docs
 weight: 2660
 url: /es/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Generar imagen de código de barras utilizando el conjunto de parámetros (para el campo DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Generar imagen de código de barras utilizando el conjunto de parámetros (para el campo de código de barras antiguo). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generar imagen de código de barras utilizando el conjunto de parámetros (para el campo DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generar imagen de código de barras utilizando el conjunto de parámetros (para el campo de código de barras antiguo). |
 
-### Observaciones
+## Observaciones
 
 La instancia del generador debe pasarse a través del[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

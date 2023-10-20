@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveTabs
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc propiedad. Obtiene o establece si se deben conservar las entradas de tabulación dentro de las entradas de la tabla.
+linktitle: PreserveTabs
+articleTitle: PreserveTabs
+second_title: Aspose.Words para .NET
+description: FieldToc PreserveTabs propiedad. Obtiene o establece si se deben conservar las entradas de tabulación dentro de las entradas de la tabla en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/fieldtoc/preservetabs/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben conservar las entradas de tabulación dentro de 
 public bool PreserveTabs { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

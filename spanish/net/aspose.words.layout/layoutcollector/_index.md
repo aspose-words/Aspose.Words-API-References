@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.LayoutCollector clase. Esta clase permite calcular números de página de nodos de documentos.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.LayoutCollector clase. Esta clase permite calcular números de página de nodos de documentos en C#.
 type: docs
 weight: 3320
 url: /es/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | Nombre | Descripción |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | Inicializa una instancia de esta clase. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | Inicializa una instancia de esta clase. |
 
 ## Propiedades
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | Nombre | Descripción |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Borra todos los datos de diseño recopilados. Llame a este método después de que el documento se haya actualizado manualmente o se haya reconstruido el diseño. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Devuelve una posición opaca del[`LayoutEnumerator`](../layoutenumerator/) que corresponde al nodo especificado. Puede utilizar el valor devuelto como argumento para[`Current`](../layoutenumerator/current/) dado que el documento que se está enumerando y el documento del nodo son el mismo. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo está dentro de una sola página. Esto es lo mismo que[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Obtiene el índice basado en 1 de la página donde comienza el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Devuelve una posición opaca del[`LayoutEnumerator`](../layoutenumerator/) que corresponde al nodo especificado. Puede utilizar el valor devuelto como argumento para[`Current`](../layoutenumerator/current/) dado que el documento que se está enumerando y el documento del nodo son el mismo. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo está dentro de una sola página. Esto es lo mismo que[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Obtiene el índice basado en 1 de la página donde comienza el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
 
-### Observaciones
+## Observaciones
 
 Cuando creas un`LayoutCollector` y especificar un[`Document`](../../aspose.words/document/) objeto de documento al que adjuntar, el recopilador registrará la asignación de nodos de documento a objetos de diseño cuando el documento se formatee en páginas.
 
@@ -46,7 +48,7 @@ Podrá averiguar en qué página se encuentra un nodo de documento en particular
 
 Cuando ya no necesite recopilar información de diseño, es mejor configurar el[`Document`](./document/) propiedad a`nulo` para evitar la recopilación innecesaria de más asignaciones de diseño.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

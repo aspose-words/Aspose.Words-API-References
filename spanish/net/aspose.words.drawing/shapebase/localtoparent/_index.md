@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LocalToParent
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase método. Convierte un valor del espacio de coordenadas local al espacio de coordenadas de la forma principal.
+linktitle: LocalToParent
+articleTitle: LocalToParent
+second_title: Aspose.Words para .NET
+description: ShapeBase LocalToParent método. Convierte un valor del espacio de coordenadas local al espacio de coordenadas de la forma principal en C#.
 type: docs
 weight: 670
 url: /es/net/aspose.words.drawing/shapebase/localtoparent/
@@ -14,7 +16,7 @@ Convierte un valor del espacio de coordenadas local al espacio de coordenadas de
 public PointF LocalToParent(PointF value)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trasladar la ubicación de las coordenadas xey en el plano de coordenadas de una forma a una ubicación en el plano de coordenadas de la forma principal.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.LocalToParent.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

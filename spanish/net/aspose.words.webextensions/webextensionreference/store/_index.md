@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Store
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtensionReference propiedad. Especifica la instancia del mercado donde se almacena la extensión web.
+linktitle: Store
+articleTitle: Store
+second_title: Aspose.Words para .NET
+description: WebExtensionReference Store propiedad. Especifica la instancia del mercado donde se almacena la extensión web en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.webextensions/webextensionreference/store/
@@ -14,7 +16,7 @@ Especifica la instancia del mercado donde se almacena la extensión web.
 public string Store { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [WebExtensionReference](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextensionreference/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

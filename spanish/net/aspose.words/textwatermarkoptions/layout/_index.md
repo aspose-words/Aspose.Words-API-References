@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextWatermarkOptions propiedad. Obtiene o establece el diseño de la marca de agua. El valor predeterminado esDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words para .NET
+description: TextWatermarkOptions Layout propiedad. Obtiene o establece el diseño de la marca de agua. El valor predeterminado esDiagonal  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ Obtiene o establece el diseño de la marca de agua. El valor predeterminado esDi
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* espacio de nombres [Aspose.Words](../../textwatermarkoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

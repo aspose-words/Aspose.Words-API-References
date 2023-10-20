@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.TxtListIndentation clase. Especifica cómo se sangran los niveles de la lista cuando el documento se exporta aText formato.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.TxtListIndentation clase. Especifica cómo se sangran los niveles de la lista cuando el documento se exporta aText formato en C#.
 type: docs
 weight: 5650
 url: /es/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Obtiene o establece qué carácter usar para sangrar los niveles de la lista. El valor predeterminado es '\0', eso significa que no hay sangría. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Obtiene o establece cuántos[`Character`](./character/) para usar como sangría por nivel de lista. El valor predeterminado es 0, eso significa que no hay sangría. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la sangría de lista al guardar un documento en texto sin formato.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

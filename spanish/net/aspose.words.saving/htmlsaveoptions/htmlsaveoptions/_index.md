@@ -1,7 +1,9 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elHtml formato.
+title: HtmlSaveOptions
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elHtml formato en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
@@ -14,7 +16,7 @@ Inicializa una nueva instancia de esta clase que se puede utilizar para guardar 
 public HtmlSaveOptions()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una codificación específica al guardar un documento en .epub.
 
@@ -41,12 +43,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elHtml ,Mhtml ,Epub , Azw3 oMobi formato.
 
@@ -58,7 +60,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Puede serHtml ,Mhtml ,Epub , Azw3 oMobi . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en una versión específica de HTML.
 
@@ -95,7 +97,5 @@ switch (htmlVersion)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

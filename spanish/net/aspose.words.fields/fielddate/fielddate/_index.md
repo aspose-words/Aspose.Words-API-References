@@ -1,7 +1,9 @@
 ---
-title: FieldDate.FieldDate
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDate constructor. Constructor predeterminado
+title: FieldDate
+linktitle: FieldDate
+articleTitle: FieldDate
+second_title: Aspose.Words para .NET
+description: FieldDate constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddate/fielddate/
@@ -17,7 +19,5 @@ public FieldDate()
 ### Ver también
 
 * class [FieldDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

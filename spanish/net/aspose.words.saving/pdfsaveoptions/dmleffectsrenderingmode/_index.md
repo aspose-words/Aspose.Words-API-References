@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DmlEffectsRenderingMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina cómo se representan los efectos de DrawingML.
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions DmlEffectsRenderingMode propiedad. Obtiene o establece un valor que determina cómo se representan los efectos de DrawingML en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina cómo se representan los efectos de D
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esSimplified .
 
@@ -22,7 +24,7 @@ Esta propiedad se utiliza cuando el documento se exporta a formatos de página f
 
 Si[`Compliance`](../compliance/) se establece enPdfA1a oPdfA1b , la propiedad siempre devuelveNone.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la calidad de representación de los efectos de DrawingML en un documento mientras lo guardamos en PDF.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

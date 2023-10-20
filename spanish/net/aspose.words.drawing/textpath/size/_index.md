@@ -1,7 +1,9 @@
 ---
 title: TextPath.Size
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextPath propiedad. Define el tamaño de la fuente en puntos.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words para .NET
+description: TextPath Size propiedad. Define el tamaño de la fuente en puntos en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing/textpath/size/
@@ -14,14 +16,12 @@ Define el tamaño de la fuente en puntos.
 public double Size { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 36.
 
 ### Ver también
 
 * class [TextPath](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textpath/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

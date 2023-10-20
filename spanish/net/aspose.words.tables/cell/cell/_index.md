@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell constructor. Inicializa una nueva instancia delCell clase.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words para .NET
+description: Cell constructor. Inicializa una nueva instancia delCell clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Cell`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo`.
 
-Para anexar[`Cell`](../) al uso del documentoNode) oNode) en la fila donde desea insertar la celda.
+Para anexar[`Cell`](../) al uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) en la fila donde desea insertar la celda.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla anidada sin utilizar un generador de documentos.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

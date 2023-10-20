@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartAxis clase. Representa las opciones de eje del gráfico.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis clase. Representa las opciones de eje del gráfico en C#.
 type: docs
 weight: 630
 url: /es/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Proporciona acceso a las propiedades del título del eje. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Devuelve el tipo del eje. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

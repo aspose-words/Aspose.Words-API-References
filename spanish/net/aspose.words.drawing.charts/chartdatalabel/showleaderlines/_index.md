@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabel propiedad. Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado esFALSO .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words para .NET
+description: ChartDataLabel ShowLeaderLines propiedad. Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ Permite especificar si es necesario mostrar las líneas guía de la etiqueta de 
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Se aplica únicamente a gráficos circulares. Las líneas guía crean una conexión visual entre una etiqueta de datos y su punto de datos correspondiente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ver también
 
 * class [ChartDataLabel](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Proporciona acceso a las opciones de escala del eje.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words para .NET
+description: ChartAxis Scaling propiedad. Proporciona acceso a las opciones de escala del eje en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ Proporciona acceso a las opciones de escala del eje.
 public AxisScaling Scaling { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

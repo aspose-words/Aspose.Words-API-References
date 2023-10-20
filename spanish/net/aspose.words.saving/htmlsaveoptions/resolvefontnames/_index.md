@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si los nombres de familias de fuentes utilizados en el documento se resuelven y sustituyen de acuerdo con FontSettings cuando se escribe en formatos basados en HTML.
+linktitle: ResolveFontNames
+articleTitle: ResolveFontNames
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ResolveFontNames propiedad. Especifica si los nombres de familias de fuentes utilizados en el documento se resuelven y sustituyen de acuerdo con FontSettings cuando se escribe en formatos basados en HTML en C#.
 type: docs
 weight: 410
 url: /es/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
@@ -14,13 +16,13 @@ Especifica si los nombres de familias de fuentes utilizados en el documento se r
 public bool ResolveFontNames { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, esta opción está configurada en`FALSO` y los nombres de las familias de fuentes se escriben en HTML como se especifica en los documentos fuente. Eso es,[`FontSettings`](../../../aspose.words/document/fontsettings/) se ignoran y no se realiza ninguna resolución o sustitución de nombres de familias de fuentes.
 
 Si esta opción está configurada en`verdadero` , Aspose. Usos de palabras[`FontSettings`](../../../aspose.words/document/fontsettings/) para resolver cada nombre de familia de fuentes especificado en un documento fuente en el nombre de una familia de fuentes disponible, realizando la sustitución de fuentes según sea necesario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver todos los nombres de fuentes antes de escribirlos en HTML.
 
@@ -64,7 +66,5 @@ Assert.True(resolveFontNames
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

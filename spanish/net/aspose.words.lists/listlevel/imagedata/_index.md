@@ -1,7 +1,9 @@
 ---
 title: ListLevel.ImageData
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLevel propiedad. Devuelve datos de imagen de la forma de viñeta de imagen para el nivel de lista actual.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words para .NET
+description: ListLevel ImageData propiedad. Devuelve datos de imagen de la forma de viñeta de imagen para el nivel de lista actual en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.lists/listlevel/imagedata/
@@ -14,7 +16,7 @@ Devuelve datos de imagen de la forma de viñeta de imagen para el nivel de lista
 public ImageData ImageData { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si este nivel no define la viñeta de la imagen, devuelve`nulo` . Antes de configurar una nueva imagen para una forma de viñeta sin imagen, utilice[`CreatePictureBullet`](../createpicturebullet/) método primero.
 
@@ -22,7 +24,5 @@ Si este nivel no define la viñeta de la imagen, devuelve`nulo` . Antes de confi
 
 * class [ImageData](../../../aspose.words.drawing/imagedata/)
 * class [ListLevel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlevel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsExportNeeded
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Permite especificar si la fuente actual se exportará como recurso de fuente. El valor predeterminado esverdadero .
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words para .NET
+description: FontSavingArgs IsExportNeeded propiedad. Permite especificar si la fuente actual se exportará como recurso de fuente. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Permite especificar si la fuente actual se exportará como recurso de fuente. El
 public bool IsExportNeeded { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

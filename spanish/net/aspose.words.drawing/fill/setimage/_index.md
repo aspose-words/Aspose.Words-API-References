@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill método. Cambia el tipo de relleno a una sola imagen.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words para .NET
+description: Fill SetImage método. Cambia el tipo de relleno a una sola imagen en C#.
 type: docs
-weight: 250
+weight: 240
 url: /es/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Cambia el tipo de relleno a una sola imagen.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | La ruta al archivo de imagen. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el tipo de relleno de forma como imagen.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Cambia el tipo de relleno a una sola imagen.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Cambia el tipo de relleno a una sola imagen.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PixelFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece el formato de píxeles de las imágenes generadas.
+linktitle: PixelFormat
+articleTitle: PixelFormat
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions PixelFormat propiedad. Obtiene o establece el formato de píxeles de las imágenes generadas en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.saving/imagesaveoptions/pixelformat/
@@ -14,7 +16,7 @@ Obtiene o establece el formato de píxeles de las imágenes generadas.
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad tiene efecto sólo al guardar en formatos de imagen rasterizada.
 
@@ -22,7 +24,7 @@ El valor predeterminado esFormat32BppArgb.
 
 El formato de píxeles de la imagen de salida puede diferir del valor establecido debido al trabajo de GDI+.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar una velocidad de bits por píxel con la que representar un documento en una imagen.
 
@@ -88,7 +90,5 @@ Document doc = new Document();
 
 * enum [ImagePixelFormat](../../imagepixelformat/)
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

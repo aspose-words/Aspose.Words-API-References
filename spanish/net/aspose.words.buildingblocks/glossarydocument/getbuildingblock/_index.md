@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Referencia de API de Aspose.Words para .NET
-description: GlossaryDocument método. Encuentra un bloque de creación utilizando la galería la categoría y el nombre especificados.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words para .NET
+description: GlossaryDocument GetBuildingBlock método. Encuentra un bloque de creación utilizando la galería la categoría y el nombre especificados en C#.
 type: docs
-weight: 90
+weight: 70
 url: /es/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 El bloque de construcción correspondiente o`nulo` si no se encontró una coincidencia.
 
-### Observaciones
+## Observaciones
 
 Este es un método conveniente que itera sobre todos los bloques de construcción en esta colección y devuelve el primer bloque de construcción que coincide con la galería, categoría y nombre especificados.
 
 Microsoft Word organiza los bloques de construcción en galerías. Las galerías están predefinidas usando el[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Dentro de cada galería, los bloques de construcción se pueden organizar en una o más categorías. El nombre de la categoría es una cadena. Cada bloque de construcción tiene un nombre. No se garantiza que un nombre de building block sea único.
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

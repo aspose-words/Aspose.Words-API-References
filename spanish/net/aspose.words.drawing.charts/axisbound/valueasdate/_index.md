@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ValueAsDate
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisBound propiedad. Devuelve el valor del límite del eje representado como fecha y hora.
+linktitle: ValueAsDate
+articleTitle: ValueAsDate
+second_title: Aspose.Words para .NET
+description: AxisBound ValueAsDate propiedad. Devuelve el valor del límite del eje representado como fecha y hora en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -14,7 +16,7 @@ Devuelve el valor del límite del eje representado como fecha y hora.
 public DateTime ValueAsDate { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer límites de eje personalizados.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

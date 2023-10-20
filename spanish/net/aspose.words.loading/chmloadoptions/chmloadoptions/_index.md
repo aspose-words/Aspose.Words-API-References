@@ -1,7 +1,9 @@
 ---
-title: ChmLoadOptions.ChmLoadOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChmLoadOptions constructor. Inicializa una nueva instancia de esta clase con valores predeterminados.
+title: ChmLoadOptions
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words para .NET
+description: ChmLoadOptions constructor. Inicializa una nueva instancia de esta clase con valores predeterminados en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.loading/chmloadoptions/chmloadoptions/
@@ -17,7 +19,5 @@ public ChmLoadOptions()
 ### Ver también
 
 * class [ChmLoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../chmloadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

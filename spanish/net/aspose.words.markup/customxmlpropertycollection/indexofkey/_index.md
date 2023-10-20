@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPropertyCollection método. Devuelve el índice de base cero de la propiedad especificada en la colección.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words para .NET
+description: CustomXmlPropertyCollection IndexOfKey método. Devuelve el índice de base cero de la propiedad especificada en la colección en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 El índice de base cero. Valor negativo si no se encuentra.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de etiquetas inteligentes para obtener información detallada sobre las etiquetas inteligentes.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [CustomXmlPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

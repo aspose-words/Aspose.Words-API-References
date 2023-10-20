@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisZ
-second_title: Referencia de API de Aspose.Words para .NET
-description: Chart propiedad. Proporciona acceso a las propiedades del eje Z del gráfico.
+linktitle: AxisZ
+articleTitle: AxisZ
+second_title: Aspose.Words para .NET
+description: Chart AxisZ propiedad. Proporciona acceso a las propiedades del eje Z del gráfico en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.charts/chart/axisz/
@@ -14,7 +16,7 @@ Proporciona acceso a las propiedades del eje Z del gráfico.
 public ChartAxis AxisZ { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chart/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

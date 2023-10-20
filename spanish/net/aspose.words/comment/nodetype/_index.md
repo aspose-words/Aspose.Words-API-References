@@ -1,7 +1,9 @@
 ---
 title: Comment.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Comment propiedad. DevolucionesComment .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Comment NodeType propiedad. DevolucionesComment  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/comment/nodetype/
@@ -14,7 +16,7 @@ DevolucionesComment .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Comment](../)
-* espacio de nombres [Aspose.Words](../../comment/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

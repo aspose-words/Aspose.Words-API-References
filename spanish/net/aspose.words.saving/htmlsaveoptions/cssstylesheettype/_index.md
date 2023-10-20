@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetType
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica cómo se exportan los estilos CSS Hoja de estilos en cascada a HTML MHTML o EPUB. El valor predeterminado esInline para HTML/MHTML y External para EPUB.
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions CssStyleSheetType propiedad. Especifica cómo se exportan los estilos CSS Hoja de estilos en cascada a HTML MHTML o EPUB. El valor predeterminado esInline para HTML/MHTML y External para EPUB en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -14,11 +16,11 @@ Especifica cómo se exportan los estilos CSS (Hoja de estilos en cascada) a HTML
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Guardar una hoja de estilo CSS en un archivo externo solo se admite cuando se guarda en HTML. Cuando exporta a uno de los formatos contenedores (EPUB o MHTML) y especifica External, el archivo CSS se encapsulará en el paquete de salida.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con hojas de estilo CSS que crea una conversión HTML.
 
@@ -81,7 +83,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetFileName](../cssstylesheetfilename/)
 * enum [CssStyleSheetType](../../cssstylesheettype/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

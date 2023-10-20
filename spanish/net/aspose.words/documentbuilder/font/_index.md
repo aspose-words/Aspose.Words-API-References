@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devuelve un objeto que representa las propiedades de formato de fuente actuales.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: DocumentBuilder Font propiedad. Devuelve un objeto que representa las propiedades de formato de fuente actuales en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ Devuelve un objeto que representa las propiedades de formato de fuente actuales.
 public Font Font { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Usar`Font` para acceder y modificar las propiedades de formato de fuente.
 
 Especifique el formato de fuente antes de insertar texto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una cadena rodeada por un borde en un documento.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

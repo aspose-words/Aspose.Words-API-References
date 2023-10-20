@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Clone
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientData método. Devuelve un clon profundo de este objeto.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words para .NET
+description: OdsoRecipientData Clone método. Devuelve un clon profundo de este objeto en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.settings/odsorecipientdata/clone/
@@ -14,7 +16,7 @@ Devuelve un clon profundo de este objeto.
 public OdsoRecipientData Clone()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica el tipo de informe de errores que realizará Microsoft Word al realizar una combinación de correspondencia. El valor predeterminado esDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words para .NET
+description: MailMergeSettings CheckErrors propiedad. Especifica el tipo de informe de errores que realizará Microsoft Word al realizar una combinación de correspondencia. El valor predeterminado esDefault  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ Especifica el tipo de informe de errores que realizará Microsoft Word al realiz
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

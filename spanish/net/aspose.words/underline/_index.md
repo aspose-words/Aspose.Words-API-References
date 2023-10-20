@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Underline enumeración. Indica el tipo de subrayado aplicado a una fuente.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Underline enumeración. Indica el tipo de subrayado aplicado a una fuente en C#.
 type: docs
 weight: 6510
 url: /es/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de hipervínculo.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

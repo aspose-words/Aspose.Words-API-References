@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Llamado cuando unAbsolutePositionTab Se encuentra un nodo en el documento.
+linktitle: VisitAbsolutePositionTab
+articleTitle: VisitAbsolutePositionTab
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitAbsolutePositionTab método. Llamado cuando unAbsolutePositionTab Se encuentra un nodo en el documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/documentvisitor/visitabsolutepositiontab/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo procesar caracteres de tabulación de posición absoluta con un visitante del documento.
 
@@ -100,7 +102,5 @@ public class DocTextExtractor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [AbsolutePositionTab](../../absolutepositiontab/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

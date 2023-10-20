@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIndexFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldIndexFormat enumeración. Especifica el formato delFieldIndex campos en un documento.
+title: FieldIndexFormat Enum
+linktitle: FieldIndexFormat
+articleTitle: FieldIndexFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldIndexFormat enumeración. Especifica el formato delFieldIndex campos en un documento en C#.
 type: docs
 weight: 2070
 url: /es/net/aspose.words.fields/fieldindexformat/
@@ -30,5 +32,3 @@ public enum FieldIndexFormat
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

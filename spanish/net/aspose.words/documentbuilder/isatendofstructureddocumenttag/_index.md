@@ -1,20 +1,22 @@
 ---
 title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devoluciones verdadero si el cursor está al final de una etiqueta de documento estructurado.
+linktitle: IsAtEndOfStructuredDocumentTag
+articleTitle: IsAtEndOfStructuredDocumentTag
+second_title: Aspose.Words para .NET
+description: DocumentBuilder IsAtEndOfStructuredDocumentTag propiedad. Devolucionesverdadero si el cursor está al final de una etiqueta de documento estructurado en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
 
-Devoluciones **verdadero** si el cursor está al final de una etiqueta de documento estructurado.
+Devoluciones**verdadero** si el cursor está al final de una etiqueta de documento estructurado.
 
 ```csharp
 public bool IsAtEndOfStructuredDocumentTag { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mover el cursor de DocumentBuilder dentro de una etiqueta de documento estructurado.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Contiene la cadena del lenguaje de consulta estructurado que se ejecutará en la fuente de datos externa especificada para devolver el conjunto de registros que se importarán al documento cuando se realice la operación de combinación de correspondencia. El valor predeterminado es una cadena vacía.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words para .NET
+description: MailMergeSettings Query propiedad. Contiene la cadena del lenguaje de consulta estructurado que se ejecutará en la fuente de datos externa especificada para devolver el conjunto de registros que se importarán al documento cuando se realice la operación de combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ Contiene la cadena del lenguaje de consulta estructurado que se ejecutará en la
 public string Query { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

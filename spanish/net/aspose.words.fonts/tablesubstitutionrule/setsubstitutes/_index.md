@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableSubstitutionRule método. Anular nombres de fuente sustitutos para el nombre de fuente original dado.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words para .NET
+description: TableSubstitutionRule SetSubstitutes método. Anular nombres de fuente sustitutos para el nombre de fuente original dado en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Nombre de fuente original. |
 | substituteFontNames | String[] | Lista de nombres de fuentes alternativas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer reglas de sustitución de fuentes.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ver también
 
 * class [TableSubstitutionRule](../)
-* espacio de nombres [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-
