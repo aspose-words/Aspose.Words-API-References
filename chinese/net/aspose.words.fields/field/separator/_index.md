@@ -1,25 +1,26 @@
 ---
 title: Field.Separator
-second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取表示字段分隔符的节点可无效的.
+linktitle: Separator
+articleTitle: Separator
+second_title: 用于 .NET 的 Aspose.Words
+description: Field Separator 财产. 获取表示字段分隔符的节点可以为空 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-获取表示字段分隔符的节点。可`无效的`.
+获取表示字段分隔符的节点。可以为空。
 
 ```csharp
 public FieldSeparator Separator { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用字段集合。
 
 ```csharp
-public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -58,7 +59,6 @@ public void FieldCollection()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
-}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。
@@ -118,7 +118,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

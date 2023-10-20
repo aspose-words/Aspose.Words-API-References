@@ -1,14 +1,16 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.IPageLayoutCallback 界面. 如果您想在构建和渲染页面布局模型期间调用自己的自定义方法请实现此接口
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.IPageLayoutCallback 界面. 如果您想在页面布局模型的构建和渲染过程中调用自己的自定义方法请实现此接口 在 C#.
 type: docs
 weight: 3310
 url: /zh/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-如果您想在构建和渲染页面布局模型期间调用自己的自定义方法，请实现此接口。
+如果您想在页面布局模型的构建和渲染过程中调用自己的自定义方法，请实现此接口。
 
 ```csharp
 public interface IPageLayoutCallback
@@ -18,23 +20,24 @@ public interface IPageLayoutCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | 调用此函数以通知布局构建和渲染进度。 |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | 调用它来通知布局构建和渲染进度。 |
 
-### 评论
+## 评论
 
 此接口的主要用途是允许应用程序代码中止构建过程。
 
-可以在文档开头仅构建几个页面的页面布局模型，然后中止进程并仅渲染已经构建的内容。
+可以在文档开始时仅为几页构建页面布局模型，然后中止进程并仅呈现已经构建的内容。
 
-但请注意，如果进程已完成，渲染结果可能与每个页面渲染的结果不匹配。
+但是请注意，如果进程完成，渲染结果可能与每个页面的渲染结果不匹配。
 
 此技术可能不适用于每个文档，或者可能完全失败。
 
-### 例子
+## 例子
 
 展示如何使用布局回调跟踪布局更改。
 
 ```csharp
+[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -51,7 +54,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// 当我们将文档保存为固定页面格式时通知我们
-/// 并渲染一个页面，我们将其执行页面回流到本地文件系统中的图像。
+/// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {
@@ -98,5 +101,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

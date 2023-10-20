@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 财产. 返回属性的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty Name 财产. 返回属性的名称 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.properties/documentproperty/name/
@@ -14,22 +16,22 @@ url: /zh/net/aspose.words.properties/documentproperty/name/
 public string Name { get; }
 ```
 
-### 评论
+## 评论
 
-不可能是`无效的`并且不能为空字符串。
+不能为 null，也不能为空字符串。
 
-### 例子
+## 例子
 
-展示如何使用内置文档属性。
+显示如何使用内置文档属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// “Document”对象在其成员中包含一些元数据。
+// “文档”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// 该文档还将元数据存储在其内置属性中。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 文档还在其内置属性中存储元数据。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### 也可以看看
 
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

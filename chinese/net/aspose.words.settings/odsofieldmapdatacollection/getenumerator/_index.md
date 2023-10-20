@@ -1,28 +1,30 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapDataCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapDataCollection GetEnumerator 方法. 返回一个可用于迭代集合中所有项目的枚举器对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 ---
 ## OdsoFieldMapDataCollection.GetEnumerator method
 
-返回一个枚举器对象，可用于迭代集合中的所有项目。
+返回一个可用于迭代集合中所有项目的枚举器对象。
 
 ```csharp
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 该集合定义邮件合并如何映射数据源中的列
-// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射来自数据源的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -48,7 +50,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次性清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

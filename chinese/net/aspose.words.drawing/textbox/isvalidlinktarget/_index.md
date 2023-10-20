@@ -1,22 +1,24 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 方法. 确定这是否TextBox可以链接到目标TextBox.
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox IsValidLinkTarget 方法. 判断这个TextBox是否可以链接到目标Textbox 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-确定这是否[`TextBox`](../)可以链接到目标[`TextBox`](../).
+判断这个TextBox是否可以链接到目标Textbox。
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### 例子
+## 例子
 
-展示如何链接文本框。
+显示如何链接文本框。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// 只有空文本框才可以有链接。
+// 只有空文本框可以有链接。
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +64,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // 断开textBox2和textBox3之间的前向链接，然后验证它们不再链接。
+    // 断开 textBox2 和 textBox3 之间的正向链接，然后验证它们不再链接。
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

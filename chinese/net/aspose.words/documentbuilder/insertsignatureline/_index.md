@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertSignatureLine
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在当前位置插入签名行
+linktitle: InsertSignatureLine
+articleTitle: InsertSignatureLine
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertSignatureLine 方法. 在当前位置插入签名行 在 C#.
 type: docs
-weight: 450
+weight: 440
 url: /zh/net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
 在当前位置插入签名行。
 
@@ -22,9 +24,9 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 刚刚插入的签名行节点。
 
-### 例子
+## 例子
 
-演示如何使用个人证书和签名行签署文档。
+显示如何使用个人证书和签名行签署文档。
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
+// 重新打开我们保存的文档，并验证 "IsSigned" 和 "IsValid" 属性都等于 "true",
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -77,12 +79,12 @@ Assert.True(signatureLine.IsValid);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [SignatureLineOptions](../../signaturelineoptions/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
 在指定位置插入签名行。
 
@@ -96,22 +98,22 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | 存储创建签名行参数的对象。 |
 | horzPos | RelativeHorizontalPosition | 指定从何处测量到签名线的距离。 |
-| left | Double | 从原点到签名线左侧的距离（以磅为单位）。 |
+| left | Double | 从原点到签名线左侧的距离（以点为单位）。 |
 | vertPos | RelativeVerticalPosition | 指定从何处测量到签名线的距离。 |
-| top | Double | 从原点到签名线顶边的距离（以磅为单位）。 |
-| wrapType | WrapType | 指定如何将文本环绕签名行。 |
+| top | Double | 从原点到签名线顶部的距离（以点为单位）。 |
+| wrapType | WrapType | 指定如何在签名行周围环绕文本。 |
 
 ### 返回值
 
 刚刚插入的签名行节点。
 
-### 评论
+## 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
 
-### 例子
+## 例子
 
-演示如何将内嵌签名行插入到文档中。
+显示如何将内联签名行插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -131,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// 签名行可以在 Microsoft Word 中双击签名。
+// 签名行可以在 Microsoft Word 中通过双击进行签名。
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Regions
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeRegionInfo 财产. 返回子区域列表
+linktitle: Regions
+articleTitle: Regions
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeRegionInfo Regions 财产. 返回子区域列表 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何验证邮件合并区域。
+显示如何验证邮件合并区域。
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -33,7 +35,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// 获取第一个顶部区域中的嵌套区域。
+// 在第一个顶部区域中获取嵌套区域。
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### 也可以看看
 
 * class [MailMergeRegionInfo](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

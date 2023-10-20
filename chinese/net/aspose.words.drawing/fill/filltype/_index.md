@@ -1,9 +1,11 @@
 ---
 title: Fill.FillType
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取填充类型
+linktitle: FillType
+articleTitle: FillType
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill FillType 财产. 获取填充类型 在 C#.
 type: docs
-weight: 60
+weight: 50
 url: /zh/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
@@ -18,7 +20,5 @@ public FillType FillType { get; }
 
 * enum [FillType](../../filltype/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

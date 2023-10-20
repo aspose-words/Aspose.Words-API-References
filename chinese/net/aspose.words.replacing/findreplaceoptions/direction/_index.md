@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 选择替换方向默认值为Forward.
+linktitle: Direction
+articleTitle: Direction
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions Direction 财产. 选择替换方向默认值为Forward 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/direction/
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何确定查找和替换操作遍历文档的方向。
+显示如何确定查找和替换操作遍历文档的方向。
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -24,7 +26,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入我们可以使用正则表达式模式搜索的三个运行。
+    // 插入三个运行，我们可以使用正则表达式模式搜索它们。
     // 将其中一个运行放在文本框中。
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
@@ -39,9 +41,9 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     options.ReplacingCallback = callback;
 
     // 将“Direction”属性设置为“FindReplaceDirection.Backward”以获取查找和替换
-    // 操作从范围末尾开始，并遍历回开头。
+    // 操作从范围的末尾开始，然后遍历回到开头。
     // 将“Direction”属性设置为“FindReplaceDirection.Backward”以获取查找和替换
-    // 操作从范围的开头开始，遍历到结尾。
+    // 操作从范围的开头开始，并遍历到结尾。
     options.Direction = findReplaceDirection;
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);
@@ -63,7 +65,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// 按照发生的顺序记录查找和替换操作期间发生的所有匹配项。
+/// 按照发生的顺序记录在查找和替换操作期间发生的所有匹配。
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

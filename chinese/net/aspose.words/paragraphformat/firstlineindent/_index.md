@@ -1,14 +1,16 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置首行或悬挂缩进的值以磅为单位
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat FirstLineIndent 财产. 获取或设置第一行或悬挂缩进的值以磅为单位 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-获取或设置首行或悬挂缩进的值（以磅为单位）。
+获取或设置第一行或悬挂缩进的值（以磅为单位）。
 
 使用正值设置首行缩进，使用负值设置悬挂缩进。
 
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words/paragraphformat/firstlineindent/
 public double FirstLineIndent { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中插入段落。
 
@@ -38,7 +40,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在附加文本后结束段落
+// “Writeln”方法在追加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: FieldDatabase.InsertOnceOnMailMerge
-second_title: Aspose.Words for .NET API 参考
-description: FieldDatabase 财产. 获取或设置是否在合并开始处插入数据
+linktitle: InsertOnceOnMailMerge
+articleTitle: InsertOnceOnMailMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDatabase InsertOnceOnMailMerge 财产. 获取或设置是否在合并开始时插入数据 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
 ---
 ## FieldDatabase.InsertOnceOnMailMerge property
 
-获取或设置是否在合并开始处插入数据。
+获取或设置是否在合并开始时插入数据。
 
 ```csharp
 public bool InsertOnceOnMailMerge { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
@@ -22,18 +24,19 @@ public bool InsertOnceOnMailMerge { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 此 DATABASE 字段将在数据库上运行查询，并将结果显示在表中。
+// 此 DATABASE 字段将对数据库运行查询，并将结果显示在表中。
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = DatabaseDir + "Northwind.accdb";
-field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.FileName = MyDir + @"Database\Northwind.mdb";
+field.Connection = "DSN=MS Access Databases";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
+Assert.AreEqual($" DATABASE  \\d \"{DatabaseDir.Replace("\\", "\\\\") + "Northwind.mdb"}\" \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", 
+    field.GetFieldCode());
 
-// 插入另一个具有更复杂查询的数据库字段，该查询按总销售额降序对所有产品进行排序。
+// 插入另一个具有更复杂查询的 DATABASE 字段，该查询按总销售额降序排列所有产品。
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = DatabaseDir + "Northwind.accdb";
-field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.FileName = MyDir + @"Database\Northwind.mdb";
+field.Connection = "DSN=MS Access Databases";
 field.Query =
     "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
     "FROM([Products] " +
@@ -42,12 +45,12 @@ field.Query =
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
 // 这些属性与 LIMIT 和 TOP 子句具有相同的功能。
-// 配置只显示字段表中查询结果的第1行到第10行。
+// 将它们配置为仅显示字段表中查询结果的第 1 到第 10 行。
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// 该属性是我们要用于表的格式的索引。表格格式列表位于“表格自动套用格式...”菜单中
-// 当我们在 Microsoft Word 中创建数据库字段时会显示该信息。索引#10 对应于“Colorful 3”格式。
+// 此属性是我们要用于表格的格式的索引。表格格式列表位于“表格自动套用格式...”菜单中
+// 当我们在 Microsoft Word 中创建一个 DATABASE 字段时会显示。索引 #10 对应于“彩色 3”格式。
 field.TableFormat = "10";
 
 // FormatAttribute 属性是存储多个标志的整数的字符串表示形式。
@@ -58,16 +61,12 @@ field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;
 
-doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
 doc.UpdateFields();
-
 doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ```
 
 ### 也可以看看
 
 * class [FieldDatabase](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddatabase/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

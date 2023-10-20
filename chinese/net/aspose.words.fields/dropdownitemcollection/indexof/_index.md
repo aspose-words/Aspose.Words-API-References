@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 返回集合中指定值的从零开始的索引
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection IndexOf 方法. 返回集合中指定值的从零开始的索引 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -16,23 +18,23 @@ public int IndexOf(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 要查找的区分大小写的值。 |
+| value | String | 要定位的区分大小写的值。 |
 
 ### 返回值
 
-从零开始的索引。如果没有找到则为负值。
+从零开始的索引。如果未找到，则为负值。
 
-### 例子
+## 例子
 
-演示如何插入组合框字段以及编辑其项目集合中的元素。
+演示如何插入组合框字段，并编辑其项目集合中的元素。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个组合框，然后验证其下拉项集合。
+// 插入一个组合框，然后验证它的下拉项集合。
 // 在 Microsoft Word 中，用户将单击组合框，
-// 然后选择集合中要显示的文本项之一。
+// 然后选择要显示的集合中的文本项之一。
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -51,7 +53,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// 迭代集合并打印每个元素。
+// 遍历集合并打印每个元素。
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

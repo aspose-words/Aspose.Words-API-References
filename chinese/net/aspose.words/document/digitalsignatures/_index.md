@@ -1,26 +1,28 @@
 ---
 title: Document.DigitalSignatures
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取此文档的数字签名及其验证结果的集合
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: 用于 .NET 的 Aspose.Words
+description: Document DigitalSignatures 财产. 获取此文档的数字签名集合及其验证结果 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
 
-获取此文档的数字签名及其验证结果的集合。
+获取此文档的数字签名集合及其验证结果。
 
 ```csharp
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### 评论
+## 评论
 
-该集合包含从原始文档加载的数字签名。 保存此集合时，这些数字签名将不会被保存[`Document`](../)object 保存到文件或流中，因为保存或转换将生成与 the 原始文档不同的文档，并且原始数字签名将不再有效。
+此集合包含从原始文档加载的数字签名。 保存此文件时将不会保存这些数字签名[`Document`](../)object 到文件或流中，因为保存或转换将生成与原始的 不同的文档，并且原始数字签名将不再有效。
 
-这个合集从来没有`无效的`。如果文档未签名，它将包含零个元素。
+此集合永远不会为空。如果文档未签名，它将包含零个元素。
 
-### 例子
+## 例子
 
 演示如何验证和显示有关文档中每个签名的信息。
 
@@ -39,23 +41,23 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-演示如何使用 X.509 证书签署文档。
+显示如何使用 X.509 证书签署文档。
 
 ```csharp
 // 验证文档是否未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 有两种方法将文档的签名副本保存到本地文件系统：
-// 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
+// 将文档的签名副本保存到本地文件系统有两种方法：
+// 1 - 通过本地系统文件名指定一个文档，并将签名副本保存在另一个文件名指定的位置。
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流中。
+// 2 - 从流中获取文档并将签名副本保存到另一个流。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

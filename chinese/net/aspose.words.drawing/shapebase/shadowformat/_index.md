@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShadowFormat
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取形状的阴影格式
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase ShadowFormat 财产. 获取形状的阴影格式 在 C#.
 type: docs
 weight: 490
 url: /zh/net/aspose.words.drawing/shapebase/shadowformat/
@@ -18,7 +20,5 @@ public ShadowFormat ShadowFormat { get; }
 
 * class [ShadowFormat](../../shadowformat/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

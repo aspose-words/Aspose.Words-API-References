@@ -1,14 +1,14 @@
 ---
 title: ChartAxisCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxisCollection 财产. 获取指定索引处的轴
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxisCollection Item 财产.  在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartaxiscollection/item/
 ---
 ## ChartAxisCollection indexer
-
-获取指定索引处的轴。
 
 ```csharp
 public ChartAxis this[int index] { get; }
@@ -18,7 +18,5 @@ public ChartAxis this[int index] { get; }
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

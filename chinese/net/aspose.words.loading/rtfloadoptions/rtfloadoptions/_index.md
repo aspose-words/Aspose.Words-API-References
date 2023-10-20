@@ -1,7 +1,9 @@
 ---
-title: RtfLoadOptions.RtfLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: RtfLoadOptions 构造函数. 使用默认值初始化此类的新实例
+title: RtfLoadOptions
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: RtfLoadOptions 构造函数. 使用默认值初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 public RtfLoadOptions()
 ```
 
-### 例子
+## 例子
 
-演示如何在加载 RTF 文档时检测 UTF-8 字符。
+展示如何在加载 RTF 文档时检测 UTF-8 字符。
 
 ```csharp
 // 创建一个“RtfLoadOptions”对象来修改我们加载 RTF 文档的方式。
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [RtfLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../rtfloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

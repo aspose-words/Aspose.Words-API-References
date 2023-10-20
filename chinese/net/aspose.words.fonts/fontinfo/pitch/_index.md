@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 财产. 间距指示字体是固定间距按比例间隔还是依赖于默认设置
+linktitle: Pitch
+articleTitle: Pitch
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo Pitch 财产. 间距指示字体是固定间距按比例间隔还是依赖于默认设置 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fonts/fontinfo/pitch/
 public FontPitch Pitch { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+显示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

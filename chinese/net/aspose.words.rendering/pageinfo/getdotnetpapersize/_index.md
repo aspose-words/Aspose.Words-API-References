@@ -1,14 +1,16 @@
 ---
 title: PageInfo.GetDotNetPaperSize
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 方法. 获取PaperSize适合打印 由此表示的页面的对象PageInfo.
+linktitle: GetDotNetPaperSize
+articleTitle: GetDotNetPaperSize
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo GetDotNetPaperSize 方法. 获取PaperSize适合打印的对象 这个代表的页面PageInfo 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-获取PaperSize适合打印 由此表示的页面的对象[`PageInfo`](../).
+获取PaperSize适合打印的对象 这个代表的页面[`PageInfo`](../).
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -20,11 +22,11 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 ### 返回值
 
-可以在 .NET 打印框架中使用的对象来指定纸张尺寸。
+可在 .NET 打印框架中用于指定纸张大小的对象。
 
-### 例子
+## 例子
 
-演示如何自定义 Aspose.Words 文档的打印。
+展示如何自定义 Aspose.Words 文档的打印。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -38,7 +40,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// 打印时选择适当的纸张尺寸、方向和纸盘。
+/// 打印时选择合适的纸张尺寸、方向和纸盘。
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -70,36 +72,36 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// 在打印每页之前调用。
+    /// 在打印每一页之前调用。 
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-         // 单个 Microsoft Word 文档可以有多个部分，指定不同大小的页面，
-         // 方向和纸盘。 .NET 打印框架之前调用此代码
-        // 每一页都会被打印，这让我们有机会指定如何打印当前页面。
+        // 一个 Microsoft Word 文档可以有多个部分，指定不同大小的页面， 
+        // 方向和纸盘。 .NET 打印框架之前调用此代码 
+        // 打印每一页，这让我们有机会指定如何打印当前页。
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word 将每个部分的纸张来源（打印机托盘）存储为打印机特定值。
-        // 要获取正确的纸盘值，您需要使用打印机应返回的“RawKind”属性。
+        // Microsoft Word 将每个部分的纸张来源（打印机托盘）存储为特定于打印机的值。
+        // 要获得正确的托盘值，您需要使用打印机应返回的“RawKind”属性。
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// 调用每个页面来渲染它以进行打印。
+    /// 调用每个页面来渲染它以进行打印。 
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Aspose.Words 渲染引擎创建一个从纸张原点 (x = 0, y = 0) 绘制的页面。
-        // 打印机中会有一个硬边距，它将渲染每一页。我们需要用硬利润来抵消。
+        // Aspose.Words 渲染引擎创建从纸张原点 (x = 0, y = 0) 绘制的页面。
+        // 打印机中会有一个硬边距，它将渲染每一页。我们需要用这个硬边距来抵消。
         float hardOffsetX, hardOffsetY;
 
-        // 下面是设置硬边距的两种方法。
+        // 下面是两种设置硬边距的方法。
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
             // 1 - 通过“PageSettings”属性。
@@ -128,7 +130,5 @@ public class MyPrintDocument : PrintDocument
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldCreateDate 财产. 获取或设置是否使用Saka Era日历
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCreateDate UseSakaEraCalendar 财产. 获取或设置是否使用Saka Era日历 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用 CREATEDATE 字段来显示文档的创建日期/时间。
+显示如何使用 CREATEDATE 字段来显示文档的创建日期/时间。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// 我们可以使用 CREATEDATE 字段来显示文档的创建日期和时间。
-// 下面是三种不同的日历类型，CREATEDATE 字段可以根据它们显示日期/时间。
+// 我们可以使用 CREATEDATE 字段来显示文档创建的日期和时间。
+// 下面是三种不同的日历类型，根据这些类型，CREATEDATE 字段可以显示日期/时间。
 // 1 - 伊斯兰农历：
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
@@ -33,14 +35,14 @@ field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - 乌姆古拉历：
+// 2 - Umm al-Qura 日历：
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\u", field.GetFieldCode());
 
-// 3 - 印度国家日历：
+// 3 - 印度国历：
 builder.Write("\nAccording to the Indian National Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseSakaEraCalendar = true;
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### 也可以看看
 
 * class [FieldCreateDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcreatedate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

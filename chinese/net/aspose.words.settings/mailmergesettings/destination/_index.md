@@ -1,20 +1,22 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定 Microsoft Word 如何输出邮件合并结果 默认值为Default.
+linktitle: Destination
+articleTitle: Destination
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings Destination 财产. 指定 Microsoft Word 将如何输出邮件合并的结果 默认值为Default 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.settings/mailmergesettings/destination/
 ---
 ## MailMergeSettings.Destination property
 
-指定 Microsoft Word 如何输出邮件合并结果。 默认值为Default.
+指定 Microsoft Word 将如何输出邮件合并的结果。 默认值为Default.
 
 ```csharp
 public MailMergeDestination Destination { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -29,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 创建一个ASCII文件形式的数据源，用“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 之后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
+// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

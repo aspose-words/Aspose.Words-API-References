@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByIndex
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 从集合中删除指定索引处的制表位
+linktitle: RemoveByIndex
+articleTitle: RemoveByIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection RemoveByIndex 方法. 从集合中删除指定索引处的制表位 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/tabstopcollection/removebyindex/
@@ -18,9 +20,9 @@ public void RemoveByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | 制表位集合的索引。 |
 
-### 例子
+## 例子
 
-演示如何通过索引选择文档中的制表位并将其删除。
+显示如何通过索引选择文档中的制表位并将其删除。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.RemoveByIndex.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MailMergeCheckErrors 枚举. 指定 Microsoft Word 如何报告邮件合并期间检测到的错误
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MailMergeCheckErrors 枚举. 指定 Microsoft Word 将如何报告在邮件合并期间检测到的错误 在 C#.
 type: docs
 weight: 5810
 url: /zh/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
 
-指定 Microsoft Word 如何报告邮件合并期间检测到的错误。
+指定 Microsoft Word 将如何报告在邮件合并期间检测到的错误。
 
 ```csharp
 public enum MailMergeCheckErrors
@@ -18,12 +20,12 @@ public enum MailMergeCheckErrors
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Simulate | `1` | 在新文档中模拟合并并报告错误。 |
+| Simulate | `1` | 在新文档中模拟合并报错。 |
 | PauseOnError | `2` | 完成合并并暂停报告错误。 |
-| CollectErrors | `3` | 完成合并并在新文档中报告错误。 |
+| CollectErrors | `3` | 在新文档中完成合并并报告错误。 |
 | Default | `2` | 等于PauseOnError值. |
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -38,9 +40,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 创建一个ASCII文件形式的数据源，用“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 之后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -68,7 +70,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
+// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

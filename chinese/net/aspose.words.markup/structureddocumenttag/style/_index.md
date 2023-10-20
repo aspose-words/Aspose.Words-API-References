@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Style
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置结构化文档标签的样式
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Style 财产. 获取或设置结构化文档标签的样式 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.markup/structureddocumenttag/style/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/style/
 public Style Style { get; set; }
 ```
 
-### 评论
+## 评论
 
-仅 Character风格或Paragraph可以设置链接字符样式的样式。
+只有Character风格或Paragraph可以设置链接字符样式的样式。
 
-### 例子
+## 例子
 
 展示如何使用内容控制元素的样式。
 
@@ -26,8 +28,8 @@ public Style Style { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是将文档样式应用到结构化文档标签的两种方法。
-// 1 - 从文档的样式集合中应用样式对象：
+// 以下是将文档中的样式应用到结构化文档标签的两种方法。
+// 1 - 应用文档样式集合中的样式对象：
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -47,8 +49,6 @@ foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
 
-    Console.WriteLine(sdt.WordOpenXMLMinimal);
-
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);
 }
@@ -58,7 +58,5 @@ foreach (Node node in tags)
 
 * class [Style](../../../aspose.words/style/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

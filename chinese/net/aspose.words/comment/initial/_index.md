@@ -1,28 +1,30 @@
 ---
 title: Comment.Initial
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 返回或设置与特定评论关联的用户的姓名缩写
+linktitle: Initial
+articleTitle: Initial
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Initial 财产. 返回或设置与特定评论关联的用户的首字母缩写 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/comment/initial/
 ---
 ## Comment.Initial property
 
-返回或设置与特定评论关联的用户的姓名缩写。
+返回或设置与特定评论关联的用户的首字母缩写。
 
 ```csharp
 public string Initial { get; set; }
 ```
 
-### 评论
+## 评论
 
-不可能是`无效的`。
+不能为空。
 
 默认为空字符串。
 
-### 例子
+## 例子
 
-展示如何使用文档访问者打印所有注释的内容及其注释范围。
+显示如何使用文档访问者打印所有评论的内容及其评论范围。
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -38,14 +40,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // 将文本添加到文档中，将其扭曲到注释范围内，然后添加您的注释。
+    // 向文档中添加文本，在评论范围内对其进行变形，然后添加您的评论。
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // 添加两条对评论的回复。
+    // 在评论中添加两个回复。
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -53,26 +55,26 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// 迭代每个顶级评论并打印其评论范围、内容和回复。
+/// 遍历每个顶级评论并打印其评论范围、内容和回复。
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // 迭代所有顶级注释。与回复类型评论不同，顶级评论没有祖先。
+    // 遍历所有顶级注释。与回复类型的评论不同，顶级评论没有祖先。
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // 首先，访问评论范围的开头。
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // 然后，访问评论及其可能有的任何回复。
+        // 然后，访问评论，以及它可能有的任何回复。
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // 最后访问评论范围末尾，然后打印访问者的文本内容。
+        // 最后，访问评论范围的末尾，然后打印访问者的文本内容。
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -81,7 +83,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// 打印文档中遇到的所有注释和注释范围的信息和内容。
+/// 打印文档中遇到的所有评论和评论范围的信息和内容。
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -134,7 +136,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Comment 节点时调用。
+    /// 在文档中遇到评论节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -147,7 +149,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当文档中Comment节点的访问结束时调用。
+    /// 在文档中结束对 Comment 节点的访问时调用。
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -159,9 +161,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

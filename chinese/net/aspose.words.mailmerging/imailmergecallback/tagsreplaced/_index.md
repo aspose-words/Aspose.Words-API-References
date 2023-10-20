@@ -1,22 +1,24 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeCallback 方法. 当mustache文本标记替换为 MERGEFIELD 字段时调用
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeCallback TagsReplaced 方法. 当mustache文本标签替换为 MERGEFIELD 字段时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 ---
 ## IMailMergeCallback.TagsReplaced method
 
-当“mustache”文本标记替换为 MERGEFIELD 字段时调用。
+当“mustache”文本标签替换为 MERGEFIELD 字段时调用。
 
 ```csharp
 public void TagsReplaced()
 ```
 
-### 例子
+## 例子
 
-演示如何定义用于在邮件合并期间处理事件的自定义逻辑。
+展示如何定义自定义逻辑以在邮件合并期间处理事件。
 
 ```csharp
 public void Callback()
@@ -24,11 +26,11 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入两个引用数据源中两列的邮件合并标签。
+    // 在数据源中插入两个引用两列的邮件合并标签。
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // 创建一个仅包含合并标记引用的列之一的数据源。
+    // 创建一个只包含我们的合并标签引用的列之一的数据源。
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
@@ -49,7 +51,7 @@ public void Callback()
 }
 
 /// <summary>
-/// 计算邮件合并替换无法使用 MERGEFIELD 填充数据的邮件合并标记的次数。
+/// 计算邮件合并替换无法使用 MERGEFIELD 数据填充的邮件合并标记的次数。
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergecallback/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words for .NET API 参考
-description: Section 财产. 提供对节的页眉和页脚节点的访问
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: 用于 .NET 的 Aspose.Words
+description: Section HeadersFooters 财产. 提供对节的页眉和页脚节点的访问 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/section/headersfooters/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/section/headersfooters/
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何替换文档页脚中的文本。
+显示如何替换文档页脚中的文本。
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -36,16 +38,16 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-演示如何从文档中删除所有页脚。
+显示如何从文档中删除所有页脚。
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// 遍历每个部分并删除每种页脚。
+// 遍历每个部分并删除各种页脚。
 foreach (Section section in doc.OfType<Section>())
 {
-    // 页脚和页眉类型分为三种。
-    // 1 - “第一”页眉/页脚，仅出现在节的第一页上。
+    // 共有三种页脚和页眉类型。
+    // 1 - “第一个”页眉/页脚，仅出现在部分的第一页上。
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

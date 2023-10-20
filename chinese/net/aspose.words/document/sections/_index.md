@@ -1,22 +1,24 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回表示文档中所有部分的集合
+linktitle: Sections
+articleTitle: Sections
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Sections 财产. 返回代表文档中所有部分的集合 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
 
-返回表示文档中所有部分的集合。
+返回代表文档中所有部分的集合。
 
 ```csharp
 public SectionCollection Sections { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何在文档中添加和删除部分。
+显示如何在文档中添加和删除部分。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +35,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// 将当前第一部分的副本附加到文档末尾。
+// 将现在第一部分的副本附加到文档的末尾。
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -41,16 +43,16 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-展示如何指定新部分如何与前一个部分分开。
+显示如何指定新部分如何与前一个部分分开。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// 分节符类型决定新节如何与前一节分开。
-// 下面是五种类型的分节符。
-// 1 - 在新页面上开始下一部分：
+// 分节符类型决定了新节如何将自己与前一节分开。
+// 下面是五种分节符。
+// 1 - 在新页面上开始下一节：
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
@@ -62,19 +64,19 @@ builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - 在新的偶数页上开始下一部分：
+// 3 - 在新的偶数页上开始下一节：
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - 在新的奇数页上开始下一部分：
+// 4 - 在新奇数页上开始下一节：
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - 在新列上开始下一部分：
+// 5 - 在新列上开始下一节：
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

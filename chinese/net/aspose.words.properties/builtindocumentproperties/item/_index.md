@@ -1,14 +1,16 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 返回一个DocumentProperty对象的属性名称
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Item 财产. 返回一个DocumentProperty按属性名称的对象 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.properties/builtindocumentproperties/item/
 ---
 ## BuiltInDocumentProperties indexer
 
-返回一个[`DocumentProperty`](../../documentproperty/)对象的属性名称。
+返回一个[`DocumentProperty`](../../documentproperty/)按属性名称的对象。
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -16,25 +18,25 @@ public override DocumentProperty this[string name] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| name | 要检索的属性的名称（不区分大小写）。 |
+| name | 要检索的属性的不区分大小写的名称。 |
 
-### 评论
+## 评论
 
-属性的字符串名称对应于 typed 属性的名称[`BuiltInDocumentProperties`](../)。
+属性的字符串名称对应于可用的 typed 属性的名称[`BuiltInDocumentProperties`](../).
 
-如果您请求文档中不存在的属性，但该属性的 name 被识别为有效的内置名称，则会生成一个新的[`DocumentProperty`](../../documentproperty/) 被创建，添加到集合中并返回。新创建的属性被分配 默认值（空字符串，零，`错误的`或 DateTime.MinValue，具体取决于内置属性的 type ）。
+如果您请求文档中不存在的属性，但该属性的 name 被识别为有效的内置名称，则新的[`DocumentProperty`](../../documentproperty/) 被创建，添加到集合并返回。新创建的属性被分配 一个默认值（空字符串、零、false 或 DateTime.MinValue，具体取决于内置属性的 type ）。
 
-如果您请求文档中不存在的属性，并且 name 未被识别为内置名称，则会出现`无效的`被返回。
+如果您请求文档中不存在的属性并且 name 未被识别为内置名称，则返回 null。
 
-### 例子
+## 例子
 
-展示如何使用自定义文档属性。
+显示如何使用自定义文档属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// 每个文档都包含自定义属性的集合，这些属性与内置属性一样，都是键值对。
- // 该文档有一个固定的内置属性列表。用户创建所有自定义属性。
+// 每个文档都包含一个自定义属性的集合，这些属性和内置属性一样，是键值对。
+// 文档有一个固定的内置属性列表。用户创建所有自定义属性。 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,46 +1,48 @@
 ---
 title: InlineStory.Tables
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 财产. 获取作为故事的直接子级的表的集合
+linktitle: Tables
+articleTitle: Tables
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory Tables 财产. 获取作为故事直接子级的表的集合 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/inlinestory/tables/
 ---
 ## InlineStory.Tables property
 
-获取作为故事的直接子级的表的集合。
+获取作为故事直接子级的表的集合。
 
 ```csharp
 public TableCollection Tables { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入 InlineStory 节点。
+显示如何插入 InlineStory 节点。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
-// 表节点有一个“EnsureMinimum()”方法，可确保表至少有一个单元格。
+// 表格节点有一个“EnsureMinimum()”方法，可以确保表格至少有一个单元格。
 Table table = new Table(doc);
 table.EnsureMinimum();
 
-// 我们可以将表格放在脚注内，这将使其出现在引用页面的页脚处。
+// 我们可以在脚注中放置一个表格，这将使它出现在引用页面的页脚处。
 Assert.That(footnote.Tables, Is.Empty);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// InlineStory 也有一个“EnsureMinimum()”方法，但在本例中，
+// InlineStory 也有一个“EnsureMinimum()”方法，但是在这种情况下，
 // 它确保节点的最后一个子节点是一个段落，
-// 让我们能够在 Microsoft Word 中轻松单击并编写文本。
+// 让我们能够在 Microsoft Word 中轻松单击和书写文本。
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
-// 编辑锚点的外观，即小上标数字
-// 在正文中指向脚注。
+// 编辑anchor的外观，也就是小上标数字
+// 在指向脚注的正文中。
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
 
@@ -50,13 +52,13 @@ Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 // 评论是另一种类型的内联故事。
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
-// 内联故事节点的父段落将是主文档正文中的段落。
+// 内联故事节点的父段落将来自主文档正文。
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
-// 然而，最后一段是评论文本内容中的一段，
-// 这将位于主文档正文之外的对话气泡中。
-// 默认情况下，注释不会有任何子节点，
-// 因此我们也可以应用 EnsureMinimum() 方法在此处放置一个段落。
+// 但是，最后一段是评论文本内容中的一段，
+// 它将位于主文档正文之外的对话气泡中。
+// 默认情况下，评论不会有任何子节点，
+// 所以我们也可以应用 EnsureMinimum() 方法在这里放置一个段落。
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

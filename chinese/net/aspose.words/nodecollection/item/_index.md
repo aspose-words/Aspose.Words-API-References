@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 财产. 检索给定索引处的节点
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection Item 财产. 检索给定索引处的节点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodecollection/item/
@@ -18,42 +20,42 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | 节点集合的索引。 |
 
-### 评论
+## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
-如果索引大于或等于列表中的项目数，则返回空引用。
+如果 index 大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
-演示如何遍历复合节点的子节点集合。
+显示如何遍历复合节点的子节点集合。
 
 ```csharp
 Document doc = new Document();
 
-// 将两个运行和一个形状作为子节点添加到本文档的第一段。
+// 将两个运行和一个形状作为子节点添加到该文档的第一段。
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 请注意，“CustomNodeId”不会保存到输出文件中，并且仅在节点生命周期内存在。
+// 请注意，'CustomNodeId' 不会保存到输出文件中，并且仅在节点生命周期内存在。
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// 遍历该段落的直接子级集合，
+// 遍历段落的直接子元素集合，
 // 并打印我们在其中找到的任何运行或形状。
-NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
+NodeCollection children = paragraph.ChildNodes;
 
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
+Assert.AreEqual(3, paragraph.ChildNodes.Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -66,7 +68,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 
@@ -74,7 +75,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

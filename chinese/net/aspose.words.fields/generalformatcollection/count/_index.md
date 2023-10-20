@@ -1,28 +1,30 @@
 ---
 title: GeneralFormatCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: GeneralFormatCollection 财产. 获取集合中项目的总数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: GeneralFormatCollection Count 财产. 获取集合中的项目总数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/generalformatcollection/count/
 ---
 ## GeneralFormatCollection.Count property
 
-获取集合中项目的总数。
+获取集合中的项目总数。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档生成器插入一个显示未应用格式的结果的字段。
+// 使用文档构建器插入一个显示未应用格式的结果的字段。
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -64,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// 我们可以删除格式以将字段的结果恢复为其原始形式。
+// 我们可以删除格式以将字段的结果恢复为原始形式。
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### 也可以看看
 
 * class [GeneralFormatCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../generalformatcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

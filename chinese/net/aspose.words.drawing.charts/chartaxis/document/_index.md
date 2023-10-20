@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Document
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回标题持有者所属的文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis Document 财产. 返回标题持有者所属的文档 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.charts/chartaxis/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

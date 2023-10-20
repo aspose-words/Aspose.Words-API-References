@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将指定类型的中断插入到文档中
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertBreak 方法. 将指定类型的中断插入到文档中 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/documentbuilder/insertbreak/
@@ -16,13 +18,13 @@ public void InsertBreak(BreakType breakType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| breakType | BreakType | 指定要插入的中断的类型。 |
+| breakType | BreakType | 指定要插入的中断类型。 |
 
-### 评论
+## 评论
 
 使用此方法在文档中插入段落、页面、列、节或换行符。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -30,11 +32,11 @@ public void InsertBreak(BreakType breakType)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 指定我们希望首页、偶数页和奇数页使用不同的页眉和页脚。
+// 指定我们希望第一页、偶数页和奇数页使用不同的页眉和页脚。
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// 创建标题，然后向文档添加三个页面以显示每种标题类型。
+// 创建页眉，然后在文档中添加三页以显示每种页眉类型。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -52,7 +54,7 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-演示如何将页面设置设置应用和恢复到文档中的各个部分。
+显示如何将页面设置设置应用和恢复到文档中的部分。
 
 ```csharp
 Document doc = new Document();
@@ -63,14 +65,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// 如果我们使用文档生成器开始一个新部分，
+// 如果我们使用文档构建器开始一个新部分，
 // 它将继承构建器的当前页面设置属性。
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为其默认值。
+// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为默认值。
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -87,15 +89,15 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入文档第一页的目录。
-// 配置表格以选取标题为 1 至 3 级的段落。
-// 此外，将其条目设置为将带我们进入的超链接
-// 在 Microsoft Word 中左键单击时标题的位置。
+// 为文档的第一页插入目录。
+// 配置表格以拾取具有 1 到 3 级标题的段落。
+// 此外，将其条目设置为将带我们的超链接
+// 在 Microsoft Word 中左键单击时指向标题的位置。
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // 通过添加带有标题样式的段落来填充目录。
-// 每个级别在 1 到 3 之间的此类标题将在表中创建一个条目。
+// 每个级别在 1 到 3 之间的标题都会在表中创建一个条目。
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

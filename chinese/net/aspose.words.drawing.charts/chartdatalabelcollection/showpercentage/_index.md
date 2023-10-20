@@ -1,24 +1,26 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 允许指定是否为整个系列的数据标签显示百分比值 默认值为错误的仅适用于饼图
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection ShowPercentage 财产. 允许指定是否为整个系列的数据标签显示百分比值 默认值为错误的.仅适用于饼图 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-允许指定是否为整个系列的数据标签显示百分比值。 默认值为`错误的`。仅适用于饼图。
+允许指定是否为整个系列的数据标签显示百分比值。 默认值为**错误的**.仅适用于饼图。
 
 ```csharp
 public bool ShowPercentage { get; set; }
 ```
 
-### 评论
+## 评论
 
-可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowPercentage`](../../chartdatalabel/showpercentage/)属性.
+可以使用 为单个数据标签覆盖为此属性定义的值[`ShowPercentage`](../../chartdatalabel/showpercentage/)属性.
 
-### 例子
+## 例子
 
 展示如何使用饼图的数据标签。
 
@@ -31,12 +33,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入自定义图表系列，其中包含每个部门的类别名称及其频率表。
+// 插入一个自定义图表系列，其中包含每个部门的类别名称及其频率表。
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// 启用数据标签，显示每个扇区的百分比和频率，并修改其外观。
+// 启用将显示每个扇区的百分比和频率的数据标签，并修改它们的外观。
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

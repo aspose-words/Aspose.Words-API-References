@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ConvertShapeToOfficeMath
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 获取或设置是否将带有 EquationXML 的形状转换为 Office Math 对象
+linktitle: ConvertShapeToOfficeMath
+articleTitle: ConvertShapeToOfficeMath
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions ConvertShapeToOfficeMath 财产. 获取或设置是否将带有 EquationXML 的形状转换为 Office Math 对象 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
 public bool ConvertShapeToOfficeMath { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 EquationXML 形状转换为 Office Math 对象。
 
@@ -42,7 +44,5 @@ else
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

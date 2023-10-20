@@ -1,29 +1,30 @@
 ---
 title: ReplacingArgs.Match
-second_title: Aspose.Words for .NET API 参考
-description: ReplacingArgs 财产. 的Match由单个regular 表达式匹配产生 代替.
+linktitle: Match
+articleTitle: Match
+second_title: 用于 .NET 的 Aspose.Words
+description: ReplacingArgs Match 财产. 的Match由单个 regular 表达式匹配产生的代替 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-的Match由单个regular 表达式匹配产生 **代替**.
+的Match由单个 regular 表达式匹配产生的**代替**.
 
 ```csharp
 public Match Match { get; }
 ```
 
-### 评论
+## 评论
 
 **匹配索引"**从查找和替换范围的开头获取匹配的从零开始的starting 位置。
 
-### 例子
+## 例子
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
-public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -91,7 +92,5 @@ private class NumberHexer : IReplacingCallback
 ### 也可以看看
 
 * class [ReplacingArgs](../)
-* 命名空间 [Aspose.Words.Replacing](../../replacingargs/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

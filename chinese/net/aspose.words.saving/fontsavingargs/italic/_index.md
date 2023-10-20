@@ -1,30 +1,31 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 指示当前字体是否为斜体
+linktitle: Italic
+articleTitle: Italic
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs Italic 财产. 表示当前字体是否为斜体 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/fontsavingargs/italic/
 ---
 ## FontSavingArgs.Italic property
 
-指示当前字体是否为斜体。
+表示当前字体是否为斜体。
 
 ```csharp
 public bool Italic { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何定义保存为 HTML 时导出字体的自定义逻辑。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // 配置 SaveOptions 对象以将字体导出到单独的文件。
-    // 设置将以自定义方式处理字体保存的回调。
+    // 设置一个以自定义方式处理字体保存的回调。
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -39,10 +40,8 @@ public void SaveExportedFonts()
         Console.WriteLine(fontFilename);
     }
 
-}
-
 /// <summary>
-/// 打印有关导出字体的信息并将其保存在与其输出 .html 相同的本地系统文件夹中。
+/// 打印有关导出字体的信息并将它们保存在与其输出 .html 相同的本地系统文件夹中。
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -59,7 +58,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // 有两种方法保存导出的字体。
+        // 有两种保存导出字体的方法。
         // 1 - 将其保存到本地文件系统位置：
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
@@ -74,7 +73,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

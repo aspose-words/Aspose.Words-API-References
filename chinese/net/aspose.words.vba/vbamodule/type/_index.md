@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Aspose.Words for .NET API 参考
-description: VbaModule 财产. 指定模块是过程模块文档模块类模块还是设计器模块
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModule Type 财产. 指定模块是过程模块文档模块类模块还是设计器模块 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbamodule/type/
 public VbaModuleType Type { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用宏创建 VBA 项目。
 
@@ -26,13 +28,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// 创建一个新模块并指定宏源代码。
+// 创建一个新模块并指定一个宏源代码。
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// 将模块添加到 VBA 项目中。
+// 将模块添加到 VBA 项目。
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodule/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

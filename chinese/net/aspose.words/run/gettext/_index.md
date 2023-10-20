@@ -1,14 +1,16 @@
 ---
 title: Run.GetText
-second_title: Aspose.Words for .NET API 参考
-description: Run 方法. 获取运行文本
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: Run GetText 方法. 获取运行的文本 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/run/gettext/
 ---
 ## Run.GetText method
 
-获取运行文本。
+获取运行的文本。
 
 ```csharp
 public override string GetText()
@@ -18,9 +20,9 @@ public override string GetText()
 
 运行的文本。
 
-### 例子
+## 例子
 
-演示如何打印文档中每个页眉和页脚的节点结构。
+显示如何打印文档中每个页眉和页脚的节点结构。
 
 ```csharp
 public void HeaderFooterToText()
@@ -28,9 +30,9 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
-    // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
@@ -41,8 +43,8 @@ public void HeaderFooterToText()
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以字符串形式创建所有遇到的 HeaderFooter 节点及其子节点的映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的 HeaderFooter 节点及其子节点的字符串形式创建映射。
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -80,7 +82,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 HeaderFooter 节点的所有子节点后调用。
+    /// 在访问了 HeaderFooter 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -92,9 +94,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 向 StringBuilder 添加一行，并根据访问者在文档树中的深度来缩进。
+    /// 向 StringBuilder 添加一行，并根据访问者在文档树中的深度缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Run](../)
-* 命名空间 [Aspose.Words](../../run/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

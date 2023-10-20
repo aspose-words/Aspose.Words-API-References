@@ -1,14 +1,16 @@
 ---
 title: TabStop.GetHashCode
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 方法. 计算该对象的哈希码
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop GetHashCode 方法. 计算此对象的哈希码 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/tabstop/gethashcode/
 ---
 ## TabStop.GetHashCode method
 
-计算该对象的哈希码。
+计算此对象的哈希码。
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### 也可以看看
 
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

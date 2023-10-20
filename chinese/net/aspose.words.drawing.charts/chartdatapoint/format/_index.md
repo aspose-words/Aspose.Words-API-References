@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataPoint 财产. 提供对此数据点的填充和线条格式的访问
+linktitle: Format
+articleTitle: Format
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataPoint Format 财产. 提供对此数据点的填充和线条格式的访问 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.drawing.charts/chartdatapoint/format/
 public ChartFormat Format { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何为柱形图的类别设置单独的格式。
+显示如何为柱形图的类别设置单独的格式。
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

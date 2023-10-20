@@ -1,20 +1,22 @@
 ---
 title: Story.Tables
-second_title: Aspose.Words for .NET API 参考
-description: Story 财产. 获取作为故事的直接子级的表的集合
+linktitle: Tables
+articleTitle: Tables
+second_title: 用于 .NET 的 Aspose.Words
+description: Story Tables 财产. 获取作为故事直接子级的表的集合 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-获取作为故事的直接子级的表的集合。
+获取作为故事直接子级的表的集合。
 
 ```csharp
 public TableCollection Tables { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何删除文档中所有表格的第一行和最后一行。
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

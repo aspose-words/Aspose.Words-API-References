@@ -1,24 +1,27 @@
 ---
 title: VbaReferenceCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: VbaReferenceCollection 方法. 删除VbaReference集合中指定索引处的元素
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaReferenceCollection RemoveAt 方法. 删除集合指定索引处的 VbaReference 元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection.RemoveAt method
 
-删除[`VbaReference`](../../vbareference/)集合中指定索引处的元素。
+删除集合指定索引处的 VbaReference 元素。
 
 ```csharp
 public void RemoveAt(int index)
 ```
 
-### 例子
+## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+显示如何从 VBA 引用集合中获取/删除元素。
 
 ```csharp
+[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -44,7 +47,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -88,7 +91,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### 也可以看看
 
 * class [VbaReferenceCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbareferencecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

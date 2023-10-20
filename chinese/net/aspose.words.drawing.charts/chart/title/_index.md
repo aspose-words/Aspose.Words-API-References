@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Aspose.Words for .NET API 参考
-description: Chart 财产. 提供对图表标题属性的访问
+linktitle: Title
+articleTitle: Title
+second_title: 用于 .NET 的 Aspose.Words
+description: Chart Title 财产. 提供对图表标题属性的访问 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing.charts/chart/title/
@@ -14,19 +16,19 @@ url: /zh/net/aspose.words.drawing.charts/chart/title/
 public ChartTitle Title { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档生成器插入图表形状并获取其图表。
+// 使用文档构建器插入图表形状并获取其图表。
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
+// 使用“Title”属性给我们的图表一个标题，它出现在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chart/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,16 +1,16 @@
 ---
-title: Class OleControl
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Ole.OleControl 班级. 代表 OLE ActiveX 控件
+title: OleControl Class
+linktitle: OleControl
+articleTitle: OleControl
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Ole.OleControl 班级. 表示 OLE ActiveX 控件 在 C#.
 type: docs
 weight: 1140
 url: /zh/net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
 
-代表 OLE ActiveX 控件。
-
-要了解更多信息，请访问[使用 Ole 对象](https://docs.aspose.com/words/net/working-with-ole-objects/)文档文章。
+表示 OLE ActiveX 控件。
 
 ```csharp
 public class OleControl
@@ -20,10 +20,10 @@ public class OleControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | 返回`真的`如果控制是[`Forms2OleControl`](../forms2olecontrol/). |
-| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | 获取或设置 ActiveX 控件的名称。 |
+| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | 如果控件是[`Forms2OleControl`](../forms2olecontrol/). |
+| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | 获取 ActiveX 控件的名称。 |
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -33,7 +33,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual("CheckBox1", oleControl.Name);
+Assert.AreEqual(null, oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -43,10 +43,6 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
-    Assert.AreEqual(string.Empty, checkBox.GroupName);
-
-    // 请注意，您不能为 Frame 设置 GroupName。
-    checkBox.GroupName = "Aspose group name";
 }
 ```
 
@@ -54,5 +50,3 @@ if (oleControl.IsForms2OleControl)
 
 * 命名空间 [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../)
-
-

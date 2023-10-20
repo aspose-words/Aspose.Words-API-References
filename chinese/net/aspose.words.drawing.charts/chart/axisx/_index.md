@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Aspose.Words for .NET API 参考
-description: Chart 财产. 提供对图表 X 轴属性的访问
+linktitle: AxisX
+articleTitle: AxisX
+second_title: 用于 .NET 的 Aspose.Words
+description: Chart AxisX 财产. 提供对图表 X 轴属性的访问 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.drawing.charts/chart/axisx/
 public ChartAxis AxisX { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入图表并修改其轴的外观。
+显示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +30,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chart/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

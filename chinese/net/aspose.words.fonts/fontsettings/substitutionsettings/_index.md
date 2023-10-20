@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 财产. 与字体替换机制相关的设置
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings SubstitutionSettings 财产. 与字体替换机制相关的设置 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fonts/fontsettings/substitutionsettings/
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何访问文档的系统字体源并设置字体替代品。
+显示如何访问文档的系统字体源和设置字体替换。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// 设置 Windows Fonts 目录中存在的字体来替代不存在的字体。
+// 设置一种存在于 Windows 字体目录中的字体来替代不存在的字体。
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -58,7 +60,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// 重置字体源仍然让我们保留系统字体源以及替代品。
+// 重置字体源仍然给我们留下系统字体源以及我们的替代品。
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,22 +1,24 @@
 ---
 title: RevisionGroupCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: RevisionGroupCollection 财产. 返回集合中修订组的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionGroupCollection Count 财产. 返回集合中的修订组数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/revisiongroupcollection/count/
 ---
 ## RevisionGroupCollection.Count property
 
-返回集合中修订组的数量。
+返回集合中的修订组数。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何打印有关文档中一组修订的信息。
+显示如何在文档中打印有关一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### 也可以看看
 
 * class [RevisionGroupCollection](../)
-* 命名空间 [Aspose.Words](../../revisiongroupcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

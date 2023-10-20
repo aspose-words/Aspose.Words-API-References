@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Aspose.Words for .NET API 参考
-description: ChartFormat 财产. 获取父图表元素的填充格式
+linktitle: Fill
+articleTitle: Fill
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartFormat Fill 财产. 获取父图表元素的填充格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartformat/fill/
 public Fill Fill { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartformat/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

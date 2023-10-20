@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConditionalStyleType 枚举. 表示可以在表格样式中定义条件格式的可能表格区域
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ConditionalStyleType 枚举. 表示可以在表格样式中定义条件格式的可能表格区域 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words/conditionalstyletype/
@@ -21,7 +23,7 @@ public enum ConditionalStyleType
 | FirstRow | `0` | 指定表格第一行的格式。 |
 | FirstColumn | `1` | 指定表格第一列的格式。 |
 | LastRow | `2` | 指定表格最后一行的格式。 |
-| LastColumn | `3` | 指定表最后一列的格式。 |
+| LastColumn | `3` | 指定表格最后一列的格式。 |
 | OddRowBanding | `4` | 指定奇数行条纹的格式。 |
 | OddColumnBanding | `5` | 指定奇数列条纹的格式。 |
 | EvenRowBanding | `6` | 指定偶数行条纹的格式。 |
@@ -31,9 +33,9 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | 指定表格左下角单元格的格式。 |
 | BottomRightCell | `11` | 指定表格右下角单元格的格式。 |
 
-### 例子
+## 例子
 
-展示如何使用表格的某些区域样式。
+显示如何使用表格的某些区域样式。
 
 ```csharp
 Document doc = new Document();
@@ -54,9 +56,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是只影响部分表格单元格的格式更改
+// 基于谓词，例如最后一行的单元格。
+// 下面是从“ConditionalStyles”集合中访问表格样式条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -92,7 +94,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// 我们需要通过“StyleOptions”属性自行启用所有其他样式。
+// 我们需要通过“StyleOptions”属性自己启用所有其他样式。
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

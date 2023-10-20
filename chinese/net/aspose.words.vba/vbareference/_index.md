@@ -1,7 +1,9 @@
 ---
-title: Class VbaReference
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaReference 班级. 实现对自动化类型库或 VBA 项目的引用
+title: VbaReference Class
+linktitle: VbaReference
+articleTitle: VbaReference
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaReference 班级. 实现对自动化类型库或 VBA 项目的引用 在 C#.
 type: docs
 weight: 6590
 url: /zh/net/aspose.words.vba/vbareference/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words.vba/vbareference/
 ## VbaReference class
 
 实现对自动化类型库或 VBA 项目的引用。
-
-要了解更多信息，请访问[使用 VBA 宏](https://docs.aspose.com/words/net/working-with-vba-macros/)文档文章。
 
 ```csharp
 public abstract class VbaReference
@@ -20,14 +20,15 @@ public abstract class VbaReference
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | 获取包含自动化类型库标识符的字符串值。 |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | 获取[`VbaReferenceType`](../vbareferencetype/)指示引用类型的对象`VbaReference`对象代表. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | 获取一个包含自动化类型库标识符的字符串值。 |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | 获取[`VbaReferenceType`](../vbareferencetype/)指示 VbaReference 对象表示的引用类型的对象。 |
 
-### 例子
+## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+显示如何从 VBA 引用集合中获取/删除元素。
 
 ```csharp
+[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -53,7 +54,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -98,5 +99,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

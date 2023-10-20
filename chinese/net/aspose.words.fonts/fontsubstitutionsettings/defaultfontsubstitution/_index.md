@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words for .NET API 参考
-description: FontSubstitutionSettings 财产. 与默认字体替换规则相关的设置
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSubstitutionSettings DefaultFontSubstitution 财产. 与默认字体替换规则相关的设置 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何设置默认字体替换规则。
+显示如何设置默认字体替换规则。
 
 ```csharp
 Document doc = new Document();
@@ -24,17 +26,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // 获取 FontSettings 中的默认替换规则。
-// 此规则将用“Times New Roman”替换所有缺失的字体。
+// 此规则会将所有缺失的字体替换为“Times New Roman”。
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// 将默认字体替换设置为“Courier New”。
+// 将默认字体替换为“Courier New”。
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// 使用文档生成器，以我们不必看到替换发生的字体添加一些文本，
-// 然后将结果呈现为 PDF。
+// 使用文档构建器，以我们不必看到替换发生的字体添加一些文本，
+// 然后将结果呈现在 PDF 中。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

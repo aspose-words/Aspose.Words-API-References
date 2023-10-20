@@ -1,22 +1,24 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Aspose.Words for .NET API 参考
-description: FrameFormat 财产. 获取框架边缘与指定项目之间的垂直距离RelativeVerticalPosition属性.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: FrameFormat VerticalPosition 财产. 获取框架边缘和由RelativeVerticalPosition属性 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-获取框架边缘与指定项目之间的垂直距离[`RelativeVerticalPosition`](../relativeverticalposition/)属性.
+获取框架边缘和由[`RelativeVerticalPosition`](../relativeverticalposition/)属性.
 
 ```csharp
 public double VerticalPosition { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+显示如何获取有关作为框架的段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### 也可以看看
 
 * class [FrameFormat](../)
-* 命名空间 [Aspose.Words](../../frameformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

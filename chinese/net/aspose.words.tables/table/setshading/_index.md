@@ -1,14 +1,16 @@
 ---
 title: Table.SetShading
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 将整个表的底纹设置为指定值
+linktitle: SetShading
+articleTitle: SetShading
+second_title: 用于 .NET 的 Aspose.Words
+description: Table SetShading 方法. 为整个表的指定值设置底纹 在 C#.
 type: docs
-weight: 450
+weight: 430
 url: /zh/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
 
-将整个表的底纹设置为指定值。
+为整个表的指定值设置底纹。
 
 ```csharp
 public void SetShading(TextureIndex texture, Color foregroundColor, Color backgroundColor)
@@ -20,9 +22,9 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | 纹理的颜色。 |
 | backgroundColor | Color | 背景填充的颜色。 |
 
-### 例子
+## 例子
 
-演示如何将轮廓边框应用到表格。
+显示如何将轮廓边框应用于表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -35,7 +37,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// 将绿色边框添加到表格的轮廓。
+// 为表格的轮廓添加绿色边框。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

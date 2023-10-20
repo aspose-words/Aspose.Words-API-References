@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Underline 枚举. 表示应用于字体的下划线类型
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Underline 枚举. 表示应用于字体的下划线类型 在 C#.
 type: docs
 weight: 6510
 url: /zh/net/aspose.words/underline/
@@ -37,9 +39,9 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### 例子
+## 例子
 
-演示如何插入超链接字段。
+显示如何插入超链接字段。
 
 ```csharp
 Document doc = new Document();
@@ -47,15 +49,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// 插入超链接并使用自定义格式强调它。
-// 超链接将是一段可点击的文本，它将带我们到 URL 中指定的位置。
+// 插入一个超链接并用自定义格式强调它。
+// 超链接将是一段可点击的文本，它将把我们带到 URL 中指定的位置。
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + 左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口转到 URL。
+// Ctrl + 左键单击 Microsoft Word 文本中的链接将通过新的 Web 浏览器窗口将我们带到 URL。
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

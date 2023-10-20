@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置用于签署输出 PDF 文档的详细信息
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions DigitalSignatureDetails 财产. 获取或设置用于签署输出 PDF 文档的详细信息 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### 评论
+## 评论
 
-默认值为`无效的`并且输出文档将不会被签名。 当此属性设置为有效时[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/)object, 那么输出的 PDF 文档将被数字签名。
+默认值为 null 并且不会对输出文档进行签名。 当此属性设置为有效时[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/)object, 则输出的 PDF 文档将被数字签名。
 
-### 例子
+## 例子
 
-演示如何签署生成的 PDF 文档。
+显示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -29,20 +31,20 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-// 修改该方法将文档转换为 .PDF 的方式。
+// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改该方法如何将文档转换为 .PDF。
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
-DateTime signingTime = new DateTime(2015, 7, 20);
+// 在我们使用“Save”方法渲染文档时对文档进行数字签名。
+DateTime signingTime = DateTime.Now;
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

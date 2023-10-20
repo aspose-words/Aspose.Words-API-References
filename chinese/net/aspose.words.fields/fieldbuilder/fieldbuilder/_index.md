@@ -1,14 +1,16 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Aspose.Words for .NET API 参考
-description: FieldBuilder 构造函数. 初始化一个实例FieldBuilder类.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBuilder 构造函数. 初始化FieldBuilder类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-初始化一个实例[`FieldBuilder`](../)类.
+初始化[`FieldBuilder`](../)类.
 
 ```csharp
 public FieldBuilder(FieldType fieldType)
@@ -18,20 +20,20 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | 要构建的字段的类型。 |
 
-### 例子
+## 例子
 
-演示如何使用字段生成器创建和插入字段。
+展示如何使用字段构建器创建和插入字段。
 
 ```csharp
 Document doc = new Document();
 
-// 将文本内容添加到文档的一种便捷方法是使用文档生成器。
+// 向文档添加文本内容的一种便捷方法是使用文档构建器。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// 字段有其构建器，我们可以使用它来逐段构建字段代码。
-// 在本例中，我们将构造一个表示美国邮政编码的 BARCODE 字段，
-// 然后将其插入到 Run 前面。
+// 字段有它们的构建器，我们可以用它来一块一块地构造一个字段代码。
+// 在这种情况下，我们将构造一个代表美国邮政编码的 BARCODE 字段，
+// 然后将其插入到 Run 的前面。
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

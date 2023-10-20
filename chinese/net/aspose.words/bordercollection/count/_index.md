@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取集合中的边框数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Count 财产. 获取集合中的边框数 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/bordercollection/count/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/bordercollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
-展示边框集合如何共享元素。
+显示边框集合如何共享元素。
 
 ```csharp
 Document doc = new Document();
@@ -29,6 +31,7 @@ builder.Write("Paragraph 2.");
 // 这些段落，它们的边框集合共享相同的元素。
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
+
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -39,8 +42,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// 在第二段中更改边框的线条样式后，
-// 边界集合不再共享相同的元素。
+// 仅在第二段更改边框的线条样式后，
+// 边框集合不再共享相同的元素。
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -56,7 +59,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

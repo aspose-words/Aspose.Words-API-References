@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgsBase 财产. 获取正在合并的记录的从零开始的索引
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgsBase RecordIndex 财产. 获取正在合并的记录的从零开始的索引 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,17 +16,16 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 public int RecordIndex { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何在邮件合并期间将复选框表单字段作为合并数据插入到 MERGEFIELD 中。
+演示如何在邮件合并期间将复选框表单字段作为合并数据插入 MERGEFIELD。
 
 ```csharp
-public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 使用带有“TableStart”/“TableEnd”标记的 MERGEFIELD 来定义邮件合并区域
+    // 使用带有“TableStart”/“TableEnd”标签的 MERGEFIELD 来定义邮件合并区域
     // 它属于名为“StudentCourse”的数据源，并且有一个 MERGEFIELD，它接受来自名为“CourseName”的列的数据。
     builder.StartTable();
     builder.InsertCell();
@@ -41,10 +42,9 @@ public void InsertCheckBox()
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
 
 /// <summary>
-/// 遇到具有特定名称的 MERGEFIELD 时，插入复选框表单字段而不是合并数据文本。
+/// 在遇到具有特定名称的 MERGEFIELD 时，插入复选框表单字段而不是合并数据文本。
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
@@ -63,7 +63,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // 在这种情况下，对于每个记录索引'n'，对应的字段值为“课程n”。
+            // 在这种情况下，对于每个记录索引'n'，对应的字段值为“Course n”。
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -100,7 +100,5 @@ private static DataTable GetStudentCourseDataTable()
 ### 也可以看看
 
 * class [FieldMergingArgsBase](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

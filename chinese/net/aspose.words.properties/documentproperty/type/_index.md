@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 财产. 获取属性的数据类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty Type 财产. 获取属性的数据类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.properties/documentproperty/type/
@@ -14,18 +16,18 @@ url: /zh/net/aspose.words.properties/documentproperty/type/
 public PropertyType Type { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何使用内置文档属性。
+显示如何使用内置文档属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// “Document”对象在其成员中包含一些元数据。
+// “文档”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// 该文档还将元数据存储在其内置属性中。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 文档还在其内置属性中存储元数据。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
@@ -60,7 +62,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -78,7 +80,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -94,7 +96,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

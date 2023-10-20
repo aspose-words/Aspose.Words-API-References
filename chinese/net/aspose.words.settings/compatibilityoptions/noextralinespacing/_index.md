@@ -1,14 +1,16 @@
 ---
 title: CompatibilityOptions.NoExtraLineSpacing
-second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 不要将内容集中在具有精确行高的行上
+linktitle: NoExtraLineSpacing
+articleTitle: NoExtraLineSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: CompatibilityOptions NoExtraLineSpacing 财产. 不要在具有精确行高的行上将内容居中 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words.settings/compatibilityoptions/noextralinespacing/
 ---
 ## CompatibilityOptions.NoExtraLineSpacing property
 
-不要将内容集中在具有精确行高的行上。
+不要在具有精确行高的行上将内容居中。
 
 ```csharp
 public bool NoExtraLineSpacing { get; set; }
@@ -17,7 +19,5 @@ public bool NoExtraLineSpacing { get; set; }
 ### 也可以看看
 
 * class [CompatibilityOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../compatibilityoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

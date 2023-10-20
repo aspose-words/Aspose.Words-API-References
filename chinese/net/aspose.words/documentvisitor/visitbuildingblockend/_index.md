@@ -1,14 +1,16 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当构建块枚举结束时调用
+linktitle: VisitBuildingBlockEnd
+articleTitle: VisitBuildingBlockEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitBuildingBlockEnd 方法. 在构建块的枚举结束时调用 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/documentvisitor/visitbuildingblockend/
 ---
 ## DocumentVisitor.VisitBuildingBlockEnd method
 
-当构建块枚举结束时调用。
+在构建块的枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
@@ -20,15 +22,15 @@ public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
-注意：当您在 a Visitor 上执行 a Visitor 时，不会访问构建块节点及其子节点。[`Document`](../../document/) 。如果您想在 a 构建块上执行访问者，则需要在[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/)or 调用[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/).
+注意：当你执行 a Visitor over a 时，不会访问构建块节点及其子节点[`Document`](../../document/).如果要通过 a 构建块执行访问者，则需要执行访问者[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/)or 调用[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/).
 
-### 例子
+## 例子
 
-显示访问术语表文档中的构建块的方法。
+显示访问词汇表文档中构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -46,7 +48,7 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 访问构建块的方式有多种。
+    // 有多种访问构建块的方法。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -63,14 +65,15 @@ public void GlossaryDocument()
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
+
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
@@ -132,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

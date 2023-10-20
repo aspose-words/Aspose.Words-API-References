@@ -1,14 +1,16 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
-second_title: Aspose.Words for .NET API 参考
-description: IFieldUpdateCultureProvider 方法. 返回一个CultureInfo字段更新期间要使用的对象
+linktitle: GetCulture
+articleTitle: GetCulture
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldUpdateCultureProvider GetCulture 方法. 返回一个CultureInfo在字段更新期间使用的对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-返回一个CultureInfo字段更新期间要使用的对象。
+返回一个CultureInfo在字段更新期间使用的对象。
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -16,18 +18,19 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| culture | String | 正在更新的字段所请求的区域性名称。 |
-| field | Field | 该字段正在更新。 |
+| culture | String | 为正在更新的字段请求的区域性名称。 |
+| field | Field | 正在更新的字段。 |
 
 ### 返回值
 
-应用于字段更新的区域性对象。
+应该用于字段更新的区域性对象。
 
-### 例子
+## 例子
 
-演示如何指定解析每个字段的日期/时间格式的区域性。
+演示如何指定一种文化，以解析每个字段的日期/时间格式。
 
 ```csharp
+[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -37,7 +40,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // 设置一个返回特定于每个字段的区域性对象的提供程序。
+    // 设置一个提供程序，该提供程序返回特定于每个字段的文化对象。
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -48,7 +51,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// 提供在字段更新期间应使用的 CultureInfo 对象。
+/// 提供在更新字段期间应使用的 CultureInfo 对象。
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
@@ -95,7 +98,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

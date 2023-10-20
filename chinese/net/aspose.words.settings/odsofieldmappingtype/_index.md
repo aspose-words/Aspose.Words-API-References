@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.OdsoFieldMappingType 枚举. 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.OdsoFieldMappingType 枚举. 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型 在 C#.
 type: docs
 weight: 5920
 url: /zh/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,15 +24,15 @@ public enum OdsoFieldMappingType
 | Null | `1` | 指定邮件合并字段尚未映射到给定外部数据源中的列。 |
 | Default | `1` | 等于Null. |
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 该集合定义邮件合并如何映射数据源中的列
-// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射来自数据源的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -56,7 +58,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次性清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

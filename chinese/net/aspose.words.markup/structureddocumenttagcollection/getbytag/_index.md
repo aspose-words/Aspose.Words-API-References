@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTagCollection.GetByTag
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagCollection 方法. 返回在具有指定标签的集合中遇到的第一个结构化文档标签
+linktitle: GetByTag
+articleTitle: GetByTag
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagCollection GetByTag 方法. 返回集合中遇到的第一个带有指定标签的结构化文档标签 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
 ---
 ## StructuredDocumentTagCollection.GetByTag method
 
-返回在具有指定标签的集合中遇到的第一个结构化文档标签。
+返回集合中遇到的第一个带有指定标签的结构化文档标签。
 
 ```csharp
 public IStructuredDocumentTag GetByTag(string tag)
@@ -18,7 +20,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 | --- | --- | --- |
 | tag | String | 结构化文档标签的标签。 |
 
-### 评论
+## 评论
 
 如果找不到具有指定标签的结构化文档标签，则返回 null。
 
@@ -26,7 +28,5 @@ public IStructuredDocumentTag GetByTag(string tag)
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

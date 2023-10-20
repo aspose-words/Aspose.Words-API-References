@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Aspose.Words for .NET API 参考
-description: FieldChar 财产. 获取或设置父字段是否被锁定不应重新计算其结果
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldChar IsLocked 财产. 获取或设置父字段是否被锁定不应重新计算其结果 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldchar/islocked/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fields/fieldchar/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何使用 FieldStart 节点。
+显示如何使用 FieldStart 节点。
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +47,5 @@ field.Update();
 ### 也可以看看
 
 * class [FieldChar](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldchar/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

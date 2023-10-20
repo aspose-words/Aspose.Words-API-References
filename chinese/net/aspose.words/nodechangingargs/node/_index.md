@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words for .NET API 参考
-description: NodeChangingArgs 财产. 获取Node正在添加或删除
+linktitle: Node
+articleTitle: Node
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeChangingArgs Node 财产. 获取Node正在添加或删除 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodechangingargs/node/
@@ -14,12 +16,11 @@ url: /zh/net/aspose.words/nodechangingargs/node/
 public Node Node { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何通过回调自定义节点更改。
+显示如何通过回调自定义节点更改。
 
 ```csharp
-public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,11 +38,10 @@ public void FontChangeViaCallback()
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
-}
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -92,7 +92,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* 命名空间 [Aspose.Words](../../nodechangingargs/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

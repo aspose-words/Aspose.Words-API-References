@@ -1,22 +1,24 @@
 ---
 title: CustomPart.Clone
-second_title: Aspose.Words for .NET API 参考
-description: CustomPart 方法. 制作对象的足够深的副本 不重复字节Data值.
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPart Clone 方法. 制作对象的足够深的副本 不复制Data值 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-制作对象的“足够深”的副本。 不重复字节[`Data`](../data/)值.
+制作对象的“足够深”的副本。 不复制[`Data`](../data/)值.
 
 ```csharp
 public CustomPart Clone()
 ```
 
-### 例子
+## 例子
 
-演示如何访问文档的任意自定义部件集合。
+显示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -45,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// 我们可以从该集合中单独删除元素，也可以一次性删除所有元素。
+// 我们可以从这个集合中单独删除元素，也可以一次全部删除。
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPart](../)
-* 命名空间 [Aspose.Words.Markup](../../custompart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,24 +1,26 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 财产. 获取形状的不透明边界以点为单位
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase OpaqueBoundsInPoints 财产. 以点为单位获取形状的不透明边界 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
 ---
 ## NodeRendererBase.OpaqueBoundsInPoints property
 
-获取形状的不透明边界（以点为单位）。
+以点为单位获取形状的不透明边界。
 
 ```csharp
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### 评论
+## 评论
 
-此属性返回形状的不透明（即形状的透明部分被忽略）边界框。 边界考虑了形状旋转。
+此属性返回形状的不透明（即忽略形状的透明部分）边界框。 边界将形状旋转考虑在内。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -39,18 +41,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
+// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
+// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 此处的不透明边界也可能有所不同。
+// 这里的不透明边界也可能不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

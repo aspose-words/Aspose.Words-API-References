@@ -1,25 +1,26 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdated
-second_title: Aspose.Words for .NET API 参考
-description: IFieldUpdatingCallback 方法. 更新字段后立即调用的用户定义方法
+linktitle: FieldUpdated
+articleTitle: FieldUpdated
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldUpdatingCallback FieldUpdated 方法. 在字段更新后立即调用的用户定义方法 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
 ---
 ## IFieldUpdatingCallback.FieldUpdated method
 
-更新字段后立即调用的用户定义方法。
+在字段更新后立即调用的用户定义方法。
 
 ```csharp
 public void FieldUpdated(Field field)
 ```
 
-### 例子
+## 例子
 
-演示如何在字段更新期间使用回调方法。
+展示如何在字段更新期间使用回调方法。
 
 ```csharp
-public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -40,9 +41,9 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// 如果您想在字段更新期间调用您自己的自定义方法，请实现此接口。
+/// 如果您想在字段更新期间调用自己的自定义方法，请实现此接口。
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback
 {
     public FieldUpdatingCallback()
     {
@@ -50,7 +51,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// 在更新字段之前调用的用户定义方法。
+    /// 在字段更新之前调用的用户定义方法。
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -62,17 +63,11 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// 更新字段后调用的用户定义方法。
+    /// 在字段更新后立即调用的用户定义方法。
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
-    }
-
-    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
-    {
-        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
-        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }
@@ -83,7 +78,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

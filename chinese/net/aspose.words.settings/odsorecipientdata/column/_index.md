@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientData 财产. 指定数据源中包含当前记录的唯一数据的列 默认值为 0
+linktitle: Column
+articleTitle: Column
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientData Column 财产. 指定数据源中包含当前记录的唯一数据的列 默认值为 0 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.settings/odsorecipientdata/column/
 public int Column { get; set; }
 ```
 
-### 例子
+## 例子
 
-显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
+显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 我们还可以单独删除元素，或者一次性清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoRecipientData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

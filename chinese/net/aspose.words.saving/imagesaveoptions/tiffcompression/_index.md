@@ -1,28 +1,30 @@
 ---
 title: ImageSaveOptions.TiffCompression
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置将生成的图像保存为 TIFF 格式时要应用的压缩类型
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions TiffCompression 财产. 获取或设置将生成的图像保存为 TIFF 格式时应用的压缩类型 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-获取或设置将生成的图像保存为 TIFF 格式时要应用的压缩类型。
+获取或设置将生成的图像保存为 TIFF 格式时应用的压缩类型。
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### 评论
+## 评论
 
-仅在保存为 TIFF 时有效。
+仅在保存到 TIFF 时有效。
 
-默认值为Lzw。
+默认值为Lzw.
 
-### 例子
+## 例子
 
-演示如何选择要应用于转换为 TIFF 图像的文档的压缩方案。
+展示如何选择压缩方案以应用于我们转换为 TIFF 图像的文档。
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +32,7 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+            // 创建一个“ImageSaveOptions”对象，我们可以将它传递给文档的“Save”方法
             // 修改该方法将文档呈现为图像的方式。
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
@@ -72,7 +74,5 @@ Document doc = new Document();
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

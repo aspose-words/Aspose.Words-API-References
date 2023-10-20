@@ -1,32 +1,34 @@
 ---
 title: Fill.Opacity
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置指定填充的不透明度其值介于 0.0透明和 1.0不透明之间
+linktitle: Opacity
+articleTitle: Opacity
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Opacity 财产. 获取或设置指定填充的不透明度为 0.0透明和 1.0不透明之间的值 在 C#.
 type: docs
-weight: 150
+weight: 140
 url: /zh/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
 
-获取或设置指定填充的不透明度，其值介于 0.0（透明）和 1.0（不透明）之间。
+获取或设置指定填充的不透明度为 0.0（透明）和 1.0（不透明）之间的值。
 
 ```csharp
 public double Opacity { get; set; }
 ```
 
-### 评论
+## 评论
 
-此属性与属性相反[`Transparency`](../transparency/)。
+此属性与属性相反[`Transparency`](../transparency/).
 
-### 例子
+## 例子
 
-演示如何用纯色填充形状。
+显示如何用纯色填充形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 写一些文本，然后用浮动形状覆盖它。
+// 写一些文字，然后用浮动形状覆盖它。
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -41,10 +43,10 @@ shape.FillColor = Color.LightBlue;
 
 // “Opacity”属性决定颜色在 0-1 范围内的透明度，
 // 1 表示完全不透明，0 表示不可见。
-// 默认情况下，形状填充是完全不透明的，因此我们看不到该形状上方的文本。
+// 默认情况下，形状填充是完全不透明的，所以我们看不到这个形状上面的文本。
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// 将形状填充颜色的不透明度设置为较低的值，以便我们可以看到其下方的文本。
+// 将形状填充颜色的不透明度设置为较低的值，以便我们可以看到它下面的文本。
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

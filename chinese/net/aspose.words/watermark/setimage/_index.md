@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Aspose.Words for .NET API 参考
-description: Watermark 方法. 将图像水印添加到文档中
+linktitle: SetImage
+articleTitle: SetImage
+second_title: 用于 .NET 的 Aspose.Words
+description: Watermark SetImage 方法. 将图像水印添加到文档中 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 将图像水印添加到文档中。
 
@@ -22,17 +24,17 @@ public void SetImage(Image image)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当图像为`无效的`. |
+| ArgumentNullException | 当图像为空时抛出。 |
 
 ### 也可以看看
 
 * class [Watermark](../)
-* 命名空间 [Aspose.Words](../../watermark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 将图像水印添加到文档中。
 
@@ -49,13 +51,13 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当图像为`无效的`. |
+| ArgumentNullException | 当图像为空时抛出。 |
 
-### 评论
+## 评论
 
-如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)是`无效的`，水印将设置为默认选项。
+如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)为空，水印将使用默认选项设置。
 
-### 例子
+## 例子
 
 演示如何从本地文件系统中的图像创建水印。
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* 命名空间 [Aspose.Words](../../watermark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 将图像水印添加到文档中。
 
@@ -106,17 +108,15 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当路径为`无效的`. |
+| ArgumentNullException | 当路径为空时抛出。 |
 
-### 评论
+## 评论
 
-如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)是`无效的`，水印将设置为默认选项。
+如果[`ImageWatermarkOptions`](../../imagewatermarkoptions/)为空，水印将使用默认选项设置。
 
 ### 也可以看看
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* 命名空间 [Aspose.Words](../../watermark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

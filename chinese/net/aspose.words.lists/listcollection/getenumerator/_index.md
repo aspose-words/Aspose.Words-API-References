@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ListCollection 方法. 获取将枚举文档中列表的枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ListCollection GetEnumerator 方法. 获取将枚举文档中列表的枚举器对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.lists/listcollection/getenumerator/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.lists/listcollection/getenumerator/
 public IEnumerator<List> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
-演示如何使用另一个文档中的所有列表的示例创建文档。
+演示如何使用来自另一个文档的所有列表的示例创建一个文档。
 
 ```csharp
 public void PrintOutAllLists()
@@ -54,7 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

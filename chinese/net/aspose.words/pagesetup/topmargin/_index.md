@@ -1,22 +1,24 @@
 ---
 title: PageSetup.TopMargin
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页面顶部边缘与正文顶部边界之间的距离以磅为单位
+linktitle: TopMargin
+articleTitle: TopMargin
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup TopMargin 财产. 返回或设置页面上边缘和正文上边界之间的距离以磅为单位 在 C#.
 type: docs
 weight: 440
 url: /zh/net/aspose.words/pagesetup/topmargin/
 ---
 ## PageSetup.TopMargin property
 
-返回或设置页面顶部边缘与正文顶部边界之间的距离（以磅为单位）。
+返回或设置页面上边缘和正文上边界之间的距离（以磅为单位）。
 
 ```csharp
 public double TopMargin { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
+显示如何调整纸张大小、方向、边距以及部分的其他设置。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

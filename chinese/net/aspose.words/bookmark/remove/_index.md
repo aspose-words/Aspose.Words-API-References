@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 方法. 从文档中删除书签不删除书签内的文本
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark Remove 方法. 从文档中删除书签不删除书签内的文本 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/bookmark/remove/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words/bookmark/remove/
 public void Remove()
 ```
 
-### 例子
+## 例子
 
-演示如何从文档中删除书签。
+显示如何从文档中删除书签。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入五个书签，其边界内有文本。
+// 在边界内插入五个带有文本的书签。
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -33,13 +35,13 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// 该集合存储书签。
+// 这个集合存储书签。
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// 删除书签有多种方法。
-// 1 - 调用书签的Remove方法：
+// 有几种删除书签的方法。
+// 1 - 调用书签的 Remove 方法：
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
@@ -63,7 +65,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 // 我们可以清除整个书签集合。
 bookmarks.Clear();
 
-// 书签内的文本仍然存在于文档中。
+// 书签中的文本仍然存在于文档中。
 Assert.That(bookmarks, Is.Empty);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

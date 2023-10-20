@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFields
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示忽略字段内的文本 默认值为错误的.
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions IgnoreFields 财产. 获取或设置一个布尔值指示忽略字段内的文本 默认值为错误的 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefields/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 public bool IgnoreFields { get; set; }
 ```
 
-### 评论
+## 评论
 
-此选项影响整个字段（ 之间的所有节点）FieldStart和FieldEnd）。
+此选项影响整个字段（ 之间的所有节点FieldStart和FieldEnd）。
 
-要仅忽略字段代码，请使用相应的选项[`IgnoreFieldCodes`](../ignorefieldcodes/)。
+要仅忽略域代码，请使用相应的选项[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
-### 例子
+## 例子
 
-演示如何忽略字段内的文本。
+显示如何忽略字段内的文本。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +39,7 @@ FindReplaceOptions options = new FindReplaceOptions();
 // 将“IgnoreFields”标志设置为“true”以获取查找和替换
 // 忽略字段内文本的操作。
 // 将“IgnoreFields”标志设置为“false”以获取查找和替换
-// 还可以搜索字段内文本的操作。
+// 也可以在字段内搜索文本的操作。
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

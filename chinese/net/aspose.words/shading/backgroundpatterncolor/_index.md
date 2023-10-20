@@ -1,20 +1,22 @@
 ---
 title: Shading.BackgroundPatternColor
-second_title: Aspose.Words for .NET API 参考
-description: Shading 财产. 获取或设置应用于背景的颜色Shading对象.
+linktitle: BackgroundPatternColor
+articleTitle: BackgroundPatternColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Shading BackgroundPatternColor 财产. 获取或设置应用于 Shading 对象背景的颜色 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-获取或设置应用于背景的颜色[`Shading`](../)对象.
+获取或设置应用于 Shading 对象背景的颜色。
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何用边框和底纹装饰文本。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### 也可以看看
 
 * class [Shading](../)
-* 命名空间 [Aspose.Words](../../shading/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,35 +1,37 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值该值指示带标点符号的段落是否被视为空 并且如果RemoveEmptyParagraphs已指定选项
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge CleanupParagraphsWithPunctuationMarks 财产. 获取或设置一个值该值指示带有标点符号的段落是否被视为空 如果RemoveEmptyParagraphs选项已指定 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
 ## MailMerge.CleanupParagraphsWithPunctuationMarks property
 
-获取或设置一个值，该值指示带标点符号的段落是否被视为空 ，并且如果RemoveEmptyParagraphs已指定选项。
+获取或设置一个值，该值指示带有标点符号的段落是否被视为空 ，如果RemoveEmptyParagraphs选项已指定。
 
 ```csharp
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`真的`.
 
-以下是可清除标点符号的完整列表：
+以下是可清理的标点符号的完整列表：
 
 * ！
 * ,
-* 。
-* :
+* .
+* ：
 * ;
-* ？
+* ?
 * ¡
 * ¿
 
-### 例子
+## 例子
 
 演示如何在邮件合并操作后删除带有标点符号的段落。
 
@@ -48,11 +50,11 @@ mergeFieldOption2.FieldName = "Option_2";
 // 配置“CleanupOptions”属性以删除此邮件合并将创建的任何空段落。
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
-// 将“CleanupParagraphsWithPunctuationMarks”属性设置为“true”也会对段落进行计数
-// 标点符号为空，并将获得邮件合并操作来删除它们。
+// 将 "CleanupParagraphsWithPunctuationMarks" 属性设置为 "true" 也会计算段落
+// 标点符号为空，并将获得邮件合并操作以删除它们。
 // 将“CleanupParagraphsWithPunctuationMarks”属性设置为“false”
-// 将删除空段落，但不删除带有标点符号的段落。
-// 这是该属性涉及的标点符号列表：“!”、“,”、“.”、“:”、“;”、“?”、“¡”、“¿”。
+// 将删除空段落，但不会删除带有标点符号的段落。
+// 这是该属性涉及的标点符号列表：“!”、“”、“.”、“:”、“;”、“?”、“¡”、“¿”。
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 
 doc.MailMerge.Execute(new[] { "Option_1", "Option_2" }, new object[] { null, null });
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

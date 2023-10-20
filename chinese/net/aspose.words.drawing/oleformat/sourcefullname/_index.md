@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取或设置链接的 OLE 对象的源文件的路径和名称
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat SourceFullName 财产. 获取或设置链接的 OLE 对象的源文件的路径和名称 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.drawing/oleformat/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
-如果`SourceFullName`不是空字符串，OLE 对象已链接。
+如果`SourceFullName`不是空字符串，则 OLE 对象已链接。
 
-### 例子
+## 例子
 
-演示如何插入链接和未链接的 OLE 对象。
+显示如何插入链接和未链接的 OLE 对象。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 将 Microsoft Visio 绘图作为 OLE 对象嵌入到文档中。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// 插入本地文件系统中文件的链接并将其显示为图标。
+// 在本地文件系统中插入文件的链接，并显示为图标。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // 插入 OLE 对象会创建存储这些对象的形状。
@@ -40,7 +42,7 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// 如果形状包含 OLE 对象，它将具有有效的“OleFormat”属性，
+// 如果一个形状包含一个 OLE 对象，它将有一个有效的“OleFormat”属性，
 // 我们可以用它来验证形状的某些方面。
 OleFormat oleFormat = shapes[0].OleFormat;
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

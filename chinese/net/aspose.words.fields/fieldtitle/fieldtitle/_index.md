@@ -1,7 +1,9 @@
 ---
-title: FieldTitle.FieldTitle
-second_title: Aspose.Words for .NET API 参考
-description: FieldTitle 构造函数. 默认构造函数
+title: FieldTitle
+linktitle: FieldTitle
+articleTitle: FieldTitle
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldTitle 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldtitle/fieldtitle/
@@ -17,7 +19,5 @@ public FieldTitle()
 ### 也可以看看
 
 * class [FieldTitle](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtitle/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

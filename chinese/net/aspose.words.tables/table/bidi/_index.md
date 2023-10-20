@@ -1,28 +1,30 @@
 ---
 title: Table.Bidi
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置这是否是从右到左的表格
+linktitle: Bidi
+articleTitle: Bidi
+second_title: 用于 .NET 的 Aspose.Words
+description: Table Bidi 财产. 获取或设置这是否是一个从右到左的表 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property
 
-获取或设置这是否是从右到左的表格。
+获取或设置这是否是一个从右到左的表。
 
 ```csharp
 public bool Bidi { get; set; }
 ```
 
-### 评论
+## 评论
 
-什么时候`真的`，该行中的单元格从右到左排列。
+什么时候`真的`，此行中的单元格从右到左排列。
 
-默认值为`错误的`。
+默认值为`错误的`.
 
-### 例子
+## 例子
 
-演示如何为表格创建自定义样式设置。
+显示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

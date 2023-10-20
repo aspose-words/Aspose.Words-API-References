@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveMacros
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 从文档中删除所有宏VBA 项目以及工具栏和命令自定义
+linktitle: RemoveMacros
+articleTitle: RemoveMacros
+second_title: 用于 .NET 的 Aspose.Words
+description: Document RemoveMacros 方法. 从文档中删除所有宏VBA 项目以及工具栏和命令自定义 在 C#.
 type: docs
-weight: 690
+weight: 670
 url: /zh/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/removemacros/
 public void RemoveMacros()
 ```
 
-### 评论
+## 评论
 
 通过从文档中删除所有宏，您可以确保文档不包含宏病毒。
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有宏。
 
@@ -38,7 +40,5 @@ Assert.Null(doc.VbaProject);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

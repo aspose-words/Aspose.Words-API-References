@@ -1,36 +1,38 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Words for .NET API 参考
-description: Metered 构造函数. 初始化此类的新实例
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: 用于 .NET 的 Aspose.Words
+description: Metered 构造函数. 初始化这个类的一个新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/metered/metered/
 ---
 ## Metered constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public Metered()
 ```
 
-### 例子
+## 例子
 
-展示如何激活计量许可证并跟踪信用/消耗。
+显示如何激活计量许可证和跟踪信用/消耗。
 
 ```csharp
-// 创建新的计量许可证，然后打印其使用统计信息。
+// 创建一个新的计量许可证，然后打印其使用统计信息。
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// 使用 Aspose.Words 进行操作，然后再次打印我们的计量统计数据以查看我们花费了多少。
+// 使用 Aspose.Words 操作，然后再次打印我们的计量统计数据，看看我们花了多少钱。
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// Aspose 计量许可机制不会每次都将使用数据发送到购买服务器，
+// Aspose Metered Licensing 机制不会每次都将使用数据发送到购买服务器，
 // 你需要使用等待。
 System.Threading.Thread.Sleep(10000);
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### 也可以看看
 
 * class [Metered](../)
-* 命名空间 [Aspose.Words](../../metered/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

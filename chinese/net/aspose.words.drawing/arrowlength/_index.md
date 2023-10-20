@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ArrowLength 枚举. 行尾箭头的长度
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ArrowLength 枚举. 行尾箭头的长度 在 C#.
 type: docs
 weight: 480
 url: /zh/net/aspose.words.drawing/arrowlength/
@@ -21,18 +23,18 @@ public enum ArrowLength
 | Short | `0` |  |
 | Medium | `1` |  |
 | Long | `2` |  |
-| Default | `0` | 与相同Short. |
+| Default | `0` | 同Short. |
 
-### 例子
+## 例子
 
-展示创造出各种形状。
+显示创建各种形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 下面是我们可以插入到文档中的四个形状示例。
-// 1 - 水平、半透明红点线
+// 1 - 虚线、水平、半透明红线
 // 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -60,7 +62,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - 绿色填充的箭头：
+// 3 - 带绿色填充的箭头：
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -70,7 +72,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - 方向翻转的箭头，填充有 Aspose 徽标：
+// 4 - 用 Aspose 标志填充的翻转方向的箭头：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -82,8 +84,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // 当我们翻转箭头的方向时，我们也会翻转箭头包含的图像。
-    // 在让形状显示它之前，以另一种方式翻转图像以取消此效果。
+    // 当我们翻转箭头的方向时，我们也翻转了箭头包含的图像。
+    // 在让形状显示它之前，以另一种方式翻转图像以取消它。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

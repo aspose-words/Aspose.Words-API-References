@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 返回指定节点的从零开始的索引
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection IndexOf 方法. 返回指定节点的从零开始的索引 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/nodecollection/indexof/
@@ -20,13 +22,13 @@ public int IndexOf(Node node)
 
 ### 返回值
 
-集合内节点的从零开始的索引（如果找到）；否则，-1。
+集合中节点的从零开始的索引（如果找到）；否则，-1。
 
-### 评论
+## 评论
 
-该方法执行线性搜索；因此，平均执行时间与[`Count`](../count/)。
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 
-### 例子
+## 例子
 
 演示如何获取集合中节点的索引。
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

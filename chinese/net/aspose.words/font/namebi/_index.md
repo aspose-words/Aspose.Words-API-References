@@ -1,20 +1,22 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置从右到左语言文档中的字体名称
+linktitle: NameBi
+articleTitle: NameBi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NameBi 财产. 返回或设置从右到左的语言文档中的字体名称 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/font/namebi/
 ---
 ## Font.NameBi property
 
-返回或设置从右到左语言文档中的字体名称。
+返回或设置从右到左的语言文档中的字体名称。
 
 ```csharp
 public string NameBi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -22,7 +24,7 @@ public string NameBi { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 定义一组从左到右文本的字体设置。
+// 为从左到右的文本定义一组字体设置。
 builder.Font.Name = "Courier New";
 builder.Font.Size = 16;
 builder.Font.Italic = false;
@@ -36,14 +38,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// 我们可以使用 Bidi 标志来指示我们是否要添加文本
-// 文档生成器是从右到左。当我们添加文本并将此标志设置为 true 时，
+// 我们可以使用 Bidi 标志来指示我们是否要添加的文本
+// 文档构建器是从右到左的。当我们将此标志设置为 true 添加文本时，
 // 它将使用从右到左的字体设置集进行格式化。
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
 // 将标志设置为 false，然后添加从左到右的文本。
-// 文档生成器将使用从左到右的字体设置集来格式化它们。
+// 文档生成器将使用从左到右的字体设置设置这些格式。
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

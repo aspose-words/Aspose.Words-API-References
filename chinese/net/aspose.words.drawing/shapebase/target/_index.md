@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置形状超链接的目标框架
+linktitle: Target
+articleTitle: Target
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Target 财产. 获取或设置形状超链接的目标框架 在 C#.
 type: docs
 weight: 520
 url: /zh/net/aspose.words.drawing/shapebase/target/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/target/
 public string Target { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
-### 例子
+## 例子
 
-演示如何插入包含图像且也是超链接的形状。
+显示如何插入包含图像的形状，也是超链接。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

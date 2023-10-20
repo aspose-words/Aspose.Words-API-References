@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.IsLinked
-second_title: Aspose.Words for .NET API 参考
-description: FieldDdeAuto 财产. 获取或设置是否通过不随文档存储图形数据来减小文件大小
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDdeAuto IsLinked 财产. 获取或设置是否通过不随文档存储图形数据来减小文件大小 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldddeauto/islinked/
@@ -14,18 +16,17 @@ url: /zh/net/aspose.words.fields/fieldddeauto/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
 
 ```csharp
-public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是三种类型的字段，我们可以使用它们以文本形式显示链接文档中的内容。
-    // 1 - 链接字段：
+    // 下面是我们可以用来以文本形式显示链接文档中的内容的三种类型的字段。
+    // 1 - 一个 LINK 字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -43,13 +44,12 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
-public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 下面是三种类型的字段，我们可以使用它们以图像的形式显示链接文档中的内容。
-    // 1 - 链接字段：
+    // 1 - 一个 LINK 字段：
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -69,7 +69,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// 使用文档生成器插入 LINK 字段并根据参数设置其属性。
+/// 使用文档构建器插入 LINK 字段并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -107,7 +107,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// 使用文档构建器插入DDE字段，并根据参数设置其属性。
+/// 使用文档构建器插入一个DDE字段，并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -146,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// 使用文档生成器插入 DDEAUTO 字段并根据参数设置其属性。
+/// 使用文档构建器插入一个 DDEAUTO 字段并根据参数设置其属性。
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -183,12 +183,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // 链接对象作为文本
+    // LinkedObjectAsText
     Text,
     Unicode,
     Html,
     Rtf,
-    // 链接对象作为图像
+    // LinkedObjectAsImage
     Picture,
     Bitmap
 }
@@ -197,7 +197,5 @@ public enum InsertLinkedObjectAs
 ### 也可以看看
 
 * class [FieldDdeAuto](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldddeauto/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

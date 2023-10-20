@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails 班级. 包含使用数字签名签署 PDF 文档的详细信息
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails 班级. 包含使用数字签名签署 PDF 文档的详细信息 在 C#.
 type: docs
 weight: 5430
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -18,8 +20,8 @@ public class PdfDigitalSignatureDetails
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | 初始化此类的实例。 |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | 初始化此类的实例。 |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | 初始化此类的一个实例。 |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | 初始化此类的一个实例。 |
 
 ## 特性
 
@@ -32,17 +34,17 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | 获取或设置签名日期。 |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | 获取或设置数字签名时间戳设置。 |
 
-### 评论
+## 评论
 
 目前，数字签名 PDF 文档仅适用于 .NET 2.0 或更高版本。
 
-要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) 属性为有效`PdfDigitalSignatureDetails`对象，然后将文档保存为 PDF 格式，传递 [`PdfSaveOptions`](../pdfsaveoptions/)作为参数传入[`Save`](../../aspose.words/document/save/)方法。
+要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails/) 属性为有效`PdfDigitalSignatureDetails`对象，然后将文档保存为 PDF 格式并传递 [`PdfSaveOptions`](../pdfsaveoptions/)作为参数进入[`Save`](../../aspose.words/document/save/)方法。
 
-Aspose.Words 在整个 PDF 文档上创建 PKCS#7 签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和 “adbe.pkcs7.sha1”子过滤器。
+Aspose.Words 在整个 PDF 文档上创建一个 PKCS#7 签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和 “adbe.pkcs7.sha1”子过滤器。
 
-### 例子
+## 例子
 
-演示如何签署生成的 PDF 文档。
+显示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -51,20 +53,20 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-// 修改该方法将文档转换为 .PDF 的方式。
+// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改该方法如何将文档转换为 .PDF。
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
-DateTime signingTime = new DateTime(2015, 7, 20);
+// 在我们使用“Save”方法渲染文档时对文档进行数字签名。
+DateTime signingTime = DateTime.Now;
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

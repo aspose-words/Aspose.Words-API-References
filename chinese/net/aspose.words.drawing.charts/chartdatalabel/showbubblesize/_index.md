@@ -1,20 +1,22 @@
 ---
 title: ChartDataLabel.ShowBubbleSize
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 允许指定是否为图表上的数据标签显示气泡大小 仅适用于气泡图 默认值为错误的.
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel ShowBubbleSize 财产. 允许指定是否要为图表上的数据标签显示气泡大小 仅适用于气泡图 默认值为假 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
 
-允许指定是否为图表上的数据标签显示气泡大小。 仅适用于气泡图。 默认值为`错误的`.
+允许指定是否要为图表上的数据标签显示气泡大小。 仅适用于气泡图。 默认值为假。
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将 3D 效果与气泡图结合使用。
 
@@ -34,7 +36,6 @@ for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;
     chart.Series[0].DataLabels[i].ShowBubbleSize = true;
-    chart.Series[0].DataLabels[i].Font.Size = 12;
 }
 
 doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
@@ -43,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapData 财产. 指定外部数据源中列的从零开始的索引该索引应 映射到特定 MERGEFIELD 字段的本地名称 默认值为 0
+linktitle: Column
+articleTitle: Column
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapData Column 财产. 指定外部数据源中列的从零开始的索引该索引应 映射到特定 MERGEFIELD 字段的本地名称 默认值为 0 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.settings/odsofieldmapdata/column/
 public int Column { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 该集合定义邮件合并如何映射数据源中的列
-// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射来自数据源的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -48,7 +50,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次性清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoFieldMapData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

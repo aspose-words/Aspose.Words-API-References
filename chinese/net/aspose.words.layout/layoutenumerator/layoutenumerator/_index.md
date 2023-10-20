@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 构造函数. 初始化此类的新实例
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,25 +20,25 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | 要枚举其页面布局模型的文档。 |
 
-### 评论
+## 评论
 
-如果文档的页面布局模型尚未构建，则枚举器调用[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/)来建造它。
+如果尚未建立文档的页面布局模型，则枚举器调用[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/)建造它。
 
 每当更新文档并创建新的页面布局模型时，都必须使用新的枚举器来访问它。
 
-### 例子
+## 例子
 
-显示遍历文档布局实体的方法。
+显示遍历文档布局实体的方式。
 
 ```csharp
 public void LayoutEnumerator()
 {
-    // 打开包含各种布局实体的文档。
-    // 布局实体是页面、单元格、行、线以及 LayoutEntityType 枚举中包含的其他对象。
-    // 每个布局实体在文档正文中都有一个占据的矩形空间。
+    // 打开一个包含各种布局实体的文档。
+    // 布局实体是 LayoutEntityType 枚举中包含的页面、单元格、行、行和其他对象。
+    // 每个布局实体在文档正文中都有一个矩形空间。
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // 创建一个枚举器，可以像树一样遍历这些实体。
+    // 创建一个可以像树一样遍历这些实体的枚举器。
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -46,14 +48,14 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // 我们可以调用此方法来确保枚举器位于第一个布局实体。
+    // 我们可以调用这个方法来确保枚举器位于第一个布局实体。
     layoutEnumerator.Reset();
 
-    // 有两个顺序决定布局枚举器如何继续遍历布局实体
-    // 当遇到跨多个页面的实体时。
+    // 有两个顺序决定了布局枚举器如何继续遍历布局实体
+    // 当它遇到跨越多个页面的实体时。
     // 1 - 按视觉顺序：
-    // 当在跨多个页面的实体子级之间移动时，
-    // 页面布局优先，我们移动到此页面上的其他子元素并避免下一个页面上的子元素。
+    // 在跨越多个页面的实体的子元素中移动时，
+    // 页面布局优先，我们移动到此页面上的其他子元素并避免下一个。
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
@@ -62,7 +64,7 @@ public void LayoutEnumerator()
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - 按逻辑顺序：
-    // 当在跨多个页面的实体子级之间移动时，
+    // 在跨越多个页面的实体的子元素中移动时，
     // 枚举器将在页面之间移动以遍历所有子实体。
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
@@ -72,8 +74,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从前到后枚举，
-/// 以深度优先的方式，并按照“视觉”顺序。
+/// 通过layoutEnumerator的布局实体集合前后枚举，
+/// 以深度优先的方式，并按“视觉”顺序。
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -90,8 +92,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从后往前枚举，
-/// 以深度优先的方式，并按照“视觉”顺序。
+/// 通过layoutEnumerator的布局实体集合从后到前枚举，
+/// 以深度优先的方式，并按“视觉”顺序。
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -108,8 +110,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从前到后枚举，
-/// 以深度优先的方式，并按照“逻辑”顺序。
+/// 通过layoutEnumerator的布局实体集合前后枚举，
+/// 以深度优先的方式，并按“逻辑”顺序。
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -126,8 +128,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// 通过layoutEnumerator的布局实体集合从后往前枚举，
-/// 以深度优先的方式，并按照“逻辑”顺序。
+/// 通过layoutEnumerator的布局实体集合从后到前枚举，
+/// 以深度优先的方式，并按“逻辑”顺序。
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -144,8 +146,8 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// 将layoutEnumerator当前实体的信息打印到控制台，同时使用制表符缩进文本
-/// 基于其相对于我们在构造函数 LayoutEnumerator 实例中提供的根节点的深度。
+/// 将layoutEnumerator当前实体的信息打印到控制台，同时用制表符缩进文本
+/// 基于它相对于我们在构造函数 LayoutEnumerator 实例中提供的根节点的深度。
 /// 我们最后处理的矩形代表实体在文档中占据的区域和位置。
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
@@ -156,7 +158,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // 只有 span 可以包含文本。
+    // 只有跨度可以包含文本。
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

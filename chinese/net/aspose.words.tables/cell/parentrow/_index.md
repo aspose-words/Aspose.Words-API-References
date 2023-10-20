@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 返回单元格的父行
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell ParentRow 财产. 返回单元格的父行 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/cell/parentrow/
@@ -14,20 +16,20 @@ url: /zh/net/aspose.words.tables/cell/parentrow/
 public Row ParentRow { get; }
 ```
 
-### 评论
+## 评论
 
-相当于FirstNonMarkupParentNode投射到[`Row`](../../row/)。
+相当于`（行）FirstNonMarkupParentNode`.
 
-### 例子
+## 例子
 
-展示如何将表格设置为在同一页面上保持在一起。
+显示如何设置表格以保持在同一页面上。
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// 对表中的每个段落启用 KeepWithNext，除了
-// 最后一行中的最后一个将防止表格拆分为多个页面。
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行中的最后一个将防止表拆分为多个页面。
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,28 +1,30 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 无论密码如何都会删除文档的保护
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Unprotect 方法. 无论密码如何都删除文档的保护 在 C#.
 type: docs
-weight: 760
+weight: 740
 url: /zh/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
 
-无论密码如何，都会删除文档的保护。
+无论密码如何，都删除文档的保护。
 
 ```csharp
 public void Unprotect()
 ```
 
-### 评论
+## 评论
 
 即使文档有保护密码，此方法也会取消对文档的保护。
 
-请注意，文档保护与写保护不同。 写保护是使用[`WriteProtection`](../writeprotection/)。
+请注意，文档保护不同于写保护。 写保护是使用[`WriteProtection`](../writeprotection/).
 
-### 例子
+## 例子
 
-展示如何保护和取消保护文档。
+显示如何保护和取消保护文档。
 
 ```csharp
 Document doc = new Document();
@@ -34,15 +36,15 @@ Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 // 我们需要应用密码才能通过保护。
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// 请注意，保护仅适用于打开我们文档的 Microsoft Word 用户。
-// 我们没有以任何方式加密文档，并且我们不需要密码即可以编程方式打开和编辑它。
+// 请注意，该保护仅适用于打开我们文档的 Microsoft Word 用户。
+// 我们没有以任何方式加密文档，我们不需要密码以编程方式打开和编辑它。
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// 有两种方法可以删除文档的保护。
+// 有两种方法可以从文档中删除保护。
 // 1 - 没有密码：
 doc.Unprotect();
 
@@ -65,14 +67,14 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
-如果指定了正确的密码，则删除文档的保护。
+如果指定了正确的密码，则从文档中删除保护。
 
 ```csharp
 public bool Unprotect(string password)
@@ -80,21 +82,21 @@ public bool Unprotect(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 用于解除文档保护的密码。 |
+| password | String | 用于取消保护文档的密码。 |
 
 ### 返回值
 
-`真的`如果指定了正确的密码并且文档未受保护。
+如果指定了正确的密码并且文档未受保护，则为真。
 
-### 评论
+## 评论
 
 仅当指定了正确的密码时，此方法才会取消对文档的保护。
 
-请注意，文档保护与写保护不同。 写保护是使用[`WriteProtection`](../writeprotection/)。
+请注意，文档保护不同于写保护。 写保护是使用[`WriteProtection`](../writeprotection/).
 
-### 例子
+## 例子
 
-展示如何保护和取消保护文档。
+显示如何保护和取消保护文档。
 
 ```csharp
 Document doc = new Document();
@@ -106,15 +108,15 @@ Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 // 我们需要应用密码才能通过保护。
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// 请注意，保护仅适用于打开我们文档的 Microsoft Word 用户。
-// 我们没有以任何方式加密文档，并且我们不需要密码即可以编程方式打开和编辑它。
+// 请注意，该保护仅适用于打开我们文档的 Microsoft Word 用户。
+// 我们没有以任何方式加密文档，我们不需要密码以编程方式打开和编辑它。
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// 有两种方法可以删除文档的保护。
+// 有两种方法可以从文档中删除保护。
 // 1 - 没有密码：
 doc.Unprotect();
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

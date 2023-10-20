@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode 枚举. 指定页眉和页脚导出为纯文本格式的方式
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode 枚举. 指定页眉和页脚导出为纯文本格式的方式 在 C#.
 type: docs
 weight: 5640
 url: /zh/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -18,19 +20,19 @@ public enum TxtExportHeadersFootersMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 未导出页眉和页脚。 |
-| PrimaryOnly | `1` | 仅在每个部分的开头和结尾导出主页眉和页脚。 |
-| AllAtEnd | `2` | 所有页眉和页脚都放置在文档最末尾的所有节主体之后。 |
+| None | `0` | 没有导出页眉和页脚。 |
+| PrimaryOnly | `1` | 仅在每个部分的开头和结尾导出主要页眉和页脚。 |
+| AllAtEnd | `2` | 所有页眉和页脚都放在文档末尾的所有节正文之后。 |
 
-### 例子
+## 例子
 
 显示如何指定如何将页眉和页脚导出为纯文本格式。
 
 ```csharp
 Document doc = new Document();
 
-// 将偶数和主页眉/页脚插入到文档中。
-// 主页眉/页脚将覆盖偶数页眉/页脚。
+// 将偶数和主要页眉/页脚插入到文档中。
+// 主要页眉/页脚将覆盖偶数页眉/页脚。
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -48,16 +50,16 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// 创建一个“TxtSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-// 修改我们将文档保存为纯文本的方式。
+// 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改我们如何将文档保存为纯文本。
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
 // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.None”
 // 不导出任何页眉/页脚。
 // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.PrimaryOnly”
-// 仅导出主页眉/页脚。
+// 仅导出主要页眉/页脚。
 // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.AllAtEnd”
-// 将所有节主体的所有页眉和页脚放置在文档末尾。
+// 将所有节正文的所有页眉和页脚放在文档的末尾。
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,14 +1,16 @@
 ---
 title: CompatibilityOptions.ShowBreaksInFrames
-second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 显示框架中存在的分页/分栏符
+linktitle: ShowBreaksInFrames
+articleTitle: ShowBreaksInFrames
+second_title: 用于 .NET 的 Aspose.Words
+description: CompatibilityOptions ShowBreaksInFrames 财产. 显示帧中存在的页面/分栏符 在 C#.
 type: docs
 weight: 430
 url: /zh/net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
 ---
 ## CompatibilityOptions.ShowBreaksInFrames property
 
-显示框架中存在的分页/分栏符。
+显示帧中存在的页面/分栏符。
 
 ```csharp
 public bool ShowBreaksInFrames { get; set; }
@@ -17,7 +19,5 @@ public bool ShowBreaksInFrames { get; set; }
 ### 也可以看看
 
 * class [CompatibilityOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../compatibilityoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

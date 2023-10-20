@@ -1,22 +1,24 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 获取或设置表单字段是否导出为交互 项目作为输入标记而不是转换为文本或图形的指示
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ExportFormFields 财产. 获取或设置表单字段是否导出为 interactive 项目作为输入标签而不是转换为文本或图形的指示 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-获取或设置表单字段是否导出为交互 项目（作为“输入”标记）而不是转换为文本或图形的指示。
+获取或设置表单字段是否导出为 interactive 项目（作为“输入”标签）而不是转换为文本或图形的指示。
 
 ```csharp
 public bool ExportFormFields { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何将表单字段导出到 Html。
+展示如何将表单域导出到 Html。
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +31,7 @@ builder.InsertCheckBox("CheckBox", false, 15);
 // 将“ExportFormFields”标志设置为“true”会将它们导出为交互式对象。
 // 将此标志设置为“false”会将表单字段显示为纯文本。
 // 这会将它们冻结在当前值，并阻止我们的 HTML 文档的阅读器
-// 能够与他们互动。
+// 从能够与他们交互。
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportFormFields = exportFormFields
@@ -56,7 +58,5 @@ else
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

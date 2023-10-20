@@ -1,7 +1,9 @@
 ---
 title: Row.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Row 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Row Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.tables/row/accept/
@@ -20,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
-### 评论
+## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
+枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
-有关更多信息，请参阅访客设计模式。
+有关更多信息，请参阅访问者设计模式。
 
-通话[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于section 的所有子节点并调用[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/)最后.
+调用 DocumentVisitor.VisitRowStart，然后为 section 的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitRowEnd。
 
-### 例子
+## 例子
 
-演示如何打印文档中每个表的节点结构。
+显示如何打印文档中每个表的节点结构。
 
 ```csharp
 public void TableToText()
@@ -40,17 +42,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
-    // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以字符串形式创建所有遇到的表节点及其子节点的映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的 Table 节点及其子节点的字符串形式创建一个映射。
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -77,7 +79,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到表时调用。
+    /// 在文档中遇到表格时调用。
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -98,7 +100,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了Table节点的所有子节点后调用。
+    /// 在访问完一个 Table 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -130,7 +132,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Row 节点的所有子节点都被访问后调用。
+    /// 在访问了 Row 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -160,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Cell 节点的所有子节点都被访问后调用。
+    /// 在访问完 Cell 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -170,10 +172,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 向 StringBuilder 添加一行，并根据访问者的深度缩进它
+    /// 将一行添加到 StringBuilder，并根据访问者的深度缩进
     /// 进入当前表的子节点树。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -194,7 +196,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

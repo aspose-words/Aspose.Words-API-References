@@ -1,7 +1,9 @@
 ---
-title: Enum Granularity
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Comparing.Granularity 枚举. 指定比较两个文档时要跟踪的更改的粒度
+title: Granularity Enum
+linktitle: Granularity
+articleTitle: Granularity
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Comparing.Granularity 枚举. 指定比较两个文档时要跟踪的更改的粒度 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.comparing/granularity/
@@ -21,9 +23,9 @@ public enum Granularity
 | CharLevel | `0` |  |
 | WordLevel | `1` |  |
 
-### 例子
+## 例子
 
-显示在比较文档时指定粒度。
+显示以在比较文档时指定粒度。
 
 ```csharp
 Document docA = new Document();
@@ -34,8 +36,8 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// 指定是否跟踪更改
-// 按字符 ('Granularity.CharLevel') 或按单词 ('Granularity.WordLevel')。
+// 指定是否跟踪变化
+// 按字符 ('Granularity.CharLevel')，或按单词 ('Granularity.WordLevel')。
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 
@@ -50,5 +52,3 @@ Assert.AreEqual(5, groups.Count);
 
 * 命名空间 [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../)
-
-

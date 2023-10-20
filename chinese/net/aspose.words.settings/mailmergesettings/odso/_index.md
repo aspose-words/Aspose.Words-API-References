@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 获取或设置指定 Office 数据源对象 ODSO 设置的对象
+linktitle: Odso
+articleTitle: Odso
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings Odso 财产. 获取或设置指定 Office 数据源对象 ODSO 设置的对象 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/mailmergesettings/odso/
 public Odso Odso { get; set; }
 ```
 
-### 评论
+## 评论
 
-这个物体从来都不是`无效的`。
+该对象永远不会为空。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -33,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 创建一个ASCII文件形式的数据源，用“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 之后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -63,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
+// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

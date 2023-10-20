@@ -1,7 +1,9 @@
 ---
-title: TaskPane.TaskPane
-second_title: Aspose.Words for .NET API 参考
-description: TaskPane 构造函数. 默认构造函数
+title: TaskPane
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: 用于 .NET 的 Aspose.Words
+description: TaskPane 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/taskpane/taskpane/
@@ -17,7 +19,5 @@ public TaskPane()
 ### 也可以看看
 
 * class [TaskPane](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../taskpane/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

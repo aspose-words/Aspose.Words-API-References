@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 应用于新内容的文本格式
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions ApplyFont 财产. 应用于新内容的文本格式 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,12 +16,11 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/applyfont/
 public Font ApplyFont { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
-public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

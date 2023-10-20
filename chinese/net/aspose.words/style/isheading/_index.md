@@ -1,7 +1,9 @@
 ---
 title: Style.IsHeading
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 当样式是内置标题样式之一时为真
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: 用于 .NET 的 Aspose.Words
+description: Style IsHeading 财产. 当样式是内置标题样式之一时为真 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/style/isheading/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/style/isheading/
 public bool IsHeading { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

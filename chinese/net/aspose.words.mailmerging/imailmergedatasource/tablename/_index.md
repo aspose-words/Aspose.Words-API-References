@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeDataSource 财产. 返回数据源的名称
+linktitle: TableName
+articleTitle: TableName
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeDataSource TableName 财产. 返回数据源的名称 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,15 +20,15 @@ public string TableName { get; }
 
 数据源的名称。如果数据源没有名称，则为空字符串。
 
-### 评论
+## 评论
 
-如果您正在实施[`IMailMergeDataSource`](../)，从此属性返回 data 源的名称。
+如果您正在实施[`IMailMergeDataSource`](../)，从该属性返回 data 源的名称。
 
 Aspose.Words 使用此名称来匹配模板文档中指定的邮件合并区域名称 。数据源名称和 邮件合并区域名称之间的比较不区分大小写。
 
-### 例子
+## 例子
 
-演示如何使用自定义对象形式的数据源执行邮件合并。
+展示如何使用自定义对象形式的数据源执行邮件合并。
 
 ```csharp
 public void CustomDataSource()
@@ -37,13 +39,11 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>
-    {
-        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
-        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
-    };
+    List<Customer> customers = new List<Customer>();
+    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
+    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
 
-     // 要使用自定义对象作为数据源，它必须实现 IMailMergeDataSource 接口。
+    // 要使用自定义对象作为数据源，它必须实现 IMailMergeDataSource 接口。 
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -67,8 +67,8 @@ public class Customer
 }
 
 /// <summary>
- /// 您实现的自定义邮件合并数据源以允许 Aspose.Words
-/// 将客户对象中的数据通过邮件合并到 Microsoft Word 文档中。
+/// 您实现的自定义邮件合并数据源以允许 Aspose.Words 
+/// 将您的客户对象中的合并数据邮寄到 Microsoft Word 文档中。
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -81,7 +81,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// 数据源的名称。仅在对可重复区域执行邮件合并时由 Aspose.Words 使用。
+    /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
     /// </summary>
     public string TableName
     {
@@ -102,15 +102,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // 返回“false”给Aspose.Words邮件合并引擎来表示
-                // 我们找不到具有该名称的字段。
+                // 向 Aspose.Words 邮件合并引擎返回“false”以表示
+                // 我们找不到具有此名称的字段。
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// 移动到集合中下一条记录的标准实现。
+    /// 移动到集合中的下一条记录的标准实现。
     /// </summary>
     public bool MoveNext()
     {
@@ -138,7 +138,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### 也可以看看
 
 * interface [IMailMergeDataSource](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

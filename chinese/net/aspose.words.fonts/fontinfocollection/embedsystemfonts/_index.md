@@ -1,30 +1,32 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Aspose.Words for .NET API 参考
-description: FontInfoCollection 财产. 指定是否将系统字体嵌入到文档中 该属性的默认值为错误的
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfoCollection EmbedSystemFonts 财产. 指定是否将系统字体嵌入到文档中 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-指定是否将系统字体嵌入到文档中。 该属性的默认值为`错误的`。
+指定是否将系统字体嵌入到文档中。 此属性的默认值为**错误的**.
 
-此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)选项设置为`真的`。
+此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)选项设置为**真的**.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### 评论
+## 评论
 
-将此属性设置为`真的`如果用户使用东亚系统 并且想要创建一个可供系统上没有该 语言字体的其他人读取的文档，则此选项很有用。例如，日语系统上的用户可以选择在文档中嵌入 字体，以便日语文档在所有系统上都可读。
+将此属性设置为`真的`如果用户在东亚系统 上并且想要创建一个文档，该文档可供在其系统上没有该 语言字体的其他人可读，这将非常有用。例如，日文系统上的用户可以选择在文档中嵌入 the 字体，以便日文文档在所有系统上都可读。
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-### 例子
+## 例子
 
-演示如何保存嵌入 TrueType 字体的文档。
+显示如何使用嵌入的 TrueType 字体保存文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -45,7 +47,5 @@ else
 ### 也可以看看
 
 * class [FontInfoCollection](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfocollection/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

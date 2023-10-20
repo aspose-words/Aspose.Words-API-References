@@ -1,14 +1,16 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.INodeChangingCallback 界面. 如果您希望在文档中插入或删除节点时收到通知请实现此接口
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.INodeChangingCallback 界面. 如果要在文档中插入或删除节点时收到通知请实现此接口 在 C#.
 type: docs
 weight: 3200
 url: /zh/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
 
-如果您希望在文档中插入或删除节点时收到通知，请实现此接口。
+如果要在文档中插入或删除节点时收到通知，请实现此接口。
 
 ```csharp
 public interface INodeChangingCallback
@@ -18,17 +20,16 @@ public interface INodeChangingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | 当属于此文档的节点已插入到另一个节点时调用。 |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | 在属于该文档的节点即将插入另一个节点之前调用。 |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | 当属于此文档的节点已从其父节点中删除时调用。 |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | 在属于该文档的节点即将从文档中删除之前调用。 |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | 当属于此文档的节点已插入另一个节点时调用。 |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | 在属于本文档的节点即将插入另一个节点之前调用。 |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | 当属于该文档的节点从其父节点中删除时调用。 |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | 在属于该文档的节点即将从文档中删除之前调用。 |
 
-### 例子
+## 例子
 
-展示如何通过回调自定义节点更改。
+显示如何通过回调自定义节点更改。
 
 ```csharp
-public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,11 +47,10 @@ public void FontChangeViaCallback()
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
-}
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -101,5 +101,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

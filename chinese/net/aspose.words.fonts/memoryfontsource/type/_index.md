@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Aspose.Words for .NET API 参考
-description: MemoryFontSource 财产. 返回字体源的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: MemoryFontSource Type 财产. 返回字体源的类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fonts/memoryfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用字节数组和字体文件中的数据作为字体源。
+演示如何将字节数组与字体文件中的数据一起用作字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../memoryfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

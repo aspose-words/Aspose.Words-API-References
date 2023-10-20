@@ -1,16 +1,16 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BookmarkCollection 班级. 的集合Bookmark代表指定范围内的书签的对象
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BookmarkCollection 班级. 集合Bookmark表示指定范围内的书签的对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
-的集合[`Bookmark`](../bookmark/)代表指定范围内的书签的对象。
-
-要了解更多信息，请访问[使用书签](https://docs.aspose.com/words/net/working-with-bookmarks/)文档文章。
+集合[`Bookmark`](../bookmark/)表示指定范围内的书签的对象。
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -29,13 +29,13 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | 从此集合和文档中删除所有书签。 |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | 从文档中删除指定的书签。 |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | 删除具有指定名称的书签。 |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | 删除指定索引处的书签。 |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | 从文档中删除指定的书签。 |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | 删除具有指定名称的书签。 |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | 删除指定索引处的书签。 |
 
-### 例子
+## 例子
 
-展示如何添加书签并更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -43,18 +43,19 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
-    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -124,5 +125,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

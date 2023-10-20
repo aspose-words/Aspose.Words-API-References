@@ -1,22 +1,24 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 获取此列表级别的自定义数字样式格式例如açĝ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel CustomNumberStyleFormat 财产. 获取此列表级别的自定义数字样式格式例如a ç ĝ  在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-获取此列表级别的自定义数字样式格式。例如：“a、ç、ĝ、...”.
+获取此列表级别的自定义数字样式格式。例如：“a, ç, ĝ, ...”.
 
 ```csharp
 public string CustomNumberStyleFormat { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何获取具有自定义数字样式的列表的格式。
+显示如何获取具有自定义编号样式的列表的格式。
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

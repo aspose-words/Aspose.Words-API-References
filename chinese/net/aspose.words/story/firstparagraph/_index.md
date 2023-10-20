@@ -1,22 +1,24 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Story 财产. 获取故事中的第一段
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Story FirstParagraph 财产. 获取故事的第一段 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-获取故事中的第一段。
+获取故事的第一段。
 
 ```csharp
 public Paragraph FirstParagraph { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用其字体属性设置文本串的格式。
+显示如何使用其字体属性格式化文本运行。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +33,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-演示如何创建文本框并设置其格式。
+演示如何创建和格式化文本框。
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +48,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// 将一个段落添加到文本框并添加文本框将显示的一系列文本。
+// 向文本框中添加一个段落，并添加文本框将显示的一连串文本。
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

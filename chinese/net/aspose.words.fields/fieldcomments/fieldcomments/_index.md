@@ -1,7 +1,9 @@
 ---
-title: FieldComments.FieldComments
-second_title: Aspose.Words for .NET API 参考
-description: FieldComments 构造函数. 默认构造函数
+title: FieldComments
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldComments 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldcomments/fieldcomments/
@@ -17,7 +19,5 @@ public FieldComments()
 ### 也可以看看
 
 * class [FieldComments](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcomments/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

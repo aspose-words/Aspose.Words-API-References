@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取 OLE 对象的图标标题
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat IconCaption 财产. 获取 OLE 对象的图标标题 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/oleformat/iconcaption/
@@ -10,15 +12,15 @@ url: /zh/net/aspose.words.drawing/oleformat/iconcaption/
 
 获取 OLE 对象的图标标题。
 
-如果未嵌入 OLE 对象，因为无法检索图标或标题，则返回空字符串。
+如果 OLE 对象未嵌入为图标或无法检索标题，则返回空字符串。
 
 ```csharp
 public string IconCaption { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入链接和未链接的 OLE 对象。
+显示如何插入链接和未链接的 OLE 对象。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 将 Microsoft Visio 绘图作为 OLE 对象嵌入到文档中。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// 插入本地文件系统中文件的链接并将其显示为图标。
+// 在本地文件系统中插入文件的链接，并显示为图标。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // 插入 OLE 对象会创建存储这些对象的形状。
@@ -36,7 +38,7 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// 如果形状包含 OLE 对象，它将具有有效的“OleFormat”属性，
+// 如果一个形状包含一个 OLE 对象，它将有一个有效的“OleFormat”属性，
 // 我们可以用它来验证形状的某些方面。
 OleFormat oleFormat = shapes[0].OleFormat;
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

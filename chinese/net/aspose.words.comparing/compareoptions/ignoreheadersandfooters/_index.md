@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. True 表示忽略页眉和页脚内容 默认情况下不忽略页眉和页脚
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreHeadersAndFooters 财产. True 表示忽略页眉和页脚内容 默认情况下不忽略页眉和页脚 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,9 +16,9 @@ True 表示忽略页眉和页脚内容。 默认情况下不忽略页眉和页�
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何在进行比较时过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。
@@ -49,11 +51,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// 标头：
+// 标题：
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// 创建文档的克隆并对克隆文档的每个元素执行快速编辑。
+// 创建我们文档的克隆并对每个克隆文档的元素执行快速编辑。
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -67,9 +69,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// 比较文档会为已编辑文档中的每个编辑创建修订。
-// CompareOptions 对象具有一系列可以抑制修订的标志
-// 在每种类型的元素上，有效地忽略它们的更改。
+// 比较文档会为已编辑文档中的每个编辑创建一个修订。
+// CompareOptions 对象有一系列可以抑制修订的标志
+// 在每种类型的元素上，有效地忽略它们的变化。
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

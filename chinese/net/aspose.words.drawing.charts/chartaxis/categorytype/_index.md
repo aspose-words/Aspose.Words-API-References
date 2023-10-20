@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置类别轴的类型
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis CategoryType 财产. 获取或设置类别轴的类型 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/categorytype/
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### 评论
+## 评论
 
-仅文本类别（Category ) 在 MS Office 2016 新图表中允许使用。
+仅文本类别 (Category ) 在 MS Office 2016 新图表中是允许的。
 
-### 例子
+## 例子
 
-演示如何插入图表并修改其轴的外观。
+显示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +34,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

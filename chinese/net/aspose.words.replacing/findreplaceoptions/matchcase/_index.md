@@ -1,22 +1,24 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. True 表示区分大小写比较 false 表示不区分大小写比较
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions MatchCase 财产. true表示区分大小写比较false表示不区分大小写比较 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property
 
-True 表示区分大小写比较， false 表示不区分大小写比较。
+true表示区分大小写比较，false表示不区分大小写比较。
 
 ```csharp
 public bool MatchCase { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何在执行查找和替换操作时切换区分大小写。
+显示在执行查找和替换操作时如何切换区分大小写。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

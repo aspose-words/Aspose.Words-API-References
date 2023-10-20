@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 获取或设置是否转换元文件Wmf或者Emf  图像到Png图像格式.
+linktitle: ConvertMetafilesToPng
+articleTitle: ConvertMetafilesToPng
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions ConvertMetafilesToPng 财产. 获取或设置是否转换元文件Wmf或者Emf  图像到Png图像格式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.loading/loadoptions/convertmetafilestopng/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 public bool ConvertMetafilesToPng { get; set; }
 ```
 
-### 评论
+## 评论
 
-图元文件 (Wmf或者Emf ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。 此选项允许将所有图元文件图像转换为Png文档加载时。 请注意 - 将矢量图形转换为光栅会降低图像质量。
+元文件 (Wmf或者Emf ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。 此选项允许将所有元文件图像转换为Png在文档加载时。 请注意 - 将矢量图形转换为光栅会降低图像的质量。
 
-### 例子
+## 例子
 
-演示如何在加载文档期间将 WMF/EMF 转换为 PNG。
+显示如何在加载文档期间将 WMF/EMF 转换为 PNG。
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

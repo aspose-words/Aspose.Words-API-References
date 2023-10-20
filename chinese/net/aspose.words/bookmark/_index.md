@@ -1,16 +1,16 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Bookmark 班级. 代表单个书签
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Bookmark 班级. 表示单个书签 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
-代表单个书签。
-
-要了解更多信息，请访问[使用书签](https://docs.aspose.com/words/net/working-with-bookmarks/)文档文章。
+表示单个书签。
 
 ```csharp
 public class Bookmark
@@ -20,10 +20,10 @@ public class Bookmark
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | 获取表示书签末尾的节点。 |
-| [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | 获取表示书签开头的节点。 |
-| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | 获取与书签关联的表列范围第一列的从零开始的索引。 |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | 返回`真的`如果此书签是表列书签. |
+| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | 获取代表书签结束的节点。 |
+| [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | 获取代表书签开始的节点。 |
+| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | 获取与书签关联的表列范围的第一列的从零开始的索引。 |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | 返回**真的**如果此书签是表格列书签。 |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | 获取与书签关联的表列范围的最后一列的从零开始的索引。 |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | 获取或设置书签的名称。 |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | 获取或设置书签中包含的文本。 |
@@ -34,13 +34,13 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | 从文档中删除书签。不删除书签内的文本。 |
 
-### 评论
+## 评论
 
-`Bookmark`是一个封装了两个节点的“facade”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
+`Bookmark`是一个封装了两个节点的“门面”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
 
-### 例子
+## 例子
 
-展示如何添加书签并更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -48,18 +48,19 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
-    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -128,5 +129,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

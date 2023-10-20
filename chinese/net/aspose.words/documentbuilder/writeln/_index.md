@@ -1,14 +1,16 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将字符串和分段符插入到文档中
+linktitle: Writeln
+articleTitle: Writeln
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Writeln 方法. 在文档中插入一个字符串和一个段落分隔符 在 C#.
 type: docs
-weight: 670
+weight: 660
 url: /zh/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
-将字符串和分段符插入到文档中。
+在文档中插入一个字符串和一个段落分隔符。
 
 ```csharp
 public void Writeln(string text)
@@ -18,13 +20,13 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | 要插入到文档中的字符串。 |
 
-### 评论
+## 评论
 
-由指定的当前字体和段落格式[`Font`](../font/)和[`ParagraphFormat`](../paragraphformat/)使用属性。
+当前字体和段落格式由[`Font`](../font/)和[`ParagraphFormat`](../paragraphformat/)使用属性。
 
-### 例子
+## 例子
 
-演示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表格。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// 构建表时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
+// 在构建表格时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
 // 到其光标所在的当前行/单元格以及创建它们时的任何新行/单元格。
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -54,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// 先前添加的行和单元格不会受到构建器格式更改的影响。
+// 先前添加的行和单元格不受构建器格式更改的追溯影响。
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -68,24 +70,24 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
 ## Writeln() {#writeln}
 
-在文档中插入段落分隔符。
+在文档中插入一个段落分隔符。
 
 ```csharp
 public void Writeln()
 ```
 
-### 评论
+## 评论
 
-通话[`InsertParagraph`](../insertparagraph/)。
+来电[`InsertParagraph`](../insertparagraph/).
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -93,11 +95,11 @@ public void Writeln()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 指定我们希望首页、偶数页和奇数页使用不同的页眉和页脚。
+// 指定我们希望第一页、偶数页和奇数页使用不同的页眉和页脚。
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// 创建标题，然后向文档添加三个页面以显示每种标题类型。
+// 创建页眉，然后在文档中添加三页以显示每种页眉类型。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

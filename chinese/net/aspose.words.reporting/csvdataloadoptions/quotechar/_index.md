@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.QuoteChar
-second_title: Aspose.Words for .NET API 参考
-description: CsvDataLoadOptions 财产. 获取或设置用于引用字段值的字符
+linktitle: QuoteChar
+articleTitle: QuoteChar
+second_title: 用于 .NET 的 Aspose.Words
+description: CsvDataLoadOptions QuoteChar 财产. 获取或设置用于引用字段值的字符 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.reporting/csvdataloadoptions/quotechar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.reporting/csvdataloadoptions/quotechar/
 public char QuoteChar { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 '"'（引号）。
 
@@ -23,7 +25,5 @@ public char QuoteChar { get; set; }
 ### 也可以看看
 
 * class [CsvDataLoadOptions](../)
-* 命名空间 [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

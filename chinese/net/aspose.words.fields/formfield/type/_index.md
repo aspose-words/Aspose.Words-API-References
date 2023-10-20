@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 返回表单字段类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Type 财产. 返回表单字段类型 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.fields/formfield/type/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fields/formfield/type/
 public FieldType Type { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入组合框。
+显示如何插入组合框。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +33,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// 表单字段将以“select”html 标签的形式出现。
+// 表单域将以“select”html标签的形式出现。
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,29 +1,30 @@
 ---
 title: Shape.Chart
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 如果此形状具有图表属性则提供对图表属性的访问Chart.
+linktitle: Chart
+articleTitle: Chart
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape Chart 财产. 如果此形状有图表则提供对图表属性的访问 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-如果此形状具有图表属性，则提供对图表属性的访问[`Chart`](../../../aspose.words.drawing.charts/chart/).
+如果此形状有图表，则提供对图表属性的访问。
 
 ```csharp
 public Chart Chart { get; }
 ```
 
-### 评论
+## 评论
 
-该属性将返回[`Chart`](../../../aspose.words.drawing.charts/chart/)仅当以下情况时才反对[`HasChart`](../haschart/) 属性是`真的`为了这[`Shape`](../)，否则将抛出异常。
+该属性将返回`Chart`对象仅当[`HasChart`](../haschart/)此 Shape 的 属性为 true，否则将引发异常。
 
-### 例子
+## 例子
 
-演示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
-public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -33,7 +34,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// 记录有关所访问形状的外观相关信息。
+/// 记录有关访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -45,7 +46,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
+    /// 将一行添加到 StringBuilder，每个缩进级别都带有一个前置制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -63,7 +64,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 Shape 节点的开头时调用。
+    /// 当此访问者访问 Shape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -111,7 +112,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的开头时调用。
+    /// 当此访问者访问 GroupShape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -122,7 +123,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的末尾时调用。
+    /// 当此访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {
@@ -142,7 +143,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

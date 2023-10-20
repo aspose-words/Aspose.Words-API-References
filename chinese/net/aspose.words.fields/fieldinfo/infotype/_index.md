@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.InfoType
-second_title: Aspose.Words for .NET API 参考
-description: FieldInfo 财产. 获取或设置要插入的文档属性的类型
+linktitle: InfoType
+articleTitle: InfoType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldInfo InfoType 财产. 获取或设置要插入的文档属性的类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldinfo/infotype/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fields/fieldinfo/infotype/
 public string InfoType { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何使用 INFO 字段。
+显示如何使用 INFO 字段。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +35,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// 为字段的 NewValue 属性设置值并更新
+// 为字段的 NewValue 属性设置一个值并更新
 // 该字段还将用新值覆盖相应的内置属性。
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### 也可以看看
 
 * class [FieldInfo](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldinfo/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

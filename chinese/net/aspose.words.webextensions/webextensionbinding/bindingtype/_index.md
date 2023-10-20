@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.BindingType
-second_title: Aspose.Words for .NET API 参考
-description: WebExtensionBinding 财产. 指定绑定类型
+linktitle: BindingType
+articleTitle: BindingType
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtensionBinding BindingType 财产. 指定绑定类型 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.webextensions/webextensionbinding/bindingtype/
@@ -18,7 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

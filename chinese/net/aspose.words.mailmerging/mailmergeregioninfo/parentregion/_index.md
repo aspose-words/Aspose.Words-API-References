@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeRegionInfo 财产. 返回父区域信息顶级区域为空
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeRegionInfo ParentRegion 财产. 返回父区域信息顶级区域为空 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,21 +16,21 @@ url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何创建、列出和读取邮件合并区域。
+展示如何创建、列出和读取邮件合并区域。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// “TableStart”和“TableEnd”标签，位于 MERGEFIELD 内，
-// 表示表示邮件合并区域开始和结束的字符串。
+// "TableStart" 和 "TableEnd" 标签，位于 MERGEFIELD 中，
+// 表示表示邮件合并区域的开始和结束的字符串。
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// 使用这些标记来开始和结束名为“MailMergeRegion1”的邮件合并区域，
-// 其中将包含两列的 MERGEFIELD。
+// 使用这些标签开始和结束名为“MailMergeRegion1”的邮件合并区域，
+// 它将包含两列的 MERGEFIELD。
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -46,7 +48,7 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// 在现有区域中插入一个同名区域，这将使其成为父区域。
+// 在现有区域内插入同名区域，使其成为父区域。
 // 现在“Column2”字段将位于新区域内。
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### 也可以看看
 
 * class [MailMergeRegionInfo](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

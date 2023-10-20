@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Accept
-second_title: Aspose.Words for .NET API 参考
-description: EditableRangeStart 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRangeStart Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/editablerangestart/accept/
@@ -16,21 +18,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 将访问该节点的访问者。 |
+| visitor | DocumentVisitor | 将访问节点的访问者。 |
 
 ### 返回值
 
-`错误的`如果访问者请求停止枚举。
+如果访问者请求停止枚举，则为 False。
 
-### 评论
+## 评论
 
-通话[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/)。
+来电[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
-有关更多信息，请参阅访客设计模式。
+有关更多信息，请参阅访问者设计模式。
 
-### 例子
+## 例子
 
-展示如何将可编辑范围的编辑权限限制为特定组/用户。
+显示如何将可编辑范围的编辑权限限制为特定组/用户。
 
 ```csharp
 public void Visitor()
@@ -43,7 +45,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
+    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -71,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 收集字符串中访问过的可编辑范围的属性和内容。
+/// 在字符串中收集访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -122,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeStart](../)
-* 命名空间 [Aspose.Words](../../editablerangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

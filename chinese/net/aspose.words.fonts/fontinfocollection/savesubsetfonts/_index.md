@@ -1,28 +1,30 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Aspose.Words for .NET API 参考
-description: FontInfoCollection 财产. 指定是否将嵌入的 TrueType 字体的子集与文档一起保存 此属性的默认值为错误的
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfoCollection SaveSubsetFonts 财产. 指定是否将嵌入的 TrueType 字体的子集与文档一起保存 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为`错误的`。
+指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为**错误的**.
 
-此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)属性设置为`真的`。
+此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts/)属性设置为**真的**.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### 评论
+## 评论
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-### 例子
+## 例子
 
-演示如何保存嵌入 TrueType 字体的文档。
+显示如何使用嵌入的 TrueType 字体保存文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -43,7 +45,5 @@ else
 ### 也可以看看
 
 * class [FontInfoCollection](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfocollection/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

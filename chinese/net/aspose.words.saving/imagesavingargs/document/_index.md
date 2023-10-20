@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Aspose.Words for .NET API 参考
-description: ImageSavingArgs 财产. 获取当前正在保存的文档对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSavingArgs Document 财产. 获取当前正在保存的文档对象 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/imagesavingargs/document/
@@ -14,16 +16,15 @@ url: /zh/net/aspose.words.saving/imagesavingargs/document/
 public Document Document { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何在 HTML 转换过程中涉及图像保存回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
-public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // 当我们将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象来指定回调
+    // 当我们将文档保存为 HTML 时，我们可以传递一个 SaveOptions 对象来指定一个回调
     // 自定义图像保存过程。
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -32,8 +33,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// 在保存过程将每个图像保存到本地文件系统中的图像文件时打印每个图像的属性
-/// 将文档导出为 HTML 期间。
+/// 打印每个图像的属性，因为保存过程将其保存到本地文件系统中的图像文件
+/// 在将文档导出为 HTML 期间。
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {
@@ -61,7 +62,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

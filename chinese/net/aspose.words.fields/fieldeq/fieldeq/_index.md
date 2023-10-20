@@ -1,7 +1,9 @@
 ---
-title: FieldEQ.FieldEQ
-second_title: Aspose.Words for .NET API 参考
-description: FieldEQ 构造函数. 默认构造函数
+title: FieldEQ
+linktitle: FieldEQ
+articleTitle: FieldEQ
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldEQ 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldeq/fieldeq/
@@ -17,7 +19,5 @@ public FieldEQ()
 ### 也可以看看
 
 * class [FieldEQ](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldeq/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

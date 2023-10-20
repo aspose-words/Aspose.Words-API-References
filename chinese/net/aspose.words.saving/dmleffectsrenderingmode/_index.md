@@ -1,7 +1,9 @@
 ---
-title: Enum DmlEffectsRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DmlEffectsRenderingMode 枚举. 指定如何将 DrawingML 效果呈现为固定页面格式
+title: DmlEffectsRenderingMode Enum
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.DmlEffectsRenderingMode 枚举. 指定如何将 DrawingML 效果呈现为固定页面格式 在 C#.
 type: docs
 weight: 4910
 url: /zh/net/aspose.words.saving/dmleffectsrenderingmode/
@@ -18,26 +20,26 @@ public enum DmlEffectsRenderingMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Simplified | `0` | DrawingML 效果的渲染得到简化。 |
-| None | `1` | 未渲染 DrawingML 效果。 |
-| Fine | `2` | DrawingML 效果以精细模式渲染，涉及高级处理。 在此模式下，效果渲染可提供更好的结果，但性能成本高于Simplified模式. |
+| Simplified | `0` | DrawingML 效果的渲染被简化。 |
+| None | `1` | 不渲染 DrawingML 效果。 |
+| Fine | `2` | DrawingML 效果以精细模式呈现，涉及高级处理。 在这种模式下，效果呈现效果更好，但性能成本高于Simplified模式. |
 
-### 例子
+## 例子
 
-演示如何在将文档保存为 PDF 时配置 DrawingML 效果的渲染质量。
+展示了当我们将文档保存为 PDF 时如何在文档中配置 DrawingML 效果的渲染质量。
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-// 修改该方法将文档转换为 .PDF 的方式。
+// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改该方法如何将文档转换为 .PDF。
 PdfSaveOptions options = new PdfSaveOptions();
 
-// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.None”以放弃所有 DrawingML 效果。
+// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.None”以丢弃所有 DrawingML 效果。
 // 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Simplified”
-// 渲染 DrawingML 效果的简化版本。
-// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Fine”
-// 更准确地渲染 DrawingML 效果，但处理成本也更高。
+// 渲染一个简化版的 DrawingML 效果。
+// 将“DmlEffectsRenderingMode”属性设置为“DmlEffectsRenderingMode.Fine”以
+// 以更高的准确性和更高的处理成本渲染 DrawingML 效果。
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

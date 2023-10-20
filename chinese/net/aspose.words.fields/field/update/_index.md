@@ -1,20 +1,22 @@
 ---
 title: Field.Update
-second_title: Aspose.Words for .NET API 参考
-description: Field 方法. 执行字段更新如果该字段已被更新则抛出异常
+linktitle: Update
+articleTitle: Update
+second_title: 用于 .NET 的 Aspose.Words
+description: Field Update 方法. 执行字段更新如果该字段已被更新则抛出 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-执行字段更新。如果该字段已被更新，则抛出异常。
+执行字段更新。如果该字段已被更新，则抛出。
 
 ```csharp
 public void Update()
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FieldType 将字段插入到文档中。
 
@@ -22,7 +24,7 @@ public void Update()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入两个字段，同时传递一个标志，该标志确定在构建器插入它们时是否更新它们。
+// 插入两个字段，同时传递一个标志，该标志确定是否在构建器插入它们时更新它们。
 // 在某些情况下，更新字段的计算成本可能很高，推迟更新可能是个好主意。
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
@@ -45,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // 我们需要使用更新方法手动更新这些字段。
+    // 我们需要手动使用更新方法更新这些字段。
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -56,13 +58,13 @@ else
 }
 ```
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档生成器插入一个显示未应用格式的结果的字段。
+// 使用文档构建器插入一个显示未应用格式的结果的字段。
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -104,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// 我们可以删除格式以将字段的结果恢复为其原始形式。
+// 我们可以删除格式以将字段的结果恢复为原始形式。
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -118,14 +120,14 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
-执行字段更新。如果该字段已被更新，则抛出异常。
+执行字段更新。如果该字段已被更新，则抛出。
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -133,11 +135,11 @@ public void Update(bool ignoreMergeFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | 如果`真的`然后，无论 MERGEFORMAT 开关如何，都会放弃直接字段结果格式化，否则将执行正常更新。 |
+| ignoreMergeFormat | Boolean | 如果`真的`然后放弃直接字段结果格式化，不管MERGEFORMAT开关，否则正常更新。 |
 
-### 例子
+## 例子
 
-演示如何在加载文档时保留或丢弃 INCLUDEPICTURE 字段。
+显示在加载文档时如何保留或丢弃 INCLUDEPICTURE 字段。
 
 ```csharp
 Document doc = new Document();
@@ -151,8 +153,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // 我们可以在 LoadOptions 对象中设置一个标志来决定是否转换所有 INCLUDEPICTURE 字段
-    // 加载包含图像形状的文档时将其转换为图像形状。
+    // 我们可以在 LoadOptions 对象中设置一个标志来决定是否转换所有的 INCLUDEPICTURE 字段
+    // 在加载包含它们的文档时进入图像形状。
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

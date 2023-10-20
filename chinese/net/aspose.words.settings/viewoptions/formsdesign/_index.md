@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Aspose.Words for .NET API 参考
-description: ViewOptions 财产. 指定文档是否处于表单设计模式
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: 用于 .NET 的 Aspose.Words
+description: ViewOptions FormsDesign 财产. 指定文档是否处于表单设计模式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.settings/viewoptions/formsdesign/
 public bool FormsDesign { get; set; }
 ```
 
-### 评论
+## 评论
 
 目前仅适用于 WordML 格式的文档。
 
-### 例子
+## 例子
 
-展示如何启用/禁用表单设计模式。
+显示如何启用/禁用表单设计模式。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### 也可以看看
 
 * class [ViewOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../viewoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,14 +1,14 @@
 ---
-title: Class Cluster
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.Cluster 班级. 封装组成字素的代码点和字形
+title: Cluster Class
+linktitle: Cluster
+articleTitle: Cluster
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.Cluster 班级.  在 C#.
 type: docs
 weight: 6010
 url: /zh/net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
-
-封装组成字素的代码点和字形。
 
 ```csharp
 public class Cluster
@@ -18,28 +18,26 @@ public class Cluster
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) | 初始化此类的新实例。 |
+| [Cluster](cluster/)(*int[], Glyph[]*) |  |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | 获取集群的代码点。 |
-| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | 获取代码点的总数`Cluster`. |
-| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | 获取簇的字形。 |
+| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } |  |
+| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } |  |
+| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } |  |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | 返回此实例的深度克隆。 |
-| [GetString](../../aspose.words.shaping/cluster/getstring/)() | 创建String使用此集群中的代码点。 |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | 返回簇的宽度。 |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | 创建String使用指定簇中的代码点。 |
+| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() |  |
+| [GetString](../../aspose.words.shaping/cluster/getstring/)() |  |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) |  |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) |  |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

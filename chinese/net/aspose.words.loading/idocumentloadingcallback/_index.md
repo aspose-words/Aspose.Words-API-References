@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentLoadingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.IDocumentLoadingCallback 界面. 如果您想在加载文档期间调用自己的自定义方法请实现此接口
+title: IDocumentLoadingCallback Interface
+linktitle: IDocumentLoadingCallback
+articleTitle: IDocumentLoadingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.IDocumentLoadingCallback 界面. 如果您想在加载文档期间调用自己的自定义方法请实现此接口 在 C#.
 type: docs
 weight: 3630
 url: /zh/net/aspose.words.loading/idocumentloadingcallback/
@@ -18,13 +20,14 @@ public interface IDocumentLoadingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | 调用此函数以通知文档加载进度。 |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | 调用此函数以通知文档加载进度。 |
 
-### 例子
+## 例子
 
-演示如何在文档加载超出预期加载时间时通知用户。
+显示如何在文档加载超出预期加载时间时通知用户。
 
 ```csharp
+[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -49,7 +52,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -57,7 +60,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载期间调用的回调方法。
+    /// 文档加载过程中调用的回调方法。
     /// </summary>
     /// <param name="args">加载参数。</param>
     public void Notify(DocumentLoadingArgs args)
@@ -70,7 +73,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载开始的日期和时间。
+    /// 开始加载文档的日期和时间。
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
@@ -85,5 +88,3 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

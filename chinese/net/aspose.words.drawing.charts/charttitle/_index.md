@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartTitle 班级. 提供对图表标题属性的访问
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartTitle 班级. 提供对图表标题属性的访问 在 C#.
 type: docs
 weight: 820
 url: /zh/net/aspose.words.drawing.charts/charttitle/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words.drawing.charts/charttitle/
 ## ChartTitle class
 
 提供对图表标题属性的访问。
-
-要了解更多信息，请访问[使用 图表](https://docs.aspose.com/words/net/working-with-charts/)文档文章。
 
 ```csharp
 public class ChartTitle
@@ -20,24 +20,23 @@ public class ChartTitle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
-| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | 确定是否允许其他图表元素重叠标题。 默认情况下重叠是`错误的`. |
-| [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | 确定是否应显示此图表的标题。 默认值为`真的`. |
-| [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | 获取或设置图表标题的文本。 如果`无效的`或指定空值，将显示自动生成的标题。 |
+| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | 确定是否允许其他图表元素重叠 title. 默认情况下覆盖为 false。 |
+| [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | 确定是否应为此图表显示标题。 默认值为 true。 |
+| [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | 获取或设置图表标题的文本。 如果指定null或空值，将显示自动生成的标题。 |
 
-### 例子
+## 例子
 
-演示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档生成器插入图表形状并获取其图表。
+// 使用文档构建器插入图表形状并获取其图表。
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
+// 使用“Title”属性给我们的图表一个标题，它出现在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
@@ -54,5 +53,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

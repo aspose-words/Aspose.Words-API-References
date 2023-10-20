@@ -1,30 +1,32 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置表示段落正确缩进的值以磅为单位
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat RightIndent 财产. 获取或设置代表段落右缩进的值以磅为单位 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-获取或设置表示段落正确缩进的值（以磅为单位）。
+获取或设置代表段落右缩进的值（以磅为单位）。
 
 ```csharp
 public double RightIndent { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何配置段落格式以创建偏离中心的文本。
+显示如何配置段落格式以创建偏离中心的文本。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 将文档构建器编写的所有文本居中，并设置缩进。
-// 下面的缩进配置将创建一个不对称地位于页面上的文本正文。
-// 我们将文本对齐的“中心”将是文本正文的中间，而不是页面的中间。
+// 下面的缩进配置将创建一个不对称的文本正文。
+// 我们对齐文本的“中心”将是文本正文的中间，而不是页面的中间。
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

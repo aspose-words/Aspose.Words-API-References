@@ -1,22 +1,24 @@
 ---
 title: FrameFormat.Width
-second_title: Aspose.Words for .NET API 参考
-description: FrameFormat 财产. 获取指定框架的宽度以磅为单位
+linktitle: Width
+articleTitle: Width
+second_title: 用于 .NET 的 Aspose.Words
+description: FrameFormat Width 财产. 获取指定帧的宽度以磅为单位 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/frameformat/width/
 ---
 ## FrameFormat.Width property
 
-获取指定框架的宽度，以磅为单位。
+获取指定帧的宽度，以磅为单位。
 
 ```csharp
 public double Width { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+显示如何获取有关作为框架的段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### 也可以看看
 
 * class [FrameFormat](../)
-* 命名空间 [Aspose.Words](../../frameformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,16 +1,16 @@
 ---
-title: Class ConvertUtil
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConvertUtil 班级. 提供辅助函数以在各种测量单位之间进行转换
+title: ConvertUtil Class
+linktitle: ConvertUtil
+articleTitle: ConvertUtil
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ConvertUtil 班级. 提供帮助函数在各种测量单位之间进行转换 在 C#.
 type: docs
 weight: 360
 url: /zh/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
-提供辅助函数以在各种测量单位之间进行转换。
-
-要了解更多信息，请访问[测量单位之间的转换](https://docs.aspose.com/words/net/convert-between-measurement-units/)文档文章。
+提供帮助函数在各种测量单位之间进行转换。
 
 ```csharp
 public static class ConvertUtil
@@ -20,18 +20,18 @@ public static class ConvertUtil
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | 将英寸转换为点。 |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | 将毫米转换为点。 |
-| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | 将像素从一种分辨率转换为另一种分辨率。 |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | 将像素转换为 96 dpi 的点。 |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | 将像素转换为指定像素分辨率的点。 |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | 将点转换为英寸。 |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | 将点转换为 96 dpi 的像素。 |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | 将点转换为指定像素分辨率的像素。 |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | 将英寸转换为磅。 |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | 将毫米转换为磅。 |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | 将像素从一种分辨率转换为另一种分辨率。 |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | 将像素转换为 96 dpi 的点。 |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | 将像素转换为指定像素分辨率的点。 |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | 将点转换为英寸。 |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | 将点转换为 96 dpi 的像素。 |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | 将点转换为指定像素分辨率的像素。 |
 
-### 例子
+## 例子
 
-展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
+显示如何调整纸张大小、方向、边距以及部分的其他设置。
 
 ```csharp
 Document doc = new Document();
@@ -51,14 +51,14 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-显示如何指定以英寸为单位的页面属性。
+显示如何以英寸为单位指定页面属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 部分的“页面设置”定义页边距的大小（以磅为单位）。
-// 我们还可以使用“ConvertUtil”类来使用更熟悉的测量单位，
+// 一个部分的“页面设置”定义了页边距的大小，以磅为单位。
+// 我们也可以使用“ConvertUtil”类来使用更熟悉的度量单位，
 // 例如定义边界时的英寸。
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -66,7 +66,7 @@ pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// 一英寸等于 72 点。
+// 一英寸是 72 磅。
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
@@ -83,5 +83,3 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

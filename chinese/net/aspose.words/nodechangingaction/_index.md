@@ -1,7 +1,9 @@
 ---
-title: Enum NodeChangingAction
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NodeChangingAction 枚举. 指定节点更改的类型
+title: NodeChangingAction Enum
+linktitle: NodeChangingAction
+articleTitle: NodeChangingAction
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NodeChangingAction 枚举. 指定节点更改的类型 在 C#.
 type: docs
 weight: 4180
 url: /zh/net/aspose.words/nodechangingaction/
@@ -18,15 +20,14 @@ public enum NodeChangingAction
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Insert | `0` | 正在将节点插入树中。 |
+| Insert | `0` | 正在向树中插入一个节点。 |
 | Remove | `1` | 正在从树中删除一个节点。 |
 
-### 例子
+## 例子
 
-演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
+展示如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
 
 ```csharp
-public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -99,5 +100,3 @@ private class NodeChangingPrinter : INodeChangingCallback
 * property [Action](../nodechangingargs/action/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

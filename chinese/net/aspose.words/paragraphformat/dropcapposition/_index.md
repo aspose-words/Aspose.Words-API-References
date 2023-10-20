@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置首字下沉文本的位置
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat DropCapPosition 财产. 获取或设置首字下沉文本的位置 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,19 +16,19 @@ url: /zh/net/aspose.words/paragraphformat/dropcapposition/
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何将一个列表嵌套在另一个列表中。
+展示如何将一个列表嵌套在另一个列表中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
- // 我们可以通过增加缩进级别来创建嵌套列表。
- // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
+// 列表允许我们用前缀符号和缩进组织和装饰段落集。
+// 我们可以通过增加缩进级别来创建嵌套列表。 
+// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
 // 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 创建标题的大纲列表。
+// 为标题创建一个大纲列表。
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -38,11 +40,11 @@ builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
-// 组成列表的每个段落都会有这个标志。
+// 每个包含一个列表的段落都会有这个标志。
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
-// 创建项目符号列表。
+// 创建一个项目符号列表。
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

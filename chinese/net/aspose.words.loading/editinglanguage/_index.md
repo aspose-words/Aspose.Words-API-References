@@ -1,7 +1,9 @@
 ---
-title: Enum EditingLanguage
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.EditingLanguage 枚举. 指定编辑语言
+title: EditingLanguage Enum
+linktitle: EditingLanguage
+articleTitle: EditingLanguage
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.EditingLanguage 枚举. 指定编辑语言 在 C#.
 type: docs
 weight: 3600
 url: /zh/net/aspose.words.loading/editinglanguage/
@@ -246,9 +248,9 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-### 例子
+## 例子
 
-演示如何在加载文档时应用语言首选项。
+显示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
@@ -266,5 +268,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

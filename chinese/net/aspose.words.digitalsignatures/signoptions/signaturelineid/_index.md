@@ -1,30 +1,31 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 签名行标识符 默认值为 空全零指南.
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions SignatureLineId 财产. 签名行标识符 默认值为空全零Guid 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-签名行标识符。 默认值为 **空（全零）指南**.
+签名行标识符。 默认值为**空（全零）Guid**.
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### 评论
+## 评论
 
-设置后，它关联[`SignatureLine`](../../../aspose.words.drawing/signatureline/)与相应的[`DigitalSignature`](../../digitalsignature/).
+设置时，它关联[`SignatureLine`](../../../aspose.words.drawing/signatureline/)与相应的[`DigitalSignature`](../../digitalsignature/).
 
-### 例子
+## 例子
 
-演示如何向文档添加签名行，然后使用数字证书对其进行签名。
+演示如何将签名行添加到文档，然后使用数字证书对其进行签名。
 
 ```csharp
-[Description("WORDSNET-16868")]
-        public static void Sign()
+public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -51,7 +52,7 @@ public Guid SignatureLineId { get; set; }
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // 配置并插入签名行，这是文档中的一个对象，将显示我们用来签名的签名。
+            // 配置并插入一个签名行，文档中的一个对象，它将显示我们用来签名的签名。
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -134,7 +135,5 @@ public Guid SignatureLineId { get; set; }
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

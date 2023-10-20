@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Themes.ThemeColor 枚举. 指定文档主题的主题颜色
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Themes.ThemeColor 枚举. 指定文档主题的主题颜色 在 C#.
 type: docs
 weight: 6470
 url: /zh/net/aspose.words.themes/themecolor/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words.themes/themecolor/
 ## ThemeColor enumeration
 
 指定文档主题的主题颜色。
-
-要了解更多信息，请访问[使用样式和主题](https://docs.aspose.com/words/net/working-with-styles-and-themes/)文档文章。
 
 ```csharp
 public enum ThemeColor
@@ -20,11 +20,11 @@ public enum ThemeColor
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `-1` | 无颜色。 |
-| Dark1 | `0` | 深色主色1. |
-| Light1 | `1` | 浅色主色1. |
+| None | `-1` | 没有颜色。 |
+| Dark1 | `0` | 深色主色 1. |
+| Light1 | `1` | 灯光主色1. |
 | Dark2 | `2` | 深色主色2. |
-| Light2 | `3` | 浅色主色2. |
+| Light2 | `3` | 灯光主色2. |
 | Accent1 | `4` | 强调色 1. |
 | Accent2 | `5` | 强调色 2. |
 | Accent3 | `6` | 强调色 3. |
@@ -33,18 +33,18 @@ public enum ThemeColor
 | Accent6 | `9` | 强调色 6. |
 | Hyperlink | `10` | 超链接颜色。 |
 | FollowedHyperlink | `11` | 跟随的超链接颜色。 |
-| Text1 | `12` | 文本颜色 1. |
-| Text2 | `13` | 文本颜色 2. |
-| Background1 | `14` | 背景颜色 1. |
-| Background2 | `15` | 背景颜色 2. |
+| Text1 | `12` | 文字颜色 1. |
+| Text2 | `13` | 文字颜色 2. |
+| Background1 | `14` | 背景色 1. |
+| Background2 | `15` | 背景色 2. |
 
-### 评论
+## 评论
 
 指定的主题颜色是对预定义主题颜色之一的引用，位于 文档的主题部分，它允许在文档中集中设置颜色信息。
 
-### 例子
+## 例子
 
-展示如何创建和使用主题样式。
+展示如何创建和使用主题风格。
 
 ```csharp
 Document doc = new Document();
@@ -67,7 +67,7 @@ builder.Writeln("Text with themed style");
 ```csharp
 Document doc = new Document();
 
-// 定义默认使用的语言的字体。
+// 默认情况下定义语言使用的字体。
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -97,7 +97,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有多种方法可以重置它们的字体和颜色。
+// 有几种方法可以重置它们的字体和颜色。
 // 1 - 通过设置 ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -147,5 +147,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * 命名空间 [Aspose.Words.Themes](../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../)
-
-

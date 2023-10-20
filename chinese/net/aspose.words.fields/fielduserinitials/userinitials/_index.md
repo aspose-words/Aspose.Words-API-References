@@ -1,7 +1,9 @@
 ---
 title: FieldUserInitials.UserInitials
-second_title: Aspose.Words for .NET API 参考
-description: FieldUserInitials 财产. 获取或设置当前用户的姓名缩写
+linktitle: UserInitials
+articleTitle: UserInitials
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldUserInitials UserInitials 财产. 获取或设置当前用户的姓名缩写 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielduserinitials/userinitials/
 public string UserInitials { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何使用 USERINITIALS 字段。
 
@@ -26,8 +28,8 @@ UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// 创建一个 USERINITIALS 字段来显示当前用户的姓名首字母，
-// 取自我们上面创建的 UserInformation 对象。
+// 创建一个 USERINITIALS 字段来显示当前用户的姓名缩写，
+// 取自我们在上面创建的 UserInformation 对象。
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
 Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
@@ -35,7 +37,7 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // 我们可以设置此属性以使我们的字段覆盖当前存储在 UserInformation 对象中的值。
+ // 我们可以设置这个属性来让我们的字段覆盖当前存储在 UserInformation 对象中的值。
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### 也可以看看
 
 * class [FieldUserInitials](../)
-* 命名空间 [Aspose.Words.Fields](../../fielduserinitials/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

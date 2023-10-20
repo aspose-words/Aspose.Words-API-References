@@ -1,24 +1,26 @@
 ---
 title: DocumentProperty.ToBool
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 方法. 以 bool 形式返回属性值
+linktitle: ToBool
+articleTitle: ToBool
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty ToBool 方法. 将属性值返回为布尔值 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.properties/documentproperty/tobool/
 ---
 ## DocumentProperty.ToBool method
 
-以 bool 形式返回属性值。
+将属性值返回为布尔值。
 
 ```csharp
 public bool ToBool()
 ```
 
-### 评论
+## 评论
 
-如果属性类型不是，则抛出异常Boolean。
+如果属性类型不是，则引发异常Boolean.
 
-### 例子
+## 例子
 
 显示自定义文档属性的各种类型转换方法。
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### 也可以看看
 
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

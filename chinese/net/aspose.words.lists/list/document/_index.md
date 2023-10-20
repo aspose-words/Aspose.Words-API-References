@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 获取所有者文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: List Document 财产. 获取所有者文档 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/list/document/
@@ -14,21 +16,23 @@ url: /zh/net/aspose.words.lists/list/document/
 public DocumentBase Document { get; }
 ```
 
-### 评论
+## 评论
 
-列表始终有一个父文档，并且仅在该文档的上下文中有效。
+列表始终具有父文档，并且仅在该文档的上下文中有效。
 
-### 例子
+## 例子
 
-演示如何验证列表的所有者文档属性。
+显示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
+
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
+
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -41,7 +45,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

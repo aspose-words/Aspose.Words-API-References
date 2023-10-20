@@ -1,26 +1,28 @@
 ---
 title: TextBox.BreakForwardLink
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 方法. 断开下一个链接TextBox.
+linktitle: BreakForwardLink
+articleTitle: BreakForwardLink
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox BreakForwardLink 方法. 断开到下一个文本框的链接 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-断开下一个链接[`TextBox`](../).
+断开到下一个文本框的链接。
 
 ```csharp
 public void BreakForwardLink()
 ```
 
-### 评论
+## 评论
 
-`BreakForwardLink`不会破坏当前形状序列中的所有其他链接。 例如：1-2-3-4 序列和`BreakForwardLink`在第二个文本框中将创建 两个序列1-2、3-4.
+BreakForwardLink() 不会断开当前形状序列中的所有其他链接。 例如：1-2-3-4 序列和第二个文本框的 BreakForwardLink 将创建 两个序列 1-2、3-4。
 
-### 例子
+## 例子
 
-展示如何链接文本框。
+显示如何链接文本框。
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +50,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// 只有空文本框才可以有链接。
+// 只有空文本框可以有链接。
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -66,7 +68,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // 断开textBox2和textBox3之间的前向链接，然后验证它们不再链接。
+    // 断开 textBox2 和 textBox3 之间的正向链接，然后验证它们不再链接。
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

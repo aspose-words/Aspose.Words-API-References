@@ -1,7 +1,9 @@
 ---
-title: Shape.Shape
-second_title: Aspose.Words for .NET API 参考
-description: Shape 构造函数. 创建一个新的形状对象
+title: Shape
+linktitle: Shape
+articleTitle: Shape
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape 构造函数. 创建一个新的形状对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/shape/shape/
@@ -19,20 +21,20 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | 所有者文件。 |
 | shapeType | ShapeType | 要创建的形状的类型。 |
 
-### 评论
+## 评论
 
-创建形状后，您应该指定所需的形状属性。
+您应该在创建形状后指定所需的形状属性。
 
-### 例子
+## 例子
 
 演示如何将带有图像的形状从本地文件系统插入到文档中。
 
 ```csharp
 Document doc = new Document();
 
-// “Shape”类的公共构造函数将创建一个具有“ShapeMarkupLanguage.Vml”标记类型的形状。
-// 如果需要创建非原始类型的形状，例如SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded，
+// “Shape”类的公共构造函数将创建一个带有“ShapeMarkupLanguage.Vml”标记类型的形状。
+// 如果需要创建非原始类型的形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
 // 请使用 DocumentBuilder.InsertShape。
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
@@ -44,7 +46,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
-演示如何创建文本框并设置其格式。
+演示如何创建和格式化文本框。
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// 将一个段落添加到文本框并添加文本框将显示的一系列文本。
+// 向文本框中添加一个段落，并添加文本框将显示的一连串文本。
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [ShapeType](../../shapetype/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

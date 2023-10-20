@@ -1,22 +1,24 @@
 ---
 title: Table.Style
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置应用于此表的表格样式
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: Table Style 财产. 获取或设置应用于此表格的表格样式 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-获取或设置应用于此表的表格样式。
+获取或设置应用于此表格的表格样式。
 
 ```csharp
 public Style Style { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何为表格创建自定义样式设置。
+显示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

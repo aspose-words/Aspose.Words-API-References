@@ -1,39 +1,41 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 返回真的如果此列表是列表样式的定义
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: 用于 .NET 的 Aspose.Words
+description: List IsListStyleDefinition 财产. 如果此列表是列表样式的定义则返回 true 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/list/isliststyledefinition/
 ---
 ## List.IsListStyleDefinition property
 
-返回`真的`如果此列表是列表样式的定义。
+如果此列表是列表样式的定义，则返回 true。
 
 ```csharp
 public bool IsListStyleDefinition { get; }
 ```
 
-### 评论
+## 评论
 
-当这个属性是`真的`， 这[`Style`](../style/)属性返回 此列表定义的列表样式。
+当该属性为真时，[`Style`](../style/)属性返回 此列表定义的列表样式。
 
-通过修改定义列表样式的列表的属性，您可以修改列表样式的properties 。
+通过修改定义列表样式的列表的属性，您可以修改列表样式的 properties 。
 
-作为列表样式定义的列表不能直接应用于 paragraphs 以使其编号。
+作为列表样式定义的列表不能直接应用于paragraphs 以使其编号。
 
-### 例子
+## 例子
 
-演示如何创建列表样式并在文档中使用它。
+展示如何创建列表样式并在文档中使用它。
 
 ```csharp
 Document doc = new Document();
 
-// 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
- // 我们可以通过增加缩进级别来创建嵌套列表。
- // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
+// 列表允许我们用前缀符号和缩进组织和装饰段落集。
+// 我们可以通过增加缩进级别来创建嵌套列表。 
+// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
 // 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 我们可以在样式中包含整个 List 对象。
+// 我们可以在一个样式中包含一个完整的 List 对象。
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -55,7 +57,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// 从样式内的列表创建另一个列表。
+// 从样式中的列表创建另一个列表。
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,30 +1,34 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. True 表示考虑文本框从上到下顺序执行文本搜索 默认值为错误的.
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions UseLegacyOrder 财产. True 表示考虑到文本框从上到下顺序执行文本搜索 默认值为 false 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True 表示考虑文本框从上到下顺序执行文本搜索。 默认值为`错误的`.
+True 表示考虑到文本框，从上到下顺序执行文本搜索。 默认值为 false。
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何在执行查找和替换文本操作时更改节点的搜索顺序。
+显示在执行查找和替换文本操作时如何更改节点的搜索顺序。
 
 ```csharp
+[TestCase(true)] // 跳过
+[TestCase(false)] // 跳过
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入我们可以使用正则表达式模式搜索的三个运行。
+    // 插入三个运行，我们可以使用正则表达式模式搜索它们。
     // 将其中一个运行放在文本框中。
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
@@ -40,10 +44,10 @@ public void UseLegacyOrder(bool useLegacyOrder)
     options.ReplacingCallback = callback;
 
     // 如果我们将“UseLegacyOrder”属性设置为“true”，则
-    // 查找和替换操作将遍历文本框之外的所有运行
-    // 在浏览文本框内的内容之前。
+    // 查找和替换操作将遍历文本框外的所有运行
+    // 在遍历文本框内的之前。
     // 如果我们将“UseLegacyOrder”属性设置为“false”，则
-    // 查找和替换操作将按顺序遍历某个范围内的所有运行。
+    // 查找和替换操作将按顺序遍历范围内的所有运行。
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -54,7 +58,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// 记录查找和替换操作期间发生的所有匹配的顺序。
+/// 记录在查找和替换操作期间发生的所有匹配的顺序。
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {
@@ -71,7 +75,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

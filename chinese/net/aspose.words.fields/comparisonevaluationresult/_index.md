@@ -1,16 +1,16 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.ComparisonEvaluationResult 班级. 比较评估结果.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.ComparisonEvaluationResult 班级. 比较评估结果 在 C#.
 type: docs
 weight: 1480
 url: /zh/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-比较评估结果.
-
-要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
+比较评估结果。
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -20,19 +20,19 @@ public sealed class ComparisonEvaluationResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | 创建比较评估结果。 |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | 创建失败的比较评估结果以及相应的错误消息。 |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | 创建比较评估结果。 |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | 使用相应的错误消息创建失败的比较评估结果。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | 获取失败的比较评估结果的错误消息。 |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | 获取比对评估结果失败的错误信息。 |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | 获取比较评估结果。 |
 
-### 例子
+## 例子
 
-展示如何实现 IF 和 COMPARE 字段的自定义评估。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -45,11 +45,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较{0} {1} {2}”。
+    // 1. " IF {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较 {0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
+    // 如果 "comparisonResult" 未定义，我们用字符串而不是 bool 创建 "ComparisonEvaluationResult"。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -64,7 +64,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf 和 FieldCompare 的比较表达式评估。
+/// FieldIf 和 FieldCompare 的比较表达式计算。
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
@@ -115,5 +115,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

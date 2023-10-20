@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置应用于结构化文档标记的样式名称
+linktitle: StyleName
+articleTitle: StyleName
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag StyleName 财产. 获取或设置应用于结构化文档标签的样式名称 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-获取或设置应用于结构化文档标记的样式名称。
+获取或设置应用于结构化文档标签的样式名称。
 
 ```csharp
 public string StyleName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用内容控制元素的样式。
 
@@ -22,8 +24,8 @@ public string StyleName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是将文档样式应用到结构化文档标签的两种方法。
-// 1 - 从文档的样式集合中应用样式对象：
+// 以下是将文档中的样式应用到结构化文档标签的两种方法。
+// 1 - 应用文档样式集合中的样式对象：
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -43,8 +45,6 @@ foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
 
-    Console.WriteLine(sdt.WordOpenXMLMinimal);
-
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);
 }
@@ -53,7 +53,5 @@ foreach (Node node in tags)
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

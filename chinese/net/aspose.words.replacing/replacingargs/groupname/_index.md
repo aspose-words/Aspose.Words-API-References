@@ -1,31 +1,32 @@
 ---
 title: ReplacingArgs.GroupName
-second_title: Aspose.Words for .NET API 参考
-description: ReplacingArgs 财产. 按名称标识捕获组Match 将替换为Replacement字符串.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: 用于 .NET 的 Aspose.Words
+description: ReplacingArgs GroupName 财产. 按名称标识在Match 被替换为Replacement字符串 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-按名称标识捕获组[`Match`](../match/) 将替换为[`Replacement`](../replacement/)字符串.
+按名称标识在[`Match`](../match/) 被替换为[`Replacement`](../replacement/)字符串.
 
 ```csharp
 public string GroupName { get; set; }
 ```
 
-### 评论
+## 评论
 
-当组名称为`无效的`,[`GroupIndex`](../groupindex/)用于识别组。
+当组名为空时，[`GroupIndex`](../groupindex/)用于标识组。
 
-默认为`无效的`。
+默认为空。
 
-### 例子
+## 例子
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
-public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -93,7 +94,5 @@ private class NumberHexer : IReplacingCallback
 ### 也可以看看
 
 * class [ReplacingArgs](../)
-* 命名空间 [Aspose.Words.Replacing](../../replacingargs/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

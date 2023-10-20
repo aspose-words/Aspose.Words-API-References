@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置用于拉丁文本的字体字符代码从 0零到 127 的字符
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NameAscii 财产. 返回或设置用于拉丁文本的字体字符代码从 0零到 127 的字符 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/nameascii/
 public string NameAscii { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示 Microsoft Word 如何在一次运行中组合两种不同的字体。
 
@@ -22,7 +24,7 @@ public string NameAscii { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 假设我们使用构建器在使用此字体配置时插入运行
+// 假设我们在使用此字体配置时使用构建器插入的运行
 // 包含 ASCII 字符范围内的字符。在这种情况下，
 // 它将使用此字体显示这些字符。
 builder.Font.NameAscii = "Calibri";
@@ -30,12 +32,12 @@ builder.Font.NameAscii = "Calibri";
 // 如果没有指定其他字体，构建器也会将此字体应用于它插入的所有字符。
 Assert.AreEqual("Calibri", builder.Font.Name);
 
-// 指定 ASCII 范围之外的所有字符使用的字体。
-// 理想情况下，此字体应该为每个所需的非 ASCII 字符代码都有一个字形。
+// 指定用于 ASCII 范围之外的所有字符的字体。
+// 理想情况下，该字体应该为每个所需的非 ASCII 字符代码提供一个字形。
 builder.Font.NameOther = "Courier New";
 
-// 插入一个包含 ASCII 字符的单词和一个包含该范围之外的所有字符的单词的运行。
-// 每个字符将使用其中一种字体显示，具体取决于。
+// 插入一个包含 ASCII 字符的单词和一个包含该范围之外所有字符的单词的运行。
+// 每个字符将使用任何一种字体显示，具体取决于。
 builder.Writeln("Hello, Привет");
 
 doc.Save(ArtifactsDir + "Font.NameAscii.docx");
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

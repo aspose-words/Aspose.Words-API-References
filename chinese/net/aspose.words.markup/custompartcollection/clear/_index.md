@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: CustomPartCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPartCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/custompartcollection/clear/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.markup/custompartcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
-演示如何访问文档的任意自定义部件集合。
+显示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -45,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// 我们可以从该集合中单独删除元素，也可以一次性删除所有元素。
+// 我们可以从这个集合中单独删除元素，也可以一次全部删除。
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPartCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../custompartcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

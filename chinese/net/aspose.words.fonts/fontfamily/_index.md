@@ -1,14 +1,16 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontFamily 枚举. 代表字体系列
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontFamily 枚举. 代表字体家族 在 C#.
 type: docs
 weight: 2910
 url: /zh/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
 
-代表字体系列。
+代表字体家族。
 
 ```csharp
 public enum FontFamily
@@ -18,20 +20,20 @@ public enum FontFamily
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 指定通用姓氏。当有关字体 的信息不存在或不重要时，使用此名称。使用默认字体。 |
+| Auto | `0` | 指定通用系列名称。当有关字体 的信息不存在或无关紧要时使用此名称。使用默认字体。 |
 | Roman | `1` | 指定带衬线的比例字体。一个例子是 Times New Roman. |
 | Swiss | `2` | 指定不带衬线的比例字体。一个例子是 Arial. |
-| Modern | `3` | 指定带或不带衬线的等宽字体。等宽字体是 通常是现代的；示例包括 Pica、Elite 和 Courier New。 |
-| Script | `4` | 指定设计为看起来像手写的字体；示例包括脚本和草书。 |
+| Modern | `3` | 指定带或不带衬线的等宽字体。等宽字体是 通常是现代的；示例包括 Pica、Elite 和 Courier New. |
+| Script | `4` | 指定一种设计为看起来像手写的字体；示例包括 Script 和 Cursive. |
 | Decorative | `5` | 指定新奇字体。一个例子是古英语。 |
 
-### 评论
+## 评论
 
-字体系列是一组具有共同笔划宽度和衬线特征的字体。
+字体系列是一组具有共同笔画宽度和衬线特征的字体。
 
-### 例子
+## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+显示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

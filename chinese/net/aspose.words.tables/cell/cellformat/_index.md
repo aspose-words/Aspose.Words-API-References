@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 提供对单元格格式属性的访问
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell CellFormat 财产. 提供对单元格格式属性的访问 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.tables/cell/cellformat/
@@ -14,16 +16,16 @@ url: /zh/net/aspose.words.tables/cell/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何修改表格单元格的格式。
+显示如何修改表格单元格的格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// 使用单元格的“CellFormat”属性来设置修改该单元格外观的格式。
+// 使用单元格的“CellFormat”属性设置修改该单元格外观的格式。
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -31,7 +33,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```
 
-演示如何将两个表中的行合并为一个表。
+显示如何将两个表中的行合并为一个。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -53,7 +55,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-演示如何修改表中行和单元格的格式。
+显示如何修改表格中行和单元格的格式。
 
 ```csharp
 Document doc = new Document();
@@ -72,7 +74,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // 使用第一行的“RowFormat”属性修改格式
-// 该行中所有单元格的内容。
+// 此行中所有单元格的内容。
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: OfficeMathRenderer.OfficeMathRenderer
-second_title: Aspose.Words for .NET API 参考
-description: OfficeMathRenderer 构造函数. 初始化此类的新实例
+title: OfficeMathRenderer
+linktitle: OfficeMathRenderer
+articleTitle: OfficeMathRenderer
+second_title: 用于 .NET 的 Aspose.Words
+description: OfficeMathRenderer 构造函数. 初始化这个类的一个新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.rendering/officemathrenderer/officemathrenderer/
 ---
 ## OfficeMathRenderer constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public OfficeMathRenderer(OfficeMath math)
@@ -16,9 +18,9 @@ public OfficeMathRenderer(OfficeMath math)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| math | OfficeMath | 这[`OfficeMath`](../../../aspose.words.math/officemath/)您要渲染的对象。 |
+| math | OfficeMath | 要呈现的 OfficeMath 对象。 |
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -39,18 +41,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
+// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
+// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 此处的不透明边界也可能有所不同。
+// 这里的不透明边界也可能不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -66,7 +68,5 @@ Assert.AreEqual(30, bounds.Height);
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [OfficeMathRenderer](../)
-* 命名空间 [Aspose.Words.Rendering](../../officemathrenderer/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

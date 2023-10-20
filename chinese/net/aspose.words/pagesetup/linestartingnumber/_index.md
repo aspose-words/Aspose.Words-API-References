@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置起始行号
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup LineStartingNumber 财产. 获取或设置起始行号 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,17 +16,17 @@ url: /zh/net/aspose.words/pagesetup/linestartingnumber/
 public int LineStartingNumber { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何为节启用行编号。
+显示如何为部分启用行号。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 我们可以使用该部分的 PageSetup 对象在该部分的文本行左侧显示数字。
+// 我们可以使用部分的 PageSetup 对象在部分文本行的左侧显示数字。
 // 这与 List 对象的行为相同，
-// 但它覆盖了整个部分并且不会以任何方式修改文本。
+// 但它涵盖了整个部分并且不会以任何方式修改文本。
 // 我们的部分将在每个新页面上从 1 重新开始编号并显示编号，
 // 如果是 3 的倍数，则在该行左侧 50pt 处。
 PageSetup pageSetup = builder.PageSetup;
@@ -36,9 +38,9 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// 行计数器将跳过“SuppressLineNumbers”标志设置为“true”的任何段落。
-// 该段落位于第 15 行，该行是 3 的倍数，因此通常会显示行号。
-// 该部分的行计数器也会忽略这一行，将下一行视为第 15 行，
+// 行计数器将跳过任何“SuppressLineNumbers”标志设置为“true”的段落。
+// 这一段在第 15 行，是 3 的倍数，因此通常会显示一个行号。
+// 该节的行计数器也会忽略这一行，将下一行视为第 15 行，
 // 并从该点开始继续计数。
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

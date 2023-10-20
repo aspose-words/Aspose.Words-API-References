@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: FrameFormat 财产. 获取指定帧的水平对齐方式
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: FrameFormat HorizontalAlignment 财产. 获取指定帧的水平对齐方式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/frameformat/horizontalalignment/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/frameformat/horizontalalignment/
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+显示如何获取有关作为框架的段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* 命名空间 [Aspose.Words](../../frameformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

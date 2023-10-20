@@ -1,7 +1,9 @@
 ---
-title: Class EditableRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.EditableRangeStart 班级. 表示 Word 文档中可编辑范围的开始
+title: EditableRangeStart Class
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.EditableRangeStart 班级. 表示 Word 文档中可编辑范围的开始 在 C#.
 type: docs
 weight: 1440
 url: /zh/net/aspose.words/editablerangestart/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words/editablerangestart/
 ## EditableRangeStart class
 
 表示 Word 文档中可编辑范围的开始。
-
-要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -24,41 +24,41 @@ public sealed class EditableRangeStart : Node
 | virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
 | [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | 获取封装此可编辑范围开始和结束的外观对象。 |
 | [Id](../../aspose.words/editablerangestart/id/) { get; set; } | 指定可编辑范围的标识符。 |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 返回`真的`如果该节点可以包含其他节点. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | 如果此节点可以包含其他节点，则返回 true。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧跟此节点的节点。 |
 | override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | 返回EditableRangeStart. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧接在此节点之前的节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回一个**范围**表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
-| virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| override [Accept](../../aspose.words/editablerangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
+| virtual [GetText](../../aspose.words/node/gettext/)() | 获取该节点及其所有子节点的文本。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据前序树遍历算法获取上一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 从父级中移除自身。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出为字符串。 |
 
-### 评论
+## 评论
 
-Word 文档中完整的可编辑范围由`EditableRangeStart` 和一个匹配的[`EditableRangeEnd`](../editablerangeend/)具有相同的 ID。
+Word 文档中完整的可编辑范围包括`EditableRangeStart` 和一个匹配的[`EditableRangeEnd`](../editablerangeend/)具有相同的 ID。
 
-`EditableRangeStart`和[`EditableRangeEnd`](../editablerangeend/)只是 document 内的标记，指定可编辑范围的开始和结束位置。
+`EditableRangeStart`和[`EditableRangeEnd`](../editablerangeend/)只是 document 中的标记，用于指定可编辑范围的开始和结束位置。
 
-使用[`EditableRange`](./editablerange/)类作为“外观”，将可编辑的 range 作为单个对象使用。
+使用[`EditableRange`](./editablerange/)类作为“门面”以将可编辑的 range 作为单个对象使用。
 
-当前仅在内联级别支持可编辑范围，即内部[`Paragraph`](../paragraph/), 但可编辑范围开始和可编辑范围结束可以位于不同的段落中。
+当前仅在内联级别支持可编辑范围，即在内部[`Paragraph`](../paragraph/), 但可编辑范围开始和可编辑范围结束可以在不同的段落中。
 
-### 例子
+## 例子
 
-展示如何将可编辑范围的编辑权限限制为特定组/用户。
+显示如何将可编辑范围的编辑权限限制为特定组/用户。
 
 ```csharp
 public void Visitor()
@@ -71,7 +71,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
+    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 收集字符串中访问过的可编辑范围的属性和内容。
+/// 在字符串中收集访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -150,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -169,5 +169,3 @@ public class EditableRangePrinter : DocumentVisitor
 * class [Node](../node/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

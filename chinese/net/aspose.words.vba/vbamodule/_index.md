@@ -1,7 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaModule 班级. 提供对 VBA 项目模块的访问
+title: VbaModule Class
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaModule 班级. 提供对 VBA 项目模块的访问 在 C#.
 type: docs
 weight: 6550
 url: /zh/net/aspose.words.vba/vbamodule/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words.vba/vbamodule/
 ## VbaModule class
 
 提供对 VBA 项目模块的访问。
-
-要了解更多信息，请访问[使用 VBA 宏](https://docs.aspose.com/words/net/working-with-vba-macros/)文档文章。
 
 ```csharp
 public class VbaModule
@@ -27,25 +27,24 @@ public class VbaModule
 | 姓名 | 描述 |
 | --- | --- |
 | [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | 获取或设置 VBA 项目模块名称。 |
-| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | 获取或设置 VBA 项目模块源代码。 |
+| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | 获取或设置VBA工程模块源代码。 |
 | [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone/)() | 执行复制`VbaModule`. |
+| [Clone](../../aspose.words.vba/vbamodule/clone/)() | 执行`VbaModule`. |
 
-### 例子
+## 例子
 
-演示如何访问文档的 VBA 项目信息。
+显示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // VBA 项目包含 VBA 模块的集合。
 VbaProject vbaProject = doc.VbaProject;
-Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -60,7 +59,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// 从集合中删除一个模块。
+// 从集合中移除一个模块。
 vbaModules.Remove(vbaModules[2]);
 ```
 
@@ -68,5 +67,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

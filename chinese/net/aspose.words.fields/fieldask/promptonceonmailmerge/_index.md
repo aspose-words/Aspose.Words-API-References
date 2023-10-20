@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Aspose.Words for .NET API 参考
-description: FieldAsk 财产. 获取或设置每次邮件合并操作是否应接收一次用户响应
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAsk PromptOnceOnMailMerge 财产. 获取或设置每次邮件合并操作是否应接收一次用户响应 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,17 +16,18 @@ url: /zh/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
+[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 放置一个字段，用于放置对 ASK 字段的响应。
+    // 放置一个字段，将放置对我们的 ASK 字段的响应。
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -43,7 +46,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // 在邮件合并期间，ASK 字段将默认响应应用于各自的 REF 字段。
+    // ASK 字段在邮件合并期间将默认响应应用于其各自的 REF 字段。
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -52,14 +55,13 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // 我们可以使用自定义提示响应程序修改或覆盖 ASK 字段中的默认响应，
+    // 我们可以使用自定义提示响应器修改或覆盖 ASK 字段中的默认响应，
     // 这将在邮件合并期间发生。
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
-}
 
 /// <summary>
 /// 在邮件合并期间将文本添加到 ASK 字段的默认响应中。
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### 也可以看看
 
 * class [FieldAsk](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldask/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

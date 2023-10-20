@@ -1,14 +1,16 @@
 ---
-title: CustomXmlProperty.CustomXmlProperty
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlProperty 构造函数. 初始化此类的新实例
+title: CustomXmlProperty
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlProperty 构造函数. 初始化这个类的一个新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/customxmlproperty/customxmlproperty/
 ---
 ## CustomXmlProperty constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public CustomXmlProperty(string name, string uri, string value)
@@ -16,11 +18,11 @@ public CustomXmlProperty(string name, string uri, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 属性的名称。不可能是`无效的`。 |
-| uri | String | 属性的命名空间 URI。不可能是`无效的`。 |
-| value | String | 财产的价值。不可能是`无效的`。 |
+| name | String | 属性的名称。不能为空。 |
+| uri | String | 属性的命名空间 URI。不能为空。 |
+| value | String | 财产的价值。不能为空。 |
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -29,30 +31,30 @@ public void Create()
 {
     Document doc = new Document();
 
-    // 智能标签出现在 Microsoft Word 文档中，将其文本的一部分识别为某种形式的数据，
-    // 例如名称、日期或地址，并将其转换为显示紫色点状下划线的超链接。
+    // 智能标记出现在文档中，Microsoft Word 将其文本的一部分识别为某种形式的数据，
+    // 例如姓名、日期或地址，并将其转换为显示紫色虚线下划线的超链接。
     SmartTag smartTag = new SmartTag(doc);
 
-    // 智能标签是复合节点，包含完整的已识别文本。
-    // 手动将内容添加到此智能标签。
+    // 智能标签是包含其识别文本的完整的复合节点。
+    // 手动添加内容到这个智能标签。
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
     // Microsoft Word 可能会将上述内容识别为日期。
-    // 智能标签使用“Element”属性来反映它们包含的数据类型。
+    // 智能标签使用“元素”属性来反映它们包含的数据类型。
     smartTag.Element = "date";
 
-    // 某些智能标记类型将其内容进一步处理为自定义 XML 属性。
+    // 一些智能标记类型将其内容进一步处理为自定义 XML 属性。
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // 将智能标记的 URI 设置为默认值。
+    // 将智能标签的 URI 设置为默认值。
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // 为股票行情创建另一个智能标签。
+    // 为股票代码创建另一个智能标签。
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -62,10 +64,10 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // 使用文档访问者打印文档中的所有智能标签。
+    // 使用文档访问者打印我们文档中的所有智能标签。
     doc.Accept(new SmartTagPrinter());
 
-    // 旧版本的 Microsoft Word 支持智能标签。
+    // 旧版本的 Microsoft Word 支持智能标记。
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // 使用“RemoveSmartTags”方法从文档中删除所有智能标签。
@@ -91,7 +93,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当SmartTag节点的访问结束时调用。
+    /// SmartTag节点访问结束时调用。
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [CustomXmlProperty](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlproperty/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

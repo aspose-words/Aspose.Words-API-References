@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegend
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartLegend 班级. 表示图表图例属性
+title: ChartLegend Class
+linktitle: ChartLegend
+articleTitle: ChartLegend
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartLegend 班级. 表示图表图例属性 在 C#.
 type: docs
 weight: 720
 url: /zh/net/aspose.words.drawing.charts/chartlegend/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words.drawing.charts/chartlegend/
 ## ChartLegend class
 
 表示图表图例属性。
-
-要了解更多信息，请访问[使用图表](https://docs.aspose.com/words/net/working-with-charts/)文档文章。
 
 ```csharp
 public class ChartLegend
@@ -20,13 +20,13 @@ public class ChartLegend
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | 返回父图表的所有系列和趋势线的图例条目的集合。 |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | 确定是否允许其他图表元素与图例重叠。 默认值为`错误的`. |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | 返回父图表的所有系列和趋势线的图例条目集合。 |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | 确定是否应允许其他图表元素与图例重叠。 默认值为 false。 |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | 指定图例在图表上的位置。 默认值为Right. |
 
-### 例子
+## 例子
 
-演示如何编辑图表图例的外观。
+显示如何编辑图表图例的外观。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// 通过允许其他图表元素（例如图表）与图例重叠，为它们提供更多空间。
+// 通过允许它们与图例重叠，为其他图表元素（例如图形）提供更多空间。
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
@@ -54,5 +54,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

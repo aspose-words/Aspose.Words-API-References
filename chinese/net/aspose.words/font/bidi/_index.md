@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 指定此运行的内容是否应具有从右到左的特征
+linktitle: Bidi
+articleTitle: Bidi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Bidi 财产. 指定此运行的内容是否应具有从右到左的特征 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/font/bidi/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words/font/bidi/
 public bool Bidi { get; set; }
 ```
 
-### 评论
+## 评论
 
-启用此属性后，不得将其与强从左到右的文本一起使用。该条件下的任何行为均未指定。 此属性关闭后，不得与强从右到左文本一起使用。该条件下的任何行为均未指定。
+此属性在打开时不应与从左到右的文本一起使用。未指定该条件下的任何行为。 此属性在关闭时不得用于从右到左的强文本。在这种情况下的任何行为都是未指定的。
 
-当显示此运行的内容时，出于格式化 目的，所有字符都应被视为复杂脚本字符。这意味着[`BoldBi`](../boldbi/),[`ItalicBi`](../italicbi/),[`SizeBi`](../sizebi/)渲染此运行时将使用相应的字体名称 。
+当显示本次运行的内容时，所有字符都应被视为复杂的脚本字符，用于formatting 。这意味着[`BoldBi`](../boldbi/),[`ItalicBi`](../italicbi/),[`SizeBi`](../sizebi/)渲染此运行时将使用相应的字体名称 。
 
-此外，当显示此运行的内容时，此属性充当字符 的从右到左覆盖，字符 被分类为“弱类型”和“中性类型”。
+此外，当显示此运行的内容时，此属性充当从右到左覆盖 characters 的功能，这些字符被归类为“弱类型”和“中性类型”。
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -30,7 +32,7 @@ public bool Bidi { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 定义一组从左到右文本的字体设置。
+// 为从左到右的文本定义一组字体设置。
 builder.Font.Name = "Courier New";
 builder.Font.Size = 16;
 builder.Font.Italic = false;
@@ -44,14 +46,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// 我们可以使用 Bidi 标志来指示我们是否要添加文本
-// 文档生成器是从右到左。当我们添加文本并将此标志设置为 true 时，
+// 我们可以使用 Bidi 标志来指示我们是否要添加的文本
+// 文档构建器是从右到左的。当我们将此标志设置为 true 添加文本时，
 // 它将使用从右到左的字体设置集进行格式化。
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
 // 将标志设置为 false，然后添加从左到右的文本。
-// 文档生成器将使用从左到右的字体设置集来格式化它们。
+// 文档生成器将使用从左到右的字体设置设置这些格式。
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

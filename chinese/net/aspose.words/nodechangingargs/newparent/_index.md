@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.NewParent
-second_title: Aspose.Words for .NET API 参考
-description: NodeChangingArgs 财产. 获取操作完成后将设置的节点的父节点
+linktitle: NewParent
+articleTitle: NewParent
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeChangingArgs NewParent 财产. 获取操作完成后将设置的节点的父节点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodechangingargs/newparent/
@@ -14,12 +16,11 @@ url: /zh/net/aspose.words/nodechangingargs/newparent/
 public Node NewParent { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
+展示如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
 
 ```csharp
-public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -90,7 +91,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* 命名空间 [Aspose.Words](../../nodechangingargs/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Enum TextWrapping
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.TextWrapping 枚举. 指定文本如何环绕表格
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.TextWrapping 枚举. 指定文本在表格周围的环绕方式 在 C#.
 type: docs
 weight: 6380
 url: /zh/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
 
-指定文本如何环绕表格。
+指定文本在表格周围的环绕方式。
 
 ```csharp
 public enum TextWrapping
@@ -18,11 +20,11 @@ public enum TextWrapping
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 文本和表格按照其在文档中出现的顺序显示。 |
-| Around | `1` | 文本环绕表格，占据可用的侧面空间。 |
+| None | `0` | 文本和表格按它们在文档中出现的顺序显示。 |
+| Around | `1` | 文本环绕在表格周围，占用可用的侧面空间。 |
 | Default | `0` | 默认值。 |
 
-### 例子
+## 例子
 
 展示如何使用表格文本换行。
 
@@ -41,7 +43,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// 将“TextWrapping”属性设置为“TextWrapping.Around”以使表格将文本环绕在其周围，
+// 将 "TextWrapping" 属性设置为 "TextWrapping.Around" 以使表格环绕它的文本，
 // 并通过设置位置将其推入下面的段落。
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

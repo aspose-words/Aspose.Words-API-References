@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 获取指定对象类型的第一个祖先
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: 用于 .NET 的 Aspose.Words
+description: Node GetAncestor 方法. 获取指定对象类型的第一个祖先 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 获取指定对象类型的第一个祖先。
 
@@ -20,30 +22,31 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 ### 返回值
 
-指定类型的祖先或`无效的`如果没有找到这种类型的祖先。
+指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
 
-### 评论
+## 评论
 
-如果等于，则祖先类型匹配*ancestorType*或源自*ancestorType*。
+如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
 
-### 例子
+## 例子
 
-演示如何查明表是否嵌套。
+显示如何确定表是否嵌套。
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // 查明表中的任何单元格是否有其他表作为子项。
+        // 找出表格中的任何单元格是否有其他表格作为子表格。
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // 查明该表是否嵌套在另一个表内，如果是，嵌套深度是多少。
+        // 找出表是否嵌套在另一个表中，如果是，嵌套在什么深度。
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -75,12 +78,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// 确定表的单元格中是否包含任何直接子表。
-/// 不要递归遍历这些表来检查其他表。
+/// 确定一个表是否在其单元格中包含任何直接子表。
+/// 不要递归遍历这些表来检查更多的表。
 /// </summary>
 /// <returns>
-/// 如果至少一个子单元格包含表格，则返回 true。
-/// 如果表中没有单元格包含表，则返回 false。
+/// 如果至少有一个子单元格包含表格，则返回 true。
+/// 如果表格中没有单元格包含表格，则返回 false。
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
@@ -105,12 +108,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 获取指定的第一个祖先[`NodeType`](../../nodetype/).
 
@@ -120,30 +123,31 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestorType | NodeType | 要检索的祖先的节点类型。 |
+| ancestorType | NodeType | 要检索的祖先节点类型。 |
 
 ### 返回值
 
-指定类型的祖先或`无效的`如果没有找到这种类型的祖先。
+指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
 
-### 例子
+## 例子
 
-演示如何查明表是否嵌套。
+显示如何确定表是否嵌套。
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // 查明表中的任何单元格是否有其他表作为子项。
+        // 找出表格中的任何单元格是否有其他表格作为子表格。
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // 查明该表是否嵌套在另一个表内，如果是，嵌套深度是多少。
+        // 找出表是否嵌套在另一个表中，如果是，嵌套在什么深度。
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -175,12 +179,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// 确定表的单元格中是否包含任何直接子表。
-/// 不要递归遍历这些表来检查其他表。
+/// 确定一个表是否在其单元格中包含任何直接子表。
+/// 不要递归遍历这些表来检查更多的表。
 /// </summary>
 /// <returns>
-/// 如果至少一个子单元格包含表格，则返回 true。
-/// 如果表中没有单元格包含表，则返回 false。
+/// 如果至少有一个子单元格包含表格，则返回 true。
+/// 如果表格中没有单元格包含表格，则返回 false。
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
@@ -206,7 +210,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

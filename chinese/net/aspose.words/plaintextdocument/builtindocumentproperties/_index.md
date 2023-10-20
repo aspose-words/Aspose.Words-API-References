@@ -1,20 +1,22 @@
 ---
 title: PlainTextDocument.BuiltInDocumentProperties
-second_title: Aspose.Words for .NET API 参考
-description: PlainTextDocument 财产. 获取BuiltInDocumentProperties文档的.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: 用于 .NET 的 Aspose.Words
+description: PlainTextDocument BuiltInDocumentProperties 财产. 获取BuiltInDocumentProperties文件的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/plaintextdocument/builtindocumentproperties/
 ---
 ## PlainTextDocument.BuiltInDocumentProperties property
 
-获取`BuiltInDocumentProperties`文档的.
+获取`BuiltInDocumentProperties`文件的.
 
 ```csharp
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何以纯文本形式加载 Microsoft Word 文档的内容，然后访问原始文档的内置属性。
 
@@ -37,7 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* 命名空间 [Aspose.Words](../../plaintextdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

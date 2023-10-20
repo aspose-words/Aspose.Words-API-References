@@ -1,22 +1,24 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientData 财产. 指定执行邮件合并时是否将数据源中的记录导入到文档中 默认值为真的.
+linktitle: Active
+articleTitle: Active
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientData Active 财产. 指定在进行邮件合并时是否将来自数据源的记录导入到文档中 默认值为真的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-指定执行邮件合并时是否将数据源中的记录导入到文档中。 默认值为`真的`.
+指定在进行邮件合并时是否将来自数据源的记录导入到文档中。 默认值为`真的`.
 
 ```csharp
 public bool Active { get; set; }
 ```
 
-### 例子
+## 例子
 
-显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
+显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 我们还可以单独删除元素，或者一次性清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoRecipientData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

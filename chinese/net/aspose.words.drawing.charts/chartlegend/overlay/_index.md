@@ -1,22 +1,24 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words for .NET API 参考
-description: ChartLegend 财产. 确定是否允许其他图表元素与图例重叠 默认值为错误的.
+linktitle: Overlay
+articleTitle: Overlay
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartLegend Overlay 财产. 确定是否应允许其他图表元素与图例重叠 默认值为 false 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-确定是否允许其他图表元素与图例重叠。 默认值为`错误的`.
+确定是否应允许其他图表元素与图例重叠。 默认值为 false。
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何编辑图表图例的外观。
+显示如何编辑图表图例的外观。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +36,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// 通过允许其他图表元素（例如图表）与图例重叠，为它们提供更多空间。
+// 通过允许它们与图例重叠，为其他图表元素（例如图形）提供更多空间。
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### 也可以看看
 
 * class [ChartLegend](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

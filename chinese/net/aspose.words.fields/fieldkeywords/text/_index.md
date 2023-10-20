@@ -1,7 +1,9 @@
 ---
 title: FieldKeywords.Text
-second_title: Aspose.Words for .NET API 参考
-description: FieldKeywords 财产. 获取或设置关键字的文本
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldKeywords Text 财产. 获取或设置关键字的文本 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldkeywords/text/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldkeywords/text/
 public string Text { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入 KEYWORDS 字段。
 
@@ -32,7 +34,7 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// 设置字段的 Text 属性的值，
+// 为字段的 Text 属性设置一个值，
 // 然后更新字段也会用新值覆盖相应的内置属性。
 field.Text = "OverridingKeyword";
 field.Update();
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ### 也可以看看
 
 * class [FieldKeywords](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldkeywords/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

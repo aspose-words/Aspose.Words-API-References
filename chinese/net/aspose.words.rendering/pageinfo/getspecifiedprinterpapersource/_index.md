@@ -1,14 +1,16 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 方法. 获取PaperSource适合打印 由此表示的页面的对象PageInfo.
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo GetSpecifiedPrinterPaperSource 方法. 获取PaperSource适合打印的对象 这个代表的页面PageInfo 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-获取PaperSource适合打印 由此表示的页面的对象[`PageInfo`](../).
+获取PaperSource适合打印的对象 这个代表的页面[`PageInfo`](../).
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -22,21 +24,21 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 ### 返回值
 
-您可以在 .NET 打印框架中使用该对象来指定纸张来源。
+可在 .NET 打印框架中用于指定纸张来源的对象。
 
-### 评论
+## 评论
 
 此方法需要 .NET Framework 2.0 或更高版本。
 
-### 例子
+## 例子
 
-演示如何打印 Word 文档中每个页面的页面大小和方向信息。
+演示如何打印 Word 文档中每一页的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
-// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
+// 第一部分有 2 页。我们将为每个人分配一个不同的打印机纸盘，
+// 其编号将匹配一种纸张来源。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### 也可以看看
 
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

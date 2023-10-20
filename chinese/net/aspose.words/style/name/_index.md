@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取或设置样式的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Name 财产. 获取或设置样式的名称 在 C#.
 type: docs
-weight: 130
+weight: 120
 url: /zh/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words/style/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 不能为空字符串。
 
-如果集合中已经存在具有该名称的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
+如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
 
-### 例子
+## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +47,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-演示如何克隆文档的样式。
+显示如何克隆文档的样式。
 
 ```csharp
 Document doc = new Document();
@@ -54,11 +56,11 @@ Document doc = new Document();
 // 自动为样式生成一个新名称，例如“Heading 1_0”。
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// 使用样式的“Name”属性来更改样式的标识名称。
+// 使用样式的“名称”属性来更改样式的标识名称。
 newStyle.Name = "My Heading 1";
 
 // 我们的文档现在有两个外观相同但名称不同的样式。
-// 更改其中一种样式的设置不会影响另一种样式。
+// 更改其中一种样式的设置不会影响另一种。
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

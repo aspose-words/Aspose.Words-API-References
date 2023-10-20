@@ -1,14 +1,16 @@
 ---
 title: DocumentVisitor.VisitOfficeMathEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当 Office Math 对象的枚举结束时调用
+linktitle: VisitOfficeMathEnd
+articleTitle: VisitOfficeMathEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitOfficeMathEnd 方法. 在 Office Math 对象的枚举结束时调用 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words/documentvisitor/visitofficemathend/
 ---
 ## DocumentVisitor.VisitOfficeMathEnd method
 
-当 Office Math 对象的枚举结束时调用。
+在 Office Math 对象的枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
@@ -20,11 +22,11 @@ public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
-演示如何打印文档中每个 Office Math 节点的节点结构。
+显示如何打印文档中每个办公室数学节点的节点结构。
 
 ```csharp
 public void OfficeMathToText()
@@ -32,17 +34,17 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
-    // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以字符串形式创建所有遇到的 OfficeMath 节点及其子节点的映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的 OfficeMath 节点及其子节点的字符串形式创建一个映射。
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -83,7 +85,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 OfficeMath 节点的所有子节点后调用。
+    /// 在访问过 OfficeMath 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -95,9 +97,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

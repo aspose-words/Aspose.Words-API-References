@@ -1,14 +1,16 @@
 ---
 title: ReportingEngine.Options
-second_title: Aspose.Words for .NET API 参考
-description: ReportingEngine 财产. 获取或设置一组控制此行为的标志ReportingEngine生成报告时的实例 
+linktitle: Options
+articleTitle: Options
+second_title: 用于 .NET 的 Aspose.Words
+description: ReportingEngine Options 财产. 获取或设置一组控制此行为的标志ReportingEngine在构建报告时实例  在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.reporting/reportingengine/options/
 ---
 ## ReportingEngine.Options property
 
-获取或设置一组控制此行为的标志[`ReportingEngine`](../)生成报告时的实例 。
+获取或设置一组控制此行为的标志[`ReportingEngine`](../)在构建报告时实例 。
 
 ```csharp
 public ReportBuildOptions Options { get; set; }
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* 命名空间 [Aspose.Words.Reporting](../../reportingengine/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

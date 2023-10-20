@@ -1,22 +1,24 @@
 ---
 title: CustomXmlSchemaCollection.Clone
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlSchemaCollection 方法. 对此对象进行深度克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlSchemaCollection Clone 方法. 对该对象进行深度克隆 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/customxmlschemacollection/clone/
 ---
 ## CustomXmlSchemaCollection.Clone method
 
-对此对象进行深度克隆。
+对该对象进行深度克隆。
 
 ```csharp
 public CustomXmlSchemaCollection Clone()
 ```
 
-### 例子
+## 例子
 
-展示如何使用 XML 架构集合。
+展示如何使用 XML 模式集合。
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +27,7 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// 添加 XML 模式关联。
+// 添加一个 XML 模式关联。
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // 克隆自定义 XML 部分的 XML 模式关联集合，
@@ -44,14 +46,14 @@ using (IEnumerator<string> enumerator = schemas.GetEnumerator())
         Console.WriteLine(enumerator.Current);
 }
 
-// 以下是从集合中删除模式的三种方法。
+// 下面是从集合中删除模式的三种方法。
 // 1 - 按索引删除模式：
 schemas.RemoveAt(2);
 
 // 2 - 按值删除模式：
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - 使用“Clear”方法立即清空集合。
+// 3 - 使用“Clear”方法一次清空集合。
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### 也可以看看
 
 * class [CustomXmlSchemaCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlschemacollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

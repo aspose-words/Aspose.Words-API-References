@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 获取单元格边框的集合
+linktitle: Borders
+articleTitle: Borders
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat Borders 财产. 获取单元格边框的集合 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/cellformat/borders/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.tables/cellformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何将两个表中的行合并为一个表。
+显示如何将两个表中的行合并为一个。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

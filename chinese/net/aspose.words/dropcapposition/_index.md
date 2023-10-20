@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DropCapPosition 枚举. 指定首字下沉文本的位置
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DropCapPosition 枚举. 指定首字下沉文本的位置 在 C#.
 type: docs
 weight: 1410
 url: /zh/net/aspose.words/dropcapposition/
@@ -22,15 +24,15 @@ public enum DropCapPosition
 | Normal | `1` | 首字下沉位于锚段落的文本边距内。 |
 | Margin | `2` | 首字下沉位于锚段落的文本边距之外。 |
 
-### 例子
+## 例子
 
-展示如何创建首字下沉。
+显示如何创建首字下沉。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个带有大字母的段落，该字母是第二段和第三段中的文本的开头。
+// 插入一个带有大字母的段落，第二和第三段中的文本以该字母开头。
 builder.Font.Size = 54;
 builder.Writeln("L");
 
@@ -40,12 +42,12 @@ builder.Writeln("orem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Writeln("Ut enim ad minim veniam, quis nostrud exercitation " +
                 "ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// 目前，第二段和第三段将出现在第一段下方。
-// 我们可以通过其“ParagraphFormat”对象将第一段转换为其他段落的首字下沉。
+// 目前，第二和第三段将出现在第一段的下方。
+// 我们可以通过“ParagraphFormat”对象将第一段转换为其他段落的首字下沉。
 // 将“DropCapPosition”属性设置为“DropCapPosition.Margin”以放置首字下沉
-// 如果我们的文本是从左到右，则位于左侧页边距之外。
-// 将“DropCapPosition”属性设置为“DropCapPosition.Normal”以将首字下沉置于页边距内
-// 并将其余文本包裹在其周围。
+// 如果我们的文本是从左到右的，则在左侧页边距之外。
+// 将“DropCapPosition”属性设置为“DropCapPosition.Normal”以将首字下沉放置在页边距内
+// 并将其余的文本包裹在它周围。
 // “DropCapPosition.None”是所有段落的默认状态。
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 format.DropCapPosition = dropCapPosition;
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

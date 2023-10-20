@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 将文档变量添加到集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection Add 方法. 将文档变量添加到集合中 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/variablecollection/add/
@@ -16,10 +18,10 @@ public void Add(string name, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要添加的变量的名称（不区分大小写）。 |
-| value | String | 变量的值。该值不能是`无效的`，如果值为 null，将使用空字符串。 |
+| name | String | 要添加的变量的不区分大小写的名称。 |
+| value | String | 变量的值。 value 不能为 null，如果 value 为 null，将使用空字符串代替。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -42,10 +44,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// 为现有键分配值将更新它们。
+// 为现有键赋值将更新它们。
 variables.Add("Home address", "456 Queen St.");
 
-// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
+// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新的值。
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -56,12 +58,12 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// 变量集合自动按名称字母顺序对变量进行排序。
+// 变量集合自动按名称的字母顺序对变量进行排序。
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// 枚举变量集合。
+// 枚举变量的集合。
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
@@ -77,7 +79,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - 立即清除整个集合：
+// 3 - 一次清除整个集合：
 variables.Clear();
 
 Assert.That(variables, Is.Empty);
@@ -86,7 +88,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

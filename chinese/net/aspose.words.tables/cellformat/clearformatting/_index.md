@@ -1,9 +1,11 @@
 ---
 title: CellFormat.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 方法. 重置为默认单元格格式不改变单元格的宽度
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat ClearFormatting 方法. 重置为默认单元格格式不改变单元格的宽度 在 C#.
 type: docs
-weight: 160
+weight: 150
 url: /zh/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.tables/cellformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### 例子
+## 例子
 
-演示如何将两个表中的行合并为一个表。
+显示如何将两个表中的行合并为一个。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### 也可以看看
 
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

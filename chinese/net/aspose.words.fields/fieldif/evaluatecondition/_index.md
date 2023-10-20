@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Aspose.Words for .NET API 参考
-description: FieldIf 方法. 评估条件
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIf EvaluateCondition 方法. 评估条件 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -16,11 +18,11 @@ public FieldIfComparisonResult EvaluateCondition()
 
 ### 返回值
 
-A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/)表示条件评估结果的值。
+一个[`FieldIfComparisonResult`](../../fieldifcomparisonresult/)表示条件评估结果的值。
 
-### 例子
+## 例子
 
-演示如何插入 IF 字段。
+显示如何插入 IF 字段。
 
 ```csharp
 Document doc = new Document();
@@ -33,12 +35,12 @@ field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
 // IF 字段将显示来自其“TrueText”属性的字符串，
-// 或其“FalseText”属性，具体取决于我们构建的语句的真实性。
+// 或它的“FalseText”属性，取决于我们构造的语句的真实性。
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// 在这种情况下，“0 = 1”不正确，因此显示的结果将为“False”。
+// 在这种情况下，“0 = 1”是不正确的，所以显示的结果将是“False”。
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldif/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

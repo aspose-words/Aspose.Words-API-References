@@ -1,28 +1,31 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Aspose.Words for .NET API 参考
-description: WriteProtection 财产. 返回真的当设置写保护密码时
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: 用于 .NET 的 Aspose.Words
+description: WriteProtection IsWriteProtected 财产. 设置写保护密码时返回真 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-返回`真的`当设置写保护密码时。
+设置写保护密码时返回真。
 
 ```csharp
 public bool IsWriteProtected { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用密码保护文档。
+显示如何使用密码保护文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// 输入长度不超过15个字符的密码，然后验证文档的保护状态。
+
+// 输入最长 15 个字符的密码，然后验证文档的保护状态。
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
@@ -46,7 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### 也可以看看
 
 * class [WriteProtection](../)
-* 命名空间 [Aspose.Words.Settings](../../writeprotection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

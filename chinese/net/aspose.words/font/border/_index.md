@@ -1,22 +1,24 @@
 ---
 title: Font.Border
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回一个Border指定字体边框的对象
+linktitle: Border
+articleTitle: Border
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Border 财产. 返回一个为字体指定边框的 Border 对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-返回一个[`Border`](../../border/)指定字体边框的对象。
+返回一个为字体指定边框的 Border 对象。
 
 ```csharp
 public Border Border { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何将边框包围的字符串插入到文档中。
+演示如何将由边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

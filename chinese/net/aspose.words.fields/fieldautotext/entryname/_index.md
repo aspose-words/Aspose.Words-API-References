@@ -1,7 +1,9 @@
 ---
 title: FieldAutoText.EntryName
-second_title: Aspose.Words for .NET API 参考
-description: FieldAutoText 财产. 获取或设置自动图文集条目的名称
+linktitle: EntryName
+articleTitle: EntryName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAutoText EntryName 财产. 获取或设置自动图文集条目的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldautotext/entryname/
@@ -14,14 +16,14 @@ url: /zh/net/aspose.words.fields/fieldautotext/entryname/
 public string EntryName { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何显示带有自动文本和词汇表字段的构建块。
+演示如何显示带有 AUTOTEXT 和 GLOSSARY 字段的构建块。
 
 ```csharp
 Document doc = new Document();
 
-// 创建词汇表文档并向其中添加自动图文集构建块。
+// 创建词汇表文档并向其添加自动图文集构建块。
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -44,14 +46,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是使用字段来显示构建块内容的两种方法。
+// 下面是两种使用字段来显示我们构建块的内容的方法。
 // 1 - 使用自动文本字段：
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - 使用 GLOSSARY 字段：
+// 2 - 使用词汇表字段：
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### 也可以看看
 
 * class [FieldAutoText](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldautotext/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

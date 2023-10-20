@@ -1,14 +1,16 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Aspose.Words for .NET API 参考
-description: FileFontSource 构造函数. 向量.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFontSource 构造函数. 克托尔 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
-向量.
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -18,9 +20,9 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | 字体文件的路径。 |
 
-### 例子
+## 例子
 
-演示如何使用本地文件系统中的字体文件作为字体源。
+展示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -37,14 +39,14 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### 也可以看看
 
 * class [FileFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../filefontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
-向量.
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -53,11 +55,11 @@ public FileFontSource(string filePath, int priority)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 字体文件的路径。 |
-| priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
+| priority | Int32 | 字体来源优先。见[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
 
-### 例子
+## 例子
 
-演示如何使用本地文件系统中的字体文件作为字体源。
+展示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -74,14 +76,14 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### 也可以看看
 
 * class [FileFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../filefontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
-向量.
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -90,14 +92,15 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 字体文件的路径。 |
-| priority | Int32 | 字体来源优先。请参阅[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
-| cacheKey | String | 缓存中该源的键。看[`CacheKey`](../cachekey/)属性描述以获取更多信息。 |
+| priority | Int32 | 字体来源优先。见[`Priority`](../../fontsourcebase/priority/)属性描述以获取更多信息。 |
+| cacheKey | String | 此源在缓存中的键。看[`CacheKey`](../cachekey/)属性描述以获取更多信息。 |
 
-### 例子
+## 例子
 
-展示如何加快字体缓存初始化过程。
+显示如何加快字体缓存初始化过程。
 
 ```csharp
+[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -125,8 +128,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// 仅在需要时加载字体数据而不是将其存储在内存中
-/// 在“FontSettings”对象的整个生命周期内。
+/// 仅在需要时才加载字体数据，而不是将其存储在内存中
+/// 对于“FontSettings”对象的整个生命周期。
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {
@@ -144,7 +147,5 @@ private class SearchCacheStream : StreamFontSource
 ### 也可以看看
 
 * class [FileFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../filefontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

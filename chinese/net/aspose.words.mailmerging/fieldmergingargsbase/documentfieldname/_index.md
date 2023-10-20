@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgsBase 财产. 获取文档中指定的合并字段的名称
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgsBase DocumentFieldName 财产. 获取文档中指定的合并字段的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,18 +16,17 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
 public string DocumentFieldName { get; }
 ```
 
-### 评论
+## 评论
 
-如果您有从文档字段名称到不同数据源字段名称 的映射，则这是文档中指定的原始字段名称。
+如果您有从文档字段名称到不同数据源字段名称的映射， ，那么这是文档中指定的原始字段名称。
 
-如果您指定了字段名称前缀，例如文档中的“Image:MyFieldName”， 那么`DocumentFieldName`返回不带前缀的字段名称，即“MyFieldName”。
+如果您指定了字段名称前缀，例如文档中的“Image:MyFieldName”， 那么**文档字段名**返回不带前缀的字段名称，即“MyFieldName”。
 
-### 例子
+## 例子
 
-演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
+演示如何使用处理 HTML 文档形式的合并数据的自定义回调执行邮件合并。
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -67,13 +68,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // 将解析后的 HTML 数据添加到文档正文中。
+            // 将解析的 HTML 数据添加到文档的正文中。
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // 由于我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应此事件。
+            // 因为我们已经手动插入了合并的内容，
+             // 我们不需要通过“Text”属性返回内容来响应这个事件。
             args.Text = string.Empty;
         }
     }
@@ -88,7 +89,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### 也可以看看
 
 * class [FieldMergingArgsBase](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

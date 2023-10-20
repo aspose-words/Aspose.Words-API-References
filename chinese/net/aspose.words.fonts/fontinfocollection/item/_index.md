@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: FontInfoCollection 财产. 获取具有指定名称的字体
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfoCollection Item 财产. 获取具有指定名称的字体 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontinfocollection/item/
@@ -16,9 +18,9 @@ public FontInfo this[string name] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| name | 要查找的字体名称，不区分大小写。 |
+| name | 要查找的字体的不区分大小写的名称。 |
 
-### 例子
+## 例子
 
 演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
@@ -29,14 +31,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// 嵌入的字体格式可能与其他格式（例如.doc）不同。
+// 嵌入的字体格式可能与.doc等其他格式不同。
 // 在提取字体之前，我们需要知道正确的格式。
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// 此外，我们还可以将来自 .doc 文档的嵌入式 OpenType 格式转换为 OpenType。
+// 此外，我们可以将来自 .doc 文档的嵌入式 OpenType 格式转换为 OpenType。
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfocollection/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | 字体的从零开始的索引。 |
 
-### 例子
+## 例子
 
 演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
@@ -74,14 +76,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// 嵌入的字体格式可能与其他格式（例如.doc）不同。
+// 嵌入的字体格式可能与.doc等其他格式不同。
 // 在提取字体之前，我们需要知道正确的格式。
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// 此外，我们还可以将来自 .doc 文档的嵌入式 OpenType 格式转换为 OpenType。
+// 此外，我们可以将来自 .doc 文档的嵌入式 OpenType 格式转换为 OpenType。
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfocollection/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

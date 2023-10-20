@@ -1,26 +1,28 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words for .NET API 参考
-description: CustomPart 财产. 如果此自定义部分存储在 OOXML 包内则为 False如果此自定义部件是外部目标则为 True
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPart IsExternal 财产. 错误的如果此自定义部件存储在 OOXML 包中真的如果此自定义部件是外部目标 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-如果此自定义部分存储在 OOXML 包内，则为 False。如果此自定义部件是外部目标，则为 True。
+`错误的`如果此自定义部件存储在 OOXML 包中。`真的`如果此自定义部件是外部目标。
 
 ```csharp
 public bool IsExternal { get; set; }
 ```
 
-### 评论
+## 评论
 
-默认值为`错误的`。
+默认值为`错误的`.
 
-### 例子
+## 例子
 
-演示如何访问文档的任意自定义部件集合。
+显示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -49,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// 我们可以从该集合中单独删除元素，也可以一次性删除所有元素。
+// 我们可以从这个集合中单独删除元素，也可以一次全部删除。
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPart](../)
-* 命名空间 [Aspose.Words.Markup](../../custompart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

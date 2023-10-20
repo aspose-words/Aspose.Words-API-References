@@ -1,20 +1,22 @@
 ---
 title: DocumentPropertyCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection GetEnumerator 方法. 返回一个可用于迭代集合中所有项目的枚举器对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.properties/documentpropertycollection/getenumerator/
 ---
 ## DocumentPropertyCollection.GetEnumerator method
 
-返回一个枚举器对象，可用于迭代集合中的所有项目。
+返回一个可用于迭代集合中所有项目的枚举器对象。
 
 ```csharp
 public IEnumerator<DocumentProperty> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -31,7 +33,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -49,7 +51,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -65,7 +67,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

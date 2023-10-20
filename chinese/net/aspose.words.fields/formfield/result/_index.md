@@ -1,34 +1,36 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置表示此表单字段结果的字符串
+linktitle: Result
+articleTitle: Result
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Result 财产. 获取或设置表示此表单域结果的字符串 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/formfield/result/
 ---
 ## FormField.Result property
 
-获取或设置表示此表单字段结果的字符串。
+获取或设置表示此表单域结果的字符串。
 
 ```csharp
 public string Result { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于文本表单字段，结果是字段中的文本。
 
-对于复选框表单字段，结果可以是“1”或“0”来指示选中或未选中。
+对于复选框表单字段，结果可以是“1”或“0”以表示选中或未选中。
 
 对于下拉表单字段，结果是在下拉列表中选择的字符串。
 
-环境`Result`对于文本表单字段不应用中指定的文本格式 [`TextInputFormat`](../textinputformat/) 。如果您想设置一个值并应用 格式，请使用[`SetTextInputValue`](../settextinputvalue/)方法。
+环境`Result`对于文本表单字段，不应用中指定的文本 format [`TextInputFormat`](../textinputformat/) .如果要设置值并应用 格式，请使用[`SetTextInputValue`](../settextinputvalue/)方法。
 
-对于文本表单字段[`TextInputDefault`](../textinputdefault/)值已应用 如果*value*是`无效的`。
+对于文本表单字段[`TextInputDefault`](../textinputdefault/)值已应用 if*value*是`无效的`.
 
-### 例子
+## 例子
 
-演示如何插入组合框。
+显示如何插入组合框。
 
 ```csharp
 Document doc = new Document();
@@ -43,14 +45,12 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// 表单字段将以“select”html 标签的形式出现。
+// 表单域将以“select”html标签的形式出现。
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

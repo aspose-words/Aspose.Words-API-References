@@ -1,25 +1,26 @@
 ---
 title: INodeChangingCallback.NodeInserting
-second_title: Aspose.Words for .NET API 参考
-description: INodeChangingCallback 方法. 在属于该文档的节点即将插入另一个节点之前调用
+linktitle: NodeInserting
+articleTitle: NodeInserting
+second_title: 用于 .NET 的 Aspose.Words
+description: INodeChangingCallback NodeInserting 方法. 在属于本文档的节点即将插入另一个节点之前调用 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/inodechangingcallback/nodeinserting/
 ---
 ## INodeChangingCallback.NodeInserting method
 
-在属于该文档的节点即将插入另一个节点之前调用。
+在属于本文档的节点即将插入另一个节点之前调用。
 
 ```csharp
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### 例子
+## 例子
 
-展示如何通过回调自定义节点更改。
+显示如何通过回调自定义节点更改。
 
 ```csharp
-public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,11 +38,10 @@ public void FontChangeViaCallback()
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
-}
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -92,7 +92,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* 命名空间 [Aspose.Words](../../inodechangingcallback/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

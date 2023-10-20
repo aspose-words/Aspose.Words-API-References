@@ -1,7 +1,9 @@
 ---
-title: Class UnsupportedFileFormatException
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.UnsupportedFileFormatException 班级. 在文档加载期间当 Aspose.Words 无法识别或不支持文档格式时抛出
+title: UnsupportedFileFormatException Class
+linktitle: UnsupportedFileFormatException
+articleTitle: UnsupportedFileFormatException
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.UnsupportedFileFormatException 班级. 在文档加载期间当 Aspose.Words 无法识别或不支持文档格式时抛出 在 C#.
 type: docs
 weight: 6520
 url: /zh/net/aspose.words/unsupportedfileformatexception/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words/unsupportedfileformatexception/
 ## UnsupportedFileFormatException class
 
 在文档加载期间，当 Aspose.Words 无法识别或不支持文档格式时抛出。
-
-要了解更多信息，请访问[使用文档编程](https://docs.aspose.com/words/net/programming-with-documents/)文档文章。
 
 ```csharp
 public class UnsupportedFileFormatException : Exception
@@ -20,5 +20,3 @@ public class UnsupportedFileFormatException : Exception
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

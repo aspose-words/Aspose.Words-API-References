@@ -1,7 +1,9 @@
 ---
 title: Body.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Body 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Body Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/body/accept/
@@ -20,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
-### 评论
+## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
+枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
-有关更多信息，请参阅访客设计模式。
+有关更多信息，请参阅访问者设计模式。
 
-通话[`VisitBodyStart`](../../documentvisitor/visitbodystart/)，然后调用[`Accept`](../../node/accept/)对于section 的所有子节点并调用[`VisitBodyEnd`](../../documentvisitor/visitbodyend/)最后.
+调用 DocumentVisitor.VisitBodyStart，然后为 section 的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitBodyEnd。
 
-### 例子
+## 例子
 
-演示如何使用文档访问者打印文档的节点结构。
+展示如何使用文档访问者打印文档的节点结构。
 
 ```csharp
 public void DocStructureToText()
@@ -40,17 +42,17 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
-    // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历节点的子节点树。
-/// 以字符串的形式创建该树的映射。
+/// 遍历一个节点的子节点树。
+/// 以字符串的形式创建这棵树的映射。
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -65,7 +67,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 遇到 Document 节点时调用。
+    /// 在遇到 Document 节点时调用。
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -79,7 +81,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 Document 节点的所有子节点后调用。
+    /// 在访问完 Document 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -90,7 +92,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到Section 节点时调用。
+    /// 在文档中遇到 Section 节点时调用。
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
@@ -105,7 +107,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了Section节点的所有子节点后调用。
+    /// 在访问了 Section 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -128,7 +130,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了 Body 节点的所有子节点后调用。
+    /// 在访问完 Body 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -150,7 +152,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 Paragraph 节点的所有子节点后调用。
+    /// 在访问完一个段落节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -171,7 +173,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 SubDocument 节点时调用。
+    /// 在文档中遇到子文档节点时调用。
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -181,9 +183,9 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Body](../)
-* 命名空间 [Aspose.Words](../../body/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,16 +1,16 @@
 ---
-title: Class RevisionCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionCollection 班级. 的集合Revision代表文档中修订的对象
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.RevisionCollection 班级. 集合Revision代表文档中修订的对象 在 C#.
 type: docs
 weight: 4770
 url: /zh/net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class
 
-的集合[`Revision`](../revision/)代表文档中修订的对象。
-
-要了解更多信息，请访问[跟踪文档中的更改](https://docs.aspose.com/words/net/track-changes-in-a-document/)文档文章。
+集合[`Revision`](../revision/)代表文档中修订的对象。
 
 ```csharp
 public class RevisionCollection : IEnumerable<Revision>
@@ -20,9 +20,9 @@ public class RevisionCollection : IEnumerable<Revision>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words/revisioncollection/count/) { get; } | 返回集合中的修订版本数。 |
-| [Groups](../../aspose.words/revisioncollection/groups/) { get; } | 修订组集合。 |
-| [Item](../../aspose.words/revisioncollection/item/) { get; } | 返回一个[`Revision`](../revision/)在指定的索引处。 |
+| [Count](../../aspose.words/revisioncollection/count/) { get; } | 返回集合中的修订数。 |
+| [Groups](../../aspose.words/revisioncollection/groups/) { get; } | 修订组的集合。 |
+| [Item](../../aspose.words/revisioncollection/item/) { get; } | 返回指定索引处的修订版。 |
 
 ## 方法
 
@@ -32,13 +32,13 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | 返回一个枚举器对象。 |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | 拒绝此集合中的所有修订。 |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。使用[`Revisions`](../document/revisions/)属性来获取文档中存在的修订。
 
-### 例子
+## 例子
 
-展示如何处理文档中的修订。
+显示如何使用文档中的修订。
 
 ```csharp
 Document doc = new Document();
@@ -57,13 +57,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// 该标志对应于“Review”-> 「追踪」-> Microsoft Word 中的“跟踪更改”选项。
-// “StartTrackRevisions”方法不影响其值，
-// 并且该文档正在以编程方式跟踪修订，尽管它的值为“false”。
+// 此标志对应于“评论”-> “跟踪”-> Microsoft Word 中的“跟踪更改”选项。
+// “StartTrackRevisions”方法不影响它的值，
+// 并且文档以编程方式跟踪修订，尽管它的值为“false”。
 // 如果我们使用 Microsoft Word 打开此文档，它将不会跟踪修订。
 Assert.IsFalse(doc.TrackRevisions);
 
-// 我们使用文档生成器添加了文本，因此第一个修订版是插入型修订版。
+// 我们使用文档构建器添加了文本，因此第一个修订版是插入类型的修订版。
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -71,16 +71,16 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// 删除运行以创建删除类型修订。
+// 删除运行以创建删除类型的修订。
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// 添加新修订将其放置在修订集合的开头。
+// 添加新的修订版将其放置在修订版集合的开头。
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// 在我们接受/拒绝修订之前插入显示在文档正文中的修订。
-// 拒绝修订将从正文中删除其节点。相反，组成删除修订的节点
-// 也停留在文档中，直到我们接受修订。
+// 即使在我们接受/拒绝修订之前，插入修订也会显示在文档正文中。
+// 拒绝修订将从正文中删除其节点。相反，构成删除修订的节点
+// 也会在文档中逗留，直到我们接受修订。
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
 // 接受删除修订将从段落文本中删除其父节点
@@ -121,5 +121,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,34 +1,36 @@
 ---
 title: FieldCitation.VolumeNumber
-second_title: Aspose.Words for .NET API 参考
-description: FieldCitation 财产. 获取或设置与引文关联的卷号
+linktitle: VolumeNumber
+articleTitle: VolumeNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCitation VolumeNumber 财产. 获取或设置与引用关联的卷号 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldcitation/volumenumber/
 ---
 ## FieldCitation.VolumeNumber property
 
-获取或设置与引文关联的卷号。
+获取或设置与引用关联的卷号。
 
 ```csharp
 public string VolumeNumber { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
-// 打开一个包含我们可以找到的书目来源的文档
-// Microsoft Word 通过参考文献 ->引文与参考书目->管理来源。
+// 打开一个包含我们可以在其中找到的书目来源的文档
+// Microsoft Word via References ->引文与参考书目 ->管理来源。
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// 创建仅包含参考书籍的页码和作者的引文。
+// 创建仅包含页码和参考书作者的引文。
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// 我们使用标签名称来引用源。
+// 我们使用它们的标签名称来引用源。
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -37,7 +39,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// 创建引用两个来源的更详细的引文。
+// 创建一个引用两个来源的更详细的引文。
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -57,9 +59,9 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 // 我们可以使用 BIBLIOGRAPHY 字段来显示文档中的所有来源。
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FormatLanguageId = "1124";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### 也可以看看
 
 * class [FieldCitation](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcitation/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

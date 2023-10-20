@@ -1,7 +1,9 @@
 ---
 title: Shape.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Shape 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.drawing/shape/accept/
@@ -20,22 +22,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
-### 评论
+## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
+枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
-有关更多信息，请参阅访客设计模式。
+有关更多信息，请参阅访问者设计模式。
 
-通话[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/) 对于形状的所有子节点并调用[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/)最后.
+来电[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/) 用于形状的所有子节点并调用[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/)最后.
 
-### 例子
+## 例子
 
-演示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
-public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -45,7 +46,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// 记录有关所访问形状的外观相关信息。
+/// 记录有关访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -57,7 +58,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
+    /// 将一行添加到 StringBuilder，每个缩进级别都带有一个前置制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -75,7 +76,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 Shape 节点的开头时调用。
+    /// 当此访问者访问 Shape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -123,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的开头时调用。
+    /// 当此访问者访问 GroupShape 节点的开头时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -134,7 +135,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的末尾时调用。
+    /// 当此访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {
@@ -154,7 +155,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

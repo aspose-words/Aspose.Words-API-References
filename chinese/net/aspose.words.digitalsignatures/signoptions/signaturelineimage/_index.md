@@ -1,26 +1,27 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 将在关联中显示的图像SignatureLine. 默认值为无效的
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions SignatureLineImage 财产. 将在关联中显示的图像SignatureLine. 默认值为无效的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-将在关联中显示的图像[`SignatureLine`](../../../aspose.words.drawing/signatureline/). 默认值为`无效的`。
+将在关联中显示的图像[`SignatureLine`](../../../aspose.words.drawing/signatureline/). 默认值为`无效的`
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何向文档添加签名行，然后使用数字证书对其进行签名。
+演示如何将签名行添加到文档，然后使用数字证书对其进行签名。
 
 ```csharp
-[Description("WORDSNET-16868")]
-        public static void Sign()
+public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -47,7 +48,7 @@ public byte[] SignatureLineImage { get; set; }
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // 配置并插入签名行，这是文档中的一个对象，将显示我们用来签名的签名。
+            // 配置并插入一个签名行，文档中的一个对象，它将显示我们用来签名的签名。
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -130,7 +131,5 @@ public byte[] SignatureLineImage { get; set; }
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

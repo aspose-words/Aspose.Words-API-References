@@ -1,22 +1,24 @@
 ---
 title: DocumentBuilder.Document
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 获取或设置Document该对象附加到的对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder Document 财产. 获取或设置Document此对象附加到的对象 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-获取或设置`Document`该对象附加到的对象。
+获取或设置`Document`此对象附加到的对象。
 
 ```csharp
 public Document Document { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何将页面设置设置应用和恢复到文档中的各个部分。
+显示如何将页面设置设置应用和恢复到文档中的部分。
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +29,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// 如果我们使用文档生成器开始一个新部分，
+// 如果我们使用文档构建器开始一个新部分，
 // 它将继承构建器的当前页面设置属性。
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为其默认值。
+// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为默认值。
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

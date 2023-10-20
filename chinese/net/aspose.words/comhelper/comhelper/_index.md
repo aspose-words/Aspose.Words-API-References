@@ -1,20 +1,22 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.Words for .NET API 参考
-description: ComHelper 构造函数. 初始化此类的新实例
+title: ComHelper
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: 用于 .NET 的 Aspose.Words
+description: ComHelper 构造函数. 初始化这个类的一个新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/comhelper/comhelper/
 ---
 ## ComHelper constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public ComHelper()
 ```
 
-### 例子
+## 例子
 
 演示如何使用 ComHelper 类打开文档。
 
@@ -27,7 +29,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 来自流：
+// 2 - 从流中：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -39,7 +41,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 ### 也可以看看
 
 * class [ComHelper](../)
-* 命名空间 [Aspose.Words](../../comhelper/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

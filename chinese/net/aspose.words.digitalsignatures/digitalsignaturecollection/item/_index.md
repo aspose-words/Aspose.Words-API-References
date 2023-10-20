@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureCollection 财产. 获取指定索引处的文档签名
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureCollection Item 财产. 获取指定索引处的文档签名 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,25 +20,25 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | 签名的从零开始的索引。 |
 
-### 例子
+## 例子
 
-演示如何使用 X.509 证书签署文档。
+显示如何使用 X.509 证书签署文档。
 
 ```csharp
 // 验证文档是否未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 有两种方法将文档的签名副本保存到本地文件系统：
-// 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
+// 将文档的签名副本保存到本地文件系统有两种方法：
+// 1 - 通过本地系统文件名指定一个文档，并将签名副本保存在另一个文件名指定的位置。
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流中。
+// 2 - 从流中获取文档并将签名副本保存到另一个流。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

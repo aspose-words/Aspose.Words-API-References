@@ -1,7 +1,9 @@
 ---
 title: FieldChar.FieldType
-second_title: Aspose.Words for .NET API 参考
-description: FieldChar 财产. 返回字段的类型
+linktitle: FieldType
+articleTitle: FieldType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldChar FieldType 财产. 返回字段的类型 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldchar/fieldtype/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fields/fieldchar/fieldtype/
 public FieldType FieldType { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何使用 FieldStart 节点。
+显示如何使用 FieldStart 节点。
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +48,5 @@ field.Update();
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldChar](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldchar/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

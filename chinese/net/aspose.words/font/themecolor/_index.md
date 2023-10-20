@@ -1,22 +1,24 @@
 ---
 title: Font.ThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置与此关联的已应用配色方案中的主题颜色Font对象.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Font ThemeColor 财产. 获取或设置与此 Font 对象关联的应用配色方案中的主题颜色 在 C#.
 type: docs
 weight: 460
 url: /zh/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-获取或设置与此关联的已应用配色方案中的主题颜色[`Font`](../)对象.
+获取或设置与此 Font 对象关联的应用配色方案中的主题颜色。
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何创建和使用主题样式。
+展示如何创建和使用主题风格。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +41,7 @@ builder.Writeln("Text with themed style");
 ```csharp
 Document doc = new Document();
 
-// 定义默认使用的语言的字体。
+// 默认情况下定义语言使用的字体。
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -69,7 +71,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有多种方法可以重置它们的字体和颜色。
+// 有几种方法可以重置它们的字体和颜色。
 // 1 - 通过设置 ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

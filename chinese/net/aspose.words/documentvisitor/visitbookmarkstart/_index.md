@@ -1,14 +1,16 @@
 ---
 title: DocumentVisitor.VisitBookmarkStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在文档中遇到书签的开头时调用
+linktitle: VisitBookmarkStart
+articleTitle: VisitBookmarkStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitBookmarkStart 方法. 在文档中遇到书签开始时调用 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/documentvisitor/visitbookmarkstart/
 ---
 ## DocumentVisitor.VisitBookmarkStart method
 
-在文档中遇到书签的开头时调用。
+在文档中遇到书签开始时调用。
 
 ```csharp
 public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
@@ -20,11 +22,11 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
-展示如何添加书签并更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -32,18 +34,19 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
-    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -113,7 +116,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

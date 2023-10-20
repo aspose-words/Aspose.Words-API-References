@@ -1,32 +1,34 @@
 ---
 title: ChartTitle.Overlay
-second_title: Aspose.Words for .NET API 参考
-description: ChartTitle 财产. 确定是否允许其他图表元素重叠标题 默认情况下重叠是错误的.
+linktitle: Overlay
+articleTitle: Overlay
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartTitle Overlay 财产. 确定是否允许其他图表元素重叠 title. 默认情况下覆盖为 false 在 C#.
 type: docs
-weight: 20
+weight: 10
 url: /zh/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-确定是否允许其他图表元素重叠标题。 默认情况下重叠是`错误的`.
+确定是否允许其他图表元素重叠 title. 默认情况下覆盖为 false。
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档生成器插入图表形状并获取其图表。
+// 使用文档构建器插入图表形状并获取其图表。
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// 使用“Title”属性为图表指定标题，该标题显示在图表区域的顶部中心。
+// 使用“Title”属性给我们的图表一个标题，它出现在图表区域的顶部中心。
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### 也可以看看
 
 * class [ChartTitle](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../charttitle/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

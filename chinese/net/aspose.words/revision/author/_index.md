@@ -1,22 +1,24 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取或设置此修订版的作者不能为空字符串或无效的.
+linktitle: Author
+articleTitle: Author
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision Author 财产. 获取或设置此修订的作者不能为空字符串或 null 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/revision/author/
 ---
 ## Revision.Author property
 
-获取或设置此修订版的作者。不能为空字符串或`无效的`.
+获取或设置此修订的作者。不能为空字符串或 null.
 
 ```csharp
 public string Author { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何处理文档中的修订。
+显示如何使用文档中的修订。
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +37,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// 该标志对应于“Review”-> 「追踪」-> Microsoft Word 中的“跟踪更改”选项。
-// “StartTrackRevisions”方法不影响其值，
-// 并且该文档正在以编程方式跟踪修订，尽管它的值为“false”。
+// 此标志对应于“评论”-> “跟踪”-> Microsoft Word 中的“跟踪更改”选项。
+// “StartTrackRevisions”方法不影响它的值，
+// 并且文档以编程方式跟踪修订，尽管它的值为“false”。
 // 如果我们使用 Microsoft Word 打开此文档，它将不会跟踪修订。
 Assert.IsFalse(doc.TrackRevisions);
 
-// 我们使用文档生成器添加了文本，因此第一个修订版是插入型修订版。
+// 我们使用文档构建器添加了文本，因此第一个修订版是插入类型的修订版。
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -49,16 +51,16 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// 删除运行以创建删除类型修订。
+// 删除运行以创建删除类型的修订。
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// 添加新修订将其放置在修订集合的开头。
+// 添加新的修订版将其放置在修订版集合的开头。
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// 在我们接受/拒绝修订之前插入显示在文档正文中的修订。
-// 拒绝修订将从正文中删除其节点。相反，组成删除修订的节点
-// 也停留在文档中，直到我们接受修订。
+// 即使在我们接受/拒绝修订之前，插入修订也会显示在文档正文中。
+// 拒绝修订将从正文中删除其节点。相反，构成删除修订的节点
+// 也会在文档中逗留，直到我们接受修订。
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
 // 接受删除修订将从段落文本中删除其父节点
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### 也可以看看
 
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

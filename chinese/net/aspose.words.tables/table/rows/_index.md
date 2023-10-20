@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 提供对表行的类型化访问
+linktitle: Rows
+articleTitle: Rows
+second_title: 用于 .NET 的 Aspose.Words
+description: Table Rows 财产. 提供对表行的类型化访问 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.tables/table/rows/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.tables/table/rows/
 public RowCollection Rows { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何将两个表中的行合并为一个表。
+显示如何将两个表中的行合并为一个。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -38,7 +40,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-演示如何迭代文档中的所有表格并打印每个单元格的内容。
+展示如何遍历文档中的所有表格并打印每个单元格的内容。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -52,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // 我们可以对行集合使用“ToArray”方法将其克隆到数组中。
+    // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -62,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // 我们可以对单元集合使用“ToArray”方法将其克隆到数组中。
+        // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

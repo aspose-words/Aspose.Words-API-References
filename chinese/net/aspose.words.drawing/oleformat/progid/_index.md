@@ -1,7 +1,9 @@
 ---
 title: OleFormat.ProgId
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取或设置 OLE 对象的 ProgID
+linktitle: ProgId
+articleTitle: ProgId
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat ProgId 财产. 获取或设置 OLE 对象的 ProgID 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/oleformat/progid/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.drawing/oleformat/progid/
 public string ProgId { get; set; }
 ```
 
-### 评论
+## 评论
 
-ProgID 属性并不总是出现在 Microsoft Word 文档中，因此不能依赖该属性。
+ProgID 属性并不总是存在于 Microsoft Word 文档中，因此不能依赖。
 
-不可能是`无效的`。
+不能为空。
 
 默认值为空字符串。
 
-### 例子
+## 例子
 
 演示如何将嵌入的 OLE 对象提取到文件中。
 
@@ -35,29 +37,27 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// 我们的对象既不会自动更新，也不会被更新锁定。
+// 我们的对象既不是自动更新也不是锁定更新。
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
-// 如果我们计划将 OLE 对象保存到本地文件系统中的文件中，
-// 我们可以使用“SuggestedExtension”属性来确定要应用于该文件的文件扩展名。
+// 如果我们打算将 OLE 对象保存到本地文件系统中的文件中，
+// 我们可以使用“SuggestedExtension”属性来确定应用到文件的文件扩展名。
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// 下面是将 OLE 对象保存到本地文件系统中的文件的两种方法。
-// 1 - 通过流保存：
+// 下面是两种将 OLE 对象保存到本地文件系统中的文件的方法。
+// 1 - 通过流保存它：
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - 直接将其保存到文件名：
+// 2 - 直接保存到一个文件名：
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 删除指定索引处的值
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection RemoveAt 方法. 删除指定索引处的值 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/dropdownitemcollection/removeat/
@@ -18,17 +20,17 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 从零开始的索引。 |
 
-### 例子
+## 例子
 
-演示如何插入组合框字段以及编辑其项目集合中的元素。
+演示如何插入组合框字段，并编辑其项目集合中的元素。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个组合框，然后验证其下拉项集合。
+// 插入一个组合框，然后验证它的下拉项集合。
 // 在 Microsoft Word 中，用户将单击组合框，
-// 然后选择集合中要显示的文本项之一。
+// 然后选择要显示的集合中的文本项之一。
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -47,7 +49,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// 迭代集合并打印每个元素。
+// 遍历集合并打印每个元素。
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

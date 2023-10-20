@@ -1,22 +1,24 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示忽略删除修订内的文本 默认值为错误的.
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions IgnoreDeleted 财产. 获取或设置一个布尔值指示忽略删除修订中的文本 默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 ---
 ## FindReplaceOptions.IgnoreDeleted property
 
-获取或设置一个布尔值，指示忽略删除修订内的文本。 默认值为`错误的`.
+获取或设置一个布尔值，指示忽略删除修订中的文本。 默认值为`错误的`.
 
 ```csharp
 public bool IgnoreDeleted { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何在查找和替换操作期间包含或忽略删除修订内的文本。
+显示如何在查找和替换操作期间在删除修订中包含或忽略文本。
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// 开始跟踪修订并删除第二段，这将创建删除修订。
+// 开始跟踪修订并删除第二段，这将创建一个删除修订。
 // 该段落将保留在文档中，直到我们接受删除修订。
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 doc.FirstSection.Body.Paragraphs[1].Remove();
@@ -37,9 +39,9 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
 FindReplaceOptions options = new FindReplaceOptions();
 
 // 将“IgnoreDeleted”标志设置为“true”以获取查找和替换
-// 忽略删除修订段落的操作。
+// 忽略删除修订的段落的操作。
 // 将“IgnoreDeleted”标志设置为“false”以获取查找和替换
-// 还可以搜索删除修订内的文本的操作。
+// 在删除修订中搜索文本的操作。
 options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

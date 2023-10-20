@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Aspose.Words for .NET API 参考
-description: IDocumentSavingCallback 方法. 调用此函数以通知文档保存进度
+linktitle: Notify
+articleTitle: Notify
+second_title: 用于 .NET 的 Aspose.Words
+description: IDocumentSavingCallback Notify 方法. 调用此函数以通知文档保存进度 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -16,15 +18,15 @@ public void Notify(DocumentSavingArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | DocumentSavingArgs | 事件的一个论点。 |
+| args | DocumentSavingArgs | 事件的论据。 |
 
-### 评论
+## 评论
 
-该接口的主要用途是允许应用程序代码获取进度状态并中止保存过程。
+此接口的主要用途是允许应用程序代码获取进度状态并中止保存过程。
 
-应该从中止的进度回调中抛出异常，并且应该在消费者代码中捕获该异常。
+应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。
 
-### 例子
+## 例子
 
 展示如何在保存为 html 的同时管理文档。
 
@@ -50,7 +52,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -58,7 +60,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存过程中调用的回调方法。
+    /// 文档保存时调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -81,7 +83,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
 }
 ```
 
-演示如何在保存为 docx 时管理文档。
+展示如何在保存到 docx 的同时管理文档。
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -105,7 +107,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -113,7 +115,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存过程中调用的回调方法。
+    /// 文档保存时调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -160,7 +162,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -168,7 +170,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存过程中调用的回调方法。
+    /// 文档保存时调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* 命名空间 [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

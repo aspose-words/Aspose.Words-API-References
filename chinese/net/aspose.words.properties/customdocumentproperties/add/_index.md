@@ -1,14 +1,16 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Aspose.Words for .NET API 参考
-description: CustomDocumentProperties 方法. 创建一个新的自定义文档属性String数据类型.
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomDocumentProperties Add 方法. 创建一个新的自定义文档属性属性类型字符串数据类型 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
-创建一个新的自定义文档属性String数据类型.
+创建一个新的自定义文档属性**属性类型字符串**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 新创建的属性对象。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -40,7 +42,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -58,7 +60,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -74,7 +76,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -84,14 +86,14 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../customdocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
-创建一个新的自定义文档属性Number数据类型.
+创建一个新的自定义文档属性**PropertyType.Number**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 新创建的属性对象。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -123,7 +125,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -141,7 +143,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -157,7 +159,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -167,14 +169,14 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../customdocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
-创建一个新的自定义文档属性DateTime数据类型.
+创建一个新的自定义文档属性**属性类型.日期时间**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 新创建的属性对象。
 
-### 例子
+## 例子
 
 演示如何创建包含日期和时间的自定义文档属性。
 
@@ -216,7 +218,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -234,7 +236,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -250,7 +252,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -260,14 +262,14 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../customdocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
-创建一个新的自定义文档属性Boolean数据类型.
+创建一个新的自定义文档属性**PropertyType.Boolean**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 新创建的属性对象。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -299,7 +301,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -317,7 +319,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -333,7 +335,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -343,14 +345,14 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../customdocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
-创建一个新的自定义文档属性Double数据类型.
+创建一个新的自定义文档属性**PropertyType.Float**数据类型.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 新创建的属性对象。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -382,7 +384,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -400,7 +402,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -416,7 +418,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../customdocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

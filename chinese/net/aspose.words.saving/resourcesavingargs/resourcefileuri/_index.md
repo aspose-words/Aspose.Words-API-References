@@ -1,32 +1,34 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Aspose.Words for .NET API 参考
-description: ResourceSavingArgs 财产. 获取或设置用于从文档引用资源文件的统一资源标识符 URI
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceSavingArgs ResourceFileUri 财产. 获取或设置用于从文档中引用资源文件的统一资源标识符 URI 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 ---
 ## ResourceSavingArgs.ResourceFileUri property
 
-获取或设置用于从文档引用资源文件的统一资源标识符 (URI)。
+获取或设置用于从文档中引用资源文件的统一资源标识符 (URI)。
 
 ```csharp
 public string ResourceFileUri { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您更改导出到固定页面 HTML 或 SVG 文档的资源文件的 URI。
 
-在导出到固定页面 HTML 或 SVG 格式期间，Aspose.Words 会自动为每个资源文件生成 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能会 不正确。 此属性允许在这些情况下更正 URI。
+Aspose.Words 在导出到固定页面 HTML 或 SVG 格式期间自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能 不正确。 此属性允许在这些情况下更正 URI。
 
-当事件被触发时，该属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以为资源文件提供自定义 URI。
+触发事件时，此属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以提供资源文件的自定义 URI。
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### 例子
+## 例子
 
-演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
+演示如何使用回调来跟踪在将文档转换为 HTML 时创建的外部资源。
 
 ```csharp
 public void ResourceSavingCallback()
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### 也可以看看
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../resourcesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlockCollection 方法. 将集合中的所有构建块复制到新的构建块数组
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlockCollection ToArray 方法. 将集合中的所有构建块复制到新的构建块数组中 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
 ---
 ## BuildingBlockCollection.ToArray method
 
-将集合中的所有构建块复制到新的构建块数组。
+将集合中的所有构建块复制到新的构建块数组中。
 
 ```csharp
 public BuildingBlock[] ToArray()
@@ -16,11 +18,11 @@ public BuildingBlock[] ToArray()
 
 ### 返回值
 
-一系列构建块。
+一组构建块。
 
-### 例子
+## 例子
 
-显示访问术语表文档中的构建块的方法。
+显示访问词汇表文档中构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -38,7 +40,7 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 访问构建块的方式有多种。
+    // 有多种访问构建块的方法。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -55,14 +57,15 @@ public void GlossaryDocument()
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
+
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
@@ -123,7 +126,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

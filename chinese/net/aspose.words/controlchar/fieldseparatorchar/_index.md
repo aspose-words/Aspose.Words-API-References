@@ -1,41 +1,43 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 字段分隔符将字段代码与字段值分隔开某些字段可选值字符20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar FieldSeparatorChar 场地. 字段分隔符将字段代码与字段值分开在某些领域是可选的值char20 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/controlchar/fieldseparatorchar/
 ---
 ## ControlChar.FieldSeparatorChar field
 
-字段分隔符将字段代码与字段值分隔开。某些字段可选。值：（字符）20.
+字段分隔符将字段代码与字段值分开。在某些领域是可选的。值：(char)20.
 
 ```csharp
 public const char FieldSeparatorChar;
 ```
 
-### 例子
+## 例子
 
-演示如何向文档添加各种控制字符。
+演示如何将各种控制字符添加到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 添加常规空格。
+// 添加一个常规空格。
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
 // 添加一个 NBSP，这是一个不间断的空格。
-// 与常规空格不同，此空格不能在其位置有自动换行符。
+// 与常规空格不同，这个空格不能在其位置自动换行。
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// 添加制表符。
+// 添加一个制表符。
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// 添加换行符。
+// 添加一个换行符。
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// 添加新行并开始新段落。
+// 添加一个新行并开始一个新段落。
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -46,11 +48,11 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // 回车和换行可以用一个字符一起表示。
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// 添加段落分隔符，这将开始一个新段落。
+// 添加一个段落分隔符，它将开始一个新段落。
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// 添加分节符。这不会构成新的部分或段落。
+// 添加分节符。这不会创建新的部分或段落。
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
@@ -71,7 +73,7 @@ builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at be
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// 大多数字符都有对应的 char 和 string。
+// 大多数字符都有对应的字符和字符串。
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

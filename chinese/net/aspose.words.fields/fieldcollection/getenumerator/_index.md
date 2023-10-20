@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: FieldCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -14,12 +16,11 @@ url: /zh/net/aspose.words.fields/fieldcollection/getenumerator/
 public IEnumerator<Field> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用字段集合。
 
 ```csharp
-public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -58,7 +59,6 @@ public void FieldCollection()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
-}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。
@@ -118,7 +118,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

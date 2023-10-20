@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 财产. 获取或设置书签的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark Name 财产. 获取或设置书签的名称 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bookmark/name/
@@ -14,33 +16,33 @@ url: /zh/net/aspose.words/bookmark/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
-请注意，如果将书签的名称更改为文档中已存在的名称， 保存文档时不会给出错误，并且只会存储第一个书签。
+请注意，如果您将书签的名称更改为文档中已存在的名称， 不会出现错误，并且在您保存文档时只会存储第一个书签。
 
-### 例子
+## 例子
 
-展示如何插入书签。
+显示如何插入书签。
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);            
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 有效的书签具有名称、BookmarkStart 和 BookmarkEnd 节点。
-// 如果我们用 Microsoft Word 打开保存的文档，书签名称中的任何空格都将转换为下划线。
-// 如果我们通过 Insert -> 在 Microsoft Word 中突出显示书签的名称友情链接->添加书签，然后按“转到”，
-// 光标将跳转到 BookmarkStart 和 BookmarkEnd 节点之间包含的文本。
+// 一个有效的书签有一个名字、一个 BookmarkStart 和一个 BookmarkEnd 节点。
+// 如果我们用 Microsoft Word 打开保存的文档，书签名称中的任何空格都将转换为下划线。 
+// 如果我们通过插入在 Microsoft Word 中突出显示书签的名称 ->链接->加入书签，然后按“转到”，
+// 光标将跳转到 BookmarkStart 和 BookmarkEnd 节点之间的文本。
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
-// 书签存储在该集合中。
+// 书签存储在此集合中。
 Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```
 
-展示如何添加书签并更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -48,18 +50,19 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
-    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -127,7 +130,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,22 +1,24 @@
 ---
 title: Shape.HorizontalRuleFormat
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 提供对水平标尺形状属性的访问 对于不是水平标尺的形状返回无效的.
+linktitle: HorizontalRuleFormat
+articleTitle: HorizontalRuleFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape HorizontalRuleFormat 财产. 提供对水平规则形状属性的访问 对于不是水平规则的形状返回 null 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-提供对水平标尺形状属性的访问。 对于不是水平标尺的形状，返回`无效的`.
+提供对水平规则形状属性的访问。 对于不是水平规则的形状，返回 null。
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何插入水平标尺形状并自定义其格式。
+显示如何插入水平线形，并自定义其格式。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +40,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * class [HorizontalRuleFormat](../../horizontalruleformat/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

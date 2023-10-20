@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientDataCollection 方法. 将一个对象添加到此集合的末尾
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoRecipientDataCollection Add 方法. 将一个对象添加到此集合的末尾 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -16,11 +18,11 @@ public int Add(OdsoRecipientData value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | OdsoRecipientData | 要添加的对象。不可能是`无效的`。 |
+| value | OdsoRecipientData | 要添加的对象。不能为空。 |
 
-### 例子
+## 例子
 
-显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
+显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -45,7 +47,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 我们还可以单独删除元素，或者一次性清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

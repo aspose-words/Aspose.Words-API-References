@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ShapeType 枚举. 指定 Microsoft Word 文档中的形状类型
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ShapeType 枚举. 指定 Microsoft Word 文档中的形状类型 在 C#.
 type: docs
 weight: 1290
 url: /zh/net/aspose.words.drawing/shapetype/
@@ -19,11 +21,11 @@ public enum ShapeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Image | `75` | 形状是图像。 |
-| TextBox | `202` | 形状是一个文本框。请注意，许多其他类型的形状也可以在其中包含文本。 形状不必具有此类型才能包含文本。 |
-| Group | `-1` | 形状为群形。 |
-| OleObject | `-2` | 形状是 OLE 对象。 |
-| OleControl | `201` | 该形状是一个 ActiveX 控件。 |
-| NonPrimitive | `0` | 用户绘制的形状，由多个线段和/或顶点组成（曲线、自由形状或涂鸦）。 |
+| TextBox | `202` | 形状是一个文本框。请注意，许多其他类型的形状也可以在其中包含文本。 形状不必具有此类型即可包含文本。 |
+| Group | `-1` | 形状是组形状。 |
+| OleObject | `-2` | 形状是一个 OLE 对象。 |
+| OleControl | `201` | 形状是一个 ActiveX 控件。 |
+| NonPrimitive | `0` | 由用户绘制并由多个线段和/或顶点（曲线、自由形式或涂鸦）组成的形状。 |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +124,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | 此形状类型似乎是为不属于 Microsoft Word 中的 自动形状标准集的形状设置的。例如，如果您从 ClipArt. 插入新的自动形状 |
+| CustomShape | `100` | 此形状类型似乎是为不属于 Microsoft Word 中的 自动形状标准集的形状设置的。例如，如果您从 ClipArt. 插入一个新的自动形状 |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -158,46 +160,46 @@ public enum ShapeType
 | FlowChartMagneticDrum | `133` |  |
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
-| TextPlainText | `136` | 艺术字对象. |
-| TextStop | `137` | 艺术字对象. |
-| TextTriangle | `138` | 艺术字对象. |
-| TextTriangleInverted | `139` | 艺术字对象. |
-| TextChevron | `140` | 艺术字对象. |
-| TextChevronInverted | `141` | 艺术字对象. |
-| TextRingInside | `142` | 艺术字对象. |
-| TextRingOutside | `143` | 艺术字对象. |
-| TextArchUpCurve | `144` | 艺术字对象. |
-| TextArchDownCurve | `145` | 艺术字对象. |
-| TextCircleCurve | `146` | 艺术字对象. |
-| TextButtonCurve | `147` | 艺术字对象. |
-| TextArchUpPour | `148` | 艺术字对象. |
-| TextArchDownPour | `149` | 艺术字对象. |
-| TextCirclePour | `150` | 艺术字对象. |
-| TextButtonPour | `151` | 艺术字对象. |
-| TextCurveUp | `152` | 艺术字对象. |
-| TextCurveDown | `153` | 艺术字对象. |
-| TextCascadeUp | `154` | 艺术字对象. |
-| TextCascadeDown | `155` | 艺术字对象. |
-| TextWave1 | `156` | 艺术字对象. |
-| TextWave2 | `157` | 艺术字对象. |
-| TextWave3 | `158` | 艺术字对象. |
-| TextWave4 | `159` | 艺术字对象. |
-| TextInflate | `160` | 艺术字对象. |
-| TextDeflate | `161` | 艺术字对象. |
-| TextInflateBottom | `162` | 艺术字对象. |
-| TextDeflateBottom | `163` | 艺术字对象. |
-| TextInflateTop | `164` | 艺术字对象. |
-| TextDeflateTop | `165` | 艺术字对象. |
-| TextDeflateInflate | `166` | 艺术字对象. |
-| TextDeflateInflateDeflate | `167` | 艺术字对象. |
-| TextFadeRight | `168` | 艺术字对象. |
-| TextFadeLeft | `169` | 艺术字对象. |
-| TextFadeUp | `170` | 艺术字对象. |
-| TextFadeDown | `171` | 艺术字对象. |
-| TextSlantUp | `172` | 艺术字对象. |
-| TextSlantDown | `173` | 艺术字对象. |
-| TextCanUp | `174` | 艺术字对象. |
-| TextCanDown | `175` | 艺术字对象. |
+| TextPlainText | `136` | 艺术字对象。 |
+| TextStop | `137` | 艺术字对象。 |
+| TextTriangle | `138` | 艺术字对象。 |
+| TextTriangleInverted | `139` | 艺术字对象。 |
+| TextChevron | `140` | 艺术字对象。 |
+| TextChevronInverted | `141` | 艺术字对象。 |
+| TextRingInside | `142` | 艺术字对象。 |
+| TextRingOutside | `143` | 艺术字对象。 |
+| TextArchUpCurve | `144` | 艺术字对象。 |
+| TextArchDownCurve | `145` | 艺术字对象。 |
+| TextCircleCurve | `146` | 艺术字对象。 |
+| TextButtonCurve | `147` | 艺术字对象。 |
+| TextArchUpPour | `148` | 艺术字对象。 |
+| TextArchDownPour | `149` | 艺术字对象。 |
+| TextCirclePour | `150` | 艺术字对象。 |
+| TextButtonPour | `151` | 艺术字对象。 |
+| TextCurveUp | `152` | 艺术字对象。 |
+| TextCurveDown | `153` | 艺术字对象。 |
+| TextCascadeUp | `154` | 艺术字对象。 |
+| TextCascadeDown | `155` | 艺术字对象。 |
+| TextWave1 | `156` | 艺术字对象。 |
+| TextWave2 | `157` | 艺术字对象。 |
+| TextWave3 | `158` | 艺术字对象。 |
+| TextWave4 | `159` | 艺术字对象。 |
+| TextInflate | `160` | 艺术字对象。 |
+| TextDeflate | `161` | 艺术字对象。 |
+| TextInflateBottom | `162` | 艺术字对象。 |
+| TextDeflateBottom | `163` | 艺术字对象。 |
+| TextInflateTop | `164` | 艺术字对象。 |
+| TextDeflateTop | `165` | 艺术字对象。 |
+| TextDeflateInflate | `166` | 艺术字对象。 |
+| TextDeflateInflateDeflate | `167` | 艺术字对象。 |
+| TextFadeRight | `168` | 艺术字对象。 |
+| TextFadeLeft | `169` | 艺术字对象。 |
+| TextFadeUp | `170` | 艺术字对象。 |
+| TextFadeDown | `171` | 艺术字对象。 |
+| TextSlantUp | `172` | 艺术字对象。 |
+| TextSlantDown | `173` | 艺术字对象。 |
+| TextCanUp | `174` | 艺术字对象。 |
+| TextCanDown | `175` | 艺术字对象。 |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
 | Callout90 | `178` |  |
@@ -223,62 +225,62 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | 剪切单角矩形对象。 |
-| TopCornersSnipped | `204` | 剪切同侧角矩形。 |
-| DiagonalCornersSnipped | `205` | 剪切对角矩形。 |
-| TopCornersOneRoundedOneSnipped | `206` | 剪切并圆化单角矩形。 |
-| SingleCornerRounded | `207` | 圆角单角矩形。 |
-| TopCornersRounded | `208` | 圆同边角矩形。 |
-| DiagonalCornersRounded | `209` | 圆对角矩形。 |
+| SingleCornerSnipped | `203` | 剪切单个角矩形对象。 |
+| TopCornersSnipped | `204` | 剪下相同的边角矩形。 |
+| DiagonalCornersSnipped | `205` | 剪断对角矩形。 |
+| TopCornersOneRoundedOneSnipped | `206` | 剪切和圆角单角矩形。 |
+| SingleCornerRounded | `207` | 圆形单角矩形。 |
+| TopCornersRounded | `208` | 圆形同边角矩形。 |
+| DiagonalCornersRounded | `209` | 圆形对角矩形。 |
 | Heptagon | `210` | 七边形. |
 | Cloud | `211` | 云. |
-| Seal6 | `212` | 六角星. |
-| Seal7 | `213` | 七角星. |
-| Seal10 | `214` | 十角星. |
-| Seal12 | `215` | 十二角星. |
+| Seal6 | `212` | 六角星。 |
+| Seal7 | `213` | 七角星。 |
+| Seal10 | `214` | 十角星。 |
+| Seal12 | `215` | 十二角星。 |
 | SwooshArrow | `216` | 旋风箭头。 |
-| Teardrop | `217` | 泪滴. |
-| SquareTabs | `218` | 方形标签。 |
-| PlaqueTabs | `219` | 牌匾标签。 |
+| Teardrop | `217` | 泪珠. |
+| SquareTabs | `218` | 方形制表符。 |
+| PlaqueTabs | `219` | 斑块标签。 |
 | Pie | `220` | 馅饼. |
-| WedgePie | `221` | 楔形馅饼. |
-| InverseLine | `222` | 逆线. |
+| WedgePie | `221` | 楔形馅饼。 |
+| InverseLine | `222` | 反转线。 |
 | MathPlus | `223` | 数学加。 |
-| MathMinus | `224` | 数学减法。 |
+| MathMinus | `224` | 数学减号。 |
 | MathMultiply | `225` | 数学乘法。 |
-| MathDivide | `226` | 数学除法. |
+| MathDivide | `226` | 数学除法。 |
 | MathEqual | `227` | 数学相等。 |
-| MathNotEqual | `228` | 数学不等于。 |
+| MathNotEqual | `228` | 数学不等。 |
 | NonIsoscelesTrapezoid | `229` | 非等腰梯形. |
-| LeftRightCircularArrow | `230` | 左右圆形箭头. |
-| LeftRightRibbon | `231` | 左右丝带. |
-| LeftCircularArrow | `232` | 左圆形箭头. |
-| Frame | `233` | 框架. |
-| HalfFrame | `234` | 半帧. |
+| LeftRightCircularArrow | `230` | 左右圆形箭头。 |
+| LeftRightRibbon | `231` | 左右色带。 |
+| LeftCircularArrow | `232` | 左圆形箭头。 |
+| Frame | `233` | 帧. |
+| HalfFrame | `234` | 半帧。 |
 | Funnel | `235` | 漏斗. |
 | Gear6 | `236` | 六齿齿轮. |
 | Gear9 | `237` | 九齿齿轮. |
-| Decagon | `238` | 十角形. |
+| Decagon | `238` | 十边形. |
 | Dodecagon | `239` | 十二边形. |
-| DiagonalStripe | `240` | 对角条纹. |
-| Corner | `241` | 角. |
-| CornerTabs | `242` | 角标签. |
+| DiagonalStripe | `240` | 斜条纹. |
+| Corner | `241` | 角落. |
+| CornerTabs | `242` | 角落标签。 |
 | Chord | `243` | 和弦. |
-| ChartPlus | `244` | 图表加号. |
-| ChartStar | `245` | 图表明星. |
+| ChartPlus | `244` | 图表加号。 |
+| ChartStar | `245` | 图表星。 |
 | ChartX | `246` | 图表 X. |
-| MinValue | `-2` | 保留供系统使用。 |
+| MinValue | `-2` | 保留给系统使用。 |
 
-### 例子
+## 例子
 
 演示如何将带有图像的形状从本地文件系统插入到文档中。
 
 ```csharp
 Document doc = new Document();
 
-// “Shape”类的公共构造函数将创建一个具有“ShapeMarkupLanguage.Vml”标记类型的形状。
-// 如果需要创建非原始类型的形状，例如SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded，
+// “Shape”类的公共构造函数将创建一个带有“ShapeMarkupLanguage.Vml”标记类型的形状。
+// 如果需要创建非原始类型的形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
 // 请使用 DocumentBuilder.InsertShape。
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 获取或设置指示笔划是否可见的标志
+linktitle: Visible
+articleTitle: Visible
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke Visible 财产. 获取或设置指示笔划是否可见的标志 在 C#.
 type: docs
-weight: 210
+weight: 200
 url: /zh/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/visible/
 public bool Visible { get; set; }
 ```
 
-### 评论
+## 评论
 
-a 的默认值[`Shape`](../../shape/)是`真的`.
+的默认值[`Shape`](../../shape/)是**真的**.
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### 也可以看看
 
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

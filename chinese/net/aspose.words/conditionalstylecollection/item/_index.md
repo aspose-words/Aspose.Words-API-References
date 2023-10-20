@@ -1,22 +1,24 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyleCollection 财产. 检索ConditionalStyle按条件样式类型的对象.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyleCollection Item 财产. 检索一个ConditionalStyle按条件样式类型的对象 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/conditionalstylecollection/item/
 ---
 ## ConditionalStyleCollection indexer (1 of 2)
 
-检索[`ConditionalStyle`](../../conditionalstyle/)按条件样式类型的对象.
+检索一个[`ConditionalStyle`](../../conditionalstyle/)按条件样式类型的对象。
 
 ```csharp
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何使用表格的某些区域样式。
+显示如何使用表格的某些区域样式。
 
 ```csharp
 Document doc = new Document();
@@ -37,9 +39,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是只影响部分表格单元格的格式更改
+// 基于谓词，例如最后一行的单元格。
+// 下面是从“ConditionalStyles”集合中访问表格样式条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -75,7 +77,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// 我们需要通过“StyleOptions”属性自行启用所有其他样式。
+// 我们需要通过“StyleOptions”属性自己启用所有其他样式。
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
@@ -86,14 +88,14 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
 ## ConditionalStyleCollection indexer (2 of 2)
 
-检索[`ConditionalStyle`](../../conditionalstyle/)按索引的对象.
+检索一个[`ConditionalStyle`](../../conditionalstyle/)按索引的对象.
 
 ```csharp
 public ConditionalStyle this[int index] { get; }
@@ -103,9 +105,9 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | 要检索的条件样式的从零开始的索引。 |
 
-### 例子
+## 例子
 
-展示如何使用表格的某些区域样式。
+显示如何使用表格的某些区域样式。
 
 ```csharp
 Document doc = new Document();
@@ -126,9 +128,9 @@ builder.EndTable();
 // 创建自定义表格样式。
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// 条件样式是仅影响某些表格单元格的格式更改
-// 基于谓词，例如最后一行中的单元格。
-// 下面是从“ConditionalStyles”集合中访问表格样式的条件样式的三种方法。
+// 条件样式是只影响部分表格单元格的格式更改
+// 基于谓词，例如最后一行的单元格。
+// 下面是从“ConditionalStyles”集合中访问表格样式条件样式的三种方法。
 // 1 - 按样式类型：
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -164,7 +166,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// 我们需要通过“StyleOptions”属性自行启用所有其他样式。
+// 我们需要通过“StyleOptions”属性自己启用所有其他样式。
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

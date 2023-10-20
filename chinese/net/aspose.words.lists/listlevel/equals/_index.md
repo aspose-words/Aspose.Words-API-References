@@ -1,14 +1,16 @@
 ---
 title: ListLevel.Equals
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 方法. 与指定的 ListLevel 进行比较
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel Equals 方法. 与指定的 ListLevel 比较 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.lists/listlevel/equals/
 ---
 ## ListLevel.Equals method
 
-与指定的 ListLevel 进行比较。
+与指定的 ListLevel 比较。
 
 ```csharp
 public bool Equals(ListLevel level)
@@ -17,7 +19,5 @@ public bool Equals(ListLevel level)
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

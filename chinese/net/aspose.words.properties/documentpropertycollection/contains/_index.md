@@ -1,14 +1,16 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 返回真的如果集合中存在具有指定名称的属性
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection Contains 方法. 如果集合中存在具有指定名称的属性则返回 true 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-返回`真的`如果集合中存在具有指定名称的属性。
+如果集合中存在具有指定名称的属性，则返回 true。
 
 ```csharp
 public bool Contains(string name)
@@ -16,13 +18,13 @@ public bool Contains(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 属性的名称不区分大小写。 |
+| name | String | 不区分大小写的属性名称。 |
 
 ### 返回值
 
-`真的`如果该属性存在于集合中；`错误的`否则。
+如果该属性存在于集合中，则为真；否则为假。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -39,7 +41,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 该集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -57,7 +59,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -73,7 +75,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 立即清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

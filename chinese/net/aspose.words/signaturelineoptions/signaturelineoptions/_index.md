@@ -1,7 +1,9 @@
 ---
-title: SignatureLineOptions.SignatureLineOptions
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 构造函数. 默认构造函数
+title: SignatureLineOptions
+linktitle: SignatureLineOptions
+articleTitle: SignatureLineOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLineOptions 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/signaturelineoptions/signaturelineoptions/
@@ -17,7 +19,5 @@ public SignatureLineOptions()
 ### 也可以看看
 
 * class [SignatureLineOptions](../)
-* 命名空间 [Aspose.Words](../../signaturelineoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

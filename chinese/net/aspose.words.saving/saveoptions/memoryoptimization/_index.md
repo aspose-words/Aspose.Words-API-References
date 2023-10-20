@@ -1,37 +1,39 @@
 ---
 title: SaveOptions.MemoryOptimization
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置确定在保存文档之前是否应执行内存优化的值 此属性的默认值为错误的.
+linktitle: MemoryOptimization
+articleTitle: MemoryOptimization
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions MemoryOptimization 财产. 获取或设置值确定是否应在保存文档之前执行内存优化 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-获取或设置确定在保存文档之前是否应执行内存优化的值。 此属性的默认值为`错误的`.
+获取或设置值确定是否应在保存文档之前执行内存优化。 此属性的默认值为**错误的**.
 
 ```csharp
 public bool MemoryOptimization { get; set; }
 ```
 
-### 评论
+## 评论
 
-将此选项设置为`真的`可以显着减少内存消耗，同时保存大型文档，但代价是保存时间较慢。
+将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价保存大型文档。
 
-### 例子
+## 例子
 
-显示将大型文档渲染为 PDF 时优化内存消耗的选项。
+显示在将大型文档呈现为 PDF 时优化内存消耗的选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-// 修改该方法将文档转换为 .PDF 的方式。
+// 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改该方法如何将文档转换为 .PDF。
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// 将“MemoryOptimization”属性设置为“true”以降低大文档保存操作的内存占用
-// 以增加操作持续时间为代价。
-// 将“MemoryOptimization”属性设置为“false”以正常将文档保存为 PDF。
+// 将“MemoryOptimization”属性设置为“true”以降低大型文档保存操作的内存占用
+// 以增加操作的持续时间为代价。
+// 将“MemoryOptimization”属性设置为“false”以正常将文档保存为PDF。
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

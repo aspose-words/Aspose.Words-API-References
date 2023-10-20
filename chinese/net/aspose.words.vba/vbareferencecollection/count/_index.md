@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: VbaReferenceCollection 财产. 返回集合中 VBA 引用的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaReferenceCollection Count 财产. 返回集合中 VBA 引用的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbareferencecollection/count/
@@ -14,11 +16,12 @@ url: /zh/net/aspose.words.vba/vbareferencecollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何从 VBA 参考集合中获取/删除元素。
+显示如何从 VBA 引用集合中获取/删除元素。
 
 ```csharp
+[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -44,7 +47,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -88,7 +91,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### 也可以看看
 
 * class [VbaReferenceCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbareferencecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words for .NET API 参考
-description: IStructuredDocumentTag 财产. 获取或设置名称BuildingBlock包含占位符文本
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: 用于 .NET 的 Aspose.Words
+description: IStructuredDocumentTag PlaceholderName 财产. 获取或设置名称BuildingBlock包含占位符文本 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/istructureddocumenttag/placeholdername/
@@ -10,7 +12,7 @@ url: /zh/net/aspose.words.markup/istructureddocumenttag/placeholdername/
 
 获取或设置名称[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)包含占位符文本。
 
-具有此名称的 BuildingBlock[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须存在于[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
+具有此名称的 BuildingBlock[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须出现在[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -19,7 +21,5 @@ public string PlaceholderName { get; set; }
 ### 也可以看看
 
 * interface [IStructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../istructureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

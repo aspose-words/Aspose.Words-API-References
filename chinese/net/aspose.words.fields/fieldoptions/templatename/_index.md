@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置文档使用的模板的文件名
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions TemplateName 财产. 获取或设置文档使用的模板的文件名 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/fieldoptions/templatename/
 public string TemplateName { get; set; }
 ```
 
-### 评论
+## 评论
 
-该属性由[`FieldTemplate`](../../fieldtemplate/)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)财产是空的。
+该属性由[`FieldTemplate`](../../fieldtemplate/)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)属性为空。
 
 如果该属性为空，则默认模板文件名`正常.dotm`用来。
 
-### 例子
+## 例子
 
 演示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

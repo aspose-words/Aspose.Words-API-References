@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PointToInch
-second_title: Aspose.Words for .NET API 参考
-description: ConvertUtil 方法. 将点转换为英寸
+linktitle: PointToInch
+articleTitle: PointToInch
+second_title: 用于 .NET 的 Aspose.Words
+description: ConvertUtil PointToInch 方法. 将点转换为英寸 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/convertutil/pointtoinch/
@@ -18,20 +20,20 @@ public static double PointToInch(double points)
 | --- | --- | --- |
 | points | Double | 要转换的值。 |
 
-### 评论
+## 评论
 
 1 英寸等于 72 点。
 
-### 例子
+## 例子
 
-显示如何指定以英寸为单位的页面属性。
+显示如何以英寸为单位指定页面属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 部分的“页面设置”定义页边距的大小（以磅为单位）。
-// 我们还可以使用“ConvertUtil”类来使用更熟悉的测量单位，
+// 一个部分的“页面设置”定义了页边距的大小，以磅为单位。
+// 我们也可以使用“ConvertUtil”类来使用更熟悉的度量单位，
 // 例如定义边界时的英寸。
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -39,7 +41,7 @@ pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// 一英寸等于 72 点。
+// 一英寸是 72 磅。
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### 也可以看看
 
 * class [ConvertUtil](../)
-* 命名空间 [Aspose.Words](../../convertutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

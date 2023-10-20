@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 方法. 删除指定索引处的列表项
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection RemoveAt 方法. 删除指定索引处的列表项 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要删除的项目的从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -35,7 +37,7 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// 添加 3 个列表项。使用与第一项不同的构造函数来初始化这些项
+// 再添加 3 个列表项。使用与第一项不同的构造函数初始化这些项
 // 显示与其值不同的字符串。
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -61,12 +63,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// 由于我们的下拉控件默认设置为显示已删除的项目，因此给它一个要显示存在的项目。
+// 因为我们的下拉控件默认设置为显示被移除的项，所以给它一个要显示的项，它存在。
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// 使用“Clear”方法一次性清空整个下拉项集合。
+// 使用“清除”方法一次清空整个下拉项集合。
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### 也可以看看
 
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

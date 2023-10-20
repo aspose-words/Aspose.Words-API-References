@@ -1,24 +1,26 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 设置或返回指定列表级别重新编号之前必须出现的列表级别
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel RestartAfterLevel 财产. 设置或返回在指定列表级别重新开始编号之前必须出现的列表级别 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.lists/listlevel/restartafterlevel/
 ---
 ## ListLevel.RestartAfterLevel property
 
-设置或返回指定列表级别重新编号之前必须出现的列表级别。
+设置或返回在指定列表级别重新开始编号之前必须出现的列表级别。
 
 ```csharp
 public int RestartAfterLevel { get; set; }
 ```
 
-### 评论
+## 评论
 
-值-1表示将继续编号。
+-1 的值表示将继续编号。
 
-### 例子
+## 例子
 
 显示自定义列表标签的高级方法。
 
@@ -26,39 +28,39 @@ public int RestartAfterLevel { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
- // 我们可以通过增加缩进级别来创建嵌套列表。
- // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
+// 列表允许我们用前缀符号和缩进组织和装饰段落集。
+// 我们可以通过增加缩进级别来创建嵌套列表。 
+// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
 // 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
-// 1 级标签将根据“标题 1”段落样式进行格式化，并具有前缀。
+// 1 级标签将根据“标题 1”段落样式进行格式化，并带有前缀。
 // 这些看起来像“附录 A”、“附录 B”...
 list.ListLevels[0].NumberFormat = "Appendix \x0000";
 list.ListLevels[0].NumberStyle = NumberStyle.UppercaseLetter;
 list.ListLevels[0].LinkedStyle = doc.Styles["Heading 1"];
 
-// 2 级标签将显示第一和第二列表级别的当前编号，并有前导零。
-// 如果第一个列表级别为 1，则这些列表标签将类似于“Section (1.01)”、“Section (1.02)”...
+// 2 级标签将显示第一和第二列表级别的当前编号，并带有前导零。
+// 如果第一个列表级别为 1，那么这些列表标签将看起来像“Section (1.01)”、“Section (1.02)”...
 list.ListLevels[1].NumberFormat = "Section (\x0000.\x0001)";
 list.ListLevels[1].NumberStyle = NumberStyle.LeadingZero;
 
-// 请注意，更高级别使用大写字母编号。
-// 我们可以设置“IsLegal”属性以使用阿拉伯数字表示较高的列表级别。
+// 注意高层使用大写字母编号。
+// 我们可以将“IsLegal”属性设置为使用阿拉伯数字来表示更高的列表级别。
 list.ListLevels[1].IsLegal = true;
 list.ListLevels[1].RestartAfterLevel = 0;
 
-// 3 级标签将是带有前缀和后缀的大写罗马数字，并将在每个列表 1 级项目处重新启动。
+// 3 级标签将是带有前缀和后缀的大写罗马数字，并将在每个 List 1 级项目处重新开始。
 // 这些列表标签看起来像“-I-”、“-II-”...
 list.ListLevels[2].NumberFormat = "-\x0002-";
 list.ListLevels[2].NumberStyle = NumberStyle.UppercaseRoman;
 list.ListLevels[2].RestartAfterLevel = 1;
 
-// 将所有列表级别的标签设为粗体。
+// 使所有列表级别的标签加粗。
 foreach (ListLevel level in list.ListLevels)
     level.Font.Bold = true;
 
-// 将列表格式应用于当前段落。
+// 将列表格式应用到当前段落。
 builder.ListFormat.List = list;
 
 // 创建将显示所有三个列表级别的列表项。
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

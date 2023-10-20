@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Aspose.Words for .NET API 参考
-description: ComHelper 方法. 允许 COM 应用程序加载Document来自文件.
+linktitle: Open
+articleTitle: Open
+second_title: 用于 .NET 的 Aspose.Words
+description: ComHelper Open 方法. 允许 COM 应用程序加载Document来自文件 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 允许 COM 应用程序加载[`Document`](../../document/)来自文件.
 
@@ -20,13 +22,13 @@ public Document Open(string fileName)
 
 ### 返回值
 
-A[`Document`](../../document/)代表 Word 文档的对象。
+一个[`Document`](../../document/)表示 Word 文档的对象。
 
-### 评论
+## 评论
 
-该方法与调用相同[`Document`](../../document/)带有文件名参数的构造函数。
+该方法与调用[`Document`](../../document/)带有文件名参数的构造函数。
 
-### 例子
+## 例子
 
 ```csharp
 [VBScript]
@@ -49,7 +51,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 来自流：
+// 2 - 从流中：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* 命名空间 [Aspose.Words](../../comhelper/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 允许加载 COM 应用程序[`Document`](../../document/)来自流.
 
@@ -81,13 +83,13 @@ public Document Open(Stream stream)
 
 ### 返回值
 
-A[`Document`](../../document/)代表 Word 文档的对象。
+一个[`Document`](../../document/)表示 Word 文档的对象。
 
-### 评论
+## 评论
 
-该方法与调用相同[`Document`](../../document/)带有流参数的构造函数。
+该方法与调用[`Document`](../../document/)带有流参数的构造函数。
 
-### 例子
+## 例子
 
 演示如何使用 ComHelper 类打开文档。
 
@@ -100,7 +102,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 来自流：
+// 2 - 从流中：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* 命名空间 [Aspose.Words](../../comhelper/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

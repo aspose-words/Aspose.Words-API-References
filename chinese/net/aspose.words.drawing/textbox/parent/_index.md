@@ -1,14 +1,16 @@
 ---
 title: TextBox.Parent
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 获取父形状TextBox.
+linktitle: Parent
+articleTitle: Parent
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox Parent 财产. 获取 TextBox 的父形状 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-获取父形状[`TextBox`](../).
+获取 TextBox 的父形状。
 
 ```csharp
 public Shape Parent { get; }
@@ -18,7 +20,5 @@ public Shape Parent { get; }
 
 * class [Shape](../../shape/)
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

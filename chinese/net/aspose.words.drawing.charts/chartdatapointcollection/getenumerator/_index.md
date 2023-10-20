@@ -1,9 +1,11 @@
 ---
 title: ChartDataPointCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataPointCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataPointCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -14,11 +16,12 @@ url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 public IEnumerator<ChartDataPoint> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
-展示如何使用折线图上的数据点。
+显示如何使用折线图上的数据点。
 
 ```csharp
+[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -32,14 +35,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // 通过使图表的数据点显示为菱形来强调它们。
+    // 通过使它们显示为菱形来强调图表的数据点。
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // 平滑表示第一个数据系列的线。
     chart.Series[0].Smooth = true;
 
-    // 验证如果值为负数，第一个系列的数据点不会反转其颜色。
+    // 如果值为负数，则验证第一个系列的数据点不会反转它们的颜色。
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -48,17 +51,17 @@ public void ChartDataPoint()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独清除格式。
+    // 为了更清晰的图表，我们可以单独清除格式。
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // 我们还可以一次剥离整个系列的数据点。
+    // 我们也可以一次剥离整个系列的数据点。
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// 将多个数据点应用于一个系列。
+/// 将多个数据点应用于系列。
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {
@@ -77,7 +80,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

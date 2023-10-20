@@ -1,7 +1,9 @@
 ---
 title: BuildVersionInfo.Product
-second_title: Aspose.Words for .NET API 参考
-description: BuildVersionInfo 财产. 获取产品的全名
+linktitle: Product
+articleTitle: Product
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildVersionInfo Product 财产. 获取产品的全名 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/buildversioninfo/product/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/buildversioninfo/product/
 public static string Product { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何显示有关已安装的 Aspose.Words 版本的信息。
+显示如何显示有关已安装的 Aspose.Words 版本的信息。
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");
@@ -25,7 +27,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### 也可以看看
 
 * class [BuildVersionInfo](../)
-* 命名空间 [Aspose.Words](../../buildversioninfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

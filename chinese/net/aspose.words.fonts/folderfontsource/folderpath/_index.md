@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Aspose.Words for .NET API 参考
-description: FolderFontSource 财产. 文件夹路径
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: 用于 .NET 的 Aspose.Words
+description: FolderFontSource FolderPath 财产. 文件夹路径 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.fonts/folderfontsource/folderpath/
 public string FolderPath { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用包含字体的本地系统文件夹作为字体源。
+展示如何使用包含字体的本地系统文件夹作为字体源。
 
 ```csharp
 // 从包含字体文件的文件夹创建字体源。
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### 也可以看看
 
 * class [FolderFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../folderfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

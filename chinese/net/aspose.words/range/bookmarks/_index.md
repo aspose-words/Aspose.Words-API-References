@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words for .NET API 参考
-description: Range 财产. 返回一个Bookmarks代表范围内所有书签的集合
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: 用于 .NET 的 Aspose.Words
+description: Range Bookmarks 财产. 返回一个Bookmarks代表范围内所有书签的集合 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/range/bookmarks/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/range/bookmarks/
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### 例子
+## 例子
 
-展示如何添加书签并更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -24,18 +26,19 @@ public void CreateUpdateAndPrintBookmarks()
     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
-    // 可以通过索引或名称在书签集合中访问书签，并且可以更新其名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -104,7 +107,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

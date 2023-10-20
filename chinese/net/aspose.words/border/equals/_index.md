@@ -1,22 +1,24 @@
 ---
 title: Border.Equals
-second_title: Aspose.Words for .NET API 参考
-description: Border 方法. 确定指定边框的值是否等于当前边框
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: Border Equals 方法. 判断指定边框的值是否与当前边框相等 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
-确定指定边框的值是否等于当前边框。
+判断指定边框的值是否与当前边框相等
 
 ```csharp
 public bool Equals(Border rhs)
 ```
 
-### 例子
+## 例子
 
-展示边框集合如何共享元素。
+显示边框集合如何共享元素。
 
 ```csharp
 Document doc = new Document();
@@ -29,6 +31,7 @@ builder.Write("Paragraph 2.");
 // 这些段落，它们的边框集合共享相同的元素。
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
+
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -39,8 +42,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// 在第二段中更改边框的线条样式后，
-// 边界集合不再共享相同的元素。
+// 仅在第二段更改边框的线条样式后，
+// 边框集合不再共享相同的元素。
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -56,22 +59,22 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
-确定指定对象的值是否等于当前对象。
+确定指定对象的值是否与当前对象相等。
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-### 例子
+## 例子
 
-展示边框集合如何共享元素。
+显示边框集合如何共享元素。
 
 ```csharp
 Document doc = new Document();
@@ -84,6 +87,7 @@ builder.Write("Paragraph 2.");
 // 这些段落，它们的边框集合共享相同的元素。
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
+
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -94,8 +98,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// 在第二段中更改边框的线条样式后，
-// 边界集合不再共享相同的元素。
+// 仅在第二段更改边框的线条样式后，
+// 边框集合不再共享相同的元素。
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -111,7 +115,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CustomPartCollection.CustomPartCollection
-second_title: Aspose.Words for .NET API 参考
-description: CustomPartCollection 构造函数. 默认构造函数
+title: CustomPartCollection
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPartCollection 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/custompartcollection/custompartcollection/
@@ -17,7 +19,5 @@ public CustomPartCollection()
 ### 也可以看看
 
 * class [CustomPartCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../custompartcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

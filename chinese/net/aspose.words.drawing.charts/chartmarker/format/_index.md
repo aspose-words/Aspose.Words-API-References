@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Format
-second_title: Aspose.Words for .NET API 参考
-description: ChartMarker 财产. 提供对此标记的填充和线条格式的访问
+linktitle: Format
+articleTitle: Format
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartMarker Format 财产. 提供对此标记的填充和线条格式的访问 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartmarker/format/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartmarker/format/
 public ChartFormat Format { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartMarker](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

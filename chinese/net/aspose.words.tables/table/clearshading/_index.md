@@ -1,22 +1,24 @@
 ---
 title: Table.ClearShading
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 删除桌子上的所有阴影
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: 用于 .NET 的 Aspose.Words
+description: Table ClearShading 方法. 移除桌子上的所有阴影 在 C#.
 type: docs
-weight: 400
+weight: 380
 url: /zh/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
 
-删除桌子上的所有阴影。
+移除桌子上的所有阴影。
 
 ```csharp
 public void ClearShading()
 ```
 
-### 例子
+## 例子
 
-演示如何将轮廓边框应用到表格。
+显示如何将轮廓边框应用于表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -29,7 +31,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// 将绿色边框添加到表格的轮廓。
+// 为表格的轮廓添加绿色边框。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

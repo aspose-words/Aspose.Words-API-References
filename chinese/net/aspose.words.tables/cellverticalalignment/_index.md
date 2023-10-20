@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.CellVerticalAlignment 枚举. 指定表格单元格内文本的垂直对齐方式
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.CellVerticalAlignment 枚举. 指定表格单元格内文本的垂直对齐方式 在 C#.
 type: docs
 weight: 6280
 url: /zh/net/aspose.words.tables/cellverticalalignment/
@@ -19,12 +21,12 @@ public enum CellVerticalAlignment
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Top | `0` | 文本在单元格顶部对齐。 |
-| Center | `1` | 文本在单元格中间对齐。 |
+| Center | `1` | 文本在单元格的中间对齐。 |
 | Bottom | `2` | 文本在单元格底部对齐。 |
 
-### 例子
+## 例子
 
-演示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表格。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// 构建表时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
+// 在构建表格时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
 // 到其光标所在的当前行/单元格以及创建它们时的任何新行/单元格。
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -54,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// 先前添加的行和单元格不会受到构建器格式更改的影响。
+// 先前添加的行和单元格不受构建器格式更改的追溯影响。
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

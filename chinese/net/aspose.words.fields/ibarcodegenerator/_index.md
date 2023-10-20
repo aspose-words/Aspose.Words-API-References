@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IBarcodeGenerator 界面. 条形码自定义生成器的公共接口实施应由用户提供
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IBarcodeGenerator 界面. 条形码自定义生成器的公共接口实施应由用户提供 在 C#.
 type: docs
 weight: 2660
 url: /zh/net/aspose.words.fields/ibarcodegenerator/
@@ -18,27 +20,28 @@ public interface IBarcodeGenerator
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | 使用参数集生成条形码图像（对于 DisplayBarcode 字段）。 |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | 使用一组参数生成条形码图像（适用于老式条形码字段）。 |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | 使用参数集生成条形码图像（用于 DisplayBarcode 字段）。 |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | 使用参数集生成条形码图像（用于老式 Barcode 字段）。 |
 
-### 评论
+## 评论
 
 生成器实例应该通过[`BarcodeGenerator`](../fieldoptions/barcodegenerator/)属性.
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
+
 // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
-// 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
-// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
+// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
+// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -102,5 +105,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,22 +1,24 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Aspose.Words for .NET API 参考
-description: TextColumnCollection 财产. 如果文本列宽度相等且间隔均匀则为 True
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumnCollection EvenlySpaced 财产. 真的如果文本列的宽度相等且间距均匀 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-如果文本列宽度相等且间隔均匀，则为 True。
+**真的**如果文本列的宽度相等且间距均匀。
 
 ```csharp
 public bool EvenlySpaced { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何创建间隔不均匀的列。
+显示如何创建不均匀间隔的列。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +29,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// 确定可用于排列列的空间量。
+// 确定我们可用于排列列的空间量。
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
@@ -37,7 +39,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// 设置第二列以占用页面边距内的剩余可用空间。
+// 将第二列设置为占用页面边缘内剩余的可用空间。
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### 也可以看看
 
 * class [TextColumnCollection](../)
-* 命名空间 [Aspose.Words](../../textcolumncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

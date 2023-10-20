@@ -1,7 +1,9 @@
 ---
-title: LanguagePreferences.LanguagePreferences
-second_title: Aspose.Words for .NET API 参考
-description: LanguagePreferences 构造函数. 默认构造函数
+title: LanguagePreferences
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: 用于 .NET 的 Aspose.Words
+description: LanguagePreferences 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/languagepreferences/languagepreferences/
@@ -17,7 +19,5 @@ public LanguagePreferences()
 ### 也可以看看
 
 * class [LanguagePreferences](../)
-* 命名空间 [Aspose.Words.Loading](../../languagepreferences/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

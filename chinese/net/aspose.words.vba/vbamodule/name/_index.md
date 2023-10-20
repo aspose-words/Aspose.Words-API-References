@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Name
-second_title: Aspose.Words for .NET API 参考
-description: VbaModule 财产. 获取或设置 VBA 项目模块名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModule Name 财产. 获取或设置 VBA 项目模块名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbamodule/name/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbamodule/name/
 public string Name { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用宏创建 VBA 项目。
 
@@ -26,26 +28,25 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// 创建一个新模块并指定宏源代码。
+// 创建一个新模块并指定一个宏源代码。
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// 将模块添加到 VBA 项目中。
+// 将模块添加到 VBA 项目。
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ```
 
-演示如何访问文档的 VBA 项目信息。
+显示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // VBA 项目包含 VBA 模块的集合。
 VbaProject vbaProject = doc.VbaProject;
-Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -60,14 +61,12 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// 从集合中删除一个模块。
+// 从集合中移除一个模块。
 vbaModules.Remove(vbaModules[2]);
 ```
 
 ### 也可以看看
 
 * class [VbaModule](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodule/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

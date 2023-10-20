@@ -1,42 +1,43 @@
 ---
 title: TextPath.SameLetterHeights
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 确定所有字母是否具有相同的高度无论初始大小写如何
+linktitle: SameLetterHeights
+articleTitle: SameLetterHeights
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath SameLetterHeights 财产. 确定所有字母的高度是否相同无论初始大小写如何 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/textpath/sameletterheights/
 ---
 ## TextPath.SameLetterHeights property
 
-确定所有字母是否具有相同的高度，无论初始大小写如何。
+确定所有字母的高度是否相同，无论初始大小写如何。
 
 ```csharp
 public bool SameLetterHeights { get; set; }
 ```
 
-### 评论
+## 评论
 
-默认值为`错误的`。
+默认值为**错误的**.
 
-### 例子
+## 例子
 
-演示如何使用艺术字。
+展示如何使用艺术字。
 
 ```csharp
-public void InsertTextPaths()
 {
     Document doc = new Document();
 
-    // 插入一个 WordArt 对象，以我们可以在 Microsoft Word 中使用鼠标调整大小和移动的形状显示文本。
+    // 插入一个艺术字对象以在 Microsoft Word 中使用鼠标调整大小和移动的形状显示文本。
     // 提供“ShapeType”作为参数来设置艺术字的形状。
     Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // 使用相应的属性将“粗体”和“斜体”格式设置应用于文本。
+    // 使用各自的属性将“粗体”和“斜体”格式设置应用于文本。
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 
-    // 以下是各种其他与文本格式相关的属性。
+    // 下面是其他各种与文本格式相关的属性。
     Assert.False(shape.TextPath.Underline);
     Assert.False(shape.TextPath.Shadow);
     Assert.False(shape.TextPath.StrikeThrough);
@@ -56,14 +57,14 @@ public void InsertTextPaths()
     shape = AppendWordArt(doc, "On set to \"false\"", "Calibri", 150, 24, Color.Yellow, Color.Purple, ShapeType.TextPlainText);
     shape.TextPath.On = false;
 
-    // 使用“Kerning”属性启用/禁用某些字符之间的字距调整间距。
+    // 使用“Kerning”属性来启用/禁用某些字符之间的字距。
     shape = AppendWordArt(doc, "Kerning: VAV", "Times New Roman", 90, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = true;
 
     shape = AppendWordArt(doc, "No kerning: VAV", "Times New Roman", 100, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = false;
 
-    // 使用“Spacing”属性设置字符之间的自定义间距，范围为 0.0（无）到 1.0（默认）。
+    // 使用“Spacing”属性设置字符之间的自定义间距，范围从 0.0（无）到 1.0（默认）。
     shape = AppendWordArt(doc, "Spacing set to 0.1", "Calibri", 120, 24, Color.BlueViolet, Color.Blue, ShapeType.TextCascadeDown);
     shape.TextPath.Spacing = 0.1;
 
@@ -71,35 +72,34 @@ public void InsertTextPaths()
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // 将“SameLetterHeights”属性设置为“true”以使每个字符的 x 高度等于大写字母高度。
+    // 将“SameLetterHeights”属性设置为“true”以使每个字符的 x 高度等于大写高度。
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
-    // 默认情况下，文本的大小将始终缩放以适合包含形状的大小，从而覆盖文本大小设置。
+    // 默认情况下，文本的大小将始终缩放以适应包含形状的大小，覆盖文本大小设置。
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     Assert.True(shape.TextPath.FitShape);
     shape.TextPath.Size = 24.0;
 
-    // 如果我们将“FitShape:”属性设置为“false”，文本将保持尺寸
-    // 无论形状的大小如何，“Size”属性都指定它。
-    // 还可以使用“TextPathAlignment”属性将文本与形状的一侧对齐。
+    // 如果我们将 "FitShape: 属性设置为 "false"，文本将保持大小
+    // 无论形状的大小如何，“Size”属性都会指定它。
+    // 使用“TextPathAlignment”属性也可以将文本与形状的一侧对齐。
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
     shape.TextPath.Size = 24.0;
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
-}
 
 /// <summary>
-/// 插入一个新段落，其中包含艺术字形状。
+/// 插入一个包含艺术字形状的新段落。
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
-    // 创建一个内联形状，它将用作艺术字的容器。
-    // 如果我们为其指定艺术字指定的 ShapeType，则该形状只能是有效的艺术字形状。
-    // 这些类型的描述中将包含“艺术字对象”，
-    // 并且它们的枚举器常量名称都以“Text”开头。
+    // 创建一个内联形状，它将作为我们艺术字的容器。
+    // 如果我们为其分配艺术字指定的 ShapeType，则该形状只能是有效的艺术字形状。
+    // 这些类型将在描述中包含“艺术字对象”，
+    // 以及它们的枚举器常量名称都以“Text”开头。
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,
@@ -121,7 +121,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### 也可以看看
 
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

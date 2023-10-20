@@ -1,26 +1,28 @@
 ---
 title: MailMerge.TrimWhitespaces
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值该值指示是否从邮件合并值中删除尾随和前导空格
+linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge TrimWhitespaces 财产. 获取或设置一个值该值指示是否从邮件合并值中修剪尾随和前导空格 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
 
-获取或设置一个值，该值指示是否从邮件合并值中删除尾随和前导空格。
+获取或设置一个值，该值指示是否从邮件合并值中修剪尾随和前导空格。
 
 ```csharp
 public bool TrimWhitespaces { get; set; }
 ```
 
-### 评论
+## 评论
 
-默认值为`真的`.
+默认值为**真的**.
 
-### 例子
+## 例子
 
-演示如何在执行邮件合并时修剪数据源值中的空格。
+演示如何在执行邮件合并时从数据源的值中修剪空格。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +39,5 @@ Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.G
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

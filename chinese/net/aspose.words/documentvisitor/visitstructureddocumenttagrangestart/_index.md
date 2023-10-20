@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 遇到 StructuredDocumentTagRangeStart 时调用
+linktitle: VisitStructuredDocumentTagRangeStart
+articleTitle: VisitStructuredDocumentTagRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitStructuredDocumentTagRangeStart 方法.  在 C#.
 type: docs
 weight: 460
 url: /zh/net/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagRangeStart method
-
-遇到 StructuredDocumentTagRangeStart 时调用。
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagRangeStart(
@@ -20,7 +20,5 @@ public virtual VisitorAction VisitStructuredDocumentTagRangeStart(
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

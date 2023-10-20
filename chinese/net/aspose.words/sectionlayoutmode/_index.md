@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.SectionLayoutMode 枚举. 指定允许定义文档网格行为的部分的布局模式
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.SectionLayoutMode 枚举. 指定允许定义文档网格行为的部分的布局模式 在 C#.
 type: docs
 weight: 5750
 url: /zh/net/aspose.words/sectionlayoutmode/
@@ -18,20 +20,20 @@ public enum SectionLayoutMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 指定文档网格不应应用于文档中相应部分的内容。 |
-| Grid | `1` | 指定相应部分应将附加行间距和字符间距 添加到其中的每一行和字符，以保持每页的特定行数 和每行字符数。 字符不会自动与网格线对齐打字. |
-| LineGrid | `2` | 指定相应部分应向其内的每一行添加额外的行间距 ，以保持每页指定的行数。 |
-| SnapToChars | `3` | 指定相应部分应将附加行间距和字符间距 添加到其中的每一行和字符，以便保持每页的特定行数和每行字符数。 键入时字符将自动与网格线对齐。 |
+| Default | `0` | 指定不应将文档网格应用于文档中相应部分的内容。 |
+| Grid | `1` | 指定相应部分应在每行和其中的字符中添加额外的行间距和字符间距 ，以保持每页的行数和每行的字符数 。 字符不会自动与上的网格线对齐打字. |
+| LineGrid | `2` | 指定相应部分应在其中的每一行中添加额外的行距 以保持每页指定的行数。 |
+| SnapToChars | `3` | 指定相应部分应将附加行间距和字符间距 添加到每行和其中的字符，以保持每页行数和每行字符数的特定数量 。 键入时字符将自动与网格线对齐。 |
 
-### 例子
+## 例子
 
-演示如何指定每行可以包含的字符数。
+显示如何为每行可能包含的字符数指定 a。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用间距，然后用它来设置此部分中每行的字符数。
+// 启用间距，然后使用它来设置本节中每行的字符数。
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -45,14 +47,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-演示如何指定每页可以拥有的行数限制。
+显示如何指定每页可能具有的行数限制。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用间距，然后用它来设置此部分中每页的行数。
-// 足够大的字体大小会将某些行向下推到下一页，以避免字符重叠。
+// 启用pitching，然后用它来设置本节每页的行数。
+// 足够大的字体大小会将一些行向下推到下一页以避免字符重叠。
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

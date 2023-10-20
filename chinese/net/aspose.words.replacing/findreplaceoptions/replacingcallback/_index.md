@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 在每次替换发生之前调用的用户定义方法
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions ReplacingCallback 财产. 在每次替换发生之前调用的用户定义方法 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,12 +16,11 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
+展示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
 
 ```csharp
-public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ public void ReplaceWithCallback()
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 设置一个回调来跟踪“Replace”方法将进行的任何替换。
+    // 设置一个回调来跟踪“替换”方法将进行的任何替换。
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -44,8 +45,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// 维护查找和替换操作完成的每个文本替换的日志
-/// 并记录原始匹配文本的值。
+/// 维护由查找和替换操作完成的每个文本替换的日志
+/// 并注意原始匹配文本的值。
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -67,10 +68,9 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
-public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -139,7 +139,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

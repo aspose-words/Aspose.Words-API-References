@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取此样式的所有别名如果样式没有别名则返回空字符串数组
+linktitle: Aliases
+articleTitle: Aliases
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Aliases 财产. 获取此样式的所有别名如果样式没有别名则返回空字符串数组 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/style/aliases/
@@ -14,21 +16,21 @@ url: /zh/net/aspose.words/style/aliases/
 public string[] Aliases { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用样式别名。
 
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// 该文档包含名为“MyStyle,MyStyle Alias 1,MyStyle Alias 2”的样式。
-// 如果样式名称具有多个以逗号分隔的值，则每个子句都是一个单独的别名。
+// 此文档包含名为“MyStyle,MyStyle Alias 1,MyStyle Alias 2”的样式。
+// 如果样式名称有多个用逗号分隔的值，则每个子句都是一个单独的别名。
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// 我们可以使用其别名及其名称来引用样式。
+// 我们可以使用它的别名以及它的名称来引用一个样式。
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,22 +1,24 @@
 ---
 title: SignatureLineOptions.Instructions
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 财产. 获取或设置在签署签名行时显示的给签名者的说明 此属性的默认值为 空字符串Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLineOptions Instructions 财产. 获取或设置在签署签名行时显示的签名者说明 此属性的默认值为空字符串Empty  在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-获取或设置在签署签名行时显示的给签名者的说明。 此属性的默认值为 **空字符串**（Empty).
+获取或设置在签署签名行时显示的签名者说明。 此属性的默认值为**空字符串**(Empty ).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用个人证书和签名行签署文档。
+显示如何使用个人证书和签名行签署文档。
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
+// 重新打开我们保存的文档，并验证 "IsSigned" 和 "IsValid" 属性都等于 "true",
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### 也可以看看
 
 * class [SignatureLineOptions](../)
-* 命名空间 [Aspose.Words](../../signaturelineoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 指定单元格如何与行中的其他单元格水平合并
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat HorizontalMerge 财产. 指定单元格如何与行中的其他单元格水平合并 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,27 +16,27 @@ url: /zh/net/aspose.words.tables/cellformat/horizontalmerge/
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何水平合并表格单元格。
+显示如何水平合并表格单元格。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将单元格插入第一行的第一列。
-// 该单元格将是一系列水平合并单元格中的第一个。
+// 在第一行的第一列中插入一个单元格。
+// 此单元格将是一系列水平合并单元格中的第一个。
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// 将单元格插入第一行的第二列。而不是添加文本内容，
-// 我们将将此单元格与直接添加到左侧的第一个单元格合并。
+// 在第一行的第二列中插入一个单元格。而不是添加文本内容，
+// 我们将把这个单元格与我们直接添加到左边的第一个单元格合并。
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// 将另外两个未合并的单元格插入到第二行。
+// 在第二行再插入两个未合并的单元格。
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

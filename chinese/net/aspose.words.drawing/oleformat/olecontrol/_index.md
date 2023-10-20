@@ -1,20 +1,22 @@
 ---
 title: OleFormat.OleControl
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取OleControl对象如果此 OLE 对象是 ActiveX 控件否则此属性为 null
+linktitle: OleControl
+articleTitle: OleControl
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat OleControl 财产. 获取OleControl如果此 OLE 对象是 ActiveX 控件则为对象否则此属性为空 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/oleformat/olecontrol/
 ---
 ## OleFormat.OleControl property
 
-获取`OleControl`对象（如果此 OLE 对象是 ActiveX 控件）。否则此属性为 null。
+获取`OleControl`如果此 OLE 对象是 ActiveX 控件，则为对象。否则此属性为空。
 
 ```csharp
 public OleControl OleControl { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -24,7 +26,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual("CheckBox1", oleControl.Name);
+Assert.AreEqual(null, oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,10 +36,6 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
-    Assert.AreEqual(string.Empty, checkBox.GroupName);
-
-    // 请注意，您不能为 Frame 设置 GroupName。
-    checkBox.GroupName = "Aspose group name";
 }
 ```
 
@@ -45,7 +43,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

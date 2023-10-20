@@ -1,25 +1,26 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 方法. 删除该范围起始节点和范围结束节点之间的所有节点
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart RemoveAllChildren 方法. 删除此范围开始节点和范围结束节点之间的所有节点 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-删除该范围起始节点和范围结束节点之间的所有节点。
+删除此范围开始节点和范围结束节点之间的所有节点。
 
 ```csharp
 public void RemoveAllChildren()
 ```
 
-### 例子
+## 例子
 
 展示如何创建/删除结构化文档标签及其内容。
 
 ```csharp
-public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -28,7 +29,7 @@ public void SdtRangeExtendedMethods()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // 删除范围结构化文档标签，但保留内部内容。
+    // 删除范围结构化文档标签，但保留内容。
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -46,7 +47,7 @@ public void SdtRangeExtendedMethods()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // 删除范围内的结构化文档标签和内容。
+    // 移除范围内的结构化文档标签和内容。
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
@@ -66,7 +67,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

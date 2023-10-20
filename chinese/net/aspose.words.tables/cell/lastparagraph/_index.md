@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取直接子级中的最后一段
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell LastParagraph 财产. 获取直接子级中的最后一段 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/cell/lastparagraph/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.tables/cell/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何将垂直边框设置应用到表格行的格式。
+展示如何将垂直边框设置应用到表格行的格式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个具有红色和蓝色内边框的表格。
+// 创建一个带有红色和蓝色内边框的表格。
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -35,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // 调整行之间出现的边框的外观。
+    // 调整将出现在行之间的边框的外观。
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // 调整单元格之间出现的边框的外观。
+    // 调整将出现在单元格之间的边框的外观。
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

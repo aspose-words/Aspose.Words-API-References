@@ -1,22 +1,24 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置字段比较表达式计算器
+linktitle: ComparisonExpressionEvaluator
+articleTitle: ComparisonExpressionEvaluator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions ComparisonExpressionEvaluator 财产. 获取或设置字段比较表达式求值器 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
 ## FieldOptions.ComparisonExpressionEvaluator property
 
-获取或设置字段比较表达式计算器。
+获取或设置字段比较表达式求值器。
 
 ```csharp
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何实现 IF 和 COMPARE 字段的自定义评估。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -29,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较{0} {1} {2}”。
+    // 1. " IF {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较 {0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
+    // 如果 "comparisonResult" 未定义，我们用字符串而不是 bool 创建 "ComparisonEvaluationResult"。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -48,7 +50,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf 和 FieldCompare 的比较表达式评估。
+/// FieldIf 和 FieldCompare 的比较表达式计算。
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
@@ -99,7 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

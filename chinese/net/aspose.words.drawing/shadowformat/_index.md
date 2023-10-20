@@ -1,7 +1,9 @@
 ---
-title: Class ShadowFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ShadowFormat 班级. 表示对象的阴影格式
+title: ShadowFormat Class
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ShadowFormat 班级. 表示对象的阴影格式 在 C#.
 type: docs
 weight: 1230
 url: /zh/net/aspose.words.drawing/shadowformat/
@@ -9,8 +11,6 @@ url: /zh/net/aspose.words.drawing/shadowformat/
 ## ShadowFormat class
 
 表示对象的阴影格式。
-
-要了解更多信息，请访问[使用图形元素](https://docs.aspose.com/words/net/working-with-graphic-elements/)文档文章。
 
 ```csharp
 public class ShadowFormat
@@ -33,5 +33,3 @@ public class ShadowFormat
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.FitShapeToText
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 确定 Microsoft Word 是否会增大形状以适合文本
+linktitle: FitShapeToText
+articleTitle: FitShapeToText
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox FitShapeToText 财产. 确定 Microsoft Word 是否会增大形状以适合文本 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/textbox/fitshapetotext/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/textbox/fitshapetotext/
 public bool FitShapeToText { get; set; }
 ```
 
-### 评论
+## 评论
 
-默认值为`错误的`。
+默认值为**错误的**.
 
-### 例子
+## 例子
 
-演示如何让文本框调整自身大小以紧密贴合其内容。
+演示如何让文本框调整自身大小以紧密适应其内容。
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

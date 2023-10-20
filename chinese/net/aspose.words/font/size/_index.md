@@ -1,22 +1,24 @@
 ---
 title: Font.Size
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置字体大小以磅为单位
+linktitle: Size
+articleTitle: Size
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Size 财产. 获取或设置以磅为单位的字体大小 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-获取或设置字体大小（以磅为单位）。
+获取或设置以磅为单位的字体大小。
 
 ```csharp
 public double Size { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何使用其字体属性设置文本串的格式。
+显示如何使用其字体属性格式化文本运行。
 
 ```csharp
 Document doc = new Document();
@@ -51,7 +53,5 @@ builder.Write("Hello world!");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

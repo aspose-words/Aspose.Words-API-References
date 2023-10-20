@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 提供对段落样式的列表格式属性的访问
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Style ListFormat 财产. 提供对段落样式的列表格式属性的访问 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/style/listformat/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/style/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### 评论
+## 评论
 
-此属性仅对段落样式有效。 对于此属性返回的其他样式类型`无效的`。
+此属性仅对段落样式有效。 对于其他样式类型，此属性返回 null。
 
-### 例子
+## 例子
 
-演示如何创建和使用具有列表格式的段落样式。
+展示如何使用列表格式创建和使用段落样式。
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +38,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// 将段落样式应用到文档生成器的当前段落，然后添加一些文本。
+// 将段落样式应用到文档构建器的当前段落，然后添加一些文本。
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// 将文档生成器的样式更改为没有列表格式的样式并编写另一段。
+// 将文档构建器的样式更改为没有列表格式的样式并编写另一个段落。
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginTop
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 指定形状的内部上边距以磅为单位
+linktitle: InternalMarginTop
+articleTitle: InternalMarginTop
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox InternalMarginTop 财产. 指定形状的内部上边距以磅为单位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/textbox/internalmargintop/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/textbox/internalmargintop/
 public double InternalMarginTop { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 1/20 英寸。
 
-### 例子
+## 例子
 
-演示如何设置文本框的内部边距。
+显示如何设置文本框的内部边距。
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### 也可以看看
 
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

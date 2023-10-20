@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值指示整个段落是否包含 开始表或者 桌尾field 或之间的特定范围 开始表和 桌尾字段应包含在邮件合并区域中
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge UseWholeParagraphAsRegion 财产. 获取或设置一个值该值指示是否应将带有 TableStart 或 TableEnd 字段 的整个段落或 TableStart 和 TableEnd 字段之间的特定范围包含到邮件合并区域中 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-获取或设置一个值，指示整个段落是否包含 **开始表**或者 **桌尾**field 或之间的特定范围 **开始表**和 **桌尾**字段应包含在邮件合并区域中。
+获取或设置一个值，该值指示是否应将带有 TableStart 或 TableEnd 字段 的整个段落或 TableStart 和 TableEnd 字段之间的特定范围包含到邮件合并区域中。
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### 评论
+## 评论
 
-默认值为`真的`.
+默认值为**真的**.
 
-### 例子
+## 例子
 
 显示邮件合并区域和段落之间的关系。
 
@@ -28,12 +30,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // 默认情况下，一个段落只能属于一个邮件合并区域。
-    // 我们文档的内容不符合这些标准。
+    // 默认情况下，一个段落最多只能属于一个邮件合并区域。
+    // 我们文档的内容不符合这些条件。
     // 如果我们将“UseWholeParagraphAsRegion”标志设置为“true”，
-    // 对此文档运行邮件合并将引发异常。
+    // 在此文档上运行邮件合并将引发异常。
     // 如果我们将“UseWholeParagraphAsRegion”标志设置为“false”，
-    // 我们将能够对此文档执行邮件合并。
+    // 我们将能够在此文档上执行邮件合并。
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)
@@ -41,8 +43,8 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     else
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // 邮件合并填充我们的第一个区域，同时保留第二个区域未使用
-    // 因为这是违反规则的区域。
+    // 邮件合并填充我们的第一个区域，而第二个区域未使用
+    // 因为它是违反规则的区域。
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

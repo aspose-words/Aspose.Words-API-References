@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeMarkupLanguage
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ShapeMarkupLanguage 枚举. 指定用于形状的标记语言
+title: ShapeMarkupLanguage Enum
+linktitle: ShapeMarkupLanguage
+articleTitle: ShapeMarkupLanguage
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ShapeMarkupLanguage 枚举. 指定用于形状的标记语言 在 C#.
 type: docs
 weight: 1280
 url: /zh/net/aspose.words.drawing/shapemarkuplanguage/
@@ -21,9 +23,9 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | 绘图标记语言用于定义形状。 |
 | Vml | `1` | 矢量标记语言用于定义形状。 |
 
-### 例子
+## 例子
 
-演示如何为保存的文档设置要遵守的 OOXML 合规性规范。
+演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +49,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// 我们保存的文档使用 DML 定义形状，以遵守“ISO/IEC 29500:2008”OOXML 标准。
+// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -57,5 +59,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words for .NET API 参考
-description: EditableRange 财产. 返回或设置可编辑范围的单个用户
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRange SingleUser 财产. 返回或设置可编辑范围的单个用户 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/editablerange/singleuser/
@@ -14,21 +16,21 @@ url: /zh/net/aspose.words/editablerange/singleuser/
 public string SingleUser { get; set; }
 ```
 
-### 评论
+## 评论
 
-该编辑器可以以下列形式之一存储：
+此编辑器可以以下列形式之一存储：
 
-DOMAIN\Username - 对于应使用当前用户的域凭据进行访问验证的用户。
+DOMAIN\Username - 用于访问应使用当前用户的域凭据进行身份验证的用户。
 
-user@domain.com - 对于应使用用户的电子邮件地址作为凭据来验证访问权限的用户。
+user@domain.com - 用于访问应使用用户的电子邮件地址作为凭据进行身份验证的用户。
 
-user - 对于其访问应使用当前用户的计算机凭据进行身份验证的用户。
+user - 用于访问应使用当前用户的机器凭据进行身份验证的用户。
 
-对于具体的可编辑范围，单个用户和编辑者组不能同时设置， 如果其中一个设置了，另一个就会被清除。
+具体可编辑范围不能同时设置单个用户和编辑组， 如果设置了一个，另一个会被清除。
 
-### 例子
+## 例子
 
-展示如何将可编辑范围的编辑权限限制为特定组/用户。
+显示如何将可编辑范围的编辑权限限制为特定组/用户。
 
 ```csharp
 public void Visitor()
@@ -41,7 +43,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
+    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -69,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 收集字符串中访问过的可编辑范围的属性和内容。
+/// 在字符串中收集访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -120,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [EditableRange](../)
-* 命名空间 [Aspose.Words](../../editablerange/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

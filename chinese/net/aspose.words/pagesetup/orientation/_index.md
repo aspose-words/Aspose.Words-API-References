@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页面的方向
+linktitle: Orientation
+articleTitle: Orientation
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup Orientation 财产. 返回或设置页面的方向 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words/pagesetup/orientation/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/pagesetup/orientation/
 public Orientation Orientation { get; set; }
 ```
 
-### 评论
+## 评论
 
-改变`Orientation`掉期[`PageWidth`](../pagewidth/)和[`PageHeight`](../pageheight/)。
+改变**方向**掉期[`PageWidth`](../pagewidth/)和[`PageHeight`](../pageheight/).
 
-### 例子
+## 例子
 
-展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
+显示如何调整纸张大小、方向、边距以及部分的其他设置。
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +42,7 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-演示如何将页面设置设置应用和恢复到文档中的各个部分。
+显示如何将页面设置设置应用和恢复到文档中的部分。
 
 ```csharp
 Document doc = new Document();
@@ -51,14 +53,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// 如果我们使用文档生成器开始一个新部分，
+// 如果我们使用文档构建器开始一个新部分，
 // 它将继承构建器的当前页面设置属性。
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为其默认值。
+// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为默认值。
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

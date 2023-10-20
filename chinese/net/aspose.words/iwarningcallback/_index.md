@@ -1,14 +1,16 @@
 ---
-title: Interface IWarningCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.IWarningCallback 界面. 如果您希望调用自己的自定义方法来捕获文档加载或保存期间可能发生的保真度损失警告请实现此接口
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.IWarningCallback 界面. 如果您希望调用自己的自定义方法来 捕获可能在文档加载或保存期间发生的保真度丢失警告请实施此接口 在 C#.
 type: docs
 weight: 3210
 url: /zh/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-如果您希望调用自己的自定义方法来捕获文档加载或保存期间可能发生的保真度损失警告，请实现此接口。
+如果您希望调用自己的自定义方法来 捕获可能在文档加载或保存期间发生的保真度丢失警告，请实施此接口。
 
 ```csharp
 public interface IWarningCallback
@@ -18,14 +20,13 @@ public interface IWarningCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法。 |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words 在文档加载 或保存可能导致格式丢失或数据保真度丢失的问题时调用此方法。 |
 
-### 例子
+## 例子
 
-演示如何使用 IWarningCallback 接口来监视字体替换警告。
+展示如何使用 IWarningCallback 接口来监控字体替换警告。
 
 ```csharp
-public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,10 +38,10 @@ public void SubstitutionWarning()
     doc.WarningCallback = callback;
 
     // 存储当前字体源集合，这将是每个文档的默认字体源
-    // 我们没有为其指定不同的字体源。
+    // 我们没有指定不同的字体源。
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // 出于测试目的，我们将设置 Aspose.Words 仅在不存在的文件夹中查找字体。
+    // 出于测试目的，我们将 Aspose.Words 设置为仅在不存在的文件夹中查找字体。
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
     // 渲染文档时，会找不到“Times New Roman”字体的地方。
@@ -49,16 +50,15 @@ public void SubstitutionWarning()
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 在加载/保存过程中每次出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -70,25 +70,24 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
+Shows 添加了对位图渲染的回退，并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
-public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // 将“EmulateRasterOperations”属性设置为“false”以在以下情况下回退到位图：
-    // 它遇到一个图元文件，这将需要光栅操作才能在输出 PDF 中呈现。
+    // 将 "EmulateRasterOperations" 属性设置为 "false" 以在以下情况下回退到位图
+    // 它遇到一个元文件，这将需要光栅操作才能在输出 PDF 中呈现。
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // 将“RenderingMode”属性设置为“VectorWithFallback”以尝试使用矢量图形渲染每个图元文件。
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // 创建一个“PdfSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-    // 修改该方法将文档转换为 .PDF 并应用配置的方式
-    // 在我们的MetafileRenderingOptions对象中进行保存操作。
+    // 创建一个“PdfSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+    // 修改该方法如何将文档转换为 .PDF 并应用配置
+    // 在我们的 MetafileRenderingOptions 对象中进行保存操作。
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -98,12 +97,12 @@ public void HandleBinaryRasterWarnings()
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// 打印并收集保存文档时发生的与格式丢失相关的警告。
+/// 打印并收集保存文档时出现的与格式丢失相关的警告。
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -123,9 +122,10 @@ public class HandleDocumentWarnings : IWarningCallback
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
+[Test]
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
+    // 打开一个文档，其中包含使用我们的任何字体源中都不存在的字体格式化的文本。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -137,9 +137,6 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
-
-    // 字体替换后应使用原始字体规格。
-    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // 如果我们保存缺少字体的文档，我们将收到字体替换警告。
     doc.FontSettings = fontSettings;
@@ -163,7 +160,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 每次加载/保存期间发生警告时调用。
+    /// 在加载/保存过程中每次出现警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -179,5 +176,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

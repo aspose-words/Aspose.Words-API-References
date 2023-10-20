@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置默认制表位之间的间隔以磅为单位
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: 用于 .NET 的 Aspose.Words
+description: Document DefaultTabStop 财产. 获取或设置默认制表位之间的间隔以磅为单位 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/document/defaulttabstop/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words/document/defaulttabstop/
 public double DefaultTabStop { get; set; }
 ```
 
-### 例子
+## 例子
 
-展示如何设置制表位位置的自定义间隔。
+显示如何为制表位位置设置自定义间隔。
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 将制表位设置为每 72 点（1 英寸）出现一次。
 builder.Document.DefaultTabStop = 72;
 
-// 每个制表符将其后面的文本捕捉到下一个最接近的制表位位置。
+// 每个制表符将其后的文本捕捉到下一个最近的制表位位置。
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

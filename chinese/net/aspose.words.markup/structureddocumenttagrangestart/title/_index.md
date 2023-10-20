@@ -1,22 +1,24 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 指定与此结构化文档标记关联的友好名称 不能无效的.
+linktitle: Title
+articleTitle: Title
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart Title 财产. 指定与此结构化文档标签关联的友好名称 不能为空 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-指定与此结构化文档标记关联的友好名称。 不能`无效的`.
+指定与此结构化文档标签关联的友好名称。 不能为空。
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何获取多节结构化文档标签的属性。
+显示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

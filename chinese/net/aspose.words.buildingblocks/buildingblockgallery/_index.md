@@ -1,14 +1,16 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery 枚举. 指定构建块分类到的预定义库
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery 枚举. 指定将构建块分类到的预定义库 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 ## BuildingBlockGallery enumeration
 
-指定构建块分类到的预定义库。
+指定将构建块分类到的预定义库。
 
 ```csharp
 public enum BuildingBlockGallery
@@ -18,7 +20,7 @@ public enum BuildingBlockGallery
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| All | `0` | 指定该词汇表文档条目应与所有可能的图库分类值相关联。 |
+| All | `0` | 指定此词汇表文档条目应与所有可能的画廊分类值相关联。 |
 | AutoText | `1` |  |
 | Bibliography | `2` |  |
 | CoverPage | `3` |  |
@@ -56,15 +58,15 @@ public enum BuildingBlockGallery
 | Tables | `35` |  |
 | TextBox | `36` |  |
 | Watermarks | `37` |  |
-| Default | `0` | 与相同All. |
+| Default | `0` | 同All. |
 
-### 评论
+## 评论
 
-对应于 **ST_DocPartGallery**输入 OOXML。
+对应于**ST_DocPartGallery**输入 OOXML。
 
-### 例子
+## 例子
 
-显示访问术语表文档中的构建块的方法。
+显示访问词汇表文档中构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -82,7 +84,7 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 访问构建块的方式有多种。
+    // 有多种访问构建块的方法。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -99,14 +101,15 @@ public void GlossaryDocument()
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
+
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
@@ -167,5 +170,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * 命名空间 [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../)
-
-

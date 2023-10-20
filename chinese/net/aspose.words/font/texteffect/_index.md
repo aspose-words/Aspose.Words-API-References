@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置字体动画效果
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: Font TextEffect 财产. 获取或设置字体动画效果 在 C#.
 type: docs
 weight: 450
 url: /zh/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/texteffect/
 public TextEffect TextEffect { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将视觉效果应用于跑步。
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

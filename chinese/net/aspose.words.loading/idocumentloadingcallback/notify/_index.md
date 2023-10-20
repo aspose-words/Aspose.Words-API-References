@@ -1,7 +1,9 @@
 ---
 title: IDocumentLoadingCallback.Notify
-second_title: Aspose.Words for .NET API 参考
-description: IDocumentLoadingCallback 方法. 调用此函数以通知文档加载进度
+linktitle: Notify
+articleTitle: Notify
+second_title: 用于 .NET 的 Aspose.Words
+description: IDocumentLoadingCallback Notify 方法. 调用此函数以通知文档加载进度 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -16,19 +18,20 @@ public void Notify(DocumentLoadingArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | DocumentLoadingArgs | 事件的一个论点。 |
+| args | DocumentLoadingArgs | 事件的论据。 |
 
-### 评论
+## 评论
 
-该接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
+此接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
 
-应该从中止的进度回调中抛出异常，并且应该在消费者代码中捕获该异常。
+应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。
 
-### 例子
+## 例子
 
-演示如何在文档加载超出预期加载时间时通知用户。
+显示如何在文档加载超出预期加载时间时通知用户。
 
 ```csharp
+[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -53,7 +56,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -61,7 +64,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载期间调用的回调方法。
+    /// 文档加载过程中调用的回调方法。
     /// </summary>
     /// <param name="args">加载参数。</param>
     public void Notify(DocumentLoadingArgs args)
@@ -74,7 +77,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载开始的日期和时间。
+    /// 开始加载文档的日期和时间。
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
@@ -90,7 +93,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* 命名空间 [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

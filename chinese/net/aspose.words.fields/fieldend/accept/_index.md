@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.Accept
-second_title: Aspose.Words for .NET API 参考
-description: FieldEnd 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldEnd Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldend/accept/
@@ -16,24 +18,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 将访问该节点的访问者。 |
+| visitor | DocumentVisitor | 将访问节点的访问者。 |
 
 ### 返回值
 
-**错误的**如果访问者请求停止枚举。
+**错误的**如果访问者请求枚举停止。
 
-### 评论
+## 评论
 
-通话[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/)。
+来电[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/).
 
-有关更多信息，请参阅访客设计模式。
+有关更多信息，请参阅访问者设计模式。
 
-### 例子
+## 例子
 
 展示如何使用字段集合。
 
 ```csharp
-public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +73,6 @@ public void FieldCollection()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
-}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。
@@ -132,7 +132,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldEnd](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldend/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

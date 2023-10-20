@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShapeType
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取形状类型
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase ShapeType 财产. 获取形状类型 在 C#.
 type: docs
 weight: 500
 url: /zh/net/aspose.words.drawing/shapebase/shapetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/shapetype/
 public ShapeType ShapeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建一组形状，并使用文档访问者打印其内容。
 
@@ -25,7 +27,7 @@ public void GroupOfShapes()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -56,7 +58,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// 将访问过的形状组的内容打印到控制台。
+/// 将访问的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {
@@ -106,7 +108,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * enum [ShapeType](../../shapetype/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

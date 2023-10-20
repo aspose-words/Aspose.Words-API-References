@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolders
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹
+linktitle: SetFontsFolders
+articleTitle: SetFontsFolders
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings SetFontsFolders 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/fontsettings/setfontsfolders/
@@ -17,17 +19,17 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontsFolders | String[] | 包含 TrueType 字体的文件夹数组。 |
-| recursive | Boolean | 如果为 True，则递归扫描指定文件夹中的字体。 |
+| recursive | Boolean | True 以递归方式扫描指定文件夹中的字体。 |
 
-### 评论
+## 评论
 
-默认情况下，Aspose.Words 会查找系统中安装的字体。
+默认情况下，Aspose.Words 会查找安装到系统中的字体。
 
-设置此属性将重置所有先前加载的字体的缓存。
+设置此属性会重置所有先前加载的字体的缓存。
 
-### 例子
+## 例子
 
-展示如何设置多个字体源目录。
+显示如何设置多个字体源目录。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +41,7 @@ builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // 我们的字体源不包含我们在本文档中用于文本的字体。
-// 如果我们在渲染此文档时使用这些字体设置，
+// 如果我们在渲染这个文档时使用这些字体设置，
 // Aspose.Words 将对具有 Aspose.Words 无法找到的字体的文本应用后备字体。
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
@@ -50,11 +52,11 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// 使用“SetFontsFolders”方法从我们作为第一个参数传递的每个字体目录创建字体源。
-// 传递“false”作为“recursive”参数以包含目录中所有字体文件中的字体
-// 我们传入第一个参数，但不包含任何目录子文件夹中的任何字体。
-// 传递“true”作为“recursive”参数以包含我们传递的目录中的所有字体文件
-// 在第一个参数中，以及其子目录中的所有字体。
+// 使用“SetFontsFolders”方法从我们作为第一个参数传递的每个字体目录创建一个字体源。
+// 将“false”作为“recursive”参数传递，以包含目录中所有字体文件中的字体
+// 我们传入第一个参数，但不包括任何目录子文件夹中的任何字体。
+// 将“true”作为“recursive”参数传递，以包含我们传递的目录中的所有字体文件
+// 在第一个参数中，以及它们子目录中的所有字体。
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
 
@@ -65,7 +67,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// “Junction”文件夹本身不包含字体文件，但其子文件夹包含字体文件。
+// “Junction”文件夹本身不包含字体文件，但有子文件夹。
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);
@@ -85,7 +87,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### 也可以看看
 
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

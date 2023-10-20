@@ -1,16 +1,16 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.GeneralFormatCollection 班级. 表示通用格式的类型化集合
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.GeneralFormatCollection 班级. 表示一般格式的类型化集合 在 C#.
 type: docs
 weight: 2650
 url: /zh/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
-表示通用格式的类型化集合。
-
-要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
+表示一般格式的类型化集合。
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -20,27 +20,27 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | 获取集合中项目的总数。 |
+| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | 获取集合中的项目总数。 |
 | [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | 获取指定索引处的通用格式。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | 将通用格式添加到集合中。 |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | 向集合添加通用格式。 |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | 从集合中删除所有出现的指定通用格式。 |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | 删除指定索引处出现的通用格式。 |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | 从集合中删除所有出现的指定通用格式。 |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | 删除指定索引处出现的一般格式。 |
 
-### 例子
+## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档生成器插入一个显示未应用格式的结果的字段。
+// 使用文档构建器插入一个显示未应用格式的结果的字段。
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -82,7 +82,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// 我们可以删除格式以将字段的结果恢复为其原始形式。
+// 我们可以删除格式以将字段的结果恢复为原始形式。
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -98,5 +98,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

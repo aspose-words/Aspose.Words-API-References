@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 构造函数. 初始化一个新实例 结构化文档标记范围开始类.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart 构造函数. 初始化结构化文档标签范围开始类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-初始化一个新实例 **结构化文档标记范围开始**类.
+初始化**结构化文档标签范围开始**类.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | 所有者文件。 |
 | type | SdtType | SDT 节点的类型。 |
 
-### 评论
+## 评论
 
 可以创建以下类型的 SDT：
 
@@ -33,12 +35,11 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 * RichText
 * PlainText
 
-### 例子
+## 例子
 
 展示如何创建/删除结构化文档标签及其内容。
 
 ```csharp
-public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,7 +48,7 @@ public void SdtRangeExtendedMethods()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // 删除范围结构化文档标签，但保留内部内容。
+    // 删除范围结构化文档标签，但保留内容。
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -65,7 +66,7 @@ public void SdtRangeExtendedMethods()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // 删除范围内的结构化文档标签和内容。
+    // 移除范围内的结构化文档标签和内容。
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
@@ -87,7 +88,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

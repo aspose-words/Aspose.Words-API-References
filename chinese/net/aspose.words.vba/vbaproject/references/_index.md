@@ -1,7 +1,9 @@
 ---
 title: VbaProject.References
-second_title: Aspose.Words for .NET API 参考
-description: VbaProject 财产. 获取 VBA 项目引用的集合
+linktitle: References
+articleTitle: References
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaProject References 财产. 获取 VBA 项目引用的集合 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.vba/vbaproject/references/
@@ -18,7 +20,5 @@ public VbaReferenceCollection References { get; }
 
 * class [VbaReferenceCollection](../../vbareferencecollection/)
 * class [VbaProject](../)
-* 命名空间 [Aspose.Words.Vba](../../vbaproject/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

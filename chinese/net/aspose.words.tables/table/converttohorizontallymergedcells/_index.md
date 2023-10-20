@@ -1,45 +1,47 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 将按宽度水平合并的单元格转换为按HorizontalMerge.
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: 用于 .NET 的 Aspose.Words
+description: Table ConvertToHorizontallyMergedCells 方法. 将按宽度水平合并的单元格转换为按宽度合并的单元格HorizontalMerge 在 C#.
 type: docs
-weight: 410
+weight: 390
 url: /zh/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
 
-将按宽度水平合并的单元格转换为按[`HorizontalMerge`](../../cellformat/horizontalmerge/).
+将按宽度水平合并的单元格转换为按宽度合并的单元格[`HorizontalMerge`](../../cellformat/horizontalmerge/).
 
 ```csharp
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### 评论
+## 评论
 
-可以使用合并标志水平合并表格单元格[`HorizontalMerge`](../../cellformat/horizontalmerge/)或使用单元格宽度[`Width`](../../cellformat/width/)。
+表格单元格可以使用合并标志水平合并[`HorizontalMerge`](../../cellformat/horizontalmerge/)或使用单元格宽度[`Width`](../../cellformat/width/).
 
-当表格单元格按宽度属性合并时[`HorizontalMerge`](../../cellformat/horizontalmerge/)没有意义，但有时有合并标志是更方便的方法。
+当表格单元格按宽度属性合并时[`HorizontalMerge`](../../cellformat/horizontalmerge/)是没有意义的，但有时使用合并标志是更方便的方式。
 
-使用此方法可将按宽度水平合并的表格单元格转换为按合并标志合并的单元格。
+使用此方法将按宽度水平合并的表格单元格转换为按合并标志合并的单元格。
 
-### 例子
+## 例子
 
 演示如何将按宽度水平合并的单元格转换为按 CellFormat.HorizontalMerge 合并的单元格。
 
 ```csharp
 Document doc = new Document(MyDir + "Table with merged cells.docx");
 
-// Microsoft Word 不再写入合并标志，而是按宽度定义合并单元格。
-// Aspose.Words默认只定义一行中的5个单元格，并且它们都没有水平合并标志，
-// 即使在水平合并发生之前该行中有 7 个单元格。
+// Microsoft Word 不再编写合并标志，而是按宽度定义合并单元格。
+// Aspose.Words 默认只定义一行5个单元格，并且没有一个有水平合并标志，
+// 即使在水平合并发生之前行中有 7 个单元格。
 Table table = doc.FirstSection.Body.Tables[0];
 Row row = table.Rows[0];
 
 Assert.AreEqual(5, row.Cells.Count);
 Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None));
 
-// 使用“ConvertToHorizontallyMergedCells”方法将单元格转换为水平合并
-// 通过其宽度到由标志水平合并的单元格。
+// 使用“ConvertToHorizontallyMergedCells”方法转换水平合并单元格
+// 按其宽度到由标志水平合并的单元格。
 // 现在，我们有 7 个单元格，其中一些具有水平合并值。
 table.ConvertToHorizontallyMergedCells();
 row = table.Rows[0];
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

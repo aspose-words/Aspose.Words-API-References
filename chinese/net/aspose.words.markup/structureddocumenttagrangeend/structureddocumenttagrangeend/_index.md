@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeEnd 构造函数. 初始化一个新实例 结构化文档标签范围结束类.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeEnd 构造函数. 初始化结构化文档标签范围结束类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-初始化一个新实例 **结构化文档标签范围结束**类.
+初始化**结构化文档标签范围结束**类.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,12 +21,11 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | 所有者文件。 |
 | id | Int32 | 相应结构化文档标记范围开始的标识符。 |
 
-### 例子
+## 例子
 
 展示如何创建/删除结构化文档标签及其内容。
 
 ```csharp
-public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,7 +34,7 @@ public void SdtRangeExtendedMethods()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // 删除范围结构化文档标签，但保留内部内容。
+    // 删除范围结构化文档标签，但保留内容。
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -51,7 +52,7 @@ public void SdtRangeExtendedMethods()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // 删除范围内的结构化文档标签和内容。
+    // 移除范围内的结构化文档标签和内容。
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
@@ -72,7 +73,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

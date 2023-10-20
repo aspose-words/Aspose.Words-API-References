@@ -1,14 +1,16 @@
 ---
 title: DocumentVisitor.VisitSectionEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当节的枚举结束时调用
+linktitle: VisitSectionEnd
+articleTitle: VisitSectionEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitSectionEnd 方法. 当一个节的枚举结束时调用 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words/documentvisitor/visitsectionend/
 ---
 ## DocumentVisitor.VisitSectionEnd method
 
-当节的枚举结束时调用。
+当一个节的枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitSectionEnd(Section section)
@@ -20,11 +22,11 @@ public virtual VisitorAction VisitSectionEnd(Section section)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
-演示如何使用文档访问者打印文档的节点结构。
+展示如何使用文档访问者打印文档的节点结构。
 
 ```csharp
 public void DocStructureToText()
@@ -32,17 +34,17 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
-    // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历节点的子节点树。
-/// 以字符串的形式创建该树的映射。
+/// 遍历一个节点的子节点树。
+/// 以字符串的形式创建这棵树的映射。
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -57,7 +59,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 遇到 Document 节点时调用。
+    /// 在遇到 Document 节点时调用。
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -71,7 +73,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 Document 节点的所有子节点后调用。
+    /// 在访问完 Document 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -82,7 +84,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到Section 节点时调用。
+    /// 在文档中遇到 Section 节点时调用。
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
@@ -97,7 +99,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了Section节点的所有子节点后调用。
+    /// 在访问了 Section 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -120,7 +122,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了 Body 节点的所有子节点后调用。
+    /// 在访问完 Body 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -142,7 +144,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 Paragraph 节点的所有子节点后调用。
+    /// 在访问完一个段落节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -163,7 +165,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 SubDocument 节点时调用。
+    /// 在文档中遇到子文档节点时调用。
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -173,9 +175,9 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

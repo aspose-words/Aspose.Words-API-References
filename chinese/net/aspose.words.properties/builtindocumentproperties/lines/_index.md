@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Lines
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 表示文档中行数的估计值
+linktitle: Lines
+articleTitle: Lines
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Lines 财产. 表示文档中行数的估计值 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.properties/builtindocumentproperties/lines/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/lines/
 public int Lines { get; set; }
 ```
 
-### 评论
+## 评论
 
-当您调用时，Aspose.Words 会更新此属性[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/)。
+Aspose.Words 在您调用时更新此属性[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### 例子
+## 例子
 
-演示如何更新文档中的所有列表标签。
+显示如何更新文档中的所有列表标签。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +46,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// 对于行计数，我们需要调用更新方法的特定重载。
+// 对于行数，我们需要调用更新方法的特定重载。
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -52,7 +54,7 @@ doc.UpdateWordCount(true);
 Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ```
 
-展示如何使用“内容”类别中的文档属性。
+显示如何使用“内容”类别中的文档属性。
 
 ```csharp
 public void Content()
@@ -61,34 +63,34 @@ public void Content()
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
     // 通过使用内置属性，
-    // 我们可以将文档统计信息（例如字数/页数/字符数）视为元数据，无需打开文档即可查看
-    // 通过在 Windows 资源管理器中右键单击文件并导航到“属性”>“可以访问这些属性”详情>>内容
+    // 我们可以把word/page/character count等文档统计数据当作元数据，不用打开文档就可以看一眼
+    // 通过右键单击 Windows 资源管理器中的文件并导航到属性 > 来访问这些属性详情 >内容
     // 如果我们想在文档中显示这些数据，我们可以使用 NUMPAGES、NUMWORDS、NUMCHARS 等字段。
-    // 此外，还可以通过导航“文件”>“在 Microsoft Word 中查看这些值”属性>高级属性>统计数据
-    // 页数：PageCount属性实时显示页数，其值可以赋给Pages属性
+    // 此外，这些值也可以在 Microsoft Word 中通过导航 File > 查看属性>高级属性 >统计数据
+    // 页数：PageCount 属性实时显示页数，其值可以赋值给 Pages 属性
 
-    // “Pages”属性存储文档的页数。
+    // “Pages”属性存储文档的页数。 
     Assert.AreEqual(6, properties.Pages);
 
     // “Words”、“Characters”和“CharactersWithSpaces”内置属性还显示各种文档统计信息，
-    // 但我们需要对整个文档调用“UpdateWordCount”方法，然后才能期望它们包含准确的值。
+    // 但我们需要在整个文档上调用“UpdateWordCount”方法，然后才能期望它们包含准确的值。
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
     Assert.AreEqual(6026, properties.Characters);
     Assert.AreEqual(7041, properties.CharactersWithSpaces);
 
-    // 计算文档中的行数，然后将结果分配给“Lines”内置属性。
+    // 计算文档中的行数，然后将结果赋给“Lines”内置属性。
     LineCounter lineCounter = new LineCounter(doc);
     properties.Lines = lineCounter.GetLineCount();
 
     Assert.AreEqual(142, properties.Lines);
 
-    // 将文档中的段落节点数分配给“Paragraphs”内置属性。
+    // 将文档中的段落节点数分配给“段落”内置属性。
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // 通过“Bytes”内置属性获取文档文件大小的估计值。
+    // 通过“Bytes”内置属性估计我们文档的文件大小。
     Assert.AreEqual(20310, properties.Bytes);
 
     // 为我们的文档设置不同的模板，然后手动更新“模板”内置属性以反映此更改。
@@ -160,7 +162,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

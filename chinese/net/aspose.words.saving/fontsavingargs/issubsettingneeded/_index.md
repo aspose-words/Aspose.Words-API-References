@@ -1,36 +1,37 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 允许指定在导出为字体资源之前是否对当前字体进行子集化
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs IsSubsettingNeeded 财产. 允许指定当前字体在导出为字体资源之前是否会被子集化 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 ---
 ## FontSavingArgs.IsSubsettingNeeded property
 
-允许指定在导出为字体资源之前是否对当前字体进行子集化。
+允许指定当前字体在导出为字体资源之前是否会被子集化。
 
 ```csharp
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### 评论
+## 评论
 
-字体可以导出为完整的原始字体文件或子集化以仅包含文档中使用的字符 。子集化可以减少生成的字体资源大小。
+字体可以导出为完整的原始字体文件或子集以仅包含文档中使用的 characters 。子集允许减少生成的字体资源大小。
 
-默认情况下，Aspose.Words 通过将原始字体文件大小 与中指定的大小进行比较来决定是否执行子集化。[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) 。 您可以通过设置`IsSubsettingNeeded`财产。
+默认情况下，Aspose.Words 通过比较原始字体文件大小 和在[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) 您可以通过设置`IsSubsettingNeeded`财产。
 
-### 例子
+## 例子
 
-演示如何定义保存为 HTML 时导出字体的自定义逻辑。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // 配置 SaveOptions 对象以将字体导出到单独的文件。
-    // 设置将以自定义方式处理字体保存的回调。
+    // 设置一个以自定义方式处理字体保存的回调。
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -45,10 +46,8 @@ public void SaveExportedFonts()
         Console.WriteLine(fontFilename);
     }
 
-}
-
 /// <summary>
-/// 打印有关导出字体的信息并将其保存在与其输出 .html 相同的本地系统文件夹中。
+/// 打印有关导出字体的信息并将它们保存在与其输出 .html 相同的本地系统文件夹中。
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +64,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // 有两种方法保存导出的字体。
+        // 有两种保存导出字体的方法。
         // 1 - 将其保存到本地文件系统位置：
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
@@ -80,7 +79,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

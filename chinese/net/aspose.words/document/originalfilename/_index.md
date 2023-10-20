@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取文档的原始文件名
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: Document OriginalFileName 财产. 获取文档的原始文件名 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words/document/originalfilename/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### 评论
+## 评论
 
-退货`无效的`如果文档是从流加载的或创建为空白。
+如果文档是从流中加载或创建为空白，则返回 null。
 
-### 例子
+## 例子
 
-演示如何检索文档加载操作的详细信息。
+显示如何检索文档加载操作的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -40,15 +42,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // 下面是将 LoadFormat 转换为其相应的 SaveFormat 的两种方法。
-    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串获取相应的 SaveFormat：
+    // 下面是两种将 LoadFormat 转换为对应的 SaveFormat 的方法。
+    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串中获取相应的 SaveFormat：
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
     // 2 - 将 LoadFormat 直接转换为其 SaveFormat：
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // 从流中加载文档，然后将其保存到自动检测到的文件扩展名。
+    // 从流中加载一个文档，然后将其保存到自动检测到的文件扩展名。
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

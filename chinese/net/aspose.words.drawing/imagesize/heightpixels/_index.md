@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPixels
-second_title: Aspose.Words for .NET API 参考
-description: ImageSize 财产. 获取图像的高度以像素为单位
+linktitle: HeightPixels
+articleTitle: HeightPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSize HeightPixels 财产. 获取图像的高度以像素为单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/imagesize/heightpixels/
@@ -14,18 +16,18 @@ url: /zh/net/aspose.words.drawing/imagesize/heightpixels/
 public int HeightPixels { get; }
 ```
 
-### 例子
+## 例子
 
-演示如何读取形状中图像的属性。
+显示如何读取形状中图像的属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将一个形状插入到文档中，其中包含从本地文件系统获取的图像。
+// 将一个形状插入到包含从我们本地文件系统获取的图像的文档中。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// 如果形状包含图像，则其 ImageData 属性将有效，
+// 如果形状包含图像，则其 ImageData 属性有效，
 // 它将包含一个 ImageSize 对象。
 ImageSize imageSize = shape.ImageData.ImageSize; 
 
@@ -37,7 +39,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// 我们可以根据图像的大小来确定形状的大小，以避免拉伸图像。
+// 我们可以根据其图像的大小来确定形状的大小，以避免拉伸图像。
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### 也可以看看
 
 * class [ImageSize](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagesize/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

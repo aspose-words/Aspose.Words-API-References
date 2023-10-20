@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.SmoothingMode
-second_title: Aspose.Words for .NET API 参考
-description: GraphicsQualityOptions 财产. 获取或设置此 Graphics 的渲染质量
+linktitle: SmoothingMode
+articleTitle: SmoothingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: GraphicsQualityOptions SmoothingMode 财产. 获取或设置此 Graphics 的渲染质量 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
@@ -14,9 +16,9 @@ url: /zh/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 public SmoothingMode? SmoothingMode { get; set; }
 ```
 
-### 例子
+## 例子
 
-演示如何在将文档转换为图像格式时设置渲染质量选项。
+展示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### 也可以看看
 
 * class [GraphicsQualityOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-
