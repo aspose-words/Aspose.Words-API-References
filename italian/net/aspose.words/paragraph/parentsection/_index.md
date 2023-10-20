@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Recupera il genitoreSection del paragrafo.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words per .NET
+description: Paragraph ParentSection proprietà. Recupera il genitoreSection del paragrafo in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ Recupera il genitore[`Section`](../../section/) del paragrafo.
 public Section ParentSection { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un'intestazione e un piè di pagina.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

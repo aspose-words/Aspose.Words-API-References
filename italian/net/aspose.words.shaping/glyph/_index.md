@@ -1,7 +1,9 @@
 ---
-title: Class Glyph
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Shaping.Glyph classe. Rappresenta un glifo
+title: Glyph Class
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Shaping.Glyph classe. Rappresenta un glifo in C#.
 type: docs
 weight: 6040
 url: /it/net/aspose.words.shaping/glyph/
@@ -18,7 +20,7 @@ public class Glyph
 
 | Nome | Descrizione |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | Inizializza la nuova istanza di questa classe. |
+| [Glyph](glyph/)(*int, short, short, short*) | Inizializza la nuova istanza di questa classe. |
 
 ## Proprietà
 
@@ -34,11 +36,9 @@ public class Glyph
 | Nome | Descrizione |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Restituisce un clone di questa istanza. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Restituisce la larghezza (avanzamento) del glifo in punti. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Restituisce la larghezza (avanzamento) del glifo in punti. |
 
 ### Guarda anche
 
 * spazio dei nomi [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.RevisionType enum. Specifica il tipo di modifica di cui tenere tracciaRevision .
+title: RevisionType Enum
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.RevisionType enum. Specifica il tipo di modifica di cui tenere tracciaRevision  in C#.
 type: docs
 weight: 4800
 url: /it/net/aspose.words/revisiontype/
@@ -24,7 +26,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | La modifica della formattazione è stata applicata allo stile principale. |
 | Moving | `4` | Il contenuto è stato spostato nel documento. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le revisioni in un documento.
 
@@ -108,5 +110,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

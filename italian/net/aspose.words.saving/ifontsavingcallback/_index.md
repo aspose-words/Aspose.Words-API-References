@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.IFontSavingCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva i caratteri quando esporta un documento in formato HTML.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.IFontSavingCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva i caratteri quando esporta un documento in formato HTML in C#.
 type: docs
 weight: 5160
 url: /it/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Chiamato quando Aspose.Words sta per salvare una risorsa di carattere. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Chiamato quando Aspose.Words sta per salvare una risorsa di carattere. |
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

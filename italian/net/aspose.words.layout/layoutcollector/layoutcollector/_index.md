@@ -1,7 +1,9 @@
 ---
-title: LayoutCollector.LayoutCollector
-second_title: Aspose.Words per .NET API Reference
-description: LayoutCollector costruttore. Inizializza unistanza di questa classe.
+title: LayoutCollector
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words per .NET
+description: LayoutCollector costruttore. Inizializza unistanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/layoutcollector/layoutcollector/
@@ -18,7 +20,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | Il documento a cui verrà allegata questa istanza del raccoglitore. |
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare gli intervalli di pagine su cui si estende un nodo.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutcollector/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

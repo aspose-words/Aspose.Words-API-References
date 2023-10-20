@@ -1,7 +1,9 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.ICssSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva CSS Cascading Style Sheet quando salva un documento in HTML.
+title: ICssSavingCallback Interface
+linktitle: ICssSavingCallback
+articleTitle: ICssSavingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.ICssSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva CSS Cascading Style Sheet quando salva un documento in HTML in C#.
 type: docs
 weight: 5130
 url: /it/net/aspose.words.saving/icsssavingcallback/
@@ -18,9 +20,9 @@ public interface ICssSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(CssSavingArgs) | Chiamato quando Aspose.Words salva un CSS (Cascading Style Sheet). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Chiamato quando Aspose.Words salva un CSS (Cascading Style Sheet). |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i fogli di stile CSS creati da una conversione HTML.
 
@@ -82,5 +84,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

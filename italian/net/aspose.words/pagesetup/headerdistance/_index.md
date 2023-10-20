@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeaderDistance
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta la distanza in punti tra lintestazione e la parte superiore della pagina.
+linktitle: HeaderDistance
+articleTitle: HeaderDistance
+second_title: Aspose.Words per .NET
+description: PageSetup HeaderDistance proprietà. Restituisce o imposta la distanza in punti tra lintestazione e la parte superiore della pagina in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words/pagesetup/headerdistance/
@@ -14,7 +16,7 @@ Restituisce o imposta la distanza (in punti) tra l'intestazione e la parte super
 public double HeaderDistance { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

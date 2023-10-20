@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Aspose.Words per .NET API Reference
-description: FieldXE proprietà. Ottiene o imposta se applicare la formattazione corsivo al numero di pagina della voce.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words per .NET
+description: FieldXE IsItalic proprietà. Ottiene o imposta se applicare la formattazione corsivo al numero di pagina della voce in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ Ottiene o imposta se applicare la formattazione corsivo al numero di pagina dell
 public bool IsItalic { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo INDICE con voci utilizzando i campi XE e anche modificarne l'aspetto.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldXE](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldxe/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

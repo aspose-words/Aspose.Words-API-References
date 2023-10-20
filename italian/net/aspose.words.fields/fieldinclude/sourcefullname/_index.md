@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Aspose.Words per .NET API Reference
-description: FieldInclude proprietà. Ottiene o imposta la posizione del documento.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words per .NET
+description: FieldInclude SourceFullName proprietà. Ottiene o imposta la posizione del documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione del documento.
 public string SourceFullName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo INCLUDE e impostarne le proprietà.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Guarda anche
 
 * class [FieldInclude](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldinclude/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

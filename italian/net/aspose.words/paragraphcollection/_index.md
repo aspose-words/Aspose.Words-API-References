@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ParagraphCollection classe. Fornisce laccesso digitato a una raccolta diParagraph nodi.
+title: ParagraphCollection Class
+linktitle: ParagraphCollection
+articleTitle: ParagraphCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.ParagraphCollection classe. Fornisce laccesso digitato a una raccolta diParagraph nodi in C#.
 type: docs
 weight: 4410
 url: /it/net/aspose.words/paragraphcollection/
@@ -27,17 +29,17 @@ public class ParagraphCollection : NodeCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Aggiunge un nodo alla fine della raccolta. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Aggiunge un nodo alla fine della raccolta. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Rimuove tutti i nodi da questa raccolta e dal documento. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determina se un nodo è nella raccolta. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determina se un nodo è nella raccolta. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Restituisce l'indice in base zero del nodo specificato. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Rimuove il nodo dalla raccolta e dal documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words/paragraphcollection/toarray/#toarray_1)() | Copia tutti i paragrafi dalla raccolta in un nuovo array di paragrafi. (2 methods) |
 
-### Esempi
+## Esempi
 
 Mostra come verificare se un paragrafo è una revisione di spostamento.
 
@@ -73,5 +75,3 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 * class [NodeCollection](../nodecollection/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

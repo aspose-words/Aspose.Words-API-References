@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Aspose.Words per .NET API Reference
-description: LayoutCollector metodo. Cancella tutti i dati di layout raccolti. Chiama questo metodo dopo che il documento è stato aggiornato manualmente o il layout è stato ricostruito.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: LayoutCollector Clear metodo. Cancella tutti i dati di layout raccolti. Chiama questo metodo dopo che il documento è stato aggiornato manualmente o il layout è stato ricostruito in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ Cancella tutti i dati di layout raccolti. Chiama questo metodo dopo che il docum
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare gli intervalli di pagine su cui si estende un nodo.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Guarda anche
 
 * class [LayoutCollector](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutcollector/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

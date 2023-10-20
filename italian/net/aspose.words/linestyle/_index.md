@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.LineStyle enum. Specifica lo stile della linea di aBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words per .NET
+description: Aspose.Words.LineStyle enum. Specifica lo stile della linea di aBorder  in C#.
 type: docs
 weight: 3450
 url: /it/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Esempi
+## Esempi
 
 Mostra come inserire una stringa circondata da un bordo in un documento.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtension.IsFrozen
-second_title: Aspose.Words per .NET API Reference
-description: WebExtension proprietà. Specifica se lutente può interagire o meno con lestensione web.
+linktitle: IsFrozen
+articleTitle: IsFrozen
+second_title: Aspose.Words per .NET
+description: WebExtension IsFrozen proprietà. Specifica se lutente può interagire o meno con lestensione web in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.webextensions/webextension/isfrozen/
@@ -14,7 +16,7 @@ Specifica se l'utente può interagire o meno con l'estensione web.
 public bool IsFrozen { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Guarda anche
 
 * class [WebExtension](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../webextension/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

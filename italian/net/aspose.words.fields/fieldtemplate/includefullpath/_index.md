@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Aspose.Words per .NET API Reference
-description: FieldTemplate proprietà. Ottiene o imposta se includere il nome completo del percorso del file.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words per .NET
+description: FieldTemplate IncludeFullPath proprietà. Ottiene o imposta se includere il nome completo del percorso del file in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ Ottiene o imposta se includere il nome completo del percorso del file.
 public bool IncludeFullPath { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un campo TEMPLATE per visualizzare la posizione del file system locale del modello di un documento.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Guarda anche
 
 * class [FieldTemplate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtemplate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

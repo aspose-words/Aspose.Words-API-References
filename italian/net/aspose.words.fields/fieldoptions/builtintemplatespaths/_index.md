@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta i percorsi dei modelli incorporati di MS Word.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words per .NET
+description: FieldOptions BuiltInTemplatesPaths proprietà. Ottiene o imposta i percorsi dei modelli incorporati di MS Word in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ Ottiene o imposta i percorsi dei modelli incorporati di MS Word.
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà è utilizzata da[`FieldAutoText`](../../fieldautotext/) E[`FieldGlossary`](../../fieldglossary/) campi, se la voce di testo automatico di riferimento non viene trovata nel file[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) modello.
 
 Per impostazione predefinita, MS Word memorizza i modelli integrati in c:\Users\&lt;nomeutente&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx e C:\Users\&lt;nomeutente&gt;\ File AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare un blocco predefinito con campi TESTO AUTOMATICO e GLOSSARIO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Guarda anche
 
 * class [FieldOptions](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldoptions/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

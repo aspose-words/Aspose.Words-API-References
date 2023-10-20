@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Font classe. Contiene gli attributi del carattere nome del carattere dimensione del carattere colore e così via per un oggetto.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Font classe. Contiene gli attributi del carattere nome del carattere dimensione del carattere colore e così via per un oggetto in C#.
 type: docs
 weight: 2830
 url: /it/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | Nome | Descrizione |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Ripristina la formattazione predefinita dei caratteri. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Controlla se viene applicato un particolare effetto di testo DrawingML. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Controlla se viene applicato un particolare effetto di testo DrawingML. |
 
-### Osservazioni
+## Osservazioni
 
 Non crei istanze di`Font`classe direttamente. Usa solo `Font` per accedere alle proprietà dei caratteri dei vari oggetti come[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### Esempi
+## Esempi
 
 Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

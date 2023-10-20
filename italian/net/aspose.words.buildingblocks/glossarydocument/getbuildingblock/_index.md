@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Aspose.Words per .NET API Reference
-description: GlossaryDocument metodo. Trova un blocco predefinito utilizzando la raccolta la categoria e il nome specificati.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words per .NET
+description: GlossaryDocument GetBuildingBlock metodo. Trova un blocco predefinito utilizzando la raccolta la categoria e il nome specificati in C#.
 type: docs
-weight: 90
+weight: 70
 url: /it/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 L'elemento costitutivo corrispondente o`nullo` se non è stata trovata una corrispondenza.
 
-### Osservazioni
+## Osservazioni
 
 Questo è un metodo pratico che esegue l'iterazione su tutti i blocchi predefiniti in questa raccolta e restituisce il primo blocco predefinito che corrisponde a la galleria, la categoria e il nome specificati.
 
 Microsoft Word organizza gli elementi costitutivi in gallerie. Le galleries sono predefinite utilizzando il file[`BuildingBlockGallery`](../../buildingblockgallery/) enum. All'interno di ciascuna galleria, gli elementi costitutivi possono essere organizzati in una o più categorie. Il nome della categoria è una stringa. Ogni elemento costitutivo ha un nome. Non è garantito che il nome di un building block sia univoco.
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

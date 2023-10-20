@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
-second_title: Aspose.Words per .NET API Reference
-description: FieldAutoNumLgl proprietà. Ottiene o imposta se visualizzare il numero senza punto finale.
+linktitle: RemoveTrailingPeriod
+articleTitle: RemoveTrailingPeriod
+second_title: Aspose.Words per .NET
+description: FieldAutoNumLgl RemoveTrailingPeriod proprietà. Ottiene o imposta se visualizzare il numero senza punto finale in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
@@ -14,7 +16,7 @@ Ottiene o imposta se visualizzare il numero senza punto finale.
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come organizzare un documento utilizzando i campi AUTONUMLGL.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Guarda anche
 
 * class [FieldAutoNumLgl](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldautonumlgl/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

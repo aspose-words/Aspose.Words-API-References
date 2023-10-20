@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Fornisce laccesso alla raccolta digitata di parti di testo allinterno del paragrafo.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words per .NET
+description: Paragraph Runs proprietà. Fornisce laccesso alla raccolta digitata di parti di testo allinterno del paragrafo in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla raccolta digitata di parti di testo all'interno del para
 public RunCollection Runs { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come determinare il tipo di revisione di un nodo in linea.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un set di flag che specificano quali elementi devono essere rimossi durante la stampa unione.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words per .NET
+description: MailMerge CleanupOptions proprietà. Ottiene o imposta un set di flag che specificano quali elementi devono essere rimossi durante la stampa unione in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ Ottiene o imposta un set di flag che specificano quali elementi devono essere ri
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i paragrafi vuoti che una stampa unione può creare dal documento di output dell'unione.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

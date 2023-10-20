@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsInsertRevision
-second_title: Aspose.Words per .NET API Reference
-description: InlineStory proprietà. Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words per .NET
+description: InlineStory IsInsertRevision proprietà. Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/inlinestory/isinsertrevision/
@@ -14,7 +16,7 @@ Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il
 public bool IsInsertRevision { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare le proprietà relative alla revisione dei nodi InlineStory.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Guarda anche
 
 * class [InlineStory](../)
-* spazio dei nomi [Aspose.Words](../../inlinestory/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

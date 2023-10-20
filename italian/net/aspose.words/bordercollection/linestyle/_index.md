@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineStyle
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection proprietà. Ottiene o imposta lo stile del bordo.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words per .NET
+description: BorderCollection LineStyle proprietà. Ottiene o imposta lo stile del bordo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/bordercollection/linestyle/
@@ -14,13 +16,13 @@ Ottiene o imposta lo stile del bordo.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce lo stile del primo bordo della raccolta.
 
 Imposta lo stile di tutti i bordi della raccolta esclusi i bordi diagonali.
 
-### Esempi
+## Esempi
 
 Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

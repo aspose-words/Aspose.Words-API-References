@@ -1,12 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions metodo. Crea un oggetto opzioni di salvataggio di una classe adatta al formato di salvataggio specificato.
+linktitle: CreateSaveOptions
+articleTitle: CreateSaveOptions
+second_title: Aspose.Words per .NET
+description: SaveOptions CreateSaveOptions metodo. Crea un oggetto opzioni di salvataggio di una classe adatta al formato di salvataggio specificato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {#createsaveoptions}
+## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
 Crea un oggetto opzioni di salvataggio di una classe adatta al formato di salvataggio specificato.
 
@@ -22,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 Un oggetto di una classe che deriva da[`SaveOptions`](../).
 
-### Esempi
+## Esempi
 
 Mostra un'opzione per ottimizzare il consumo di memoria durante il rendering di documenti di grandi dimensioni in PDF.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## CreateSaveOptions(string) {#createsaveoptions_1}
+## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
 Crea un oggetto opzioni di salvataggio di una classe adatta all'estensione file specificata nel nome file specificato.
 
@@ -66,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 Un oggetto di una classe che deriva da[`SaveOptions`](../).
 
-### Esempi
+## Esempi
 
 Mostra come impostare un modello predefinito per i documenti a cui non sono allegati modelli.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Guarda anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifica il modo in cui Microsoft Word segnalerà gli errori rilevati durante la stampa unione.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifica il modo in cui Microsoft Word segnalerà gli errori rilevati durante la stampa unione in C#.
 type: docs
 weight: 5810
 url: /it/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Completa l'unione e segnala gli errori in un nuovo documento. |
 | Default | `2` | Uguale aPauseOnError valore. |
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

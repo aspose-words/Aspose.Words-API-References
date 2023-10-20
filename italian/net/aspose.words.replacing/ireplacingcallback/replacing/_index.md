@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Aspose.Words per .NET API Reference
-description: IReplacingCallback metodo. Un metodo definito dallutente che viene chiamato durante unoperazione di sostituzione per ogni corrispondenza trovata subito prima che venga effettuata una sostituzione.
+linktitle: Replacing
+articleTitle: Replacing
+second_title: Aspose.Words per .NET
+description: IReplacingCallback Replacing metodo. Un metodo definito dallutente che viene chiamato durante unoperazione di sostituzione per ogni corrispondenza trovata subito prima che venga effettuata una sostituzione in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 A[`ReplaceAction`](../../replaceaction/) valore che specifica l'azione da intraprendere per la partita corrente.
 
-### Esempi
+## Esempi
 
 Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../ireplacingcallback/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

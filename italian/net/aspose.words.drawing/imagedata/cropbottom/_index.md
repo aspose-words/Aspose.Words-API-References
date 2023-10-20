@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropBottom
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Definisce la frazione di rimozione dellimmagine dal lato inferiore.
+linktitle: CropBottom
+articleTitle: CropBottom
+second_title: Aspose.Words per .NET
+description: ImageData CropBottom proprietà. Definisce la frazione di rimozione dellimmagine dal lato inferiore in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/imagedata/cropbottom/
@@ -14,13 +16,13 @@ Definisce la frazione di rimozione dell'immagine dal lato inferiore.
 public double CropBottom { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La quantità di ritaglio può variare da -1,0 a 1,0. Il valore predefinito è 0. Nota che un valore pari a 1 non visualizzerà alcuna immagine. Valori negativi comporteranno che l'immagine venga schiacciata verso l'interno rispetto al bordo ritagliato (lo spazio vuoto tra l'immagine e il bordo ritagliato verrà riempito con il colore di riempimento della forma ). Valori positivi inferiori a 1 comporteranno l'allungamento dell'immagine rimanente per adattarla alla forma.
 
 Il valore predefinito è 0.
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati dell'immagine di una forma.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
-second_title: Aspose.Words per .NET API Reference
-description: MetafileRenderingOptions proprietà. Ottiene o imposta un valore che determina la modalità di rendering delle immagini metafile.
+linktitle: RenderingMode
+articleTitle: RenderingMode
+second_title: Aspose.Words per .NET
+description: MetafileRenderingOptions RenderingMode proprietà. Ottiene o imposta un valore che determina la modalità di rendering delle immagini metafile in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore che determina la modalità di rendering delle immagi
 public MetafileRenderingMode RenderingMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito dipende dal formato di salvataggio. Per le immagini lo èBitmap . Per gli altri formati lo èVectorWithFallback.
 
-### Esempi
+## Esempi
 
 Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
 
@@ -74,7 +76,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * class [MetafileRenderingOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

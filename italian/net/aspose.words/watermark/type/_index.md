@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Aspose.Words per .NET API Reference
-description: Watermark proprietà. Ottiene il tipo di filigrana.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: Watermark Type proprietà. Ottiene il tipo di filigrana in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* spazio dei nomi [Aspose.Words](../../watermark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

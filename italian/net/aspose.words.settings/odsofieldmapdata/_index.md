@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.OdsoFieldMapData classe. Specifica come una colonna nellorigine dati esterna deve essere mappata ai campi di unione predefiniti allinterno del documento.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.OdsoFieldMapData classe. Specifica come una colonna nellorigine dati esterna deve essere mappata ai campi di unione predefiniti allinterno del documento in C#.
 type: docs
 weight: 5900
 url: /it/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Restituisce un clone profondo di questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 Microsoft Word fornisce alcuni nomi di campi di unione predefiniti che consente di inserire in un documento come MERGEFIELD o utilizzare nei campi ADDRESSBLOCK o GREETINGLINE. Le informazioni specificate n`OdsoFieldMapData` consente di mappare una colonna nell'origine dati esterna a un singolo campo di unione predefinito.
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

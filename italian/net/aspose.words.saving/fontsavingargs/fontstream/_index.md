@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Permette di specificare lo stream in cui verrà salvato il carattere.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words per .NET
+description: FontSavingArgs FontStream proprietà. Permette di specificare lo stream in cui verrà salvato il carattere in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ Permette di specificare lo stream in cui verrà salvato il carattere.
 public Stream FontStream { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di salvare i caratteri nei flussi anziché nei file durante l'esportazione HTML.
 
 Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` , il carattere verrà salvato in un file specificato nel file[`FontFileName`](../fontfilename/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

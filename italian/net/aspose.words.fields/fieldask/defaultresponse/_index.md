@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.DefaultResponse
-second_title: Aspose.Words per .NET API Reference
-description: FieldAsk proprietà. Ottiene o imposta la risposta utente predefinita valore iniziale contenuto nella finestra del prompt.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words per .NET
+description: FieldAsk DefaultResponse proprietà. Ottiene o imposta la risposta utente predefinita valore iniziale contenuto nella finestra del prompt in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldask/defaultresponse/
@@ -14,7 +16,7 @@ Ottiene o imposta la risposta utente predefinita (valore iniziale contenuto nell
 public string DefaultResponse { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * class [FieldAsk](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldask/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FontConfigSubstitutionRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule classe. Regola di sostituzione della configurazione dei caratteri.
+title: FontConfigSubstitutionRule Class
+linktitle: FontConfigSubstitutionRule
+articleTitle: FontConfigSubstitutionRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule classe. Regola di sostituzione della configurazione dei caratteri in C#.
 type: docs
 weight: 2890
 url: /it/net/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -29,13 +31,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Controlla se l'utilità fontconfig è disponibile o meno. |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Reimposta la cache di fontconfig chiamando i risultati. |
 
-### Osservazioni
+## Osservazioni
 
 Questa regola utilizza l'utilità fontconfig su piattaforme Linux (e altre piattaforme simili a Unix) per ottenere la sostituzione se il carattere originale non è disponibile.
 
 Se l'utilità fontconfig non è disponibile, questa regola verrà ignorata.
 
-### Esempi
+## Esempi
 
 Mostra la sostituzione della configurazione dei caratteri dipendente dal sistema operativo.
 
@@ -73,5 +75,3 @@ if (isLinuxOrMac)
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

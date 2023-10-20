@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Specifica se aggiornare i campi con ilsporco attributo.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words per .NET
+description: LoadOptions UpdateDirtyFields proprietà. Specifica se aggiornare i campi con ilsporco attributo in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ Specifica se aggiornare i campi con il`sporco` attributo.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la proprietà speciale per aggiornare il risultato del campo.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Guarda anche
 
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

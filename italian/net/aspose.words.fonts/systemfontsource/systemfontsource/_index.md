@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Aspose.Words per .NET API Reference
-description: SystemFontSource costruttore. Ctor.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words per .NET
+description: SystemFontSource costruttore. Ctor in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ Ctor.
 public SystemFontSource()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### Guarda anche
 
 * class [SystemFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../systemfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 Ctor.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### Guarda anche
 
 * class [SystemFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../systemfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

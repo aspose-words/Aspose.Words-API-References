@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceSeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words per .NET
+description: FieldIndex SequenceSeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.fields/fieldindex/sequenceseparator/
@@ -14,7 +16,7 @@ Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di s
 public string SequenceSeparator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento in parti combinando i campi INDEX e SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

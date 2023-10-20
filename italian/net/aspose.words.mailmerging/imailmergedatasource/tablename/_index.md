@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Aspose.Words per .NET API Reference
-description: IMailMergeDataSource proprietà. Restituisce il nome dellorigine dati.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words per .NET
+description: IMailMergeDataSource TableName proprietà. Restituisce il nome dellorigine dati in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 Il nome dell'origine dati. Stringa vuota se l'origine dati non ha nome.
 
-### Osservazioni
+## Osservazioni
 
 Se stai implementando[`IMailMergeDataSource`](../), restituisce il nome dell'origine data da questa proprietà.
 
 Aspose.Words utilizza questo nome per corrispondere al nome della regione di stampa unione specificato nel documento modello. Il confronto tra il nome dell'origine dati e il nome dell'area di stampa unione non fa distinzione tra maiuscole e minuscole.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Guarda anche
 
 * interface [IMailMergeDataSource](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

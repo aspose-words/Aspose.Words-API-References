@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord97LineBreakRules
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Emula Word 97 Interruzione linea dellAsia orientale.
+linktitle: UseWord97LineBreakRules
+articleTitle: UseWord97LineBreakRules
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions UseWord97LineBreakRules proprietà. Emula Word 97 Interruzione linea dellAsia orientale in C#.
 type: docs
 weight: 680
 url: /it/net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
@@ -17,7 +19,5 @@ public bool UseWord97LineBreakRules { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

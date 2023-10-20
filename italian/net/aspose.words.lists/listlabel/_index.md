@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.ListLabel classe. Definisce le proprietà specifiche di unetichetta di elenco.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.ListLabel classe. Definisce le proprietà specifiche di unetichetta di elenco in C#.
 type: docs
 weight: 3490
 url: /it/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Ottiene una rappresentazione di stringa dell'etichetta dell'elenco. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Ottiene un valore numerico per questa etichetta. |
 
-### Esempi
+## Esempi
 
 Mostra come estrarre le etichette dell'elenco di tutti i paragrafi che sono elementi dell'elenco.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

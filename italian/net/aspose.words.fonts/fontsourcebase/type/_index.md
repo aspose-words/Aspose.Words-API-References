@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Type
-second_title: Aspose.Words per .NET API Reference
-description: FontSourceBase proprietà. Restituisce il tipo di fonte del carattere.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: FontSourceBase Type proprietà. Restituisce il tipo di fonte del carattere in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontsourcebase/type/
@@ -14,7 +16,7 @@ Restituisce il tipo di fonte del carattere.
 public abstract FontSourceType Type { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un file di font nel file system locale come origine di font.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FontSourceBase](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsourcebase/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

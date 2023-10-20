@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ArrowType enum. Specifica il tipo di freccia allestremità di una riga.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.ArrowType enum. Specifica il tipo di freccia allestremità di una riga in C#.
 type: docs
 weight: 490
 url: /it/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | La freccia è una freccia aperta. |
 | Default | `0` | Uguale aNone . |
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

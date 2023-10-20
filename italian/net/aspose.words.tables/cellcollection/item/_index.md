@@ -1,7 +1,9 @@
 ---
 title: CellCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: CellCollection proprietà. Recupera aCell allindice indicato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: CellCollection Item proprietà. Recupera aCell allindice indicato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/cellcollection/item/
@@ -18,7 +20,7 @@ public Cell this[int index] { get; }
 | --- | --- |
 | index | Un indice nella raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellcollection/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

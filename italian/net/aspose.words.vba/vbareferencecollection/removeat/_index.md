@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: VbaReferenceCollection metodo. Rimuove ilVbaReference elemento allindice specificato della raccolta.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: VbaReferenceCollection RemoveAt metodo. Rimuove ilVbaReference elemento allindice specificato della raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -14,7 +16,7 @@ Rimuove il[`VbaReference`](../../vbareference/) elemento all'indice specificato 
 public void RemoveAt(int index)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Guarda anche
 
 * class [VbaReferenceCollection](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbareferencecollection/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

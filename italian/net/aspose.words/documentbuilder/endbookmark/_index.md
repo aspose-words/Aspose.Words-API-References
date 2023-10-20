@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come fine segnalibro.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words per .NET
+description: DocumentBuilder EndBookmark metodo. Contrassegna la posizione corrente nel documento come fine segnalibro in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 Il nodo finale del segnalibro appena creato.
 
-### Osservazioni
+## Osservazioni
 
 I segnalibri in un documento possono sovrapporsi e estendersi su qualsiasi intervallo. Per creare un segnalibro valido devi chiamarli entrambi[`StartBookmark`](../startbookmark/) E`EndBookmark` con lo stesso*bookmarkName* parametro .
 
 I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
 
-### Esempi
+## Esempi
 
 Mostra come creare un segnalibro.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

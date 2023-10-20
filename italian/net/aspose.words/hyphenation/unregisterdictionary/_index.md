@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Aspose.Words per .NET API Reference
-description: Hyphenation metodo. Annulla la registrazione di un dizionario di sillabazione per la lingua specificata.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words per .NET
+description: Hyphenation UnregisterDictionary metodo. Annulla la registrazione di un dizionario di sillabazione per la lingua specificata in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Un nome di lingua, ad esempio "en-US". Per i dettagli, vedere la documentazione .NET per il "nome della cultura" e RFC 4646. |
 
-### Esempi
+## Esempi
 
 Mostra come registrare un dizionario di sillabazione.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Guarda anche
 
 * class [Hyphenation](../)
-* spazio dei nomi [Aspose.Words](../../hyphenation/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

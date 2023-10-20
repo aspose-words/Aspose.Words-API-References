@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con numeri dispari e con numeri pari.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words per .NET
+description: PageSetup OddAndEvenPagesHeaderFooter proprietà. Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con numeri dispari e con numeri pari in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ Vero se il documento ha intestazioni e piè di pagina diversi per le pagine con 
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Nota: la modifica di questa proprietà influisce su tutte le sezioni del documento.
 
-### Esempi
+## Esempi
 
 Mostra come creare intestazioni e piè di pagina in un documento utilizzando DocumentBuilder.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

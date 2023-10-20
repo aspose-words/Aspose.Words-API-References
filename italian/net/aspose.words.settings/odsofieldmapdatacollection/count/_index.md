@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapDataCollection proprietà. Ottiene il numero di elementi contenuti nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapDataCollection Count proprietà. Ottiene il numero di elementi contenuti nella raccolta in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -14,7 +16,7 @@ Ottiene il numero di elementi contenuti nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoFieldMapDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

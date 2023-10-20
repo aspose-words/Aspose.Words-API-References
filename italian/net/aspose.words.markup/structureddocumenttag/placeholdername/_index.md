@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene o imposta il nome diBuildingBlock contenente testo segnaposto.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag PlaceholderName proprietà. Ottiene o imposta il nome diBuildingBlock contenente testo segnaposto in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ Ottiene o imposta il nome di[`BuildingBlock`](../../../aspose.words.buildingbloc
 public string PlaceholderName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il contenuto di un blocco predefinito come testo segnaposto personalizzato per un tag di documento strutturato.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

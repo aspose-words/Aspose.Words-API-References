@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene lindice in base zero del record da unire.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase RecordIndex proprietà. Ottiene lindice in base zero del record da unire in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ Ottiene l'indice in base zero del record da unire.
 public int RecordIndex { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Guarda anche
 
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

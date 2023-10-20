@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: RevisionGroupCollection proprietà. Restituisce il numero di gruppi di revisione nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: RevisionGroupCollection Count proprietà. Restituisce il numero di gruppi di revisione nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/revisiongroupcollection/count/
@@ -14,7 +16,7 @@ Restituisce il numero di gruppi di revisione nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare informazioni su un gruppo di revisioni in un documento.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Guarda anche
 
 * class [RevisionGroupCollection](../)
-* spazio dei nomi [Aspose.Words](../../revisiongroupcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

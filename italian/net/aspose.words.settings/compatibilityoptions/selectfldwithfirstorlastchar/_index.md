@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SelectFldWithFirstOrLastChar
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Seleziona il campo quando viene selezionato il primo o lultimo carattere.
+linktitle: SelectFldWithFirstOrLastChar
+articleTitle: SelectFldWithFirstOrLastChar
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions SelectFldWithFirstOrLastChar proprietà. Seleziona il campo quando viene selezionato il primo o lultimo carattere in C#.
 type: docs
 weight: 410
 url: /it/net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/
@@ -17,7 +19,5 @@ public bool SelectFldWithFirstOrLastChar { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

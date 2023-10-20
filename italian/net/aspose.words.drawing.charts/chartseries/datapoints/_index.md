@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeries proprietà. Restituisce una raccolta di oggetti di formattazione per tutti i punti dati in questa serie.
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: Aspose.Words per .NET
+description: ChartSeries DataPoints proprietà. Restituisce una raccolta di oggetti di formattazione per tutti i punti dati in questa serie in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ Restituisce una raccolta di oggetti di formattazione per tutti i punti dati in q
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

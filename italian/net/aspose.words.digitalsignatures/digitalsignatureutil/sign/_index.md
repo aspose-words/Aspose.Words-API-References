@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.Sign
-second_title: Aspose.Words per .NET API Reference
-description: DigitalSignatureUtil metodo. Firma il documento di origine utilizzando specificatoCertificateHolder ESignOptions con firma digitale e scrive il documento firmato nel flusso di destinazione.
+linktitle: Sign
+articleTitle: Sign
+second_title: Aspose.Words per .NET
+description: DigitalSignatureUtil Sign metodo. Firma il documento di origine utilizzando specificatoCertificateHolder ESignOptions con firma digitale e scrive il documento firmato nel flusso di destinazione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 Firma il documento di origine utilizzando specificato[`CertificateHolder`](../../certificateholder/) E[`SignOptions`](../../signoptions/) con firma digitale e scrive il documento firmato nel flusso di destinazione.
 
@@ -26,7 +28,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) oggetto con certificato utilizzato per firmare file. Il certificato nel titolare DEVE contenere chiavi private e avere il flag X509KeyStorageFlags.Exportable impostato. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) oggetto con varie opzioni di firma. |
 
-### Esempi
+## Esempi
 
 Mostra come firmare digitalmente i documenti.
 
@@ -57,12 +59,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 Firma il documento di origine utilizzando specificato[`CertificateHolder`](../../certificateholder/) E[`SignOptions`](../../signoptions/) con firma digitale e scrive il documento firmato nel file di destinazione.
 
@@ -80,7 +82,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) oggetto con certificato utilizzato per firmare file. Il certificato nel titolare DEVE contenere chiavi private e avere il flag X509KeyStorageFlags.Exportable impostato. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) oggetto con varie opzioni di firma. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo utilizzando un certificato digitale.
 
@@ -198,12 +200,12 @@ Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo ut
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 Firma il documento di origine utilizzando specificato[`CertificateHolder`](../../certificateholder/)con firma digitale e scrive il documento firmato nel flusso di destinazione.
 
@@ -221,7 +223,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | Il flusso in cui verrà scritto il documento firmato. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) oggetto con certificato utilizzato per firmare file. Il certificato nel titolare DEVE contenere chiavi private e avere il flag X509KeyStorageFlags.Exportable impostato. |
 
-### Esempi
+## Esempi
 
 Mostra come firmare documenti con certificati X.509.
 
@@ -265,12 +267,12 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 Firma il documento di origine utilizzando specificato[`CertificateHolder`](../../certificateholder/) con firma digitale e scrive il documento firmato nel file di destinazione.
 
@@ -286,7 +288,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | Il nome file dell'output del documento firmato. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) oggetto con certificato utilizzato per firmare file. Il certificato nel titolare DEVE contenere chiavi private e avere il flag X509KeyStorageFlags.Exportable impostato. |
 
-### Esempi
+## Esempi
 
 Mostra come firmare documenti con certificati X.509.
 
@@ -330,7 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

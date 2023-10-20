@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Aspose.Words per .NET API Reference
-description: IChartDataPoint proprietà. Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words per .NET
+description: IChartDataPoint Bubble3D proprietà. Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D.
 public bool Bubble3D { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare gli effetti 3D con i grafici a bolle.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Guarda anche
 
 * interface [IChartDataPoint](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
-second_title: Aspose.Words per .NET API Reference
-description: HorizontalRuleFormat proprietà. Ottiene o imposta la lunghezza della linea orizzontale specificata espressa come percentuale della larghezza della finestra.
+linktitle: WidthPercent
+articleTitle: WidthPercent
+second_title: Aspose.Words per .NET
+description: HorizontalRuleFormat WidthPercent proprietà. Ottiene o imposta la lunghezza della linea orizzontale specificata espressa come percentuale della larghezza della finestra in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/horizontalruleformat/widthpercent/
@@ -20,13 +22,13 @@ public double WidthPercent { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
-### Osservazioni
+## Osservazioni
 
 I valori validi vanno da 1 a 100 inclusi.
 
 Il valore predefinito è 100.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
 
@@ -49,7 +51,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Guarda anche
 
 * class [HorizontalRuleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../horizontalruleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Ottiene la didascalia dellicona delloggetto OLE.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words per .NET
+description: OleFormat IconCaption proprietà. Ottiene la didascalia dellicona delloggetto OLE in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ Nel caso in cui l'oggetto OLE non sia incorporato poiché l'icona o la didascali
 public string IconCaption { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire oggetti OLE collegati e scollegati.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

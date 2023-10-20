@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.StringValue
-second_title: Aspose.Words per .NET API Reference
-description: ChartXValue proprietà. Ottiene il valore della stringa memorizzato.
+linktitle: StringValue
+articleTitle: StringValue
+second_title: Aspose.Words per .NET
+description: ChartXValue StringValue proprietà. Ottiene il valore della stringa memorizzato in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
@@ -17,7 +19,5 @@ public string StringValue { get; }
 ### Guarda anche
 
 * class [ChartXValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

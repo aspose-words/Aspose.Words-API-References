@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Drawing.Charts namespace fornisce classi che consentono di accedere ai grafici nei documenti di Microsoft Word.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Drawing.Charts namespace fornisce classi che consentono di accedere ai grafici nei documenti di Microsoft Word in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing.charts/
 ---
-IL **Aspose.Words.Drawing.Charts** namespace fornisce classi che consentono di accedere ai grafici nei documenti di Microsoft Word.
+IL**Aspose.Words.Drawing.Charts** namespace fornisce classi che consentono di accedere ai grafici nei documenti di Microsoft Word.
 
 ## Classi
 
@@ -62,5 +64,3 @@ IL **Aspose.Words.Drawing.Charts** namespace fornisce classi che consentono di a
 | [ChartYValueType](./chartyvaluetype/) | Permette di specificare il tipo di valore Y di una serie di grafici. |
 | [LegendPosition](./legendposition/) | Specifica le possibili posizioni per la legenda di un grafico. |
 | [MarkerSymbol](./markersymbol/) | Specifica lo stile del simbolo del contrassegno. |
-
-

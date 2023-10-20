@@ -1,9 +1,11 @@
 ---
 title: Document.Clone
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Esegue una copia approfondita del fileDocument .
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: Document Clone metodo. Esegue una copia approfondita del fileDocument  in C#.
 type: docs
-weight: 570
+weight: 550
 url: /it/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
@@ -18,7 +20,7 @@ public Document Clone()
 
 Il documento clonato.
 
-### Esempi
+## Esempi
 
 Mostra come clonare in profondità un documento.
 
@@ -41,7 +43,5 @@ Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

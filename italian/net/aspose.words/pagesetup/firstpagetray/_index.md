@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il vassoio della carta scomparto da utilizzare per la prima pagina di una sezione. Il valore è specifico dellimplementazione stampante.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words per .NET
+description: PageSetup FirstPageTray proprietà. Ottiene o imposta il vassoio della carta scomparto da utilizzare per la prima pagina di una sezione. Il valore è specifico dellimplementazione stampante in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ Ottiene o imposta il vassoio della carta (scomparto) da utilizzare per la prima 
 public int FirstPageTray { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come fare in modo che tutte le sezioni di un documento utilizzino il vassoio carta predefinito della stampante selezionata.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLocked
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Specifica se il collegamento alloggetto OLE è bloccato dagli aggiornamenti.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words per .NET
+description: OleFormat IsLocked proprietà. Specifica se il collegamento alloggetto OLE è bloccato dagli aggiornamenti in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/oleformat/islocked/
@@ -14,11 +16,11 @@ Specifica se il collegamento all'oggetto OLE è bloccato dagli aggiornamenti.
 public bool IsLocked { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre oggetti OLE incorporati nei file.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

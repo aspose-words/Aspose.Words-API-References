@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WebExtensions.TaskPaneDockState enum. Enumera le posizioni disponibili delloggetto del riquadro attività.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words per .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState enum. Enumera le posizioni disponibili delloggetto del riquadro attività in C#.
 type: docs
 weight: 6730
 url: /it/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | Ancora il riquadro attività sul lato destro della finestra del documento. |
 | Left | `1` | Ancora il riquadro attività sul lato sinistro della finestra del documento. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * spazio dei nomi [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../)
-
-

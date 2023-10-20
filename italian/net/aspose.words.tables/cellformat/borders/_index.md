@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Ottiene la raccolta dei bordi della cella.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words per .NET
+description: CellFormat Borders proprietà. Ottiene la raccolta dei bordi della cella in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/cellformat/borders/
@@ -14,7 +16,7 @@ Ottiene la raccolta dei bordi della cella.
 public BorderCollection Borders { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come combinare le righe di due tabelle in una.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

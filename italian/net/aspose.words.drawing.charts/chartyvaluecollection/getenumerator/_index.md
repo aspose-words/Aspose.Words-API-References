@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: ChartYValueCollection metodo. Restituisce un oggetto enumeratore.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: ChartYValueCollection GetEnumerator metodo. Restituisce un oggetto enumeratore in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartYValue> GetEnumerator()
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

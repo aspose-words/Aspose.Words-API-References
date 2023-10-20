@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Aspose.Words per .NET API Reference
-description: FontSubstitutionSettings proprietà. Impostazioni relative alla regola di sostituzione delle informazioni sui caratteri.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words per .NET
+description: FontSubstitutionSettings FontInfoSubstitution proprietà. Impostazioni relative alla regola di sostituzione delle informazioni sui caratteri in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ Impostazioni relative alla regola di sostituzione delle informazioni sui caratte
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

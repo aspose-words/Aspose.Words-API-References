@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Id
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPart proprietà. Ottiene o imposta la stringa che identifica questa parte XML personalizzata allinterno di un documento OOXML.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: CustomXmlPart Id proprietà. Ottiene o imposta la stringa che identifica questa parte XML personalizzata allinterno di un documento OOXML in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/customxmlpart/id/
@@ -14,7 +16,7 @@ Ottiene o imposta la stringa che identifica questa parte XML personalizzata all'
 public string Id { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 ISO/IEC 29500 specifica che questo valore è un GUID, ma le vecchie versioni di Microsoft Word consentivano qualsiasi stringa qui. Aspose.Words fa lo stesso per il formato ECMA-376. Tieni presente, tuttavia, che Microsoft Word Online non riesce ad aprire un documento creato con un valore non GUID. Pertanto, un GUID è il valore preferito per questa proprietà.
 
@@ -22,7 +24,7 @@ Un valore valido deve essere un identificatore univoco tra tutte le parti di dat
 
 Il valore predefinito è una stringa vuota. Il valore non può essere`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Guarda anche
 
 * class [CustomXmlPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

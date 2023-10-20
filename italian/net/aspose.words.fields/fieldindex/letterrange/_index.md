@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LetterRange
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta un intervallo di lettere a cui limitare lindice.
+linktitle: LetterRange
+articleTitle: LetterRange
+second_title: Aspose.Words per .NET
+description: FieldIndex LetterRange proprietà. Ottiene o imposta un intervallo di lettere a cui limitare lindice in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fields/fieldindex/letterrange/
@@ -14,7 +16,7 @@ Ottiene o imposta un intervallo di lettere a cui limitare l'indice.
 public string LetterRange { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo INDICE con voci utilizzando i campi XE e anche modificarne l'aspetto.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

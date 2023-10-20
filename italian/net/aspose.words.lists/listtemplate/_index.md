@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.ListTemplate enum. Specifica uno dei formati di elenco predefiniti disponibili in Microsoft Word.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.ListTemplate enum. Specifica uno dei formati di elenco predefiniti disponibili in Microsoft Word in C#.
 type: docs
 weight: 3530
 url: /it/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | Un elenco struttura con livelli collegati agli stili di intestazione. |
 | OutlineHeadingsChapter | `19` | Un elenco struttura con livelli collegati agli stili di intestazione. |
 
-### Osservazioni
+## Osservazioni
 
 Un valore del modello di elenco viene utilizzato come parametro in the [`Add`](../listcollection/add/) metodo.
 
 I modelli di elenco Aspose.Words corrispondono ai 21 modelli di elenco disponibili nella finestra di dialogo Elenchi puntati e numerati in Microsoft Word 2003.
 
-### Esempi
+## Esempi
 
 Mostra come creare un documento che contenga tutti i modelli di elenco di intestazioni di struttura.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

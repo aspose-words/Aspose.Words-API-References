@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.BaselineAlignment
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta la posizione verticale dei caratteri su una riga.
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words per .NET
+description: ParagraphFormat BaselineAlignment proprietà. Ottiene o imposta la posizione verticale dei caratteri su una riga in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/paragraphformat/baselinealignment/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione verticale dei caratteri su una riga.
 public BaselineAlignment BaselineAlignment { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione verticale dei caratteri su una riga.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * enum [BaselineAlignment](../../baselinealignment/)
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSmartTagStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando è iniziata lenumerazione di uno smart tag.
+linktitle: VisitSmartTagStart
+articleTitle: VisitSmartTagStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitSmartTagStart metodo. Chiamato quando è iniziata lenumerazione di uno smart tag in C#.
 type: docs
 weight: 420
 url: /it/net/aspose.words/documentvisitor/visitsmarttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni smart tag in un documento.
 
@@ -116,7 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

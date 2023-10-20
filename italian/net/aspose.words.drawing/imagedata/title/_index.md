@@ -1,7 +1,9 @@
 ---
 title: ImageData.Title
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Definisce il titolo di unimmagine.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words per .NET
+description: ImageData Title proprietà. Definisce il titolo di unimmagine in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.drawing/imagedata/title/
@@ -14,11 +16,11 @@ Definisce il titolo di un'immagine.
 public string Title { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati dell'immagine di una forma.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

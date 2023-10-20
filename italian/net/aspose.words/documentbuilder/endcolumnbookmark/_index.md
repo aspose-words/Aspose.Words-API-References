@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come fine segnalibro di colonna. La posizione deve essere in una cella della tabella.
+linktitle: EndColumnBookmark
+articleTitle: EndColumnBookmark
+second_title: Aspose.Words per .NET
+description: DocumentBuilder EndColumnBookmark metodo. Contrassegna la posizione corrente nel documento come fine segnalibro di colonna. La posizione deve essere in una cella della tabella in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words/documentbuilder/endcolumnbookmark/
@@ -22,7 +24,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 Il nodo finale del segnalibro appena creato.
 
-### Osservazioni
+## Osservazioni
 
 Un segnalibro di colonna copre una o più colonne in un intervallo di righe. Per creare un segnalibro valido devi chiamarli entrambi[`StartColumnBookmark`](../startcolumnbookmark/) E`EndColumnBookmark` con lo stesso *bookmarkName*parametro.
 
@@ -30,7 +32,7 @@ I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno i
 
 La posizione effettiva dell'inserito[`BookmarkEnd`](../../bookmarkend/) il nodo potrebbe differire dalla posizione corrente del document builder.
 
-### Esempi
+## Esempi
 
 Mostra come creare un segnalibro di colonna.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

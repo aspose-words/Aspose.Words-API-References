@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings metodo. Reimposta le origini dei caratteri sui valori predefiniti del sistema.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words per .NET
+description: FontSettings ResetFontSources metodo. Reimposta le origini dei caratteri sui valori predefiniti del sistema in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ Reimposta le origini dei caratteri sui valori predefiniti del sistema.
 public void ResetFontSources()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### Guarda anche
 
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

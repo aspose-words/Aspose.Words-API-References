@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule classe. Regola di sostituzione delle informazioni sui caratteri.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule classe. Regola di sostituzione delle informazioni sui caratteri in C#.
 type: docs
 weight: 2940
 url: /it/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Specifica se la regola è abilitata o meno. |
 
-### Osservazioni
+## Osservazioni
 
 Secondo questa regola Aspose.Words valuta tutti i campi correlati in[`FontInfo`](../fontinfo/) (Panose, Sig ecc.) for il carattere mancante e trova la corrispondenza più simile tra le fonti di caratteri disponibili. Se[`FontInfo`](../fontinfo/)non è disponibile per il carattere mancante, non verrà fatto nulla.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

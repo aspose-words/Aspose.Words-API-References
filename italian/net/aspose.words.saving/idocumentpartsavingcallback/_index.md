@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.IDocumentPartSavingCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva parti del documento quando esporta un documento inHtml oEpub formato.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.IDocumentPartSavingCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche e controllare come Aspose.Words salva parti del documento quando esporta un documento inHtml oEpub formato in C#.
 type: docs
 weight: 5140
 url: /it/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | Chiamato quando Aspose.Words sta per salvare una parte del documento. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | Chiamato quando Aspose.Words sta per salvare una parte del documento. |
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento in parti e salvarle.
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

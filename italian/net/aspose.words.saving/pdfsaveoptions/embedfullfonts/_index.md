@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Controlla il modo in cui i caratteri vengono incorporati nei documenti PDF risultanti.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions EmbedFullFonts proprietà. Controlla il modo in cui i caratteri vengono incorporati nei documenti PDF risultanti in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ Controlla il modo in cui i caratteri vengono incorporati nei documenti PDF risul
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`, il che significa che i caratteri vengono sottoposti a sottoinsiemi prima dell'incorporamento. Il sottoinsieme è utile se desideri mantenere più piccole le dimensioni del file di output. Il sottoinsieme rimuove tutti glifi inutilizzati da un carattere.
 
@@ -22,7 +24,7 @@ Quando questo valore è impostato su`VERO`, un file di caratteri completo viene 
 
 Alcuni caratteri sono grandi (diversi megabyte) e incorporarli senza subsetting comporterà documenti di output di grandi dimensioni.
 
-### Esempi
+## Esempi
 
 Mostra come abilitare o disabilitare il sottoinsieme quando si incorporano i caratteri durante il rendering di un documento in PDF.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato con tutte lettere maiuscole.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words per .NET
+description: Font AllCaps proprietà. Vero se il carattere è formattato con tutte lettere maiuscole in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato con tutte lettere maiuscole.
 public bool AllCaps { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare un'esecuzione per visualizzarne il contenuto in maiuscolo.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

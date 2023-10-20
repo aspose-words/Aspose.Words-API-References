@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection metodo. Rimuove tutti gli elementi dalla raccolta.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection Clear metodo. Rimuove tutti gli elementi dalla raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutti gli elementi dalla raccolta.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

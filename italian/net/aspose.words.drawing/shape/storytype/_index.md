@@ -1,7 +1,9 @@
 ---
 title: Shape.StoryType
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. RestituisceTextbox .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words per .NET
+description: Shape StoryType proprietà. RestituisceTextbox  in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.drawing/shape/storytype/
@@ -14,7 +16,7 @@ RestituisceTextbox .
 public StoryType StoryType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

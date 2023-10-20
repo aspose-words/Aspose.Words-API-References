@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.ListFormat classe. Permette di controllare quale formattazione dellelenco viene applicata a un paragrafo.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.ListFormat classe. Permette di controllare quale formattazione dellelenco viene applicata a un paragrafo in C#.
 type: docs
 weight: 3480
 url: /it/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Diminuisce di un livello il livello dell'elenco del paragrafo corrente. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Rimuove numeri o punti elenco dal paragrafo corrente e imposta il livello dell'elenco su zero. |
 
-### Osservazioni
+## Osservazioni
 
 Un paragrafo in un documento di Microsoft Word può essere puntato o numerato. Quando un paragrafo è puntato o numerato, si dice che al paragrafo viene applicata la formattazione elenco .
 
@@ -51,7 +53,7 @@ La formattazione stessa dell'elenco è memorizzata all'interno di un file[`List`
 
 I paragrafi non appartengono fisicamente a un elenco. I paragrafi just fanno riferimento a un particolare oggetto elenco tramite il file[`List`](./list/) property e un particolare livello nell'elenco tramite il file[`ListLevelNumber`](./listlevelnumber/) property. Impostando queste due proprietà puoi controllare quali punti elenco e numerazioni vengono applicati a un paragrafo.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i livelli di elenco.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

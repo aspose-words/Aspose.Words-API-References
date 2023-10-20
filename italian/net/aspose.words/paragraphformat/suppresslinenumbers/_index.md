@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Specifica se le righe del paragrafo corrente devono essere esentate dalla numerazione delle righe applicata nella sezione principale.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words per .NET
+description: ParagraphFormat SuppressLineNumbers proprietà. Specifica se le righe del paragrafo corrente devono essere esentate dalla numerazione delle righe applicata nella sezione principale in C#.
 type: docs
 weight: 380
 url: /it/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ Specifica se le righe del paragrafo corrente devono essere esentate dalla numera
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come abilitare la numerazione delle righe per una sezione.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

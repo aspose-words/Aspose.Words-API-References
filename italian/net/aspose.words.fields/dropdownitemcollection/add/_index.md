@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: DropDownItemCollection metodo. Aggiunge una stringa alla fine della raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: DropDownItemCollection Add metodo. Aggiunge una stringa alla fine della raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 L'indice in base zero in cui viene inserito il nuovo elemento.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Guarda anche
 
 * class [DropDownItemCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../dropdownitemcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

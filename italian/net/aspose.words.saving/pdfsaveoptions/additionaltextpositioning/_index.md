@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Un flag che specifica se scrivere o meno operatori di posizionamento del testo aggiuntivi.
+linktitle: AdditionalTextPositioning
+articleTitle: AdditionalTextPositioning
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions AdditionalTextPositioning proprietà. Un flag che specifica se scrivere o meno operatori di posizionamento del testo aggiuntivi in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -14,13 +16,13 @@ Un flag che specifica se scrivere o meno operatori di posizionamento del testo a
 public bool AdditionalTextPositioning { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se`VERO` , ulteriori operatori di posizionamento del testo vengono scritti nel PDF di output. Ciò può aiutare a superare i problemi relativi al posizionamento impreciso del testo con alcune stampanti. Lo svantaggio è l'aumento delle dimensioni del documento PDF.
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come scrivere ulteriori operatori di posizionamento del testo.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOpti
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

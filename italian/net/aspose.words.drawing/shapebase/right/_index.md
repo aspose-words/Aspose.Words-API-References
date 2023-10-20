@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Right
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene la posizione del bordo destro del blocco contenitore della forma.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words per .NET
+description: ShapeBase Right proprietà. Ottiene la posizione del bordo destro del blocco contenitore della forma in C#.
 type: docs
 weight: 460
 url: /it/net/aspose.words.drawing/shapebase/right/
@@ -14,13 +16,13 @@ Ottiene la posizione del bordo destro del blocco contenitore della forma.
 public double Right { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per una forma di livello superiore, il valore è espresso in punti e relativo all'ancoraggio della forma.
 
 Per le forme in un gruppo, il valore è nello spazio delle coordinate e nelle unità del gruppo principale.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile e specificarne la posizione e le dimensioni.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

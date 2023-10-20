@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMajorGridlines
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta un flag che indica se lasse ha griglie principali.
+linktitle: HasMajorGridlines
+articleTitle: HasMajorGridlines
+second_title: Aspose.Words per .NET
+description: ChartAxis HasMajorGridlines proprietà. Ottiene o imposta un flag che indica se lasse ha griglie principali in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica se l'asse ha griglie principali.
 public bool HasMajorGridlines { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico con valori di data/ora.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Guarda anche
 
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Aspose.Words per .NET API Reference
-description: FieldRD proprietà. Ottiene o imposta se il percorso è relativo al documento corrente.
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: Aspose.Words per .NET
+description: FieldRD IsPathRelative proprietà. Ottiene o imposta se il percorso è relativo al documento corrente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ Ottiene o imposta se il percorso è relativo al documento corrente.
 public bool IsPathRelative { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo RD per creare voci di sommario da intestazioni di altri documenti.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Guarda anche
 
 * class [FieldRD](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldrd/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Height
-second_title: Aspose.Words per .NET API Reference
-description: HorizontalRuleFormat proprietà. Ottiene o imposta laltezza del filetto orizzontale.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words per .NET
+description: HorizontalRuleFormat Height proprietà. Ottiene o imposta laltezza del filetto orizzontale in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/horizontalruleformat/height/
@@ -20,7 +22,7 @@ public double Height { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
-### Osservazioni
+## Osservazioni
 
 Questa è una scorciatoia per[`Height`](../../shapebase/height/) proprietà.
 
@@ -28,7 +30,7 @@ I valori validi vanno da 0 a 1584 inclusi.
 
 Il valore predefinito è 1,5.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
 
@@ -51,7 +53,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Guarda anche
 
 * class [HorizontalRuleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../horizontalruleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

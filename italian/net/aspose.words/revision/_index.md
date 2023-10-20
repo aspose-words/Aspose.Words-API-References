@@ -1,7 +1,9 @@
 ---
-title: Class Revision
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Revision classe. Rappresenta una revisione modifica tracciata in un nodo o stile di documento. UtilizzoRevisionType per verificare il tipo di questa revisione.
+title: Revision Class
+linktitle: Revision
+articleTitle: Revision
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Revision classe. Rappresenta una revisione modifica tracciata in un nodo o stile di documento. UtilizzoRevisionType per verificare il tipo di questa revisione in C#.
 type: docs
 weight: 4760
 url: /it/net/aspose.words/revision/
@@ -34,7 +36,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept/)() | Accetta questa revisione. |
 | [Reject](../../aspose.words/revision/reject/)() | Rifiuta questa revisione. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le revisioni in un documento.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

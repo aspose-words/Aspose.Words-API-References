@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IFieldUpdatingCallback interfaccia. Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+title: IFieldUpdatingCallback Interface
+linktitle: IFieldUpdatingCallback
+articleTitle: IFieldUpdatingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.IFieldUpdatingCallback interfaccia. Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo in C#.
 type: docs
 weight: 2720
 url: /it/net/aspose.words.fields/ifieldupdatingcallback/
@@ -18,10 +20,10 @@ public interface IFieldUpdatingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
 
@@ -90,5 +92,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

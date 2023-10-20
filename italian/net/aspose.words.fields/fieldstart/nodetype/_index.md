@@ -1,7 +1,9 @@
 ---
 title: FieldStart.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: FieldStart proprietà. RestituisceFieldStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: FieldStart NodeType proprietà. RestituisceFieldStart  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldstart/nodetype/
@@ -14,7 +16,7 @@ RestituisceFieldStart .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldStart](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldstart/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una stringa e uninterruzione di paragrafo nel documento.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words per .NET
+description: DocumentBuilder Writeln metodo. Inserisce una stringa e uninterruzione di paragrafo nel documento in C#.
 type: docs
-weight: 670
+weight: 660
 url: /it/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Inserisce una stringa e un'interruzione di paragrafo nel documento.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | La stringa da inserire nel documento. |
 
-### Osservazioni
+## Osservazioni
 
 Carattere corrente e formattazione del paragrafo specificati dal[`Font`](../font/) E[`ParagraphFormat`](../paragraphformat/) vengono utilizzate le proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella 2x2 formattata.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ Inserisce un'interruzione di paragrafo nel documento.
 public void Writeln()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Chiamate[`InsertParagraph`](../insertparagraph/).
 
-### Esempi
+## Esempi
 
 Mostra come creare intestazioni e piè di pagina in un documento utilizzando DocumentBuilder.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

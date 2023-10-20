@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.DownOffset
-second_title: Aspose.Words per .NET API Reference
-description: FieldAdvance proprietà. Ottiene o imposta il numero di punti di cui deve essere spostato verso il basso il testo che segue il campo.
+linktitle: DownOffset
+articleTitle: DownOffset
+second_title: Aspose.Words per .NET
+description: FieldAdvance DownOffset proprietà. Ottiene o imposta il numero di punti di cui deve essere spostato verso il basso il testo che segue il campo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldadvance/downoffset/
@@ -14,7 +16,7 @@ Ottiene o imposta il numero di punti di cui deve essere spostato verso il basso 
 public string DownOffset { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo ADVANCE e modificarne le proprietà.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Guarda anche
 
 * class [FieldAdvance](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldadvance/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

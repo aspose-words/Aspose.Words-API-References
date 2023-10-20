@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.LoadFormat
-second_title: Aspose.Words per .NET API Reference
-description: FileFormatInfo proprietà. Ottiene il formato del documento rilevato.
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words per .NET
+description: FileFormatInfo LoadFormat proprietà. Ottiene il formato del documento rilevato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/fileformatinfo/loadformat/
@@ -14,11 +16,11 @@ Ottiene il formato del documento rilevato.
 public LoadFormat LoadFormat { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando un documento OOXML è crittografato, non è possibile accertare se si tratta di un documento Excel, Word o PowerPoint senza prima decrittografarlo, quindi per un documento OOXML crittografato questa proprietà restituirà sempreDocx.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la classe FileFormatUtil per rilevare il formato e la crittografia del documento.
 
@@ -93,7 +95,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatInfo](../)
-* spazio dei nomi [Aspose.Words](../../fileformatinfo/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

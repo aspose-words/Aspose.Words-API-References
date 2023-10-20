@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il carattere del tema nello schema di caratteri applicato associato a questoFont oggetto.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words per .NET
+description: Font ThemeFont proprietà. Ottiene o imposta il carattere del tema nello schema di caratteri applicato associato a questoFont oggetto in C#.
 type: docs
 weight: 470
 url: /it/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ Ottiene o imposta il carattere del tema nello schema di caratteri applicato asso
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e utilizzare lo stile a tema.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: CustomPartCollection proprietà. Ottiene o imposta un elemento nellindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: CustomPartCollection Item proprietà. Ottiene o imposta un elemento nellindice specificato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Indice in base zero dell'elemento. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

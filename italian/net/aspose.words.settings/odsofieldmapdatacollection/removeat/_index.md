@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapDataCollection metodo. Rimuove lelemento allindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapDataCollection RemoveAt metodo. Rimuove lelemento allindice specificato in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice in base zero dell'elemento. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoFieldMapDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

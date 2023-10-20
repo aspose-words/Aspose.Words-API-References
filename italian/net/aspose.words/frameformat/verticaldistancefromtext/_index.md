@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
-second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Specifica la distanza verticale in punti tra una cornice e il testo circostante.
+linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
+second_title: Aspose.Words per .NET
+description: FrameFormat VerticalDistanceFromText proprietà. Specifica la distanza verticale in punti tra una cornice e il testo circostante in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/frameformat/verticaldistancefromtext/
@@ -14,7 +16,7 @@ Specifica la distanza verticale (in punti) tra una cornice e il testo circostant
 public double VerticalDistanceFromText { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Guarda anche
 
 * class [FrameFormat](../)
-* spazio dei nomi [Aspose.Words](../../frameformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

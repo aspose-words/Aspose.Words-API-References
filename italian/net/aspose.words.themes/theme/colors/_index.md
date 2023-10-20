@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Aspose.Words per .NET API Reference
-description: Theme proprietà. Permette di specificare linsieme di colori del tema per il documento.
+linktitle: Colors
+articleTitle: Colors
+second_title: Aspose.Words per .NET
+description: Theme Colors proprietà. Permette di specificare linsieme di colori del tema per il documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ Permette di specificare l'insieme di colori del tema per il documento.
 public ThemeColors Colors { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* spazio dei nomi [Aspose.Words.Themes](../../theme/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

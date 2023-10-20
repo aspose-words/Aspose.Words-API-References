@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsPicture
-second_title: Aspose.Words per .NET API Reference
-description: FieldDdeAuto proprietà. Ottiene o imposta se inserire loggetto collegato come immagine.
+linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
+second_title: Aspose.Words per .NET
+description: FieldDdeAuto InsertAsPicture proprietà. Ottiene o imposta se inserire loggetto collegato come immagine in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldddeauto/insertaspicture/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire l'oggetto collegato come immagine.
 public bool InsertAsPicture { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldDdeAuto](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldddeauto/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

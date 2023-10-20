@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Aspose.Words per .NET API Reference
-description: ReportingEngine metodo. Compila il documento modello specificato con i dati provenienti dallorigine specificata rendendolo un report pronto.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words per .NET
+description: ReportingEngine BuildReport metodo. Compila il documento modello specificato con i dati provenienti dallorigine specificata rendendolo un report pronto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 Un flag che indica se l'analisi del documento modello ha avuto esito positivo. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
-### Osservazioni
+## Osservazioni
 
 Utilizzando questo sovraccarico è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il`BuildReport` sovraccarico per raggiungere questo obiettivo.
 
@@ -47,12 +49,12 @@ Per informazioni su come lavorare con origini dati di diverso tipo nei documenti
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 Un flag che indica se l'analisi del documento modello ha avuto esito positivo. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
-### Osservazioni
+## Osservazioni
 
 Utilizzando questo sovraccarico è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non intendi fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passaggio`nullo` oppure usa il`BuildReport` sovraccarico.
 
@@ -94,12 +96,12 @@ Per informazioni su come lavorare con origini dati di diverso tipo nei documenti
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 Compila il documento modello specificato con i dati provenienti dalle origini specificate rendendolo un report pronto.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 Un flag che indica se l'analisi del documento modello ha avuto esito positivo. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
-### Osservazioni
+## Osservazioni
 
 Utilizzando questo sovraccarico è possibile fare riferimento a più oggetti origine dati e ai relativi membri nel modello. Il nome della prima origine dati può essere omesso (cioè essere una stringa vuota oppure`nullo` se intendi fare riferimento ai membri dell'origine dati ma non all'oggetto origine dati stesso. I nomi delle altre origini dati devono essere specificati e univoci.
 
@@ -143,7 +145,5 @@ Per informazioni su come lavorare con origini dati di diverso tipo nei documenti
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
-
-

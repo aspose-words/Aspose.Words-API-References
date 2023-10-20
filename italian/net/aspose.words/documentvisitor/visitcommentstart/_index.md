@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando è iniziata lenumerazione del testo di un commento.
+linktitle: VisitCommentStart
+articleTitle: VisitCommentStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitCommentStart metodo. Chiamato quando è iniziata lenumerazione del testo di un commento in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/documentvisitor/visitcommentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentStart(Comment comment)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni commento e intervallo di commenti in un documento.
 
@@ -334,7 +336,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Vba.VbaReferenceCollection classe. Rappresenta una raccolta diVbaReference oggetti.
+title: VbaReferenceCollection Class
+linktitle: VbaReferenceCollection
+articleTitle: VbaReferenceCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Vba.VbaReferenceCollection classe. Rappresenta una raccolta diVbaReference oggetti in C#.
 type: docs
 weight: 6600
 url: /it/net/aspose.words.vba/vbareferencecollection/
@@ -27,10 +29,10 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../vbareference/) elemento della collezione. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Rimuove il[`VbaReference`](../vbareference/) elemento all'indice specificato della raccolta. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../vbareference/) elemento della collezione. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Rimuove il[`VbaReference`](../vbareference/) elemento all'indice specificato della raccolta. |
 
-### Esempi
+## Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
@@ -106,5 +108,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 * class [VbaReference](../vbareference/)
 * spazio dei nomi [Aspose.Words.Vba](../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../)
-
-

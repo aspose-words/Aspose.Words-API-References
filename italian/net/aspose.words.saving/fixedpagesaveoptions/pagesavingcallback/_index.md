@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions proprietà. Permette di controllare come vengono salvate le pagine separate quando un documento viene esportato in un formato di pagina fisso.
+linktitle: PageSavingCallback
+articleTitle: PageSavingCallback
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions PageSavingCallback proprietà. Permette di controllare come vengono salvate le pagine separate quando un documento viene esportato in un formato di pagina fisso in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
@@ -14,7 +16,7 @@ Permette di controllare come vengono salvate le pagine separate quando un docume
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per salvare un documento in HTML pagina per pagina.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum Direction
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Shaping.Direction enum. Direzione del testo.
+title: Direction Enum
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Shaping.Direction enum. Direzione del testo in C#.
 type: docs
 weight: 6020
 url: /it/net/aspose.words.shaping/direction/
@@ -28,5 +30,3 @@ public enum Direction
 
 * spazio dei nomi [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../)
-
-

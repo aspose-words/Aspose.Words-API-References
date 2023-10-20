@@ -1,7 +1,9 @@
 ---
-title: Class OleControl
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Ole.OleControl classe. Rappresenta il controllo OLE ActiveX.
+title: OleControl Class
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Ole.OleControl classe. Rappresenta il controllo OLE ActiveX in C#.
 type: docs
 weight: 1140
 url: /it/net/aspose.words.drawing.ole/olecontrol/
@@ -23,7 +25,7 @@ public class OleControl
 | [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | Restituisce`VERO` se il controllo è a[`Forms2OleControl`](../forms2olecontrol/) . |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | Ottiene o imposta il nome del controllo ActiveX. |
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà di un controllo ActiveX.
 
@@ -54,5 +56,3 @@ if (oleControl.IsForms2OleControl)
 
 * spazio dei nomi [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../)
-
-

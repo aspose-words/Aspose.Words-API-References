@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Layout namespace fornisce classi che consentono di accedere a informazioni come su quale pagina e dove su una pagina sono posizionati particolari elementi del documento  quando il documento è formattato in pagine.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Layout namespace fornisce classi che consentono di accedere a informazioni come su quale pagina e dove su una pagina sono posizionati particolari elementi del documento  quando il documento è formattato in pagine in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.layout/
 ---
-IL **Aspose.Words.Layout** namespace fornisce classi che consentono di accedere a informazioni come su quale pagina e dove su una pagina sono posizionati particolari elementi del documento , quando il documento è formattato in pagine.
+IL**Aspose.Words.Layout** namespace fornisce classi che consentono di accedere a informazioni come su quale pagina e dove su una pagina sono posizionati particolari elementi del documento , quando il documento è formattato in pagine.
 
 ## Classi
 
@@ -33,5 +35,3 @@ IL **Aspose.Words.Layout** namespace fornisce classi che consentono di accedere 
 | [RevisionColor](./revisioncolor/) | Permette di specificare il colore delle revisioni del documento. |
 | [RevisionTextEffect](./revisiontexteffect/) | Permette di specificare l'effetto decorativo per le revisioni del testo del documento. |
 | [ShowInBalloons](./showinballoons/) | Specifica quali revisioni vengono visualizzate nei fumetti. |
-
-

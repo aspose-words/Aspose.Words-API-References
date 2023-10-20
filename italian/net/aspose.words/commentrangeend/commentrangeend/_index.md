@@ -1,7 +1,9 @@
 ---
-title: CommentRangeEnd.CommentRangeEnd
-second_title: Aspose.Words per .NET API Reference
-description: CommentRangeEnd costruttore. Inizializza una nuova istanza di questa classe.
+title: CommentRangeEnd
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words per .NET
+description: CommentRangeEnd costruttore. Inizializza una nuova istanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/commentrangeend/commentrangeend/
@@ -19,13 +21,13 @@ public CommentRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Il documento del proprietario. |
 | id | Int32 | L'identificatore del commento a cui è collegato questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 Quando[`CommentRangeEnd`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`nullo`.
 
 Per aggiungere a[`CommentRangeEnd`](../) al documento utilizzare InsertAfter o InsertBefore sul paragrafo in cui si desidera inserire il commento.
 
-### Esempi
+## Esempi
 
 Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeEnd](../)
-* spazio dei nomi [Aspose.Words](../../commentrangeend/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

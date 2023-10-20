@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.LayoutEnumerator classe. Enumera le entità di layout di pagina di un documento. Puoi utilizzare questa classe per esplorare il modello di layout di pagina. Le proprietà disponibili sono tipo geometria testo e indice di pagina in cui viene visualizzata lentità nonché struttura e relazioni generali. Utilizza una combinazione diGetEntity ECurrent passare allentità che corrisponde a un nodo del documento.
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Layout.LayoutEnumerator classe. Enumera le entità di layout di pagina di un documento. Puoi utilizzare questa classe per esplorare il modello di layout di pagina. Le proprietà disponibili sono tipo geometria testo e indice di pagina in cui viene visualizzata lentità nonché struttura e relazioni generali. Utilizza una combinazione diGetEntity ECurrent passare allentità che corrisponde a un nodo del documento in C#.
 type: docs
 weight: 3340
 url: /it/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | Nome | Descrizione |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | Inizializza la nuova istanza di questa classe. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | Inizializza la nuova istanza di questa classe. |
 
 ## Proprietà
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Passa all'entità di pari livello successiva in ordine visivo. Quando si ripetono le righe di un paragrafo interrotte su più pagine, questo metodo non si sposterà alla pagina successiva ma piuttosto si sposterà all'entità successiva sulla stessa pagina. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Passa all'entità di pari livello successiva in ordine logico. Quando si ripetono le righe di un paragrafo interrotte su più pagine, questo metodo si sposterà alla riga successiva anche se risiede su un'altra pagina. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Passa all'entità principale. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Passa all'entità principale del tipo specificato. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | Passa all'entità principale del tipo specificato. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Passa all'entità gemella precedente. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Passa all'entità gemella precedente in ordine logico. Quando si ripetono le righe di un paragrafo spezzate su più pagine, questo metodo si sposterà alla riga precedente anche se risiede su un'altra pagina. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Sposta l'enumeratore alla prima pagina del documento. |
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../)
-
-

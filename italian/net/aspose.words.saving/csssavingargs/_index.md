@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.CssSavingArgs classe. Fornisce i dati per ilCssSaving evento.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.CssSavingArgs classe. Fornisce i dati per ilCssSaving evento in C#.
 type: docs
 weight: 4880
 url: /it/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | Permette di specificare se il CSS verrà esportato in un file e incorporato nel documento HTML. L'impostazione predefinita è`VERO` . Quando questa proprietà è`falso` , le informazioni CSS non verranno salvate in un file CSS e non saranno incorporate nel documento HTML. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato un'informazione CSS. |
 
-### Osservazioni
+## Osservazioni
 
-Per impostazione predefinita, quando Aspose.Words salva un documento in HTML, salva le informazioni CSS inline (come valore del **stile** attributo su ogni elemento).
+Per impostazione predefinita, quando Aspose.Words salva un documento in HTML, salva le informazioni CSS inline (come valore del**stile** attributo su ogni elemento).
 
 `CssSavingArgs`consente di salvare le informazioni CSS in un file fornendo il proprio oggetto stream.
 
@@ -35,7 +37,7 @@ Per salvare CSS nello stream, utilizzare il file[`CssStream`](./cssstream/) prop
 
 Per sopprimere il salvataggio dei CSS in un file e l'incorporamento nel documento HTML, utilizzare il file[`IsExportNeeded`](./isexportneeded/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i fogli di stile CSS creati da una conversione HTML.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

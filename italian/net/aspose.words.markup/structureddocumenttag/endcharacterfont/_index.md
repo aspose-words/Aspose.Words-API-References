@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Formattazione del carattere che verrà applicata allultimo carattere del testo immesso SDT .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag EndCharacterFont proprietà. Formattazione del carattere che verrà applicata allultimo carattere del testo immessoSDT  in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Formattazione del carattere che verrà applicata all'ultimo carattere del testo immesso **SDT** .
+Formattazione del carattere che verrà applicata all'ultimo carattere del testo immesso**SDT** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

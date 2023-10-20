@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta se eseguire le voci secondarie nella stessa riga della voce principale.
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: Aspose.Words per .NET
+description: FieldIndex RunSubentriesOnSameLine proprietà. Ottiene o imposta se eseguire le voci secondarie nella stessa riga della voce principale in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ Ottiene o imposta se eseguire le voci secondarie nella stessa riga della voce pr
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le voci secondarie in un campo INDICE.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

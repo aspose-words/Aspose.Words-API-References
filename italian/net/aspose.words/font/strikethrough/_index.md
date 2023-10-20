@@ -1,7 +1,9 @@
 ---
 title: Font.StrikeThrough
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come testo barrato.
+linktitle: StrikeThrough
+articleTitle: StrikeThrough
+second_title: Aspose.Words per .NET
+description: Font StrikeThrough proprietà. Vero se il carattere è formattato come testo barrato in C#.
 type: docs
 weight: 390
 url: /it/net/aspose.words/font/strikethrough/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come testo barrato.
 public bool StrikeThrough { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere una riga barrata al testo.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Font.StrikeThrough.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

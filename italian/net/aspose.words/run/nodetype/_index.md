@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Run proprietà. RestituisceRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Run NodeType proprietà. RestituisceRun  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ RestituisceRun .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* spazio dei nomi [Aspose.Words](../../run/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

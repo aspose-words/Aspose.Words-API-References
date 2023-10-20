@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<CustomXmlProperty> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

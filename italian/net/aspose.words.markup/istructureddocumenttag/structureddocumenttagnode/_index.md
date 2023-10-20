@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
-second_title: Aspose.Words per .NET API Reference
-description: IStructuredDocumentTag metodo. Restituisce loggetto Node che implementa questa interfaccia.
+linktitle: StructuredDocumentTagNode
+articleTitle: StructuredDocumentTagNode
+second_title: Aspose.Words per .NET
+description: IStructuredDocumentTag StructuredDocumentTagNode metodo. Restituisce loggetto Node che implementa questa interfaccia in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
@@ -18,7 +20,5 @@ public Node StructuredDocumentTagNode()
 
 * class [Node](../../../aspose.words/node/)
 * interface [IStructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../istructureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

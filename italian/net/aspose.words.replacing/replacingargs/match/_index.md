@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Aspose.Words per .NET API Reference
-description: ReplacingArgs proprietà. IlMatch risultante da una singola corrispondenza di espressione regolari durante a Sostituire .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words per .NET
+description: ReplacingArgs Match proprietà. IlMatch risultante da una singola corrispondenza di espressione regolari durante aSostituire  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-IlMatch risultante da una singola corrispondenza di espressione regolari durante a **Sostituire** .
+IlMatch risultante da una singola corrispondenza di espressione regolari durante a**Sostituire** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 **Corrispondenza.Indice"** ottiene la posizione Starting in base zero della corrispondenza dall'inizio dell'intervallo di ricerca e sostituzione.
 
-### Esempi
+## Esempi
 
 Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Guarda anche
 
 * class [ReplacingArgs](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../replacingargs/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

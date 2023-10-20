@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.ExportHeadersFootersMode enum. Specifica la modalità di esportazione di intestazioni e piè di pagina in HTML MHTML o EPUB.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode enum. Specifica la modalità di esportazione di intestazioni e piè di pagina in HTML MHTML o EPUB in C#.
 type: docs
 weight: 5000
 url: /it/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | L'intestazione principale della prima sezione viene esportata all'inizio del documento e il piè di pagina principale è alla fine. |
 | FirstPageHeaderFooterPerSection | `3` | L'intestazione e il piè di pagina della prima pagina vengono esportati all'inizio e alla fine di ogni sezione. |
 
-### Esempi
+## Esempi
 
 Mostra come omettere intestazioni/piè di pagina quando si salva un documento in HTML.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

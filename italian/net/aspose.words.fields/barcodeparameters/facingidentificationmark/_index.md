@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FacingIdentificationMark
-second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Tipo di segno di identificazione del fronte FIM.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words per .NET
+description: BarcodeParameters FacingIdentificationMark proprietà. Tipo di segno di identificazione del fronte FIM in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
@@ -14,7 +16,7 @@ Tipo di segno di identificazione del fronte (FIM).
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Guarda anche
 
 * class [BarcodeParameters](../)
-* spazio dei nomi [Aspose.Words.Fields](../../barcodeparameters/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

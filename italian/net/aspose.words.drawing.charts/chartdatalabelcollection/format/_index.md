@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Format
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Fornisce laccesso al riempimento e alla formattazione della riga delle etichette dati.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection Format proprietà. Fornisce laccesso al riempimento e alla formattazione della riga delle etichette dati in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -14,7 +16,7 @@ Fornisce l'accesso al riempimento e alla formattazione della riga delle etichett
 public ChartFormat Format { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione di riempimento, tratto e didascalia per le etichette dei dati del grafico.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

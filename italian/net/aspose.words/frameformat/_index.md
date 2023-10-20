@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.FrameFormat classe. Rappresenta la formattazione relativa al frame per un paragrafo.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.FrameFormat classe. Rappresenta la formattazione relativa al frame per un paragrafo in C#.
 type: docs
 weight: 3070
 url: /it/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Ottiene la distanza verticale tra il bordo del frame e l'elemento specificato da[`RelativeVerticalPosition`](./relativeverticalposition/) proprietà. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Ottiene la larghezza del frame specificato, in punti. |
 
-### Osservazioni
+## Osservazioni
 
 Questo oggetto viene sempre creato. Se un paragrafo è una cornice, tutte le proprietà conterranno i rispettivi valori, altrimenti tutte le proprietà verranno impostate sui valori predefiniti.
 
 Utilizzo[`IsFrame`](./isframe/) per verificare se il paragrafo è una cornice.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

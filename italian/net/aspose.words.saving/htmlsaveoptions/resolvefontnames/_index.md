@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se i nomi delle famiglie di caratteri utilizzati nel documento vengono risolti e sostituiti in base a FontSettings quando viene scritto in formati basati su HTML.
+linktitle: ResolveFontNames
+articleTitle: ResolveFontNames
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ResolveFontNames proprietà. Specifica se i nomi delle famiglie di caratteri utilizzati nel documento vengono risolti e sostituiti in base a FontSettings quando viene scritto in formati basati su HTML in C#.
 type: docs
 weight: 410
 url: /it/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
@@ -14,13 +16,13 @@ Specifica se i nomi delle famiglie di caratteri utilizzati nel documento vengono
 public bool ResolveFontNames { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per impostazione predefinita, questa opzione è impostata su`falso` e i nomi delle famiglie di caratteri vengono scritti in HTML come specificato nei documenti di origine. Questo è,[`FontSettings`](../../../aspose.words/document/fontsettings/) vengono ignorati e non viene eseguita alcuna risoluzione o sostituzione dei nomi delle famiglie di caratteri.
 
 Se questa opzione è impostata su`VERO` , Aspose.Words utilizza[`FontSettings`](../../../aspose.words/document/fontsettings/) per risolvere ogni nome di famiglia di caratteri specificato in un documento di origine nel nome di una famiglia di caratteri disponibile, eseguendo la sostituzione di caratteri come richiesto.
 
-### Esempi
+## Esempi
 
 Mostra come risolvere tutti i nomi dei caratteri prima di scriverli in HTML.
 
@@ -64,7 +66,5 @@ Assert.True(resolveFontNames
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

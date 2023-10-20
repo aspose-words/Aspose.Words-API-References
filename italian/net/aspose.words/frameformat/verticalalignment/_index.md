@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalAlignment
-second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Ottiene lallineamento verticale del frame specificato.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words per .NET
+description: FrameFormat VerticalAlignment proprietà. Ottiene lallineamento verticale del frame specificato in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/frameformat/verticalalignment/
@@ -14,7 +16,7 @@ Ottiene l'allineamento verticale del frame specificato.
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [FrameFormat](../)
-* spazio dei nomi [Aspose.Words](../../frameformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

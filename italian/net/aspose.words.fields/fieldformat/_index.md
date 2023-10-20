@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldFormat classe. Fornisce laccesso digitato ai valori numerici alla data e allora del campo e alla formattazione generale.
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldFormat classe. Fornisce laccesso digitato ai valori numerici alla data e allora del campo e alla formattazione generale in C#.
 type: docs
 weight: 1940
 url: /it/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Ottiene una raccolta di formati generali applicati a un risultato numerico, di testo o di qualsiasi campo. Corrisponde alle opzioni \*. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Ottiene o imposta una formattazione applicata al risultato di un campo numerico. Corrisponde all'opzione \#. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HeightRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.HeightRule enum. Specifica la regola per determinare laltezza di un oggetto.
+title: HeightRule Enum
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.HeightRule enum. Specifica la regola per determinare laltezza di un oggetto in C#.
 type: docs
 weight: 3130
 url: /it/net/aspose.words/heightrule/
@@ -22,7 +24,7 @@ public enum HeightRule
 | Exactly | `1` | L'altezza è specificata esattamente in punti. Tieni presente che se il testo non riesce a entrare nell'oggetto di questa altezza, apparirà troncato. |
 | Auto | `2` | L'altezza aumenterà automaticamente per accogliere tutto il testo all'interno di un oggetto. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare le righe con un generatore di documenti.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

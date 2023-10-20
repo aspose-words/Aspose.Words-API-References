@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Aspose.Words per .NET API Reference
-description: RowFormat proprietà. Vero se il testo in una riga di tabella può essere suddiviso in uninterruzione di pagina.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words per .NET
+description: RowFormat AllowBreakAcrossPages proprietà. Vero se il testo in una riga di tabella può essere suddiviso in uninterruzione di pagina in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ Vero se il testo in una riga di tabella può essere suddiviso in un'interruzione
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come disabilitare la suddivisione delle righe tra le pagine per ogni riga di una tabella.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Guarda anche
 
 * class [RowFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../rowformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

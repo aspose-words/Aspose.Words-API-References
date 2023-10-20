@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientData proprietà. Specifica il contenuto di un determinato record nella colonna contenente dati univoci. Il valore predefinito ènullo .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words per .NET
+description: OdsoRecipientData UniqueTag proprietà. Specifica il contenuto di un determinato record nella colonna contenente dati univoci. Il valore predefinito ènullo  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ Specifica il contenuto di un determinato record nella colonna contenente dati un
 public byte[] UniqueTag { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

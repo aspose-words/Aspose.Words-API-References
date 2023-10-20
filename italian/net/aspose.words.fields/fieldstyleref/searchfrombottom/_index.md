@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SearchFromBottom
-second_title: Aspose.Words per .NET API Reference
-description: FieldStyleRef proprietà. Ottiene o imposta se effettuare la ricerca dal fondo della pagina corrente anziché dallalto.
+linktitle: SearchFromBottom
+articleTitle: SearchFromBottom
+second_title: Aspose.Words per .NET
+description: FieldStyleRef SearchFromBottom proprietà. Ottiene o imposta se effettuare la ricerca dal fondo della pagina corrente anziché dallalto in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldstyleref/searchfrombottom/
@@ -14,7 +16,7 @@ Ottiene o imposta se effettuare la ricerca dal fondo della pagina corrente, anzi
 public bool SearchFromBottom { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Guarda anche
 
 * class [FieldStyleRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldstyleref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

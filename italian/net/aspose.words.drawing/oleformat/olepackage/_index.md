@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OlePackage
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Fornisci laccesso aOlePackage se loggetto OLE è un pacchetto OLE. Restituiscenullo altrimenti.
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words per .NET
+description: OleFormat OlePackage proprietà. Fornisci laccesso aOlePackage se loggetto OLE è un pacchetto OLE. Restituiscenullo altrimenti in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing/oleformat/olepackage/
@@ -14,11 +16,11 @@ Fornisci l'accesso a[`OlePackage`](../../olepackage/) se l'oggetto OLE è un pac
 public OlePackage OlePackage { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il pacchetto OLE è una tecnologia legacy che consente di racchiudere qualsiasi formato di file non presente nel registro OLE di un sistema Windows in un pacchetto generico che consente di incorporare quasi qualsiasi cosa in un documento. Vedi[`OlePackage`](../../olepackage/) digita per maggiori informazioni.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un oggetto OLE in un documento.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * class [OlePackage](../../olepackage/)
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

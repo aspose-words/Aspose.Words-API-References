@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
-second_title: Aspose.Words per .NET API Reference
-description: ImageFieldMergingArgs proprietà. Specifica laltezza dellimmagine da inserire nel documento.
+linktitle: ImageHeight
+articleTitle: ImageHeight
+second_title: Aspose.Words per .NET
+description: ImageFieldMergingArgs ImageHeight proprietà. Specifica laltezza dellimmagine da inserire nel documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -14,13 +16,13 @@ Specifica l'altezza dell'immagine da inserire nel documento.
 public MergeFieldImageDimension ImageHeight { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore di questa proprietà proviene inizialmente dal codice MERGEFIELD corrispondente, contenuto nel documento template . Per sovrascrivere il valore iniziale, dovresti assegnare un'istanza di [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class su questa proprietà o impostare le proprietà per l'istanza di[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, restituita da questa proprietà.
 
 Per indicare che deve essere applicato il valore originale dell'altezza dell'immagine, è necessario assegnare il file`nullo` su questa proprietà o imposta il file[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) proprietà per l'istanza di[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, restituita da questa proprietà, su un valore negativo.
 
-### Esempi
+## Esempi
 
 Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

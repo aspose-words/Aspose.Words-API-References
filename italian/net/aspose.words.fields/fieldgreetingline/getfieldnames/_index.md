@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Aspose.Words per .NET API Reference
-description: FieldGreetingLine metodo. Restituisce una raccolta di nomi di campi di stampa unione utilizzati dal campo.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words per .NET
+description: FieldGreetingLine GetFieldNames metodo. Restituisce una raccolta di nomi di campi di stampa unione utilizzati dal campo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ Restituisce una raccolta di nomi di campi di stampa unione utilizzati dal campo.
 public string[] GetFieldNames()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Guarda anche
 
 * class [FieldGreetingLine](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldgreetingline/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

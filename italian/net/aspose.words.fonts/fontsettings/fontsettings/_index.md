@@ -1,7 +1,9 @@
 ---
-title: FontSettings.FontSettings
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings costruttore. Default_Costruttore
+title: FontSettings
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words per .NET
+description: FontSettings costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontsettings/fontsettings/
@@ -17,7 +19,5 @@ public FontSettings()
 ### Guarda anche
 
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

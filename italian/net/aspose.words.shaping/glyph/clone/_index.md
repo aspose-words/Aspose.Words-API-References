@@ -1,7 +1,9 @@
 ---
 title: Glyph.Clone
-second_title: Aspose.Words per .NET API Reference
-description: Glyph metodo. Restituisce un clone di questa istanza.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: Glyph Clone metodo. Restituisce un clone di questa istanza in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.shaping/glyph/clone/
@@ -17,7 +19,5 @@ public virtual Glyph Clone()
 ### Guarda anche
 
 * class [Glyph](../)
-* spazio dei nomi [Aspose.Words.Shaping](../../glyph/)
+* spazio dei nomi [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../../)
-
-

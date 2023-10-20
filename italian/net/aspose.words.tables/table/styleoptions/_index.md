@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta flag di bit che specificano come viene applicato uno stile di tabella a questa tabella.
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: Aspose.Words per .NET
+description: Table StyleOptions proprietà. Ottiene o imposta flag di bit che specificano come viene applicato uno stile di tabella a questa tabella in C#.
 type: docs
 weight: 300
 url: /it/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ Ottiene o imposta flag di bit che specificano come viene applicato uno stile di 
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una nuova tabella durante l'applicazione di uno stile.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

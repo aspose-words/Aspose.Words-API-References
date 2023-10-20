@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Un flag che specifica se la barra del titolo della finestra deve visualizzare il titolo del documento preso da la voce Titolo del dizionario delle informazioni del documento.
+linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions DisplayDocTitle proprietà. Un flag che specifica se la barra del titolo della finestra deve visualizzare il titolo del documento preso da la voce Titolo del dizionario delle informazioni del documento in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
@@ -14,7 +16,7 @@ Un flag che specifica se la barra del titolo della finestra deve visualizzare il
 public bool DisplayDocTitle { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se`falso`, la barra del titolo dovrebbe invece visualizzare il nome del file PDF contenente il documento.
 
@@ -22,7 +24,7 @@ Questo flag è richiesto dalla conformità PDF/UA.`VERO` il valore verrà utiliz
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare il titolo del documento come barra del titolo.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Aspose.Words per .NET API Reference
-description: Range proprietà. Restituisce aFormFields raccolta che rappresenta tutti i campi del modulo nellintervallo.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words per .NET
+description: Range FormFields proprietà. Restituisce aFormFields raccolta che rappresenta tutti i campi del modulo nellintervallo in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ Restituisce a`FormFields` raccolta che rappresenta tutti i campi del modulo nell
 public FormFieldCollection FormFields { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

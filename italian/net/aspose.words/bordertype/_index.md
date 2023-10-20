@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BorderType enum. Specifica i lati di un bordo.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BorderType enum. Specifica i lati di un bordo in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | Specifica il bordo diagonale in una cella di tabella. |
 | DiagonalUp | `7` | Specifica il bordo diagonale in una cella di tabella. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo con un bordo superiore.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

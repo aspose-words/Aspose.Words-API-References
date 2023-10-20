@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlock proprietà. Ottiene o imposta il nome di questo blocco predefinito.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: BuildingBlock Name proprietà. Ottiene o imposta il nome di questo blocco predefinito in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ Ottiene o imposta il nome di questo blocco predefinito.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il nome può contenere qualsiasi stringa, in genere un identificatore descrittivo. Più blocchi predefiniti possono avere lo stesso nome.
 
 Non può essere`nullo` e non può essere una stringa vuota.
 
-Corrisponde a **docPartPr.nome** elemento in OOXML.
+Corrisponde a**docPartPr.nome** elemento in OOXML.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [BuildingBlock](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

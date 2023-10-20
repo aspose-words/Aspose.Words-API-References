@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Bookmark
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkStart proprietà. Ottiene loggetto facciata che incapsula linizio e la fine di questo segnalibro.
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words per .NET
+description: BookmarkStart Bookmark proprietà. Ottiene loggetto facciata che incapsula linizio e la fine di questo segnalibro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/bookmarkstart/bookmark/
@@ -14,7 +16,7 @@ Ottiene l'oggetto facciata che incapsula l'inizio e la fine di questo segnalibro
 public Bookmark Bookmark { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkStart](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkstart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

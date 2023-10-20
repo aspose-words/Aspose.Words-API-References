@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Company
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Ottiene o imposta la proprietà dellazienda.
+linktitle: Company
+articleTitle: Company
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties Company proprietà. Ottiene o imposta la proprietà dellazienda in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.properties/builtindocumentproperties/company/
@@ -14,7 +16,7 @@ Ottiene o imposta la proprietà dell'azienda.
 public string Company { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

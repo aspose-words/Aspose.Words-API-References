@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words per .NET API Reference
-description: FontSubstitutionSettings proprietà. Impostazioni relative alla regola di sostituzione dei caratteri predefinita.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words per .NET
+description: FontSubstitutionSettings DefaultFontSubstitution proprietà. Impostazioni relative alla regola di sostituzione dei caratteri predefinita in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ Impostazioni relative alla regola di sostituzione dei caratteri predefinita.
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la regola di sostituzione dei caratteri predefinita.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

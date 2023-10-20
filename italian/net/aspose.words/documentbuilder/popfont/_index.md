@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Recupera la formattazione dei caratteri precedentemente salvata nello stack.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words per .NET
+description: DocumentBuilder PopFont metodo. Recupera la formattazione dei caratteri precedentemente salvata nello stack in C#.
 type: docs
-weight: 600
+weight: 590
 url: /it/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ Recupera la formattazione dei caratteri precedentemente salvata nello stack.
 public void PopFont()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare lo stack di formattazione di un generatore di documenti.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Controlla il modo in cui i campi del modulo a discesa vengono salvati in HTML o MHTML. Il valore predefinito èfalso .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText proprietà. Controlla il modo in cui i campi del modulo a discesa vengono salvati in HTML o MHTML. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ Controlla il modo in cui i campi del modulo a discesa vengono salvati in HTML o 
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando impostato su`VERO` , esporta i campi del modulo a discesa come testo normale. Quando`falso`, esporta i campi del modulo a discesa come elemento SELECT in HTML.
 
 Quando si esporta in EPUB, i campi del modulo a discesa di testo vengono sempre salvati come testo a causa dei requisiti di questo formato.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere che i campi del modulo della casella combinata a discesa si fondano con il testo del paragrafo durante il salvataggio in HTML.
 
@@ -58,7 +60,5 @@ else
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

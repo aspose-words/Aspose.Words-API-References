@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureUtil
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil classe. Fornisce metodi per firmare il documento.
+title: DigitalSignatureUtil Class
+linktitle: DigitalSignatureUtil
+articleTitle: DigitalSignatureUtil
+second_title: Aspose.Words per .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil classe. Fornisce metodi per firmare il documento in C#.
 type: docs
 weight: 410
 url: /it/net/aspose.words.digitalsignatures/digitalsignatureutil/
@@ -20,22 +22,22 @@ public static class DigitalSignatureUtil
 
 | Nome | Descrizione |
 | --- | --- |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(Stream) | Carica le firme digitali dal documento utilizzando stream. |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(string) | Carica le firme digitali dal documento. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(Stream, Stream) | Rimuove tutte le firme digitali dal documento nel flusso di origine e scrive il documento non firmato nel flusso di destinazione. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(string, string) | Rimuove tutte le firme digitali dal file di origine e scrive il file non firmato nel file di destinazione. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(Stream, Stream, CertificateHolder) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/)con firma digitale e scrive il documento firmato nel flusso di destinazione. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(string, string, CertificateHolder) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/) con firma digitale e scrive il documento firmato nel file di destinazione. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(Stream, Stream, CertificateHolder, SignOptions) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/) E[`SignOptions`](../signoptions/) con firma digitale e scrive il documento firmato nel flusso di destinazione. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(string, string, CertificateHolder, SignOptions) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/) E[`SignOptions`](../signoptions/) con firma digitale e scrive il documento firmato nel file di destinazione. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(*Stream*) | Carica le firme digitali dal documento utilizzando stream. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(*string*) | Carica le firme digitali dal documento. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(*Stream, Stream*) | Rimuove tutte le firme digitali dal documento nel flusso di origine e scrive il documento non firmato nel flusso di destinazione. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(*string, string*) | Rimuove tutte le firme digitali dal file di origine e scrive il file non firmato nel file di destinazione. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(*Stream, Stream, [CertificateHolder](../certificateholder/)*) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/)con firma digitale e scrive il documento firmato nel flusso di destinazione. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(*string, string, [CertificateHolder](../certificateholder/)*) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/) con firma digitale e scrive il documento firmato nel file di destinazione. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(*Stream, Stream, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/) E[`SignOptions`](../signoptions/) con firma digitale e scrive il documento firmato nel flusso di destinazione. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(*string, string, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Firma il documento di origine utilizzando specificato[`CertificateHolder`](../certificateholder/) E[`SignOptions`](../signoptions/) con firma digitale e scrive il documento firmato nel file di destinazione. |
 
-### Osservazioni
+## Osservazioni
 
 Poiché la firma digitale funziona con il contenuto del file anziché con il Document Object Model, questi metodi vengono inseriti in una classe separata.
 
 I formati supportati sonoDoc EDocx.
 
-### Esempi
+## Esempi
 
 Mostra come caricare le firme da un documento firmato digitalmente.
 
@@ -83,5 +85,3 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * spazio dei nomi [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../)
-
-

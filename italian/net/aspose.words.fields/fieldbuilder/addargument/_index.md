@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Aspose.Words per .NET API Reference
-description: FieldBuilder metodo. Aggiunge largomento di un campo.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words per .NET
+description: FieldBuilder AddArgument metodo. Aggiunge largomento di un campo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 Aggiunge l'argomento di un campo.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | Il valore dell'argomento. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 Aggiunge l'argomento di un campo.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | Il valore dell'argomento. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 Aggiunge l'argomento di un campo.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | Il valore dell'argomento. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 Aggiunge un campo figlio rappresentato da un altro[`FieldBuilder`](../) al codice del campo.
 
@@ -314,11 +316,11 @@ Aggiunge un campo figlio rappresentato da un altro[`FieldBuilder`](../) al codic
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo sovraccarico viene utilizzato quando l'argomento è costituito da un singolo campo figlio.
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 Aggiunge l'argomento di un campo rappresentato da[`FieldArgumentBuilder`](../../fieldargumentbuilder/) al codice del campo.
 
@@ -414,11 +416,11 @@ Aggiunge l'argomento di un campo rappresentato da[`FieldArgumentBuilder`](../../
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo sovraccarico viene utilizzato quando l'argomento è costituito da una combinazione di parti diverse come campi figlio, nodi e testo semplice.
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

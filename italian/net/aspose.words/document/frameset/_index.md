@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Restituisce aFramesetesempio se questo documento rappresenta una pagina con frame.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words per .NET
+description: Document Frameset proprietà. Restituisce aFramesetesempio se questo documento rappresenta una pagina con frame in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ Restituisce a`Frameset`esempio se questo documento rappresenta una pagina con fr
 public Frameset Frameset { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se il documento non è incorniciato, la proprietà ha il`nullo` valore.
 
-### Esempi
+## Esempi
 
 Mostra come accedere ai frame sulla pagina.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: CustomPartCollection proprietà. Ottiene il numero di elementi contenuti nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: CustomPartCollection Count proprietà. Ottiene il numero di elementi contenuti nella raccolta in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/custompartcollection/count/
@@ -14,7 +16,7 @@ Ottiene il numero di elementi contenuti nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Guarda anche
 
 * class [CustomPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

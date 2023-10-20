@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback interfaccia. Implementa questa interfaccia se desideri monitorare lavanzamento dellaggiornamento sul campo.
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback interfaccia. Implementa questa interfaccia se desideri monitorare lavanzamento dellaggiornamento sul campo in C#.
 type: docs
 weight: 2730
 url: /it/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | Un metodo definito dall'utente che viene chiamato quando viene modificato l'avanzamento dell'aggiornamento. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Un metodo definito dall'utente che viene chiamato quando viene modificato l'avanzamento dell'aggiornamento. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

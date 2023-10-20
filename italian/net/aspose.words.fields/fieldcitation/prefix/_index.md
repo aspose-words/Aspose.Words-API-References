@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Aspose.Words per .NET API Reference
-description: FieldCitation proprietà. Ottiene o imposta un prefisso anteposto alla citazione.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words per .NET
+description: FieldCitation Prefix proprietà. Ottiene o imposta un prefisso anteposto alla citazione in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ Ottiene o imposta un prefisso anteposto alla citazione.
 public string Prefix { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i campi CITAZIONE e BIBLIOGRAFIA.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Guarda anche
 
 * class [FieldCitation](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldcitation/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

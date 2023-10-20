@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Aspose.Words per .NET API Reference
-description: TableStyle proprietà. Ottiene o imposta un numero di righe da includere nella suddivisione quando lo stile specifica la suddivisione delle righe pari/dispari.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words per .NET
+description: TableStyle RowStripe proprietà. Ottiene o imposta un numero di righe da includere nella suddivisione quando lo stile specifica la suddivisione delle righe pari/dispari in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ Ottiene o imposta un numero di righe da includere nella suddivisione quando lo s
 public int RowStripe { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare stili di tabella condizionali che si alternano tra le righe.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Guarda anche
 
 * class [TableStyle](../)
-* spazio dei nomi [Aspose.Words](../../tablestyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

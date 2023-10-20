@@ -1,7 +1,9 @@
 ---
 title: FieldImport.IsLinked
-second_title: Aspose.Words per .NET API Reference
-description: FieldImport proprietà. Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati grafici con il documento.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words per .NET
+description: FieldImport IsLinked proprietà. Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati grafici con il documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldimport/islinked/
@@ -14,7 +16,7 @@ Ottiene o imposta se ridurre la dimensione del file non memorizzando i dati graf
 public bool IsLinked { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire immagini utilizzando i campi IMPORT e INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Guarda anche
 
 * class [FieldImport](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldimport/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

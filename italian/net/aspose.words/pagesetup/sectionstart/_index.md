@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta il tipo di interruzione di sezione per loggetto specificato.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words per .NET
+description: PageSetup SectionStart proprietà. Restituisce o imposta il tipo di interruzione di sezione per loggetto specificato in C#.
 type: docs
 weight: 390
 url: /it/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ Restituisce o imposta il tipo di interruzione di sezione per l'oggetto specifica
 public SectionStart SectionStart { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come costruire manualmente un documento Aspose.Words.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

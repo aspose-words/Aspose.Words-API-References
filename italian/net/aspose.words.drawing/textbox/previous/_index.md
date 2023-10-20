@@ -1,7 +1,9 @@
 ---
 title: TextBox.Previous
-second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Restituisce aTextBox che rappresenta il precedenteTextBox in una sequenza di forme.
+linktitle: Previous
+articleTitle: Previous
+second_title: Aspose.Words per .NET
+description: TextBox Previous proprietà. Restituisce aTextBox che rappresenta il precedenteTextBox in una sequenza di forme in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/textbox/previous/
@@ -14,7 +16,7 @@ Restituisce a[`TextBox`](../) che rappresenta il precedente[`TextBox`](../) in u
 public TextBox Previous { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come collegare le caselle di testo.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Guarda anche
 
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

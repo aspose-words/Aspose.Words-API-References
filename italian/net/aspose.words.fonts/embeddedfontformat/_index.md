@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.EmbeddedFontFormat enum. Specifica il formato di un particolare carattere incorporato allinternoFontInfo oggetto.
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.EmbeddedFontFormat enum. Specifica il formato di un particolare carattere incorporato allinternoFontInfo oggetto in C#.
 type: docs
 weight: 2850
 url: /it/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Specifica il formato file Embedded OpenType (EOT). |
 | OpenType | `1` | Specifica il carattere, incorporato come copia semplice del file di caratteri OpenType (TrueType). |
 
-### Esempi
+## Esempi
 
 Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

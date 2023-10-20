@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Aspose.Words per .NET API Reference
-description: XmlMapping proprietà. RestituisceVERO se il tag del documento strutturato principale è stato mappato correttamente sui dati XML.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words per .NET
+description: XmlMapping IsMapped proprietà. RestituisceVERO se il tag del documento strutturato principale è stato mappato correttamente sui dati XML in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ Restituisce`VERO` se il tag del documento strutturato principale è stato mappat
 public bool IsMapped { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare mapping XML per parti XML personalizzate.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Guarda anche
 
 * class [XmlMapping](../)
-* spazio dei nomi [Aspose.Words.Markup](../../xmlmapping/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

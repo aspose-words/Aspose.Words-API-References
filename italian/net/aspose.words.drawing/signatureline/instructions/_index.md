@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Ottiene o imposta le istruzioni per il firmatario visualizzate alla firma della riga della firma. Questa proprietà viene ignorata seDefaultInstructionsè impostato. Il valore predefinito per questa proprietà è stringa vuota Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words per .NET
+description: SignatureLine Instructions proprietà. Ottiene o imposta le istruzioni per il firmatario visualizzate alla firma della riga della firma. Questa proprietà viene ignorata seDefaultInstructionsè impostato. Il valore predefinito per questa proprietà èstringa vuota Empty in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Ottiene o imposta le istruzioni per il firmatario visualizzate alla firma della riga della firma. Questa proprietà viene ignorata se[`DefaultInstructions`](../defaultinstructions/)è impostato. Il valore predefinito per questa proprietà è **stringa vuota** (Empty).
+Ottiene o imposta le istruzioni per il firmatario visualizzate alla firma della riga della firma. Questa proprietà viene ignorata se[`DefaultInstructions`](../defaultinstructions/)è impostato. Il valore predefinito per questa proprietà è**stringa vuota** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una riga per una firma e inserirla in un documento.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Guarda anche
 
 * class [SignatureLine](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../signatureline/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

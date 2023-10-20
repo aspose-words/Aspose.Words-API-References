@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: SpecialChar proprietà. RestituisceSpecialChar .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: SpecialChar NodeType proprietà. RestituisceSpecialChar  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ RestituisceSpecialChar .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* spazio dei nomi [Aspose.Words](../../specialchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

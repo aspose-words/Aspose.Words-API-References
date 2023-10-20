@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: ListCollection proprietà. Ottiene il conteggio degli elenchi numerati e puntati nel documento.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: ListCollection Count proprietà. Ottiene il conteggio degli elenchi numerati e puntati nel documento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listcollection/count/
@@ -14,7 +16,7 @@ Ottiene il conteggio degli elenchi numerati e puntati nel documento.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà del documento proprietario degli elenchi.
 
@@ -36,7 +38,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 ### Guarda anche
 
 * class [ListCollection](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listcollection/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

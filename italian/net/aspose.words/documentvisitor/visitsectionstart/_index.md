@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSectionStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando è iniziata lenumerazione di una sezione.
+linktitle: VisitSectionStart
+articleTitle: VisitSectionStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitSectionStart metodo. Chiamato quando è iniziata lenumerazione di una sezione in C#.
 type: docs
 weight: 380
 url: /it/net/aspose.words/documentvisitor/visitsectionstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSectionStart(Section section)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un visitatore di documento per stampare la struttura del nodo di un documento.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.CompressionLevel
-second_title: Aspose.Words per .NET API Reference
-description: XlsxSaveOptions proprietà. Specifica il livello di compressione utilizzato per salvare il documento. Il valore predefinito èNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words per .NET
+description: XlsxSaveOptions CompressionLevel proprietà. Specifica il livello di compressione utilizzato per salvare il documento. Il valore predefinito èNormal  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ Specifica il livello di compressione utilizzato per salvare il documento. Il val
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come comprimere un documento XLSX.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [XlsxSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

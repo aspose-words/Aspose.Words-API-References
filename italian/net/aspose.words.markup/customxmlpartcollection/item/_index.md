@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPartCollection proprietà. Ottiene o imposta un elemento nellindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: CustomXmlPartCollection Item proprietà. Ottiene o imposta un elemento nellindice specificato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/customxmlpartcollection/item/
@@ -18,7 +20,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | Indice in base zero dell'elemento. |
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

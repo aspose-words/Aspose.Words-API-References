@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Aspose.Words per .NET API Reference
-description: TableStyle proprietà. Ottiene o imposta un numero di colonne da includere nella suddivisione quando lo stile specifica la suddivisione delle colonne pari/dispari.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words per .NET
+description: TableStyle ColumnStripe proprietà. Ottiene o imposta un numero di colonne da includere nella suddivisione quando lo stile specifica la suddivisione delle colonne pari/dispari in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ Ottiene o imposta un numero di colonne da includere nella suddivisione quando lo
 public int ColumnStripe { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare stili di tabella condizionali che si alternano tra le righe.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Guarda anche
 
 * class [TableStyle](../)
-* spazio dei nomi [Aspose.Words](../../tablestyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

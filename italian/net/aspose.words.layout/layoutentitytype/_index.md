@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.LayoutEntityType enum. Tipi delle entità di layout.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Layout.LayoutEntityType enum. Tipi delle entità di layout in C#.
 type: docs
 weight: 3330
 url: /it/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Rappresenta il segnaposto per il contenuto del commento. Il commento potrebbe avereLine ERow entità secondarie. |
 | NoteSeparator | `2000` | Rappresenta il separatore di note a piè di pagina/note di chiusura. NoteSeparator può avereLine ERow entità secondarie. |
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../)
-
-

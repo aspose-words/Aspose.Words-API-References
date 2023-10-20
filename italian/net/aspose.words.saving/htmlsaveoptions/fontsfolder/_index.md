@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolder
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica la cartella fisica in cui vengono salvati i caratteri durante lesportazione di un documento in HTML. Limpostazione predefinita è una stringa vuota.
+linktitle: FontsFolder
+articleTitle: FontsFolder
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions FontsFolder proprietà. Specifica la cartella fisica in cui vengono salvati i caratteri durante lesportazione di un documento in HTML. Limpostazione predefinita è una stringa vuota in C#.
 type: docs
 weight: 310
 url: /it/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
@@ -14,7 +16,7 @@ Specifica la cartella fisica in cui vengono salvati i caratteri durante l'esport
 public string FontsFolder { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando salvi un file[`Document`](../../../aspose.words/document/) in formato HTML e[`ExportFontResources`](../exportfontresources/) è impostato su`VERO` , Aspose.Words deve salvare i caratteri utilizzati nel documento come file autonomi. `FontsFolder` ti permette di specificare dove verranno salvati i caratteri e [`FontsFolderAlias`](../fontsfolderalias/) permette di specificare come verranno costruiti gli URI dei caratteri.
 
@@ -26,7 +28,7 @@ Se la cartella specificata da`FontsFolder` non esiste, verrà creato automaticam
 
 [`ResourceFolder`](../resourcefolder/) è un altro modo per specificare una cartella in cui salvare i caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come impostare cartelle e alias di cartelle per le risorse salvate esternamente che Aspose.Words creerà durante il salvataggio di un documento in HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

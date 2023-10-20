@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Aspose.Words per .NET API Reference
-description: Story metodo. Un metodo di scelta rapida che crea un fileParagraph oggetto con testo facoltativo e lo aggiunge alla fine di questo oggetto.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words per .NET
+description: Story AppendParagraph metodo. Un metodo di scelta rapida che crea un fileParagraph oggetto con testo facoltativo e lo aggiunge alla fine di questo oggetto in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 Il paragrafo appena creato e aggiunto.
 
-### Esempi
+## Esempi
 
 Mostra come creare un'intestazione e un piè di pagina.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* spazio dei nomi [Aspose.Words](../../story/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

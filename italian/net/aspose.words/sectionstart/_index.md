@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.SectionStart enum. Il tipo di interruzione allinizio della sezione.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words per .NET
+description: Aspose.Words.SectionStart enum. Il tipo di interruzione allinizio della sezione in C#.
 type: docs
 weight: 5760
 url: /it/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | La sezione inizia su una nuova pagina pari. |
 | OddPage | `4` | La sezione inizia su una nuova pagina dispari. |
 
-### Esempi
+## Esempi
 
 Mostra come costruire manualmente un documento Aspose.Words.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

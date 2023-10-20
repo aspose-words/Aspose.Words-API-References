@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SavePictureBullet
-second_title: Aspose.Words per .NET API Reference
-description: DocSaveOptions proprietà. Quandofalso  i dati PictureBullet non vengono salvati nel documento di output. Il valore predefinito èVERO .
+linktitle: SavePictureBullet
+articleTitle: SavePictureBullet
+second_title: Aspose.Words per .NET
+description: DocSaveOptions SavePictureBullet proprietà. Quandofalso  i dati PictureBullet non vengono salvati nel documento di output. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/docsaveoptions/savepicturebullet/
@@ -14,11 +16,11 @@ Quando`falso` , i dati PictureBullet non vengono salvati nel documento di output
 public bool SavePictureBullet { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa opzione viene fornita per Word 97, che non può funzionare correttamente con i dati PictureBullet. Per rimuovere i dati PictureBullet, imposta l'opzione su "false".
 
-### Esempi
+## Esempi
 
 Mostra come omettere i dati PictureBullet dal documento durante il salvataggio.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocSaveOptions.PictureBullets.doc", saveOptions);
 ### Guarda anche
 
 * class [DocSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../docsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

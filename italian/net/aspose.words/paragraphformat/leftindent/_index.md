@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LeftIndent
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro sinistro del paragrafo.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words per .NET
+description: ParagraphFormat LeftIndent proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro sinistro del paragrafo in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words/paragraphformat/leftindent/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore (in punti) che rappresenta il rientro sinistro del p
 public double LeftIndent { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare la formattazione del paragrafo per creare testo decentrato.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

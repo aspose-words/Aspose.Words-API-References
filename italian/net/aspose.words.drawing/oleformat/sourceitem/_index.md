@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Ottiene o imposta una stringa utilizzata per identificare la parte del file di origine collegata.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words per .NET
+description: OleFormat SourceItem proprietà. Ottiene o imposta una stringa utilizzata per identificare la parte del file di origine collegata in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ Ottiene o imposta una stringa utilizzata per identificare la parte del file di o
 public string SourceItem { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è una stringa vuota.
 
 Ad esempio, se il file di origine è una cartella di lavoro di Microsoft Excel, il file`SourceItem` La proprietà potrebbe restituire "Workbook1!R3C1:R4C2" se l'oggetto OLE contiene solo poche celle da nel foglio di lavoro.
 
-### Esempi
+## Esempi
 
 Mostra come inserire oggetti OLE collegati e scollegati.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

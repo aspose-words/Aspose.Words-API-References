@@ -1,7 +1,9 @@
 ---
-title: Class ChartNumberFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat classe. Rappresenta la formattazione numerica dellelemento genitore.
+title: ChartNumberFormat Class
+linktitle: ChartNumberFormat
+articleTitle: ChartNumberFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat classe. Rappresenta la formattazione numerica dellelemento genitore in C#.
 type: docs
 weight: 770
 url: /it/net/aspose.words.drawing.charts/chartnumberformat/
@@ -23,7 +25,7 @@ public class ChartNumberFormat
 | [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | Ottiene o imposta il codice di formato applicato a un'etichetta dati. |
 | [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | Specifica se il codice del formato è collegato a una cella di origine. Il valore predefinito è true. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione per i valori del grafico.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

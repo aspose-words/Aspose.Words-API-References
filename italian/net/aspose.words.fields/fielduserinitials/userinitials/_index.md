@@ -1,7 +1,9 @@
 ---
 title: FieldUserInitials.UserInitials
-second_title: Aspose.Words per .NET API Reference
-description: FieldUserInitials proprietà. Ottiene o imposta le iniziali dellutente corrente.
+linktitle: UserInitials
+articleTitle: UserInitials
+second_title: Aspose.Words per .NET
+description: FieldUserInitials UserInitials proprietà. Ottiene o imposta le iniziali dellutente corrente in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -14,7 +16,7 @@ Ottiene o imposta le iniziali dell'utente corrente.
 public string UserInitials { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo USERINITIALS.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### Guarda anche
 
 * class [FieldUserInitials](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielduserinitials/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

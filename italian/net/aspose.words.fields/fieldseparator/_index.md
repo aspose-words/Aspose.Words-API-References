@@ -1,7 +1,9 @@
 ---
-title: Class FieldSeparator
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldSeparator classe. Rappresenta un separatore di campo Word che separa il codice del campo dal risultato del campo.
+title: FieldSeparator Class
+linktitle: FieldSeparator
+articleTitle: FieldSeparator
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldSeparator classe. Rappresenta un separatore di campo Word che separa il codice del campo dal risultato del campo in C#.
 type: docs
 weight: 2380
 url: /it/net/aspose.words.fields/fieldseparator/
@@ -43,19 +45,19 @@ public class FieldSeparator : FieldChar
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Restituisce un campo per il campo char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ottiene il carattere speciale rappresentato da questo nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 `FieldSeparator` è un nodo a livello in linea e rappresentato da[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar/) carattere di controllo nel documento.
 
@@ -65,7 +67,7 @@ Un campo completo in un documento Microsoft Word è una struttura complessa comp
 
 Per inserire facilmente un nuovo campo in un documento, utilizzare il comando[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Metodo .
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di campi.
 
@@ -170,5 +172,3 @@ public class FieldVisitor : DocumentVisitor
 * class [FieldChar](../fieldchar/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

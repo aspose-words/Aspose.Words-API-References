@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Aspose.Words per .NET API Reference
-description: TextColumnCollection proprietà. QuandoVERO aggiunge una linea verticale tra le colonne.
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: Aspose.Words per .NET
+description: TextColumnCollection LineBetween proprietà. QuandoVERO aggiunge una linea verticale tra le colonne in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ Quando`VERO` aggiunge una linea verticale tra le colonne.
 public bool LineBetween { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come separare le colonne con una linea verticale.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### Guarda anche
 
 * class [TextColumnCollection](../)
-* spazio dei nomi [Aspose.Words](../../textcolumncollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

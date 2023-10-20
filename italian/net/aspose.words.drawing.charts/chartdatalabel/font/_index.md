@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel proprietà. Fornisce laccesso alla formattazione dei caratteri di questa etichetta dati.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: ChartDataLabel Font proprietà. Fornisce laccesso alla formattazione dei caratteri di questa etichetta dati in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla formattazione dei caratteri di questa etichetta dati.
 public Font Font { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare gli effetti 3D con i grafici a bolle.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

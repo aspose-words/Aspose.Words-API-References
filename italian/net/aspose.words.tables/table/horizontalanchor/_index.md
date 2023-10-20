@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene loggetto base da cui calcolare il posizionamento orizzontale della tabella mobile. Il valore predefinito èColumn .
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: Aspose.Words per .NET
+description: Table HorizontalAnchor proprietà. Ottiene loggetto base da cui calcolare il posizionamento orizzontale della tabella mobile. Il valore predefinito èColumn  in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ Ottiene l'oggetto base da cui calcolare il posizionamento orizzontale della tabe
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà delle tabelle mobili.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

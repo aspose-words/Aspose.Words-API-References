@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come ombreggiato.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words per .NET
+description: Font Shadow proprietà. Vero se il carattere è formattato come ombreggiato in C#.
 type: docs
 weight: 330
 url: /it/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come ombreggiato.
 public bool Shadow { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una sequenza di testo formattata con un'ombra.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

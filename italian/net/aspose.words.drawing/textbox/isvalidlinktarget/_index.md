@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words per .NET API Reference
-description: TextBox metodo. Determina se questoTextBox può essere collegato al bersaglioTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words per .NET
+description: TextBox IsValidLinkTarget metodo. Determina se questoTextBox può essere collegato al bersaglioTextBox  in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ Determina se questo[`TextBox`](../) può essere collegato al bersaglio[`TextBox`
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come collegare le caselle di testo.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Guarda anche
 
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

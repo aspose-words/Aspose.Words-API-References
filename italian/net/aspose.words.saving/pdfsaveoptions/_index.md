@@ -1,7 +1,9 @@
 ---
-title: Class PdfSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PdfSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel filePdf formato.
+title: PdfSaveOptions Class
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PdfSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel filePdf formato in C#.
 type: docs
 weight: 5520
 url: /it/net/aspose.words.saving/pdfsaveoptions/
@@ -34,7 +36,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [CreateNoteHyperlinks](../../aspose.words.saving/pdfsaveoptions/createnotehyperlinks/) { get; set; } | Specifica se convertire i riferimenti alle note a piè di pagina/note di chiusura nel brano del testo principale in collegamenti ipertestuali attivi. Quando si fa clic, il collegamento ipertestuale porterà alla nota a piè di pagina/nota di chiusura corrispondente. L'impostazione predefinita è`falso` . |
 | [CustomPropertiesExport](../../aspose.words.saving/pdfsaveoptions/custompropertiesexport/) { get; set; } | Ottiene o imposta un valore che determina il modo[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) vengono esportati in un file PDF. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [DigitalSignatureDetails](../../aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/) { get; set; } | Ottiene o imposta i dettagli per la firma del documento PDF di output. |
 | [DisplayDocTitle](../../aspose.words.saving/pdfsaveoptions/displaydoctitle/) { get; set; } | Un flag che specifica se la barra del titolo della finestra deve visualizzare il titolo del documento preso da la voce Titolo del dizionario delle informazioni del documento. |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
@@ -87,9 +89,9 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [Clone](../../aspose.words.saving/pdfsaveoptions/clone/)() | Crea un clone profondo di questo oggetto. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 
-### Esempi
+## Esempi
 
 Mostra come modificare il colore dell'immagine con la proprietà delle opzioni di salvataggio.
 
@@ -188,5 +190,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

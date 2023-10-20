@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words per .NET API Reference
-description: Contiene classi per lavorare con controlli e moduli OLE/ActiveX nei documenti Microsoft Word.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words per .NET
+description: Contiene classi per lavorare con controlli e moduli OLE/ActiveX nei documenti Microsoft Word in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ Contiene classi per lavorare con controlli e moduli OLE/ActiveX nei documenti Mi
 | Enumerazione | Descrizione |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | Enumera i tipi di controlli Form 2.0. |
-
-

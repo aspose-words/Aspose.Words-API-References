@@ -1,7 +1,9 @@
 ---
-title: Enum ContinuousSectionRestart
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.ContinuousSectionRestart enum. Rappresenta comportamenti diversi durante il calcolo dei numeri di pagina in una sezione continua che riavvia la numerazione delle pagine.
+title: ContinuousSectionRestart Enum
+linktitle: ContinuousSectionRestart
+articleTitle: ContinuousSectionRestart
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Layout.ContinuousSectionRestart enum. Rappresenta comportamenti diversi durante il calcolo dei numeri di pagina in una sezione continua che riavvia la numerazione delle pagine in C#.
 type: docs
 weight: 3300
 url: /it/net/aspose.words.layout/continuoussectionrestart/
@@ -21,7 +23,7 @@ public enum ContinuousSectionRestart
 | Always | `0` | La numerazione delle pagine ricomincia sempre indipendentemente dal flusso dei contenuti. |
 | FromNewPageOnly | `1` | La numerazione delle pagine ricomincia solo se non c'è altro contenuto prima della sezione nella pagina in cui inizia la sezione. |
 
-### Esempi
+## Esempi
 
 Mostra come controllare la numerazione delle pagine in una sezione continua.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../)
-
-

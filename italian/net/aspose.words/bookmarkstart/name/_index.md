@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Name
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkStart proprietà. Ottiene o imposta il nome del segnalibro.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: BookmarkStart Name proprietà. Ottiene o imposta il nome del segnalibro in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/bookmarkstart/name/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del segnalibro.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [BookmarkStart](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkstart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

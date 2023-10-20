@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta lopzione Consenti spaziatura tra celle.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words per .NET
+description: Table AllowCellSpacing proprietà. Ottiene o imposta lopzione Consenti spaziatura tra celle in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ Ottiene o imposta l'opzione "Consenti spaziatura tra celle".
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come abilitare la spaziatura tra le singole celle in una tabella.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: VbaReferenceCollection proprietà. Restituisce il numero di riferimenti VBA nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: VbaReferenceCollection Count proprietà. Restituisce il numero di riferimenti VBA nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbareferencecollection/count/
@@ -14,7 +16,7 @@ Restituisce il numero di riferimenti VBA nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Guarda anche
 
 * class [VbaReferenceCollection](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbareferencecollection/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

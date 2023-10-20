@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: DocumentPropertyCollection metodo. Rimuove tutte le proprietà dalla raccolta.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: DocumentPropertyCollection Clear metodo. Rimuove tutte le proprietà dalla raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.properties/documentpropertycollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutte le proprietà dalla raccolta.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà personalizzate di un documento.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [DocumentPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Properties](../../documentpropertycollection/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

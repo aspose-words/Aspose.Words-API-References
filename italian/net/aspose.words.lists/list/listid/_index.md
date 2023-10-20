@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Aspose.Words per .NET API Reference
-description: List proprietà. Ottiene lidentificatore univoco dellelenco.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words per .NET
+description: List ListId proprietà. Ottiene lidentificatore univoco dellelenco in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ Ottiene l'identificatore univoco dell'elenco.
 public int ListId { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Normalmente non è necessario utilizzare questa proprietà. Ma se lo usi, normalmente lo fai insieme a[`GetListByListId`](../../listcollection/getlistbylistid/) metodo per trovare un elenco in base al suo identificatore.
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà del documento proprietario degli elenchi.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Guarda anche
 
 * class [List](../)
-* spazio dei nomi [Aspose.Words.Lists](../../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

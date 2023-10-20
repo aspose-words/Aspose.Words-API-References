@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una stringa nel documento nella posizione di inserimento corrente.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words per .NET
+description: DocumentBuilder Write metodo. Inserisce una stringa nel documento nella posizione di inserimento corrente in C#.
 type: docs
-weight: 660
+weight: 650
 url: /it/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | La stringa da inserire nel documento. |
 
-### Osservazioni
+## Osservazioni
 
 Formattazione corrente del carattere specificata dal[`Font`](../font/) viene utilizzata la proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una stringa circondata da un bordo in un documento.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

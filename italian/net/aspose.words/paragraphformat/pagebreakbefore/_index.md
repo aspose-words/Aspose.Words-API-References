@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Vero se viene forzata uninterruzione di pagina prima del paragrafo.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words per .NET
+description: ParagraphFormat PageBreakBefore proprietà. Vero se viene forzata uninterruzione di pagina prima del paragrafo in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ Vero se viene forzata un'interruzione di pagina prima del paragrafo.
 public bool PageBreakBefore { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare paragrafi con interruzioni di pagina all'inizio.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

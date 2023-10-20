@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. RestituisceShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Shape NodeType proprietà. RestituisceShape  in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ RestituisceShape .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Hyphenation classe. Fornisce metodi per lavorare con i dizionari di sillabazione. Questi dizionari prescrivono dove le parole di una lingua specifica possono essere sillabate.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Hyphenation classe. Fornisce metodi per lavorare con i dizionari di sillabazione. Questi dizionari prescrivono dove le parole di una lingua specifica possono essere sillabate in C#.
 type: docs
 weight: 3150
 url: /it/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | Nome | Descrizione |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Restituisce`falso` se per la lingua specificata non è registrato alcun dizionario o se è registrato un dizionario nullo,`VERO` altrimenti. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Registra e carica un dizionario di sillabazione per la lingua specificata da un flusso. Solleva un problema se il dizionario non può essere letto o ha un formato non valido. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registra e carica dal file un dizionario di sillabazione per la lingua specificata. Genera un'eccezione se il dizionario non può essere letto o ha un formato non valido. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Annulla la registrazione di un dizionario di sillabazione per la lingua specificata. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Restituisce`falso` se per la lingua specificata non è registrato alcun dizionario o se è registrato un dizionario nullo,`VERO` altrimenti. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Registra e carica un dizionario di sillabazione per la lingua specificata da un flusso. Solleva un problema se il dizionario non può essere letto o ha un formato non valido. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Registra e carica dal file un dizionario di sillabazione per la lingua specificata. Genera un'eccezione se il dizionario non può essere letto o ha un formato non valido. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Annulla la registrazione di un dizionario di sillabazione per la lingua specificata. |
 
-### Esempi
+## Esempi
 
 Mostra come aprire e registrare un dizionario da un file.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

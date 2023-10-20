@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica i margini attorno alle pagine in un documento HTML. Il valore dei margini è misurato in punti e deve essere uguale o maggiore di 0. Il valore predefinito è 10 punti.
+linktitle: PageMargins
+articleTitle: PageMargins
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions PageMargins proprietà. Specifica i margini attorno alle pagine in un documento HTML. Il valore dei margini è misurato in punti e deve essere uguale o maggiore di 0. Il valore predefinito è 10 punti in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
@@ -14,7 +16,7 @@ Specifica i margini attorno alle pagine in un documento HTML. Il valore dei marg
 public double PageMargins { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Dipende dal valore di[`PageHorizontalAlignment`](../pagehorizontalalignment/) proprietà:
 
@@ -22,7 +24,7 @@ Dipende dal valore di[`PageHorizontalAlignment`](../pagehorizontalalignment/) pr
 * Definisce i margini superiore, inferiore e destro della pagina, se il valore lo èRight .
 * Definisce i margini superiore e inferiore della pagina se il valore lo èCenter .
 
-### Esempi
+## Esempi
 
 Mostra come regolare i margini della pagina quando si salva un documento in HTML.
 
@@ -45,7 +47,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Aspose.Words per .NET API Reference
-description: FieldChar proprietà. Ottiene o imposta se il risultato corrente del campo non è più corretto obsoleto a causa di altre modifiche apportate al documento.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words per .NET
+description: FieldChar IsDirty proprietà. Ottiene o imposta se il risultato corrente del campo non è più corretto obsoleto a causa di altre modifiche apportate al documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ Ottiene o imposta se il risultato corrente del campo non è più corretto (obsol
 public bool IsDirty { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un nodo FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Guarda anche
 
 * class [FieldChar](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldchar/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

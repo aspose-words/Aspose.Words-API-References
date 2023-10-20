@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Aspose.Words per .NET API Reference
-description: LayoutCollector metodo. Restituisce una posizione opaca delLayoutEnumerator che corrisponde al nodo specificato. È possibile utilizzare il valore restituito come argomentoCurrent dato che il documento in corso enumerato e il documento del nodo sono gli stessi.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: Aspose.Words per .NET
+description: LayoutCollector GetEntity metodo. Restituisce una posizione opaca delLayoutEnumerator che corrisponde al nodo specificato. È possibile utilizzare il valore restituito come argomentoCurrent dato che il documento in corso enumerato e il documento del nodo sono gli stessi in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ Restituisce una posizione opaca del[`LayoutEnumerator`](../../layoutenumerator/)
 public object GetEntity(Node node)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo funziona solo per[`Paragraph`](../../../aspose.words/paragraph/) nodi, così come nodi inline indivisibili, ad es[`BookmarkStart`](../../../aspose.words/bookmarkstart/) O[`Shape`](../../../aspose.words.drawing/shape/) . Non funziona per[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) O[`Table`](../../../aspose.words.tables/table/) nodi e nodi all'interno di intestazione/piè di pagina.
 
@@ -24,7 +26,7 @@ Se è necessario accedere a a[`Run`](../../../aspose.words/run/) di testo, puoi 
 
 Se è necessario accedere a a[`Cell`](../../../aspose.words.tables/cell/) nodo quindi puoi spostarti su a[`Paragraph`](../../../aspose.words/paragraph/) nodo in questa cella e quindi ascendere a un'entità principale. Lo stesso approccio può essere utilizzato per[`Row`](../../../aspose.words.tables/row/) e[`Table`](../../../aspose.words.tables/table/) nodi.
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare gli intervalli di pagine su cui si estende un nodo.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutcollector/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

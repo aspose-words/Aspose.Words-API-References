@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene il testo che rappresenta il risultato del campo visualizzato.
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: Aspose.Words per .NET
+description: Field DisplayResult proprietà. Ottiene il testo che rappresenta il risultato del campo visualizzato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ Ottiene il testo che rappresenta il risultato del campo visualizzato.
 public string DisplayResult { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) il metodo deve essere chiamato per ottenere il valore corretto per the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) E[`FieldAutoNumLgl`](../../fieldautonumlgl/) campi.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il testo reale visualizzato da un campo nel documento.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

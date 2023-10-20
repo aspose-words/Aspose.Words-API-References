@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come apice.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words per .NET
+description: Font Superscript proprietà. Vero se il carattere è formattato come apice in C#.
 type: docs
 weight: 440
 url: /it/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come apice.
 public bool Superscript { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare il testo per spostarne la posizione.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

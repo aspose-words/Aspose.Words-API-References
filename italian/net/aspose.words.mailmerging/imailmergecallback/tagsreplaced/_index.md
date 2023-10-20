@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Aspose.Words per .NET API Reference
-description: IMailMergeCallback metodo. Chiamato quando i tag di testo baffi vengono sostituiti con campi MERGEFIELD.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words per .NET
+description: IMailMergeCallback TagsReplaced metodo. Chiamato quando i tag di testo baffi vengono sostituiti con campi MERGEFIELD in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ Chiamato quando i tag di testo "baffi" vengono sostituiti con campi MERGEFIELD.
 public void TagsReplaced()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per la gestione degli eventi durante la stampa unione.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imailmergecallback/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

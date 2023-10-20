@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Aspose.Words per .NET API Reference
-description: ResourceSavingArgs proprietà. Ottiene o imposta il nome del file senza percorso in cui verrà salvata la risorsa.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words per .NET
+description: ResourceSavingArgs ResourceFileName proprietà. Ottiene o imposta il nome del file senza percorso in cui verrà salvata la risorsa in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del file (senza percorso) in cui verrà salvata la ris
 public string ResourceFileName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di ridefinire il modo in cui vengono generati i nomi dei file di risorse durante l'esportazione in pagine HTML o SVG fisse.
 
@@ -30,7 +32,7 @@ Quando si salva un documento in uno stream, il nome del file di risorse generato
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per tenere traccia delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Guarda anche
 
 * class [ResourceSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../resourcesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

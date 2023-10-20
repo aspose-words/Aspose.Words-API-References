@@ -1,12 +1,14 @@
 ---
-title: JsonDataSource.JsonDataSource
-second_title: Aspose.Words per .NET API Reference
-description: JsonDataSource costruttore. Crea una nuova origine dati con i dati di un file JSON utilizzando le opzioni predefinite per lanalisi dei dati JSON.
+title: JsonDataSource
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words per .NET
+description: JsonDataSource costruttore. Crea una nuova origine dati con i dati di un file JSON utilizzando le opzioni predefinite per lanalisi dei dati JSON in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
-## JsonDataSource(string) {#constructor_2}
+## JsonDataSource(*string*) {#constructor_2}
 
 Crea una nuova origine dati con i dati di un file JSON utilizzando le opzioni predefinite per l'analisi dei dati JSON.
 
@@ -21,12 +23,12 @@ public JsonDataSource(string jsonPath)
 ### Guarda anche
 
 * class [JsonDataSource](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../jsondatasource/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream) {#constructor}
+## JsonDataSource(*Stream*) {#constructor}
 
 Crea una nuova origine dati con i dati di un flusso JSON utilizzando le opzioni predefinite per l'analisi dei dati JSON.
 
@@ -41,12 +43,12 @@ public JsonDataSource(Stream jsonStream)
 ### Guarda anche
 
 * class [JsonDataSource](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../jsondatasource/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
+## JsonDataSource(*string, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_3}
 
 Crea una nuova origine dati con i dati di un file JSON utilizzando le opzioni specificate per l'analisi dei dati JSON.
 
@@ -63,12 +65,12 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../jsondatasource/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
+## JsonDataSource(*Stream, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_1}
 
 Crea una nuova origine dati con i dati da un flusso JSON utilizzando le opzioni specificate per l'analisi dei dati JSON.
 
@@ -85,7 +87,5 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../jsondatasource/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
-
-

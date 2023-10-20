@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta il numero di pagine da includere in ciascun booklet.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words per .NET
+description: PageSetup SheetsPerBooklet proprietà. Restituisce o imposta il numero di pagine da includere in ciascun booklet in C#.
 type: docs
 weight: 400
 url: /it/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ Restituisce o imposta il numero di pagine da includere in ciascun booklet.
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare un documento che può essere stampato come piega a libro.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

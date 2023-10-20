@@ -1,7 +1,9 @@
 ---
 title: TextPath.SameLetterHeights
-second_title: Aspose.Words per .NET API Reference
-description: TextPath proprietà. Determina se tutte le lettere avranno la stessa altezza indipendentemente dal maiuscolo/minuscolo iniziale.
+linktitle: SameLetterHeights
+articleTitle: SameLetterHeights
+second_title: Aspose.Words per .NET
+description: TextPath SameLetterHeights proprietà. Determina se tutte le lettere avranno la stessa altezza indipendentemente dal maiuscolo/minuscolo iniziale in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/textpath/sameletterheights/
@@ -14,11 +16,11 @@ Determina se tutte le lettere avranno la stessa altezza indipendentemente dal ma
 public bool SameLetterHeights { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Guarda anche
 
 * class [TextPath](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textpath/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Italic
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Vero se il carattere è formattato come corsivo.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words per .NET
+description: DocumentBuilder Italic proprietà. Vero se il carattere è formattato come corsivo in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words/documentbuilder/italic/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come corsivo.
 public bool Italic { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come riempire MERGEFIELD con dati con un generatore di documenti invece che con una stampa unione.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

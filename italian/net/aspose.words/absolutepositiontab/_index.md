@@ -1,7 +1,9 @@
 ---
-title: Class AbsolutePositionTab
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.AbsolutePositionTab classe. Una tabulazione di posizione assoluta è un carattere che viene utilizzato per far avanzare la posizione sulla riga di testo corrente durante la visualizzazione di questo contenuto WordprocessingML.
+title: AbsolutePositionTab Class
+linktitle: AbsolutePositionTab
+articleTitle: AbsolutePositionTab
+second_title: Aspose.Words per .NET
+description: Aspose.Words.AbsolutePositionTab classe. Una tabulazione di posizione assoluta è un carattere che viene utilizzato per far avanzare la posizione sulla riga di testo corrente durante la visualizzazione di questo contenuto WordprocessingML in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/absolutepositiontab/
@@ -40,18 +42,18 @@ public class AbsolutePositionTab : SpecialChar
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words/absolutepositiontab/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words/absolutepositiontab/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ottiene il carattere speciale rappresentato da questo nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Esempi
+## Esempi
 
 Mostra come elaborare i caratteri di tabulazione della posizione assoluta con un visitatore del documento.
 
@@ -129,5 +131,3 @@ public class DocTextExtractor : DocumentVisitor
 * class [SpecialChar](../specialchar/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

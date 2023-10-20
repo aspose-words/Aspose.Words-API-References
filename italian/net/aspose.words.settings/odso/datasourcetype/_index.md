@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa stampa unione. Il valore predefinito èDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words per .NET
+description: Odso DataSourceType proprietà. Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO per questa stampa unione. Il valore predefinito èDefault  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ Specifica il tipo di origine dati esterna a cui connettersi come parte delle inf
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa impostazione è puramente un suggerimento del tipo di origine dati utilizzata per questa stampa unione.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

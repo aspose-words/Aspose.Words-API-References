@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di ritorno a capo x000d o r. Uguale aParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words per .NET
+description: ControlChar Cr campo. Carattere di ritorno a capo x000d o r. Uguale aParagraphBreak  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ Carattere di ritorno a capo: "\x000d" o "\r". Uguale a[`ParagraphBreak`](../para
 public static readonly string Cr;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i caratteri di controllo.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlockCollection proprietà. Recupera un blocco predefinito in corrispondenza dellindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: BuildingBlockCollection Item proprietà. Recupera un blocco predefinito in corrispondenza dellindice specificato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -18,7 +20,7 @@ public BuildingBlock this[int index] { get; }
 | --- | --- |
 | index | Un indice nell'elenco degli elementi costitutivi. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -133,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

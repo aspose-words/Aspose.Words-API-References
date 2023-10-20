@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.AxisBound classe. Rappresenta il limite minimo o massimo dei valori degli assi.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.AxisBound classe. Rappresenta il limite minimo o massimo dei valori degli assi in C#.
 type: docs
 weight: 510
 url: /it/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | Nome | Descrizione |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Crea una nuova istanza che indica che il limite dell'asse deve essere determinato automaticamente da un'applicazione di elaborazione testi . |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Crea un limite dell'asse rappresentato come valore data/ora. |
-| [AxisBound](axisbound/#constructor_1)(double) | Crea un limite dell'asse rappresentato come un numero. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Crea un limite dell'asse rappresentato come valore data/ora. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Crea un limite dell'asse rappresentato come un numero. |
 
 ## Proprietà
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Serve come funzione hash per questo tipo. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Restituisce una stringa intuitiva che visualizza il valore di questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 Il limite può essere specificato come valore numerico, data/ora o speciale "automatico".
 
 Le istanze di questa classe sono immutabili.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico con valori di data/ora.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

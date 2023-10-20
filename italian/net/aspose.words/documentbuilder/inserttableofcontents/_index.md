@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un campo TOC tabella dei contenuti nel documento.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertTableOfContents metodo. Inserisce un campo TOC tabella dei contenuti nel documento in C#.
 type: docs
-weight: 470
+weight: 460
 url: /it/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | Il campo TOC cambia. |
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo inserisce un campo TOC (tabella dei contenuti) nel documento nella posizione corrente.
 
@@ -26,7 +28,7 @@ Un sommario in un documento di Word può essere creato in diversi modi e formatt
 
 Il modo più semplice per specificare le opzioni è inserire e configurare una tabella di contenuto in un documento Word utilizzando il menu Inserisci-&gt;Riferimento-&gt;Indice e tabelle, quindi attivare la visualizzazione dei codici di campo per vedere le opzioni. È possibile premere Alt+F9 in Microsoft Word per attivare o disattivare la visualizzazione dei codici di campo.
 
-Ad esempio, dopo aver creato un sommario, nel documento viene inserito il seguente campo : **{ SOMMARIO \o "1-3" \h \z \u }** . Puoi copiare **\o "1-3" \h \z \u** e usarlo come parametro switch.
+Ad esempio, dopo aver creato un sommario, nel documento viene inserito il seguente campo :**{ SOMMARIO \o "1-3" \h \z \u }** . Puoi copiare**\o "1-3" \h \z \u** e usarlo come parametro switch.
 
 Notare che`InsertTableOfContents` inserirà solo un campo TOC, ma non creerà effettivamente il sommario. Il sommario viene creato da Microsoft Word quando il campo viene aggiornato.
 
@@ -34,7 +36,7 @@ Se inserisci un sommario utilizzando questo metodo e quindi apri il file in Micr
 
 In Microsoft Word, i campi non vengono aggiornati automaticamente all'apertura di un documento, ma puoi aggiornare i campi in un documento in qualsiasi momento premendo F9.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario (TOC) in un documento utilizzando gli stili di titolo come voci.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

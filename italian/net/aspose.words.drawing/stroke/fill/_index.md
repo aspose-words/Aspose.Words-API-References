@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Ottiene la formattazione di riempimento per il fileStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words per .NET
+description: Stroke Fill proprietà. Ottiene la formattazione di riempimento per il fileStroke  in C#.
 type: docs
-weight: 100
+weight: 90
 url: /it/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ Ottiene la formattazione di riempimento per il file[`Stroke`](../) .
 public Fill Fill { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare le proprietà del tratto.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

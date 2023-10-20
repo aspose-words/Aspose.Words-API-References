@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore allinizio del documento.
+linktitle: MoveToDocumentStart
+articleTitle: MoveToDocumentStart
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToDocumentStart metodo. Sposta il cursore allinizio del documento in C#.
 type: docs
-weight: 530
+weight: 520
 url: /it/net/aspose.words/documentbuilder/movetodocumentstart/
 ---
 ## DocumentBuilder.MoveToDocumentStart method
@@ -14,7 +16,7 @@ Sposta il cursore all'inizio del documento.
 public void MoveToDocumentStart()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di un generatore di documenti su diversi nodi in un documento.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

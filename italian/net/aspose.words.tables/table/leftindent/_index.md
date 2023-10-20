@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta il valore che rappresenta il rientro sinistro della tabella.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words per .NET
+description: Table LeftIndent proprietà. Ottiene o imposta il valore che rappresenta il rientro sinistro della tabella in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore che rappresenta il rientro sinistro della tabella.
 public double LeftIndent { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella formattata utilizzando DocumentBuilder.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

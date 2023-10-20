@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgs proprietà. Ottiene o imposta il testo che verrà inserito nel documento per il campo di unione corrente.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: FieldMergingArgs Text proprietà. Ottiene o imposta il testo che verrà inserito nel documento per il campo di unione corrente in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo che verrà inserito nel documento per il campo di uni
 public string Text { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando viene chiamato il gestore eventi, questa proprietà è impostata su`nullo`.
 
@@ -22,7 +24,7 @@ Se lasci Text as`nullo` , il motore di stampa unione lo inserirà[`FieldValue`](
 
 Se imposti Testo su qualsiasi stringa (incluso vuoto), la stringa verrà inserita nel documento al posto del campo di unione.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Guarda anche
 
 * class [FieldMergingArgs](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

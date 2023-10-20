@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta la dimensione del carattere a partire dalla quale inizia la crenatura.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words per .NET
+description: Font Kerning proprietà. Ottiene o imposta la dimensione del carattere a partire dalla quale inizia la crenatura in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ Ottiene o imposta la dimensione del carattere a partire dalla quale inizia la cr
 public double Kerning { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come specificare la dimensione del carattere a partire dalla quale la crenatura inizia ad avere effetto.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

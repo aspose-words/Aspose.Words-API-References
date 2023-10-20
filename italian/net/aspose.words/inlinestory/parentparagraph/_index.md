@@ -1,7 +1,9 @@
 ---
 title: InlineStory.ParentParagraph
-second_title: Aspose.Words per .NET API Reference
-description: InlineStory proprietà. Recupera il genitoreParagraph di questo nodo.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words per .NET
+description: InlineStory ParentParagraph proprietà. Recupera il genitoreParagraph di questo nodo in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/inlinestory/parentparagraph/
@@ -14,7 +16,7 @@ Recupera il genitore[`Paragraph`](../../paragraph/) di questo nodo.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i nodi InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* spazio dei nomi [Aspose.Words](../../inlinestory/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Aspose.Words per .NET API Reference
-description: MergeFieldImageDimension costruttore. Crea unistanza di dimensione immagine con il valore specificato in punti.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words per .NET
+description: MergeFieldImageDimension costruttore. Crea unistanza di dimensione immagine con il valore specificato in punti in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 Crea un'istanza di dimensione immagine con il valore specificato in punti.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | Il valore. |
 
-### Osservazioni
+## Osservazioni
 
 Dovresti utilizzare un valore negativo per indicare che deve essere applicato il valore originale della dimensione immagine corrispondente .
 
-### Esempi
+## Esempi
 
 Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Guarda anche
 
 * class [MergeFieldImageDimension](../)
-* spazio dei nomi [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 Crea un'istanza di dimensione immagine con il valore e l'unità specificati.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | Il valore. |
 | unit | MergeFieldImageDimensionUnit | L'unità. |
 
-### Osservazioni
+## Osservazioni
 
 Dovresti utilizzare un valore negativo per indicare che deve essere applicato il valore originale della dimensione immagine corrispondente .
 
-### Esempi
+## Esempi
 
 Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* spazio dei nomi [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

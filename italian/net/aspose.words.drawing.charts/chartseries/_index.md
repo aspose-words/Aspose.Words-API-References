@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartSeries classe. Rappresenta le proprietà della serie di grafici.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries classe. Rappresenta le proprietà della serie di grafici in C#.
 type: docs
 weight: 780
 url: /it/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Aggiunge il valore X specificato alla serie del grafico. Se la serie supporta valori Y e dimensioni delle bolle, saranno vuote per il valore X. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Aggiunge i valori X e Y specificati alla serie di grafici. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Aggiunge il valore X, il valore Y e la dimensione della bolla specificati alla serie di grafici. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | Aggiunge il valore X specificato alla serie del grafico. Se la serie supporta valori Y e dimensioni delle bolle, saranno vuote per il valore X. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Aggiunge i valori X e Y specificati alla serie di grafici. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Aggiunge il valore X, il valore Y e la dimensione della bolla specificati alla serie di grafici. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Rimuove tutti i valori dei dati dalle serie del grafico. Il formato di tutti i singoli punti dati e delle etichette dati viene cancellato. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Rimuove tutti i valori dei dati dalle serie di grafici preservando il formato dei punti dati e delle etichette dati. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Inserisce il valore X specificato nella serie di grafici in corrispondenza dell'indice specificato. Se la serie supporta i valori Y e le dimensioni delle bolle, saranno vuote per il valore X. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Inserisce i valori X e Y specificati nella serie di grafici in corrispondenza dell'indice specificato. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Inserisce il valore X, il valore Y e la dimensione della bolla specificati nella serie di grafici in corrispondenza dell'indice specificato. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Rimuove il valore X, il valore Y e la dimensione della bolla, se supportati, dalle serie di grafici all'indice specificato. Vengono rimossi anche il punto dati e l'etichetta dati corrispondenti. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Inserisce il valore X specificato nella serie di grafici in corrispondenza dell'indice specificato. Se la serie supporta i valori Y e le dimensioni delle bolle, saranno vuote per il valore X. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Inserisce i valori X e Y specificati nella serie di grafici in corrispondenza dell'indice specificato. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Inserisce il valore X, il valore Y e la dimensione della bolla specificati nella serie di grafici in corrispondenza dell'indice specificato. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Rimuove il valore X, il valore Y e la dimensione della bolla, se supportati, dalle serie di grafici all'indice specificato. Vengono rimossi anche il punto dati e l'etichetta dati corrispondenti. |
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

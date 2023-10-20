@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il carattere del tema utilizzato per i caratteri con codici carattere da 128 a 255 nello schema di caratteri applicato associato a questoFont oggetto.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words per .NET
+description: Font ThemeFontOther proprietà. Ottiene o imposta il carattere del tema utilizzato per i caratteri con codici carattere da 128 a 255 nello schema di caratteri applicato associato a questoFont oggetto in C#.
 type: docs
 weight: 510
 url: /it/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ Ottiene o imposta il carattere del tema utilizzato per i caratteri con codici ca
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i caratteri e i colori del tema.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

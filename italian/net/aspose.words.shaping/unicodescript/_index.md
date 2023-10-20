@@ -1,7 +1,9 @@
 ---
-title: Enum UnicodeScript
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Shaping.UnicodeScript enum. Proprietà database di caratteri Unicode Script sc.
+title: UnicodeScript Enum
+linktitle: UnicodeScript
+articleTitle: UnicodeScript
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Shaping.UnicodeScript enum. Proprietà database di caratteri Unicode Script sc in C#.
 type: docs
 weight: 6080
 url: /it/net/aspose.words.shaping/unicodescript/
@@ -177,7 +179,7 @@ public enum UnicodeScript
 | Common | `1517910393` | Scrittura comune. |
 | Unknown | `1517976186` | Scrittura sconosciuta. |
 
-### Osservazioni
+## Osservazioni
 
 http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso15924/ http://goo.gl/x9ilM
 
@@ -185,5 +187,3 @@ http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso1592
 
 * spazio dei nomi [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../)
-
-

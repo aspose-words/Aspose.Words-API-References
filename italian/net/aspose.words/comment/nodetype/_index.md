@@ -1,7 +1,9 @@
 ---
 title: Comment.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Comment proprietà. RestituisceComment .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Comment NodeType proprietà. RestituisceComment  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/comment/nodetype/
@@ -14,7 +16,7 @@ RestituisceComment .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

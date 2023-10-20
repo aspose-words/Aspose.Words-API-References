@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Aspose.Words per .NET API Reference
-description: WarningInfoCollection metodo. Implementa ilIWarningCallback interfaccia. Aggiunge un avviso a questa raccolta.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words per .NET
+description: WarningInfoCollection Warning metodo. Implementa ilIWarningCallback interfaccia. Aggiunge un avviso a questa raccolta in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ Implementa il[`IWarningCallback`](../../iwarningcallback/) interfaccia. Aggiunge
 public void Warning(WarningInfo info)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* spazio dei nomi [Aspose.Words](../../warninginfocollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

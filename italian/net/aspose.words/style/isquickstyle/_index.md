@@ -1,7 +1,9 @@
 ---
 title: Style.IsQuickStyle
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Specifica se questo stile viene mostrato nella raccolta Stile veloce allinterno dellinterfaccia utente di MS Word.
+linktitle: IsQuickStyle
+articleTitle: IsQuickStyle
+second_title: Aspose.Words per .NET
+description: Style IsQuickStyle proprietà. Specifica se questo stile viene mostrato nella raccolta Stile veloce allinterno dellinterfaccia utente di MS Word in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/style/isquickstyle/
@@ -14,7 +16,7 @@ Specifica se questo stile viene mostrato nella raccolta Stile veloce all'interno
 public bool IsQuickStyle { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di stili di un documento.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Guarda anche
 
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

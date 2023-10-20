@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeDestination enum. Specifica i possibili risultati che possono essere generati quando viene eseguita una stampa unione su un documento.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.MailMergeDestination enum. Specifica i possibili risultati che possono essere generati quando viene eseguita una stampa unione su un documento in C#.
 type: docs
 weight: 5830
 url: /it/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | Specifica che le applicazioni hosting conformi genereranno fax utilizzando i documenti risultanti dal compilando i campi all'interno di un determinato documento con i dati provenienti dall'origine dati esterna specificata. |
 | Default | `0` | Uguale aNewDocument valore. |
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

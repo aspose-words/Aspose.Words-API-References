@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Aspose.Words per .NET API Reference
-description: CertificateHolder metodo. CreaCertificateHolder oggetto che utilizza larray di byte dellarchivio PKCS12 e la relativa password.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words per .NET
+description: CertificateHolder Create metodo. CreaCertificateHolder oggetto che utilizza larray di byte dellarchivio PKCS12 e la relativa password in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 Crea[`CertificateHolder`](../) oggetto che utilizza l'array di byte dell'archivio PKCS12 e la relativa password.
 
@@ -32,7 +34,7 @@ Un'istanza di[`CertificateHolder`](../)
 | SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
 | IOException | Emesso se è presente una password errata o un file danneggiato. |
 
-### Esempi
+## Esempi
 
 Mostra come creare oggetti CertificateHolder.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Guarda anche
 
 * class [CertificateHolder](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 Crea[`CertificateHolder`](../) oggetto che utilizza l'array di byte dell'archivio PKCS12 e la relativa password.
 
@@ -108,7 +110,7 @@ Un'istanza di[`CertificateHolder`](../)
 | SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
 | IOException | Emesso se è presente una password errata o un file danneggiato. |
 
-### Esempi
+## Esempi
 
 Mostra come creare oggetti CertificateHolder.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Guarda anche
 
 * class [CertificateHolder](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 Crea[`CertificateHolder`](../) oggetto utilizzando il percorso dell'archivio PKCS12 e la relativa password.
 
@@ -184,7 +186,7 @@ Un'istanza di[`CertificateHolder`](../)
 | SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
 | IOException | Emesso se è presente una password errata o un file danneggiato. |
 
-### Esempi
+## Esempi
 
 Mostra come firmare digitalmente i documenti.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Guarda anche
 
 * class [CertificateHolder](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 Crea[`CertificateHolder`](../) oggetto utilizzando il percorso dell'archivio PKCS12, la relativa password e l'alias utilizzando la chiave privata e il certificato che verranno trovati.
 
@@ -246,7 +248,7 @@ Un'istanza di[`CertificateHolder`](../)
 | IOException | Emesso se è presente una password errata o un file danneggiato. |
 | SecurityException | Emesso se non è presente una chiave privata con l'alias specificato |
 
-### Esempi
+## Esempi
 
 Mostra come creare oggetti CertificateHolder.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Guarda anche
 
 * class [CertificateHolder](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

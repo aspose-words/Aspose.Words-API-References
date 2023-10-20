@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FormFieldCollection classe. Una raccolta diFormField oggetti che rappresentano tutti i campi del modulo in un intervallo.
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FormFieldCollection classe. Una raccolta diFormField oggetti che rappresentano tutti i campi del modulo in un intervallo in C#.
 type: docs
 weight: 2630
 url: /it/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Rimuove tutti i campi modulo da questa raccolta e dal documento. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Rimuove un campo modulo con il nome specificato. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Rimuove un campo modulo nell'indice specificato. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | Rimuove un campo modulo con il nome specificato. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | Rimuove un campo modulo nell'indice specificato. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

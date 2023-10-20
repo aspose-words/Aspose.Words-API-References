@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene il nome del campo di unione nellorigine dati.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase FieldName proprietà. Ottiene il nome del campo di unione nellorigine dati in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ Ottiene il nome del campo di unione nell'origine dati.
 public string FieldName { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se disponi di una mappatura da un nome di campo del documento a un nome di campo di origine dati diverso, , questo è il nome del campo mappato.
 
 Se hai specificato un prefisso per il nome del campo, ad esempio "Immagine:MyFieldName" nel documento, allora`FieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
 
-### Esempi
+## Esempi
 
 Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Guarda anche
 
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

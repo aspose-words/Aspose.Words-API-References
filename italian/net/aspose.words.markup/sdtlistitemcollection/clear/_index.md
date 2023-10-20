@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItemCollection metodo. Cancella tutti gli elementi da questa raccolta.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: SdtListItemCollection Clear metodo. Cancella tutti gli elementi da questa raccolta in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ Cancella tutti gli elementi da questa raccolta.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Guarda anche
 
 * class [SdtListItemCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

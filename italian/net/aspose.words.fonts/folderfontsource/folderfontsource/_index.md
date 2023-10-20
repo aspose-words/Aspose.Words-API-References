@@ -1,12 +1,14 @@
 ---
-title: FolderFontSource.FolderFontSource
-second_title: Aspose.Words per .NET API Reference
-description: FolderFontSource costruttore. Ctor.
+title: FolderFontSource
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words per .NET
+description: FolderFontSource costruttore. Ctor in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {#constructor}
+## FolderFontSource(*string, bool*) {#constructor}
 
 Ctor.
 
@@ -19,7 +21,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Percorso della cartella. |
 | scanSubfolders | Boolean | Determina se eseguire o meno la scansione delle sottocartelle. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
@@ -40,12 +42,12 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Guarda anche
 
 * class [FolderFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../folderfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## FolderFontSource(string, bool, int) {#constructor_1}
+## FolderFontSource(*string, bool, int*) {#constructor_1}
 
 Ctor.
 
@@ -59,7 +61,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | Determina se eseguire o meno la scansione delle sottocartelle. |
 | priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
@@ -80,7 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Guarda anche
 
 * class [FolderFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../folderfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

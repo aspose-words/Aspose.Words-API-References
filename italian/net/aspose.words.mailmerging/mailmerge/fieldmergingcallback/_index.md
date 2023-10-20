@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Si verifica durante la stampa unione quando nel documento viene rilevato un campo di stampa unione.
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: Aspose.Words per .NET
+description: MailMerge FieldMergingCallback proprietà. Si verifica durante la stampa unione quando nel documento viene rilevato un campo di stampa unione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ Si verifica durante la stampa unione quando nel documento viene rilevato un camp
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

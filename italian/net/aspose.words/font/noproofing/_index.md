@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero quando i caratteri formattati non devono essere sottoposti al controllo ortografico.
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: Aspose.Words per .NET
+description: Font NoProofing proprietà. Vero quando i caratteri formattati non devono essere sottoposti al controllo ortografico in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ Vero quando i caratteri formattati non devono essere sottoposti al controllo ort
 public bool NoProofing { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impedire il controllo ortografico del testo da parte di Microsoft Word.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

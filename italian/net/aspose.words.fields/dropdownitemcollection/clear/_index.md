@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: DropDownItemCollection metodo. Rimuove tutti gli elementi dalla raccolta.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: DropDownItemCollection Clear metodo. Rimuove tutti gli elementi dalla raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutti gli elementi dalla raccolta.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Guarda anche
 
 * class [DropDownItemCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../dropdownitemcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

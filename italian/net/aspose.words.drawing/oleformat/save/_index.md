@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat metodo. Salva i dati delloggetto incorporato nello stream specificato.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words per .NET
+description: OleFormat Save metodo. Salva i dati delloggetto incorporato nello stream specificato in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Salva i dati dell'oggetto incorporato nello stream specificato.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Genera un'eccezione se tenti di salvare un oggetto collegato. |
 
-### Osservazioni
+## Osservazioni
 
 È responsabilità del chiamante smaltire il flusso.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre oggetti OLE incorporati nei file.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Salva i dati dell'oggetto incorporato in un file con il nome specificato.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Genera un'eccezione se tenti di salvare un oggetto collegato. |
 
-### Esempi
+## Esempi
 
 Mostra come estrarre oggetti OLE incorporati nei file.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

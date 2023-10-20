@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPartCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: CustomXmlPartCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.markup/customxmlpartcollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<CustomXmlPart> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

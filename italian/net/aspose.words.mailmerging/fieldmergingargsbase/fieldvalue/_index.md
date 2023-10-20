@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene o imposta il valore del campo dallorigine dati.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase FieldValue proprietà. Ottiene o imposta il valore del campo dallorigine dati in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ Ottiene o imposta il valore del campo dall'origine dati.
 public object FieldValue { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà contiene un valore che è stato appena selezionato dall'origine dati per questo campo dal motore di stampa unione. Puoi anche sostituire il valore impostando la proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come modificare i valori ricevuti dai MERGEFIELD durante la stampa unione.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### Guarda anche
 
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

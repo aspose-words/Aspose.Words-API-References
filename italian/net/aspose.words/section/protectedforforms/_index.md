@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Aspose.Words per .NET API Reference
-description: Section proprietà. Vero se la sezione è protetta per i moduli. Quando una sezione è protetta per i moduli gli utenti possono selezionare e modificare il testo solo nei campi modulo in Microsoft Word.
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: Aspose.Words per .NET
+description: Section ProtectedForForms proprietà. Vero se la sezione è protetta per i moduli. Quando una sezione è protetta per i moduli gli utenti possono selezionare e modificare il testo solo nei campi modulo in Microsoft Word in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ Vero se la sezione è protetta per i moduli. Quando una sezione è protetta per 
 public bool ProtectedForForms { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come disattivare la protezione per una sezione.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### Guarda anche
 
 * class [Section](../)
-* spazio dei nomi [Aspose.Words](../../section/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

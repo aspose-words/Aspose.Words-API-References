@@ -1,7 +1,9 @@
 ---
 title: Chart.SourceFullName
-second_title: Aspose.Words per .NET API Reference
-description: Chart proprietà. Ottiene il percorso e il nome di un file xls/xlsx a cui è collegato questo grafico.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words per .NET
+description: Chart SourceFullName proprietà. Ottiene il percorso e il nome di un file xls/xlsx a cui è collegato questo grafico in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing.charts/chart/sourcefullname/
@@ -14,7 +16,7 @@ Ottiene il percorso e il nome di un file xls/xlsx a cui è collegato questo graf
 public string SourceFullName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere/impostare il nome completo del documento xls/xlsx esterno se il grafico è collegato.
 
@@ -33,7 +35,5 @@ Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringCompari
 ### Guarda anche
 
 * class [Chart](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chart/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

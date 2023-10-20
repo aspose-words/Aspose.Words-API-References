@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Regions
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeRegionInfo proprietà. Restituisce un elenco di regioni secondarie.
+linktitle: Regions
+articleTitle: Regions
+second_title: Aspose.Words per .NET
+description: MailMergeRegionInfo Regions proprietà. Restituisce un elenco di regioni secondarie in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
@@ -14,7 +16,7 @@ Restituisce un elenco di regioni secondarie.
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le regioni di stampa unione.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Guarda anche
 
 * class [MailMergeRegionInfo](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ParagraphFormat
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del paragrafo corrente.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words per .NET
+description: DocumentBuilder ParagraphFormat proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del paragrafo corrente in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words/documentbuilder/paragraphformat/
@@ -14,7 +16,7 @@ Restituisce un oggetto che rappresenta le proprietà di formattazione del paragr
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella formattata utilizzando DocumentBuilder.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

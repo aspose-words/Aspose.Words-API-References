@@ -1,7 +1,9 @@
 ---
-title: Enum FillType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.FillType enum. Specifica il tipo di riempimento per un oggetto compilabile.
+title: FillType Enum
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.FillType enum. Specifica il tipo di riempimento per un oggetto compilabile in C#.
 type: docs
 weight: 960
 url: /it/net/aspose.words.drawing/filltype/
@@ -29,5 +31,3 @@ public enum FillType
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

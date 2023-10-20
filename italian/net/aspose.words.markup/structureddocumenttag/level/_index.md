@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene il livello al quale this SDT si verifica nellalbero del documento.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Level proprietà. Ottiene il livello al quale thisSDT si verifica nellalbero del documento in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-Ottiene il livello al quale this **SDT** si verifica nell'albero del documento.
+Ottiene il livello al quale this**SDT** si verifica nell'albero del documento.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

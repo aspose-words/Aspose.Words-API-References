@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene la posizione e la dimensione del blocco contenitore della forma in punti rispetto allancoraggio della forma più in alto.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words per .NET
+description: ShapeBase BoundsInPoints proprietà. Ottiene la posizione e la dimensione del blocco contenitore della forma in punti rispetto allancoraggio della forma più in alto in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ Ottiene la posizione e la dimensione del blocco contenitore della forma in punti
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare la forma contenente i limiti del blocco.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

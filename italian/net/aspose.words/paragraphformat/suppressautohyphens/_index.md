@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Specifica se il paragrafo corrente deve essere esentato da qualsiasi sillabazione che viene applicata nelle impostazioni del documento.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words per .NET
+description: ParagraphFormat SuppressAutoHyphens proprietà. Specifica se il paragrafo corrente deve essere esentato da qualsiasi sillabazione che viene applicata nelle impostazioni del documento in C#.
 type: docs
 weight: 370
 url: /it/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ Specifica se il paragrafo corrente deve essere esentato da qualsiasi sillabazion
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eliminare la sillabazione per un paragrafo.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

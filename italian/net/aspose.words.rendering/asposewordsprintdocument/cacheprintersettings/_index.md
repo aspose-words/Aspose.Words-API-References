@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
-second_title: Aspose.Words per .NET API Reference
-description: AsposeWordsPrintDocument metodo. Legge e memorizza nella cache alcuni campi diPrinterSettings per ridurre i tempi di stampa.
+linktitle: CachePrinterSettings
+articleTitle: CachePrinterSettings
+second_title: Aspose.Words per .NET
+description: AsposeWordsPrintDocument CachePrinterSettings metodo. Legge e memorizza nella cache alcuni campi diPrinterSettings per ridurre i tempi di stampa in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -14,11 +16,11 @@ Legge e memorizza nella cache alcuni campi diPrinterSettings per ridurre i tempi
 public void CachePrinterSettings()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo viene chiamato prima dell'avvio della stampa se non è stato eseguito in precedenza.
 
-### Esempi
+## Esempi
 
 Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento e quindi visualizzare un'anteprima di stampa.
 
@@ -67,7 +69,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Guarda anche
 
 * class [AsposeWordsPrintDocument](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

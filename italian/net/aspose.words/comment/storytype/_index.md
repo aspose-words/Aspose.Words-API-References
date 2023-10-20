@@ -1,9 +1,11 @@
 ---
 title: Comment.StoryType
-second_title: Aspose.Words per .NET API Reference
-description: Comment proprietà. RestituisceComments .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words per .NET
+description: Comment StoryType proprietà. RestituisceComments  in C#.
 type: docs
-weight: 110
+weight: 100
 url: /it/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -14,7 +16,7 @@ RestituisceComments .
 public override StoryType StoryType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i nodi InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

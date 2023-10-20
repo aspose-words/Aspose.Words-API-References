@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Aspose.Words per .NET API Reference
-description: FontFallbackSettings metodo. Carica le impostazioni di fallback dei caratteri dal file XML.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words per .NET
+description: FontFallbackSettings Load metodo. Carica le impostazioni di fallback dei caratteri dal file XML in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Carica le impostazioni di fallback dei caratteri dal file XML.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Inserisci il nome del file. |
 
-### Esempi
+## Esempi
 
 Mostra come caricare e salvare le impostazioni di fallback dei caratteri in/da un documento XML nel file system locale.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Guarda anche
 
 * class [FontFallbackSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Carica le impostazioni di fallback dal flusso XML.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Flusso di input. |
 
-### Esempi
+## Esempi
 
 Mostra come caricare e salvare le impostazioni di fallback dei caratteri in/da un flusso.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### Guarda anche
 
 * class [FontFallbackSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

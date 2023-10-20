@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Sections
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlock proprietà. Restituisce una raccolta che rappresenta tutte le sezioni nel blocco predefinito.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words per .NET
+description: BuildingBlock Sections proprietà. Restituisce una raccolta che rappresenta tutte le sezioni nel blocco predefinito in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.buildingblocks/buildingblock/sections/
@@ -14,7 +16,7 @@ Restituisce una raccolta che rappresenta tutte le sezioni nel blocco predefinito
 public SectionCollection Sections { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [SectionCollection](../../../aspose.words/sectioncollection/)
 * class [BuildingBlock](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

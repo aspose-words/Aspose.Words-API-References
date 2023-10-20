@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Aspose.Words per .NET API Reference
-description: ChartLegend proprietà. Restituisce una raccolta di voci della legenda per tutte le serie e linee di tendenza del grafico principale.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words per .NET
+description: ChartLegend LegendEntries proprietà. Restituisce una raccolta di voci della legenda per tutte le serie e linee di tendenza del grafico principale in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ Restituisce una raccolta di voci della legenda per tutte le serie e linee di ten
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una voce di legenda per le serie di grafici.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

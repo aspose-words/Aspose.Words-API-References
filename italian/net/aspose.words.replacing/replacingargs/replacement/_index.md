@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Aspose.Words per .NET API Reference
-description: ReplacingArgs proprietà. Ottiene o imposta la stringa sostitutiva.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words per .NET
+description: ReplacingArgs Replacement proprietà. Ottiene o imposta la stringa sostitutiva in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ Ottiene o imposta la stringa sostitutiva.
 public string Replacement { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Guarda anche
 
 * class [ReplacingArgs](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../replacingargs/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

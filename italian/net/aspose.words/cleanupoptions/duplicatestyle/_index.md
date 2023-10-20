@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.DuplicateStyle
-second_title: Aspose.Words per .NET API Reference
-description: CleanupOptions proprietà. Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito èfalso .
+linktitle: DuplicateStyle
+articleTitle: DuplicateStyle
+second_title: Aspose.Words per .NET
+description: CleanupOptions DuplicateStyle proprietà. Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/cleanupoptions/duplicatestyle/
@@ -14,7 +16,7 @@ Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi 
 public bool DuplicateStyle { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere gli stili duplicati dal documento.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### Guarda anche
 
 * class [CleanupOptions](../)
-* spazio dei nomi [Aspose.Words](../../cleanupoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

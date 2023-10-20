@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Specifica se il contenuto di questa esecuzione dovrà avere caratteristiche da destra a sinistra.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words per .NET
+description: Font Bidi proprietà. Specifica se il contenuto di questa esecuzione dovrà avere caratteristiche da destra a sinistra in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ Specifica se il contenuto di questa esecuzione dovrà avere caratteristiche da d
 public bool Bidi { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà, quando attivata, non deve essere utilizzata con testo fortemente da sinistra a destra. Qualsiasi comportamento in tale condizione non è specificato. Questa proprietà, quando disattivata, non deve essere utilizzata con testo forte da destra a sinistra. Qualsiasi comportamento in tale condizione non è specificato.
 
@@ -22,7 +24,7 @@ Quando viene visualizzato il contenuto di questa esecuzione, tutti i caratteri v
 
 Inoltre, quando viene visualizzato il contenuto di questa esecuzione, questa proprietà agisce come una sostituzione da destra a sinistra per i caratteri che sono classificati come "tipi deboli" e "tipi neutri".
 
-### Esempi
+## Esempi
 
 Mostra come definire set separati di impostazioni dei caratteri per il testo da destra a sinistra e da destra a sinistra.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

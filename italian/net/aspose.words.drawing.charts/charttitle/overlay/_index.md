@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Overlay
-second_title: Aspose.Words per .NET API Reference
-description: ChartTitle proprietà. Determina se altri elementi del grafico possono sovrapporsi al titolo. Per impostazione predefinita la sovrapposizione èfalso .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words per .NET
+description: ChartTitle Overlay proprietà. Determina se altri elementi del grafico possono sovrapporsi al titolo. Per impostazione predefinita la sovrapposizione èfalso  in C#.
 type: docs
-weight: 20
+weight: 10
 url: /it/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
@@ -14,7 +16,7 @@ Determina se altri elementi del grafico possono sovrapporsi al titolo. Per impos
 public bool Overlay { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e impostare un titolo.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Guarda anche
 
 * class [ChartTitle](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../charttitle/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

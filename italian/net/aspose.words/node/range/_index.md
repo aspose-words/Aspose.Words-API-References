@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Aspose.Words per .NET API Reference
-description: Node proprietà. Restituisce aRange oggetto che rappresenta la porzione di documento contenuta in questo nodo.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words per .NET
+description: Node Range proprietà. Restituisce aRange oggetto che rappresenta la porzione di documento contenuta in questo nodo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ Restituisce a[`Range`](../../range/) oggetto che rappresenta la porzione di docu
 public Range Range { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eliminare tutti i nodi da un intervallo.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

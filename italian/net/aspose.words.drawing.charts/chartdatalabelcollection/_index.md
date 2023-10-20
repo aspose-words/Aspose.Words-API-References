@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabelCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection classe. Rappresenta una raccolta diChartDataLabel .
+title: ChartDataLabelCollection Class
+linktitle: ChartDataLabelCollection
+articleTitle: ChartDataLabelCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection classe. Rappresenta una raccolta diChartDataLabel  in C#.
 type: docs
 weight: 680
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -42,7 +44,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Cancella tutto il formato[`ChartDataLabel`](../chartdatalabel/) in questa raccolta. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -122,5 +124,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * class [ChartDataLabel](../chartdatalabel/)
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

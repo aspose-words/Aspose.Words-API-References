@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. RestituisceVERO se la forma ha byte di immagine o collega unimmagine.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words per .NET
+description: Shape HasImage proprietà. RestituisceVERO se la forma ha byte di immagine o collega unimmagine in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ Restituisce`VERO` se la forma ha byte di immagine o collega un'immagine.
 public bool HasImage { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eliminare tutte le forme con immagini da un documento.
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Guarda anche
 
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

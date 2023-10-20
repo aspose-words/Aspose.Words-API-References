@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Permette di gestire eventi particolari durante la stampa in serie.
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: Aspose.Words per .NET
+description: MailMerge MailMergeCallback proprietà. Permette di gestire eventi particolari durante la stampa in serie in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ Permette di gestire eventi particolari durante la stampa in serie.
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per la gestione degli eventi durante la stampa unione.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

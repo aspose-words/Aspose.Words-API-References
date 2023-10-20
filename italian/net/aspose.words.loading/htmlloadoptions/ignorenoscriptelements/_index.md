@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
-second_title: Aspose.Words per .NET API Reference
-description: HtmlLoadOptions proprietà. Ottiene o imposta un valore che indica se ignorare gli elementi HTML noscript. Il valore predefinito èfalso .
+linktitle: IgnoreNoscriptElements
+articleTitle: IgnoreNoscriptElements
+second_title: Aspose.Words per .NET
+description: HtmlLoadOptions IgnoreNoscriptElements proprietà. Ottiene o imposta un valore che indica se ignorare gli elementi HTML noscript. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore che indica se ignorare gli elementi HTML &lt;noscrip
 public bool IgnoreNoscriptElements { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Come MS Word, Aspose.Words non supporta gli script e per impostazione predefinita carica il contenuto di &lt;noscript&gt; elements nel documento risultante. Nella maggior parte dei browser, tuttavia, gli script sono supportati e il contenuto di &lt;noscript&gt; non è visibile. Impostando questa proprietà su`VERO` forza Aspose.Words a ignorare tutti gli elementi &lt;noscript&gt; e aiuta a produrre documenti che sembrano più vicini a ciò che viene visto nei browser.
 
-### Esempi
+## Esempi
 
 Mostra come ignorare gli elementi HTML &lt;noscript&gt;.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.IgnoreNoscriptElements.pdf");
 ### Guarda anche
 
 * class [HtmlLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../htmlloadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

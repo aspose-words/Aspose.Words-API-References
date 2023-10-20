@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato in grassetto.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words per .NET
+description: Font Bold proprietà. Vero se il carattere è formattato in grassetto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato in grassetto.
 public bool Bold { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire testo formattato utilizzando DocumentBuilder.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

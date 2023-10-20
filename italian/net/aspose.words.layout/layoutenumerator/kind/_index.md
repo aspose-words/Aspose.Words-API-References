@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator proprietà. Ottiene il tipo dellentità corrente. Può essere una stringa vuota ma mainullo .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator Kind proprietà. Ottiene il tipo dellentità corrente. Può essere una stringa vuota ma mainullo  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ Ottiene il tipo dell'entità corrente. Può essere una stringa vuota ma mai`null
 public string Kind { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo è un tipo più specifico dell'entità corrente, ad esempio ha l'intervallo dei segnalibriSpan type e può avere un tipo BOOKMARKSTART o BOOKMARKEND.
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Guarda anche
 
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

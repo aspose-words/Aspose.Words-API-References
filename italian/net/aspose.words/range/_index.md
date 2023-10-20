@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Range classe. Rappresenta unarea contigua in un documento.
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Range classe. Rappresenta unarea contigua in un documento in C#.
 type: docs
 weight: 4520
 url: /it/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Cancella tutti i caratteri dell'intervallo. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Modifica i valori del tipo di campo[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) Di[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) in questo intervallo in modo che corrispondano ai tipi di campo contenuti nei codici di campo. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva. |
 | [ToDocument](../../aspose.words/range/todocument/)() | Costruisce un nuovo documento completamente formato che contiene l'intervallo. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Scollega i campi in questo intervallo. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | Aggiorna i valori dei campi del documento in questo intervallo. |
 
-### Osservazioni
+## Osservazioni
 
 Il documento è rappresentato da un albero di nodi e i nodi forniscono operazioni per lavorare con l'albero, ma alcune operazioni sono più facili da eseguire se document viene trattato come una sequenza contigua di testo.
 
@@ -49,7 +51,7 @@ Il documento è rappresentato da un albero di nodi e i nodi forniscono operazion
 
 `Range` non contiene testo o nodi, è semplicemente una vista o "finestra" su un frammento di un documento.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il contenuto del testo di tutti i nodi coperti da un intervallo.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

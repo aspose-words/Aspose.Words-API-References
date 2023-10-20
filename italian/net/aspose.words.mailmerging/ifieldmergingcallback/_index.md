@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.IFieldMergingCallback interfaccia. Implementa questa interfaccia se desideri controllare il modo in cui i dati vengono inseriti nei campi di unione durante unoperazione di stampa unione.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback interfaccia. Implementa questa interfaccia se desideri controllare il modo in cui i dati vengono inseriti nei campi di unione durante unoperazione di stampa unione in C#.
 type: docs
 weight: 3790
 url: /it/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Chiamato quando il motore di stampa unione Aspose.Words sta per inserire i dati in un campo di unione nel documento. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Chiamato quando il motore di stampa unione Aspose.Words sta per inserire un'immagine in un campo di unione. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Chiamato quando il motore di stampa unione Aspose.Words sta per inserire i dati in un campo di unione nel documento. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Chiamato quando il motore di stampa unione Aspose.Words sta per inserire un'immagine in un campo di unione. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

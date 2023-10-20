@@ -1,7 +1,9 @@
 ---
-title: Class CommentCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.CommentCollection classe. Fornisce laccesso digitato a una raccolta diComment nodi.
+title: CommentCollection Class
+linktitle: CommentCollection
+articleTitle: CommentCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.CommentCollection classe. Fornisce laccesso digitato a una raccolta diComment nodi in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/commentcollection/
@@ -27,17 +29,17 @@ public class CommentCollection : NodeCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Aggiunge un nodo alla fine della raccolta. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Aggiunge un nodo alla fine della raccolta. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Rimuove tutti i nodi da questa raccolta e dal documento. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determina se un nodo è nella raccolta. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determina se un nodo è nella raccolta. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Restituisce l'indice in base zero del nodo specificato. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Rimuove il nodo dalla raccolta e dal documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia tutti i nodi dalla raccolta in un nuovo array di nodi. |
 
-### Esempi
+## Esempi
 
 Mostra come contrassegnare un commento come "fatto".
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Comment.Done.docx");
 * class [NodeCollection](../nodecollection/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

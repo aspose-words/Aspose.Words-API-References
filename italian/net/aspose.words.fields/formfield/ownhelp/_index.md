@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Specifica lorigine del testo visualizzato in una finestra di messaggio quando un campo modulo è attivo e lutente preme F1.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words per .NET
+description: FormField OwnHelp proprietà. Specifica lorigine del testo visualizzato in una finestra di messaggio quando un campo modulo è attivo e lutente preme F1 in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ Specifica l'origine del testo visualizzato in una finestra di messaggio quando u
 public bool OwnHelp { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se`VERO` , il testo specificato dal[`HelpText`](../helptext/) viene visualizzata la proprietà. Se`falso` , il testo nella voce di glossario specificata da[`HelpText`](../helptext/) viene visualizzata la proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

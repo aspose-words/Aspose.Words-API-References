@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportImagesForOldReaders
-second_title: Aspose.Words per .NET API Reference
-description: RtfSaveOptions proprietà. Specifica se le parole chiave per i vecchi lettori vengono scritte o meno in RTF. Ciò può influire in modo significativo sulla dimensione del documento RTF. Il valore predefinito èVERO .
+linktitle: ExportImagesForOldReaders
+articleTitle: ExportImagesForOldReaders
+second_title: Aspose.Words per .NET
+description: RtfSaveOptions ExportImagesForOldReaders proprietà. Specifica se le parole chiave per i vecchi lettori vengono scritte o meno in RTF. Ciò può influire in modo significativo sulla dimensione del documento RTF. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
@@ -14,13 +16,13 @@ Specifica se le parole chiave per i "vecchi lettori" vengono scritte o meno in R
 public bool ExportImagesForOldReaders { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 I "vecchi lettori" sono applicazioni precedenti a Microsoft Word 97 e anche WordPad. Quando questa opzione è`VERO` Aspose.Words scrive parole chiave RTF aggiuntive. Queste parole chiave consentono di visualizzare correttamente il documento quando viene aperto in un'applicazione "vecchio lettore" , ma possono aumentare significativamente la dimensione del documento.
 
 Se imposti questa opzione su`falso`, nei "vecchi lettori" verranno visualizzate solo le immagini nei formati WMF, EMF e BMP .
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento in formato .rtf con opzioni personalizzate.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### Guarda anche
 
 * class [RtfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../rtfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

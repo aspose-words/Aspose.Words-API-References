@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: GradientStopCollection metodo. Rimuove un oggetto specificatoGradientStop dalla collezione.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: GradientStopCollection Remove metodo. Rimuove un oggetto specificatoGradientStop dalla collezione in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `VERO` se l'interruzione del gradiente è stata rimossa con successo, altrimenti`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstopcollection/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

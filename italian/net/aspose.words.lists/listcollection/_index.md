@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.ListCollection classe. Memorizza e gestisce la formattazione degli elenchi puntati e numerati utilizzati in un documento.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.ListCollection classe. Memorizza e gestisce la formattazione degli elenchi puntati e numerati utilizzati in un documento in C#.
 type: docs
 weight: 3470
 url: /it/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Crea un nuovo elenco che fa riferimento a uno stile di elenco e lo aggiunge alla raccolta di elenchi nel documento. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Crea un nuovo elenco copiando l'elenco specificato e aggiungendolo alla raccolta di elenchi nel documento. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Crea un nuovo elenco che fa riferimento a uno stile di elenco e lo aggiunge alla raccolta di elenchi nel documento. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Crea un nuovo elenco copiando l'elenco specificato e aggiungendolo alla raccolta di elenchi nel documento. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Ottiene l'oggetto enumeratore che enumererà gli elenchi nel documento. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Ottiene un elenco tramite un identificatore di elenco. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Ottiene un elenco tramite un identificatore di elenco. |
 
-### Osservazioni
+## Osservazioni
 
 Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione dell'elenco. La formattazione degli elenchi è memorizzata nel`ListCollection` raccolta separatamente dai paragrafi di testo.
 
@@ -54,7 +56,7 @@ Per semplificare il modello di programmazione, Aspose.Words nasconde la distinzi
 
 Non è possibile eliminare gli elenchi una volta creati nella versione corrente di Aspose.Words. Questo è simile a Microsoft Word in cui l'utente non ha il controllo esplicito sulle definizioni degli elenchi.
 
-### Esempi
+## Esempi
 
 Mostra come creare un documento con un campione di tutti gli elenchi di un altro documento.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

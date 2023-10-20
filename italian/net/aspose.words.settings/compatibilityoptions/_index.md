@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.CompatibilityOptions classe. Contiene le opzioni di compatibilità ovvero le preferenze dellutente immesse nel file Compatibilità scheda del Opzioni finestra di dialogo in Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.CompatibilityOptions classe. Contiene le opzioni di compatibilità ovvero le preferenze dellutente immesse nel fileCompatibilità scheda delOpzioni finestra di dialogo in Microsoft Word in C#.
 type: docs
 weight: 5780
 url: /it/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Contiene le opzioni di compatibilità (ovvero le preferenze dell'utente immesse nel file **Compatibilità** scheda del **Opzioni** finestra di dialogo in Microsoft Word).
+Contiene le opzioni di compatibilità (ovvero le preferenze dell'utente immesse nel file**Compatibilità** scheda del**Opzioni** finestra di dialogo in Microsoft Word).
 
 Per saperne di più, visita il[Rileva il formato del file e controlla la compatibilità del formato](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) articolo di documentazione.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words per una particolare versione di MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words per una particolare versione di MS Word. |
 
-### Esempi
+## Esempi
 
 Mostra come allineare verticalmente il contenuto del testo di una casella di testo.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

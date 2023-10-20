@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Aspose.Words per .NET API Reference
-description: ListCollection metodo. Crea un nuovo elenco copiando lelenco specificato e aggiungendolo alla raccolta di elenchi nel documento.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words per .NET
+description: ListCollection AddCopy metodo. Crea un nuovo elenco copiando lelenco specificato e aggiungendolo alla raccolta di elenchi nel documento in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 L'elenco appena creato.
 
-### Osservazioni
+## Osservazioni
 
 L'elenco delle origini può provenire da qualsiasi documento. Se l'elenco di origine appartiene a un documento diverso, viene creata una copia dell'elenco e aggiunta al documento corrente.
 
 Se l'elenco di origine è un riferimento o una definizione di uno stile di elenco, l'elenco appena creato non è correlato allo stile di elenco originale.
 
-### Esempi
+## Esempi
 
 Mostra come creare un documento con un campione di tutti gli elenchi di un altro documento.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listcollection/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

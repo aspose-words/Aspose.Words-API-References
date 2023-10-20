@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenColumnBanding
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile di suddivisione uniforme delle colonne.
+linktitle: EvenColumnBanding
+articleTitle: EvenColumnBanding
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection EvenColumnBanding proprietà. Ottiene lo stile di suddivisione uniforme delle colonne in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/conditionalstylecollection/evencolumnbanding/
@@ -14,7 +16,7 @@ Ottiene lo stile di suddivisione uniforme delle colonne.
 public ConditionalStyle EvenColumnBanding { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

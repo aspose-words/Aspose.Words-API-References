@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.BottomPadding
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyle proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere sotto il contenuto delle celle della tabella.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words per .NET
+description: ConditionalStyle BottomPadding proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere sotto il contenuto delle celle della tabella in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/conditionalstyle/bottompadding/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spazio (in punti) da aggiungere sotto il conte
 public double BottomPadding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Guarda anche
 
 * class [ConditionalStyle](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

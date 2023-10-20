@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Insert
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeries metodo. Inserisce il valore X specificato nella serie di grafici in corrispondenza dellindice specificato. Se la serie supporta i valori Y e le dimensioni delle bolle saranno vuote per il valore X.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words per .NET
+description: ChartSeries Insert metodo. Inserisce il valore X specificato nella serie di grafici in corrispondenza dellindice specificato. Se la serie supporta i valori Y e le dimensioni delle bolle saranno vuote per il valore X in C#.
 type: docs
-weight: 200
+weight: 190
 url: /it/net/aspose.words.drawing.charts/chartseries/insert/
 ---
-## Insert(int, ChartXValue) {#insert}
+## Insert(*int, [ChartXValue](../../chartxvalue/)*) {#insert}
 
 Inserisce il valore X specificato nella serie di grafici in corrispondenza dell'indice specificato. Se la serie supporta i valori Y e le dimensioni delle bolle, saranno vuote per il valore X.
 
@@ -14,7 +16,7 @@ Inserisce il valore X specificato nella serie di grafici in corrispondenza dell'
 public void Insert(int index, ChartXValue xValue)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il punto dati corrispondente con formattazione predefinita verrà inserito nella raccolta di punti dati. Inoltre, se vengono visualizzate le etichette dati, verrà inserita anche l'etichetta dati corrispondente con formattazione predefinita.
 
@@ -22,12 +24,12 @@ Il punto dati corrispondente con formattazione predefinita verrà inserito nella
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Insert(int, ChartXValue, ChartYValue) {#insert_1}
+## Insert(*int, [ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#insert_1}
 
 Inserisce i valori X e Y specificati nella serie di grafici in corrispondenza dell'indice specificato.
 
@@ -35,7 +37,7 @@ Inserisce i valori X e Y specificati nella serie di grafici in corrispondenza de
 public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il punto dati corrispondente con formattazione predefinita verrà inserito nella raccolta di punti dati. Inoltre, se vengono visualizzate le etichette dati, verrà inserita anche l'etichetta dati corrispondente con formattazione predefinita.
 
@@ -44,12 +46,12 @@ Il punto dati corrispondente con formattazione predefinita verrà inserito nella
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Insert(int, ChartXValue, ChartYValue, double) {#insert_2}
+## Insert(*int, [ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#insert_2}
 
 Inserisce il valore X, il valore Y e la dimensione della bolla specificati nella serie di grafici in corrispondenza dell'indice specificato.
 
@@ -57,7 +59,7 @@ Inserisce il valore X, il valore Y e la dimensione della bolla specificati nella
 public void Insert(int index, ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il punto dati corrispondente con formattazione predefinita verrà inserito nella raccolta di punti dati. Inoltre, se vengono visualizzate le etichette dati, verrà inserita anche l'etichetta dati corrispondente con formattazione predefinita.
 
@@ -66,7 +68,5 @@ Il punto dati corrispondente con formattazione predefinita verrà inserito nella
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceTop
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Restituisce o imposta la distanza in punti tra il testo del documento e il bordo superiore della forma.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words per .NET
+description: ShapeBase DistanceTop proprietà. Restituisce o imposta la distanza in punti tra il testo del documento e il bordo superiore della forma in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing/shapebase/distancetop/
@@ -14,13 +16,13 @@ Restituisce o imposta la distanza (in punti) tra il testo del documento e il bor
 public double DistanceTop { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 0.
 
 Ha effetto solo per le forme di livello superiore.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la distanza di avvolgimento per un testo che circonda una forma.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.CustomTimeZoneInfo
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora.
+linktitle: CustomTimeZoneInfo
+articleTitle: CustomTimeZoneInfo
+second_title: Aspose.Words per .NET
+description: SaveOptions CustomTimeZoneInfo proprietà. Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/saveoptions/customtimezoneinfo/
@@ -14,7 +16,7 @@ Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi da
 public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa opzione è disponibile in .Net framework a partire dalla versione 3.5 o .Net Standard.
 
@@ -23,7 +25,5 @@ Per impostazione predefinita, Aspose.Words utilizza il fuso orario locale del si
 ### Guarda anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

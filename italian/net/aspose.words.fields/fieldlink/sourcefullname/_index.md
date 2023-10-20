@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceFullName
-second_title: Aspose.Words per .NET API Reference
-description: FieldLink proprietà. Ottiene o imposta il nome e il percorso del file di origine.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words per .NET
+description: FieldLink SourceFullName proprietà. Ottiene o imposta il nome e il percorso del file di origine in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/fieldlink/sourcefullname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome e il percorso del file di origine.
 public string SourceFullName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldLink](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldlink/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

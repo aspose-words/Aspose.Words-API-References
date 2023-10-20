@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Aspose.Words per .NET API Reference
-description: Cell costruttore. Inizializza una nuova istanza diCell classe.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words per .NET
+description: Cell costruttore. Inizializza una nuova istanza diCell classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
 
-### Osservazioni
+## Osservazioni
 
 Quando[`Cell`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) È`nullo`.
 
-Per aggiungere[`Cell`](../) all'uso del documentoNode) ONode) sulla riga in cui desideri inserire la cella.
+Per aggiungere[`Cell`](../) all'uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) O[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sulla riga in cui desideri inserire la cella.
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella nidificata senza utilizzare un generatore di documenti.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

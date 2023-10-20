@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Esegue laggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
+linktitle: Update
+articleTitle: Update
+second_title: Aspose.Words per .NET
+description: Field Update metodo. Esegue laggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fas
 public void Update()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo in un documento utilizzando FieldType.
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | Se`VERO` quindi la formattazione diretta dei risultati del campo viene abbandonata, indipendentemente dall'opzione MERGEFORMAT, altrimenti viene eseguito il normale aggiornamento. |
 
-### Esempi
+## Esempi
 
 Mostra come preservare o eliminare i campi INCLUDEPICTURE durante il caricamento di un documento.
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

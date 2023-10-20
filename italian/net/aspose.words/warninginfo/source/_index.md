@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Aspose.Words per .NET API Reference
-description: WarningInfo proprietà. Restituisce la fonte dellavviso.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words per .NET
+description: WarningInfo Source proprietà. Restituisce la fonte dellavviso in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* spazio dei nomi [Aspose.Words](../../warninginfo/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsRtf
-second_title: Aspose.Words per .NET API Reference
-description: FieldLink proprietà. Ottiene o imposta se inserire loggetto collegato in formato richtext RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words per .NET
+description: FieldLink InsertAsRtf proprietà. Ottiene o imposta se inserire loggetto collegato in formato richtext RTF in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldlink/insertasrtf/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire l'oggetto collegato in formato rich-text (RTF).
 public bool InsertAsRtf { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldLink](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldlink/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

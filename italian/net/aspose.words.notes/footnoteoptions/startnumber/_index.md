@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.StartNumber
-second_title: Aspose.Words per .NET API Reference
-description: FootnoteOptions proprietà. Specifica il numero o il carattere iniziale per le prime note a piè di pagina numerate automaticamente.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words per .NET
+description: FootnoteOptions StartNumber proprietà. Specifica il numero o il carattere iniziale per le prime note a piè di pagina numerate automaticamente in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.notes/footnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Specifica il numero o il carattere iniziale per le prime note a piè di pagina n
 public int StartNumber { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà ha effetto solo quando[`RestartRule`](../restartrule/) è impostato su Continuous.
 
-### Esempi
+## Esempi
 
 Mostra come impostare un numero con il quale il documento inizia il conteggio delle note a piè di pagina/note di chiusura.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Guarda anche
 
 * class [FootnoteOptions](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnoteoptions/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

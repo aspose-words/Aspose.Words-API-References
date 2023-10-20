@@ -1,7 +1,9 @@
 ---
 title: Metered.SetMeteredKey
-second_title: Aspose.Words per .NET API Reference
-description: Metered metodo. Imposta la chiave pubblica e privata misurata. Se acquisti una licenza misurata quando avvii lapplicazione questa API dovrebbe essere chiamata normalmente questo è sufficiente. Tuttavia se non si riesce sempre a caricare i dati sul consumo e si superano le 24 ore la licenza verrà impostata sullo stato di valutazione per evitare tale caso è necessario controllare regolarmente lo stato della licenza se è lo stato di valutazione richiamare nuovamente questa API.
+linktitle: SetMeteredKey
+articleTitle: SetMeteredKey
+second_title: Aspose.Words per .NET
+description: Metered SetMeteredKey metodo. Imposta la chiave pubblica e privata misurata. Se acquisti una licenza misurata quando avvii lapplicazione questa API dovrebbe essere chiamata normalmente questo è sufficiente. Tuttavia se non si riesce sempre a caricare i dati sul consumo e si superano le 24 ore la licenza verrà impostata sullo stato di valutazione per evitare tale caso è necessario controllare regolarmente lo stato della licenza se è lo stato di valutazione richiamare nuovamente questa API in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/metered/setmeteredkey/
@@ -19,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | chiave pubblica |
 | privateKey | String | chiave privata |
 
-### Esempi
+## Esempi
 
 Mostra come attivare una licenza a consumo e tenere traccia del credito/consumo.
 
@@ -46,7 +48,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Guarda anche
 
 * class [Metered](../)
-* spazio dei nomi [Aspose.Words](../../metered/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

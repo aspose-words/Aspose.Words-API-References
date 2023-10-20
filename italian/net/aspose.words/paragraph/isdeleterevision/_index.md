@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words per .NET
+description: Paragraph IsDeleteRevision proprietà. Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre e
 public bool IsDeleteRevision { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i paragrafi di revisione.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

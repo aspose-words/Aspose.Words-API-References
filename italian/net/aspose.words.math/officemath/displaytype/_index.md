@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.DisplayType
-second_title: Aspose.Words per .NET API Reference
-description: OfficeMath proprietà. Ottiene/imposta il tipo di formato di visualizzazione Office Math che indica se unequazione viene visualizzata in linea con il testo o su una propria riga.
+linktitle: DisplayType
+articleTitle: DisplayType
+second_title: Aspose.Words per .NET
+description: OfficeMath DisplayType proprietà. Ottiene/imposta il tipo di formato di visualizzazione Office Math che indica se unequazione viene visualizzata in linea con il testo o su una propria riga in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.math/officemath/displaytype/
@@ -14,13 +16,13 @@ Ottiene/imposta il tipo di formato di visualizzazione Office Math che indica se 
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il tipo di formato di visualizzazione ha effetto solo per Office Math di livello superiore.
 
 Il tipo di formato di visualizzazione restituito è sempreInline per Office Math nidificato.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione della visualizzazione della matematica di Office.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* spazio dei nomi [Aspose.Words.Math](../../officemath/)
+* spazio dei nomi [Aspose.Words.Math](../../../aspose.words.math/)
 * assemblea [Aspose.Words](../../../)
-
-

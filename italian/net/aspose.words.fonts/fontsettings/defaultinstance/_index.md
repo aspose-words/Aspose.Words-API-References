@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings proprietà. Impostazioni carattere predefinite statiche.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words per .NET
+description: FontSettings DefaultInstance proprietà. Impostazioni carattere predefinite statiche in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ Impostazioni carattere predefinite statiche.
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa istanza viene utilizzata per impostazione predefinita in un documento a meno che[`FontSettings`](../../../aspose.words/document/fontsettings/) è specificato.
 
-### Esempi
+## Esempi
 
 Mostra come configurare l'istanza delle impostazioni dei caratteri predefinita.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### Guarda anche
 
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

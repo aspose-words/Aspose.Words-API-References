@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeColor
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Definisce il colore di un tratto.
+linktitle: StrokeColor
+articleTitle: StrokeColor
+second_title: Aspose.Words per .NET
+description: Shape StrokeColor proprietà. Definisce il colore di un tratto in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.drawing/shape/strokecolor/
@@ -14,13 +16,13 @@ Definisce il colore di un tratto.
 public Color StrokeColor { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa è una scorciatoia per[`Color`](../../stroke/color/) proprietà.
 
 Il valore predefinito è Black.
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con un colore a tinta unita.
 
@@ -173,7 +175,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

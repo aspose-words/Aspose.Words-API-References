@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore in una posizione appena oltre il campo di unione specificato e rimuove il campo di unione.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToMergeField metodo. Sposta il cursore in una posizione appena oltre il campo di unione specificato e rimuove il campo di unione in C#.
 type: docs
-weight: 560
+weight: 550
 url: /it/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 Sposta il cursore in una posizione appena oltre il campo di unione specificato e rimuove il campo di unione.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `VERO` se il campo unione è stato trovato e il cursore è stato spostato;`falso` Altrimenti.
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che questo metodo elimina il campo di unione dal documento dopo aver spostato il cursore.
 
-### Esempi
+## Esempi
 
 Mostra come riempire MERGEFIELD con dati con un generatore di documenti invece che con una stampa unione.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 Sposta il campo di unione nel campo di unione specificato.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `VERO` se il campo unione è stato trovato e il cursore è stato spostato;`falso` Altrimenti.
 
-### Esempi
+## Esempi
 
 Mostra come inserire i campi e spostare su di essi il cursore del generatore di documenti.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

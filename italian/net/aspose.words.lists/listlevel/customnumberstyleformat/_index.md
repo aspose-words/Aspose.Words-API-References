@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Ottiene il formato di stile numero personalizzato per questo livello di elenco. Ad esempio a ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words per .NET
+description: ListLevel CustomNumberStyleFormat proprietà. Ottiene il formato di stile numero personalizzato per questo livello di elenco. Ad esempio a ç ĝ  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ Ottiene il formato di stile numero personalizzato per questo livello di elenco. 
 public string CustomNumberStyleFormat { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il formato di un elenco con lo stile numero personalizzato.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### Guarda anche
 
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

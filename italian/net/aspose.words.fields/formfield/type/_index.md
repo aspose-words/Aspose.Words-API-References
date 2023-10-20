@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Restituisce il tipo di campo modulo.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: FormField Type proprietà. Restituisce il tipo di campo modulo in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ Restituisce il tipo di campo modulo.
 public FieldType Type { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire una casella combinata.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

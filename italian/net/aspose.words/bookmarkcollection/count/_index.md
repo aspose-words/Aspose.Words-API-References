@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkCollection proprietà. Restituisce il numero di segnalibri nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: BookmarkCollection Count proprietà. Restituisce il numero di segnalibri nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ Restituisce il numero di segnalibri nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i segnalibri da un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Guarda anche
 
 * class [BookmarkCollection](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

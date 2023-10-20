@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
-second_title: Aspose.Words per .NET API Reference
-description: GlossaryDocument proprietà. Ottiene il primo elemento costitutivo nel documento glossario.
+linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
+second_title: Aspose.Words per .NET
+description: GlossaryDocument FirstBuildingBlock proprietà. Ottiene il primo elemento costitutivo nel documento glossario in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
@@ -14,11 +16,11 @@ Ottiene il primo elemento costitutivo nel documento glossario.
 public BuildingBlock FirstBuildingBlock { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce`nullo` se non sono disponibili elementi costitutivi.
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

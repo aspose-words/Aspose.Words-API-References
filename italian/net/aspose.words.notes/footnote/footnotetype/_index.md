@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Aspose.Words per .NET API Reference
-description: Footnote proprietà. Restituisce un valore che specifica se si tratta di una nota a piè di pagina o di chiusura.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words per .NET
+description: Footnote FootnoteType proprietà. Restituisce un valore che specifica se si tratta di una nota a piè di pagina o di chiusura in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ Restituisce un valore che specifica se si tratta di una nota a piè di pagina o 
 public FootnoteType FootnoteType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra la differenza tra note a piè di pagina e note di chiusura.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* spazio dei nomi [Aspose.Words.Notes](../../footnote/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

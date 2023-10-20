@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PdfEncryptionDetails classe. Contiene i dettagli per la crittografia e le autorizzazioni di accesso per un documento PDF.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails classe. Contiene i dettagli per la crittografia e le autorizzazioni di accesso per un documento PDF in C#.
 type: docs
 weight: 5460
 url: /it/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | Nome | Descrizione |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Inizializza un'istanza di questa classe. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Inizializza un'istanza di questa classe. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Inizializza un'istanza di questa classe. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Inizializza un'istanza di questa classe. |
 
 ## Proprietà
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Specifica le operazioni consentite a un utente su un documento PDF crittografato. Il valore predefinito èDisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Specifica la password utente richiesta per aprire il documento PDF crittografato. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare le autorizzazioni su un documento PDF salvato.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

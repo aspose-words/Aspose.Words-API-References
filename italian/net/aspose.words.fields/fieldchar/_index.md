@@ -1,7 +1,9 @@
 ---
-title: Class FieldChar
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldChar classe. Classe base per i nodi che rappresentano i caratteri di campo in un documento.
+title: FieldChar Class
+linktitle: FieldChar
+articleTitle: FieldChar
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldChar classe. Classe base per i nodi che rappresentano i caratteri di campo in un documento in C#.
 type: docs
 weight: 1670
 url: /it/net/aspose.words.fields/fieldchar/
@@ -43,25 +45,25 @@ public abstract class FieldChar : SpecialChar
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Restituisce un campo per il campo char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ottiene il carattere speciale rappresentato da questo nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 Un campo completo in un documento Microsoft Word è una struttura complessa composta da un carattere di inizio campo, un codice di campo, un carattere separatore di campo, un risultato di campo e un carattere di fine campo. Alcuni campi hanno solo inizio campo, codice campo e fine campo.
 
 Per inserire facilmente un nuovo campo in un documento, utilizzare il comando[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Metodo .
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un nodo FieldStart.
 
@@ -97,5 +99,3 @@ field.Update();
 * class [SpecialChar](../../aspose.words/specialchar/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

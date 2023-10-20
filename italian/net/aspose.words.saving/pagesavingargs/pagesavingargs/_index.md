@@ -1,7 +1,9 @@
 ---
-title: PageSavingArgs.PageSavingArgs
-second_title: Aspose.Words per .NET API Reference
-description: PageSavingArgs costruttore. Default_Costruttore
+title: PageSavingArgs
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words per .NET
+description: PageSavingArgs costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/pagesavingargs/pagesavingargs/
@@ -17,7 +19,5 @@ public PageSavingArgs()
 ### Guarda anche
 
 * class [PageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

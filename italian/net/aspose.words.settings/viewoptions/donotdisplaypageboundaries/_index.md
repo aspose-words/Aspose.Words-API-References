@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Aspose.Words per .NET API Reference
-description: ViewOptions proprietà. Disattiva la visualizzazione dello spazio tra la parte superiore del testo e il bordo superiore della pagina.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words per .NET
+description: ViewOptions DoNotDisplayPageBoundaries proprietà. Disattiva la visualizzazione dello spazio tra la parte superiore del testo e il bordo superiore della pagina in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ Disattiva la visualizzazione dello spazio tra la parte superiore del testo e il 
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come nascondere gli spazi bianchi verticali e le intestazioni/piè di pagina nelle opzioni di visualizzazione.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### Guarda anche
 
 * class [ViewOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../viewoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

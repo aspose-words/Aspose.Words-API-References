@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il numero di righe per pagina nella griglia del documento.
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: Aspose.Words per .NET
+description: PageSetup LinesPerPage proprietà. Ottiene o imposta il numero di righe per pagina nella griglia del documento in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ Ottiene o imposta il numero di righe per pagina nella griglia del documento.
 public int LinesPerPage { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore minimo della proprietà è 1. Il valore massimo dipende dall'altezza della pagina e dalla dimensione del carattere dello stile Normal . Il passo minimo della riga è pari al 136% della dimensione del carattere. Ad esempio, il numero massimo di righe per pagina di una pagina di lettere con margini di un pollice è 39.
 
 Per impostazione predefinita, la proprietà ha un valore in cui il passo della linea è 1,5 volte maggiore della dimensione del carattere di lo stile Normale.
 
-### Esempi
+## Esempi
 
 Mostra come specificare un limite per il numero di righe che ogni pagina può avere.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

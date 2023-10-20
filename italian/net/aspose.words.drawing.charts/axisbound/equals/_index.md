@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Equals
-second_title: Aspose.Words per .NET API Reference
-description: AxisBound metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: AxisBound Equals metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/axisbound/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Guarda anche
 
 * class [AxisBound](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisbound/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

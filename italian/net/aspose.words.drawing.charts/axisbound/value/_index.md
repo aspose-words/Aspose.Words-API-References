@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Value
-second_title: Aspose.Words per .NET API Reference
-description: AxisBound proprietà. Restituisce il valore numerico del limite dellasse.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words per .NET
+description: AxisBound Value proprietà. Restituisce il valore numerico del limite dellasse in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/axisbound/value/
@@ -14,7 +16,7 @@ Restituisce il valore numerico del limite dell'asse.
 public double Value { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i limiti degli assi personalizzati.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Guarda anche
 
 * class [AxisBound](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisbound/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

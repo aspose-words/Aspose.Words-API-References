@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.DisplayText
-second_title: Aspose.Words per .NET API Reference
-description: FieldDisplayBarcode proprietà. Ottiene o imposta se visualizzare i dati del codice a barre testo insieme allimmagine.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words per .NET
+description: FieldDisplayBarcode DisplayText proprietà. Ottiene o imposta se visualizzare i dati del codice a barre testo insieme allimmagine in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fielddisplaybarcode/displaytext/
@@ -14,7 +16,7 @@ Ottiene o imposta se visualizzare i dati del codice a barre (testo) insieme all'
 public bool DisplayText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Guarda anche
 
 * class [FieldDisplayBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta lID della lingua utilizzata per generare lindice.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words per .NET
+description: FieldIndex LanguageId proprietà. Ottiene o imposta lID della lingua utilizzata per generare lindice in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ Ottiene o imposta l'ID della lingua utilizzata per generare l'indice.
 public string LanguageId { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo INDICE con voci utilizzando i campi XE e anche modificarne l'aspetto.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

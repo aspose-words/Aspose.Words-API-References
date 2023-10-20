@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery enum. Specifica la raccolta predefinita in cui viene classificato un blocco predefinito.
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery enum. Specifica la raccolta predefinita in cui viene classificato un blocco predefinito in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | Uguale aAll . |
 
-### Osservazioni
+## Osservazioni
 
-Corrisponde a **ST_DocPartGallery** digitare OOXML.
+Corrisponde a**ST_DocPartGallery** digitare OOXML.
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * spazio dei nomi [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../)
-
-

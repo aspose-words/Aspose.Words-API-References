@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words per .NET API Reference
-description: Revision proprietà. Ottiene o imposta lautore di questa revisione. Non può essere una stringa vuota onullo .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words per .NET
+description: Revision Author proprietà. Ottiene o imposta lautore di questa revisione. Non può essere una stringa vuota onullo  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ Ottiene o imposta l'autore di questa revisione. Non può essere una stringa vuot
 public string Author { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le revisioni in un documento.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Guarda anche
 
 * class [Revision](../)
-* spazio dei nomi [Aspose.Words](../../revision/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

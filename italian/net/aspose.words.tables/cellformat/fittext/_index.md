@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. SeVERO  adatta il testo nella cella comprimendo ogni paragrafo alla larghezza della cella.
+linktitle: FitText
+articleTitle: FitText
+second_title: Aspose.Words per .NET
+description: CellFormat FitText proprietà. SeVERO  adatta il testo nella cella comprimendo ogni paragrafo alla larghezza della cella in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ Se`VERO` , adatta il testo nella cella, comprimendo ogni paragrafo alla larghezz
 public bool FitText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella con bordi personalizzati.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Guarda anche
 
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

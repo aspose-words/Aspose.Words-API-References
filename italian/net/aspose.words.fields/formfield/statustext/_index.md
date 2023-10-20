@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Restituisce o imposta il testo visualizzato nella barra di stato quando il focus è su un campo modulo.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words per .NET
+description: FormField StatusText proprietà. Restituisce o imposta il testo visualizzato nella barra di stato quando il focus è su un campo modulo in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ Restituisce o imposta il testo visualizzato nella barra di stato quando il focus
 public string StatusText { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se la[`OwnStatus`](../ownstatus/) la proprietà è impostata su`VERO` , IL`StatusText` la proprietà specifica il testo della barra di stato. Se il[`OwnStatus`](../ownstatus/) la proprietà è impostata su`falso` , IL`StatusText` La proprietà specifica il nome di una voce di glossario che contiene il testo della barra di stato per il campo del modulo.
 
 Microsoft Word consente stringhe con un massimo di 138 caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

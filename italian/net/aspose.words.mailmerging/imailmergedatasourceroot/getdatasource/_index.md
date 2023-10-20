@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Aspose.Words per .NET API Reference
-description: IMailMergeDataSourceRoot metodo. Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra linizio di unarea di stampa unione di livello superiore.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words per .NET
+description: IMailMergeDataSourceRoot GetDataSource metodo. Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra linizio di unarea di stampa unione di livello superiore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Un oggetto origine dati che fornirà l'accesso ai record di dati della tabella specificata.
 
-### Osservazioni
+## Osservazioni
 
 Quando i motori di stampa unione Aspose.Words popolano un documento con dati e incontrano MERGEFIELD TableStart:TableName, invoca`GetDataSource` su questo oggetto. La tua implementazione deve restituire un nuovo oggetto origine dati. Aspose.Words utilizzerà l'origine dati restituita per popolare la regione di stampa unione.
 
 Se un'origine dati (tabella) con il nome specificato non esiste, l'implementazione dovrebbe restituire`nullo` .
 
-### Esempi
+## Esempi
 
 Esegue la stampa unione da un'origine dati personalizzata con dati master-dettagli.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

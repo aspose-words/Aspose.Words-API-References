@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: StyleCollection proprietà. Ottiene il numero di stili nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: StyleCollection Count proprietà. Ottiene il numero di stili nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/stylecollection/count/
@@ -14,7 +16,7 @@ Ottiene il numero di stili nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere uno stile alla raccolta di stili di un documento.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ### Guarda anche
 
 * class [StyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../stylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

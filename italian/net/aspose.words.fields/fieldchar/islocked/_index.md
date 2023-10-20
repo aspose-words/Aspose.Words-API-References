@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Aspose.Words per .NET API Reference
-description: FieldChar proprietà. Ottiene o imposta se il campo padre è bloccato non deve ricalcolare il risultato.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words per .NET
+description: FieldChar IsLocked proprietà. Ottiene o imposta se il campo padre è bloccato non deve ricalcolare il risultato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ Ottiene o imposta se il campo padre è bloccato (non deve ricalcolare il risulta
 public bool IsLocked { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un nodo FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Guarda anche
 
 * class [FieldChar](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldchar/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

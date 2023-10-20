@@ -1,7 +1,9 @@
 ---
-title: FieldFillIn.FieldFillIn
-second_title: Aspose.Words per .NET API Reference
-description: FieldFillIn costruttore. Default_Costruttore
+title: FieldFillIn
+linktitle: FieldFillIn
+articleTitle: FieldFillIn
+second_title: Aspose.Words per .NET
+description: FieldFillIn costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldfillin/fieldfillin/
@@ -17,7 +19,5 @@ public FieldFillIn()
 ### Guarda anche
 
 * class [FieldFillIn](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldfillin/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

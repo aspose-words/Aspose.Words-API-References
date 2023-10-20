@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Color
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection proprietà. Ottiene o imposta il colore del bordo.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words per .NET
+description: BorderCollection Color proprietà. Ottiene o imposta il colore del bordo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/bordercollection/color/
@@ -14,13 +16,13 @@ Ottiene o imposta il colore del bordo.
 public Color Color { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce il colore del primo bordo della raccolta.
 
 Imposta il colore di tutti i bordi della raccolta esclusi i bordi diagonali.
 
-### Esempi
+## Esempi
 
 Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Guarda anche
 
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Aspose.Words per .NET API Reference
-description: FieldDatabase proprietà. Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna nella tabella risultante.
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: Aspose.Words per .NET
+description: FieldDatabase InsertHeadings proprietà. Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna nella tabella risultante in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di
 public bool InsertHeadings { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come estrarre i dati da un database e inserirli come campo in un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Guarda anche
 
 * class [FieldDatabase](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddatabase/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

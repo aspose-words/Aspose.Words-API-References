@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene il nome del campo di unione come specificato nel documento.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase DocumentFieldName proprietà. Ottiene il nome del campo di unione come specificato nel documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ Ottiene il nome del campo di unione come specificato nel documento.
 public string DocumentFieldName { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se disponi di una mappatura da un nome di campo di un documento a un nome di campo di origine dati diverso, , questo è il nome di campo originale come specificato nel documento.
 
 Se hai specificato un prefisso per il nome del campo, ad esempio "Immagine:MyFieldName" nel documento, allora`DocumentFieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Guarda anche
 
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

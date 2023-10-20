@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.OldParent
-second_title: Aspose.Words per .NET API Reference
-description: NodeChangingArgs proprietà. Ottiene il genitore del nodo prima dellinizio delloperazione.
+linktitle: OldParent
+articleTitle: OldParent
+second_title: Aspose.Words per .NET
+description: NodeChangingArgs OldParent proprietà. Ottiene il genitore del nodo prima dellinizio delloperazione in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/nodechangingargs/oldparent/
@@ -14,7 +16,7 @@ Ottiene il genitore del nodo prima dell'inizio dell'operazione.
 public Node OldParent { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un NodeChangingCallback per monitorare le modifiche all'albero del documento in tempo reale mentre lo modifichiamo.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* spazio dei nomi [Aspose.Words](../../nodechangingargs/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

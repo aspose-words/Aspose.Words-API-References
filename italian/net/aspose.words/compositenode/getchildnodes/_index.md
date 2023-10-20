@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Aspose.Words per .NET API Reference
-description: CompositeNode metodo. Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words per .NET
+description: CompositeNode GetChildNodes metodo. Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato in C#.
 type: docs
-weight: 110
+weight: 90
 url: /it/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 Una raccolta attiva di nodi figlio del tipo specificato.
 
-### Osservazioni
+## Osservazioni
 
 La raccolta di nodi restituiti da questo metodo è sempre attiva.
 
 Una raccolta live è sempre sincronizzata con il documento. Ad esempio, se hai selezionato tutte le sezioni in un documento ed enumerate la raccolta eliminando le sezioni, la sezione viene rimossa dalla raccolta immediatamente quando viene rimossa dal documento.
 
-### Esempi
+## Esempi
 
 Mostra come stampare tutti i commenti di un documento e le relative risposte.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* spazio dei nomi [Aspose.Words](../../compositenode/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

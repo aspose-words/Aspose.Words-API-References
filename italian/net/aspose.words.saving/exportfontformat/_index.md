@@ -1,7 +1,9 @@
 ---
-title: Enum ExportFontFormat
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.ExportFontFormat enum. Indica il formato utilizzato per esportare i caratteri durante il rendering nel formato fisso HTML.
+title: ExportFontFormat Enum
+linktitle: ExportFontFormat
+articleTitle: ExportFontFormat
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.ExportFontFormat enum. Indica il formato utilizzato per esportare i caratteri durante il rendering nel formato fisso HTML in C#.
 type: docs
 weight: 4990
 url: /it/net/aspose.words.saving/exportfontformat/
@@ -21,7 +23,7 @@ public enum ExportFontFormat
 | Woff | `0` | WOFF (formato carattere aperto Web). |
 | Ttf | `1` | TTF (formato carattere TrueType). |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i caratteri solo dal computer di destinazione quando si salva un documento in HTML.
 
@@ -53,5 +55,3 @@ else
 * property [FontFormat](../htmlfixedsaveoptions/fontformat/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

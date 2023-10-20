@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.RevisionOptions
-second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene le opzioni di revisione.
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words per .NET
+description: LayoutOptions RevisionOptions proprietà. Ottiene le opzioni di revisione in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -14,7 +16,7 @@ Ottiene le opzioni di revisione.
 public RevisionOptions RevisionOptions { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto delle revisioni in un documento di output sottoposto a rendering.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [RevisionOptions](../../revisionoptions/)
 * class [LayoutOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

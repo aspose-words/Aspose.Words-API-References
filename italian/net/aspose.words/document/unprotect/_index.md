@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Rimuove la protezione dal documento indipendentemente dalla password.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words per .NET
+description: Document Unprotect metodo. Rimuove la protezione dal documento indipendentemente dalla password in C#.
 type: docs
-weight: 760
+weight: 740
 url: /it/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ Rimuove la protezione dal documento indipendentemente dalla password.
 public void Unprotect()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo rimuove la protezione del documento anche se dispone di una password di protezione.
 
 Tieni presente che la protezione del documento è diversa dalla protezione da scrittura. La protezione da scrittura viene specificata utilizzando il file[`WriteProtection`](../writeprotection/).
 
-### Esempi
+## Esempi
 
 Mostra come proteggere e rimuovere la protezione di un documento.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Rimuove la protezione dal documento se viene specificata una password corretta.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `VERO` se è stata specificata una password corretta e il documento non era protetto.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo rimuove la protezione del documento solo se viene specificata una password corretta.
 
 Tieni presente che la protezione del documento è diversa dalla protezione da scrittura. La protezione da scrittura viene specificata utilizzando il file[`WriteProtection`](../writeprotection/).
 
-### Esempi
+## Esempi
 
 Mostra come proteggere e rimuovere la protezione di un documento.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

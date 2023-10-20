@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Aspose.Words per .NET API Reference
-description: Range proprietà. Restituisce aFields raccolta che rappresenta tutti i campi nellintervallo.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words per .NET
+description: Range Fields proprietà. Restituisce aFields raccolta che rappresenta tutti i campi nellintervallo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

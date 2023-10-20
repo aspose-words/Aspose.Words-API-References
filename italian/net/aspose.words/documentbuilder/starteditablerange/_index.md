@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come inizio di un intervallo modificabile.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words per .NET
+description: DocumentBuilder StartEditableRange metodo. Contrassegna la posizione corrente nel documento come inizio di un intervallo modificabile in C#.
 type: docs
-weight: 640
+weight: 630
 url: /it/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 Il nodo iniziale dell'intervallo modificabile appena creato.
 
-### Osservazioni
+## Osservazioni
 
 L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamarli entrambi`StartEditableRange` E[`EndEditableRange`](../endeditablerange/) o[`EndEditableRange`](../endeditablerange/) metodi.
 
 L'intervallo modificabile formato in modo errato verrà ignorato quando il documento viene salvato.
 
-### Esempi
+## Esempi
 
 Mostra come creare intervalli modificabili nidificati.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

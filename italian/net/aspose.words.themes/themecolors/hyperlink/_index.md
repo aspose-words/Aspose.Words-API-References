@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Hyperlink
-second_title: Aspose.Words per .NET API Reference
-description: ThemeColors proprietà. Specifica il colore per un collegamento ipertestuale.
+linktitle: Hyperlink
+articleTitle: Hyperlink
+second_title: Aspose.Words per .NET
+description: ThemeColors Hyperlink proprietà. Specifica il colore per un collegamento ipertestuale in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.themes/themecolors/hyperlink/
@@ -14,7 +16,7 @@ Specifica il colore per un collegamento ipertestuale.
 public Color Hyperlink { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Guarda anche
 
 * class [ThemeColors](../)
-* spazio dei nomi [Aspose.Words.Themes](../../themecolors/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

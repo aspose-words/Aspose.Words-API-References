@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Aspose.Words per .NET API Reference
-description: AxisScaling proprietà. Ottiene o imposta la base logaritmica per un asse logaritmico.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words per .NET
+description: AxisScaling LogBase proprietà. Ottiene o imposta la base logaritmica per un asse logaritmico in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ Ottiene o imposta la base logaritmica per un asse logaritmico.
 public double LogBase { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà non è supportata dai nuovi grafici di MS Office 2016.
 
@@ -22,7 +24,7 @@ L'intervallo valido di un valore a virgola mobile è maggiore o uguale a 2 e min
 
 L'impostazione di questa proprietà imposta il file[`Type`](../type/) proprietà aLogarithmic .
 
-### Esempi
+## Esempi
 
 Mostra come applicare la scala logaritmica all'asse di un grafico.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### Guarda anche
 
 * class [AxisScaling](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

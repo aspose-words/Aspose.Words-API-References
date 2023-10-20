@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. La larghezza e laltezza dello spazio delle coordinate allinterno del blocco contenitore di questa forma.
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: Aspose.Words per .NET
+description: ShapeBase CoordSize proprietà. La larghezza e laltezza dello spazio delle coordinate allinterno del blocco contenitore di questa forma in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ La larghezza e l'altezza dello spazio delle coordinate all'interno del blocco co
 public Size CoordSize { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è (1000, 1000).
 
-### Esempi
+## Esempi
 
 Mostra come tradurre la posizione delle coordinate xey sul piano delle coordinate di una forma in una posizione sul piano delle coordinate della forma padre.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

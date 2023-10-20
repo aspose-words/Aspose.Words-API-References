@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientDataCollection metodo. Aggiunge un oggetto alla fine di questa raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: OdsoRecipientDataCollection Add metodo. Aggiunge un oggetto alla fine di questa raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | L'oggetto da aggiungere. Non può essere`nullo`. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

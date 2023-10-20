@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: GradientStopCollection proprietà. Ottiene un valore intero che indica il numero di elementi nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: GradientStopCollection Count proprietà. Ottiene un valore intero che indica il numero di elementi nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ Ottiene un valore intero che indica il numero di elementi nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Guarda anche
 
 * class [GradientStopCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstopcollection/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

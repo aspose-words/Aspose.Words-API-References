@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta il tipo dellasse delle categorie.
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: Aspose.Words per .NET
+description: ChartAxis CategoryType proprietà. Ottiene o imposta il tipo dellasse delle categorie in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,11 +16,11 @@ Ottiene o imposta il tipo dell'asse delle categorie.
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Solo categorie di testo (Category ) sono consentiti nei nuovi grafici di MS Office 2016.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

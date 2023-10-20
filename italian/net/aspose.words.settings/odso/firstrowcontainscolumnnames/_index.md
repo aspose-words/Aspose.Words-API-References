@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Specifica che unapplicazione hosting tratterà la prima riga di dati nellorigine dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nellorigine dati. Il valore predefinito èfalso .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words per .NET
+description: Odso FirstRowContainsColumnNames proprietà. Specifica che unapplicazione hosting tratterà la prima riga di dati nellorigine dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nellorigine dati. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ Specifica che un'applicazione hosting tratterà la prima riga di dati nell'origi
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 RK Non l'ho mai visto in uso.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Guarda anche
 
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

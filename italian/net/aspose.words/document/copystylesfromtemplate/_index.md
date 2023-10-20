@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Copia gli stili dal modello specificato in un documento.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words per .NET
+description: Document CopyStylesFromTemplate metodo. Copia gli stili dal modello specificato in un documento in C#.
 type: docs
-weight: 590
+weight: 570
 url: /it/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Copia gli stili dal modello specificato in un documento.
 
@@ -14,11 +16,11 @@ Copia gli stili dal modello specificato in un documento.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando gli stili vengono copiati da un modello a un documento, gli stili con nomi simili nel documento vengono ridefiniti per corrispondere alle descrizioni di stile nel modello. Gli stili univoci del modello vengono copiati nel documento. Gli stili univoci nel documento rimangono intatti.
 
-### Esempi
+## Esempi
 
 Mostra come copiare gli stili da un documento a un altro.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Copia gli stili dal modello specificato in un documento.
 
@@ -83,11 +85,11 @@ Copia gli stili dal modello specificato in un documento.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando gli stili vengono copiati da un modello a un documento, gli stili con nomi simili nel documento vengono ridefiniti per corrispondere alle descrizioni di stile nel modello. Gli stili univoci del modello vengono copiati nel documento. Gli stili univoci nel documento rimangono intatti.
 
-### Esempi
+## Esempi
 
 Mostra come copiare gli stili dal modello a un documento tramite Documento.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

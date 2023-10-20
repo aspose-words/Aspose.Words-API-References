@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Aspose.Words per .NET API Reference
-description: SystemFontSource proprietà. Restituisce il tipo di fonte del carattere.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: SystemFontSource Type proprietà. Restituisce il tipo di fonte del carattere in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ Restituisce il tipo di fonte del carattere.
 public override FontSourceType Type { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../systemfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

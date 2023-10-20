@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta il tipo di un campo modulo di testo.
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: Aspose.Words per .NET
+description: FormField TextInputType proprietà. Ottiene o imposta il tipo di un campo modulo di testo in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ Ottiene o imposta il tipo di un campo modulo di testo.
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Aspose.Words per .NET API Reference
-description: Comment proprietà. Ottiene la data e lora in cui è stato creato il commento.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words per .NET
+description: Comment DateTime proprietà. Ottiene la data e lora in cui è stato creato il commento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ Ottiene la data e l'ora in cui è stato creato il commento.
 public DateTime DateTime { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita èMinValue.
 
-### Esempi
+## Esempi
 
 Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

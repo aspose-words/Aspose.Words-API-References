@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.ToString
-second_title: Aspose.Words per .NET API Reference
-description: PreferredWidth metodo. Restituisce una stringa intuitiva che visualizza il valore di questo oggetto.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words per .NET
+description: PreferredWidth ToString metodo. Restituisce una stringa intuitiva che visualizza il valore di questo oggetto in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.tables/preferredwidth/tostring/
@@ -14,7 +16,7 @@ Restituisce una stringa intuitiva che visualizza il valore di questo oggetto.
 public override string ToString()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la larghezza preferita per le celle della tabella.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Guarda anche
 
 * class [PreferredWidth](../)
-* spazio dei nomi [Aspose.Words.Tables](../../preferredwidth/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Permette di specificare come vengono trattati i metafile nelloutput renderizzato.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words per .NET
+description: ImageSaveOptions MetafileRenderingOptions proprietà. Permette di specificare come vengono trattati i metafile nelloutput renderizzato in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Permette di specificare come vengono trattati i metafile nell'output renderizzat
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 QuandoVector è specificato, Aspose.Words esegue il rendering del metafile in grafica vettoriale utilizzando prima il proprio motore di rendering del metafile, quindi esegue il rendering della grafica vettoriale nell'immagine.
 
@@ -24,7 +26,7 @@ Il motore di rendering dei metafile GDI+ funziona più velocemente, supporta qua
 
 Il valore predefinito per[`MetafileRenderingMode`](../../metafilerenderingmode/) ÈBitmap.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la modalità di rendering quando si salvano documenti con immagini Windows Metafile in altri formati di immagine.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

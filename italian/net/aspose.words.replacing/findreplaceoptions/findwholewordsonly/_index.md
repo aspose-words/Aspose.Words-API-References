@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. True indica che oldValue deve essere una parola autonoma.
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions FindWholeWordsOnly proprietà. True indica che oldValue deve essere una parola autonoma in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ True indica che oldValue deve essere una parola autonoma.
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attivare o disattivare le operazioni di ricerca e sostituzione di sole parole autonome.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

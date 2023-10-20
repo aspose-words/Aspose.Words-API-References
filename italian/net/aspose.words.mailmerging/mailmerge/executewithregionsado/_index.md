@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Esegue la stampa unione da un oggetto ADO Recordset nel documento con aree di stampa unione.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words per .NET
+description: MailMerge ExecuteWithRegionsADO metodo. Esegue la stampa unione da un oggetto ADO Recordset nel documento con aree di stampa unione in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | Oggetto Recordset ADO o record. |
 | tableName | String | Nome dell'area di stampa unione nel documento da compilare. |
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo è utile quando si intende utilizzare le classi Aspose.Words come oggetti COM da codice non gestito come un'applicazione creata utilizzando ASP o Visual Basic 6.0.
 
 Per ulteriori informazioni vedere la descrizione di[`ExecuteWithRegions`](../executewithregions/).
 
-### Esempi
+## Esempi
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

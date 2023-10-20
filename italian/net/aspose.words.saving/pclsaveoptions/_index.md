@@ -1,7 +1,9 @@
 ---
-title: Class PclSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PclSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel filePcl formato.
+title: PclSaveOptions Class
+linktitle: PclSaveOptions
+articleTitle: PclSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PclSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel filePcl formato in C#.
 type: docs
 weight: 5400
 url: /it/net/aspose.words.saving/pclsaveoptions/
@@ -29,7 +31,7 @@ public class PclSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito è`falso` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering dei colori. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
@@ -59,10 +61,10 @@ public class PclSaveOptions : FixedPageSaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont/)(string, string) | Aggiunge informazioni sul carattere caricato sulla stampante dal produttore. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont/)(*string, string*) | Aggiunge informazioni sul carattere caricato sulla stampante dal produttore. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 
-### Esempi
+## Esempi
 
 Mostra come rasterizzare elementi complessi durante il salvataggio di un documento su PCL.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

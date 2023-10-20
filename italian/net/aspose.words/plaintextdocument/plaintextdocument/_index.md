@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Aspose.Words per .NET API Reference
-description: PlainTextDocument costruttore. Crea un documento di testo semplice da un file. Rileva automaticamente il formato del file.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words per .NET
+description: PlainTextDocument costruttore. Crea un documento di testo semplice da un file. Rileva automaticamente il formato del file in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Crea un documento di testo semplice da un file. Rileva automaticamente il formato del file.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Il documento è crittografato e richiede una password per essere aperto, ma hai fornito una password errata. |
 | ArgumentException | Il nome del file non può essere una stringa nulla o vuota. |
 
-### Esempi
+## Esempi
 
 Mostra come caricare il contenuto di un documento Microsoft Word in testo normale.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Guarda anche
 
 * class [PlainTextDocument](../)
-* spazio dei nomi [Aspose.Words](../../plaintextdocument/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Crea un documento di testo semplice da un file. Consente di specificare opzioni aggiuntive come una password di crittografia.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Il documento è crittografato e richiede una password per essere aperto, ma hai fornito una password errata. |
 | ArgumentException | Il nome del file non può essere una stringa nulla o vuota. |
 
-### Esempi
+## Esempi
 
 Mostra come caricare il contenuto di un documento Microsoft Word crittografato in testo normale.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* spazio dei nomi [Aspose.Words](../../plaintextdocument/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Crea un documento di testo semplice da un flusso. Rileva automaticamente il formato del file.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | Lo stream non supporta la lettura o la ricerca. |
 | ObjectDisposedException | Il flusso è un oggetto eliminato. |
 
-### Osservazioni
+## Osservazioni
 
 Il documento deve essere archiviato all'inizio dello stream. Il flusso deve supportare il posizionamento casuale.
 
-### Esempi
+## Esempi
 
 Mostra come caricare il contenuto di un documento Microsoft Word in testo normale utilizzando stream.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Guarda anche
 
 * class [PlainTextDocument](../)
-* spazio dei nomi [Aspose.Words](../../plaintextdocument/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Crea un documento di testo semplice da un flusso. Consente di specificare opzioni aggiuntive come una password di crittografia.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Lo stream non supporta la lettura o la ricerca. |
 | ObjectDisposedException | Il flusso è un oggetto eliminato. |
 
-### Osservazioni
+## Osservazioni
 
 Il documento deve essere archiviato all'inizio dello stream. Il flusso deve supportare il posizionamento casuale.
 
-### Esempi
+## Esempi
 
 Mostra come caricare il contenuto di un documento Microsoft Word crittografato in testo normale utilizzando stream.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* spazio dei nomi [Aspose.Words](../../plaintextdocument/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

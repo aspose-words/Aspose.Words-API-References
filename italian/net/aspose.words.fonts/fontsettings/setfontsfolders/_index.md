@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolders
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings metodo. Imposta le cartelle in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o lincorporamento di caratteri.
+linktitle: SetFontsFolders
+articleTitle: SetFontsFolders
+second_title: Aspose.Words per .NET
+description: FontSettings SetFontsFolders metodo. Imposta le cartelle in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o lincorporamento di caratteri in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fonts/fontsettings/setfontsfolders/
@@ -19,13 +21,13 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | fontsFolders | String[] | Un array di cartelle che contengono caratteri TrueType. |
 | recursive | Boolean | True per eseguire la scansione ricorsiva delle cartelle specificate alla ricerca di caratteri. |
 
-### Osservazioni
+## Osservazioni
 
 Per impostazione predefinita, Aspose.Words cerca i caratteri installati nel sistema.
 
 L'impostazione di questa proprietà reimposta la cache di tutti i caratteri caricati in precedenza.
 
-### Esempi
+## Esempi
 
 Mostra come impostare più directory di origine dei caratteri.
 
@@ -85,7 +87,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Guarda anche
 
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

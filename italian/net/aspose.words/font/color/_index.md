@@ -1,7 +1,9 @@
 ---
 title: Font.Color
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il colore del carattere.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words per .NET
+description: Font Color proprietà. Ottiene o imposta il colore del carattere in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/font/color/
@@ -14,7 +16,7 @@ Ottiene o imposta il colore del carattere.
 public Color Color { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire testo formattato utilizzando DocumentBuilder.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

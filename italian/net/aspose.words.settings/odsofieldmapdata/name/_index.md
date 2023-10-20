@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapData proprietà. Specifica il nome della colonna allinterno di unorigine dati esterna per la colonna il cui indice è specificato dalColumnproperty. Il valore predefinito è una stringa vuota.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapData Name proprietà. Specifica il nome della colonna allinterno di unorigine dati esterna per la colonna il cui indice è specificato dalColumnproperty. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ Specifica il nome della colonna all'interno di un'origine dati esterna per la co
 public string Name { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoFieldMapData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

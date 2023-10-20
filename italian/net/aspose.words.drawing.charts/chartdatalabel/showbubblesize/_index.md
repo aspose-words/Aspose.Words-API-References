@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowBubbleSize
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel proprietà. Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati su un grafico. Si applica solo ai grafici a bolle. Il valore predefinito èfalso .
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: Aspose.Words per .NET
+description: ChartDataLabel ShowBubbleSize proprietà. Permette di specificare se la dimensione della bolla deve essere visualizzata per le etichette dati su un grafico. Si applica solo ai grafici a bolle. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
@@ -14,7 +16,7 @@ Permette di specificare se la dimensione della bolla deve essere visualizzata pe
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare gli effetti 3D con i grafici a bolle.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Guarda anche
 
 * class [ChartDataLabel](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

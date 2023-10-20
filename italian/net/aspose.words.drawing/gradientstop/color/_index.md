@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Aspose.Words per .NET API Reference
-description: GradientStop proprietà. Ottiene o imposta un valore che rappresenta il colore dellinterruzione del gradiente.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words per .NET
+description: GradientStop Color proprietà. Ottiene o imposta un valore che rappresenta il colore dellinterruzione del gradiente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che rappresenta il colore dell'interruzione del grad
 public Color Color { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Guarda anche
 
 * class [GradientStop](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstop/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

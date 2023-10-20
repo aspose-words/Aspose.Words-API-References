@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Ottiene lallineamento orizzontale del frame specificato.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words per .NET
+description: FrameFormat HorizontalAlignment proprietà. Ottiene lallineamento orizzontale del frame specificato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/frameformat/horizontalalignment/
@@ -14,7 +16,7 @@ Ottiene l'allineamento orizzontale del frame specificato.
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* spazio dei nomi [Aspose.Words](../../frameformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocumentLoadingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Loading.DocumentLoadingArgs classe. Un argomento passatoNotify .
+title: DocumentLoadingArgs Class
+linktitle: DocumentLoadingArgs
+articleTitle: DocumentLoadingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Loading.DocumentLoadingArgs classe. Un argomento passatoNotify  in C#.
 type: docs
 weight: 3590
 url: /it/net/aspose.words.loading/documentloadingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentLoadingArgs
 
 * spazio dei nomi [Aspose.Words.Loading](../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../)
-
-

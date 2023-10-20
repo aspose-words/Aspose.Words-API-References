@@ -1,7 +1,9 @@
 ---
-title: Class ResourceLoadingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Loading.ResourceLoadingArgs classe. Fornisce i dati per ilResourceLoading metodo.
+title: ResourceLoadingArgs Class
+linktitle: ResourceLoadingArgs
+articleTitle: ResourceLoadingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Loading.ResourceLoadingArgs classe. Fornisce i dati per ilResourceLoading metodo in C#.
 type: docs
 weight: 3690
 url: /it/net/aspose.words.loading/resourceloadingargs/
@@ -26,9 +28,9 @@ public class ResourceLoadingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Imposta i dati forniti dall'utente della risorsa utilizzata se[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) ritornaUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Imposta i dati forniti dall'utente della risorsa utilizzata se[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) ritornaUserProvided . |
 
-### Esempi
+## Esempi
 
 Mostra come personalizzare il processo di caricamento delle risorse esterne in un documento.
 
@@ -92,5 +94,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * spazio dei nomi [Aspose.Words.Loading](../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetShapeRenderer
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase metodo. Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in unimmagine.
+linktitle: GetShapeRenderer
+articleTitle: GetShapeRenderer
+second_title: Aspose.Words per .NET
+description: ShapeBase GetShapeRenderer metodo. Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in unimmagine in C#.
 type: docs
 weight: 660
 url: /it/net/aspose.words.drawing/shapebase/getshaperenderer/
@@ -18,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 L'oggetto renderer per questa forma.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo invoca semplicemente il file[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) costruttore e passa questo oggetto come parametro.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un renderer di forme per esportare forme in file nel file system locale.
 
@@ -48,7 +50,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Non sono sicuro di questo. Il riferimento allautomazione di Microsoft Word suggerisce che questo specifichi che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che ciò specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito èfalso .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words per .NET
+description: MailMergeSettings LinkToQuery proprietà. Non sono sicuro di questo. Il riferimento allautomazione di Microsoft Word suggerisce che questo specifichi che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che ciò specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ Non sono sicuro di questo. Il riferimento all'automazione di Microsoft Word sugg
 public bool LinkToQuery { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

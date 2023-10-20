@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Determina la modalità di esportazione dei segnalibri nelle intestazioni/piè di pagina.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode proprietà. Determina la modalità di esportazione dei segnalibri nelle intestazioni/piè di pagina in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ Determina la modalità di esportazione dei segnalibri nelle intestazioni/piè di
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èAll.
 
 Questa proprietà viene utilizzata insieme a[`OutlineOptions`](../outlineoptions/) opzione.
 
-### Esempi
+## Esempi
 
 Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

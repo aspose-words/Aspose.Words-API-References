@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseUmAlQuraCalendar
-second_title: Aspose.Words per .NET API Reference
-description: FieldSaveDate proprietà. Ottiene o imposta se utilizzare il calendario UmalQura.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words per .NET
+description: FieldSaveDate UseUmAlQuraCalendar proprietà. Ottiene o imposta se utilizzare il calendario UmalQura in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il calendario Um-al-Qura.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo SAVEDATE per visualizzare la data/ora dell'operazione di salvataggio più recente del documento eseguita utilizzando Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Guarda anche
 
 * class [FieldSaveDate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldsavedate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

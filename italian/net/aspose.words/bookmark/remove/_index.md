@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark metodo. Rimuove il segnalibro dal documento. Non rimuove il testo allinterno del segnalibro.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: Bookmark Remove metodo. Rimuove il segnalibro dal documento. Non rimuove il testo allinterno del segnalibro in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ Rimuove il segnalibro dal documento. Non rimuove il testo all'interno del segnal
 public void Remove()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i segnalibri da un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Guarda anche
 
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

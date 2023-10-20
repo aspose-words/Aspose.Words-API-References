@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Aspose.Words per .NET API Reference
-description: XmlMapping proprietà. Restituisce la parte di dati XML personalizzata a cui è mappato il tag del documento strutturato principale.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words per .NET
+description: XmlMapping CustomXmlPart proprietà. Restituisce la parte di dati XML personalizzata a cui è mappato il tag del documento strutturato principale in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ Restituisce la parte di dati XML personalizzata a cui è mappato il tag del docu
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare mapping XML per parti XML personalizzate.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* spazio dei nomi [Aspose.Words.Markup](../../xmlmapping/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

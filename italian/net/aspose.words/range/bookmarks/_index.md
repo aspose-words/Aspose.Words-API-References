@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words per .NET API Reference
-description: Range proprietà. Restituisce aBookmarks raccolta che rappresenta tutti i segnalibri nellintervallo.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words per .NET
+description: Range Bookmarks proprietà. Restituisce aBookmarks raccolta che rappresenta tutti i segnalibri nellintervallo in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ Restituisce a`Bookmarks` raccolta che rappresenta tutti i segnalibri nell'interv
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

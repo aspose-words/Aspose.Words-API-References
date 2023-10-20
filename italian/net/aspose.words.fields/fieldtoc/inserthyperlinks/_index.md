@@ -1,7 +1,9 @@
 ---
 title: FieldToc.InsertHyperlinks
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta se creare collegamenti ipertestuali alle voci del sommario.
+linktitle: InsertHyperlinks
+articleTitle: InsertHyperlinks
+second_title: Aspose.Words per .NET
+description: FieldToc InsertHyperlinks proprietà. Ottiene o imposta se creare collegamenti ipertestuali alle voci del sommario in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldtoc/inserthyperlinks/
@@ -14,7 +16,7 @@ Ottiene o imposta se creare collegamenti ipertestuali alle voci del sommario.
 public bool InsertHyperlinks { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

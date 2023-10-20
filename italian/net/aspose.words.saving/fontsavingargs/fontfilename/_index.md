@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Ottiene o imposta il nome del file senza percorso in cui verrà salvato il carattere.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words per .NET
+description: FontSavingArgs FontFileName proprietà. Ottiene o imposta il nome del file senza percorso in cui verrà salvato il carattere in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del file (senza percorso) in cui verrà salvato il car
 public string FontFileName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di ridefinire il modo in cui vengono generati i nomi dei file dei caratteri durante l'esportazione in HTML.
 
@@ -28,7 +30,7 @@ Quando si salva un documento in uno stream, il nome del file del carattere gener
 
 `FontFileName` deve contenere solo il nome del file senza il percorso. Aspose.Words determina il percorso per il salvataggio utilizzando il nome del file del documento, il[`FontsFolder`](../../htmlsaveoptions/fontsfolder/) e [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

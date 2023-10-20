@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotBreakWrappedTables
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non consentire linterruzione delle tabelle mobili su più pagine.
+linktitle: DoNotBreakWrappedTables
+articleTitle: DoNotBreakWrappedTables
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions DoNotBreakWrappedTables proprietà. Non consentire linterruzione delle tabelle mobili su più pagine in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/
@@ -17,7 +19,5 @@ public bool DoNotBreakWrappedTables { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

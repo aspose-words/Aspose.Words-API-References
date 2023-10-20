@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando è iniziata lenumerazione di un blocco predefinito.
+linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitBuildingBlockStart metodo. Chiamato quando è iniziata lenumerazione di un blocco predefinito in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/documentvisitor/visitbuildingblockstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Nota: un nodo di blocchi predefiniti e i relativi figli non vengono visitati quando si esegue a Visitor su un[`Document`](../../document/) . Se vuoi eseguire un Visitor su un blocco predefinito , devi eseguire il Visitor over[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) oppure chiama[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

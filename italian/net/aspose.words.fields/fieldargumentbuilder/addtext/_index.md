@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddText
-second_title: Aspose.Words per .NET API Reference
-description: FieldArgumentBuilder metodo. Aggiunge un testo semplice allargomento.
+linktitle: AddText
+articleTitle: AddText
+second_title: Aspose.Words per .NET
+description: FieldArgumentBuilder AddText metodo. Aggiunge un testo semplice allargomento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldargumentbuilder/addtext/
@@ -14,7 +16,7 @@ Aggiunge un testo semplice all'argomento.
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come costruire campi utilizzando un generatore di campi e quindi inserirli nel documento.
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldArgumentBuilder](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToSize
-second_title: Aspose.Words per .NET API Reference
-description: NodeRendererBase metodo. Rende la forma in aGraphics oggetto a una dimensione specificata.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words per .NET
+description: NodeRendererBase RenderToSize metodo. Rende la forma in aGraphics oggetto a una dimensione specificata in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.rendering/noderendererbase/rendertosize/
@@ -26,7 +28,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 La scala calcolata automaticamente affinché la forma sottoposta a rendering si adatti alla dimensione specificata.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire il rendering di una forma con un oggetto Graphics e visualizzarla utilizzando un Windows Form.
 
@@ -136,7 +138,5 @@ private class ShapeForm : Form
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene il numero di stili condizionali nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection Count proprietà. Ottiene il numero di stili condizionali nella raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ Ottiene il numero di stili condizionali nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Guarda anche
 
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

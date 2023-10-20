@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regolata automaticamente tra le regioni del testo latino e le regioni del testo dellAsia orientale nel paragrafo corrente.
+linktitle: AddSpaceBetweenFarEastAndAlpha
+articleTitle: AddSpaceBetweenFarEastAndAlpha
+second_title: Aspose.Words per .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha proprietà. Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regolata automaticamente tra le regioni del testo latino e le regioni del testo dellAsia orientale nel paragrafo corrente in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regola
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo nel documento.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il ridimensionamento della larghezza dei caratteri in percentuale.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words per .NET
+description: Font Scaling proprietà. Ottiene o imposta il ridimensionamento della larghezza dei caratteri in percentuale in C#.
 type: docs
 weight: 310
 url: /it/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ Ottiene o imposta il ridimensionamento della larghezza dei caratteri in percentu
 public int Scaling { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare il ridimensionamento e la spaziatura orizzontale per i caratteri.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

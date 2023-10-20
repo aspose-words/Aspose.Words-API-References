@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: GeneralFormatCollection metodo. Rimuove unoccorrenza di formato generale nellindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: GeneralFormatCollection RemoveAt metodo. Rimuove unoccorrenza di formato generale nellindice specificato in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/generalformatcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Guarda anche
 
 * class [GeneralFormatCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../generalformatcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

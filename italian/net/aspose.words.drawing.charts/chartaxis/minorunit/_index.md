@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnit
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Restituisce o imposta la distanza tra i segni di graduazione minori.
+linktitle: MinorUnit
+articleTitle: MinorUnit
+second_title: Aspose.Words per .NET
+description: ChartAxis MinorUnit proprietà. Restituisce o imposta la distanza tra i segni di graduazione minori in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing.charts/chartaxis/minorunit/
@@ -14,13 +16,13 @@ Restituisce o imposta la distanza tra i segni di graduazione minori.
 public double MinorUnit { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'intervallo valido di un valore è maggiore di zero. La proprietà ha effetto per la categoria temporale e gli assi dei valori .
 
 L'impostazione di questa proprietà imposta il file[`MinorUnitIsAuto`](../minorunitisauto/) proprietà a`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Guarda anche
 
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToCell
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su una cella della tabella nella sezione corrente.
+linktitle: MoveToCell
+articleTitle: MoveToCell
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToCell metodo. Sposta il cursore su una cella della tabella nella sezione corrente in C#.
 type: docs
-weight: 510
+weight: 500
 url: /it/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -21,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | columnIndex | Int32 | L'indice della colonna nella tabella. |
 | characterIndex | Int32 | L'indice del carattere all'interno della cella. Un valore negativo consente di specificare una posizione dalla fine della cella. Usa -1 per spostarti alla fine di la cella. |
 
-### Osservazioni
+## Osservazioni
 
 La navigazione viene effettuata all'interno della storia corrente della sezione corrente.
 
 Per i parametri dell'indice, quando indice è maggiore o uguale a 0, specifica un indice da l'inizio con 0 come primo elemento. Quando l'indice è inferiore a 0, viene specificato un indice da alla fine con -1 come ultimo elemento.
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di un generatore di documenti su una cella in una tabella.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

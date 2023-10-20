@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings classe. Contiene le impostazioni del timestamp della firma digitale.
+title: PdfDigitalSignatureTimestampSettings Class
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings classe. Contiene le impostazioni del timestamp della firma digitale in C#.
 type: docs
 weight: 5450
 url: /it/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
@@ -21,8 +23,8 @@ public class PdfDigitalSignatureTimestampSettings
 | Nome | Descrizione |
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor)() | Inizializza un'istanza di questa classe. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(string, string, string) | Inizializza un'istanza di questa classe. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(string, string, string, TimeSpan) | Inizializza un'istanza di questa classe. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(*string, string, string*) | Inizializza un'istanza di questa classe. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(*string, string, string, TimeSpan*) | Inizializza un'istanza di questa classe. |
 
 ## Proprietà
 
@@ -33,7 +35,7 @@ public class PdfDigitalSignatureTimestampSettings
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/) { get; set; } | Valore di timeout per l'accesso al server timestamp. |
 | [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/) { get; set; } | Nome utente server timestamp. |
 
-### Esempi
+## Esempi
 
 Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con data e ora.
 
@@ -74,5 +76,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

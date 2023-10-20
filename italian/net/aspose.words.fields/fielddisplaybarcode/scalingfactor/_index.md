@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ScalingFactor
-second_title: Aspose.Words per .NET API Reference
-description: FieldDisplayBarcode proprietà. Ottiene o imposta un fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words per .NET
+description: FieldDisplayBarcode ScalingFactor proprietà. Ottiene o imposta un fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono 10 1000 in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
@@ -14,7 +16,7 @@ Ottiene o imposta un fattore di scala per il simbolo. Il valore è espresso in p
 public string ScalingFactor { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Guarda anche
 
 * class [FieldDisplayBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

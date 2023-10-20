@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Aspose.Words per .NET API Reference
-description: ImageSavingArgs proprietà. Ottiene il fileShapeBase oggetto corrispondente alla forma o alla forma del gruppo che sta per essere salvato.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words per .NET
+description: ImageSavingArgs CurrentShape proprietà. Ottiene il fileShapeBase oggetto corrispondente alla forma o alla forma del gruppo che sta per essere salvato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ Ottiene il file[`ShapeBase`](../../../aspose.words.drawing/shapebase/) oggetto c
 public ShapeBase CurrentShape { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) può essere attivato durante il salvataggio di una forma o di una forma di gruppo. Ecco perché la proprietà ha[`ShapeBase`](../../../aspose.words.drawing/shapebase/) tipo. Puoi verificare se si tratta di una forma di gruppo confrontando [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) conGroup o trasmettendolo a una delle classi derivate: [`Shape`](../../../aspose.words.drawing/shape/) O[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words utilizza il nome del file del documento e un numero univoco per gen
 
 Alcune immagini nel documento potrebbero non essere disponibili. Per verificare la disponibilità delle immagini utilizza il file[`IsImageAvailable`](../isimageavailable/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come coinvolgere un callback per il salvataggio dell'immagine in un processo di conversione HTML.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

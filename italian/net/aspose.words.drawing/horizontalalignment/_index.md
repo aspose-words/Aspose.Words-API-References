@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.HorizontalAlignment enum. Specifica lallineamento orizzontale di una forma mobile cornice di testo o tabella mobile.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.HorizontalAlignment enum. Specifica lallineamento orizzontale di una forma mobile cornice di testo o tabella mobile in C#.
 type: docs
 weight: 1030
 url: /it/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its **Sinistra** proprietà. |
+| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its**Sinistra** proprietà. |
 | Default | `0` | Uguale aNone . |
 | Left | `1` | Specifica che l'oggetto deve essere allineato a sinistra alla base dell'allineamento orizzontale. |
 | Center | `2` | Specifica che l'oggetto dovrà essere centrato rispetto alla base di allineamento orizzontale. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Specifica che l'oggetto deve trovarsi all'interno della base di allineamento orizzontale. |
 | Outside | `5` | Specifica che l'oggetto deve trovarsi all'esterno della base dell'allineamento orizzontale. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile al centro di una pagina.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

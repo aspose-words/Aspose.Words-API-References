@@ -1,7 +1,9 @@
 ---
 title: FieldTA.LongCitation
-second_title: Aspose.Words per .NET API Reference
-description: FieldTA proprietà. Ottiene o imposta la citazione lunga per la voce.
+linktitle: LongCitation
+articleTitle: LongCitation
+second_title: Aspose.Words per .NET
+description: FieldTA LongCitation proprietà. Ottiene o imposta la citazione lunga per la voce in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldta/longcitation/
@@ -14,7 +16,7 @@ Ottiene o imposta la citazione lunga per la voce.
 public string LongCitation { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldTA](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldta/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

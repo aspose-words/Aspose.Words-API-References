@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene il nome del fileStyle legato a questo. Restituisce una stringa vuota se non ci sono stili collegati.
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: Aspose.Words per .NET
+description: Style LinkedStyleName proprietà. Ottiene il nome del fileStyle legato a questo. Restituisce una stringa vuota se non ci sono stili collegati in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ Ottiene il nome del file[`Style`](../) legato a questo. Restituisce una stringa 
 public string LinkedStyleName { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare gli alias di stile.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Guarda anche
 
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

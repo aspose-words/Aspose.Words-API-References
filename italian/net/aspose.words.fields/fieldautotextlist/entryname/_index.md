@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Aspose.Words per .NET API Reference
-description: FieldAutoTextList proprietà. Ottiene o imposta il nome della voce di glossario.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words per .NET
+description: FieldAutoTextList EntryName proprietà. Ottiene o imposta il nome della voce di glossario in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome della voce di glossario.
 public string EntryName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Guarda anche
 
 * class [FieldAutoTextList](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldautotextlist/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

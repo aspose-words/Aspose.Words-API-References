@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta il numero di colonne per pagina utilizzate durante la creazione dellindice.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words per .NET
+description: FieldIndex NumberOfColumns proprietà. Ottiene o imposta il numero di colonne per pagina utilizzate durante la creazione dellindice in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ Ottiene o imposta il numero di colonne per pagina utilizzate durante la creazion
 public string NumberOfColumns { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo INDICE con voci utilizzando i campi XE e anche modificarne l'aspetto.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

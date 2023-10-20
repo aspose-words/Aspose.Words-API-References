@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come testo nascosto.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words per .NET
+description: Font Hidden proprietà. Vero se il carattere è formattato come testo nascosto in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come testo nascosto.
 public bool Hidden { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una sequenza di testo nascosto.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

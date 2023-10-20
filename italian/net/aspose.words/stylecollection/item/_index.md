@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: StyleCollection proprietà. Ottiene uno stile per nome o alias.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: StyleCollection Item proprietà. Ottiene uno stile per nome o alias in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/stylecollection/item/
@@ -14,13 +16,13 @@ Ottiene uno stile per nome o alias.
 public Style this[string name] { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Maiuscole/minuscole, ritorna`nullo` se lo stile con il nome indicato non viene trovato.
 
 Se questo è il nome inglese di uno stile integrato che non esiste ancora, lo crea automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra quando ricalcolare il layout di pagina del documento.
 
@@ -48,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../stylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -65,11 +67,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | UN[`StyleIdentifier`](../../styleidentifier/) valore che specifica lo stile integrato da recuperare. |
 
-### Osservazioni
+## Osservazioni
 
 Quando si accede ad uno stile che non esiste ancora, lo crea automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere uno stile alla raccolta di stili di un documento.
 
@@ -94,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../stylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -107,7 +109,7 @@ Ottiene uno stile per indice.
 public Style this[int index] { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere uno stile alla raccolta di stili di un documento.
 
@@ -131,7 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../stylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

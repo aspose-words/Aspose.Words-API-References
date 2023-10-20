@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Controlla quali risorse di carattere necessitano di sottoinsiemi durante il salvataggio in HTML MHTML o EPUB. Limpostazione predefinita è0 .
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold proprietà. Controlla quali risorse di carattere necessitano di sottoinsiemi durante il salvataggio in HTML MHTML o EPUB. Limpostazione predefinita è0  in C#.
 type: docs
 weight: 290
 url: /it/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ Controlla quali risorse di carattere necessitano di sottoinsiemi durante il salv
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 [`ExportFontResources`](../exportfontresources/) consente di esportare i caratteri come file sussidiari o come parti del pacchetto output . Se il documento utilizza molti caratteri, soprattutto con un numero elevato di glifi, la dimensione dell'output può aumentare in modo significativo. Il sottoinsieme dei caratteri riduce la dimensione della risorsa carattere esportata filtrando i glifi che non vengono utilizzati dal documento corrente.
 
@@ -24,9 +26,9 @@ Il sottoinsieme dei caratteri funziona come segue:
 * Collocamento`FontResourcesSubsettingSizeThreshold`su un valore positivo indica ad Aspose.Words di sottoimpostare i caratteri la cui dimensione del file è maggiore del valore specificato.
 * Impostando la proprietà suMaxValue sopprime il sottoinsieme dei caratteri.
 
-**Importante!** Quando si esportano risorse di caratteri, è necessario considerare i problemi di licenza dei caratteri. Gli autori che desiderano utilizzare caratteri specifici tramite un meccanismo di carattere downloadable devono sempre verificare attentamente che l'uso previsto rientri nell'ambito della licenza del carattere. Molti caratteri commerciali attualmente non consentono il download dal Web dei propri caratteri in qualsiasi forma. I contratti di licenza che coprono alcuni caratteri specificano specificamente che l'utilizzo tramite **@font-face** regole nei fogli di stile CSS non è consentito. Anche il sottoinsieme dei caratteri può violare i termini della licenza.
+**Importante!** Quando si esportano risorse di caratteri, è necessario considerare i problemi di licenza dei caratteri. Gli autori che desiderano utilizzare caratteri specifici tramite un meccanismo di carattere downloadable devono sempre verificare attentamente che l'uso previsto rientri nell'ambito della licenza del carattere. Molti caratteri commerciali attualmente non consentono il download dal Web dei propri caratteri in qualsiasi forma. I contratti di licenza che coprono alcuni caratteri specificano specificamente che l'utilizzo tramite**@font-face** regole nei fogli di stile CSS non è consentito. Anche il sottoinsieme dei caratteri può violare i termini della licenza.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con il sottoinsieme dei caratteri.
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

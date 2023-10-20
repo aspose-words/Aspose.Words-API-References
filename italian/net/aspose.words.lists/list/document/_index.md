@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Aspose.Words per .NET API Reference
-description: List proprietà. Ottiene il documento del proprietario.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: List Document proprietà. Ottiene il documento del proprietario in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/list/document/
@@ -14,11 +16,11 @@ Ottiene il documento del proprietario.
 public DocumentBase Document { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Un elenco ha sempre un documento principale ed è valido solo nel contesto di quel documento.
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà del documento proprietario degli elenchi.
 
@@ -41,7 +43,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* spazio dei nomi [Aspose.Words.Lists](../../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

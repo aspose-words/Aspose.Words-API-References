@@ -1,7 +1,9 @@
 ---
 title: Table.BottomPadding
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere sotto il contenuto delle celle.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words per .NET
+description: Table BottomPadding proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere sotto il contenuto delle celle in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.tables/table/bottompadding/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spazio (in punti) da aggiungere sotto il conte
 public double BottomPadding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare il riempimento del contenuto in una tabella.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

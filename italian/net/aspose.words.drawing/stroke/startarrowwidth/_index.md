@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowWidth
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Definisce la larghezza della punta della freccia per linizio di un tratto.
+linktitle: StartArrowWidth
+articleTitle: StartArrowWidth
+second_title: Aspose.Words per .NET
+description: Stroke StartArrowWidth proprietà. Definisce la larghezza della punta della freccia per linizio di un tratto in C#.
 type: docs
-weight: 190
+weight: 180
 url: /it/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property
@@ -14,11 +16,11 @@ Definisce la larghezza della punta della freccia per l'inizio di un tratto.
 public ArrowWidth StartArrowWidth { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èMedium.
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

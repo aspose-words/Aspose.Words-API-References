@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.InvertIfNegative
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeries proprietà. Specifica se lelemento genitore deve invertire i suoi colori se il valore è negativo.
+linktitle: InvertIfNegative
+articleTitle: InvertIfNegative
+second_title: Aspose.Words per .NET
+description: ChartSeries InvertIfNegative proprietà. Specifica se lelemento genitore deve invertire i suoi colori se il valore è negativo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing.charts/chartseries/invertifnegative/
@@ -17,7 +19,5 @@ public bool InvertIfNegative { get; set; }
 ### Guarda anche
 
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

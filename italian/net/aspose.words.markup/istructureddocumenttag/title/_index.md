@@ -1,20 +1,22 @@
 ---
 title: IStructuredDocumentTag.Title
-second_title: Aspose.Words per .NET API Reference
-description: IStructuredDocumentTag proprietà. Specifica il nome descrittivo associato a questo SDT . Non può essere nullo.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words per .NET
+description: IStructuredDocumentTag Title proprietà. Specifica il nome descrittivo associato a questoSDT . Non può essere nullo in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Specifica il nome descrittivo associato a questo **SDT** . Non può essere nullo.
+Specifica il nome descrittivo associato a questo**SDT** . Non può essere nullo.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il tag del documento strutturato.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Guarda anche
 
 * interface [IStructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../istructureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta le impostazioni dei caratteri del documento.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words per .NET
+description: Document FontSettings proprietà. Ottiene o imposta le impostazioni dei caratteri del documento in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ Ottiene o imposta le impostazioni dei caratteri del documento.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di specificare le impostazioni dei caratteri per documento. Se impostato su`nullo` , impostazioni predefinite dei caratteri statici [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sarà usato.
 
 Il valore predefinito è`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come impostare le regole di sostituzione dei caratteri.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

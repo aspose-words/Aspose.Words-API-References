@@ -1,7 +1,9 @@
 ---
 title: RunCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: RunCollection proprietà. Recupera aRun allindice indicato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: RunCollection Item proprietà. Recupera aRun allindice indicato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/runcollection/item/
@@ -18,7 +20,7 @@ public Run this[int index] { get; }
 | --- | --- |
 | index | Un indice nella raccolta. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra come determinare il tipo di revisione di un nodo in linea.
 
@@ -85,7 +87,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* spazio dei nomi [Aspose.Words](../../runcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

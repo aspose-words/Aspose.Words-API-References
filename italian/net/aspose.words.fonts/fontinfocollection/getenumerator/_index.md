@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: FontInfoCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fonts/fontinfocollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<FontInfo> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfocollection/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

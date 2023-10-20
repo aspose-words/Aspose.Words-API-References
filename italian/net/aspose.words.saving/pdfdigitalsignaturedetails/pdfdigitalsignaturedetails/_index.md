@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Aspose.Words per .NET API Reference
-description: PdfDigitalSignatureDetails costruttore. Inizializza unistanza di questa classe.
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words per .NET
+description: PdfDigitalSignatureDetails costruttore. Inizializza unistanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ Inizializza un'istanza di questa classe.
 public PdfDigitalSignatureDetails()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento PDF generato.
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Guarda anche
 
 * class [PdfDigitalSignatureDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 Inizializza un'istanza di questa classe.
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | Il luogo della firma. |
 | signatureDate | DateTime | La data e l'ora della firma. |
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento PDF generato.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

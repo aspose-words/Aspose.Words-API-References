@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta lindirizzo completo del collegamento ipertestuale per una forma.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words per .NET
+description: ShapeBase HRef proprietà. Ottiene o imposta lindirizzo completo del collegamento ipertestuale per una forma in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ Ottiene o imposta l'indirizzo completo del collegamento ipertestuale per una for
 public string HRef { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è una stringa vuota.
 
@@ -32,7 +34,7 @@ Segnalibro all'interno di un altro documento:`https://www.aspose.com/Products/De
 
 Segnalibro all'interno di questo documento:`#NomeLibro`.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma che contiene un'immagine ed è anche un collegamento ipertestuale.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

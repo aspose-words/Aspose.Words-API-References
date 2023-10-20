@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando un campo termina nel documento.
+linktitle: VisitFieldEnd
+articleTitle: VisitFieldEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitFieldEnd metodo. Chiamato quando un campo termina nel documento in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words/documentvisitor/visitfieldend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Per maggiori informazioni vedere[`VisitFieldStart`](../visitfieldstart/)
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni campo in un documento.
 
@@ -131,7 +133,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

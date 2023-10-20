@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveFromRevision
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. RestituisceVERO se questo oggetto è stato spostato eliminato in Microsoft Word mentre il rilevamento delle modifiche era abilitato.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words per .NET
+description: Paragraph IsMoveFromRevision proprietà. RestituisceVERO se questo oggetto è stato spostato eliminato in Microsoft Word mentre il rilevamento delle modifiche era abilitato in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/paragraph/ismovefromrevision/
@@ -14,7 +16,7 @@ Restituisce`VERO` se questo oggetto è stato spostato (eliminato) in Microsoft W
 public bool IsMoveFromRevision { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare se un paragrafo è una revisione di spostamento.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

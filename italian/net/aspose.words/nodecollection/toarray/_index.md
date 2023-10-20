@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: NodeCollection metodo. Copia tutti i nodi dalla raccolta in un nuovo array di nodi.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: NodeCollection ToArray metodo. Copia tutti i nodi dalla raccolta in un nuovo array di nodi in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Una matrice di nodi.
 
-### Osservazioni
+## Osservazioni
 
 Non dovresti aggiungere/rimuovere nodi durante l'iterazione su una raccolta di nodi perché invalida l'iteratore e richiede aggiornamenti per le raccolte attive.
 
 Per poter aggiungere/rimuovere nodi durante l'iterazione, utilizzare questo metodo per copiare i nodi in un array di dimensioni fisse e quindi scorrere l'array.
 
-### Esempi
+## Esempi
 
 Mostra come sostituire tutte le forme delle caselle di testo con forme di immagine.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* spazio dei nomi [Aspose.Words](../../nodecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddColumnBanding
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile di suddivisione delle colonne dispari.
+linktitle: OddColumnBanding
+articleTitle: OddColumnBanding
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection OddColumnBanding proprietà. Ottiene lo stile di suddivisione delle colonne dispari in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
@@ -14,7 +16,7 @@ Ottiene lo stile di suddivisione delle colonne dispari.
 public ConditionalStyle OddColumnBanding { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

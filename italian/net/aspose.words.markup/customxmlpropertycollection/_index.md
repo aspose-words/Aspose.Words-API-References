@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.CustomXmlPropertyCollection classe. Rappresenta una raccolta di attributi XML personalizzati o proprietà smart tag.
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.CustomXmlPropertyCollection classe. Rappresenta una raccolta di attributi XML personalizzati o proprietà smart tag in C#.
 type: docs
 weight: 3950
 url: /it/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Aggiunge una proprietà alla raccolta. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | Aggiunge una proprietà alla raccolta. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Determina se la raccolta contiene una proprietà con il nome specificato. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Determina se la raccolta contiene una proprietà con il nome specificato. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Restituisce l'indice in base zero della proprietà specificata nella raccolta. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Rimuove una proprietà con il nome specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Rimuove una proprietà all'indice specificato. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | Restituisce l'indice in base zero della proprietà specificata nella raccolta. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | Rimuove una proprietà con il nome specificato dalla raccolta. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | Rimuove una proprietà all'indice specificato. |
 
-### Osservazioni
+## Osservazioni
 
 Gli articoli sono[`CustomXmlProperty`](../customxmlproperty/) oggetti.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection proprietà. Ottiene il numero di elementi contenuti nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection Count proprietà. Ottiene il numero di elementi contenuti nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/customxmlpropertycollection/count/
@@ -14,7 +16,7 @@ Ottiene il numero di elementi contenuti nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

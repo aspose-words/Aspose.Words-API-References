@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Aspose.Words per .NET API Reference
-description: Range metodo. Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words per .NET
+description: Range Replace metodo. Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 Il numero di sostituzioni effettuate.
 
-### Osservazioni
+## Osservazioni
 
 Il modello non verrà utilizzato come espressione regolare. Utilizzalo`Replace`se hai bisogno di espressioni regolari.
 
@@ -40,7 +42,7 @@ Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 
 Usa il metodo`Replace` per avere una personalizzazione più flessibile.
 
-### Esempi
+## Esempi
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### Guarda anche
 
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 Il numero di sostituzioni effettuate.
 
-### Osservazioni
+## Osservazioni
 
 Sostituisce l'intera corrispondenza catturata dall'espressione regolare.
 
@@ -141,7 +143,7 @@ Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 
 Usa il metodo`Replace` per avere una personalizzazione più flessibile.
 
-### Esempi
+## Esempi
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### Guarda anche
 
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 Il numero di sostituzioni effettuate.
 
-### Osservazioni
+## Osservazioni
 
 Il modello non verrà utilizzato come espressione regolare. Utilizzalo`Replace`se hai bisogno di espressioni regolari.
 
@@ -205,7 +207,7 @@ Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 * **&amp;l** - interruzione manuale della linea
 * **&amp;&amp;** - &amp; carattere
 
-### Esempi
+## Esempi
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 Il numero di sostituzioni effettuate.
 
-### Osservazioni
+## Osservazioni
 
 Sostituisce l'intera corrispondenza catturata dall'espressione regolare.
 
@@ -352,7 +354,7 @@ Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 * **&amp;l** - interruzione manuale della linea
 * **&amp;&amp;** - &amp; carattere
 
-### Esempi
+## Esempi
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

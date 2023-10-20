@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Aspose.Words per .NET API Reference
-description: TxtLoadOptions proprietà. Ottiene o imposta la direzione del documento. Il valore predefinito èLeftToRight .
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words per .NET
+description: TxtLoadOptions DocumentDirection proprietà. Ottiene o imposta la direzione del documento. Il valore predefinito èLeftToRight  in C#.
 type: docs
-weight: 50
+weight: 40
 url: /it/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ Ottiene o imposta la direzione del documento. Il valore predefinito èLeftToRigh
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rilevare la direzione del testo di un documento di testo normale.
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../txtloadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

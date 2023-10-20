@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo delHeaderFooter storia del testo principale di aSection  falso altrimenti.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words per .NET
+description: Paragraph IsEndOfHeaderFooter proprietà. Vero se questo paragrafo è lultimo paragrafo delHeaderFooter storia del testo principale di aSection  falso altrimenti in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ Vero se questo paragrafo è l'ultimo paragrafo del[`HeaderFooter`](../../headerf
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un'intestazione e un piè di pagina.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

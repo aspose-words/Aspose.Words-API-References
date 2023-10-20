@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Restituisce o imposta la posizione in punti per la seconda riga di testo a capo per il livello di elenco.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words per .NET
+description: ListLevel TextPosition proprietà. Restituisce o imposta la posizione in punti per la seconda riga di testo a capo per il livello di elenco in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ Restituisce o imposta la posizione (in punti) per la seconda riga di testo a cap
 public double TextPosition { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 `TextPosition` corrisponde a LeftIndent del paragrafo.
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Guarda anche
 
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

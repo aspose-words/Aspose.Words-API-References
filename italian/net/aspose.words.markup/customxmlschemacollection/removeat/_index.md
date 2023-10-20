@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection metodo. Rimuove un valore nellindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: CustomXmlSchemaCollection RemoveAt metodo. Rimuove un valore nellindice specificato in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.markup/customxmlschemacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice a base zero. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Guarda anche
 
 * class [CustomXmlSchemaCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlschemacollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

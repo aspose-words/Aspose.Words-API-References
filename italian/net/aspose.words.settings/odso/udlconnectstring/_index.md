@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Specifica la stringa di connessione Universal Data Link UDL utilizzata per connettersi a unorigine dati esterna. Il valore predefinito è una stringa vuota.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words per .NET
+description: Odso UdlConnectString proprietà. Specifica la stringa di connessione Universal Data Link UDL utilizzata per connettersi a unorigine dati esterna. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ Specifica la stringa di connessione Universal Data Link (UDL) utilizzata per con
 public string UdlConnectString { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [Odso](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odso/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

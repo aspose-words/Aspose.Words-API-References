@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeValue
-second_title: Aspose.Words per .NET API Reference
-description: FieldDisplayBarcode proprietà. Ottiene o imposta il valore del codice a barre.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words per .NET
+description: FieldDisplayBarcode BarcodeValue proprietà. Ottiene o imposta il valore del codice a barre in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore del codice a barre.
 public string BarcodeValue { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Guarda anche
 
 * class [FieldDisplayBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

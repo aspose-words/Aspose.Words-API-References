@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FormField classe. Rappresenta un singolo campo modulo.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FormField classe. Rappresenta un singolo campo modulo in C#.
 type: docs
 weight: 2620
 url: /it/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ottiene il carattere speciale rappresentato da questo nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | Rimuove il campo modulo completo, non solo il carattere speciale del campo modulo. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | Applica il formato testo specificato in[`TextInputFormat`](./textinputformat/) e memorizza il valore in[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | Applica il formato testo specificato in[`TextInputFormat`](./textinputformat/) e memorizza il valore in[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 Microsoft Word fornisce i seguenti campi modulo: casella di controllo, input di testo e menu a discesa (casella combinata).
 
@@ -84,7 +86,7 @@ Microsoft Word fornisce i seguenti campi modulo: casella di controllo, input di 
 
 Un campo modulo completo in un documento Word è una struttura complessa rappresentata da diversi nodi : inizio campo, codice campo come TESTOFORMA, dati campo modulo, separatore campo, risultato campo , fine campo e un segnalibro. Per creare campi modulo a livello di codice in un documento Word use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/) , [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) e [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which assicurati che tutti i nodi dei campi del modulo siano creati nell'ordine corretto e in uno stato adeguato.
 
-### Esempi
+## Esempi
 
 Mostra come formattare l'intero FormField, incluso il valore del campo.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

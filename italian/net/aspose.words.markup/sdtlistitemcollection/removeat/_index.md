@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItemCollection metodo. Rimuove una voce di elenco nellindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: SdtListItemCollection RemoveAt metodo. Rimuove una voce di elenco nellindice specificato in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Indice in base zero dell'elemento da rimuovere. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Guarda anche
 
 * class [SdtListItemCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

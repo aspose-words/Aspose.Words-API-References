@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Aspose.Words per .NET API Reference
-description: MustacheTag proprietà. Ottiene il testo del tag.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: MustacheTag Text proprietà. Ottiene il testo del tag in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ Ottiene il testo del tag.
 public string Text { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dei baffi.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Guarda anche
 
 * class [MustacheTag](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mustachetag/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

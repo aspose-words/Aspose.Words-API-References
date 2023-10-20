@@ -1,7 +1,9 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.INodeChangingCallback interfaccia. Implementa questa interfaccia se vuoi ricevere notifiche quando i nodi vengono inseriti o rimossi nel documento.
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.INodeChangingCallback interfaccia. Implementa questa interfaccia se vuoi ricevere notifiche quando i nodi vengono inseriti o rimossi nel documento in C#.
 type: docs
 weight: 3200
 url: /it/net/aspose.words/inodechangingcallback/
@@ -18,12 +20,12 @@ public interface INodeChangingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Chiamato quando un nodo appartenente a questo documento è stato inserito in un altro nodo. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Chiamato subito prima che un nodo appartenente a questo documento stia per essere inserito in un altro nodo. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Chiamato quando un nodo appartenente a questo documento è stato rimosso dal suo genitore. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Chiamato subito prima che un nodo appartenente a questo documento stia per essere rimosso dal documento. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | Chiamato quando un nodo appartenente a questo documento è stato inserito in un altro nodo. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Chiamato subito prima che un nodo appartenente a questo documento stia per essere inserito in un altro nodo. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Chiamato quando un nodo appartenente a questo documento è stato rimosso dal suo genitore. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Chiamato subito prima che un nodo appartenente a questo documento stia per essere rimosso dal documento. |
 
-### Esempi
+## Esempi
 
 Mostra come personalizzare la modifica del nodo con un callback.
 
@@ -101,5 +103,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

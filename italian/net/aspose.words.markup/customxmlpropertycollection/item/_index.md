@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection proprietà. Ottiene una proprietà con il nome specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection Item proprietà. Ottiene una proprietà con il nome specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Nome della proprietà da individuare con distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Indice in base zero della proprietà. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

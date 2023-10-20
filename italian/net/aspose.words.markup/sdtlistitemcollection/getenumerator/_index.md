@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItemCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: SdtListItemCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

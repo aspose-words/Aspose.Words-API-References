@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldDatabaseProvider
-second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta un provider che restituisce un risultato della query perFieldDatabase campo.
+linktitle: FieldDatabaseProvider
+articleTitle: FieldDatabaseProvider
+second_title: Aspose.Words per .NET
+description: FieldOptions FieldDatabaseProvider proprietà. Ottiene o imposta un provider che restituisce un risultato della query perFieldDatabase campo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
@@ -18,7 +20,5 @@ public IFieldDatabaseProvider FieldDatabaseProvider { get; set; }
 
 * interface [IFieldDatabaseProvider](../../ifielddatabaseprovider/)
 * class [FieldOptions](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldoptions/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

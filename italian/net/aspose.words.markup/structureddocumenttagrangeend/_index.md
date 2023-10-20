@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeEnd
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd classe. Rappresenta la fine di variato tag di documento strutturato che accetta contenuti multisezione. Vedi ancheStructuredDocumentTagRangeStart nodo.
+title: StructuredDocumentTagRangeEnd Class
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd classe. Rappresenta la fine divariato tag di documento strutturato che accetta contenuti multisezione. Vedi ancheStructuredDocumentTagRangeStart nodo in C#.
 type: docs
 weight: 4080
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Rappresenta la fine di **variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo.
+Rappresenta la fine di**variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo.
 
 Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Inizializza una nuova istanza di **Fine dell'intervallo di tag del documento strutturato** classe. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Inizializza una nuova istanza di**Fine dell'intervallo di tag del documento strutturato** classe. |
 
 ## Proprietà
 
@@ -28,7 +30,7 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Specifica un ID numerico persistente univoco di sola lettura per questo **Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../structureddocumenttagrangestart/id/) . |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Specifica un ID numerico persistente univoco di sola lettura per questo**Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../structureddocumenttagrangestart/id/) . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce`VERO` se questo nodo può contenere altri nodi. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | RestituisceStructuredDocumentTagRangeEnd . |
@@ -40,22 +42,22 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
-Può essere figlio immediato di[`Body`](../../aspose.words/body/) nodo **soltanto** .
+Può essere figlio immediato di[`Body`](../../aspose.words/body/) nodo**soltanto** .
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -92,5 +94,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * class [Node](../../aspose.words/node/)
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

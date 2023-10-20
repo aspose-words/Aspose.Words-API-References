@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: MappedDataFieldCollection proprietà. Ottiene o imposta il nome del campo nellorigine dati associata al campo di stampa unione specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: MappedDataFieldCollection Item proprietà. Ottiene o imposta il nome del campo nellorigine dati associata al campo di stampa unione specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del campo nell'origine dati associata al campo di stam
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Guarda anche
 
 * class [MappedDataFieldCollection](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

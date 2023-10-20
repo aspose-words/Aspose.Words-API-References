@@ -1,7 +1,9 @@
 ---
-title: Cluster.Cluster
-second_title: Aspose.Words per .NET API Reference
-description: Cluster costruttore. Inizializza la nuova istanza di questa classe.
+title: Cluster
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words per .NET
+description: Cluster costruttore. Inizializza la nuova istanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.shaping/cluster/cluster/
@@ -23,7 +25,5 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* spazio dei nomi [Aspose.Words.Shaping](../../cluster/)
+* spazio dei nomi [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * assemblea [Aspose.Words](../../../)
-
-

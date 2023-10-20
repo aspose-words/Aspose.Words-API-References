@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.Name
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkEnd proprietà. Ottiene o imposta il nome del segnalibro.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: BookmarkEnd Name proprietà. Ottiene o imposta il nome del segnalibro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/bookmarkend/name/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del segnalibro.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [BookmarkEnd](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkend/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

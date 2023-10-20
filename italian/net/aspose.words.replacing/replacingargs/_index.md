@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Replacing.ReplacingArgs classe. Fornisce i dati per unoperazione di sostituzione personalizzata.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Replacing.ReplacingArgs classe. Fornisce i dati per unoperazione di sostituzione personalizzata in C#.
 type: docs
 weight: 4650
 url: /it/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifica, per indice, un gruppo catturato nel file[`Match`](./match/) che va sostituito con il[`Replacement`](./replacement/) stringa. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifica, per nome, un gruppo catturato nel file[`Match`](./match/) che va sostituito con il[`Replacement`](./replacement/) stringa. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | IlMatch risultante da una singola corrispondenza di espressione regolari durante a **Sostituire** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | IlMatch risultante da una singola corrispondenza di espressione regolari durante a**Sostituire** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Ottiene il nodo che contiene l'inizio della corrispondenza. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Ottiene la posizione iniziale in base zero della corrispondenza dall'inizio di il nodo che contiene l'inizio della corrispondenza. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Ottiene o imposta la stringa sostitutiva. |
 
-### Esempi
+## Esempi
 
 Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * spazio dei nomi [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../)
-
-

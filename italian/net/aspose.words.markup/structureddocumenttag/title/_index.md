@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Specifica il nome descrittivo associato a questo SDT . Non può esserenullo .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Title proprietà. Specifica il nome descrittivo associato a questoSDT . Non può esserenullo  in C#.
 type: docs
 weight: 290
 url: /it/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-Specifica il nome descrittivo associato a questo **SDT** . Non può essere`nullo` .
+Specifica il nome descrittivo associato a questo**SDT** . Non può essere`nullo` .
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

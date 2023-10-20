@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IBarcodeGenerator interfaccia. Interfaccia pubblica per generatore personalizzato di codici a barre. Limplementazione dovrebbe essere fornita dallutente.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.IBarcodeGenerator interfaccia. Interfaccia pubblica per generatore personalizzato di codici a barre. Limplementazione dovrebbe essere fornita dallutente in C#.
 type: docs
 weight: 2660
 url: /it/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Genera l'immagine del codice a barre utilizzando il set di parametri (per il campo DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Genera l'immagine del codice a barre utilizzando il set di parametri (per il campo Codice a barre vecchio stile). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Genera l'immagine del codice a barre utilizzando il set di parametri (per il campo DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Genera l'immagine del codice a barre utilizzando il set di parametri (per il campo Codice a barre vecchio stile). |
 
-### Osservazioni
+## Osservazioni
 
 L'istanza del generatore deve essere passata attraverso il file[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

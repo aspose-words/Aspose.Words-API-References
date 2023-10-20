@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: DropDownItemCollection metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: DropDownItemCollection GetEnumerator metodo. Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/dropdownitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti
 public IEnumerator<string> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Guarda anche
 
 * class [DropDownItemCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../dropdownitemcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

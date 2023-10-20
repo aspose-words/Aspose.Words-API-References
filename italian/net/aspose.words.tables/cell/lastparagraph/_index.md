@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. Ottiene lultimo paragrafo tra i figli immediati.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words per .NET
+description: Cell LastParagraph proprietà. Ottiene lultimo paragrafo tra i figli immediati in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ Ottiene l'ultimo paragrafo tra i figli immediati.
 public Paragraph LastParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare le impostazioni ai bordi verticali al formato di una riga di tabella.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

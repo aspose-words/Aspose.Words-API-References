@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions proprietà. Il flag indica se è necessario ottimizzare loutput. Se questo flag è impostato le tele nidificate ridondanti e le tele vuote vengono rimosse vengono concatenati anche i glifi vicini con la stessa formattazione. Nota la precisione della visualizzazione del contenuto potrebbe essere influenzata se questa proprietà è impostata suVERO . Limpostazione predefinita èfalso .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions OptimizeOutput proprietà. Il flag indica se è necessario ottimizzare loutput. Se questo flag è impostato le tele nidificate ridondanti e le tele vuote vengono rimosse vengono concatenati anche i glifi vicini con la stessa formattazione. Nota la precisione della visualizzazione del contenuto potrebbe essere influenzata se questa proprietà è impostata suVERO . Limpostazione predefinita èfalso  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Il flag indica se è necessario ottimizzare l'output. Se questo flag è impostat
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottimizzare gli oggetti del documento durante il salvataggio su XP.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Guarda anche
 
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

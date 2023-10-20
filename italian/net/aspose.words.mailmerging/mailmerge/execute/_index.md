@@ -1,12 +1,14 @@
 ---
 title: MailMerge.Execute
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Esegue una stampa unione da unorigine dati personalizzata.
+linktitle: Execute
+articleTitle: Execute
+second_title: Aspose.Words per .NET
+description: MailMerge Execute metodo. Esegue una stampa unione da unorigine dati personalizzata in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {#execute}
+## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
 Esegue una stampa unione da un'origine dati personalizzata.
 
@@ -18,7 +20,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Un oggetto che implementa l'interfaccia dell'origine dati di stampa unione personalizzata. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori provenienti da qualsiasi origine dati come un elenco, una tabella hash o oggetti. Devi scrivere la tua classe personale che implementi il file[`IMailMergeDataSource`](../../imailmergedatasource/) interfaccia.
 
@@ -30,12 +32,12 @@ Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(string[], object[]) {#execute_5}
+## Execute(*string[], object[]*) {#execute_5}
 
 Esegue un'operazione di stampa unione per un singolo record.
 
@@ -48,7 +50,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | Matrice di nomi di campi di unione. I nomi dei campi non fanno distinzione tra maiuscole e minuscole. Se viene rilevato un nome di campo che non si trova nel documento, viene ignorato. |
 | values | Object[] | Matrice di valori da inserire nei campi di unione. Il numero di elementi in questa matrice deve essere uguale al numero di elementi in*fieldNames*. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori provenienti da un array di oggetti.
 
@@ -58,7 +60,7 @@ Questo metodo non utilizza le aree di stampa unione.
 
 Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
-### Esempi
+## Esempi
 
 Mostra come unire un'immagine da un URI come dati di stampa unione in un MERGEFIELD.
 
@@ -111,12 +113,12 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataTable) {#execute_2}
+## Execute(*DataTable*) {#execute_2}
 
 Esegue la stampa unione da un DataTable nel documento.
 
@@ -128,19 +130,19 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | Tabella che contiene i dati da inserire nei campi della stampa unione. I nomi dei campi non fanno distinzione tra maiuscole e minuscole. Se viene rilevato un nome di campo che non si trova nel documento, viene ignorato. |
 
-### Osservazioni
+## Osservazioni
 
-Utilizza questo metodo per compilare i campi della stampa unione nel documento con valori da a  **Tabella dati**.
+Utilizza questo metodo per compilare i campi della stampa unione nel documento con valori da a **Tabella dati**.
 
 Tutti i record della tabella vengono uniti nel documento.
 
-È possibile utilizzare il campo NEXT nel documento di Word per causare[`MailMerge`](../) oggetto per selezionare il record successivo da **Tabella dati** e continuare l'unione. Può essere utilizzato durante la creazione di documenti come le etichette postali.
+È possibile utilizzare il campo NEXT nel documento di Word per causare[`MailMerge`](../) oggetto per selezionare il record successivo da**Tabella dati** e continuare l'unione. Può essere utilizzato durante la creazione di documenti come le etichette postali.
 
-Quando[`MailMerge`](../) L'oggetto raggiunge la fine del documento principale e ci sono ancora più righe nel file **Tabella dati**, copia l'intero contenuto di il documento principale e lo aggiunge alla fine del documento di destinazione utilizzando un'interruzione di sezione come separatore.
+Quando[`MailMerge`](../) L'oggetto raggiunge la fine del documento principale e ci sono ancora più righe nel file**Tabella dati**, copia l'intero contenuto di il documento principale e lo aggiunge alla fine del documento di destinazione utilizzando un'interruzione di sezione come separatore.
 
 Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un DataTable.
 
@@ -188,14 +190,14 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(IDataReader) {#execute_4}
+## Execute(*IDataReader*) {#execute_4}
 
-Esegue la stampa unione da **IDataReader** nel documento.
+Esegue la stampa unione da**IDataReader** nel documento.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +207,15 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | Origine dati per l'operazione di stampa unione. |
 
-### Osservazioni
+## Osservazioni
 
-Puoi passare **SQLDataReader** O **Lettore dati OleDb** object nel metodo this come parametro perché entrambi sono implementati **IDataReader** interfaccia.
+Puoi passare**SQLDataReader** O**Lettore dati OleDb** object nel metodo this come parametro perché entrambi sono implementati**IDataReader** interfaccia.
 
 Tieni presente che questo metodo non utilizza aree di stampa unione e per più record il documento aumenterà ripetendo l'intero documento.
 
 Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione utilizzando i dati di un lettore di dati.
 
@@ -267,14 +269,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataView) {#execute_3}
+## Execute(*DataView*) {#execute_3}
 
-Esegue la stampa unione da a **DataView** nel documento.
+Esegue la stampa unione da a**DataView** nel documento.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +286,15 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Origine dati per l'operazione di stampa unione. |
 
-### Osservazioni
+## Osservazioni
 
-Questo metodo è utile se recuperi i dati in un file **Tabella dati** ma poi è necessario applicare un filtro o ordinare prima della stampa unione.
+Questo metodo è utile se recuperi i dati in un file**Tabella dati** ma poi è necessario applicare un filtro o ordinare prima della stampa unione.
 
 Tieni presente che questo metodo non utilizza aree di stampa unione e per più record il documento aumenterà ripetendo l'intero documento.
 
 Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati della stampa unione con un DataView.
 
@@ -329,14 +331,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataRow) {#execute_1}
+## Execute(*DataRow*) {#execute_1}
 
-Esegue la stampa unione da a **DataRow** nel documento.
+Esegue la stampa unione da a**DataRow** nel documento.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,13 +348,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | Riga che contiene i dati da inserire nei campi della stampa unione. I nomi dei campi non fanno distinzione tra maiuscole e minuscole. Se viene rilevato un nome di campo che non si trova nel documento, viene ignorato. |
 
-### Osservazioni
+## Osservazioni
 
-Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori da a **DataRow**.
+Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori da a**DataRow**.
 
 Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un DataTable.
 
@@ -400,7 +402,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

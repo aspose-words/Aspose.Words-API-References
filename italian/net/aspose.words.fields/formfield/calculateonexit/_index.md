@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Vero se i riferimenti al campo modulo specificato vengono aggiornati automaticamente ogni volta che si esce dal campo.
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: Aspose.Words per .NET
+description: FormField CalculateOnExit proprietà. Vero se i riferimenti al campo modulo specificato vengono aggiornati automaticamente ogni volta che si esce dal campo in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ Vero se i riferimenti al campo modulo specificato vengono aggiornati automaticam
 public bool CalculateOnExit { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Collocamento`CalculateOnExit` influisce solo sul comportamento del campo modulo quando il documento viene aperto in Microsoft Word. Aspose.Words non aggiorna mai references nel campo del modulo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

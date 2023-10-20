@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ViewType
-second_title: Aspose.Words per .NET API Reference
-description: ViewOptions proprietà. Controlla la modalità di visualizzazione in Microsoft Word.
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words per .NET
+description: ViewOptions ViewType proprietà. Controlla la modalità di visualizzazione in Microsoft Word in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/viewoptions/viewtype/
@@ -14,11 +16,11 @@ Controlla la modalità di visualizzazione in Microsoft Word.
 public ViewType ViewType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Sebbene Aspose.Words sia in grado di leggere e scrivere questa opzione, il suo utilizzo è specifico dell'applicazione. Ad esempio MS Word 2013 non rispetta il valore di questa opzione.
 
-### Esempi
+## Esempi
 
 Mostra come impostare un fattore di zoom personalizzato, che le versioni precedenti di Microsoft Word applicheranno a un documento al momento del caricamento.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../viewoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

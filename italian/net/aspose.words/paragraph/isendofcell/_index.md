@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questo paragrafo è lultimo paragrafo in aCell  falso altrimenti.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words per .NET
+description: Paragraph IsEndOfCell proprietà. Vero se questo paragrafo è lultimo paragrafo in aCell  falso altrimenti in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ Vero se questo paragrafo è l'ultimo paragrafo in a[`Cell`](../../../aspose.word
 public bool IsEndOfCell { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come apparecchiare una tavola per stare insieme sulla stessa pagina.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

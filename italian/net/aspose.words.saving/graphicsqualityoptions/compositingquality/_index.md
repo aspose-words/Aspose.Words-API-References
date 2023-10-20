@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
-second_title: Aspose.Words per .NET API Reference
-description: GraphicsQualityOptions proprietà. Ottiene o imposta la qualità di rendering delle immagini composte disegnate in questo Graphics.
+linktitle: CompositingQuality
+articleTitle: CompositingQuality
+second_title: Aspose.Words per .NET
+description: GraphicsQualityOptions CompositingQuality proprietà. Ottiene o imposta la qualità di rendering delle immagini composte disegnate in questo Graphics in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
@@ -14,7 +16,7 @@ Ottiene o imposta la qualità di rendering delle immagini composte disegnate in 
 public CompositingQuality? CompositingQuality { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare le opzioni di qualità di rendering durante la conversione di documenti in formati immagine.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Guarda anche
 
 * class [GraphicsQualityOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

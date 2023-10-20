@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Aspose.Words per .NET API Reference
-description: DropDownItemCollection metodo. Inserisce una stringa nella raccolta in corrispondenza dellindice specificato.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words per .NET
+description: DropDownItemCollection Insert metodo. Inserisce una stringa nella raccolta in corrispondenza dellindice specificato in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | L'indice in base zero in cui viene inserito il valore. |
 | value | String | La stringa da inserire. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### Guarda anche
 
 * class [DropDownItemCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../dropdownitemcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Aspose.Words per .NET API Reference
-description: ComHelper metodo. Consente a unapplicazione COM di caricare aDocument da un file.
+linktitle: Open
+articleTitle: Open
+second_title: Aspose.Words per .NET
+description: ComHelper Open metodo. Consente a unapplicazione COM di caricare aDocument da un file in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 Consente a un'applicazione COM di caricare a[`Document`](../../document/) da un file.
 
@@ -22,11 +24,11 @@ public Document Open(string fileName)
 
 UN[`Document`](../../document/)oggetto che rappresenta un documento di Word.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo equivale a chiamare il file[`Document`](../../document/) costruttore con un parametro del nome file.
 
-### Esempi
+## Esempi
 
 ```csharp
 [VBScript]
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* spazio dei nomi [Aspose.Words](../../comhelper/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 Consente il caricamento di un'applicazione COM[`Document`](../../document/) da un flusso.
 
@@ -83,11 +85,11 @@ public Document Open(Stream stream)
 
 UN[`Document`](../../document/)oggetto che rappresenta un documento di Word.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo equivale a chiamare il file[`Document`](../../document/) costruttore con un parametro stream.
 
-### Esempi
+## Esempi
 
 Mostra come aprire documenti utilizzando la classe ComHelper.
 
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* spazio dei nomi [Aspose.Words](../../comhelper/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.HasImage
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. RestituisceVERO se la forma ha byte di immagine o collega unimmagine.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words per .NET
+description: ImageData HasImage proprietà. RestituisceVERO se la forma ha byte di immagine o collega unimmagine in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing/imagedata/hasimage/
@@ -14,7 +16,7 @@ Restituisce`VERO` se la forma ha byte di immagine o collega un'immagine.
 public bool HasImage { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come salvare tutte le immagini da un documento al file system.
 
@@ -47,7 +49,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

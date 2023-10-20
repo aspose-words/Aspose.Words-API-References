@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Ottiene o imposta la giustificazione del numero effettivo della voce dellelenco.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words per .NET
+description: ListLevel Alignment proprietà. Ottiene o imposta la giustificazione del numero effettivo della voce dellelenco in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ Ottiene o imposta la giustificazione del numero effettivo della voce dell'elenco
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'etichetta dell'elenco è giustificata rispetto a[`NumberPosition`](../numberposition/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

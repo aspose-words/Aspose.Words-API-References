@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: ChartLegendEntryCollection proprietà. Restituisce il numero diChartLegendEntry in questa raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: ChartLegendEntryCollection Count proprietà. Restituisce il numero diChartLegendEntry in questa raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Guarda anche
 
 * class [ChartLegendEntryCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsValue
-second_title: Aspose.Words per .NET API Reference
-description: MappedDataFieldCollection metodo. Determina se nella raccolta esiste una mappatura dal campo specificato nellorigine dati.
+linktitle: ContainsValue
+articleTitle: ContainsValue
+second_title: Aspose.Words per .NET
+description: MappedDataFieldCollection ContainsValue metodo. Determina se nella raccolta esiste una mappatura dal campo specificato nellorigine dati in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
@@ -22,7 +24,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 `VERO` se l'articolo si trova nella raccolta; Altrimenti,`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Guarda anche
 
 * class [MappedDataFieldCollection](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

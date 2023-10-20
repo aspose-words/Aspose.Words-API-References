@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Aspose.Words per .NET API Reference
-description: TextPath proprietà. Definisce se il testo si adatta al percorso di una forma.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words per .NET
+description: TextPath FitPath proprietà. Definisce se il testo si adatta al percorso di una forma in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ Definisce se il testo si adatta al percorso di una forma.
 public bool FitPath { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Guarda anche
 
 * class [TextPath](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textpath/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

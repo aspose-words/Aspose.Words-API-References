@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Aspose.Words per .NET API Reference
-description: NodeRendererBase proprietà. Ottiene i limiti opachi della forma in punti.
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: Aspose.Words per .NET
+description: NodeRendererBase OpaqueBoundsInPoints proprietà. Ottiene i limiti opachi della forma in punti in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
@@ -14,11 +16,11 @@ Ottiene i limiti opachi della forma in punti.
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà restituisce il riquadro di delimitazione della forma opaco (ovvero le parti trasparenti della forma vengono ignorate). I limiti tengono conto della rotazione della forma.
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

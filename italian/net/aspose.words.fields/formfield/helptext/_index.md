@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Restituisce o imposta il testo visualizzato in una finestra di messaggio quando il campo del modulo è attivo e lutente preme F1.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words per .NET
+description: FormField HelpText proprietà. Restituisce o imposta il testo visualizzato in una finestra di messaggio quando il campo del modulo è attivo e lutente preme F1 in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ Restituisce o imposta il testo visualizzato in una finestra di messaggio quando 
 public string HelpText { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se la[`OwnHelp`](../ownhelp/) la proprietà è impostata su`VERO` ,`HelpText` specifica il valore della stringa di testo. Se[`OwnHelp`](../ownhelp/) è impostato per`falso` ,`HelpText`specifica il nome di una voce di glossario che contiene testo help per il campo modulo.
 
 Microsoft Word consente stringhe con un massimo di 255 caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

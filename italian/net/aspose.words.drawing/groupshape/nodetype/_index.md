@@ -1,7 +1,9 @@
 ---
 title: GroupShape.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: GroupShape proprietà. RestituisceGroupShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: GroupShape NodeType proprietà. RestituisceGroupShape  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/groupshape/nodetype/
@@ -14,7 +16,7 @@ RestituisceGroupShape .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../groupshape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Vero se un campo modulo è abilitato.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words per .NET
+description: FormField Enabled proprietà. Vero se un campo modulo è abilitato in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ Vero se un campo modulo è abilitato.
 public bool Enabled { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se un campo modulo è abilitato, il suo contenuto può essere modificato durante la compilazione del modulo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

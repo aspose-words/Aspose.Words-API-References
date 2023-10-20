@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupName
-second_title: Aspose.Words per .NET API Reference
-description: ReplacingArgs proprietà. Identifica per nome un gruppo catturato nel fileMatch che va sostituito con ilReplacement stringa.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words per .NET
+description: ReplacingArgs GroupName proprietà. Identifica per nome un gruppo catturato nel fileMatch che va sostituito con ilReplacement stringa in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.replacing/replacingargs/groupname/
@@ -14,13 +16,13 @@ Identifica, per nome, un gruppo catturato nel file[`Match`](../match/) che va so
 public string GroupName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando il nome del gruppo è`nullo` ,[`GroupIndex`](../groupindex/) viene utilizzato per identificare il gruppo.
 
 L'impostazione predefinita è`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Guarda anche
 
 * class [ReplacingArgs](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../replacingargs/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

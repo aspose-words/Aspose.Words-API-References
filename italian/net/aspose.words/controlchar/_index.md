@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ControlChar classe. Caratteri di controllo spesso incontrati nei documenti.
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: Aspose.Words per .NET
+description: Aspose.Words.ControlChar classe. Caratteri di controllo spesso incontrati nei documenti in C#.
 type: docs
 weight: 350
 url: /it/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | Carattere di tabulazione: "\x0009" o "\t". |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | Carattere di tabulazione: (char)9 o "\t". |
 
-### Osservazioni
+## Osservazioni
 
 Fornisce versioni sia di carattere che di stringa delle stesse costanti. Ad esempio: stringa[`LineBreak`](./linebreak/) e salmerino[`LineBreakChar`](./linebreakchar/) hanno lo stesso valore.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i caratteri di controllo.
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

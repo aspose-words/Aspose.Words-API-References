@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IBibliographyStylesProvider interfaccia. Implementa questa interfaccia per fornire uno stile bibliografico per ilFieldBibliography EFieldCitation campi quando vengono aggiornati.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider interfaccia. Implementa questa interfaccia per fornire uno stile bibliografico per ilFieldBibliography EFieldCitation campi quando vengono aggiornati in C#.
 type: docs
 weight: 2670
 url: /it/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | Restituisce lo stile della bibliografia. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | Restituisce lo stile della bibliografia. |
 
-### Esempi
+## Esempi
 
 Mostra come sovrascrivere gli stili integrati o fornirne uno personalizzato.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

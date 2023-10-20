@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene il fileBuildingBlockcontenente testo segnaposto che dovrebbe essere visualizzato quando i contenuti dellesecuzione di questo SDT sono vuoti lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping element o ilIsShowingPlaceholderText lelemento èVERO .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Placeholder proprietà. Ottiene il fileBuildingBlockcontenente testo segnaposto che dovrebbe essere visualizzato quando i contenuti dellesecuzione di questo SDT sono vuoti lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping element o ilIsShowingPlaceholderText lelemento èVERO  in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ Ottiene il file[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingbl
 public BuildingBlock Placeholder { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Può essere`nullo`, il che significa che il segnaposto non è applicabile per questo Sdt.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il contenuto di un blocco predefinito come testo segnaposto personalizzato per un tag di documento strutturato.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

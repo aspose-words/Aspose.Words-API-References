@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Aspose.Words per .NET API Reference
-description: EditableRange proprietà. Ottiene il nodo che rappresenta la fine dellintervallo modificabile.
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words per .NET
+description: EditableRange EditableRangeEnd proprietà. Ottiene il nodo che rappresenta la fine dellintervallo modificabile in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ Ottiene il nodo che rappresenta la fine dell'intervallo modificabile.
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* spazio dei nomi [Aspose.Words](../../editablerange/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

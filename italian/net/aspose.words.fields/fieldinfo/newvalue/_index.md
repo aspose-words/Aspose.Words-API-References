@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Aspose.Words per .NET API Reference
-description: FieldInfo proprietà. Ottiene o imposta un valore facoltativo che aggiorna la proprietà.
+linktitle: NewValue
+articleTitle: NewValue
+second_title: Aspose.Words per .NET
+description: FieldInfo NewValue proprietà. Ottiene o imposta un valore facoltativo che aggiorna la proprietà in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore facoltativo che aggiorna la proprietà.
 public string NewValue { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i campi INFO.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Guarda anche
 
 * class [FieldInfo](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldinfo/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

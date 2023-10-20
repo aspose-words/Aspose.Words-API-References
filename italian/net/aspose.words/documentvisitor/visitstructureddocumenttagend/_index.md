@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato al termine dellenumerazione di un tag di documento strutturato.
+linktitle: VisitStructuredDocumentTagEnd
+articleTitle: VisitStructuredDocumentTagEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitStructuredDocumentTagEnd metodo. Chiamato al termine dellenumerazione di un tag di documento strutturato in C#.
 type: docs
 weight: 440
 url: /it/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura del nodo di ogni tag di documento strutturato in un documento.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveLastChild
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator metodo. Passa allultima entità figlio.
+linktitle: MoveLastChild
+articleTitle: MoveLastChild
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator MoveLastChild metodo. Passa allultima entità figlio in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.layout/layoutenumerator/movelastchild/
@@ -14,7 +16,7 @@ Passa all'ultima entità figlio.
 public bool MoveLastChild()
 ```
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Guarda anche
 
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

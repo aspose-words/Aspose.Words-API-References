@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceItem
-second_title: Aspose.Words per .NET API Reference
-description: FieldDdeAuto proprietà. Ottiene o imposta la parte del file di origine che viene collegata.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words per .NET
+description: FieldDdeAuto SourceItem proprietà. Ottiene o imposta la parte del file di origine che viene collegata in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/fieldddeauto/sourceitem/
@@ -14,7 +16,7 @@ Ottiene o imposta la parte del file di origine che viene collegata.
 public string SourceItem { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldDdeAuto](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldddeauto/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

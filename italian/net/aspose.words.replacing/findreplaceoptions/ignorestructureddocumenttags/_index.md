@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreStructuredDocumentTags
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. Ottiene o imposta un valore booleano che indica di ignorare il contenuto diStructuredDocumentTag . Il valore predefinito èfalso .
+linktitle: IgnoreStructuredDocumentTags
+articleTitle: IgnoreStructuredDocumentTags
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions IgnoreStructuredDocumentTags proprietà. Ottiene o imposta un valore booleano che indica di ignorare il contenuto diStructuredDocumentTag . Il valore predefinito èfalso  in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -14,13 +16,13 @@ Ottiene o imposta un valore booleano che indica di ignorare il contenuto di[`Str
 public bool IgnoreStructuredDocumentTags { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando questa opzione è impostata su`VERO` , il contenuto di[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) verrà trattato come un semplice testo.
 
 Altrimenti,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) verrà elaborato come Story autonomo e il modello sostitutivo verrà cercato separatamente per ciascuno[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), in modo che se il modello attraversa a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , la sostituzione non verrà eseguita per tale modello.
 
-### Esempi
+## Esempi
 
 Mostra come ignorare il contenuto dei tag dalla sostituzione.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

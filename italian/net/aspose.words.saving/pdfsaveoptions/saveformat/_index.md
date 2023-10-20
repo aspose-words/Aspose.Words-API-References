@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.SaveFormat
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può esserePdf .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può esserePdf  in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words.saving/pdfsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Specifica il formato in cui il documento verrà salvato se viene utilizzato ques
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come limitare il livello delle intestazioni che appariranno nella struttura di un documento PDF salvato.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

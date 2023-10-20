@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta se Microsoft Word utilizza i margini interni per la sezione in base a una lingua da destra a sinistra o da sinistra a destra.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words per .NET
+description: PageSetup RtlGutter proprietà. Ottiene o imposta se Microsoft Word utilizza i margini interni per la sezione in base a una lingua da destra a sinistra o da sinistra a destra in C#.
 type: docs
 weight: 380
 url: /it/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ Ottiene o imposta se Microsoft Word utilizza i margini interni per la sezione in
 public bool RtlGutter { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i margini di rilegatura.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.HashAlgorithm
-second_title: Aspose.Words per .NET API Reference
-description: PdfDigitalSignatureDetails proprietà. Ottiene o imposta lalgoritmo hash.
+linktitle: HashAlgorithm
+articleTitle: HashAlgorithm
+second_title: Aspose.Words per .NET
+description: PdfDigitalSignatureDetails HashAlgorithm proprietà. Ottiene o imposta lalgoritmo hash in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/
@@ -14,11 +16,11 @@ Ottiene o imposta l'algoritmo hash.
 public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è l'algoritmo SHA-256.
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento PDF generato.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
 * class [PdfDigitalSignatureDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

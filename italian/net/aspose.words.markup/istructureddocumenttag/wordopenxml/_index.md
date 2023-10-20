@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.WordOpenXML
-second_title: Aspose.Words per .NET API Reference
-description: IStructuredDocumentTag proprietà. Ottiene una stringa che rappresenta lXML contenuto nel nodo inFlatOpc formato.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words per .NET
+description: IStructuredDocumentTag WordOpenXML proprietà. Ottiene una stringa che rappresenta lXML contenuto nel nodo inFlatOpc formato in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
@@ -17,7 +19,5 @@ public string WordOpenXML { get; }
 ### Guarda anche
 
 * interface [IStructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../istructureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

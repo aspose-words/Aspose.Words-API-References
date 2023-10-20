@@ -1,7 +1,9 @@
 ---
-title: Enum FieldUpdateCultureSource
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldUpdateCultureSource enum. Indica quale lingua utilizzare durante laggiornamento del campo.
+title: FieldUpdateCultureSource Enum
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldUpdateCultureSource enum. Indica quale lingua utilizzare durante laggiornamento del campo in C#.
 type: docs
 weight: 2560
 url: /it/net/aspose.words.fields/fieldupdateculturesource/
@@ -21,7 +23,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | La lingua del thread di esecuzione corrente viene utilizzata per aggiornare i campi. |
 | FieldCode | `1` | Viene utilizzata la lingua specificata nelle proprietà di formattazione del campo tramite l'impostazione della lingua. |
 
-### Esempi
+## Esempi
 
 Mostra come specificare l'origine delle impostazioni cultura utilizzate per la formattazione della data durante un aggiornamento di campo o una stampa unione.
 
@@ -57,5 +59,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

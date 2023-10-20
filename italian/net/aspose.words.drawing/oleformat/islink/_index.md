@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLink
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. RestituisceVERO se loggetto OLE è collegato whenSourceFullName è specificato.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words per .NET
+description: OleFormat IsLink proprietà. RestituisceVERO se loggetto OLE è collegato whenSourceFullName è specificato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/oleformat/islink/
@@ -14,7 +16,7 @@ Restituisce`VERO` se l'oggetto OLE è collegato (when[`SourceFullName`](../sourc
 public bool IsLink { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire oggetti OLE collegati e scollegati.
 
@@ -64,7 +66,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

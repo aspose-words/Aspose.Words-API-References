@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene il nome della tabella dati per loperazione di unione corrente o una stringa vuota se il nome non è disponibile.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words per .NET
+description: FieldMergingArgsBase TableName proprietà. Ottiene il nome della tabella dati per loperazione di unione corrente o una stringa vuota se il nome non è disponibile in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ Ottiene il nome della tabella dati per l'operazione di unione corrente o una str
 public string TableName { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Guarda anche
 
 * class [FieldMergingArgsBase](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

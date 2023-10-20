@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LeftMargin
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta la distanza in punti tra il bordo sinistro della pagina e il limite sinistro del corpo del testo.
+linktitle: LeftMargin
+articleTitle: LeftMargin
+second_title: Aspose.Words per .NET
+description: PageSetup LeftMargin proprietà. Restituisce o imposta la distanza in punti tra il bordo sinistro della pagina e il limite sinistro del corpo del testo in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words/pagesetup/leftmargin/
@@ -14,7 +16,7 @@ Restituisce o imposta la distanza (in punti) tra il bordo sinistro della pagina 
 public double LeftMargin { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

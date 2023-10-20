@@ -1,7 +1,9 @@
 ---
 title: Font.Fill
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene la formattazione di riempimento per il fileFont .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words per .NET
+description: Font Fill proprietà. Ottiene la formattazione di riempimento per il fileFont  in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/font/fill/
@@ -18,7 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

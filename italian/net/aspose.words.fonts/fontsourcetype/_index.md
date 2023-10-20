@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontSourceType enum. Specifica il tipo di fonte di carattere.
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontSourceType enum. Specifica il tipo di fonte di carattere in C#.
 type: docs
 weight: 2990
 url: /it/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) oggetto che rappresenta tutti i caratteri installati nel sistema. |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) oggetto che rappresenta uno stream con dati di carattere. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un file di font nel file system locale come origine di font.
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

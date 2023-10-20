@@ -1,7 +1,9 @@
 ---
 title: Document.ProtectionType
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene il tipo di protezione del documento attualmente attivo.
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words per .NET
+description: Document ProtectionType proprietà. Ottiene il tipo di protezione del documento attualmente attivo in C#.
 type: docs
 weight: 330
 url: /it/net/aspose.words/document/protectiontype/
@@ -14,7 +16,7 @@ Ottiene il tipo di protezione del documento attualmente attivo.
 public ProtectionType ProtectionType { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di recuperare il tipo di protezione del documento attualmente impostato. Per modificare il tipo di protezione del documento utilizzare il[`Protect`](../protect/) e[`Unprotect`](../unprotect/) metodi.
 
@@ -22,7 +24,7 @@ Quando un documento è protetto, l'utente può apportare solo modifiche limitate
 
 Tieni presente che la protezione del documento è diversa dalla protezione da scrittura. La protezione da scrittura viene specificata utilizzando il file[`WriteProtection`](../writeprotection/)
 
-### Esempi
+## Esempi
 
 Mostra come proteggere e rimuovere la protezione di un documento.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

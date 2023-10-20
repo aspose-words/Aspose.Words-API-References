@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromTimeSpan
-second_title: Aspose.Words per .NET API Reference
-description: ChartXValue metodo. Crea unChartXValue istanza delTime tipo.
+linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
+second_title: Aspose.Words per .NET
+description: ChartXValue FromTimeSpan metodo. Crea unChartXValue istanza delTime tipo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/
@@ -17,7 +19,5 @@ public static ChartXValue FromTimeSpan(TimeSpan value)
 ### Guarda anche
 
 * class [ChartXValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.MailMergeRegionInfo classe. Contiene informazioni su una regione di stampa unione.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo classe. Contiene informazioni su una regione di stampa unione in C#.
 type: docs
 weight: 3860
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Restituisce un campo iniziale per la regione. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Restituisce un tag iniziale "baffi" per la regione. |
 
-### Esempi
+## Esempi
 
 Mostra come verificare le regioni di stampa unione.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

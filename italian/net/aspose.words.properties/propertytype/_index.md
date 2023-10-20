@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Properties.PropertyType enum. Specifica il tipo di dati di una proprietà del documento.
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Properties.PropertyType enum. Specifica il tipo di dati di una proprietà del documento in C#.
 type: docs
 weight: 4500
 url: /it/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | La proprietà è un array di byte. |
 | Other | `8` | La proprietà è di altro tipo. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà personalizzate di un documento.
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * spazio dei nomi [Aspose.Words.Properties](../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../)
-
-

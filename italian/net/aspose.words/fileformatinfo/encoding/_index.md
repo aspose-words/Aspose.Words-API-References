@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Aspose.Words per .NET API Reference
-description: FileFormatInfo proprietà. Ottiene la codifica rilevata se applicabile al formato del documento corrente. Al momento rileva la codifica solo per i documenti HTML.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words per .NET
+description: FileFormatInfo Encoding proprietà. Ottiene la codifica rilevata se applicabile al formato del documento corrente. Al momento rileva la codifica solo per i documenti HTML in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ Ottiene la codifica rilevata se applicabile al formato del documento corrente. A
 public Encoding Encoding { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rilevare la codifica in un file html.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### Guarda anche
 
 * class [FileFormatInfo](../)
-* spazio dei nomi [Aspose.Words](../../fileformatinfo/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.ViewOptions
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Fornisce opzioni per controllare la modalità di visualizzazione del documento in Microsoft Word.
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words per .NET
+description: Document ViewOptions proprietà. Fornisce opzioni per controllare la modalità di visualizzazione del documento in Microsoft Word in C#.
 type: docs
 weight: 470
 url: /it/net/aspose.words/document/viewoptions/
@@ -14,7 +16,7 @@ Fornisce opzioni per controllare la modalità di visualizzazione del documento i
 public ViewOptions ViewOptions { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare un fattore di zoom personalizzato, che le versioni precedenti di Microsoft Word applicheranno a un documento al momento del caricamento.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * class [ViewOptions](../../../aspose.words.settings/viewoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

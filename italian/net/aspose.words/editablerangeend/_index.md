@@ -1,7 +1,9 @@
 ---
-title: Class EditableRangeEnd
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.EditableRangeEnd classe. Rappresenta la fine di un intervallo modificabile in un documento Word.
+title: EditableRangeEnd Class
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words per .NET
+description: Aspose.Words.EditableRangeEnd classe. Rappresenta la fine di un intervallo modificabile in un documento Word in C#.
 type: docs
 weight: 1430
 url: /it/net/aspose.words/editablerangeend/
@@ -35,18 +37,18 @@ public sealed class EditableRangeEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 Un intervallo modificabile completo in un documento Word è costituito da a[`EditableRangeStart`](./editablerangestart/) e una corrispondenza`EditableRangeEnd` con lo stesso identificativo.
 
@@ -56,7 +58,7 @@ Usa il[`EditableRange`](../editablerange/)class come "facciata" per lavorare con
 
 Gli intervalli attualmente modificabili sono supportati solo a livello in linea, ovvero all'interno[`Paragraph`](../paragraph/), ma l'inizio dell'intervallo modificabile e la fine dell'intervallo modificabile possono trovarsi in paragrafi diversi.
 
-### Esempi
+## Esempi
 
 Mostra come limitare i diritti di modifica degli intervalli modificabili a un gruppo/utente specifico.
 
@@ -169,5 +171,3 @@ public class EditableRangePrinter : DocumentVisitor
 * class [Node](../node/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

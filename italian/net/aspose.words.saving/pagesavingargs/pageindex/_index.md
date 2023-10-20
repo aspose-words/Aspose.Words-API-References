@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Aspose.Words per .NET API Reference
-description: PageSavingArgs proprietà. Indice della pagina corrente.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words per .NET
+description: PageSavingArgs PageIndex proprietà. Indice della pagina corrente in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ Indice della pagina corrente.
 public int PageIndex { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per salvare un documento in HTML pagina per pagina.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Guarda anche
 
 * class [PageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

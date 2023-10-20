@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkCollection metodo. Rimuove il segnalibro specificato dal documento.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: BookmarkCollection Remove metodo. Rimuove il segnalibro specificato dal documento in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Rimuove il segnalibro specificato dal documento.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | Il segnalibro da rimuovere. |
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i segnalibri da un documento.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Rimuove un segnalibro con il nome specificato.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | Il nome del segnalibro da rimuovere, senza distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i segnalibri da un documento.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Guarda anche
 
 * class [BookmarkCollection](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

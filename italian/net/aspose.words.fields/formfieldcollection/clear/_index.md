@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: FormFieldCollection metodo. Rimuove tutti i campi modulo da questa raccolta e dal documento.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: FormFieldCollection Clear metodo. Rimuove tutti i campi modulo da questa raccolta e dal documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/formfieldcollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutti i campi modulo da questa raccolta e dal documento.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormFieldCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfieldcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

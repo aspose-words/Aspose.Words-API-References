@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Position
-second_title: Aspose.Words per .NET API Reference
-description: GradientStop proprietà. Ottiene o imposta un valore che rappresenta la posizione di un arresto allinterno del gradiente espresso come percentuale nellintervallo da 00 a 10.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words per .NET
+description: GradientStop Position proprietà. Ottiene o imposta un valore che rappresenta la posizione di un arresto allinterno del gradiente espresso come percentuale nellintervallo da 00 a 10 in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/gradientstop/position/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che rappresenta la posizione di un arresto all'inter
 public double Position { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Guarda anche
 
 * class [GradientStop](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstop/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

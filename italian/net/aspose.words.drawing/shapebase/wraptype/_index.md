@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Definisce se la forma è in linea o mobile. Per le forme fluttuanti definisce la modalità di disposizione del testo attorno alla forma.
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words per .NET
+description: ShapeBase WrapType proprietà. Definisce se la forma è in linea o mobile. Per le forme fluttuanti definisce la modalità di disposizione del testo attorno alla forma in C#.
 type: docs
 weight: 600
 url: /it/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ Definisce se la forma è in linea o mobile. Per le forme fluttuanti definisce la
 public WrapType WrapType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èNone.
 
 Ha effetto solo per le forme di livello superiore.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile al centro di una pagina.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

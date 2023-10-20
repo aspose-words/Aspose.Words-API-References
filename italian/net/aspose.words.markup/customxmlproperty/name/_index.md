@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlProperty proprietà. Specifica il nome dellattributo XML personalizzato o della proprietà smart tag.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: CustomXmlProperty Name proprietà. Specifica il nome dellattributo XML personalizzato o della proprietà smart tag in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ Specifica il nome dell'attributo XML personalizzato o della proprietà smart tag
 public string Name { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
 L'impostazione predefinita è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come creare smart tag.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [CustomXmlProperty](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlproperty/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

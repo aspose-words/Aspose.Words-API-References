@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItemCollection proprietà. Restituisce aSdtListItem oggetto dato il suo indice in base zero nella raccolta.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: SdtListItemCollection Item proprietà. Restituisce aSdtListItem oggetto dato il suo indice in base zero nella raccolta in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ Restituisce a[`SdtListItem`](../../sdtlistitem/) oggetto dato il suo indice in b
 public SdtListItem this[int index] { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.ListTrailingCharacter enum. Specifica il carattere che separa letichetta dellelenco dal testo del paragrafo.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.ListTrailingCharacter enum. Specifica il carattere che separa letichetta dellelenco dal testo del paragrafo in C#.
 type: docs
 weight: 3540
 url: /it/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | Viene inserito uno spazio tra l'etichetta dell'elenco e il testo del paragrafo. |
 | Nothing | `2` | Non è presente alcun carattere separatore tra l'etichetta dell'elenco e il testo del paragrafo. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzato come valore per il[`TrailingCharacter`](../listlevel/trailingcharacter/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

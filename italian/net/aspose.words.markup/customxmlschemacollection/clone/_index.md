@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clone
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection metodo. Crea un clone profondo di questo oggetto.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: CustomXmlSchemaCollection Clone metodo. Crea un clone profondo di questo oggetto in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/customxmlschemacollection/clone/
@@ -14,7 +16,7 @@ Crea un clone profondo di questo oggetto.
 public CustomXmlSchemaCollection Clone()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Guarda anche
 
 * class [CustomXmlSchemaCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlschemacollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

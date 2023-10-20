@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentPartSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Permette di controllare come vengono salvate le parti del documento quando un documento viene salvato in HTML o EPUB.
+linktitle: DocumentPartSavingCallback
+articleTitle: DocumentPartSavingCallback
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions DocumentPartSavingCallback proprietà. Permette di controllare come vengono salvate le parti del documento quando un documento viene salvato in HTML o EPUB in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/
@@ -14,7 +16,7 @@ Permette di controllare come vengono salvate le parti del documento quando un do
 public IDocumentPartSavingCallback DocumentPartSavingCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento in parti e salvarle.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

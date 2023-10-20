@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando nel documento viene rilevata la fine di un segnalibro.
+linktitle: VisitBookmarkEnd
+articleTitle: VisitBookmarkEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitBookmarkEnd metodo. Chiamato quando nel documento viene rilevata la fine di un segnalibro in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

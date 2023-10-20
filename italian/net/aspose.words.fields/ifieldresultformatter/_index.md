@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldResultFormatter
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IFieldResultFormatter interfaccia. Implementa questa interfaccia se desideri controllare come viene formattato il risultato del campo.
+title: IFieldResultFormatter Interface
+linktitle: IFieldResultFormatter
+articleTitle: IFieldResultFormatter
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.IFieldResultFormatter interfaccia. Implementa questa interfaccia se desideri controllare come viene formattato il risultato del campo in C#.
 type: docs
 weight: 2700
 url: /it/net/aspose.words.fields/ifieldresultformatter/
@@ -18,12 +20,12 @@ public interface IFieldResultFormatter
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Chiamato quando Aspose.Words applica un cambio di formato numero, ovvero \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Chiamato quando Aspose.Words applica un cambio di formato delle maiuscole, ovvero \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Chiamato quando Aspose.Words applica un cambio di formato data/ora, ovvero \@ "gg.MM.aaaa". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Chiamato quando Aspose.Words applica un cambio di formato numerico, ovvero \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Chiamato quando Aspose.Words applica un cambio di formato numero, ovvero \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Chiamato quando Aspose.Words applica un cambio di formato delle maiuscole, ovvero \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Chiamato quando Aspose.Words applica un cambio di formato data/ora, ovvero \@ "gg.MM.aaaa". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Chiamato quando Aspose.Words applica un cambio di formato numerico, ovvero \# "#.##". |
 
-### Esempi
+## Esempi
 
 Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
 
@@ -161,5 +163,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

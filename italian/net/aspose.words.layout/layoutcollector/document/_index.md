@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Aspose.Words per .NET API Reference
-description: LayoutCollector proprietà. Ottiene o imposta il documento a cui è allegata questa istanza del raccoglitore.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: LayoutCollector Document proprietà. Ottiene o imposta il documento a cui è allegata questa istanza del raccoglitore in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ Ottiene o imposta il documento a cui è allegata questa istanza del raccoglitore
 public Document Document { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se è necessario accedere agli indici di pagina dei nodi del documento è necessario impostare questa proprietà in modo che punti a un'istanza del documento, prima che venga creato il layout di pagina del documento. È meglio impostare questa proprietà su`nullo` successivamente, altrimenti il raccoglitore continua ad accumulare informazioni dalle successive ricostruzioni del layout di pagina del documento.
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare gli intervalli di pagine su cui si estende un nodo.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutcollector/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

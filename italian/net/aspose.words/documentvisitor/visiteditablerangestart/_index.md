@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando nel documento viene rilevato linizio di un intervallo modificabile.
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitEditableRangeStart metodo. Chiamato quando nel documento viene rilevato linizio di un intervallo modificabile in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni intervallo modificabile in un documento.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

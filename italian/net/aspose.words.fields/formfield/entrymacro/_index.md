@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Restituisce o imposta il nome di una macro di voce per il campo modulo.
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: Aspose.Words per .NET
+description: FormField EntryMacro proprietà. Restituisce o imposta il nome di una macro di voce per il campo modulo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ Restituisce o imposta il nome di una macro di voce per il campo modulo.
 public string EntryMacro { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La macro della voce viene eseguita quando il campo del modulo ottiene lo stato attivo in Microsoft Word.
 
 Microsoft Word consente stringhe con un massimo di 32 caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

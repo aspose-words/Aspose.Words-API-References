@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.EmphasisMark enum. Specifica i possibili tipi di enfasi.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words per .NET
+description: Aspose.Words.EmphasisMark enum. Specifica i possibili tipi di enfasi in C#.
 type: docs
 weight: 1460
 url: /it/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Il segno di enfasi è un cerchio bianco vuoto visualizzato sopra il testo. |
 | UnderSolidCircle | `4` | Il segno di enfasi è un cerchio nero pieno visualizzato sotto il testo. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere ulteriori caratteri visualizzati sopra/sotto il carattere glifo.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

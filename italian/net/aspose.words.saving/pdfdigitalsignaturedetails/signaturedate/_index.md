@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.SignatureDate
-second_title: Aspose.Words per .NET API Reference
-description: PdfDigitalSignatureDetails proprietà. Ottiene o imposta la data della firma.
+linktitle: SignatureDate
+articleTitle: SignatureDate
+second_title: Aspose.Words per .NET
+description: PdfDigitalSignatureDetails SignatureDate proprietà. Ottiene o imposta la data della firma in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
@@ -14,13 +16,13 @@ Ottiene o imposta la data della firma.
 public DateTime SignatureDate { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è l'ora corrente.
 
 Questo valore apparirà nella firma digitale come ora del computer non verificata.
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento PDF generato.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Guarda anche
 
 * class [PdfDigitalSignatureDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

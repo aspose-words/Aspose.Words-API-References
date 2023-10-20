@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clone
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings metodo. Restituisce un clone profondo di questo oggetto.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: MailMergeSettings Clone metodo. Restituisce un clone profondo di questo oggetto in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.settings/mailmergesettings/clone/
@@ -14,7 +16,7 @@ Restituisce un clone profondo di questo oggetto.
 public MailMergeSettings Clone()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

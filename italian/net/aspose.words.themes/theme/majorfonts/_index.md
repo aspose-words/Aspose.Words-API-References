@@ -1,7 +1,9 @@
 ---
 title: Theme.MajorFonts
-second_title: Aspose.Words per .NET API Reference
-description: Theme proprietà. Permette di specificare linsieme dei caratteri principali per le diverse lingue.
+linktitle: MajorFonts
+articleTitle: MajorFonts
+second_title: Aspose.Words per .NET
+description: Theme MajorFonts proprietà. Permette di specificare linsieme dei caratteri principali per le diverse lingue in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.themes/theme/majorfonts/
@@ -14,7 +16,7 @@ Permette di specificare l'insieme dei caratteri principali per le diverse lingue
 public ThemeFonts MajorFonts { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* spazio dei nomi [Aspose.Words.Themes](../../theme/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

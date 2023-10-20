@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Aspose.Words per .NET API Reference
-description: Theme proprietà. Permette di specificare il set di caratteri minori per diverse lingue.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words per .NET
+description: Theme MinorFonts proprietà. Permette di specificare il set di caratteri minori per diverse lingue in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ Permette di specificare il set di caratteri minori per diverse lingue.
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* spazio dei nomi [Aspose.Words.Themes](../../theme/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

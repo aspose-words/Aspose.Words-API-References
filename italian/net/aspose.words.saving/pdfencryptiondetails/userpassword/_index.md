@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.UserPassword
-second_title: Aspose.Words per .NET API Reference
-description: PdfEncryptionDetails proprietà. Specifica la password utente richiesta per aprire il documento PDF crittografato.
+linktitle: UserPassword
+articleTitle: UserPassword
+second_title: Aspose.Words per .NET
+description: PdfEncryptionDetails UserPassword proprietà. Specifica la password utente richiesta per aprire il documento PDF crittografato in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -14,13 +16,13 @@ Specifica la password utente richiesta per aprire il documento PDF crittografato
 public string UserPassword { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La password utente sarà richiesta per aprire un documento PDF crittografato per la visualizzazione. Le autorizzazioni specificate in [`Permissions`](../permissions/) verrà applicato dal software del lettore.
 
 La password dell'utente può essere`nullo` oppure stringa vuota, in questo caso non verrà richiesta alcuna password all'utente all'apertura del documento PDF. La password dell'utente non può essere uguale alla password del proprietario.
 
-### Esempi
+## Esempi
 
 Mostra come impostare le autorizzazioni su un documento PDF salvato.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Guarda anche
 
 * class [PdfEncryptionDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

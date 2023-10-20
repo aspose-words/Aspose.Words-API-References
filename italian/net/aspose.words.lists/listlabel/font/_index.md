@@ -1,7 +1,9 @@
 ---
 title: ListLabel.Font
-second_title: Aspose.Words per .NET API Reference
-description: ListLabel proprietà. Ottiene il carattere delletichetta dellelenco.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: ListLabel Font proprietà. Ottiene il carattere delletichetta dellelenco in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listlabel/font/
@@ -18,7 +20,5 @@ public Font Font { get; }
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLabel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlabel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

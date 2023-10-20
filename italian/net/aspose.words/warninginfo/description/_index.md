@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Aspose.Words per .NET API Reference
-description: WarningInfo proprietà. Restituisce la descrizione dellavviso.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words per .NET
+description: WarningInfo Description proprietà. Restituisce la descrizione dellavviso in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ Restituisce la descrizione dell'avviso.
 public string Description { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Guarda anche
 
 * class [WarningInfo](../)
-* spazio dei nomi [Aspose.Words](../../warninginfo/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

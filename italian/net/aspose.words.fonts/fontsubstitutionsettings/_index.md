@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Specifica le impostazioni del meccanismo di sostituzione dei caratteri.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Specifica le impostazioni del meccanismo di sostituzione dei caratteri in C#.
 type: docs
 weight: 3010
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Impostazioni relative alla regola di sostituzione del nome del carattere. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Impostazioni relative alla regola di sostituzione della tabella. |
 
-### Osservazioni
+## Osservazioni
 
 Il processo di sostituzione dei caratteri consiste in diverse regole che vengono controllate una per una in ordine specifico. Se la prima regola non riesce a risolvere il carattere, viene controllata la seconda regola e così via.
 
@@ -36,7 +38,7 @@ Tieni presente che la regola di sostituzione delle informazioni sui caratteri ri
 
 Tieni presente che la regola di sostituzione della configurazione del carattere risolverà il carattere nella maggior parte dei casi e quindi sovrascrive tutte le altre regole.
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

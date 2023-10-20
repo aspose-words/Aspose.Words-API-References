@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.RightExpression
-second_title: Aspose.Words per .NET API Reference
-description: FieldNextIf proprietà. Ottiene o imposta la parte destra dellespressione di confronto.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words per .NET
+description: FieldNextIf RightExpression proprietà. Ottiene o imposta la parte destra dellespressione di confronto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldnextif/rightexpression/
@@ -14,7 +16,7 @@ Ottiene o imposta la parte destra dell'espressione di confronto.
 public string RightExpression { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in un'unica pagina durante una stampa unione.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Guarda anche
 
 * class [FieldNextIf](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldnextif/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

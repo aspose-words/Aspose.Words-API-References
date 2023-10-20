@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.NumberStyle enum. Specifica lo stile dei numeri per un elenco note a piè di pagina e note di chiusura numeri di pagina.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words per .NET
+description: Aspose.Words.NumberStyle enum. Specifica lo stile dei numeri per un elenco note a piè di pagina e note di chiusura numeri di pagina in C#.
 type: docs
 weight: 4310
 url: /it/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | Nessun punto elenco o numero. |
 | Custom | `65280` | Formato numero personalizzato. È supportato solo dal formato DOCX. |
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.GlossaryDocument
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene o imposta il documento di glossario allinterno di questo documento o modello. Un documento di glossario è un archivio per le voci di glossario correzione automatica e Building Block definite in un documento.
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: Aspose.Words per .NET
+description: Document GlossaryDocument proprietà. Ottiene o imposta il documento di glossario allinterno di questo documento o modello. Un documento di glossario è un archivio per le voci di glossario correzione automatica e Building Block definite in un documento in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words/document/glossarydocument/
@@ -14,13 +16,13 @@ Ottiene o imposta il documento di glossario all'interno di questo documento o mo
 public GlossaryDocument GlossaryDocument { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà ritorna`nullo` se il documento non ha un documento di glossario.
 
 Puoi aggiungere un documento di glossario a un documento creando a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) oggetto e assegnazione a questa proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

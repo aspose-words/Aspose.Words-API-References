@@ -1,7 +1,9 @@
 ---
 title: Table.LeftPadding
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere a sinistra del contenuto delle celle.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words per .NET
+description: Table LeftPadding proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere a sinistra del contenuto delle celle in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words.tables/table/leftpadding/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spazio (in punti) da aggiungere a sinistra del
 public double LeftPadding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare il riempimento del contenuto in una tabella.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

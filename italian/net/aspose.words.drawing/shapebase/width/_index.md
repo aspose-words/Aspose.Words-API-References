@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Width
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta la larghezza del blocco contenitore della forma.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words per .NET
+description: ShapeBase Width proprietà. Ottiene o imposta la larghezza del blocco contenitore della forma in C#.
 type: docs
 weight: 570
 url: /it/net/aspose.words.drawing/shapebase/width/
@@ -14,7 +16,7 @@ Ottiene o imposta la larghezza del blocco contenitore della forma.
 public double Width { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per una forma di livello superiore, il valore è in punti.
 
@@ -22,7 +24,7 @@ Per le forme in un gruppo, il valore è nello spazio delle coordinate e nelle un
 
 Il valore predefinito è 0.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile e specificarne la posizione e le dimensioni.
 
@@ -111,7 +113,5 @@ Mostra come ridimensionare una forma con un'immagine.
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

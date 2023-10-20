@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. QuandoVERO SpaceBefore ESpaceAfter verrà ignorato tra i paragrafi dello stesso stile.
+linktitle: NoSpaceBetweenParagraphsOfSameStyle
+articleTitle: NoSpaceBetweenParagraphsOfSameStyle
+second_title: Aspose.Words per .NET
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle proprietà. QuandoVERO SpaceBefore ESpaceAfter verrà ignorato tra i paragrafi dello stesso stile in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
@@ -14,11 +16,11 @@ Quando`VERO` ,[`SpaceBefore`](../spacebefore/) E[`SpaceAfter`](../spaceafter/) v
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa impostazione ha effetto solo se applicata a uno stile di paragrafo. Se applicato direttamente a un paragrafo, non ha alcun effetto.
 
-### Esempi
+## Esempi
 
 Mostra come non applicare alcuna spaziatura tra i paragrafi con lo stesso stile.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

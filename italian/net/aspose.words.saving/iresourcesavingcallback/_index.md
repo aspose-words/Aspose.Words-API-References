@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.IResourceSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva risorse esterne immagini caratteri e CSS quando salva un documento in una pagina fissa HTML o SVG.
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.IResourceSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva risorse esterne immagini caratteri e CSS quando salva un documento in una pagina fissa HTML o SVG in C#.
 type: docs
 weight: 5190
 url: /it/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Chiamato quando Aspose.Words salva una risorsa esterna nei formati HTML o SVG a pagina fissa. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Chiamato quando Aspose.Words salva una risorsa esterna nei formati HTML o SVG a pagina fissa. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per tenere traccia delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

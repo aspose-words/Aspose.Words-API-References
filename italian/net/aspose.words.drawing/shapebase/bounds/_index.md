@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bounds
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta la posizione e la dimensione del blocco contenitore della forma.
+linktitle: Bounds
+articleTitle: Bounds
+second_title: Aspose.Words per .NET
+description: ShapeBase Bounds proprietà. Ottiene o imposta la posizione e la dimensione del blocco contenitore della forma in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/shapebase/bounds/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione e la dimensione del blocco contenitore della form
 public RectangleF Bounds { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Ignora il blocco delle proporzioni al momento dell'impostazione.
 
@@ -22,7 +24,7 @@ Per una forma di livello superiore, il valore è espresso in punti e relativo al
 
 Per le forme in un gruppo, il valore è nello spazio delle coordinate e nelle unità del gruppo principale.
 
-### Esempi
+## Esempi
 
 Mostra come verificare la forma contenente i limiti del blocco.
 
@@ -179,7 +181,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

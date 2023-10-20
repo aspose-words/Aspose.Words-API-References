@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Modules
-second_title: Aspose.Words per .NET API Reference
-description: VbaProject proprietà. Restituisce la raccolta di moduli di progetto VBA.
+linktitle: Modules
+articleTitle: Modules
+second_title: Aspose.Words per .NET
+description: VbaProject Modules proprietà. Restituisce la raccolta di moduli di progetto VBA in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.vba/vbaproject/modules/
@@ -14,7 +16,7 @@ Restituisce la raccolta di moduli di progetto VBA.
 public VbaModuleCollection Modules { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle informazioni sul progetto VBA di un documento.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModuleCollection](../../vbamodulecollection/)
 * class [VbaProject](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbaproject/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

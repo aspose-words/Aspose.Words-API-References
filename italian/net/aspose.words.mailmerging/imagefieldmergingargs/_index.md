@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fornisce i dati per ilImageFieldMerging evento.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fornisce i dati per ilImageFieldMerging evento in C#.
 type: docs
 weight: 3830
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Specifica la forma che il motore di stampa unione deve inserire nel documento. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 
-### Osservazioni
+## Osservazioni
 
 Questo evento si verifica durante la stampa unione quando nel documento viene rilevato un campo immagine mail merge . Puoi rispondere a questo evento per restituire un nome file, uno stream o un file Image oggetto al motore mail merge in modo che venga inserito nel documento.
 
@@ -42,7 +44,7 @@ Ci sono tre immobili disponibili[`ImageFileName`](./imagefilename/) , [`ImageStr
 
 Per inserire un campo di stampa unione immagine in un documento in Word, seleziona il comando Inserisci/Campo, quindi seleziona UnisciCampo e digita Immagine:IlMioNomeCampo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

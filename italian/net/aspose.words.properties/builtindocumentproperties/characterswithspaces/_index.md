@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CharactersWithSpaces
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Rappresenta una stima del numero di caratteri spazi inclusi nel documento.
+linktitle: CharactersWithSpaces
+articleTitle: CharactersWithSpaces
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties CharactersWithSpaces proprietà. Rappresenta una stima del numero di caratteri spazi inclusi nel documento in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
@@ -14,11 +16,11 @@ Rappresenta una stima del numero di caratteri (spazi inclusi) nel documento.
 public int CharactersWithSpaces { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Aspose.Words aggiorna questa proprietà quando chiami[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Contenuto".
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

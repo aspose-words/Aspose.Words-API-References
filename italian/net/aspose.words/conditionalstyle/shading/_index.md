@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyle proprietà. Ottiene aShading oggetto che fa riferimento alla formattazione dellombreggiatura per questo stile condizionale.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words per .NET
+description: ConditionalStyle Shading proprietà. Ottiene aShading oggetto che fa riferimento alla formattazione dellombreggiatura per questo stile condizionale in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ Ottiene a[`Shading`](../../shading/) oggetto che fa riferimento alla formattazio
 public Shading Shading { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

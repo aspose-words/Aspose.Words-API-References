@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Aspose.Words per .NET API Reference
-description: ImageSavingArgs proprietà. Ottiene loggetto documento attualmente in fase di salvataggio.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: ImageSavingArgs Document proprietà. Ottiene loggetto documento attualmente in fase di salvataggio in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/imagesavingargs/document/
@@ -14,7 +16,7 @@ Ottiene l'oggetto documento attualmente in fase di salvataggio.
 public Document Document { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come coinvolgere un callback per il salvataggio dell'immagine in un processo di conversione HTML.
 
@@ -61,7 +63,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: XamlFlowSaveOptions.XamlFlowSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: XamlFlowSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileXamlFlow formato.
+title: XamlFlowSaveOptions
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: Aspose.Words per .NET
+description: XamlFlowSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileXamlFlow formato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
@@ -14,7 +16,7 @@ Inizializza una nuova istanza di questa classe che può essere utilizzata per sa
 public XamlFlowSaveOptions()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare i nomi file delle immagini collegate create durante la conversione di un documento in formato flusso .xaml.
 
@@ -80,12 +82,12 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Guarda anche
 
 * class [XamlFlowSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
+## XamlFlowSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileXamlFlow oXamlFlowPack formato.
 
@@ -97,7 +99,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Può essereXamlFlow OXamlFlowPack. |
 
-### Esempi
+## Esempi
 
 Mostra come stampare i nomi file delle immagini collegate create durante la conversione di un documento in formato flusso .xaml.
 
@@ -164,7 +166,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

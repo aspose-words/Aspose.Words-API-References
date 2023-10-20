@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Aspose.Words per .NET API Reference
-description: Node metodo. Crea un duplicato del nodo.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: Node Clone metodo. Crea un duplicato del nodo in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 Il nodo clonato.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo funge da costruttore di copie per i nodi. Il nodo clonato non ha un genitore, ma appartiene allo stesso documento del nodo originale.
 
 Questo metodo esegue sempre una copia approfondita del nodo. IL*isCloneChildren* parametri specifica se eseguire la copia anche di tutti i nodi figlio.
 
-### Esempi
+## Esempi
 
 Mostra come clonare un nodo composito.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### Guarda anche
 
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Aspose.Words per .NET API Reference
-description: Table metodo. Rimuove tutti i bordi della tabella e delle celle su questa tabella.
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: Aspose.Words per .NET
+description: Table ClearBorders metodo. Rimuove tutti i bordi della tabella e delle celle su questa tabella in C#.
 type: docs
-weight: 390
+weight: 370
 url: /it/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ Rimuove tutti i bordi della tabella e delle celle su questa tabella.
 public void ClearBorders()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare un bordo di contorno a una tabella.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

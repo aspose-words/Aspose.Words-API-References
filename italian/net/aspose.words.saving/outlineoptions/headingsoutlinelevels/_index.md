@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions proprietà. Specifica quanti livelli di intestazioni paragrafi formattati con gli stili di intestazione includere nella struttura del documento .
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words per .NET
+description: OutlineOptions HeadingsOutlineLevels proprietà. Specifica quanti livelli di intestazioni paragrafi formattati con gli stili di intestazione includere nella struttura del documento  in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ Specifica quanti livelli di intestazioni (paragrafi formattati con gli stili di 
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Specificare 0 per nessuna intestazione nella struttura; specificare 1 per un livello di intestazioni nella struttura e così via.
 
 Il valore predefinito è 0. L'intervallo valido è compreso tra 0 e 9.
 
-### Esempi
+## Esempi
 
 Mostra come convertire un intero documento in PDF con tre livelli nella struttura del documento.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Guarda anche
 
 * class [OutlineOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../outlineoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

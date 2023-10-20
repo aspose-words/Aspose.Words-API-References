@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Enabled
-second_title: Aspose.Words per .NET API Reference
-description: Forms2OleControl proprietà. RestituisceVERO se il controllo è nello stato abilitato.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words per .NET
+description: Forms2OleControl Enabled proprietà. RestituisceVERO se il controllo è nello stato abilitato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
@@ -14,7 +16,7 @@ Restituisce`VERO` se il controllo è nello stato abilitato.
 public bool Enabled { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà di un controllo ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Guarda anche
 
 * class [Forms2OleControl](../)
-* spazio dei nomi [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* spazio dei nomi [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.After
-second_title: Aspose.Words per .NET API Reference
-description: TabStopCollection metodo. Ottiene una prima tabulazione a destra della posizione specificata.
+linktitle: After
+articleTitle: After
+second_title: Aspose.Words per .NET
+description: TabStopCollection After metodo. Ottiene una prima tabulazione a destra della posizione specificata in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/tabstopcollection/after/
@@ -22,11 +24,11 @@ public TabStop After(double position)
 
 Un oggetto tabulazione o`nullo` se non è stata trovata una tabulazione adatta.
 
-### Osservazioni
+## Osservazioni
 
 Salta le tabulazioni con[`Alignment`](../../tabstop/alignment/) impostatoBar.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di tabulazioni di un documento.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* spazio dei nomi [Aspose.Words](../../tabstopcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

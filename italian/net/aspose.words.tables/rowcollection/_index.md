@@ -1,7 +1,9 @@
 ---
-title: Class RowCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.RowCollection classe. Fornisce laccesso digitato a una raccolta diRow nodi.
+title: RowCollection Class
+linktitle: RowCollection
+articleTitle: RowCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Tables.RowCollection classe. Fornisce laccesso digitato a una raccolta diRow nodi in C#.
 type: docs
 weight: 6320
 url: /it/net/aspose.words.tables/rowcollection/
@@ -27,17 +29,17 @@ public class RowCollection : NodeCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Aggiunge un nodo alla fine della raccolta. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Aggiunge un nodo alla fine della raccolta. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Rimuove tutti i nodi da questa raccolta e dal documento. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determina se un nodo è nella raccolta. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Determina se un nodo è nella raccolta. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice in base zero del nodo specificato. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Rimuove il nodo dalla raccolta e dal documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | Copia tutte le righe dalla raccolta in un nuovo array di righe. (2 methods) |
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
@@ -85,5 +87,3 @@ for (int i = 0; i < tables.Count; i++)
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../)
-
-

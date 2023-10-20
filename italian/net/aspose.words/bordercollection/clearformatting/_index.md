@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection metodo. Rimuove tutti i bordi di un oggetto.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words per .NET
+description: BorderCollection ClearFormatting metodo. Rimuove tutti i bordi di un oggetto in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ Rimuove tutti i bordi di un oggetto.
 public void ClearFormatting()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere tutti i bordi da tutti i paragrafi in un documento.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### Guarda anche
 
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

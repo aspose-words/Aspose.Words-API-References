@@ -1,7 +1,9 @@
 ---
-title: Class GroupShape
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.GroupShape classe. Rappresenta un gruppo di forme in un documento.
+title: GroupShape Class
+linktitle: GroupShape
+articleTitle: GroupShape
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.GroupShape classe. Rappresenta un gruppo di forme in un documento in C#.
 type: docs
 weight: 1020
 url: /it/net/aspose.words.drawing/groupshape/
@@ -20,7 +22,7 @@ public class GroupShape : ShapeBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [GroupShape](groupshape/)(DocumentBase) | Crea una nuova forma di gruppo. |
+| [GroupShape](groupshape/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Crea una nuova forma di gruppo. |
 
 ## Proprietà
 
@@ -104,48 +106,46 @@ public class GroupShape : ShapeBase
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words.drawing/groupshape/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| override [AcceptEnd](../../aspose.words.drawing/groupshape/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.drawing/groupshape/acceptstart/)(DocumentVisitor) |  |
-| [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(RectangleF) | Aggiunge al rettangolo di origine i valori dell'estensione dell'effetto e restituisce il rettangolo finale. |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
+| override [Accept](../../aspose.words.drawing/groupshape/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
+| [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(*RectangleF*) | Aggiunge al rettangolo di origine i valori dell'estensione dell'effetto e restituisce il rettangolo finale. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi secondari per questo nodo. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navigatore che può essere utilizzato per attraversare e leggere i nodi. |
-| [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(int) | Riservato per l'uso del sistema. IShapeAttrSource. |
-| [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(int) | Riservato per l'uso del sistema. IShapeAttrSource. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
-| [GetDirectShapeAttr](../../aspose.words.drawing/shapebase/getdirectshapeattr/)(int) | Riservato per l'uso del sistema. IShapeAttrSource. |
+| [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(*int*) | Riservato per l'uso del sistema. IShapeAttrSource. |
+| [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(*int*) | Riservato per l'uso del sistema. IShapeAttrSource. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
+| [GetDirectShapeAttr](../../aspose.words.drawing/shapebase/getdirectshapeattr/)(*int*) | Riservato per l'uso del sistema. IShapeAttrSource. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce il supporto per l'iterazione di ogni stile sui nodi figlio di questo nodo. |
 | [GetShapeRenderer](../../aspose.words.drawing/shapebase/getshaperenderer/)() | Crea e restituisce un oggetto che può essere utilizzato per eseguire il rendering di questa forma in un'immagine. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [LocalToParent](../../aspose.words.drawing/shapebase/localtoparent/)(PointF) | Converte un valore dallo spazio delle coordinate locali nello spazio delle coordinate della forma genitore. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente dopo il nodo di riferimento specificato. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
+| [LocalToParent](../../aspose.words.drawing/shapebase/localtoparent/)(*PointF*) | Converte un valore dallo spazio delle coordinate locali nello spazio delle coordinate della forma genitore. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi secondari per questo nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Rimuove tutti i nodi figlio del nodo corrente. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
-| [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(int) | Riservato per l'uso del sistema. IShapeAttrSource. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Rimuove il nodo figlio specificato. |
+| [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(*int*) | Riservato per l'uso del sistema. IShapeAttrSource. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto[`SmartTag`](../../aspose.words.markup/smarttag/)nodi discendenti del nodo corrente. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Seleziona il primo[`Node`](../../aspose.words/node/) che corrisponde all'espressione XPath. |
-| [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(int, object) | Riservato per l'uso del sistema. IShapeAttrSource. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Seleziona il primo[`Node`](../../aspose.words/node/) che corrisponde all'espressione XPath. |
+| [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(*int, object*) | Riservato per l'uso del sistema. IShapeAttrSource. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 UN`GroupShape` è un nodo composito e può avere[`Shape`](../shape/) e `GroupShape` nodi da bambini.
 
 Ogni`GroupShape` definisce un nuovo sistema di coordinate per le sue forme figlie. Il sistema di coordinate viene definito utilizzando il[`CoordSize`](../shapebase/coordsize/) e [`CoordOrigin`](../shapebase/coordorigin/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
 
@@ -238,5 +238,3 @@ public class ShapeGroupPrinter : DocumentVisitor
 * class [ShapeBase](../shapebase/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

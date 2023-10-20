@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceSeparator
-second_title: Aspose.Words per .NET API Reference
-description: FieldToa proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words per .NET
+description: FieldToa SequenceSeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fields/fieldtoa/sequenceseparator/
@@ -14,7 +16,7 @@ Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di s
 public string SequenceSeparator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldToa](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoa/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica il tipo di segnalazione degli errori che verrà condotta da Microsoft Word durante lesecuzione di una stampa unione. Il valore predefinito èDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words per .NET
+description: MailMergeSettings CheckErrors proprietà. Specifica il tipo di segnalazione degli errori che verrà condotta da Microsoft Word durante lesecuzione di una stampa unione. Il valore predefinito èDefault  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ Specifica il tipo di segnalazione degli errori che verrà condotta da Microsoft 
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

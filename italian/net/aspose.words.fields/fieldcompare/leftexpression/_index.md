@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.LeftExpression
-second_title: Aspose.Words per .NET API Reference
-description: FieldCompare proprietà. Ottiene o imposta la parte sinistra dellespressione di confronto.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words per .NET
+description: FieldCompare LeftExpression proprietà. Ottiene o imposta la parte sinistra dellespressione di confronto in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -14,7 +16,7 @@ Ottiene o imposta la parte sinistra dell'espressione di confronto.
 public string LeftExpression { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come confrontare le espressioni utilizzando un campo COMPARE.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Guarda anche
 
 * class [FieldCompare](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldcompare/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

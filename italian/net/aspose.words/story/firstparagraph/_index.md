@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words per .NET API Reference
-description: Story proprietà. Ottiene il primo paragrafo della storia.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words per .NET
+description: Story FirstParagraph proprietà. Ottiene il primo paragrafo della storia in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ Ottiene il primo paragrafo della storia.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* spazio dei nomi [Aspose.Words](../../story/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

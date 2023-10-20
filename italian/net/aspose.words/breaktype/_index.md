@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BreakType enum. Specifica il tipo di interruzione allinterno di un documento.
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BreakType enum. Specifica il tipo di interruzione allinterno di un documento in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | Specifica l'inizio di una nuova sezione su una pagina dispari. |
 | LineBreak | `8` | Interruzione di riga esplicita. |
 
-### Esempi
+## Esempi
 
 Mostra come creare intestazioni e piè di pagina in un documento utilizzando DocumentBuilder.
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

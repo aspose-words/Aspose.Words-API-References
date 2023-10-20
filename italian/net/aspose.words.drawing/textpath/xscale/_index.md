@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Aspose.Words per .NET API Reference
-description: TextPath proprietà. Determina se verrà utilizzato un percorso di testo lineare al posto del percorso della forma.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words per .NET
+description: TextPath XScale proprietà. Determina se verrà utilizzato un percorso di testo lineare al posto del percorso della forma in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ Determina se verrà utilizzato un percorso di testo lineare al posto del percors
 public bool XScale { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
 Se`VERO`il testo corre lungo un percorso da sinistra a destra lungo il valore x di il limite inferiore della forma.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con WordArt.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Guarda anche
 
 * class [TextPath](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textpath/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

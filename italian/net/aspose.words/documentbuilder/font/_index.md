@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere corrente.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: DocumentBuilder Font proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere corrente in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ Restituisce un oggetto che rappresenta le proprietà di formattazione del caratt
 public Font Font { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Utilizzo`Font` per accedere e modificare le proprietà di formattazione dei caratteri.
 
 Specificare la formattazione del carattere prima di inserire il testo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una stringa circondata da un bordo in un documento.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

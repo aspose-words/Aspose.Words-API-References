@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.SetPassword
-second_title: Aspose.Words per .NET API Reference
-description: WriteProtection metodo. Imposta la password di protezione da scrittura per il documento.
+linktitle: SetPassword
+articleTitle: SetPassword
+second_title: Aspose.Words per .NET
+description: WriteProtection SetPassword metodo. Imposta la password di protezione da scrittura per il documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,11 +20,11 @@ public void SetPassword(string password)
 | --- | --- | --- |
 | password | String | La password da impostare. Non può essere`nullo`, ma può essere una stringa vuota. |
 
-### Osservazioni
+## Osservazioni
 
 Se è impostata una password, Microsoft Word richiederà all'utente di inserirla o di aprire il documento in sola lettura.
 
-### Esempi
+## Esempi
 
 Mostra come proteggere un documento con una password.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Guarda anche
 
 * class [WriteProtection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../writeprotection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

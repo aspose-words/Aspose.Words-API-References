@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.MergeFieldImageDimension classe. Rappresenta una dimensione dellimmagine ovvero la larghezza o laltezza utilizzata in un processo di stampa unione.
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.MergeFieldImageDimension classe. Rappresenta una dimensione dellimmagine ovvero la larghezza o laltezza utilizzata in un processo di stampa unione in C#.
 type: docs
 weight: 2750
 url: /it/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | Nome | Descrizione |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Crea un'istanza di dimensione immagine con il valore specificato in punti. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Crea un'istanza di dimensione immagine con il valore e l'unità specificati. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Crea un'istanza di dimensione immagine con il valore specificato in punti. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Crea un'istanza di dimensione immagine con il valore e l'unità specificati. |
 
 ## Proprietà
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | L'unità. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | Il valore. |
 
-### Osservazioni
+## Osservazioni
 
 Per indicare che l'immagine deve essere inserita con la sua dimensione originale durante una stampa unione, è necessario assegnare un valore negativo al[`Value`](./value/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

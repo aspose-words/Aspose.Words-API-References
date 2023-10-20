@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words per .NET API Reference
-description: CompareOptions proprietà. True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita intestazioni e piè di pagina non vengono ignorati.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words per .NET
+description: CompareOptions IgnoreHeadersAndFooters proprietà. True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita intestazioni e piè di pagina non vengono ignorati in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Pe
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come filtrare tipi specifici di elementi del documento quando si effettua un confronto.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Guarda anche
 
 * class [CompareOptions](../)
-* spazio dei nomi [Aspose.Words.Comparing](../../compareoptions/)
+* spazio dei nomi [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../../)
-
-

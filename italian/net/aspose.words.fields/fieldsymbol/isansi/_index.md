@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsAnsi
-second_title: Aspose.Words per .NET API Reference
-description: FieldSymbol proprietà. Ottiene o imposta se il codice carattere viene interpretato come valore di un carattere ANSI.
+linktitle: IsAnsi
+articleTitle: IsAnsi
+second_title: Aspose.Words per .NET
+description: FieldSymbol IsAnsi proprietà. Ottiene o imposta se il codice carattere viene interpretato come valore di un carattere ANSI in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldsymbol/isansi/
@@ -14,7 +16,7 @@ Ottiene o imposta se il codice carattere viene interpretato come valore di un ca
 public bool IsAnsi { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo SIMBOLO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldSymbol](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldsymbol/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

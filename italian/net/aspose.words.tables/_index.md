@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Tables
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Tables lo spazio dei nomi contiene classi che rappresentano tabelle righe celle e la loro formattazione.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Tables lo spazio dei nomi contiene classi che rappresentano tabelle righe celle e la loro formattazione in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words.tables/
 ---
-IL **Aspose.Words.Tables** lo spazio dei nomi contiene classi che rappresentano tabelle, righe, celle e la loro formattazione.
+IL**Aspose.Words.Tables** lo spazio dei nomi contiene classi che rappresentano tabelle, righe, celle e la loro formattazione.
 
 ## Classi
 
@@ -32,5 +34,3 @@ IL **Aspose.Words.Tables** lo spazio dei nomi contiene classi che rappresentano 
 | [TableAlignment](./tablealignment/) | Specifica l'allineamento per una tabella in linea. |
 | [TableStyleOptions](./tablestyleoptions/) | Specifica la modalità di applicazione dello stile tabella a una tabella. |
 | [TextWrapping](./textwrapping/) | Specifica come il testo viene disposto attorno alla tabella. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Aspose.Words per .NET API Reference
-description: FieldSkipIf proprietà. Ottiene o imposta la parte destra dellespressione di confronto.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words per .NET
+description: FieldSkipIf RightExpression proprietà. Ottiene o imposta la parte destra dellespressione di confronto in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ Ottiene o imposta la parte destra dell'espressione di confronto.
 public string RightExpression { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come saltare le pagine in una stampa unione utilizzando il campo SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Guarda anche
 
 * class [FieldSkipIf](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldskipif/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

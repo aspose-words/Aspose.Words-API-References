@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Node proprietà. Ottiene il tipo di questo nodo.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Node NodeType proprietà. Ottiene il tipo di questo nodo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ Ottiene il tipo di questo nodo.
 public abstract NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la proprietà NextSibling di un nodo per enumerare i relativi figli immediati.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

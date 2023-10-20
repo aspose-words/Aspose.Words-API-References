@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica la stringa di connessione utilizzata per connettersi a unorigine dati esterna. Il valore predefinito è una stringa vuota.
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: Aspose.Words per .NET
+description: MailMergeSettings ConnectString proprietà. Specifica la stringa di connessione utilizzata per connettersi a unorigine dati esterna. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ Specifica la stringa di connessione utilizzata per connettersi a un'origine dati
 public string ConnectString { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

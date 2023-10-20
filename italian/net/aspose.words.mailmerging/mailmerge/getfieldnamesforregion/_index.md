@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Restituisce una raccolta di nomi di campi di stampa unione disponibili nella regione.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words per .NET
+description: MailMerge GetFieldNamesForRegion metodo. Restituisce una raccolta di nomi di campi di stampa unione disponibili nella regione in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Restituisce una raccolta di nomi di campi di stampa unione disponibili nella regione.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Nome della regione (senza distinzione tra maiuscole e minuscole). |
 
-### Osservazioni
+## Osservazioni
 
 Restituisce i nomi completi dei campi di unione incluso il prefisso facoltativo. Non elimina i nomi di campo duplicati.
 
@@ -26,7 +28,7 @@ Se il documento contiene più regioni con lo stesso nome, viene elaborata la pri
 
 Ad ogni chiamata viene creato un nuovo array di stringhe.
 
-### Esempi
+## Esempi
 
 Mostra come creare, elencare e leggere le aree di stampa unione.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Restituisce una raccolta di nomi di campi di stampa unione disponibili nella regione.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Nome della regione (senza distinzione tra maiuscole e minuscole). |
 | regionIndex | Int32 | Indice regionale (in base zero). |
 
-### Osservazioni
+## Osservazioni
 
 Restituisce i nomi completi dei campi di unione incluso il prefisso facoltativo. Non elimina i nomi di campo duplicati.
 
@@ -107,7 +109,7 @@ Se il documento contiene più regioni con lo stesso nome, viene elaborata la reg
 
 Ad ogni chiamata viene creato un nuovo array di stringhe.
 
-### Esempi
+## Esempi
 
 Mostra come creare, elencare e leggere le aree di stampa unione.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

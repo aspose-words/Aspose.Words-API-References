@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Aspose.Words per .NET API Reference
-description: FieldRD proprietà. Ottiene o imposta il nome del file da includere durante la generazione di un sommario un indice delle autorità o un indice.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words per .NET
+description: FieldRD FileName proprietà. Ottiene o imposta il nome del file da includere durante la generazione di un sommario un indice delle autorità o un indice in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del file da includere durante la generazione di un som
 public string FileName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo RD per creare voci di sommario da intestazioni di altri documenti.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Guarda anche
 
 * class [FieldRD](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldrd/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

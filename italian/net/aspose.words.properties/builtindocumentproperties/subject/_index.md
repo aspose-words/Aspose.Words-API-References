@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Subject
-second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Ottiene o imposta loggetto del documento.
+linktitle: Subject
+articleTitle: Subject
+second_title: Aspose.Words per .NET
+description: BuiltInDocumentProperties Subject proprietà. Ottiene o imposta loggetto del documento in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words.properties/builtindocumentproperties/subject/
@@ -14,7 +16,7 @@ Ottiene o imposta l'oggetto del documento.
 public string Subject { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento integrate nella categoria "Descrizione".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Guarda anche
 
 * class [BuiltInDocumentProperties](../)
-* spazio dei nomi [Aspose.Words.Properties](../../builtindocumentproperties/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

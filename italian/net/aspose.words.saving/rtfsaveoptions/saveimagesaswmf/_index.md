@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
-second_title: Aspose.Words per .NET API Reference
-description: RtfSaveOptions proprietà. QuandoVERO tutte le immagini verranno salvate come WMF.
+linktitle: SaveImagesAsWmf
+articleTitle: SaveImagesAsWmf
+second_title: Aspose.Words per .NET
+description: RtfSaveOptions SaveImagesAsWmf proprietà. QuandoVERO tutte le immagini verranno salvate come WMF in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
@@ -14,11 +16,11 @@ Quando`VERO` tutte le immagini verranno salvate come WMF.
 public bool SaveImagesAsWmf { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa opzione potrebbe aiutare a evitare i messaggi di avviso di WordPad.
 
-### Esempi
+## Esempi
 
 Mostra come convertire tutte le immagini in un documento nel formato Windows Metafile mentre salviamo il documento come RTF.
 
@@ -67,7 +69,5 @@ else
 ### Guarda anche
 
 * class [RtfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../rtfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

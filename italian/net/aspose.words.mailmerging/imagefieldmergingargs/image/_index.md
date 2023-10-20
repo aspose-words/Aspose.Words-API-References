@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Aspose.Words per .NET API Reference
-description: ImageFieldMergingArgs proprietà. Specifica limmagine che il motore di stampa unione deve inserire nel documento.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words per .NET
+description: ImageFieldMergingArgs Image proprietà. Specifica limmagine che il motore di stampa unione deve inserire nel documento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ Specifica l'immagine che il motore di stampa unione deve inserire nel documento.
 public Image Image { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per personalizzare la logica di unione delle immagini.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### Guarda anche
 
 * class [ImageFieldMergingArgs](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UseParagraphOutlineLevel
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta se utilizzare il livello di struttura del paragrafo applicato.
+linktitle: UseParagraphOutlineLevel
+articleTitle: UseParagraphOutlineLevel
+second_title: Aspose.Words per .NET
+description: FieldToc UseParagraphOutlineLevel proprietà. Ottiene o imposta se utilizzare il livello di struttura del paragrafo applicato in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il livello di struttura del paragrafo applicato.
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

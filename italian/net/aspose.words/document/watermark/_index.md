@@ -1,7 +1,9 @@
 ---
 title: Document.Watermark
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Fornisce laccesso alla filigrana del documento.
+linktitle: Watermark
+articleTitle: Watermark
+second_title: Aspose.Words per .NET
+description: Document Watermark proprietà. Fornisce laccesso alla filigrana del documento in C#.
 type: docs
 weight: 480
 url: /it/net/aspose.words/document/watermark/
@@ -18,7 +20,5 @@ public Watermark Watermark { get; }
 
 * class [Watermark](../../watermark/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

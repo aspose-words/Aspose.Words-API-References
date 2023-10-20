@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Aspose.Words per .NET API Reference
-description: Forms2OleControl proprietà. Ottiene la proprietà Value sottostante che spesso rappresenta lo stato del controllo. Ad esempio il pulsante di opzione selezionato ha il valore 1 mentre quello deselezionato ha 0. Il valore predefinito è una stringa vuota.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words per .NET
+description: Forms2OleControl Value proprietà. Ottiene la proprietà Value sottostante che spesso rappresenta lo stato del controllo. Ad esempio il pulsante di opzione selezionato ha il valore 1 mentre quello deselezionato ha 0. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ Ottiene la proprietà Value sottostante che spesso rappresenta lo stato del cont
 public string Value { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà di un controllo ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Guarda anche
 
 * class [Forms2OleControl](../)
-* spazio dei nomi [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* spazio dei nomi [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../../)
-
-

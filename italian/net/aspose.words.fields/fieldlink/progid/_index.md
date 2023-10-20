@@ -1,7 +1,9 @@
 ---
 title: FieldLink.ProgId
-second_title: Aspose.Words per .NET API Reference
-description: FieldLink proprietà. Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words per .NET
+description: FieldLink ProgId proprietà. Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/fieldlink/progid/
@@ -14,7 +16,7 @@ Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento.
 public string ProgId { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldLink](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldlink/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

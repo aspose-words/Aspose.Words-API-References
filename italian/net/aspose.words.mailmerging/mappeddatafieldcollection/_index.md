@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.MappedDataFieldCollection classe. Consente di mappare automaticamente i nomi dei campi nellorigine dati e i nomi dei campi della stampa unione nel documento.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection classe. Consente di mappare automaticamente i nomi dei campi nellorigine dati e i nomi dei campi della stampa unione nel documento in C#.
 type: docs
 weight: 3870
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Aggiunge una nuova mappatura dei campi. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Aggiunge una nuova mappatura dei campi. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Determina se nella raccolta esiste una mappatura dal campo specificato nel documento. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Determina se nella raccolta esiste una mappatura dal campo specificato nell'origine dati. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Determina se nella raccolta esiste una mappatura dal campo specificato nel documento. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Determina se nella raccolta esiste una mappatura dal campo specificato nell'origine dati. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore dizionario che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Rimuove una mappatura di campo. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Rimuove una mappatura di campo. |
 
-### Osservazioni
+## Osservazioni
 
 Questo viene implementato come una raccolta di chiavi stringa in valori stringa. Le chiavi sono i nomi dei campi di stampa unione nel documento e i valori sono i nomi dei campi nell'origine dati.
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

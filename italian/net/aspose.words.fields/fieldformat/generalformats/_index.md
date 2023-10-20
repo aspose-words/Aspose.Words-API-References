@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Aspose.Words per .NET API Reference
-description: FieldFormat proprietà. Ottiene una raccolta di formati generali applicati a un risultato numerico di testo o di qualsiasi campo. Corrisponde alle opzioni .
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: Aspose.Words per .NET
+description: FieldFormat GeneralFormats proprietà. Ottiene una raccolta di formati generali applicati a un risultato numerico di testo o di qualsiasi campo. Corrisponde alle opzioni  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ Ottiene una raccolta di formati generali applicati a un risultato numerico, di t
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldformat/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta il nome dellidentificatore di sequenza utilizzato durante la creazione di un indice di figure.
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: Aspose.Words per .NET
+description: FieldToc TableOfFiguresLabel proprietà. Ottiene o imposta il nome dellidentificatore di sequenza utilizzato durante la creazione di un indice di figure in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome dell'identificatore di sequenza utilizzato durante la 
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo TOC con voci utilizzando i campi SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

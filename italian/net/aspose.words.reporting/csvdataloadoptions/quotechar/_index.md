@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.QuoteChar
-second_title: Aspose.Words per .NET API Reference
-description: CsvDataLoadOptions proprietà. Ottiene o imposta il carattere utilizzato per delimitare i valori dei campi.
+linktitle: QuoteChar
+articleTitle: QuoteChar
+second_title: Aspose.Words per .NET
+description: CsvDataLoadOptions QuoteChar proprietà. Ottiene o imposta il carattere utilizzato per delimitare i valori dei campi in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.reporting/csvdataloadoptions/quotechar/
@@ -14,7 +16,7 @@ Ottiene o imposta il carattere utilizzato per delimitare i valori dei campi.
 public char QuoteChar { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è """ (virgolette).
 
@@ -23,7 +25,5 @@ Raddoppia il carattere per inserirlo nel testo citato.
 ### Guarda anche
 
 * class [CsvDataLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* spazio dei nomi [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * assemblea [Aspose.Words](../../../)
-
-

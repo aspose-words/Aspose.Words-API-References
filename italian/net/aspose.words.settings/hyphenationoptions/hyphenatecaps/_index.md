@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenateCaps
-second_title: Aspose.Words per .NET API Reference
-description: HyphenationOptions proprietà. Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà èVERO .
+linktitle: HyphenateCaps
+articleTitle: HyphenateCaps
+second_title: Aspose.Words per .NET
+description: HyphenationOptions HyphenateCaps proprietà. Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà èVERO  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono
 public bool HyphenateCaps { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare la sillabazione automatica.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Guarda anche
 
 * class [HyphenationOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../hyphenationoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

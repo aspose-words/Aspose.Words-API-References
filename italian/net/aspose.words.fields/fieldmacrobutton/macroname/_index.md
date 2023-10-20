@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Aspose.Words per .NET API Reference
-description: FieldMacroButton proprietà. Ottiene o imposta il nome della macro o del comando da eseguire.
+linktitle: MacroName
+articleTitle: MacroName
+second_title: Aspose.Words per .NET
+description: FieldMacroButton MacroName proprietà. Ottiene o imposta il nome della macro o del comando da eseguire in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome della macro o del comando da eseguire.
 public string MacroName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi MACROBUTTON per consentirci di eseguire le macro di un documento facendo clic.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Guarda anche
 
 * class [FieldMacroButton](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldmacrobutton/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

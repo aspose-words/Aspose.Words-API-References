@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: VbaModuleCollection metodo. Rimuove il modulo specificato dalla raccolta.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: VbaModuleCollection Remove metodo. Rimuove il modulo specificato dalla raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.vba/vbamodulecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(VbaModule module)
 | --- | --- | --- |
 | module | VbaModule | Il modulo da rimuovere. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle informazioni sul progetto VBA di un documento.
 
@@ -50,7 +52,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbamodulecollection/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

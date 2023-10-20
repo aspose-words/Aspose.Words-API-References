@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. RestituisceCell .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Cell NodeType proprietà. RestituisceCell  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ RestituisceCell .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.UseYomi
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta se abilitare luso del testo yomi per le voci di indice.
+linktitle: UseYomi
+articleTitle: UseYomi
+second_title: Aspose.Words per .NET
+description: FieldIndex UseYomi proprietà. Ottiene o imposta se abilitare luso del testo yomi per le voci di indice in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.fields/fieldindex/useyomi/
@@ -14,7 +16,7 @@ Ottiene o imposta se abilitare l'uso del testo yomi per le voci di indice.
 public bool UseYomi { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ordinare foneticamente le voci del campo INDICE.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

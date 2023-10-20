@@ -1,7 +1,9 @@
 ---
-title: Enum MultiplePagesType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MultiplePagesType enum. Specifica la modalità di stampa del documento.
+title: MultiplePagesType Enum
+linktitle: MultiplePagesType
+articleTitle: MultiplePagesType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.MultiplePagesType enum. Specifica la modalità di stampa del documento in C#.
 type: docs
 weight: 5870
 url: /it/net/aspose.words.settings/multiplepagestype/
@@ -29,5 +31,3 @@ public enum MultiplePagesType
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

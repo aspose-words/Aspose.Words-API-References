@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeriesCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection classe. Rappresenta la raccolta di aChartSeries .
+title: ChartSeriesCollection Class
+linktitle: ChartSeriesCollection
+articleTitle: ChartSeriesCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection classe. Rappresenta la raccolta di aChartSeries  in C#.
 type: docs
 weight: 790
 url: /it/net/aspose.words.drawing.charts/chartseriescollection/
@@ -27,15 +29,15 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | Aggiunge nuovo[`ChartSeries`](../chartseries/) a questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico ad area, radar e azionario. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | Aggiunge nuovo[`ChartSeries`](../chartseries/) a questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico a dispersione. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | Aggiunge nuovo[`ChartSeries`](../chartseries/) a questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico a barre, a colonne, a linee e a superficie. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | Aggiunge nuovo[`ChartSeries`](../chartseries/) questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico a bolle. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, DateTime[], double[]*) | Aggiunge nuovo[`ChartSeries`](../chartseries/) a questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico ad area, radar e azionario. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, double[], double[]*) | Aggiunge nuovo[`ChartSeries`](../chartseries/) a questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico a dispersione. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, string[], double[]*) | Aggiunge nuovo[`ChartSeries`](../chartseries/) a questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico a barre, a colonne, a linee e a superficie. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[], double[], double[]*) | Aggiunge nuovo[`ChartSeries`](../chartseries/) questa raccolta. Utilizza questo metodo per aggiungere serie a qualsiasi tipo di grafico a bolle. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | Rimuove tutto[`ChartSeries`](../chartseries/) da questa collezione. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | Rimuove a[`ChartSeries`](../chartseries/) all'indice specificato. |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(*int*) | Rimuove a[`ChartSeries`](../chartseries/) all'indice specificato. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere e rimuovere i dati delle serie in un grafico.
 
@@ -84,5 +86,3 @@ chartData.Clear();
 * class [ChartSeries](../chartseries/)
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

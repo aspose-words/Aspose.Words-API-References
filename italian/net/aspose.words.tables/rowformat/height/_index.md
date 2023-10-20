@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Aspose.Words per .NET API Reference
-description: RowFormat proprietà. Ottiene o imposta laltezza della riga della tabella in punti.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words per .NET
+description: RowFormat Height proprietà. Ottiene o imposta laltezza della riga della tabella in punti in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ Ottiene o imposta l'altezza della riga della tabella in punti.
 public double Height { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare le righe con un generatore di documenti.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Guarda anche
 
 * class [RowFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../rowformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

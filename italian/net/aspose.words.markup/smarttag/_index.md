@@ -1,7 +1,9 @@
 ---
-title: Class SmartTag
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.SmartTag classe. Questo elemento specifica la presenza di uno smart tag attorno a una o più strutture inline sequenze immagini campi ecc. allinterno di un paragrafo.
+title: SmartTag Class
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.SmartTag classe. Questo elemento specifica la presenza di uno smart tag attorno a una o più strutture inline sequenze immagini campi ecc. allinterno di un paragrafo in C#.
 type: docs
 weight: 4050
 url: /it/net/aspose.words.markup/smarttag/
@@ -20,7 +22,7 @@ public class SmartTag : CompositeNode
 
 | Nome | Descrizione |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Inizializza una nuova istanza di`SmartTag` classe. |
+| [SmartTag](smarttag/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Inizializza una nuova istanza di`SmartTag` classe. |
 
 ## Proprietà
 
@@ -46,34 +48,32 @@ public class SmartTag : CompositeNode
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/smarttag/accept/)(DocumentVisitor) | Accetta un visitatore. |
-| override [AcceptEnd](../../aspose.words.markup/smarttag/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.markup/smarttag/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
+| override [Accept](../../aspose.words.markup/smarttag/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi secondari per questo nodo. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navigatore che può essere utilizzato per attraversare e leggere i nodi. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo antenato del tipo di oggetto specificato. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce il supporto per l'iterazione di ogni stile sui nodi figlio di questo nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente dopo il nodo di riferimento specificato. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi secondari per questo nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Rimuove tutti i nodi figlio del nodo corrente. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Rimuove il nodo figlio specificato. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto`SmartTag`nodi discendenti del nodo corrente. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Seleziona il primo[`Node`](../../aspose.words/node/) che corrisponde all'espressione XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Seleziona il primo[`Node`](../../aspose.words/node/) che corrisponde all'espressione XPath. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
-### Osservazioni
+## Osservazioni
 
 Gli smart tag sono una sorta di markup XML personalizzato. Gli smart tag forniscono una funzionalità per incorporare la semantica definita dal cliente nel documento tramite la possibilità di fornire uno spazio dei nomi/nome di base per un'esecuzione o una serie di esecuzioni all'interno di un documento.
 
@@ -81,7 +81,7 @@ Gli smart tag sono una sorta di markup XML personalizzato. Gli smart tag fornisc
 
 L'elenco completo dei nodi secondari che possono verificarsi all'interno di uno smart tag è costituito da [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
-### Esempi
+## Esempi
 
 Mostra come creare smart tag.
 
@@ -184,5 +184,3 @@ private class SmartTagPrinter : DocumentVisitor
 * class [CompositeNode](../../aspose.words/compositenode/)
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

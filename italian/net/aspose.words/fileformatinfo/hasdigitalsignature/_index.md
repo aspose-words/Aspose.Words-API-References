@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
-second_title: Aspose.Words per .NET API Reference
-description: FileFormatInfo proprietà. RestituisceVEROse questo documento contiene una firma digitale. Questa proprietà informa semplicemente che su un documento è presente una firma digitale ma non specifica se la firma è valida o meno.
+linktitle: HasDigitalSignature
+articleTitle: HasDigitalSignature
+second_title: Aspose.Words per .NET
+description: FileFormatInfo HasDigitalSignature proprietà. RestituisceVEROse questo documento contiene una firma digitale. Questa proprietà informa semplicemente che su un documento è presente una firma digitale ma non specifica se la firma è valida o meno in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/fileformatinfo/hasdigitalsignature/
@@ -14,11 +16,11 @@ Restituisce`VERO`se questo documento contiene una firma digitale. Questa proprie
 public bool HasDigitalSignature { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà esiste per aiutarti a ordinare i documenti firmati digitalmente da quelli che non lo sono. Se usi Aspose.Words per modificare e salvare un documento firmato digitalmente, la firma digitale andrà persa. Questo è dovuto alla progettazione perché esiste una firma digitale per proteggere l'autenticità di un documento. Usando questa proprietà puoi rilevare i documenti firmati digitalmente prima di elaborarli come normali documenti e intraprendere alcune azioni per evitare di perdere la firma digitale, ad esempio avvisare l'utente.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la classe FileFormatUtil per rilevare il formato del documento e la presenza di firme digitali.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 ### Guarda anche
 
 * class [FileFormatInfo](../)
-* spazio dei nomi [Aspose.Words](../../fileformatinfo/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

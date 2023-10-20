@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Aspose.Words per .NET API Reference
-description: Comment proprietà. Restituisce o imposta il nome dellautore per un commento.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words per .NET
+description: Comment Author proprietà. Restituisce o imposta il nome dellautore per un commento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ Restituisce o imposta il nome dell'autore per un commento.
 public string Author { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
 L'impostazione predefinita è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come stampare tutti i commenti di un documento e le relative risposte.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Guarda anche
 
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Stroke.BackColor
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Ottiene o imposta il colore di sfondo del tratto.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words per .NET
+description: Stroke BackColor proprietà. Ottiene o imposta il colore di sfondo del tratto in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/stroke/backcolor/
@@ -14,11 +16,11 @@ Ottiene o imposta il colore di sfondo del tratto.
 public Color BackColor { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito per a[`Shape`](../../shape/) è White.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione del marcatore.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Guarda anche
 
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

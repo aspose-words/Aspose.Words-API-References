@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagRangeStart
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando viene rilevato un StructuredDocumentTagRangeStart.
+linktitle: VisitStructuredDocumentTagRangeStart
+articleTitle: VisitStructuredDocumentTagRangeStart
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitStructuredDocumentTagRangeStart metodo. Chiamato quando viene rilevato un StructuredDocumentTagRangeStart in C#.
 type: docs
 weight: 460
 url: /it/net/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
@@ -20,7 +22,5 @@ public virtual VisitorAction VisitStructuredDocumentTagRangeStart(
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

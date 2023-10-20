@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Equals
-second_title: Aspose.Words per .NET API Reference
-description: ChartMultilevelValue metodo. Ottiene un flag che indica se loggetto specificato è uguale alloggetto dati multilivello corrente.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: ChartMultilevelValue Equals metodo. Ottiene un flag che indica se loggetto specificato è uguale alloggetto dati multilivello corrente in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/chartmultilevelvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Guarda anche
 
 * class [ChartMultilevelValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

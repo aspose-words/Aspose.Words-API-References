@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapData proprietà. Specifica se un determinato campo di stampa unione è stato mappato o meno a una colonna nellorigine dati esterna specificata. Il valore predefinito èDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapData Type proprietà. Specifica se un determinato campo di stampa unione è stato mappato o meno a una colonna nellorigine dati esterna specificata. Il valore predefinito èDefault  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ Specifica se un determinato campo di stampa unione è stato mappato o meno a una
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica la codifica da utilizzare durante lesportazione in HTML. Il valore predefinito ènuova codifica UTF8true UTF8 con distinta base.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions Encoding proprietà. Specifica la codifica da utilizzare durante lesportazione in HTML. Il valore predefinito ènuova codifica UTF8true UTF8 con distinta base in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
@@ -14,7 +16,7 @@ Specifica la codifica da utilizzare durante l'esportazione in HTML. Il valore pr
 public Encoding Encoding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la codifica da utilizzare durante l'esportazione di un documento in HTML.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOp
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

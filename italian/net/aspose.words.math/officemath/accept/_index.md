@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Aspose.Words per .NET API Reference
-description: OfficeMath metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: OfficeMath Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per all nodi figlio di Office Math e chiamate[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni nodo matematico di Office in un documento.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* spazio dei nomi [Aspose.Words.Math](../../officemath/)
+* spazio dei nomi [Aspose.Words.Math](../../../aspose.words.math/)
 * assemblea [Aspose.Words](../../../)
-
-

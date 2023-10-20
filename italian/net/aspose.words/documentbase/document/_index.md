@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBase proprietà. Ottiene questa istanza.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: DocumentBase Document proprietà. Ottiene questa istanza in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### Guarda anche
 
 * class [DocumentBase](../)
-* spazio dei nomi [Aspose.Words](../../documentbase/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

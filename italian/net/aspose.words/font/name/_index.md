@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il nome del carattere.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: Font Name proprietà. Ottiene o imposta il nome del carattere in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ Ottiene o imposta il nome del carattere.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando si ottiene, ritorna[`NameAscii`](../nameascii/).
 
 Quando si imposta, imposta[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) e[`NameOther`](../nameother/) al valore specificato.
 
-### Esempi
+## Esempi
 
 Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

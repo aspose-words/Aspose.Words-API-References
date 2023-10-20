@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica che Microsoft Word visualizzerà i dati dallorigine dati esterna specificata in cui sono stati inseriti i campi unione ad esempio anteprima dei dati uniti. Il valore predefinito èfalso .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words per .NET
+description: MailMergeSettings ViewMergedData proprietà. Specifica che Microsoft Word visualizzerà i dati dallorigine dati esterna specificata in cui sono stati inseriti i campi unione ad esempio anteprima dei dati uniti. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ Specifica che Microsoft Word visualizzerà i dati dall'origine dati esterna spec
 public bool ViewMergedData { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

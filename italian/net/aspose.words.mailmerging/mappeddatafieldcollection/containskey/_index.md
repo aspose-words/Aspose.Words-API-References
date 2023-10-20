@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
-second_title: Aspose.Words per .NET API Reference
-description: MappedDataFieldCollection metodo. Determina se nella raccolta esiste una mappatura dal campo specificato nel documento.
+linktitle: ContainsKey
+articleTitle: ContainsKey
+second_title: Aspose.Words per .NET
+description: MappedDataFieldCollection ContainsKey metodo. Determina se nella raccolta esiste una mappatura dal campo specificato nel documento in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
@@ -22,7 +24,7 @@ public bool ContainsKey(string documentFieldName)
 
 `VERO` se l'articolo si trova nella raccolta; Altrimenti,`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Guarda anche
 
 * class [MappedDataFieldCollection](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

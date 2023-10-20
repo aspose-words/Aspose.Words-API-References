@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Aspose.Words per .NET API Reference
-description: FieldGoToButton proprietà. Ottiene o imposta il nome di un segnalibro un numero di pagina o qualche altro elemento a cui passare.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words per .NET
+description: FieldGoToButton Location proprietà. Ottiene o imposta il nome di un segnalibro un numero di pagina o qualche altro elemento a cui passare in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome di un segnalibro, un numero di pagina o qualche altro 
 public string Location { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per inserire un campo GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Guarda anche
 
 * class [FieldGoToButton](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldgotobutton/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

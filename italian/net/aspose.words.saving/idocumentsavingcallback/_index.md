@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.IDocumentSavingCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga richiamato durante il salvataggio di un documento.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga richiamato durante il salvataggio di un documento in C#.
 type: docs
 weight: 5150
 url: /it/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | Viene richiamato per notificare l'avanzamento del salvataggio del documento. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | Viene richiamato per notificare l'avanzamento del salvataggio del documento. |
 
-### Esempi
+## Esempi
 
 Mostra come gestire un documento durante il salvataggio in html.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Aspose.Words per .NET API Reference
-description: Hyphenation metodo. Registra e carica un dizionario di sillabazione per la lingua specificata da un flusso. Solleva un problema se il dizionario non può essere letto o ha un formato non valido.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words per .NET
+description: Hyphenation RegisterDictionary metodo. Registra e carica un dizionario di sillabazione per la lingua specificata da un flusso. Solleva un problema se il dizionario non può essere letto o ha un formato non valido in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 Registra e carica un dizionario di sillabazione per la lingua specificata da un flusso. Solleva un problema se il dizionario non può essere letto o ha un formato non valido.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | Un nome di lingua, ad esempio "en-US". Per i dettagli, vedere la documentazione .NET per il "nome della cultura" e RFC 4646. |
 | stream | Stream | Un flusso per il file dizionario in formato OpenOffice. |
 
-### Esempi
+## Esempi
 
 Mostra come aprire e registrare un dizionario da un file.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Guarda anche
 
 * class [Hyphenation](../)
-* spazio dei nomi [Aspose.Words](../../hyphenation/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 Registra e carica dal file un dizionario di sillabazione per la lingua specificata. Genera un'eccezione se il dizionario non può essere letto o ha un formato non valido.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | Un nome di lingua, ad esempio "en-US". Per i dettagli, vedere la documentazione .NET per il "nome della cultura" e RFC 4646. |
 | fileName | String | Un percorso al file del dizionario in formato Open Office. |
 
-### Esempi
+## Esempi
 
 Mostra come registrare un dizionario di sillabazione.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Guarda anche
 
 * class [Hyphenation](../)
-* spazio dei nomi [Aspose.Words](../../hyphenation/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

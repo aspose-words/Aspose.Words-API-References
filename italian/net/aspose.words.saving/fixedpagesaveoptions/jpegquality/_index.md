@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.JpegQuality
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions proprietà. Ottiene o imposta un valore che determina la qualità delle immagini JPEG allinterno del documento Html.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions JpegQuality proprietà. Ottiene o imposta un valore che determina la qualità delle immagini JPEG allinterno del documento Html in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina la qualità delle immagini JPEG all'in
 public int JpegQuality { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Ha effetto solo quando un documento contiene immagini JPEG.
 
@@ -22,7 +24,7 @@ Utilizzare questa proprietà per ottenere o impostare la qualità delle immagini
 
 Il valore predefinito è 95.
 
-### Esempi
+## Esempi
 
 Mostra come configurare la compressione durante il salvataggio di un documento come JPEG.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### Guarda anche
 
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

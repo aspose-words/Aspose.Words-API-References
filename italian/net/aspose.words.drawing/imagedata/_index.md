@@ -1,7 +1,9 @@
 ---
-title: Class ImageData
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ImageData classe. Definisce unimmagine per una forma.
+title: ImageData Class
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.ImageData classe. Definisce unimmagine per una forma in C#.
 type: docs
 weight: 1060
 url: /it/net/aspose.words.drawing/imagedata/
@@ -43,17 +45,16 @@ public class ImageData
 
 | Nome | Descrizione |
 | --- | --- |
-| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
-| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Salva l'immagine nello stream specificato. |
-| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Salva l'immagine in un file. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Imposta l'immagine visualizzata dalla forma. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Imposta l'immagine visualizzata dalla forma. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Imposta l'immagine visualizzata dalla forma. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | Salva l'immagine nello stream specificato. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | Salva l'immagine in un file. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Imposta l'immagine visualizzata dalla forma. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | Imposta l'immagine visualizzata dalla forma. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | Imposta l'immagine visualizzata dalla forma. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Restituisce byte immagine per qualsiasi immagine indipendentemente dal fatto che l'immagine sia archiviata o collegata. |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Ottiene l'immagine memorizzata nella forma come aImage oggetto. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Crea e restituisce uno stream che contiene i byte dell'immagine. |
 
-### Osservazioni
+## Osservazioni
 
 Usa il[`ImageData`](../shape/imagedata/) proprietà per accedere e modificare l'immagine all'interno di una forma. Non crei istanze di`ImageData` classe direttamente.
 
@@ -63,7 +64,7 @@ Indipendentemente dal fatto che l'immagine sia archiviata all'interno della form
 
 Per memorizzare un'immagine all'interno di una forma utilizzare il comando[`SetImage`](./setimage/) metodo. Per collegare un'immagine a una forma, impostare il file[`SourceFullName`](./sourcefullname/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre immagini da un documento e salvarle nel file system locale come singoli file.
 
@@ -132,5 +133,3 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words per .NET API Reference
-description: Table metodo. Converte le celle unite orizzontalmente per larghezza in celle unite perHorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words per .NET
+description: Table ConvertToHorizontallyMergedCells metodo. Converte le celle unite orizzontalmente per larghezza in celle unite perHorizontalMerge  in C#.
 type: docs
-weight: 410
+weight: 390
 url: /it/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ Converte le celle unite orizzontalmente per larghezza in celle unite per[`Horizo
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Le celle della tabella possono essere unite orizzontalmente utilizzando i flag di unione[`HorizontalMerge`](../../cellformat/horizontalmerge/) o utilizzando la larghezza della cella[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ Quando la cella della tabella viene unita dalla proprietà larghezza[`Horizontal
 
 Utilizza questo metodo per trasformare le celle della tabella unite orizzontalmente per larghezza in celle unite tramite flag di unione.
 
-### Esempi
+## Esempi
 
 Mostra come convertire le celle unite orizzontalmente per larghezza in celle unite da CellFormat.HorizontalMerge.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

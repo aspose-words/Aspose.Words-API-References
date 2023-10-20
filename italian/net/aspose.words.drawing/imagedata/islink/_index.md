@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. RestituisceVERO se limmagine è collegata alla forma whenSourceFullName è specificato.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words per .NET
+description: ImageData IsLink proprietà. RestituisceVERO se limmagine è collegata alla forma whenSourceFullName è specificato in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ Restituisce`VERO` se l'immagine è collegata alla forma (when[`SourceFullName`](
 public bool IsLink { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare i dati dell'immagine di una forma.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Guarda anche
 
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

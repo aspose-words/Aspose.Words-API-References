@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlSchemaCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.CustomXmlSchemaCollection classe. Una raccolta di stringhe che rappresentano schemi XML associati a una parte XML personalizzata.
+title: CustomXmlSchemaCollection Class
+linktitle: CustomXmlSchemaCollection
+articleTitle: CustomXmlSchemaCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.CustomXmlSchemaCollection classe. Una raccolta di stringhe che rappresentano schemi XML associati a una parte XML personalizzata in C#.
 type: docs
 weight: 3960
 url: /it/net/aspose.words.markup/customxmlschemacollection/
@@ -27,19 +29,19 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | Aggiunge un elemento alla raccolta. |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | Aggiunge un elemento alla raccolta. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Crea un clone profondo di questo oggetto. |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | Restituisce l'indice in base zero del valore specificato nella raccolta. |
-| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | Rimuove il valore specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Rimuove un valore nell'indice specificato. |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | Restituisce l'indice in base zero del valore specificato nella raccolta. |
+| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | Rimuove il valore specificato dalla raccolta. |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | Rimuove un valore nell'indice specificato. |
 
-### Osservazioni
+## Osservazioni
 
 Non crei istanze di questa classe. È possibile accedere alla raccolta di schemi XML di un part XML personalizzato tramite il file[`Schemas`](../customxmlpart/schemas/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -86,5 +88,3 @@ Assert.AreEqual(0, schemas.Count);
 
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

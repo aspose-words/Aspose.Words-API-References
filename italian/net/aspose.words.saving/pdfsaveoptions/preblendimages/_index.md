@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se prefondere o meno le immagini trasparenti con il colore di sfondo nero.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions PreblendImages proprietà. Ottiene o imposta un valore che determina se prefondere o meno le immagini trasparenti con il colore di sfondo nero in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se prefondere o meno le immagini trasp
 public bool PreblendImages { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La prefusione delle immagini può migliorare l'aspetto visivo del documento PDF in Adobe Reader e rimuovere gli artefatti anti-aliasing.
 
@@ -22,7 +24,7 @@ Per visualizzare correttamente le immagini pre-miscelate, l'applicazione di visu
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come prefondere immagini con sfondi trasparenti durante il salvataggio di un documento in PDF.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

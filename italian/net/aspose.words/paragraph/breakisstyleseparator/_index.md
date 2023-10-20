@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Vero se questa interruzione di paragrafo è un separatore di stile. Un separatore di stile consente a un paragrafo di essere costituito da parti con stili di paragrafo diversi.
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: Aspose.Words per .NET
+description: Paragraph BreakIsStyleSeparator proprietà. Vero se questa interruzione di paragrafo è un separatore di stile. Un separatore di stile consente a un paragrafo di essere costituito da parti con stili di paragrafo diversi in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ Vero se questa interruzione di paragrafo è un separatore di stile. Un separator
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come scrivere il testo sulla stessa riga dell'intestazione del sommario e non visualizzarlo nel sommario.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### Guarda anche
 
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

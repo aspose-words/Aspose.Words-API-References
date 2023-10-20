@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta il valore in punti per una prima riga o un rientro sporgente.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words per .NET
+description: ParagraphFormat FirstLineIndent proprietà. Ottiene o imposta il valore in punti per una prima riga o un rientro sporgente in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ Utilizza valori positivi per impostare il rientro della prima riga e valori nega
 public double FirstLineIndent { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo nel documento.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

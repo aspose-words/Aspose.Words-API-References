@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToSaveFormat
-second_title: Aspose.Words per .NET API Reference
-description: FileFormatUtil metodo. Converte il tipo di contenuto IANA in un valore enumerato in formato di salvataggio.
+linktitle: ContentTypeToSaveFormat
+articleTitle: ContentTypeToSaveFormat
+second_title: Aspose.Words per .NET
+description: FileFormatUtil ContentTypeToSaveFormat metodo. Converte il tipo di contenuto IANA in un valore enumerato in formato di salvataggio in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/fileformatutil/contenttypetosaveformat/
@@ -20,7 +22,7 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 | --- | --- |
 | ArgumentException | Lancia quando non è possibile convertire. |
 
-### Esempi
+## Esempi
 
 Mostra come trovare il formato di caricamento/salvataggio Aspose corrispondente da ciascuna stringa del tipo di supporto.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* spazio dei nomi [Aspose.Words](../../fileformatutil/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

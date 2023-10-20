@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection metodo. Aggiunge un elemento alla raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: CustomXmlSchemaCollection Add metodo. Aggiunge un elemento alla raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/customxmlschemacollection/add/
@@ -18,7 +20,7 @@ public void Add(string value)
 | --- | --- | --- |
 | value | String | L'elemento da aggiungere. |
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Guarda anche
 
 * class [CustomXmlSchemaCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlschemacollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartAxis classe. Rappresenta le opzioni degli assi del grafico.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis classe. Rappresenta le opzioni degli assi del grafico in C#.
 type: docs
 weight: 630
 url: /it/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Fornisce l'accesso alle proprietà del titolo dell'asse. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Restituisce il tipo dell'asse. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

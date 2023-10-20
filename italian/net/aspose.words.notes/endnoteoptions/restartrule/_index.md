@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.RestartRule
-second_title: Aspose.Words per .NET API Reference
-description: EndnoteOptions proprietà. Determina quando riavvia la numerazione automatica.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words per .NET
+description: EndnoteOptions RestartRule proprietà. Determina quando riavvia la numerazione automatica in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.notes/endnoteoptions/restartrule/
@@ -14,11 +16,11 @@ Determina quando riavvia la numerazione automatica.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non tutti i valori sono applicabili alle note di chiusura. Per verificare quali valori sono applicabili, vedere[`FootnoteNumberingRule`](../../footnotenumberingrule/).
 
-### Esempi
+## Esempi
 
 Mostra come riavviare la numerazione delle note a piè di pagina/note di chiusura in determinati punti del documento.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [EndnoteOptions](../)
-* spazio dei nomi [Aspose.Words.Notes](../../endnoteoptions/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

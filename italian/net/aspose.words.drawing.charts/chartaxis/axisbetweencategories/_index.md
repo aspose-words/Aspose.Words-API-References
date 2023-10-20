@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta un flag che indica se lasse dei valori attraversa lasse delle categorie tra le categorie.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words per .NET
+description: ChartAxis AxisBetweenCategories proprietà. Ottiene o imposta un flag che indica se lasse dei valori attraversa lasse delle categorie tra le categorie in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ Ottiene o imposta un flag che indica se l'asse dei valori attraversa l'asse dell
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà ha effetto solo per gli assi dei valori. Non è supportato dai nuovi grafici di MS Office 2016.
 
-### Esempi
+## Esempi
 
 Mostra come fare in modo che un asse del grafico si intersechi in una posizione personalizzata.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Guarda anche
 
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

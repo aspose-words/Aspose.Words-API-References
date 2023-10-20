@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings metodo. Imposta le origini in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o lincorporamento di caratteri.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words per .NET
+description: FontSettings SetFontsSources metodo. Imposta le origini in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o lincorporamento di caratteri in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Imposta le origini in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | Un array di origini che contengono caratteri TrueType. |
 
-### Osservazioni
+## Osservazioni
 
 Per impostazione predefinita, Aspose.Words cerca i caratteri installati nel sistema.
 
 L'impostazione di questa proprietà reimposta la cache di tutti i caratteri caricati in precedenza.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere una fonte di carattere alle nostre fonti di carattere esistenti.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Imposta le origini in cui Aspose.Words cerca i caratteri TrueType e inoltre carica la cache di ricerca dei caratteri precedentemente salvata .
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | Un array di origini che contengono caratteri TrueType. |
 | cacheInputStream | Stream | Flusso di input con cache di ricerca dei caratteri salvata. |
 
-### Osservazioni
+## Osservazioni
 
 Il caricamento della cache di ricerca dei caratteri salvata in precedenza accelererà il processo di inizializzazione della cache dei caratteri. È particolarmente utile quando l'accesso alle fonti dei caratteri è complicato (ad esempio quando i caratteri vengono caricati tramite rete).
 
@@ -100,7 +102,7 @@ Durante il salvataggio e il caricamento della cache di ricerca dei caratteri, i 
 
 Si consiglia vivamente di fornire le stesse origini dei caratteri durante il caricamento della cache come al momento del salvataggio della cache. Eventuali modifiche alle origini dei caratteri (ad esempio l'aggiunta di nuovi caratteri, lo spostamento di file di caratteri o la modifica della chiave della cache) possono portare a caratteri imprecisi risolvendo da Aspose.Words.
 
-### Esempi
+## Esempi
 
 Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

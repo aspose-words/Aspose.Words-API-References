@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Aspose.Words per .NET API Reference
-description: Body metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words per .NET
+description: Body EnsureMinimum metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto in C#.
 type: docs
-weight: 70
+weight: 50
 url: /it/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ Se l'ultimo figlio non è un paragrafo, crea e aggiunge un paragrafo vuoto.
 public void EnsureMinimum()
 ```
 
-### Esempi
+## Esempi
 
 Cancella il testo principale da tutte le sezioni del documento lasciando le sezioni stesse.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Guarda anche
 
 * class [Body](../)
-* spazio dei nomi [Aspose.Words](../../body/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

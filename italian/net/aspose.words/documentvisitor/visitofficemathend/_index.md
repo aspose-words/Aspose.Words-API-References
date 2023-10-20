@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathEnd
-second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato al termine dellenumerazione di un oggetto Office Math.
+linktitle: VisitOfficeMathEnd
+articleTitle: VisitOfficeMathEnd
+second_title: Aspose.Words per .NET
+description: DocumentVisitor VisitOfficeMathEnd metodo. Chiamato al termine dellenumerazione di un oggetto Office Math in C#.
 type: docs
 weight: 300
 url: /it/net/aspose.words/documentvisitor/visitofficemathend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
 
 UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l'enumerazione.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni nodo matematico di Office in un documento.
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* spazio dei nomi [Aspose.Words](../../documentvisitor/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

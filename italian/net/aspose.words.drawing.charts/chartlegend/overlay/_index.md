@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words per .NET API Reference
-description: ChartLegend proprietà. Determina se altri elementi del grafico possono sovrapporsi alla legenda. Il valore predefinito èfalso .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words per .NET
+description: ChartLegend Overlay proprietà. Determina se altri elementi del grafico possono sovrapporsi alla legenda. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ Determina se altri elementi del grafico possono sovrapporsi alla legenda. Il val
 public bool Overlay { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto della legenda di un grafico.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### Guarda anche
 
 * class [ChartLegend](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

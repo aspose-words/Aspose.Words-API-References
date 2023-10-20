@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Aspose.Words per .NET API Reference
-description: XmlMapping metodo. Elimina la mappatura del documento strutturato principale ai dati XML.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words per .NET
+description: XmlMapping Delete metodo. Elimina la mappatura del documento strutturato principale ai dati XML in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ Elimina la mappatura del documento strutturato principale ai dati XML.
 public void Delete()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare mapping XML per parti XML personalizzate.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Guarda anche
 
 * class [XmlMapping](../)
-* spazio dei nomi [Aspose.Words.Markup](../../xmlmapping/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

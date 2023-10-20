@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce unimmagine da un .NETImage nel documento. Limmagine viene inserita in linea e in scala 100.
+linktitle: InsertImage
+articleTitle: InsertImage
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertImage metodo. Inserisce unimmagine da un .NETImage nel documento. Limmagine viene inserita in linea e in scala 100 in C#.
 type: docs
-weight: 380
+weight: 370
 url: /it/net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {#insertimage_3}
+## InsertImage(*Image*) {#insertimage_3}
 
 Inserisce un'immagine da un .NETImage nel documento. L'immagine viene inserita in linea e in scala 100%.
 
@@ -22,11 +24,11 @@ public Shape InsertImage(Image image)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da un oggetto in un documento.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string) {#insertimage_9}
+## InsertImage(*string*) {#insertimage_9}
 
 Inserisce un'immagine da un file o un URL nel documento. L'immagine viene inserita in linea e in scala 100%.
 
@@ -79,13 +81,13 @@ public Shape InsertImage(string fileName)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Questo sovraccarico scaricherà automaticamente l'immagine prima di inserirla in document se specifichi un URI remoto.
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine GIF nel documento.
 
@@ -191,12 +193,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream) {#insertimage_6}
+## InsertImage(*Stream*) {#insertimage_6}
 
 Inserisce un'immagine da uno stream nel documento. L'immagine viene inserita in linea e in scala 100%.
 
@@ -212,11 +214,11 @@ public Shape InsertImage(Stream stream)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma con un'immagine da un flusso in un documento.
 
@@ -264,12 +266,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[]) {#insertimage}
+## InsertImage(*byte[]*) {#insertimage}
 
 Inserisce un'immagine da un array di byte nel documento. L'immagine viene inserita in linea e in scala 100%.
 
@@ -285,11 +287,11 @@ public Shape InsertImage(byte[] imageBytes)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da un array di byte in un documento.
 
@@ -363,12 +365,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, double, double) {#insertimage_5}
+## InsertImage(*Image, double, double*) {#insertimage_5}
 
 Inserisce un'immagine in linea da un .NETImage nel documento e lo ridimensiona alla dimensione specificata.
 
@@ -386,11 +388,11 @@ public Shape InsertImage(Image image, double width, double height)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da un oggetto in un documento.
 
@@ -450,12 +452,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, double, double) {#insertimage_11}
+## InsertImage(*string, double, double*) {#insertimage_11}
 
 Inserisce un'immagine in linea da un file o un URL nel documento e la ridimensiona alla dimensione specificata.
 
@@ -473,11 +475,11 @@ public Shape InsertImage(string fileName, double width, double height)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine dal file system locale in un documento.
 
@@ -508,12 +510,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, double, double) {#insertimage_8}
+## InsertImage(*Stream, double, double*) {#insertimage_8}
 
 Inserisce un'immagine in linea da uno stream nel documento e la ridimensiona alla dimensione specificata.
 
@@ -531,11 +533,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da uno stream in un documento.
 
@@ -568,12 +570,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], double, double) {#insertimage_2}
+## InsertImage(*byte[], double, double*) {#insertimage_2}
 
 Inserisce un'immagine in linea da un array di byte nel documento e la ridimensiona alla dimensione specificata.
 
@@ -591,11 +593,11 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da un array di byte in un documento.
 
@@ -669,12 +671,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
+## InsertImage(*Image, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_4}
 
 Inserisce un'immagine da un .NETImageOggetto nella posizione e dimensione specificate.
 
@@ -698,11 +700,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da un oggetto in un documento.
 
@@ -765,12 +767,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
+## InsertImage(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_10}
 
 Inserisce un'immagine da un file o da un URL nella posizione e dimensione specificate.
 
@@ -794,11 +796,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine.
 
@@ -869,12 +871,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
+## InsertImage(*Stream, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_7}
 
 Inserisce un'immagine da uno stream nella posizione e dimensione specificate.
 
@@ -898,11 +900,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da uno stream in un documento.
 
@@ -938,12 +940,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
+## InsertImage(*byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertimage_1}
 
 Inserisce un'immagine da un array di byte nella posizione e dimensione specificate.
 
@@ -967,11 +969,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 Il nodo immagine appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine da un array di byte in un documento.
 
@@ -1048,7 +1050,5 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

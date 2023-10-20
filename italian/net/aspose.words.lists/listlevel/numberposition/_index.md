@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Restituisce o imposta la posizione in punti del numero o del punto elenco per il livello dellelenco.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words per .NET
+description: ListLevel NumberPosition proprietà. Restituisce o imposta la posizione in punti del numero o del punto elenco per il livello dellelenco in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ Restituisce o imposta la posizione (in punti) del numero o del punto elenco per 
 public double NumberPosition { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 `NumberPosition` corrisponde a LeftIndent più FirstLineIndent del paragrafo.
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Guarda anche
 
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Ottiene la dimensione del file del carattere originale.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words per .NET
+description: FontSavingArgs OriginalFileSize proprietà. Ottiene la dimensione del file del carattere originale in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ Ottiene la dimensione del file del carattere originale.
 public int OriginalFileSize { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà contiene la dimensione del file originale del carattere corrente, se nota. Altrimenti può essere zero.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.DocSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileDoc oppure Dot formato.
+title: DocSaveOptions Class
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.DocSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileDoc oppure Dot formato in C#.
 type: docs
 weight: 4930
 url: /it/net/aspose.words.saving/docsaveoptions/
@@ -21,7 +23,7 @@ public class DocSaveOptions : SaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [DocSaveOptions](docsaveoptions/#constructor)() | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc formato. |
-| [DocSaveOptions](docsaveoptions/#constructor_1)(SaveFormat) | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc oppure Dot formato. |
+| [DocSaveOptions](docsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc oppure Dot formato. |
 
 ## Proprietà
 
@@ -30,7 +32,7 @@ public class DocSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito è`falso` . |
 | [AlwaysCompressMetafiles](../../aspose.words.saving/docsaveoptions/alwayscompressmetafiles/) { get; set; } | Quando`falso` , i metafile di piccole dimensioni non vengono compressi per motivi di prestazioni. Il valore predefinito è`VERO` , tutti i metafile vengono compressi indipendentemente dalla loro dimensione. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
@@ -51,11 +53,11 @@ public class DocSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing per il rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno algoritmi di rendering di alta qualità (ovvero lenti). |
 
-### Osservazioni
+## Osservazioni
 
 Al momento fornisce solo il[`SaveFormat`](./saveformat/) proprietà, ma in futuro verranno aggiunte altre opzioni, come una password di crittografia o le impostazioni della firma digitale.
 
-### Esempi
+## Esempi
 
 Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
 
@@ -90,5 +92,3 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 * class [SaveOptions](../saveoptions/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Aspose.Words per .NET API Reference
-description: Row costruttore. Inizializza una nuova istanza diRow classe.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words per .NET
+description: Row costruttore. Inizializza una nuova istanza diRow classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
 
-### Osservazioni
+## Osservazioni
 
 Quando[`Row`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) È`nullo`.
 
-Per aggiungere[`Row`](../) all'uso del documentoNode) ONode) sulla tabella in cui vuoi inserire la riga.
+Per aggiungere[`Row`](../) all'uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) O[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sulla tabella in cui vuoi inserire la riga.
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella nidificata senza utilizzare un generatore di documenti.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* spazio dei nomi [Aspose.Words.Tables](../../row/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

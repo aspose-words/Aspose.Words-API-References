@@ -1,7 +1,9 @@
 ---
-title: Class HtmlFixedSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.HtmlFixedSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileHtmlFixed formato.
+title: HtmlFixedSaveOptions Class
+linktitle: HtmlFixedSaveOptions
+articleTitle: HtmlFixedSaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.HtmlFixedSaveOptions classe. Può essere utilizzato per specificare opzioni aggiuntive quando si salva un documento nel fileHtmlFixed formato in C#.
 type: docs
 weight: 5080
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/
@@ -30,7 +32,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering dei colori. |
 | [CssClassNamesPrefix](../../aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/) { get; set; } | Specifica il prefisso che viene aggiunto a tutti i nomi delle classi nel file style.css. Il valore predefinito è`"ah"` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
@@ -73,9 +75,9 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -156,5 +158,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

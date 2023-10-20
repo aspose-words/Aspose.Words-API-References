@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Shading classe. Contiene gli attributi di ombreggiatura per un oggetto.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Shading classe. Contiene gli attributi di ombreggiatura per un oggetto in C#.
 type: docs
 weight: 5990
 url: /it/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | Nome | Descrizione |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Rimuove l'ombreggiatura dall'oggetto. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determina se specificato`Shading` ha lo stesso valore della corrente`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Determina se specificato`Shading` ha lo stesso valore della corrente`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Serve come funzione hash per questo tipo. |
 
-### Esempi
+## Esempi
 
 Mostra come decorare il testo con bordi e ombreggiature.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum StyleIdentifier
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.StyleIdentifier enum. Identificatore di stile indipendente dalla lingua.
+title: StyleIdentifier Enum
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words per .NET
+description: Aspose.Words.StyleIdentifier enum. Identificatore di stile indipendente dalla lingua in C#.
 type: docs
 weight: 6150
 url: /it/net/aspose.words/styleidentifier/
@@ -397,13 +399,13 @@ public enum StyleIdentifier
 | User | `4094` | Uno stile definito dall'utente. |
 | Nil | `12287` | Riservato per uso interno. |
 
-### Osservazioni
+## Osservazioni
 
 I nomi degli stili incorporati in MS Word sono localizzati per diverse lingue. Utilizzando un identificatore di stile puoi trovare lo stile corretto indipendentemente dalla lingua del documento.
 
 A tutti gli stili definiti dall'utente viene assegnato il fileUser valore.
 
-### Esempi
+## Esempi
 
 Mostra come modificare lo stile del testo esistente.
 
@@ -438,5 +440,3 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

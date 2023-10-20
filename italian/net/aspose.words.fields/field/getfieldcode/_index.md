@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Restituisce il testo compreso tra linizio del campo e il separatore di campo o la fine del campo se non è presente alcun separatore. Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words per .NET
+description: Field GetFieldCode metodo. Restituisce il testo compreso tra linizio del campo e il separatore di campo o la fine del campo se non è presente alcun separatore. Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o
 public string GetFieldCode()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo in un documento utilizzando un codice di campo.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `VERO` se i codici di campo secondari devono essere inclusi. |
 
-### Esempi
+## Esempi
 
 Mostra come ottenere il codice di campo di un campo.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

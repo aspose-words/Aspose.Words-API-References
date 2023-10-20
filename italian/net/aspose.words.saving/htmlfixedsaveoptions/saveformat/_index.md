@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFormat
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereHtmlFixed .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereHtmlFixed  in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Specifica il formato in cui il documento verrà salvato se viene utilizzato ques
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

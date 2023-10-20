@@ -1,7 +1,9 @@
 ---
 title: IFontSavingCallback.FontSaving
-second_title: Aspose.Words per .NET API Reference
-description: IFontSavingCallback metodo. Chiamato quando Aspose.Words sta per salvare una risorsa di carattere.
+linktitle: FontSaving
+articleTitle: FontSaving
+second_title: Aspose.Words per .NET
+description: IFontSavingCallback FontSaving metodo. Chiamato quando Aspose.Words sta per salvare una risorsa di carattere in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/ifontsavingcallback/fontsaving/
@@ -14,7 +16,7 @@ Chiamato quando Aspose.Words sta per salvare una risorsa di carattere.
 public void FontSaving(FontSavingArgs args)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [FontSavingArgs](../../fontsavingargs/)
 * interface [IFontSavingCallback](../)
-* spazio dei nomi [Aspose.Words.Saving](../../ifontsavingcallback/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

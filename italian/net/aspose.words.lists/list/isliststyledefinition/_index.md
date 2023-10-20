@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words per .NET API Reference
-description: List proprietà. RestituisceVERO se questo elenco è una definizione di uno stile di elenco.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words per .NET
+description: List IsListStyleDefinition proprietà. RestituisceVERO se questo elenco è una definizione di uno stile di elenco in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ Restituisce`VERO` se questo elenco è una definizione di uno stile di elenco.
 public bool IsListStyleDefinition { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando questa proprietà è`VERO` , IL[`Style`](../style/) la proprietà restituisce lo stile di elenco che definisce questo elenco.
 
@@ -22,7 +24,7 @@ Modificando le proprietà di un elenco che definisce uno stile di elenco, si mod
 
 Un elenco che definisce uno stile di elenco non può essere applicato direttamente ai paragrafi per numerarli.
 
-### Esempi
+## Esempi
 
 Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Guarda anche
 
 * class [List](../)
-* spazio dei nomi [Aspose.Words.Lists](../../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

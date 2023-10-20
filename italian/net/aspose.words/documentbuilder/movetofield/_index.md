@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToField
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su un campo nel documento.
+linktitle: MoveToField
+articleTitle: MoveToField
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToField metodo. Sposta il cursore su un campo nel documento in C#.
 type: docs
-weight: 540
+weight: 530
 url: /it/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +21,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | Il campo su cui spostare il cursore. |
 | isAfter | Boolean | Quando`VERO` , sposta il cursore dopo la fine del campo. Quando`falso`, sposta il cursore prima dell'inizio del campo. |
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore del punto di inserimento del nodo di un generatore di documenti su un campo specifico.
 
@@ -62,7 +64,5 @@ else
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

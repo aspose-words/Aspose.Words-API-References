@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLegendKey
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Permette di specificare se la legenda deve essere visualizzata per le etichette dati dellintera serie. Il valore predefinito èfalso .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection ShowLegendKey proprietà. Permette di specificare se la legenda deve essere visualizzata per le etichette dati dellintera serie. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
@@ -14,11 +16,11 @@ Permette di specificare se la legenda deve essere visualizzata per le etichette 
 public bool ShowLegendKey { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando [`ShowLegendKey`](../../chartdatalabel/showlegendkey/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dati di un grafico a torta.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetIndexByPosition
-second_title: Aspose.Words per .NET API Reference
-description: TabStopCollection metodo. Ottiene lindice di una tabulazione con la posizione specificata in punti.
+linktitle: GetIndexByPosition
+articleTitle: GetIndexByPosition
+second_title: Aspose.Words per .NET
+description: TabStopCollection GetIndexByPosition metodo. Ottiene lindice di una tabulazione con la posizione specificata in punti in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/tabstopcollection/getindexbyposition/
@@ -14,7 +16,7 @@ Ottiene l'indice di una tabulazione con la posizione specificata in punti.
 public int GetIndexByPosition(double position)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come cercare una posizione per vedere se esiste una tabulazione e ottenerne l'indice.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60
 ### Guarda anche
 
 * class [TabStopCollection](../)
-* spazio dei nomi [Aspose.Words](../../tabstopcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

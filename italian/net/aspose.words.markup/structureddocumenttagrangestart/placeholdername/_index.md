@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene o imposta il nome diBuildingBlock contenente testo segnaposto.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart PlaceholderName proprietà. Ottiene o imposta il nome diBuildingBlock contenente testo segnaposto in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ Ottiene o imposta il nome di[`BuildingBlock`](../../../aspose.words.buildingbloc
 public string PlaceholderName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Guarda anche
 
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

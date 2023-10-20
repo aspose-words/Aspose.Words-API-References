@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Termina una riga della tabella nel documento.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words per .NET
+description: DocumentBuilder EndRow metodo. Termina una riga della tabella nel documento in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 Il nodo riga appena terminato.
 
-### Osservazioni
+## Osservazioni
 
 Chiamata`EndRow` per terminare una riga della tabella. Se chiami[`InsertCell`](../insertcell/) immediatamente dopo, la tabella continua su una nuova riga.
 
 Usa il[`RowFormat`](../rowformat/) proprietà per specificare la formattazione della riga.
 
-### Esempi
+## Esempi
 
 Mostra come unire verticalmente le celle della tabella.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

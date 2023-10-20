@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta le impostazioni cultura per preelaborare i valori dei campi.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words per .NET
+description: FieldOptions PreProcessCulture proprietà. Ottiene o imposta le impostazioni cultura per preelaborare i valori dei campi in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ Ottiene o imposta le impostazioni cultura per preelaborare i valori dei campi.
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Attualmente questa proprietà influisce solo sul valore del[`FieldDocProperty`](../../fielddocproperty/) campo.
 
 Il valore predefinito è`nullo` . Quando questa proprietà è impostata su`nullo` , IL[`FieldDocProperty`](../../fielddocproperty/)il valore del campo è preprocessed con la lingua controllata da[`FieldUpdateCultureSource`](../fieldupdateculturesource/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la cultura di preelaborazione.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### Guarda anche
 
 * class [FieldOptions](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldoptions/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

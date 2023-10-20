@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Tag
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica un tag associato al nodo tag del documento strutturato corrente. Non può esserenullo .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart Tag proprietà. Specifica un tag associato al nodo tag del documento strutturato corrente. Non può esserenullo  in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/tag/
@@ -14,11 +16,11 @@ Specifica un tag associato al nodo tag del documento strutturato corrente. Non p
 public string Tag { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Un tag è una stringa arbitraria che le applicazioni possono associare al tag strutturato document per identificarlo senza fornire un nome descrittivo visibile.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -53,7 +55,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Guarda anche
 
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

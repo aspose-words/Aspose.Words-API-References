@@ -1,12 +1,14 @@
 ---
 title: Fill.TwoColorGradient
-second_title: Aspose.Words per .NET API Reference
-description: Fill metodo. Imposta il riempimento specificato su una sfumatura a due colori.
+linktitle: TwoColorGradient
+articleTitle: TwoColorGradient
+second_title: Aspose.Words per .NET
+description: Fill TwoColorGradient metodo. Imposta il riempimento specificato su una sfumatura a due colori in C#.
 type: docs
-weight: 270
+weight: 260
 url: /it/net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 Imposta il riempimento specificato su una sfumatura a due colori.
 
@@ -19,7 +21,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | Lo stile sfumato[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | La variante sfumata[`GradientVariant`](../../gradientvariant/) |
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -62,12 +64,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 Imposta il riempimento specificato su una sfumatura a due colori.
 
@@ -83,7 +85,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | Lo stile sfumato[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | La variante sfumata[`GradientVariant`](../../gradientvariant/) |
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -126,7 +128,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

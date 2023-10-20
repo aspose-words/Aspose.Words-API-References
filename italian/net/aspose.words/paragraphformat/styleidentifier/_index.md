@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta lidentificatore di stile indipendente dalle impostazioni internazionali dello stile di paragrafo applicato a questa formattazione.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words per .NET
+description: ParagraphFormat StyleIdentifier proprietà. Ottiene o imposta lidentificatore di stile indipendente dalle impostazioni internazionali dello stile di paragrafo applicato a questa formattazione in C#.
 type: docs
 weight: 350
 url: /it/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ Ottiene o imposta l'identificatore di stile indipendente dalle impostazioni inte
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario (TOC) in un documento utilizzando gli stili di titolo come voci.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-
