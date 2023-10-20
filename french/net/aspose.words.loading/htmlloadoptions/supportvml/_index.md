@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlLoadOptions propriété. Obtient ou définit une valeur indiquant sil faut prendre en charge les images VML.
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: Aspose.Words pour .NET
+description: HtmlLoadOptions SupportVml propriété. Obtient ou définit une valeur indiquant sil faut prendre en charge les images VML en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur indiquant s'il faut prendre en charge les images 
 public bool SupportVml { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment prendre en charge les commentaires conditionnels lors du chargement d’un document HTML.
 
@@ -39,7 +41,5 @@ else
 ### Voir également
 
 * class [HtmlLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../htmlloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

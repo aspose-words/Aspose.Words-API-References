@@ -1,7 +1,9 @@
 ---
-title: TxtSaveOptions.TxtSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptions constructeur. Default_Constructor
+title: TxtSaveOptions
+linktitle: TxtSaveOptions
+articleTitle: TxtSaveOptions
+second_title: Aspose.Words pour .NET
+description: TxtSaveOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/
@@ -17,7 +19,5 @@ public TxtSaveOptions()
 ### Voir également
 
 * class [TxtSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../txtsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Obtient ou définit un indicateur indiquant si laxe a un quadrillage mineur.
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: Aspose.Words pour .NET
+description: ChartAxis HasMinorGridlines propriété. Obtient ou définit un indicateur indiquant si laxe a un quadrillage mineur en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant si l'axe a un quadrillage mineur.
 public bool HasMinorGridlines { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

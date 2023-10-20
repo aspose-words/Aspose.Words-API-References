@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyle propriété. Obtient unShading objet qui fait référence au formatage dombrage pour ce style conditionnel.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words pour .NET
+description: ConditionalStyle Shading propriété. Obtient unShading objet qui fait référence au formatage dombrage pour ce style conditionnel en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ Obtient un[`Shading`](../../shading/) objet qui fait référence au formatage d'
 public Shading Shading { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* espace de noms [Aspose.Words](../../conditionalstyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

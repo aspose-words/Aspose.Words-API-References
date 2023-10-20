@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Priority
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSourceBase propriété. Renvoie la priorité de la source de police.
+linktitle: Priority
+articleTitle: Priority
+second_title: Aspose.Words pour .NET
+description: FontSourceBase Priority propriété. Renvoie la priorité de la source de police en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontsourcebase/priority/
@@ -14,13 +16,13 @@ Renvoie la priorité de la source de police.
 public int Priority { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette valeur est utilisée lorsqu'il existe des polices avec le même nom de famille et le même style dans différentes sources de polices. Dans ce cas, Aspose.Words sélectionne la police de la source avec la valeur de priorité la plus élevée.
 
 La valeur par défaut est 0.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un fichier de police dans le système de fichiers local comme source de police.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Voir également
 
 * class [FontSourceBase](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsourcebase/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

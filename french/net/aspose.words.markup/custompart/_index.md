@@ -1,7 +1,9 @@
 ---
-title: Class CustomPart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.CustomPart classe. Représente une partie personnalisée contenu arbitraire qui nest pas définie par la norme ISO/IEC 29500.
+title: CustomPart Class
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.CustomPart classe. Représente une partie personnalisée contenu arbitraire qui nest pas définie par la norme ISO/IEC 29500 en C#.
 type: docs
 weight: 3900
 url: /fr/net/aspose.words.markup/custompart/
@@ -38,7 +40,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone/)() | Crée une copie "suffisamment profonde" de l'objet. Ne duplique pas les octets du[`Data`](./data/) valeur. |
 
-### Remarques
+## Remarques
 
 Cette classe représente une partie OOXML qui est la cible d'une « relation inconnue ». Toutes les relations non définies dans la norme ISO/IEC 29500 sont considérées comme des « relations inconnues ». Les relations inconnues sont autorisées dans un document Office Open XML à condition qu'elles soient conformes. aux directives de balisage des relations.
 
@@ -48,7 +50,7 @@ Aspose.Words effectue également des allers-retours avec les pièces personnalis
 
 Ne confondez pas les parties personnalisées avec les données XML personnalisées. Utiliser[`CustomXmlPart`](../customxmlpart/) si vous avez besoin de pour accéder aux données XML personnalisées.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

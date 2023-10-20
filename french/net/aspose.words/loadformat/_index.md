@@ -1,7 +1,9 @@
 ---
-title: Enum LoadFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.LoadFormat énumération. Indique le format du document à charger.
+title: LoadFormat Enum
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.LoadFormat énumération. Indique le format du document à charger en C#.
 type: docs
 weight: 3550
 url: /fr/net/aspose.words/loadformat/
@@ -46,7 +48,7 @@ public enum LoadFormat
 | Xml | `65` | Document XML. |
 | Unknown | `255` | Format non reconnu, ne peut pas être chargé par Aspose.Words. |
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer une page Web sous forme de fichier .docx.
 
@@ -122,5 +124,3 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

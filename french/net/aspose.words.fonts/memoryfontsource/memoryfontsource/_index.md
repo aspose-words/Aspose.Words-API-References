@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MemoryFontSource constructeur. Directeur.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words pour .NET
+description: MemoryFontSource constructeur. Directeur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 Directeur.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Données de police binaires. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Voir également
 
 * class [MemoryFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../memoryfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 Directeur.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Données de police binaires. |
 | priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Voir également
 
 * class [MemoryFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../memoryfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 Directeur.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 | cacheKey | String | La clé de cette source dans le cache. Voir[`CacheKey`](../cachekey/) Description de la propriété pour plus d'informations. |
 
-### Exemples
+## Exemples
 
 Montre comment accélérer le processus d’initialisation du cache de polices.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Voir également
 
 * class [MemoryFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../memoryfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

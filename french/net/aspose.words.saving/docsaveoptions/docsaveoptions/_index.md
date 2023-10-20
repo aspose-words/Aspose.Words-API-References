@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDoc format.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words pour .NET
+description: DocSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDoc format en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ Initialise une nouvelle instance de cette classe qui peut être utilisée pour e
 public DocSaveOptions()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les options d’enregistrement pour les anciens formats Microsoft Word.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Voir également
 
 * class [DocSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../docsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDoc ou Dot format.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Peut êtreDoc ouDot. |
 
-### Exemples
+## Exemples
 
 Montre comment définir les options d’enregistrement pour les anciens formats Microsoft Word.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../docsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

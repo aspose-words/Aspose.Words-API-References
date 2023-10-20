@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IHyphenationCallback méthode. Avertit lapplication que le dictionnaire de césure pour la langue spécifiée na pas été trouvé et quil doit peutêtre être enregistré.
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: Aspose.Words pour .NET
+description: IHyphenationCallback RequestDictionary méthode. Avertit lapplication que le dictionnaire de césure pour la langue spécifiée na pas été trouvé et quil doit peutêtre être enregistré en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | Un nom de langue, par exemple "en-US". Consultez la documentation .NET pour le « nom de la culture » et la RFC 4646 pour plus de détails. |
 
-### Remarques
+## Remarques
 
 Les exceptions levées par cette méthode interrompront l'exécution du processus de mise en page.
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Voir également
 
 * interface [IHyphenationCallback](../)
-* espace de noms [Aspose.Words](../../ihyphenationcallback/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

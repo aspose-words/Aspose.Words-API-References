@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Termine une ligne de tableau dans le document.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder EndRow méthode. Termine une ligne de tableau dans le document en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 Le nœud de ligne qui vient d'être terminé.
 
-### Remarques
+## Remarques
 
 Appel`EndRow` pour terminer une ligne de tableau. Si tu appelles[`InsertCell`](../insertcell/) immédiatement après cela, le tableau continue sur une nouvelle ligne.
 
 Utilisez le[`RowFormat`](../rowformat/) propriété pour spécifier le formatage des lignes.
 
-### Exemples
+## Exemples
 
 Montre comment fusionner verticalement les cellules d’un tableau.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

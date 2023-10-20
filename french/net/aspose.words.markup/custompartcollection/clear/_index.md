@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomPartCollection méthode. Supprime tous les éléments de la collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: CustomPartCollection Clear méthode. Supprime tous les éléments de la collection en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/custompartcollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Voir également
 
 * class [CustomPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../custompartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

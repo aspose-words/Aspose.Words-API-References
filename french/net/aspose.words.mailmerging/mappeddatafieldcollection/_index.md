@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection classe. Permet de mapper automatiquement entre les noms de champs de votre source de données et les noms de champs de publipostage dans le document.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection classe. Permet de mapper automatiquement entre les noms de champs de votre source de données et les noms de champs de publipostage dans le document en C#.
 type: docs
 weight: 3870
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Ajoute un nouveau mappage de champ. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Ajoute un nouveau mappage de champ. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Supprime tous les éléments de la collection. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Détermine si un mappage du champ spécifié dans le document existe dans la collection. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Détermine si un mappage du champ spécifié dans la source de données existe dans la collection. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Détermine si un mappage du champ spécifié dans le document existe dans la collection. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Détermine si un mappage du champ spécifié dans la source de données existe dans la collection. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Renvoie un objet énumérateur de dictionnaire qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Supprime un mappage de champ. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Supprime un mappage de champ. |
 
-### Remarques
+## Remarques
 
 Ceci est implémenté sous la forme d'une collection de clés de chaîne en valeurs de chaîne. Les clés sont les noms des champs de publipostage dans le document et les valeurs sont les noms des champs de votre source de données.
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

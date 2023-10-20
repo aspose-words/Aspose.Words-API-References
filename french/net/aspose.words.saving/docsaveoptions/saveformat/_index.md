@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocSaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Peut êtreDoc ouDot .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words pour .NET
+description: DocSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Peut êtreDoc ouDot  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/docsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Spécifie le format dans lequel le document sera enregistré si cet objet d'opti
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les options d’enregistrement pour les anciens formats Microsoft Word.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../docsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

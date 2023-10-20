@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisType énumération. Spécifie le type daxe du graphique.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType énumération. Spécifie le type daxe du graphique en C#.
 type: docs
 weight: 660
 url: /fr/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | Axe série d'un graphique. |
 | Value | `2` | Axe des valeurs d'un graphique. |
 
-### Exemples
+## Exemples
 
 Montre comment créer un type approprié de série de graphiques pour un type de graphique.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

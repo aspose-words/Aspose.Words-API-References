@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.CustomTimeZoneInfo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure.
+linktitle: CustomTimeZoneInfo
+articleTitle: CustomTimeZoneInfo
+second_title: Aspose.Words pour .NET
+description: SaveOptions CustomTimeZoneInfo propriété. Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/saveoptions/customtimezoneinfo/
@@ -14,7 +16,7 @@ Obtient ou définit le fuseau horaire local personnalisé utilisé pour les cham
 public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette option est disponible soit dans le framework .Net à partir de la version 3.5, soit dans .Net Standard.
 
@@ -23,7 +25,5 @@ Par défaut, Aspose.Words utilise le fuseau horaire local du système lors de l'
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

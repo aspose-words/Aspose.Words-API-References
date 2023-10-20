@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Footnote propriété. RetoursFootnotes ouEndnotes .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words pour .NET
+description: Footnote StoryType propriété. RetoursFootnotes ouEndnotes  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ RetoursFootnotes ouEndnotes .
 public override StoryType StoryType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des nœuds InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* espace de noms [Aspose.Words.Notes](../../footnote/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

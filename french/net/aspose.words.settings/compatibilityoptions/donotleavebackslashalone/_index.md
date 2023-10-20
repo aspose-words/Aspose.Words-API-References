@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotLeaveBackslashAlone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Convertir la barre oblique inverse en signe Yen une fois saisi.
+linktitle: DoNotLeaveBackslashAlone
+articleTitle: DoNotLeaveBackslashAlone
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotLeaveBackslashAlone propriété. Convertir la barre oblique inverse en signe Yen une fois saisi en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
@@ -17,7 +19,5 @@ public bool DoNotLeaveBackslashAlone { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

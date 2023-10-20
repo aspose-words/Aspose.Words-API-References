@@ -1,7 +1,9 @@
 ---
-title: Class FieldNext
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldNext classe. Implémente le champ NEXT.
+title: FieldNext Class
+linktitle: FieldNext
+articleTitle: FieldNext
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldNext classe. Implémente le champ NEXT en C#.
 type: docs
 weight: 2180
 url: /fr/net/aspose.words.fields/fieldnext/
@@ -42,17 +44,17 @@ public class FieldNext : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Fusionne l'enregistrement de données suivant dans le document fusionné résultant actuel, plutôt que de démarrer un nouveau document fusionné.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes en une seule page lors d'un publipostage.
 
@@ -136,5 +138,3 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

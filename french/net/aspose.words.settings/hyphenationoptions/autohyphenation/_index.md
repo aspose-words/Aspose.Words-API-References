@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.AutoHyphenation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HyphenationOptions propriété. Obtient ou définit la valeur déterminant si la césure automatique est activée pour le document. La valeur par défaut de cette propriété estFAUX .
+linktitle: AutoHyphenation
+articleTitle: AutoHyphenation
+second_title: Aspose.Words pour .NET
+description: HyphenationOptions AutoHyphenation propriété. Obtient ou définit la valeur déterminant si la césure automatique est activée pour le document. La valeur par défaut de cette propriété estFAUX  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/hyphenationoptions/autohyphenation/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur déterminant si la césure automatique est activé
 public bool AutoHyphenation { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer la césure automatique.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Voir également
 
 * class [HyphenationOptions](../)
-* espace de noms [Aspose.Words.Settings](../../hyphenationoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

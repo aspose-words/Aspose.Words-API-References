@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Renvoie le type de laxe.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: ChartAxis Type propriété. Renvoie le type de laxe en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ Renvoie le type de l'axe.
 public ChartAxisType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un type approprié de série de graphiques pour un type de graphique.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

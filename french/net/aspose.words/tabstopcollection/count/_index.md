@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection propriété. Obtient le nombre de taquets de tabulation dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: TabStopCollection Count propriété. Obtient le nombre de taquets de tabulation dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre de taquets de tabulation dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

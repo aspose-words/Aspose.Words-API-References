@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TabPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit la position de tabulation en points pour le niveau de liste.
+linktitle: TabPosition
+articleTitle: TabPosition
+second_title: Aspose.Words pour .NET
+description: ListLevel TabPosition propriété. Renvoie ou définit la position de tabulation en points pour le niveau de liste en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.lists/listlevel/tabposition/
@@ -14,11 +16,11 @@ Renvoie ou définit la position de tabulation (en points) pour le niveau de list
 public double TabPosition { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 N'a d'effet que lorsque[`TrailingCharacter`](../trailingcharacter/) est un onglet.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.DeletePictureBullet
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel méthode. Supprime la puce dimage pour le niveau de liste actuel.
+linktitle: DeletePictureBullet
+articleTitle: DeletePictureBullet
+second_title: Aspose.Words pour .NET
+description: ListLevel DeletePictureBullet méthode. Supprime la puce dimage pour le niveau de liste actuel en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.lists/listlevel/deletepicturebullet/
@@ -14,11 +16,11 @@ Supprime la puce d'image pour le niveau de liste actuel.
 public void DeletePictureBullet()
 ```
 
-### Remarques
+## Remarques
 
 La puce par défaut sera affichée après la suppression.
 
-### Exemples
+## Exemples
 
 Montre comment définir une icône d’image personnalisée pour les étiquettes des éléments de liste.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

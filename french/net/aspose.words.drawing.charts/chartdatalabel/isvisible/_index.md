@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Retoursvrai si cette étiquette de données a quelque chose à afficher.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel IsVisible propriété. Retoursvrai si cette étiquette de données a quelque chose à afficher en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ Retours`vrai` si cette étiquette de données a quelque chose à afficher.
 public bool IsVisible { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Voir également
 
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

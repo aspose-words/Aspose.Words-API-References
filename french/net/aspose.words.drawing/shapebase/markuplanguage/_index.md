@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.MarkupLanguage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient le MarkupLanguage utilisé pour cet objet graphique.
+linktitle: MarkupLanguage
+articleTitle: MarkupLanguage
+second_title: Aspose.Words pour .NET
+description: ShapeBase MarkupLanguage propriété. Obtient le MarkupLanguage utilisé pour cet objet graphique en C#.
 type: docs
 weight: 390
 url: /fr/net/aspose.words.drawing/shapebase/markuplanguage/
@@ -14,7 +16,7 @@ Obtient le MarkupLanguage utilisé pour cet objet graphique.
 public ShapeMarkupLanguage MarkupLanguage { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier la taille et le langage de balisage d’une forme.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 
 * enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

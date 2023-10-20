@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchOffset
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. Obtient la position de départ de base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance.
+linktitle: MatchOffset
+articleTitle: MatchOffset
+second_title: Aspose.Words pour .NET
+description: ReplacingArgs MatchOffset propriété. Obtient la position de départ de base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.replacing/replacingargs/matchoffset/
@@ -14,7 +16,7 @@ Obtient la position de départ de base zéro de la correspondance à partir du d
 public int MatchOffset { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
@@ -87,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 ### Voir également
 
 * class [ReplacingArgs](../)
-* espace de noms [Aspose.Words.Replacing](../../replacingargs/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

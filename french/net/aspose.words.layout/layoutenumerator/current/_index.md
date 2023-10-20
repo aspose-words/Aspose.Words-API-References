@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Obtient ou définit la position actuelle dans le modèle de mise en page actuelle. Cette propriété renvoie un objet opaque qui correspond à lentité de mise en page actuelle.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator Current propriété. Obtient ou définit la position actuelle dans le modèle de mise en page actuelle. Cette propriété renvoie un objet opaque qui correspond à lentité de mise en page actuelle en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ Obtient ou définit la position actuelle dans le modèle de mise en page actuell
 public object Current { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

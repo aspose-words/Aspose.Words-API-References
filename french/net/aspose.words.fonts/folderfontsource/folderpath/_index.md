@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FolderFontSource propriété. Chemin daccès au dossier.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words pour .NET
+description: FolderFontSource FolderPath propriété. Chemin daccès au dossier en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ Chemin d'accès au dossier.
 public string FolderPath { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Voir également
 
 * class [FolderFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../folderfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

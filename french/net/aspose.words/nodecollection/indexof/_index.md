@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Renvoie lindex de base zéro du nœud spécifié.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words pour .NET
+description: NodeCollection IndexOf méthode. Renvoie lindex de base zéro du nœud spécifié en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 L'index de base zéro du nœud dans la collection, s'il est trouvé ; sinon, -1.
 
-### Remarques
+## Remarques
 
 Cette méthode effectue une recherche linéaire ; par conséquent, le temps d'exécution moyen est proportionnel à[`Count`](../count/).
 
-### Exemples
+## Exemples
 
 Montre comment obtenir l'index d'un nœud dans une collection.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non remplacer les polices TrueType Arial Times New Roman Courier New et Symbol par les polices PDF Type 1 de base.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions UseCoreFonts propriété. Obtient ou définit une valeur déterminant sil faut ou non remplacer les polices TrueType Arial Times New Roman Courier New et Symbol par les polices PDF Type 1 de base en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant s'il faut ou non remplacer les polic
 public bool UseCoreFonts { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` . Lorsque cette valeur est fixée à`vrai` Les polices Arial, Times New Roman, Courier New et Symbol sont remplacées dans le document PDF par la police de base Type 1 correspondante.
 
@@ -28,7 +30,7 @@ Les polices principales ne sont pas prises en charge lors de l'enregistrement au
 
 Cette option a une priorité plus élevée que[`FontEmbeddingMode`](../fontembeddingmode/) option.
 
-### Exemples
+## Exemples
 
 Montre comment activer/désactiver la substitution de police PDF Type 1.
 
@@ -61,7 +63,5 @@ else
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

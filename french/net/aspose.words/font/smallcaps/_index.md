@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Vrai si la police est formatée en petites majuscules.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words pour .NET
+description: Font SmallCaps propriété. Vrai si la police est formatée en petites majuscules en C#.
 type: docs
 weight: 360
 url: /fr/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ Vrai si la police est formatée en petites majuscules.
 public bool SmallCaps { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater une exécution pour afficher son contenu en majuscules.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

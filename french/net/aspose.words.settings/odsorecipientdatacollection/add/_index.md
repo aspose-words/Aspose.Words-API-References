@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection méthode. Ajoute un objet à la fin de cette collection.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection Add méthode. Ajoute un objet à la fin de cette collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | L'objet à ajouter. C'est pas possible`nul`. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

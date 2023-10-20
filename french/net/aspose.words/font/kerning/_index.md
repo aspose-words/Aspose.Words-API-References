@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la taille de police à laquelle le crénage commence.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words pour .NET
+description: Font Kerning propriété. Obtient ou définit la taille de police à laquelle le crénage commence en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ Obtient ou définit la taille de police à laquelle le crénage commence.
 public double Kerning { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier la taille de police à laquelle le crénage commence à prendre effet.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WebExtensionBinding propriété. Spécifie lidentifiant de liaison.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: WebExtensionBinding Id propriété. Spécifie lidentifiant de liaison en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.webextensions/webextensionbinding/id/
@@ -17,7 +19,5 @@ public string Id { get; set; }
 ### Voir également
 
 * class [WebExtensionBinding](../)
-* espace de noms [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

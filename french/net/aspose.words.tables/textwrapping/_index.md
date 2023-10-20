@@ -1,7 +1,9 @@
 ---
-title: Enum TextWrapping
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.TextWrapping énumération. Spécifie comment le texte est enroulé autour du tableau.
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Tables.TextWrapping énumération. Spécifie comment le texte est enroulé autour du tableau en C#.
 type: docs
 weight: 6380
 url: /fr/net/aspose.words.tables/textwrapping/
@@ -22,7 +24,7 @@ public enum TextWrapping
 | Around | `1` | Le texte est enroulé autour du tableau occupant l'espace latéral disponible. |
 | Default | `0` | Valeur par défaut. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser l'habillage du texte d'un tableau.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * espace de noms [Aspose.Words.Tables](../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../)
-
-

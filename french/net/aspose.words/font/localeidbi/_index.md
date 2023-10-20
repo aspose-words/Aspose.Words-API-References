@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit lidentifiant de paramètres régionaux langue des caractères formatés de droite à gauche.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words pour .NET
+description: Font LocaleIdBi propriété. Obtient ou définit lidentifiant de paramètres régionaux langue des caractères formatés de droite à gauche en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ Obtient ou définit l'identifiant de paramètres régionaux (langue) des caract�
 public int LocaleIdBi { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour la liste des identifiants de paramètres régionaux, voir https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Exemples
+## Exemples
 
 Montre comment définir des ensembles distincts de paramètres de police pour le texte de droite à gauche et de droite à gauche.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

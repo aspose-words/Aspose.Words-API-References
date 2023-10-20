@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfoCollection propriété. Obtient le nombre déléments contenus dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: WarningInfoCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/warninginfocollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Voir également
 
 * class [WarningInfoCollection](../)
-* espace de noms [Aspose.Words](../../warninginfocollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

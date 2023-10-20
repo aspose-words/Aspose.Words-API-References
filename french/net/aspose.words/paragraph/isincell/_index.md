@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Vrai si ce paragraphe est un enfant immédiat deCell  faux sinon.
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: Aspose.Words pour .NET
+description: Paragraph IsInCell propriété. Vrai si ce paragraphe est un enfant immédiat deCell  faux sinon en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ Vrai si ce paragraphe est un enfant immédiat de[`Cell`](../../../aspose.words.t
 public bool IsInCell { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment dresser une table pour rester ensemble sur la même page.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

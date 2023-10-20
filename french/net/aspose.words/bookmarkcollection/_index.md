@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.BookmarkCollection classe. Une collection deBookmark objets qui représentent les signets dans la plage spécifiée.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.BookmarkCollection classe. Une collection deBookmark objets qui représentent les signets dans la plage spécifiée en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Supprime tous les signets de cette collection et du document. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Renvoie un objet énumérateur. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Supprime le signet spécifié du document. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Supprime un signet avec le nom spécifié. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Supprime un signet à l'index spécifié. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Supprime le signet spécifié du document. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Supprime un signet avec le nom spécifié. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Supprime un signet à l'index spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

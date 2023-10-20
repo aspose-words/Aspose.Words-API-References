@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Bytes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Représente une estimation du nombre doctets dans le document.
+linktitle: Bytes
+articleTitle: Bytes
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Bytes propriété. Représente une estimation du nombre doctets dans le document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.properties/builtindocumentproperties/bytes/
@@ -14,13 +16,13 @@ Représente une estimation du nombre d'octets dans le document.
 public int Bytes { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Microsoft Word ne définit pas toujours cette propriété.
 
 Aspose.Words ne met pas à jour cette propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Contenu ».
 
@@ -130,7 +132,5 @@ private class LineCounter
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

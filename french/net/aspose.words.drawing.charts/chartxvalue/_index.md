@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartXValue classe. Représente une valeur X pour une série de graphiques.
+title: ChartXValue Class
+linktitle: ChartXValue
+articleTitle: ChartXValue
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartXValue classe. Représente une valeur X pour une série de graphiques en C#.
 type: docs
 weight: 840
 url: /fr/net/aspose.words.drawing.charts/chartxvalue/
@@ -29,15 +31,15 @@ public class ChartXValue
 
 | Nom | La description |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(DateTime) | Crée un`ChartXValue` exemple duDateTime tapez. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(double) | Crée un`ChartXValue` exemple duDouble tapez. |
-| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(ChartMultilevelValue) | Crée un`ChartXValue` exemple duMultilevel tapez. |
-| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(string) | Crée un`ChartXValue` exemple duString tapez. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(TimeSpan) | Crée un`ChartXValue` exemple duTime tapez. |
-| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(object) | Obtient un indicateur indiquant si l'objet spécifié est égal à l'objet de valeur X actuel. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(*DateTime*) | Crée un`ChartXValue` exemple duDateTime tapez. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(*double*) | Crée un`ChartXValue` exemple duDouble tapez. |
+| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(*[ChartMultilevelValue](../chartmultilevelvalue/)*) | Crée un`ChartXValue` exemple duMultilevel tapez. |
+| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(*string*) | Crée un`ChartXValue` exemple duString tapez. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(*TimeSpan*) | Crée un`ChartXValue` exemple duTime tapez. |
+| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(*object*) | Obtient un indicateur indiquant si l'objet spécifié est égal à l'objet de valeur X actuel. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartxvalue/gethashcode/)() | Obtient un code de hachage pour l'objet de valeur X actuel. |
 
-### Remarques
+## Remarques
 
 Cette classe contient un certain nombre de méthodes statiques pour créer une valeur X d'un type particulier. Le [`ValueType`](./valuetype/) La propriété vous permet de déterminer le type d’une valeur X existante.
 
@@ -47,5 +49,3 @@ Toutes les valeurs X non nulles d'une série de graphiques doivent être identiq
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

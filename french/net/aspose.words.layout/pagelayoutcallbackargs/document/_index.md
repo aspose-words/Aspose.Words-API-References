@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageLayoutCallbackArgs propriété. Obtient le document.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: PageLayoutCallbackArgs Document propriété. Obtient le document en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ Obtient le document.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* espace de noms [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

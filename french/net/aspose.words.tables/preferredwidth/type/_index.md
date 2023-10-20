@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PreferredWidth propriété. Obtient lunité de mesure utilisée pour cette valeur de largeur préférée.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: PreferredWidth Type propriété. Obtient lunité de mesure utilisée pour cette valeur de largeur préférée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.tables/preferredwidth/type/
@@ -14,7 +16,7 @@ Obtient l'unité de mesure utilisée pour cette valeur de largeur préférée.
 public PreferredWidthType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier le type de largeur préféré et la valeur d’une cellule de tableau.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 
 * enum [PreferredWidthType](../../preferredwidthtype/)
 * class [PreferredWidth](../)
-* espace de noms [Aspose.Words.Tables](../../preferredwidth/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

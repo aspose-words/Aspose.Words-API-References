@@ -1,7 +1,9 @@
 ---
 title: FieldEQ.AsOfficeMath
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldEQ méthode. Renvoie lobjet Office Math correspondant au champ EQ.
+linktitle: AsOfficeMath
+articleTitle: AsOfficeMath
+second_title: Aspose.Words pour .NET
+description: FieldEQ AsOfficeMath méthode. Renvoie lobjet Office Math correspondant au champ EQ en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldeq/asofficemath/
@@ -22,7 +24,5 @@ Retours`nul` si le code du champ est vide ou invalide, sinon un[`OfficeMath`](..
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [FieldEQ](../)
-* espace de noms [Aspose.Words.Fields](../../fieldeq/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooterCollection méthode. Lie ou dissocie tous les entêtes et pieds de page aux entêtes et pieds de page correspondants dans la section précédente.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words pour .NET
+description: HeaderFooterCollection LinkToPrevious méthode. Lie ou dissocie tous les entêtes et pieds de page aux entêtes et pieds de page correspondants dans la section précédente en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Lie ou dissocie tous les en-têtes et pieds de page aux en-têtes et pieds de page correspondants dans la section précédente.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `vrai` pour lier les en-têtes et pieds de page à la section précédente ; `FAUX` pour les dissocier. |
 
-### Remarques
+## Remarques
 
 Si l’un des en-têtes ou pieds de page n’existe pas, il les crée automatiquement.
 
-### Exemples
+## Exemples
 
 Montre comment lier les en-têtes et les pieds de page entre les sections.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Voir également
 
 * class [HeaderFooterCollection](../)
-* espace de noms [Aspose.Words](../../headerfootercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Lie ou dissocie l'en-tête ou le pied de page spécifié à l'en-tête ou au pied de page correspondant dans la section précédente.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../../headerfootertype/) value qui spécifie l'en-tête ou le pied de page à lier/dissocier. |
 | isLinkToPrevious | Boolean | `vrai`pour lier l'en-tête ou le pied de page à la section précédente ; `FAUX` pour dissocier. |
 
-### Remarques
+## Remarques
 
 Si l'en-tête ou le pied de page du type spécifié n'existe pas, le crée automatiquement.
 
-### Exemples
+## Exemples
 
 Montre comment lier les en-têtes et les pieds de page entre les sections.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* espace de noms [Aspose.Words](../../headerfootercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FileFontSource classe. Représente le fichier de police TrueType unique stocké dans le système de fichiers.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FileFontSource classe. Représente le fichier de police TrueType unique stocké dans le système de fichiers en C#.
 type: docs
 weight: 2870
 url: /fr/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Directeur. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Directeur. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Directeur. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Directeur. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Directeur. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Directeur. |
 
 ## Propriétés
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Renvoie la liste des polices disponibles via cette source. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un fichier de police dans le système de fichiers local comme source de police.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

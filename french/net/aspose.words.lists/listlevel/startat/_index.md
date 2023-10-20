@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit le numéro de départ pour ce niveau de liste.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words pour .NET
+description: ListLevel StartAt propriété. Renvoie ou définit le numéro de départ pour ce niveau de liste en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ Renvoie ou définit le numéro de départ pour ce niveau de liste.
 public int StartAt { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 1.
 
-### Exemples
+## Exemples
 
 Montre comment redémarrer la numérotation dans une liste en copiant une liste.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

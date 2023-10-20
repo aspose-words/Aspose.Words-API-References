@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomPartCollection méthode. Ajoute un élément à la collection.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: CustomPartCollection Add méthode. Ajoute un élément à la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/custompartcollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomPart part)
 | --- | --- | --- |
 | part | CustomPart | L'élément à ajouter. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../custompartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

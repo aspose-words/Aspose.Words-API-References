@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. RetoursTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Table NodeType propriété. RetoursTable  en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ RetoursTable .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

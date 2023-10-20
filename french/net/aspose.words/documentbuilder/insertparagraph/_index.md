@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un saut de paragraphe dans le document.
+linktitle: InsertParagraph
+articleTitle: InsertParagraph
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertParagraph méthode. Insère un saut de paragraphe dans le document en C#.
 type: docs
-weight: 430
+weight: 420
 url: /fr/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,7 +20,7 @@ public Paragraph InsertParagraph()
 
 Le nœud de paragraphe qui vient d'être inséré. C'est le même nœud que[`CurrentParagraph`](../currentparagraph/).
 
-### Remarques
+## Remarques
 
 Formatage actuel du paragraphe spécifié par le[`ParagraphFormat`](../paragraphformat/) la propriété est utilisée.
 
@@ -26,7 +28,7 @@ Coupe le paragraphe actuel en deux. Après avoir inséré le paragraphe, le curs
 
 Une exception est levée s'il n'est pas possible d'insérer un saut de paragraphe à la position actuelle du curseur.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe dans le document.
 
@@ -59,7 +61,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

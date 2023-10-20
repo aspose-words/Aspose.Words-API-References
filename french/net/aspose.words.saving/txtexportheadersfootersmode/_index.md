@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode énumération. Spécifie la manière dont les entêtes et les pieds de page sont exportés au format texte brut.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode énumération. Spécifie la manière dont les entêtes et les pieds de page sont exportés au format texte brut en C#.
 type: docs
 weight: 5640
 url: /fr/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Seuls les en-têtes et pieds de page principaux sont exportés au début et à la fin de chaque section. |
 | AllAtEnd | `2` | Tous les en-têtes et pieds de page sont placés après tous les corps de section à la toute fin d'un document. |
 
-### Exemples
+## Exemples
 
 Montre comment spécifier comment exporter les en-têtes et les pieds de page au format texte brut.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

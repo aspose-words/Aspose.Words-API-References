@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.TextOutputMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SvgSaveOptions propriété. Obtient ou définit une valeur déterminant la façon dont le texte doit être rendu dans SVG.
+linktitle: TextOutputMode
+articleTitle: TextOutputMode
+second_title: Aspose.Words pour .NET
+description: SvgSaveOptions TextOutputMode propriété. Obtient ou définit une valeur déterminant la façon dont le texte doit être rendu dans SVG en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/svgsaveoptions/textoutputmode/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur déterminant la façon dont le texte doit être r
 public SvgTextOutputMode TextOutputMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Utilisez cette propriété pour obtenir ou définir le mode de rendu du texte à l'intérieur d'un document lors de l'enregistrement au format SVG.
 
 La valeur par défaut estUseTargetMachineFonts.
 
-### Exemples
+## Exemples
 
 Montre comment imiter les propriétés des images lors de la conversion d'un document .docx en .svg.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 
 * enum [SvgTextOutputMode](../../svgtextoutputmode/)
 * class [SvgSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../svgsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

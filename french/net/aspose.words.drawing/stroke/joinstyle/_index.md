@@ -1,9 +1,11 @@
 ---
 title: Stroke.JoinStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Définit le style de jointure dune polyligne.
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words pour .NET
+description: Stroke JoinStyle propriété. Définit le style de jointure dune polyligne en C#.
 type: docs
-weight: 130
+weight: 120
 url: /fr/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -14,11 +16,11 @@ Définit le style de jointure d'une polyligne.
 public JoinStyle JoinStyle { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estRound.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les propriétés du trait.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [JoinStyle](../../joinstyle/)
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

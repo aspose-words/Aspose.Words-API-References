@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Renvoie une collection qui représente toutes les sections du document.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words pour .NET
+description: Document Sections propriété. Renvoie une collection qui représente toutes les sections du document en C#.
 type: docs
 weight: 370
 url: /fr/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ Renvoie une collection qui représente toutes les sections du document.
 public SectionCollection Sections { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter et supprimer des sections dans un document.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

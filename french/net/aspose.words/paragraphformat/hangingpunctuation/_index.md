@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit un indicateur indiquant si la ponctuation suspendue est activée pour le paragraphe actuel.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat HangingPunctuation propriété. Obtient ou définit un indicateur indiquant si la ponctuation suspendue est activée pour le paragraphe actuel en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant si la ponctuation suspendue est acti
 public bool HangingPunctuation { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des propriétés spéciales pour la typographie asiatique.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

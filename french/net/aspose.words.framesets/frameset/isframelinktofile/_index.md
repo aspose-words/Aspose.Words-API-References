@@ -1,7 +1,9 @@
 ---
 title: Frameset.IsFrameLinkToFile
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Frameset propriété. Obtient ou définit une valeur indiquant si le nom de la page Web ou du fichier de document spécifié dans the FrameDefaultUrl la propriété est une ressource externe à laquelle le cadre est lié.
+linktitle: IsFrameLinkToFile
+articleTitle: IsFrameLinkToFile
+second_title: Aspose.Words pour .NET
+description: Frameset IsFrameLinkToFile propriété. Obtient ou définit une valeur indiquant si le nom de la page Web ou du fichier de document spécifié dans the FrameDefaultUrl la propriété est une ressource externe à laquelle le cadre est lié en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.framesets/frameset/isframelinktofile/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur indiquant si le nom de la page Web ou du fichier 
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux cadres sur la page.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Voir également
 
 * class [Frameset](../)
-* espace de noms [Aspose.Words.Framesets](../../frameset/)
+* espace de noms [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Assemblée [Aspose.Words](../../../)
-
-

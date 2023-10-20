@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque la fin dune plage de texte commentée est rencontrée.
+linktitle: VisitCommentRangeEnd
+articleTitle: VisitCommentRangeEnd
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitCommentRangeEnd méthode. Appelé lorsque la fin dune plage de texte commentée est rencontrée en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/documentvisitor/visitcommentrangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure de nœuds de chaque commentaire et plage de commentaires dans un document.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeEnd](../../commentrangeend/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

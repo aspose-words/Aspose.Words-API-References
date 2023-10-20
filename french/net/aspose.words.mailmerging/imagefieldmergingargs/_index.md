@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fournit des données pour leImageFieldMerging événement.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fournit des données pour leImageFieldMerging événement en C#.
 type: docs
 weight: 3830
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Spécifie la forme que le moteur de publipostage doit insérer dans le document. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtient le nom de la table de données pour l'opération de fusion en cours ou une chaîne vide si le nom n'est pas disponible. |
 
-### Remarques
+## Remarques
 
 Cet événement se produit lors d'un publipostage lorsqu'un champ image mail merge est rencontré dans le document. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier a , un flux ou unImage objet au moteur mail merge afin qu'il soit inséré dans le document.
 
@@ -42,7 +44,7 @@ Il y a trois propriétés disponibles[`ImageFileName`](./imagefilename/) , [`Ima
 
 Pour insérer un champ de fusion et publipostage image dans un document dans Word, sélectionnez Commande Insérer/Champ, puis sélectionnez MergeField et tapez Image:MyFieldName.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des images stockées dans un champ BLOB de base de données dans un rapport.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListFormat méthode. Démarre une nouvelle liste à puces par défaut et lapplique au paragraphe.
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: Aspose.Words pour .NET
+description: ListFormat ApplyBulletDefault méthode. Démarre une nouvelle liste à puces par défaut et lapplique au paragraphe en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ Démarre une nouvelle liste à puces par défaut et l'applique au paragraphe.
 public void ApplyBulletDefault()
 ```
 
-### Remarques
+## Remarques
 
 Il s'agit d'une méthode de raccourci qui crée une nouvelle liste à l'aide du modèle bulleted par défaut, l'applique au paragraphe et sélectionne le 1er niveau de liste.
 
-### Exemples
+## Exemples
 
 Montre comment créer des listes à puces et numérotées.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Voir également
 
 * class [ListFormat](../)
-* espace de noms [Aspose.Words.Lists](../../listformat/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

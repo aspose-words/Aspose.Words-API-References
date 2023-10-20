@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.IImageSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les images lors de lenregistrement dun document au format HTML. Peut être utilisé par dautres formats.
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.IImageSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les images lors de lenregistrement dun document au format HTML. Peut être utilisé par dautres formats en C#.
 type: docs
 weight: 5170
 url: /fr/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | Appelé lorsque Aspose.Words enregistre une image au format HTML. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Appelé lorsque Aspose.Words enregistre une image au format HTML. |
 
-### Exemples
+## Exemples
 
 Montre comment renommer le nom de l'image lors de l'enregistrement dans le document Markdown.
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

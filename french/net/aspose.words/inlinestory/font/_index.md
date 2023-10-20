@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Référence de l'API Aspose.Words pour .NET
-description: InlineStory propriété. Donne accès au formatage de la police du caractère dancrage de cet objet.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words pour .NET
+description: InlineStory Font propriété. Donne accès au formatage de la police du caractère dancrage de cet objet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ Donne accès au formatage de la police du caractère d'ancrage de cet objet.
 public Font Font { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des nœuds InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* espace de noms [Aspose.Words](../../inlinestory/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

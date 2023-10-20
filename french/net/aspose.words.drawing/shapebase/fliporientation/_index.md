@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Change lorientation dune forme.
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words pour .NET
+description: ShapeBase FlipOrientation propriété. Change lorientation dune forme en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ Change l'orientation d'une forme.
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estNone.
 
-### Exemples
+## Exemples
 
 Montre comment retourner une forme sur un axe.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

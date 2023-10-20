@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.RightOffset
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAdvance propriété. Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé vers la droite.
+linktitle: RightOffset
+articleTitle: RightOffset
+second_title: Aspose.Words pour .NET
+description: FieldAdvance RightOffset propriété. Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé vers la droite en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldadvance/rightoffset/
@@ -14,7 +16,7 @@ Obtient ou définit le nombre de points dont le texte qui suit le champ doit êt
 public string RightOffset { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ ADVANCE et modifier ses propriétés.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Voir également
 
 * class [FieldAdvance](../)
-* espace de noms [Aspose.Words.Fields](../../fieldadvance/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

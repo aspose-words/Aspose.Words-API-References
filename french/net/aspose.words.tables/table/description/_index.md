@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la description de cette table. Il fournit une représentation textuelle alternative des informations contenues dans la table.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words pour .NET
+description: Table Description propriété. Obtient ou définit la description de cette table. Il fournit une représentation textuelle alternative des informations contenues dans la table en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ Obtient ou définit la description de cette table. Il fournit une représentatio
 public string Description { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
 Cette propriété est significative pour les documents DOCX conformes à la norme ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Lorsqu'elle est enregistrée dans des formats antérieurs à ISO/IEC 29500, la propriété est ignorée.
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau imbriqué sans utiliser de générateur de documents.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

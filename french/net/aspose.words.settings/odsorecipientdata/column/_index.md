@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientData propriété. Spécifie la colonne de la source de données qui contient des données uniques pour lenregistrement actuel. La valeur par défaut est 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientData Column propriété. Spécifie la colonne de la source de données qui contient des données uniques pour lenregistrement actuel. La valeur par défaut est 0 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ Spécifie la colonne de la source de données qui contient des données uniques 
 public int Column { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoRecipientData](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

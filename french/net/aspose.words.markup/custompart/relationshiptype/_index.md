@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomPart propriété. Obtient ou définit le type de relation de la pièce parent vers cette pièce personnalisée.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words pour .NET
+description: CustomPart RelationshipType propriété. Obtient ou définit le type de relation de la pièce parent vers cette pièce personnalisée en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ Obtient ou définit le type de relation de la pièce parent vers cette pièce pe
 public string RelationshipType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le type de relation pour une pièce personnalisée doit être « inconnu », par exemple un type de relation personnalisé, et non l'un des types de relation définis dans la norme ISO/IEC 29500.
 
 La valeur par défaut est une chaîne vide. Une valeur valide doit être une chaîne non vide.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Voir également
 
 * class [CustomPart](../)
-* espace de noms [Aspose.Words.Markup](../../custompart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

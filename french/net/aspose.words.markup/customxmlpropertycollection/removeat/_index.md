@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPropertyCollection méthode. Supprime une propriété à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: CustomXmlPropertyCollection RemoveAt méthode. Supprime une propriété à lindex spécifié en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.markup/customxmlpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice de base zéro. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

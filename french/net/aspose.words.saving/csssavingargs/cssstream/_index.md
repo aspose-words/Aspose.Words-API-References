@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.CssStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CssSavingArgs propriété. Permet de spécifier le flux dans lequel les informations CSS seront enregistrées.
+linktitle: CssStream
+articleTitle: CssStream
+second_title: Aspose.Words pour .NET
+description: CssSavingArgs CssStream propriété. Permet de spécifier le flux dans lequel les informations CSS seront enregistrées en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/csssavingargs/cssstream/
@@ -14,7 +16,7 @@ Permet de spécifier le flux dans lequel les informations CSS seront enregistré
 public Stream CssStream { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet d'enregistrer les informations CSS dans un flux.
 
@@ -22,7 +24,7 @@ La valeur par défaut est`nul` . Cette propriété ne supprime pas l'enregistrem
 
 En utilisant[`ICssSavingCallback`](../../icsssavingcallback/) vous ne pouvez pas remplacer CSS par un autre. Il est uniquement destiné à enregistrer du CSS dans un flux.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les feuilles de style CSS créées par une conversion HTML.
 
@@ -83,7 +85,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Voir également
 
 * class [CssSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../csssavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

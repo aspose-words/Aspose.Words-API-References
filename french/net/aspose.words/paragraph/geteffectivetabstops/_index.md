@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph méthode. Renvoie un tableau de tous les taquets de tabulation appliqués à ce paragraphe y compris ceux appliqués indirectement par les styles ou les listes.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words pour .NET
+description: Paragraph GetEffectiveTabStops méthode. Renvoie un tableau de tous les taquets de tabulation appliqués à ce paragraphe y compris ceux appliqués indirectement par les styles ou les listes en C#.
 type: docs
-weight: 270
+weight: 250
 url: /fr/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ Renvoie un tableau de tous les taquets de tabulation appliqués à ce paragraphe
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des taquets de tabulation personnalisés pour un paragraphe.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OutlineOptions propriété. Spécifie sil faut ou non créer des plans pour les titres paragraphes formatés avec les styles de titre à lintérieur des tableaux.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words pour .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables propriété. Spécifie sil faut ou non créer des plans pour les titres paragraphes formatés avec les styles de titre à lintérieur des tableaux en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ Spécifie s'il faut ou non créer des plans pour les titres (paragraphes format�
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment créer des entrées de plan de document PDF pour les titres à l’intérieur des tableaux.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Voir également
 
 * class [OutlineOptions](../)
-* espace de noms [Aspose.Words.Saving](../../outlineoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

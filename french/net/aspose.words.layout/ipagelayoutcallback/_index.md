@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.IPageLayoutCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de la construction et du rendu du modèle de mise en page.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.IPageLayoutCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de la construction et du rendu du modèle de mise en page en C#.
 type: docs
 weight: 3310
 url: /fr/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | Nom | La description |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu. |
 
-### Remarques
+## Remarques
 
 L'utilisation principale de cette interface est de permettre au code d'application d'abandonner le processus de construction.
 
@@ -30,7 +32,7 @@ Notez cependant que les résultats du rendu peuvent ne pas correspondre à ce qu
 
 Cette technique peut ne pas fonctionner pour tous les documents ou peut échouer complètement.
 
-### Exemples
+## Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

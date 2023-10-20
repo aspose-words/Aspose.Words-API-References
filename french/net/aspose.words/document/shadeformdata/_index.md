@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Spécifie sil faut activer lombrage gris sur les champs du formulaire.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words pour .NET
+description: Document ShadeFormData propriété. Spécifie sil faut activer lombrage gris sur les champs du formulaire en C#.
 type: docs
 weight: 380
 url: /fr/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ Spécifie s'il faut activer l'ombrage gris sur les champs du formulaire.
 public bool ShadeFormData { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer un ombrage gris aux champs de formulaire.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

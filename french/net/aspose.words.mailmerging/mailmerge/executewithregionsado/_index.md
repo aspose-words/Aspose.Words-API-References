@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge méthode. Effectue un publipostage à partir dun objet ADO Recordset dans le document avec des régions de publipostage.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words pour .NET
+description: MailMerge ExecuteWithRegionsADO méthode. Effectue un publipostage à partir dun objet ADO Recordset dans le document avec des régions de publipostage en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | ADO Recordset ou objet Record. |
 | tableName | String | Nom de la région de publipostage dans le document à remplir. |
 
-### Remarques
+## Remarques
 
 Cette méthode est utile lorsque vous avez l'intention d'utiliser les classes Aspose.Words as COM à partir de code non managé tel qu'une application créée à l'aide de ASP ou Visual Basic 6.0.
 
 Pour plus d'informations, voir la description de[`ExecuteWithRegions`](../executewithregions/).
 
-### Exemples
+## Exemples
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

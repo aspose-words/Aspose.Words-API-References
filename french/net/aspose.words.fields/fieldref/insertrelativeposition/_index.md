@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertRelativePosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldRef propriété. Obtient ou définit sil faut insérer la position relative du paragraphe référencé.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words pour .NET
+description: FieldRef InsertRelativePosition propriété. Obtient ou définit sil faut insérer la position relative du paragraphe référencé en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fieldref/insertrelativeposition/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer la position relative du paragraphe réfé
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des champs REF pour référencer des signets.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Voir également
 
 * class [FieldRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

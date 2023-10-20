@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Spécifie le dossier des fichiers temporaires utilisé lors de lenregistrement dans un fichier DOC ou DOCX. Par défaut cette propriété estnul et aucun fichier temporaire nest utilisé.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words pour .NET
+description: SaveOptions TempFolder propriété. Spécifie le dossier des fichiers temporaires utilisé lors de lenregistrement dans un fichier DOC ou DOCX. Par défaut cette propriété estnul et aucun fichier temporaire nest utilisé en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ Spécifie le dossier des fichiers temporaires utilisé lors de l'enregistrement 
 public string TempFolder { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsqu'Aspose.Words enregistre un document, il doit créer des structures internes temporaires. Par défaut, ces structures internes sont créées en mémoire et l'utilisation de la mémoire augmente pendant une courte période pendant que le document est en cours d'enregistrement. Une fois la sauvegarde terminée, la mémoire est libérée et récupérée par le garbage collector.
 
@@ -24,7 +26,7 @@ Le dossier doit exister et être accessible en écriture, sinon une exception se
 
 Aspose.Words supprime automatiquement tous les fichiers temporaires une fois l'enregistrement terminé.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le disque dur au lieu de la mémoire lors de l'enregistrement d'un document.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

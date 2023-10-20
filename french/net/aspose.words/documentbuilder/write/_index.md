@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère une chaîne dans le document à la position dinsertion actuelle.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder Write méthode. Insère une chaîne dans le document à la position dinsertion actuelle en C#.
 type: docs
-weight: 660
+weight: 650
 url: /fr/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | La chaîne à insérer dans le document. |
 
-### Remarques
+## Remarques
 
 Formatage de police actuel spécifié par le[`Font`](../font/) la propriété est utilisée.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une chaîne entourée d'une bordure dans un document.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

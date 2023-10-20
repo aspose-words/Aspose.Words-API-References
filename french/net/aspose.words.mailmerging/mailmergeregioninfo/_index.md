@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.MailMergeRegionInfo classe. Contient des informations sur une région de publipostage.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo classe. Contient des informations sur une région de publipostage en C#.
 type: docs
 weight: 3860
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Renvoie un champ de début pour la région. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Renvoie une balise de début "moustache" pour la région. |
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les régions de publipostage.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

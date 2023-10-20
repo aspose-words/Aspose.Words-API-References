@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageLayoutCallbackArgs propriété. Obtient lindex de base 0 de la page dans le document auquel cet événement se rapporte. Renvoie une valeur négative sil ny a pas de page associée ou si la page a été supprimée lors de la redistribution.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words pour .NET
+description: PageLayoutCallbackArgs PageIndex propriété. Obtient lindex de base 0 de la page dans le document auquel cet événement se rapporte. Renvoie une valeur négative sil ny a pas de page associée ou si la page a été supprimée lors de la redistribution en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ Obtient l'index de base 0 de la page dans le document auquel cet événement se 
 public int PageIndex { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### Voir également
 
 * class [PageLayoutCallbackArgs](../)
-* espace de noms [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

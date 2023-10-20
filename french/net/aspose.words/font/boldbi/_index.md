@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Vrai si le texte de droite à gauche est formaté en gras.
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: Aspose.Words pour .NET
+description: Font BoldBi propriété. Vrai si le texte de droite à gauche est formaté en gras en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ Vrai si le texte de droite à gauche est formaté en gras.
 public bool BoldBi { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des ensembles distincts de paramètres de police pour le texte de droite à gauche et de droite à gauche.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

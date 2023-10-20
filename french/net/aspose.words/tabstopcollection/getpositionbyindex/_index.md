@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetPositionByIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Obtient la position en points du taquet de tabulation à lindex spécifié.
+linktitle: GetPositionByIndex
+articleTitle: GetPositionByIndex
+second_title: Aspose.Words pour .NET
+description: TabStopCollection GetPositionByIndex méthode. Obtient la position en points du taquet de tabulation à lindex spécifié en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -22,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 La position du taquet de tabulation.
 
-### Exemples
+## Exemples
 
 Montre comment trouver un onglet, s'arrêter à son index et vérifier sa position.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

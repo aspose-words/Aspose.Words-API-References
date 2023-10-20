@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInRelativeContext
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldRef propriété. Obtient ou définit sil faut insérer le numéro de paragraphe du paragraphe référencé dans un contexte relatif.
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: Aspose.Words pour .NET
+description: FieldRef InsertParagraphNumberInRelativeContext propriété. Obtient ou définit sil faut insérer le numéro de paragraphe du paragraphe référencé dans un contexte relatif en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer le numéro de paragraphe du paragraphe r�
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des champs REF pour référencer des signets.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Voir également
 
 * class [FieldRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

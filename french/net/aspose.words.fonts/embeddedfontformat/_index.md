@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.EmbeddedFontFormat énumération. Spécifie le format dune police incorporée particulière à lintérieurFontInfo objet.
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.EmbeddedFontFormat énumération. Spécifie le format dune police incorporée particulière à lintérieurFontInfo objet en C#.
 type: docs
 weight: 2850
 url: /fr/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Spécifie le format de fichier Embedded OpenType (EOT). |
 | OpenType | `1` | Spécifie la police, intégrée en tant que copie simple du fichier de police OpenType (TrueType). |
 
-### Exemples
+## Exemples
 
 Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

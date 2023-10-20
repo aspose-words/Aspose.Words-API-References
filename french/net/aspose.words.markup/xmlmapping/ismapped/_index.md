@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XmlMapping propriété. Retoursvrai si la balise du document structuré parent est mappée avec succès aux données XML.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words pour .NET
+description: XmlMapping IsMapped propriété. Retoursvrai si la balise du document structuré parent est mappée avec succès aux données XML en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ Retours`vrai` si la balise du document structuré parent est mappée avec succè
 public bool IsMapped { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des mappages XML pour les parties XML personnalisées.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Voir également
 
 * class [XmlMapping](../)
-* espace de noms [Aspose.Words.Markup](../../xmlmapping/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

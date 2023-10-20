@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.Field classe. Représente un champ de document Microsoft Word.
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.Field classe. Représente un champ de document Microsoft Word en C#.
 type: docs
 weight: 1510
 url: /fr/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Un champ dans un document Word est une structure complexe composée de plusieurs nœuds qui incluent le début du champ, le code de champ , le séparateur de champ, le résultat du champ et la fin du champ. Les champs peuvent être imbriqués, contenir un contenu riche et span plusieurs paragraphes ou sections dans un document. Le`Field` La classe est un objet "façade" qui fournit des propriétés et des méthodes qui permettent de travailler avec un champ comme un objet unique.
 
@@ -56,7 +58,7 @@ Vous pouvez obtenir la version en texte brut du code du champ en utilisant le[`G
 
 Vous ne créez pas d'instances de`Field` classe directement. Pour créer un nouveau champ, utilisez le[`InsertField`](../../aspose.words/documentbuilder/insertfield/) méthode.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ dans un document à l'aide d'un code de champ.
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

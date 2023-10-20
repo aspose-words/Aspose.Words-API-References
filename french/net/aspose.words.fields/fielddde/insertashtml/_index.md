@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsHtml
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDde propriété. Obtient ou définit sil faut insérer lobjet lié sous forme de texte au format HTML.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words pour .NET
+description: FieldDde InsertAsHtml propriété. Obtient ou définit sil faut insérer lobjet lié sous forme de texte au format HTML en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fielddde/insertashtml/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer l'objet lié sous forme de texte au forma
 public bool InsertAsHtml { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDde](../)
-* espace de noms [Aspose.Words.Fields](../../fielddde/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

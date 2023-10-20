@@ -1,7 +1,9 @@
 ---
 title: Document.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. RetoursDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Document NodeType propriété. RetoursDocument  en C#.
 type: docs
 weight: 280
 url: /fr/net/aspose.words/document/nodetype/
@@ -14,7 +16,7 @@ RetoursDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

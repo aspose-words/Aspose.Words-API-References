@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Permet daccéder aux propriétés de formatage de liste dun style de paragraphe.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words pour .NET
+description: Style ListFormat propriété. Permet daccéder aux propriétés de formatage de liste dun style de paragraphe en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ Permet d'accéder aux propriétés de formatage de liste d'un style de paragraph
 public ListFormat ListFormat { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'est valide que pour les styles de paragraphe. Pour les autres types de style, cette propriété renvoie`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment créer et utiliser un style de paragraphe avec une mise en forme de liste.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

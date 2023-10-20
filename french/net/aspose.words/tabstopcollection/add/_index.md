@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Ajoute ou remplace un taquet de tabulation dans la collection.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: TabStopCollection Add méthode. Ajoute ou remplace un taquet de tabulation dans la collection en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 Ajoute ou remplace un taquet de tabulation dans la collection.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | Un objet de taquet de tabulation à ajouter. |
 
-### Remarques
+## Remarques
 
 Si un taquet de tabulation existe déjà à la position spécifiée, il est remplacé.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des taquets de tabulation personnalisés à un document.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 Ajoute ou remplace un taquet de tabulation dans la collection.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | UN[`TabAlignment`](../../tabalignment/) la valeur that spécifie l'alignement du texte au niveau du taquet de tabulation. |
 | leader | TabLeader | UN[`TabLeader`](../../tableader/) value that spécifie le type de ligne de repère affichée sous le caractère de tabulation. |
 
-### Remarques
+## Remarques
 
 Si un taquet de tabulation existe déjà à la position spécifiée, il est remplacé.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des taquets de tabulation personnalisés à un document.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

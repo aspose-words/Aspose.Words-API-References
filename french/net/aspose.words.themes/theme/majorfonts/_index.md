@@ -1,7 +1,9 @@
 ---
 title: Theme.MajorFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Theme propriété. Permet de spécifier lensemble des polices principales pour différentes langues.
+linktitle: MajorFonts
+articleTitle: MajorFonts
+second_title: Aspose.Words pour .NET
+description: Theme MajorFonts propriété. Permet de spécifier lensemble des polices principales pour différentes langues en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.themes/theme/majorfonts/
@@ -14,7 +16,7 @@ Permet de spécifier l'ensemble des polices principales pour différentes langue
 public ThemeFonts MajorFonts { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* espace de noms [Aspose.Words.Themes](../../theme/)
+* espace de noms [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../../)
-
-

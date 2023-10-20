@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Obtient le nœud suivant immédiatement ce nœud.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words pour .NET
+description: Node NextSibling propriété. Obtient le nœud suivant immédiatement ce nœud en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ Obtient le nœud suivant immédiatement ce nœud.
 public Node NextSibling { get; }
 ```
 
-### Remarques
+## Remarques
 
 S'il n'y a pas de nœud suivant, un`nul` est renvoyé.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la propriété NextSibling d’un nœud pour énumérer ses enfants immédiats.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Voir également
 
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

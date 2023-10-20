@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomBehavior
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant le type de zoom à appliquer lorsquun document est ouvert avec une visionneuse PDF.
+linktitle: ZoomBehavior
+articleTitle: ZoomBehavior
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions ZoomBehavior propriété. Obtient ou définit une valeur déterminant le type de zoom à appliquer lorsquun document est ouvert avec une visionneuse PDF en C#.
 type: docs
 weight: 320
 url: /fr/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur déterminant le type de zoom à appliquer lorsqu'
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estNone , c'est-à-dire qu'aucun ajustement n'est appliqué.
 
-### Exemples
+## Exemples
 
 Montre comment définir le zoom par défaut qu'un lecteur applique lors de l'ouverture d'un document PDF rendu.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

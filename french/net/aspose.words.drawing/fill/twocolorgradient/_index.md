@@ -1,12 +1,14 @@
 ---
 title: Fill.TwoColorGradient
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill méthode. Définit le remplissage spécifié sur un dégradé bicolore.
+linktitle: TwoColorGradient
+articleTitle: TwoColorGradient
+second_title: Aspose.Words pour .NET
+description: Fill TwoColorGradient méthode. Définit le remplissage spécifié sur un dégradé bicolore en C#.
 type: docs
-weight: 270
+weight: 260
 url: /fr/net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 Définit le remplissage spécifié sur un dégradé bicolore.
 
@@ -19,7 +21,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | Le style dégradé[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | La variante dégradée[`GradientVariant`](../../gradientvariant/) |
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -62,12 +64,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 Définit le remplissage spécifié sur un dégradé bicolore.
 
@@ -83,7 +85,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | Le style dégradé[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | La variante dégradée[`GradientVariant`](../../gradientvariant/) |
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -126,7 +128,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

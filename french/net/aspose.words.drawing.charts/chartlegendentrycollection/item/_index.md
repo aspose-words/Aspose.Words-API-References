@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartLegendEntryCollection propriété. RetoursChartLegendEntry pour lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ChartLegendEntryCollection Item propriété. RetoursChartLegendEntry pour lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
@@ -18,7 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

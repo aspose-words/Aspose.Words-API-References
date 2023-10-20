@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ZoomPercent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ViewOptions propriété. Obtient ou définit le pourcentage entre 10 et 500 auquel vous souhaitez afficher votre document.
+linktitle: ZoomPercent
+articleTitle: ZoomPercent
+second_title: Aspose.Words pour .NET
+description: ViewOptions ZoomPercent propriété. Obtient ou définit le pourcentage entre 10 et 500 auquel vous souhaitez afficher votre document en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/viewoptions/zoompercent/
@@ -14,13 +16,13 @@ Obtient ou définit le pourcentage (entre 10 et 500) auquel vous souhaitez affic
 public int ZoomPercent { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la valeur est 0, cette propriété utilise 100 à la place, sinon si la valeur est inférieure à 10 ou supérieure à 500 , cette propriété renvoie.
 
 Bien qu'Aspose.Words soit capable de lire et d'écrire cette option, son utilisation est spécifique à l'application. Par exemple MS Word 2013 ne respecte pas la valeur de cette option.
 
-### Exemples
+## Exemples
 
 Montre comment définir un facteur de zoom personnalisé, que les anciennes versions de Microsoft Word appliqueront à un document lors du chargement.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ### Voir également
 
 * class [ViewOptions](../)
-* espace de noms [Aspose.Words.Settings](../../viewoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

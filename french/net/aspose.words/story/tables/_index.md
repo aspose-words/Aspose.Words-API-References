@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Story propriété. Obtient une collection de tables qui sont des enfants immédiats de lhistoire.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words pour .NET
+description: Story Tables propriété. Obtient une collection de tables qui sont des enfants immédiats de lhistoire en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ Obtient une collection de tables qui sont des enfants immédiats de l'histoire.
 public TableCollection Tables { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* espace de noms [Aspose.Words](../../story/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

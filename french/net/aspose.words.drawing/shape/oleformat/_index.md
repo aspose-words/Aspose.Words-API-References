@@ -1,7 +1,9 @@
 ---
 title: Shape.OleFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Fournit un accès aux données OLE dune forme. Pour une forme qui nest pas un objet OLE ou un contrôle ActiveX renvoienul .
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words pour .NET
+description: Shape OleFormat propriété. Fournit un accès aux données OLE dune forme. Pour une forme qui nest pas un objet OLE ou un contrôle ActiveX renvoienul  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/shape/oleformat/
@@ -14,7 +16,7 @@ Fournit un accès aux données OLE d'une forme. Pour une forme qui n'est pas un 
 public OleFormat OleFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir toutes les formes d’un document.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [OleFormat](../../oleformat/)
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

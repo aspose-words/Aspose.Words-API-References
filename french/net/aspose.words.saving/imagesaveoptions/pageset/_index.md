@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit les pages à restituer. La valeur par défaut est toutes les pages du document.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions PageSet propriété. Obtient ou définit les pages à restituer. La valeur par défaut est toutes les pages du document en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ Obtient ou définit les pages à restituer. La valeur par défaut est toutes les
 public PageSet PageSet { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'a d'effet que lors du rendu des pages du document. Cette propriété est ignorée lors du rendu des formes en images.
 
-### Exemples
+## Exemples
 
 Montre comment extraire des pages en fonction de plages de pages exactes.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

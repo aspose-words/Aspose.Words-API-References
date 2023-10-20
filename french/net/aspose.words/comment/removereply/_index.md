@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment méthode. Supprime la réponse spécifiée à ce commentaire.
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: Aspose.Words pour .NET
+description: Comment RemoveReply méthode. Supprime la réponse spécifiée à ce commentaire en C#.
 type: docs
-weight: 170
+weight: 140
 url: /fr/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | Le nœud de commentaire de la réponse de suppression. |
 
-### Remarques
+## Remarques
 
 Tous les nœuds constitutifs de la réponse seront supprimés du document.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les réponses aux commentaires.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Voir également
 
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

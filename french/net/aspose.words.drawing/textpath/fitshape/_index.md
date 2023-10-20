@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitShape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Définit si le texte sadapte au cadre de délimitation dune forme.
+linktitle: FitShape
+articleTitle: FitShape
+second_title: Aspose.Words pour .NET
+description: TextPath FitShape propriété. Définit si le texte sadapte au cadre de délimitation dune forme en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/textpath/fitshape/
@@ -14,11 +16,11 @@ Définit si le texte s'adapte au cadre de délimitation d'une forme.
 public bool FitShape { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

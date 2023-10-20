@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontFallbackSettings classe. Spécifie les paramètres du mécanisme de secours des polices.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontFallbackSettings classe. Spécifie les paramètres du mécanisme de secours des polices en C#.
 type: docs
 weight: 2900
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | Nom | La description |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Crée automatiquement les paramètres de secours en analysant les polices disponibles. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Charge les paramètres de secours à partir du flux XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Charge les paramètres de secours des polices à partir du fichier XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Charge les paramètres de secours à partir du flux XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Charge les paramètres de secours des polices à partir du fichier XML. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Charge les paramètres de secours prédéfinis qui imitent la solution de secours de Microsoft Word et utilisent les polices Microsoft Office. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Charge les paramètres de secours prédéfinis qui utilisent les polices Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Enregistre les paramètres de secours actuels dans stream. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Enregistre les paramètres de secours actuels dans un fichier. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Enregistre les paramètres de secours actuels dans stream. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Enregistre les paramètres de secours actuels dans un fichier. |
 
-### Remarques
+## Remarques
 
 Par défaut, les paramètres de secours sont initialisés avec des paramètres prédéfinis qui imitent la solution de secours de Microsoft Word.
 
-### Exemples
+## Exemples
 
 Montre comment distribuer les polices de secours sur les plages de codes de caractères Unicode.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

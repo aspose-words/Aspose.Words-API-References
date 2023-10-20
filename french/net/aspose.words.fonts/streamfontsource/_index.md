@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.StreamFontSource classe. Classe de base pour la source de police de flux définie par lutilisateur.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.StreamFontSource classe. Classe de base pour la source de police de flux définie par lutilisateur en C#.
 type: docs
 weight: 3040
 url: /fr/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Renvoie la liste des polices disponibles via cette source. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Cette méthode devrait ouvrir le flux avec les données de police à la demande. |
 
-### Remarques
+## Remarques
 
 Afin d'utiliser la source de police de flux, vous devez créer une classe dérivée à partir du`StreamFontSource` et assurer la mise en œuvre du[`OpenFontDataStream`](./openfontdatastream/) méthode.
 
@@ -40,7 +42,7 @@ Afin d'utiliser la source de police de flux, vous devez créer une classe dériv
 
 `StreamFontSource` peut être utile car cela permet de charger les données de police uniquement lorsqu'elles sont requises et de ne pas les stocker en mémoire pour le[`FontSettings`](../fontsettings/) durée de vie.
 
-### Exemples
+## Exemples
 
 Montre comment charger les polices à partir du flux.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

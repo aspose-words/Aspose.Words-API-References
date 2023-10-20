@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LetterRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit une plage de lettres à laquelle limite lindex.
+linktitle: LetterRange
+articleTitle: LetterRange
+second_title: Aspose.Words pour .NET
+description: FieldIndex LetterRange propriété. Obtient ou définit une plage de lettres à laquelle limite lindex en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fieldindex/letterrange/
@@ -14,7 +16,7 @@ Obtient ou définit une plage de lettres à laquelle limite l'index.
 public string LetterRange { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE et également modifier son apparence.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

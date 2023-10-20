@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroup
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.RevisionGroup classe. Représente un groupe de séquencesRevision objets.
+title: RevisionGroup Class
+linktitle: RevisionGroup
+articleTitle: RevisionGroup
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.RevisionGroup classe. Représente un groupe de séquencesRevision objets en C#.
 type: docs
 weight: 4780
 url: /fr/net/aspose.words/revisiongroup/
@@ -24,7 +26,7 @@ public class RevisionGroup
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Obtient le type de révisions incluses dans ce groupe. |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | Renvoie le texte inséré/supprimé/déplacé ou la description du changement de format. |
 
-### Exemples
+## Exemples
 
 Montre comment imprimer des informations sur un groupe de révisions dans un document.
 
@@ -44,5 +46,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

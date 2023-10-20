@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un champ de formulaire de case à cocher à la position actuelle.
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertCheckBox méthode. Insère un champ de formulaire de case à cocher à la position actuelle en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 Insère un champ de formulaire de case à cocher à la position actuelle.
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 Le nœud du champ de formulaire qui vient d’être inséré.
 
-### Remarques
+## Remarques
 
 Si vous spécifiez un nom pour le champ du formulaire, un signet est automatiquement créé avec le même nom.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des cases à cocher dans le document.
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 Insère un champ de formulaire de case à cocher à la position actuelle.
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 Le nœud du champ de formulaire qui vient d’être inséré.
 
-### Remarques
+## Remarques
 
 Si vous spécifiez un nom pour le champ du formulaire, un signet est automatiquement créé avec le même nom.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des cases à cocher dans le document.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

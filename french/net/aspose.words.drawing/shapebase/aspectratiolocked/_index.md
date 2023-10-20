@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Spécifie si les proportions de la forme sont verrouillées.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words pour .NET
+description: ShapeBase AspectRatioLocked propriété. Spécifie si les proportions de la forme sont verrouillées en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ Spécifie si les proportions de la forme sont verrouillées.
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut dépend du[`ShapeType`](../../shapetype/) , pour leImage c'est`vrai` mais pour les autres types de forme, c'est le cas`FAUX`.
 
 A un effet uniquement sur les formes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment verrouiller/déverrouiller les proportions d’une forme.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

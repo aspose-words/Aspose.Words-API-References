@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.DuplicateStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CleanupOptions propriété. Obtient/définit un indicateur indiquant si les styles en double doivent être supprimés du document. La valeur par défaut estFAUX .
+linktitle: DuplicateStyle
+articleTitle: DuplicateStyle
+second_title: Aspose.Words pour .NET
+description: CleanupOptions DuplicateStyle propriété. Obtient/définit un indicateur indiquant si les styles en double doivent être supprimés du document. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/cleanupoptions/duplicatestyle/
@@ -14,7 +16,7 @@ Obtient/définit un indicateur indiquant si les styles en double doivent être s
 public bool DuplicateStyle { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les styles dupliqués du document.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### Voir également
 
 * class [CleanupOptions](../)
-* espace de noms [Aspose.Words](../../cleanupoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

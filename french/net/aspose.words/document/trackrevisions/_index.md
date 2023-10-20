@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. True si les modifications sont suivies lorsque ce document est modifié dans Microsoft Word.
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: Aspose.Words pour .NET
+description: Document TrackRevisions propriété. True si les modifications sont suivies lorsque ce document est modifié dans Microsoft Word en C#.
 type: docs
 weight: 430
 url: /fr/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ True si les modifications sont suivies lorsque ce document est modifié dans Mic
 public bool TrackRevisions { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La définition de cette option indique uniquement à Microsoft Word si le suivi des modifications est activé ou désactivé. Cette propriété n'a aucun effet sur les modifications apportées au document que vous apportez par programme via Aspose.Words.
 
 Si vous souhaitez suivre automatiquement les modifications au fur et à mesure qu'elles sont apportées par programme par Aspose.Words à ce document, utilisez le[`StartTrackRevisions`](../starttrackrevisions/) méthode.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les révisions dans un document.
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteADO
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge méthode. Effectue un publipostage à partir dun objet ADO Recordset dans le document.
+linktitle: ExecuteADO
+articleTitle: ExecuteADO
+second_title: Aspose.Words pour .NET
+description: MailMerge ExecuteADO méthode. Effectue un publipostage à partir dun objet ADO Recordset dans le document en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.mailmerging/mailmerge/executeado/
@@ -18,7 +20,7 @@ public void ExecuteADO(object recordset)
 | --- | --- | --- |
 | recordset | Object | ADO Recordset ou objet Record. |
 
-### Remarques
+## Remarques
 
 Cette méthode est utile lorsque vous avez l'intention d'utiliser les classes Aspose.Words as COM à partir de code non managé tel qu'une application créée à l'aide de ASP ou Visual Basic 6.0.
 
@@ -26,7 +28,7 @@ Cette méthode ignore leRemoveUnusedRegions option.
 
 Pour plus d'informations, voir la description de[`Execute`](../execute/).
 
-### Exemples
+## Exemples
 
 ```csharp
 [VBScript]
@@ -101,7 +103,5 @@ private static Document CreateSourceDocADOMailMerge()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

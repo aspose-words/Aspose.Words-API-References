@@ -1,7 +1,9 @@
 ---
-title: FieldUserAddress.FieldUserAddress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldUserAddress constructeur. Default_Constructor
+title: FieldUserAddress
+linktitle: FieldUserAddress
+articleTitle: FieldUserAddress
+second_title: Aspose.Words pour .NET
+description: FieldUserAddress constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielduseraddress/fielduseraddress/
@@ -17,7 +19,5 @@ public FieldUserAddress()
 ### Voir également
 
 * class [FieldUserAddress](../)
-* espace de noms [Aspose.Words.Fields](../../fielduseraddress/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

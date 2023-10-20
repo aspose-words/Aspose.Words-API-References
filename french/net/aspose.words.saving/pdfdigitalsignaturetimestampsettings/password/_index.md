@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Password
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureTimestampSettings propriété. Mot de passe du serveur dhorodatage.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureTimestampSettings Password propriété. Mot de passe du serveur dhorodatage en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
@@ -14,11 +16,11 @@ Mot de passe du serveur d'horodatage.
 public string Password { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul` .
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

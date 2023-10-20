@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier la couleur à utiliser pour le contenu suppriméDeletion . La valeur par défaut estByAuthor .
+linktitle: DeletedTextColor
+articleTitle: DeletedTextColor
+second_title: Aspose.Words pour .NET
+description: RevisionOptions DeletedTextColor propriété. Permet de spécifier la couleur à utiliser pour le contenu suppriméDeletion . La valeur par défaut estByAuthor  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.layout/revisionoptions/deletedtextcolor/
@@ -14,7 +16,7 @@ Permet de spécifier la couleur à utiliser pour le contenu suppriméDeletion . 
 public RevisionColor DeletedTextColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

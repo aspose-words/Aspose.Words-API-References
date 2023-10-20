@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Replacing.IReplacingCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors dune opération de recherche et de remplacement.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Replacing.IReplacingCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors dune opération de recherche et de remplacement en C#.
 type: docs
 weight: 4630
 url: /fr/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | Nom | La description |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | Une méthode définie par l'utilisateur qui est appelée lors d'une opération de remplacement pour chaque correspondance trouvée juste avant qu'un remplacement ne soit effectué. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Une méthode définie par l'utilisateur qui est appelée lors d'une opération de remplacement pour chaque correspondance trouvée juste avant qu'un remplacement ne soit effectué. |
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les occurrences d'un modèle d'expression régulière par une autre chaîne, tout en suivant tous ces remplacements.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * espace de noms [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../)
-
-

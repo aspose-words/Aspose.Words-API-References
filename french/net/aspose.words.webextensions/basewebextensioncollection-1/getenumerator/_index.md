@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BaseWebExtensionCollection méthode. Renvoie un énumérateur qui peut parcourir une collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: BaseWebExtensionCollection GetEnumerator méthode. Renvoie un énumérateur qui peut parcourir une collection en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un énumérateur qui peut parcourir une collection.
 public IEnumerator<T> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection d’extensions Web d’un document.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* espace de noms [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

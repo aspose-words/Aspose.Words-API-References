@@ -1,7 +1,9 @@
 ---
-title: FieldCreateDate.FieldCreateDate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCreateDate constructeur. Default_Constructor
+title: FieldCreateDate
+linktitle: FieldCreateDate
+articleTitle: FieldCreateDate
+second_title: Aspose.Words pour .NET
+description: FieldCreateDate constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldcreatedate/fieldcreatedate/
@@ -17,7 +19,5 @@ public FieldCreateDate()
 ### Voir également
 
 * class [FieldCreateDate](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcreatedate/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

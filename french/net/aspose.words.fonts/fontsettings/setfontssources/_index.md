@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings méthode. Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de lintégration de polices.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words pour .NET
+description: FontSettings SetFontsSources méthode. Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de lintégration de polices en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | Tableau de sources contenant des polices TrueType. |
 
-### Remarques
+## Remarques
 
 Par défaut, Aspose.Words recherche les polices installées sur le système.
 
 La définition de cette propriété réinitialise le cache de toutes les polices précédemment chargées.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une source de polices à nos sources de polices existantes.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType et charge en outre le cache de recherche de polices précédemment enregistré .
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | Tableau de sources contenant des polices TrueType. |
 | cacheInputStream | Stream | Flux d’entrée avec cache de recherche de polices enregistré. |
 
-### Remarques
+## Remarques
 
 Le chargement du cache de recherche de polices précédemment enregistré accélérera le processus d'initialisation du cache de polices. C'est particulièrement utile lorsque l'accès aux sources de polices est compliqué (par exemple lorsque les polices sont chargées via le réseau).
 
@@ -100,7 +102,7 @@ Lors de l'enregistrement et du chargement du cache de recherche de polices, les 
 
 Il est fortement recommandé de fournir les mêmes sources de polices lors du chargement du cache qu'au moment où le cache a été enregistré. Toute modification des sources de polices (par exemple, ajout de nouvelles polices, déplacement de fichiers de polices ou modification de la clé de cache) peut conduire à une police inexacte . résolution par Aspose.Words.
 
-### Exemples
+## Exemples
 
 Montre comment accélérer le processus d’initialisation du cache de polices.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

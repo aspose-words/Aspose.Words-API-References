@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TextureIndex énumération. Spécifie la texture dombrage.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TextureIndex énumération. Spécifie la texture dombrage en C#.
 type: docs
 weight: 6450
 url: /fr/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Spécifie qu'aucun motif ne doit être utilisé sur la région ombrée actuelle (c'est-à-dire que le motif doit être un remplissage complet avec la couleur d'arrière-plan). |
 
-### Exemples
+## Exemples
 
 Montre comment décorer du texte avec des bordures et des ombrages.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

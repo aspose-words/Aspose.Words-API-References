@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInRelativeContext
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldStyleRef propriété. Obtient ou définit sil faut insérer le numéro de paragraphe du paragraphe référencé dans un contexte relatif.
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: Aspose.Words pour .NET
+description: FieldStyleRef InsertParagraphNumberInRelativeContext propriété. Obtient ou définit sil faut insérer le numéro de paragraphe du paragraphe référencé dans un contexte relatif en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer le numéro de paragraphe du paragraphe r�
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Voir également
 
 * class [FieldStyleRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldstyleref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

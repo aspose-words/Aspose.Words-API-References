@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Spécifie sil faut mettre à jour les champs avec lesale attribut.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words pour .NET
+description: LoadOptions UpdateDirtyFields propriété. Spécifie sil faut mettre à jour les champs avec lesale attribut en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ Spécifie s'il faut mettre à jour les champs avec le`sale` attribut.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une propriété spéciale pour mettre à jour le résultat du champ.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Voir également
 
 * class [LoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../loadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

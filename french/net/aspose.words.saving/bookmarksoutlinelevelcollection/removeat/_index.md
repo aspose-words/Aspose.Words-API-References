@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection méthode. Supprime un signet à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection RemoveAt méthode. Supprime un signet à lindex spécifié en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice de base zéro. |
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

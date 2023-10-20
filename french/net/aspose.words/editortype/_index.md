@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.EditorType énumération. Spécifie lensemble dalias possibles ou groupes dédition qui peuvent être utilisés comme alias pour déterminer si lutilisateur actuel doit être autorisé à modifier une seule plage définie par une plage modifiable dans un document.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.EditorType énumération. Spécifie lensemble dalias possibles ou groupes dédition qui peuvent être utilisés comme alias pour déterminer si lutilisateur actuel doit être autorisé à modifier une seule plage définie par une plage modifiable dans un document en C#.
 type: docs
 weight: 1450
 url: /fr/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | Spécifie que les utilisateurs associés au groupe Propriétaires doivent être autorisés à modifier les plages modifiables à l'aide de ce type d'édition lorsque la protection des documents est activée. |
 | Default | `0` | Identique àUnspecified . |
 
-### Exemples
+## Exemples
 
 Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

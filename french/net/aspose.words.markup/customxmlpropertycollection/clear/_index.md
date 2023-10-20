@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPropertyCollection méthode. Supprime tous les éléments de la collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: CustomXmlPropertyCollection Clear méthode. Supprime tous les éléments de la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

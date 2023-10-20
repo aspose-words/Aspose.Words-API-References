@@ -1,7 +1,9 @@
 ---
-title: Class OlePackage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.OlePackage classe. Permet daccéder aux propriétés du package OLE.
+title: OlePackage Class
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.OlePackage classe. Permet daccéder aux propriétés du package OLE en C#.
 type: docs
 weight: 1160
 url: /fr/net/aspose.words.drawing/olepackage/
@@ -23,11 +25,11 @@ public class OlePackage
 | [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Obtient ou définit le nom d'affichage du package OLE. |
 | [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Obtient ou définit le nom du fichier du package OLE. |
 
-### Remarques
+## Remarques
 
 Le package OLE est un moyen ancien et « non documenté » de stocker des objets incorporés si le gestionnaire OLE est inconnu. Les premières versions de Windows telles que Windows 3.1, 95 et 98 avaient une application Packager.exe qui pouvait être utilisée pour intégrer tout type de données dans un document. . Désormais, cette application est exclue de Windows mais MS Word et d'autres applications l'utilisent toujours pour intégrer des données si le gestionnaire OLE est manquant ou inconnu.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un objet OLE dans un document.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.PageCount
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient le nombre de pages du document calculé par lopération de mise en page la plus récente.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words pour .NET
+description: Document PageCount propriété. Obtient le nombre de pages du document calculé par lopération de mise en page la plus récente en C#.
 type: docs
 weight: 320
 url: /fr/net/aspose.words/document/pagecount/
@@ -14,7 +16,7 @@ Obtient le nombre de pages du document calculé par l'opération de mise en page
 public int PageCount { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment compter le nombre de pages dans le document.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

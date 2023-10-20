@@ -1,7 +1,9 @@
 ---
 title: FieldChar.FieldType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldChar propriété. Renvoie le type du champ.
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words pour .NET
+description: FieldChar FieldType propriété. Renvoie le type du champ en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldchar/fieldtype/
@@ -14,7 +16,7 @@ Renvoie le type du champ.
 public FieldType FieldType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec un nœud FieldStart.
 
@@ -46,7 +48,5 @@ field.Update();
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldChar](../)
-* espace de noms [Aspose.Words.Fields](../../fieldchar/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

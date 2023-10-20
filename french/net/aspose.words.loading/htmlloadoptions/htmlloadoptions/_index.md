@@ -1,7 +1,9 @@
 ---
-title: HtmlLoadOptions.HtmlLoadOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlLoadOptions constructeur. Initialise une nouvelle instance de cette classe avec les valeurs par défaut.
+title: HtmlLoadOptions
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words pour .NET
+description: HtmlLoadOptions constructeur. Initialise une nouvelle instance de cette classe avec les valeurs par défaut en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -14,7 +16,7 @@ Initialise une nouvelle instance de cette classe avec les valeurs par défaut.
 public HtmlLoadOptions()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment prendre en charge les commentaires conditionnels lors du chargement d’un document HTML.
 
@@ -39,12 +41,12 @@ else
 ### Voir également
 
 * class [HtmlLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../htmlloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions(*string*) {#constructor_2}
 
 Un raccourci pour initialiser une nouvelle instance de cette classe avec le mot de passe spécifié pour charger un document crypté.
 
@@ -56,7 +58,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | Le mot de passe pour ouvrir un document crypté. Peut être`nul` ou une chaîne vide. |
 
-### Exemples
+## Exemples
 
 Montre comment chiffrer un document HTML, puis l'ouvrir à l'aide d'un mot de passe.
 
@@ -89,12 +91,12 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### Voir également
 
 * class [HtmlLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../htmlloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 Un raccourci pour initialiser une nouvelle instance de cette classe avec des propriétés définies sur les valeurs spécifiées.
 
@@ -108,7 +110,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Le mot de passe pour ouvrir un document crypté. Peut être`nul` ou une chaîne vide. |
 | baseUri | String | Chaîne qui sera utilisée pour résoudre les URI relatifs en absolus. Peut être`nul` ou une chaîne vide. |
 
-### Exemples
+## Exemples
 
 Montre comment spécifier un URI de base lors de l'ouverture d'un document HTML.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../htmlloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

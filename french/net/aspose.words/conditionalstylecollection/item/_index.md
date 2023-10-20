@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyleCollection propriété. Récupère unConditionalStyle objet par type de style conditionnel.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ConditionalStyleCollection Item propriété. Récupère unConditionalStyle objet par type de style conditionnel en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ Récupère un[`ConditionalStyle`](../../conditionalstyle/) objet par type de sty
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* espace de noms [Aspose.Words](../../conditionalstylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | Index de base zéro du style conditionnel à récupérer. |
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espace de noms [Aspose.Words](../../conditionalstylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

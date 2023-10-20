@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.TaskPane classe. Représente un objet du volet des tâches du complément.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.TaskPane classe. Représente un objet du volet des tâches du complément en C#.
 type: docs
 weight: 6710
 url: /fr/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Représente un objet d'extension Web. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Spécifie la valeur de largeur par défaut pour cette instance du volet Office. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

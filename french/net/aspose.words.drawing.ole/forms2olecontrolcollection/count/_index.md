@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Forms2OleControlCollection propriété. Obtient le nombre dobjets dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: Forms2OleControlCollection Count propriété. Obtient le nombre dobjets dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'objets dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Voir également
 
 * class [Forms2OleControlCollection](../)
-* espace de noms [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* espace de noms [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Assemblée [Aspose.Words](../../../)
-
-

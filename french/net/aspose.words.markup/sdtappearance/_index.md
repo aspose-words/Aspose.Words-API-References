@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtAppearance énumération. Spécifie lapparence dune balise de document structuré.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.SdtAppearance énumération. Spécifie lapparence dune balise de document structuré en C#.
 type: docs
 weight: 3990
 url: /fr/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

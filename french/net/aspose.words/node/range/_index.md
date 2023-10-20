@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Renvoie unRange objet qui représente la partie dun document contenue dans ce nœud.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words pour .NET
+description: Node Range propriété. Renvoie unRange objet qui représente la partie dun document contenue dans ce nœud en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ Renvoie un[`Range`](../../range/) objet qui représente la partie d'un document 
 public Range Range { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer tous les nœuds d’une plage.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

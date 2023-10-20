@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Obtient ou définit lencodage qui sera utilisé pour charger un document HTML TXT ou CHM si lencodage nest pas spécifié à lintérieur du document. Peut êtrenul . La valeur par défaut estnul .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words pour .NET
+description: LoadOptions Encoding propriété. Obtient ou définit lencodage qui sera utilisé pour charger un document HTML TXT ou CHM si lencodage nest pas spécifié à lintérieur du document. Peut êtrenul . La valeur par défaut estnul  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ Obtient ou définit l'encodage qui sera utilisé pour charger un document HTML, 
 public Encoding Encoding { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété est utilisée uniquement lors du chargement de documents HTML, TXT ou CHM.
 
 Si l'encodage n'est pas spécifié à l'intérieur du document et que cette propriété est`nul`le système essaiera de détecter automatiquement l'encodage to .
 
-### Exemples
+## Exemples
 
 Montre comment définir l’encodage avec lequel ouvrir un document.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### Voir également
 
 * class [LoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../loadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

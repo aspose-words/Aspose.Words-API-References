@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OverrideTableStyleFontSizeAndJustification
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Spécifie comment la hiérarchie des styles du document est évaluée.
+linktitle: OverrideTableStyleFontSizeAndJustification
+articleTitle: OverrideTableStyleFontSizeAndJustification
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions OverrideTableStyleFontSizeAndJustification propriété. Spécifie comment la hiérarchie des styles du document est évaluée en C#.
 type: docs
 weight: 380
 url: /fr/net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/
@@ -17,7 +19,5 @@ public bool OverrideTableStyleFontSizeAndJustification { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

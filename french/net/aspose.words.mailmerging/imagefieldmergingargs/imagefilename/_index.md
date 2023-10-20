@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageFieldMergingArgs propriété. Définit le nom de fichier de limage que le moteur de publipostage doit insérer dans le document.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words pour .NET
+description: ImageFieldMergingArgs ImageFileName propriété. Définit le nom de fichier de limage que le moteur de publipostage doit insérer dans le document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ Définit le nom de fichier de l'image que le moteur de publipostage doit insére
 public string ImageFileName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Voir également
 
 * class [ImageFieldMergingArgs](../)
-* espace de noms [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

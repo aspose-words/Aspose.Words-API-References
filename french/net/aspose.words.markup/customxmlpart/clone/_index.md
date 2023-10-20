@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPart méthode. Crée une copie suffisamment profonde de lobjet. Ne duplique pas les octets duData valeur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: CustomXmlPart Clone méthode. Crée une copie suffisamment profonde de lobjet. Ne duplique pas les octets duData valeur en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/customxmlpart/clone/
@@ -14,7 +16,7 @@ Crée une copie "suffisamment profonde" de l'objet. Ne duplique pas les octets d
 public CustomXmlPart Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré avec des données XML personnalisées.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Voir également
 
 * class [CustomXmlPart](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

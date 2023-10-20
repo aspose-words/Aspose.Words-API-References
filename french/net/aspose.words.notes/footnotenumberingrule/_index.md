@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Notes.FootnoteNumberingRule énumération. Détermine quand la numérotation automatique des notes de bas de page ou des notes de fin redémarre.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule énumération. Détermine quand la numérotation automatique des notes de bas de page ou des notes de fin redémarre en C#.
 type: docs
 weight: 4270
 url: /fr/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | La numérotation redémarre à chaque page. Valable uniquement pour les notes de bas de page. |
 | Default | `0` | ÉgalContinuous . |
 
-### Exemples
+## Exemples
 
 Montre comment redémarrer la numérotation des notes de bas de page/notes de fin à certains endroits du document.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * espace de noms [Aspose.Words.Notes](../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToScale
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeRendererBase méthode. Rend la forme dans unGraphics objet à une échelle spécifiée.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words pour .NET
+description: NodeRendererBase RenderToScale méthode. Rend la forme dans unGraphics objet à une échelle spécifiée en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.rendering/noderendererbase/rendertoscale/
@@ -25,7 +27,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 La largeur et la hauteur (en unités mondiales) de la forme rendue.
 
-### Exemples
+## Exemples
 
 Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
 
@@ -135,7 +137,5 @@ private class ShapeForm : Form
 ### Voir également
 
 * class [NodeRendererBase](../)
-* espace de noms [Aspose.Words.Rendering](../../noderendererbase/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

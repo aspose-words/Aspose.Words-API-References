@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.SubAddress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldHyperlink propriété. Obtient ou définit un emplacement dans le fichier tel quun signet où ce lien hypertexte saute.
+linktitle: SubAddress
+articleTitle: SubAddress
+second_title: Aspose.Words pour .NET
+description: FieldHyperlink SubAddress propriété. Obtient ou définit un emplacement dans le fichier tel quun signet où ce lien hypertexte saute en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -14,7 +16,7 @@ Obtient ou définit un emplacement dans le fichier, tel qu'un signet, où ce lie
 public string SubAddress { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs HYPERLINK pour créer des liens vers des documents dans le système de fichiers local.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Voir également
 
 * class [FieldHyperlink](../)
-* espace de noms [Aspose.Words.Fields](../../fieldhyperlink/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

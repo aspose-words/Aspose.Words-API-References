@@ -1,7 +1,9 @@
 ---
 title: TextPath.Underline
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Vrai si la police est soulignée.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words pour .NET
+description: TextPath Underline propriété. Vrai si la police est soulignée en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.drawing/textpath/underline/
@@ -14,11 +16,11 @@ Vrai si la police est soulignée.
 public bool Underline { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

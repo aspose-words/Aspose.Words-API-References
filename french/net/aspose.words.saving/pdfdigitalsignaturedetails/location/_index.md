@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureDetails propriété. Obtient ou définit lemplacement de la signature.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureDetails Location propriété. Obtient ou définit lemplacement de la signature en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ Obtient ou définit l'emplacement de la signature.
 public string Location { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul` .
 
-### Exemples
+## Exemples
 
 Montre comment signer un document PDF généré.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Voir également
 
 * class [PdfDigitalSignatureDetails](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

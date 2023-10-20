@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TopMargin
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit la distance en points entre le bord supérieur de la page et la limite supérieure du corps du texte.
+linktitle: TopMargin
+articleTitle: TopMargin
+second_title: Aspose.Words pour .NET
+description: PageSetup TopMargin propriété. Renvoie ou définit la distance en points entre le bord supérieur de la page et la limite supérieure du corps du texte en C#.
 type: docs
 weight: 440
 url: /fr/net/aspose.words/pagesetup/topmargin/
@@ -14,7 +16,7 @@ Renvoie ou définit la distance (en points) entre le bord supérieur de la page 
 public double TopMargin { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

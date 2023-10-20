@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Donne accès à la collection de morceaux de texte tapés à lintérieur du paragraphe.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words pour .NET
+description: Paragraph Runs propriété. Donne accès à la collection de morceaux de texte tapés à lintérieur du paragraphe en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ Donne accès à la collection de morceaux de texte tapés à l'intérieur du par
 public RunCollection Runs { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer le type de révision d’un nœud en ligne.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

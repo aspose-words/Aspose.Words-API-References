@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableSubstitutionRule méthode. Enregistre les paramètres de substitution de table actuels dans un fichier.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words pour .NET
+description: TableSubstitutionRule Save méthode. Enregistre les paramètres de substitution de table actuels dans un fichier en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Enregistre les paramètres de substitution de table actuels dans un fichier.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Nom du fichier de sortie. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux tables de substitution de polices pour Windows et Linux.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Voir également
 
 * class [TableSubstitutionRule](../)
-* espace de noms [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Enregistre les paramètres de substitution de table actuels dans stream.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Flux de sortie. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux tables de substitution de polices pour Windows et Linux.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Voir également
 
 * class [TableSubstitutionRule](../)
-* espace de noms [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInsertRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words pour .NET
+description: Paragraph IsInsertRevision propriété. Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/paragraph/isinsertrevision/
@@ -14,7 +16,7 @@ Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suiv
 public bool IsInsertRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec des paragraphes de révision.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell propriété. Renvoie la ligne parent de la cellule.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words pour .NET
+description: Cell ParentRow propriété. Renvoie la ligne parent de la cellule en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ Renvoie la ligne parent de la cellule.
 public Row ParentRow { get; }
 ```
 
-### Remarques
+## Remarques
 
 Équivalent àFirstNonMarkupParentNode jeté à[`Row`](../../row/).
 
-### Exemples
+## Exemples
 
 Montre comment dresser une table pour rester ensemble sur la même page.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* espace de noms [Aspose.Words.Tables](../../cell/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

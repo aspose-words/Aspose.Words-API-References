@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPropertyCollection méthode. Retoursvrai si une propriété avec le nom spécifié existe dans la collection.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words pour .NET
+description: DocumentPropertyCollection Contains méthode. Retoursvrai si une propriété avec le nom spécifié existe dans la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `vrai` si la propriété existe dans la collection ;`FAUX` sinon.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés personnalisées d'un document.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [DocumentPropertyCollection](../)
-* espace de noms [Aspose.Words.Properties](../../documentpropertycollection/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

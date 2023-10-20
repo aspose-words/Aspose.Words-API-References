@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la quantité despacement en points avant le paragraphe.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat SpaceBefore propriété. Obtient ou définit la quantité despacement en points avant le paragraphe en C#.
 type: docs
 weight: 320
 url: /fr/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
 
-### Remarques
+## Remarques
 
 N'a aucun effet lorsque[`SpaceBeforeAuto`](../spacebeforeauto/) est`vrai`.
 
 Les valeurs valides vont de 0 à 1 584 inclus.
 
-### Exemples
+## Exemples
 
 Montre comment définir l’espacement automatique des paragraphes.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

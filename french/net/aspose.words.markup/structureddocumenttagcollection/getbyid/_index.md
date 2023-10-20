@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetById
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagCollection méthode. Renvoie la balise du document structuré par identifiant.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagCollection GetById méthode. Renvoie la balise du document structuré par identifiant en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetById(int id)
 | --- | --- | --- |
 | id | Int32 | L’identifiant de la balise du document structuré. |
 
-### Remarques
+## Remarques
 
 Renvoie null si la balise de document structuré avec l'identifiant spécifié est introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir une balise de document structuré.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

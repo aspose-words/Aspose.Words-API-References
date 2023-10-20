@@ -1,7 +1,9 @@
 ---
-title: FieldSkipIf.FieldSkipIf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSkipIf constructeur. Default_Constructor
+title: FieldSkipIf
+linktitle: FieldSkipIf
+articleTitle: FieldSkipIf
+second_title: Aspose.Words pour .NET
+description: FieldSkipIf constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldskipif/fieldskipif/
@@ -17,7 +19,5 @@ public FieldSkipIf()
 ### Voir également
 
 * class [FieldSkipIf](../)
-* espace de noms [Aspose.Words.Fields](../../fieldskipif/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

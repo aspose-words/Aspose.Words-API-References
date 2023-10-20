@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase propriété. Obtient cette instance.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: DocumentBase Document propriété. Obtient cette instance en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### Voir également
 
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cette balise de document structuré.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart Id propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cette balise de document structuré en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ Spécifie un identifiant numérique persistant unique en lecture seule pour cett
 public int Id { get; }
 ```
 
-### Remarques
+## Remarques
 
 L'attribut Id doit suivre ces règles :
 
@@ -24,7 +26,7 @@ L'attribut Id doit suivre ces règles :
 * Pendant la balise de document structuré autonomeINodeCloningListener)le nouvel ID unique de l'opération sera généré pour le nœud de balise de document structuré cloné.
 * Si l'ID n'est pas spécifié dans le document source, alors le nœud de balise du document structuré doit se voir attribuer un nouvel identifiant unique lorsque le document est chargé.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Voir également
 
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

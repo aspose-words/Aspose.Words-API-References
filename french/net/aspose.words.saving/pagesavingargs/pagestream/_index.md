@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSavingArgs propriété. Permet de spécifier le flux dans lequel la page du document sera enregistrée.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words pour .NET
+description: PageSavingArgs PageStream propriété. Permet de spécifier le flux dans lequel la page du document sera enregistrée en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ Permet de spécifier le flux dans lequel la page du document sera enregistrée.
 public Stream PageStream { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet d'enregistrer les pages du document dans des flux plutôt que dans des fichiers.
 
@@ -22,7 +24,7 @@ La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , la page du
 
 Si les deux`PageStream` et[`PageFileName`](../pagefilename/) sont définis, alors PageStream sera utilisé.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un rappel pour enregistrer un document au format HTML page par page.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Voir également
 
 * class [PageSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../pagesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceRight
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la distance entre la droite du tableau et le texte environnant en points.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words pour .NET
+description: Table DistanceRight propriété. Obtient ou définit la distance entre la droite du tableau et le texte environnant en points en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.tables/table/distanceright/
@@ -14,7 +16,7 @@ Obtient ou définit la distance entre la droite du tableau et le texte environna
 public double DistanceRight { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la distance entre les limites du tableau et le texte.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

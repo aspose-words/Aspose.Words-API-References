@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Obtient ou définitExportFontFormat utilisé pour lexportation de polices. La valeur par défaut estWoff .
+linktitle: FontFormat
+articleTitle: FontFormat
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions FontFormat propriété. Obtient ou définitExportFontFormat utilisé pour lexportation de polices. La valeur par défaut estWoff  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -14,7 +16,7 @@ Obtient ou définit[`ExportFontFormat`](../../exportfontformat/) utilisé pour l
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les polices uniquement de la machine cible lors de l'enregistrement d'un document au format HTML.
 
@@ -45,7 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

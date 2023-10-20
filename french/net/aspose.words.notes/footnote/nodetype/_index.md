@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Footnote propriété. RetoursFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Footnote NodeType propriété. RetoursFootnote  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ RetoursFootnote .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* espace de noms [Aspose.Words.Notes](../../footnote/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

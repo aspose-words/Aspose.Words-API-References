@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.EditableRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRangeStart propriété. Obtient lobjet de façade qui encapsule le début et la fin de cette plage modifiable.
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words pour .NET
+description: EditableRangeStart EditableRange propriété. Obtient lobjet de façade qui encapsule le début et la fin de cette plage modifiable en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/editablerangestart/editablerange/
@@ -14,7 +16,7 @@ Obtient l'objet de façade qui encapsule le début et la fin de cette plage modi
 public EditableRange EditableRange { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRange](../../editablerange/)
 * class [EditableRangeStart](../)
-* espace de noms [Aspose.Words](../../editablerangestart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCollection méthode. Supprime tous les champs de cette collection du document et de cette collection ellemême.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: FieldCollection Clear méthode. Supprime tous les champs de cette collection du document et de cette collection ellemême en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldcollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les champs de cette collection du document et de cette collection 
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des champs d’une collection de champs.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(0, fields.Count);
 ### Voir également
 
 * class [FieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

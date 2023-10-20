@@ -1,9 +1,11 @@
 ---
 title: CellFormat.TopPadding
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CellFormat propriété. Renvoie ou définit la quantité despace en points à ajouter audessus du contenu de la cellule.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words pour .NET
+description: CellFormat TopPadding propriété. Renvoie ou définit la quantité despace en points à ajouter audessus du contenu de la cellule en C#.
 type: docs
-weight: 110
+weight: 100
 url: /fr/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -14,7 +16,7 @@ Renvoie ou définit la quantité d'espace (en points) à ajouter au-dessus du co
 public double TopPadding { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater des cellules avec un générateur de documents.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Voir également
 
 * class [CellFormat](../)
-* espace de noms [Aspose.Words.Tables](../../cellformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

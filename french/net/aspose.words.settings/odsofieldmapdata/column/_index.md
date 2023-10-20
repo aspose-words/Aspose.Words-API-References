@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData propriété. Spécifie lindex de base zéro de la colonne dans une source de données externe qui doit être mappé au nom local dun champ MERGEFIELD spécifique. La valeur par défaut est 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapData Column propriété. Spécifie lindex de base zéro de la colonne dans une source de données externe qui doit être mappé au nom local dun champ MERGEFIELD spécifique. La valeur par défaut est 0 en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ Spécifie l'index de base zéro de la colonne dans une source de données extern
 public int Column { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoFieldMapData](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

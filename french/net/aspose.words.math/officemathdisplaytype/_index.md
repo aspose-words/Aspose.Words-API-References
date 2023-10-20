@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Math.OfficeMathDisplayType énumération. Spécifie le type de format daffichage de léquation.
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Math.OfficeMathDisplayType énumération. Spécifie le type de format daffichage de léquation en C#.
 type: docs
 weight: 4130
 url: /fr/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | Office Math est affiché sur sa propre ligne. |
 | Inline | `1` | Office Math s'affiche en ligne avec le texte. |
 
-### Exemples
+## Exemples
 
 Montre comment définir le formatage de l’affichage des mathématiques de bureau.
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * espace de noms [Aspose.Words.Math](../../aspose.words.math/)
 * Assemblée [Aspose.Words](../../)
-
-

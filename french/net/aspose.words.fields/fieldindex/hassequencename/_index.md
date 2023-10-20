@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasSequenceName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient une valeur indiquant si une séquence doit être utilisée lors de la création du résultat du champ.
+linktitle: HasSequenceName
+articleTitle: HasSequenceName
+second_title: Aspose.Words pour .NET
+description: FieldIndex HasSequenceName propriété. Obtient une valeur indiquant si une séquence doit être utilisée lors de la création du résultat du champ en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldindex/hassequencename/
@@ -14,7 +16,7 @@ Obtient une valeur indiquant si une séquence doit être utilisée lors de la cr
 public bool HasSequenceName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties en combinant les champs INDEX et SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

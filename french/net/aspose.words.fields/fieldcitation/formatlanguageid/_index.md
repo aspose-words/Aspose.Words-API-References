@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.FormatLanguageId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCitation propriété. Obtient ou définit lID de langue utilisé conjointement avec le style bibliographique spécifié pour formater la citation dans le document.
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: Aspose.Words pour .NET
+description: FieldCitation FormatLanguageId propriété. Obtient ou définit lID de langue utilisé conjointement avec le style bibliographique spécifié pour formater la citation dans le document en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldcitation/formatlanguageid/
@@ -14,7 +16,7 @@ Obtient ou définit l'ID de langue utilisé conjointement avec le style bibliogr
 public string FormatLanguageId { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les champs CITATION et BIBLIOGRAPHIE.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Voir également
 
 * class [FieldCitation](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcitation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

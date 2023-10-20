@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Forms2OleControlCollection propriété. ObtientForms2OleControl objet à un index spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: Forms2OleControlCollection Item propriété. ObtientForms2OleControl objet à un index spécifié en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -14,7 +16,7 @@ Obtient[`Forms2OleControl`](../../forms2olecontrol/) objet à un index spécifi�
 public Forms2OleControl this[int index] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* espace de noms [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* espace de noms [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Assemblée [Aspose.Words](../../../)
-
-

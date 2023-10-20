@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.ToString
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignature méthode. Renvoie une chaîne conviviale qui affiche la valeur de cet objet.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words pour .NET
+description: DigitalSignature ToString méthode. Renvoie une chaîne conviviale qui affiche la valeur de cet objet en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.digitalsignatures/digitalsignature/tostring/
@@ -17,7 +19,5 @@ public override string ToString()
 ### Voir également
 
 * class [DigitalSignature](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

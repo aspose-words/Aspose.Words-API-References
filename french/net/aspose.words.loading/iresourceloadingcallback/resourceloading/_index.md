@@ -1,7 +1,9 @@
 ---
 title: IResourceLoadingCallback.ResourceLoading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IResourceLoadingCallback méthode. Appelé lorsque Aspose.Words charge une ressource externe.
+linktitle: ResourceLoading
+articleTitle: ResourceLoading
+second_title: Aspose.Words pour .NET
+description: IResourceLoadingCallback ResourceLoading méthode. Appelé lorsque Aspose.Words charge une ressource externe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
@@ -14,7 +16,7 @@ Appelé lorsque Aspose.Words charge une ressource externe.
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le processus de chargement de ressources externes dans un document.
 
@@ -79,7 +81,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 * enum [ResourceLoadingAction](../../resourceloadingaction/)
 * class [ResourceLoadingArgs](../../resourceloadingargs/)
 * interface [IResourceLoadingCallback](../)
-* espace de noms [Aspose.Words.Loading](../../iresourceloadingcallback/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfo propriété. Renvoie la description de lavertissement.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words pour .NET
+description: WarningInfo Description propriété. Renvoie la description de lavertissement en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ Renvoie la description de l'avertissement.
 public string Description { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Voir également
 
 * class [WarningInfo](../)
-* espace de noms [Aspose.Words](../../warninginfo/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

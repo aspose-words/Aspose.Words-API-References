@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Souligner tous les espaces de fin.
+linktitle: UlTrailSpace
+articleTitle: UlTrailSpace
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions UlTrailSpace propriété. Souligner tous les espaces de fin en C#.
 type: docs
 weight: 580
 url: /fr/net/aspose.words.settings/compatibilityoptions/ultrailspace/
@@ -17,7 +19,5 @@ public bool UlTrailSpace { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

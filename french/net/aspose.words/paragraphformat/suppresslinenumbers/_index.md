@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Spécifie si les lignes du paragraphe actuel doivent être exemptées de la numérotation des lignes qui est appliquée dans la section parent.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat SuppressLineNumbers propriété. Spécifie si les lignes du paragraphe actuel doivent être exemptées de la numérotation des lignes qui est appliquée dans la section parent en C#.
 type: docs
 weight: 380
 url: /fr/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ Spécifie si les lignes du paragraphe actuel doivent être exemptées de la num�
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer la numérotation des lignes pour une section.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.CompatibilityOptions classe. Contient les options de compatibilité cestàdire les préférences utilisateur saisies sur le Compatibilité Onglet du Possibilités boîte de dialogue dans Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.CompatibilityOptions classe. Contient les options de compatibilité cestàdire les préférences utilisateur saisies sur leCompatibilité Onglet duPossibilités boîte de dialogue dans Microsoft Word en C#.
 type: docs
 weight: 5780
 url: /fr/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Contient les options de compatibilité (c'est-à-dire les préférences utilisateur saisies sur le **Compatibilité** Onglet du **Possibilités** boîte de dialogue dans Microsoft Word).
+Contient les options de compatibilité (c'est-à-dire les préférences utilisateur saisies sur le**Compatibilité** Onglet du**Possibilités** boîte de dialogue dans Microsoft Word).
 
 Pour en savoir plus, visitez le[Détecter le format de fichier et vérifier la compatibilité des formats](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) article documentaire.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | Nom | La description |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Permet d'optimiser le contenu du document ainsi que le comportement par défaut d'Aspose.Words pour une version particulière de MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Permet d'optimiser le contenu du document ainsi que le comportement par défaut d'Aspose.Words pour une version particulière de MS Word. |
 
-### Exemples
+## Exemples
 
 Montre comment aligner verticalement le contenu du texte d’une zone de texte.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

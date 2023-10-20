@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontResources
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les ressources de polices doivent être exportées au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
+linktitle: ExportFontResources
+articleTitle: ExportFontResources
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportFontResources propriété. Spécifie si les ressources de polices doivent être exportées au format HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
@@ -14,17 +16,17 @@ Spécifie si les ressources de polices doivent être exportées au format HTML, 
 public bool ExportFontResources { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 L'exportation de ressources de polices permet un rendu cohérent des documents, indépendamment des polices disponibles dans l'environnement d'un utilisateur donné.
 
-Si`ExportFontResources` est réglé sur`vrai` , le document HTML principal fera référence à chaque police via le CSS 3 **@font-face** La règle at et les polices seront sorties sous forme de fichiers séparés. Lors de l'exportation aux formats IDPF EPUB ou MHTML , les polices seront intégrées dans le package correspondant avec d'autres fichiers subsidiaires.
+Si`ExportFontResources` est réglé sur`vrai` , le document HTML principal fera référence à chaque police via le CSS 3**@font-face** La règle at et les polices seront sorties sous forme de fichiers séparés. Lors de l'exportation aux formats IDPF EPUB ou MHTML , les polices seront intégrées dans le package correspondant avec d'autres fichiers subsidiaires.
 
-Si[`ExportFontsAsBase64`](../exportfontsasbase64/) est réglé sur`vrai` les polices ne seront pas enregistrées dans des fichiers séparés. Au lieu de cela, elles seront intégrées dans **@font-face** règles at dans l'encodage Base64.
+Si[`ExportFontsAsBase64`](../exportfontsasbase64/) est réglé sur`vrai` les polices ne seront pas enregistrées dans des fichiers séparés. Au lieu de cela, elles seront intégrées dans**@font-face** règles at dans l'encodage Base64.
 
-**Important!** Lors de l’exportation de ressources de polices, les problèmes de licence de polices doivent être pris en compte. Les auteurs qui souhaitent utiliser des polices spécifiques via un mécanisme de police downloadable doivent toujours vérifier soigneusement que leur utilisation prévue entre dans le cadre de la licence de police. De nombreuses polices commerciales ne permettent actuellement pas de télécharger leurs polices sur le Web sous quelque forme que ce soit. Les contrats de licence qui couvrent certaines polices indiquent spécifiquement que l'utilisation via **@font-face** Rules dans les feuilles de style CSS n'est pas autorisé. Les sous-ensembles de polices peuvent également enfreindre les termes de la licence.
+**Important!** Lors de l’exportation de ressources de polices, les problèmes de licence de polices doivent être pris en compte. Les auteurs qui souhaitent utiliser des polices spécifiques via un mécanisme de police downloadable doivent toujours vérifier soigneusement que leur utilisation prévue entre dans le cadre de la licence de police. De nombreuses polices commerciales ne permettent actuellement pas de télécharger leurs polices sur le Web sous quelque forme que ce soit. Les contrats de licence qui couvrent certaines polices indiquent spécifiquement que l'utilisation via**@font-face** Rules dans les feuilles de style CSS n'est pas autorisé. Les sous-ensembles de polices peuvent également enfreindre les termes de la licence.
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -84,7 +86,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

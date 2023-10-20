@@ -1,7 +1,9 @@
 ---
-title: Class CommentRangeEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.CommentRangeEnd classe. Désigne la fin dune zone de texte à laquelle est associé un commentaire.
+title: CommentRangeEnd Class
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.CommentRangeEnd classe. Désigne la fin dune zone de texte à laquelle est associé un commentaire en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words/commentrangeend/
@@ -20,7 +22,7 @@ public sealed class CommentRangeEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Initialise une nouvelle instance de cette classe. |
+| [CommentRangeEnd](commentrangeend/)(*[DocumentBase](../documentbase/), int*) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
@@ -40,24 +42,24 @@ public sealed class CommentRangeEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créez[`CommentRangeStart`](../commentrangestart/) et`CommentRangeEnd`et définissez leurs identifiants sur le même[`Id`](../comment/id/) valeur.
 
 `CommentRangeEnd` est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
-### Exemples
+## Exemples
 
 Montre comment imprimer le contenu de tous les commentaires et leurs plages de commentaires à l'aide d'un visiteur de document.
 
@@ -220,5 +222,3 @@ public class CommentInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

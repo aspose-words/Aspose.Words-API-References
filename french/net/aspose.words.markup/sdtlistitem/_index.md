@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtListItem classe. Cet élément spécifie un seul élément de liste au sein dun parentComboBox ouDropDownList balise de document structuré.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.SdtListItem classe. Cet élément spécifie un seul élément de liste au sein dun parentComboBox ouDropDownList balise de document structuré en C#.
 type: docs
 weight: 4020
 url: /fr/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | Nom | La description |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Initialise une nouvelle instance de cette classe. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Initialise une nouvelle instance de cette classe. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Initialise une nouvelle instance de cette classe. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Obtient le texte à afficher dans le contenu de l'exécution à la place du[`Value`](./value/) contenu de l'attribut pour cet élément de liste. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Obtient la valeur de cet élément de liste. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

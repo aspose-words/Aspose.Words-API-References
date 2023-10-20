@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WebExtensionReference propriété. Spécifie le type de marché.
+linktitle: StoreType
+articleTitle: StoreType
+second_title: Aspose.Words pour .NET
+description: WebExtensionReference StoreType propriété. Spécifie le type de marché en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ Spécifie le type de marché.
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* espace de noms [Aspose.Words.WebExtensions](../../webextensionreference/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

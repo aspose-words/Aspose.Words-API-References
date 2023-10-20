@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldInclude propriété. Obtient ou définit lemplacement du document.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words pour .NET
+description: FieldInclude SourceFullName propriété. Obtient ou définit lemplacement du document en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ Obtient ou définit l'emplacement du document.
 public string SourceFullName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ INCLUDE et définir ses propriétés.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Voir également
 
 * class [FieldInclude](../)
-* espace de noms [Aspose.Words.Fields](../../fieldinclude/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

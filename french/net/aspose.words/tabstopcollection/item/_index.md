@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection propriété. Obtient un taquet de tabulation à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: TabStopCollection Item propriété. Obtient un taquet de tabulation à lindex donné en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/tabstopcollection/item/
@@ -18,7 +20,7 @@ public TabStop this[int index] { get; }
 | --- | --- |
 | index | Un index dans la collection de taquets de tabulation. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -63,7 +65,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -80,11 +82,11 @@ public TabStop this[double position] { get; }
 | --- | --- |
 | position | La position (en points) du taquet de tabulation. |
 
-### Remarques
+## Remarques
 
 Retours`nul` si aucun taquet de tabulation n'est trouvé à la position spécifiée.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

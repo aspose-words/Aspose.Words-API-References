@@ -1,7 +1,9 @@
 ---
 title: TextPath.Trim
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Détermine si lespace supplémentaire est supprimé audessus et en dessous du texte.
+linktitle: Trim
+articleTitle: Trim
+second_title: Aspose.Words pour .NET
+description: TextPath Trim propriété. Détermine si lespace supplémentaire est supprimé audessus et en dessous du texte en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.drawing/textpath/trim/
@@ -14,11 +16,11 @@ Détermine si l'espace supplémentaire est supprimé au-dessus et en dessous du 
 public bool Trim { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

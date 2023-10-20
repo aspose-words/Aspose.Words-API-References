@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.AllowComments
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLineOptions propriété. Obtient ou définit une valeur indiquant que le signataire peut ajouter des commentaires dans la boîte de dialogue Signer. La valeur par défaut de cette propriété estFAUX .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words pour .NET
+description: SignatureLineOptions AllowComments propriété. Obtient ou définit une valeur indiquant que le signataire peut ajouter des commentaires dans la boîte de dialogue Signer. La valeur par défaut de cette propriété estFAUX  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/signaturelineoptions/allowcomments/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur indiquant que le signataire peut ajouter des comm
 public bool AllowComments { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer un document avec un certificat personnel et une ligne de signature.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Voir également
 
 * class [SignatureLineOptions](../)
-* espace de noms [Aspose.Words](../../signaturelineoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

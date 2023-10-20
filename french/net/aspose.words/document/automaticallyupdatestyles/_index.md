@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit un indicateur indiquant si les styles du document sont mis à jour pour correspondre aux styles du modèle joint à chaque fois que le document est ouvert dans MS Word.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words pour .NET
+description: Document AutomaticallyUpdateStyles propriété. Obtient ou définit un indicateur indiquant si les styles du document sont mis à jour pour correspondre aux styles du modèle joint à chaque fois que le document est ouvert dans MS Word en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant si les styles du document sont mis �
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment joindre un modèle à un document.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

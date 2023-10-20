@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Supprime le nœud à lindex spécifié de la collection et du document.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: NodeCollection RemoveAt méthode. Supprime le nœud à lindex spécifié de la collection et du document en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'index de base zéro du nœud. Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la liste. Par exemple -1 signifie le dernier nœud, -2 signifie l'avant-dernier et ainsi de suite. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter et supprimer des sections dans un document.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Voir également
 
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

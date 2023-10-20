@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Déplace le curseur au début dun entête ou dun pied de page dans la section actuelle.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder MoveToHeaderFooter méthode. Déplace le curseur au début dun entête ou dun pied de page dans la section actuelle en C#.
 type: docs
-weight: 550
+weight: 540
 url: /fr/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Spécifie l’en-tête ou le pied de page vers lequel se déplacer. |
 
-### Remarques
+## Remarques
 
 Après avoir déplacé le curseur dans un en-tête ou un pied de page, vous pouvez utiliser le reste de[`DocumentBuilder`](../) Méthodes pour modifier le contenu de l'en-tête ou du pied de page.
 
@@ -28,7 +30,7 @@ Si vous souhaitez créer des en-têtes et des pieds de page différents pour les
 
 Utiliser[`MoveToSection`](../movetosection/) pour sortir de l'en-tête et entrer dans le texte principal.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image et l'utiliser comme filigrane.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

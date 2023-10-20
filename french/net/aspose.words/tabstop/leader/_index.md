@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStop propriété. Obtient ou définit le type de ligne de repère affichée sous le caractère de tabulation.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words pour .NET
+description: TabStop Leader propriété. Obtient ou définit le type de ligne de repère affichée sous le caractère de tabulation en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ Obtient ou définit le type de ligne de repère affichée sous le caractère de 
 public TabLeader Leader { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à la table des matières.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* espace de noms [Aspose.Words](../../tabstop/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

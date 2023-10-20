@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Renvoie le paragraphe parent immédiat.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words pour .NET
+description: ShapeBase ParentParagraph propriété. Renvoie le paragraphe parent immédiat en C#.
 type: docs
 weight: 410
 url: /fr/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ Renvoie le paragraphe parent immédiat.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Remarques
+## Remarques
 
 Pour les formes enfants d’une forme de groupe et les formes enfants d’un objet Office Math, renvoie toujours`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une zone de texte et définir la police de son contenu.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

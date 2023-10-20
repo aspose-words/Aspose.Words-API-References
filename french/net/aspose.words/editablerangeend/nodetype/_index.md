@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRangeEnd propriété. RetoursEditableRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: EditableRangeEnd NodeType propriété. RetoursEditableRangeEnd  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/editablerangeend/nodetype/
@@ -14,7 +16,7 @@ RetoursEditableRangeEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeEnd](../)
-* espace de noms [Aspose.Words](../../editablerangeend/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

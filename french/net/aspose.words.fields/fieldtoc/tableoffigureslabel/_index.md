@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit le nom de lidentifiant de séquence utilisé lors de la création dun tableau de figures.
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: Aspose.Words pour .NET
+description: FieldToc TableOfFiguresLabel propriété. Obtient ou définit le nom de lidentifiant de séquence utilisé lors de la création dun tableau de figures en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de l'identifiant de séquence utilisé lors de la cr�
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir un champ TOC avec des entrées à l’aide des champs SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

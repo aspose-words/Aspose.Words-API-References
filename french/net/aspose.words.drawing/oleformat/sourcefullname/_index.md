@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat propriété. Obtient ou définit le chemin et le nom du fichier source de lobjet OLE lié.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words pour .NET
+description: OleFormat SourceFullName propriété. Obtient ou définit le chemin et le nom du fichier source de lobjet OLE lié en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ Obtient ou définit le chemin et le nom du fichier source de l'objet OLE lié.
 public string SourceFullName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
 Si`SourceFullName` n'est pas une chaîne vide, l'objet OLE est lié.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des objets OLE liés et non liés.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Voir également
 
 * class [OleFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../oleformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

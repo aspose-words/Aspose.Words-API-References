@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Spécifie la valeur de mise à léchelle des unités daffichage pour laxe des valeurs.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words pour .NET
+description: ChartAxis DisplayUnit propriété. Spécifie la valeur de mise à léchelle des unités daffichage pour laxe des valeurs en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ Spécifie la valeur de mise à l'échelle des unités d'affichage pour l'axe des
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'a d'effet que pour les axes de valeurs.
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

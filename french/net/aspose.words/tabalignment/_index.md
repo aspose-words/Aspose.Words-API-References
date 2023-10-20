@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TabAlignment énumération. Spécifie lalignement/le type dun taquet de tabulation.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TabAlignment énumération. Spécifie lalignement/le type dun taquet de tabulation en C#.
 type: docs
 weight: 6180
 url: /fr/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

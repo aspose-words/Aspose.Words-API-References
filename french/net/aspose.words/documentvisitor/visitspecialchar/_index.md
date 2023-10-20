@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSpecialChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquunSpecialChar le nœud est rencontré dans le document.
+linktitle: VisitSpecialChar
+articleTitle: VisitSpecialChar
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitSpecialChar méthode. Appelé lorsquunSpecialChar le nœud est rencontré dans le document en C#.
 type: docs
 weight: 430
 url: /fr/net/aspose.words/documentvisitor/visitspecialchar/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Remarques
+## Remarques
 
 Cette méthode n'est pas appelée pour les caractères de contrôle génériques (voir[`ControlChar`](../../controlchar/) ) pouvant être présent dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une implémentation de DocumentVisitor pour supprimer tout le contenu masqué d'un document.
 
@@ -224,7 +226,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SpecialChar](../../specialchar/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

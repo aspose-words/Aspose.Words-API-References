@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Revision propriété. Obtient ou définit lauteur de cette révision. Ne peut pas être une chaîne vide ounul .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words pour .NET
+description: Revision Author propriété. Obtient ou définit lauteur de cette révision. Ne peut pas être une chaîne vide ounul  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ Obtient ou définit l'auteur de cette révision. Ne peut pas être une chaîne v
 public string Author { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les révisions dans un document.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Voir également
 
 * class [Revision](../)
-* espace de noms [Aspose.Words](../../revision/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

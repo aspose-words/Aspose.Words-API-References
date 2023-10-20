@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit une valeur déterminant sil faut utiliser le moteur de rendu de métafichier GDI ou Aspose.Words lors de lenregistrement dans EMF.
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions UseGdiEmfRenderer propriété. Obtient ou définit une valeur déterminant sil faut utiliser le moteur de rendu de métafichier GDI ou Aspose.Words lors de lenregistrement dans EMF en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant s'il faut utiliser le moteur de rend
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si réglé sur`vrai` Le moteur de rendu de métafichiers GDI+ est utilisé. C'est-à-dire que le contenu est écrit dans l'objet GDI+graphics et enregistré dans un métafichier.
 
@@ -26,7 +28,7 @@ La sauvegarde GDI+ ne fonctionne que sur .NET.
 
 La valeur par défaut est`vrai`.
 
-### Exemples
+## Exemples
 
 Montre comment choisir un moteur de rendu lors de la conversion d'un document au format .emf.
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### Voir également
 
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

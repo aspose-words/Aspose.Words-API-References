@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions méthode. Permet doptimiser le contenu du document ainsi que le comportement par défaut dAspose.Words pour une version particulière de MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions OptimizeFor méthode. Permet doptimiser le contenu du document ainsi que le comportement par défaut dAspose.Words pour une version particulière de MS Word en C#.
 type: docs
 weight: 720
 url: /fr/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ Utilisez cette méthode pour empêcher MS Word d'afficher le ruban "Mode de comp
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment aligner verticalement le contenu du texte d’une zone de texte.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

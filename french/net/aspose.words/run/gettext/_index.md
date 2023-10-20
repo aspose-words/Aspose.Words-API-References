@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Run méthode. Récupère le texte de lexécution.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words pour .NET
+description: Run GetText méthode. Récupère le texte de lexécution en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Le texte de la course.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque en-tête et pied de page d'un document.
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### Voir également
 
 * class [Run](../)
-* espace de noms [Aspose.Words](../../run/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagCollection méthode. Renvoie la première balise de document structuré rencontrée dans la collection avec la balise spécifiée.
+linktitle: GetByTag
+articleTitle: GetByTag
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagCollection GetByTag méthode. Renvoie la première balise de document structuré rencontrée dans la collection avec la balise spécifiée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
@@ -18,7 +20,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 | --- | --- | --- |
 | tag | String | La balise de la balise du document structuré. |
 
-### Remarques
+## Remarques
 
 Renvoie null si la balise du document structuré avec la balise spécifiée est introuvable.
 
@@ -26,7 +28,5 @@ Renvoie null si la balise du document structuré avec la balise spécifiée est 
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutCollector propriété. Obtient ou définit le document auquel cette instance de collecteur est attachée.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: LayoutCollector Document propriété. Obtient ou définit le document auquel cette instance de collecteur est attachée en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ Obtient ou définit le document auquel cette instance de collecteur est attaché
 public Document Document { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si vous devez accéder aux index de page des nœuds du document, vous devez définir cette propriété pour qu'elle pointe vers une instance de document, avant la création de la mise en page du document. Il est préférable de définir cette propriété sur`nul` par la suite, sinon le collecteur continue d'accumuler des informations provenant des reconstructions ultérieures de la mise en page du document.
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* espace de noms [Aspose.Words.Layout](../../layoutcollector/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

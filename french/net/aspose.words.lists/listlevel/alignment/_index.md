@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Obtient ou définit la justification du numéro réel de lélément de liste.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words pour .NET
+description: ListLevel Alignment propriété. Obtient ou définit la justification du numéro réel de lélément de liste en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ Obtient ou définit la justification du numéro réel de l'élément de liste.
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le libellé de la liste est justifié par rapport au[`NumberPosition`](../numberposition/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

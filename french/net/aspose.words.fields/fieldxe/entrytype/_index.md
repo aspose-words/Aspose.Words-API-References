@@ -1,7 +1,9 @@
 ---
 title: FieldXE.EntryType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldXE propriété. Obtient ou définit un type dentrée dindex.
+linktitle: EntryType
+articleTitle: EntryType
+second_title: Aspose.Words pour .NET
+description: FieldXE EntryType propriété. Obtient ou définit un type dentrée dindex en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldxe/entrytype/
@@ -14,7 +16,7 @@ Obtient ou définit un type d'entrée d'index.
 public string EntryType { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ INDEX, puis utiliser les champs XE pour le remplir avec des entrées.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Voir également
 
 * class [FieldXE](../)
-* espace de noms [Aspose.Words.Fields](../../fieldxe/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

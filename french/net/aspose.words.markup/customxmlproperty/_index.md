@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.CustomXmlProperty classe. Représente un seul attribut XML personnalisé ou une propriété de balise active.
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.CustomXmlProperty classe. Représente un seul attribut XML personnalisé ou une propriété de balise active en C#.
 type: docs
 weight: 3940
 url: /fr/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | Nom | La description |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | Initialise une nouvelle instance de cette classe. |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Obtient ou définit l'URI de l'espace de noms de l'attribut XML personnalisé ou de la propriété de balise active. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Obtient ou définit la valeur de l'attribut XML personnalisé ou de la propriété de balise active. |
 
-### Remarques
+## Remarques
 
 Utilisé comme élément d'un[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) collection.
 
-### Exemples
+## Exemples
 
 Montre comment créer des balises intelligentes.
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorTickMark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Renvoie ou définit les principales graduations.
+linktitle: MajorTickMark
+articleTitle: MajorTickMark
+second_title: Aspose.Words pour .NET
+description: ChartAxis MajorTickMark propriété. Renvoie ou définit les principales graduations en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.drawing.charts/chartaxis/majortickmark/
@@ -14,7 +16,7 @@ Renvoie ou définit les principales graduations.
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si les champs de fusion et les régions de fusion sont fusionnés quelle que soit la condition du champ IF parent.
+linktitle: UnconditionalMergeFieldsAndRegions
+articleTitle: UnconditionalMergeFieldsAndRegions
+second_title: Aspose.Words pour .NET
+description: MailMerge UnconditionalMergeFieldsAndRegions propriété. Obtient ou définit une valeur indiquant si les champs de fusion et les régions de fusion sont fusionnés quelle que soit la condition du champ IF parent en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur indiquant si les champs de fusion et les régions
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des champs ou des régions quelle que soit la condition du champ IF parent.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

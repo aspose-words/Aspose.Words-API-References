@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ViewOptions propriété. Désactive laffichage de lespace entre le haut du texte et le bord supérieur de la page.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words pour .NET
+description: ViewOptions DoNotDisplayPageBoundaries propriété. Désactive laffichage de lespace entre le haut du texte et le bord supérieur de la page en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ Désactive l'affichage de l'espace entre le haut du texte et le bord supérieur 
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment masquer les espaces verticaux et les en-têtes/pieds de page dans les options d’affichage.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### Voir également
 
 * class [ViewOptions](../)
-* espace de noms [Aspose.Words.Settings](../../viewoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

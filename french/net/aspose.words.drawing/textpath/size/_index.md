@@ -1,7 +1,9 @@
 ---
 title: TextPath.Size
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Définit la taille de la police en points.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words pour .NET
+description: TextPath Size propriété. Définit la taille de la police en points en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.drawing/textpath/size/
@@ -14,14 +16,12 @@ Définit la taille de la police en points.
 public double Size { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 36.
 
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeedChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de saut de ligne  char10 ou n.
+linktitle: LineFeedChar
+articleTitle: LineFeedChar
+second_title: Aspose.Words pour .NET
+description: ControlChar LineFeedChar champ. Caractère de saut de ligne  char10 ou n en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words/controlchar/linefeedchar/
@@ -14,7 +16,7 @@ Caractère de saut de ligne : (char)10 ou "\n".
 public const char LineFeedChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Mise en forme du texte appliquée au nouveau contenu.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions ApplyFont propriété. Mise en forme du texte appliquée au nouveau contenu en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ Mise en forme du texte appliquée au nouveau contenu.
 public Font ApplyFont { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

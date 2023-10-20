@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de préciser si les révisions sont rendues dans les bulles. La valeur par défaut estNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words pour .NET
+description: RevisionOptions ShowInBalloons propriété. Permet de préciser si les révisions sont rendues dans les bulles. La valeur par défaut estNone  en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ Permet de préciser si les révisions sont rendues dans les bulles. La valeur pa
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que les révisions ne sont pas affichées dans les bulles pourShowInAnnotations .
 
-### Exemples
+## Exemples
 
 Montre comment afficher les révisions dans des bulles.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

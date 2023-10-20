@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Indique que cette police est une police TrueType ou OpenType par opposition à une police raster ou vectorielle. La valeur par défaut estvrai .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words pour .NET
+description: FontInfo IsTrueType propriété. Indique que cette police est une police TrueType ou OpenType par opposition à une police raster ou vectorielle. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ Indique que cette police est une police TrueType ou OpenType par opposition à u
 public bool IsTrueType { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les détails des polices présentes dans un document.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Voir également
 
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.GetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SpecialChar méthode. Obtient le caractère spécial que représente ce nœud.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words pour .NET
+description: SpecialChar GetText méthode. Obtient le caractère spécial que représente ce nœud en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/specialchar/gettext/
@@ -21,7 +23,5 @@ Chaîne qui contient le caractère représenté par ce nœud.
 ### Voir également
 
 * class [SpecialChar](../)
-* espace de noms [Aspose.Words](../../specialchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

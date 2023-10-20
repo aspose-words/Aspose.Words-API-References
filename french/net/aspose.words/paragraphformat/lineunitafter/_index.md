@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitAfter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la quantité despacement en quadrillage après les paragraphes.
+linktitle: LineUnitAfter
+articleTitle: LineUnitAfter
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat LineUnitAfter propriété. Obtient ou définit la quantité despacement en quadrillage après les paragraphes en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words/paragraphformat/lineunitafter/
@@ -14,7 +16,7 @@ Obtient ou définit la quantité d'espacement (en quadrillage) après les paragr
 public double LineUnitAfter { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’espacement et le retrait des paragraphes.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

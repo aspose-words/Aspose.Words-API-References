@@ -1,7 +1,9 @@
 ---
 title: Font.EmphasisMark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la marque daccentuation appliquée à ce formatage.
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words pour .NET
+description: Font EmphasisMark propriété. Obtient ou définit la marque daccentuation appliquée à ce formatage en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/font/emphasismark/
@@ -14,7 +16,7 @@ Obtient ou définit la marque d'accentuation appliquée à ce formatage.
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un caractère supplémentaire rendu au-dessus/en dessous du caractère glyphe.
 
@@ -37,7 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

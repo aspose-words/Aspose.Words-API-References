@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageFieldMergingArgs propriété. Spécifie le flux à partir duquel le moteur de publipostage doit lire une image.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words pour .NET
+description: ImageFieldMergingArgs ImageStream propriété. Spécifie le flux à partir duquel le moteur de publipostage doit lire une image en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ Spécifie le flux à partir duquel le moteur de publipostage doit lire une image
 public Stream ImageStream { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Aspose.Words ferme ce flux après avoir fusionné l'image dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des images stockées dans un champ BLOB de base de données dans un rapport.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Voir également
 
 * class [ImageFieldMergingArgs](../)
-* espace de noms [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

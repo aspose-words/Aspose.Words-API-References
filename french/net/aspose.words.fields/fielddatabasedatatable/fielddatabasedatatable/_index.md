@@ -1,7 +1,9 @@
 ---
-title: FieldDatabaseDataTable.FieldDatabaseDataTable
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDatabaseDataTable constructeur. Initialise une nouvelle instance duFieldDatabaseDataTable classe.
+title: FieldDatabaseDataTable
+linktitle: FieldDatabaseDataTable
+articleTitle: FieldDatabaseDataTable
+second_title: Aspose.Words pour .NET
+description: FieldDatabaseDataTable constructeur. Initialise une nouvelle instance duFieldDatabaseDataTable classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/
@@ -17,7 +19,5 @@ public FieldDatabaseDataTable(params string[] columnNames)
 ### Voir également
 
 * class [FieldDatabaseDataTable](../)
-* espace de noms [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

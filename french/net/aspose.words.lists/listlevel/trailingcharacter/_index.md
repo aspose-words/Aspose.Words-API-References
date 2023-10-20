@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit le caractère inséré après le numéro pour le niveau de liste.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words pour .NET
+description: ListLevel TrailingCharacter propriété. Renvoie ou définit le caractère inséré après le numéro pour le niveau de liste en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ Renvoie ou définit le caractère inséré après le numéro pour le niveau de l
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRange méthode. Supprime la plage modifiable du document. Ne supprime pas le contenu à lintérieur de la plage modifiable.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: EditableRange Remove méthode. Supprime la plage modifiable du document. Ne supprime pas le contenu à lintérieur de la plage modifiable en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ Supprime la plage modifiable du document. Ne supprime pas le contenu à l'intér
 public void Remove()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Voir également
 
 * class [EditableRange](../)
-* espace de noms [Aspose.Words](../../editablerange/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

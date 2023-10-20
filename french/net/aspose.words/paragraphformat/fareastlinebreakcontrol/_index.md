@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit un indicateur indiquant si les règles de saut de ligne dAsie de lEst sont appliquées au paragraphe actuel.
+linktitle: FarEastLineBreakControl
+articleTitle: FarEastLineBreakControl
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat FarEastLineBreakControl propriété. Obtient ou définit un indicateur indiquant si les règles de saut de ligne dAsie de lEst sont appliquées au paragraphe actuel en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant si les règles de saut de ligne d'As
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des propriétés spéciales pour la typographie asiatique.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

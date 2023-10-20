@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldEnd propriété. Retoursvraisi ce champ a un séparateur.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words pour .NET
+description: FieldEnd HasSeparator propriété. Retoursvraisi ce champ a un séparateur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ Retours`vrai`si ce champ a un séparateur.
 public bool HasSeparator { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une collection de champs.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FieldEnd](../)
-* espace de noms [Aspose.Words.Fields](../../fieldend/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

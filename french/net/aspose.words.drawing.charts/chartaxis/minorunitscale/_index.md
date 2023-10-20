@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitScale
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Renvoie ou définit la valeur déchelle pour les graduations mineures sur laxe des catégories de temps.
+linktitle: MinorUnitScale
+articleTitle: MinorUnitScale
+second_title: Aspose.Words pour .NET
+description: ChartAxis MinorUnitScale propriété. Renvoie ou définit la valeur déchelle pour les graduations mineures sur laxe des catégories de temps en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
@@ -14,11 +16,11 @@ Renvoie ou définit la valeur d'échelle pour les graduations mineures sur l'axe
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'a d'effet que pour les axes de catégorie de temps.
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

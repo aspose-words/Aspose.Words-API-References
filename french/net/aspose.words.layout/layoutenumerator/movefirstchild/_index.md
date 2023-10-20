@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveFirstChild
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator méthode. Passe à la première entité enfant.
+linktitle: MoveFirstChild
+articleTitle: MoveFirstChild
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator MoveFirstChild méthode. Passe à la première entité enfant en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.layout/layoutenumerator/movefirstchild/
@@ -14,7 +16,7 @@ Passe à la première entité enfant.
 public bool MoveFirstChild()
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

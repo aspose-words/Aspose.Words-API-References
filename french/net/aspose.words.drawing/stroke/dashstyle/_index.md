@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Spécifie le motif de points et de tirets pour un trait.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words pour .NET
+description: Stroke DashStyle propriété. Spécifie le motif de points et de tirets pour un trait en C#.
 type: docs
-weight: 50
+weight: 40
 url: /fr/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ Spécifie le motif de points et de tirets pour un trait.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estSolid.
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

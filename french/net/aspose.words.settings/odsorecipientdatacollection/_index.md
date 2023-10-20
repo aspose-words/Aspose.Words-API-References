@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientDataCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Une collection typée deOdsoRecipientData
+title: OdsoRecipientDataCollection Class
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Une collection typée deOdsoRecipientData en C#.
 type: docs
 weight: 5940
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Ajoute un objet à la fin de cette collection. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Ajoute un objet à la fin de cette collection. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Supprime tous les éléments de cette collection. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Supprime l'élément à l'index spécifié. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Supprime l'élément à l'index spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * class [OdsoRecipientData](../odsorecipientdata/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Unit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MergeFieldImageDimension propriété. Lunité.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words pour .NET
+description: MergeFieldImageDimension Unit propriété. Lunité en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/mergefieldimagedimension/unit/
@@ -14,7 +16,7 @@ L'unité.
 public MergeFieldImageDimensionUnit Unit { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
@@ -85,7 +87,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* espace de noms [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode propriété. Obtient le premier enfant du nœud.
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: Aspose.Words pour .NET
+description: CompositeNode FirstChild propriété. Obtient le premier enfant du nœud en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ Obtient le premier enfant du nœud.
 public Node FirstChild { get; }
 ```
 
-### Remarques
+## Remarques
 
 S'il n'y a pas de premier nœud enfant, un`nul` est renvoyé.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la propriété NextSibling d’un nœud pour énumérer ses enfants immédiats.
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

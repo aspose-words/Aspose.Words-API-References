@@ -1,7 +1,9 @@
 ---
-title: Enum MathObjectType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Math.MathObjectType énumération. Spécifie le type dun objet Office Math.
+title: MathObjectType Enum
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Math.MathObjectType énumération. Spécifie le type dun objet Office Math en C#.
 type: docs
 weight: 4110
 url: /fr/net/aspose.words.math/mathobjecttype/
@@ -49,7 +51,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | Objet sous-exposant, composé d'un élément de base, d'un script de taille réduite placé en bas et à droite, et d'un script de taille réduite placé au-dessus et à droite. |
 | Supercript | `29` | Objet Superscript, composé d'un élément de base et d'un script de taille réduite placé au-dessus et à droite. |
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure de chaque nœud mathématique de bureau dans un document.
 
@@ -142,5 +144,3 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * espace de noms [Aspose.Words.Math](../../aspose.words.math/)
 * Assemblée [Aspose.Words](../../)
-
-

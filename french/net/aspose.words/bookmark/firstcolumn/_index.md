@@ -1,7 +1,9 @@
 ---
 title: Bookmark.FirstColumn
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Obtient lindex de base zéro de la première colonne de la plage de colonnes du tableau associée au signet.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words pour .NET
+description: Bookmark FirstColumn propriété. Obtient lindex de base zéro de la première colonne de la plage de colonnes du tableau associée au signet en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/bookmark/firstcolumn/
@@ -14,11 +16,11 @@ Obtient l'index de base zéro de la première colonne de la plage de colonnes du
 public int FirstColumn { get; }
 ```
 
-### Remarques
+## Remarques
 
-Retours **-1** si ce signet n'est pas un signet de colonne de tableau.
+Retours**-1** si ce signet n'est pas un signet de colonne de tableau.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les signets des colonnes du tableau.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Voir également
 
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

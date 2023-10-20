@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Margins énumération. Spécifie les marges prédéfinies.
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Margins énumération. Spécifie les marges prédéfinies en C#.
 type: docs
 weight: 3890
 url: /fr/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

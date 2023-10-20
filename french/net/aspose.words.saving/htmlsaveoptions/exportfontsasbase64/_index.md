@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les ressources de polices doivent être intégrées au HTML dans lencodage Base64. La valeur par défaut estFAUX .
+linktitle: ExportFontsAsBase64
+articleTitle: ExportFontsAsBase64
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportFontsAsBase64 propriété. Spécifie si les ressources de polices doivent être intégrées au HTML dans lencodage Base64. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
@@ -14,11 +16,11 @@ Spécifie si les ressources de polices doivent être intégrées au HTML dans l'
 public bool ExportFontsAsBase64 { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Par défaut, les polices sont écrites dans des fichiers séparés. Si cette option est définie sur`vrai`, les polices seront incorporées dans le CSS du document en encodage Base64.
 
-### Exemples
+## Exemples
 
 Montre comment intégrer des polices dans un document HTML enregistré.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

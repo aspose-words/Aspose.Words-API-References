@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie la version du standard HTML qui doit être utilisée lors de lenregistrement du document au format HTML ou MHTML. La valeur par défaut estXhtml .
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions HtmlVersion propriété. Spécifie la version du standard HTML qui doit être utilisée lors de lenregistrement du document au format HTML ou MHTML. La valeur par défaut estXhtml  en C#.
 type: docs
 weight: 330
 url: /fr/net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -14,7 +16,7 @@ Spécifie la version du standard HTML qui doit être utilisée lors de l'enregis
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents vers la norme de transition Xhtml 1.0.
 
@@ -80,7 +82,5 @@ switch (htmlVersion)
 
 * enum [HtmlVersion](../../htmlversion/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

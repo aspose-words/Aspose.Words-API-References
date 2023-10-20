@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.StyleType énumération. Représente le type du style.
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.StyleType énumération. Représente le type du style en C#.
 type: docs
 weight: 6160
 url: /fr/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | Le style est un style de tableau. |
 | List | `4` | Le style est un style de liste. |
 
-### Exemples
+## Exemples
 
 Montre comment créer un style de liste et l’utiliser dans un document.
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

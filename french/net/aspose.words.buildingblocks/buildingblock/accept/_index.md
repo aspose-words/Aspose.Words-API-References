@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: BuildingBlock Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ Appels[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbui
 
 Remarque : Un nœud de bloc de construction et ses enfants ne sont pas visités lorsque vous exécutez un visiteur sur un[`Document`](../../../aspose.words/document/) . Si vous souhaitez exécuter un bloc de construction Visiteur sur a , vous devez exécuter le visiteur sur[`GlossaryDocument`](../../glossarydocument/) or appel`Accept` .
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -130,7 +132,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

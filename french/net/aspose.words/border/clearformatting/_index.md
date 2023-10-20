@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Border méthode. Réinitialise les propriétés de bordure aux valeurs par défaut.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words pour .NET
+description: Border ClearFormatting méthode. Réinitialise les propriétés de bordure aux valeurs par défaut en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ Réinitialise les propriétés de bordure aux valeurs par défaut.
 public void ClearFormatting()
 ```
 
-### Remarques
+## Remarques
 
 Lorsque les propriétés de bordure sont réinitialisées aux valeurs par défaut, la bordure est invisible.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les bordures d’un paragraphe.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Voir également
 
 * class [Border](../)
-* espace de noms [Aspose.Words](../../border/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Marque la position actuelle dans le document comme fin de signet de colonne. La position doit être dans une cellule du tableau.
+linktitle: EndColumnBookmark
+articleTitle: EndColumnBookmark
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder EndColumnBookmark méthode. Marque la position actuelle dans le document comme fin de signet de colonne. La position doit être dans une cellule du tableau en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words/documentbuilder/endcolumnbookmark/
@@ -22,7 +24,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 Le nœud de fin du signet qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 Un signet de colonne couvre une ou plusieurs colonnes dans une plage de lignes. Pour créer un signet valide, vous devez appeler les deux[`StartColumnBookmark`](../startcolumnbookmark/) et`EndColumnBookmark` avec le même *bookmarkName*paramètre.
 
@@ -30,7 +32,7 @@ Les signets mal formés ou les signets avec des noms en double seront ignorés l
 
 La position réelle de l'inséré[`BookmarkEnd`](../../bookmarkend/) Le nœud peut différer de la position actuelle du constructeur document .
 
-### Exemples
+## Exemples
 
 Montre comment créer un signet de colonne.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

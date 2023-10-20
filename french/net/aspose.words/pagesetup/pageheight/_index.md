@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit la hauteur de la page en points.
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: Aspose.Words pour .NET
+description: PageSetup PageHeight propriété. Renvoie ou définit la hauteur de la page en points en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ Renvoie ou définit la hauteur de la page en points.
 public double PageHeight { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image et l'utiliser comme filigrane.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

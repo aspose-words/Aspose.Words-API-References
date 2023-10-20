@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,5 @@ Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Obtient le niveau auquel ce TSD se produit dans larborescence des documents.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Level propriété. Obtient le niveau auquel ceTSD se produit dans larborescence des documents en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-Obtient le niveau auquel ce **TSD** se produit dans l'arborescence des documents.
+Obtient le niveau auquel ce**TSD** se produit dans l'arborescence des documents.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

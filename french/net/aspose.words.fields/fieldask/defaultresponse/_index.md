@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.DefaultResponse
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAsk propriété. Obtient ou définit la réponse utilisateur par défaut valeur initiale contenue dans la fenêtre dinvite.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words pour .NET
+description: FieldAsk DefaultResponse propriété. Obtient ou définit la réponse utilisateur par défaut valeur initiale contenue dans la fenêtre dinvite en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldask/defaultresponse/
@@ -14,7 +16,7 @@ Obtient ou définit la réponse utilisateur par défaut (valeur initiale contenu
 public string DefaultResponse { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Voir également
 
 * class [FieldAsk](../)
-* espace de noms [Aspose.Words.Fields](../../fieldask/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

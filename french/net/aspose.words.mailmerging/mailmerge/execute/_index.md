@@ -1,12 +1,14 @@
 ---
 title: MailMerge.Execute
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge méthode. Effectue un publipostage à partir dune source de données personnalisée.
+linktitle: Execute
+articleTitle: Execute
+second_title: Aspose.Words pour .NET
+description: MailMerge Execute méthode. Effectue un publipostage à partir dune source de données personnalisée en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {#execute}
+## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
 Effectue un publipostage à partir d'une source de données personnalisée.
 
@@ -18,7 +20,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Objet qui implémente l’interface de source de données de publipostage personnalisée. |
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de n'importe quelle source de données telle qu'une liste, une table de hachage ou des objets. Vous devez écrire votre propre classe qui implémente le[`IMailMergeDataSource`](../../imailmergedatasource/) interface.
 
@@ -30,12 +32,12 @@ Cette méthode ignore leRemoveUnusedRegions option.
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Execute(string[], object[]) {#execute_5}
+## Execute(*string[], object[]*) {#execute_5}
 
 Effectue une opération de publipostage pour un seul enregistrement.
 
@@ -48,7 +50,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | Tableau de noms de champs de fusion. Les noms de champs ne sont pas sensibles à la casse. Si un nom de champ introuvable dans le document est rencontré, il est ignoré. |
 | values | Object[] | Tableau de valeurs à insérer dans les champs de fusion. Le nombre d'éléments de ce tableau doit être le même que le nombre d'éléments de*fieldNames*. |
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs from un tableau d'objets.
 
@@ -58,7 +60,7 @@ Cette méthode n'utilise pas de régions de publipostage.
 
 Cette méthode ignore leRemoveUnusedRegions option.
 
-### Exemples
+## Exemples
 
 Montre comment fusionner une image à partir d’un URI en tant que données de publipostage dans un MERGEFIELD.
 
@@ -111,12 +113,12 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataTable) {#execute_2}
+## Execute(*DataTable*) {#execute_2}
 
 Effectue le publipostage d'un DataTable dans le document.
 
@@ -128,19 +130,19 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | Table contenant les données à insérer dans les champs de publipostage. Les noms de champs ne sont pas sensibles à la casse. Si un nom de champ introuvable dans le document est rencontré, il est ignoré. |
 
-### Remarques
+## Remarques
 
-Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de a  **Table de données**.
+Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de a **Table de données**.
 
 Tous les enregistrements de la table sont fusionnés dans le document.
 
-Vous pouvez utiliser le champ NEXT dans le document Word pour provoquer[`MailMerge`](../) objet pour sélectionner enregistrement suivant du **Table de données** et continuez la fusion. Ceci peut être utilisé lors de la création de documents tels que des étiquettes de publipostage.
+Vous pouvez utiliser le champ NEXT dans le document Word pour provoquer[`MailMerge`](../) objet pour sélectionner enregistrement suivant du**Table de données** et continuez la fusion. Ceci peut être utilisé lors de la création de documents tels que des étiquettes de publipostage.
 
-Quand[`MailMerge`](../) l'objet atteint la fin du document principal et il reste encore des lignes more dans le **Table de données**, il copie l'intégralité du contenu de le document principal et l'ajoute à la fin du document de destination en utilisant un saut section comme séparateur.
+Quand[`MailMerge`](../) l'objet atteint la fin du document principal et il reste encore des lignes more dans le**Table de données**, il copie l'intégralité du contenu de le document principal et l'ajoute à la fin du document de destination en utilisant un saut section comme séparateur.
 
 Cette méthode ignore leRemoveUnusedRegions option.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec les données d'un DataTable.
 
@@ -188,14 +190,14 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Execute(IDataReader) {#execute_4}
+## Execute(*IDataReader*) {#execute_4}
 
-Effectue un publipostage à partir de **IDataReader** dans le document.
+Effectue un publipostage à partir de**IDataReader** dans le document.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +207,15 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | Source de données pour l'opération de publipostage. |
 
-### Remarques
+## Remarques
 
-Tu peux passer **SQLDataReader** ou **OleDbDataReader** objet dans la méthode this en tant que paramètre car ils ont tous deux implémenté **IDataReader** interface.
+Tu peux passer**SQLDataReader** ou**OleDbDataReader** objet dans la méthode this en tant que paramètre car ils ont tous deux implémenté**IDataReader** interface.
 
 Notez que cette méthode n'utilise pas de régions de fusion et de publipostage et pour plusieurs enregistrements, le document s'agrandira en répétant l'intégralité du document.
 
 Cette méthode ignore leRemoveUnusedRegions option.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage à l’aide des données d’un lecteur de données.
 
@@ -267,14 +269,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataView) {#execute_3}
+## Execute(*DataView*) {#execute_3}
 
-Effectue un publipostage à partir d'un **Vue de données** dans le document.
+Effectue un publipostage à partir d'un**Vue de données** dans le document.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +286,15 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Source de données pour l'opération de publipostage. |
 
-### Remarques
+## Remarques
 
-Cette méthode est utile si vous récupérez des données dans un **Table de données** mais then doit appliquer un filtre ou un tri avant le publipostage.
+Cette méthode est utile si vous récupérez des données dans un**Table de données** mais then doit appliquer un filtre ou un tri avant le publipostage.
 
 Notez que cette méthode n'utilise pas de régions de fusion et de publipostage et pour plusieurs enregistrements, le document s'agrandira en répétant l'intégralité du document.
 
 Cette méthode ignore leRemoveUnusedRegions option.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les données de publipostage avec un DataView.
 
@@ -329,14 +331,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataRow) {#execute_1}
+## Execute(*DataRow*) {#execute_1}
 
-Effectue un publipostage à partir d'un **Ligne de données** dans le document.
+Effectue un publipostage à partir d'un**Ligne de données** dans le document.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,13 +348,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | Ligne contenant des données à insérer dans les champs de publipostage. Les noms de champs ne sont pas sensibles à la casse. Si un nom de champ introuvable dans le document est rencontré, il est ignoré. |
 
-### Remarques
+## Remarques
 
-Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs d'un **Ligne de données**.
+Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs d'un**Ligne de données**.
 
 Cette méthode ignore leRemoveUnusedRegions option.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec les données d'un DataTable.
 
@@ -400,7 +402,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

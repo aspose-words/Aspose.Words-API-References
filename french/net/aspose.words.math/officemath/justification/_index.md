@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OfficeMath propriété. Obtient/définit la justification Office Math.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words pour .NET
+description: OfficeMath Justification propriété. Obtient/définit la justification Office Math en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ Obtient/définit la justification Office Math.
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La justification ne peut pas être définie sur Office Math avec le type de format d'affichageInline.
 
@@ -22,7 +24,7 @@ La justification en ligne ne peut pas être définie sur Office Math avec le typ
 
 Correspondant[`DisplayType`](../displaytype/) doit être défini avant de définir la justification Office Math.
 
-### Exemples
+## Exemples
 
 Montre comment définir le formatage de l’affichage des mathématiques de bureau.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* espace de noms [Aspose.Words.Math](../../officemath/)
+* espace de noms [Aspose.Words.Math](../../../aspose.words.math/)
 * Assemblée [Aspose.Words](../../../)
-
-

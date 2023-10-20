@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dun bloc de construction a commencé.
+linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitBuildingBlockStart méthode. Appelé lorsque lénumération dun bloc de construction a commencé en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/documentvisitor/visitbuildingblockstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Remarques
+## Remarques
 
 Remarque : Un nœud de bloc de construction et ses enfants ne sont pas visités lorsque vous exécutez un visiteur sur un[`Document`](../../document/) . Si vous souhaitez exécuter un bloc de construction Visiteur sur a , vous devez exécuter le visiteur sur[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or appel[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

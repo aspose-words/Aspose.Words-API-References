@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlRenderingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues.
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words pour .NET
+description: SaveOptions DmlRenderingMode propriété. Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/saveoptions/dmlrenderingmode/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur déterminant la façon dont les formes DrawingML 
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estFallback .
 
 Cette propriété est utilisée lorsque le document est exporté vers des formats de page fixes.
 
-### Exemples
+## Exemples
 
 Montre comment restituer des formes de secours lors de l’enregistrement au format PDF.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

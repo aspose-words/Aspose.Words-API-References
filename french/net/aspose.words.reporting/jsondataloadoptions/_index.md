@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataLoadOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Reporting.JsonDataLoadOptions classe. Représente les options danalyse des données JSON.
+title: JsonDataLoadOptions Class
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Reporting.JsonDataLoadOptions classe. Représente les options danalyse des données JSON en C#.
 type: docs
 weight: 4680
 url: /fr/net/aspose.words.reporting/jsondataloadoptions/
@@ -31,7 +33,7 @@ public class JsonDataLoadOptions
 | [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | Obtient ou définit un indicateur indiquant si les espaces de début et de fin doivent être conservés lors du chargement des valeurs string des données JSON. |
 | [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Obtient ou définit un mode d'analyse des valeurs simples JSON (null, booléen, nombre, entier et chaîne) lors du chargement de JSON. Un tel mode n'affecte pas l'analyse des valeurs date-heure. La valeur par défaut est Loose . |
 
-### Remarques
+## Remarques
 
 Une instance de cette classe peut être transmise aux constructeurs de[`JsonDataSource`](../jsondatasource/) .
 
@@ -39,5 +41,3 @@ Une instance de cette classe peut être transmise aux constructeurs de[`JsonData
 
 * espace de noms [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../)
-
-

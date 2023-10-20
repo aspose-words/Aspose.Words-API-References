@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Renvoie unDocumentProperty objet par le nom de la propriété.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Item propriété. Renvoie unDocumentProperty objet par le nom de la propriété en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Le nom insensible à la casse de la propriété à récupérer. |
 
-### Remarques
+## Remarques
 
 Les noms de chaîne des propriétés correspondent aux noms des propriétés typed disponibles depuis[`BuiltInDocumentProperties`](../).
 
@@ -26,7 +28,7 @@ Si vous demandez une propriété qui n'est pas présente dans le document, mais 
 
 Si vous demandez une propriété qui n'est pas présente dans le document et que le nom n'est pas reconnu comme nom intégré, un`nul` est retourné.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document personnalisées.
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

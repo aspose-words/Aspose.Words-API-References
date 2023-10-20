@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseLunarCalendar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSaveDate propriété. Obtient ou définit sil faut utiliser le calendrier lunaire hégirien ou lunaire hébreu.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words pour .NET
+description: FieldSaveDate UseLunarCalendar propriété. Obtient ou définit sil faut utiliser le calendrier lunaire hégirien ou lunaire hébreu en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut utiliser le calendrier lunaire hégirien ou lunair
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ SAVEDATE pour afficher la date/heure de l'opération d'enregistrement la plus récente du document effectuée à l'aide de Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Voir également
 
 * class [FieldSaveDate](../)
-* espace de noms [Aspose.Words.Fields](../../fieldsavedate/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSavingArgs propriété. Obtient lobjet document en cours denregistrement.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: ImageSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/imagesavingargs/document/
@@ -14,7 +16,7 @@ Obtient l'objet document en cours d'enregistrement.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
 
@@ -61,7 +63,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../imagesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

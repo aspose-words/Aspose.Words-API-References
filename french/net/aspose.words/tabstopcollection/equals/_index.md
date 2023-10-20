@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Détermine si leTabStopCollection est égale en valeur au courantTabStopCollection .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: TabStopCollection Equals méthode. Détermine si leTabStopCollection est égale en valeur au courantTabStopCollection  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 Détermine si le[`TabStopCollection`](../) est égale en valeur au courant[`TabStopCollection`](../) .
 
@@ -14,7 +16,7 @@ Détermine si le[`TabStopCollection`](../) est égale en valeur au courant[`TabS
 public bool Equals(TabStopCollection rhs)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Détermine si l'objet spécifié a une valeur égale à l'objet actuel.
 
@@ -71,7 +73,7 @@ Détermine si l'objet spécifié a une valeur égale à l'objet actuel.
 public override bool Equals(object obj)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

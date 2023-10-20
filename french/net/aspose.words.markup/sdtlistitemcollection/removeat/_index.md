@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection méthode. Supprime un élément de liste à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection RemoveAt méthode. Supprime un élément de liste à lindex spécifié en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index de base zéro de l'élément à supprimer. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

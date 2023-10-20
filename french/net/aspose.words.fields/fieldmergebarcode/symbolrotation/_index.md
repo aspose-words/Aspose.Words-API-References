@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit la rotation du symbole du codebarres. Les valeurs valides sont 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words pour .NET
+description: FieldMergeBarcode SymbolRotation propriété. Obtient ou définit la rotation du symbole du codebarres. Les valeurs valides sont 0 3 en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
@@ -14,7 +16,7 @@ Obtient ou définit la rotation du symbole du code-barres. Les valeurs valides s
 public string SymbolRotation { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage sur des codes-barres QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Voir également
 
 * class [FieldMergeBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

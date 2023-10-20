@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.LayoutFlow énumération. Détermine le flux de la disposition du texte dans une zone de texte.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.LayoutFlow énumération. Détermine le flux de la disposition du texte dans une zone de texte en C#.
 type: docs
 weight: 1100
 url: /fr/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | Le texte idéographique est affiché horizontalement. |
 | Vertical | `5` | Le texte est affiché verticalement. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter du texte à une zone de texte et modifier son orientation
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

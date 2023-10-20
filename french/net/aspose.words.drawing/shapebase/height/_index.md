@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Height
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit la hauteur du bloc contenant la forme.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words pour .NET
+description: ShapeBase Height propriété. Obtient ou définit la hauteur du bloc contenant la forme en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.drawing/shapebase/height/
@@ -14,7 +16,7 @@ Obtient ou définit la hauteur du bloc contenant la forme.
 public double Height { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour une forme de niveau supérieur, la valeur est en points.
 
@@ -22,7 +24,7 @@ Pour les formes d'un groupe, la valeur se trouve dans l'espace de coordonnées e
 
 La valeur par défaut est 0.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante et spécifier sa position et sa taille.
 
@@ -111,7 +113,5 @@ Montre comment redimensionner une forme avec une image.
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

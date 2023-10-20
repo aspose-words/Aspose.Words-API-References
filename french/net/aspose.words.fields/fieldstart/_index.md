@@ -1,7 +1,9 @@
 ---
-title: Class FieldStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldStart classe. Représente le début dun champ Word dans un document.
+title: FieldStart Class
+linktitle: FieldStart
+articleTitle: FieldStart
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldStart classe. Représente le début dun champ Word dans un document en C#.
 type: docs
 weight: 2430
 url: /fr/net/aspose.words.fields/fieldstart/
@@ -44,19 +46,19 @@ public class FieldStart : FieldChar
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldstart/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| override [Accept](../../aspose.words.fields/fieldstart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Renvoie un champ pour le champ char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que représente ce nœud. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 `FieldStart` est un nœud de niveau en ligne et représenté par the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) caractère de contrôle dans le document.
 
@@ -66,7 +68,7 @@ Un champ complet dans un document Microsoft Word est une structure complexe comp
 
 Pour insérer facilement un nouveau champ dans un document, utilisez le[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Méthode .
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une collection de champs.
 
@@ -383,5 +385,3 @@ namespace ApiExamples
 * class [FieldChar](../fieldchar/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

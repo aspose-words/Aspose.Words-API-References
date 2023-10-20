@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les �
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

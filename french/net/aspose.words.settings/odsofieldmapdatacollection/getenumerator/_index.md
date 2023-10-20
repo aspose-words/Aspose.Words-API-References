@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapDataCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapDataCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les �
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

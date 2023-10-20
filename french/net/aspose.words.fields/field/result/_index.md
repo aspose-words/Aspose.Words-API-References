@@ -1,7 +1,9 @@
 ---
 title: Field.Result
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words pour .NET
+description: Field Result propriété. Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/field/result/
@@ -14,7 +16,7 @@ Obtient ou définit le texte situé entre le séparateur de champ et la fin du c
 public string Result { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ dans un document à l'aide d'un code de champ.
 
@@ -34,7 +36,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 ### Voir également
 
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

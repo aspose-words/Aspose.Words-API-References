@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRange propriété. Renvoie ou définit un alias ou un groupe dédition qui doit être utilisé pour déterminer si lutilisateur actuel doit être autorisé à modifier cette plage modifiable.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words pour .NET
+description: EditableRange EditorGroup propriété. Renvoie ou définit un alias ou un groupe dédition qui doit être utilisé pour déterminer si lutilisateur actuel doit être autorisé à modifier cette plage modifiable en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ Renvoie ou définit un alias (ou un groupe d'édition) qui doit être utilisé p
 public EditorType EditorGroup { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera clair.
 
-### Exemples
+## Exemples
 
 Montre comment créer des plages modifiables imbriquées.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* espace de noms [Aspose.Words](../../editablerange/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

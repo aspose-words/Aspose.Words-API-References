@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertOnceOnMailMerge
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDatabase propriété. Obtient ou définit sil faut insérer des données au début dune fusion.
+linktitle: InsertOnceOnMailMerge
+articleTitle: InsertOnceOnMailMerge
+second_title: Aspose.Words pour .NET
+description: FieldDatabase InsertOnceOnMailMerge propriété. Obtient ou définit sil faut insérer des données au début dune fusion en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer des données au début d'une fusion.
 public bool InsertOnceOnMailMerge { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment extraire des données d'une base de données et les insérer sous forme de champ dans un document.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Voir également
 
 * class [FieldDatabase](../)
-* espace de noms [Aspose.Words.Fields](../../fielddatabase/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

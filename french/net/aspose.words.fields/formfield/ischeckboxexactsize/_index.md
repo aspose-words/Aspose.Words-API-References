@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit la valeur booléenne qui indique si la taille de la zone de texte est automatique ou spécifiée explicitement.
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: Aspose.Words pour .NET
+description: FormField IsCheckBoxExactSize propriété. Obtient ou définit la valeur booléenne qui indique si la taille de la zone de texte est automatique ou spécifiée explicitement en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ Obtient ou définit la valeur booléenne qui indique si la taille de la zone de 
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Applicable uniquement pour un champ de formulaire de case à cocher.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

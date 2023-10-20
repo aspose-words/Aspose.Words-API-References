@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dun paragraphe a commencé.
+linktitle: VisitParagraphStart
+articleTitle: VisitParagraphStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitParagraphStart méthode. Appelé lorsque lénumération dun paragraphe a commencé en C#.
 type: docs
 weight: 330
 url: /fr/net/aspose.words/documentvisitor/visitparagraphstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphStart(Paragraph paragraph)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un visiteur de document pour imprimer la structure des nœuds d'un document.
 
@@ -384,7 +386,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

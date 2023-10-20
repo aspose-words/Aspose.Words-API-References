@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItem propriété. Obtient le texte à afficher dans le contenu de lexécution à la place duValue contenu de lattribut pour cet élément de liste.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words pour .NET
+description: SdtListItem DisplayText propriété. Obtient le texte à afficher dans le contenu de lexécution à la place duValue contenu de lattribut pour cet élément de liste en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ Obtient le texte à afficher dans le contenu de l'exécution à la place du[`Val
 public string DisplayText { get; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul` et ne peut pas être une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItem](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitem/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

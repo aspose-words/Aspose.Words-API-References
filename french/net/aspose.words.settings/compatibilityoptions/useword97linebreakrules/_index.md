@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord97LineBreakRules
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Émuler le saut de ligne dAsie de lEst de Word 97.
+linktitle: UseWord97LineBreakRules
+articleTitle: UseWord97LineBreakRules
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions UseWord97LineBreakRules propriété. Émuler le saut de ligne dAsie de lEst de Word 97 en C#.
 type: docs
 weight: 680
 url: /fr/net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
@@ -17,7 +19,5 @@ public bool UseWord97LineBreakRules { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

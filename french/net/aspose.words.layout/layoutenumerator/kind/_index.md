@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Obtient le type de lentité actuelle. Cela peut être une chaîne vide mais jamaisnul .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator Kind propriété. Obtient le type de lentité actuelle. Cela peut être une chaîne vide mais jamaisnul  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ Obtient le type de l'entité actuelle. Cela peut être une chaîne vide mais jam
 public string Kind { get; }
 ```
 
-### Remarques
+## Remarques
 
 Il s'agit d'un type plus spécifique de l'entité actuelle, par exemple la durée du signet aSpan type and peut avoir un type BOOKMARKSTART ou BOOKMARKEND.
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

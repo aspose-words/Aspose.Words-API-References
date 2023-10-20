@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MustacheTag propriété. Récupère le texte de la balise.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: MustacheTag Text propriété. Récupère le texte de la balise en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ Récupère le texte de la balise.
 public string Text { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de moustache.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Voir également
 
 * class [MustacheTag](../)
-* espace de noms [Aspose.Words.MailMerging](../../mustachetag/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

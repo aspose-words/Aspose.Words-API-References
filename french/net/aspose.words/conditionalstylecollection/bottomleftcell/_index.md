@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.BottomLeftCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyleCollection propriété. Obtient le style de cellule en bas à gauche.
+linktitle: BottomLeftCell
+articleTitle: BottomLeftCell
+second_title: Aspose.Words pour .NET
+description: ConditionalStyleCollection BottomLeftCell propriété. Obtient le style de cellule en bas à gauche en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/conditionalstylecollection/bottomleftcell/
@@ -14,7 +16,7 @@ Obtient le style de cellule en bas à gauche.
 public ConditionalStyle BottomLeftCell { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espace de noms [Aspose.Words](../../conditionalstylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

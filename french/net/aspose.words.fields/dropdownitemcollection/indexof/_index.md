@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection méthode. Renvoie lindex de base zéro de la valeur spécifiée dans la collection.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection IndexOf méthode. Renvoie lindex de base zéro de la valeur spécifiée dans la collection en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 L'indice de base zéro. Valeur négative si introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

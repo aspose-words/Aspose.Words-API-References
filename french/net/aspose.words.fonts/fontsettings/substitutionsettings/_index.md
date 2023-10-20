@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings propriété. Paramètres liés au mécanisme de substitution de police.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words pour .NET
+description: FontSettings SubstitutionSettings propriété. Paramètres liés au mécanisme de substitution de police en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ Paramètres liés au mécanisme de substitution de police.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

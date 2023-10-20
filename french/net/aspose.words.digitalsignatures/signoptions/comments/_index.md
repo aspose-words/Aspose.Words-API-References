@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignOptions propriété. Spécifie des commentaires sur la signature numérique. La valeur par défaut est chaîne vide Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words pour .NET
+description: SignOptions Comments propriété. Spécifie des commentaires sur la signature numérique. La valeur par défaut estchaîne vide Empty en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Spécifie des commentaires sur la signature numérique. La valeur par défaut est **chaîne vide** (Empty).
+Spécifie des commentaires sur la signature numérique. La valeur par défaut est**chaîne vide** (Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement des documents.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Voir également
 
 * class [SignOptions](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

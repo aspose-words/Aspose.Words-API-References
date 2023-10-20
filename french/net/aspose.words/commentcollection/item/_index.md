@@ -1,7 +1,9 @@
 ---
 title: CommentCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CommentCollection propriété. Récupère unComment à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: CommentCollection Item propriété. Récupère unComment à lindex donné en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/commentcollection/item/
@@ -18,7 +20,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | Un index dans la collection. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les réponses aux commentaires.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* espace de noms [Aspose.Words](../../commentcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

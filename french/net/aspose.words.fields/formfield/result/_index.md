@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit une chaîne qui représente le résultat de ce champ de formulaire.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words pour .NET
+description: FormField Result propriété. Obtient ou définit une chaîne qui représente le résultat de ce champ de formulaire en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ Obtient ou définit une chaîne qui représente le résultat de ce champ de form
 public string Result { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour un champ de formulaire de texte, le résultat est le texte qui se trouve dans le champ.
 
@@ -26,7 +28,7 @@ Paramètre`Result` pour un champ de formulaire de texte n'applique pas le format
 
 Pour un champ de formulaire texte, le[`TextInputDefault`](../textinputdefault/) la valeur est appliquée si*value* est`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une zone de liste déroulante.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Obtient la taille du fichier de police dorigine.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs OriginalFileSize propriété. Obtient la taille du fichier de police dorigine en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ Obtient la taille du fichier de police d'origine.
 public int OriginalFileSize { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété contient la taille de fichier d'origine de la police actuelle si elle est connue. Sinon, cela peut être nul.
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Renvoie le dernierCell dans la rangée.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: Aspose.Words pour .NET
+description: Row LastCell propriété. Renvoie le dernierCell dans la rangée en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ Renvoie le dernier[`Cell`](../../cell/) dans la rangée.
 public Cell LastCell { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: InlineStory propriété. Obtient le premier paragraphe de lhistoire.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words pour .NET
+description: InlineStory FirstParagraph propriété. Obtient le premier paragraphe de lhistoire en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ Obtient le premier paragraphe de l'histoire.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un commentaire à un paragraphe.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* espace de noms [Aspose.Words](../../inlinestory/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToDouble
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentProperty méthode. Renvoie la valeur de la propriété sous la forme double.
+linktitle: ToDouble
+articleTitle: ToDouble
+second_title: Aspose.Words pour .NET
+description: DocumentProperty ToDouble méthode. Renvoie la valeur de la propriété sous la forme double en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.properties/documentproperty/todouble/
@@ -14,11 +16,11 @@ Renvoie la valeur de la propriété sous la forme double.
 public double ToDouble()
 ```
 
-### Remarques
+## Remarques
 
 Lève une exception si le type de propriété n'est pasNumber .
 
-### Exemples
+## Exemples
 
 Affiche différentes méthodes de conversion de type des propriétés de document personnalisées.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Voir également
 
 * class [DocumentProperty](../)
-* espace de noms [Aspose.Words.Properties](../../documentproperty/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

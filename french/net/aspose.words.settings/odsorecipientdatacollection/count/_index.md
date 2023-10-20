@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection propriété. Obtient le nombre déléments contenus dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'éléments contenus dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

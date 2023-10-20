@@ -1,7 +1,9 @@
 ---
-title: Class TabStopCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TabStopCollection classe. Une collection deTabStop objets qui représentent des onglets personnalisés pour un paragraphe ou un style.
+title: TabStopCollection Class
+linktitle: TabStopCollection
+articleTitle: TabStopCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TabStopCollection classe. Une collection deTabStop objets qui représentent des onglets personnalisés pour un paragraphe ou un style en C#.
 type: docs
 weight: 6210
 url: /fr/net/aspose.words/tabstopcollection/
@@ -27,26 +29,26 @@ public class TabStopCollection : InternableComplexAttr
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add/#add)(TabStop) | Ajoute ou remplace un taquet de tabulation dans la collection. |
-| [Add](../../aspose.words/tabstopcollection/add/#add_1)(double, TabAlignment, TabLeader) | Ajoute ou remplace un taquet de tabulation dans la collection. |
-| [After](../../aspose.words/tabstopcollection/after/)(double) | Obtient un premier taquet de tabulation à droite de la position spécifiée. |
-| [Before](../../aspose.words/tabstopcollection/before/)(double) | Obtient un premier taquet de tabulation à gauche de la position spécifiée. |
+| [Add](../../aspose.words/tabstopcollection/add/#add)(*[TabStop](../tabstop/)*) | Ajoute ou remplace un taquet de tabulation dans la collection. |
+| [Add](../../aspose.words/tabstopcollection/add/#add_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Ajoute ou remplace un taquet de tabulation dans la collection. |
+| [After](../../aspose.words/tabstopcollection/after/)(*double*) | Obtient un premier taquet de tabulation à droite de la position spécifiée. |
+| [Before](../../aspose.words/tabstopcollection/before/)(*double*) | Obtient un premier taquet de tabulation à gauche de la position spécifiée. |
 | [Clear](../../aspose.words/tabstopcollection/clear/)() | Supprime toutes les positions de taquet de tabulation. |
-| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Détermine si le`TabStopCollection` est égale en valeur au courant`TabStopCollection` . |
+| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(*TabStopCollection*) | Détermine si le`TabStopCollection` est égale en valeur au courant`TabStopCollection` . |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Sert de fonction de hachage pour ce type. |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Obtient l'index d'un taquet de tabulation avec la position spécifiée en points. |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Obtient la position (en points) du taquet de tabulation à l'index spécifié. |
-| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(int) | Supprime un taquet de tabulation à l'index spécifié de la collection. |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(double) | Supprime un taquet de tabulation à la position spécifiée de la collection. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(*double*) | Obtient l'index d'un taquet de tabulation avec la position spécifiée en points. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(*int*) | Obtient la position (en points) du taquet de tabulation à l'index spécifié. |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(*int*) | Supprime un taquet de tabulation à l'index spécifié de la collection. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(*double*) | Supprime un taquet de tabulation à la position spécifiée de la collection. |
 
-### Remarques
+## Remarques
 
 Dans les documents Microsoft Word, un taquet de tabulation peut être défini dans les propriétés d'un style paragraphe ou directement dans les propriétés d'un paragraphe. Un style peut être basé sur un autre style. Ainsi, l'ensemble complet des taquets de tabulation pour un objet donné est une combinaison de taquets de tabulation définis directement sur cet objet et de taquets de tabulation hérités des styles parents.
 
 Dans Aspose.Words, lorsque vous obtenez un`TabStopCollection`pour un paragraphe ou un style, elle contient uniquement les taquets de tabulation personnalisés définis directement pour ce paragraphe ou ce style. La collection n'inclut pas les taquets de tabulation définis dans les styles parents ni les taquets de tabulation par défaut.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

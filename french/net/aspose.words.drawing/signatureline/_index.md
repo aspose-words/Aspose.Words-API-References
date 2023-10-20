@@ -1,7 +1,9 @@
 ---
-title: Class SignatureLine
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.SignatureLine classe. Donne accès aux propriétés de la ligne de signature.
+title: SignatureLine Class
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.SignatureLine classe. Donne accès aux propriétés de la ligne de signature en C#.
 type: docs
 weight: 1300
 url: /fr/net/aspose.words.drawing/signatureline/
@@ -22,17 +24,17 @@ public class SignatureLine
 | --- | --- |
 | [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Obtient ou définit une valeur indiquant que le signataire peut ajouter des commentaires dans la boîte de dialogue Signer. La valeur par défaut de cette propriété est`FAUX` . |
 | [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue de signature. La valeur par défaut de cette propriété est`vrai` . |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Obtient ou définit l'adresse e-mail du signataire suggéré. La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Obtient ou définit l'adresse e-mail du signataire suggéré. La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Obtient ou définit l'identifiant de cette ligne de signature. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée si[`DefaultInstructions`](./defaultinstructions/)est défini. La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée si[`DefaultInstructions`](./defaultinstructions/)est défini. La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Indique que la ligne de signature est signée par signature numérique. |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Indique que la ligne de signature est signée par signature numérique et que cette signature numérique est valide. |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Obtient ou définit l'identifiant du fournisseur de signature pour cette ligne de signature. La valeur par défaut est "{00000000-0000-0000-0000-000000000000}". |
 | [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Obtient ou définit une valeur indiquant que la date de signature est affichée dans la ligne de signature. La valeur par défaut de cette propriété est`vrai` . |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Obtient ou définit le titre suggéré du signataire (par exemple, Manager). La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Obtient ou définit le titre suggéré du signataire (par exemple, Manager). La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 
-### Exemples
+## Exemples
 
 Montre comment créer une ligne pour une signature et l'insérer dans un document.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

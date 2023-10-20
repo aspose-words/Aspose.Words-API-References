@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgsBase propriété. Obtient le nom du champ de fusion dans la source de données.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgsBase FieldName propriété. Obtient le nom du champ de fusion dans la source de données en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ Obtient le nom du champ de fusion dans la source de données.
 public string FieldName { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si vous disposez d'un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit du nom de champ mappé.
 
 Si vous avez spécifié un préfixe de nom de champ, par exemple "Image:MyFieldName" dans le document, alors`FieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire "MyFieldName".
 
-### Exemples
+## Exemples
 
 Montre comment insérer des champs de formulaire de case à cocher dans les MERGEFIELD en tant que données de fusion lors du publipostage.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Voir également
 
 * class [FieldMergingArgsBase](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

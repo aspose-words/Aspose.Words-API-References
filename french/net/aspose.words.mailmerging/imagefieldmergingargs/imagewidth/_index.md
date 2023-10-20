@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageWidth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageFieldMergingArgs propriété. Spécifie la largeur de limage à insérer dans le document.
+linktitle: ImageWidth
+articleTitle: ImageWidth
+second_title: Aspose.Words pour .NET
+description: ImageFieldMergingArgs ImageWidth propriété. Spécifie la largeur de limage à insérer dans le document en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/imagewidth/
@@ -14,13 +16,13 @@ Spécifie la largeur de l'image à insérer dans le document.
 public MergeFieldImageDimension ImageWidth { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur de cette propriété provient initialement du code du MERGEFIELD correspondant, contenu dans le document modèle . Pour remplacer la valeur initiale, vous devez attribuer une instance de [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe à cette propriété ou définissez les propriétés de l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété.
 
 Pour indiquer que la valeur originale de la largeur de l'image doit être appliquée, vous devez attribuer le`nul` à cette propriété ou définissez la valeur[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) propriété pour l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété, à une valeur négative.
 
-### Exemples
+## Exemples
 
 Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* espace de noms [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

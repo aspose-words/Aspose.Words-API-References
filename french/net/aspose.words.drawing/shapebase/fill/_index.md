@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient le formatage de remplissage pour la forme.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words pour .NET
+description: ShapeBase Fill propriété. Obtient le formatage de remplissage pour la forme en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ Obtient le formatage de remplissage pour la forme.
 public Fill Fill { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec une couleur unie.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

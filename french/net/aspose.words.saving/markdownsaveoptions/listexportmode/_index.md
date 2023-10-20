@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ListExportMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MarkdownSaveOptions propriété. Spécifie comment les éléments de la liste seront écrits dans le fichier de sortie. La valeur par défaut estMarkdownSyntax .
+linktitle: ListExportMode
+articleTitle: ListExportMode
+second_title: Aspose.Words pour .NET
+description: MarkdownSaveOptions ListExportMode propriété. Spécifie comment les éléments de la liste seront écrits dans le fichier de sortie. La valeur par défaut estMarkdownSyntax  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/markdownsaveoptions/listexportmode/
@@ -14,13 +16,13 @@ Spécifie comment les éléments de la liste seront écrits dans le fichier de s
 public MarkdownListExportMode ListExportMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque cette propriété est définie surPlainText toutes les étiquettes de liste sont mises à jour à l'aide[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)et exportés avec leurs valeurs réelles. De telles lists peuvent être non compatibles avec le format Markdown et seront reconnues comme texte brut lors de l'importation dans ce cas.
 
 Lorsque cette propriété est définie surMarkdownSyntax, l'écrivain essaie d'export les éléments de la liste d'une manière qui permet de numéroter les éléments de la liste en mode automatique par Markdown.
 
-### Exemples
+## Exemples
 
 Montre comment répertorier les éléments qui seront écrits dans le document de démarque.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "MarkdownSaveOptions.ListExportMode.md", options);
 
 * enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * class [MarkdownSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../markdownsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

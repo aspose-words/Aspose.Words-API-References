@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Paragraphs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: InlineStory propriété. Obtient une collection de paragraphes qui sont des enfants immédiats de lhistoire.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words pour .NET
+description: InlineStory Paragraphs propriété. Obtient une collection de paragraphes qui sont des enfants immédiats de lhistoire en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/inlinestory/paragraphs/
@@ -14,7 +16,7 @@ Obtient une collection de paragraphes qui sont des enfants immédiats de l'histo
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un commentaire à un paragraphe.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* espace de noms [Aspose.Words](../../inlinestory/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.DeleteRow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Supprime une ligne dun tableau.
+linktitle: DeleteRow
+articleTitle: DeleteRow
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder DeleteRow méthode. Supprime une ligne dun tableau en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words/documentbuilder/deleterow/
@@ -23,7 +25,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 Le nœud de ligne qui vient d'être supprimé.
 
-### Remarques
+## Remarques
 
 Si le curseur se trouve à l'intérieur de la ligne en cours de suppression, le curseur est déplacé vers la ligne suivante ou vers le paragraphe suivant après le tableau.
 
@@ -31,7 +33,7 @@ Si vous supprimez une ligne d'une table qui ne contient qu'une seule ligne, la t
 
 Pour les paramètres d'index, lorsque l'index est supérieur ou égal à 0, il spécifie un index from au début, 0 étant le premier élément. Lorsque l'index est inférieur à 0, il spécifie un index from à la fin, -1 étant le dernier élément.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer une ligne d’un tableau.
 
@@ -64,7 +66,5 @@ Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

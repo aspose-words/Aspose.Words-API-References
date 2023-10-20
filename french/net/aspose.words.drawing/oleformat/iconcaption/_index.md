@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat propriété. Obtient la légende de licône de lobjet OLE.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words pour .NET
+description: OleFormat IconCaption propriété. Obtient la légende de licône de lobjet OLE en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ Dans le cas où l'objet OLE n'est pas intégré car l'icône ou la légende n'a 
 public string IconCaption { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des objets OLE liés et non liés.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Voir également
 
 * class [OleFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../oleformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

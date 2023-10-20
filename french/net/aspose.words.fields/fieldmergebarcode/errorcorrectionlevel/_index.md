@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit un niveau de correction derreur du code QR. Les valeurs valides sont 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words pour .NET
+description: FieldMergeBarcode ErrorCorrectionLevel propriété. Obtient ou définit un niveau de correction derreur du code QR. Les valeurs valides sont 0 3 en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ Obtient ou définit un niveau de correction d'erreur du code QR. Les valeurs val
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage sur des codes-barres QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Voir également
 
 * class [FieldMergeBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

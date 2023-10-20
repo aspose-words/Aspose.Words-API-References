@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RowFormat méthode. Réinitialise le formatage de ligne par défaut.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words pour .NET
+description: RowFormat ClearFormatting méthode. Réinitialise le formatage de ligne par défaut en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ Réinitialise le formatage de ligne par défaut.
 public void ClearFormatting()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau avec des bordures personnalisées.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Voir également
 
 * class [RowFormat](../)
-* espace de noms [Aspose.Words.Tables](../../rowformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

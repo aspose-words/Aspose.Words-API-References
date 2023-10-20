@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Format
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Permet daccéder au formatage de remplissage et de ligne de létiquette de données.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel Format propriété. Permet daccéder au formatage de remplissage et de ligne de létiquette de données en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/format/
@@ -18,7 +20,5 @@ public ChartFormat Format { get; }
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

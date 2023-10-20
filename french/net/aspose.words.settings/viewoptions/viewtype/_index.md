@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ViewType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ViewOptions propriété. Contrôle le mode daffichage dans Microsoft Word.
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words pour .NET
+description: ViewOptions ViewType propriété. Contrôle le mode daffichage dans Microsoft Word en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/viewoptions/viewtype/
@@ -14,11 +16,11 @@ Contrôle le mode d'affichage dans Microsoft Word.
 public ViewType ViewType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Bien qu'Aspose.Words soit capable de lire et d'écrire cette option, son utilisation est spécifique à l'application. Par exemple MS Word 2013 ne respecte pas la valeur de cette option.
 
-### Exemples
+## Exemples
 
 Montre comment définir un facteur de zoom personnalisé, que les anciennes versions de Microsoft Word appliqueront à un document lors du chargement.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* espace de noms [Aspose.Words.Settings](../../viewoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

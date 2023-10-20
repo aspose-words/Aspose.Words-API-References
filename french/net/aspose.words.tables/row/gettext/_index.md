@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row méthode. Obtient le texte de toutes les cellules de cette ligne y compris le caractère de fin de ligne.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words pour .NET
+description: Row GetText méthode. Obtient le texte de toutes les cellules de cette ligne y compris le caractère de fin de ligne en C#.
 type: docs
-weight: 160
+weight: 140
 url: /fr/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ Obtient le texte de toutes les cellules de cette ligne, y compris le caractère 
 public override string GetText()
 ```
 
-### Remarques
+## Remarques
 
 Renvoie le texte concaténé de tous les nœuds enfants avec la fin de la ligne caractère [`Cell`](../../../aspose.words/controlchar/cell/) annexé à la fin.
 
 La chaîne renvoyée inclut tous les caractères de contrôle et spéciaux comme décrit dans[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Voir également
 
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

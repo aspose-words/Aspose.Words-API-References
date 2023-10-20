@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CommentRangeStart constructeur. Initialise une nouvelle instance de cette classe.
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: Aspose.Words pour .NET
+description: CommentRangeStart constructeur. Initialise une nouvelle instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | Le document du propriétaire. |
 | id | Int32 | L'identifiant du commentaire auquel cet objet est lié. |
 
-### Remarques
+## Remarques
 
 Quand[`CommentRangeStart`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../node/parentnode/) est`nul`.
 
 Pour ajouter un[`CommentRangeStart`](../) au document, utilisez InsertAfter ou InsertBefore sur le paragraphe où vous souhaitez insérer le commentaire.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer le contenu de tous les commentaires et leurs plages de commentaires à l'aide d'un visiteur de document.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* espace de noms [Aspose.Words](../../commentrangestart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

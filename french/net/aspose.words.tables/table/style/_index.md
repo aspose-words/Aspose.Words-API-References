@@ -1,7 +1,9 @@
 ---
 title: Table.Style
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit le style de tableau appliqué à ce tableau.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words pour .NET
+description: Table Style propriété. Obtient ou définit le style de tableau appliqué à ce tableau en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.tables/table/style/
@@ -14,7 +16,7 @@ Obtient ou définit le style de tableau appliqué à ce tableau.
 public Style Style { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des paramètres de style personnalisés pour le tableau.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

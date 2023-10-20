@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Obtient le nom du fichier de police dorigine avec une extension.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs OriginalFileName propriété. Obtient le nom du fichier de police dorigine avec une extension en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ Obtient le nom du fichier de police d'origine avec une extension.
 public string OriginalFileName { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété contient le nom de fichier d'origine de la police actuelle s'il est connu. Sinon, il peut s'agir d'une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

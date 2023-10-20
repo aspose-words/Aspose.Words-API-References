@@ -1,7 +1,9 @@
 ---
-title: Enum ExportListLabels
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ExportListLabels énumération. Spécifie comment les étiquettes de liste sont exportées au format HTML MHTML et EPUB.
+title: ExportListLabels Enum
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.ExportListLabels énumération. Spécifie comment les étiquettes de liste sont exportées au format HTML MHTML et EPUB en C#.
 type: docs
 weight: 5010
 url: /fr/net/aspose.words.saving/exportlistlabels/
@@ -22,7 +24,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | Affiche toutes les étiquettes de liste sous forme de texte en ligne. |
 | ByHtmlTags | `2` | Affiche toutes les étiquettes de liste sous forme d'éléments HTML natifs. |
 
-### Exemples
+## Exemples
 
 Montre comment configurer l’exportation de liste au format HTML.
 
@@ -110,5 +112,3 @@ switch (exportListLabels)
 * property [ExportListLabels](../htmlsaveoptions/exportlistlabels/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.SourceFullName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIncludePicture propriété. Obtient ou définit lemplacement de limage à laide dun IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words pour .NET
+description: FieldIncludePicture SourceFullName propriété. Obtient ou définit lemplacement de limage à laide dun IRI en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -14,7 +16,7 @@ Obtient ou définit l'emplacement de l'image à l'aide d'un IRI.
 public string SourceFullName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des images à l’aide des champs IMPORT et INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Voir également
 
 * class [FieldIncludePicture](../)
-* espace de noms [Aspose.Words.Fields](../../fieldincludepicture/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

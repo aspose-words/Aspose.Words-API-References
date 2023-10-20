@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IMailMergeCallback méthode. Appelé lorsque les balises de texte moustache sont remplacées par des champs MERGEFIELD.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words pour .NET
+description: IMailMergeCallback TagsReplaced méthode. Appelé lorsque les balises de texte moustache sont remplacées par des champs MERGEFIELD en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ Appelé lorsque les balises de texte "moustache" sont remplacées par des champs
 public void TagsReplaced()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour gérer les événements lors du publipostage.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* espace de noms [Aspose.Words.MailMerging](../../imailmergecallback/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPropertyCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: CustomXmlPropertyCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les �
 public IEnumerator<CustomXmlProperty> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: PageInfo.GetSizeInPixels
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo méthode. Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words pour .NET
+description: PageInfo GetSizeInPixels méthode. Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés.
 
@@ -26,12 +28,12 @@ La taille de la page en pixels.
 ### Voir également
 
 * class [PageInfo](../)
-* espace de noms [Aspose.Words.Rendering](../../pageinfo/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés.
 
@@ -49,7 +51,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 La taille de la page en pixels.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
@@ -91,7 +93,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Voir également
 
 * class [PageInfo](../)
-* espace de noms [Aspose.Words.Rendering](../../pageinfo/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Notes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Mots.NotesLespace de noms fournit des classes pour travailler avec les notes de fin et de bas de page de Microsoft Word.
+linktitle: Aspose.Words.Notes
+articleTitle: Aspose.Words.Notes
+second_title: Aspose.Words pour .NET
+description: LeAspose.Mots.NotesLespace de noms fournit des classes pour travailler avec les notes de fin et de bas de page de Microsoft Word en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.notes/
 ---
-Le **Aspose.Mots.Notes**L'espace de noms fournit des classes pour travailler avec les notes de fin et de bas de page de Microsoft Word.
+Le**Aspose.Mots.Notes**L'espace de noms fournit des classes pour travailler avec les notes de fin et de bas de page de Microsoft Word.
 
 ## Des classes
 
@@ -23,5 +25,3 @@ Le **Aspose.Mots.Notes**L'espace de noms fournit des classes pour travailler ave
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Détermine quand la numérotation automatique des notes de bas de page ou des notes de fin redémarre. |
 | [FootnotePosition](./footnoteposition/) | Définit la position de la note de bas de page. |
 | [FootnoteType](./footnotetype/) | Spécifie s'il s'agit d'une note de bas de page ou d'une note de fin. |
-
-

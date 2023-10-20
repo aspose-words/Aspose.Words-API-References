@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Email
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLineOptions propriété. Obtient ou définit ladresse email suggérée du signataire. La valeur par défaut de cette propriété est chaîne vide Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words pour .NET
+description: SignatureLineOptions Email propriété. Obtient ou définit ladresse email suggérée du signataire. La valeur par défaut de cette propriété estchaîne vide Empty en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Obtient ou définit l'adresse e-mail suggérée du signataire. La valeur par défaut de cette propriété est **chaîne vide** (Empty).
+Obtient ou définit l'adresse e-mail suggérée du signataire. La valeur par défaut de cette propriété est**chaîne vide** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer un document avec un certificat personnel et une ligne de signature.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Voir également
 
 * class [SignatureLineOptions](../)
-* espace de noms [Aspose.Words](../../signaturelineoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

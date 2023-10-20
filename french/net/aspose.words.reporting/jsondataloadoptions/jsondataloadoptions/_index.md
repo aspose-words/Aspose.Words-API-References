@@ -1,7 +1,9 @@
 ---
-title: JsonDataLoadOptions.JsonDataLoadOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: JsonDataLoadOptions constructeur. Initialise une nouvelle instance de cette classe avec les options par défaut.
+title: JsonDataLoadOptions
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words pour .NET
+description: JsonDataLoadOptions constructeur. Initialise une nouvelle instance de cette classe avec les options par défaut en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/jsondataloadoptions/jsondataloadoptions/
@@ -17,7 +19,5 @@ public JsonDataLoadOptions()
 ### Voir également
 
 * class [JsonDataLoadOptions](../)
-* espace de noms [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

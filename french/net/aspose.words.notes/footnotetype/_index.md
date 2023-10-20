@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Notes.FootnoteType énumération. Spécifie sil sagit dune note de bas de page ou dune note de fin.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Notes.FootnoteType énumération. Spécifie sil sagit dune note de bas de page ou dune note de fin en C#.
 type: docs
 weight: 4300
 url: /fr/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | L'objet est une note de bas de page. |
 | Endnote | `1` | L'objet est une note de fin. |
 
-### Remarques
+## Remarques
 
 Les notes de bas de page et les notes de fin sont représentées par des objets par leFootnote Classe . Utiliser[`FootnoteType`](../footnote/footnotetype/) pour faire la distinction entre les notes de bas de page et les notes de fin.
 
-### Exemples
+## Exemples
 
 Montre comment référencer du texte avec une note de bas de page et une note de fin.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * espace de noms [Aspose.Words.Notes](../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../)
-
-

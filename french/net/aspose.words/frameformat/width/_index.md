@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Width
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FrameFormat propriété. Obtient la largeur du cadre spécifié en points.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words pour .NET
+description: FrameFormat Width propriété. Obtient la largeur du cadre spécifié en points en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/frameformat/width/
@@ -14,7 +16,7 @@ Obtient la largeur du cadre spécifié, en points.
 public double Width { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Voir également
 
 * class [FrameFormat](../)
-* espace de noms [Aspose.Words](../../frameformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

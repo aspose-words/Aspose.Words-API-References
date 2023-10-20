@@ -1,7 +1,9 @@
 ---
-title: Class Shape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Shape classe. Représente un objet dans le calque de dessin tel quune forme automatique une zone de texte une forme libre un objet OLE un contrôle ActiveX ou une image.
+title: Shape Class
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Shape classe. Représente un objet dans le calque de dessin tel quune forme automatique une zone de texte une forme libre un objet OLE un contrôle ActiveX ou une image en C#.
 type: docs
 weight: 1250
 url: /fr/net/aspose.words.drawing/shape/
@@ -20,7 +22,7 @@ public sealed class Shape : ShapeBase
 
 | Nom | La description |
 | --- | --- |
-| [Shape](shape/)(DocumentBase, ShapeType) | Crée un nouvel objet de forme. |
+| [Shape](shape/)(*[DocumentBase](../../aspose.words/documentbase/), [ShapeType](../shapetype/)*) | Crée un nouvel objet de forme. |
 
 ## Propriétés
 
@@ -125,43 +127,41 @@ public sealed class Shape : ShapeBase
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words.drawing/shape/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| override [AcceptEnd](../../aspose.words.drawing/shape/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words.drawing/shape/acceptstart/)(DocumentVisitor) |  |
-| [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(RectangleF) | Ajoute au rectangle source les valeurs de l'étendue de l'effet et renvoie le rectangle final. |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
+| override [Accept](../../aspose.words.drawing/shape/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur. |
+| [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(*RectangleF*) | Ajoute au rectangle source les valeurs de l'étendue de l'effet et renvoie le rectangle final. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds. |
-| [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(int) | Réservé à l'utilisation du système. IShapeAttrSource. |
-| [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(int) | Réservé à l'utilisation du système. IShapeAttrSource. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
-| [GetDirectShapeAttr](../../aspose.words.drawing/shapebase/getdirectshapeattr/)(int) | Réservé à l'utilisation du système. IShapeAttrSource. |
+| [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(*int*) | Réservé à l'utilisation du système. IShapeAttrSource. |
+| [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(*int*) | Réservé à l'utilisation du système. IShapeAttrSource. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
+| [GetDirectShapeAttr](../../aspose.words.drawing/shapebase/getdirectshapeattr/)(*int*) | Réservé à l'utilisation du système. IShapeAttrSource. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
 | [GetShapeRenderer](../../aspose.words.drawing/shapebase/getshaperenderer/)() | Crée et renvoie un objet qui peut être utilisé pour restituer cette forme en image. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [LocalToParent](../../aspose.words.drawing/shapebase/localtoparent/)(PointF) | Convertit une valeur de l'espace de coordonnées local dans l'espace de coordonnées de la forme parent. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
+| [LocalToParent](../../aspose.words.drawing/shapebase/localtoparent/)(*PointF*) | Convertit une valeur de l'espace de coordonnées local dans l'espace de coordonnées de la forme parent. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
-| [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(int) | Réservé à l'utilisation du système. IShapeAttrSource. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Supprime le nœud enfant spécifié. |
+| [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(*int*) | Réservé à l'utilisation du système. IShapeAttrSource. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag/)nœuds descendants du nœud actuel. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Sélectionne le premier[`Node`](../../aspose.words/node/) qui correspond à l'expression XPath. |
-| [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(int, object) | Réservé à l'utilisation du système. IShapeAttrSource. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Sélectionne le premier[`Node`](../../aspose.words/node/) qui correspond à l'expression XPath. |
+| [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(*int, object*) | Réservé à l'utilisation du système. IShapeAttrSource. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 | [UpdateSmartArtDrawing](../../aspose.words.drawing/shape/updatesmartartdrawing/)() | Met à jour le dessin pré-rendu SmartArt à l'aide du moteur de rendu à froid SmartArt d'Aspose.Words. |
 
-### Remarques
+## Remarques
 
 En utilisant le`Shape` classe, vous pouvez créer ou modifier des formes dans un document Microsoft Word.
 
@@ -169,7 +169,7 @@ Une propriété importante d'une forme est sa[`ShapeType`](../shapebase/shapetyp
 
 Les formes pouvant contenir du texte peuvent contenir[`Paragraph`](../../aspose.words/paragraph/) et [`Table`](../../aspose.words.tables/table/) nœuds comme enfants.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante au centre d’une page.
 
@@ -262,5 +262,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 * class [ShapeBase](../shapebase/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

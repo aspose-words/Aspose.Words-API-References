@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit loption  Autoriser lespacement entre les cellules .
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words pour .NET
+description: Table AllowCellSpacing propriété. Obtient ou définit loption  Autoriser lespacement entre les cellules  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ Obtient ou définit l'option « Autoriser l'espacement entre les cellules ».
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer l’espacement entre les cellules individuelles d’un tableau.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

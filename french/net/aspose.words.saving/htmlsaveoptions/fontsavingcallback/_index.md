@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Permet de contrôler la façon dont les polices sont enregistrées lorsquun document est enregistré au format HTML MHTML ou EPUB.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions FontSavingCallback propriété. Permet de contrôler la façon dont les polices sont enregistrées lorsquun document est enregistré au format HTML MHTML ou EPUB en C#.
 type: docs
 weight: 300
 url: /fr/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ Permet de contrôler la façon dont les polices sont enregistrées lorsqu'un doc
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

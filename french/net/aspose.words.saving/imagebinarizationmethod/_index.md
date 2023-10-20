@@ -1,7 +1,9 @@
 ---
-title: Enum ImageBinarizationMethod
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod énumération. Spécifie la méthode utilisée pour binariser limage.
+title: ImageBinarizationMethod Enum
+linktitle: ImageBinarizationMethod
+articleTitle: ImageBinarizationMethod
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.ImageBinarizationMethod énumération. Spécifie la méthode utilisée pour binariser limage en C#.
 type: docs
 weight: 5200
 url: /fr/net/aspose.words.saving/imagebinarizationmethod/
@@ -21,7 +23,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | Spécifie la méthode de seuil. |
 | FloydSteinbergDithering | `1` | Spécifie le tramage à l'aide de la méthode de diffusion d'erreur Floyd-Steinberg. |
 
-### Exemples
+## Exemples
 
 Montre comment définir le seuil d’erreur de binarisation TIFF lors de l’utilisation de la méthode Floyd-Steinberg pour restituer une image TIFF.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

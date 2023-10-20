@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Replacing.FindReplaceOptions classe. Spécifie les options pour les opérations de recherche/remplacement.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Replacing.FindReplaceOptions classe. Spécifie les options pour les opérations de recherche/remplacement en C#.
 type: docs
 weight: 4620
 url: /fr/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | Nom | La description |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Constructor |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Propriétés
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indique qu'une recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut est`FAUX` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Obtient ou définit une valeur booléenne indiquant s'il faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut est`FAUX` . |
 
-### Exemples
+## Exemples
 
 Montre comment activer/désactiver le respect de la casse lors d'une opération de recherche et de remplacement.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * espace de noms [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../)
-
-

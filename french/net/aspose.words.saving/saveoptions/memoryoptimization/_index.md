@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.MemoryOptimization
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit la valeur déterminant si loptimisation de la mémoire doit être effectuée avant denregistrer le document. La valeur par défaut de cette propriété estFAUX .
+linktitle: MemoryOptimization
+articleTitle: MemoryOptimization
+second_title: Aspose.Words pour .NET
+description: SaveOptions MemoryOptimization propriété. Obtient ou définit la valeur déterminant si loptimisation de la mémoire doit être effectuée avant denregistrer le document. La valeur par défaut de cette propriété estFAUX  en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.saving/saveoptions/memoryoptimization/
@@ -14,11 +16,11 @@ Obtient ou définit la valeur déterminant si l'optimisation de la mémoire doit
 public bool MemoryOptimization { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Définir cette option sur`vrai` peut réduire considérablement la consommation de mémoire tout en enregistrant des documents volumineux au prix d'un temps d'enregistrement plus lent.
 
-### Exemples
+## Exemples
 
 Affiche une option pour optimiser la consommation de mémoire lors du rendu de documents volumineux au format PDF.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

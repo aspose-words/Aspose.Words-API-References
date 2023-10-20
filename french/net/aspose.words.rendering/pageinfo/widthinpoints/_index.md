@@ -1,7 +1,9 @@
 ---
 title: PageInfo.WidthInPoints
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo propriété. Obtient la largeur de la page en points.
+linktitle: WidthInPoints
+articleTitle: WidthInPoints
+second_title: Aspose.Words pour .NET
+description: PageInfo WidthInPoints propriété. Obtient la largeur de la page en points en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.rendering/pageinfo/widthinpoints/
@@ -14,7 +16,7 @@ Obtient la largeur de la page en points.
 public float WidthInPoints { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Voir également
 
 * class [PageInfo](../)
-* espace de noms [Aspose.Words.Rendering](../../pageinfo/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TaskPane propriété. Spécifie la valeur de largeur par défaut pour cette instance du volet Office.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words pour .NET
+description: TaskPane Width propriété. Spécifie la valeur de largeur par défaut pour cette instance du volet Office en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ Spécifie la valeur de largeur par défaut pour cette instance du volet Office.
 public double Width { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [TaskPane](../)
-* espace de noms [Aspose.Words.WebExtensions](../../taskpane/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

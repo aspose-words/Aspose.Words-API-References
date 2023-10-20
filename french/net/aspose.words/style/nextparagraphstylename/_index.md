@@ -1,9 +1,11 @@
 ---
 title: Style.NextParagraphStyleName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Obtient/définit le nom du style à appliquer automatiquement à un nouveau paragraphe inséré après un paragraphe formaté avec le style spécifié.
+linktitle: NextParagraphStyleName
+articleTitle: NextParagraphStyleName
+second_title: Aspose.Words pour .NET
+description: Style NextParagraphStyleName propriété. Obtient/définit le nom du style à appliquer automatiquement à un nouveau paragraphe inséré après un paragraphe formaté avec le style spécifié en C#.
 type: docs
-weight: 140
+weight: 130
 url: /fr/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
@@ -14,11 +16,11 @@ Obtient/définit le nom du style à appliquer automatiquement à un nouveau para
 public string NextParagraphStyleName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'est pas utilisée par Aspose.Words. Le style de paragraphe suivant sera appliqué automatiquement only lorsque vous modifierez le document dans MS Word.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de styles d’un document.
 
@@ -46,7 +48,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Voir également
 
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

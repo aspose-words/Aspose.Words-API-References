@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment propriété. Obtient ou définit lindicateur indiquant que le commentaire a été marqué comme terminé.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words pour .NET
+description: Comment Done propriété. Obtient ou définit lindicateur indiquant que le commentaire a été marqué comme terminé en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ Obtient ou définit l'indicateur indiquant que le commentaire a été marqué co
 public bool Done { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment marquer un commentaire comme « terminé ».
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

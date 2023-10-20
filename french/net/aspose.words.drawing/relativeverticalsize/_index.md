@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.RelativeVerticalSize énumération. Spécifie par rapport à quoi la hauteur dune forme ou dun cadre de texte est calculée verticalement.
+title: RelativeVerticalSize Enum
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.RelativeVerticalSize énumération. Spécifie par rapport à quoi la hauteur dune forme ou dun cadre de texte est calculée verticalement en C#.
 type: docs
 weight: 1220
 url: /fr/net/aspose.words.drawing/relativeverticalsize/
@@ -26,7 +28,7 @@ public enum RelativeVerticalSize
 | OuterMargin | `5` | Spécifie que la hauteur est calculée par rapport à la taille de la zone de marge extérieure, à la taille de la zone de marge inférieure pour les pages impaires et à la taille de la zone de marge supérieure pour les pages paires. |
 | Default | `1` | La valeur par défaut estMargin . |
 
-### Exemples
+## Exemples
 
 Montre comment définir la taille et la position relatives.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeVerticalSize](../shapebase/relativeverticalsize/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

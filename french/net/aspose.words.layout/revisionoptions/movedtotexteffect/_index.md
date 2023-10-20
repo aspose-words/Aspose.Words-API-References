@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedToTextEffect
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier leffet à appliquer aux zones où le contenu a été déplacéMoving . La valeur par défaut estDoubleUnderline
+linktitle: MovedToTextEffect
+articleTitle: MovedToTextEffect
+second_title: Aspose.Words pour .NET
+description: RevisionOptions MovedToTextEffect propriété. Permet de spécifier leffet à appliquer aux zones où le contenu a été déplacéMoving . La valeur par défaut estDoubleUnderline en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.layout/revisionoptions/movedtotexteffect/
@@ -14,11 +16,11 @@ Permet de spécifier l'effet à appliquer aux zones où le contenu a été dépl
 public RevisionTextEffect MovedToTextEffect { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Valeurs deHidden etDoubleStrikeThrough ne sont pas autorisés et entraînerontArgumentOutOfRangeException.
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.FillType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient un type de remplissage.
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words pour .NET
+description: Fill FillType propriété. Obtient un type de remplissage en C#.
 type: docs
-weight: 60
+weight: 50
 url: /fr/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
@@ -18,7 +20,5 @@ public FillType FillType { get; }
 
 * enum [FillType](../../filltype/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

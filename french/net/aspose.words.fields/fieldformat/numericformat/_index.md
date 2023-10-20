@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldFormat propriété. Obtient ou définit une mise en forme appliquée au résultat dun champ numérique. Correspond au  switch.
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: Aspose.Words pour .NET
+description: FieldFormat NumericFormat propriété. Obtient ou définit une mise en forme appliquée au résultat dun champ numérique. Correspond au  switch en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ Obtient ou définit une mise en forme appliquée au résultat d'un champ numéri
 public string NumericFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater les résultats des champs.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Voir également
 
 * class [FieldFormat](../)
-* espace de noms [Aspose.Words.Fields](../../fieldformat/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

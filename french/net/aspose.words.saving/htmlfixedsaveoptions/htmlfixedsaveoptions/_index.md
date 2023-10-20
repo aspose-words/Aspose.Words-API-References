@@ -1,7 +1,9 @@
 ---
-title: HtmlFixedSaveOptions.HtmlFixedSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions constructeur. Default_Constructor
+title: HtmlFixedSaveOptions
+linktitle: HtmlFixedSaveOptions
+articleTitle: HtmlFixedSaveOptions
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/htmlfixedsaveoptions/
@@ -17,7 +19,5 @@ public HtmlFixedSaveOptions()
 ### Voir également
 
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

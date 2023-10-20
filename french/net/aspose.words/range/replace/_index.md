@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range méthode. Remplace toutes les occurrences dun modèle de chaîne de caractères spécifié par une chaîne de remplacement.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words pour .NET
+description: Range Replace méthode. Remplace toutes les occurrences dun modèle de chaîne de caractères spécifié par une chaîne de remplacement en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Remplace toutes les occurrences d'un modèle de chaîne de caractères spécifié par une chaîne de remplacement.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 Le nombre de remplacements effectués.
 
-### Remarques
+## Remarques
 
 Le modèle ne sera pas utilisé comme expression régulière. Veuillez utiliser`Replace`si vous avez besoin d'expressions régulières.
 
@@ -40,7 +42,7 @@ Vous devez utiliser des méta-caractères spéciaux si vous devez travailler ave
 
 Utiliser la méthode`Replace` pour avoir une personnalisation plus flexible.
 
-### Exemples
+## Exemples
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### Voir également
 
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Remplace toutes les occurrences d'un modèle de caractère spécifié par une expression régulière par une autre chaîne.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 Le nombre de remplacements effectués.
 
-### Remarques
+## Remarques
 
 Remplace toute la correspondance capturée par l'expression régulière.
 
@@ -141,7 +143,7 @@ Vous devez utiliser des méta-caractères spéciaux si vous devez travailler ave
 
 Utiliser la méthode`Replace` pour avoir une personnalisation plus flexible.
 
-### Exemples
+## Exemples
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### Voir également
 
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Remplace toutes les occurrences d'un modèle de chaîne de caractères spécifié par une chaîne de remplacement.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 Le nombre de remplacements effectués.
 
-### Remarques
+## Remarques
 
 Le modèle ne sera pas utilisé comme expression régulière. Veuillez utiliser`Replace`si vous avez besoin d'expressions régulières.
 
@@ -205,7 +207,7 @@ Vous devez utiliser des méta-caractères spéciaux si vous devez travailler ave
 * **&amp;l** - saut de ligne manuel
 * **&amp;&amp;** - &amp; personnage
 
-### Exemples
+## Exemples
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Remplace toutes les occurrences d'un modèle de caractère spécifié par une expression régulière par une autre chaîne.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 Le nombre de remplacements effectués.
 
-### Remarques
+## Remarques
 
 Remplace toute la correspondance capturée par l'expression régulière.
 
@@ -352,7 +354,7 @@ Vous devez utiliser des méta-caractères spéciaux si vous devez travailler ave
 * **&amp;l** - saut de ligne manuel
 * **&amp;&amp;** - &amp; personnage
 
-### Exemples
+## Exemples
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

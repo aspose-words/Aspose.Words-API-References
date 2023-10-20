@@ -1,7 +1,9 @@
 ---
-title: Class TxtLoadOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Loading.TxtLoadOptions classe. Permet de spécifier des options supplémentaires lors du chargementText documenter dans unDocument objet.
+title: TxtLoadOptions Class
+linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Loading.TxtLoadOptions classe. Permet de spécifier des options supplémentaires lors du chargementText documenter dans unDocument objet en C#.
 type: docs
 weight: 3730
 url: /fr/net/aspose.words.loading/txtloadoptions/
@@ -30,7 +32,6 @@ public class TxtLoadOptions : LoadOptions
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri/) { get; set; } | Obtient ou définit la chaîne qui sera utilisée pour résoudre les URI relatifs trouvés dans le document en URI absolus lorsque cela est nécessaire. Peut être`nul` ou une chaîne vide. La valeur par défaut est`nul` . |
 | [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Obtient ou définit s'il faut convertir le métafichier (Wmf ouEmf ) des images àPng format d'image. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath/) { get; set; } | Obtient ou définit s'il faut convertir les formes avec EquationXML en objets Office Math. |
-| [DetectHyperlinks](../../aspose.words.loading/txtloadoptions/detecthyperlinks/) { get; set; } |  |
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) { get; set; } | Permet de spécifier comment les éléments de liste numérotés sont reconnus lorsque le document est importé à partir du format texte brut. La valeur par défaut est`vrai`. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection/) { get; set; } | Obtient ou définit une direction de document. La valeur par défaut estLeftToRight . |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding/) { get; set; } | Obtient ou définit l'encodage qui sera utilisé pour charger un document HTML, TXT ou CHM si l'encodage n'est pas spécifié à l'intérieur du document. Peut être`nul` . La valeur par défaut est`nul` . |
@@ -53,12 +54,10 @@ public class TxtLoadOptions : LoadOptions
 
 | Nom | La description |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Voir également
 
 * class [LoadOptions](../loadoptions/)
 * espace de noms [Aspose.Words.Loading](../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../)
-
-

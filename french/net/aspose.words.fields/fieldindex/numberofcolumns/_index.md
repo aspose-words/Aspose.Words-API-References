@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit le nombre de colonnes par page utilisées lors de la création de lindex.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words pour .NET
+description: FieldIndex NumberOfColumns propriété. Obtient ou définit le nombre de colonnes par page utilisées lors de la création de lindex en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ Obtient ou définit le nombre de colonnes par page utilisées lors de la créati
 public string NumberOfColumns { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE et également modifier son apparence.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

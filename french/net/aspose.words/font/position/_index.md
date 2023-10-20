@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la position du texte en points par rapport à la ligne de base. Un nombre positif élève le texte et un nombre négatif le diminue.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words pour .NET
+description: Font Position propriété. Obtient ou définit la position du texte en points par rapport à la ligne de base. Un nombre positif élève le texte et un nombre négatif le diminue en C#.
 type: docs
 weight: 300
 url: /fr/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ Obtient ou définit la position du texte (en points) par rapport à la ligne de 
 public double Position { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater le texte pour décaler sa position.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPropertyCollection méthode. Supprime une propriété portant le nom spécifié de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: CustomXmlPropertyCollection Remove méthode. Supprime une propriété portant le nom spécifié de la collection en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.markup/customxmlpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Nom de la propriété, sensible à la casse. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés des balises actives pour obtenir des informations détaillées sur les balises actives.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [CustomXmlPropertyCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

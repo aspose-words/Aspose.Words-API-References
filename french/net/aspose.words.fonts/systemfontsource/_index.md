@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.SystemFontSource classe. Représente toutes les polices TrueType installées sur le système.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.SystemFontSource classe. Représente toutes les polices TrueType installées sur le système en C#.
 type: docs
 weight: 3050
 url: /fr/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | Nom | La description |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Directeur. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Directeur. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Directeur. |
 
 ## Propriétés
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Renvoie la liste des polices disponibles via cette source. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Renvoie les dossiers de polices système ou un tableau vide si les dossiers ne sont pas accessibles. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

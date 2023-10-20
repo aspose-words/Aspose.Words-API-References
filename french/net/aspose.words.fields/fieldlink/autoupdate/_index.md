@@ -1,7 +1,9 @@
 ---
 title: FieldLink.AutoUpdate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldLink propriété. Obtient ou définit sil faut mettre à jour ce champ automatiquement.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words pour .NET
+description: FieldLink AutoUpdate propriété. Obtient ou définit sil faut mettre à jour ce champ automatiquement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldlink/autoupdate/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut mettre à jour ce champ automatiquement.
 public bool AutoUpdate { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldLink](../)
-* espace de noms [Aspose.Words.Fields](../../fieldlink/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

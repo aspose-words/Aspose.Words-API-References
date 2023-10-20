@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge méthode. Effectue un publipostage à partir dune source de données personnalisée avec des régions de publipostage.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words pour .NET
+description: MailMerge ExecuteWithRegions méthode. Effectue un publipostage à partir dune source de données personnalisée avec des régions de publipostage en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 Effectue un publipostage à partir d'une source de données personnalisée avec des régions de publipostage.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Objet qui implémente l’interface de source de données de publipostage personnalisée. |
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de n'importe quelle source de données personnalisée telle qu'un fichier XML ou des collections d'objets métier. Vous devez écrire votre propre classe qui implémente le[`IMailMergeDataSource`](../../imailmergedatasource/) interface.
 
 Vous pouvez utiliser cette méthode uniquement lorsque[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) est`FAUX`, c'est-à-dire que vous n'avez pas besoin d'une compatibilité linguistique de droite à gauche (comme l'arabe ou l'hébreu).
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les régions de publipostage pour exécuter un publipostage imbriqué.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 Effectue un publipostage à partir d'une source de données personnalisée avec des régions de publipostage.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | Objet qui implémente l’interface racine de la source de données de fusion et publipostage personnalisée. |
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de n'importe quelle source de données personnalisée telle qu'un fichier XML ou des collections d'objets métier. Vous devez écrire vos propres classes qui implémentent le[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) et[`IMailMergeDataSource`](../../imailmergedatasource/) interfaces.
 
 Vous pouvez utiliser cette méthode uniquement lorsque[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) est`FAUX`, c'est-à-dire que vous n'avez pas besoin d'une compatibilité linguistique de droite à gauche (comme l'arabe ou l'hébreu).
 
-### Exemples
+## Exemples
 
 Effectue un publipostage à partir d'une source de données personnalisée avec des données maître-détails.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Effectue un publipostage à partir d'un **Base de données** dans un document avec des régions de publipostage.
+Effectue un publipostage à partir d'un**Base de données** dans un document avec des régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **Base de données** qui contient des données à insérer dans les champs de publipostage. |
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode pour effectuer un publipostage à partir d’une ou plusieurs tables vers des régions de fusion mail répétables dans le document. Les régions de publipostage à l'intérieur du document s'agrandiront dynamiquement pour accueillir les enregistrements dans les tables correspondantes.
 
-Chaque table du **Base de données** doit avoir un nom.
+Chaque table du**Base de données** doit avoir un nom.
 
-Le document doit avoir des régions de publipostage définies avec des noms faisant référence à tables dans le fichier **Base de données**.
+Le document doit avoir des régions de publipostage définies avec des noms faisant référence à tables dans le fichier**Base de données**.
 
 Pour spécifier une région de fusion et publipostage dans le document, vous devez insérer deux champs de fusion et publipostage pour marquer le début et la fin de la région de fusion et publipostage.
 
-Tout le contenu du document inclus dans une région de fusion et publipostage sera automatiquement répété pour chaque enregistrement de la zone de fusion. **Table de données**.
+Tout le contenu du document inclus dans une région de fusion et publipostage sera automatiquement répété pour chaque enregistrement de la zone de fusion.**Table de données**.
 
-Pour marquer le début d'une région de publipostage, insérez un MERGEFIELD avec le nom TableStart:MyTable, où MyTable correspond à l'un des noms de table de votre **Base de données**.
+Pour marquer le début d'une région de publipostage, insérez un MERGEFIELD avec le nom TableStart:MyTable, où MyTable correspond à l'un des noms de table de votre**Base de données**.
 
 Pour marquer la fin de la région de fusion et de publipostage, insérez un autre MERGEFIELD portant le nom TableEnd:MyTable.
 
 Pour insérer un MERGEFIELD dans Word, utilisez la commande Insert/Field et sélectionnez MergeField puis tapez le nom du champ.
 
-Le **Début de la table** et **Fin de table** les champs doivent se trouver dans la même section de votre document.
+Le**Début de la table** et**Fin de table** les champs doivent se trouver dans la même section de votre document.
 
-Si utilisé à l'intérieur d'une table, **Début de la table** et **Fin de table** doit être dans la même ligne du tableau.
+Si utilisé à l'intérieur d'une table,**Début de la table** et**Fin de table** doit être dans la même ligne du tableau.
 
-Les régions de publipostage dans un document doivent être bien formées (il doit toujours y avoir une paire de matching  **Début de la table** et **Fin de table** fusionner les champs portant le même nom de table).
+Les régions de publipostage dans un document doivent être bien formées (il doit toujours y avoir une paire de matching **Début de la table** et**Fin de table** fusionner les champs portant le même nom de table).
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage imbriqué avec deux régions de fusion et deux tables de données.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Effectue un publipostage à partir d'un **Table de données** dans le document avec les régions de publipostage.
+Effectue un publipostage à partir d'un**Table de données** dans le document avec les régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Source de données pour l'opération de publipostage. La table doit avoir sonTableName ensemble de propriétés. |
 
-### Remarques
+## Remarques
 
 Le document doit avoir une région de publipostage définie avec un nom correspondant à TableName.
 
 S'il existe d'autres régions de publipostage définies dans le document, elles restent intactes. Cela permet d'effectuer plusieurs opérations de publipostage.
 
-### Exemples
+## Exemples
 
 Montre comment formater les cellules lors d’un publipostage.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Effectue un publipostage à partir d'un **Vue de données** dans le document avec les régions de publipostage.
+Effectue un publipostage à partir d'un**Vue de données** dans le document avec les régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataView | DataView | Source de données pour l'opération de publipostage. La table source du **Vue de données** doit avoir son **Nom de la table** ensemble de propriétés. |
+| dataView | DataView | Source de données pour l'opération de publipostage. La table source du**Vue de données** doit avoir son**Nom de la table** ensemble de propriétés. |
 
-### Remarques
+## Remarques
 
-Cette méthode est utile si vous récupérez des données dans un **Table de données** mais then doit appliquer un filtre ou un tri avant le publipostage.
+Cette méthode est utile si vous récupérez des données dans un**Table de données** mais then doit appliquer un filtre ou un tri avant le publipostage.
 
-Le document doit avoir une région de publipostage définie avec un nom correspondant à  **DataView.Table.TableName**.
+Le document doit avoir une région de publipostage définie avec un nom correspondant à **DataView.Table.TableName**.
 
 S'il existe d'autres régions de publipostage définies dans le document, elles restent intactes. Cela permet d'effectuer plusieurs opérations de publipostage.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les régions pour exécuter deux publipostages distincts dans un seul document.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Effectue un publipostage à partir de **IDataReader** dans le document avec les régions de publipostage.
+Effectue un publipostage à partir de**IDataReader** dans le document avec les régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataReader | IDataReader | Source des enregistrements de données pour le publipostage, tels que **OleDbDataReader** ou **SQLDataReader**. |
+| dataReader | IDataReader | Source des enregistrements de données pour le publipostage, tels que**OleDbDataReader** ou**SQLDataReader**. |
 | tableName | String | Nom de la région de publipostage dans le document à remplir. |
 
-### Remarques
+## Remarques
 
-Tu peux passer **SQLDataReader** ou **OleDbDataReader**objet dans la méthode this en tant que paramètre car ils ont tous deux implémenté **IDataReader** interface.
+Tu peux passer**SQLDataReader** ou**OleDbDataReader**objet dans la méthode this en tant que paramètre car ils ont tous deux implémenté**IDataReader** interface.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des images stockées dans un champ BLOB de base de données dans un rapport.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

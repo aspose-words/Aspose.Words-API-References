@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Vrai si la police est formatée en relief.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words pour .NET
+description: Font Emboss propriété. Vrai si la police est formatée en relief en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ Vrai si la police est formatée en relief.
 public bool Emboss { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des effets de gravure/gaufrage au texte.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ImlRenderingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ImlRenderingMode énumération. Spécifie comment les objets Ink InkML sont rendus dans des formats de page fixes.
+title: ImlRenderingMode Enum
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.ImlRenderingMode énumération. Spécifie comment les objets Ink InkML sont rendus dans des formats de page fixes en C#.
 type: docs
 weight: 5250
 url: /fr/net/aspose.words.saving/imlrenderingmode/
@@ -21,7 +23,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | Si une forme de secours est disponible pour l'objet Ink (InkML), Aspose.Words restitue la forme de secours au lieu de InkML. |
 | InkML | `1` | Aspose.Words ignore la forme de repli de l'objet Ink (InkML) et restitue InkML lui-même. Il s'agit du mode par défaut. |
 
-### Exemples
+## Exemples
 
 Montre comment restituer un objet Ink.
 
@@ -43,5 +45,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ExportGeneratorName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Quandvrai  entraîne lintégration du nom et de la version dAspose.Words dans les fichiers produits. La valeur par défaut estvrai .
+linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
+second_title: Aspose.Words pour .NET
+description: SaveOptions ExportGeneratorName propriété. Quandvrai  entraîne lintégration du nom et de la version dAspose.Words dans les fichiers produits. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -14,7 +16,7 @@ Quand`vrai` , entraîne l'intégration du nom et de la version d'Aspose.Words da
 public bool ExportGeneratorName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment désactiver l’ajout du nom et de la version d’Aspose.Words dans les fichiers produits.
 
@@ -30,7 +32,5 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

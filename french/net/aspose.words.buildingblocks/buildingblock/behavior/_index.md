@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Spécifie le comportement qui doit être appliqué lorsque le contenu du bloc de construction est inséré dans le document principal.
+linktitle: Behavior
+articleTitle: Behavior
+second_title: Aspose.Words pour .NET
+description: BuildingBlock Behavior propriété. Spécifie le comportement qui doit être appliqué lorsque le contenu du bloc de construction est inséré dans le document principal en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ Spécifie le comportement qui doit être appliqué lorsque le contenu du bloc de
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

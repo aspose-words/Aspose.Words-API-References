@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAsk propriété. Obtient ou définit le nom du signet.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldAsk BookmarkName propriété. Obtient ou définit le nom du signet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldask/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet.
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Voir également
 
 * class [FieldAsk](../)
-* espace de noms [Aspose.Words.Fields](../../fieldask/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

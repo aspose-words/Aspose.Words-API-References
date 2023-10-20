@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment propriété. Renvoie une collection deComment objets qui sont des enfants immédiats du commentaire spécifié.
+linktitle: Replies
+articleTitle: Replies
+second_title: Aspose.Words pour .NET
+description: Comment Replies propriété. Renvoie une collection deComment objets qui sont des enfants immédiats du commentaire spécifié en C#.
 type: docs
-weight: 100
+weight: 90
 url: /fr/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ Renvoie une collection de[`Comment`](../) objets qui sont des enfants immédiats
 public CommentCollection Replies { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer tous les commentaires d'un document et leurs réponses.
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

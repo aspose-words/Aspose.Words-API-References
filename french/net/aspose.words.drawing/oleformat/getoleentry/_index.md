@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetOleEntry
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat méthode. Obtient la saisie des données de lobjet OLE.
+linktitle: GetOleEntry
+articleTitle: GetOleEntry
+second_title: Aspose.Words pour .NET
+description: OleFormat GetOleEntry méthode. Obtient la saisie des données de lobjet OLE en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/oleformat/getoleentry/
@@ -22,7 +24,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 Un flux de données OLE ou`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer des objets OLE liés et non liés.
 
@@ -72,7 +74,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Voir également
 
 * class [OleFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../oleformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRange propriété. Obtient le nœud qui représente le début de la plage modifiable.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words pour .NET
+description: EditableRange EditableRangeStart propriété. Obtient le nœud qui représente le début de la plage modifiable en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/editablerange/editablerangestart/
@@ -14,7 +16,7 @@ Obtient le nœud qui représente le début de la plage modifiable.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRange](../)
-* espace de noms [Aspose.Words](../../editablerange/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

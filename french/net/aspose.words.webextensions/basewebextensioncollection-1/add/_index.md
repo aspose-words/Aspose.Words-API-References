@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Add
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BaseWebExtensionCollection méthode. Ajoute lélément spécifié à la collection.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words pour .NET
+description: BaseWebExtensionCollection Add méthode. Ajoute lélément spécifié à la collection en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +20,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | Article à ajouter. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* espace de noms [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

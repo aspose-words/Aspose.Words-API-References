@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Renvoie le premierCell dans la rangée.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words pour .NET
+description: Row FirstCell propriété. Renvoie le premierCell dans la rangée en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ Renvoie le premier[`Cell`](../../cell/) dans la rangée.
 public Cell FirstCell { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

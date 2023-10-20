@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MarkdownSaveOptions propriété. Spécifie le dossier physique dans lequel les images sont enregistrées lors de lexportation dun document vers leMarkdown format. La valeur par défaut est une chaîne vide.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words pour .NET
+description: MarkdownSaveOptions ImagesFolder propriété. Spécifie le dossier physique dans lequel les images sont enregistrées lors de lexportation dun document vers leMarkdown format. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Spécifie le dossier physique dans lequel les images sont enregistrées lors de 
 public string ImagesFolder { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) dansMarkdownformat, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes. `ImagesFolder` permet de préciser où les images seront enregistrées.
 
@@ -24,7 +26,7 @@ Si vous enregistrez un document dans un flux, Aspose.Words n'a pas de dossier o�
 
 Si le dossier spécifié par`ImagesFolder` n'existe pas, il sera créé automatiquement.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier le nom du dossier utilisé pour construire les URI d’image.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### Voir également
 
 * class [MarkdownSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../markdownsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

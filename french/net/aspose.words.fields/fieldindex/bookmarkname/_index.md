@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit le nom du signet qui marque la partie du document utilisée pour créer lindex.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldIndex BookmarkName propriété. Obtient ou définit le nom du signet qui marque la partie du document utilisée pour créer lindex en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet qui marque la partie du document utilisée 
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ INDEX, puis utiliser les champs XE pour le remplir avec des entrées.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

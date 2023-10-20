@@ -1,7 +1,9 @@
 ---
-title: FieldIncludeText.FieldIncludeText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIncludeText constructeur. Default_Constructor
+title: FieldIncludeText
+linktitle: FieldIncludeText
+articleTitle: FieldIncludeText
+second_title: Aspose.Words pour .NET
+description: FieldIncludeText constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldincludetext/fieldincludetext/
@@ -17,7 +19,5 @@ public FieldIncludeText()
 ### Voir également
 
 * class [FieldIncludeText](../)
-* espace de noms [Aspose.Words.Fields](../../fieldincludetext/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

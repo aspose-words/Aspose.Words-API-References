@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPropertyCollection méthode. Supprime une propriété portant le nom spécifié de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: DocumentPropertyCollection Remove méthode. Supprime une propriété portant le nom spécifié de la collection en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Nom de la propriété qui ne respecte pas la casse. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés personnalisées d'un document.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Voir également
 
 * class [DocumentPropertyCollection](../)
-* espace de noms [Aspose.Words.Properties](../../documentpropertycollection/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

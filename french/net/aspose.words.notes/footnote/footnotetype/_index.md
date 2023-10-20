@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Footnote propriété. Renvoie une valeur qui spécifie sil sagit dune note de bas de page ou dune note de fin.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words pour .NET
+description: Footnote FootnoteType propriété. Renvoie une valeur qui spécifie sil sagit dune note de bas de page ou dune note de fin en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ Renvoie une valeur qui spécifie s'il s'agit d'une note de bas de page ou d'une 
 public FootnoteType FootnoteType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Affiche la différence entre les notes de bas de page et les notes de fin.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* espace de noms [Aspose.Words.Notes](../../footnote/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtListIndentation propriété. Obtient ou définit combienCharacter à utiliser comme indentation pour un niveau de liste. La valeur par défaut est 0 cela signifie pas dindentation.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: TxtListIndentation Count propriété. Obtient ou définit combienCharacter à utiliser comme indentation pour un niveau de liste. La valeur par défaut est 0 cela signifie pas dindentation en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ Obtient ou définit combien[`Character`](../character/) à utiliser comme indent
 public int Count { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer l’indentation de liste lors de l’enregistrement d’un document en texte brut.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Voir également
 
 * class [TxtListIndentation](../)
-* espace de noms [Aspose.Words.Saving](../../txtlistindentation/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

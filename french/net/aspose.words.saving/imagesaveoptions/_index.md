@@ -1,7 +1,9 @@
 ---
-title: Class ImageSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ImageSaveOptions classe. Permet de spécifier des options supplémentaires lors du rendu des pages ou des formes du document en images.
+title: ImageSaveOptions Class
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.ImageSaveOptions classe. Permet de spécifier des options supplémentaires lors du rendu des pages ou des formes du document en images en C#.
 type: docs
 weight: 5230
 url: /fr/net/aspose.words.saving/imagesaveoptions/
@@ -20,7 +22,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Nom | La description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer les images rendues dans le Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps ouSvg format. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer les images rendues dans le Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps ouSvg format. |
 
 ## Propriétés
 
@@ -29,7 +31,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Obtient ou définit une valeur booléenne indiquant s'il faut autoriser l'incorporation de polices avec des contours PostScript lors de l'incorporation de polices TrueType dans un document lors de son enregistrement. La valeur par défaut est`FAUX` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Obtient ou définit une valeur déterminant la manière dont les couleurs sont rendues. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la manière dont les effets 3D sont rendus. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les effets DrawingML sont rendus. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues. |
@@ -73,9 +75,9 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | Nom | La description |
 | --- | --- |
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone/)() | Crée un clone profond de cet objet. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
 
-### Exemples
+## Exemples
 
 Rend une page d'un document Word dans une image avec un arrière-plan transparent ou coloré.
 
@@ -195,5 +197,3 @@ Document doc = new Document();
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

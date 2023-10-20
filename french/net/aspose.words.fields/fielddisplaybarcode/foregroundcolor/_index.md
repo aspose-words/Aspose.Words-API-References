@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ForegroundColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit la couleur de premier plan du symbole du codebarres. Les valeurs valides sont comprises dans la plage 0 0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words pour .NET
+description: FieldDisplayBarcode ForegroundColor propriété. Obtient ou définit la couleur de premier plan du symbole du codebarres. Les valeurs valides sont comprises dans la plage 0 0xFFFFFF en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
@@ -14,7 +16,7 @@ Obtient ou définit la couleur de premier plan du symbole du code-barres. Les va
 public string ForegroundColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ DISPLAYBARCODE et définir ses propriétés.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Voir également
 
 * class [FieldDisplayBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

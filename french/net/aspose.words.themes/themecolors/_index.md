@@ -1,7 +1,9 @@
 ---
-title: Class ThemeColors
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeColors classe. Représente la palette de couleurs du thème du document qui contient douze couleurs.
+title: ThemeColors Class
+linktitle: ThemeColors
+articleTitle: ThemeColors
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Themes.ThemeColors classe. Représente la palette de couleurs du thème du document qui contient douze couleurs en C#.
 type: docs
 weight: 6480
 url: /fr/net/aspose.words.themes/themecolors/
@@ -33,7 +35,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Spécifie la couleur Lumière 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | Spécifie la couleur Lumière 2. |
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * espace de noms [Aspose.Words.Themes](../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Déplace le curseur vers un paragraphe de la section actuelle.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder MoveToParagraph méthode. Déplace le curseur vers un paragraphe de la section actuelle en C#.
 type: docs
-weight: 570
+weight: 560
 url: /fr/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | L'index du paragraphe vers lequel se déplacer. |
 | characterIndex | Int32 | L'index du caractère à l'intérieur du paragraphe. Une valeur négative permet de spécifier une position à partir de la fin du paragraphe. Utilisez -1 pour passer à la fin de le paragraphe. |
 
-### Remarques
+## Remarques
 
 La navigation s'effectue à l'intérieur de l'histoire actuelle de la section actuelle. Autrement dit, si vous avez déplacé le curseur vers l'en-tête principal de la première section, alors*paragraphIndex*spécifié l'index du paragraphe à l'intérieur de ce header de cette section.
 
 Quand*paragraphIndex* est supérieur ou égal à 0, il spécifie un index depuis le début de la section, 0 étant le premier paragraphe. Quand*paragraphIndex* est inférieur à 0, , il a spécifié un index à partir de la fin de la section, -1 étant le dernier paragraphe.
 
-### Exemples
+## Exemples
 
 Montre comment déplacer la position du curseur d'un générateur vers un paragraphe spécifié.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

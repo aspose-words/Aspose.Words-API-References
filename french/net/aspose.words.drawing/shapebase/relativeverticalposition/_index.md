@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Spécifie par rapport à quoi la forme est positionnée verticalement.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words pour .NET
+description: ShapeBase RelativeVerticalPosition propriété. Spécifie par rapport à quoi la forme est positionnée verticalement en C#.
 type: docs
 weight: 440
 url: /fr/net/aspose.words.drawing/shapebase/relativeverticalposition/
@@ -14,13 +16,13 @@ Spécifie par rapport à quoi la forme est positionnée verticalement.
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estParagraph.
 
 N'a d'effet que sur les formes flottantes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante au centre d’une page.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

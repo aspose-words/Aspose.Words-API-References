@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère une chaîne HTML dans le document.
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertHtml méthode. Insère une chaîne HTML dans le document en C#.
 type: docs
-weight: 360
+weight: 350
 url: /fr/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 Insère une chaîne HTML dans le document.
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | Une chaîne HTML à insérer dans le document. |
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser cette méthode pour insérer un fragment HTML ou un document HTML entier.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un générateur de documents pour insérer du contenu HTML dans un document.
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 Insère une chaîne HTML dans le document.
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | Une chaîne HTML à insérer dans le document. |
 | useBuilderFormatting | Boolean | Une valeur indiquant si le formatage spécifié dans[`DocumentBuilder`](../) est utilisé comme formatage de base pour le texte importé depuis HTML. |
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser cette méthode pour insérer un fragment HTML ou un document HTML entier.
 
@@ -148,7 +150,7 @@ Quand*useBuilderFormatting* est`FAUX` , [`DocumentBuilder`](../)le formatage est
 
 Quand*useBuilderFormatting* est`vrai` , le formatage du texte inséré est basé sur[`DocumentBuilder`](../) formatage, et le texte semble avoir été inséré avec[`Write`](../write/) .
 
-### Exemples
+## Exemples
 
 Montre comment appliquer la mise en forme d'un générateur de documents lors de l'insertion de contenu HTML.
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 Insère une chaîne HTML dans le document. Permet de spécifier des options supplémentaires.
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | Une chaîne HTML à insérer dans le document. |
 | options | HtmlInsertOptions | Options utilisées lors de l'insertion d'une chaîne HTML. |
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser cette méthode pour insérer un fragment HTML ou un document HTML entier.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les options lors de l'insertion de code HTML.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

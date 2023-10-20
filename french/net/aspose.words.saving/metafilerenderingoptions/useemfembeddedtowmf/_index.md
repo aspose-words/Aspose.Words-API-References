@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MetafileRenderingOptions propriété. Obtient ou définit une valeur déterminant comment les métafichiers WMF avec des métafichiers EMF intégrés doivent être rendus.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words pour .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf propriété. Obtient ou définit une valeur déterminant comment les métafichiers WMF avec des métafichiers EMF intégrés doivent être rendus en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant comment les métafichiers WMF avec d
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Les métafichiers WMF peuvent contenir des données EMF intégrées. MS Word utilise dans la plupart des cas des données EMF intégrées. GDI+ utilise toujours des données WMF.
 
@@ -26,7 +28,7 @@ Cette option est utilisée uniquement lorsque le métafichier est rendu sous for
 
 La valeur par défaut est`vrai`.
 
-### Exemples
+## Exemples
 
 Montre comment configurer les options de rendu liées aux métafichiers Windows améliorés lors de l’enregistrement au format PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Voir également
 
 * class [MetafileRenderingOptions](../)
-* espace de noms [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

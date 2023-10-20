@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAlwaysInFront
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Spécifie où la bordure de la page est positionnée par rapport aux textes et objets qui se croisent.
+linktitle: BorderAlwaysInFront
+articleTitle: BorderAlwaysInFront
+second_title: Aspose.Words pour .NET
+description: PageSetup BorderAlwaysInFront propriété. Spécifie où la bordure de la page est positionnée par rapport aux textes et objets qui se croisent en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/pagesetup/borderalwaysinfront/
@@ -14,7 +16,7 @@ Spécifie où la bordure de la page est positionnée par rapport aux textes et o
 public bool BorderAlwaysInFront { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une large bordure bleue en haut de la première page.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

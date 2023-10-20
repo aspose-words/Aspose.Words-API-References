@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de fin de champ MS Word  char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: Aspose.Words pour .NET
+description: ControlChar FieldEndChar champ. Caractère de fin de champ MS Word  char21 en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ Caractère de fin de champ MS Word : (char)21.
 public const char FieldEndChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

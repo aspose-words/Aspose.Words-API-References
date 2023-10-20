@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldGlossary propriété. Obtient ou définit le nom de lentrée de glossaire à insérer.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words pour .NET
+description: FieldGlossary EntryName propriété. Obtient ou définit le nom de lentrée de glossaire à insérer en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de l'entrée de glossaire à insérer.
 public string EntryName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher un bloc de construction avec des champs AUTOTEXTE et GLOSSAIRE.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Voir également
 
 * class [FieldGlossary](../)
-* espace de noms [Aspose.Words.Fields](../../fieldglossary/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

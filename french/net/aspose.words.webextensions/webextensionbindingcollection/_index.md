@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBindingCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.WebExtensionBindingCollection classe. Spécifie une liste de liaisons dextensions Web.
+title: WebExtensionBindingCollection Class
+linktitle: WebExtensionBindingCollection
+articleTitle: WebExtensionBindingCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingCollection classe. Spécifie une liste de liaisons dextensions Web en C#.
 type: docs
 weight: 6760
 url: /fr/net/aspose.words.webextensions/webextensionbindingcollection/
@@ -27,12 +29,12 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionBinding) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionBinding](../webextensionbinding/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionBinding](../webextensionbinding/)
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

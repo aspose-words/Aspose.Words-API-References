@@ -1,12 +1,14 @@
 ---
 title: DocumentBase.ImportNode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase méthode. Importe un nœud dun autre document vers le document actuel.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words pour .NET
+description: DocumentBase ImportNode méthode. Importe un nœud dun autre document vers le document actuel en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 Importe un nœud d'un autre document vers le document actuel.
 
@@ -23,17 +25,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Le nœud cloné qui appartient au document actuel.
 
-### Remarques
+## Remarques
 
 Cette méthode utilise leUseDestinationStyles option pour résoudre le formatage.
 
 L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisantNode) ou Node).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisant[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
 
 Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
 
-### Exemples
+## Exemples
 
 Montre comment importer un nœud d'un document à un autre.
 
@@ -68,12 +70,12 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 Importe un nœud d'un autre document vers le document actuel avec une option pour contrôler le formatage.
 
@@ -91,17 +93,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 Le nœud cloné et importé. Le nœud appartient au document de destination, mais n'a pas de parent.
 
-### Remarques
+## Remarques
 
 Cette surcharge est utile pour contrôler la façon dont les styles et le formatage des listes sont importés.
 
 L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisantNode) ou Node).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisant[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
 
 Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
 
-### Exemples
+## Exemples
 
 Montre comment importer un nœud du document source vers le document de destination avec des options spécifiques.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

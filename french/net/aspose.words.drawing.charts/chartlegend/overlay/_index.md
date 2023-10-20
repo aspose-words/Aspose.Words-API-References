@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartLegend propriété. Détermine si dautres éléments du graphique doivent pouvoir chevaucher la légende. La valeur par défaut estFAUX .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words pour .NET
+description: ChartLegend Overlay propriété. Détermine si dautres éléments du graphique doivent pouvoir chevaucher la légende. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ Détermine si d'autres éléments du graphique doivent pouvoir chevaucher la lé
 public bool Overlay { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence de la légende d’un graphique.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### Voir également
 
 * class [ChartLegend](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

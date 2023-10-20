@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Obtient ou définit la chaîne qui sera utilisée pour résoudre les URI relatifs trouvés dans le document en URI absolus lorsque cela est nécessaire. Peut êtrenul ou une chaîne vide. La valeur par défaut estnul .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words pour .NET
+description: LoadOptions BaseUri propriété. Obtient ou définit la chaîne qui sera utilisée pour résoudre les URI relatifs trouvés dans le document en URI absolus lorsque cela est nécessaire. Peut êtrenul ou une chaîne vide. La valeur par défaut estnul  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ Obtient ou définit la chaîne qui sera utilisée pour résoudre les URI relatif
 public string BaseUri { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété est utilisée pour résoudre les URI relatifs en absolus dans les cas suivants :
 
 1. Lors du chargement d'un document HTML à partir d'un flux et que le document contient des images avec des URI relatifs et n'a pas d'URI de base spécifié dans l'élément HTML BASE.
 2. Lors de l'enregistrement d'un document au format PDF et dans d'autres formats, pour récupérer des images liées à l'aide d'URIs relatifs afin que les images puissent être enregistrées dans le document de sortie.
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir un document HTML avec des images provenant d'un flux à l'aide d'un URI de base.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Voir également
 
 * class [LoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../loadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

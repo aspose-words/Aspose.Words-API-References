@@ -1,7 +1,9 @@
 ---
-title: Shape.Shape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape constructeur. Crée un nouvel objet de forme.
+title: Shape
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words pour .NET
+description: Shape constructeur. Crée un nouvel objet de forme en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/shape/shape/
@@ -19,11 +21,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | Le document du propriétaire. |
 | shapeType | ShapeType | Le type de forme à créer. |
 
-### Remarques
+## Remarques
 
 Vous devez spécifier les propriétés de forme souhaitées après avoir créé une forme.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme avec une image du système de fichiers local dans un document.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [ShapeType](../../shapetype/)
 * class [Shape](../)
-* espace de noms [Aspose.Words.Drawing](../../shape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

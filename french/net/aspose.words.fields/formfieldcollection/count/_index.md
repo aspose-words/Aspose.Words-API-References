@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormFieldCollection propriété. Renvoie le nombre de champs de formulaire dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: FormFieldCollection Count propriété. Renvoie le nombre de champs de formulaire dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ Renvoie le nombre de champs de formulaire dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormFieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../formfieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

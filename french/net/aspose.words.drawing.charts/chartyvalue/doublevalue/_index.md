@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.DoubleValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartYValue propriété. Obtient la valeur numérique stockée.
+linktitle: DoubleValue
+articleTitle: DoubleValue
+second_title: Aspose.Words pour .NET
+description: ChartYValue DoubleValue propriété. Obtient la valeur numérique stockée en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartyvalue/doublevalue/
@@ -17,7 +19,5 @@ public double DoubleValue { get; }
 ### Voir également
 
 * class [ChartYValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

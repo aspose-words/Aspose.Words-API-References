@@ -1,7 +1,9 @@
 ---
 title: Field.End
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient le nœud qui représente la fin du champ.
+linktitle: End
+articleTitle: End
+second_title: Aspose.Words pour .NET
+description: Field End propriété. Obtient le nœud qui représente la fin du champ en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/field/end/
@@ -14,7 +16,7 @@ Obtient le nœud qui représente la fin du champ.
 public FieldEnd End { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une collection de champs.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldEnd](../../fieldend/)
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

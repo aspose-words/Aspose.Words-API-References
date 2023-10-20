@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Retoursvrai sil sagit dune forme de groupe.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: Aspose.Words pour .NET
+description: ShapeBase IsGroup propriété. Retoursvrai sil sagit dune forme de groupe en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ Retours`vrai` s'il s'agit d'une forme de groupe.
 public bool IsGroup { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

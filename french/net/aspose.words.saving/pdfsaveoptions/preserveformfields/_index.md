@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Spécifie sil faut conserver les champs de formulaire Microsoft Word en tant que champs de formulaire dans le PDF ou les convertir en texte. La valeur par défaut estFAUX .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions PreserveFormFields propriété. Spécifie sil faut conserver les champs de formulaire Microsoft Word en tant que champs de formulaire dans le PDF ou les convertir en texte. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ Spécifie s'il faut conserver les champs de formulaire Microsoft Word en tant qu
 public bool PreserveFormFields { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Les champs du formulaire Microsoft Word incluent des contrôles de saisie de texte, de listes déroulantes et de cases à cocher.
 
@@ -28,7 +30,7 @@ Les formulaires modifiables sont interdits par la conformité PDF/A.`FAUX` La va
 
 Les champs de formulaire ne sont pas pris en charge lors de l'enregistrement au format PDF/UA.`FAUX` la valeur sera utilisée automatiquement.
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document au format PDF à l’aide de la méthode Save et de la classe PdfSaveOptions.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

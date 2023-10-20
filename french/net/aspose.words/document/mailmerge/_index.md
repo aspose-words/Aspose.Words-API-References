@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Renvoie unMailMerge objet qui représente la fonctionnalité de publipostage pour le document.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words pour .NET
+description: Document MailMerge propriété. Renvoie unMailMerge objet qui représente la fonctionnalité de publipostage pour le document en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ Renvoie un[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) objet qui 
 public MailMerge MailMerge { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec les données d'un DataTable.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

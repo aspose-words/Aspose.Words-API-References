@@ -1,7 +1,9 @@
 ---
 title: FieldToc.SequenceSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit la séquence de caractères utilisée pour séparer les numéros de séquence et les numéros de page.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words pour .NET
+description: FieldToc SequenceSeparator propriété. Obtient ou définit la séquence de caractères utilisée pour séparer les numéros de séquence et les numéros de page en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.fields/fieldtoc/sequenceseparator/
@@ -14,7 +16,7 @@ Obtient ou définit la séquence de caractères utilisée pour séparer les num�
 public string SequenceSeparator { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir un champ TOC avec des entrées à l’aide des champs SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

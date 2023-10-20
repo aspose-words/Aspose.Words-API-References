@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedLists
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CleanupOptions propriété. Spécifie si la liste et les définitions de liste inutilisées doivent être supprimées du document. La valeur par défaut estvrai .
+linktitle: UnusedLists
+articleTitle: UnusedLists
+second_title: Aspose.Words pour .NET
+description: CleanupOptions UnusedLists propriété. Spécifie si la liste et les définitions de liste inutilisées doivent être supprimées du document. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/cleanupoptions/unusedlists/
@@ -14,7 +16,7 @@ Spécifie si la liste et les définitions de liste inutilisées doivent être su
 public bool UnusedLists { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer tous les styles personnalisés inutilisés d’un document.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Voir également
 
 * class [CleanupOptions](../)
-* espace de noms [Aspose.Words](../../cleanupoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

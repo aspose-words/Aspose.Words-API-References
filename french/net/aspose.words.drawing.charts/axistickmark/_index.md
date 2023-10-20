@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickMark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisTickMark énumération. Spécifie les positions possibles pour les graduations.
+title: AxisTickMark Enum
+linktitle: AxisTickMark
+articleTitle: AxisTickMark
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.AxisTickMark énumération. Spécifie les positions possibles pour les graduations en C#.
 type: docs
 weight: 590
 url: /fr/net/aspose.words.drawing.charts/axistickmark/
@@ -23,7 +25,7 @@ public enum AxisTickMark
 | Outside | `2` | Spécifie que les graduations doivent être en dehors de la zone de tracé. |
 | None | `3` | Spécifie qu'il ne doit y avoir aucune graduation. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

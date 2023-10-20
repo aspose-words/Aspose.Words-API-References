@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPartSavingArgs propriété. Obtient lobjet document en cours denregistrement.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: DocumentPartSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ Obtient l'objet document en cours d'enregistrement.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties et les enregistrer.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../documentpartsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

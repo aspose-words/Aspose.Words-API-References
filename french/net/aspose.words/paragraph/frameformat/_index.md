@@ -1,7 +1,9 @@
 ---
 title: Paragraph.FrameFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Donne accès aux propriétés de formatage du cadre.
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words pour .NET
+description: Paragraph FrameFormat propriété. Donne accès aux propriétés de formatage du cadre en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/paragraph/frameformat/
@@ -14,7 +16,7 @@ Donne accès aux propriétés de formatage du cadre.
 public FrameFormat FrameFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

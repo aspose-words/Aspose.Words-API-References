@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatInfo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.FileFormatInfo classe. Contient les données renvoyées parFileFormatUtil méthodes de détection du format de document.
+title: FileFormatInfo Class
+linktitle: FileFormatInfo
+articleTitle: FileFormatInfo
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.FileFormatInfo classe. Contient les données renvoyées parFileFormatUtil méthodes de détection du format de document en C#.
 type: docs
 weight: 2810
 url: /fr/net/aspose.words/fileformatinfo/
@@ -25,11 +27,11 @@ public class FileFormatInfo
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Retours`vrai` si le document est crypté et nécessite un mot de passe pour s'ouvrir. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Obtient le format de document détecté. |
 
-### Remarques
+## Remarques
 
 Vous ne créez pas directement des instances de cette classe. Les objets de cette classe sont renvoyés par [`DetectFileFormat`](../fileformatutil/detectfileformat/) méthodes.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la classe FileFormatUtil pour détecter le format et le chiffrement du document.
 
@@ -76,5 +78,3 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

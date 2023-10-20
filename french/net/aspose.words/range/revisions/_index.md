@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range propriété. Obtient une collection de révisions modifications suivies qui existent dans cette plage.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words pour .NET
+description: Range Revisions propriété. Obtient une collection de révisions modifications suivies qui existent dans cette plage en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ Obtient une collection de révisions (modifications suivies) qui existent dans c
 public RevisionCollection Revisions { get; }
 ```
 
-### Remarques
+## Remarques
 
 La collection renvoyée est une collection « live », ce qui signifie que si vous supprimez des parties d'un document contenant des révisions , les révisions supprimées disparaîtront automatiquement de cette collection.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les révisions dans la plage.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

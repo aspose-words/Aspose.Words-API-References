@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeRegionInfo propriété. Renvoie le nom de la région.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: MailMergeRegionInfo Name propriété. Renvoie le nom de la région en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/name/
@@ -14,7 +16,7 @@ Renvoie le nom de la région.
 public string Name { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les régions de publipostage.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Voir également
 
 * class [MailMergeRegionInfo](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

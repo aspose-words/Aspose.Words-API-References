@@ -1,7 +1,9 @@
 ---
-title: Class BuildVersionInfo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.BuildVersionInfo classe. Fournit des informations sur le nom et la version actuels du produit.
+title: BuildVersionInfo Class
+linktitle: BuildVersionInfo
+articleTitle: BuildVersionInfo
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.BuildVersionInfo classe. Fournit des informations sur le nom et la version actuels du produit en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/buildversioninfo/
@@ -23,7 +25,7 @@ public static class BuildVersionInfo
 | static [Product](../../aspose.words/buildversioninfo/product/) { get; } | Obtient le nom complet du produit. |
 | static [Version](../../aspose.words/buildversioninfo/version/) { get; } | Obtient la version du produit. |
 
-### Exemples
+## Exemples
 
 Montre comment afficher des informations sur votre version installée d’Aspose.Words.
 
@@ -35,5 +37,3 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstRow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyleCollection propriété. Obtient le style de la première ligne.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words pour .NET
+description: ConditionalStyleCollection FirstRow propriété. Obtient le style de la première ligne en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/conditionalstylecollection/firstrow/
@@ -14,7 +16,7 @@ Obtient le style de la première ligne.
 public ConditionalStyle FirstRow { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* espace de noms [Aspose.Words](../../conditionalstylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

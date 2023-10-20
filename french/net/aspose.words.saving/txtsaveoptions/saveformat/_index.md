@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SaveFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreText .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words pour .NET
+description: TxtSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreText  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/txtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Spécifie le format dans lequel le document sera enregistré si cet objet d'opti
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document .txt avec un saut de paragraphe personnalisé.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [TxtSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../txtsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

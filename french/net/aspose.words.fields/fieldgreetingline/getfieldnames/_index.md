@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldGreetingLine méthode. Renvoie une collection de noms de champs de publipostage utilisés par le champ.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words pour .NET
+description: FieldGreetingLine GetFieldNames méthode. Renvoie une collection de noms de champs de publipostage utilisés par le champ en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ Renvoie une collection de noms de champs de publipostage utilisés par le champ.
 public string[] GetFieldNames()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Voir également
 
 * class [FieldGreetingLine](../)
-* espace de noms [Aspose.Words.Fields](../../fieldgreetingline/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

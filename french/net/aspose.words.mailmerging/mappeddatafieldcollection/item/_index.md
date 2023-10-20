@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MappedDataFieldCollection propriété. Obtient ou définit le nom du champ dans la source de données associée au champ de publipostage spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: MappedDataFieldCollection Item propriété. Obtient ou définit le nom du champ dans la source de données associée au champ de publipostage spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du champ dans la source de données associée au cham
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Voir également
 
 * class [MappedDataFieldCollection](../)
-* espace de noms [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

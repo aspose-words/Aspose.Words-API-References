@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartLegendEntryCollection méthode. Renvoie un objet énumérateur.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: ChartLegendEntryCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartLegendEntry> GetEnumerator()
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur en caractères du retrait de première ligne ou du retrait suspendu.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent propriété. Obtient ou définit la valeur en caractères du retrait de première ligne ou du retrait suspendu en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ Utilisez des valeurs positives pour définir le retrait de la première ligne et
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’espacement et le retrait des paragraphes.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlSchemaCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: CustomXmlSchemaCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/customxmlschemacollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les �
 public IEnumerator<string> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une collection de schémas XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Voir également
 
 * class [CustomXmlSchemaCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlschemacollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

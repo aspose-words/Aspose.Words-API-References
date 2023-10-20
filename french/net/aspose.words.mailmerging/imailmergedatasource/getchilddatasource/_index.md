@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IMailMergeDataSource méthode. Le moteur de publipostage Aspose.Words appelle cette méthode lorsquil rencontre le début dune région de publipostage imbriquée.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words pour .NET
+description: IMailMergeDataSource GetChildDataSource méthode. Le moteur de publipostage Aspose.Words appelle cette méthode lorsquil rencontre le début dune région de publipostage imbriquée en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Un objet source de données qui donnera accès aux enregistrements de données de la table spécifiée.
 
-### Remarques
+## Remarques
 
 Lorsque les moteurs de publipostage Aspose.Words remplissent une région de publipostage avec des données et rencontrent le début d'une région de publipostage imbriquée sous la forme de MERGEFIELD TableStart:TableName, il invoque`GetChildDataSource` sur l'objet source de données current . Votre implémentation doit renvoyer un nouvel objet source de données qui donnera accès aux enregistrements child de l'enregistrement parent actuel. Aspose.Words utilisera la source de données renvoyée pour remplir la région de publipostage imbriquée.
 
@@ -34,7 +36,7 @@ Si cet objet source de données n'a pas de relation avec la table portant le nom
 
 Si une table portant le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec une source de données sous la forme d'un objet personnalisé.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Voir également
 
 * interface [IMailMergeDataSource](../)
-* espace de noms [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

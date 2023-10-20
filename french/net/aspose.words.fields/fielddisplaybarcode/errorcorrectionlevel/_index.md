@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ErrorCorrectionLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit un niveau de correction derreur du code QR. Les valeurs valides sont 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words pour .NET
+description: FieldDisplayBarcode ErrorCorrectionLevel propriété. Obtient ou définit un niveau de correction derreur du code QR. Les valeurs valides sont 0 3 en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ Obtient ou définit un niveau de correction d'erreur du code QR. Les valeurs val
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ DISPLAYBARCODE et définir ses propriétés.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Voir également
 
 * class [FieldDisplayBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

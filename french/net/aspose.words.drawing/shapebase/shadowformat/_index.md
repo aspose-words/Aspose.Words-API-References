@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShadowFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient le formatage de lombre pour la forme.
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words pour .NET
+description: ShapeBase ShadowFormat propriété. Obtient le formatage de lombre pour la forme en C#.
 type: docs
 weight: 490
 url: /fr/net/aspose.words.drawing/shapebase/shadowformat/
@@ -18,7 +20,5 @@ public ShadowFormat ShadowFormat { get; }
 
 * class [ShadowFormat](../../shadowformat/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

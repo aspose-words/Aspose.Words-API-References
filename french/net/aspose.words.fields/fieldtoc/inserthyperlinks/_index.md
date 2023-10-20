@@ -1,7 +1,9 @@
 ---
 title: FieldToc.InsertHyperlinks
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit sil faut créer des hyperliens pour les entrées de la table des matières.
+linktitle: InsertHyperlinks
+articleTitle: InsertHyperlinks
+second_title: Aspose.Words pour .NET
+description: FieldToc InsertHyperlinks propriété. Obtient ou définit sil faut créer des hyperliens pour les entrées de la table des matières en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldtoc/inserthyperlinks/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut créer des hyperliens pour les entrées de la tabl
 public bool InsertHyperlinks { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

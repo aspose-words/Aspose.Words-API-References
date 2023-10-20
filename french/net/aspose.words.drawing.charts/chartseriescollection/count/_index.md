@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeriesCollection propriété. Renvoie le nombre deChartSeries dans cette collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: ChartSeriesCollection Count propriété. Renvoie le nombre deChartSeries dans cette collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ Renvoie le nombre de[`ChartSeries`](../../chartseries/) dans cette collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter et supprimer des données de série dans un graphique.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Voir également
 
 * class [ChartSeriesCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

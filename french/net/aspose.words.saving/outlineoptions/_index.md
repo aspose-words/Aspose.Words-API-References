@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.OutlineOptions classe. Permet de spécifier les options de contour.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.OutlineOptions classe. Permet de spécifier les options de contour en C#.
 type: docs
 weight: 5360
 url: /fr/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Spécifie le nombre de niveaux dans le plan du document à afficher développés lorsque le fichier est affiché. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | Spécifie le nombre de niveaux de titres (paragraphes formatés avec les styles de titre) à inclure dans le plan du document . |
 
-### Exemples
+## Exemples
 
 Montre comment traiter les signets dans les en-têtes/pieds de page d'un document que nous rendons au format PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

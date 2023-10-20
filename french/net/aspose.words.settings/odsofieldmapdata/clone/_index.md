@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData méthode. Renvoie un clone profond de cet objet.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapData Clone méthode. Renvoie un clone profond de cet objet en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ Renvoie un clone profond de cet objet.
 public OdsoFieldMapData Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoFieldMapData](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

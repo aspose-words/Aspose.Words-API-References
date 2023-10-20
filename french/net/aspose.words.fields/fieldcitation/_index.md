@@ -1,7 +1,9 @@
 ---
-title: Class FieldCitation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldCitation classe. Implémente le champ CITATION.
+title: FieldCitation Class
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldCitation classe. Implémente le champ CITATION en C#.
 type: docs
 weight: 1680
 url: /fr/net/aspose.words.fields/fieldcitation/
@@ -26,7 +28,7 @@ public class FieldCitation : Field
 
 | Nom | La description |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Obtient ou définit une valeur qui correspond à **Étiqueter** valeur de l'élément d'une autre source à inclure dans la citation. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Obtient ou définit une valeur qui correspond à**Étiqueter** valeur de l'élément d'une autre source à inclure dans la citation. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtient le nœud qui représente la fin du champ. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/) objet qui fournit un accès typé au formatage du champ. |
@@ -38,7 +40,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Obtient ou définit un préfixe ajouté à la citation. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Obtient ou définit une valeur qui correspond à **Étiqueter** valeur de l'élément de la source à insérer. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Obtient ou définit une valeur qui correspond à**Étiqueter** valeur de l'élément de la source à insérer. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Obtient ou définit un suffixe ajouté à la citation. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Obtient ou définit si les informations sur l'auteur sont supprimées de la citation. |
@@ -52,17 +54,17 @@ public class FieldCitation : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
-Insère le contenu du **Source** élément avec un spécifié **Étiqueter** élément utilisant un style bibliographique.
+Insère le contenu du**Source** élément avec un spécifié**Étiqueter** élément utilisant un style bibliographique.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les champs CITATION et BIBLIOGRAPHIE.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

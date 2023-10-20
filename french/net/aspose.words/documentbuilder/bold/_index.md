@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Bold
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. True si la police est formatée en gras.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder Bold propriété. True si la police est formatée en gras en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/documentbuilder/bold/
@@ -14,7 +16,7 @@ True si la police est formatée en gras.
 public bool Bold { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir les MERGEFIELD avec des données avec un générateur de documents au lieu d'un publipostage.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

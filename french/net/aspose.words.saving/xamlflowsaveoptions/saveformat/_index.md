@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.SaveFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XamlFlowSaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreXamlFlow .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words pour .NET
+description: XamlFlowSaveOptions SaveFormat propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreXamlFlow  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Spécifie le format dans lequel le document sera enregistré si cet objet d'opti
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document en .xaml sous forme de flux.
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

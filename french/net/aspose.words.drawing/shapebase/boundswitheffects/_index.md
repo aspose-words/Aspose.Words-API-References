@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsWithEffects
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient létendue finale de cet objet de forme après lapplication des effets de dessin. La valeur est mesurée en points.
+linktitle: BoundsWithEffects
+articleTitle: BoundsWithEffects
+second_title: Aspose.Words pour .NET
+description: ShapeBase BoundsWithEffects propriété. Obtient létendue finale de cet objet de forme après lapplication des effets de dessin. La valeur est mesurée en points en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.drawing/shapebase/boundswitheffects/
@@ -14,7 +16,7 @@ Obtient l'étendue finale de cet objet de forme après l'application des effets 
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier comment les limites d’une forme sont affectées par les effets de forme.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

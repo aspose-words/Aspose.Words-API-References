@@ -1,26 +1,28 @@
 ---
 title: Footnote.ReferenceMark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Footnote propriété. Obtient/définit la marque de référence personnalisée à utiliser pour cette note de bas de page. La valeur par défaut est chaîne vide Empty  ce qui signifie que des notes de bas de page numérotées automatiquement sont utilisées.
+linktitle: ReferenceMark
+articleTitle: ReferenceMark
+second_title: Aspose.Words pour .NET
+description: Footnote ReferenceMark propriété. Obtient/définit la marque de référence personnalisée à utiliser pour cette note de bas de page. La valeur par défaut estchaîne vide Empty  ce qui signifie que des notes de bas de page numérotées automatiquement sont utilisées en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.notes/footnote/referencemark/
 ---
 ## Footnote.ReferenceMark property
 
-Obtient/définit la marque de référence personnalisée à utiliser pour cette note de bas de page. La valeur par défaut est **chaîne vide** (Empty ), ce qui signifie que des notes de bas de page numérotées automatiquement sont utilisées.
+Obtient/définit la marque de référence personnalisée à utiliser pour cette note de bas de page. La valeur par défaut est**chaîne vide** (Empty ), ce qui signifie que des notes de bas de page numérotées automatiquement sont utilisées.
 
 ```csharp
 public string ReferenceMark { get; set; }
 ```
 
-### Remarques
+## Remarques
 
-Si cette propriété est définie sur **chaîne vide** (Empty ) ou`nul` , alors[`IsAuto`](../isauto/) la propriété sera automatiquement définie sur`vrai` , si défini sur autre chose alors[`IsAuto`](../isauto/) sera réglé sur`FAUX` .
+Si cette propriété est définie sur**chaîne vide** (Empty ) ou`nul` , alors[`IsAuto`](../isauto/) la propriété sera automatiquement définie sur`vrai` , si défini sur autre chose alors[`IsAuto`](../isauto/) sera réglé sur`FAUX` .
 
 Le format RTF ne peut stocker qu'un seul symbole comme marque de référence personnalisée, donc lors de l'exportation, seul le premier symbole sera écrit, les autres seront supprimés.
 
-### Exemples
+## Exemples
 
 Montre comment insérer et personnaliser des notes de bas de page.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Voir également
 
 * class [Footnote](../)
-* espace de noms [Aspose.Words.Notes](../../footnote/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

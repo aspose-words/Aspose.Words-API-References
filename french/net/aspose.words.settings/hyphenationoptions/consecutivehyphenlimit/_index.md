@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.ConsecutiveHyphenLimit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HyphenationOptions propriété. Obtient ou définit le nombre maximum de lignes consécutives pouvant se terminer par des traits dunion. La valeur par défaut de cette propriété est 0.
+linktitle: ConsecutiveHyphenLimit
+articleTitle: ConsecutiveHyphenLimit
+second_title: Aspose.Words pour .NET
+description: HyphenationOptions ConsecutiveHyphenLimit propriété. Obtient ou définit le nombre maximum de lignes consécutives pouvant se terminer par des traits dunion. La valeur par défaut de cette propriété est 0 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
@@ -14,13 +16,13 @@ Obtient ou définit le nombre maximum de lignes consécutives pouvant se termine
 public int ConsecutiveHyphenLimit { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la valeur de cette propriété est définie sur 0, n'importe quel nombre de lignes consécutives peut se terminer par des traits d'union.
 
 La propriété n'a aucun effet lors de l'enregistrement dans des formats de page fixes, par exemple PDF.
 
-### Exemples
+## Exemples
 
 Montre comment configurer la césure automatique.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Voir également
 
 * class [HyphenationOptions](../)
-* espace de noms [Aspose.Words.Settings](../../hyphenationoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BackgroundColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit la couleur darrièreplan du symbole du codebarres. Les valeurs valides sont comprises dans la plage 0 0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words pour .NET
+description: FieldMergeBarcode BackgroundColor propriété. Obtient ou définit la couleur darrièreplan du symbole du codebarres. Les valeurs valides sont comprises dans la plage 0 0xFFFFFF en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldmergebarcode/backgroundcolor/
@@ -14,7 +16,7 @@ Obtient ou définit la couleur d'arrière-plan du symbole du code-barres. Les va
 public string BackgroundColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage sur des codes-barres QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Voir également
 
 * class [FieldMergeBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

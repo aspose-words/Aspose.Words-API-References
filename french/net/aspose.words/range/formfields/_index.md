@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range propriété. Renvoie unFormFields collection qui représente tous les champs de formulaire de la plage.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words pour .NET
+description: Range FormFields propriété. Renvoie unFormFields collection qui représente tous les champs de formulaire de la plage en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ Renvoie un`FormFields` collection qui représente tous les champs de formulaire 
 public FormFieldCollection FormFields { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

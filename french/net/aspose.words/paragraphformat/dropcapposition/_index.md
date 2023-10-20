@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la position dun texte en lettrine.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat DropCapPosition propriété. Obtient ou définit la position dun texte en lettrine en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ Obtient ou définit la position d'un texte en lettrine.
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imbriquer une liste dans une autre liste.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

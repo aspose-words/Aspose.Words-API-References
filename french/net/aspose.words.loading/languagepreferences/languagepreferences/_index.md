@@ -1,7 +1,9 @@
 ---
-title: LanguagePreferences.LanguagePreferences
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LanguagePreferences constructeur. Default_Constructor
+title: LanguagePreferences
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words pour .NET
+description: LanguagePreferences constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/languagepreferences/languagepreferences/
@@ -17,7 +19,5 @@ public LanguagePreferences()
 ### Voir également
 
 * class [LanguagePreferences](../)
-* espace de noms [Aspose.Words.Loading](../../languagepreferences/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

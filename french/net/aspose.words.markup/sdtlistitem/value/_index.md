@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItem propriété. Obtient la valeur de cet élément de liste.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words pour .NET
+description: SdtListItem Value propriété. Obtient la valeur de cet élément de liste en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ Obtient la valeur de cet élément de liste.
 public string Value { get; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul` et ne peut pas être une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItem](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitem/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

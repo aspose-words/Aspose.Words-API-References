@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit le nom de la forme facultatif.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: ShapeBase Name propriété. Obtient ou définit le nom de la forme facultatif en C#.
 type: docs
 weight: 400
 url: /fr/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ Obtient ou définit le nom de la forme facultatif.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
 C'est pas possible`nul`, mais peut être une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le texte alternatif d’une forme.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

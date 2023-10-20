@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup méthode. Réinitialise la mise en page au format de papier aux marges et à lorientation par défaut.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words pour .NET
+description: PageSetup ClearFormatting méthode. Réinitialise la mise en page au format de papier aux marges et à lorientation par défaut en C#.
 type: docs
 weight: 460
 url: /fr/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ Réinitialise la mise en page au format de papier, aux marges et à l'orientatio
 public void ClearFormatting()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

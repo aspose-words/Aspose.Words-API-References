@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XmlMapping propriété. Renvoie lexpression XPath qui est évaluée pour trouver le nœud XML personnalisé mappé à la balise du document structuré parent.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words pour .NET
+description: XmlMapping XPath propriété. Renvoie lexpression XPath qui est évaluée pour trouver le nœud XML personnalisé mappé à la balise du document structuré parent en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ Renvoie l'expression XPath, qui est évaluée pour trouver le nœud XML personna
 public string XPath { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des mappages XML pour les parties XML personnalisées.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Voir également
 
 * class [XmlMapping](../)
-* espace de noms [Aspose.Words.Markup](../../xmlmapping/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

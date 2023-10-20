@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeInserted
-second_title: Référence de l'API Aspose.Words pour .NET
-description: INodeChangingCallback méthode. Appelé lorsquun nœud appartenant à ce document a été inséré dans un autre nœud.
+linktitle: NodeInserted
+articleTitle: NodeInserted
+second_title: Aspose.Words pour .NET
+description: INodeChangingCallback NodeInserted méthode. Appelé lorsquun nœud appartenant à ce document a été inséré dans un autre nœud en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/inodechangingcallback/nodeinserted/
@@ -14,7 +16,7 @@ Appelé lorsqu'un nœud appartenant à ce document a été inséré dans un autr
 public void NodeInserted(NodeChangingArgs args)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le changement de nœud avec un rappel.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* espace de noms [Aspose.Words](../../inodechangingcallback/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

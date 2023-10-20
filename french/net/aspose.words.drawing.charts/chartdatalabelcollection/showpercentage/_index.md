@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabelCollection propriété. Permet de spécifier si la valeur en pourcentage doit être affichée pour les étiquettes de données de toute la série. La valeur par défaut estFAUX . Sapplique uniquement aux diagrammes circulaires.
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words pour .NET
+description: ChartDataLabelCollection ShowPercentage propriété. Permet de spécifier si la valeur en pourcentage doit être affichée pour les étiquettes de données de toute la série. La valeur par défaut estFAUX . Sapplique uniquement aux diagrammes circulaires en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
@@ -14,11 +16,11 @@ Permet de spécifier si la valeur en pourcentage doit être affichée pour les �
 public bool ShowPercentage { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur définie pour cette propriété peut être remplacée pour une étiquette de données individuelle en utilisant the [`ShowPercentage`](../../chartdatalabel/showpercentage/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les étiquettes de données d’un graphique à secteurs.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Voir également
 
 * class [ChartDataLabelCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

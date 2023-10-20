@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListFormat méthode. Augmente le niveau de liste du paragraphe actuel dun niveau.
+linktitle: ListIndent
+articleTitle: ListIndent
+second_title: Aspose.Words pour .NET
+description: ListFormat ListIndent méthode. Augmente le niveau de liste du paragraphe actuel dun niveau en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.lists/listformat/listindent/
@@ -14,13 +16,13 @@ Augmente le niveau de liste du paragraphe actuel d'un niveau.
 public void ListIndent()
 ```
 
-### Remarques
+## Remarques
 
 Cette méthode modifie le niveau de liste et applique les propriétés de formatage du nouveau niveau.
 
 Dans les documents Word, les listes peuvent comprendre jusqu'à neuf niveaux. Le formatage de liste pour chaque niveau spécifie la puce ou le numéro utilisé, le retrait à gauche, l'espace entre la puce et le texte, etc.
 
-### Exemples
+## Exemples
 
 Montre comment créer des listes à puces et numérotées.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Voir également
 
 * class [ListFormat](../)
-* espace de noms [Aspose.Words.Lists](../../listformat/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

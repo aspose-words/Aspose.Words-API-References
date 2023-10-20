@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit le nom informatif du modèle de document.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Template propriété. Obtient ou définit le nom informatif du modèle de document en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ Obtient ou définit le nom informatif du modèle de document.
 public string Template { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Dans Microsoft Word, cette propriété est uniquement à titre informatif et contient généralement uniquement le nom de fichier du modèle sans le chemin.
 
@@ -22,7 +24,7 @@ Une chaîne vide signifie que le document est joint au modèle Normal.
 
 Pour obtenir ou définir le nom réel du modèle joint, utilisez the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

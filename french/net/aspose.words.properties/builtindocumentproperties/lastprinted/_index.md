@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastPrinted
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit la date à laquelle le document a été imprimé pour la dernière fois en UTC.
+linktitle: LastPrinted
+articleTitle: LastPrinted
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties LastPrinted propriété. Obtient ou définit la date à laquelle le document a été imprimé pour la dernière fois en UTC en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.properties/builtindocumentproperties/lastprinted/
@@ -14,7 +16,7 @@ Obtient ou définit la date à laquelle le document a été imprimé pour la der
 public DateTime LastPrinted { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour les documents provenant du format RTF, cette propriété renvoie l'heure locale de la dernière opération d'impression.
 
@@ -22,7 +24,7 @@ Si le document n'a jamais été imprimé, cette propriété renverra DateTime.Mi
 
 Aspose.Words ne met pas à jour cette propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

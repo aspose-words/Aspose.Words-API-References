@@ -1,7 +1,9 @@
 ---
-title: Class Cluster
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Shaping.Cluster classe. Encapsule les points de code et les glyphes composant un graphème.
+title: Cluster Class
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Shaping.Cluster classe. Encapsule les points de code et les glyphes composant un graphème en C#.
 type: docs
 weight: 6010
 url: /fr/net/aspose.words.shaping/cluster/
@@ -18,7 +20,7 @@ public class Cluster
 
 | Nom | La description |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) | Initialise une nouvelle instance de cette classe. |
+| [Cluster](cluster/)(*int[], Glyph[]*) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
@@ -34,12 +36,10 @@ public class Cluster
 | --- | --- |
 | [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Renvoie un clone profond de cette instance. |
 | [GetString](../../aspose.words.shaping/cluster/getstring/)() | CréeString en utilisant les points de code de ce cluster. |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | Renvoie la largeur du cluster. |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | CréeString en utilisant les points de code des clusters spécifiés. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | Renvoie la largeur du cluster. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | CréeString en utilisant les points de code des clusters spécifiés. |
 
 ### Voir également
 
 * espace de noms [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../)
-
-

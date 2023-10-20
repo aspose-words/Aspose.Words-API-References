@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageColorSpaceExportMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.PdfImageColorSpaceExportMode énumération. Spécifie comment lespace colorimétrique sera sélectionné pour les images dans le document PDF.
+title: PdfImageColorSpaceExportMode Enum
+linktitle: PdfImageColorSpaceExportMode
+articleTitle: PdfImageColorSpaceExportMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.PdfImageColorSpaceExportMode énumération. Spécifie comment lespace colorimétrique sera sélectionné pour les images dans le document PDF en C#.
 type: docs
 weight: 5480
 url: /fr/net/aspose.words.saving/pdfimagecolorspaceexportmode/
@@ -21,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | Aspose.Words sélectionne automatiquement l'espace colorimétrique le plus approprié pour chaque image. |
 | SimpleCmyk | `1` | Aspose.Words convertit les images RVB en espace colorimétrique CMJN à l'aide d'une formule simple. |
 
-### Exemples
+## Exemples
 
 Montre comment définir un espace colorimétrique différent pour les images d'un document lorsque nous l'exportons au format PDF.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

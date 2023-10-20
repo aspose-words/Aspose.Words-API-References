@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreak
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de fin de colonne  x000e.
+linktitle: ColumnBreak
+articleTitle: ColumnBreak
+second_title: Aspose.Words pour .NET
+description: ControlChar ColumnBreak champ. Caractère de fin de colonne  x000e en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/controlchar/columnbreak/
@@ -14,7 +16,7 @@ Caractère de fin de colonne : "\x000e".
 public static readonly string ColumnBreak;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

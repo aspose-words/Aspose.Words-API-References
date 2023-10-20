@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient ou définit la valeur qui représente le retrait gauche dune table.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words pour .NET
+description: TableStyle LeftIndent propriété. Obtient ou définit la valeur qui représente le retrait gauche dune table en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur qui représente le retrait gauche d'une table.
 public double LeftIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la position d'un tableau.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Voir également
 
 * class [TableStyle](../)
-* espace de noms [Aspose.Words](../../tablestyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

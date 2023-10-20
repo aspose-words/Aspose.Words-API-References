@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Obtient le type de lentité actuelle.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator Type propriété. Obtient le type de lentité actuelle en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.layout/layoutenumerator/type/
@@ -14,7 +16,7 @@ Obtient le type de l'entité actuelle.
 public LayoutEntityType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

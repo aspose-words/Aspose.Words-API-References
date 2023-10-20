@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Body propriété. Obtient la section parent de cette histoire.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words pour .NET
+description: Body ParentSection propriété. Obtient la section parent de cette histoire en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ Obtient la section parent de cette histoire.
 public Section ParentSection { get; }
 ```
 
-### Remarques
+## Remarques
 
 `ParentSection` est équivalent à[`ParentNode`](../../node/parentnode/) jeté à[`Section`](../../section/).
 
-### Exemples
+## Exemples
 
 Montre comment stocker les notes de fin à la fin de chaque section et modifier leurs positions.
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* espace de noms [Aspose.Words](../../body/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

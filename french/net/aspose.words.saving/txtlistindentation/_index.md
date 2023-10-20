@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.TxtListIndentation classe. Spécifie comment les niveaux de liste sont indentés lors de lexportation du document versText format.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.TxtListIndentation classe. Spécifie comment les niveaux de liste sont indentés lors de lexportation du document versText format en C#.
 type: docs
 weight: 5650
 url: /fr/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Obtient ou définit le caractère à utiliser pour indenter les niveaux de liste. La valeur par défaut est '\0', ce qui signifie qu'il n'y a pas d'indentation. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Obtient ou définit combien[`Character`](./character/) à utiliser comme indentation pour un niveau de liste. La valeur par défaut est 0, cela signifie pas d'indentation. |
 
-### Exemples
+## Exemples
 
 Montre comment configurer l’indentation de liste lors de l’enregistrement d’un document en texte brut.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

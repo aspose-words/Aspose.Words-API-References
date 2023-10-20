@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Vrai lorsque le paragraphe est un élément dune liste à puces ou numérotée.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat IsListItem propriété. Vrai lorsque le paragraphe est un élément dune liste à puces ou numérotée en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ Vrai lorsque le paragraphe est un élément d'une liste à puces ou numérotée.
 public bool IsListItem { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imbriquer une liste dans une autre liste.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

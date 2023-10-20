@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase propriété. Obtient ou définit la forme darrièreplan du document. Peut êtrenul .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words pour .NET
+description: DocumentBase BackgroundShape propriété. Obtient ou définit la forme darrièreplan du document. Peut êtrenul  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ Obtient ou définit la forme d'arrière-plan du document. Peut être`nul` .
 public Shape BackgroundShape { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Microsoft Word autorise uniquement une forme qui a son[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) propriété égale àRectangle à utiliser comme forme d’arrière-plan pour un document.
 
@@ -22,7 +24,7 @@ Microsoft Word prend en charge uniquement les propriétés de remplissage d'une 
 
 La définition de cette propriété sur une valeur non nulle définira également le[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) à`vrai`.
 
-### Exemples
+## Exemples
 
 Montre comment définir une forme d’arrière-plan pour chaque page d’un document.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

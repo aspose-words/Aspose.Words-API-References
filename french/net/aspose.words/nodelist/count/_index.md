@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeList propriété. Obtient le nombre de nœuds dans la liste.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: NodeList Count propriété. Obtient le nombre de nœuds dans la liste en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ Obtient le nombre de nœuds dans la liste.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser XPaths pour parcourir une NodeList.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### Voir également
 
 * class [NodeList](../)
-* espace de noms [Aspose.Words](../../nodelist/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

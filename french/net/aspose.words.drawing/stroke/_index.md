@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Stroke classe. Définit un trait pour une forme.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Stroke classe. Définit un trait pour une forme en C#.
 type: docs
 weight: 1310
 url: /fr/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | Nom | La description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Obtient ou définit la couleur d'arrière-plan du trait. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Définit la couleur d'un trait. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Définit une deuxième couleur pour un trait. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Spécifie le motif de points et de tirets pour un trait. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Obtient ou définit un indicateur indiquant si le trait est visible. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Définit l'épaisseur du pinceau qui trace le chemin d'une forme en points. |
 
-### Remarques
+## Remarques
 
 Utilisez le[`Stroke`](../shape/stroke/) propriété pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances du`Stroke` classe directement.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les propriétés du trait.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

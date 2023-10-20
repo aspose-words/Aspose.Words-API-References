@@ -1,7 +1,9 @@
 ---
 title: PageSet.Odd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSet propriété. Obtient un ensemble avec toutes les pages impaires du document dans leur ordre dorigine.
+linktitle: Odd
+articleTitle: Odd
+second_title: Aspose.Words pour .NET
+description: PageSet Odd propriété. Obtient un ensemble avec toutes les pages impaires du document dans leur ordre dorigine en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/pageset/odd/
@@ -14,14 +16,12 @@ Obtient un ensemble avec toutes les pages impaires du document dans leur ordre d
 public static PageSet Odd { get; }
 ```
 
-### Remarques
+## Remarques
 
 Les pages impaires ont des indices pairs puisque les indices de page sont de base zéro.
 
 ### Voir également
 
 * class [PageSet](../)
-* espace de noms [Aspose.Words.Saving](../../pageset/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

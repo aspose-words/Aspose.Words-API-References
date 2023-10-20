@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IFieldResultFormatter méthode. Appelé lorsque Aspose.Words applique un changement de format numérique cestàdire  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: Aspose.Words pour .NET
+description: IFieldResultFormatter FormatNumeric méthode. Appelé lorsque Aspose.Words applique un changement de format numérique cestàdire   en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ Appelé lorsque Aspose.Words applique un changement de format numérique, c'est-
 public string FormatNumeric(double value, string format)
 ```
 
-### Remarques
+## Remarques
 
 L'implémentation devrait renvoyer`nul` pour indiquer que le formatage par défaut doit être appliqué.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### Voir également
 
 * interface [IFieldResultFormatter](../)
-* espace de noms [Aspose.Words.Fields](../../ifieldresultformatter/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

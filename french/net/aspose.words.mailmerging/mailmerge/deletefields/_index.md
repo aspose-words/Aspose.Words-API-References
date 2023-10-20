@@ -1,7 +1,9 @@
 ---
 title: MailMerge.DeleteFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge méthode. Supprime les champs liés au publipostage du document.
+linktitle: DeleteFields
+articleTitle: DeleteFields
+second_title: Aspose.Words pour .NET
+description: MailMerge DeleteFields méthode. Supprime les champs liés au publipostage du document en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.mailmerging/mailmerge/deletefields/
@@ -14,13 +16,13 @@ Supprime les champs liés au publipostage du document.
 public void DeleteFields()
 ```
 
-### Remarques
+## Remarques
 
 Cette méthode supprime les champs MERGEFIELD et NEXT du document.
 
 Cette méthode peut être utile si votre opération de publipostage n'a pas toujours besoin de pour remplir tous les champs du document. Utilisez cette méthode pour supprimer tous les champs de publipostage restant .
 
-### Exemples
+## Exemples
 
 Montre comment supprimer tous les MERGEFIELD d’un document.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Dear  ,\rGreetings!", doc.GetText().Trim());
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

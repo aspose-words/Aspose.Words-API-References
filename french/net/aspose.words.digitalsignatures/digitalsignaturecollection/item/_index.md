@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignatureCollection propriété. Obtient une signature de document à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: DigitalSignatureCollection Item propriété. Obtient une signature de document à lindex spécifié en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,7 +20,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | Index de base zéro de la signature. |
 
-### Exemples
+## Exemples
 
 Montre comment signer des documents avec des certificats X.509.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

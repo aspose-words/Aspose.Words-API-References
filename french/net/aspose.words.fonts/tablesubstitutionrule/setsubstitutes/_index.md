@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableSubstitutionRule méthode. Remplacer les noms de police de remplacement par le nom de police dorigine donné.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words pour .NET
+description: TableSubstitutionRule SetSubstitutes méthode. Remplacer les noms de police de remplacement par le nom de police dorigine donné en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Nom de police d'origine. |
 | substituteFontNames | String[] | Liste de noms de polices alternatives. |
 
-### Exemples
+## Exemples
 
 Montre comment définir les règles de substitution de police.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Voir également
 
 * class [TableSubstitutionRule](../)
-* espace de noms [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

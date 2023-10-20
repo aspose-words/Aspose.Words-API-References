@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie ou définit le nom de la police dans un document rédigé en langue de droite à gauche.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words pour .NET
+description: Font NameBi propriété. Renvoie ou définit le nom de la police dans un document rédigé en langue de droite à gauche en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ Renvoie ou définit le nom de la police dans un document rédigé en langue de d
 public string NameBi { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des ensembles distincts de paramètres de police pour le texte de droite à gauche et de droite à gauche.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

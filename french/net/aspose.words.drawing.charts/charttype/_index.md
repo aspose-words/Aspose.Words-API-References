@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartType énumération. Spécifie le type dun graphique.
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartType énumération. Spécifie le type dun graphique en C#.
 type: docs
 weight: 830
 url: /fr/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | Graphique de surface. |
 | Surface3D | `34` | Graphique de surface 3D. |
 
-### Exemples
+## Exemples
 
 Montre comment créer un type approprié de série de graphiques pour un type de graphique.
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

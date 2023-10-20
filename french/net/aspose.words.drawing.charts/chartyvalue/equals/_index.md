@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartYValue méthode. Obtient un indicateur indiquant si lobjet spécifié est égal à lobjet de valeur Y actuel.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: ChartYValue Equals méthode. Obtient un indicateur indiquant si lobjet spécifié est égal à lobjet de valeur Y actuel en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.drawing.charts/chartyvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Voir également
 
 * class [ChartYValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum SdtType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtType énumération. Spécifie le type dun nœud de balise de document structuré SDT.
+title: SdtType Enum
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.SdtType énumération. Spécifie le type dun nœud de balise de document structuré SDT en C#.
 type: docs
 weight: 4040
 url: /fr/net/aspose.words.markup/sdttype/
@@ -36,7 +38,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | Le SDT représente un élément de section répétitive. |
 | EntityPicker | `16` | Le SDT représente un sélecteur d'entités qui permet à l'utilisateur de sélectionner une instance d'un type de contenu externe. |
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré de groupe au niveau de la ligne.
 
@@ -172,5 +174,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
 
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

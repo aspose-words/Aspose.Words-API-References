@@ -1,9 +1,11 @@
 ---
 title: Document.NormalizeFieldTypes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Modifie les valeurs du type de champFieldType deFieldStart FieldSeparator FieldEnd dans tout le document afin quils correspondent aux types de champs contenus dans les codes de champs.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words pour .NET
+description: Document NormalizeFieldTypes méthode. Modifie les valeurs du type de champFieldType deFieldStart FieldSeparator FieldEnd dans tout le document afin quils correspondent aux types de champs contenus dans les codes de champs en C#.
 type: docs
-weight: 650
+weight: 630
 url: /fr/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -14,13 +16,13 @@ Modifie les valeurs du type de champ[`FieldType`](../../../aspose.words.fields/f
 public void NormalizeFieldTypes()
 ```
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode après les modifications du document affectant les types de champs.
 
 Pour modifier les valeurs du type de champ dans une partie spécifique du document, utilisez[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
-### Exemples
+## Exemples
 
 Montre comment mettre à jour le type d'un champ avec son code de champ.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

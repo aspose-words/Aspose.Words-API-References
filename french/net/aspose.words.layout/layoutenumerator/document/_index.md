@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Obtient le document énuméré par cette instance.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator Document propriété. Obtient le document énuméré par cette instance en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.layout/layoutenumerator/document/
@@ -14,7 +16,7 @@ Obtient le document énuméré par cette instance.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

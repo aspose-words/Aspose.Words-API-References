@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSubstitutionSettings propriété. Paramètres liés à la règle de substitution des informations de police.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words pour .NET
+description: FontSubstitutionSettings FontInfoSubstitution propriété. Paramètres liés à la règle de substitution des informations de police en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ Paramètres liés à la règle de substitution des informations de police.
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

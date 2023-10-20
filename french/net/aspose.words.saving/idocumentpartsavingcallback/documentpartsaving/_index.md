@@ -1,7 +1,9 @@
 ---
 title: IDocumentPartSavingCallback.DocumentPartSaving
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IDocumentPartSavingCallback méthode. Appelé lorsquAspose.Words est sur le point denregistrer une partie du document.
+linktitle: DocumentPartSaving
+articleTitle: DocumentPartSaving
+second_title: Aspose.Words pour .NET
+description: IDocumentPartSavingCallback DocumentPartSaving méthode. Appelé lorsquAspose.Words est sur le point denregistrer une partie du document en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
@@ -14,7 +16,7 @@ Appelé lorsqu'Aspose.Words est sur le point d'enregistrer une partie du documen
 public void DocumentPartSaving(DocumentPartSavingArgs args)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties et les enregistrer.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * interface [IDocumentPartSavingCallback](../)
-* espace de noms [Aspose.Words.Saving](../../idocumentpartsavingcallback/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

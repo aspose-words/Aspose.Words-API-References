@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment propriété. Obtient la date et lheure auxquelles le commentaire a été fait.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words pour .NET
+description: Comment DateTime propriété. Obtient la date et lheure auxquelles le commentaire a été fait en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ Obtient la date et l'heure auxquelles le commentaire a été fait.
 public DateTime DateTime { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estMinValue.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer le contenu de tous les commentaires et leurs plages de commentaires à l'aide d'un visiteur de document.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

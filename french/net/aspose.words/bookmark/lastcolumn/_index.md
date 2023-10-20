@@ -1,7 +1,9 @@
 ---
 title: Bookmark.LastColumn
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Obtient lindex de base zéro de la dernière colonne de la plage de colonnes du tableau associée au signet.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words pour .NET
+description: Bookmark LastColumn propriété. Obtient lindex de base zéro de la dernière colonne de la plage de colonnes du tableau associée au signet en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/bookmark/lastcolumn/
@@ -14,11 +16,11 @@ Obtient l'index de base zéro de la dernière colonne de la plage de colonnes du
 public int LastColumn { get; }
 ```
 
-### Remarques
+## Remarques
 
-Retours **-1** si ce signet n'est pas un signet de colonne de tableau.
+Retours**-1** si ce signet n'est pas un signet de colonne de tableau.
 
-### Exemples
+## Exemples
 
 Montre comment obtenir des informations sur les signets des colonnes du tableau.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Voir également
 
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

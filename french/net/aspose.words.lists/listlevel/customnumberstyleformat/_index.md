@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Obtient le format de style de numéro personnalisé pour ce niveau de liste. Par exemple  a ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words pour .NET
+description: ListLevel CustomNumberStyleFormat propriété. Obtient le format de style de numéro personnalisé pour ce niveau de liste. Par exemple  a ç ĝ  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ Obtient le format de style de numéro personnalisé pour ce niveau de liste. Par
 public string CustomNumberStyleFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir le format d’une liste avec le style de numéro personnalisé.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

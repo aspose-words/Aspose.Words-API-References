@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedSvg
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Spécifie si les ressources SVG doivent être intégrées dans le document HTML. La valeur par défaut estvrai .
+linktitle: ExportEmbeddedSvg
+articleTitle: ExportEmbeddedSvg
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions ExportEmbeddedSvg propriété. Spécifie si les ressources SVG doivent être intégrées dans le document HTML. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
@@ -14,7 +16,7 @@ Spécifie si les ressources SVG doivent être intégrées dans le document HTML.
 public bool ExportEmbeddedSvg { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer où stocker les objets SVG lors de l’exportation d’un document au format HTML.
 
@@ -53,7 +55,5 @@ else
 ### Voir également
 
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

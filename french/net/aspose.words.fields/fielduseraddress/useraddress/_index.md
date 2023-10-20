@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldUserAddress propriété. Obtient ou définit ladresse postale de lutilisateur actuel.
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: Aspose.Words pour .NET
+description: FieldUserAddress UserAddress propriété. Obtient ou définit ladresse postale de lutilisateur actuel en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ Obtient ou définit l'adresse postale de l'utilisateur actuel.
 public string UserAddress { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ USERADDRESS.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### Voir également
 
 * class [FieldUserAddress](../)
-* espace de noms [Aspose.Words.Fields](../../fielduseraddress/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

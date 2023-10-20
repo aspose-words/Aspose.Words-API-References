@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.ToArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SectionCollection méthode. Copie toutes les sections de la collection vers un nouveau tableau de sections.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words pour .NET
+description: SectionCollection ToArray méthode. Copie toutes les sections de la collection vers un nouveau tableau de sections en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/sectioncollection/toarray/
@@ -22,7 +24,5 @@ Un tableau de sections.
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* espace de noms [Aspose.Words](../../sectioncollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IMailMergeDataSourceRoot méthode. Le moteur de publipostage Aspose.Words appelle cette méthode lorsquil rencontre le début dune région de publipostage de niveau supérieur.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words pour .NET
+description: IMailMergeDataSourceRoot GetDataSource méthode. Le moteur de publipostage Aspose.Words appelle cette méthode lorsquil rencontre le début dune région de publipostage de niveau supérieur en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Un objet source de données qui donnera accès aux enregistrements de données de la table spécifiée.
 
-### Remarques
+## Remarques
 
 Lorsque les moteurs de publipostage Aspose.Words remplissent un document avec des données et rencontrent MERGEFIELD TableStart:TableName, , il invoque`GetDataSource` sur cet objet. Votre implémentation doit renvoyer un nouvel objet source de données. Aspose.Words utilisera la source de données renvoyée pour remplir la région de fusion et de publipostage.
 
 Si une source de données (table) portant le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
 
-### Exemples
+## Exemples
 
 Effectue un publipostage à partir d'une source de données personnalisée avec des données maître-détails.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* espace de noms [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

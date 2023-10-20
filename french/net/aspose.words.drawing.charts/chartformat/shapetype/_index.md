@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartFormat propriété. Obtient ou définit le type de forme de lélément de graphique parent.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words pour .NET
+description: ChartFormat ShapeType propriété. Obtient ou définit le type de forme de lélément de graphique parent en C#.
 type: docs
-weight: 30
+weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ Obtient ou définit le type de forme de l'élément de graphique parent.
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Actuellement, la propriété ne peut être utilisée que pour les étiquettes de données.
 
-### Exemples
+## Exemples
 
 Montre comment définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données de graphique.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartformat/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

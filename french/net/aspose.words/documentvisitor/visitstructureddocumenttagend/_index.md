@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dune balise de document structuré est terminée.
+linktitle: VisitStructuredDocumentTagEnd
+articleTitle: VisitStructuredDocumentTagEnd
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitStructuredDocumentTagEnd méthode. Appelé lorsque lénumération dune balise de document structuré est terminée en C#.
 type: docs
 weight: 440
 url: /fr/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure de nœuds de chaque balise de document structuré dans un document.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

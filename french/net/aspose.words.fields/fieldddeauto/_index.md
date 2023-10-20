@@ -1,7 +1,9 @@
 ---
-title: Class FieldDdeAuto
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldDdeAuto classe. Implémente le champ DDEAUTO.
+title: FieldDdeAuto Class
+linktitle: FieldDdeAuto
+articleTitle: FieldDdeAuto
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldDdeAuto classe. Implémente le champ DDEAUTO en C#.
 type: docs
 weight: 1790
 url: /fr/net/aspose.words.fields/fieldddeauto/
@@ -52,17 +54,17 @@ public class FieldDdeAuto : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Pour les informations copiées depuis une autre application, ce champ relie ces informations à son fichier source d'origine à l'aide de DDE et est mis à jour automatiquement.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -247,5 +249,3 @@ public enum InsertLinkedObjectAs
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

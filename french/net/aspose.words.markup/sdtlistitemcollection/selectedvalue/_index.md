@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection propriété. Spécifie la valeur actuellement sélectionnée dans cette liste. Valeur nulle autorisée ce qui signifie quaucune entrée actuellement sélectionnée nest associée à cette collection déléments de liste.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection SelectedValue propriété. Spécifie la valeur actuellement sélectionnée dans cette liste. Valeur nulle autorisée ce qui signifie quaucune entrée actuellement sélectionnée nest associée à cette collection déléments de liste en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ Spécifie la valeur actuellement sélectionnée dans cette liste. Valeur nulle a
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Color
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Obtient ou définit la couleur de la balise du document structuré.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Color propriété. Obtient ou définit la couleur de la balise du document structuré en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/structureddocumenttag/color/
@@ -14,7 +16,7 @@ Obtient ou définit la couleur de la balise du document structuré.
 public Color Color { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

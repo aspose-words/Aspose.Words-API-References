@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooter constructeur. Crée un nouvel entête ou pied de page du type spécifié.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words pour .NET
+description: HeaderFooter constructeur. Crée un nouvel entête ou pied de page du type spécifié en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | Le document du propriétaire. |
 | headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../headerfootertype/) value qui spécifie le type de l'en-tête ou du pied de page. |
 
-### Remarques
+## Remarques
 
 Quand[`HeaderFooter`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../node/parentnode/) est`nul`.
 
-À ajouter[`HeaderFooter`](../)à un[`Section`](../../section/) utiliserNode) ,Node) , ou[`HeadersFooters`](../../section/headersfooters/) propriété et méthodes[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+À ajouter[`HeaderFooter`](../)à un[`Section`](../../section/) utiliser[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , ou[`HeadersFooters`](../../section/headersfooters/) propriété et méthodes[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### Exemples
+## Exemples
 
 Montre comment créer un en-tête et un pied de page.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* espace de noms [Aspose.Words](../../headerfooter/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

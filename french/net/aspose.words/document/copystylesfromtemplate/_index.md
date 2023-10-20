@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Copie les styles du modèle spécifié vers un document.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words pour .NET
+description: Document CopyStylesFromTemplate méthode. Copie les styles du modèle spécifié vers un document en C#.
 type: docs
-weight: 590
+weight: 570
 url: /fr/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Copie les styles du modèle spécifié vers un document.
 
@@ -14,11 +16,11 @@ Copie les styles du modèle spécifié vers un document.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Remarques
+## Remarques
 
 Lorsque les styles sont copiés d'un modèle vers un document, les styles portant le même nom dans le document sont redéfinis pour correspondre aux descriptions de style dans le modèle. Les styles uniques du modèle sont copiés dans le document. Les styles uniques dans le document restent intacts.
 
-### Exemples
+## Exemples
 
 Montre comment copier des styles d’un document à un autre.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Copie les styles du modèle spécifié vers un document.
 
@@ -83,11 +85,11 @@ Copie les styles du modèle spécifié vers un document.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Remarques
+## Remarques
 
 Lorsque les styles sont copiés d'un modèle vers un document, les styles portant le même nom dans le document sont redéfinis pour correspondre aux descriptions de style dans le modèle. Les styles uniques du modèle sont copiés dans le document. Les styles uniques dans le document restent intacts.
 
-### Exemples
+## Exemples
 
 Montre comment copier les styles du modèle vers un document via Document.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatInfo propriété. Obtient lencodage détecté sil est applicable au format de document actuel. Détecte pour le moment lencodage uniquement pour les documents HTML.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words pour .NET
+description: FileFormatInfo Encoding propriété. Obtient lencodage détecté sil est applicable au format de document actuel. Détecte pour le moment lencodage uniquement pour les documents HTML en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ Obtient l'encodage détecté s'il est applicable au format de document actuel. D
 public Encoding Encoding { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment détecter l'encodage dans un fichier HTML.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### Voir également
 
 * class [FileFormatInfo](../)
-* espace de noms [Aspose.Words](../../fileformatinfo/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

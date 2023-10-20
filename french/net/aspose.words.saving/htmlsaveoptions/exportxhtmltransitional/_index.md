@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut écrire la déclaration DOCTYPE lors de lenregistrement au format HTML ou MHTML. Quandvrai  écrit une déclaration DOCTYPE dans le document avant lélément racine. La valeur par défaut estFAUX. Lors de lenregistrement au format EPUB ou HTML5 Html5  la déclaration DOCTYPE est toujours écrite.
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportXhtmlTransitional propriété. Spécifie sil faut écrire la déclaration DOCTYPE lors de lenregistrement au format HTML ou MHTML. Quandvrai  écrit une déclaration DOCTYPE dans le document avant lélément racine. La valeur par défaut estFAUX. Lors de lenregistrement au format EPUB ou HTML5 Html5  la déclaration DOCTYPE est toujours écrite en C#.
 type: docs
 weight: 280
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ Spécifie s'il faut écrire la déclaration DOCTYPE lors de l'enregistrement au 
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Aspose.Words écrit toujours du HTML bien formé quel que soit ce paramètre.
 
@@ -30,7 +32,7 @@ Aspose.Words vise à générer du XHTML conformément à la spécification XHTML
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents vers la norme de transition Xhtml 1.0.
 
@@ -64,7 +66,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

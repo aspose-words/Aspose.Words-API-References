@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowLength
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Définit la longueur de la pointe de flèche pour le début dun trait.
+linktitle: StartArrowLength
+articleTitle: StartArrowLength
+second_title: Aspose.Words pour .NET
+description: Stroke StartArrowLength propriété. Définit la longueur de la pointe de flèche pour le début dun trait en C#.
 type: docs
-weight: 170
+weight: 160
 url: /fr/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
@@ -14,11 +16,11 @@ Définit la longueur de la pointe de flèche pour le début d'un trait.
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estMedium.
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

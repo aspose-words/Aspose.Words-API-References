@@ -1,7 +1,9 @@
 ---
 title: Table.CellSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la quantité despace en points entre les cellules.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words pour .NET
+description: Table CellSpacing propriété. Obtient ou définit la quantité despace en points entre les cellules en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.tables/table/cellspacing/
@@ -14,7 +16,7 @@ Obtient ou définit la quantité d'espace (en points) entre les cellules.
 public double CellSpacing { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer l’espacement entre les cellules individuelles d’un tableau.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

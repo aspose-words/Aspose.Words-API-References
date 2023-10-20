@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Met à jour les propriétés du nombre de mots du document.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words pour .NET
+description: Document UpdateWordCount méthode. Met à jour les propriétés du nombre de mots du document en C#.
 type: docs
-weight: 810
+weight: 790
 url: /fr/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ Met à jour les propriétés du nombre de mots du document.
 public void UpdateWordCount()
 ```
 
-### Remarques
+## Remarques
 
 `UpdateWordCount` recalcule et met à jour les propriétés Caractères, Mots et Paragraphs dans le[`BuiltInDocumentProperties`](../builtindocumentproperties/) collecte des[`Document`](../).
 
@@ -22,7 +24,7 @@ Noter que`UpdateWordCount`ne met pas à jour les propriétés du nombre de ligne
 
 Lorsque vous utilisez une version d'évaluation, le filigrane d'évaluation sera également inclus dans le nombre de mots.
 
-### Exemples
+## Exemples
 
 Montre comment mettre à jour toutes les étiquettes de liste dans un document.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 Met à jour les propriétés du nombre de mots du document, éventuellement mises à jour[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) propriété.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `vrai` si le nombre de lignes dans le document doit être calculé. |
 
-### Remarques
+## Remarques
 
 Cette méthode reconstruira la mise en page du document.
 
-### Exemples
+## Exemples
 
 Montre comment mettre à jour toutes les étiquettes de liste dans un document.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

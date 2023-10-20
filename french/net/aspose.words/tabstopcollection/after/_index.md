@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.After
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Obtient un premier taquet de tabulation à droite de la position spécifiée.
+linktitle: After
+articleTitle: After
+second_title: Aspose.Words pour .NET
+description: TabStopCollection After méthode. Obtient un premier taquet de tabulation à droite de la position spécifiée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/tabstopcollection/after/
@@ -22,11 +24,11 @@ public TabStop After(double position)
 
 Un objet de taquet de tabulation ou`nul` si un taquet de tabulation approprié n'a pas été trouvé.
 
-### Remarques
+## Remarques
 
 Ignore les arrêts de tabulation avec[`Alignment`](../../tabstop/alignment/) mis àBar.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

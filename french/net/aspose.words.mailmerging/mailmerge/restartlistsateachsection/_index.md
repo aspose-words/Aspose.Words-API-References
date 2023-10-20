@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RestartListsAtEachSection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si les listes sont redémarrées à chaque section après lexécution dun publipostage.
+linktitle: RestartListsAtEachSection
+articleTitle: RestartListsAtEachSection
+second_title: Aspose.Words pour .NET
+description: MailMerge RestartListsAtEachSection propriété. Obtient ou définit une valeur indiquant si les listes sont redémarrées à chaque section après lexécution dun publipostage en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur indiquant si les listes sont redémarrées à cha
 public bool RestartListsAtEachSection { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai` .
 
-### Exemples
+## Exemples
 
 Montre comment contrôler si la numérotation des listes est redémarrée ou non à chaque section lors de la fusion et du publipostage.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "MailMerge.RestartListsAtEachSection.pdf");
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

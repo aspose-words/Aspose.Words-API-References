@@ -1,7 +1,9 @@
 ---
 title: Body.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Body méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: Body Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/body/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 Appels[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , puis appelle[`Accept`](../../node/accept/) pour tous les nœuds enfants de la section et des appels[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) à la fin.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un visiteur de document pour imprimer la structure des nœuds d'un document.
 
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Body](../)
-* espace de noms [Aspose.Words](../../body/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

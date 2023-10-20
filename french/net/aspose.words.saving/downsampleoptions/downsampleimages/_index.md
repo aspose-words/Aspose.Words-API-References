@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.DownsampleImages
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DownsampleOptions propriété. Spécifie si les images doivent être souséchantillonnées.
+linktitle: DownsampleImages
+articleTitle: DownsampleImages
+second_title: Aspose.Words pour .NET
+description: DownsampleOptions DownsampleImages propriété. Spécifie si les images doivent être souséchantillonnées en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/downsampleoptions/downsampleimages/
@@ -14,11 +16,11 @@ Spécifie si les images doivent être sous-échantillonnées.
 public bool DownsampleImages { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai` .
 
-### Exemples
+## Exemples
 
 Montre comment modifier la résolution des images dans le document PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Voir également
 
 * class [DownsampleOptions](../)
-* espace de noms [Aspose.Words.Saving](../../downsampleoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

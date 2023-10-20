@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoTextList
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldAutoTextList classe. Implémente le champ AUTOTEXTLIST.
+title: FieldAutoTextList Class
+linktitle: FieldAutoTextList
+articleTitle: FieldAutoTextList
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldAutoTextList classe. Implémente le champ AUTOTEXTLIST en C#.
 type: docs
 weight: 1620
 url: /fr/net/aspose.words.fields/fieldautotextlist/
@@ -45,17 +47,17 @@ public class FieldAutoTextList : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Crée un menu contextuel basé sur les entrées d'insertion automatique dans le modèle actif.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans une liste d’entrées d’insertion automatique.
 
@@ -112,5 +114,3 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

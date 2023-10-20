@@ -1,7 +1,9 @@
 ---
-title: FieldTitle.FieldTitle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldTitle constructeur. Default_Constructor
+title: FieldTitle
+linktitle: FieldTitle
+articleTitle: FieldTitle
+second_title: Aspose.Words pour .NET
+description: FieldTitle constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldtitle/fieldtitle/
@@ -17,7 +19,5 @@ public FieldTitle()
 ### Voir également
 
 * class [FieldTitle](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtitle/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

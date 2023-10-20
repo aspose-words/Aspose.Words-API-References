@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsItalic
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldTA propriété. Obtient ou définit sil faut appliquer la mise en forme en italique au numéro de page de lentrée.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words pour .NET
+description: FieldTA IsItalic propriété. Obtient ou définit sil faut appliquer la mise en forme en italique au numéro de page de lentrée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldta/isitalic/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut appliquer la mise en forme en italique au numéro 
 public bool IsItalic { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et personnaliser une table de autorités à l’aide des champs TOA et TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Voir également
 
 * class [FieldTA](../)
-* espace de noms [Aspose.Words.Fields](../../fieldta/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

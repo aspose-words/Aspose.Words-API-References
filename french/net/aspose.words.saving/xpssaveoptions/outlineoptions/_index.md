@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XpsSaveOptions propriété. Permet de spécifier les options de contour.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words pour .NET
+description: XpsSaveOptions OutlineOptions propriété. Permet de spécifier les options de contour en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ Permet de spécifier les options de contour.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Remarques
+## Remarques
 
 Noter que[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) L’option ne fonctionnera pas lors de l’enregistrement sur XPS.
 
-### Exemples
+## Exemples
 
 Montre comment limiter le niveau des titres qui apparaîtront dans le plan d'un document XPS enregistré.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xpssaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.Bidi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit sil sagit dun tableau de droite à gauche.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words pour .NET
+description: Table Bidi propriété. Obtient ou définit sil sagit dun tableau de droite à gauche en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.tables/table/bidi/
@@ -14,13 +16,13 @@ Obtient ou définit s'il s'agit d'un tableau de droite à gauche.
 public bool Bidi { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Quand`vrai`, les cellules de cette ligne sont disposées de droite à gauche.
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment créer des paramètres de style personnalisés pour le tableau.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

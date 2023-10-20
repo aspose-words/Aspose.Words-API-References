@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.Save
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeRendererBase méthode. Rend la forme dans une image et lenregistre dans un fichier.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words pour .NET
+description: NodeRendererBase Save méthode. Rend la forme dans une image et lenregistre dans un fichier en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.rendering/noderendererbase/save/
 ---
-## Save(string, ImageSaveOptions) {#save_1}
+## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_1}
 
 Rend la forme dans une image et l'enregistre dans un fichier.
 
@@ -19,7 +21,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | fileName | String | Le nom du fichier image. Si un fichier portant le nom spécifié existe déjà, le fichier existant est écrasé. |
 | saveOptions | ImageSaveOptions | Spécifie les options qui contrôlent la façon dont la forme est rendue et enregistrée. Peut être`nul`. |
 
-### Exemples
+## Exemples
 
 Montre comment restituer un objet Office Math dans un fichier image dans le système de fichiers local.
 
@@ -42,12 +44,12 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* espace de noms [Aspose.Words.Rendering](../../noderendererbase/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, ImageSaveOptions) {#save}
+## Save(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save}
 
 Rend la forme dans une image et l'enregistre dans un flux.
 
@@ -60,7 +62,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | stream | Stream | Le flux où enregistrer l’image de la forme. |
 | saveOptions | ImageSaveOptions | Spécifie les options qui contrôlent la façon dont la forme est rendue et enregistrée. Peut être`nul` . Si c'est le cas`nul`, l'image sera enregistrée au format PNG. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un moteur de rendu de formes pour exporter des formes vers des fichiers dans le système de fichiers local.
 
@@ -86,7 +88,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* espace de noms [Aspose.Words.Rendering](../../noderendererbase/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

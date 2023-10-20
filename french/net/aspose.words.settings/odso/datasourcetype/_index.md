@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie le type de source de données externe à laquelle se connecter dans le cadre des informations de connexion ODSO pour ce publipostage. La valeur par défaut estDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words pour .NET
+description: Odso DataSourceType propriété. Spécifie le type de source de données externe à laquelle se connecter dans le cadre des informations de connexion ODSO pour ce publipostage. La valeur par défaut estDefault  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ Spécifie le type de source de données externe à laquelle se connecter dans le
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Ce paramètre est purement une suggestion du type de source de données utilisé pour ce publipostage.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la mise à léchelle de la largeur des caractères en pourcentage.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words pour .NET
+description: Font Scaling propriété. Obtient ou définit la mise à léchelle de la largeur des caractères en pourcentage en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ Obtient ou définit la mise à l'échelle de la largeur des caractères en pourc
 public int Scaling { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la mise à l’échelle et l’espacement horizontaux des caractères.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

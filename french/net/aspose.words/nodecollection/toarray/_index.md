@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Copie tous les nœuds de la collection vers un nouveau tableau de nœuds.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words pour .NET
+description: NodeCollection ToArray méthode. Copie tous les nœuds de la collection vers un nouveau tableau de nœuds en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Un tableau de nœuds.
 
-### Remarques
+## Remarques
 
 Vous ne devez pas ajouter/supprimer des nœuds lors d'une itération sur une collection de nœuds, car cela invalide l'itérateur et nécessite des actualisations pour les collections en direct.
 
 Pour pouvoir ajouter/supprimer des nœuds pendant l'itération, utilisez cette méthode pour copier les nœuds dans un tableau de taille fixe, puis parcourir le tableau.
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les formes de zone de texte par des formes d’image.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

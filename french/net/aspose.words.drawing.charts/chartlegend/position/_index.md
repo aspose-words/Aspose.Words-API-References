@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartLegend propriété. Spécifie la position de la légende sur un graphique. La valeur par défaut estRight .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words pour .NET
+description: ChartLegend Position propriété. Spécifie la position de la légende sur un graphique. La valeur par défaut estRight  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ Spécifie la position de la légende sur un graphique. La valeur par défaut est
 public LegendPosition Position { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence de la légende d’un graphique.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

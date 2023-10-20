@@ -1,7 +1,9 @@
 ---
 title: FieldAuthor.AuthorName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAuthor propriété. Obtient ou définit le nom de lauteur du document.
+linktitle: AuthorName
+articleTitle: AuthorName
+second_title: Aspose.Words pour .NET
+description: FieldAuthor AuthorName propriété. Obtient ou définit le nom de lauteur du document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldauthor/authorname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de l'auteur du document.
 public string AuthorName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un champ AUTEUR pour afficher le nom du créateur d'un document.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Voir également
 
 * class [FieldAuthor](../)
-* espace de noms [Aspose.Words.Fields](../../fieldauthor/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

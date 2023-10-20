@@ -1,7 +1,9 @@
 ---
 title: Range.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range propriété. Récupère le texte de la plage.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: Range Text propriété. Récupère le texte de la plage en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/range/text/
@@ -14,11 +16,11 @@ Récupère le texte de la plage.
 public string Text { get; }
 ```
 
-### Remarques
+## Remarques
 
 La chaîne renvoyée inclut tous les caractères de contrôle et spéciaux comme décrit dans[`ControlChar`](../../controlchar/).
 
-### Exemples
+## Exemples
 
 Montre comment obtenir le contenu textuel de tous les nœuds couverts par une plage.
 
@@ -34,7 +36,5 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 ### Voir également
 
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

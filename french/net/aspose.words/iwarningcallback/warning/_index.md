@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IWarningCallback méthode. Aspose.Words appelle cette méthode lorsquil rencontre un problème lors du chargement ou de lenregistrement dun document pouvant entraîner une perte de formatage ou de fidélité des données.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words pour .NET
+description: IWarningCallback Warning méthode. Aspose.Words appelle cette méthode lorsquil rencontre un problème lors du chargement ou de lenregistrement dun document pouvant entraîner une perte de formatage ou de fidélité des données en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words appelle cette méthode lorsqu'il rencontre un problème lors du cha
 public void Warning(WarningInfo info)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* espace de noms [Aspose.Words](../../iwarningcallback/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

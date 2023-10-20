@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un champ Word dans un document et met éventuellement à jour le résultat du champ.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertField méthode. Insère un champ Word dans un document et met éventuellement à jour le résultat du champ en C#.
 type: docs
-weight: 330
+weight: 320
 url: /fr/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Insère un champ Word dans un document et met éventuellement à jour le résultat du champ.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
-### Remarques
+## Remarques
 
 Cette méthode insère un champ dans un document. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the `InsertField` surcharge.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ dans un document à l'aide de FieldType.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Insère un champ Word dans un document et met à jour le résultat du champ.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
-### Remarques
+## Remarques
 
 Cette méthode insère un champ dans un document et met immédiatement à jour le résultat du champ. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the `InsertField` surcharge.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ dans un document à l'aide d'un code de champ.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Insère un champ Word dans un document sans mettre à jour le résultat du champ.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
-### Remarques
+## Remarques
 
 Les champs des documents Microsoft Word se composent d'un code de champ et d'un résultat de champ. Le code de champ est comme une formule et le résultat du champ est comme la valeur que produit la formule. Le code de champ peut également contenir le champswitches qui sont comme des instructions supplémentaires pour effectuer une action spécifique.
 
@@ -176,7 +178,7 @@ Pour créer un champ, vous devez spécifier un type de champ, un code de champ e
 
 Aspose.Words peut calculer les résultats de champ pour la plupart des types de champs, mais cette méthode ne met pas automatiquement à jour le résultat du champ. Étant donné que le résultat du champ n'est pas calculé automatiquement, vous devez transmettre une valeur de chaîne (ou même une chaîne vide) qui sera insérée dans le résultat du champ. Cette valeur restera dans le résultat du champ comme espace réservé jusqu'à ce que le champ soit update. Pour mettre à jour le résultat du champ, vous pouvez appeler[`Update`](../../../aspose.words.fields/field/update/)sur l'objet champ qui vous est retourné ou[`UpdateFields`](../../document/updatefields/) pour mettre à jour les champs dans l'ensemble du document.
 
-### Exemples
+## Exemples
 
 Montre comment configurer la numérotation des pages dans une section.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

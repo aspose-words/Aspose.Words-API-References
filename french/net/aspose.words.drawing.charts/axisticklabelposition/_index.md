@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition énumération. Spécifie les positions possibles pour les étiquettes de graduation.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition énumération. Spécifie les positions possibles pour les étiquettes de graduation en C#.
 type: docs
 weight: 580
 url: /fr/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Spécifie que les étiquettes des axes ne sont pas dessinées. |
 | Default | `2` | Spécifie la valeur par défaut de la position des étiquettes de graduation. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

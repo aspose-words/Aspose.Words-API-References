@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxisCollection propriété. Obtient laxe à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ChartAxisCollection Item propriété. Obtient laxe à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartaxiscollection/item/
@@ -18,7 +20,5 @@ public ChartAxis this[int index] { get; }
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

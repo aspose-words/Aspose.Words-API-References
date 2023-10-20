@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définitIFieldUpdatingCallback mise en œuvre
+linktitle: FieldUpdatingCallback
+articleTitle: FieldUpdatingCallback
+second_title: Aspose.Words pour .NET
+description: FieldOptions FieldUpdatingCallback propriété. Obtient ou définitIFieldUpdatingCallback mise en œuvre en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }
 
 * interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

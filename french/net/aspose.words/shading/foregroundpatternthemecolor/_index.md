@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternThemeColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shading propriété. Obtient ou définit la couleur du thème du motif de premier plan dans le jeu de couleurs appliqué associé à ceShading objet.
+linktitle: ForegroundPatternThemeColor
+articleTitle: ForegroundPatternThemeColor
+second_title: Aspose.Words pour .NET
+description: Shading ForegroundPatternThemeColor propriété. Obtient ou définit la couleur du thème du motif de premier plan dans le jeu de couleurs appliqué associé à ceShading objet en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/shading/foregroundpatternthemecolor/
@@ -14,7 +16,7 @@ Obtient ou définit la couleur du thème du motif de premier plan dans le jeu de
 public ThemeColor ForegroundPatternThemeColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les couleurs de premier plan et d’arrière-plan pour l’ombrage de la texture.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* espace de noms [Aspose.Words](../../shading/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

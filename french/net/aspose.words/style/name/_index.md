@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Obtient ou définit le nom du style.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: Style Name propriété. Obtient ou définit le nom du style en C#.
 type: docs
-weight: 130
+weight: 120
 url: /fr/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ Obtient ou définit le nom du style.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Ne peut pas être une chaîne vide.
 
 S'il existe déjà un style portant ce nom dans la collection, ce style le remplacera. Tous les nœuds concernés feront référence au nouveau style.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de styles d’un document.
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### Voir également
 
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

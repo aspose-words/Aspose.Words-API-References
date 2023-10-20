@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment propriété. Renvoie ou définit le nom de lauteur dun commentaire.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words pour .NET
+description: Comment Author propriété. Renvoie ou définit le nom de lauteur dun commentaire en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ Renvoie ou définit le nom de l'auteur d'un commentaire.
 public string Author { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer tous les commentaires d'un document et leurs réponses.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Voir également
 
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

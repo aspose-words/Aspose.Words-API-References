@@ -1,14 +1,16 @@
 ---
 title: IStructuredDocumentTag.SdtType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Obtient le type de ceci Balise de document structuré .
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words pour .NET
+description: IStructuredDocumentTag SdtType propriété. Obtient le type de ceciBalise de document structuré  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.markup/istructureddocumenttag/sdttype/
 ---
 ## IStructuredDocumentTag.SdtType property
 
-Obtient le type de ceci **Balise de document structuré** .
+Obtient le type de ceci**Balise de document structuré** .
 
 ```csharp
 public SdtType SdtType { get; }
@@ -18,7 +20,5 @@ public SdtType SdtType { get; }
 
 * enum [SdtType](../../sdttype/)
 * interface [IStructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

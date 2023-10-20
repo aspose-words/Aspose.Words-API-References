@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.SourceTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldBibliography propriété. Obtient ou définit une valeur afin que seules les sources avec la valeur délément Tag correspondante soient affichées dans la bibliographie.
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: Aspose.Words pour .NET
+description: FieldBibliography SourceTag propriété. Obtient ou définit une valeur afin que seules les sources avec la valeur délément Tag correspondante soient affichées dans la bibliographie en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldbibliography/sourcetag/
@@ -17,7 +19,5 @@ public string SourceTag { get; set; }
 ### Voir également
 
 * class [FieldBibliography](../)
-* espace de noms [Aspose.Words.Fields](../../fieldbibliography/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

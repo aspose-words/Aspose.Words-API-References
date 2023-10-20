@@ -1,7 +1,9 @@
 ---
-title: Class OoxmlSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.OoxmlSaveOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de lenregistrement dun document dans leDocx  Docm Dotx Dotm ou FlatOpc format.
+title: OoxmlSaveOptions Class
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.OoxmlSaveOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de lenregistrement dun document dans leDocx  Docm Dotx Dotm ou FlatOpc format en C#.
 type: docs
 weight: 5350
 url: /fr/net/aspose.words.saving/ooxmlsaveoptions/
@@ -21,7 +23,7 @@ public class OoxmlSaveOptions : SaveOptions
 | Nom | La description |
 | --- | --- |
 | [OoxmlSaveOptions](ooxmlsaveoptions/#constructor)() | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDocx format. |
-| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(SaveFormat) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDocx , Docm ,Dotx ,Dotm ou FlatOpc format. |
+| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leDocx , Docm ,Dotx ,Dotm ou FlatOpc format. |
 
 ## Propriétés
 
@@ -31,7 +33,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [Compliance](../../aspose.words.saving/ooxmlsaveoptions/compliance/) { get; set; } | Spécifie la version OOXML du document de sortie. La valeur par défaut estEcma376_2006 . |
 | [CompressionLevel](../../aspose.words.saving/ooxmlsaveoptions/compressionlevel/) { get; set; } | Spécifie le niveau de compression utilisé pour enregistrer le document. La valeur par défaut estNormal . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la manière dont les effets 3D sont rendus. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les effets DrawingML sont rendus. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues. |
@@ -51,7 +53,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser l'anticrénelage pour le rendu. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser des algorithmes de rendu de haute qualité (c'est-à-dire lents). |
 
-### Exemples
+## Exemples
 
 Montre comment définir une spécification de conformité OOXML à laquelle un document enregistré doit adhérer.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 * class [SaveOptions](../saveoptions/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

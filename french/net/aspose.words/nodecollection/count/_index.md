@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection propriété. Obtient le nombre de nœuds dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: NodeCollection Count propriété. Obtient le nombre de nœuds dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre de nœuds dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### Voir également
 
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

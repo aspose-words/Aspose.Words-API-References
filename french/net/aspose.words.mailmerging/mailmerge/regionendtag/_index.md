@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionEndTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une balise de fin de région de fusion et publipostage.
+linktitle: RegionEndTag
+articleTitle: RegionEndTag
+second_title: Aspose.Words pour .NET
+description: MailMerge RegionEndTag propriété. Obtient ou définit une balise de fin de région de fusion et publipostage en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.mailmerging/mailmerge/regionendtag/
@@ -14,7 +16,7 @@ Obtient ou définit une balise de fin de région de fusion et publipostage.
 public string RegionEndTag { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer, répertorier et lire des régions de publipostage.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

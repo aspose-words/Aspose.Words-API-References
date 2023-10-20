@@ -1,7 +1,9 @@
 ---
 title: Table.BottomPadding
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la quantité despace en points à ajouter sous le contenu des cellules.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words pour .NET
+description: Table BottomPadding propriété. Obtient ou définit la quantité despace en points à ajouter sous le contenu des cellules en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.tables/table/bottompadding/
@@ -14,7 +16,7 @@ Obtient ou définit la quantité d'espace (en points) à ajouter sous le contenu
 public double BottomPadding { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer le remplissage du contenu dans un tableau.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

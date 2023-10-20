@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CommentRangeEnd propriété. Spécifie lidentifiant du commentaire auquel cette région est liée.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: CommentRangeEnd Id propriété. Spécifie lidentifiant du commentaire auquel cette région est liée en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/commentrangeend/id/
@@ -14,7 +16,7 @@ Spécifie l'identifiant du commentaire auquel cette région est liée.
 public int Id { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer le contenu de tous les commentaires et leurs plages de commentaires à l'aide d'un visiteur de document.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [CommentRangeEnd](../)
-* espace de noms [Aspose.Words](../../commentrangeend/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

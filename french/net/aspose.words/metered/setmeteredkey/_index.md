@@ -1,7 +1,9 @@
 ---
 title: Metered.SetMeteredKey
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Metered méthode. Définit les clés publiques et privées mesurées. Si vous achetez une licence limitée au démarrage de lapplication cette API doit être appelée normalement cela suffit. Cependant si vous ne parvenez toujours pas à télécharger les données de consommation et dépassez 24 heures la licence sera définie sur le statut dévaluation pour éviter un tel cas vous devez vérifier régulièrement létat de la licence sil sagit du statut dévaluation appelez à nouveau cette API.
+linktitle: SetMeteredKey
+articleTitle: SetMeteredKey
+second_title: Aspose.Words pour .NET
+description: Metered SetMeteredKey méthode. Définit les clés publiques et privées mesurées. Si vous achetez une licence limitée au démarrage de lapplication cette API doit être appelée normalement cela suffit. Cependant si vous ne parvenez toujours pas à télécharger les données de consommation et dépassez 24 heures la licence sera définie sur le statut dévaluation pour éviter un tel cas vous devez vérifier régulièrement létat de la licence sil sagit du statut dévaluation appelez à nouveau cette API en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/metered/setmeteredkey/
@@ -19,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | Clé publique |
 | privateKey | String | Clé privée |
 
-### Exemples
+## Exemples
 
 Montre comment activer une licence avec compteur et suivre le crédit/la consommation.
 
@@ -46,7 +48,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Voir également
 
 * class [Metered](../)
-* espace de noms [Aspose.Words](../../metered/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SectionCollection propriété. Récupère une section à lindex donné.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: SectionCollection Item propriété. Récupère une section à lindex donné en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | Un index dans la liste des sections. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Indique quand recalculer la mise en page du document.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* espace de noms [Aspose.Words](../../sectioncollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAddressBlock propriété. Obtient ou définit sil faut formater ladresse en fonction du pays/région du destinataire tel que défini par POSTCODE Union postale universelle 2006.
+linktitle: FormatAddressOnCountryOrRegion
+articleTitle: FormatAddressOnCountryOrRegion
+second_title: Aspose.Words pour .NET
+description: FieldAddressBlock FormatAddressOnCountryOrRegion propriété. Obtient ou définit sil faut formater ladresse en fonction du pays/région du destinataire tel que défini par POSTCODE Union postale universelle 2006 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut formater l'adresse en fonction du pays/région du 
 public bool FormatAddressOnCountryOrRegion { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Voir également
 
 * class [FieldAddressBlock](../)
-* espace de noms [Aspose.Words.Fields](../../fieldaddressblock/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

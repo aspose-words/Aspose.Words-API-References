@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CommentRangeEnd propriété. RetoursCommentRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: CommentRangeEnd NodeType propriété. RetoursCommentRangeEnd  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/commentrangeend/nodetype/
@@ -14,7 +16,7 @@ RetoursCommentRangeEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeEnd](../)
-* espace de noms [Aspose.Words](../../commentrangeend/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatUtil méthode. Détecte et renvoie les informations sur le format dun document stocké dans un fichier disque.
+linktitle: DetectFileFormat
+articleTitle: DetectFileFormat
+second_title: Aspose.Words pour .NET
+description: FileFormatUtil DetectFileFormat méthode. Détecte et renvoie les informations sur le format dun document stocké dans un fichier disque en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/fileformatutil/detectfileformat/
 ---
-## DetectFileFormat(string) {#detectfileformat_1}
+## DetectFileFormat(*string*) {#detectfileformat_1}
 
 Détecte et renvoie les informations sur le format d'un document stocké dans un fichier disque.
 
@@ -22,13 +24,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 UN[`FileFormatInfo`](../../fileformatinfo/) objet qui contient les informations détectées.
 
-### Remarques
+## Remarques
 
 Même si cette méthode détecte le format du document, elle ne garantit pas que le document spécifié est valide. Cette méthode détecte uniquement le format du document en lisant les données suffisantes pour la détection. Pour vérifier complètement qu'un document est valide , vous devez charger le document dans un[`Document`](../../document/) objet.
 
 Cette méthode jette[`FileCorruptedException`](../../filecorruptedexception/) lorsque le format est reconnu, mais que la détection ne peut pas se terminer en raison d'une corruption.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la classe FileFormatUtil pour détecter le format et le chiffrement du document.
 
@@ -75,12 +77,12 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* espace de noms [Aspose.Words](../../fileformatutil/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## DetectFileFormat(Stream) {#detectfileformat}
+## DetectFileFormat(*Stream*) {#detectfileformat}
 
 Détecte et renvoie les informations sur le format d'un document stocké dans un flux.
 
@@ -96,7 +98,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 UN[`FileFormatInfo`](../../fileformatinfo/) objet qui contient les informations détectées.
 
-### Remarques
+## Remarques
 
 Le flux doit être positionné au début du document.
 
@@ -106,7 +108,7 @@ Même si cette méthode détecte le format du document, elle ne garantit pas que
 
 Cette méthode jette[`FileCorruptedException`](../../filecorruptedexception/) lorsque le format est reconnu, mais que la détection ne peut pas se terminer en raison d'une corruption.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les méthodes FileFormatUtil pour détecter le format d'un document.
 
@@ -140,7 +142,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* espace de noms [Aspose.Words](../../fileformatutil/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

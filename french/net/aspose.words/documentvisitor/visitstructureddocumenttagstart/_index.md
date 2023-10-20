@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dune balise de document structuré a commencé.
+linktitle: VisitStructuredDocumentTagStart
+articleTitle: VisitStructuredDocumentTagStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitStructuredDocumentTagStart méthode. Appelé lorsque lénumération dune balise de document structuré a commencé en C#.
 type: docs
 weight: 470
 url: /fr/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure de nœuds de chaque balise de document structuré dans un document.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

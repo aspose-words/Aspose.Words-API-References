@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.XmlMapping classe. Spécifie les informations utilisées pour établir un mappage entre la balise de document structuré parent et un élément XML stocké dans une partie de données XML personnalisée dans le document.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.XmlMapping classe. Spécifie les informations utilisées pour établir un mappage entre la balise de document structuré parent et un élément XML stocké dans une partie de données XML personnalisée dans le document en C#.
 type: docs
 weight: 4100
 url: /fr/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | Nom | La description |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Supprime le mappage du document structuré parent avec les données XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Définit un mappage entre la balise de document structuré parent et un nœud XML d'une partie de données XML personnalisée. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Définit un mappage entre la balise de document structuré parent et un nœud XML d'une partie de données XML personnalisée. |
 
-### Exemples
+## Exemples
 
 Montre comment définir des mappages XML pour les parties XML personnalisées.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

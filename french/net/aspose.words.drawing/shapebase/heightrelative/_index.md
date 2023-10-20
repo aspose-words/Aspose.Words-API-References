@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HeightRelative
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit la valeur qui représente le pourcentage de la hauteur relative de la forme.
+linktitle: HeightRelative
+articleTitle: HeightRelative
+second_title: Aspose.Words pour .NET
+description: ShapeBase HeightRelative propriété. Obtient ou définit la valeur qui représente le pourcentage de la hauteur relative de la forme en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.drawing/shapebase/heightrelative/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur qui représente le pourcentage de la hauteur relat
 public float HeightRelative { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la taille et la position relatives.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

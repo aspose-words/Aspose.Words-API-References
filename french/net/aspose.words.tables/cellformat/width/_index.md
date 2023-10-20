@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CellFormat propriété. Obtient la largeur de la cellule en points.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words pour .NET
+description: CellFormat Width propriété. Obtient la largeur de la cellule en points en C#.
 type: docs
-weight: 140
+weight: 130
 url: /fr/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ Obtient la largeur de la cellule en points.
 public double Width { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La largeur est calculée par Aspose.Words lors du chargement et de l'enregistrement du document. Actuellement, toutes les combinaisons de propriétés de tableau, de cellule et de document ne sont pas prises en charge. La valeur renvoyée peut ne pas être exacte pour certains documents. Elle peut ne pas correspondre exactement à la largeur de cellule calculée par MS Word lorsque le document est ouvert dans MS Word.
 
 La définition de cette propriété n'est pas recommandée. Il n'y a aucune garantie que la cellule aura réellement la largeur définie. La largeur peut être ajustée pour s'adapter au contenu de la cellule dans une disposition de tableau à ajustement automatique. Les cellules des autres lignes peuvent avoir une largeur conflictuelle settings. Le tableau peut être redimensionné pour s'adapter au conteneur ou pour répondre aux paramètres de largeur du tableau. Envisagez d'utiliser[`PreferredWidth`](../preferredwidth/) pour définir la largeur de la cellule. Définir ces jeux de propriétés[`PreferredWidth`](../preferredwidth/)implicitement depuis la version 15.8.
 
-### Exemples
+## Exemples
 
 Montre comment formater des cellules avec un générateur de documents.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Voir également
 
 * class [CellFormat](../)
-* espace de noms [Aspose.Words.Tables](../../cellformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

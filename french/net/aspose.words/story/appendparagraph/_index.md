@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Story méthode. Une méthode de raccourci qui crée unParagraph objet avec du texte facultatif et lajoute à la fin de cet objet.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words pour .NET
+description: Story AppendParagraph méthode. Une méthode de raccourci qui crée unParagraph objet avec du texte facultatif et lajoute à la fin de cet objet en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 Le paragraphe nouvellement créé et ajouté.
 
-### Exemples
+## Exemples
 
 Montre comment créer un en-tête et un pied de page.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* espace de noms [Aspose.Words](../../story/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

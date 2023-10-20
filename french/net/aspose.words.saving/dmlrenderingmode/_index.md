@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.DmlRenderingMode énumération. Spécifie comment les formes DrawingML sont rendues dans des formats de page fixes.
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.DmlRenderingMode énumération. Spécifie comment les formes DrawingML sont rendues dans des formats de page fixes en C#.
 type: docs
 weight: 4920
 url: /fr/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | Si la forme de secours est disponible pour DrawingML, Aspose.Words affiche la forme de secours au lieu de DrawingML. |
 | DrawingML | `1` | Aspose.Words ignore la forme de secours de DrawingML et restitue DrawingML lui-même. Il s'agit du mode par défaut. |
 
-### Exemples
+## Exemples
 
 Montre comment restituer des formes de secours lors de l’enregistrement au format PDF.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

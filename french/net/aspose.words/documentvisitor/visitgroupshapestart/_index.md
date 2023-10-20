@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGroupShapeStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dune forme de groupe a commencé.
+linktitle: VisitGroupShapeStart
+articleTitle: VisitGroupShapeStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitGroupShapeStart méthode. Appelé lorsque lénumération dune forme de groupe a commencé en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words/documentvisitor/visitgroupshapestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitGroupShapeStart(GroupShape groupShape)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
 
@@ -306,7 +308,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

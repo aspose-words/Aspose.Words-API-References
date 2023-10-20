@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie ou définit un nom de police dAsie de lEst.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words pour .NET
+description: Font NameFarEast propriété. Renvoie ou définit un nom de police dAsie de lEst en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ Renvoie ou définit un nom de police d'Asie de l'Est.
 public string NameFarEast { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer et formater du texte dans une langue d'Extrême-Orient.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

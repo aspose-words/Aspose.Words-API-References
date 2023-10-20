@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie ou définit lespacement en points entre les caractères .
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words pour .NET
+description: Font Spacing propriété. Renvoie ou définit lespacement en points entre les caractères  en C#.
 type: docs
 weight: 380
 url: /fr/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ Renvoie ou définit l'espacement (en points) entre les caractères .
 public double Spacing { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la mise à l’échelle et l’espacement horizontaux des caractères.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table méthode. Si le tableau na pas de lignes en crée et en ajoute uneRow .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words pour .NET
+description: Table EnsureMinimum méthode. Si le tableau na pas de lignes en crée et en ajoute uneRow  en C#.
 type: docs
-weight: 420
+weight: 400
 url: /fr/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ Si le tableau n'a pas de lignes, en crée et en ajoute une[`Row`](../../row/) .
 public void EnsureMinimum()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment garantir qu'un nœud de table contient les nœuds dont nous avons besoin pour ajouter du contenu.
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

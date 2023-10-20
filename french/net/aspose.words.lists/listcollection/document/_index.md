@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListCollection propriété. Obtient le document propriétaire.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: ListCollection Document propriété. Obtient le document propriétaire en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/listcollection/document/
@@ -14,7 +16,7 @@ Obtient le document propriétaire.
 public DocumentBase Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés du document propriétaire des listes.
 
@@ -37,7 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* espace de noms [Aspose.Words.Lists](../../listcollection/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

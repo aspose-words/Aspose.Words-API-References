@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant soit dignorer le texte à lintérieur des champs. La valeur par défaut estFAUX .
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions IgnoreFields propriété. Obtient ou définit une valeur booléenne indiquant soit dignorer le texte à lintérieur des champs. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.replacing/findreplaceoptions/ignorefields/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l
 public bool IgnoreFields { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette option affecte tout le champ (tous les nœuds entre FieldStart etFieldEnd).
 
 Pour ignorer uniquement les codes de champ, veuillez utiliser l'option correspondante[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
-### Exemples
+## Exemples
 
 Montre comment ignorer le texte à l’intérieur des champs.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Voir également
 
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

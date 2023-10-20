@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInsertRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words pour .NET
+description: ShapeBase IsInsertRevision propriété. Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 300
 url: /fr/net/aspose.words.drawing/shapebase/isinsertrevision/
@@ -14,7 +16,7 @@ Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suiv
 public bool IsInsertRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser des formes de révision.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

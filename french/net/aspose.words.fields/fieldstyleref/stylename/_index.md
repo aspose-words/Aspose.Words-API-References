@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.StyleName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldStyleRef propriété. Obtient ou définit le nom du style par lequel le texte à rechercher est formaté.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words pour .NET
+description: FieldStyleRef StyleName propriété. Obtient ou définit le nom du style par lequel le texte à rechercher est formaté en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldstyleref/stylename/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du style par lequel le texte à rechercher est format
 public string StyleName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Voir également
 
 * class [FieldStyleRef](../)
-* espace de noms [Aspose.Words.Fields](../../fieldstyleref/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LeftIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur en points qui représente le retrait gauche du paragraphe.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat LeftIndent propriété. Obtient ou définit la valeur en points qui représente le retrait gauche du paragraphe en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/paragraphformat/leftindent/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur (en points) qui représente le retrait gauche du p
 public double LeftIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer la mise en forme des paragraphes pour créer un texte décentré.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

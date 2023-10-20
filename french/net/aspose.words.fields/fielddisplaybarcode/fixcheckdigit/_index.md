@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.FixCheckDigit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit sil faut corriger le chiffre de contrôle sil est invalide.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words pour .NET
+description: FieldDisplayBarcode FixCheckDigit propriété. Obtient ou définit sil faut corriger le chiffre de contrôle sil est invalide en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut corriger le chiffre de contrôle s'il est invalide
 public bool FixCheckDigit { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ DISPLAYBARCODE et définir ses propriétés.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Voir également
 
 * class [FieldDisplayBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

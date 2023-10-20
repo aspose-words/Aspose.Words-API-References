@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreakChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de fin de section  car12 ou f.
+linktitle: SectionBreakChar
+articleTitle: SectionBreakChar
+second_title: Aspose.Words pour .NET
+description: ControlChar SectionBreakChar champ. Caractère de fin de section  car12 ou f en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words/controlchar/sectionbreakchar/
@@ -14,7 +16,7 @@ Caractère de fin de section : (car)12 ou "\f".
 public const char SectionBreakChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

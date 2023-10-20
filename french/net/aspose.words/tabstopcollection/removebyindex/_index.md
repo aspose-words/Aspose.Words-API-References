@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Supprime un taquet de tabulation à lindex spécifié de la collection.
+linktitle: RemoveByIndex
+articleTitle: RemoveByIndex
+second_title: Aspose.Words pour .NET
+description: TabStopCollection RemoveByIndex méthode. Supprime un taquet de tabulation à lindex spécifié de la collection en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/tabstopcollection/removebyindex/
@@ -18,7 +20,7 @@ public void RemoveByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | Un index dans la collection de taquets de tabulation. |
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner un taquet de tabulation dans un document par son index et le supprimer.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.RemoveByIndex.docx");
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

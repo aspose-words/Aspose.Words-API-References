@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Contient la chaîne du langage de requête structuré qui doit être exécutée sur la source de données externe spécifiée pour renvoyer lensemble denregistrements qui doivent être importés dans le document lorsque lopération de fusion et publipostage est effectuée. La valeur par défaut est une chaîne vide.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings Query propriété. Contient la chaîne du langage de requête structuré qui doit être exécutée sur la source de données externe spécifiée pour renvoyer lensemble denregistrements qui doivent être importés dans le document lorsque lopération de fusion et publipostage est effectuée. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ Contient la chaîne du langage de requête structuré qui doit être exécutée 
 public string Query { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

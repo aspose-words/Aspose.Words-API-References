@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dun texte de note de bas de page ou de fin est terminée.
+linktitle: VisitFootnoteEnd
+articleTitle: VisitFootnoteEnd
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitFootnoteEnd méthode. Appelé lorsque lénumération dun texte de note de bas de page ou de fin est terminée en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/documentvisitor/visitfootnoteend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque note de bas de page d’un document.
 
@@ -116,7 +118,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

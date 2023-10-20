@@ -1,7 +1,9 @@
 ---
 title: Cluster.Glyphs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cluster propriété. Récupère les glyphes du cluster.
+linktitle: Glyphs
+articleTitle: Glyphs
+second_title: Aspose.Words pour .NET
+description: Cluster Glyphs propriété. Récupère les glyphes du cluster en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.shaping/cluster/glyphs/
@@ -18,7 +20,5 @@ public Glyph[] Glyphs { get; }
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* espace de noms [Aspose.Words.Shaping](../../cluster/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XmlDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier XML en utilisant les options par défaut pour le chargement des données XML.
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words pour .NET
+description: XmlDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier XML en utilisant les options par défaut pour le chargement des données XML en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 Crée une nouvelle source de données avec les données d'un fichier XML en utilisant les options par défaut pour le chargement des données XML.
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### Voir également
 
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 Crée une nouvelle source de données avec les données d'un flux XML à l'aide des options par défaut pour le chargement des données XML.
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### Voir également
 
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 Crée une nouvelle source de données avec les données d'un fichier XML à l'aide d'un fichier de définition de schéma XML. Les options par défaut sont utilisées pour le chargement des données XML.
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### Voir également
 
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 Crée une nouvelle source de données avec les données d'un flux XML à l'aide d'un flux de définition de schéma XML. Les options par défaut sont utilisées pour le chargement des données XML.
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### Voir également
 
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 Crée une nouvelle source de données avec les données d'un fichier XML à l'aide des options spécifiées pour le chargement des données XML.
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 Crée une nouvelle source de données avec les données d'un flux XML à l'aide des options spécifiées pour le chargement des données XML.
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 Crée une nouvelle source de données avec les données d'un fichier XML à l'aide d'un fichier de définition de schéma XML. Les options spécifiées sont utilisées pour le chargement des données XML.
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 Crée une nouvelle source de données avec les données d'un flux XML à l'aide d'un flux de définition de schéma XML. Les options spécifiées sont utilisées pour le chargement des données XML.
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

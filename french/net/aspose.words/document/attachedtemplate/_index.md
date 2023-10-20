@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit le chemin complet du modèle joint au document.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words pour .NET
+description: Document AttachedTemplate propriété. Obtient ou définit le chemin complet du modèle joint au document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Lance si vous essayez de régler sur un`nul` valeur. |
 
-### Remarques
+## Remarques
 
 Une chaîne vide signifie que le document est joint au modèle Normal.
 
-### Exemples
+## Exemples
 
 Montre comment définir un modèle par défaut pour les documents auxquels aucun modèle n'est joint.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

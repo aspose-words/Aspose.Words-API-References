@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Alignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HorizontalRuleFormat propriété. Obtient ou définit lalignement de la règle horizontale.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words pour .NET
+description: HorizontalRuleFormat Alignment propriété. Obtient ou définit lalignement de la règle horizontale en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -14,11 +16,11 @@ Obtient ou définit l'alignement de la règle horizontale.
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estLeft.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme de règle horizontale et personnaliser sa mise en forme.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * class [HorizontalRuleFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../horizontalruleformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

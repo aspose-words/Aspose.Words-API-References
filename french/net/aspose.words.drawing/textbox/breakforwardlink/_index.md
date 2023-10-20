@@ -1,7 +1,9 @@
 ---
 title: TextBox.BreakForwardLink
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox méthode. Rompt le lien vers le suivantTextBox .
+linktitle: BreakForwardLink
+articleTitle: BreakForwardLink
+second_title: Aspose.Words pour .NET
+description: TextBox BreakForwardLink méthode. Rompt le lien vers le suivantTextBox  en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -14,11 +16,11 @@ Rompt le lien vers le suivant[`TextBox`](../) .
 public void BreakForwardLink()
 ```
 
-### Remarques
+## Remarques
 
 `BreakForwardLink`ne rompt pas tous les autres liens dans la séquence actuelle de formes. Par exemple : séquence 1-2-3-4 et`BreakForwardLink` dans la 2ème zone de texte créera deux séquences 1-2, 3-4.
 
-### Exemples
+## Exemples
 
 Montre comment lier des zones de texte.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Voir également
 
 * class [TextBox](../)
-* espace de noms [Aspose.Words.Drawing](../../textbox/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

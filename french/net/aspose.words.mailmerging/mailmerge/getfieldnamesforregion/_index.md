@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge méthode. Renvoie une collection de noms de champs de publipostage disponibles dans la région.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words pour .NET
+description: MailMerge GetFieldNamesForRegion méthode. Renvoie une collection de noms de champs de publipostage disponibles dans la région en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Renvoie une collection de noms de champs de publipostage disponibles dans la région.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Nom de la région (insensible à la casse). |
 
-### Remarques
+## Remarques
 
 Renvoie les noms complets des champs de fusion, y compris le préfixe facultatif. N'élimine pas les noms de champs en double.
 
@@ -26,7 +28,7 @@ Si le document contient plusieurs régions portant le même nom, la toute premi�
 
 Un nouveau tableau de chaînes est créé à chaque appel.
 
-### Exemples
+## Exemples
 
 Montre comment créer, répertorier et lire des régions de publipostage.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Renvoie une collection de noms de champs de publipostage disponibles dans la région.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Nom de la région (insensible à la casse). |
 | regionIndex | Int32 | Index de région (base zéro). |
 
-### Remarques
+## Remarques
 
 Renvoie les noms complets des champs de fusion, y compris le préfixe facultatif. N'élimine pas les noms de champs en double.
 
@@ -107,7 +109,7 @@ Si le document contient plusieurs régions portant le même nom, la Nième régi
 
 Un nouveau tableau de chaînes est créé à chaque appel.
 
-### Exemples
+## Exemples
 
 Montre comment créer, répertorier et lire des régions de publipostage.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

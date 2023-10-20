@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. True si ce saut de paragraphe est un séparateur de style. Un séparateur de style permet à un paragraphe one de se composer de parties ayant des styles de paragraphe différents.
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: Aspose.Words pour .NET
+description: Paragraph BreakIsStyleSeparator propriété. True si ce saut de paragraphe est un séparateur de style. Un séparateur de style permet à un paragraphe one de se composer de parties ayant des styles de paragraphe différents en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ True si ce saut de paragraphe est un séparateur de style. Un séparateur de sty
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment écrire du texte sur la même ligne qu'un en-tête de table des matières et ne pas l'afficher dans la table des matières.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

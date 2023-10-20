@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dune cellule du tableau a commencé.
+linktitle: VisitCellStart
+articleTitle: VisitCellStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitCellStart méthode. Appelé lorsque lénumération dune cellule du tableau a commencé en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/documentvisitor/visitcellstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellStart(Cell cell)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

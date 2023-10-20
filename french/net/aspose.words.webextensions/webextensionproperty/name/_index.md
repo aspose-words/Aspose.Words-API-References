@@ -1,7 +1,9 @@
 ---
 title: WebExtensionProperty.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WebExtensionProperty propriété. Spécifie un nom de propriété personnalisé
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: WebExtensionProperty Name propriété. Spécifie un nom de propriété personnalisé en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.webextensions/webextensionproperty/name/
@@ -17,7 +19,5 @@ public string Name { get; set; }
 ### Voir également
 
 * class [WebExtensionProperty](../)
-* espace de noms [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

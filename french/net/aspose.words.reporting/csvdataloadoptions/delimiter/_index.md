@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.Delimiter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CsvDataLoadOptions propriété. Obtient ou définit le caractère à utiliser comme délimiteur de colonne.
+linktitle: Delimiter
+articleTitle: Delimiter
+second_title: Aspose.Words pour .NET
+description: CsvDataLoadOptions Delimiter propriété. Obtient ou définit le caractère à utiliser comme délimiteur de colonne en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.reporting/csvdataloadoptions/delimiter/
@@ -14,14 +16,12 @@ Obtient ou définit le caractère à utiliser comme délimiteur de colonne.
 public char Delimiter { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est ',' (virgule).
 
 ### Voir également
 
 * class [CsvDataLoadOptions](../)
-* espace de noms [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

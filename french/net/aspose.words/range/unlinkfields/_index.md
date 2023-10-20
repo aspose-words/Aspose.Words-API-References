@@ -1,7 +1,9 @@
 ---
 title: Range.UnlinkFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range méthode. Dissocie les champs de cette plage.
+linktitle: UnlinkFields
+articleTitle: UnlinkFields
+second_title: Aspose.Words pour .NET
+description: Range UnlinkFields méthode. Dissocie les champs de cette plage en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/range/unlinkfields/
@@ -14,13 +16,13 @@ Dissocie les champs de cette plage.
 public void UnlinkFields()
 ```
 
-### Remarques
+## Remarques
 
 Remplace tous les champs de cette plage par leurs résultats les plus récents.
 
 Pour dissocier des champs dans l'ensemble du document, utilisez`UnlinkFields`.
 
-### Exemples
+## Exemples
 
 Montre comment dissocier tous les champs d’une plage.
 
@@ -36,7 +38,5 @@ doc.Sections[1].Range.UnlinkFields();
 ### Voir également
 
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPropertyCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Properties.DocumentPropertyCollection classe. Classe de base pourBuiltInDocumentProperties etCustomDocumentProperties collections.
+title: DocumentPropertyCollection Class
+linktitle: DocumentPropertyCollection
+articleTitle: DocumentPropertyCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Properties.DocumentPropertyCollection classe. Classe de base pourBuiltInDocumentProperties etCustomDocumentProperties collections en C#.
 type: docs
 weight: 4480
 url: /fr/net/aspose.words.properties/documentpropertycollection/
@@ -29,19 +31,19 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | Nom | La description |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Supprime toutes les propriétés de la collection. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Retours`vrai` si une propriété avec le nom spécifié existe dans la collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Retours`vrai` si une propriété avec le nom spécifié existe dans la collection. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Obtient l'index d'une propriété par nom. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Supprime une propriété portant le nom spécifié de la collection. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Supprime une propriété à l'index spécifié. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Obtient l'index d'une propriété par nom. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Supprime une propriété portant le nom spécifié de la collection. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Supprime une propriété à l'index spécifié. |
 
-### Remarques
+## Remarques
 
 Les noms des propriétés ne sont pas sensibles à la casse.
 
 Les propriétés de la collection sont triées par ordre alphabétique de nom.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés personnalisées d'un document.
 
@@ -105,5 +107,3 @@ Assert.AreEqual(0, properties.Count);
 * class [DocumentProperty](../documentproperty/)
 * espace de noms [Aspose.Words.Properties](../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../)
-
-

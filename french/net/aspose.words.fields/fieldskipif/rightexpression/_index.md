@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSkipIf propriété. Obtient ou définit la partie droite de lexpression de comparaison.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words pour .NET
+description: FieldSkipIf RightExpression propriété. Obtient ou définit la partie droite de lexpression de comparaison en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ Obtient ou définit la partie droite de l'expression de comparaison.
 public string RightExpression { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ignorer des pages dans un publipostage à l'aide du champ SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Voir également
 
 * class [FieldSkipIf](../)
-* espace de noms [Aspose.Words.Fields](../../fieldskipif/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

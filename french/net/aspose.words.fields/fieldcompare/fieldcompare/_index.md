@@ -1,7 +1,9 @@
 ---
-title: FieldCompare.FieldCompare
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCompare constructeur. Default_Constructor
+title: FieldCompare
+linktitle: FieldCompare
+articleTitle: FieldCompare
+second_title: Aspose.Words pour .NET
+description: FieldCompare constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldcompare/fieldcompare/
@@ -17,7 +19,5 @@ public FieldCompare()
 ### Voir également
 
 * class [FieldCompare](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcompare/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

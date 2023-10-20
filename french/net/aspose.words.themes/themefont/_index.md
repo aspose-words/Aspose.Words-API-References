@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeFont énumération. Spécifie les types de noms de polices de thème pour les thèmes de document.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Themes.ThemeFont énumération. Spécifie les types de noms de polices de thème pour les thèmes de document en C#.
 type: docs
 weight: 6490
 url: /fr/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Police du thème principal. |
 | Minor | `2` | Police de thème mineur. |
 
-### Remarques
+## Remarques
 
 Spécifie un type de police de thème qui peut être référencé en tant que police de thème dans les propriétés de l'objet parent. Cette police de thème est une référence à l'une des polices de thème prédéfinies, situées dans la partie Thème du document, qui permet aux informations de police de être défini de manière centralisée dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment créer et utiliser un style thématique.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * espace de noms [Aspose.Words.Themes](../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../)
-
-

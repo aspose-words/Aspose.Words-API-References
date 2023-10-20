@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ComparisonExpression propriété. Obtient la bonne expression.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words pour .NET
+description: ComparisonExpression RightExpression propriété. Obtient la bonne expression en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ Obtient la bonne expression.
 public string RightExpression { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment implémenter une évaluation personnalisée pour les champs IF et COMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Voir également
 
 * class [ComparisonExpression](../)
-* espace de noms [Aspose.Words.Fields](../../comparisonexpression/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

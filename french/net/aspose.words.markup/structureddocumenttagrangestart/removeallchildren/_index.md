@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart méthode. Supprime tous les nœuds entre ce nœud de début de plage et le nœud de fin de plage.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren méthode. Supprime tous les nœuds entre ce nœud de début de plage et le nœud de fin de plage en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ Supprime tous les nœuds entre ce nœud de début de plage et le nœud de fin de
 public void RemoveAllChildren()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer/supprimer une balise de document structuré et son contenu.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Voir également
 
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

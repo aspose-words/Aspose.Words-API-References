@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Définit la pointe de flèche pour le début dun trait.
+linktitle: StartArrowType
+articleTitle: StartArrowType
+second_title: Aspose.Words pour .NET
+description: Stroke StartArrowType propriété. Définit la pointe de flèche pour le début dun trait en C#.
 type: docs
-weight: 180
+weight: 170
 url: /fr/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
@@ -14,11 +16,11 @@ Définit la pointe de flèche pour le début d'un trait.
 public ArrowType StartArrowType { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estNone.
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

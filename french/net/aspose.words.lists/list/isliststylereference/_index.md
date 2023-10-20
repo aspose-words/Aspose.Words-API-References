@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Retoursvrai si cette liste est une référence à un style de liste.
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: Aspose.Words pour .NET
+description: List IsListStyleReference propriété. Retoursvrai si cette liste est une référence à un style de liste en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ Retours`vrai` si cette liste est une référence à un style de liste.
 public bool IsListStyleReference { get; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que la modification des propriétés d'une liste qui est une référence au style de liste n'a aucun effet. Le formatage de liste spécifié dans le style de liste lui-même est toujours prioritaire.
 
-### Exemples
+## Exemples
 
 Montre comment créer un style de liste et l’utiliser dans un document.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Voir également
 
 * class [List](../)
-* espace de noms [Aspose.Words.Lists](../../list/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

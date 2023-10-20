@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageWatermarkOptions propriété. Obtient ou définit le facteur déchelle exprimé en fraction de limage. La valeur par défaut est 0  auto.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words pour .NET
+description: ImageWatermarkOptions Scale propriété. Obtient ou définit le facteur déchelle exprimé en fraction de limage. La valeur par défaut est 0  auto en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
 
-### Remarques
+## Remarques
 
 Les valeurs valides vont de 0 à 65,5 inclus.
 
 L'échelle automatique signifie que le filigrane sera mis à l'échelle à sa largeur maximale et à sa hauteur maximale par rapport à les marges de la page.
 
-### Exemples
+## Exemples
 
 Montre comment créer un filigrane à partir d’une image dans le système de fichiers local.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Voir également
 
 * class [ImageWatermarkOptions](../)
-* espace de noms [Aspose.Words](../../imagewatermarkoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

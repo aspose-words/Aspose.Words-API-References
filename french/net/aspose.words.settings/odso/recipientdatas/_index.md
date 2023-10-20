@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Obtient ou définit une collection dobjets qui spécifient linclusion/exclusion denregistrements individuels dans le publipostage. Cet objet nest jamaisnul .
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: Aspose.Words pour .NET
+description: Odso RecipientDatas propriété. Obtient ou définit une collection dobjets qui spécifient linclusion/exclusion denregistrements individuels dans le publipostage. Cet objet nest jamaisnul  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ Obtient ou définit une collection d'objets qui spécifient l'inclusion/exclusio
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

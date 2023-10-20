@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs classe. Fournit des données pour le Champ de fusion événement.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs classe. Fournit des données pour leChamp de fusion événement en C#.
 type: docs
 weight: 3770
 url: /fr/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Fournit des données pour le **Champ de fusion** événement.
+Fournit des données pour le**Champ de fusion** événement.
 
 Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtient le nom de la table de données pour l'opération de fusion en cours ou une chaîne vide si le nom n'est pas disponible. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Obtient ou définit le texte qui sera inséré dans le document pour le champ de fusion actuel. |
 
-### Remarques
+## Remarques
 
-Le **Champ de fusion** L'événement se produit lors du publipostage lorsqu'un simple champ mail merge est rencontré dans le document. Vous pouvez répondre à cet événement en renvoyant texte pour que le moteur de publipostage l'insère dans le document.
+Le**Champ de fusion** L'événement se produit lors du publipostage lorsqu'un simple champ mail merge est rencontré dans le document. Vous pouvez répondre à cet événement en renvoyant texte pour que le moteur de publipostage l'insère dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

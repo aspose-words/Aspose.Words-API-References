@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.DefaultInstructions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue de signature. La valeur par défaut de cette propriété estvrai .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words pour .NET
+description: SignatureLine DefaultInstructions propriété. Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue de signature. La valeur par défaut de cette propriété estvrai  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/signatureline/defaultinstructions/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur indiquant que les instructions par défaut sont a
 public bool DefaultInstructions { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une ligne pour une signature et l'insérer dans un document.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Voir également
 
 * class [SignatureLine](../)
-* espace de noms [Aspose.Words.Drawing](../../signatureline/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

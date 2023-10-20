@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathJustification
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Math.OfficeMathJustification énumération. Spécifie la justification de léquation.
+title: OfficeMathJustification Enum
+linktitle: OfficeMathJustification
+articleTitle: OfficeMathJustification
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Math.OfficeMathJustification énumération. Spécifie la justification de léquation en C#.
 type: docs
 weight: 4140
 url: /fr/net/aspose.words.math/officemathjustification/
@@ -25,7 +27,7 @@ public enum OfficeMathJustification
 | Inline | `7` | Position en ligne de Math. |
 | Default | `1` | Valeur par défautCenterGroup . |
 
-### Exemples
+## Exemples
 
 Montre comment définir le formatage de l’affichage des mathématiques de bureau.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * espace de noms [Aspose.Words.Math](../../aspose.words.math/)
 * Assemblée [Aspose.Words](../../)
-
-

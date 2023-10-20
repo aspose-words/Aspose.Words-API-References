@@ -1,7 +1,9 @@
 ---
 title: Inline.IsDeleteRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Inline propriété. Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words pour .NET
+description: Inline IsDeleteRevision propriété. Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/inline/isdeleterevision/
@@ -14,7 +16,7 @@ Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le sui
 public bool IsDeleteRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer le type de révision d’un nœud en ligne.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Voir également
 
 * class [Inline](../)
-* espace de noms [Aspose.Words](../../inline/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

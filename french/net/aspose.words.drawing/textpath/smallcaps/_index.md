@@ -1,7 +1,9 @@
 ---
 title: TextPath.SmallCaps
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Vrai si la police est formatée en petites majuscules.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words pour .NET
+description: TextPath SmallCaps propriété. Vrai si la police est formatée en petites majuscules en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.drawing/textpath/smallcaps/
@@ -14,11 +16,11 @@ Vrai si la police est formatée en petites majuscules.
 public bool SmallCaps { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

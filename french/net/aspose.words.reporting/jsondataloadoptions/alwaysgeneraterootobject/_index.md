@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.AlwaysGenerateRootObject
-second_title: Référence de l'API Aspose.Words pour .NET
-description: JsonDataLoadOptions propriété. Obtient ou définit un indicateur indiquant si une source de données générée contiendra toujours un objet pour un élément JSON root . Si un élément racine JSON contient une seule propriété complexe un tel objet nest pas créé par défaut.
+linktitle: AlwaysGenerateRootObject
+articleTitle: AlwaysGenerateRootObject
+second_title: Aspose.Words pour .NET
+description: JsonDataLoadOptions AlwaysGenerateRootObject propriété. Obtient ou définit un indicateur indiquant si une source de données générée contiendra toujours un objet pour un élément JSON root . Si un élément racine JSON contient une seule propriété complexe un tel objet nest pas créé par défaut en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/
@@ -14,14 +16,12 @@ Obtient ou définit un indicateur indiquant si une source de données générée
 public bool AlwaysGenerateRootObject { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
 ### Voir également
 
 * class [JsonDataLoadOptions](../)
-* espace de noms [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

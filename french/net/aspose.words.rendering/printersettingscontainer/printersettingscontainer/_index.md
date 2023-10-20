@@ -1,7 +1,9 @@
 ---
-title: PrinterSettingsContainer.PrinterSettingsContainer
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PrinterSettingsContainer constructeur. Crée un conteneur pourPrinterSettings .
+title: PrinterSettingsContainer
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words pour .NET
+description: PrinterSettingsContainer constructeur. Crée un conteneur pourPrinterSettings  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/
@@ -14,7 +16,7 @@ Crée un conteneur pourPrinterSettings .
 public PrinterSettingsContainer(PrinterSettings settings)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder et répertorier les sources et formats de papier de votre imprimante.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Voir également
 
 * class [PrinterSettingsContainer](../)
-* espace de noms [Aspose.Words.Rendering](../../printersettingscontainer/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

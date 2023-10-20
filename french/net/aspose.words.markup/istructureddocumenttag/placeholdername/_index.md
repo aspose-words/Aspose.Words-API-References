@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.PlaceholderName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words pour .NET
+description: IStructuredDocumentTag PlaceholderName propriété. Obtient ou définit le nom duBuildingBlock contenant du texte despace réservé en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.markup/istructureddocumenttag/placeholdername/
@@ -19,7 +21,5 @@ public string PlaceholderName { get; set; }
 ### Voir également
 
 * interface [IStructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

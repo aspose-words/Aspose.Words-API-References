@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRangeStart propriété. Spécifie lidentifiant de la plage modifiable.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: EditableRangeStart Id propriété. Spécifie lidentifiant de la plage modifiable en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ Spécifie l'identifiant de la plage modifiable.
 public int Id { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Voir également
 
 * class [EditableRangeStart](../)
-* espace de noms [Aspose.Words](../../editablerangestart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

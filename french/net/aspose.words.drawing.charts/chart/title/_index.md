@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Chart propriété. Donne accès aux propriétés du titre du graphique.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words pour .NET
+description: Chart Title propriété. Donne accès aux propriétés du titre du graphique en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.drawing.charts/chart/title/
@@ -14,7 +16,7 @@ Donne accès aux propriétés du titre du graphique.
 public ChartTitle Title { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et définir un titre.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chart/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

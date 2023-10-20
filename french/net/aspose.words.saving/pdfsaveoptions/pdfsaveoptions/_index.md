@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans le Pdf format.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans le Pdf format en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ Initialise une nouvelle instance de cette classe qui peut être utilisée pour e
 public PdfSaveOptions()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer ou désactiver les sous-paramètres lors de l'intégration de polices lors du rendu d'un document au format PDF.
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

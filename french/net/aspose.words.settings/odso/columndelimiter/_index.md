@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie le caractère qui doit être interprété comme délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0 ce qui signifie quaucun délimiteur de colonne nest défini.
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: Aspose.Words pour .NET
+description: Odso ColumnDelimiter propriété. Spécifie le caractère qui doit être interprété comme délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0 ce qui signifie quaucun délimiteur de colonne nest défini en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ Spécifie le caractère qui doit être interprété comme délimiteur de colonne
 public char ColumnDelimiter { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 RK Je n'ai jamais vu cela utilisé.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

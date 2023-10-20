@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TaskPane propriété. Représente un objet dextension Web.
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words pour .NET
+description: TaskPane WebExtension propriété. Représente un objet dextension Web en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ Représente un objet d'extension Web.
 public WebExtension WebExtension { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* espace de noms [Aspose.Words.WebExtensions](../../taskpane/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

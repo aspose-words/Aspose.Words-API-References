@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.LockFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIncludeText propriété. Obtient ou définit sil faut empêcher la mise à jour des champs du document inclus.
+linktitle: LockFields
+articleTitle: LockFields
+second_title: Aspose.Words pour .NET
+description: FieldIncludeText LockFields propriété. Obtient ou définit sil faut empêcher la mise à jour des champs du document inclus en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldincludetext/lockfields/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut empêcher la mise à jour des champs du document i
 public bool LockFields { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ INCLUDETEXT et définir ses propriétés.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Voir également
 
 * class [FieldIncludeText](../)
-* espace de noms [Aspose.Words.Fields](../../fieldincludetext/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

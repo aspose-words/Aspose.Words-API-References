@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.CacheKey
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFontSource propriété. La clé de cette source dans le cache.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words pour .NET
+description: FileFontSource CacheKey propriété. La clé de cette source dans le cache en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/filefontsource/cachekey/
@@ -14,7 +16,7 @@ La clé de cette source dans le cache.
 public string CacheKey { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette clé est utilisée pour identifier l'élément de cache lors de l'enregistrement/du chargement du cache de recherche de polices avec .[`SaveSearchCache`](../../fontsettings/savesearchcache/) et [`SetFontsSources`](../../fontsettings/setfontssources/) méthodes.
 
@@ -23,7 +25,5 @@ Si la clé n'est pas spécifiée, alors[`FilePath`](../filepath/) sera utilisé 
 ### Voir également
 
 * class [FileFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../filefontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

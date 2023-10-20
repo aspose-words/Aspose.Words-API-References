@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShadowFormat méthode. Efface le format dombre.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: ShadowFormat Clear méthode. Efface le format dombre en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/shadowformat/clear/
@@ -14,7 +16,7 @@ Efface le format d'ombre.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un formatage d’ombre pour la forme.
 
@@ -32,7 +34,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Voir également
 
 * class [ShadowFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../shadowformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

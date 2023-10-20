@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportImagesAsBase64
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML MHTML ou EPUB. La valeur par défaut estFAUX .
+linktitle: ExportImagesAsBase64
+articleTitle: ExportImagesAsBase64
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportImagesAsBase64 propriété. Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
@@ -14,11 +16,11 @@ Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML,
 public bool ExportImagesAsBase64 { get; set; }
 ```
 
-### Remarques
+## Remarques
 
-Lorsque cette propriété est définie sur`vrai` les données des images sont exportées directement dans le **img** les éléments et les fichiers séparés ne sont pas créés.
+Lorsque cette propriété est définie sur`vrai` les données des images sont exportées directement dans le**img** les éléments et les fichiers séparés ne sont pas créés.
 
-### Exemples
+## Exemples
 
 Montre comment intégrer des polices dans un document HTML enregistré.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

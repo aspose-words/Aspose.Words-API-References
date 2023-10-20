@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientData propriété. Représente le code de hachage de cet enregistrement. Parfois Microsoft Word utiliseHash dun enregistrement entier au lieu dunUniqueTag value. La valeur par défaut est 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientData Hash propriété. Représente le code de hachage de cet enregistrement. Parfois Microsoft Word utiliseHash dun enregistrement entier au lieu dunUniqueTag value. La valeur par défaut est 0 en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ Représente le code de hachage de cet enregistrement. Parfois, Microsoft Word ut
 public int Hash { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoRecipientData](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

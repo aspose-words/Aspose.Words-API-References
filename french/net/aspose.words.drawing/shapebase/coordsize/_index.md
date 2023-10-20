@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. La largeur et la hauteur de lespace de coordonnées à lintérieur du bloc contenant cette forme.
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: Aspose.Words pour .NET
+description: ShapeBase CoordSize propriété. La largeur et la hauteur de lespace de coordonnées à lintérieur du bloc contenant cette forme en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ La largeur et la hauteur de l'espace de coordonnées à l'intérieur du bloc con
 public Size CoordSize { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est (1 000, 1 000).
 
-### Exemples
+## Exemples
 
 Montre comment traduire l’emplacement des coordonnées x et y sur le plan de coordonnées d’une forme en un emplacement sur le plan de coordonnées de la forme parent.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

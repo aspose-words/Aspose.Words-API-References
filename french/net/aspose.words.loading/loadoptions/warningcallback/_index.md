@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.WarningCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Appelé lors dune opération de chargement lorsquun problème est détecté pouvant entraîner une perte de fidélité des données ou du formatage.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words pour .NET
+description: LoadOptions WarningCallback propriété. Appelé lors dune opération de chargement lorsquun problème est détecté pouvant entraîner une perte de fidélité des données ou du formatage en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.loading/loadoptions/warningcallback/
@@ -14,7 +16,7 @@ Appelé lors d'une opération de chargement, lorsqu'un problème est détecté p
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer et stocker les avertissements qui se produisent lors du chargement du document.
 
@@ -59,7 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../loadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

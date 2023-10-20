@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveTabs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit sil faut conserver les entrées donglet dans les entrées de table.
+linktitle: PreserveTabs
+articleTitle: PreserveTabs
+second_title: Aspose.Words pour .NET
+description: FieldToc PreserveTabs propriété. Obtient ou définit sil faut conserver les entrées donglet dans les entrées de table en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.fields/fieldtoc/preservetabs/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut conserver les entrées d'onglet dans les entrées 
 public bool PreserveTabs { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

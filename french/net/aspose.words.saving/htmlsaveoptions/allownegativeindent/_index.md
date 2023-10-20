@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les retraits négatifs gauche et droit des paragraphes sont normalisés lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions AllowNegativeIndent propriété. Spécifie si les retraits négatifs gauche et droit des paragraphes sont normalisés lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ Spécifie si les retraits négatifs gauche et droit des paragraphes sont normali
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque le retrait négatif n'est pas autorisé, il est exporté sous forme de marge nulle au format HTML. Lorsque le retrait négatif est autorisé, un paragraphe peut apparaître partiellement en dehors de la fenêtre du navigateur .
 
-### Exemples
+## Exemples
 
 Montre comment conserver les retraits négatifs dans le fichier .html de sortie.
 
@@ -80,7 +82,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

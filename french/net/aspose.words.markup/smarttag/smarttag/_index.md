@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SmartTag constructeur. Initialise une nouvelle instance duSmartTag classe.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words pour .NET
+description: SmartTag constructeur. Initialise une nouvelle instance duSmartTag classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
 
-### Remarques
+## Remarques
 
 Lorsque vous créez un nouveau nœud, vous devez spécifier un document auquel appartient le nœud. Un nœud ne peut pas exister sans document car il dépend des structures à l'échelle du document telles que les listes et les styles. Bien qu'un nœud appartienne toujours à un document, un nœud peut ou non faire partie de l'arborescence du document.
 
-Lorsqu'un nœud est créé, il appartient à un document, mais ne fait pas encore partie du document tree et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul` . Pour insérer un nœud dans le document, utilisez the Node) ouNode) METHODS sur le nœud parent.
+Lorsqu'un nœud est créé, il appartient à un document, mais ne fait pas encore partie du document tree et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul` . Pour insérer un nœud dans le document, utilisez the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) ou[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) METHODS sur le nœud parent.
 
-### Exemples
+## Exemples
 
 Montre comment créer des balises intelligentes.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* espace de noms [Aspose.Words.Markup](../../smarttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

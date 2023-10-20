@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Obtient ou définit le jeu de caractères pour la police.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words pour .NET
+description: FontInfo Charset propriété. Obtient ou définit le jeu de caractères pour la police en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ Obtient ou définit le jeu de caractères pour la police.
 public int Charset { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder et imprimer les détails de chaque police dans un document.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Voir également
 
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

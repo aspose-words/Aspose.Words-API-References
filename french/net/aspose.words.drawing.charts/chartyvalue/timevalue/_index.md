@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.TimeValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartYValue propriété. Obtient la valeur de temps stockée.
+linktitle: TimeValue
+articleTitle: TimeValue
+second_title: Aspose.Words pour .NET
+description: ChartYValue TimeValue propriété. Obtient la valeur de temps stockée en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing.charts/chartyvalue/timevalue/
@@ -17,7 +19,5 @@ public TimeSpan TimeValue { get; }
 ### Voir également
 
 * class [ChartYValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

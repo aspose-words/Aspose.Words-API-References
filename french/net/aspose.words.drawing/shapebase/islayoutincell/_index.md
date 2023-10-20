@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsLayoutInCell
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit un indicateur indiquant si la forme est affichée à lintérieur ou à lextérieur dun tableau.
+linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
+second_title: Aspose.Words pour .NET
+description: ShapeBase IsLayoutInCell propriété. Obtient ou définit un indicateur indiquant si la forme est affichée à lintérieur ou à lextérieur dun tableau en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words.drawing/shapebase/islayoutincell/
@@ -14,13 +16,13 @@ Obtient ou définit un indicateur indiquant si la forme est affichée à l'inté
 public bool IsLayoutInCell { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai`.
 
 N'a d'effet que sur les formes de niveau supérieur, la propriété[`WrapType`](../wraptype/) dont est défini sur value autre que[`Inline`](../../../aspose.words/inline/).
 
-### Exemples
+## Exemples
 
 Montre comment déterminer comment afficher une forme dans une cellule de tableau.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

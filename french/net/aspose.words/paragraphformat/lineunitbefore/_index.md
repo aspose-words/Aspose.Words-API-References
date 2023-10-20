@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la quantité despacement en quadrillage avant les paragraphes.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat LineUnitBefore propriété. Obtient ou définit la quantité despacement en quadrillage avant les paragraphes en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ Obtient ou définit la quantité d'espacement (en quadrillage) avant les paragra
 public double LineUnitBefore { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’espacement et le retrait des paragraphes.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

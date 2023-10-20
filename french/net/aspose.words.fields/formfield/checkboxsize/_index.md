@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit la taille de la case à cocher en points. Na deffet que lorsqueIsCheckBoxExactSize estvrai .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words pour .NET
+description: FormField CheckBoxSize propriété. Obtient ou définit la taille de la case à cocher en points. Na deffet que lorsqueIsCheckBoxExactSize estvrai  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ Obtient ou définit la taille de la case à cocher en points. N'a d'effet que lo
 public double CheckBoxSize { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Applicable uniquement pour un champ de formulaire de case à cocher.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

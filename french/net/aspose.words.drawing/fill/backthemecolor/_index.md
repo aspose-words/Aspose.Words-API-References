@@ -1,7 +1,9 @@
 ---
 title: Fill.BackThemeColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit un objet ThemeColor qui représente la couleur darrièreplan du remplissage.
+linktitle: BackThemeColor
+articleTitle: BackThemeColor
+second_title: Aspose.Words pour .NET
+description: Fill BackThemeColor propriété. Obtient ou définit un objet ThemeColor qui représente la couleur darrièreplan du remplissage en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/fill/backthemecolor/
@@ -14,7 +16,7 @@ Obtient ou définit un objet ThemeColor qui représente la couleur d'arrière-pl
 public ThemeColor BackThemeColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la couleur du thème pour la couleur de la forme de premier plan/arrière-plan.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

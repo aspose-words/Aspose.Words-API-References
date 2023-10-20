@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. Obtient le nœud qui contient le début de la correspondance.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words pour .NET
+description: ReplacingArgs MatchNode propriété. Obtient le nœud qui contient le début de la correspondance en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ Obtient le nœud qui contient le début de la correspondance.
 public Node MatchNode { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* espace de noms [Aspose.Words.Replacing](../../replacingargs/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

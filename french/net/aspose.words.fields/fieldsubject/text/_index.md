@@ -1,7 +1,9 @@
 ---
 title: FieldSubject.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSubject propriété. Obtient ou définit le texte du sujet.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: FieldSubject Text propriété. Obtient ou définit le texte du sujet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldsubject/text/
@@ -14,7 +16,7 @@ Obtient ou définit le texte du sujet.
 public string Text { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ SUJET.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ### Voir également
 
 * class [FieldSubject](../)
-* espace de noms [Aspose.Words.Fields](../../fieldsubject/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

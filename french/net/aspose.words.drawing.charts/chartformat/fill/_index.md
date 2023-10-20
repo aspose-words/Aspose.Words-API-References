@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartFormat propriété. Obtient le formatage de remplissage pour lélément de graphique parent.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words pour .NET
+description: ChartFormat Fill propriété. Obtient le formatage de remplissage pour lélément de graphique parent en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ Obtient le formatage de remplissage pour l'élément de graphique parent.
 public Fill Fill { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montrez comment définir le formatage des marqueurs.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartformat/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

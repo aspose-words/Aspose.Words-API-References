@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut écrire les informations allerretour lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estvrai pour HTML etFAUX pour MHTML et EPUB.
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportRoundtripInformation propriété. Spécifie sil faut écrire les informations allerretour lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estvrai pour HTML etFAUX pour MHTML et EPUB en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ Spécifie s'il faut écrire les informations aller-retour lors de l'enregistreme
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 L'enregistrement des informations aller-retour permet de restaurer les propriétés du document telles que les taquets de tabulation, les commentaires , les en-têtes et les pieds de page lors du chargement des documents HTML dans un[`Document`](../../../aspose.words/document/) objet.
 
@@ -22,7 +24,7 @@ Quand`vrai`, les informations aller-retour sont exportées sous la forme -aw-* C
 
 Quand`FAUX`, n'entraîne aucune information aller-retour dans les fichiers produits.
 
-### Exemples
+## Exemples
 
 Montre comment conserver les éléments cachés lors de la conversion en .html.
 
@@ -99,7 +101,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit la valeur par défaut du champ du formulaire de case à cocher. La valeur par défaut de cette propriété estFAUX .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words pour .NET
+description: FormField Default propriété. Obtient ou définit la valeur par défaut du champ du formulaire de case à cocher. La valeur par défaut de cette propriété estFAUX  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ Obtient ou définit la valeur par défaut du champ du formulaire de case à coch
 public bool Default { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Applicable uniquement pour un champ de formulaire de case à cocher.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

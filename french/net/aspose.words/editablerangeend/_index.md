@@ -1,7 +1,9 @@
 ---
-title: Class EditableRangeEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.EditableRangeEnd classe. Représente la fin dune plage modifiable dans un document Word.
+title: EditableRangeEnd Class
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.EditableRangeEnd classe. Représente la fin dune plage modifiable dans un document Word en C#.
 type: docs
 weight: 1430
 url: /fr/net/aspose.words/editablerangeend/
@@ -35,18 +37,18 @@ public sealed class EditableRangeEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 Une plage modifiable complète dans un document Word se compose d'un[`EditableRangeStart`](./editablerangestart/) et un correspondant`EditableRangeEnd` avec le même identifiant.
 
@@ -56,7 +58,7 @@ Utilisez le[`EditableRange`](../editablerange/)classe comme "façade" pour trava
 
 Actuellement, les plages modifiables ne sont prises en charge qu'au niveau en ligne, c'est-à-dire à l'intérieur[`Paragraph`](../paragraph/), mais le début et la fin de la plage modifiable peuvent se trouver dans des paragraphes différents.
 
-### Exemples
+## Exemples
 
 Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
@@ -169,5 +171,3 @@ public class EditableRangePrinter : DocumentVisitor
 * class [Node](../node/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ValidatePassword
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WriteProtection méthode. Retoursvrai si le mot de passe spécifié est le même que le mot de passe de protection en écriture avec lequel le document a été protégé. Si le document nest pas protégé en écriture avec un mot de passe renvoieFAUX .
+linktitle: ValidatePassword
+articleTitle: ValidatePassword
+second_title: Aspose.Words pour .NET
+description: WriteProtection ValidatePassword méthode. Retoursvrai si le mot de passe spécifié est le même que le mot de passe de protection en écriture avec lequel le document a été protégé. Si le document nest pas protégé en écriture avec un mot de passe renvoieFAUX  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/writeprotection/validatepassword/
@@ -14,7 +16,7 @@ Retours`vrai` si le mot de passe spécifié est le même que le mot de passe de 
 public bool ValidatePassword(string password)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment protéger un document avec un mot de passe.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Voir également
 
 * class [WriteProtection](../)
-* espace de noms [Aspose.Words.Settings](../../writeprotection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

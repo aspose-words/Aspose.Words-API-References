@@ -1,7 +1,9 @@
 ---
 title: Fill.BackColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit un objet Color qui représente la couleur darrièreplan du remplissage.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words pour .NET
+description: Fill BackColor propriété. Obtient ou définit un objet Color qui représente la couleur darrièreplan du remplissage en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/fill/backcolor/
@@ -17,7 +19,5 @@ public Color BackColor { get; set; }
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

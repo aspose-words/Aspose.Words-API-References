@@ -1,7 +1,9 @@
 ---
-title: HtmlSaveOptions.HtmlSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml format.
+title: HtmlSaveOptions
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions constructeur. Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml format en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
@@ -14,7 +16,7 @@ Initialise une nouvelle instance de cette classe qui peut être utilisée pour e
 public HtmlSaveOptions()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un encodage spécifique lors de l’enregistrement d’un document au format .epub.
 
@@ -41,12 +43,12 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml ,Mhtml ,Epub , Azw3 ouMobi format.
 
@@ -58,7 +60,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Peut êtreHtml ,Mhtml ,Epub , Azw3 ouMobi . |
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document dans une version spécifique de HTML.
 
@@ -95,7 +97,5 @@ switch (htmlVersion)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

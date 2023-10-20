@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IChartDataPoint propriété. Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif négatif signifie que la propriété nest pas définie et quaucune explosion ne doit être appliquée. Sapplique uniquement aux diagrammes circulaires.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words pour .NET
+description: IChartDataPoint Explosion propriété. Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif négatif signifie que la propriété nest pas définie et quaucune explosion ne doit être appliquée. Sapplique uniquement aux diagrammes circulaires en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ Spécifie la distance à laquelle le point de données doit être déplacé du c
 public int Explosion { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment éloigner les tranches d’un graphique à secteurs du centre.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Voir également
 
 * interface [IChartDataPoint](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

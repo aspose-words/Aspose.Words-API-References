@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row constructeur. Initialise une nouvelle instance duRow classe.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words pour .NET
+description: Row constructeur. Initialise une nouvelle instance duRow classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
 
-### Remarques
+## Remarques
 
 Quand[`Row`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul`.
 
-À ajouter[`Row`](../) à l'utilisation du documentNode) ouNode) sur la table où vous souhaitez insérer la ligne.
+À ajouter[`Row`](../) à l'utilisation du document[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) ou[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sur la table où vous souhaitez insérer la ligne.
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau imbriqué sans utiliser de générateur de documents.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

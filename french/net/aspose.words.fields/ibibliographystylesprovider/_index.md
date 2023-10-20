@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IBibliographyStylesProvider interface. Implémentez cette interface pour fournir un style de bibliographie pour leFieldBibliography etFieldCitation champs lorsquils sont mis à jour.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider interface. Implémentez cette interface pour fournir un style de bibliographie pour leFieldBibliography etFieldCitation champs lorsquils sont mis à jour en C#.
 type: docs
 weight: 2670
 url: /fr/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | Nom | La description |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | Renvoie le style de bibliographie. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | Renvoie le style de bibliographie. |
 
-### Exemples
+## Exemples
 
 Montre comment remplacer les styles intégrés ou en fournir un personnalisé.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

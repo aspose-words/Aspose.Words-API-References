@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotBreakWrappedTables
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas autoriser la répartition des tableaux flottants sur plusieurs pages.
+linktitle: DoNotBreakWrappedTables
+articleTitle: DoNotBreakWrappedTables
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotBreakWrappedTables propriété. Ne pas autoriser la répartition des tableaux flottants sur plusieurs pages en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/
@@ -17,7 +19,5 @@ public bool DoNotBreakWrappedTables { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

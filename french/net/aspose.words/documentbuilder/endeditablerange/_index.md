@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Marque la position actuelle dans le document comme fin de plage modifiable.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder EndEditableRange méthode. Marque la position actuelle dans le document comme fin de plage modifiable en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 Le nœud de fin de plage modifiable qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 La plage modifiable dans un document peut se chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux[`StartEditableRange`](../starteditablerange/) et`EndEditableRange` ou`EndEditableRange` méthodes.
 
 La plage modifiable mal formée sera ignorée lors de l’enregistrement du document.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Marque la position actuelle dans le document comme fin de plage modifiable.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Le nœud de fin de plage modifiable qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 Utilisez cette surcharge lors de la création de plages modifiables imbriquées.
 
@@ -100,7 +102,7 @@ La plage modifiable dans un document peut se chevaucher et s'étendre sur n'impo
 
 La plage modifiable mal formée sera ignorée lors de l’enregistrement du document.
 
-### Exemples
+## Exemples
 
 Montre comment créer des plages modifiables imbriquées.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

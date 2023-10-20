@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType énumération. Spécifie les types possibles pour un document source de publipostage.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType énumération. Spécifie les types possibles pour un document source de publipostage en C#.
 type: docs
 weight: 5840
 url: /fr/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Spécifie que le document source du publipostage est du type fax. |
 | Default | `0` | Égal àNotAMergeDocument |
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

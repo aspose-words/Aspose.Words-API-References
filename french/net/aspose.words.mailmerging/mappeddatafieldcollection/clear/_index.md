@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MappedDataFieldCollection méthode. Supprime tous les éléments de la collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: MappedDataFieldCollection Clear méthode. Supprime tous les éléments de la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Voir également
 
 * class [MappedDataFieldCollection](../)
-* espace de noms [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

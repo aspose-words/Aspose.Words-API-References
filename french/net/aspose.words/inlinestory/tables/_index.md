@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Référence de l'API Aspose.Words pour .NET
-description: InlineStory propriété. Obtient une collection de tables qui sont des enfants immédiats de lhistoire.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words pour .NET
+description: InlineStory Tables propriété. Obtient une collection de tables qui sont des enfants immédiats de lhistoire en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ Obtient une collection de tables qui sont des enfants immédiats de l'histoire.
 public TableCollection Tables { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des nœuds InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* espace de noms [Aspose.Words](../../inlinestory/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

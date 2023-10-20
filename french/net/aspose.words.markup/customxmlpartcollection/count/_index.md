@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPartCollection propriété. Obtient le nombre déléments contenus dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: CustomXmlPartCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/customxmlpartcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'éléments contenus dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré avec des données XML personnalisées.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Voir également
 
 * class [CustomXmlPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

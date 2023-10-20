@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Mots.Dessin lespace de noms fournit des classes qui permettent de créer et de modifier des objets de dessin.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words pour .NET
+description: LeAspose.Mots.Dessin lespace de noms fournit des classes qui permettent de créer et de modifier des objets de dessin en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/
 ---
-Le **Aspose.Mots.Dessin** l'espace de noms fournit des classes qui permettent de créer et de modifier des objets de dessin.
+Le**Aspose.Mots.Dessin** l'espace de noms fournit des classes qui permettent de créer et de modifier des objets de dessin.
 
 ## Des classes
 
@@ -63,5 +65,3 @@ Le **Aspose.Mots.Dessin** l'espace de noms fournit des classes qui permettent de
 | [VerticalAlignment](./verticalalignment/) | Spécifie l'alignement vertical d'une forme flottante, d'un cadre de texte ou d'un tableau flottant. |
 | [WrapSide](./wrapside/) | Spécifie le(s) côté(s) de la forme ou de l'image autour duquel le texte s'enroule. |
 | [WrapType](./wraptype/) | Spécifie la façon dont le texte est enroulé autour d'une forme ou d'une image. |
-
-

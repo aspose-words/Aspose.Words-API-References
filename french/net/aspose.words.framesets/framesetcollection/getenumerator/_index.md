@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FramesetCollection méthode. Renvoie un énumérateur qui parcourt la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: FramesetCollection GetEnumerator méthode. Renvoie un énumérateur qui parcourt la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.framesets/framesetcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<Frameset> GetEnumerator()
 
 * class [Frameset](../../frameset/)
 * class [FramesetCollection](../)
-* espace de noms [Aspose.Words.Framesets](../../framesetcollection/)
+* espace de noms [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Assemblée [Aspose.Words](../../../)
-
-

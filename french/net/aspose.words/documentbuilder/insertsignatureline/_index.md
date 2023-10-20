@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertSignatureLine
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère une ligne de signature à la position actuelle.
+linktitle: InsertSignatureLine
+articleTitle: InsertSignatureLine
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertSignatureLine méthode. Insère une ligne de signature à la position actuelle en C#.
 type: docs
-weight: 450
+weight: 440
 url: /fr/net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
 Insère une ligne de signature à la position actuelle.
 
@@ -22,7 +24,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 Le nœud de ligne de signature qui vient d'être inséré.
 
-### Exemples
+## Exemples
 
 Montre comment signer un document avec un certificat personnel et une ligne de signature.
 
@@ -77,12 +79,12 @@ Assert.True(signatureLine.IsValid);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [SignatureLineOptions](../../signaturelineoptions/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
 Insère une ligne de signature à la position spécifiée.
 
@@ -105,11 +107,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 Le nœud de ligne de signature qui vient d'être inséré.
 
-### Remarques
+## Remarques
 
 Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une ligne de signature en ligne dans un document.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

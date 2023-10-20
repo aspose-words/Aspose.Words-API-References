@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageLayoutCallbackArgs propriété. Obtient lévénement.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words pour .NET
+description: PageLayoutCallbackArgs Event propriété. Obtient lévénement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ Obtient l'événement.
 public PageLayoutEvent Event { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* espace de noms [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Détermine lordre daffichage des formes qui se chevauchent.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words pour .NET
+description: ShapeBase ZOrder propriété. Détermine lordre daffichage des formes qui se chevauchent en C#.
 type: docs
 weight: 610
 url: /fr/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ Détermine l'ordre d'affichage des formes qui se chevauchent.
 public int ZOrder { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 N'a d'effet que sur les formes de niveau supérieur.
 
@@ -26,7 +28,7 @@ L'ordre des formes qui se chevauchent est indépendant pour les formes dans l'en
 
 L'ordre d'affichage des formes enfants dans une forme de groupe est déterminé par leur order à l'intérieur de la forme de groupe.
 
-### Exemples
+## Exemples
 
 Montre comment manipuler l’ordre des formes.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

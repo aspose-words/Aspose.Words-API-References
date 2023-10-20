@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Merger méthode. Fusionne les documents dentrée donnés en un seul document de sortie en utilisant les noms de fichiers dentrée et de sortie spécifiés.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words pour .NET
+description: Merger Merge méthode. Fusionne les documents dentrée donnés en un seul document de sortie en utilisant les noms de fichiers dentrée et de sortie spécifiés en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 Fusionne les documents d'entrée donnés en un seul document de sortie en utilisant les noms de fichiers d'entrée et de sortie spécifiés.
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | Le nom du fichier de sortie. |
 | inputFiles | String[] | Les noms des fichiers d'entrée. |
 
-### Remarques
+## Remarques
 
 Par défautKeepSourceFormatting est utilisé.
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents en un seul document de sortie.
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### Voir également
 
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 Fusionne les documents d'entrée donnés en un seul document de sortie en utilisant les noms de fichiers d'entrée-sortie spécifiés et le format du document final.
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | Le format de sauvegarde. |
 | mergeFormatMode | MergeFormatMode | Spécifie comment fusionner le formatage en conflit. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents en un seul document de sortie.
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 Fusionne les documents d'entrée donnés en un seul document de sortie en utilisant les noms de fichiers d'entrée-sortie spécifiés et les options d'enregistrement.
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | Les options de sauvegarde. |
 | mergeFormatMode | MergeFormatMode | Spécifie comment fusionner le formatage en conflit. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents en un seul document de sortie.
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 Fusionne les documents d'entrée donnés en un seul document et renvoie[`Document`](../../../aspose.words/document/) instance du document final.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | Les noms des fichiers d'entrée. |
 | mergeFormatMode | MergeFormatMode | Spécifie comment fusionner le formatage en conflit. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents en un seul document de sortie.
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 Fusionne les documents d'entrée donnés en un seul document de sortie en utilisant les flux d'entrée-sortie spécifiés et le format du document final.
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | Les flux d’entrée. |
 | saveFormat | SaveFormat | Le format de sauvegarde. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents du flux en un seul document de sortie.
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 Fusionne les documents d'entrée donnés en un seul document de sortie en utilisant les flux d'entrée-sortie spécifiés et les options d'enregistrement.
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | Les options de sauvegarde. |
 | mergeFormatMode | MergeFormatMode | Spécifie comment fusionner le formatage en conflit. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents du flux en un seul document de sortie.
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 Fusionne les documents d'entrée donnés en un seul document et renvoie[`Document`](../../../aspose.words/document/) instance du document final.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | Les flux d’entrée. |
 | mergeFormatMode | MergeFormatMode | Spécifie comment fusionner le formatage en conflit. |
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des documents du flux en un seul document de sortie.
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* espace de noms [Aspose.Words.LowCode](../../merger/)
+* espace de noms [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../../)
-
-

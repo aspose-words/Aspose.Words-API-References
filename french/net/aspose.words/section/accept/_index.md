@@ -1,7 +1,9 @@
 ---
 title: Section.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: Section Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/section/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../documentvisitor/).
 
@@ -34,7 +36,5 @@ Appels[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , puis app
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

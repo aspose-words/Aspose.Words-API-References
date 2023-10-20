@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel méthode. Crée une forme de puce dimage pour le niveau de liste actuel.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words pour .NET
+description: ListLevel CreatePictureBullet méthode. Crée une forme de puce dimage pour le niveau de liste actuel en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ Crée une forme de puce d'image pour le niveau de liste actuel.
 public void CreatePictureBullet()
 ```
 
-### Remarques
+## Remarques
 
 Veuillez noter,[`NumberStyle`](../numberstyle/) sera réglé surBullet et [`NumberFormat`](../numberformat/) sur "\xF0B7" pour afficher correctement la puce d'image. L'image de la croix rouge sera définie comme image de puce lors de la création. Pour la modifier, veuillez utiliser[`ImageData`](../imagedata/).
 
-### Exemples
+## Exemples
 
 Montre comment définir une icône d’image personnalisée pour les étiquettes des éléments de liste.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

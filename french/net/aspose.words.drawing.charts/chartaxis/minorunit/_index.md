@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Renvoie ou définit la distance entre les graduations mineures.
+linktitle: MinorUnit
+articleTitle: MinorUnit
+second_title: Aspose.Words pour .NET
+description: ChartAxis MinorUnit propriété. Renvoie ou définit la distance entre les graduations mineures en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.drawing.charts/chartaxis/minorunit/
@@ -14,13 +16,13 @@ Renvoie ou définit la distance entre les graduations mineures.
 public double MinorUnit { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La plage valide d’une valeur est supérieure à zéro. La propriété a un effet sur les axes de catégorie de temps et de valeur .
 
 La définition de cette propriété définit le[`MinorUnitIsAuto`](../minorunitisauto/) propriété à`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

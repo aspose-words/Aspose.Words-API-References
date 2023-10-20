@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabelCollection propriété. Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées pour les étiquettes de données de la série entière. La valeur par défaut estFAUX .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words pour .NET
+description: ChartDataLabelCollection ShowLeaderLines propriété. Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées pour les étiquettes de données de la série entière. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
@@ -14,13 +16,13 @@ Permet de spécifier si les lignes de repère des étiquettes de données doiven
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 S'applique uniquement aux diagrammes circulaires. Les lignes de repère créent une connexion visuelle entre une étiquette de données et son point de données correspondant.
 
 La valeur définie pour cette propriété peut être remplacée pour une étiquette de données individuelle en utilisant the [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les étiquettes de données d’un graphique à secteurs.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Voir également
 
 * class [ChartDataLabelCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

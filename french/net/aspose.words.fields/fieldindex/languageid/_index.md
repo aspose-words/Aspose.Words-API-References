@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit lID de langue utilisé pour générer lindex.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words pour .NET
+description: FieldIndex LanguageId propriété. Obtient ou définit lID de langue utilisé pour générer lindex en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ Obtient ou définit l'ID de langue utilisé pour générer l'index.
 public string LanguageId { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE et également modifier son apparence.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-
