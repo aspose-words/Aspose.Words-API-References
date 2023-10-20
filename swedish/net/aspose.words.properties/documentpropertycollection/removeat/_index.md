@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection metod. Tar bort en egenskap vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection RemoveAt metod. Tar bort en egenskap vid det angivna indexet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

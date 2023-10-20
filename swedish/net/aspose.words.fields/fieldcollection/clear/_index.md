@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: FieldCollection metod. Tar bort alla fält i den här samlingen från dokumentet och från själva samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: FieldCollection Clear metod. Tar bort alla fält i den här samlingen från dokumentet och från själva samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla fält i den här samlingen från dokumentet och från själva saml
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort fält från en fältsamling.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(0, fields.Count);
 ### Se även
 
 * class [FieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

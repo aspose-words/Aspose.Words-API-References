@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Aspose.Words för .NET API Referens
-description: OdtSaveOptions fast egendom. Hämtar eller ställer in ett lösenord för att kryptera dokument.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words för .NET
+description: OdtSaveOptions Password fast egendom. Hämtar eller ställer in ett lösenord för att kryptera dokument i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett lösenord för att kryptera dokument.
 public string Password { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För att spara dokument utan kryptering bör denna egenskap vara`null` eller tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man krypterar ett sparat ODT/OTT-dokument med ett lösenord och sedan laddar det med Aspose.Words.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [OdtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../odtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentReaderPlugin
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.IDocumentReaderPlugin gränssnitt. Definierar ett gränssnitt för externa läsarplugin som kan läsa in en fil i ett dokument.
+title: IDocumentReaderPlugin Interface
+linktitle: IDocumentReaderPlugin
+articleTitle: IDocumentReaderPlugin
+second_title: Aspose.Words för .NET
+description: Aspose.Words.IDocumentReaderPlugin gränssnitt. Definierar ett gränssnitt för externa läsarplugin som kan läsa in en fil i ett dokument i C#.
 type: docs
 weight: 3180
 url: /sv/net/aspose.words/idocumentreaderplugin/
@@ -18,11 +20,9 @@ public interface IDocumentReaderPlugin
 
 | namn | Beskrivning |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read/)(Stream, LoadOptions, Document) | Läser data från den angivna strömmen till[`Document`](../document/) instans. |
+| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | Läser data från den angivna strömmen till[`Document`](../document/) instans. |
 
 ### Se även
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

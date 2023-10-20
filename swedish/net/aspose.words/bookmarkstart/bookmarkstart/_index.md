@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkStart byggare. Initierar en ny instans avBookmarkStart class.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words för .NET
+description: BookmarkStart byggare. Initierar en ny instans avBookmarkStart class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | Ägardokumentet. |
 | name | String | Namnet på bokmärket. Kan inte vara`null`. |
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* namnutrymme [Aspose.Words](../../bookmarkstart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.IDocumentSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad när du sparar ett dokument.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad när du sparar ett dokument i C#.
 type: docs
 weight: 5150
 url: /sv/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | Detta anropas för att meddela om hur dokumentet sparas. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | Detta anropas för att meddela om hur dokumentet sparas. |
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar ett dokument samtidigt som man sparar till html.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

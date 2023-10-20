@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IFieldUpdatingCallback gränssnitt. Implementera detta gränssnitt om du vill att dina egna anpassade metoder ska anropas under en fältuppdatering.
+title: IFieldUpdatingCallback Interface
+linktitle: IFieldUpdatingCallback
+articleTitle: IFieldUpdatingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IFieldUpdatingCallback gränssnitt. Implementera detta gränssnitt om du vill att dina egna anpassade metoder ska anropas under en fältuppdatering i C#.
 type: docs
 weight: 2720
 url: /sv/net/aspose.words.fields/ifieldupdatingcallback/
@@ -18,10 +20,10 @@ public interface IFieldUpdatingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | En användardefinierad metod som anropas precis efter att ett fält har uppdaterats. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | En användardefinierad metod som anropas precis innan ett fält uppdateras. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | En användardefinierad metod som anropas precis efter att ett fält har uppdaterats. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | En användardefinierad metod som anropas precis innan ett fält uppdateras. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
@@ -90,5 +92,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

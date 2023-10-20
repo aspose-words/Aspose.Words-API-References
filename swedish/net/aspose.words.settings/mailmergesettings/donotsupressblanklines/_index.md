@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger hur ett program som utför kopplingen ska hantera tomma rader i de sammanslagna dokumenten som är resultatet av kopplingen. Standardvärdet ärfalsk .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words för .NET
+description: MailMergeSettings DoNotSupressBlankLines fast egendom. Anger hur ett program som utför kopplingen ska hantera tomma rader i de sammanslagna dokumenten som är resultatet av kopplingen. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ Anger hur ett program som utför kopplingen ska hantera tomma rader i de sammans
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

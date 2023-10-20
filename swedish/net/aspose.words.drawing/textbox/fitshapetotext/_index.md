@@ -1,7 +1,9 @@
 ---
 title: TextBox.FitShapeToText
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Avgör om Microsoft Word kommer att växa formen så att den passar text.
+linktitle: FitShapeToText
+articleTitle: FitShapeToText
+second_title: Aspose.Words för .NET
+description: TextBox FitShapeToText fast egendom. Avgör om Microsoft Word kommer att växa formen så att den passar text i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/textbox/fitshapetotext/
@@ -14,11 +16,11 @@ Avgör om Microsoft Word kommer att växa formen så att den passar text.
 public bool FitShapeToText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man får en textruta att ändra storlek på sig själv så att den passar innehållet tätt.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 ### Se även
 
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

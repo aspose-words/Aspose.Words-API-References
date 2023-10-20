@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientDataCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: OdsoRecipientDataCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

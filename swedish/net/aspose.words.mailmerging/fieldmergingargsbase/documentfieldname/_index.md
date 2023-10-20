@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase DocumentFieldName fast egendom. Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet.
 public string DocumentFieldName { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du har en mappning från ett dokumentfältnamn till en annan datakällas fältnamn, så är detta det ursprungliga fältnamnet som specificerats i dokumentet.
 
 Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet, `DocumentFieldName` returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Se även
 
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

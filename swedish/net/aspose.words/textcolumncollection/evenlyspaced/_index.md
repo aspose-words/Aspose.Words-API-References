@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection fast egendom. Sant om textkolumner är lika breda och jämnt fördelade.
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: Aspose.Words för .NET
+description: TextColumnCollection EvenlySpaced fast egendom. Sant om textkolumner är lika breda och jämnt fördelade i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textcolumncollection/evenlyspaced/
@@ -14,7 +16,7 @@ Sant om textkolumner är lika breda och jämnt fördelade.
 public bool EvenlySpaced { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ojämnt fördelade kolumner.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Se även
 
 * class [TextColumnCollection](../)
-* namnutrymme [Aspose.Words](../../textcolumncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

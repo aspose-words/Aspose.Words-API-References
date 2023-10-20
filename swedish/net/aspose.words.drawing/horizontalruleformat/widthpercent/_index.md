@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
-second_title: Aspose.Words för .NET API Referens
-description: HorizontalRuleFormat fast egendom. Hämtar eller ställer in längden på den angivna horisontella regeln uttryckt i procent av fönstrets bredd.
+linktitle: WidthPercent
+articleTitle: WidthPercent
+second_title: Aspose.Words för .NET
+description: HorizontalRuleFormat WidthPercent fast egendom. Hämtar eller ställer in längden på den angivna horisontella regeln uttryckt i procent av fönstrets bredd i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/horizontalruleformat/widthpercent/
@@ -20,13 +22,13 @@ public double WidthPercent { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
 
-### Anmärkningar
+## Anmärkningar
 
 Giltiga värden sträcker sig från 1 till 100 inklusive.
 
 Standardvärdet är 100.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en horisontell regelform och anpassar dess formatering.
 
@@ -49,7 +51,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Se även
 
 * class [HorizontalRuleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ViewType
-second_title: Aspose.Words för .NET API Referens
-description: ViewOptions fast egendom. Styr visningsläget i Microsoft Word.
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words för .NET
+description: ViewOptions ViewType fast egendom. Styr visningsläget i Microsoft Word i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/viewoptions/viewtype/
@@ -14,11 +16,11 @@ Styr visningsläget i Microsoft Word.
 public ViewType ViewType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Även om Aspose.Words kan läsa och skriva detta alternativ, är dess användning applikationsspecifik. Till exempel respekterar MS Word 2013 inte värdet av detta alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en anpassad zoomfaktor, vilken äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid inläsning.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../viewoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

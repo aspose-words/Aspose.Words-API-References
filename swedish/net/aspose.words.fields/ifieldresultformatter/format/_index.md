@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Aspose.Words för .NET API Referens
-description: IFieldResultFormatter metod. Anropas när Aspose.Words använder en byte av versalformat dvs.  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words för .NET
+description: IFieldResultFormatter Format metod. Anropas när Aspose.Words använder en byte av versalformat dvs.  Upper i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Anropas när Aspose.Words använder en byte av versalformat, dvs. \* Upper.
 
@@ -14,11 +16,11 @@ Anropas när Aspose.Words använder en byte av versalformat, dvs. \* Upper.
 public string Format(string value, GeneralFormat format)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
 
-### Exempel
+## Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* namnutrymme [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Anropas när Aspose.Words använder en sifferformatsväxling, dvs. \* Ordinal.
 
@@ -169,11 +171,11 @@ Anropas när Aspose.Words använder en sifferformatsväxling, dvs. \* Ordinal.
 public string Format(double value, GeneralFormat format)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
 
-### Exempel
+## Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* namnutrymme [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

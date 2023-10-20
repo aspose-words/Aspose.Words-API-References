@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Hämtar eller ställer in bildens ljusstyrka. Värdet för den här egenskapen måste vara ett tal från 00 dynast till 10 ljusast.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words för .NET
+description: ImageData Brightness fast egendom. Hämtar eller ställer in bildens ljusstyrka. Värdet för den här egenskapen måste vara ett tal från 00 dynast till 10 ljusast i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ Hämtar eller ställer in bildens ljusstyrka. Värdet för den här egenskapen m
 public double Brightness { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 0,5.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

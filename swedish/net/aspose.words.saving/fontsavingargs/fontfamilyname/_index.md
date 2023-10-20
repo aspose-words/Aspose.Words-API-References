@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Indikerar det aktuella teckensnittets efternamn.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words för .NET
+description: FontSavingArgs FontFamilyName fast egendom. Indikerar det aktuella teckensnittets efternamn i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ Indikerar det aktuella teckensnittets efternamn.
 public string FontFamilyName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

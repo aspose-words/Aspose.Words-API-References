@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartTitle klass. Ger tillgång till egenskaperna för diagramtiteln.
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartTitle klass. Ger tillgång till egenskaperna för diagramtiteln i C#.
 type: docs
 weight: 820
 url: /sv/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | namn | Beskrivning |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som standard är överlagring`falsk` . |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Bestämmer om titeln ska visas för detta diagram. Standardvärdet är`Sann` . |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Hämtar eller ställer in texten i diagrammets titel. Om`null` eller tomt värde anges, kommer automatiskt genererad titel att visas. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ställer in en titel.
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

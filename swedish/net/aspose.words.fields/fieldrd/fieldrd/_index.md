@@ -1,7 +1,9 @@
 ---
-title: FieldRD.FieldRD
-second_title: Aspose.Words för .NET API Referens
-description: FieldRD byggare. Default_Constructor
+title: FieldRD
+linktitle: FieldRD
+articleTitle: FieldRD
+second_title: Aspose.Words för .NET
+description: FieldRD byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldrd/fieldrd/
@@ -17,7 +19,5 @@ public FieldRD()
 ### Se även
 
 * class [FieldRD](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldrd/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

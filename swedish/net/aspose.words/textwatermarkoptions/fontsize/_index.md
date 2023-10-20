@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Aspose.Words för .NET API Referens
-description: TextWatermarkOptions fast egendom. Hämtar eller ställer in en teckenstorlek. Standardvärdet är 0  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words för .NET
+description: TextWatermarkOptions FontSize fast egendom. Hämtar eller ställer in en teckenstorlek. Standardvärdet är 0  auto i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
 
-### Anmärkningar
+## Anmärkningar
 
 Giltiga värden sträcker sig från 0 till 65,5 inklusive.
 
 Automatisk teckenstorlek betyder att vattenstämpeln skalas till dess maxbredd och maxhöjd i förhållande till sidmarginalerna.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Se även
 
 * class [TextWatermarkOptions](../)
-* namnutrymme [Aspose.Words](../../textwatermarkoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

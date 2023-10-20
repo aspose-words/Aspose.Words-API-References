@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseSakaEraCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldDate fast egendom. Hämtar eller ställer in om Saka Erakalendern ska användas.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words för .NET
+description: FieldDate UseSakaEraCalendar fast egendom. Hämtar eller ställer in om Saka Erakalendern ska användas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fielddate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Saka Era-kalendern ska användas.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder DATUM-fält för att visa datum enligt olika typer av kalendrar.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Se även
 
 * class [FieldDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

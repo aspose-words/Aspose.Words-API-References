@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Aspose.Words för .NET API Referens
-description: OutlineOptions fast egendom. Anger hur många nivåer av rubriker stycken formaterade med rubrikstilar som ska inkluderas i dokumentkonturen.
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words för .NET
+description: OutlineOptions HeadingsOutlineLevels fast egendom. Anger hur många nivåer av rubriker stycken formaterade med rubrikstilar som ska inkluderas i dokumentkonturen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ Anger hur många nivåer av rubriker (stycken formaterade med rubrikstilar) som 
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ange 0 för inga rubriker i dispositionen; ange 1 för en nivå av rubriker i dispositionen och så vidare.
 
 Standard är 0. Giltigt intervall är 0 till 9.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar ett helt dokument till PDF med tre nivåer i dokumentöversikten.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Se även
 
 * class [OutlineOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../outlineoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

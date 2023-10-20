@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger om bilder ska bäddas in i HTMLdokument i Base64format. Observera att denna flagga kan öka storleken på utdatafilen avsevärt.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions ExportEmbeddedImages fast egendom. Anger om bilder ska bäddas in i HTMLdokument i Base64format. Observera att denna flagga kan öka storleken på utdatafilen avsevärt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ Anger om bilder ska bäddas in i HTML-dokument i Base64-format. Observera att de
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer var bilder ska lagras vid export av ett dokument till HTML.
 
@@ -54,7 +56,5 @@ else
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

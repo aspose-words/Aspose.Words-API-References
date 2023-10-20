@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlSchemaCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: CustomXmlSchemaCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/customxmlschemacollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en XML-schemasamling.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Se även
 
 * class [CustomXmlSchemaCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Aspose.Words för .NET API Referens
-description: Style metod. Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil länkad stil och nästa styckestil jämförs rekursivt.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: Style Equals metod. Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil länkad stil och nästa styckestil jämförs rekursivt i C#.
 type: docs
-weight: 190
+weight: 180
 url: /sv/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda st
 public bool Equals(Style style)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder stilalias.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

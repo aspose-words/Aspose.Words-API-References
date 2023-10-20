@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Aspose.Words för .NET API Referens
-description: ChartMarker fast egendom. Hämtar eller ställer in diagrammarkörens storlek. Standardvärdet är 7.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words för .NET
+description: ChartMarker Size fast egendom. Hämtar eller ställer in diagrammarkörens storlek. Standardvärdet är 7 i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ Hämtar eller ställer in diagrammarkörens storlek. Standardvärdet är 7.
 public int Size { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Se även
 
 * class [ChartMarker](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

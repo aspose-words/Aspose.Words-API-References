@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Aspose.Words för .NET API Referens
-description: IMailMergeCallback metod. Anropas när mustaschtexttaggar ersätts med MERGEFIELDfält.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words för .NET
+description: IMailMergeCallback TagsReplaced metod. Anropas när mustaschtexttaggar ersätts med MERGEFIELDfält i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ Anropas när "mustasch"-texttaggar ersätts med MERGEFIELD-fält.
 public void TagsReplaced()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för hantering av händelser under sammanslagning.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imailmergecallback/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveMacros
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Tar bort alla makron VBAprojektet samt verktygsfält och kommandoanpassningar från dokumentet.
+linktitle: RemoveMacros
+articleTitle: RemoveMacros
+second_title: Aspose.Words för .NET
+description: Document RemoveMacros metod. Tar bort alla makron VBAprojektet samt verktygsfält och kommandoanpassningar från dokumentet i C#.
 type: docs
-weight: 690
+weight: 670
 url: /sv/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
@@ -14,11 +16,11 @@ Tar bort alla makron (VBA-projektet) samt verktygsfält och kommandoanpassningar
 public void RemoveMacros()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Genom att ta bort alla makron från ett dokument kan du säkerställa att dokumentet inte innehåller några makrovirus.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla makron från ett dokument.
 
@@ -38,7 +40,5 @@ Assert.Null(doc.VbaProject);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

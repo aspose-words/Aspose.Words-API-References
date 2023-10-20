@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar enChartNumberFormat objekt som tillåter att definiera talformat för axeln.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words för .NET
+description: ChartAxis NumberFormat fast egendom. Returnerar enChartNumberFormat objekt som tillåter att definiera talformat för axeln i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ Returnerar en[`ChartNumberFormat`](../../chartnumberformat/) objekt som tillåte
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in formatering för diagramvärden.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

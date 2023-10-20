@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfterAuto
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant om mängden avstånd efter stycket ställs in automatiskt.
+linktitle: SpaceAfterAuto
+articleTitle: SpaceAfterAuto
+second_title: Aspose.Words för .NET
+description: ParagraphFormat SpaceAfterAuto fast egendom. Sant om mängden avstånd efter stycket ställs in automatiskt i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/paragraphformat/spaceafterauto/
@@ -14,7 +16,7 @@ Sant om mängden avstånd efter stycket ställs in automatiskt.
 public bool SpaceAfterAuto { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När inställd på`Sann` , åsidosätter effekten av[`SpaceAfter`](../spaceafter/).
 
@@ -27,7 +29,7 @@ När du ställer in styckemellanslag före och mellanslag efter till Auto, lägg
 * Mellanrum läggs inte till efter en tabell om det är det sista blocket i en tabellcell.
 * Mellanrum läggs inte till efter det sista stycket i en tabellcell.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in automatiskt styckeavstånd.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

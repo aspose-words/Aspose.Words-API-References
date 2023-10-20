@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressAuthor
-second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in om författarens information dämpas från citatet.
+linktitle: SuppressAuthor
+articleTitle: SuppressAuthor
+second_title: Aspose.Words för .NET
+description: FieldCitation SuppressAuthor fast egendom. Hämtar eller ställer in om författarens information dämpas från citatet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/fieldcitation/suppressauthor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om författarens information dämpas från citatet.
 public bool SuppressAuthor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldCitation](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcitation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

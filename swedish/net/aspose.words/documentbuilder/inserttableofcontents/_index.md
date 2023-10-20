@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett TOCfält innehållsförteckning i dokumentet.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertTableOfContents metod. Infogar ett TOCfält innehållsförteckning i dokumentet i C#.
 type: docs
-weight: 470
+weight: 460
 url: /sv/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | TOC-fältet växlar. |
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod infogar ett TOC-fält (innehållsförteckning) i dokumentet vid den aktuella positionen.
 
@@ -26,7 +28,7 @@ En innehållsförteckning i ett Word-dokument kan byggas på ett antal sätt och
 
 Det enklaste sättet att specificera växlarna är att infoga och konfigurera en tabell med innehåll i ett Word-dokument med hjälp av menyn Infoga-&gt;Referens-&gt;Index och tabeller, och sedan slå på visningen av fältkoder för att se växlarna. Du kan trycka på Alt+F9 in Microsoft Word för att växla visning av fältkoder på eller av.
 
-Till exempel, efter att ha skapat en innehållsförteckning, infogas följande fält i dokumentet: **{ TOC \o "1-3" \h \z \u }** . Du kan kopiera **\o "1-3" \h \z \u** och använd den som switchparameter.
+Till exempel, efter att ha skapat en innehållsförteckning, infogas följande fält i dokumentet:**{ TOC \o "1-3" \h \z \u }** . Du kan kopiera**\o "1-3" \h \z \u** och använd den som switchparameter.
 
 Anteckna det`InsertTableOfContents` kommer bara att infoga ett TOC-fält, men kommer faktiskt inte att bygga innehållsförteckningen. Innehållsförteckningen byggs av Microsoft Word när fältet uppdateras.
 
@@ -34,7 +36,7 @@ Om du infogar en innehållsförteckning med den här metoden och sedan öppnar f
 
 I Microsoft Word uppdateras inte fält automatiskt när ett dokument öppnas, men du kan när som helst uppdatera fält i ett dokument genom att trycka på F9.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med rubrikstilar som poster.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

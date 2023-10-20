@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Sant om detta är den sista raden i en tabell falskt annars.
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: Aspose.Words för .NET
+description: Row IsLastRow fast egendom. Sant om detta är den sista raden i en tabell falskt annars i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ Sant om detta är den sista raden i en tabell; falskt annars.
 public bool IsLastRow { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett bord för att hålla ihop på samma sida.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Se även
 
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

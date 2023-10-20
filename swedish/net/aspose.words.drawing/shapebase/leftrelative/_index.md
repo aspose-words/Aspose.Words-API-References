@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LeftRelative
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in värdet som representerar formens relativa vänstra position i procent.
+linktitle: LeftRelative
+articleTitle: LeftRelative
+second_title: Aspose.Words för .NET
+description: ShapeBase LeftRelative fast egendom. Hämtar eller ställer in värdet som representerar formens relativa vänstra position i procent i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words.drawing/shapebase/leftrelative/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värdet som representerar formens relativa vänstra po
 public float LeftRelative { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in relativ storlek och position.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

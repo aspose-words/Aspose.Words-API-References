@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlProperty fast egendom. Hämtar eller ställer in namnutrymmesURI för det anpassade XMLattributet eller smart taggegenskapen.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words för .NET
+description: CustomXmlProperty Uri fast egendom. Hämtar eller ställer in namnutrymmesURI för det anpassade XMLattributet eller smart taggegenskapen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ Hämtar eller ställer in namnutrymmes-URI för det anpassade XML-attributet ell
 public string Uri { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [CustomXmlProperty](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlproperty/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

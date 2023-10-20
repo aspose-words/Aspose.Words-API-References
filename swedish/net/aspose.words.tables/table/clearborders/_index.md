@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Tar bort alla tabell och cellkanter på den här tabellen.
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: Aspose.Words för .NET
+description: Table ClearBorders metod. Tar bort alla tabell och cellkanter på den här tabellen i C#.
 type: docs
-weight: 390
+weight: 370
 url: /sv/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ Tar bort alla tabell- och cellkanter på den här tabellen.
 public void ClearBorders()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar en konturram på en tabell.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

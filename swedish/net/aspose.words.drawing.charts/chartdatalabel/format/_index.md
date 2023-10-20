@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Format
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Ger tillgång till fyllnings och radformatering av dataetiketten.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words för .NET
+description: ChartDataLabel Format fast egendom. Ger tillgång till fyllnings och radformatering av dataetiketten i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/format/
@@ -18,7 +20,5 @@ public ChartFormat Format { get; }
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

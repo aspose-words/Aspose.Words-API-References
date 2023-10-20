@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionQuantity
-second_title: Aspose.Words för .NET API Referens
-description: Metered metod. Får förbrukningsfilstorlek
+linktitle: GetConsumptionQuantity
+articleTitle: GetConsumptionQuantity
+second_title: Aspose.Words för .NET
+description: Metered GetConsumptionQuantity metod. Får förbrukningsfilstorlek i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/metered/getconsumptionquantity/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionQuantity()
 
 konsumtionsmängd
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Se även
 
 * class [Metered](../)
-* namnutrymme [Aspose.Words](../../metered/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

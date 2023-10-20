@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ConditionalStyleType uppräkning. Representerar möjliga tabellområden för vilka villkorlig formatering kan definieras i en tabellstil.
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ConditionalStyleType uppräkning. Representerar möjliga tabellområden för vilka villkorlig formatering kan definieras i en tabellstil i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | Anger formateringen av den nedre vänstra cellen i en tabell. |
 | BottomRightCell | `11` | Anger formateringen av den nedre högra cellen i en tabell. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

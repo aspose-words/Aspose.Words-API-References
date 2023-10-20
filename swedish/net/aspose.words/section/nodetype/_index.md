@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. ReturnerarSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Section NodeType fast egendom. ReturnerarSection  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ ReturnerarSection .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

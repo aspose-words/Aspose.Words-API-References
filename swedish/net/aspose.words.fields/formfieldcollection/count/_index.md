@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: FormFieldCollection fast egendom. Returnerar antalet formulärfält i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: FormFieldCollection Count fast egendom. Returnerar antalet formulärfält i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet formulärfält i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormFieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../formfieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

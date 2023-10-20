@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.MappedDataFieldCollection klass. Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection klass. Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet i C#.
 type: docs
 weight: 3870
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Lägger till en ny fältmappning. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Lägger till en ny fältmappning. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Tar bort alla element från samlingen. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Bestämmer om en mappning från det angivna fältet i dokumentet finns i samlingen. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Bestämmer om en mappning från det angivna fältet i datakällan finns i samlingen. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Bestämmer om en mappning från det angivna fältet i dokumentet finns i samlingen. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Bestämmer om en mappning från det angivna fältet i datakällan finns i samlingen. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Tar bort en fältmappning. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Tar bort en fältmappning. |
 
-### Anmärkningar
+## Anmärkningar
 
 Detta implementeras som en samling strängnycklar i strängvärden. Nycklarna är namnen på kopplingsfälten i dokumentet och värdena är namnen på fälten i din datakälla.
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

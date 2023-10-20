@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.DateDisplayFormat
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Sträng som representerar formatet som datum visas i. Kan inte varanull . Datumen för engelska USA är mm/dd/åååå
+linktitle: DateDisplayFormat
+articleTitle: DateDisplayFormat
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag DateDisplayFormat fast egendom. Sträng som representerar formatet som datum visas i. Kan inte varanull . Datumen för engelska USA är mm/dd/åååå i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
@@ -14,13 +16,13 @@ Sträng som representerar formatet som datum visas i. Kan inte vara`null` . Datu
 public string DateDisplayFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Åtkomst till den här egenskapen fungerar bara förDate SDT-typ.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visar hur man uppmanar användaren att ange ett datum med en strukturerad dokumenttagg.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

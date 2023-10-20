@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Name
-second_title: Aspose.Words för .NET API Referens
-description: VbaProject fast egendom. Hämtar eller ställer in VBAprojektnamn.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: VbaProject Name fast egendom. Hämtar eller ställer in VBAprojektnamn i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.vba/vbaproject/name/
@@ -14,7 +16,7 @@ Hämtar eller ställer in VBA-projektnamn.
 public string Name { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett VBA-projekt med hjälp av makron.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Se även
 
 * class [VbaProject](../)
-* namnutrymme [Aspose.Words.Vba](../../vbaproject/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

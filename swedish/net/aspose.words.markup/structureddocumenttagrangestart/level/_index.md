@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Hämtar nivån på vilken detta strukturerade dokumenttaggintervall startar i dokumentträdet.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart Level fast egendom. Hämtar nivån på vilken detta strukturerade dokumenttaggintervall startar i dokumentträdet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/level/
@@ -14,7 +16,7 @@ Hämtar nivån på vilken detta strukturerade dokumenttaggintervall startar i do
 public MarkupLevel Level { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

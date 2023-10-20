@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in sidans höjd i poäng.
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: Aspose.Words för .NET
+description: PageSetup PageHeight fast egendom. Returnerar eller ställer in sidans höjd i poäng i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ Returnerar eller ställer in sidans höjd i poäng.
 public double PageHeight { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild och använder den som vattenstämpel.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

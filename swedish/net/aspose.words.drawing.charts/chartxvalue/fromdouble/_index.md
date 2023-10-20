@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue metod. Skapar enChartXValue instans avDouble typ.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words för .NET
+description: ChartXValue FromDouble metod. Skapar enChartXValue instans avDouble typ i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ Skapar en[`ChartXValue`](../) instans avDouble typ.
 public static ChartXValue FromDouble(double value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller diagramserier med data.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

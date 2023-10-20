@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.Accept
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: HeaderFooter Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/headerfooter/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , sedan ringer[`Accept`](../../node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut nodstrukturen för varje sidhuvud och sidfot i ett dokument.
 
@@ -124,7 +126,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

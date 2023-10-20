@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection metod. Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: ListCollection Add metod. Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 Den nyskapade listan.
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words listmallar motsvarar de 21 listmallarna available i dialogrutan Bullets and Numbering i Microsoft Word 2003.
 
 Alla listor som skapas med denna metod har 9 listnivåer.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lista genom att tillämpa ett nytt listformat på en samling stycken.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 Skapar en ny lista som refererar till en liststil och lägger till den i samlingen av listor i dokumentet.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 Den nyskapade listan.
 
-### Anmärkningar
+## Anmärkningar
 
 Den nyskapade listan refererar till liststilen. Om du ändrar egenskaperna för list -stilen återspeglas det i listans egenskaper. Vice versa, om du ändrar egenskaperna för listan, återspeglas det i egenskaperna för liststilen.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

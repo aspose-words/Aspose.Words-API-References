@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetHeadingLevel
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeq fast egendom. Hämtar eller ställer in ett heltal som representerar en rubriknivå för att återställa sekvensnumret till. Returnerar 1 om talet saknas.
+linktitle: ResetHeadingLevel
+articleTitle: ResetHeadingLevel
+second_title: Aspose.Words för .NET
+description: FieldSeq ResetHeadingLevel fast egendom. Hämtar eller ställer in ett heltal som representerar en rubriknivå för att återställa sekvensnumret till. Returnerar 1 om talet saknas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldseq/resetheadinglevel/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett heltal som representerar en rubriknivå för att �
 public string ResetHeadingLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar skapa numrering med SEQ-fält.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Se även
 
 * class [FieldSeq](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseq/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

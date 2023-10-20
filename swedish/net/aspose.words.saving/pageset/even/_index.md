@@ -1,7 +1,9 @@
 ---
 title: PageSet.Even
-second_title: Aspose.Words för .NET API Referens
-description: PageSet fast egendom. Får en uppsättning med alla jämna sidor i dokumentet i sin ursprungliga ordning.
+linktitle: Even
+articleTitle: Even
+second_title: Aspose.Words för .NET
+description: PageSet Even fast egendom. Får en uppsättning med alla jämna sidor i dokumentet i sin ursprungliga ordning i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pageset/even/
@@ -14,14 +16,12 @@ Får en uppsättning med alla jämna sidor i dokumentet i sin ursprungliga ordni
 public static PageSet Even { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Jämna sidor har udda index eftersom sidindex är nollbaserade.
 
 ### Se även
 
 * class [PageSet](../)
-* namnutrymme [Aspose.Words.Saving](../../pageset/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

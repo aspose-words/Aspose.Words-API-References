@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.PageColor
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Hämtar eller ställer in sidfärgen på dokumentet. Den här egenskapen är en enklare version avBackgroundShape .
+linktitle: PageColor
+articleTitle: PageColor
+second_title: Aspose.Words för .NET
+description: DocumentBase PageColor fast egendom. Hämtar eller ställer in sidfärgen på dokumentet. Den här egenskapen är en enklare version avBackgroundShape  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/documentbase/pagecolor/
@@ -14,13 +16,13 @@ Hämtar eller ställer in sidfärgen på dokumentet. Den här egenskapen är en 
 public Color PageColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen ger ett enkelt sätt att ange en helsidig färg för dokumentet. Genom att ställa in den här egenskapen skapas och ställs in en lämplig[`BackgroundShape`](../backgroundshape/).
 
 Om sidfärgen inte är inställd (t.ex. det inte finns någon bakgrundsform i dokumentet) returneras Empty.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in bakgrundsfärgen för alla sidor i ett dokument.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "DocumentBase.SetPageColor.docx");
 ### Se även
 
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

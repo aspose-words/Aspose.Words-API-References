@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.GeneralFormat uppräkning. Anger ett allmänt format som tillämpas på ett numeriskt text eller valfritt fältresultat. Ett fält kan ha en kombination av allmänna format.
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.GeneralFormat uppräkning. Anger ett allmänt format som tillämpas på ett numeriskt text eller valfritt fältresultat. Ett fält kan ha en kombination av allmänna format i C#.
 type: docs
 weight: 2640
 url: /sv/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | Formatering av fältresultat. MERGEFORMAT-instruktionen. |
 | MergeFormatInet | `55` | Formatering av fältresultat. MERGEFORMATINET-instruktionen. |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

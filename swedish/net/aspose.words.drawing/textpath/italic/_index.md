@@ -1,7 +1,9 @@
 ---
 title: TextPath.Italic
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Sant om teckensnittet är formaterat som kursivt.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words för .NET
+description: TextPath Italic fast egendom. Sant om teckensnittet är formaterat som kursivt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/textpath/italic/
@@ -14,11 +16,11 @@ Sant om teckensnittet är formaterat som kursivt.
 public bool Italic { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

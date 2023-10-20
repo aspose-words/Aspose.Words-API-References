@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. Hämtar den överordnade delen av denna berättelse.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words för .NET
+description: HeaderFooter ParentSection fast egendom. Hämtar den överordnade delen av denna berättelse i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ Hämtar den överordnade delen av denna berättelse.
 public Section ParentSection { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `ParentSection` är ekvivalent med[`ParentNode`](../../node/parentnode/) gjutna till[`Section`](../../section/).
 
-### Exempel
+## Exempel
 
 Visar hur du länkar sidhuvuden och sidfötter mellan avsnitt.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

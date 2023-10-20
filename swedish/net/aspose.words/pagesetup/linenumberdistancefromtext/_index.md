@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in avståndet mellan den högra kanten av radnummer och den vänstra kanten av dokumentet.
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: Aspose.Words för .NET
+description: PageSetup LineNumberDistanceFromText fast egendom. Hämtar eller ställer in avståndet mellan den högra kanten av radnummer och den vänstra kanten av dokumentet i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ Hämtar eller ställer in avståndet mellan den högra kanten av radnummer och d
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ställ in den här egenskapen på noll för automatiskt avstånd mellan radnumren och texten i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar radnumrering för en sektion.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IPageSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.IPageSavingCallback gränssnitt. Implementera detta gränssnitt om du vill styra hur Aspose.Words sparar separata sidor när sparar ett dokument i fasta sidformat.
+title: IPageSavingCallback Interface
+linktitle: IPageSavingCallback
+articleTitle: IPageSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.IPageSavingCallback gränssnitt. Implementera detta gränssnitt om du vill styra hur Aspose.Words sparar separata sidor när sparar ett dokument i fasta sidformat i C#.
 type: docs
 weight: 5180
 url: /sv/net/aspose.words.saving/ipagesavingcallback/
@@ -18,9 +20,9 @@ public interface IPageSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | Anropas när Aspose.Words sparar en separat sida till fasta sidformat. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | Anropas när Aspose.Words sparar en separat sida till fasta sidformat. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -78,5 +80,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

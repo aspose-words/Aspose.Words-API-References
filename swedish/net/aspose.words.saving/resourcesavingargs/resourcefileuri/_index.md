@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Aspose.Words för .NET API Referens
-description: ResourceSavingArgs fast egendom. Hämtar eller ställer in den enhetliga resursidentifieraren URI som används för att referera till resursfilen från dokumentet.
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: Aspose.Words för .NET
+description: ResourceSavingArgs ResourceFileUri fast egendom. Hämtar eller ställer in den enhetliga resursidentifieraren URI som används för att referera till resursfilen från dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den enhetliga resursidentifieraren (URI) som används 
 public string ResourceFileUri { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig ändra URI:er för resursfiler som exporteras till HTML- eller SVG-dokument med fasta sidor.
 
@@ -24,7 +26,7 @@ När händelsen aktiveras innehåller den här egenskapen URI:n som genererades 
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Se även
 
 * class [ResourceSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../resourcesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

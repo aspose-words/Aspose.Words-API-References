@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionEndTag
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in en sluttagg för kopplingsregion.
+linktitle: RegionEndTag
+articleTitle: RegionEndTag
+second_title: Aspose.Words för .NET
+description: MailMerge RegionEndTag fast egendom. Hämtar eller ställer in en sluttagg för kopplingsregion i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.mailmerging/mailmerge/regionendtag/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en sluttagg för kopplingsregion.
 public string RegionEndTag { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar, listar och läser kopplingsregioner.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

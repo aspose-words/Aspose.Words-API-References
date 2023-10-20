@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av siffror och regioner av östasiatisk text i det aktuella stycket.
+linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
+second_title: Aspose.Words för .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndDigit fast egendom. Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av siffror och regioner av östasiatisk text i det aktuella stycket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt ju
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke i dokumentet.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

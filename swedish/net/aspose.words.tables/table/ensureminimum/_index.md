@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Om tabellen inte har några rader skapar och lägger till enRow .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: Table EnsureMinimum metod. Om tabellen inte har några rader skapar och lägger till enRow  i C#.
 type: docs
-weight: 420
+weight: 400
 url: /sv/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ Om tabellen inte har några rader, skapar och lägger till en[`Row`](../../row/)
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man säkerställer att en tabellnod innehåller de noder vi behöver för att lägga till innehåll.
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

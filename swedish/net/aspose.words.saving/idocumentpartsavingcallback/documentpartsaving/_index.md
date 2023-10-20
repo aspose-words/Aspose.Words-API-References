@@ -1,7 +1,9 @@
 ---
 title: IDocumentPartSavingCallback.DocumentPartSaving
-second_title: Aspose.Words för .NET API Referens
-description: IDocumentPartSavingCallback metod. Anropas när Aspose.Words håller på att spara en dokumentdel.
+linktitle: DocumentPartSaving
+articleTitle: DocumentPartSaving
+second_title: Aspose.Words för .NET
+description: IDocumentPartSavingCallback DocumentPartSaving metod. Anropas när Aspose.Words håller på att spara en dokumentdel i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
@@ -14,7 +16,7 @@ Anropas när Aspose.Words håller på att spara en dokumentdel.
 public void DocumentPartSaving(DocumentPartSavingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * interface [IDocumentPartSavingCallback](../)
-* namnutrymme [Aspose.Words.Saving](../../idocumentpartsavingcallback/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

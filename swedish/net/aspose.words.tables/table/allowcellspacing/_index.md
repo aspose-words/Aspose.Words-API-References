@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in alternativet Tillåt avstånd mellan celler.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words för .NET
+description: Table AllowCellSpacing fast egendom. Hämtar eller ställer in alternativet Tillåt avstånd mellan celler i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ Hämtar eller ställer in alternativet "Tillåt avstånd mellan celler".
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar avstånd mellan enskilda celler i en tabell.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

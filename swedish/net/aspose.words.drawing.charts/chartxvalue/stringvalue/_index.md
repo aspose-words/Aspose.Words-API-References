@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.StringValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue fast egendom. Hämtar det lagrade strängvärdet.
+linktitle: StringValue
+articleTitle: StringValue
+second_title: Aspose.Words för .NET
+description: ChartXValue StringValue fast egendom. Hämtar det lagrade strängvärdet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
@@ -17,7 +19,5 @@ public string StringValue { get; }
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

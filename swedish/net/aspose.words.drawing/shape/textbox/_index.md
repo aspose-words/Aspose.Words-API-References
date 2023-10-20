@@ -1,7 +1,9 @@
 ---
 title: Shape.TextBox
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Definierar attribut som anger hur text visas i en form.
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words för .NET
+description: Shape TextBox fast egendom. Definierar attribut som anger hur text visas i en form i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.drawing/shape/textbox/
@@ -14,7 +16,7 @@ Definierar attribut som anger hur text visas i en form.
 public TextBox TextBox { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in orienteringen för text inuti en textruta.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [TextBox](../../textbox/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

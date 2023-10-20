@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras omDefaultInstructionsär satt. Standardvärde för den här egenskapen är tom sträng Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words för .NET
+description: SignatureLine Instructions fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras omDefaultInstructionsär satt. Standardvärde för den här egenskapen ärtom sträng Empty i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras om[`DefaultInstructions`](../defaultinstructions/)är satt. Standardvärde för den här egenskapen är **tom sträng** (Empty).
+Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras om[`DefaultInstructions`](../defaultinstructions/)är satt. Standardvärde för den här egenskapen är**tom sträng** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

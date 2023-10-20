@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar capstilen för slutet av ett streck.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words för .NET
+description: Stroke EndCap fast egendom. Definierar capstilen för slutet av ett streck i C#.
 type: docs
-weight: 90
+weight: 80
 url: /sv/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ Definierar cap-stilen för slutet av ett streck.
 public EndCap EndCap { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärFlat.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

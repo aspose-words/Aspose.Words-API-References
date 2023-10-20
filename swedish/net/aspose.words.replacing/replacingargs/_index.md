@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Replacing.ReplacingArgs klass. Tillhandahåller data för en anpassad ersättningsoperation.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Replacing.ReplacingArgs klass. Tillhandahåller data för en anpassad ersättningsoperation i C#.
 type: docs
 weight: 4650
 url: /sv/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifierar, genom index, en fångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) string. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifierar, med namn, en infångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) string. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DenMatch som ett resultat av en enda regular uttrycksmatchning under en **Byta ut** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DenMatch som ett resultat av en enda regular uttrycksmatchning under en**Byta ut** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Hämtar noden som innehåller början av matchningen. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Hämtar eller ställer in ersättningssträngen. |
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * namnutrymme [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../)
-
-

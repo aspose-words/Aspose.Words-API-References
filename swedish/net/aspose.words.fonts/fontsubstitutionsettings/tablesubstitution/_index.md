@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
-second_title: Aspose.Words för .NET API Referens
-description: FontSubstitutionSettings fast egendom. Inställningar relaterade till regel för tabellersättning.
+linktitle: TableSubstitution
+articleTitle: TableSubstitution
+second_title: Aspose.Words för .NET
+description: FontSubstitutionSettings TableSubstitution fast egendom. Inställningar relaterade till regel för tabellersättning i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
@@ -14,7 +16,7 @@ Inställningar relaterade till regel för tabellersättning.
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med anpassade teckensnittsersättningstabeller.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

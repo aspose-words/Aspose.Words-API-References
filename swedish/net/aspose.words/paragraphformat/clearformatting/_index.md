@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat metod. Återställer till standard styckeformatering.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: ParagraphFormat ClearFormatting metod. Återställer till standard styckeformatering i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ url: /sv/net/aspose.words/paragraphformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard styckeformatering är Normal stil, vänsterjusterad, ingen indrag, inget mellanrum, inga kanter och ingen skuggning.
 
-### Exempel
+## Exempel
 
 Visar hur man kapslar en lista i en annan lista.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

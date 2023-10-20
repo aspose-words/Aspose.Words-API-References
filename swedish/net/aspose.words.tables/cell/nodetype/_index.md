@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. ReturnerarCell .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Cell NodeType fast egendom. ReturnerarCell  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ ReturnerarCell .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

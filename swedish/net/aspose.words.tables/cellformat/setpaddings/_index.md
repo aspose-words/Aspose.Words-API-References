@@ -1,9 +1,11 @@
 ---
 title: CellFormat.SetPaddings
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat metod. Ställer in mängden utrymme i poäng som ska läggas till till vänster/överst/höger/botten av innehållet i cellen.
+linktitle: SetPaddings
+articleTitle: SetPaddings
+second_title: Aspose.Words för .NET
+description: CellFormat SetPaddings metod. Ställer in mängden utrymme i poäng som ska läggas till till vänster/överst/höger/botten av innehållet i cellen i C#.
 type: docs
-weight: 170
+weight: 160
 url: /sv/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
@@ -15,7 +17,7 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
     double bottomPadding)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller på innehållet i en cell med blanksteg.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "CellFormat.Padding.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

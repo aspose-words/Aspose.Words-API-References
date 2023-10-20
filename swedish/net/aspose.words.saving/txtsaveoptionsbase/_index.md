@@ -1,7 +1,9 @@
 ---
-title: Class TxtSaveOptionsBase
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.TxtSaveOptionsBase klass. Basklassen för att ange ytterligare alternativ när ett dokument sparas i textbaserade format.
+title: TxtSaveOptionsBase Class
+linktitle: TxtSaveOptionsBase
+articleTitle: TxtSaveOptionsBase
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.TxtSaveOptionsBase klass. Basklassen för att ange ytterligare alternativ när ett dokument sparas i textbaserade format i C#.
 type: docs
 weight: 5670
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/
@@ -22,11 +24,11 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Anger kodningen som ska användas vid export i textformat. Standardvärdet är **Encoding.UTF8** . |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Anger kodningen som ska användas vid export i textformat. Standardvärdet är**Encoding.UTF8** . |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | När`Sann` , gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet är`Sann` . |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Anger hur sidhuvuden och sidfötter exporteras till textformaten. Standardvärdet ärPrimaryOnly . |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | Tillåter att ange om sidbrytningarna ska bevaras under export. |
@@ -44,7 +46,7 @@ public abstract class TxtSaveOptionsBase : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Hämtar eller ställer in ett värde som avgör om kantutjämning ska användas eller inte för rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Hämtar eller ställer in ett värde som avgör huruvida högkvalitativa (dvs långsamma) renderingsalgoritmer ska användas eller inte. |
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett .txt-dokument med en anpassad styckebrytning.
 
@@ -79,5 +81,3 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 * class [SaveOptions](../saveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

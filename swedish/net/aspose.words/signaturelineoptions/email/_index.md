@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Email
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in den föreslagna undertecknarens epostadress. Standardvärdet för den här egenskapen är tom sträng Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words för .NET
+description: SignatureLineOptions Email fast egendom. Hämtar eller ställer in den föreslagna undertecknarens epostadress. Standardvärdet för den här egenskapen ärtom sträng Empty i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Hämtar eller ställer in den föreslagna undertecknarens e-postadress. Standardvärdet för den här egenskapen är **tom sträng** (Empty).
+Hämtar eller ställer in den föreslagna undertecknarens e-postadress. Standardvärdet för den här egenskapen är**tom sträng** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett dokument med ett personligt certifikat och en signaturrad.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Se även
 
 * class [SignatureLineOptions](../)
-* namnutrymme [Aspose.Words](../../signaturelineoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

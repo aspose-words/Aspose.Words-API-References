@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Returnerar den förstaRow nod i tabellen.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words för .NET
+description: Table FirstRow fast egendom. Returnerar den förstaRow nod i tabellen i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ Returnerar den första[`Row`](../../row/) nod i tabellen.
 public Row FirstRow { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort den första och sista raden i alla tabeller i ett dokument.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

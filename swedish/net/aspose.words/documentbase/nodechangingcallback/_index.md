@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Anropas när en nod infogas eller tas bort i dokumentet.
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: Aspose.Words för .NET
+description: DocumentBase NodeChangingCallback fast egendom. Anropas när en nod infogas eller tas bort i dokumentet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ Anropas när en nod infogas eller tas bort i dokumentet.
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

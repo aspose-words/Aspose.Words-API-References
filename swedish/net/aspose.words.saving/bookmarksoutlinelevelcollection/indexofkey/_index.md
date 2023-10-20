@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection metod. Returnerar det nollbaserade indexet för det angivna bokmärket i samlingen.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection IndexOfKey metod. Returnerar det nollbaserade indexet för det angivna bokmärket i samlingen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Det nollbaserade indexet. Negativt värde om det inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

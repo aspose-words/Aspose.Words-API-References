@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeWeight
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Definierar penseltjockleken som sträcker banan för en form i punkter.
+linktitle: StrokeWeight
+articleTitle: StrokeWeight
+second_title: Aspose.Words för .NET
+description: Shape StrokeWeight fast egendom. Definierar penseltjockleken som sträcker banan för en form i punkter i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.drawing/shape/strokeweight/
@@ -14,13 +16,13 @@ Definierar penseltjockleken som sträcker banan för en form i punkter.
 public double StrokeWeight { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genväg till[`Weight`](../../stroke/weight/) fast egendom.
 
 Standardvärdet är 0,75.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

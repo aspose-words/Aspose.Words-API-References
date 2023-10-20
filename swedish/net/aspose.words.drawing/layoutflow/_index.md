@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.LayoutFlow uppräkning. Bestämmer flödet av textlayouten i en textruta.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.LayoutFlow uppräkning. Bestämmer flödet av textlayouten i en textruta i C#.
 type: docs
 weight: 1100
 url: /sv/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | Ideografisk text visas horisontellt. |
 | Vertical | `5` | Text visas vertikalt. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till text i en textruta och ändrar dess orientering
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

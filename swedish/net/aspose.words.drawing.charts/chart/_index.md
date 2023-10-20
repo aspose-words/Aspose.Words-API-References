@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.Chart klass. Ger tillgång till diagramformens egenskaper.
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.Chart klass. Ger tillgång till diagramformens egenskaper i C#.
 type: docs
 weight: 620
 url: /sv/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Hämtar sökvägen och namnet på en xls/xlsx-fil som detta diagram är länkat till. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Ger tillgång till egenskaperna för diagramtiteln. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ställer in en titel.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

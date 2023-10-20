@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection metod. Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words för .NET
+description: ListCollection AddCopy metod. Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 Den nyskapade listan.
 
-### Anmärkningar
+## Anmärkningar
 
 Källlistan kan vara från vilket dokument som helst. Om källlistan tillhör ett annat dokument, skapas en kopia av listan och läggs till det aktuella dokumentet.
 
 Om källlistan är en referens till eller en definition av en liststil, är den nyskapade listan inte relaterad till den ursprungliga liststilen.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett dokument med ett exempel på alla listor från ett annat dokument.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

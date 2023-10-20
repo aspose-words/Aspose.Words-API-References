@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Manager
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in manageregenskapen.
+linktitle: Manager
+articleTitle: Manager
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Manager fast egendom. Hämtar eller ställer in manageregenskapen i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.properties/builtindocumentproperties/manager/
@@ -14,7 +16,7 @@ Hämtar eller ställer in manageregenskapen.
 public string Manager { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

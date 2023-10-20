@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmfPlusDualRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur EMF Dualmetafiler ska renderas.
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: Aspose.Words för .NET
+description: MetafileRenderingOptions EmfPlusDualRenderingMode fast egendom. Hämtar eller ställer in ett värde som bestämmer hur EMF Dualmetafiler ska renderas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som bestämmer hur EMF+ Dual-metafiler ska 
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 EMF+ Dual metafiler innehåller både EMF+ och EMF delar. MS Word och GDI+ renderar alltid EMF+-delen. Aspose.Words stöder för närvarande inte alla EMF+-poster fullt ut och i vissa fall ser renderingsresultatet av EMF-delen bättre ut än renderingsresultatet av EMF+-delen.
 
@@ -22,7 +24,7 @@ Det här alternativet används endast när metafilen renderas som vektorgrafik. 
 
 Standardvärdet ärEmfPlusWithFallback.
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar förbättrade Windows Metafil-relaterade renderingsalternativ när du sparar till PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
 * class [MetafileRenderingOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

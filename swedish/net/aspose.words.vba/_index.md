@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Vba
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Vba namnutrymme tillhandahåller klasser för att arbeta med VBAprojekt.
+linktitle: Aspose.Words.Vba
+articleTitle: Aspose.Words.Vba
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Vba namnutrymme tillhandahåller klasser för att arbeta med VBAprojekt i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.vba/
 ---
-De **Aspose.Words.Vba** namnutrymme tillhandahåller klasser för att arbeta med VBA-projekt.
+De**Aspose.Words.Vba** namnutrymme tillhandahåller klasser för att arbeta med VBA-projekt.
 
 ## Klasser
 
@@ -24,5 +26,3 @@ De **Aspose.Words.Vba** namnutrymme tillhandahåller klasser för att arbeta med
 | --- | --- |
 | [VbaModuleType](./vbamoduletype/) | Anger typen av modell i ett VBA-projekt. |
 | [VbaReferenceType](./vbareferencetype/) | Tillåter att ange typen av a[`VbaReference`](../aspose.words.vba/vbareference/) objekt. |
-
-

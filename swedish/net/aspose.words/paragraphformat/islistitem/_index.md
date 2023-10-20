@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant när stycket är ett objekt i en punktlista eller numrerad lista.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words för .NET
+description: ParagraphFormat IsListItem fast egendom. Sant när stycket är ett objekt i en punktlista eller numrerad lista i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ Sant när stycket är ett objekt i en punktlista eller numrerad lista.
 public bool IsListItem { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kapslar en lista i en annan lista.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

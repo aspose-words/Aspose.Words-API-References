@@ -1,9 +1,11 @@
 ---
 title: Comment.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Comment metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Comment Accept metod. Accepterar en besökare i C#.
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , sedan ringer[`Accept`](../../node/accept/) för all underordnade noder för kommentaren och anropen[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -192,7 +194,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

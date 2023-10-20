@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras.
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: Aspose.Words för .NET
+description: ChartAxis TickMarkSpacing fast egendom. Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras.
 public int TickMarkSpacing { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har effekt för textkategori och serieaxlar. Det stöds inte av MS Office 2016 nya sjökort.
 
 Giltigt intervall för ett värde är större än eller lika med 1.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

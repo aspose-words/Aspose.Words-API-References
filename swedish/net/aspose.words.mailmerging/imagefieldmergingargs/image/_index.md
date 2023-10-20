@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Aspose.Words för .NET API Referens
-description: ImageFieldMergingArgs fast egendom. Anger bilden som kopplingsmotorn måste infoga i dokumentet.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words för .NET
+description: ImageFieldMergingArgs Image fast egendom. Anger bilden som kopplingsmotorn måste infoga i dokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ Anger bilden som kopplingsmotorn måste infoga i dokumentet.
 public Image Image { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att anpassa bildsammanslagningslogik.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### Se även
 
 * class [ImageFieldMergingArgs](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

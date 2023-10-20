@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection metod. ReturnerarSann om en egenskap med det angivna namnet finns i samlingen.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection Contains metod. ReturnerarSann om en egenskap med det angivna namnet finns i samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `Sann` om egendomen finns i samlingen;`falsk` annat.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

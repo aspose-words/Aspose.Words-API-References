@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection klass. Representerar en samling av diagramaxlar.
+title: ChartAxisCollection Class
+linktitle: ChartAxisCollection
+articleTitle: ChartAxisCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisCollection klass. Representerar en samling av diagramaxlar i C#.
 type: docs
 weight: 640
 url: /sv/net/aspose.words.drawing.charts/chartaxiscollection/
@@ -27,7 +29,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med yxsamling.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 * class [ChartAxis](../chartaxis/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

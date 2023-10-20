@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Position
-second_title: Aspose.Words för .NET API Referens
-description: GradientStop fast egendom. Hämtar eller ställer in ett värde som representerar positionen för ett stopp inom gradient uttryckt som en procent i intervallet 00 till 10.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words för .NET
+description: GradientStop Position fast egendom. Hämtar eller ställer in ett värde som representerar positionen för ett stopp inom gradient uttryckt som en procent i intervallet 00 till 10 i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/gradientstop/position/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som representerar positionen för ett stopp
 public double Position { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Se även
 
 * class [GradientStop](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstop/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

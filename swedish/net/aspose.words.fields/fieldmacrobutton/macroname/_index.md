@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Aspose.Words för .NET API Referens
-description: FieldMacroButton fast egendom. Hämtar eller ställer in namnet på makrot eller kommandot som ska köras.
+linktitle: MacroName
+articleTitle: MacroName
+second_title: Aspose.Words för .NET
+description: FieldMacroButton MacroName fast egendom. Hämtar eller ställer in namnet på makrot eller kommandot som ska köras i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på makrot eller kommandot som ska köras.
 public string MacroName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MACROBUTTON-fält för att tillåta oss att köra ett dokuments makron genom att klicka.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Se även
 
 * class [FieldMacroButton](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmacrobutton/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

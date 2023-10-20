@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Store
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionReference fast egendom. Anger instansen av marknadsplatsen där webbtillägget lagras.
+linktitle: Store
+articleTitle: Store
+second_title: Aspose.Words för .NET
+description: WebExtensionReference Store fast egendom. Anger instansen av marknadsplatsen där webbtillägget lagras i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.webextensions/webextensionreference/store/
@@ -14,7 +16,7 @@ Anger instansen av marknadsplatsen där webbtillägget lagras.
 public string Store { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [WebExtensionReference](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

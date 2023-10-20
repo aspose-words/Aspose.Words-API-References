@@ -1,7 +1,9 @@
 ---
-title: Class TableStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TableStyle klass. Representerar en tabellstil.
+title: TableStyle Class
+linktitle: TableStyle
+articleTitle: TableStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TableStyle klass. Representerar en tabellstil i C#.
 type: docs
 weight: 6220
 url: /sv/net/aspose.words/tablestyle/
@@ -41,7 +43,6 @@ public class TableStyle : Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på[`Style`](../style/) kopplat till denna. Returnerar tom sträng om inga stilar är länkade. |
 | [List](../../aspose.words/style/list/) { get; } | Hämtar listan som definierar formateringen av denna liststil. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Ger tillgång till listformateringsegenskaperna för en styckestil. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Hämtar eller ställer in namnet på stilen. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Hämtar formatets styckeformatering. |
@@ -58,10 +59,10 @@ public class TableStyle : Style
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
+| [Equals](../../aspose.words/style/equals/)(*[Style](../style/)*) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
 | [Remove](../../aspose.words/style/remove/)() | Tar bort den angivna stilen från dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -107,5 +108,3 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 * class [Style](../style/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

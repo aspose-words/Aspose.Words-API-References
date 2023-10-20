@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Aspose.Words för .NET API Referens
-description: FieldXE fast egendom. Hämtar eller ställer in yomi första fonetiska tecknet för att sortera index för indexentry
+linktitle: Yomi
+articleTitle: Yomi
+second_title: Aspose.Words för .NET
+description: FieldXE Yomi fast egendom. Hämtar eller ställer in yomi första fonetiska tecknet för att sortera index för indexentry i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ Hämtar eller ställer in yomi (första fonetiska tecknet för att sortera index
 public string Yomi { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man sorterar INDEX-fältposter fonetiskt.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Se även
 
 * class [FieldXE](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldxe/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

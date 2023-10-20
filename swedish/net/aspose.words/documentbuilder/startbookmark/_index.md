@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som en bokmärkesstart.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words för .NET
+description: DocumentBuilder StartBookmark metod. Markerar den aktuella positionen i dokumentet som en bokmärkesstart i C#.
 type: docs
-weight: 620
+weight: 610
 url: /sv/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 Bokmärkets startnod som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Bokmärken i ett dokument kan överlappa och sträcka sig över alla områden. För att skapa ett giltigt bokmärke måste du anropa båda`StartBookmark` och[`EndBookmark`](../endbookmark/) med samma*bookmarkName* parameter.
 
 Dåligt utformade bokmärken eller bokmärken med dubbletter av namn kommer att ignoreras när dokumentet sparas.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar ett bokmärke.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

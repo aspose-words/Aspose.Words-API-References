@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Width
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Hämtar bredden på den angivna ramen i punkter.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words för .NET
+description: FrameFormat Width fast egendom. Hämtar bredden på den angivna ramen i punkter i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/frameformat/width/
@@ -14,7 +16,7 @@ Hämtar bredden på den angivna ramen, i punkter.
 public double Width { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Se även
 
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

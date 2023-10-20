@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrignull .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words för .NET
+description: Odso FieldMapDatas fast egendom. Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrignull  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en samling objekt som anger hur kolumner från den ext
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

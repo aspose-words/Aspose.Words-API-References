@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.SaveOutputParameters klass. Detta objekt returneras till den som ringer efter att ett dokument har sparats och innehåller ytterligare information som har genererats eller beräknats under sparoperationen. Den som ringer kan använda eller ignorera detta objekt.
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.SaveOutputParameters klass. Detta objekt returneras till den som ringer efter att ett dokument har sparats och innehåller ytterligare information som har genererats eller beräknats under sparoperationen. Den som ringer kan använda eller ignorera detta objekt i C#.
 type: docs
 weight: 5590
 url: /sv/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Returnerar strängen Content-Type (Internet Media Type) som identifierar typen av det sparade dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt utdataparametrar för ett dokuments lagringsoperation.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

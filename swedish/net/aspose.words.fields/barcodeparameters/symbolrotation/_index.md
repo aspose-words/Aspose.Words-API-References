@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolRotation
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Rotation av streckkodssymbolen. Giltiga värden är 0 3.
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words för .NET
+description: BarcodeParameters SymbolRotation fast egendom. Rotation av streckkodssymbolen. Giltiga värden är 0 3 i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.fields/barcodeparameters/symbolrotation/
@@ -14,7 +16,7 @@ Rotation av streckkodssymbolen. Giltiga värden är [0, 3].
 public string SymbolRotation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

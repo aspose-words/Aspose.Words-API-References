@@ -1,7 +1,9 @@
 ---
 title: PageInfo.WidthInPoints
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. Hämtar sidans bredd i punkter.
+linktitle: WidthInPoints
+articleTitle: WidthInPoints
+second_title: Aspose.Words för .NET
+description: PageInfo WidthInPoints fast egendom. Hämtar sidans bredd i punkter i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.rendering/pageinfo/widthinpoints/
@@ -14,7 +16,7 @@ Hämtar sidans bredd i punkter.
 public float WidthInPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

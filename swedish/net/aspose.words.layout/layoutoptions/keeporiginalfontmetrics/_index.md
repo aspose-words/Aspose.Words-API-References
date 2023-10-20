@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på huruvida den ursprungliga teckensnittsmåtten ska användas efter teckensnittsersättning. Standard ärSann .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words för .NET
+description: LayoutOptions KeepOriginalFontMetrics fast egendom. Hämtar eller ställer in en indikation på huruvida den ursprungliga teckensnittsmåtten ska användas efter teckensnittsersättning. Standard ärSann  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en indikation på huruvida den ursprungliga teckensnit
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Se även
 
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

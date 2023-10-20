@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in en sekvens av tecken som separerar en post och dess sidnummer.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words för .NET
+description: FieldToc EntrySeparator fast egendom. Hämtar eller ställer in en sekvens av tecken som separerar en post och dess sidnummer i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en sekvens av tecken som separerar en post och dess si
 public string EntrySeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

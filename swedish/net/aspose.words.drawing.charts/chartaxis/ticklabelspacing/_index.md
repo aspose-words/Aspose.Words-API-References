@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller ställer in intervallet vid vilket bocketiketter ritas.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words för .NET
+description: ChartAxis TickLabelSpacing fast egendom. Hämtar eller ställer in intervallet vid vilket bocketiketter ritas i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ Hämtar eller ställer in intervallet vid vilket bocketiketter ritas.
 public int TickLabelSpacing { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har effekt för textkategori och serieaxlar. Det stöds inte av MS Office 2016 nya sjökort. Giltigt intervall för ett värde är större än eller lika med 1.
 
 Om du ställer in den här egenskapen ställer du in[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) egendom till`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

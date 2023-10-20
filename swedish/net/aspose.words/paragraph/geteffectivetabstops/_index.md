@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph metod. Returnerar array av alla tabbstopp som tillämpas på detta stycke inklusive applicerade indirekt av stilar eller listor.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words för .NET
+description: Paragraph GetEffectiveTabStops metod. Returnerar array av alla tabbstopp som tillämpas på detta stycke inklusive applicerade indirekt av stilar eller listor i C#.
 type: docs
-weight: 270
+weight: 250
 url: /sv/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ Returnerar array av alla tabbstopp som tillämpas på detta stycke, inklusive ap
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in anpassade tabbstopp för ett stycke.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

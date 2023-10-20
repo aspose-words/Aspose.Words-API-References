@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att källformatering av textrutor innehåll ignored omKeepSourceFormatting läge används. Standardvärdet ärSann .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions IgnoreTextBoxes fast egendom. Hämtar eller ställer in ett booleskt värde som anger att källformatering av textrutor innehåll ignored omKeepSourceFormatting läge används. Standardvärdet ärSann  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som anger att källformatering av 
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du hanterar textruteformatering medan du lägger till ett dokument.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

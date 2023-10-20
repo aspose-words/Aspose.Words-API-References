@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat metod. Startar en ny standardnumrerad lista och tillämpar den på stycket.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words för .NET
+description: ListFormat ApplyNumberDefault metod. Startar en ny standardnumrerad lista och tillämpar den på stycket i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ Startar en ny standardnumrerad lista och tillämpar den på stycket.
 public void ApplyNumberDefault()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genvägsmetod som skapar en ny lista med standardmallen nummererad , tillämpar den på stycket och väljer den första listnivån.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar punktlistor och numrerade listor.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Se även
 
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

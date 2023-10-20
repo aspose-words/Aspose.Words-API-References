@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRun
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när en körning av text i den påträffas.
+linktitle: VisitRun
+articleTitle: VisitRun
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitRun metod. Anropas när en körning av text i den påträffas i C#.
 type: docs
 weight: 360
 url: /sv/net/aspose.words/documentvisitor/visitrun/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRun(Run run)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbesökare för att skriva ut ett dokuments nodstruktur.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Run](../../run/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

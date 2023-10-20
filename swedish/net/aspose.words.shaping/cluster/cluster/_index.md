@@ -1,7 +1,9 @@
 ---
-title: Cluster.Cluster
-second_title: Aspose.Words för .NET API Referens
-description: Cluster byggare. Initierar ny instans av denna klass.
+title: Cluster
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words för .NET
+description: Cluster byggare. Initierar ny instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.shaping/cluster/cluster/
@@ -23,7 +25,5 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* namnutrymme [Aspose.Words.Shaping](../../cluster/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

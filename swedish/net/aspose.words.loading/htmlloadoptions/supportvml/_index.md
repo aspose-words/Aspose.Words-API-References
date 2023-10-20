@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Aspose.Words för .NET API Referens
-description: HtmlLoadOptions fast egendom. Hämtar eller ställer in ett värde som anger om VMLbilder ska stödjas.
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: Aspose.Words för .NET
+description: HtmlLoadOptions SupportVml fast egendom. Hämtar eller ställer in ett värde som anger om VMLbilder ska stödjas i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger om VML-bilder ska stödjas.
 public bool SupportVml { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man stödjer villkorliga kommentarer när ett HTML-dokument laddas.
 
@@ -39,7 +41,5 @@ else
 ### Se även
 
 * class [HtmlLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../htmlloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

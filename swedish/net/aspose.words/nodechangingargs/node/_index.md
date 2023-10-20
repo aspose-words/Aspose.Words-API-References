@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words för .NET API Referens
-description: NodeChangingArgs fast egendom. FårNode som läggs till eller tas bort.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words för .NET
+description: NodeChangingArgs Node fast egendom. FårNode som läggs till eller tas bort i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ Får`Node` som läggs till eller tas bort.
 public Node Node { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* namnutrymme [Aspose.Words](../../nodechangingargs/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

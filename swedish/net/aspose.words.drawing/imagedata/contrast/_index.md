@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Hämtar eller ställer in kontrasten för den angivna bilden. Värdet för den här egenskapen måste vara ett tal från 00 den minsta kontrasten till 10 den största kontrasten.
+linktitle: Contrast
+articleTitle: Contrast
+second_title: Aspose.Words för .NET
+description: ImageData Contrast fast egendom. Hämtar eller ställer in kontrasten för den angivna bilden. Värdet för den här egenskapen måste vara ett tal från 00 den minsta kontrasten till 10 den största kontrasten i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ Hämtar eller ställer in kontrasten för den angivna bilden. Värdet för den h
 public double Contrast { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 0,5.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

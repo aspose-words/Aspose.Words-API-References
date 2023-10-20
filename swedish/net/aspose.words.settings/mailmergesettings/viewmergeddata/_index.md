@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger att Microsoft Word ska visa data från den angivna externa datakällan där sammanslagningsfälten har infogats t.ex. förhandsgranska sammanslagna data. Standardvärdet ärfalsk .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words för .NET
+description: MailMergeSettings ViewMergedData fast egendom. Anger att Microsoft Word ska visa data från den angivna externa datakällan där sammanslagningsfälten har infogats t.ex. förhandsgranska sammanslagna data. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ Anger att Microsoft Word ska visa data från den angivna externa datakällan dä
 public bool ViewMergedData { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

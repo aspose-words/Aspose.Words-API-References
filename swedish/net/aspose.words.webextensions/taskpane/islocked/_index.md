@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane fast egendom. Anger om aktivitetsfönstret är låst till dokumentet i användargränssnittet och inte kan stängas av användaren.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words för .NET
+description: TaskPane IsLocked fast egendom. Anger om aktivitetsfönstret är låst till dokumentet i användargränssnittet och inte kan stängas av användaren i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ Anger om aktivitetsfönstret är låst till dokumentet i användargränssnittet 
 public bool IsLocked { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

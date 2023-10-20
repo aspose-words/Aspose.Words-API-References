@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Add
-second_title: Aspose.Words för .NET API Referens
-description: KnownTypeSet metod. Lägger till det angivnaType objekt till uppsättningen. KastarArgumentException in följande fall
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: KnownTypeSet Add metod. Lägger till det angivnaType objekt till uppsättningen. KastarArgumentException in följande fall i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.reporting/knowntypeset/add/
@@ -33,7 +35,5 @@ public void Add(Type type)
 ### Se även
 
 * class [KnownTypeSet](../)
-* namnutrymme [Aspose.Words.Reporting](../../knowntypeset/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

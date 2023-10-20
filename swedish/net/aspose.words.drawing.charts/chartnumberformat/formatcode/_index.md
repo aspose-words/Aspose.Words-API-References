@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Aspose.Words för .NET API Referens
-description: ChartNumberFormat fast egendom. Hämtar eller ställer in formatkoden som tillämpas på en dataetikett.
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: Aspose.Words för .NET
+description: ChartNumberFormat FormatCode fast egendom. Hämtar eller ställer in formatkoden som tillämpas på en dataetikett i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in formatkoden som tillämpas på en dataetikett.
 public string FormatCode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Talformatering används för att ändra hur ett värde visas i dataetiketten och kan användas på några mycket kreativa sätt. Exemplen på talformat:
 
@@ -38,7 +40,7 @@ Bokföring - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_ -;_-@_-"
 
 Anpassad med färg - "[Röd]-#,##0.0"
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in formatering för diagramvärden.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### Se även
 
 * class [ChartNumberFormat](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

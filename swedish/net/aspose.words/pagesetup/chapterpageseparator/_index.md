@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in avgränsningstecknet som visas mellan kapitelnumret och sidnumret.
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words för .NET
+description: PageSetup ChapterPageSeparator fast egendom. Hämtar eller ställer in avgränsningstecknet som visas mellan kapitelnumret och sidnumret i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ Hämtar eller ställer in avgränsningstecknet som visas mellan kapitelnumret oc
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Innan du kan skapa sidnummer som inkluderar kapitelnummer måste dokumentrubrikerna ha ett numrerat dispositionsformat.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med sidkapitel.
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

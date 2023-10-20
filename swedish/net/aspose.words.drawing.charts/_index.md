@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Drawing.Charts namnrymden tillhandahåller klasser som tillåter åtkomst till diagram i Microsoft Worddokument.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Drawing.Charts namnrymden tillhandahåller klasser som tillåter åtkomst till diagram i Microsoft Worddokument i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/
 ---
-De **Aspose.Words.Drawing.Charts** namnrymden tillhandahåller klasser som tillåter åtkomst till diagram i Microsoft Word-dokument.
+De**Aspose.Words.Drawing.Charts** namnrymden tillhandahåller klasser som tillåter åtkomst till diagram i Microsoft Word-dokument.
 
 ## Klasser
 
@@ -62,5 +64,3 @@ De **Aspose.Words.Drawing.Charts** namnrymden tillhandahåller klasser som till�
 | [ChartYValueType](./chartyvaluetype/) | Gör det möjligt att ange typ av ett Y-värde i en diagramserie. |
 | [LegendPosition](./legendposition/) | Anger möjliga positioner för en diagramförklaring. |
 | [MarkerSymbol](./markersymbol/) | Anger markörsymbolstil. |
-
-

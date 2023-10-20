@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PixelToNewDpi
-second_title: Aspose.Words för .NET API Referens
-description: ConvertUtil metod. Konverterar pixlar från en upplösning till en annan.
+linktitle: PixelToNewDpi
+articleTitle: PixelToNewDpi
+second_title: Aspose.Words för .NET
+description: ConvertUtil PixelToNewDpi metod. Konverterar pixlar från en upplösning till en annan i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/convertutil/pixeltonewdpi/
@@ -20,7 +22,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | oldDpi | Double | Aktuell dpi (dots per inch) upplösning. |
 | newDpi | Double | Den nya dpi-upplösningen (dots per inch). |
 
-### Exempel
+## Exempel
 
 Visar hur man använder konvertera punkter till pixlar med standard och anpassad upplösning.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Se även
 
 * class [ConvertUtil](../)
-* namnutrymme [Aspose.Words](../../convertutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

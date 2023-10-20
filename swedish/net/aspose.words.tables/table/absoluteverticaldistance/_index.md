@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in den absoluta vertikala flytande tabellens position specificerad av tabellens egenskaper i poäng. Standardvärdet är 0.
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: Aspose.Words för .NET
+description: Table AbsoluteVerticalDistance fast egendom. Hämtar eller ställer in den absoluta vertikala flytande tabellens position specificerad av tabellens egenskaper i poäng. Standardvärdet är 0 i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den absoluta vertikala flytande tabellens position spe
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in placeringen av flytande bord.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

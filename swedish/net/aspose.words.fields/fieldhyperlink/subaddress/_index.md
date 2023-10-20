@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.SubAddress
-second_title: Aspose.Words för .NET API Referens
-description: FieldHyperlink fast egendom. Hämtar eller ställer in en plats i filen till exempel ett bokmärke där denna hyperlänk hoppar.
+linktitle: SubAddress
+articleTitle: SubAddress
+second_title: Aspose.Words för .NET
+description: FieldHyperlink SubAddress fast egendom. Hämtar eller ställer in en plats i filen till exempel ett bokmärke där denna hyperlänk hoppar i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en plats i filen, till exempel ett bokmärke, där den
 public string SubAddress { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder HYPERLINK-fält för att länka till dokument i det lokala filsystemet.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Se även
 
 * class [FieldHyperlink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldhyperlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

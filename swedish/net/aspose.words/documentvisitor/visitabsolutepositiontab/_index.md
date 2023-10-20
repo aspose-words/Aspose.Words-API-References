@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Ringde när enAbsolutePositionTab nod påträffas i dokumentet.
+linktitle: VisitAbsolutePositionTab
+articleTitle: VisitAbsolutePositionTab
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitAbsolutePositionTab metod. Ringde när enAbsolutePositionTab nod påträffas i dokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/documentvisitor/visitabsolutepositiontab/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man bearbetar absoluta positionstecken med en dokumentbesökare.
 
@@ -100,7 +102,5 @@ public class DocTextExtractor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [AbsolutePositionTab](../../absolutepositiontab/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

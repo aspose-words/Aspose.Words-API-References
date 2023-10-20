@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.MathObjectType
-second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. Får typMathObjectType av detta Office Mathobjekt.
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words för .NET
+description: OfficeMath MathObjectType fast egendom. Får typMathObjectType av detta Office Mathobjekt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.math/officemath/mathobjecttype/
@@ -14,7 +16,7 @@ Får typ`MathObjectType` av detta Office Math-objekt.
 public MathObjectType MathObjectType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
 
@@ -107,7 +109,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * enum [MathObjectType](../../mathobjecttype/)
 * class [OfficeMath](../)
-* namnutrymme [Aspose.Words.Math](../../officemath/)
+* namnutrymme [Aspose.Words.Math](../../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ControlChar klass. Kontrolltecken som ofta påträffas i dokument.
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ControlChar klass. Kontrolltecken som ofta påträffas i dokument i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | Tab-tecken: "\x0009" eller "\t". |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | Tab-tecken: (char)9 eller "\t". |
 
-### Anmärkningar
+## Anmärkningar
 
 Ger både char- och strängversioner av samma konstanter. Till exempel: sträng[`LineBreak`](./linebreak/) och röding[`LineBreakChar`](./linebreakchar/) har samma värde.
 
-### Exempel
+## Exempel
 
 Visar hur man använder kontrolltecken.
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

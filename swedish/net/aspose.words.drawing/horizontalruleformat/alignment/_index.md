@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Alignment
-second_title: Aspose.Words för .NET API Referens
-description: HorizontalRuleFormat fast egendom. Hämtar eller ställer in justeringen av den horisontella regeln.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words för .NET
+description: HorizontalRuleFormat Alignment fast egendom. Hämtar eller ställer in justeringen av den horisontella regeln i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -14,11 +16,11 @@ Hämtar eller ställer in justeringen av den horisontella regeln.
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärLeft.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en horisontell regelform och anpassar dess formatering.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * class [HorizontalRuleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

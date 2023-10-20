@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize fast egendom. Hämtar bildens bredd i pixlar.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words för .NET
+description: ImageSize WidthPixels fast egendom. Hämtar bildens bredd i pixlar i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ Hämtar bildens bredd i pixlar.
 public int WidthPixels { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man läser egenskaperna för en bild i en form.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Drawing namnutrymme tillhandahåller klasser som gör det möjligt att skapa och ändra ritobjekt.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Drawing namnutrymme tillhandahåller klasser som gör det möjligt att skapa och ändra ritobjekt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/
 ---
-De **Aspose.Words.Drawing** namnutrymme tillhandahåller klasser som gör det möjligt att skapa och ändra ritobjekt.
+De**Aspose.Words.Drawing** namnutrymme tillhandahåller klasser som gör det möjligt att skapa och ändra ritobjekt.
 
 ## Klasser
 
@@ -63,5 +65,3 @@ De **Aspose.Words.Drawing** namnutrymme tillhandahåller klasser som gör det m�
 | [VerticalAlignment](./verticalalignment/) | Anger vertikal justering av en flytande form, textram eller en flytande tabell. |
 | [WrapSide](./wrapside/) | Anger vilka sidor av formen eller bilden som texten lindas runt. |
 | [WrapType](./wraptype/) | Anger hur text lindas runt en form eller bild. |
-
-

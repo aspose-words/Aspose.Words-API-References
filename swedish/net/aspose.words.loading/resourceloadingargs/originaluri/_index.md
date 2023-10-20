@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
-second_title: Aspose.Words för .NET API Referens
-description: ResourceLoadingArgs fast egendom. Ursprunglig URI för resursen som anges i importerat dokument.
+linktitle: OriginalUri
+articleTitle: OriginalUri
+second_title: Aspose.Words för .NET
+description: ResourceLoadingArgs OriginalUri fast egendom. Ursprunglig URI för resursen som anges i importerat dokument i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -14,7 +16,7 @@ Ursprunglig URI för resursen som anges i importerat dokument.
 public string OriginalUri { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Se även
 
 * class [ResourceLoadingArgs](../)
-* namnutrymme [Aspose.Words.Loading](../../resourceloadingargs/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

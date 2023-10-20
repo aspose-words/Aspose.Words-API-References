@@ -1,7 +1,9 @@
 ---
 title: FormField.RemoveField
-second_title: Aspose.Words för .NET API Referens
-description: FormField metod. Tar bort hela formulärfältet inte bara formulärfältets specialtecken.
+linktitle: RemoveField
+articleTitle: RemoveField
+second_title: Aspose.Words för .NET
+description: FormField RemoveField metod. Tar bort hela formulärfältet inte bara formulärfältets specialtecken i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.fields/formfield/removefield/
@@ -14,11 +16,11 @@ Tar bort hela formulärfältet, inte bara formulärfältets specialtecken.
 public void RemoveField()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det finns ett bokmärke kopplat till formulärfältet tas bokmärket inte bort.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort ett formulärfält.
 
@@ -32,7 +34,5 @@ formField.RemoveField();
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

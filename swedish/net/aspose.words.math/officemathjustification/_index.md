@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathJustification
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Math.OfficeMathJustification uppräkning. Anger motiveringen av ekvationen.
+title: OfficeMathJustification Enum
+linktitle: OfficeMathJustification
+articleTitle: OfficeMathJustification
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Math.OfficeMathJustification uppräkning. Anger motiveringen av ekvationen i C#.
 type: docs
 weight: 4140
 url: /sv/net/aspose.words.math/officemathjustification/
@@ -25,7 +27,7 @@ public enum OfficeMathJustification
 | Inline | `7` | Inline position för Math. |
 | Default | `1` | StandardvärdeCenterGroup . |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in kontorsmattevisningsformatering.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * namnutrymme [Aspose.Words.Math](../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../)
-
-

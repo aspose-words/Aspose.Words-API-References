@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Aspose.Words för .NET API Referens
-description: Hyphenation fast egendom. Hämtar eller ställer in återuppringningsgränssnitt som används för att begära ordlistor när sidlayout för dokumentet byggs. Detta tillåter fördröjning av laddning av ordböcker vilket kan vara användbart vid bearbetning av dokument på många språk.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words för .NET
+description: Hyphenation Callback fast egendom. Hämtar eller ställer in återuppringningsgränssnitt som används för att begära ordlistor när sidlayout för dokumentet byggs. Detta tillåter fördröjning av laddning av ordböcker vilket kan vara användbart vid bearbetning av dokument på många språk i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ Hämtar eller ställer in återuppringningsgränssnitt som används för att beg
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* namnutrymme [Aspose.Words](../../hyphenation/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

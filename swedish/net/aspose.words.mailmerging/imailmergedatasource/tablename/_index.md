@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Aspose.Words för .NET API Referens
-description: IMailMergeDataSource fast egendom. Returnerar namnet på datakällan.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words för .NET
+description: IMailMergeDataSource TableName fast egendom. Returnerar namnet på datakällan i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 Namnet på datakällan. Tom sträng om datakällan inte har något namn.
 
-### Anmärkningar
+## Anmärkningar
 
 Om du implementerar[`IMailMergeDataSource`](../), returnera namnet på data -källan från den här egenskapen.
 
 Aspose.Words använder detta namn för att matcha mot kopplingsområdets namn specificerat i malldokumentet. Jämförelsen mellan datakällans namn och namnet på kopplingsregionens namn är inte skiftlägeskänslig.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med en datakälla i form av ett anpassat objekt.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Se även
 
 * interface [IMailMergeDataSource](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

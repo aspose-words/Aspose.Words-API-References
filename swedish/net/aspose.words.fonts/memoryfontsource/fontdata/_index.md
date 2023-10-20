@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.FontData
-second_title: Aspose.Words för .NET API Referens
-description: MemoryFontSource fast egendom. Binära teckensnittsdata.
+linktitle: FontData
+articleTitle: FontData
+second_title: Aspose.Words för .NET
+description: MemoryFontSource FontData fast egendom. Binära teckensnittsdata i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/memoryfontsource/fontdata/
@@ -14,7 +16,7 @@ Binära teckensnittsdata.
 public byte[] FontData { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en byte-array med data från en teckensnittsfil som teckensnittskälla.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Se även
 
 * class [MemoryFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../memoryfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

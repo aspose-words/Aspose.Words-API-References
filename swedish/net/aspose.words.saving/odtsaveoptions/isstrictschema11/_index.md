@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.IsStrictSchema11
-second_title: Aspose.Words för .NET API Referens
-description: OdtSaveOptions fast egendom. Anger om export ska motsvara ODTspecifikation 1.1 strikt. OOo 3.0 visar filer korrekt när de innehåller element och attribut för ODT 1.2. Använd false för detta ändamål eller true för strikt överensstämmelse med specifikation 1.1. Standardvärdet ärfalsk .
+linktitle: IsStrictSchema11
+articleTitle: IsStrictSchema11
+second_title: Aspose.Words för .NET
+description: OdtSaveOptions IsStrictSchema11 fast egendom. Anger om export ska motsvara ODTspecifikation 1.1 strikt. OOo 3.0 visar filer korrekt när de innehåller element och attribut för ODT 1.2. Använd false för detta ändamål eller true för strikt överensstämmelse med specifikation 1.1. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
@@ -14,7 +16,7 @@ Anger om export ska motsvara ODT-specifikation 1.1 strikt. OOo 3.0 visar filer k
 public bool IsStrictSchema11 { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får ett sparat dokument att överensstämma med ett äldre ODT-schema.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ### Se även
 
 * class [OdtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../odtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

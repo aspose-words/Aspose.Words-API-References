@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Returnerar en Nte underordnad nod som matchar den angivna typen.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words för .NET
+description: CompositeNode GetChild metod. Returnerar en Nte underordnad nod som matchar den angivna typen i C#.
 type: docs
-weight: 100
+weight: 80
 url: /sv/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 Den underordnade noden som matchar kriterierna eller`null` om ingen matchande nod hittas.
 
-### Anmärkningar
+## Anmärkningar
 
 Om index ligger utanför intervallet, a`null` returneras.
 
 Observera att uppmärkningsnoder (StructuredDocumentTag ochSmartTag ) korsas även när*isDeep* =`falsk` och`GetChild` anropas för non-markup nodtyp. Till exempel om den första körningen i en para är inslagen i en[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , kommer den fortfarande att returneras av`GetChild`(Run , 0,`falsk`).
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar egenskaperna för en tabells stil direkt på tabellens element.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

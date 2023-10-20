@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.OldParent
-second_title: Aspose.Words för .NET API Referens
-description: NodeChangingArgs fast egendom. Hämtar nodens förälder innan operationen började.
+linktitle: OldParent
+articleTitle: OldParent
+second_title: Aspose.Words för .NET
+description: NodeChangingArgs OldParent fast egendom. Hämtar nodens förälder innan operationen började i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/nodechangingargs/oldparent/
@@ -14,7 +16,7 @@ Hämtar nodens förälder innan operationen började.
 public Node OldParent { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* namnutrymme [Aspose.Words](../../nodechangingargs/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

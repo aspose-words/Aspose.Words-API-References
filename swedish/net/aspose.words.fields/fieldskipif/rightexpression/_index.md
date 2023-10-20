@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldSkipIf fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words för .NET
+description: FieldSkipIf RightExpression fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den högra delen av jämförelseuttrycket.
 public string RightExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hoppar över sidor i en sammanfogning med hjälp av SKIPIF-fältet.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Se även
 
 * class [FieldSkipIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldskipif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class UserInformation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.UserInformation klass. Anger information om användaren.
+title: UserInformation Class
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.UserInformation klass. Anger information om användaren i C#.
 type: docs
 weight: 2790
 url: /sv/net/aspose.words.fields/userinformation/
@@ -31,7 +33,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Hämtar eller ställer in användarens initialer. |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | Hämtar eller ställer in användarens namn. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

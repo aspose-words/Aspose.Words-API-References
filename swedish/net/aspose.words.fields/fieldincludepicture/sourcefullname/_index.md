@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: FieldIncludePicture fast egendom. Hämtar eller ställer in bildens plats med en IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: FieldIncludePicture SourceFullName fast egendom. Hämtar eller ställer in bildens plats med en IRI i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bildens plats med en IRI.
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Se även
 
 * class [FieldIncludePicture](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldincludepicture/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

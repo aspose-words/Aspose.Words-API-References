@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.StartNumber
-second_title: Aspose.Words för .NET API Referens
-description: EndnoteOptions fast egendom. Anger startnumret eller tecknet för de första automatiskt numrerade slutnoterna.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words för .NET
+description: EndnoteOptions StartNumber fast egendom. Anger startnumret eller tecknet för de första automatiskt numrerade slutnoterna i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.notes/endnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Anger startnumret eller tecknet för de första automatiskt numrerade slutnotern
 public int StartNumber { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna egenskap har endast effekt när[`RestartRule`](../restartrule/) är inställd på Continuous.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett nummer vid vilket dokumentet börjar räkna fotnot/slutnot.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Se även
 
 * class [EndnoteOptions](../)
-* namnutrymme [Aspose.Words.Notes](../../endnoteoptions/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

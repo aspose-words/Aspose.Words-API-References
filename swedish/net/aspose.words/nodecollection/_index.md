@@ -1,7 +1,9 @@
 ---
-title: Class NodeCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.NodeCollection klass. Representerar en samling noder av en specifik typ.
+title: NodeCollection Class
+linktitle: NodeCollection
+articleTitle: NodeCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.NodeCollection klass. Representerar en samling noder av en specifik typ i C#.
 type: docs
 weight: 4200
 url: /sv/net/aspose.words/nodecollection/
@@ -27,17 +29,17 @@ public class NodeCollection : IEnumerable<Node>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Lägger till en nod i slutet av samlingen. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestämmer om en nod finns i samlingen. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestämmer om en nod finns i samlingen. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Returnerar det nollbaserade indexet för den angivna noden. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Infogar en nod i samlingen vid det angivna indexet. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Tar bort noden från samlingen och från dokumentet. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Tar bort noden från samlingen och från dokumentet. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopierar alla noder från samlingen till en ny array av noder. |
 
-### Anmärkningar
+## Anmärkningar
 
 `NodeCollection` äger inte noderna den innehåller, snarare är det bara ett urval av nodes av den angivna typen, men noderna lagras i trädet under sina respektive överordnade noder.
 
@@ -49,7 +51,7 @@ De`NodeCollection` samlingen är "live", dvs. ändringar av barnen till noden ob
 
 `NodeCollection` kan vara "platt" och endast innehålla omedelbara underordnade av noden den skapades från, eller så kan den vara "djup" och innehålla alla underordnade underordnade.
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla textruteformer med bildformer.
 
@@ -96,5 +98,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * class [Node](../node/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

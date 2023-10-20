@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Aspose.Words för .NET API Referens
-description: ChartFormat fast egendom. Får fyllningsformatering för det överordnade diagramelementet.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words för .NET
+description: ChartFormat Fill fast egendom. Får fyllningsformatering för det överordnade diagramelementet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ Får fyllningsformatering för det överordnade diagramelementet.
 public Fill Fill { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

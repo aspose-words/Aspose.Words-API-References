@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping metod. Ställer in en mappning mellan den överordnade strukturerade dokumenttaggen och en XMLnod för en anpassad XMLdatadel.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words för .NET
+description: XmlMapping SetMapping metod. Ställer in en mappning mellan den överordnade strukturerade dokumenttaggen och en XMLnod för en anpassad XMLdatadel i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 En flagga som indikerar om den överordnade strukturerade dokumenttaggen har mappats till XML-noden.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

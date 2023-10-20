@@ -1,7 +1,9 @@
 ---
 title: Document.Variables
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar samlingen av variabler som lagts till i ett dokument eller mall.
+linktitle: Variables
+articleTitle: Variables
+second_title: Aspose.Words för .NET
+description: Document Variables fast egendom. Returnerar samlingen av variabler som lagts till i ett dokument eller mall i C#.
 type: docs
 weight: 440
 url: /sv/net/aspose.words/document/variables/
@@ -14,7 +16,7 @@ Returnerar samlingen av variabler som lagts till i ett dokument eller mall.
 public VariableCollection Variables { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments variabelsamling.
 
@@ -82,7 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

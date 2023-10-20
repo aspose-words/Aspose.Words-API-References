@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Aspose.Words för .NET API Referens
-description: Run metod. Hämtar texten för körningen.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words för .NET
+description: Run GetText metod. Hämtar texten för körningen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Löpningens text.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut nodstrukturen för varje sidhuvud och sidfot i ett dokument.
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### Se även
 
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

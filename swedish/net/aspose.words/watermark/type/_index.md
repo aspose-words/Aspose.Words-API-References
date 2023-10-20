@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Aspose.Words för .NET API Referens
-description: Watermark fast egendom. Hämtar vattenstämpeltypen.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: Watermark Type fast egendom. Hämtar vattenstämpeltypen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: MappedDataFieldCollection fast egendom. Hämtar eller ställer in namnet på fältet i datakällan som är kopplad till det angivna kopplingsfältet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: MappedDataFieldCollection Item fast egendom. Hämtar eller ställer in namnet på fältet i datakällan som är kopplad till det angivna kopplingsfältet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på fältet i datakällan som är kopplad till 
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Se även
 
 * class [MappedDataFieldCollection](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

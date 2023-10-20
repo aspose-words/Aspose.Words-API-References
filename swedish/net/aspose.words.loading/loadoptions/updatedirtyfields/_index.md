@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Anger om fälten ska uppdateras medsmutsig attribut.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words för .NET
+description: LoadOptions UpdateDirtyFields fast egendom. Anger om fälten ska uppdateras medsmutsig attribut i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ Anger om fälten ska uppdateras med`smutsig` attribut.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder speciella egenskaper för att uppdatera fältresultat.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Se även
 
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

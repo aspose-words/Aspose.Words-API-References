@@ -1,7 +1,9 @@
 ---
 title: FieldStart.FieldData
-second_title: Aspose.Words för .NET API Referens
-description: FieldStart fast egendom. Hämtar anpassade fältdata som är associerade med fältet.
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words för .NET
+description: FieldStart FieldData fast egendom. Hämtar anpassade fältdata som är associerade med fältet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldstart/fielddata/
@@ -14,7 +16,7 @@ Hämtar anpassade fältdata som är associerade med fältet.
 public byte[] FieldData { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får data kopplade till fältet.
 
@@ -28,7 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### Se även
 
 * class [FieldStart](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstart/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

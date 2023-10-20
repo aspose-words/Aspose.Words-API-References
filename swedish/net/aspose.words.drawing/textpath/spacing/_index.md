@@ -1,7 +1,9 @@
 ---
 title: TextPath.Spacing
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar mängden mellanrum för text. 1 betyder 100.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words för .NET
+description: TextPath Spacing fast egendom. Definierar mängden mellanrum för text. 1 betyder 100 i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/textpath/spacing/
@@ -14,11 +16,11 @@ Definierar mängden mellanrum för text. 1 betyder 100%.
 public double Spacing { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 1.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

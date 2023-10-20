@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxisCollection fast egendom. Hämtar antalet axlar i den här samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ChartAxisCollection Count fast egendom. Hämtar antalet axlar i den här samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartaxiscollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Se även
 
 * class [ChartAxisCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Aspose.Words för .NET API Referens
-description: IChartDataPoint fast egendom. Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words för .NET
+description: IChartDataPoint Explosion fast egendom. Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negat
 public int Explosion { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar skivorna i ett cirkeldiagram bort från mitten.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Se även
 
 * interface [IChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

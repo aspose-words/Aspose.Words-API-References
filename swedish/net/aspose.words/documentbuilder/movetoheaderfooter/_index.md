@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till början av en sidhuvud eller sidfot i det aktuella avsnittet.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToHeaderFooter metod. Flyttar markören till början av en sidhuvud eller sidfot i det aktuella avsnittet i C#.
 type: docs
-weight: 550
+weight: 540
 url: /sv/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Anger sidhuvudet eller sidfoten att flytta till. |
 
-### Anmärkningar
+## Anmärkningar
 
 När du har flyttat markören till en sidhuvud eller sidfot kan du använda resten av[`DocumentBuilder`](../) metoder för att ändra innehållet i sidhuvudet eller sidfoten.
 
@@ -28,7 +30,7 @@ Om du vill skapa sidhuvuden och sidfötter olika för jämna och udda sidor beh�
 
 Använda sig av[`MoveToSection`](../movetosection/) för att flytta ut från rubriken till huvudtexten.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en bild och använder den som vattenstämpel.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

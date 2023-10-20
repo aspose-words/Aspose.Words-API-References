@@ -1,7 +1,9 @@
 ---
 title: Glyph.Advance
-second_title: Aspose.Words för .NET API Referens
-description: Glyph fast egendom. Avancerad bredd som indikerar placering för den efterföljande glyfen.
+linktitle: Advance
+articleTitle: Advance
+second_title: Aspose.Words för .NET
+description: Glyph Advance fast egendom. Avancerad bredd som indikerar placering för den efterföljande glyfen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.shaping/glyph/advance/
@@ -17,7 +19,5 @@ public short Advance { get; set; }
 ### Se även
 
 * class [Glyph](../)
-* namnutrymme [Aspose.Words.Shaping](../../glyph/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Bindings
-second_title: Aspose.Words för .NET API Referens
-description: WebExtension fast egendom. Anger en lista över webbtilläggsbindningar.
+linktitle: Bindings
+articleTitle: Bindings
+second_title: Aspose.Words för .NET
+description: WebExtension Bindings fast egendom. Anger en lista över webbtilläggsbindningar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.webextensions/webextension/bindings/
@@ -14,7 +16,7 @@ Anger en lista över webbtilläggsbindningar.
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * class [WebExtension](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextension/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

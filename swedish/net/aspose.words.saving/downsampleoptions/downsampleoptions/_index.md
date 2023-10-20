@@ -1,7 +1,9 @@
 ---
-title: DownsampleOptions.DownsampleOptions
-second_title: Aspose.Words för .NET API Referens
-description: DownsampleOptions byggare. Default_Constructor
+title: DownsampleOptions
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words för .NET
+description: DownsampleOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/downsampleoptions/downsampleoptions/
@@ -17,7 +19,5 @@ public DownsampleOptions()
 ### Se även
 
 * class [DownsampleOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../downsampleoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

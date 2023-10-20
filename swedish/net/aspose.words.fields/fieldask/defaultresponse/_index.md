@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.DefaultResponse
-second_title: Aspose.Words för .NET API Referens
-description: FieldAsk fast egendom. Hämtar eller ställer in standardanvändarsvar initialvärde i promptfönstret.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words för .NET
+description: FieldAsk DefaultResponse fast egendom. Hämtar eller ställer in standardanvändarsvar initialvärde i promptfönstret i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldask/defaultresponse/
@@ -14,7 +16,7 @@ Hämtar eller ställer in standardanvändarsvar (initialvärde i promptfönstret
 public string DefaultResponse { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldAsk](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldask/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

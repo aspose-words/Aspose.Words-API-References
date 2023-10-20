@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: VbaReferenceCollection metod. Tar bortVbaReference element vid det angivna indexet för samlingen.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: VbaReferenceCollection RemoveAt metod. Tar bortVbaReference element vid det angivna indexet för samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -14,7 +16,7 @@ Tar bort[`VbaReference`](../../vbareference/) element vid det angivna indexet f�
 public void RemoveAt(int index)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Se även
 
 * class [VbaReferenceCollection](../)
-* namnutrymme [Aspose.Words.Vba](../../vbareferencecollection/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

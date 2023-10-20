@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Aspose.Words för .NET API Referens
-description: CustomPart fast egendom. Hämtar eller ställer in relationstypen från den överordnade delen till den här anpassade delen.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words för .NET
+description: CustomPart RelationshipType fast egendom. Hämtar eller ställer in relationstypen från den överordnade delen till den här anpassade delen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ Hämtar eller ställer in relationstypen från den överordnade delen till den h
 public string RelationshipType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Relationstypen för en anpassad del måste vara "okänd", t.ex. en anpassad relationstyp, inte en av relationstyperna definierade inom ISO/IEC 29500.
 
 Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPart](../)
-* namnutrymme [Aspose.Words.Markup](../../custompart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

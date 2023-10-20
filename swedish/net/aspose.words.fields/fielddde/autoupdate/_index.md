@@ -1,7 +1,9 @@
 ---
 title: FieldDde.AutoUpdate
-second_title: Aspose.Words för .NET API Referens
-description: FieldDde fast egendom. Hämtar eller ställer in om det här fältet ska uppdateras automatiskt.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words för .NET
+description: FieldDde AutoUpdate fast egendom. Hämtar eller ställer in om det här fältet ska uppdateras automatiskt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fielddde/autoupdate/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det här fältet ska uppdateras automatiskt.
 public bool AutoUpdate { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDde](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddde/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

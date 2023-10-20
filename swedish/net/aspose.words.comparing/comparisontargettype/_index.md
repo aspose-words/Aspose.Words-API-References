@@ -1,7 +1,9 @@
 ---
-title: Enum ComparisonTargetType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Comparing.ComparisonTargetType uppräkning. Tillåter att ange basdokument som kommer att användas under jämförelse. Standardvärdet ärCurrent .
+title: ComparisonTargetType Enum
+linktitle: ComparisonTargetType
+articleTitle: ComparisonTargetType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Comparing.ComparisonTargetType uppräkning. Tillåter att ange basdokument som kommer att användas under jämförelse. Standardvärdet ärCurrent  i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.comparing/comparisontargettype/
@@ -21,11 +23,11 @@ public enum ComparisonTargetType
 | Current | `0` | Det här dokumentet används som bas vid jämförelsen. |
 | New | `1` | Annat dokument används som bas vid jämförelse. |
 
-### Anmärkningar
+## Anmärkningar
 
 Relaterar till Microsoft Word alternativet "Visa ändringar i" i dialogrutan "Jämför dokument".
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -100,5 +102,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * namnutrymme [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../)
-
-

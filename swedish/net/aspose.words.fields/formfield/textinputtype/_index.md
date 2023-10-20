@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in typen av ett textformulärfält.
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: Aspose.Words för .NET
+description: FormField TextInputType fast egendom. Hämtar eller ställer in typen av ett textformulärfält i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ Hämtar eller ställer in typen av ett textformulärfält.
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

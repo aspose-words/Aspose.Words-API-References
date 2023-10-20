@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Aspose.Words för .NET API Referens
-description: FontFallbackSettings metod. Laddar fördefinierade reservinställningar som använder Google Nototeckensnitt.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words för .NET
+description: FontFallbackSettings LoadNotoFallbackSettings metod. Laddar fördefinierade reservinställningar som använder Google Nototeckensnitt i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ Laddar fördefinierade reservinställningar som använder Google Noto-teckensnit
 public void LoadNotoFallbackSettings()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till fördefinierade alternativa teckensnittsinställningar för Google Noto-teckensnitt.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Se även
 
 * class [FontFallbackSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

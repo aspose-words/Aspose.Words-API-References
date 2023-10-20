@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Hämtar eller ställer in motiveringen för det faktiska numret för listobjektet.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words för .NET
+description: ListLevel Alignment fast egendom. Hämtar eller ställer in motiveringen för det faktiska numret för listobjektet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ Hämtar eller ställer in motiveringen för det faktiska numret för listobjekte
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Listetiketten är motiverad i förhållande till[`NumberPosition`](../numberposition/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

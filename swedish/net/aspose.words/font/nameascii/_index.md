@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar eller ställer in teckensnittet som används för latinsk text tecken med teckenkoder från 0 noll till 127.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words för .NET
+description: Font NameAscii fast egendom. Returnerar eller ställer in teckensnittet som används för latinsk text tecken med teckenkoder från 0 noll till 127 i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ Returnerar eller ställer in teckensnittet som används för latinsk text (tecke
 public string NameAscii { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur Microsoft Word kan kombinera två olika typsnitt i en körning.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

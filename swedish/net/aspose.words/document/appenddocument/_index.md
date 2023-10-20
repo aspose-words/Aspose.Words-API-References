@@ -1,12 +1,14 @@
 ---
 title: Document.AppendDocument
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Lägger till det angivna dokumentet i slutet av detta dokument.
+linktitle: AppendDocument
+articleTitle: AppendDocument
+second_title: Aspose.Words för .NET
+description: Document AppendDocument metod. Lägger till det angivna dokumentet i slutet av detta dokument i C#.
 type: docs
-weight: 550
+weight: 530
 url: /sv/net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {#appenddocument}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
 Lägger till det angivna dokumentet i slutet av detta dokument.
 
@@ -19,7 +21,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | Dokumentet som ska bifogas. |
 | importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett dokument i slutet av ett annat dokument.
 
@@ -66,12 +68,12 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
 Lägger till det angivna dokumentet i slutet av detta dokument.
 
@@ -86,7 +88,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
 | importFormatOptions | ImportFormatOptions | Tillåter att ange alternativ som påverkar formateringen av ett resultatdokument. |
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar liststilkrockar samtidigt som man lägger till en klon av ett dokument till sig själv.
 
@@ -170,7 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

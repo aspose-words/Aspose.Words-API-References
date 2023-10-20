@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Anger om textrutor fotnoter och slutnoter ska inkluderas i statistiken över antalet ord.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words för .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat fast egendom. Anger om textrutor fotnoter och slutnoter ska inkluderas i statistiken över antalet ord i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ Anger om textrutor, fotnoter och slutnoter ska inkluderas i statistiken över an
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man inkluderar eller utesluter textrutor, fotnoter och slutnoter från statistik för ordräkning.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

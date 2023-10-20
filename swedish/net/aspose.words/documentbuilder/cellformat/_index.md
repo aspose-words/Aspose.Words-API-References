@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella tabellcellsformateringsegenskaper.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words för .NET
+description: DocumentBuilder CellFormat fast egendom. Returnerar ett objekt som representerar aktuella tabellcellsformateringsegenskaper i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ Returnerar ett objekt som representerar aktuella tabellcellsformateringsegenskap
 public CellFormat CellFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar celler med en dokumentbyggare.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

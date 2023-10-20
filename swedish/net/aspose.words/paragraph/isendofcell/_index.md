@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om detta stycke är det sista stycket i enCell  falskt annars.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words för .NET
+description: Paragraph IsEndOfCell fast egendom. Sant om detta stycke är det sista stycket i enCell  falskt annars i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ Sant om detta stycke är det sista stycket i en[`Cell`](../../../aspose.words.ta
 public bool IsEndOfCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett bord för att hålla ihop på samma sida.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

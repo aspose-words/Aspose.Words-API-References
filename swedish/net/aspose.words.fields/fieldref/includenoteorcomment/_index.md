@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef fast egendom. Hämtar eller ställer in om fotnots slutnots och anteckningsnummer som är är markerade med bokmärket ska ökas och infogar motsvarande fotnot slutnot och kommentarstext.
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: Aspose.Words för .NET
+description: FieldRef IncludeNoteOrComment fast egendom. Hämtar eller ställer in om fotnots slutnots och anteckningsnummer som är är markerade med bokmärket ska ökas och infogar motsvarande fotnot slutnot och kommentarstext i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om fotnots-, slutnots- och anteckningsnummer som är �
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar REF-fält för att referera till bokmärken.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

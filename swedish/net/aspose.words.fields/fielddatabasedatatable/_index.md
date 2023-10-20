@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataTable
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldDatabaseDataTable klass. Tillhandahåller data förFieldDatabase fältresultat. Snälla seDataTable instans.
+title: FieldDatabaseDataTable Class
+linktitle: FieldDatabaseDataTable
+articleTitle: FieldDatabaseDataTable
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldDatabaseDataTable klass. Tillhandahåller data förFieldDatabase fältresultat. Snälla seDataTable instans i C#.
 type: docs
 weight: 1760
 url: /sv/net/aspose.words.fields/fielddatabasedatatable/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataTable
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Initierar en ny instans av`FieldDatabaseDataTable` class. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | Initierar en ny instans av`FieldDatabaseDataTable` class. |
 
 ## Egenskaper
 
@@ -33,11 +35,9 @@ public class FieldDatabaseDataTable
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initierar en ny instans av`FieldDatabaseDataTable` class frånDataTable instans. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | Initierar en ny instans av`FieldDatabaseDataTable` class frånDataTable instans. |
 
 ### Se även
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

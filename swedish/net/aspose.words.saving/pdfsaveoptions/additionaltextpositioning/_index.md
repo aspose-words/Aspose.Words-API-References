@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. En flagga som anger om ytterligare textpositioneringsoperatorer ska skrivas eller inte.
+linktitle: AdditionalTextPositioning
+articleTitle: AdditionalTextPositioning
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions AdditionalTextPositioning fast egendom. En flagga som anger om ytterligare textpositioneringsoperatorer ska skrivas eller inte i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -14,13 +16,13 @@ En flagga som anger om ytterligare textpositioneringsoperatorer ska skrivas elle
 public bool AdditionalTextPositioning { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om`Sann` , ytterligare textpositioneringsoperatorer skrivs till utdata-PDF-filen. Detta kan hjälpa till att övervinna problem med felaktig textpositionering på vissa skrivare. Nackdelen är den ökade PDF-dokumentstorleken.
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visa hur man skriver ytterligare textpositioneringsoperatorer.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOpti
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

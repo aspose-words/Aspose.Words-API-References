@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in värdet som representerar den vänstra indraget i tabellen.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words för .NET
+description: Table LeftIndent fast egendom. Hämtar eller ställer in värdet som representerar den vänstra indraget i tabellen i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värdet som representerar den vänstra indraget i tabe
 public double LeftIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en formaterad tabell med DocumentBuilder.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av ett stycke har avslutats.
+linktitle: VisitParagraphEnd
+articleTitle: VisitParagraphEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitParagraphEnd metod. Anropas när uppräkningen av ett stycke har avslutats i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/documentvisitor/visitparagraphend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphEnd(Paragraph paragraph)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbesökare för att skriva ut ett dokuments nodstruktur.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Replacing.FindReplaceOptions klass. Anger alternativ för sök/ersättoperationer.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Replacing.FindReplaceOptions klass. Anger alternativ för sök/ersättoperationer i C#.
 type: docs
 weight: 4620
 url: /sv/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | namn | Beskrivning |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Constructor |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Egenskaper
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är`falsk` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om ersättningar ska identifieras och användas inom ersättningsmönster. Standardvärdet är`falsk` . |
 
-### Exempel
+## Exempel
 
 Visar hur du växlar skiftlägeskänslighet när du utför en sök-och-ersätt-åtgärd.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * namnutrymme [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../)
-
-

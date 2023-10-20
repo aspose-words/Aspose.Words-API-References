@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeColor
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med dettaFont objekt.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words för .NET
+description: Font ThemeColor fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med dettaFont objekt i C#.
 type: docs
 weight: 460
 url: /sv/net/aspose.words/font/themecolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är ass
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och använder stil med teman.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

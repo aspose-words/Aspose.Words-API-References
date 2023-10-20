@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping fast egendom. Returnerar den anpassade XMLdatadelen till vilken den överordnade strukturerade dokumenttaggen är mappad.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words för .NET
+description: XmlMapping CustomXmlPart fast egendom. Returnerar den anpassade XMLdatadelen till vilken den överordnade strukturerade dokumenttaggen är mappad i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ Returnerar den anpassade XML-datadelen till vilken den överordnade strukturerad
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in XML-mappningar för anpassade XML-delar.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

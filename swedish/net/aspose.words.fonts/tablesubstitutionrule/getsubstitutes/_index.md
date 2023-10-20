@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Aspose.Words för .NET API Referens
-description: TableSubstitutionRule metod. Returnerar array som innehåller ersättande teckensnittsnamn för det angivna ursprungliga teckensnittsnamnet.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words för .NET
+description: TableSubstitutionRule GetSubstitutes metod. Returnerar array som innehåller ersättande teckensnittsnamn för det angivna ursprungliga teckensnittsnamnet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 Lista över alternativa teckensnittsnamn.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

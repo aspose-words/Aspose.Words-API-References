@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Framesets.Frameset klass. Representerar en ramsida eller en enda ram på en ramsida.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Framesets.Frameset klass. Representerar en ramsida eller en enda ram på en ramsida i C#.
 type: docs
 weight: 3080
 url: /sv/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Hämtar eller ställer in webbsidans URL eller dokumentfilnamnet som ska visas i denna ram. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Hämtar eller ställer in ett värde som anger om webbsidan eller dokumentfilnamnet som anges i [`FrameDefaultUrl`](./framedefaulturl/) egenskapen är en extern resurs som ramen är länkad till. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om[`ChildFramesets`](./childframesets/) egenskapen innehåller objekt, den här instansen är en ramsida, annars är den en enda ram.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ramar på sidan.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * namnutrymme [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../)
-
-

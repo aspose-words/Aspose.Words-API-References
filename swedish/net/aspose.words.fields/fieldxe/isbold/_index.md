@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsBold
-second_title: Aspose.Words för .NET API Referens
-description: FieldXE fast egendom. Hämtar eller ställer in om fet formatering ska tillämpas på postens sidnummer.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words för .NET
+description: FieldXE IsBold fast egendom. Hämtar eller ställer in om fet formatering ska tillämpas på postens sidnummer i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldxe/isbold/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om fet formatering ska tillämpas på postens sidnumme
 public bool IsBold { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett INDEX-fält med poster med XE-fält, och även ändrar dess utseende.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Se även
 
 * class [FieldXE](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldxe/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Hämtar texten för denna nod och alla dess underordnade.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words för .NET
+description: Node GetText metod. Hämtar texten för denna nod och alla dess underordnade i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ Hämtar texten för denna nod och alla dess underordnade.
 public virtual string GetText()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../controlchar/).
 
-### Exempel
+## Exempel
 
 Visar hur man använder kontrolltecken.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

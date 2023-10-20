@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Aspose.Words för .NET API Referens
-description: License metod. Licensierar komponenten.
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: Aspose.Words för .NET
+description: License SetLicense metod. Licensierar komponenten i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 Licensierar komponenten.
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | Kan vara ett fullständigt eller kort filnamn eller namn på en inbäddad resurs. Använd en tom sträng för att växla till utvärderingsläge. |
 
-### Anmärkningar
+## Anmärkningar
 
 Försöker hitta licensen på följande platser:
 
@@ -38,7 +40,7 @@ Försöker hitta licensen på följande platser:
 
 2. En inbäddad resurs i klientens anropssammansättning.
 
-### Exempel
+## Exempel
 
 Visar hur man initierar en licens för Aspose.Words med hjälp av en licensfil i det lokala filsystemet.
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Se även
 
 * class [License](../)
-* namnutrymme [Aspose.Words](../../license/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 Licensierar komponenten.
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | En stream som innehåller licensen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att ladda en licens från en stream.
 
-### Exempel
+## Exempel
 
 Visar hur man initierar en licens för Aspose.Words från en ström.
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### Se även
 
 * class [License](../)
-* namnutrymme [Aspose.Words](../../license/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

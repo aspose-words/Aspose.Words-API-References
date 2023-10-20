@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToScale
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Gör en dokumentsida till enGraphics objekt i en angiven skala.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words för .NET
+description: Document RenderToScale metod. Gör en dokumentsida till enGraphics objekt i en angiven skala i C#.
 type: docs
-weight: 700
+weight: 680
 url: /sv/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -26,7 +28,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 Bredden och höjden (i världsenheter) på den renderade sidan.
 
-### Exempel
+## Exempel
 
 Visar hur de enskilda sidorna i ett dokument till grafik för att skapa en bild med miniatyrer av alla sidor.
 
@@ -133,7 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

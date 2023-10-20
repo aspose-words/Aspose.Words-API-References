@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Aspose.Words för .NET API Referens
-description: Hyphenation metod. Returnerarfalsk om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är NullordbokSann annars.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words för .NET
+description: Hyphenation IsDictionaryRegistered metod. Returnerarfalsk om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är NullordbokSann annars i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ Returnerar`falsk` om det för det angivna språket inte finns någon ordbok regi
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man registrerar en avstavningsordbok.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Se även
 
 * class [Hyphenation](../)
-* namnutrymme [Aspose.Words](../../hyphenation/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

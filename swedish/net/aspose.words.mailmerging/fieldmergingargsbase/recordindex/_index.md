@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. Hämtar det nollbaserade indexet för posten som slås samman.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase RecordIndex fast egendom. Hämtar det nollbaserade indexet för posten som slås samman i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ Hämtar det nollbaserade indexet för posten som slås samman.
 public int RecordIndex { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Se även
 
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

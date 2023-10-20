@@ -1,7 +1,9 @@
 ---
 title: Font.Size
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in teckenstorleken i poäng.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words för .NET
+description: Font Size fast egendom. Hämtar eller ställer in teckenstorleken i poäng i C#.
 type: docs
 weight: 340
 url: /sv/net/aspose.words/font/size/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenstorleken i poäng.
 public double Size { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -51,7 +53,5 @@ builder.Write("Hello world!");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

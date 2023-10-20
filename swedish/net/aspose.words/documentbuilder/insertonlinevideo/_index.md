@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertOnlineVideo metod. Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken i C#.
 type: docs
-weight: 420
+weight: 410
 url: /sv/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
@@ -37,7 +39,7 @@ Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som acceptera
 
 Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en onlinevideo i ett dokument med hjälp av en URL.
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
@@ -97,7 +99,7 @@ Om din onlinevideo inte visas korrekt, använd`InsertOnlineVideo`, som acceptera
 
 Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en onlinevideo i ett dokument.
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en onlinevideo i ett dokument med en anpassad miniatyrbild.
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 Infogar ett onlinevideoobjekt i dokumentet och skalar det till den angivna storleken.
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Bildnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en onlinevideo i ett dokument med en anpassad miniatyrbild.
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

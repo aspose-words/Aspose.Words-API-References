@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Aspose.Words för .NET API Referens
-description: FieldFormat fast egendom. Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar  switch.
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: Aspose.Words för .NET
+description: FieldFormat NumericFormat fast egendom. Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar  switch i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältr
 public string NumericFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Se även
 
 * class [FieldFormat](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldformat/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

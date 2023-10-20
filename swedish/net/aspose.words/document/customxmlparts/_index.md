@@ -1,7 +1,9 @@
 ---
 title: Document.CustomXmlParts
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in samlingen av anpassade XMLdatalagringsdelar.
+linktitle: CustomXmlParts
+articleTitle: CustomXmlParts
+second_title: Aspose.Words för .NET
+description: Document CustomXmlParts fast egendom. Hämtar eller ställer in samlingen av anpassade XMLdatalagringsdelar i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/document/customxmlparts/
@@ -14,13 +16,13 @@ Hämtar eller ställer in samlingen av anpassade XML-datalagringsdelar.
 public CustomXmlPartCollection CustomXmlParts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words laddar och sparar anpassade XML-delar endast i OOXML- och DOC-dokument.
 
 Den här egenskapen kan inte vara det`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -88,7 +90,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

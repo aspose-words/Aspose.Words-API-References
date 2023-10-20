@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.BottomPadding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i tabellceller.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words för .NET
+description: ConditionalStyle BottomPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i tabellceller i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/conditionalstyle/bottompadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till under
 public double BottomPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Se även
 
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

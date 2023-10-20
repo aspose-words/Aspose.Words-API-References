@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.IsExportNeeded
-second_title: Aspose.Words för .NET API Referens
-description: CssSavingArgs fast egendom. Tillåter att ange om CSS ska exporteras till fil och bäddas in i HTMLdokument. Standard ärSann . När den här egenskapen ärfalsk  kommer CSSinformationen inte att sparas i en CSSfil och kommer inte att bäddas in i HTMLdokument.
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words för .NET
+description: CssSavingArgs IsExportNeeded fast egendom. Tillåter att ange om CSS ska exporteras till fil och bäddas in i HTMLdokument. Standard ärSann . När den här egenskapen ärfalsk  kommer CSSinformationen inte att sparas i en CSSfil och kommer inte att bäddas in i HTMLdokument i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/csssavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Tillåter att ange om CSS ska exporteras till fil och bäddas in i HTML-dokument
 public bool IsExportNeeded { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -75,7 +77,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Se även
 
 * class [CssSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../csssavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class SubDocument
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.SubDocument klass. Representerar en Underdokument  som är en referens till ett externt lagrat dokument.
+title: SubDocument Class
+linktitle: SubDocument
+articleTitle: SubDocument
+second_title: Aspose.Words för .NET
+description: Aspose.Words.SubDocument klass. Representerar enUnderdokument  som är en referens till ett externt lagrat dokument i C#.
 type: docs
 weight: 6170
 url: /sv/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-Representerar en **Underdokument** - som är en referens till ett externt lagrat dokument.
+Representerar en**Underdokument** - som är en referens till ett externt lagrat dokument.
 
 För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
@@ -33,24 +35,24 @@ public class SubDocument : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/subdocument/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words/subdocument/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 I den här versionen av Aspose.Words,`SubDocument` noder tillhandahåller inte offentliga metoder och egenskaper för att skapa eller ändra ett underdokument. I den här versionen kan du inte instansiera `SubDocument` noder eller ändra befintliga förutom att ta bort dem.
 
 `SubDocument` kan bara vara ett barn av[`Paragraph`](../paragraph/).
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett huvuddokuments underdokument.
 
@@ -69,5 +71,3 @@ Assert.False(subDocument.IsComposite);
 * class [Node](../node/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

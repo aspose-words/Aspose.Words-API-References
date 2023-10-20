@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Tar bort alla former ritobjekt från sidhuvuden och sidfötter i det här avsnittet.
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: Aspose.Words för .NET
+description: Section DeleteHeaderFooterShapes metod. Tar bort alla former ritobjekt från sidhuvuden och sidfötter i det här avsnittet i C#.
 type: docs
-weight: 140
+weight: 120
 url: /sv/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ Tar bort alla former (ritobjekt) från sidhuvuden och sidfötter i det här avsn
 public void DeleteHeaderFooterShapes()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du tar bort alla former från alla sidhuvuden och sidfötter i ett avsnitt.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

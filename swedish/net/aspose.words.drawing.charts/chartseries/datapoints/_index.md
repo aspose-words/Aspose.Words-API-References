@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Returnerar en samling formateringsobjekt för alla datapunkter i denna serie.
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: Aspose.Words för .NET
+description: ChartSeries DataPoints fast egendom. Returnerar en samling formateringsobjekt för alla datapunkter i denna serie i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ Returnerar en samling formateringsobjekt för alla datapunkter i denna serie.
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

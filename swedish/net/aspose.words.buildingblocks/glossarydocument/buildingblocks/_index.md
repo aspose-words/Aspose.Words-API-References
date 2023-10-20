@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Aspose.Words för .NET API Referens
-description: GlossaryDocument fast egendom. Returnerar en maskinskriven samling som representerar alla byggstenar i ordlistans dokument.
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: Aspose.Words för .NET
+description: GlossaryDocument BuildingBlocks fast egendom. Returnerar en maskinskriven samling som representerar alla byggstenar i ordlistans dokument i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ Returnerar en maskinskriven samling som representerar alla byggstenar i ordlista
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

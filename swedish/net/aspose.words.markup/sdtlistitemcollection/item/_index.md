@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItemCollection fast egendom. Returnerar enSdtListItem objekt med tanke på dess nollbaserade index i samlingen.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: SdtListItemCollection Item fast egendom. Returnerar enSdtListItem objekt med tanke på dess nollbaserade index i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ Returnerar en[`SdtListItem`](../../sdtlistitem/) objekt med tanke på dess nollb
 public SdtListItem this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

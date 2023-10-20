@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera korsreferenser och andra poster.
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: Aspose.Words för .NET
+description: FieldIndex CrossReferenceSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera korsreferenser och andra poster i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera korsref
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar korsreferenser i ett INDEX-fält.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

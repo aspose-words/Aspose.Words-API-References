@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in språkID som används för att generera indexet.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words för .NET
+description: FieldIndex LanguageId fast egendom. Hämtar eller ställer in språkID som används för att generera indexet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ Hämtar eller ställer in språk-ID som används för att generera indexet.
 public string LanguageId { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett INDEX-fält med poster med XE-fält, och även ändrar dess utseende.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

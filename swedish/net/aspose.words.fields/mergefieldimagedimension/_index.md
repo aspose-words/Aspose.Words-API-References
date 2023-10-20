@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.MergeFieldImageDimension klass. Representerar en bilddimension dvs. bredden eller höjden som används i en kopplingsprocess.
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.MergeFieldImageDimension klass. Representerar en bilddimension dvs. bredden eller höjden som används i en kopplingsprocess i C#.
 type: docs
 weight: 2750
 url: /sv/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | namn | Beskrivning |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Skapar en bilddimensionsinstans med det angivna värdet i poäng. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Skapar en bilddimensionsinstans med det givna värdet och den givna enheten. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Skapar en bilddimensionsinstans med det angivna värdet i poäng. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Skapar en bilddimensionsinstans med det givna värdet och den givna enheten. |
 
 ## Egenskaper
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | Enheten. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | Värdet. |
 
-### Anmärkningar
+## Anmärkningar
 
 För att indikera att bilden ska infogas med sin ursprungliga dimension under en sammanslagning, bör du tilldela ett negativt värde till[`Value`](./value/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

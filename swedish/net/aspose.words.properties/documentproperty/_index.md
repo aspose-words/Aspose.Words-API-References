@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Properties.DocumentProperty klass. Representerar en anpassad eller inbyggd dokumentegenskap.
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Properties.DocumentProperty klass. Representerar en anpassad eller inbyggd dokumentegenskap i C#.
 type: docs
 weight: 4470
 url: /sv/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Returnerar egenskapsvärdet som bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Returnerar egenskapsvärdet som byte array. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Returnerar egenskapsvärdet som **Datum Tid** i UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Returnerar egenskapsvärdet som**Datum Tid** i UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Returnerar egenskapsvärdet som dubbelt. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Returnerar egenskapsvärdet som heltal. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Returnerar egenskapsvärdet som en sträng formaterad enligt det aktuella språket. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * namnutrymme [Aspose.Words.Properties](../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PageRange
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PageRange klass. Representerar ett kontinuerligt intervall av sidor.
+title: PageRange Class
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PageRange klass. Representerar ett kontinuerligt intervall av sidor i C#.
 type: docs
 weight: 5370
 url: /sv/net/aspose.words.saving/pagerange/
@@ -20,11 +22,9 @@ public sealed class PageRange
 
 | namn | Beskrivning |
 | --- | --- |
-| [PageRange](pagerange/)(int, int) | Skapar ett nytt sidintervallsobjekt. |
+| [PageRange](pagerange/)(*int, int*) | Skapar ett nytt sidintervallsobjekt. |
 
 ### Se även
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.CellVerticalAlignment uppräkning. Anger vertikal justering av text inuti en tabellcell.
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.CellVerticalAlignment uppräkning. Anger vertikal justering av text inuti en tabellcell i C#.
 type: docs
 weight: 6280
 url: /sv/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | Text är justerad i mitten av en cell. |
 | Bottom | `2` | Texten är justerad längst ned i cellen. |
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en formaterad 2x2-tabell.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

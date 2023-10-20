@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.AcceptAll
-second_title: Aspose.Words för .NET API Referens
-description: RevisionCollection metod. Accepterar alla versioner i denna samling.
+linktitle: AcceptAll
+articleTitle: AcceptAll
+second_title: Aspose.Words för .NET
+description: RevisionCollection AcceptAll metod. Accepterar alla versioner i denna samling i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/revisioncollection/acceptall/
@@ -14,7 +16,7 @@ Accepterar alla versioner i denna samling.
 public void AcceptAll()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man jämför dokument.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### Se även
 
 * class [RevisionCollection](../)
-* namnutrymme [Aspose.Words](../../revisioncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

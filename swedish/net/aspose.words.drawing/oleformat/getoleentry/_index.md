@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetOleEntry
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat metod. Hämtar OLEobjektdatainmatning.
+linktitle: GetOleEntry
+articleTitle: GetOleEntry
+second_title: Aspose.Words för .NET
+description: OleFormat GetOleEntry metod. Hämtar OLEobjektdatainmatning i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/oleformat/getoleentry/
@@ -22,7 +24,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 En OLE-dataström eller`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar länkade och olänkade OLE-objekt.
 
@@ -72,7 +74,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

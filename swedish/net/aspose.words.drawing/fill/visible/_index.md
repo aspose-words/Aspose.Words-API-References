@@ -1,9 +1,11 @@
 ---
 title: Fill.Visible
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in värde dvsSann om formateringen som tillämpas på den här instansen är synlig.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words för .NET
+description: Fill Visible fast egendom. Hämtar eller ställer in värde dvsSann om formateringen som tillämpas på den här instansen är synlig i C#.
 type: docs
-weight: 210
+weight: 200
 url: /sv/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
@@ -14,7 +16,7 @@ Hämtar eller ställer in värde dvs`Sann` om formateringen som tillämpas på d
 public bool Visible { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

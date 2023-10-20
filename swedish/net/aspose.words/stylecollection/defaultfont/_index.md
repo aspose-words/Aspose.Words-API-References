@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultFont
-second_title: Aspose.Words för .NET API Referens
-description: StyleCollection fast egendom. Får dokumentets standardtextformatering.
+linktitle: DefaultFont
+articleTitle: DefaultFont
+second_title: Aspose.Words för .NET
+description: StyleCollection DefaultFont fast egendom. Får dokumentets standardtextformatering i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/stylecollection/defaultfont/
@@ -14,11 +16,11 @@ Får dokumentets standardtextformatering.
 public Font DefaultFont { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att dokumentomfattande standardinställningar introducerades i Microsoft Word 2007 och stöds fullt ut i OOXML-format (Docx) only. Tidigare dokumentformat har begränsat stöd för den här funktionen och endast teckensnittsnamn kan lagras.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en stil till ett dokuments stilsamling.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

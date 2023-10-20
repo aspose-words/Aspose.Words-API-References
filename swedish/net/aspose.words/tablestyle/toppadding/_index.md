@@ -1,7 +1,9 @@
 ---
 title: TableStyle.TopPadding
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i tabellceller.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words för .NET
+description: TableStyle TopPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i tabellceller i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/tablestyle/toppadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till ovanf
 public double TopPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Se även
 
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

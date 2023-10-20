@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreakChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Radbrytningstecken char11 eller v.
+linktitle: LineBreakChar
+articleTitle: LineBreakChar
+second_title: Aspose.Words för .NET
+description: ControlChar LineBreakChar fält. Radbrytningstecken char11 eller v i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/controlchar/linebreakchar/
@@ -14,7 +16,7 @@ Radbrytningstecken: (char)11 eller "\v".
 public const char LineBreakChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

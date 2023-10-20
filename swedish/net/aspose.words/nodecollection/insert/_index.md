@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Infogar en nod i samlingen vid det angivna indexet.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words för .NET
+description: NodeCollection Insert metod. Infogar en nod i samlingen vid det angivna indexet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | De[`NodeCollection`](../) är en "djup" samling. |
 
-### Anmärkningar
+## Anmärkningar
 
 Noden infogas som ett underordnat objekt i nodobjektet från vilket samlingen skapades.
 
@@ -35,7 +37,7 @@ Om indexet är negativt och dess absoluta värde är större än[`Count`](../cou
 
 Om noden som infogas skapades från ett annat dokument bör du använda [`ImportNode`](../../documentbase/importnode/) för att importera noden till det aktuella dokumentet. Den importerade noden kan sedan infogas i det aktuella dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en NodeCollection.
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

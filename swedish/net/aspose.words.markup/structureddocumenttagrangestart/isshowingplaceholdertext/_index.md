@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger om innehållet i denna strukturerade dokumenttagg ska tolkas till att innehålla platshållartext i motsats till vanligt textinnehåll i den strukturerade dokumenttaggen.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText fast egendom. Anger om innehållet i denna strukturerade dokumenttagg ska tolkas till att innehålla platshållartext i motsats till vanligt textinnehåll i den strukturerade dokumenttaggen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -16,7 +18,7 @@ om satt till`Sann` , ska detta tillstånd återupptas (visar platshållartext) n
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

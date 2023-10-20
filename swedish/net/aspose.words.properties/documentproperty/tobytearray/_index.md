@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToByteArray
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty metod. Returnerar egenskapsvärdet som byte array.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words för .NET
+description: DocumentProperty ToByteArray metod. Returnerar egenskapsvärdet som byte array i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.properties/documentproperty/tobytearray/
@@ -14,11 +16,11 @@ Returnerar egenskapsvärdet som byte array.
 public byte[] ToByteArray()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kastar ett undantag om egenskapstypen inte är detByteArray.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en miniatyrbild till ett dokument som vi sparar som en Epub.
 
@@ -44,7 +46,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Aspose.Words för .NET API Referens
-description: RowFormat fast egendom. Sant om texten i en tabellrad tillåts delas över en sidbrytning.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words för .NET
+description: RowFormat AllowBreakAcrossPages fast egendom. Sant om texten i en tabellrad tillåts delas över en sidbrytning i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ Sant om texten i en tabellrad tillåts delas över en sidbrytning.
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du inaktiverar rader som delas över sidor för varje rad i en tabell.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Se även
 
 * class [RowFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../rowformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

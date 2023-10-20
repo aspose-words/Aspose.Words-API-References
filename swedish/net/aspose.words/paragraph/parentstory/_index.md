@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Hämtar den överordnade berättelsen på sektionsnivå som kan varaBody ellerHeaderFooter .
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: Aspose.Words för .NET
+description: Paragraph ParentStory fast egendom. Hämtar den överordnade berättelsen på sektionsnivå som kan varaBody ellerHeaderFooter  i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ Hämtar den överordnade berättelsen på sektionsnivå som kan vara[`Body`](../
 public Story ParentStory { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

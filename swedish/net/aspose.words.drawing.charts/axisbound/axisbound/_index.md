@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Aspose.Words för .NET API Referens
-description: AxisBound byggare. Skapar en ny instans som indikerar att axelbunden ska bestämmas automatiskt av en ordbehandlingsapplikation .
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words för .NET
+description: AxisBound byggare. Skapar en ny instans som indikerar att axelbunden ska bestämmas automatiskt av en ordbehandlingsapplikation  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ Skapar en ny instans som indikerar att axelbunden ska bestämmas automatiskt av 
 public AxisBound()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in anpassade axelgränser.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Se även
 
 * class [AxisBound](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Skapar en axelgräns representerad som ett tal.
 
@@ -87,7 +89,7 @@ Skapar en axelgräns representerad som ett tal.
 public AxisBound(double value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Se även
 
 * class [AxisBound](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Skapar en axelgräns representerad som datum och tid värde.
 
@@ -154,7 +156,7 @@ Skapar en axelgräns representerad som datum och tid värde.
 public AxisBound(DateTime datetime)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Se även
 
 * class [AxisBound](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

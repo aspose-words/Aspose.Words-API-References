@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValueCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection klass. Representerar en samling Yvärden för en diagramserie.
+title: ChartYValueCollection Class
+linktitle: ChartYValueCollection
+articleTitle: ChartYValueCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueCollection klass. Representerar en samling Yvärden för en diagramserie i C#.
 type: docs
 weight: 880
 url: /sv/net/aspose.words.drawing.charts/chartyvaluecollection/
@@ -27,13 +29,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
 
-### Anmärkningar
+## Anmärkningar
 
-Alla föremål i samlingen förutom **null** måste ha samma[`ValueType`](../chartyvalue/valuetype/).
+Alla föremål i samlingen förutom**null** måste ha samma[`ValueType`](../chartyvalue/valuetype/).
 
 Samlingen tillåter endast att ändra Y-värden. För att lägga till eller infoga nya värden i en diagramserie, eller ta bort värden, lämpliga metoder för[`ChartSeries`](../chartseries/) klass kan användas.
 
-### Exempel
+## Exempel
 
 Visar hur man får diagramseriedata.
 
@@ -91,5 +93,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartYValue](../chartyvalue/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

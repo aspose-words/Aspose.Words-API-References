@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartMustacheTag
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeRegionInfo fast egendom. Returnerar en start mustaschtagg för regionen.
+linktitle: StartMustacheTag
+articleTitle: StartMustacheTag
+second_title: Aspose.Words för .NET
+description: MailMergeRegionInfo StartMustacheTag fast egendom. Returnerar en start mustaschtagg för regionen i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -14,7 +16,7 @@ Returnerar en start "mustasch"-tagg för regionen.
 public MustacheTag StartMustacheTag { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med mustaschtaggarna.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

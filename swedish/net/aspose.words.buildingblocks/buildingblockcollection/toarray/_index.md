@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlockCollection metod. Kopierar alla byggstenar från samlingen till en ny uppsättning byggstenar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: BuildingBlockCollection ToArray metod. Kopierar alla byggstenar från samlingen till en ny uppsättning byggstenar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 En rad byggstenar.
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Aspose.Words för .NET API Referens
-description: FieldGreetingLine metod. Returnerar en samling av kopplingsfältnamn som används av fältet.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words för .NET
+description: FieldGreetingLine GetFieldNames metod. Returnerar en samling av kopplingsfältnamn som används av fältet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ Returnerar en samling av kopplingsfältnamn som används av fältet.
 public string[] GetFieldNames()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett HÄLSNINGSLINJE-fält.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Se även
 
 * class [FieldGreetingLine](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldgreetingline/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

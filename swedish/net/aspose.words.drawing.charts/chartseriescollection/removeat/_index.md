@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeriesCollection metod. Tar bort enChartSeries vid angivet index.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: ChartSeriesCollection RemoveAt metod. Tar bort enChartSeries vid angivet index i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet för[`ChartSeries`](../../chartseries/) att ta bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort seriedata i ett diagram.
 
@@ -65,7 +67,5 @@ chartData.Clear();
 ### Se även
 
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

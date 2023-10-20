@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.AutoHyphenation
-second_title: Aspose.Words för .NET API Referens
-description: HyphenationOptions fast egendom. Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen ärfalsk .
+linktitle: AutoHyphenation
+articleTitle: AutoHyphenation
+second_title: Aspose.Words för .NET
+description: HyphenationOptions AutoHyphenation fast egendom. Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/hyphenationoptions/autohyphenation/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiver
 public bool AutoHyphenation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar automatisk avstavning.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Se även
 
 * class [HyphenationOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../hyphenationoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

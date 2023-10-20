@@ -1,7 +1,9 @@
 ---
-title: Class VariableCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.VariableCollection klass. En samling dokumentvariabler.
+title: VariableCollection Class
+linktitle: VariableCollection
+articleTitle: VariableCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.VariableCollection klass. En samling dokumentvariabler i C#.
 type: docs
 weight: 6530
 url: /sv/net/aspose.words/variablecollection/
@@ -27,21 +29,21 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | Lägger till en dokumentvariabel till samlingen. |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Lägger till en dokumentvariabel till samlingen. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | Bestämmer om samlingen innehåller en dokumentvariabel med det angivna namnet. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Bestämmer om samlingen innehåller en dokumentvariabel med det angivna namnet. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla variabler i samlingen. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | Returnerar det nollbaserade indexet för den angivna dokumentvariabeln i samlingen. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | Tar bort en dokumentvariabel med det angivna namnet från samlingen. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | Tar bort en dokumentvariabel vid det angivna indexet. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Returnerar det nollbaserade indexet för den angivna dokumentvariabeln i samlingen. |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Tar bort en dokumentvariabel med det angivna namnet från samlingen. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Tar bort en dokumentvariabel vid det angivna indexet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Variabelnamn och -värden är strängar.
 
 Variabelnamn är skiftlägesokänsliga.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments variabelsamling.
 
@@ -109,5 +111,3 @@ Assert.That(variables, Is.Empty);
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolderAlias
-second_title: Aspose.Words för .NET API Referens
-description: XamlFixedSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett Xamldokument med fast sida. Standard ärnull .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words för .NET
+description: XamlFixedSaveOptions ResourcesFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett Xamldokument med fast sida. Standard ärnull  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Anger namnet på mappen som används för att konstruera bild-URI:er inskrivna i
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i Xaml-format med fast sida måste Aspose.Words spara all bilder som är inbäddade i dokumentet som fristående filer.[`ResourcesFolder`](../resourcesfolder/) låter dig ange var bilderna ska sparas och`ResourcesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut URI:erna för länkade resurser som skapats när ett dokument konverteras till .xaml i fast form.
 
@@ -81,7 +83,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [XamlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

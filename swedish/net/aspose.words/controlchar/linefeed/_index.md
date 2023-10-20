@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeed
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Radmatningstecken x000a eller n. Samma somLf .
+linktitle: LineFeed
+articleTitle: LineFeed
+second_title: Aspose.Words för .NET
+description: ControlChar LineFeed fält. Radmatningstecken x000a eller n. Samma somLf  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/controlchar/linefeed/
@@ -14,7 +16,7 @@ Radmatningstecken: "\x000a" eller "\n". Samma som[`Lf`](../lf/) .
 public static readonly string LineFeed;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

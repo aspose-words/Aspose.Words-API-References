@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextColumnCollection klass. En samling avTextColumn objekt som representerar alla textkolumner i en del av ett dokument.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TextColumnCollection klass. En samling avTextColumn objekt som representerar alla textkolumner i en del av ett dokument i C#.
 type: docs
 weight: 6400
 url: /sv/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Ordnar text i det angivna antalet textkolumner. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Ordnar text i det angivna antalet textkolumner. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använda sig av[`SetCount`](./setcount/) för att ställa in antalet textkolumner.
 
@@ -43,7 +45,7 @@ Om du har[`EvenlySpaced`](./evenlyspaced/) satt till`falsk` måste du ange bredd
 
 När du använder anpassade kolumnbredder, se till att summan av alla kolumnbredder och avstånd mellan dem är lika med sidbredd minus vänster och höger sidmarginaler.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar flera jämnt fördelade kolumner i ett avsnitt.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

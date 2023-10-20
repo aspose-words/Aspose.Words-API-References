@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in detaljerna för kryptering av PDFdokumentet.
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions EncryptionDetails fast egendom. Hämtar eller ställer in detaljerna för kryptering av PDFdokumentet i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ Hämtar eller ställer in detaljerna för kryptering av PDF-dokumentet.
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null` och utdatadokumentet kommer inte att krypteras. När denna egenskap är inställd på en giltig[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, då krypteras PDF-dokumentet.
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility tillstånd krävs av PDF/UA compliance om utdatadoku
 
 ContentCopyForAccessibility behörigheten är föråldrad i PDF 2.0-format. Denna behörighet kommer att ignoreras när du sparar till PDF 2.0.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

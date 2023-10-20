@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.IHyphenationCallback gränssnitt. Implementerat av klasser som kan registrera avstavningsordböcker.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.IHyphenationCallback gränssnitt. Implementerat av klasser som kan registrera avstavningsordböcker i C#.
 type: docs
 weight: 3190
 url: /sv/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras. |
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

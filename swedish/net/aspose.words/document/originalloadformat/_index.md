@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalLoadFormat
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar formatet för originaldokumentet som laddades in i detta objekt.
+linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
+second_title: Aspose.Words för .NET
+description: Document OriginalLoadFormat fast egendom. Hämtar formatet för originaldokumentet som laddades in i detta objekt i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/document/originalloadformat/
@@ -14,11 +16,11 @@ Hämtar formatet för originaldokumentet som laddades in i detta objekt.
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du skapade ett nytt tomt dokument returnerasDoc värde.
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar information om ett dokuments laddningsoperation.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

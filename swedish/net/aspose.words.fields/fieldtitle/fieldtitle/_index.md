@@ -1,7 +1,9 @@
 ---
-title: FieldTitle.FieldTitle
-second_title: Aspose.Words för .NET API Referens
-description: FieldTitle byggare. Default_Constructor
+title: FieldTitle
+linktitle: FieldTitle
+articleTitle: FieldTitle
+second_title: Aspose.Words för .NET
+description: FieldTitle byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldtitle/fieldtitle/
@@ -17,7 +19,5 @@ public FieldTitle()
 ### Se även
 
 * class [FieldTitle](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtitle/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

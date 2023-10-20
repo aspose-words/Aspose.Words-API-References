@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Height
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in höjden på formens innehållsblock.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words för .NET
+description: ShapeBase Height fast egendom. Hämtar eller ställer in höjden på formens innehållsblock i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.drawing/shapebase/height/
@@ -14,7 +16,7 @@ Hämtar eller ställer in höjden på formens innehållsblock.
 public double Height { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För en form på toppnivå är värdet i poäng.
 
@@ -22,7 +24,7 @@ För former i en grupp finns värdet i koordinatutrymmet och enheterna för den 
 
 Standardvärdet är 0.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild och anger dess position och storlek.
 
@@ -111,7 +113,5 @@ Visar hur man ändrar storlek på en form med en bild.
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

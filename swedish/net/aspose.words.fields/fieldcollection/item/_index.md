@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: FieldCollection fast egendom. Returnerar ett fält vid det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: FieldCollection Item fast egendom. Returnerar ett fält vid det angivna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldcollection/item/
@@ -18,7 +20,7 @@ public Field this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort fält från en fältsamling.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

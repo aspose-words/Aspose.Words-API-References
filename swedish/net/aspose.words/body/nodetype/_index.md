@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Body fast egendom. ReturnerarBody .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Body NodeType fast egendom. ReturnerarBody  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ ReturnerarBody .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom barnen i en sammansatt nod.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* namnutrymme [Aspose.Words](../../body/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

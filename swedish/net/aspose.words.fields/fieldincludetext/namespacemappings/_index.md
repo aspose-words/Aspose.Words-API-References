@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Aspose.Words för .NET API Referens
-description: FieldIncludeText fast egendom. Hämtar eller ställer in namnområdesmappningar för XPathfrågor.
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: Aspose.Words för .NET
+description: FieldIncludeText NamespaceMappings fast egendom. Hämtar eller ställer in namnområdesmappningar för XPathfrågor i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnområdesmappningar för XPath-frågor.
 public string NamespaceMappings { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INCLUDETEXT-fält och ställer in dess egenskaper.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Se även
 
 * class [FieldIncludeText](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldincludetext/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Ger tillgång till listformateringsegenskaperna för stycket.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words för .NET
+description: Paragraph ListFormat fast egendom. Ger tillgång till listformateringsegenskaperna för stycket i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ Ger tillgång till listformateringsegenskaperna för stycket.
 public ListFormat ListFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man matar ut alla stycken i ett dokument som är listobjekt.
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

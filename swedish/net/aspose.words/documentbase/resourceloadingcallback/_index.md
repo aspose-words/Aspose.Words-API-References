@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.ResourceLoadingCallback
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Gör det möjligt att styra hur externa resurser laddas.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words för .NET
+description: DocumentBase ResourceLoadingCallback fast egendom. Gör det möjligt att styra hur externa resurser laddas i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/documentbase/resourceloadingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur externa resurser laddas.
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

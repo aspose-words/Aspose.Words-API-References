@@ -1,7 +1,9 @@
 ---
-title: Enum ColorMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ColorMode uppräkning. Anger hur färger återges.
+title: ColorMode Enum
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ColorMode uppräkning. Anger hur färger återges i C#.
 type: docs
 weight: 4860
 url: /sv/net/aspose.words.saving/colormode/
@@ -21,7 +23,7 @@ public enum ColorMode
 | Normal | `0` | Återgivning med omodifierade färger. |
 | Grayscale | `1` | Återgivning med färger i en rad grå nyanser från vitt till svart. |
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar bildfärg med egenskapen sparalternativ.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge metod. Returnerar en samling av kopplingsfältnamn som är tillgängliga i dokumentet.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words för .NET
+description: MailMerge GetFieldNames metod. Returnerar en samling av kopplingsfältnamn som är tillgängliga i dokumentet i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ Returnerar en samling av kopplingsfältnamn som är tillgängliga i dokumentet.
 public string[] GetFieldNames()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar fullständiga sammanslagningsfältsnamn inklusive valfritt prefix. Eliminerar inte dubbletter av fältnamn.
 
@@ -22,7 +24,7 @@ En ny strängmatris skapas vid varje samtal.
 
 Inkluderar "mustasch" fältnamn if[`UseNonMergeFields`](../usenonmergefields/) är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man får namn på alla sammanslagningsfält i ett dokument.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.DeletePictureBullet
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel metod. Tar bort bildpunkt för den aktuella listnivån.
+linktitle: DeletePictureBullet
+articleTitle: DeletePictureBullet
+second_title: Aspose.Words för .NET
+description: ListLevel DeletePictureBullet metod. Tar bort bildpunkt för den aktuella listnivån i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.lists/listlevel/deletepicturebullet/
@@ -14,11 +16,11 @@ Tar bort bildpunkt för den aktuella listnivån.
 public void DeletePictureBullet()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardpunkten kommer att visas efter borttagning.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in en anpassad bildikon för listobjektetiketter.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

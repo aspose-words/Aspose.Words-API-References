@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words för .NET API Referens
-description: EditableRange fast egendom. Returnerar eller ställer in den enskilda användaren för redigerbart område.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words för .NET
+description: EditableRange SingleUser fast egendom. Returnerar eller ställer in den enskilda användaren för redigerbart område i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ Returnerar eller ställer in den enskilda användaren för redigerbart område.
 public string SingleUser { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna editor kan lagras i någon av följande former:
 
@@ -26,7 +28,7 @@ användare - för användare vars åtkomst ska autentiseras med den aktuella anv
 
 En användare och redigeringsgrupp kan inte ställas in samtidigt för det specifika redigerbara intervallet, om den ena är inställd kommer den andra att vara tydlig.
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### Se även
 
 * class [EditableRange](../)
-* namnutrymme [Aspose.Words](../../editablerange/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

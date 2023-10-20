@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Aspose.Words för .NET API Referens
-description: ChartNumberFormat fast egendom. Anger om formatkoden är länkad till en källcell. Standard är true.
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: Aspose.Words för .NET
+description: ChartNumberFormat IsLinkedToSource fast egendom. Anger om formatkoden är länkad till en källcell. Standard är true i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ Anger om formatkoden är länkad till en källcell. Standard är true.
 public bool IsLinkedToSource { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 NumberFormat kommer att återställas till allmänt om formatkoden är länkad till källan.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in formatering för diagramvärden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### Se även
 
 * class [ChartNumberFormat](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

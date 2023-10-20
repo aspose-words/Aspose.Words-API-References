@@ -1,7 +1,9 @@
 ---
-title: FieldIndex.FieldIndex
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex byggare. Default_Constructor
+title: FieldIndex
+linktitle: FieldIndex
+articleTitle: FieldIndex
+second_title: Aspose.Words för .NET
+description: FieldIndex byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldindex/fieldindex/
@@ -17,7 +19,5 @@ public FieldIndex()
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

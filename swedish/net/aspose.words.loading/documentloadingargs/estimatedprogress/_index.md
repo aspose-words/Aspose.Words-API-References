@@ -1,7 +1,9 @@
 ---
 title: DocumentLoadingArgs.EstimatedProgress
-second_title: Aspose.Words för .NET API Referens
-description: DocumentLoadingArgs fast egendom. Totalt uppskattat procentuellt framsteg.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words för .NET
+description: DocumentLoadingArgs EstimatedProgress fast egendom. Totalt uppskattat procentuellt framsteg i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/documentloadingargs/estimatedprogress/
@@ -17,7 +19,5 @@ public double EstimatedProgress { get; }
 ### Se även
 
 * class [DocumentLoadingArgs](../)
-* namnutrymme [Aspose.Words.Loading](../../documentloadingargs/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

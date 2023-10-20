@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignatureCollection metod. Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: DigitalSignatureCollection GetEnumerator metod. Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera öve
 public IEnumerator<DigitalSignature> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut alla digitala signaturer för ett signerat dokument.
 
@@ -38,7 +40,5 @@ using (IEnumerator<DigitalSignature> enumerator = digitalSignatures.GetEnumerato
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Story metod. En genvägsmetod som skapar enParagraph objekt med valfri text och lägger till den i slutet av detta objekt.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words för .NET
+description: Story AppendParagraph metod. En genvägsmetod som skapar enParagraph objekt med valfri text och lägger till den i slutet av detta objekt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 Det nyskapade och bifogade stycket.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoDataSourceType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.OdsoDataSourceType uppräkning. Anger typen av extern datakälla som ska anslutas till som en del av ODSOanslutningsinformationen.
+title: OdsoDataSourceType Enum
+linktitle: OdsoDataSourceType
+articleTitle: OdsoDataSourceType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.OdsoDataSourceType uppräkning. Anger typen av extern datakälla som ska anslutas till som en del av ODSOanslutningsinformationen i C#.
 type: docs
 weight: 5890
 url: /sv/net/aspose.words.settings/odsodatasourcetype/
@@ -30,11 +32,11 @@ public enum OdsoDataSourceType
 | Master | `9` | Anger att ett visst dokument har kopplats till en datakälla som aggregerar andra datakällor. |
 | Default | `7` | MotsvararNone . |
 
-### Anmärkningar
+## Anmärkningar
 
 OOXML-specifikationen är mycket vag för denna uppräkning. Jag antar att det kan motsvara WdMergeSubType -uppräkningen http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

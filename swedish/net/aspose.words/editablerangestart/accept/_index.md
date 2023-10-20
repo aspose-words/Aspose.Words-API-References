@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Accept
-second_title: Aspose.Words för .NET API Referens
-description: EditableRangeStart metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: EditableRangeStart Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/editablerangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falsk` om besökaren begärde att uppräkningen skulle sluta.
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeStart](../)
-* namnutrymme [Aspose.Words](../../editablerangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

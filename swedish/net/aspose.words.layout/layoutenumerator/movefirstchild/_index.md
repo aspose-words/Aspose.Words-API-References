@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveFirstChild
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator metod. Flyttar till den första underordnade enheten.
+linktitle: MoveFirstChild
+articleTitle: MoveFirstChild
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator MoveFirstChild metod. Flyttar till den första underordnade enheten i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.layout/layoutenumerator/movefirstchild/
@@ -14,7 +16,7 @@ Flyttar till den första underordnade enheten.
 public bool MoveFirstChild()
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

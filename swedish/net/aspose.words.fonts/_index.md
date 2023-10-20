@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Fonts namnrymden tillhandahåller klasser och uppräkningar för att komma åt information om teckensnitt som används i ett dokument.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Fonts namnrymden tillhandahåller klasser och uppräkningar för att komma åt information om teckensnitt som används i ett dokument i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fonts/
 ---
-De **Aspose.Words.Fonts** namnrymden tillhandahåller klasser och uppräkningar för att komma åt information om teckensnitt som används i ett dokument.
+De**Aspose.Words.Fonts** namnrymden tillhandahåller klasser och uppräkningar för att komma åt information om teckensnitt som används i ett dokument.
 
 ## Klasser
 
@@ -39,5 +41,3 @@ De **Aspose.Words.Fonts** namnrymden tillhandahåller klasser och uppräkningar 
 | [FontFamily](./fontfamily/) | Representerar teckensnittsfamiljen. |
 | [FontPitch](./fontpitch/) | Representerar teckensnittets tonhöjd. |
 | [FontSourceType](./fontsourcetype/) | Anger typen av en teckensnittskälla. |
-
-

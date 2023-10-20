@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Hämtar teckenformatering som tidigare sparats i stacken.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words för .NET
+description: DocumentBuilder PopFont metod. Hämtar teckenformatering som tidigare sparats i stacken i C#.
 type: docs
-weight: 600
+weight: 590
 url: /sv/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ Hämtar teckenformatering som tidigare sparats i stacken.
 public void PopFont()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder en dokumentbyggares formateringsstack.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

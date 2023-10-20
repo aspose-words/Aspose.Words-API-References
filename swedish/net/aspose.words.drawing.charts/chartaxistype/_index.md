@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartAxisType uppräkning. Anger typ av diagramaxel.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType uppräkning. Anger typ av diagramaxel i C#.
 type: docs
 weight: 660
 url: /sv/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | Serieaxel för ett diagram. |
 | Value | `2` | Värdeaxel för ett diagram. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

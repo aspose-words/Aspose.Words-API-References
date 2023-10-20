@@ -1,7 +1,9 @@
 ---
 title: TextPath.Kerning
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Bestämmer om kerning är aktiverat.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words för .NET
+description: TextPath Kerning fast egendom. Bestämmer om kerning är aktiverat i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/textpath/kerning/
@@ -14,11 +16,11 @@ Bestämmer om kerning är aktiverat.
 public bool Kerning { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

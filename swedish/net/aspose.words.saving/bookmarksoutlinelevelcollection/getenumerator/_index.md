@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/
@@ -17,7 +19,5 @@ public IEnumerator<KeyValuePair<string, int>> GetEnumerator()
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

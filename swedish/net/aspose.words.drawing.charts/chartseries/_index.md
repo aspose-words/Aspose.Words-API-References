@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartSeries klass. Representerar diagramserieegenskaper.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries klass. Representerar diagramserieegenskaper i C#.
 type: docs
 weight: 780
 url: /sv/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Lägger till det angivna X-värdet till diagramserien. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Lägger till de angivna X- och Y-värdena till diagramserien. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Lägger till det angivna X-värdet, Y-värdet och bubbelstorleken till diagramserien. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | Lägger till det angivna X-värdet till diagramserien. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Lägger till de angivna X- och Y-värdena till diagramserien. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Lägger till det angivna X-värdet, Y-värdet och bubbelstorleken till diagramserien. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Tar bort alla datavärden från diagramserien. Formatet för alla individuella datapunkter och dataetiketter rensas. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Tar bort alla datavärden från diagramserien med att bevara formatet för datapunkterna och dataetiketterna. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Infogar det angivna X-värdet i diagramserien vid det angivna indexet. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Infogar de angivna X- och Y-värdena i diagramserien vid det angivna indexet. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Infogar det angivna X-värdet, Y-värdet och bubbelstorleken i diagramserien vid det angivna indexet. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Tar bort X-värdet, Y-värdet och bubbelstorleken, om det stöds, från diagramserien vid det angivna indexet. Motsvarande datapunkt och dataetikett tas också bort. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Infogar det angivna X-värdet i diagramserien vid det angivna indexet. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Infogar de angivna X- och Y-värdena i diagramserien vid det angivna indexet. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Infogar det angivna X-värdet, Y-värdet och bubbelstorleken i diagramserien vid det angivna indexet. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Tar bort X-värdet, Y-värdet och bubbelstorleken, om det stöds, från diagramserien vid det angivna indexet. Motsvarande datapunkt och dataetikett tas också bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

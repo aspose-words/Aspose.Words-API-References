@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientData fast egendom. Representerar hashkoden för denna post. Ibland använder Microsoft WordHash av en hel skiva istället för enUniqueTag value. Standardvärdet är 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words för .NET
+description: OdsoRecipientData Hash fast egendom. Representerar hashkoden för denna post. Ibland använder Microsoft WordHash av en hel skiva istället för enUniqueTag value. Standardvärdet är 0 i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ Representerar hashkoden för denna post. Ibland använder Microsoft Word`Hash` a
 public int Hash { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

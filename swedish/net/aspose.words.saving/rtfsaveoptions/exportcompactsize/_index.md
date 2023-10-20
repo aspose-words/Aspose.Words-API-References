@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportCompactSize
-second_title: Aspose.Words för .NET API Referens
-description: RtfSaveOptions fast egendom. Gör det möjligt att göra utmatade RTFdokument mindre i storlek men om de innehåller RTL höger till vänster text kommer den inte att visas korrekt. Standardvärdet ärfalsk .
+linktitle: ExportCompactSize
+articleTitle: ExportCompactSize
+second_title: Aspose.Words för .NET
+description: RtfSaveOptions ExportCompactSize fast egendom. Gör det möjligt att göra utmatade RTFdokument mindre i storlek men om de innehåller RTL höger till vänster text kommer den inte att visas korrekt. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
@@ -14,11 +16,11 @@ Gör det möjligt att göra utmatade RTF-dokument mindre i storlek, men om de in
 public bool ExportCompactSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om dokumentet som du vill konvertera till RTF med Aspose.Words inte innehåller höger-till-vänster text på språk som arabiska, kan du ställa in det här alternativet till`Sann` för att minska storleken på den resulterande RTF:n.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument till .rtf med anpassade alternativ.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### Se även
 
 * class [RtfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../rtfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

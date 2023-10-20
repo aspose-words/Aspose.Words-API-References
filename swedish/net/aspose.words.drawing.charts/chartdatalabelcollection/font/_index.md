@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Ger tillgång till teckensnittsformateringen av dataetiketterna för hela serien.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection Font fast egendom. Ger tillgång till teckensnittsformateringen av dataetiketterna för hela serien i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ Ger tillgång till teckensnittsformateringen av dataetiketterna för hela serien
 public Font Font { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`Font`](../../chartdatalabel/font/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar och konfigurerar dataetiketter för en diagramserie.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

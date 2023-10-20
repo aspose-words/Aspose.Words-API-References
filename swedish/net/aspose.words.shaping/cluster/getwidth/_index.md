@@ -1,7 +1,9 @@
 ---
 title: Cluster.GetWidth
-second_title: Aspose.Words för .NET API Referens
-description: Cluster metod. Returnerar klustrets bredd.
+linktitle: GetWidth
+articleTitle: GetWidth
+second_title: Aspose.Words för .NET
+description: Cluster GetWidth metod. Returnerar klustrets bredd i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.shaping/cluster/getwidth/
@@ -17,7 +19,5 @@ public float GetWidth(int em, float fontSize)
 ### Se även
 
 * class [Cluster](../)
-* namnutrymme [Aspose.Words.Shaping](../../cluster/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: JsonDataLoadOptions.JsonDataLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: JsonDataLoadOptions byggare. Initierar en ny instans av denna klass med standardalternativ.
+title: JsonDataLoadOptions
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words för .NET
+description: JsonDataLoadOptions byggare. Initierar en ny instans av denna klass med standardalternativ i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.reporting/jsondataloadoptions/jsondataloadoptions/
@@ -17,7 +19,5 @@ public JsonDataLoadOptions()
 ### Se även
 
 * class [JsonDataLoadOptions](../)
-* namnutrymme [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CustomPropertiesExport
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer vägenCustomDocumentProperties exporteras till PDFfil.
+linktitle: CustomPropertiesExport
+articleTitle: CustomPropertiesExport
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions CustomPropertiesExport fast egendom. Hämtar eller ställer in ett värde som bestämmer vägenCustomDocumentProperties exporteras till PDFfil i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som bestämmer vägen[`CustomDocumentProper
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone.
 
@@ -22,7 +24,7 @@ Metadata värde stöds inte när du sparar till PDF/A. Standard kommer att anvä
 
 Standard värde stöds inte när du sparar till PDF 2.0. Metadata kommer att användas istället.
 
-### Exempel
+## Exempel
 
 Visar hur man exporterar anpassade egenskaper samtidigt som man konverterar ett dokument till PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
 
 * enum [PdfCustomPropertiesExport](../../pdfcustompropertiesexport/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

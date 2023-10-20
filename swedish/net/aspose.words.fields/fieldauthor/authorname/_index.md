@@ -1,7 +1,9 @@
 ---
 title: FieldAuthor.AuthorName
-second_title: Aspose.Words för .NET API Referens
-description: FieldAuthor fast egendom. Hämtar eller ställer in dokumentets författares namn.
+linktitle: AuthorName
+articleTitle: AuthorName
+second_title: Aspose.Words för .NET
+description: FieldAuthor AuthorName fast egendom. Hämtar eller ställer in dokumentets författares namn i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldauthor/authorname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in dokumentets författares namn.
 public string AuthorName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett AUTHOR-fält för att visa en dokumentskapares namn.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Se även
 
 * class [FieldAuthor](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldauthor/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

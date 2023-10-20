@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsBookmark
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. OmPostalAddress är namnet på ett bokmärke.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words för .NET
+description: BarcodeParameters IsBookmark fast egendom. OmPostalAddress är namnet på ett bokmärke i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/barcodeparameters/isbookmark/
@@ -14,7 +16,7 @@ Om[`PostalAddress`](../postaladdress/) är namnet på ett bokmärke.
 public bool IsBookmark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: CompositeNode GetEnumerator metod. Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod i C#.
 type: docs
-weight: 120
+weight: 100
 url: /sv/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ Tillhandahåller stöd för varje stiliteration över undernoderna för denna no
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom en sammansatt nods samling av undernoder.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

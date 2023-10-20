@@ -1,7 +1,9 @@
 ---
-title: FieldRef.FieldRef
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef byggare. Default_Constructor
+title: FieldRef
+linktitle: FieldRef
+articleTitle: FieldRef
+second_title: Aspose.Words för .NET
+description: FieldRef byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldref/fieldref/
@@ -17,7 +19,5 @@ public FieldRef()
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Value
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlProperty fast egendom. Hämtar eller ställer in värdet för det anpassade XMLattributet eller smarttaggen.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words för .NET
+description: CustomXmlProperty Value fast egendom. Hämtar eller ställer in värdet för det anpassade XMLattributet eller smarttaggen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/customxmlproperty/value/
@@ -14,13 +16,13 @@ Hämtar eller ställer in värdet för det anpassade XML-attributet eller smart-
 public string Value { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Se även
 
 * class [CustomXmlProperty](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlproperty/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

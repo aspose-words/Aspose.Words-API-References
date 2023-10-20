@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till HTML MHTML eller EPUB.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till HTML MHTML eller EPUB i C#.
 type: docs
 weight: 5000
 url: /sv/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | Primär sidhuvud för det första avsnittet exporteras i början av dokumentet och primär sidfot är i slutet. |
 | FirstPageHeaderFooterPerSection | `3` | Första sidans sidhuvud och sidfot exporteras i början och slutet av varje avsnitt. |
 
-### Exempel
+## Exempel
 
 Visar hur du utelämnar sidhuvuden/sidfötter när du sparar ett dokument i HTML.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit klass. Ger tillgång till skalningsalternativen för visningsenheterna för värdeaxeln.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit klass. Ger tillgång till skalningsalternativen för visningsenheterna för värdeaxeln i C#.
 type: docs
 weight: 550
 url: /sv/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Returnerar det dokument som titelinnehavaren tillhör. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Hämtar eller ställer in skalningsvärdet för visningsenheterna som ett av de fördefinierade värdena. |
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

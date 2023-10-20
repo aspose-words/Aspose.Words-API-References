@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Hämtar eller sätterExportFontFormat används för teckensnittsexport. Standardvärdet ärWoff .
+linktitle: FontFormat
+articleTitle: FontFormat
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions FontFormat fast egendom. Hämtar eller sätterExportFontFormat används för teckensnittsexport. Standardvärdet ärWoff  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -14,7 +16,7 @@ Hämtar eller sätter[`ExportFontFormat`](../../exportfontformat/) används för
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur teckensnitt endast används från målmaskinen när du sparar ett dokument i HTML.
 
@@ -45,7 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

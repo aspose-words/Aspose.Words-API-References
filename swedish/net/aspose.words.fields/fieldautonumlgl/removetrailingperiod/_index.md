@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
-second_title: Aspose.Words för .NET API Referens
-description: FieldAutoNumLgl fast egendom. Hämtar eller ställer in om numret ska visas utan efterföljande period.
+linktitle: RemoveTrailingPeriod
+articleTitle: RemoveTrailingPeriod
+second_title: Aspose.Words för .NET
+description: FieldAutoNumLgl RemoveTrailingPeriod fast egendom. Hämtar eller ställer in om numret ska visas utan efterföljande period i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om numret ska visas utan efterföljande period.
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Se även
 
 * class [FieldAutoNumLgl](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldautonumlgl/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

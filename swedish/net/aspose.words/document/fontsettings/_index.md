@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in dokumentfontinställningar.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words för .NET
+description: Document FontSettings fast egendom. Hämtar eller ställer in dokumentfontinställningar i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ Hämtar eller ställer in dokumentfontinställningar.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen gör det möjligt att ange teckensnittsinställningar per dokument. Om inställt på`null` , standard statiska teckensnittsinställningar [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
 
 Standardvärdet är`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in regler för teckensnittsersättning.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

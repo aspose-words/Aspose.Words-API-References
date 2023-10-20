@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItem fast egendom. Hämtar värdet av denna listpost.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words för .NET
+description: SdtListItem Value fast egendom. Hämtar värdet av denna listpost i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ Hämtar värdet av denna listpost.
 public string Value { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null` och kan inte vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Se även
 
 * class [SdtListItem](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitem/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Theme.Theme
-second_title: Aspose.Words för .NET API Referens
-description: Theme byggare. Default_Constructor
+title: Theme
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words för .NET
+description: Theme byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.themes/theme/theme/
@@ -17,7 +19,5 @@ public Theme()
 ### Se även
 
 * class [Theme](../)
-* namnutrymme [Aspose.Words.Themes](../../theme/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

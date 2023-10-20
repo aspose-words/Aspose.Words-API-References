@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet ärfalsk .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ShowValue fast egendom. Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
@@ -14,11 +16,11 @@ Gör det möjligt att ange om värden ska visas i dataetiketterna för hela seri
 public bool ShowValue { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowValue`](../../chartdatalabel/showvalue/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dataetiketter i ett cirkeldiagram.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

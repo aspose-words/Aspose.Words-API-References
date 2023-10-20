@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.AddPrinterFont
-second_title: Aspose.Words för .NET API Referens
-description: PclSaveOptions metod. Lägger till information om teckensnitt som laddas upp till skrivaren av tillverkaren.
+linktitle: AddPrinterFont
+articleTitle: AddPrinterFont
+second_title: Aspose.Words för .NET
+description: PclSaveOptions AddPrinterFont metod. Lägger till information om teckensnitt som laddas upp till skrivaren av tillverkaren i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/pclsaveoptions/addprinterfont/
@@ -19,11 +21,11 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | fontFullName | String | Typsnittets fullständiga namn (t.ex. "Times New Roman Bold Italic"). |
 | fontPclName | String | Namn på typsnittet som används i Pcl-dokument. |
 
-### Anmärkningar
+## Anmärkningar
 
 Det finns 52 typsnitt som ska byggas in i vilken skrivare som helst enligt Pcl-specifikationen. Tillverkarna kan dock lägga till några andra typsnitt till sina enheter.
 
-### Exempel
+## Exempel
 
 Visar hur man får en skrivare att ersätta alla instanser av ett specifikt teckensnitt med ett annat teckensnitt.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ### Se även
 
 * class [PclSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pclsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

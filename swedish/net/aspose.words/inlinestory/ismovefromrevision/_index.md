@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveFromRevision
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words för .NET
+description: InlineStory IsMoveFromRevision fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/inlinestory/ismovefromrevision/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word meda
 public bool IsMoveFromRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar revisionsrelaterade egenskaper för InlineStory-noder.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Se även
 
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

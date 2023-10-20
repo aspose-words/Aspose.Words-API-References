@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. ReturnerarSann om det härShape har enChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words för .NET
+description: Shape HasChart fast egendom. ReturnerarSann om det härShape har enChart  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det här[`Shape`](../) har en[`Chart`](../../../aspose.words
 public bool HasChart { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

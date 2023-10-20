@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng ellernull .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words för .NET
+description: Revision Author fast egendom. Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng ellernull  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ Hämtar eller ställer in författaren till denna version. Kan inte vara tom str
 public string Author { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

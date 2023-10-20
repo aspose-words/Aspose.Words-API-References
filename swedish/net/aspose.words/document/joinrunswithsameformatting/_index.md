@@ -1,9 +1,11 @@
 ---
 title: Document.JoinRunsWithSameFormatting
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Sammanfogar körningar med samma formatering i alla stycken i dokumentet.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words för .NET
+description: Document JoinRunsWithSameFormatting metod. Sammanfogar körningar med samma formatering i alla stycken i dokumentet i C#.
 type: docs
-weight: 640
+weight: 620
 url: /sv/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
@@ -16,15 +18,15 @@ public int JoinRunsWithSameFormatting()
 
 ### Returvärde
 
-Antal utförda anslutningar. När **N** angränsande körningar sammanfogas de räknas som **N - 1** ansluter sig.
+Antal utförda anslutningar. När**N** angränsande körningar sammanfogas de räknas som**N - 1** ansluter sig.
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en optimeringsmetod. Vissa dokument innehåller angränsande körningar med samma formatering. Vanligtvis inträffar detta om ett dokument har redigerats intensivt manuellt. Du kan minska dokumentstorleken och påskynda ytterligare bearbetning genom att sammanfoga dessa körningar.
 
 Operationen kontrollerar varje[`Paragraph`](../../paragraph/) nod i dokumentet för intilliggande[`Run`](../../run/) noder med identiska egenskaper. Den ignorerar unika identifierare som används för att spåra redigeringssessioner för skapande och modifiering av run . Första körningen i varje sammanfogningssekvens ackumulerar all text. Remaining körningar tas bort från dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man sammanfogar körningar i ett dokument för att minska onödiga körningar.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionBars
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet ärSann .
+linktitle: ShowRevisionBars
+articleTitle: ShowRevisionBars
+second_title: Aspose.Words för .NET
+description: RevisionOptions ShowRevisionBars fast egendom. Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet ärSann  i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.layout/revisionoptions/showrevisionbars/
@@ -14,7 +16,7 @@ Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller
 public bool ShowRevisionBars { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ### Se även
 
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

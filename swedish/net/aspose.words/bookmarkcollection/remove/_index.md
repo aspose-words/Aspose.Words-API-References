@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkCollection metod. Tar bort det angivna bokmärket från dokumentet.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: BookmarkCollection Remove metod. Tar bort det angivna bokmärket från dokumentet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Tar bort det angivna bokmärket från dokumentet.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | Bokmärket att ta bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort bokmärken från ett dokument.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Tar bort ett bokmärke med det angivna namnet.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | Det skiftlägesokänsliga namnet på bokmärket som ska tas bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort bokmärken från ett dokument.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Se även
 
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

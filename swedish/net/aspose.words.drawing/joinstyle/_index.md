@@ -1,7 +1,9 @@
 ---
-title: Enum JoinStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.JoinStyle uppräkning. Linjeanslutningsstil.
+title: JoinStyle Enum
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.JoinStyle uppräkning. Linjeanslutningsstil i C#.
 type: docs
 weight: 1090
 url: /sv/net/aspose.words.drawing/joinstyle/
@@ -22,7 +24,7 @@ public enum JoinStyle
 | Miter | `1` | Förläng kanterna tills de går ihop. |
 | Round | `2` | Rita en båge mellan de två kanterna. |
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -99,5 +101,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [JoinStyle](../stroke/joinstyle/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

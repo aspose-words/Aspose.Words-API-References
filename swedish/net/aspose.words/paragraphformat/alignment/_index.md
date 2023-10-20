@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in textjustering för stycket.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words för .NET
+description: ParagraphFormat Alignment fast egendom. Hämtar eller ställer in textjustering för stycket i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in textjustering för stycket.
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke i dokumentet.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

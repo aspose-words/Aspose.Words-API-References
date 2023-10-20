@@ -1,7 +1,9 @@
 ---
-title: FieldEmbed.FieldEmbed
-second_title: Aspose.Words för .NET API Referens
-description: FieldEmbed byggare. Default_Constructor
+title: FieldEmbed
+linktitle: FieldEmbed
+articleTitle: FieldEmbed
+second_title: Aspose.Words för .NET
+description: FieldEmbed byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldembed/fieldembed/
@@ -17,7 +19,5 @@ public FieldEmbed()
 ### Se även
 
 * class [FieldEmbed](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldembed/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

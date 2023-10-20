@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Ändrar orienteringen för en form.
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words för .NET
+description: ShapeBase FlipOrientation fast egendom. Ändrar orienteringen för en form i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ url: /sv/net/aspose.words.drawing/shapebase/fliporientation/
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone.
 
-### Exempel
+## Exempel
 
 Visar hur man vänder en form på en axel.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

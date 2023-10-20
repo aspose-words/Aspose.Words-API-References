@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowWidth
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar pilspetsens bredd för slutet av ett streck.
+linktitle: EndArrowWidth
+articleTitle: EndArrowWidth
+second_title: Aspose.Words för .NET
+description: Stroke EndArrowWidth fast egendom. Definierar pilspetsens bredd för slutet av ett streck i C#.
 type: docs
-weight: 80
+weight: 70
 url: /sv/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property
@@ -14,11 +16,11 @@ Definierar pilspetsens bredd för slutet av ett streck.
 public ArrowWidth EndArrowWidth { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärMedium.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

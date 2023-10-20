@@ -1,7 +1,9 @@
 ---
-title: Class CleanupOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.CleanupOptions klass. Tillåter att ange alternativ för dokumentrengöring.
+title: CleanupOptions Class
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.CleanupOptions klass. Tillåter att ange alternativ för dokumentrengöring i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/cleanupoptions/
@@ -31,7 +33,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Anger om oanvända list- och listdefinitioner ska tas bort från dokumentet. Standardvärdet är`Sann` . |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Anger om oanvända formatmallar ska tas bort från dokumentet. Standardvärdet är`Sann` . |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla oanvända anpassade stilar från ett dokument.
 
@@ -81,5 +83,3 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

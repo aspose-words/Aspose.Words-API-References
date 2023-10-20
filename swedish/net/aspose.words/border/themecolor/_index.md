@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Borderobjekt.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words för .NET
+description: Border ThemeColor fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Borderobjekt i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är ass
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke med en övre kant.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

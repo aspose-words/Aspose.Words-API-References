@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInRelativeContext
-second_title: Aspose.Words för .NET API Referens
-description: FieldStyleRef fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i relativ kontext.
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: Aspose.Words för .NET
+description: FieldStyleRef InsertParagraphNumberInRelativeContext fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i relativ kontext i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om styckenumret för det refererade stycket ska infoga
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder STYLEREF-fält.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Se även
 
 * class [FieldStyleRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstyleref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

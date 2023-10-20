@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Ställer in eller returnerar listnivån som måste visas innan den angivna listnivån startar om numreringen.
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: Aspose.Words för .NET
+description: ListLevel RestartAfterLevel fast egendom. Ställer in eller returnerar listnivån som måste visas innan den angivna listnivån startar om numreringen i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ Ställer in eller returnerar listnivån som måste visas innan den angivna listn
 public int RestartAfterLevel { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet -1 betyder att numreringen fortsätter.
 
-### Exempel
+## Exempel
 
 Visar avancerade sätt att anpassa listetiketter.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

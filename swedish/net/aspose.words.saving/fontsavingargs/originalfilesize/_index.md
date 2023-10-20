@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Får den ursprungliga teckensnittsfilstorleken.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words för .NET
+description: FontSavingArgs OriginalFileSize fast egendom. Får den ursprungliga teckensnittsfilstorleken i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ Får den ursprungliga teckensnittsfilstorleken.
 public int OriginalFileSize { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen innehåller den ursprungliga filstorleken för det aktuella teckensnittet om det är känt. Annars kan det bli noll.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

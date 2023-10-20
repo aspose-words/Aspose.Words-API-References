@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Hämtar eller ställer in ett antal rader som ska inkluderas i bandningen när stilen anger udda/jämna radband.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words för .NET
+description: TableStyle RowStripe fast egendom. Hämtar eller ställer in ett antal rader som ska inkluderas i bandningen när stilen anger udda/jämna radband i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett antal rader som ska inkluderas i bandningen när s
 public int RowStripe { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar villkorliga tabellstilar som växlar mellan rader.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Se även
 
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

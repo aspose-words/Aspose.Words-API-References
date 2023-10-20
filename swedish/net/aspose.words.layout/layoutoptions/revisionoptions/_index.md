@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.RevisionOptions
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Får versionsalternativ.
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words för .NET
+description: LayoutOptions RevisionOptions fast egendom. Får versionsalternativ i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -14,7 +16,7 @@ Får versionsalternativ.
 public RevisionOptions RevisionOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [RevisionOptions](../../revisionoptions/)
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

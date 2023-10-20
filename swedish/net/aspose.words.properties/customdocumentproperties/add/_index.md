@@ -1,12 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Aspose.Words för .NET API Referens
-description: CustomDocumentProperties metod. Skapar en ny anpassad dokumentegenskap förString datatyp.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: CustomDocumentProperties Add metod. Skapar en ny anpassad dokumentegenskap förString datatyp i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
 Skapar en ny anpassad dokumentegenskap förString datatyp.
 
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 Det nyskapade egenskapsobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -84,12 +86,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../customdocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
 Skapar en ny anpassad dokumentegenskap förNumber datatyp.
 
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 Det nyskapade egenskapsobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -167,12 +169,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../customdocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
 Skapar en ny anpassad dokumentegenskap förDateTime datatyp.
 
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 Det nyskapade egenskapsobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en anpassad dokumentegenskap som innehåller ett datum och en tid.
 
@@ -260,12 +262,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../customdocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
 Skapar en ny anpassad dokumentegenskap förBoolean datatyp.
 
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 Det nyskapade egenskapsobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -343,12 +345,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../customdocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
 Skapar en ny anpassad dokumentegenskap förDouble datatyp.
 
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 Det nyskapade egenskapsobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../customdocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

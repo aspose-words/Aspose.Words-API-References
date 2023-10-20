@@ -1,7 +1,9 @@
 ---
 title: Row.NextRow
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Får nästaRow nod.
+linktitle: NextRow
+articleTitle: NextRow
+second_title: Aspose.Words för .NET
+description: Row NextRow fast egendom. Får nästaRow nod i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.tables/row/nextrow/
@@ -14,11 +16,11 @@ Får nästa[`Row`](../) nod.
 public Row NextRow { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Metoden kan användas när du behöver ha maskinskriven åtkomst till tabellrader. Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)noden hittas i en tabell istället för en rad, den korsas automatiskt för att få en rad som finns inom.
 
-### Exempel
+## Exempel
 
 Visar hur man räknar upp alla tabellceller.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Se även
 
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

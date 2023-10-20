@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TabStop klass. Representerar ett enda anpassat tabbstopp. DeTabStopobjektet är en medlem av the TabStopCollection samling.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TabStop klass. Representerar ett enda anpassat tabbstopp. DeTabStopobjektet är en medlem av the TabStopCollection samling i C#.
 type: docs
 weight: 6200
 url: /sv/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | namn | Beskrivning |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Initierar en ny instans av den här klassen. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Initierar en ny instans av den här klassen. |
+| [TabStop](tabstop/#constructor)(*double*) | Initierar en ny instans av den här klassen. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Initierar en ny instans av den här klassen. |
 
 ## Egenskaper
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Jämför med den angivna`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Jämför med den angivna`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Beräknar hashkod för detta objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Normalt anger ett tabbstopp en position där ett tabbstopp finns. Men eftersom tabbstopp kan ärvas från överordnade stilar, kan det behövas för det underordnade objektet att uttryckligen definiera att det inte finns något tabbstopp vid en given position. För att rensa ett ärvt tabbstopp vid en given position, skapa en`TabStop` objekt och set [`Alignment`](./alignment/) tillClear.
 
 För mer information se[`TabStopCollection`](../tabstopcollection/).
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

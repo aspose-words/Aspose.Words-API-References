@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. När inställd påSann  kommer den här egenskapen att förbjuda en användare från att redigera innehållet i denna strukturerade dokumenttagg.
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart LockContents fast egendom. När inställd påSann  kommer den här egenskapen att förbjuda en användare från att redigera innehållet i denna strukturerade dokumenttagg i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
@@ -14,7 +16,7 @@ När inställd på`Sann` , kommer den här egenskapen att förbjuda en användar
 public bool LockContents { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

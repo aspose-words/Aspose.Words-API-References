@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndField
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeRegionInfo fast egendom. Returnerar ett slutfält för regionen.
+linktitle: EndField
+articleTitle: EndField
+second_title: Aspose.Words för .NET
+description: MailMergeRegionInfo EndField fast egendom. Returnerar ett slutfält för regionen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
@@ -14,7 +16,7 @@ Returnerar ett slutfält för regionen.
 public FieldMergeField EndField { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar kopplingsregioner.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

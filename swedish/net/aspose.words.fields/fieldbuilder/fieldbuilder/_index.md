@@ -1,7 +1,9 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Aspose.Words för .NET API Referens
-description: FieldBuilder byggare. Initierar en instans avFieldBuilder class.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words för .NET
+description: FieldBuilder byggare. Initierar en instans avFieldBuilder class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | Typen av fält som ska byggas. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och infogar ett fält med hjälp av en fältbyggare.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

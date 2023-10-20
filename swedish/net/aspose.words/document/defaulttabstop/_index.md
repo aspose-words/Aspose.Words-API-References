@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in intervallet i poäng mellan standardtabbstoppen.
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: Aspose.Words för .NET
+description: Document DefaultTabStop fast egendom. Hämtar eller ställer in intervallet i poäng mellan standardtabbstoppen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/document/defaulttabstop/
@@ -14,7 +16,7 @@ Hämtar eller ställer in intervallet (i poäng) mellan standardtabbstoppen.
 public double DefaultTabStop { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett anpassat intervall för tabbstopppositioner.
 
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

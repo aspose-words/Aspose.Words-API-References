@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: Font metod. Återställer till standardtypsnittsformatering.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: Font ClearFormatting metod. Återställer till standardtypsnittsformatering i C#.
 type: docs
 weight: 550
 url: /sv/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ url: /sv/net/aspose.words/font/clearformatting/
 public void ClearFormatting()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Tar bort all typsnittsformatering som uttryckligen anges på objektet från which [`Font`](../) erhölls så att teckensnittsformateringen kommer att ärvas från lämplig förälder.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett hyperlänkfält.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

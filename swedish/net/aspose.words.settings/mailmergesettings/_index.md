@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.MailMergeSettings klass. Anger all kopplingsinformation för ett dokument.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.MailMergeSettings klass. Anger all kopplingsinformation för ett dokument i C#.
 type: docs
 weight: 5850
 url: /sv/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Rensar inställningarna för sammankoppling av dokument på ett sådant sätt att när dokumentet sparas, kommer inga sammanslagningsinställningar att sparas och det blir ett normalt dokument. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Returnerar en djup klon av detta objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda det här objektet för att ange en kopplingsdatakälla för ett dokument och denna information (tillsammans med de tillgängliga datafälten) kommer att visas i Microsoft Word när användaren öppnar det här dokumentet. Eller så kan du använda det här objektet för att fråga inställningar för koppling av brev som användaren har angett i Microsoft Word för detta dokument.
 
@@ -64,7 +66,7 @@ Det bästa sättet att lära sig hur man använder egenskaperna för detta objek
 
 Aspose.Words bevarar kopplingsinformation när du laddar, sparar och konverterar documents mellan olika format, men använder inte denna information när du utför sin egen kopplingsinformation med hjälp av[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) objekt.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

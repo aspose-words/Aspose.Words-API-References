@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. Hämtar noden som innehåller början av matchningen.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words för .NET
+description: ReplacingArgs MatchNode fast egendom. Hämtar noden som innehåller början av matchningen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ Hämtar noden som innehåller början av matchningen.
 public Node MatchNode { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* namnutrymme [Aspose.Words.Replacing](../../replacingargs/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

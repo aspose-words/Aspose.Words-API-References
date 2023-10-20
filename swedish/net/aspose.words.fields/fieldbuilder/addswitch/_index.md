@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Aspose.Words för .NET API Referens
-description: FieldBuilder metod. Lägger till ett fälts switch.
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: Aspose.Words för .NET
+description: FieldBuilder AddSwitch metod. Lägger till ett fälts switch i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 Lägger till ett fälts switch.
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | Switchens namn. |
 
-### Anmärkningar
+## Anmärkningar
 
 Denna överbelastning lägger till en flagga (switch utan argument).
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 Lägger till ett fälts switch.
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | Switchens namn. |
 | switchArgument | String | Växlingsvärdet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 Lägger till ett fälts switch.
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | Switchens namn. |
 | switchArgument | Int32 | Växlingsvärdet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 Lägger till ett fälts switch.
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | Switchens namn. |
 | switchArgument | Double | Växlingsvärdet. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

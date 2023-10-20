@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt inaktuellt på grund av andra ändringar som gjorts i dokumentet.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words för .NET
+description: Field IsDirty fast egendom. Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt inaktuellt på grund av andra ändringar som gjorts i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är
 public bool IsDirty { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder speciella egenskaper för att uppdatera fältresultat.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Aspose.Words för .NET API Referens
-description: SystemFontSource byggare. Ctor.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words för .NET
+description: SystemFontSource byggare. Ctor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ Ctor.
 public SystemFontSource()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### Se även
 
 * class [SystemFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../systemfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 Ctor.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### Se även
 
 * class [SystemFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../systemfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

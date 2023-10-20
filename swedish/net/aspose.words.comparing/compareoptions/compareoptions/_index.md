@@ -1,7 +1,9 @@
 ---
-title: CompareOptions.CompareOptions
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions byggare. Default_Constructor
+title: CompareOptions
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words för .NET
+description: CompareOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.comparing/compareoptions/compareoptions/
@@ -17,7 +19,5 @@ public CompareOptions()
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

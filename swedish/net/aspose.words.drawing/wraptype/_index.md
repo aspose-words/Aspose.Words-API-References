@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.WrapType uppräkning. Anger hur text lindas runt en form eller bild.
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.WrapType uppräkning. Anger hur text lindas runt en form eller bild i C#.
 type: docs
 weight: 1400
 url: /sv/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | Lindas tätt runt kanterna på formen, istället för att svepa runt begränsningsrutan. |
 | Through | `5` | Samma som Tight, men lindas inuti alla delar av formen som är öppna. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

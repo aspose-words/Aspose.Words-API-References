@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. Hämtar eller ställer in texten innesluten i bokmärket.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: Bookmark Text fast egendom. Hämtar eller ställer in texten innesluten i bokmärket i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten innesluten i bokmärket.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

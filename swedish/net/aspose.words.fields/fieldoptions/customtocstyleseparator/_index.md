@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in anpassad stilseparator för tväxelnFieldToc field.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: Aspose.Words för .NET
+description: FieldOptions CustomTocStyleSeparator fast egendom. Hämtar eller ställer in anpassad stilseparator för tväxelnFieldToc field i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ Hämtar eller ställer in anpassad stilseparator för \t-växeln[`FieldToc`](../
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard är anpassade stilar definierade av \t-växeln i[`FieldToc`](../../fieldtoc/)fältet separeras av en avgränsare hämtad från den aktuella kulturen. Den här egenskapen åsidosätter det beteendet genom att ange en användardefinierad avgränsare.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

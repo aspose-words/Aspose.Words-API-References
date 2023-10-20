@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListTrailingCharacter uppräkning. Anger tecknet som skiljer listetiketten från texten i stycket.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListTrailingCharacter uppräkning. Anger tecknet som skiljer listetiketten från texten i stycket i C#.
 type: docs
 weight: 3540
 url: /sv/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | Ett blanksteg placeras mellan listetiketten och texten i stycket. |
 | Nothing | `2` | Det finns inget skiljetecken mellan listetiketten och texten i stycket. |
 
-### Anmärkningar
+## Anmärkningar
 
 Används som ett värde för[`TrailingCharacter`](../listlevel/trailingcharacter/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

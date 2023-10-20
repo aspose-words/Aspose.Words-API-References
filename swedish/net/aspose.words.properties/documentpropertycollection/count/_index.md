@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection fast egendom. Får antal föremål i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection Count fast egendom. Får antal föremål i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/documentpropertycollection/count/
@@ -14,7 +16,7 @@ Får antal föremål i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med anpassade dokumentegenskaper.
 
@@ -39,7 +41,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Se även
 
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

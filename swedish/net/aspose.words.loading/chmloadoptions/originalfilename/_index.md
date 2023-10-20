@@ -1,7 +1,9 @@
 ---
 title: ChmLoadOptions.OriginalFileName
-second_title: Aspose.Words för .NET API Referens
-description: ChmLoadOptions fast egendom. Namnet på CHMfilen. Standardvärdet ärnull .
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words för .NET
+description: ChmLoadOptions OriginalFileName fast egendom. Namnet på CHMfilen. Standardvärdet ärnull  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/chmloadoptions/originalfilename/
@@ -14,13 +16,13 @@ Namnet på CHM-filen. Standardvärdet är`null` .
 public string OriginalFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 CHM-dokument kan innehålla länkar som refererar till samma dokument efter filnamn. Aspose.Words stöder sådana links och använder normalt[`OriginalFileName`](../../../aspose.words/document/originalfilename/) för att kontrollera om filen som refereras till av en link är den fil som laddas. Om ett dokument laddas från en ström, bör dess ursprungliga filnamn specificeras uttryckligen via den här egenskapen, eftersom det inte kan fastställas automatiskt.
 
 Om ett CHM-dokument laddas från en fil och ett icke-nullvärde för den här egenskapen anges, kommer värdet att ta prioritet över det faktiska namnet på filen som lagras i[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
 
-### Exempel
+## Exempel
 
 Visar hur man löser webbadresser som "ms-its:myfile.chm::/index.htm".
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ExChmLoadOptions.OriginalFileName.html");
 ### Se även
 
 * class [ChmLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../chmloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

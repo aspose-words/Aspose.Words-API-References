@@ -1,7 +1,9 @@
 ---
-title: HtmlLoadOptions.HtmlLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: HtmlLoadOptions byggare. Initierar en ny instans av denna klass med standardvärden.
+title: HtmlLoadOptions
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words för .NET
+description: HtmlLoadOptions byggare. Initierar en ny instans av denna klass med standardvärden i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass med standardvärden.
 public HtmlLoadOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man stödjer villkorliga kommentarer när ett HTML-dokument laddas.
 
@@ -39,12 +41,12 @@ else
 ### Se även
 
 * class [HtmlLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../htmlloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions(*string*) {#constructor_2}
 
 En genväg för att initiera en ny instans av denna klass med det angivna lösenordet för att ladda ett krypterat dokument.
 
@@ -56,7 +58,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | Lösenordet för att öppna ett krypterat dokument. Kan vara`null` eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man krypterar ett HTML-dokument och sedan öppnar det med ett lösenord.
 
@@ -89,12 +91,12 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### Se även
 
 * class [HtmlLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../htmlloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 En genväg för att initiera en ny instans av denna klass med egenskaper inställda på de angivna värdena.
 
@@ -108,7 +110,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Lösenordet för att öppna ett krypterat dokument. Kan vara`null` eller tom sträng. |
 | baseUri | String | Strängen som kommer att användas för att lösa relativa URI:er till absoluta. Kan vara`null` eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur du anger en bas-URI när du öppnar ett HTML-dokument.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../htmlloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

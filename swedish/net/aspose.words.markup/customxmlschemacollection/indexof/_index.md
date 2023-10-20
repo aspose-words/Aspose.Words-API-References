@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlSchemaCollection metod. Returnerar det nollbaserade indexet för det angivna värdet i samlingen.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words för .NET
+description: CustomXmlSchemaCollection IndexOf metod. Returnerar det nollbaserade indexet för det angivna värdet i samlingen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 Det nollbaserade indexet. Negativt värde om det inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en XML-schemasamling.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Se även
 
 * class [CustomXmlSchemaCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Hämtar eller ställer in värdet som representerar vänster indrag i en tabell.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words för .NET
+description: TableStyle LeftIndent fast egendom. Hämtar eller ställer in värdet som representerar vänster indrag i en tabell i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värdet som representerar vänster indrag i en tabell.
 public double LeftIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in positionen för ett bord.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Se även
 
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

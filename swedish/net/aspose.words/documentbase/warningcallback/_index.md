@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som kan resultera i förlust av data eller formatering.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words för .NET
+description: DocumentBase WarningCallback fast egendom. Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som kan resultera i förlust av data eller formatering i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Dokument kan generera varningar i vilket skede som helst av dess existens, så det är viktigt att ställa in varningsåteruppringning så så tidigt som möjligt för att undvika förlust av varningar. T ex sådana egenskaper som[`PageCount`](../../document/pagecount/) bygger faktiskt dokumentlayouten som används senare för rendering, och layoutvarningarna kan gå förlorade om varningsåteruppringning anges bara för renderingsanropen senare.
 
-### Exempel
+## Exempel
 
 Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar för teckensnittsersättning.
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

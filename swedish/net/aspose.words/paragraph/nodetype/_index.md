@@ -1,7 +1,9 @@
 ---
 title: Paragraph.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. ReturnerarParagraph .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Paragraph NodeType fast egendom. ReturnerarParagraph  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/paragraph/nodetype/
@@ -14,7 +16,7 @@ ReturnerarParagraph .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

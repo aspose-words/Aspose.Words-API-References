@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchOffset
-second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen.
+linktitle: MatchOffset
+articleTitle: MatchOffset
+second_title: Aspose.Words för .NET
+description: ReplacingArgs MatchOffset fast egendom. Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.replacing/replacingargs/matchoffset/
@@ -14,7 +16,7 @@ Får den nollbaserade startpositionen för matchen från början av noden som in
 public int MatchOffset { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
@@ -87,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 ### Se även
 
 * class [ReplacingArgs](../)
-* namnutrymme [Aspose.Words.Replacing](../../replacingargs/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

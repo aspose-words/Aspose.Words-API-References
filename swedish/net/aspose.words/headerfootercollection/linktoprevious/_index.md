@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooterCollection metod. Länkar eller tar bort länkar till alla sidhuvuden och sidfötter till motsvarande sidhuvuden och sidfötter i föregående avsnitt.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words för .NET
+description: HeaderFooterCollection LinkToPrevious metod. Länkar eller tar bort länkar till alla sidhuvuden och sidfötter till motsvarande sidhuvuden och sidfötter i föregående avsnitt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Länkar eller tar bort länkar till alla sidhuvuden och sidfötter till motsvarande sidhuvuden och sidfötter i föregående avsnitt.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `Sann` för att länka sidhuvuden och sidfötter till föregående avsnitt; `falsk` för att ta bort länken till dem. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om någon av sidhuvuden eller sidfötter inte finns skapas de automatiskt.
 
-### Exempel
+## Exempel
 
 Visar hur du länkar sidhuvuden och sidfötter mellan avsnitt.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Se även
 
 * class [HeaderFooterCollection](../)
-* namnutrymme [Aspose.Words](../../headerfootercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Länkar eller tar bort den angivna sidhuvudet eller sidfoten till motsvarande sidhuvud eller sidfot i föregående avsnitt.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) värde som anger sidhuvudet eller sidfoten som ska länkas/avlänkas. |
 | isLinkToPrevious | Boolean | `Sann`för att länka sidhuvudet eller sidfoten till föregående avsnitt; `falsk` för att ta bort länken. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om sidhuvudet eller sidfoten av den angivna typen inte finns skapas det automatiskt.
 
-### Exempel
+## Exempel
 
 Visar hur du länkar sidhuvuden och sidfötter mellan avsnitt.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* namnutrymme [Aspose.Words](../../headerfootercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

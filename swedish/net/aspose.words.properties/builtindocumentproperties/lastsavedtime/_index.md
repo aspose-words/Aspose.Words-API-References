@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedTime
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in tiden för den senaste lagringen i UTC.
+linktitle: LastSavedTime
+articleTitle: LastSavedTime
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties LastSavedTime fast egendom. Hämtar eller ställer in tiden för den senaste lagringen i UTC i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
@@ -14,13 +16,13 @@ Hämtar eller ställer in tiden för den senaste lagringen i UTC.
 public DateTime LastSavedTime { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För dokument som kommer från RTF-format returnerar den här egenskapen den lokala tiden för senaste lagring.
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

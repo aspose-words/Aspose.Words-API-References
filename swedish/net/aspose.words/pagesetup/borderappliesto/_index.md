@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAppliesTo
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Anger vilka sidor som sidkanten skrivs ut på.
+linktitle: BorderAppliesTo
+articleTitle: BorderAppliesTo
+second_title: Aspose.Words för .NET
+description: PageSetup BorderAppliesTo fast egendom. Anger vilka sidor som sidkanten skrivs ut på i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/pagesetup/borderappliesto/
@@ -14,7 +16,7 @@ Anger vilka sidor som sidkanten skrivs ut på.
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderAppliesTo](../../pageborderappliesto/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

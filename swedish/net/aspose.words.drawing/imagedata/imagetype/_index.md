@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageType
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Hämtar typen av bild.
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words för .NET
+description: ImageData ImageType fast egendom. Hämtar typen av bild i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/imagedata/imagetype/
@@ -14,7 +16,7 @@ Hämtar typen av bild.
 public ImageType ImageType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar bilder från ett dokument och sparar dem i det lokala filsystemet som enskilda filer.
 
@@ -46,7 +48,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../imagetype/)
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

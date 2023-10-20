@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.SdtListItem klass. Detta element specificerar ett enda listobjekt inom en förälderComboBox ellerDropDownList strukturerad dokumenttagg.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.SdtListItem klass. Detta element specificerar ett enda listobjekt inom en förälderComboBox ellerDropDownList strukturerad dokumenttagg i C#.
 type: docs
 weight: 4020
 url: /sv/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | namn | Beskrivning |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Initierar en ny instans av den här klassen. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Initierar en ny instans av den här klassen. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Initierar en ny instans av den här klassen. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Initierar en ny instans av den här klassen. |
 
 ## Egenskaper
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Får texten att visa i körningsinnehållet istället för[`Value`](./value/) attributinnehåll för detta listobjekt. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Hämtar värdet av denna listpost. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

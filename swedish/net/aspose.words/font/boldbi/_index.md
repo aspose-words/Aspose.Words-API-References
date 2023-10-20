@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om texten från höger till vänster är formaterad som fetstil.
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: Aspose.Words för .NET
+description: Font BoldBi fast egendom. Sant om texten från höger till vänster är formaterad som fetstil i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ Sant om texten från höger till vänster är formaterad som fetstil.
 public bool BoldBi { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar separata uppsättningar teckensnittsinställningar för text från höger till vänster och höger till vänster.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

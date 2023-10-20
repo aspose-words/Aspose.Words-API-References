@@ -1,7 +1,9 @@
 ---
-title: Class SignatureLine
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.SignatureLine klass. Ger tillgång till signaturlinjeegenskaper.
+title: SignatureLine Class
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.SignatureLine klass. Ger tillgång till signaturlinjeegenskaper i C#.
 type: docs
 weight: 1300
 url: /sv/net/aspose.words.drawing/signatureline/
@@ -22,17 +24,17 @@ public class SignatureLine
 | --- | --- |
 | [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen är`falsk` . |
 | [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen är`Sann` . |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Hämtar eller ställer in föreslagen undertecknares e-postadress. Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Hämtar eller ställer in föreslagen undertecknares e-postadress. Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Hämtar eller ställer in identifierare för denna signaturrad. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras om[`DefaultInstructions`](./defaultinstructions/)är satt. Standardvärde för den här egenskapen är **tom sträng** (Empty). |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras om[`DefaultInstructions`](./defaultinstructions/)är satt. Standardvärde för den här egenskapen är**tom sträng** (Empty). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Indikerar att signaturraden är signerad med digital signatur. |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Indikerar att signaturraden är signerad med digital signatur och att denna digitala signatur är giltig. |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturrad. Standardvärdet är "{00000000-0000-0000-0000-0000000000000}". |
 | [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen är`Sann` . |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Hämtar eller ställer in föreslagen undertecknares titel (till exempel Manager). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Hämtar eller ställer in föreslagen undertecknares titel (till exempel Manager). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

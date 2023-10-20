@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentType
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer inContentType av dokumentet.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties ContentType fast egendom. Hämtar eller ställer inContentType av dokumentet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.properties/builtindocumentproperties/contenttype/
@@ -14,7 +16,7 @@ Hämtar eller ställer inContentType av dokumentet.
 public string ContentType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Innehåll".
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

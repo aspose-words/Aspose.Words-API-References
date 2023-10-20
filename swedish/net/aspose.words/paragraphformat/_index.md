@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ParagraphFormat klass. Representerar all formatering för ett stycke.
+title: ParagraphFormat Class
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ParagraphFormat klass. Representerar all formatering för ett stycke i C#.
 type: docs
 weight: 4420
 url: /sv/net/aspose.words/paragraphformat/
@@ -68,7 +70,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | Återställer till standard styckeformatering. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -119,5 +121,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

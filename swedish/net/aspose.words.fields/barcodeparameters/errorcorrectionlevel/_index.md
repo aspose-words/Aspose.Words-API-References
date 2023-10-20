@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ErrorCorrectionLevel
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Felkorrigeringsnivå för QRkoden. Giltiga värden är 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words för .NET
+description: BarcodeParameters ErrorCorrectionLevel fast egendom. Felkorrigeringsnivå för QRkoden. Giltiga värden är 0 3 i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/
@@ -14,7 +16,7 @@ Felkorrigeringsnivå för QR-koden. Giltiga värden är [0, 3].
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

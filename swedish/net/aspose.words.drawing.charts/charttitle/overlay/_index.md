@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Overlay
-second_title: Aspose.Words för .NET API Referens
-description: ChartTitle fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som standard är överlagringfalsk .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words för .NET
+description: ChartTitle Overlay fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som standard är överlagringfalsk  i C#.
 type: docs
-weight: 20
+weight: 10
 url: /sv/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
@@ -14,7 +16,7 @@ Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som stand
 public bool Overlay { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ställer in en titel.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Se även
 
 * class [ChartTitle](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../charttitle/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

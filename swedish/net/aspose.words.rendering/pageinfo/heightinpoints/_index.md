@@ -1,7 +1,9 @@
 ---
 title: PageInfo.HeightInPoints
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. Får sidans höjd i poäng.
+linktitle: HeightInPoints
+articleTitle: HeightInPoints
+second_title: Aspose.Words för .NET
+description: PageInfo HeightInPoints fast egendom. Får sidans höjd i poäng i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.rendering/pageinfo/heightinpoints/
@@ -14,7 +16,7 @@ Får sidans höjd i poäng.
 public float HeightInPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

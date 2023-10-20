@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Color
-second_title: Aspose.Words för .NET API Referens
-description: IStructuredDocumentTag fast egendom. Hämtar eller ställer in färgen på den strukturerade dokumenttaggen.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: IStructuredDocumentTag Color fast egendom. Hämtar eller ställer in färgen på den strukturerade dokumenttaggen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/istructureddocumenttag/color/
@@ -17,7 +19,5 @@ public Color Color { get; set; }
 ### Se även
 
 * interface [IStructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

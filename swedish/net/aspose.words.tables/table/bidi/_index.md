@@ -1,7 +1,9 @@
 ---
 title: Table.Bidi
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in om detta är en tabell från höger till vänster.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words för .NET
+description: Table Bidi fast egendom. Hämtar eller ställer in om detta är en tabell från höger till vänster i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.tables/table/bidi/
@@ -14,13 +16,13 @@ Hämtar eller ställer in om detta är en tabell från höger till vänster.
 public bool Bidi { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När`Sann`, är cellerna i den här raden utlagda från höger till vänster.
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

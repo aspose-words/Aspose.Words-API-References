@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Bytes
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Representerar en uppskattning av antalet byte i dokumentet.
+linktitle: Bytes
+articleTitle: Bytes
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Bytes fast egendom. Representerar en uppskattning av antalet byte i dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/builtindocumentproperties/bytes/
@@ -14,13 +16,13 @@ Representerar en uppskattning av antalet byte i dokumentet.
 public int Bytes { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word ställer inte alltid in den här egenskapen.
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Innehåll".
 
@@ -130,7 +132,5 @@ private class LineCounter
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

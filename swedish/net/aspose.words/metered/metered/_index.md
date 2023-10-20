@@ -1,7 +1,9 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Words för .NET API Referens
-description: Metered byggare. Initierar en ny instans av den här klassen.
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words för .NET
+description: Metered byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/metered/metered/
@@ -14,7 +16,7 @@ Initierar en ny instans av den här klassen.
 public Metered()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Se även
 
 * class [Metered](../)
-* namnutrymme [Aspose.Words](../../metered/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

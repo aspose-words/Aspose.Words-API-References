@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr hur formulärfält för textinmatning sparas i HTML eller MHTML. Standardvärdet ärfalsk .
+linktitle: ExportTextInputFormFieldAsText
+articleTitle: ExportTextInputFormFieldAsText
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportTextInputFormFieldAsText fast egendom. Styr hur formulärfält för textinmatning sparas i HTML eller MHTML. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -14,13 +16,13 @@ Styr hur formulärfält för textinmatning sparas i HTML eller MHTML. Standardv�
 public bool ExportTextInputFormFieldAsText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När inställd på`Sann` , exporterar textinmatningsformulärfält som normal text. När`falsk`, exporterar Word-textinmatningsfält som INPUT-element i HTML.
 
 Vid export till EPUB sparas formulärfält för textinmatning alltid som text på grund av till kraven i detta format.
 
-### Exempel
+## Exempel
 
 Visar hur man anger mappen för lagring av länkade bilder efter att ha sparats i .html.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

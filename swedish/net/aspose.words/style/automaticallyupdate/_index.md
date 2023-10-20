@@ -1,7 +1,9 @@
 ---
 title: Style.AutomaticallyUpdate
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde.
+linktitle: AutomaticallyUpdate
+articleTitle: AutomaticallyUpdate
+second_title: Aspose.Words för .NET
+description: Style AutomaticallyUpdate fast egendom. Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/style/automaticallyupdate/
@@ -14,7 +16,7 @@ Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde.
 public bool AutomaticallyUpdate { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om egenskapsvärdet är satt till true, omdefinierar MS Word automatiskt den aktuella stilen när lämplig styckeformatering har ändrats.
 
@@ -22,7 +24,7 @@ Egenskapen AutomaticallyUpdate är endast tillämplig på styckeformat.
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och tillämpar en anpassad stil.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

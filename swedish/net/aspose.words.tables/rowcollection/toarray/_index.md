@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: RowCollection metod. Kopierar alla rader från samlingen till en ny array med rader.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: RowCollection ToArray metod. Kopierar alla rader från samlingen till en ny array med rader i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 En rad rader.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* namnutrymme [Aspose.Words.Tables](../../rowcollection/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

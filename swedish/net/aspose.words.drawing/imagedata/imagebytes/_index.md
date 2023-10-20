@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Hämtar eller ställer in råbyte för bilden som lagras i formen.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words för .NET
+description: ImageData ImageBytes fast egendom. Hämtar eller ställer in råbyte för bilden som lagras i formen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ Hämtar eller ställer in råbyte för bilden som lagras i formen.
 public byte[] ImageBytes { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ställer in värdet till`null` eller en tom array tar bort bilden från formen.
 
 Returnerar`null` om bilden inte finns lagrad i dokumentet (t.ex. är bilden troligen länkad i detta fall).
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bildfil från en forms råa bilddata.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

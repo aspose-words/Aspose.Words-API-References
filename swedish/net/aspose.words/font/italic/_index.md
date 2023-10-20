@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som kursivt.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words för .NET
+description: Font Italic fast egendom. Sant om teckensnittet är formaterat som kursivt i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som kursivt.
 public bool Italic { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver kursiv text med hjälp av en dokumentbyggare.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger den särskilda uppsättning data som en källa ska anslutas till inom en extern datakälla. Standardvärdet är en tom sträng.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words för .NET
+description: Odso TableName fast egendom. Anger den särskilda uppsättning data som en källa ska anslutas till inom en extern datakälla. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ Anger den särskilda uppsättning data som en källa ska anslutas till inom en e
 public string TableName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

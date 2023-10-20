@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Returnerar den sistaCell i raden.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: Aspose.Words för .NET
+description: Row LastCell fast egendom. Returnerar den sistaCell i raden i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ Returnerar den sista[`Cell`](../../cell/) i raden.
 public Cell LastCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

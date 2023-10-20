@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapDataCollection metod. Lägger till ett objekt i slutet av den här samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapDataCollection Add metod. Lägger till ett objekt i slutet av den här samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | Objektet att lägga till. Kan inte vara`null`. |
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

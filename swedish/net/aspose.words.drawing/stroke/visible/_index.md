@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Hämtar eller ställer in en flagga som indikerar om strecket är synligt.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words för .NET
+description: Stroke Visible fast egendom. Hämtar eller ställer in en flagga som indikerar om strecket är synligt i C#.
 type: docs
-weight: 210
+weight: 200
 url: /sv/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ Hämtar eller ställer in en flagga som indikerar om strecket är synligt.
 public bool Visible { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är`Sann` .
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

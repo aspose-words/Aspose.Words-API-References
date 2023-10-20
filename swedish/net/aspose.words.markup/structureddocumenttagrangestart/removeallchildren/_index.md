@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart metod. Tar bort alla noder mellan denna intervallstartnod och intervallslutnoden.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren metod. Tar bort alla noder mellan denna intervallstartnod och intervallslutnoden i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ Tar bort alla noder mellan denna intervallstartnod och intervallslutnoden.
 public void RemoveAllChildren()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

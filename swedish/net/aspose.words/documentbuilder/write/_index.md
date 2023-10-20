@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en sträng i dokumentet vid den aktuella infogningspositionen.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words för .NET
+description: DocumentBuilder Write metod. Infogar en sträng i dokumentet vid den aktuella infogningspositionen i C#.
 type: docs
-weight: 660
+weight: 650
 url: /sv/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | Strängen som ska infogas i dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Aktuell teckensnittsformatering specificerad av[`Font`](../font/) egenskapen används.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en sträng omgiven av en kant i ett dokument.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

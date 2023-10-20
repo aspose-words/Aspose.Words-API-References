@@ -1,7 +1,9 @@
 ---
 title: TableCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: TableCollection fast egendom. Hämtar enTable vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: TableCollection Item fast egendom. Hämtar enTable vid det givna indexet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/tablecollection/item/
@@ -18,7 +20,7 @@ public Table this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* namnutrymme [Aspose.Words.Tables](../../tablecollection/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

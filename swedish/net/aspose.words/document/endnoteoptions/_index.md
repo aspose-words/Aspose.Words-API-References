@@ -1,7 +1,9 @@
 ---
 title: Document.EndnoteOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Ger alternativ som styr numrering och placering av slutnoter i detta dokument.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words för .NET
+description: Document EndnoteOptions fast egendom. Ger alternativ som styr numrering och placering av slutnoter i detta dokument i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/document/endnoteoptions/
@@ -14,7 +16,7 @@ Ger alternativ som styr numrering och placering av slutnoter i detta dokument.
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess slutanteckningar.
 
@@ -188,7 +190,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

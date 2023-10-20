@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt.
 public IEnumerator<ChartDataLabel> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

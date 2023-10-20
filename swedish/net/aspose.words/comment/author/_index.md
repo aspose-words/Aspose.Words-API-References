@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Returnerar eller ställer in författarens namn för en kommentar.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words för .NET
+description: Comment Author fast egendom. Returnerar eller ställer in författarens namn för en kommentar i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ Returnerar eller ställer in författarens namn för en kommentar.
 public string Author { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

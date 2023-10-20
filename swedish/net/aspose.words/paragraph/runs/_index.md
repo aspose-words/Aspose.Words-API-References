@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Ger tillgång till den maskinskrivna samlingen av textbitar i stycket.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words för .NET
+description: Paragraph Runs fast egendom. Ger tillgång till den maskinskrivna samlingen av textbitar i stycket i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ Ger tillgång till den maskinskrivna samlingen av textbitar i stycket.
 public RunCollection Runs { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

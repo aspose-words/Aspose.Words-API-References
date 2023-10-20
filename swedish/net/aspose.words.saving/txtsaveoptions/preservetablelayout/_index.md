@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Anger om programmet ska försöka bevara layout av tabeller när det sparas i vanlig textformat. Standardvärdet ärfalsk .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words för .NET
+description: TxtSaveOptions PreserveTableLayout fast egendom. Anger om programmet ska försöka bevara layout av tabeller när det sparas i vanlig textformat. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ Anger om programmet ska försöka bevara layout av tabeller när det sparas i va
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar layouten för tabeller vid konvertering till klartext.
 
@@ -61,7 +63,5 @@ else
 ### Se även
 
 * class [TxtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

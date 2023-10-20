@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection klass. Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument.
+title: DigitalSignatureCollection Class
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection klass. Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument i C#.
 type: docs
 weight: 390
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -36,11 +38,11 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 [`DigitalSignatures`](../../aspose.words/document/digitalsignatures/)
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -102,5 +104,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 * class [DigitalSignature](../digitalsignature/)
 * namnutrymme [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../)
-
-

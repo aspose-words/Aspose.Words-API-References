@@ -1,7 +1,9 @@
 ---
 title: FieldImport.IsLinked
-second_title: Aspose.Words för .NET API Referens
-description: FieldImport fast egendom. Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafikdata med dokumentet.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words för .NET
+description: FieldImport IsLinked fast egendom. Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafikdata med dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldimport/islinked/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om filstorleken ska minskas genom att inte lagra grafi
 public bool IsLinked { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Se även
 
 * class [FieldImport](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldimport/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som skuggat.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words för .NET
+description: Font Shadow fast egendom. Sant om teckensnittet är formaterat som skuggat i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som skuggat.
 public bool Shadow { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en serie text formaterad med en skugga.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

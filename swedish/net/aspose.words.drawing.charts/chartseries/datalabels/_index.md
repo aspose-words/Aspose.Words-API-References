@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Anger inställningarna för dataetiketterna för hela serien.
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: Aspose.Words för .NET
+description: ChartSeries DataLabels fast egendom. Anger inställningarna för dataetiketterna för hela serien i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ Anger inställningarna för dataetiketterna för hela serien.
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

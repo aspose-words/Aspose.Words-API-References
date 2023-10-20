@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Får horisontell justering av den angivna ramen.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words för .NET
+description: FrameFormat HorizontalAlignment fast egendom. Får horisontell justering av den angivna ramen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/frameformat/horizontalalignment/
@@ -14,7 +16,7 @@ Får horisontell justering av den angivna ramen.
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

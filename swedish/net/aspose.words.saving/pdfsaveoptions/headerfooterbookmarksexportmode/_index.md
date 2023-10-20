@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Bestämmer hur bokmärken i sidhuvuden/sidfötter exporteras.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode fast egendom. Bestämmer hur bokmärken i sidhuvuden/sidfötter exporteras i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ Bestämmer hur bokmärken i sidhuvuden/sidfötter exporteras.
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärAll.
 
 Denna egenskap används i samband med[`OutlineOptions`](../outlineoptions/) alternativ.
 
-### Exempel
+## Exempel
 
 Visar att bearbeta bokmärken i sidhuvuden/sidfötter i ett dokument som vi renderar till PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

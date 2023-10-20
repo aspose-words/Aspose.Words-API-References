@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetType
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger hur CSSstilar Cascading Style Sheet exporteras till HTML MHTML eller EPUB. Standardvärdet ärInline för HTML/MHTML och External för EPUB.
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions CssStyleSheetType fast egendom. Anger hur CSSstilar Cascading Style Sheet exporteras till HTML MHTML eller EPUB. Standardvärdet ärInline för HTML/MHTML och External för EPUB i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -14,11 +16,11 @@ Anger hur CSS-stilar (Cascading Style Sheet) exporteras till HTML, MHTML eller E
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Att spara CSS-stilmall i en extern fil stöds endast när du sparar till HTML. När du exporterar till ett av behållarformaten (EPUB eller MHTML) och anger External, CSS-filen kommer att inkapslas i utdatapaketet.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -81,7 +83,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetFileName](../cssstylesheetfilename/)
 * enum [CssStyleSheetType](../../cssstylesheettype/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

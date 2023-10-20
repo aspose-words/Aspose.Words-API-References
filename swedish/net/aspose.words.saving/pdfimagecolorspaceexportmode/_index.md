@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageColorSpaceExportMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfImageColorSpaceExportMode uppräkning. Anger hur färgrymden kommer att väljas för bilderna i PDFdokument.
+title: PdfImageColorSpaceExportMode Enum
+linktitle: PdfImageColorSpaceExportMode
+articleTitle: PdfImageColorSpaceExportMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfImageColorSpaceExportMode uppräkning. Anger hur färgrymden kommer att väljas för bilderna i PDFdokument i C#.
 type: docs
 weight: 5480
 url: /sv/net/aspose.words.saving/pdfimagecolorspaceexportmode/
@@ -21,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | Aspose.Words väljer automatiskt den lämpligaste färgrymden för varje bild. |
 | SimpleCmyk | `1` | Aspose.Words döljer RGB-bilder till CMYK-färgrymd med en enkel formel. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en annan färgrymd för bilder i ett dokument när vi exporterar det till PDF.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

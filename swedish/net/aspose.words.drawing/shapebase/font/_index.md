@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Ger tillgång till teckensnittsformateringen för detta objekt.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ShapeBase Font fast egendom. Ger tillgång till teckensnittsformateringen för detta objekt i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ Ger tillgång till teckensnittsformateringen för detta objekt.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en textruta och ställer in teckensnittet för dess innehåll.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

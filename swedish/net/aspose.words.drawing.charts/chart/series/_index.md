@@ -1,7 +1,9 @@
 ---
 title: Chart.Series
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Ger tillgång till seriesamling.
+linktitle: Series
+articleTitle: Series
+second_title: Aspose.Words för .NET
+description: Chart Series fast egendom. Ger tillgång till seriesamling i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chart/series/
@@ -14,7 +16,7 @@ Ger tillgång till seriesamling.
 public ChartSeriesCollection Series { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

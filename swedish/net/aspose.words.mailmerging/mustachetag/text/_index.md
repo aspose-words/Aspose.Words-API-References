@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Aspose.Words för .NET API Referens
-description: MustacheTag fast egendom. Hämtar taggens text.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: MustacheTag Text fast egendom. Hämtar taggens text i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ Hämtar taggens text.
 public string Text { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med mustaschtaggarna.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Se även
 
 * class [MustacheTag](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mustachetag/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

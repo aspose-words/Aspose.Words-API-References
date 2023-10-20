@@ -1,7 +1,9 @@
 ---
-title: TaskPane.TaskPane
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane byggare. Default_Constructor
+title: TaskPane
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words för .NET
+description: TaskPane byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.webextensions/taskpane/taskpane/
@@ -17,7 +19,5 @@ public TaskPane()
 ### Se även
 
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

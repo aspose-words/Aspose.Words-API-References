@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PrefixedSequenceIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in identifieraren för en sekvens för vilken ett prefix ska läggas till i postens sidnummer.
+linktitle: PrefixedSequenceIdentifier
+articleTitle: PrefixedSequenceIdentifier
+second_title: Aspose.Words för .NET
+description: FieldToc PrefixedSequenceIdentifier fast egendom. Hämtar eller ställer in identifieraren för en sekvens för vilken ett prefix ska läggas till i postens sidnummer i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
@@ -14,7 +16,7 @@ Hämtar eller ställer in identifieraren för en sekvens för vilken ett prefix 
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett innehållsförteckningsfält med poster med hjälp av SEQ-fält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

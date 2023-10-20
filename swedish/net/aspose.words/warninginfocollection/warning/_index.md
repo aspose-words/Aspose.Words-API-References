@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfoCollection metod. ImplementerarIWarningCallback gränssnitt. Lägger till en varning för den här samlingen.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words för .NET
+description: WarningInfoCollection Warning metod. ImplementerarIWarningCallback gränssnitt. Lägger till en varning för den här samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ Implementerar[`IWarningCallback`](../../iwarningcallback/) gränssnitt. Lägger 
 public void Warning(WarningInfo info)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* namnutrymme [Aspose.Words](../../warninginfocollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Aspose.Words för .NET API Referens
-description: FieldAsk fast egendom. Hämtar eller ställer in om användarsvaret ska tas emot en gång per en sammankopplingsåtgärd.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words för .NET
+description: FieldAsk PromptOnceOnMailMerge fast egendom. Hämtar eller ställer in om användarsvaret ska tas emot en gång per en sammankopplingsåtgärd i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om användarsvaret ska tas emot en gång per en samman
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldAsk](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldask/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

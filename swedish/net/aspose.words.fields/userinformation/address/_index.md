@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Aspose.Words för .NET API Referens
-description: UserInformation fast egendom. Hämtar eller ställer in användarens postadress.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words för .NET
+description: UserInformation Address fast egendom. Hämtar eller ställer in användarens postadress i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ Hämtar eller ställer in användarens postadress.
 public string Address { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Se även
 
 * class [UserInformation](../)
-* namnutrymme [Aspose.Words.Fields](../../userinformation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark metod. Tar bort bokmärket från dokumentet. Tar inte bort text inuti bokmärket.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: Bookmark Remove metod. Tar bort bokmärket från dokumentet. Tar inte bort text inuti bokmärket i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ Tar bort bokmärket från dokumentet. Tar inte bort text inuti bokmärket.
 public void Remove()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort bokmärken från ett dokument.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Se även
 
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

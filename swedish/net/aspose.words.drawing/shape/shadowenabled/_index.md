@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. ReturnerarSann om en skuggeffekt är aktiverad.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: Aspose.Words för .NET
+description: Shape ShadowEnabled fast egendom. ReturnerarSann om en skuggeffekt är aktiverad i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ Returnerar`Sann` om en skuggeffekt är aktiverad.
 public bool ShadowEnabled { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator fast egendom. Returnerar den avgränsande rektangeln för den aktuella enheten i förhållande till sidans övre vänstra hörn i punkter.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator Rectangle fast egendom. Returnerar den avgränsande rektangeln för den aktuella enheten i förhållande till sidans övre vänstra hörn i punkter i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ Returnerar den avgränsande rektangeln för den aktuella enheten i förhållande
 public RectangleF Rectangle { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

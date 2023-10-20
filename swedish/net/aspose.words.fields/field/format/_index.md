@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Får enFieldFormat objekt som ger maskinskriven åtkomst till fältets formatering.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words för .NET
+description: Field Format fast egendom. Får enFieldFormat objekt som ger maskinskriven åtkomst till fältets formatering i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ Får en[`FieldFormat`](../../fieldformat/) objekt som ger maskinskriven åtkomst
 public FieldFormat Format { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

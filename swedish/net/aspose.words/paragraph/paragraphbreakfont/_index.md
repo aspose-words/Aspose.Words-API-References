@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Ger tillgång till teckensnittsformateringen för styckebrytningstecknet.
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: Aspose.Words för .NET
+description: Paragraph ParagraphBreakFont fast egendom. Ger tillgång till teckensnittsformateringen för styckebrytningstecknet i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ Ger tillgång till teckensnittsformateringen för styckebrytningstecknet.
 public Font ParagraphBreakFont { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

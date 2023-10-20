@@ -1,7 +1,9 @@
 ---
-title: Enum ChartYValueType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartYValueType uppräkning. Gör det möjligt att ange typ av ett Yvärde i en diagramserie.
+title: ChartYValueType Enum
+linktitle: ChartYValueType
+articleTitle: ChartYValueType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueType uppräkning. Gör det möjligt att ange typ av ett Yvärde i en diagramserie i C#.
 type: docs
 weight: 890
 url: /sv/net/aspose.words.drawing.charts/chartyvaluetype/
@@ -26,5 +28,3 @@ public enum ChartYValueType
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

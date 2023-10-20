@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.InvertIfNegative
-second_title: Aspose.Words för .NET API Referens
-description: IChartDataPoint fast egendom. Anger om det överordnade elementet ska invertera sina färger om värdet är negativt.
+linktitle: InvertIfNegative
+articleTitle: InvertIfNegative
+second_title: Aspose.Words för .NET
+description: IChartDataPoint InvertIfNegative fast egendom. Anger om det överordnade elementet ska invertera sina färger om värdet är negativt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/invertifnegative/
@@ -14,7 +16,7 @@ Anger om det överordnade elementet ska invertera sina färger om värdet är ne
 public bool InvertIfNegative { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Se även
 
 * interface [IChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane fast egendom. Anger den senast dockade platsen för detta aktivitetsfönsterobjekt.
+linktitle: DockState
+articleTitle: DockState
+second_title: Aspose.Words för .NET
+description: TaskPane DockState fast egendom. Anger den senast dockade platsen för detta aktivitetsfönsterobjekt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ Anger den senast dockade platsen för detta aktivitetsfönsterobjekt.
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfoCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: WarningInfoCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/warninginfocollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Se även
 
 * class [WarningInfoCollection](../)
-* namnutrymme [Aspose.Words](../../warninginfocollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

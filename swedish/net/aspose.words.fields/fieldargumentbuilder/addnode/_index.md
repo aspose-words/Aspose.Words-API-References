@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Aspose.Words för .NET API Referens
-description: FieldArgumentBuilder metod. Lägger till en nod till argumentet.
+linktitle: AddNode
+articleTitle: AddNode
+second_title: Aspose.Words för .NET
+description: FieldArgumentBuilder AddNode metod. Lägger till en nod till argumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ Lägger till en nod till argumentet.
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Endast textnivånoder stöds för tillfället.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

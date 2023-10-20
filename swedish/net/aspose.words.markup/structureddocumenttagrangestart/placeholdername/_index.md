@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Hämtar eller sätter Namn påBuildingBlock som innehåller platshållartext.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart PlaceholderName fast egendom. Hämtar eller sätter Namn påBuildingBlock som innehåller platshållartext i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ Hämtar eller sätter Namn på[`BuildingBlock`](../../../aspose.words.buildingbl
 public string PlaceholderName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

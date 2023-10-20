@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode uppräkning. Anger hur bokmärken i sidhuvuden/sidfötter exporteras.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode uppräkning. Anger hur bokmärken i sidhuvuden/sidfötter exporteras i C#.
 type: docs
 weight: 5050
 url: /sv/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Endast bokmärke i första sidhuvudet/sidfoten i avsnittet exporteras. |
 | All | `2` | Bokmärken i alla sidhuvuden/sidfötter exporteras. |
 
-### Exempel
+## Exempel
 
 Visar att bearbeta bokmärken i sidhuvuden/sidfötter i ett dokument som vi renderar till PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

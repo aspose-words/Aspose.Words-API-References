@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Hämtar eller ställer in filnamnet utan sökväg där typsnittet ska sparas.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words för .NET
+description: FontSavingArgs FontFileName fast egendom. Hämtar eller ställer in filnamnet utan sökväg där typsnittet ska sparas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in filnamnet (utan sökväg) där typsnittet ska sparas.
 public string FontFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig omdefiniera hur teckensnittsfilnamnen genereras under export till HTML.
 
@@ -28,7 +30,7 @@ När du sparar ett dokument i en ström ser det genererade teckensnittsfilnamnet
 
 `FontFileName` måste endast innehålla filnamnet utan sökvägen. Aspose.Words bestämmer sökvägen för att spara med hjälp av dokumentets filnamn, [`FontsFolder`](../../htmlsaveoptions/fontsfolder/) och [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) egenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

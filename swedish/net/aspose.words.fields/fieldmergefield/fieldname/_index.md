@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldName
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeField fast egendom. Hämtar eller ställer in namnet på ett datafält.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words för .NET
+description: FieldMergeField FieldName fast egendom. Hämtar eller ställer in namnet på ett datafält i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på ett datafält.
 public string FieldName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Se även
 
 * class [FieldMergeField](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergefield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

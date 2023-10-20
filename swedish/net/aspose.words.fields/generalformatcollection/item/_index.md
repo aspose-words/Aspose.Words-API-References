@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: GeneralFormatCollection fast egendom. Får ett allmänt format vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: GeneralFormatCollection Item fast egendom. Får ett allmänt format vid angivet index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/generalformatcollection/item/
@@ -22,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 Ett allmänt format.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -87,7 +89,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../generalformatcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Hämtar eller ställer in sidorna att rendera. Standard är alla sidor i dokumentet.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words för .NET
+description: FixedPageSaveOptions PageSet fast egendom. Hämtar eller ställer in sidorna att rendera. Standard är alla sidor i dokumentet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ Hämtar eller ställer in sidorna att rendera. Standard är alla sidor i dokumen
 public PageSet PageSet { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar sidor baserat på exakta sidindex.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

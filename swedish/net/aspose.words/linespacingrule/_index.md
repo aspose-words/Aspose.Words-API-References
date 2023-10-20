@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.LineSpacingRule uppräkning. Anger radavståndsvärden för ett stycke.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.LineSpacingRule uppräkning. Anger radavståndsvärden för ett stycke i C#.
 type: docs
 weight: 3440
 url: /sv/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

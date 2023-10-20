@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Får vertikalt avstånd mellan kanten på ramen och objektet som anges avRelativeVerticalPosition egenskap.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words för .NET
+description: FrameFormat VerticalPosition fast egendom. Får vertikalt avstånd mellan kanten på ramen och objektet som anges avRelativeVerticalPosition egenskap i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/frameformat/verticalposition/
@@ -14,7 +16,7 @@ Får vertikalt avstånd mellan kanten på ramen och objektet som anges av[`Relat
 public double VerticalPosition { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Se även
 
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

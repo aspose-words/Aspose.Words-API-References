@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Aspose.Words för .NET API Referens
-description: FileFontSource fast egendom. Sökväg till teckensnittsfilen.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words för .NET
+description: FileFontSource FilePath fast egendom. Sökväg till teckensnittsfilen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ Sökväg till teckensnittsfilen.
 public string FilePath { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Se även
 
 * class [FileFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../filefontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

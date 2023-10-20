@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddField
-second_title: Aspose.Words för .NET API Referens
-description: FieldArgumentBuilder metod. Lägger till ett fält som representeras av enFieldBuilder till argumentet.
+linktitle: AddField
+articleTitle: AddField
+second_title: Aspose.Words för .NET
+description: FieldArgumentBuilder AddField metod. Lägger till ett fält som representeras av enFieldBuilder till argumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldargumentbuilder/addfield/
@@ -14,7 +16,7 @@ Lägger till ett fält som representeras av en[`FieldBuilder`](../../fieldbuilde
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -98,7 +100,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldBuilder](../../fieldbuilder/)
 * class [FieldArgumentBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

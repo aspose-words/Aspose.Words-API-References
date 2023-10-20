@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlVersion
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.HtmlVersion uppräkning. Indikerar vilken version av HTML som används när dokumentet sparasHtml och Mhtml formats.
+title: HtmlVersion Enum
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.HtmlVersion uppräkning. Indikerar vilken version av HTML som används när dokumentet sparasHtml och Mhtml formats i C#.
 type: docs
 weight: 5120
 url: /sv/net/aspose.words.saving/htmlversion/
@@ -21,7 +23,7 @@ public enum HtmlVersion
 | Xhtml | `0` | Sparar dokumentet i enlighet med XHTML 1.0 Transitional-standarden. |
 | Html5 | `1` | Sparar dokumentet i enlighet med HTML 5-standarden. |
 
-### Exempel
+## Exempel
 
 Visar hur man visar en DOCTYPE-rubrik när man konverterar dokument till övergångsstandarden Xhtml 1.0.
 
@@ -87,5 +89,3 @@ switch (htmlVersion)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection metod. Hämtar indexet för en egenskap efter namn.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection IndexOf metod. Hämtar indexet för en egenskap efter namn i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 Det nollbaserade indexet. Negativt värde om det inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

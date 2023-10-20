@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsFooter
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Anger om sidkanten inkluderar eller exkluderar sidfoten.
+linktitle: BorderSurroundsFooter
+articleTitle: BorderSurroundsFooter
+second_title: Aspose.Words för .NET
+description: PageSetup BorderSurroundsFooter fast egendom. Anger om sidkanten inkluderar eller exkluderar sidfoten i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -14,11 +16,11 @@ Anger om sidkanten inkluderar eller exkluderar sidfoten.
 public bool BorderSurroundsFooter { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Obs, att ändra den här egenskapen påverkar alla avsnitt i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en ram på sidan och sidhuvud/sidfot.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

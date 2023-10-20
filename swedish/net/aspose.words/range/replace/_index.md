@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Aspose.Words för .NET API Referens
-description: Range metod. Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words för .NET
+description: Range Replace metod. Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 Antalet byten som gjorts.
 
-### Anmärkningar
+## Anmärkningar
 
 Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace`om du behöver reguljära uttryck.
 
@@ -40,7 +42,7 @@ Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
 
 Använd metod`Replace` för att få mer flexibel anpassning.
 
-### Exempel
+## Exempel
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### Se även
 
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 Antalet byten som gjorts.
 
-### Anmärkningar
+## Anmärkningar
 
 Ersätter hela matchningen som fångas av det reguljära uttrycket.
 
@@ -141,7 +143,7 @@ Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
 
 Använd metod`Replace` för att få mer flexibel anpassning.
 
-### Exempel
+## Exempel
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### Se även
 
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 Antalet byten som gjorts.
 
-### Anmärkningar
+## Anmärkningar
 
 Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace`om du behöver reguljära uttryck.
 
@@ -205,7 +207,7 @@ Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
 * **&amp;l** - manuell radbrytning
 * **&amp;&amp;** - &amp; karaktär
 
-### Exempel
+## Exempel
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 Antalet byten som gjorts.
 
-### Anmärkningar
+## Anmärkningar
 
 Ersätter hela matchningen som fångas av det reguljära uttrycket.
 
@@ -352,7 +354,7 @@ Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
 * **&amp;l** - manuell radbrytning
 * **&amp;&amp;** - &amp; karaktär
 
-### Exempel
+## Exempel
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Compliance
-second_title: Aspose.Words för .NET API Referens
-description: OoxmlSaveOptions fast egendom. Anger OOXMLversionen för utdatadokumentet. Standardvärdet ärEcma376_2006 .
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words för .NET
+description: OoxmlSaveOptions Compliance fast egendom. Anger OOXMLversionen för utdatadokumentet. Standardvärdet ärEcma376_2006  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/compliance/
@@ -14,7 +16,7 @@ Anger OOXML-versionen för utdatadokumentet. Standardvärdet ärEcma376_2006 .
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar DML-former i ett dokument.
 
@@ -106,7 +108,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [OoxmlCompliance](../../ooxmlcompliance/)
 * class [OoxmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

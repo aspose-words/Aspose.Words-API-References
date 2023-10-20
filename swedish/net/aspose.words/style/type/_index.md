@@ -1,9 +1,11 @@
 ---
 title: Style.Type
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar stiltypen stycke eller tecken.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: Style Type fast egendom. Hämtar stiltypen stycke eller tecken i C#.
 type: docs
-weight: 180
+weight: 170
 url: /sv/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -14,7 +16,7 @@ Hämtar stiltypen (stycke eller tecken).
 public StyleType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * enum [StyleType](../../styletype/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Aspose.Words för .NET API Referens
-description: Row metod. Hämtar texten för alla celler i den här raden inklusive slutet av radens tecken.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words för .NET
+description: Row GetText metod. Hämtar texten för alla celler i den här raden inklusive slutet av radens tecken i C#.
 type: docs
-weight: 160
+weight: 140
 url: /sv/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ Hämtar texten för alla celler i den här raden inklusive slutet av radens teck
 public override string GetText()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar sammanlänkade text för alla underordnade noder med slutet av raden character [`Cell`](../../../aspose.words/controlchar/cell/) bifogas i slutet.
 
 Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Se även
 
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

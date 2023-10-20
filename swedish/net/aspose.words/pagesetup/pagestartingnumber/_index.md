@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageStartingNumber
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in startsidnumret för avsnittet.
+linktitle: PageStartingNumber
+articleTitle: PageStartingNumber
+second_title: Aspose.Words för .NET
+description: PageSetup PageStartingNumber fast egendom. Hämtar eller ställer in startsidnumret för avsnittet i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words/pagesetup/pagestartingnumber/
@@ -14,11 +16,11 @@ Hämtar eller ställer in startsidnumret för avsnittet.
 public int PageStartingNumber { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den[`RestartPageNumbering`](../restartpagenumbering/)egenskap, om den är inställd på`falsk` , kommer att åsidosätta the `PageStartingNumber` egenskap så att sidnumreringen kan fortsätta från föregående avsnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in sidnumrering i ett avsnitt.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

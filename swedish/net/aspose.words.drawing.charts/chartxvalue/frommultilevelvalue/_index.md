@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromMultilevelValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue metod. Skapar enChartXValue instans avMultilevel typ.
+linktitle: FromMultilevelValue
+articleTitle: FromMultilevelValue
+second_title: Aspose.Words för .NET
+description: ChartXValue FromMultilevelValue metod. Skapar enChartXValue instans avMultilevel typ i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/
@@ -18,7 +20,5 @@ public static ChartXValue FromMultilevelValue(ChartMultilevelValue value)
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

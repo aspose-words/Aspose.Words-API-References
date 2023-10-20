@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Hämtar enConditionalStyle objekt efter villkorlig stiltyp.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection Item fast egendom. Hämtar enConditionalStyle objekt efter villkorlig stiltyp i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ Hämtar en[`ConditionalStyle`](../../conditionalstyle/) objekt efter villkorlig 
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | Nollbaserat index för den villkorliga stilen som ska hämtas. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

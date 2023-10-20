@@ -1,7 +1,9 @@
 ---
-title: Forms2OleControlCollection.Forms2OleControlCollection
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControlCollection byggare. Default_Constructor
+title: Forms2OleControlCollection
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words för .NET
+description: Forms2OleControlCollection byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/forms2olecontrolcollection/
@@ -17,7 +19,5 @@ public Forms2OleControlCollection()
 ### Se även
 
 * class [Forms2OleControlCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

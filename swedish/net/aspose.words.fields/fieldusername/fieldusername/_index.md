@@ -1,7 +1,9 @@
 ---
-title: FieldUserName.FieldUserName
-second_title: Aspose.Words för .NET API Referens
-description: FieldUserName byggare. Default_Constructor
+title: FieldUserName
+linktitle: FieldUserName
+articleTitle: FieldUserName
+second_title: Aspose.Words för .NET
+description: FieldUserName byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldusername/fieldusername/
@@ -17,7 +19,5 @@ public FieldUserName()
 ### Se även
 
 * class [FieldUserName](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldusername/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: FolderFontSource.FolderFontSource
-second_title: Aspose.Words för .NET API Referens
-description: FolderFontSource byggare. Ctor.
+title: FolderFontSource
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words för .NET
+description: FolderFontSource byggare. Ctor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {#constructor}
+## FolderFontSource(*string, bool*) {#constructor}
 
 Ctor.
 
@@ -19,7 +21,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Sökväg till mapp. |
 | scanSubfolders | Boolean | Bestämmer om undermappar ska skannas eller inte. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en lokal systemmapp som innehåller teckensnitt som teckensnittskälla.
 
@@ -40,12 +42,12 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Se även
 
 * class [FolderFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../folderfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## FolderFontSource(string, bool, int) {#constructor_1}
+## FolderFontSource(*string, bool, int*) {#constructor_1}
 
 Ctor.
 
@@ -59,7 +61,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | Bestämmer om undermappar ska skannas eller inte. |
 | priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en lokal systemmapp som innehåller teckensnitt som teckensnittskälla.
 
@@ -80,7 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Se även
 
 * class [FolderFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../folderfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

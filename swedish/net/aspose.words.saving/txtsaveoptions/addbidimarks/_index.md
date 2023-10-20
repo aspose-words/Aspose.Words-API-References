@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Anger om dubbelriktade markeringar ska läggas till före varje BiDikörning vid export i vanlig textformat.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words för .NET
+description: TxtSaveOptions AddBidiMarks fast egendom. Anger om dubbelriktade markeringar ska läggas till före varje BiDikörning vid export i vanlig textformat i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ Standardvärdet är`falsk`.
 public bool AddBidiMarks { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar Unicode-tecken 'HÖGER-TO-VÄNSTER MARK' (U+200F) före varje dubbelriktad körning i text.
 
@@ -58,7 +60,5 @@ else
 ### Se även
 
 * class [TxtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

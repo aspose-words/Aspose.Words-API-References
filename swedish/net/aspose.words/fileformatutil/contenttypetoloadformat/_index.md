@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatUtil metod. Konverterar IANAinnehållstyp till ett laddningsformat uppräknat värde.
+linktitle: ContentTypeToLoadFormat
+articleTitle: ContentTypeToLoadFormat
+second_title: Aspose.Words för .NET
+description: FileFormatUtil ContentTypeToLoadFormat metod. Konverterar IANAinnehållstyp till ett laddningsformat uppräknat värde i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 | --- | --- |
 | ArgumentException | Kastar när det inte går att konvertera. |
 
-### Exempel
+## Exempel
 
 Visar hur man hittar motsvarande Aspose-laddnings-/sparaformat från varje mediatypsträng.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* namnutrymme [Aspose.Words](../../fileformatutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

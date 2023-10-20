@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.RowFormat klass. Representerar all formatering för en tabellrad.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.RowFormat klass. Representerar all formatering för en tabellrad i C#.
 type: docs
 weight: 6330
 url: /sv/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Återställer till standardradformatering. |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar formateringen av en tabellrad.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

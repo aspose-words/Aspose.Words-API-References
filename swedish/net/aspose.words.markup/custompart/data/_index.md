@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Aspose.Words för .NET API Referens
-description: CustomPart fast egendom. Innehåller data för denna anpassade del.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words för .NET
+description: CustomPart Data fast egendom. Innehåller data för denna anpassade del i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ Innehåller data för denna anpassade del.
 public byte[] Data { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna egenskap är endast tillämplig när[`IsExternal`](../isexternal/) är`falsk`.
 
 Standardvärdet är en tom byte-array. Värdet kan inte vara`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPart](../)
-* namnutrymme [Aspose.Words.Markup](../../custompart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

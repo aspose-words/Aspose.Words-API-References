@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceBottom
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in avståndet mellan tabellbotten och den omgivande texten i punkter.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words för .NET
+description: Table DistanceBottom fast egendom. Hämtar eller ställer in avståndet mellan tabellbotten och den omgivande texten i punkter i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.tables/table/distancebottom/
@@ -14,7 +16,7 @@ Hämtar eller ställer in avståndet mellan tabellbotten och den omgivande texte
 public double DistanceBottom { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in avståndet mellan tabellgränser och text.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

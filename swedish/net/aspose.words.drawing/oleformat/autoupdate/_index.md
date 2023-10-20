@@ -1,7 +1,9 @@
 ---
 title: OleFormat.AutoUpdate
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Anger om länken till OLEobjektet uppdateras automatiskt eller inte i Microsoft Word.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words för .NET
+description: OleFormat AutoUpdate fast egendom. Anger om länken till OLEobjektet uppdateras automatiskt eller inte i Microsoft Word i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/oleformat/autoupdate/
@@ -14,11 +16,11 @@ Anger om länken till OLE-objektet uppdateras automatiskt eller inte i Microsoft
 public bool AutoUpdate { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar inbäddade OLE-objekt till filer.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

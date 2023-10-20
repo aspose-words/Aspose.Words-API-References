@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in lokalidentifieraren språket för de formaterade högertillvänstertecken.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words för .NET
+description: Font LocaleIdBi fast egendom. Hämtar eller ställer in lokalidentifieraren språket för de formaterade högertillvänstertecken i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ Hämtar eller ställer in lokalidentifieraren (språket) för de formaterade hö
 public int LocaleIdBi { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För listan över lokalkoder se https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Exempel
+## Exempel
 
 Visar hur man definierar separata uppsättningar teckensnittsinställningar för text från höger till vänster och höger till vänster.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

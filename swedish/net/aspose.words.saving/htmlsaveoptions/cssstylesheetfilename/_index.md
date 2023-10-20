@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger sökvägen och namnet på CSSfilen Cascading Style Sheet som skrivs när ett document exporteras till HTML. Standard är en tom sträng.
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions CssStyleSheetFileName fast egendom. Anger sökvägen och namnet på CSSfilen Cascading Style Sheet som skrivs när ett document exporteras till HTML. Standard är en tom sträng i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ Anger sökvägen och namnet på CSS-filen (Cascading Style Sheet) som skrivs nä
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du vill spara ett dokument i HTML-format och extern CSS-stilmall begärs med[`CssStyleSheetType`](../cssstylesheettype/).
 
@@ -26,7 +28,7 @@ Om mappen som anges av den här egenskapen inte finns skapas den automatiskt inn
 
 Ett annat sätt att ange en mapp där extern CSS-fil sparas är att använda[`ResourceFolder`](../resourcefolder/) .
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

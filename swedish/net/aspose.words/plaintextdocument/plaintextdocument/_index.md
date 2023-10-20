@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Aspose.Words för .NET API Referens
-description: PlainTextDocument byggare. Skapar ett vanligt textdokument från en fil. Upptäcker automatiskt filformatet.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words för .NET
+description: PlainTextDocument byggare. Skapar ett vanligt textdokument från en fil. Upptäcker automatiskt filformatet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Skapar ett vanligt textdokument från en fil. Upptäcker automatiskt filformatet.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Se även
 
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Skapar ett vanligt textdokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man laddar innehållet i ett krypterat Microsoft Word-dokument i klartext.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Skapar ett vanligt textdokument från en ström. Upptäcker automatiskt filformatet.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext med stream.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Se även
 
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Skapar ett vanligt textdokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar innehållet i ett krypterat Microsoft Word-dokument i klartext med stream.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* namnutrymme [Aspose.Words](../../plaintextdocument/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

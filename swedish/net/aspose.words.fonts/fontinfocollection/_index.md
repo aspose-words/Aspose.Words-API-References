@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontInfoCollection klass. Representerar en samling teckensnitt som används i ett dokument.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontInfoCollection klass. Representerar en samling teckensnitt som används i ett dokument i C#.
 type: docs
 weight: 2930
 url: /sv/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Bestämmer om samlingen innehåller ett teckensnitt med det angivna namnet. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Bestämmer om samlingen innehåller ett teckensnitt med det angivna namnet. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Objekt är[`FontInfo`](../fontinfo/) föremål.
 
 Du skapar inte instanser av den här klassen direkt. Använd[`FontInfos`](../../aspose.words/documentbase/fontinfos/) egenskap för att komma åt samlingen av teckensnitt som definieras i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om vilka typsnitt som finns i ett dokument.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

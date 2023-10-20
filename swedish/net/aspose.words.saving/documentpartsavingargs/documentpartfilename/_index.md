@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPartSavingArgs fast egendom. Hämtar eller ställer in filnamnet utan sökväg där dokumentdelen ska sparas.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words för .NET
+description: DocumentPartSavingArgs DocumentPartFileName fast egendom. Hämtar eller ställer in filnamnet utan sökväg där dokumentdelen ska sparas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in filnamnet (utan sökväg) där dokumentdelen ska spara
 public string DocumentPartFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig omdefiniera hur dokumentdelfilnamnen genereras under export till HTML eller EPUB.
 
@@ -22,7 +24,7 @@ När återuppringningen anropas innehåller den här egenskapen filnamnet som ge
 
 `DocumentPartFileName` måste endast innehålla filnamnet utan sökvägen. Aspose.Words bestämmer sökvägen för att spara med hjälp av dokumentets filnamn. Om utdatadokumentets filnamn inte angavs, till exempel när du sparar till en ström, används detta filnamn endast för att referera till dokumentdelar. Detsamma gäller när du sparar i EPUB-format.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Se även
 
 * class [DocumentPartSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

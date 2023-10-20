@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SubFontBySize
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Öka prioritet för teckensnittsstorlek under teckensnittsersättning.
+linktitle: SubFontBySize
+articleTitle: SubFontBySize
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions SubFontBySize fast egendom. Öka prioritet för teckensnittsstorlek under teckensnittsersättning i C#.
 type: docs
 weight: 470
 url: /sv/net/aspose.words.settings/compatibilityoptions/subfontbysize/
@@ -17,7 +19,5 @@ public bool SubFontBySize { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

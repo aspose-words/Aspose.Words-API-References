@@ -1,7 +1,9 @@
 ---
 title: FieldFileName.IncludeFullPath
-second_title: Aspose.Words för .NET API Referens
-description: FieldFileName fast egendom. Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words för .NET
+description: FieldFileName IncludeFullPath fast egendom. Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas.
 public bool IncludeFullPath { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder FieldOptions för att åsidosätta standardvärdet för fältet FILNAMN.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Se även
 
 * class [FieldFileName](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldfilename/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

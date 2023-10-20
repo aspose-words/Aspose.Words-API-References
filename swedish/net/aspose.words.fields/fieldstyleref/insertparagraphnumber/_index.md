@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
-second_title: Aspose.Words för .NET API Referens
-description: FieldStyleRef fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas exakt som det visas i dokumentet.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words för .NET
+description: FieldStyleRef InsertParagraphNumber fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas exakt som det visas i dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om styckenumret för det refererade stycket ska infoga
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder STYLEREF-fält.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Se även
 
 * class [FieldStyleRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstyleref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

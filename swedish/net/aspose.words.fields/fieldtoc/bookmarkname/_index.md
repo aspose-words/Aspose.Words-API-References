@@ -1,7 +1,9 @@
 ---
 title: FieldToc.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar den del av dokumentet som används för att bygga tabellen.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldToc BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar den del av dokumentet som används för att bygga tabellen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtoc/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket som markerar den del av dokument
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Får cellens bredd i punkter.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words för .NET
+description: CellFormat Width fast egendom. Får cellens bredd i punkter i C#.
 type: docs
-weight: 140
+weight: 130
 url: /sv/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ Får cellens bredd i punkter.
 public double Width { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Bredden beräknas av Aspose.Words om att ladda och spara dokument. För närvarande stöds inte alla kombinationer av tabell-, cell- och dokumentegenskaper. Det returnerade värdet kanske inte är korrekt för vissa dokument. Det kanske inte matchar exakt cellbredd beräknad av MS Word när dokumentet öppnas i MS Word.
 
 Det rekommenderas inte att ställa in den här egenskapen. Det finns ingen garanti för att cellen faktiskt kommer att ha den inställda bredden. Bredden kan justeras för att passa cellinnehåll i en automatisk anpassningstabelllayout. Celler i andra rader kan ha motstridiga bredd settings. Tabellen kan ändras i storlek för att passa in i behållaren eller för att möta tabellbreddsinställningar. Överväg att använda[`PreferredWidth`](../preferredwidth/) för att ställa in cellbredden. Inställning av denna egenskapsuppsättning[`PreferredWidth`](../preferredwidth/)implicit sedan version 15.8.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar celler med en dokumentbyggare.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

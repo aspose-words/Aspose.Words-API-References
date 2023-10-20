@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ClearFormat
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection metod. Rensar alla formatChartDataLabel i den här samlingen.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ClearFormat metod. Rensar alla formatChartDataLabel i den här samlingen i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
@@ -14,7 +16,7 @@ Rensar alla format[`ChartDataLabel`](../../chartdatalabel/) i den här samlingen
 public void ClearFormat()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

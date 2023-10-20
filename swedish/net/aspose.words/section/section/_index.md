@@ -1,7 +1,9 @@
 ---
-title: Section.Section
-second_title: Aspose.Words för .NET API Referens
-description: Section byggare. Initierar en ny instans av klassen Sektion.
+title: Section
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words för .NET
+description: Section byggare. Initierar en ny instans av klassen Sektion i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/section/section/
@@ -18,13 +20,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När avsnittet skapas tillhör det det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att inkludera[`Section`](../) till ett dokumentanvändningNode) och Node) metoder för[`Document`](../../document/) OR [`Add`](../../nodecollection/add/) och[`Insert`](../../nodecollection/insert/) metoder för[`Sections`](../../document/sections/) fast egendom.
+Att inkludera[`Section`](../) till ett dokumentanvändning[`InsertAfter`](../../compositenode/insertafter/) och [`InsertBefore`](../../compositenode/insertbefore/) metoder för[`Document`](../../document/) OR [`Add`](../../nodecollection/add/) och[`Insert`](../../nodecollection/insert/) metoder för[`Sections`](../../document/sections/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldCompare.FieldCompare
-second_title: Aspose.Words för .NET API Referens
-description: FieldCompare byggare. Default_Constructor
+title: FieldCompare
+linktitle: FieldCompare
+articleTitle: FieldCompare
+second_title: Aspose.Words för .NET
+description: FieldCompare byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldcompare/fieldcompare/
@@ -17,7 +19,5 @@ public FieldCompare()
 ### Se även
 
 * class [FieldCompare](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcompare/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.PageVerticalAlignment uppräkning. Anger vertikal justering av text på varje sida.
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.PageVerticalAlignment uppräkning. Anger vertikal justering av text på varje sida i C#.
 type: docs
 weight: 4370
 url: /sv/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | Text sprids för att fylla sidan. |
 | Top | `0` | Texten är justerad överst på sidan. |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

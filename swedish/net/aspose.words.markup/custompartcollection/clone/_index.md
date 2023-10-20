@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clone
-second_title: Aspose.Words för .NET API Referens
-description: CustomPartCollection metod. Gör en djup kopia av den här samlingen och dess föremål.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: CustomPartCollection Clone metod. Gör en djup kopia av den här samlingen och dess föremål i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/custompartcollection/clone/
@@ -14,7 +16,7 @@ Gör en djup kopia av den här samlingen och dess föremål.
 public CustomPartCollection Clone()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../custompartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection metod. Lägger till ett bokmärke i samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection Add metod. Lägger till ett bokmärke i samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | Det skiftlägesokänsliga namnet på bokmärket som ska läggas till. |
 | outlineLevel | Int32 | Konturnivån för bokmärket. Giltigt intervall är 0 till 9. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Notes.FootnoteType uppräkning. Anger om detta är en fotnot eller en slutnot.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Notes.FootnoteType uppräkning. Anger om detta är en fotnot eller en slutnot i C#.
 type: docs
 weight: 4300
 url: /sv/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | Objektet är en fotnot. |
 | Endnote | `1` | Objektet är en slutnot. |
 
-### Anmärkningar
+## Anmärkningar
 
 Både fotnoter och slutnoter representeras av objekt avFootnote klass. Använda sig av[`FootnoteType`](../footnote/footnotetype/) för att skilja mellan fotnoter och slutnoter.
 
-### Exempel
+## Exempel
 
 Visar hur man refererar till text med en fotnot och en slutnot.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * namnutrymme [Aspose.Words.Notes](../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../)
-
-

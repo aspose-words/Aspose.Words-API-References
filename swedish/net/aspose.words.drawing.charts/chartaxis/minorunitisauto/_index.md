@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller sätter en flagga som indikerar om standardavståndet mellan mindre bockmarkeringar ska användas.
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: Aspose.Words för .NET
+description: ChartAxis MinorUnitIsAuto fast egendom. Hämtar eller sätter en flagga som indikerar om standardavståndet mellan mindre bockmarkeringar ska användas i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ Hämtar eller sätter en flagga som indikerar om standardavståndet mellan mindr
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har effekt för tidskategori och värdeaxlar.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

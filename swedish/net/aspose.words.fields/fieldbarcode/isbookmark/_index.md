@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsBookmark
-second_title: Aspose.Words för .NET API Referens
-description: FieldBarcode fast egendom. Hämtar eller ställer in omPostalAddress är namnet på ett bokmärke.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words för .NET
+description: FieldBarcode IsBookmark fast egendom. Hämtar eller ställer in omPostalAddress är namnet på ett bokmärke i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om[`PostalAddress`](../postaladdress/) är namnet på 
 public bool IsBookmark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder streckkodsfältet för att visa amerikanska postnummer i form av en streckkod.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Se även
 
 * class [FieldBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

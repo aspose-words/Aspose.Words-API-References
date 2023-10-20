@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: RevisionCollection fast egendom. Returnerar antalet revisioner i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: RevisionCollection Count fast egendom. Returnerar antalet revisioner i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revisioncollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet revisioner i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [RevisionCollection](../)
-* namnutrymme [Aspose.Words](../../revisioncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

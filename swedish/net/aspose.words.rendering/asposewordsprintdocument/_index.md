@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument klass. Ger en standardimplementering för utskrift av enDocument inom .NETutskriftsramverket.
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument klass. Ger en standardimplementering för utskrift av enDocument inom .NETutskriftsramverket i C#.
 type: docs
 weight: 4530
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | namn | Beskrivning |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Initierar en ny instans av den här klassen. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Initierar en ny instans av den här klassen. |
 
 ## Egenskaper
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Läser och cachar vissa fält avPrinterSettings för att minska utskriftstiden. |
 
-### Anmärkningar
+## Anmärkningar
 
 `AsposeWordsPrintDocument` åsidosätterPrintEventArgs) för att skriva ut det intervall av sidor som anges iPrinterSettings.
 
@@ -47,5 +49,3 @@ Microsoft Word lagrar skrivarspecifika värden för pappersfack i ett Word-dokum
 
 * namnutrymme [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../)
-
-

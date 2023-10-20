@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitScale
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar eller ställer in skalvärdet för stora bockmarkeringar på tidskategoriaxeln.
+linktitle: MajorUnitScale
+articleTitle: MajorUnitScale
+second_title: Aspose.Words för .NET
+description: ChartAxis MajorUnitScale fast egendom. Returnerar eller ställer in skalvärdet för stora bockmarkeringar på tidskategoriaxeln i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
@@ -14,11 +16,11 @@ Returnerar eller ställer in skalvärdet för stora bockmarkeringar på tidskate
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har endast effekt för tidskategoriaxlar.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ProtectionType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ProtectionType uppräkning. Skyddstyp för ett dokument.
+title: ProtectionType Enum
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ProtectionType uppräkning. Skyddstyp för ett dokument i C#.
 type: docs
 weight: 4510
 url: /sv/net/aspose.words/protectiontype/
@@ -24,7 +26,7 @@ public enum ProtectionType
 | ReadOnly | `3` | Inga ändringar är tillåtna i dokumentet. Tillgänglig sedan Microsoft Word 2003. |
 | NoProtection | `-1` | Dokumentet är inte skyddat. |
 
-### Exempel
+## Exempel
 
 Visar hur man stänger av skyddet för en sektion.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

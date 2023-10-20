@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapData fast egendom. Anger det fördefinierade sammanslagningsfältets namn som ska mappas till kolumnnumret som anges avColumn egenskap inom denna fältmappning. Standardvärdet är en tom sträng.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapData MappedName fast egendom. Anger det fördefinierade sammanslagningsfältets namn som ska mappas till kolumnnumret som anges avColumn egenskap inom denna fältmappning. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ Anger det fördefinierade sammanslagningsfältets namn som ska mappas till kolum
 public string MappedName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoFieldMapData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en form har avslutats.
+linktitle: VisitShapeEnd
+articleTitle: VisitShapeEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitShapeEnd metod. Anropas när uppräkningen av en form har avslutats i C#.
 type: docs
 weight: 390
 url: /sv/net/aspose.words/documentvisitor/visitshapeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
@@ -115,7 +117,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
-second_title: Aspose.Words för .NET API Referens
-description: GlossaryDocument fast egendom. Hämtar den första byggstenen i ordlistans dokument.
+linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
+second_title: Aspose.Words för .NET
+description: GlossaryDocument FirstBuildingBlock fast egendom. Hämtar den första byggstenen i ordlistans dokument i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
@@ -14,11 +16,11 @@ Hämtar den första byggstenen i ordlistans dokument.
 public BuildingBlock FirstBuildingBlock { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om det inte finns några byggstenar tillgängliga.
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

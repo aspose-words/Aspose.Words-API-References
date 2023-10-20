@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeq fast egendom. Hämtar eller ställer in ett bokmärkesnamn som refererar till ett objekt någon annanstans i dokumentet snarare än på den aktuella platsen.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldSeq BookmarkName fast egendom. Hämtar eller ställer in ett bokmärkesnamn som refererar till ett objekt någon annanstans i dokumentet snarare än på den aktuella platsen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett bokmärkesnamn som refererar till ett objekt någo
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kombinerar innehållsförteckning och sekvensfält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Se även
 
 * class [FieldSeq](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseq/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

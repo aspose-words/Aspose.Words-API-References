@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Aspose.Words för .NET API Referens
-description: AsposeWordsPrintDocument fast egendom. Hämtar eller ställer in hur ickefärgade sidor skrivs ut om enheten stöder färgutskrift.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words för .NET
+description: AsposeWordsPrintDocument ColorMode fast egendom. Hämtar eller ställer in hur ickefärgade sidor skrivs ut om enheten stöder färgutskrift i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ Hämtar eller ställer in hur icke-färgade sidor skrivs ut om enheten stöder f
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Påverkar inte utskrift av häften.
 
-### Exempel
+## Exempel
 
 Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* namnutrymme [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

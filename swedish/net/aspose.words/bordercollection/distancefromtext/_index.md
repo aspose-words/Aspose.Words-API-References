@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.DistanceFromText
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar eller ställer in avståndet mellan gränsen från text i punkter.
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: Aspose.Words för .NET
+description: BorderCollection DistanceFromText fast egendom. Hämtar eller ställer in avståndet mellan gränsen från text i punkter i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/bordercollection/distancefromtext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in avståndet mellan gränsen från text i punkter.
 public double DistanceFromText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Hämtar avståndet från text för den första kanten.
 
@@ -22,7 +24,7 @@ Ställer in avståndet från text för alla kanter i samlingen exklusive diagona
 
 Har ingen effekt och kommer automatiskt att nollställas för tabellcellers kantlinjer.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar grön vågig sidkant med en skugga.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

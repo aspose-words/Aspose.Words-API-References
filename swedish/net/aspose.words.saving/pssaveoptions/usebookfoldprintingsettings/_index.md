@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.UseBookFoldPrintingSettings
-second_title: Aspose.Words för .NET API Referens
-description: PsSaveOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om dokumentet ska sparas med en layout för häftesutskrift om det anges viaMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words för .NET
+description: PsSaveOptions UseBookFoldPrintingSettings fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om dokumentet ska sparas med en layout för häftesutskrift om det anges viaMultiplePages  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett booleskt värde som indikerar om dokumentet ska sp
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om detta alternativ anges,[`PageSet`](../../fixedpagesaveoptions/pageset/) ignoreras när du sparar. Det här beteendet matchar MS Word. Om inställningarna för bokvikningsutskrift inte anges i sidinställningarna har det här alternativet ingen effekt.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument i Postscript-format i form av en bokvikning.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### Se även
 
 * class [PsSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pssaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

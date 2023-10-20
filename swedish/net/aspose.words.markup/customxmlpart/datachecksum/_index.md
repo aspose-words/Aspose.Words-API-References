@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.DataChecksum
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPart fast egendom. Anger en cyklisk redundanskontroll CRC checksumma förData innehåll.
+linktitle: DataChecksum
+articleTitle: DataChecksum
+second_title: Aspose.Words för .NET
+description: CustomXmlPart DataChecksum fast egendom. Anger en cyklisk redundanskontroll CRC checksumma förData innehåll i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/customxmlpart/datachecksum/
@@ -14,7 +16,7 @@ Anger en cyklisk redundanskontroll (CRC) checksumma för[`Data`](../data/) inneh
 public long DataChecksum { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur kontrollsumman beräknas under en körning.
 
@@ -44,7 +46,5 @@ Assert.AreNotEqual(checksum, updatedChecksum);
 ### Se även
 
 * class [CustomXmlPart](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

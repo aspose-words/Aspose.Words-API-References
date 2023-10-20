@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. Hämtar noden som representerar början av bokmärket.
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words för .NET
+description: Bookmark BookmarkStart fast egendom. Hämtar noden som representerar början av bokmärket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ Hämtar noden som representerar början av bokmärket.
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

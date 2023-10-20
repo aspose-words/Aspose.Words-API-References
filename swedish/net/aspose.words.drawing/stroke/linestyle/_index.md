@@ -1,9 +1,11 @@
 ---
 title: Stroke.LineStyle
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar linjestilen för strecket.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words för .NET
+description: Stroke LineStyle fast egendom. Definierar linjestilen för strecket i C#.
 type: docs
-weight: 140
+weight: 130
 url: /sv/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -14,11 +16,11 @@ Definierar linjestilen för strecket.
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärSingle.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextEffect
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att specificera effekten som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline .
+linktitle: InsertedTextEffect
+articleTitle: InsertedTextEffect
+second_title: Aspose.Words för .NET
+description: RevisionOptions InsertedTextEffect fast egendom. Tillåter att specificera effekten som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.layout/revisionoptions/insertedtexteffect/
@@ -14,11 +16,11 @@ Tillåter att specificera effekten som ska tillämpas på det infogade innehåll
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värden avHidden ochDoubleStrikeThrough är inte tillåtna och kommer att orsakaArgumentOutOfRangeException.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

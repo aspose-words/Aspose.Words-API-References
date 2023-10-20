@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Hämtar eller ställer in strängseparator som används för dataetiketterna för hela serien. Standard är ett kommatecken förutom för cirkeldiagram som endast visar kategorinamn och procent då en radbrytning ska användas istället.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection Separator fast egendom. Hämtar eller ställer in strängseparator som används för dataetiketterna för hela serien. Standard är ett kommatecken förutom för cirkeldiagram som endast visar kategorinamn och procent då en radbrytning ska användas istället i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ Hämtar eller ställer in strängseparator som används för dataetiketterna fö
 public string Separator { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`Separator`](../../chartdatalabel/separator/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dataetiketter i ett bubbeldiagram.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

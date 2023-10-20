@@ -1,7 +1,9 @@
 ---
 title: Chart.Legend
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Ger tillgång till diagramförklaringsegenskaperna.
+linktitle: Legend
+articleTitle: Legend
+second_title: Aspose.Words för .NET
+description: Chart Legend fast egendom. Ger tillgång till diagramförklaringsegenskaperna i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chart/legend/
@@ -14,7 +16,7 @@ Ger tillgång till diagramförklaringsegenskaperna.
 public ChartLegend Legend { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar utseendet på ett diagrams förklaring.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * class [ChartLegend](../../chartlegend/)
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

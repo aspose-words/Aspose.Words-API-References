@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words för .NET
+description: FieldOptions UserPromptRespondent fast egendom. Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdate
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om värdet för den här egenskapen är satt till`null` , de fält som kräver användarsvar på prompting (som[`FieldAsk`](../../fieldask/) eller[`FieldFillIn`](../../fieldfillin/)) uppdateras inte.
 
 Standardvärdet är`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

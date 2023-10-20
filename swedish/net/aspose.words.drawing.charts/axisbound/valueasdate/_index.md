@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ValueAsDate
-second_title: Aspose.Words för .NET API Referens
-description: AxisBound fast egendom. Returnerar värdet för axelgränsen representerad som datetime.
+linktitle: ValueAsDate
+articleTitle: ValueAsDate
+second_title: Aspose.Words för .NET
+description: AxisBound ValueAsDate fast egendom. Returnerar värdet för axelgränsen representerad som datetime i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -14,7 +16,7 @@ Returnerar värdet för axelgränsen representerad som datetime.
 public DateTime ValueAsDate { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in anpassade axelgränser.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Se även
 
 * class [AxisBound](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

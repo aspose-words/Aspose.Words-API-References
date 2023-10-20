@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPartSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DocumentPartSavingArgs klass. Tillhandahåller data förDocumentPartSaving callback.
+title: DocumentPartSavingArgs Class
+linktitle: DocumentPartSavingArgs
+articleTitle: DocumentPartSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.DocumentPartSavingArgs klass. Tillhandahåller data förDocumentPartSaving callback i C#.
 type: docs
 weight: 4940
 url: /sv/net/aspose.words.saving/documentpartsavingargs/
@@ -25,7 +27,7 @@ public class DocumentPartSavingArgs
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Tillåter att ange strömmen där dokumentdelen ska sparas. |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en dokumentdel. |
 
-### Anmärkningar
+## Anmärkningar
 
 När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) anges, dokumentet delas upp i delar och som standard sparas varje dokumentdel i en separat fil.
 
@@ -33,7 +35,7 @@ Klass`DocumentPartSavingArgs` låter dig styra hur varje dokumentdel ska sparas.
 
 För att spara dokumentdelar i strömmar istället för filer, använd[`DocumentPartStream`](./documentpartstream/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -151,5 +153,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

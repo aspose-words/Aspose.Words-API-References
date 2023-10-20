@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPartCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.CustomXmlPartCollection klass. Representerar en samling anpassade XMLdelar. Objekten ärCustomXmlPart objekt.
+title: CustomXmlPartCollection Class
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.CustomXmlPartCollection klass. Representerar en samling anpassade XMLdelar. Objekten ärCustomXmlPart objekt i C#.
 type: docs
 weight: 3930
 url: /sv/net/aspose.words.markup/customxmlpartcollection/
@@ -33,19 +35,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | Lägger till ett föremål i samlingen. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Skapar en ny XML-del med angiven XML och lägger till den i samlingen. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Lägger till ett föremål i samlingen. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Skapar en ny XML-del med angiven XML och lägger till den i samlingen. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Tar bort alla element från samlingen. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Gör en djup kopia av den här samlingen och dess föremål. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Hittar och returnerar en anpassad XML-del med dess identifierare. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Hittar och returnerar en anpassad XML-del med dess identifierare. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | Tar bort ett objekt vid angivet index. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Tar bort ett objekt vid angivet index. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du behöver normalt inte skapa instanser av den här klassen. Du kan komma åt anpassade XML-data lagrade i ett dokument via[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 * class [CustomXmlPart](../customxmlpart/)
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

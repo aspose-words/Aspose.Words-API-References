@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.FitToViewPort
-second_title: Aspose.Words för .NET API Referens
-description: SvgSaveOptions fast egendom. Anger om utdata SVG ska fylla det tillgängliga visningsområdet webbläsarfönster eller behållare. När inställt påSann bredd och höjd på utdata SVG är inställda på 100.
+linktitle: FitToViewPort
+articleTitle: FitToViewPort
+second_title: Aspose.Words för .NET
+description: SvgSaveOptions FitToViewPort fast egendom. Anger om utdata SVG ska fylla det tillgängliga visningsområdet webbläsarfönster eller behållare. När inställt påSann bredd och höjd på utdata SVG är inställda på 100 i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/svgsaveoptions/fittoviewport/
@@ -16,7 +18,7 @@ Standardvärdet är`falsk`.
 public bool FitToViewPort { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man efterliknar egenskaperna hos bilder när man konverterar ett .docx-dokument till .svg.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Se även
 
 * class [SvgSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../svgsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

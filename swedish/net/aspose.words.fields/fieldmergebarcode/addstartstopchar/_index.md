@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in om start/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode AddStartStopChar fast egendom. Hämtar eller ställer in om start/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39 i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om start/stopp-tecken ska läggas till för streckkods
 public bool AddStartStopChar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en brevkoppling på CODE39 streckkoder.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

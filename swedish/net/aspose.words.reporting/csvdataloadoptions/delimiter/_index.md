@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.Delimiter
-second_title: Aspose.Words för .NET API Referens
-description: CsvDataLoadOptions fast egendom. Hämtar eller ställer in tecknet som ska användas som kolumnavgränsare.
+linktitle: Delimiter
+articleTitle: Delimiter
+second_title: Aspose.Words för .NET
+description: CsvDataLoadOptions Delimiter fast egendom. Hämtar eller ställer in tecknet som ska användas som kolumnavgränsare i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.reporting/csvdataloadoptions/delimiter/
@@ -14,14 +16,12 @@ Hämtar eller ställer in tecknet som ska användas som kolumnavgränsare.
 public char Delimiter { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är ',' (komma).
 
 ### Se även
 
 * class [CsvDataLoadOptions](../)
-* namnutrymme [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

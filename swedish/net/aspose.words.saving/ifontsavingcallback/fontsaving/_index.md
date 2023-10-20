@@ -1,7 +1,9 @@
 ---
 title: IFontSavingCallback.FontSaving
-second_title: Aspose.Words för .NET API Referens
-description: IFontSavingCallback metod. Anropas när Aspose.Words håller på att spara en teckensnittsresurs.
+linktitle: FontSaving
+articleTitle: FontSaving
+second_title: Aspose.Words för .NET
+description: IFontSavingCallback FontSaving metod. Anropas när Aspose.Words håller på att spara en teckensnittsresurs i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/ifontsavingcallback/fontsaving/
@@ -14,7 +16,7 @@ Anropas när Aspose.Words håller på att spara en teckensnittsresurs.
 public void FontSaving(FontSavingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [FontSavingArgs](../../fontsavingargs/)
 * interface [IFontSavingCallback](../)
-* namnutrymme [Aspose.Words.Saving](../../ifontsavingcallback/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

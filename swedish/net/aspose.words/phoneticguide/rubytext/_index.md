@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Aspose.Words för .NET API Referens
-description: PhoneticGuide fast egendom. Får ruby text av den fonetiska guiden.
+linktitle: RubyText
+articleTitle: RubyText
+second_title: Aspose.Words för .NET
+description: PhoneticGuide RubyText fast egendom. Får ruby text av den fonetiska guiden i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ Får ruby text av den fonetiska guiden.
 public string RubyText { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får egenskaper för den fonetiska guiden.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Se även
 
 * class [PhoneticGuide](../)
-* namnutrymme [Aspose.Words](../../phoneticguide/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

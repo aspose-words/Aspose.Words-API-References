@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
-second_title: Aspose.Words för .NET API Referens
-description: FontConfigSubstitutionRule metod. Kontrollera om fontconfigverktyget är tillgängligt eller inte.
+linktitle: IsFontConfigAvailable
+articleTitle: IsFontConfigAvailable
+second_title: Aspose.Words för .NET
+description: FontConfigSubstitutionRule IsFontConfigAvailable metod. Kontrollera om fontconfigverktyget är tillgängligt eller inte i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -14,7 +16,7 @@ Kontrollera om fontconfig-verktyget är tillgängligt eller inte.
 public bool IsFontConfigAvailable()
 ```
 
-### Exempel
+## Exempel
 
 Visar operativsystemberoende teckensnittskonfigurationsersättning.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Se även
 
 * class [FontConfigSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

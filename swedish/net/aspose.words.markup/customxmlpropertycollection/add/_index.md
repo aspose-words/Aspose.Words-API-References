@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection metod. Lägger till en egenskap i samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection Add metod. Lägger till en egenskap i samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomXmlProperty property)
 | --- | --- | --- |
 | property | CustomXmlProperty | Egenskapen att lägga till. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -76,7 +78,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

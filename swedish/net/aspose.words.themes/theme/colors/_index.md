@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Aspose.Words för .NET API Referens
-description: Theme fast egendom. Tillåter att ange uppsättningen av temafärger för dokumentet.
+linktitle: Colors
+articleTitle: Colors
+second_title: Aspose.Words för .NET
+description: Theme Colors fast egendom. Tillåter att ange uppsättningen av temafärger för dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ Tillåter att ange uppsättningen av temafärger för dokumentet.
 public ThemeColors Colors { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* namnutrymme [Aspose.Words.Themes](../../theme/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTitle.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldTitle fast egendom. Hämtar eller ställer in texten i titeln.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldTitle Text fast egendom. Hämtar eller ställer in texten i titeln i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtitle/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten i titeln.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder fältet TITLE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### Se även
 
 * class [FieldTitle](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtitle/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

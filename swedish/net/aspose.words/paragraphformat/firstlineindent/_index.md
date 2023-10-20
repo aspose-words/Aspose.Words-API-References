@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in värdet i poäng för en första rad eller hängande indrag.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words för .NET
+description: ParagraphFormat FirstLineIndent fast egendom. Hämtar eller ställer in värdet i poäng för en första rad eller hängande indrag i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ Använd positiva värden för att ställa in första radens indrag och negativa 
 public double FirstLineIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke i dokumentet.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

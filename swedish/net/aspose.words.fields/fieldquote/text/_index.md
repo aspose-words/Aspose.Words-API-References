@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldQuote fast egendom. Hämtar eller ställer in texten som ska hämtas.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldQuote Text fast egendom. Hämtar eller ställer in texten som ska hämtas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten som ska hämtas.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar att använda fältet CITAT.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### Se även
 
 * class [FieldQuote](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldquote/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.BottomPadding
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i celler.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words för .NET
+description: Table BottomPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i celler i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.tables/table/bottompadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till under
 public double BottomPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar innehållsutfyllnad i en tabell.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

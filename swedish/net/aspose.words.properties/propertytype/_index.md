@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Properties.PropertyType uppräkning. Anger datatyp för en dokumentegenskap.
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Properties.PropertyType uppräkning. Anger datatyp för en dokumentegenskap i C#.
 type: docs
 weight: 4500
 url: /sv/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | Egenskapen är en array av byte. |
 | Other | `8` | Egenskapen är av en annan typ. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * namnutrymme [Aspose.Words.Properties](../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../)
-
-

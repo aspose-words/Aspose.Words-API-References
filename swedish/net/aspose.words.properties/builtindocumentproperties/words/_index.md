@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Words
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Representerar en uppskattning av antalet ord i dokumentet.
+linktitle: Words
+articleTitle: Words
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Words fast egendom. Representerar en uppskattning av antalet ord i dokumentet i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words.properties/builtindocumentproperties/words/
@@ -14,11 +16,11 @@ Representerar en uppskattning av antalet ord i dokumentet.
 public int Words { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words uppdaterar den här egenskapen när du ringer[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Exempel
+## Exempel
 
 Visar hur du uppdaterar alla listetiketter i ett dokument.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

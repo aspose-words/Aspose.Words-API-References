@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Får ett värde som indikerar om en sidnummeravgränsare åsidosätts genom fältets kod.
+linktitle: HasPageNumberSeparator
+articleTitle: HasPageNumberSeparator
+second_title: Aspose.Words för .NET
+description: FieldIndex HasPageNumberSeparator fast egendom. Får ett värde som indikerar om en sidnummeravgränsare åsidosätts genom fältets kod i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldindex/haspagenumberseparator/
@@ -14,7 +16,7 @@ Får ett värde som indikerar om en sidnummeravgränsare åsidosätts genom fäl
 public bool HasPageNumberSeparator { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar sidnummeravgränsaren i ett INDEX-fält.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

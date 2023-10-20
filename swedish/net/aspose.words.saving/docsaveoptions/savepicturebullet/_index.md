@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SavePictureBullet
-second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Närfalsk  PictureBulletdata sparas inte i utdatadokumentet. Standardvärdet ärSann .
+linktitle: SavePictureBullet
+articleTitle: SavePictureBullet
+second_title: Aspose.Words för .NET
+description: DocSaveOptions SavePictureBullet fast egendom. Närfalsk  PictureBulletdata sparas inte i utdatadokumentet. Standardvärdet ärSann  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/docsaveoptions/savepicturebullet/
@@ -14,11 +16,11 @@ När`falsk` , PictureBullet-data sparas inte i utdatadokumentet. Standardvärdet
 public bool SavePictureBullet { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det här alternativet finns för Word 97, som inte fungerar korrekt med PictureBullet-data. För att ta bort PictureBullet-data, ställ in alternativet på "false".
 
-### Exempel
+## Exempel
 
 Visar hur du utelämnar PictureBullet-data från dokumentet när du sparar.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocSaveOptions.PictureBullets.doc", saveOptions);
 ### Se även
 
 * class [DocSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../docsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

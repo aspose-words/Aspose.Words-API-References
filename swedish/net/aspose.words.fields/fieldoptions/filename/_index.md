@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FileName
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in filnamnet på dokumentet.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words för .NET
+description: FieldOptions FileName fast egendom. Hämtar eller ställer in filnamnet på dokumentet i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/fieldoptions/filename/
@@ -14,11 +16,11 @@ Hämtar eller ställer in filnamnet på dokumentet.
 public string FileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen används av[`FieldFileName`](../../fieldfilename/) fält med högre prioritet än[`OriginalFileName`](../../../aspose.words/document/originalfilename/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man använder FieldOptions för att åsidosätta standardvärdet för fältet FILNAMN.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

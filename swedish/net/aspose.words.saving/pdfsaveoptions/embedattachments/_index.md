@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om bilagor ska bäddas in i PDFdokumentet eller inte.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions EmbedAttachments fast egendom. Hämtar eller ställer in ett värde som avgör om bilagor ska bäddas in i PDFdokumentet eller inte i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om bilagor ska bäddas in i PDF-
 public bool EmbedAttachments { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`och bilagor är inte inbäddade.
 
@@ -24,7 +26,7 @@ Inbäddning av bilagor stöds inte när du sparar till PDF/A och PDF/UA-kompatib
 
 Inbäddning av bilagor stöds inte när kryptering är aktiverad.`falsk` value kommer att användas automatiskt.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till inbäddade bilagor till PDF-dokumentet.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

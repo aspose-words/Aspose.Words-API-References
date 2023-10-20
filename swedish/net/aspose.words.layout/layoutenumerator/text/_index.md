@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator fast egendom. Hämtar text från den aktuella spanentiteten. Kaster för andra entitetstyper.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator Text fast egendom. Hämtar text från den aktuella spanentiteten. Kaster för andra entitetstyper i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ Hämtar text från den aktuella span-entiteten. Kaster för andra entitetstyper.
 public string Text { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

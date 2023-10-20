@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.DefaultResponse
-second_title: Aspose.Words för .NET API Referens
-description: FieldFillIn fast egendom. Hämtar eller ställer in standardanvändarsvar initialvärde i promptfönstret.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words för .NET
+description: FieldFillIn DefaultResponse fast egendom. Hämtar eller ställer in standardanvändarsvar initialvärde i promptfönstret i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldfillin/defaultresponse/
@@ -14,7 +16,7 @@ Hämtar eller ställer in standardanvändarsvar (initialvärde i promptfönstret
 public string DefaultResponse { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder FILLIN-fältet för att fråga användaren om ett svar.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldFillIn](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldfillin/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

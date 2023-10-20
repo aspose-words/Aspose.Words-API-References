@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.CommentDisplayMode
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in hur kommentarer renderas. Standardvärdet ärShowInBalloons .
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words för .NET
+description: LayoutOptions CommentDisplayMode fast egendom. Hämtar eller ställer in hur kommentarer renderas. Standardvärdet ärShowInBalloons  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -14,11 +16,11 @@ Hämtar eller ställer in hur kommentarer renderas. Standardvärdet ärShowInBal
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att revisioner inte återges i ballonger förShowInAnnotations .
 
-### Exempel
+## Exempel
 
 Visar hur du visar kommentarer när du sparar ett dokument i ett renderat format.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

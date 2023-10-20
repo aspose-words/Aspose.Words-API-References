@@ -1,7 +1,9 @@
 ---
 title: TextPath.SmallCaps
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Sant om teckensnittet är formaterat som små versaler.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words för .NET
+description: TextPath SmallCaps fast egendom. Sant om teckensnittet är formaterat som små versaler i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing/textpath/smallcaps/
@@ -14,11 +16,11 @@ Sant om teckensnittet är formaterat som små versaler.
 public bool SmallCaps { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

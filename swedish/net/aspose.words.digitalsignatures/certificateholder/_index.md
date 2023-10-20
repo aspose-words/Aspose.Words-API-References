@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.DigitalSignatures.CertificateHolder klass. Representerar en innehavare av X509Certifikat2 instans.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words för .NET
+description: Aspose.Words.DigitalSignatures.CertificateHolder klass. Representerar en innehavare avX509Certifikat2 instans i C#.
 type: docs
 weight: 370
 url: /sv/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Representerar en innehavare av **X509Certifikat2** instans.
+Representerar en innehavare av**X509Certifikat2** instans.
 
 För att lära dig mer, besök[Arbeta med digitala signaturer](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokumentationsartikel.
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Returnerar instansen av **X509Certifikat2** som har privata, offentliga nycklar och certifikatkedja. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Returnerar instansen av**X509Certifikat2** som har privata, offentliga nycklar och certifikatkedja. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Skapar`CertificateHolder` objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Skapar`CertificateHolder` objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Skapar`CertificateHolder` objekt som använder sökvägen till PKCS12-butiken och dess lösenord. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Skapar`CertificateHolder` objekt som använder sökvägen till PKCS12-arkivet, dess lösenord och alias genom att använda vilken privat nyckel och certifikat som kommer att hittas. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | Skapar`CertificateHolder` objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | Skapar`CertificateHolder` objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | Skapar`CertificateHolder` objekt som använder sökvägen till PKCS12-butiken och dess lösenord. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | Skapar`CertificateHolder` objekt som använder sökvägen till PKCS12-arkivet, dess lösenord och alias genom att använda vilken privat nyckel och certifikat som kommer att hittas. |
 
-### Anmärkningar
+## Anmärkningar
 
-`CertificateHolder` kan endast skapas med statiska fabriksmetoder. Den innehåller en instans av **X509Certifikat2** som används för att introducera privata, offentliga nycklar och certifikatkedjor i systemet. Denna klass tillämpas i[`DigitalSignatureUtil`](../digitalsignatureutil/) och[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) istället för föråldrade metoder med X509Certificate2 som parametrar.
+`CertificateHolder` kan endast skapas med statiska fabriksmetoder. Den innehåller en instans av**X509Certifikat2** som används för att introducera privata, offentliga nycklar och certifikatkedjor i systemet. Denna klass tillämpas i[`DigitalSignatureUtil`](../digitalsignatureutil/) och[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) istället för föråldrade metoder med X509Certificate2 som parametrar.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar krypterad dokumentfil.
 
@@ -197,5 +199,3 @@ Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den 
 
 * namnutrymme [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../)
-
-

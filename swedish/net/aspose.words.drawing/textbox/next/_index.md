@@ -1,7 +1,9 @@
 ---
 title: TextBox.Next
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Returnerar eller ställer in enTextBox som representerar nästaTextBox i en sekvens av former.
+linktitle: Next
+articleTitle: Next
+second_title: Aspose.Words för .NET
+description: TextBox Next fast egendom. Returnerar eller ställer in enTextBox som representerar nästaTextBox i en sekvens av former i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/textbox/next/
@@ -14,7 +16,7 @@ Returnerar eller ställer in en[`TextBox`](../) som representerar nästa[`TextBo
 public TextBox Next { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man länkar textrutor.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Se även
 
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

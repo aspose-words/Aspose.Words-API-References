@@ -1,7 +1,9 @@
 ---
-title: Enum SdtType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.SdtType uppräkning. Anger typen av en strukturerad dokumenttagg SDTnod.
+title: SdtType Enum
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.SdtType uppräkning. Anger typen av en strukturerad dokumenttagg SDTnod i C#.
 type: docs
 weight: 4040
 url: /sv/net/aspose.words.markup/sdttype/
@@ -36,7 +38,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | SDT representerar repeterande sektionsobjekt. |
 | EntityPicker | `16` | SDT representerar en enhetsväljare som låter användaren välja en instans av en extern innehållstyp. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en gruppstrukturerad dokumenttagg på radnivå.
 
@@ -172,5 +174,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Hämtar eller ställer in en identifierare en 128bitars GUID som unikt identifierar denna byggsten.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words för .NET
+description: BuildingBlock Guid fast egendom. Hämtar eller ställer in en identifierare en 128bitars GUID som unikt identifierar denna byggsten i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ Hämtar eller ställer in en identifierare (en 128-bitars GUID) som unikt identi
 public Guid Guid { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan användas av en applikation för att unikt referera till ett byggblock oavsett olika namn på grund av lokalisering.
 
-Motsvarar **docPartPr.guid** element i OOXML.
+Motsvarar**docPartPr.guid** element i OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Se även
 
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

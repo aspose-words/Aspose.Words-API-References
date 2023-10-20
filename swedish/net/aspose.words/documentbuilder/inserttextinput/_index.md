@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTextInput
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett textformulärfält på den aktuella positionen.
+linktitle: InsertTextInput
+articleTitle: InsertTextInput
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertTextInput metod. Infogar ett textformulärfält på den aktuella positionen i C#.
 type: docs
-weight: 480
+weight: 470
 url: /sv/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -27,11 +29,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 Formulärfältsnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Om du anger ett namn för formulärfältet skapas automatiskt ett bokmärke med samma namn.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett formulärfält för textinmatning i ett dokument.
 
@@ -90,7 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

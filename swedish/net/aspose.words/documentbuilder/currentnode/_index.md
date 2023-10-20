@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar noden som för närvarande är vald i denna DocumentBuilder.
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: Aspose.Words för .NET
+description: DocumentBuilder CurrentNode fast egendom. Hämtar noden som för närvarande är vald i denna DocumentBuilder i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ Hämtar noden som för närvarande är vald i denna DocumentBuilder.
 public Node CurrentNode { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `CurrentNode` är en markör för[`DocumentBuilder`](../) och pekar på en[`Node`](../../node/) som är en direkt underordnad av en[`Paragraph`](../../paragraph/) . Alla infogningsoperationer du utför med [`DocumentBuilder`](../) kommer att infoga före`CurrentNode`.
 
 När det aktuella stycket är tomt eller markören är placerad precis före slutet av ett stycke eller en strukturerad dokumenttagg,`CurrentNode` returnerar`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

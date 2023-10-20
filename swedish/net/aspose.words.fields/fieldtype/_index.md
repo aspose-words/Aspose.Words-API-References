@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldType uppräkning. Anger Microsoft Wordfälttyper.
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldType uppräkning. Anger Microsoft Wordfälttyper i C#.
 type: docs
 weight: 2540
 url: /sv/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | Anger fältet USERINITIALS. |
 | FieldUserName | `60` | Anger fältet USERNAME. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält i ett dokument med hjälp av en fältkod.
 
@@ -163,5 +165,3 @@ field.Update();
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

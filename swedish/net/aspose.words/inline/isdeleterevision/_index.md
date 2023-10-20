@@ -1,7 +1,9 @@
 ---
 title: Inline.IsDeleteRevision
-second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words för .NET
+description: Inline IsDeleteRevision fast egendom. Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/inline/isdeleterevision/
@@ -14,7 +16,7 @@ Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårn
 public bool IsDeleteRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Se även
 
 * class [Inline](../)
-* namnutrymme [Aspose.Words](../../inline/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

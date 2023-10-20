@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger tecknet som ska tolkas som kolumnavgränsaren som används för att separera kolumner inom externa datakällor. Standardvärdet är 0 vilket betyder att det inte finns någon kolumnavgränsare definierad.
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: Aspose.Words för .NET
+description: Odso ColumnDelimiter fast egendom. Anger tecknet som ska tolkas som kolumnavgränsaren som används för att separera kolumner inom externa datakällor. Standardvärdet är 0 vilket betyder att det inte finns någon kolumnavgränsare definierad i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ Anger tecknet som ska tolkas som kolumnavgränsaren som används för att separe
 public char ColumnDelimiter { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 RK Jag har aldrig sett detta i bruk.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.LanguageId
-second_title: Aspose.Words för .NET API Referens
-description: FieldGreetingLine fast egendom. Hämtar eller ställer in språkid som används för att formatera namnet.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words för .NET
+description: FieldGreetingLine LanguageId fast egendom. Hämtar eller ställer in språkid som används för att formatera namnet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldgreetingline/languageid/
@@ -14,7 +16,7 @@ Hämtar eller ställer in språk-id som används för att formatera namnet.
 public string LanguageId { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett HÄLSNINGSLINJE-fält.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Se även
 
 * class [FieldGreetingLine](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldgreetingline/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.DeleteRow
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Tar bort en rad från en tabell.
+linktitle: DeleteRow
+articleTitle: DeleteRow
+second_title: Aspose.Words för .NET
+description: DocumentBuilder DeleteRow metod. Tar bort en rad från en tabell i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/documentbuilder/deleterow/
@@ -23,7 +25,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 Radnoden som just togs bort.
 
-### Anmärkningar
+## Anmärkningar
 
 Om markören är inuti raden som tas bort, flyttas markören ut till nästa rad eller till nästa stycke efter tabellen.
 
@@ -31,7 +33,7 @@ Om du tar bort en rad från en tabell som bara innehåller en rad tas tabellen w
 
 För indexparametrarna, när index är större än eller lika med 0, anger det ett index from början med 0 som det första elementet. När index är mindre än 0, specificerade det ett index från slutet med -1 som det sista elementet.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort en rad från en tabell.
 
@@ -64,7 +66,5 @@ Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

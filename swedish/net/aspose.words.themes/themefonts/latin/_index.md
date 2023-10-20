@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Aspose.Words för .NET API Referens
-description: ThemeFonts fast egendom. Anger teckensnittsnamn för latinska tecken.
+linktitle: Latin
+articleTitle: Latin
+second_title: Aspose.Words för .NET
+description: ThemeFonts Latin fast egendom. Anger teckensnittsnamn för latinska tecken i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ Anger teckensnittsnamn för latinska tecken.
 public string Latin { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeFonts](../)
-* namnutrymme [Aspose.Words.Themes](../../themefonts/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

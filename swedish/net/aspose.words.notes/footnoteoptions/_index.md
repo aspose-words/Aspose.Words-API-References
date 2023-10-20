@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Notes.FootnoteOptions klass. Representerar alternativen för fotnotsnumrering för ett dokument eller avsnitt.
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Notes.FootnoteOptions klass. Representerar alternativen för fotnotsnumrering för ett dokument eller avsnitt i C#.
 type: docs
 weight: 4280
 url: /sv/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | Bestämmer när automatisk numrering startar om. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | Anger startnumret eller tecknet för de första automatiskt numrerade fotnoterna. |
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp fotnotsavsnittet i ett givet antal kolumner.
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * namnutrymme [Aspose.Words.Notes](../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../)
-
-

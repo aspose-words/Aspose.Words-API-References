@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping metod. Tar bort mappningen av det överordnade strukturerade dokumentet till XMLdata.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words för .NET
+description: XmlMapping Delete metod. Tar bort mappningen av det överordnade strukturerade dokumentet till XMLdata i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ Tar bort mappningen av det överordnade strukturerade dokumentet till XML-data.
 public void Delete()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in XML-mappningar för anpassade XML-delar.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Se även
 
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

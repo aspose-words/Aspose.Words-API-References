@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPixels
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize fast egendom. Får bildens höjd i pixlar.
+linktitle: HeightPixels
+articleTitle: HeightPixels
+second_title: Aspose.Words för .NET
+description: ImageSize HeightPixels fast egendom. Får bildens höjd i pixlar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/imagesize/heightpixels/
@@ -14,7 +16,7 @@ Får bildens höjd i pixlar.
 public int HeightPixels { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man läser egenskaperna för en bild i en form.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

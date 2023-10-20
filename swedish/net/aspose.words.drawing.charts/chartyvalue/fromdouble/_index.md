@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Aspose.Words för .NET API Referens
-description: ChartYValue metod. Skapar enChartYValue instans avDouble typ.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words för .NET
+description: ChartYValue FromDouble metod. Skapar enChartYValue instans avDouble typ i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ Skapar en[`ChartYValue`](../) instans avDouble typ.
 public static ChartYValue FromDouble(double value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller diagramserier med data.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Se även
 
 * class [ChartYValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

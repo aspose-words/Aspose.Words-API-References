@@ -1,7 +1,9 @@
 ---
-title: Frameset.Frameset
-second_title: Aspose.Words för .NET API Referens
-description: Frameset byggare. Default_Constructor
+title: Frameset
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words för .NET
+description: Frameset byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.framesets/frameset/frameset/
@@ -17,7 +19,5 @@ public Frameset()
 ### Se även
 
 * class [Frameset](../)
-* namnutrymme [Aspose.Words.Framesets](../../frameset/)
+* namnutrymme [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../../)
-
-

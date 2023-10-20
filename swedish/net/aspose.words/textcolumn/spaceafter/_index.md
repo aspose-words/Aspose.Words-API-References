@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Aspose.Words för .NET API Referens
-description: TextColumn fast egendom. Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poäng. Krävs inte för den sista kolumnen.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words för .NET
+description: TextColumn SpaceAfter fast egendom. Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poäng. Krävs inte för den sista kolumnen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poän
 public double SpaceAfter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ojämnt fördelade kolumner.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Se även
 
 * class [TextColumn](../)
-* namnutrymme [Aspose.Words](../../textcolumn/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

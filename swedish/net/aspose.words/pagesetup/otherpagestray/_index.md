@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in pappersfacket fack som ska användas för alla utom första sidan i ett avsnitt. Värdet är implementeringsspecifikt skrivarspecifikt.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words för .NET
+description: PageSetup OtherPagesTray fast egendom. Hämtar eller ställer in pappersfacket fack som ska användas för alla utom första sidan i ett avsnitt. Värdet är implementeringsspecifikt skrivarspecifikt i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ Hämtar eller ställer in pappersfacket (fack) som ska användas för alla utom 
 public int OtherPagesTray { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får alla avsnitt i ett dokument att använda standardpappersfacket för den valda skrivaren.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

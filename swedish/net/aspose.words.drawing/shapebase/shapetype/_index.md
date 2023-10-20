@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShapeType
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar formtypen.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words för .NET
+description: ShapeBase ShapeType fast egendom. Hämtar formtypen i C#.
 type: docs
 weight: 500
 url: /sv/net/aspose.words.drawing/shapebase/shapetype/
@@ -14,7 +16,7 @@ Hämtar formtypen.
 public ShapeType ShapeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
@@ -106,7 +108,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * enum [ShapeType](../../shapetype/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

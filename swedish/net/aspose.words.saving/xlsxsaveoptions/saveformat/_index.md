@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: XlsxSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastXlsx .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: XlsxSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastXlsx  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/xlsxsaveoptions/saveformat/
@@ -18,7 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XlsxSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

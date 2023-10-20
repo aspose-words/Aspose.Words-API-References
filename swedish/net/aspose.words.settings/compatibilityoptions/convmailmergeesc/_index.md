@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ConvMailMergeEsc
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Behandla omvänt snedstreck citatavgränsare som två citattecken.
+linktitle: ConvMailMergeEsc
+articleTitle: ConvMailMergeEsc
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions ConvMailMergeEsc fast egendom. Behandla omvänt snedstreck citatavgränsare som två citattecken i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.settings/compatibilityoptions/convmailmergeesc/
@@ -17,7 +19,5 @@ public bool ConvMailMergeEsc { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

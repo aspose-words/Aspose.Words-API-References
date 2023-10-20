@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till ett stycke i det aktuella avsnittet.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToParagraph metod. Flyttar markören till ett stycke i det aktuella avsnittet i C#.
 type: docs
-weight: 570
+weight: 560
 url: /sv/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | Indexet för stycket att flytta till. |
 | characterIndex | Int32 | Indexet för tecknet inuti stycket. Ett negativt värde låter dig ange en position från slutet av stycket. Använd -1 för att flytta till slutet av stycket. |
 
-### Anmärkningar
+## Anmärkningar
 
 Navigeringen utförs i den aktuella berättelsen i det aktuella avsnittet. Det vill säga om du flyttade markören till den primära rubriken i den första sektionen, då*paragraphIndex*specificerade indexet för stycket inuti header i det avsnittet.
 
 När*paragraphIndex* är större än eller lika med 0, anger det ett index från början av avsnittet med 0 som första stycket. När*paragraphIndex* är mindre än 0, den specificerade ett index från slutet av avsnittet med -1 som det sista stycket.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en byggares markörposition till ett angivet stycke.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Query
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabase fast egendom. Hämtar eller ställer in en uppsättning SQLinstruktioner som frågar databasen.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words för .NET
+description: FieldDatabase Query fast egendom. Hämtar eller ställer in en uppsättning SQLinstruktioner som frågar databasen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/fielddatabase/query/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en uppsättning SQL-instruktioner som frågar database
 public string Query { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar data från en databas och infogar den som ett fält i ett dokument.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Se även
 
 * class [FieldDatabase](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabase/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

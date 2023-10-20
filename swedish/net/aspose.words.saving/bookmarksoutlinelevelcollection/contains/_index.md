@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection metod. Bestämmer om samlingen innehåller ett bokmärke med det angivna namnet.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection Contains metod. Bestämmer om samlingen innehåller ett bokmärke med det angivna namnet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `Sann` om föremål finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

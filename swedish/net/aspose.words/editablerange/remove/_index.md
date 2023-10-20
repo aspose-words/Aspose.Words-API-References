@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Aspose.Words för .NET API Referens
-description: EditableRange metod. Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara intervallet.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: EditableRange Remove metod. Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom det redigerbara intervallet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ Tar bort det redigerbara området från dokumentet. Tar inte bort innehåll inom
 public void Remove()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Se även
 
 * class [EditableRange](../)
-* namnutrymme [Aspose.Words](../../editablerange/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

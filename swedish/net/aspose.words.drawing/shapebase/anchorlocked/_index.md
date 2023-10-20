@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger om formens ankare är låst.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words för .NET
+description: ShapeBase AnchorLocked fast egendom. Anger om formens ankare är låst i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ Anger om formens ankare är låst.
 public bool AnchorLocked { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
@@ -22,7 +24,7 @@ Har effekt endast för former på högsta nivå.
 
 Den här egenskapen påverkar beteendet hos formens ankare i Microsoft Word. När ankaret inte är låst, kan flytta formens ankare också flytta formen i Microsoft Word.
 
-### Exempel
+## Exempel
 
 Visar hur du låser eller låser upp en forms styckeankare.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

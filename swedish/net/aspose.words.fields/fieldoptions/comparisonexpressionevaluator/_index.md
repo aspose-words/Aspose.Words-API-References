@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in utvärderaren för fältjämförelseuttryck.
+linktitle: ComparisonExpressionEvaluator
+articleTitle: ComparisonExpressionEvaluator
+second_title: Aspose.Words för .NET
+description: FieldOptions ComparisonExpressionEvaluator fast egendom. Hämtar eller ställer in utvärderaren för fältjämförelseuttryck i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in utvärderaren för fältjämförelseuttryck.
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -99,7 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

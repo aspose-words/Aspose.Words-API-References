@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Sant om nivån ändrar alla ärvda tal till arabiska falskt om den bevarar deras talstil.
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: Aspose.Words för .NET
+description: ListLevel IsLegal fast egendom. Sant om nivån ändrar alla ärvda tal till arabiska falskt om den bevarar deras talstil i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ Sant om nivån ändrar alla ärvda tal till arabiska, falskt om den bevarar dera
 public bool IsLegal { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar avancerade sätt att anpassa listetiketter.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en HTMLsträng i dokumentet.
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertHtml metod. Infogar en HTMLsträng i dokumentet i C#.
 type: docs
-weight: 360
+weight: 350
 url: /sv/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 Infogar en HTML-sträng i dokumentet.
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | En HTML-sträng att infoga i dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda den här metoden för att infoga ett HTML-fragment eller ett helt HTML-dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbyggare för att infoga HTML-innehåll i ett dokument.
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 Infogar en HTML-sträng i dokumentet.
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | En HTML-sträng att infoga i dokumentet. |
 | useBuilderFormatting | Boolean | Ett värde som anger om formatering anges i[`DocumentBuilder`](../) används som basformatering för text som importeras från HTML. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda den här metoden för att infoga ett HTML-fragment eller ett helt HTML-dokument.
 
@@ -148,7 +150,7 @@ När*useBuilderFormatting* är`falsk` , [`DocumentBuilder`](../)formatering igno
 
 När*useBuilderFormatting* är`Sann` , formateringen av infogad text baseras på[`DocumentBuilder`](../) formatering, och texten ser ut som om den infogats med[`Write`](../write/) .
 
-### Exempel
+## Exempel
 
 Visar hur du använder en dokumentbyggares formatering när du infogar HTML-innehåll.
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 Infogar en HTML-sträng i dokumentet. Tillåter att ange ytterligare alternativ.
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | En HTML-sträng att infoga i dokumentet. |
 | options | HtmlInsertOptions | Alternativ som används när HTML-sträng infogas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda den här metoden för att infoga ett HTML-fragment eller ett helt HTML-dokument.
 
-### Exempel
+## Exempel
 
 Visar hur du använder alternativ när du infogar html.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

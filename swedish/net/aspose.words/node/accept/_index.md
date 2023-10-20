@@ -1,7 +1,9 @@
 ---
 title: Node.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Node Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/node/accept/
@@ -22,13 +24,13 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
@@ -225,7 +227,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFields
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnader i fält ska jämföras. Som standard ignoreras inte fält.
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreFields fast egendom. Anger om skillnader i fält ska jämföras. Som standard ignoreras inte fält i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.comparing/compareoptions/ignorefields/
@@ -14,7 +16,7 @@ Anger om skillnader i fält ska jämföras. Som standard ignoreras inte fält.
 public bool IgnoreFields { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

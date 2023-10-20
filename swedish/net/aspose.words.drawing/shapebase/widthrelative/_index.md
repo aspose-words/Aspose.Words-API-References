@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WidthRelative
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in värdet som representerar procentandelen av formens relativa bredd.
+linktitle: WidthRelative
+articleTitle: WidthRelative
+second_title: Aspose.Words för .NET
+description: ShapeBase WidthRelative fast egendom. Hämtar eller ställer in värdet som representerar procentandelen av formens relativa bredd i C#.
 type: docs
 weight: 580
 url: /sv/net/aspose.words.drawing/shapebase/widthrelative/
@@ -14,7 +16,7 @@ Hämtar eller ställer in värdet som representerar procentandelen av formens re
 public float WidthRelative { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in relativ storlek och position.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

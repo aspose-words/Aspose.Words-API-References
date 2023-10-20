@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertRelativePosition
-second_title: Aspose.Words för .NET API Referens
-description: FieldPageRef fast egendom. Hämtar eller ställer in om en relativ position för det bokmärkta stycket ska infogas.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words för .NET
+description: FieldPageRef InsertRelativePosition fast egendom. Hämtar eller ställer in om en relativ position för det bokmärkta stycket ska infogas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om en relativ position för det bokmärkta stycket ska
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga PAGEREF-fält för att visa den relativa platsen för bokmärken.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Se även
 
 * class [FieldPageRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldpageref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

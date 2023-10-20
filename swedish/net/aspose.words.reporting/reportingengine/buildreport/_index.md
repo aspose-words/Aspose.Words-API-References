@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Aspose.Words för .NET API Referens
-description: ReportingEngine metod. Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words för .NET
+description: ReportingEngine BuildReport metod. Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options/)egenskapen inkluderar InlineErrorMessages alternativ.
 
-### Anmärkningar
+## Anmärkningar
 
 Med denna överbelastning kan du referera till datakällans medlemmar i malldokumentet, men du kan inte referera till själva datakällans objekt. Du bör använda`BuildReport` överbelastning för att uppnå detta.
 
@@ -47,12 +49,12 @@ För information om hur man arbetar med datakällor av olika typer i malldokumen
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 Fyller i det angivna malldokumentet med data från den angivna källan vilket gör det till en klar rapport.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options/)egenskapen inkluderar InlineErrorMessages alternativ.
 
-### Anmärkningar
+## Anmärkningar
 
 Med denna överbelastning kan du referera till datakällans medlemmar och själva datakällans objekt i mallen. Om du inte ska referera till själva datakällobjektet kan du utelämna*dataSourceName* passerar`null` eller använd`BuildReport` överbelastning.
 
@@ -94,12 +96,12 @@ För information om hur man arbetar med datakällor av olika typer i malldokumen
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 Fyller i det angivna malldokumentet med data från de angivna källorna vilket gör det till en klar rapport.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options/)egenskapen inkluderar InlineErrorMessages alternativ.
 
-### Anmärkningar
+## Anmärkningar
 
 Genom att använda denna överbelastning kan du referera till flera datakällobjekt och deras medlemmar i mallen. Namnet på den första datakällan kan utelämnas (dvs. vara en tom sträng eller`null` om du ska referera till datakällans medlemmar men inte själva datakällans objekt. Namnen på de andra datakällorna måste anges och vara unika.
 
@@ -143,7 +145,5 @@ För information om hur man arbetar med datakällor av olika typer i malldokumen
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

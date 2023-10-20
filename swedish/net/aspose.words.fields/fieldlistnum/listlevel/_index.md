@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListLevel
-second_title: Aspose.Words för .NET API Referens
-description: FieldListNum fast egendom. Hämtar eller ställer in nivån i listan och åsidosätter fältets standardbeteende.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words för .NET
+description: FieldListNum ListLevel fast egendom. Hämtar eller ställer in nivån i listan och åsidosätter fältets standardbeteende i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldlistnum/listlevel/
@@ -14,7 +16,7 @@ Hämtar eller ställer in nivån i listan och åsidosätter fältets standardbet
 public string ListLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man numrerar stycken med LISTNUM-fält.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Se även
 
 * class [FieldListNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlistnum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

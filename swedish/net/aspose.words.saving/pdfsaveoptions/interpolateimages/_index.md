@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. En flagga som indikerar om bildinterpolation ska utföras av en överensstämmande läsare. Närfalsk anges skrivs inte flaggan till utdatadokumentet och standardbeteendet för läsaren används istället.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions InterpolateImages fast egendom. En flagga som indikerar om bildinterpolation ska utföras av en överensstämmande läsare. Närfalsk anges skrivs inte flaggan till utdatadokumentet och standardbeteendet för läsaren används istället i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ En flagga som indikerar om bildinterpolation ska utföras av en överensstämman
 public bool InterpolateImages { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När upplösningen för en källbild är betydligt lägre än den för utenheten, täcker varje källexempel många enhetspixlar. Som ett resultat kan bilder verka taggiga eller blockiga. Dessa visuella artefakter kan reduceras genom att använda en bildinterpolationsalgoritm under renderingen. Istället för att måla alla pixlar som täcks av ett källexempel med samma färg, försöker bildinterpolation producera en jämn övergång mellan intilliggande exempelvärden.
 
@@ -24,7 +26,7 @@ Standardvärdet är`falsk`.
 
 Interpolationsflagga är förbjuden av PDF/A-kompatibilitet.`falsk` värde kommer att användas automatiskt när du sparar till PDF/A.
 
-### Exempel
+## Exempel
 
 Visar hur man utför interpolation på bilder samtidigt som man sparar ett dokument till PDF.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

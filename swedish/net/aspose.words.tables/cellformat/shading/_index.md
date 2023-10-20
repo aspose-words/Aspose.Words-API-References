@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för cellen.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words för .NET
+description: CellFormat Shading fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för cellen i C#.
 type: docs
-weight: 100
+weight: 90
 url: /sv/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ Returnerar en[`Shading`](../../../aspose.words/shading/) objekt som hänvisar ti
 public Shading Shading { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar formatet för rader och celler i en tabell.
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

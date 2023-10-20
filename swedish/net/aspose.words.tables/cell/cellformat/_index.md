@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Ger tillgång till cellens formateringsegenskaper.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words för .NET
+description: Cell CellFormat fast egendom. Ger tillgång till cellens formateringsegenskaper i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/cell/cellformat/
@@ -14,7 +16,7 @@ Ger tillgång till cellens formateringsegenskaper.
 public CellFormat CellFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar formateringen av en tabellcell.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

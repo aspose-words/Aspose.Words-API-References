@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

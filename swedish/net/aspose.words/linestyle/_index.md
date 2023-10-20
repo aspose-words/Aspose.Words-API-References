@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.LineStyle uppräkning. Anger linjestil för enBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.LineStyle uppräkning. Anger linjestil för enBorder  i C#.
 type: docs
 weight: 3450
 url: /sv/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en sträng omgiven av en kant i ett dokument.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som upphöjt.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words för .NET
+description: Font Superscript fast egendom. Sant om teckensnittet är formaterat som upphöjt i C#.
 type: docs
 weight: 440
 url: /sv/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som upphöjt.
 public bool Superscript { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar text för att förskjuta dess position.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

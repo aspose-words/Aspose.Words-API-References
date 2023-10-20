@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SaveSearchCache
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings metod. Sparar typsnittssökningscachen i strömmen.
+linktitle: SaveSearchCache
+articleTitle: SaveSearchCache
+second_title: Aspose.Words för .NET
+description: FontSettings SaveSearchCache metod. Sparar typsnittssökningscachen i strömmen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -18,11 +20,11 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Utgångsström. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ser[`SetFontsSources`](../setfontssources/) metodbeskrivning för mer info.
 
-### Exempel
+## Exempel
 
 Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
 
@@ -73,7 +75,5 @@ private class SearchCacheStream : StreamFontSource
 ### Se även
 
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

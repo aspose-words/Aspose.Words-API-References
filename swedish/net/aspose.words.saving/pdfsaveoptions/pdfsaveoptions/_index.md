@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument i Pdf format.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument i Pdf format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett doku
 public PdfSaveOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar eller inaktiverar underinställningar när du bäddar in teckensnitt samtidigt som ett dokument renderas till PDF.
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

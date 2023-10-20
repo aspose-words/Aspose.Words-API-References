@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. Hämtar typen av denna sidhuvud/sidfot.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words för .NET
+description: HeaderFooter HeaderFooterType fast egendom. Hämtar typen av denna sidhuvud/sidfot i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ Hämtar typen av denna sidhuvud/sidfot.
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

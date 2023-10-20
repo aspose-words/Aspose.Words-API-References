@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in en flagga som anger om stilarna i dokumentet uppdateras för att matcha stilarna i den bifogade mallen varje gång dokumentet öppnas i MS Word.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words för .NET
+description: Document AutomaticallyUpdateStyles fast egendom. Hämtar eller ställer in en flagga som anger om stilarna i dokumentet uppdateras för att matcha stilarna i den bifogade mallen varje gång dokumentet öppnas i MS Word i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en flagga som anger om stilarna i dokumentet uppdatera
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bifogar en mall till ett dokument.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

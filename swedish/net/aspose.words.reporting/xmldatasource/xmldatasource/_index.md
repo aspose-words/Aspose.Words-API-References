@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Aspose.Words för .NET API Referens
-description: XmlDataSource byggare. Skapar en ny datakälla med data från en XMLfil med standardalternativ för XMLdataladdning.
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words för .NET
+description: XmlDataSource byggare. Skapar en ny datakälla med data från en XMLfil med standardalternativ för XMLdataladdning i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 Skapar en ny datakälla med data från en XML-fil med standardalternativ för XML-dataladdning.
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### Se även
 
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 Skapar en ny datakälla med data från en XML-ström med standardalternativ för XML-dataladdning.
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### Se även
 
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. Standard options används för XML-dataladdning.
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### Se även
 
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. Standard options används för XML-dataladdning.
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### Se även
 
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 Skapar en ny datakälla med data från en XML-fil med de angivna alternativen för XML-dataladdning.
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 Skapar en ny datakälla med data från en XML-ström med de angivna alternativen för XML-dataladdning.
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. De specificerade -alternativen används för XML-dataladdning.
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. De specificerade -alternativen används för XML-dataladdning.
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namnutrymme [Aspose.Words.Reporting](../../xmldatasource/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

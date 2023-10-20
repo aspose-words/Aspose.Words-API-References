@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Shading
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Returnerar enShading objekt som hänvisar till skuggningsformateringen för stycket.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words för .NET
+description: ParagraphFormat Shading fast egendom. Returnerar enShading objekt som hänvisar till skuggningsformateringen för stycket i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/paragraphformat/shading/
@@ -14,7 +16,7 @@ Returnerar en[`Shading`](../../shading/) objekt som hänvisar till skuggningsfor
 public Shading Shading { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * class [Shading](../../shading/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

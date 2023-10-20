@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Marker
-second_title: Aspose.Words för .NET API Referens
-description: IChartDataPoint fast egendom. Anger en datamarkör. Markör skapas automatiskt vid begäran.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words för .NET
+description: IChartDataPoint Marker fast egendom. Anger en datamarkör. Markör skapas automatiskt vid begäran i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/marker/
@@ -14,7 +16,7 @@ Anger en datamarkör. Markör skapas automatiskt vid begäran.
 public ChartMarker Marker { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartMarker](../../chartmarker/)
 * interface [IChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

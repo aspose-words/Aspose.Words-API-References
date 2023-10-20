@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsPicture
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som en bild.
+linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
+second_title: Aspose.Words för .NET
+description: FieldLink InsertAsPicture fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som en bild i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldlink/insertaspicture/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas som en bild.
 public bool InsertAsPicture { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternThemeColor
-second_title: Aspose.Words för .NET API Referens
-description: Shading fast egendom. Hämtar eller ställer in förgrundsmönsterfärgen i det tillämpade färgschemat som är associerat med dettaShading objekt.
+linktitle: ForegroundPatternThemeColor
+articleTitle: ForegroundPatternThemeColor
+second_title: Aspose.Words för .NET
+description: Shading ForegroundPatternThemeColor fast egendom. Hämtar eller ställer in förgrundsmönsterfärgen i det tillämpade färgschemat som är associerat med dettaShading objekt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/shading/foregroundpatternthemecolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in förgrundsmönsterfärgen i det tillämpade färgschem
 public ThemeColor ForegroundPatternThemeColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in förgrunds- och bakgrundsfärger för skuggning av textur.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* namnutrymme [Aspose.Words](../../shading/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

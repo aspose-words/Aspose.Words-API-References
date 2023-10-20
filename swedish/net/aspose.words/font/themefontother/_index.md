@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words för .NET
+description: Font ThemeFontOther fast egendom. Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt i C#.
 type: docs
 weight: 510
 url: /sv/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ Hämtar eller ställer in temateckensnittet som används för tecken med teckenk
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med tematypsnitt och färger.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

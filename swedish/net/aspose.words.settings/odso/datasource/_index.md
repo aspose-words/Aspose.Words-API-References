@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger platsen för den externa datakällan som ska anslutas till ett dokument för att utföra kopplingen. Standardvärdet är en tom sträng.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words för .NET
+description: Odso DataSource fast egendom. Anger platsen för den externa datakällan som ska anslutas till ett dokument för att utföra kopplingen. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ Anger platsen för den externa datakällan som ska anslutas till ett dokument f�
 public string DataSource { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

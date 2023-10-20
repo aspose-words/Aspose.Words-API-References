@@ -1,7 +1,9 @@
 ---
-title: Class ViewOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.ViewOptions klass. Ger olika alternativ som styr hur ett dokument visas i Microsoft Word.
+title: ViewOptions Class
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.ViewOptions klass. Ger olika alternativ som styr hur ett dokument visas i Microsoft Word i C#.
 type: docs
 weight: 5950
 url: /sv/net/aspose.words.settings/viewoptions/
@@ -27,7 +29,7 @@ public class ViewOptions
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Hämtar eller ställer in procentandelen (mellan 10 och 500) som du vill visa ditt dokument med. |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Hämtar eller ställer in ett zoomvärde baserat på fönstrets storlek. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en anpassad zoomfaktor, vilken äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid inläsning.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 * property [ViewOptions](../../aspose.words/document/viewoptions/)
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

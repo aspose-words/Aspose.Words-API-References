@@ -1,12 +1,14 @@
 ---
-title: FileFontSource.FileFontSource
-second_title: Aspose.Words för .NET API Referens
-description: FileFontSource byggare. Ctor.
+title: FileFontSource
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words för .NET
+description: FileFontSource byggare. Ctor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource(string) {#constructor}
+## FileFontSource(*string*) {#constructor}
 
 Ctor.
 
@@ -18,7 +20,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | Sökväg till teckensnittsfil. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Se även
 
 * class [FileFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../filefontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int) {#constructor_1}
+## FileFontSource(*string, int*) {#constructor_1}
 
 Ctor.
 
@@ -55,7 +57,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | Sökväg till teckensnittsfil. |
 | priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Se även
 
 * class [FileFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../filefontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## FileFontSource(string, int, string) {#constructor_2}
+## FileFontSource(*string, int, string*) {#constructor_2}
 
 Ctor.
 
@@ -93,7 +95,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 | cacheKey | String | Nyckeln till denna källa i cachen. Ser[`CacheKey`](../cachekey/) fastighetsbeskrivning för mer information. |
 
-### Exempel
+## Exempel
 
 Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Se även
 
 * class [FileFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../filefontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

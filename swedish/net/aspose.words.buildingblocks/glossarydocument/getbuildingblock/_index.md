@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Aspose.Words för .NET API Referens
-description: GlossaryDocument metod. Hittar ett byggblock med det angivna galleriet kategorin och namnet.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words för .NET
+description: GlossaryDocument GetBuildingBlock metod. Hittar ett byggblock med det angivna galleriet kategorin och namnet i C#.
 type: docs
-weight: 90
+weight: 70
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 Den matchande byggstenen eller`null` om en matchning inte hittades.
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en bekvämlighetsmetod som itererar över alla byggblock i den här samlingen och returnerar det första byggblocket som matchar det angivna galleriet, kategorin och namnet.
 
 Microsoft Word organiserar byggstenar i gallerier. Gallerierna är fördefinierade med hjälp av[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Inom varje galleri kan byggblock organiseras i en eller flera kategorier. Kategorinamnet är en sträng. Varje byggblock har ett namn. Ett building block -namn är inte garanterat unikt.
 
-### Exempel
+## Exempel
 
 Visar sätt att komma åt byggstenar i ett ordlistadokument.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

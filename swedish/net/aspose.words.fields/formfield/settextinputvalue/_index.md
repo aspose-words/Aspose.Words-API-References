@@ -1,7 +1,9 @@
 ---
 title: FormField.SetTextInputValue
-second_title: Aspose.Words för .NET API Referens
-description: FormField metod. Tillämpar textformatet som anges iTextInputFormat och lagrar värdet iResult .
+linktitle: SetTextInputValue
+articleTitle: SetTextInputValue
+second_title: Aspose.Words för .NET
+description: FormField SetTextInputValue metod. Tillämpar textformatet som anges iTextInputFormat och lagrar värdet iResult  i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.fields/formfield/settextinputvalue/
@@ -16,13 +18,13 @@ public void SetTextInputValue(object newValue)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| newValue | Object | Kan vara en sträng, nummer eller en **Datum Tid** objekt. |
+| newValue | Object | Kan vara en sträng, nummer eller en**Datum Tid** objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 De[`TextInputDefault`](../textinputdefault/)värde tillämpas om*newValue* är`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

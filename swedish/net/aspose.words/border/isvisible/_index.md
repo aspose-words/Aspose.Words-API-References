@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. ReturnerarSann omLineStyle är inteNone .
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words för .NET
+description: Border IsVisible fast egendom. ReturnerarSann omLineStyle är inteNone  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ Returnerar`Sann` om[`LineStyle`](../linestyle/) är inteNone .
 public bool IsVisible { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort kanter från ett stycke.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

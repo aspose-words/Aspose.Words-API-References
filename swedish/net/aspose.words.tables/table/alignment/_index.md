@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Anger hur en inlinetabell justeras i dokumentet.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words för .NET
+description: Table Alignment fast egendom. Anger hur en inlinetabell justeras i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ Anger hur en inlinetabell justeras i dokumentet.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärLeft.
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar en konturram på en tabell.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

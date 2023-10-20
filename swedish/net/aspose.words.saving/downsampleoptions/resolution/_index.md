@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Aspose.Words för .NET API Referens
-description: DownsampleOptions fast egendom. Anger upplösningen i pixlar per tum som bilderna ska nedsamplas till.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words för .NET
+description: DownsampleOptions Resolution fast egendom. Anger upplösningen i pixlar per tum som bilderna ska nedsamplas till i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ Anger upplösningen i pixlar per tum som bilderna ska nedsamplas till.
 public int Resolution { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 220 ppi.
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Se även
 
 * class [DownsampleOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../downsampleoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

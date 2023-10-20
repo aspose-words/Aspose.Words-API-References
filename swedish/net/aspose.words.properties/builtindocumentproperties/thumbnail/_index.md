@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Thumbnail
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in dokumentets miniatyrbild.
+linktitle: Thumbnail
+articleTitle: Thumbnail
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Thumbnail fast egendom. Hämtar eller ställer in dokumentets miniatyrbild i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.properties/builtindocumentproperties/thumbnail/
@@ -14,7 +16,7 @@ Hämtar eller ställer in dokumentets miniatyrbild.
 public byte[] Thumbnail { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För närvarande används den här egenskapen endast när ett dokument exporteras till ePub, det läses inte från och skrivs till andra dokumentformat.
 
@@ -22,7 +24,7 @@ Bild av godtyckligt format kan ställas in på den här egenskapen, men formatet
 
 Endast gif-, jpeg- och png-bilder kan användas för ePub-publicering.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en miniatyrbild till ett dokument som vi sparar som en Epub.
 
@@ -48,7 +50,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: FieldCollection fast egendom. Returnerar antalet fält i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: FieldCollection Count fast egendom. Returnerar antalet fält i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet fält i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort fält från en fältsamling.
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

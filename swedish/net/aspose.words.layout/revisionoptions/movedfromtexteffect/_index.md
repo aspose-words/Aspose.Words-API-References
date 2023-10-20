@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextEffect
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att specificera effekten som ska tillämpas på de områden där innehållet flyttades frånMoving . Standardvärdet ärDoubleStrikeThrough
+linktitle: MovedFromTextEffect
+articleTitle: MovedFromTextEffect
+second_title: Aspose.Words för .NET
+description: RevisionOptions MovedFromTextEffect fast egendom. Tillåter att specificera effekten som ska tillämpas på de områden där innehållet flyttades frånMoving . Standardvärdet ärDoubleStrikeThrough i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
@@ -14,7 +16,7 @@ Tillåter att specificera effekten som ska tillämpas på de områden där inneh
 public RevisionTextEffect MovedFromTextEffect { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in sökvägar för MS Words inbyggda mallar.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words för .NET
+description: FieldOptions BuiltInTemplatesPaths fast egendom. Hämtar eller ställer in sökvägar för MS Words inbyggda mallar i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ Hämtar eller ställer in sökvägar för MS Words inbyggda mallar.
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen används av[`FieldAutoText`](../../fieldautotext/) och[`FieldGlossary`](../../fieldglossary/) fält, om refererad automatisk textinmatning inte finns i[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) mall.
 
 Som standard lagrar MS Word inbyggda mallar i c:\Users\&lt;användarnamn&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx och C:\Users\&lt;användarnamn&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm-filer.
 
-### Exempel
+## Exempel
 
 Visar hur man visar ett byggblock med fälten AUTOTEXT och ORDLISTA.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Se även
 
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

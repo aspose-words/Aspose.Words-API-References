@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Definierar om texten passar vägen för en form.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words för .NET
+description: TextPath FitPath fast egendom. Definierar om texten passar vägen för en form i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ Definierar om texten passar vägen för en form.
 public bool FitPath { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller ställer in etiketternas avstånd från axeln.
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: Aspose.Words för .NET
+description: ChartAxis TickLabelOffset fast egendom. Hämtar eller ställer in etiketternas avstånd från axeln i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ Hämtar eller ställer in etiketternas avstånd från axeln.
 public int TickLabelOffset { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen representerar en procentandel av standardetikettförskjutningen.
 
@@ -22,7 +24,7 @@ Giltigt intervall är från 0 till 1000 procent inklusive. Standardvärdet är 1
 
 Egenskapen har effekt endast för kategoriyxor. Det stöds inte av MS Office 2016 nya diagram.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

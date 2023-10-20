@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.Position
-second_title: Aspose.Words för .NET API Referens
-description: EndnoteOptions fast egendom. Anger slutnoternas position.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words för .NET
+description: EndnoteOptions Position fast egendom. Anger slutnoternas position i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.notes/endnoteoptions/position/
@@ -14,7 +16,7 @@ Anger slutnoternas position.
 public EndnotePosition Position { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess slutanteckningar.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* namnutrymme [Aspose.Words.Notes](../../endnoteoptions/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

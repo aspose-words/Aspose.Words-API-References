@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Aspose.Words för .NET API Referens
-description: TabStop fast egendom. Får tabbstoppets position i poäng.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words för .NET
+description: TabStop Position fast egendom. Får tabbstoppets position i poäng i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ Får tabbstoppets position i poäng.
 public double Position { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Se även
 
 * class [TabStop](../)
-* namnutrymme [Aspose.Words](../../tabstop/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

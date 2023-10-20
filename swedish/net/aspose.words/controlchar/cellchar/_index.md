@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CellChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Slutet på en tabellcell eller slutet av en tabellrads tecken char7 eller a.
+linktitle: CellChar
+articleTitle: CellChar
+second_title: Aspose.Words för .NET
+description: ControlChar CellChar fält. Slutet på en tabellcell eller slutet av en tabellrads tecken char7 eller a i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/controlchar/cellchar/
@@ -14,7 +16,7 @@ Slutet på en tabellcell eller slutet av en tabellrads tecken: (char)7 eller "\a
 public const char CellChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

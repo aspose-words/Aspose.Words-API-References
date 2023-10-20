@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItemCollection metod. Lägger till ett föremål i den här samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: SdtListItemCollection Add metod. Lägger till ett föremål i den här samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ Lägger till ett föremål i den här samlingen.
 public void Add(SdtListItem item)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

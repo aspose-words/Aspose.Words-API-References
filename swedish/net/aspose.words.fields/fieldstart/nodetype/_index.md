@@ -1,7 +1,9 @@
 ---
 title: FieldStart.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: FieldStart fast egendom. ReturnerarFieldStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: FieldStart NodeType fast egendom. ReturnerarFieldStart  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldstart/nodetype/
@@ -14,7 +16,7 @@ ReturnerarFieldStart .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldStart](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstart/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

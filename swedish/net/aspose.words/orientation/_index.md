@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Orientation uppräkning. Anger sidorientering.
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Orientation uppräkning. Anger sidorientering i C#.
 type: docs
 weight: 4320
 url: /sv/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | Stående sidorientering (smal och lång). |
 | Landscape | `2` | Liggande sidorientering (bred och kort). |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

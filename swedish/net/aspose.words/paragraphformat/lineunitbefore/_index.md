@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in mängden mellanrum i rutnätslinjer före styckena.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words för .NET
+description: ParagraphFormat LineUnitBefore fast egendom. Hämtar eller ställer in mängden mellanrum i rutnätslinjer före styckena i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden mellanrum (i rutnätslinjer) före styckena.
 public double LineUnitBefore { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar styckeavstånd och indrag.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DmlEffectsRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur DrawingMLeffekter renderas.
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions DmlEffectsRenderingMode fast egendom. Hämtar eller ställer in ett värde som bestämmer hur DrawingMLeffekter renderas i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter rende
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärSimplified .
 
@@ -22,7 +24,7 @@ Den här egenskapen används när dokumentet exporteras till fasta sidformat.
 
 Om[`Compliance`](../compliance/) är satt tillPdfA1a ellerPdfA1b Egenskapen , returnerar alltidNone.
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar renderingskvaliteten för DrawingML-effekter i ett dokument när vi sparar det till PDF.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Aspose.Words för .NET API Referens
-description: Field metod. Returnerar text mellan fältstart och fältavgränsare eller fältslut om det inte finns någon avgränsare. Både fältkod och fältresultat för underordnade fält ingår.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words för .NET
+description: Field GetFieldCode metod. Returnerar text mellan fältstart och fältavgränsare eller fältslut om det inte finns någon avgränsare. Både fältkod och fältresultat för underordnade fält ingår i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det i
 public string GetFieldCode()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält i ett dokument med hjälp av en fältkod.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `Sann` om underordnade fältkoder ska inkluderas. |
 
-### Exempel
+## Exempel
 
 Visar hur man får ett fälts fältkod.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

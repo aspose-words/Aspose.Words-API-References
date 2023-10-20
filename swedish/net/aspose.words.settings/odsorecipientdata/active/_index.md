@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientData fast egendom. Anger om posten från datakällan ska importeras till ett dokument när sammanslagningen utförs. Standardvärdet ärSann .
+linktitle: Active
+articleTitle: Active
+second_title: Aspose.Words för .NET
+description: OdsoRecipientData Active fast egendom. Anger om posten från datakällan ska importeras till ett dokument när sammanslagningen utförs. Standardvärdet ärSann  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ Anger om posten från datakällan ska importeras till ett dokument när sammansl
 public bool Active { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

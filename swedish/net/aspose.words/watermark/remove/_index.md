@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Aspose.Words för .NET API Referens
-description: Watermark metod. Tar bort vattenstämpeln.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: Watermark Remove metod. Tar bort vattenstämpeln i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ Tar bort vattenstämpeln.
 public void Remove()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Se även
 
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

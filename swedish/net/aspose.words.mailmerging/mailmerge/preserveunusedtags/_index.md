@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om de oanvända mustaschtaggarna ska bevaras.
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: Aspose.Words för .NET
+description: MailMerge PreserveUnusedTags fast egendom. Hämtar eller ställer in ett värde som anger om de oanvända mustaschtaggarna ska bevaras i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som anger om de oanvända "mustasch"-taggar
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar utseendet på alternativa kopplingsetiketter som inte används under en koppling.
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

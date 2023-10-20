@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPart fast egendom. Hämtar eller ställer in XMLinnehållet för denna anpassade XMLdatalagringsdel.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words för .NET
+description: CustomXmlPart Data fast egendom. Hämtar eller ställer in XMLinnehållet för denna anpassade XMLdatalagringsdel i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ Hämtar eller ställer in XML-innehållet för denna anpassade XML-datalagringsd
 public byte[] Data { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom byte-array. Värdet kan inte vara`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Se även
 
 * class [CustomXmlPart](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

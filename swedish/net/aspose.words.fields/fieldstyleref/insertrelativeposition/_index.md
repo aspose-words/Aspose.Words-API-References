@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertRelativePosition
-second_title: Aspose.Words för .NET API Referens
-description: FieldStyleRef fast egendom. Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words för .NET
+description: FieldStyleRef InsertRelativePosition fast egendom. Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om den relativa positionen för det refererade stycket
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder STYLEREF-fält.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Se även
 
 * class [FieldStyleRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstyleref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

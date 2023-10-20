@@ -1,9 +1,11 @@
 ---
 title: Style.ParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar formatets styckeformatering.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words för .NET
+description: Style ParagraphFormat fast egendom. Hämtar formatets styckeformatering i C#.
 type: docs
-weight: 150
+weight: 140
 url: /sv/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -14,11 +16,11 @@ Hämtar formatets styckeformatering.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För tecken- och liststilar returnerar denna egenskap`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar och använder ett styckeformat med listformatering.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

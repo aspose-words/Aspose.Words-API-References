@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Gör det möjligt att ange färgen som ska användas för sidofält som identifierar dokumentrader som innehåller reviderad information. Standardvärdet ärRed .
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: Aspose.Words för .NET
+description: RevisionOptions RevisionBarsColor fast egendom. Gör det möjligt att ange färgen som ska användas för sidofält som identifierar dokumentrader som innehåller reviderad information. Standardvärdet ärRed  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ Gör det möjligt att ange färgen som ska användas för sidofält som identifi
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ställer in den här egenskapen tillByAuthor ellerNoHighlight values kommer att resultera i att revisionsfält döljs från layouten.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

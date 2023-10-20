@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Gör det möjligt att styra hur separata sidor sparas när ett dokument exporteras till fast sidformat.
+linktitle: PageSavingCallback
+articleTitle: PageSavingCallback
+second_title: Aspose.Words för .NET
+description: FixedPageSaveOptions PageSavingCallback fast egendom. Gör det möjligt att styra hur separata sidor sparas när ett dokument exporteras till fast sidformat i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur separata sidor sparas när ett dokument exporter
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

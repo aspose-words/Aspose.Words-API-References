@@ -1,7 +1,9 @@
 ---
 title: Cluster.CodepointsLength
-second_title: Aspose.Words för .NET API Referens
-description: Cluster fast egendom. Får totalt antal kodpunkter iCluster .
+linktitle: CodepointsLength
+articleTitle: CodepointsLength
+second_title: Aspose.Words för .NET
+description: Cluster CodepointsLength fast egendom. Får totalt antal kodpunkter iCluster  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.shaping/cluster/codepointslength/
@@ -17,7 +19,5 @@ public int CodepointsLength { get; }
 ### Se även
 
 * class [Cluster](../)
-* namnutrymme [Aspose.Words.Shaping](../../cluster/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

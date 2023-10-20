@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.DefaultInstructions
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen ärSann .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words för .NET
+description: SignatureLine DefaultInstructions fast egendom. Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen ärSann  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/signatureline/defaultinstructions/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som indikerar att standardinstruktioner vis
 public bool DefaultInstructions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

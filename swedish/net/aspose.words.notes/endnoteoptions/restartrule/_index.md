@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.RestartRule
-second_title: Aspose.Words för .NET API Referens
-description: EndnoteOptions fast egendom. Bestämmer när automatisk numrering startar om.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words för .NET
+description: EndnoteOptions RestartRule fast egendom. Bestämmer när automatisk numrering startar om i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.notes/endnoteoptions/restartrule/
@@ -14,11 +16,11 @@ Bestämmer när automatisk numrering startar om.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Alla värden är inte tillämpliga på slutnoter. För att ta reda på vilka värden som är tillämpliga, se[`FootnoteNumberingRule`](../../footnotenumberingrule/).
 
-### Exempel
+## Exempel
 
 Visar hur man startar om fotnots-/slutnotsnumrering på vissa ställen i dokumentet.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [EndnoteOptions](../)
-* namnutrymme [Aspose.Words.Notes](../../endnoteoptions/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

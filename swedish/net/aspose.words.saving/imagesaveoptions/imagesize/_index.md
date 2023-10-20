@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageSize
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in storleken på en genererad bild i pixlar.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions ImageSize fast egendom. Hämtar eller ställer in storleken på en genererad bild i pixlar i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/imagesaveoptions/imagesize/
@@ -14,13 +16,13 @@ Hämtar eller ställer in storleken på en genererad bild i pixlar.
 public Size ImageSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du sparar i rasterbildsformat.
 
 Standardvärdet är (0 x 0), vilket innebär att storleken på den genererade bilden kommer att beräknas enligt bildens storlek i punkter, angiven upplösning och skala.
 
-### Exempel
+## Exempel
 
 Visar hur man renderar varje sida i ett dokument till en separat TIFF-bild.
 
@@ -55,7 +57,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

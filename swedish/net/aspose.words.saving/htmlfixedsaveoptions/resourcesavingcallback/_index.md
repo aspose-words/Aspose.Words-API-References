@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Gör det möjligt att styra hur resurser bilder teckensnitt och css sparas när ett dokument exporteras till fast sidhtmlformat.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions ResourceSavingCallback fast egendom. Gör det möjligt att styra hur resurser bilder teckensnitt och css sparas när ett dokument exporteras till fast sidhtmlformat i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur resurser (bilder, teckensnitt och css) sparas n�
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

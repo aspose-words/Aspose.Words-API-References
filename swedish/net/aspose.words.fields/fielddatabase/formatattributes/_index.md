@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FormatAttributes
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabase fast egendom. Hämtar eller ställer in vilka attribut av formatet som ska tillämpas på tabellen.
+linktitle: FormatAttributes
+articleTitle: FormatAttributes
+second_title: Aspose.Words för .NET
+description: FieldDatabase FormatAttributes fast egendom. Hämtar eller ställer in vilka attribut av formatet som ska tillämpas på tabellen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fielddatabase/formatattributes/
@@ -14,7 +16,7 @@ Hämtar eller ställer in vilka attribut av formatet som ska tillämpas på tabe
 public string FormatAttributes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar data från en databas och infogar den som ett fält i ett dokument.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Se även
 
 * class [FieldDatabase](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabase/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

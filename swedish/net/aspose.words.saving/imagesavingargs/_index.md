@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ImageSavingArgs klass. Tillhandahåller data förImageSaving händelse.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ImageSavingArgs klass. Tillhandahåller data förImageSaving händelse i C#.
 type: docs
 weight: 5240
 url: /sv/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | Returnerar`Sann` om den aktuella bilden är tillgänglig för export. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en bild har sparats. |
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard, när Aspose.Words sparar ett dokument till HTML, sparas varje bild i en separat fil. Aspose.Words använder dokumentets filnamn och ett unikt nummer för att generera unikt filnamn för varje bild som finns i dokumentet.
 
@@ -37,7 +39,7 @@ Använd för att använda din egen logik för att generera bildfilsnamn[`ImageFi
 
 För att spara bilder i strömmar istället för filer, använd[`ImageStream`](./imagestream/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

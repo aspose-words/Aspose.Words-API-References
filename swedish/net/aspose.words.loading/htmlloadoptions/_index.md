@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.HtmlLoadOptions klass. Gör det möjligt att ange ytterligare alternativ när HTMLdokument läses in i enDocument objekt.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.HtmlLoadOptions klass. Gör det möjligt att ange ytterligare alternativ när HTMLdokument läses in i enDocument objekt i C#.
 type: docs
 weight: 3620
 url: /sv/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | namn | Beskrivning |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Initierar en ny instans av denna klass med standardvärden. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | En genväg för att initiera en ny instans av denna klass med det angivna lösenordet för att ladda ett krypterat dokument. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | En genväg för att initiera en ny instans av denna klass med egenskaper inställda på de angivna värdena. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | En genväg för att initiera en ny instans av denna klass med det angivna lösenordet för att ladda ett krypterat dokument. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | En genväg för att initiera en ny instans av denna klass med egenskaper inställda på de angivna värdena. |
 
 ## Egenskaper
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Se även
 
 * class [LoadOptions](../loadoptions/)
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

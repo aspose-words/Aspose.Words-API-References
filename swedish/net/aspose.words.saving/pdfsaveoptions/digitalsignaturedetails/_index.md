@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in detaljerna för att signera PDFdokumentet.
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions DigitalSignatureDetails fast egendom. Hämtar eller ställer in detaljerna för att signera PDFdokumentet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,11 +16,11 @@ Hämtar eller ställer in detaljerna för att signera PDF-dokumentet.
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null`och utdatadokumentet kommer inte att signeras. När denna egenskap är inställd på en giltig[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, så kommer PDF-dokumentet att signeras digitalt.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldCitation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldCitation klass. Implementerar fältet CITATION.
+title: FieldCitation Class
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldCitation klass. Implementerar fältet CITATION i C#.
 type: docs
 weight: 1680
 url: /sv/net/aspose.words.fields/fieldcitation/
@@ -26,7 +28,7 @@ public class FieldCitation : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Hämtar eller ställer in ett värde som matchar **Märka** elementets värde för en annan källa som ska inkluderas i citatet. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Hämtar eller ställer in ett värde som matchar**Märka** elementets värde för en annan källa som ska inkluderas i citatet. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
@@ -38,7 +40,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Hämtar eller ställer in ett prefix som föregås av citatet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Hämtar eller ställer in ett värde som matchar **Märka** elementets värde för källan som ska infogas. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Hämtar eller ställer in ett värde som matchar**Märka** elementets värde för källan som ska infogas. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Hämtar eller ställer in ett suffix som läggs till citatet. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Hämtar eller ställer in om författarens information dämpas från citatet. |
@@ -52,17 +54,17 @@ public class FieldCitation : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
-Infogar innehållet i **Källa** element med en angiven **Märka** element som använder en bibliografisk stil.
+Infogar innehållet i**Källa** element med en angiven**Märka** element som använder en bibliografisk stil.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

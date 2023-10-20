@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
-second_title: Aspose.Words för .NET API Referens
-description: IFieldMergingCallback metod. Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält.
+linktitle: ImageFieldMerging
+articleTitle: ImageFieldMerging
+second_title: Aspose.Words för .NET
+description: IFieldMergingCallback ImageFieldMerging metod. Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -14,7 +16,7 @@ Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett s
 public void ImageFieldMerging(ImageFieldMergingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -64,7 +66,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 * class [ImageFieldMergingArgs](../../imagefieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* namnutrymme [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

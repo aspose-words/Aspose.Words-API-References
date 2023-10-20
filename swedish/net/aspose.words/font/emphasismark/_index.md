@@ -1,7 +1,9 @@
 ---
 title: Font.EmphasisMark
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in betoningen som appliceras på denna formatering.
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words för .NET
+description: Font EmphasisMark fast egendom. Hämtar eller ställer in betoningen som appliceras på denna formatering i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/font/emphasismark/
@@ -14,7 +16,7 @@ Hämtar eller ställer in betoningen som appliceras på denna formatering.
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ytterligare tecken renderat ovanför/under tecknet.
 
@@ -37,7 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

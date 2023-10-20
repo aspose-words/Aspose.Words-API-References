@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Accept
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words.markup/structureddocumenttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för all underordnade noder för smarttaggen och anrop[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje strukturerad dokumenttagg i ett dokument.
 
@@ -121,7 +123,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

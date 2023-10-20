@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Aspose.Words för .NET API Referens
-description: IMailMergeDataSource metod. Aspose.Words kopplingsmotor anropar den här metoden när den stöter på början av en kapslad kopplingsregion.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words för .NET
+description: IMailMergeDataSource GetChildDataSource metod. Aspose.Words kopplingsmotor anropar den här metoden när den stöter på början av en kapslad kopplingsregion i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Ett datakällaobjekt som ger åtkomst till dataposterna i den angivna tabellen.
 
-### Anmärkningar
+## Anmärkningar
 
 När Aspose.Words kopplingsmotorer fyller en kopplingsregion med data och stöter på början av en nästlad kopplingsregion i form av MERGEFIELD TableStart:TableName, anropar den`GetChildDataSource` på datakällobjektet current . Din implementering måste returnera ett nytt datakällobjekt som ger åtkomst till child -posterna för den aktuella överordnade posten. Aspose.Words kommer att använda den returnerade datakällan för att fylla i den kapslade kopplingsregionen.
 
@@ -34,7 +36,7 @@ Om detta datakällobjekt inte har en relation till tabellen med det angivna namn
 
 Om en tabell med det angivna namnet inte finns, bör din implementering returneras`null` .
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med en datakälla i form av ett anpassat objekt.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Se även
 
 * interface [IMailMergeDataSource](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

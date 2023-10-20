@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.WebExtensionStoreType uppräkning. Räknar upp tillgängliga typer av en webbtilläggsbutik.
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.WebExtensionStoreType uppräkning. Räknar upp tillgängliga typer av en webbtilläggsbutik i C#.
 type: docs
 weight: 6820
 url: /sv/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Anger att butikstypen är centraliserad distribution via Exchange. |
 | Default | `0` | Standardvärde. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

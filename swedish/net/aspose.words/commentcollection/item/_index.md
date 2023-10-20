@@ -1,7 +1,9 @@
 ---
 title: CommentCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: CommentCollection fast egendom. Hämtar enComment vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: CommentCollection Item fast egendom. Hämtar enComment vid det givna indexet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/commentcollection/item/
@@ -18,7 +20,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort kommentarsvar.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* namnutrymme [Aspose.Words](../../commentcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

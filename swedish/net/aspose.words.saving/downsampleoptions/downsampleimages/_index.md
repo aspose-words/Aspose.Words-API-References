@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.DownsampleImages
-second_title: Aspose.Words för .NET API Referens
-description: DownsampleOptions fast egendom. Anger om bilder ska nedsamplas.
+linktitle: DownsampleImages
+articleTitle: DownsampleImages
+second_title: Aspose.Words för .NET
+description: DownsampleOptions DownsampleImages fast egendom. Anger om bilder ska nedsamplas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/downsampleoptions/downsampleimages/
@@ -14,11 +16,11 @@ Anger om bilder ska nedsamplas.
 public bool DownsampleImages { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann` .
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Se även
 
 * class [DownsampleOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../downsampleoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

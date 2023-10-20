@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera en indexpost och dess sidnummer.
+linktitle: PageNumberSeparator
+articleTitle: PageNumberSeparator
+second_title: Aspose.Words för .NET
+description: FieldIndex PageNumberSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera en indexpost och dess sidnummer i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/fieldindex/pagenumberseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera en inde
 public string PageNumberSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar sidnummeravgränsaren i ett INDEX-fält.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

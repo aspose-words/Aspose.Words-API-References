@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection metod. Tar bort en egenskap vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection RemoveAt metod. Tar bort en egenskap vid det angivna indexet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

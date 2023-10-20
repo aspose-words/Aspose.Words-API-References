@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Aspose.Words för .NET API Referens
-description: Comment byggare. Initierar en ny instans avComment class.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words för .NET
+description: Comment byggare. Initierar en ny instans avComment class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Initierar en ny instans av[`Comment`](../) class.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Comment`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`Comment`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill att kommentaren ska infogas.
+Att lägga till[`Comment`](../) till dokumentanvändningen[`InsertAfter`](../../compositenode/insertafter/) eller[`InsertBefore`](../../compositenode/insertbefore/) på stycket där du vill att kommentaren ska infogas.
 
 När du har skapat en kommentar, glöm inte att ställa in den[`Author`](../author/) , [`Initial`](../initial/) och[`DateTime`](../datetime/) egenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 Initierar en ny instans av[`Comment`](../) class.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | Författaren initialer för kommentaren. Kan inte vara`null`. |
 | dateTime | DateTime | Datum och tid för kommentaren. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en kommentar till ett stycke.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

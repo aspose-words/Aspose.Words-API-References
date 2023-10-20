@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Format
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Ger tillgång till fyllnings och radformatering av serien.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words för .NET
+description: ChartSeries Format fast egendom. Ger tillgång till fyllnings och radformatering av serien i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartseries/format/
@@ -14,7 +16,7 @@ Ger tillgång till fyllnings- och radformatering av serien.
 public ChartFormat Format { get; }
 ```
 
-### Exempel
+## Exempel
 
 Sågar hur man ställer in seriefärg.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SeriesColor.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

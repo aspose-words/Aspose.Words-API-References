@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooterCollection fast egendom. Hämtar enHeaderFooter vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: HeaderFooterCollection Item fast egendom. Hämtar enHeaderFooter vid det givna indexet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur du länkar sidhuvuden och sidfötter mellan avsnitt.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* namnutrymme [Aspose.Words](../../headerfootercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | A[`HeaderFooterType`](../../headerfootertype/) värde som anger typen av sidhuvud/sidfot som ska hämtas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om sidhuvudet/sidfoten av den angivna typen inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter text i ett dokuments sidfot.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* namnutrymme [Aspose.Words](../../headerfootercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

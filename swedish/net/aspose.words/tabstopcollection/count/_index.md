@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection fast egendom. Hämtar antalet tabbstopp i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: TabStopCollection Count fast egendom. Hämtar antalet tabbstopp i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet tabbstopp i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Se även
 
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

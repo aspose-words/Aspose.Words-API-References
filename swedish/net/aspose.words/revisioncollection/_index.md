@@ -1,7 +1,9 @@
 ---
-title: Class RevisionCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.RevisionCollection klass. En samling avRevision objekt som representerar revisioner i dokumentet.
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.RevisionCollection klass. En samling avRevision objekt som representerar revisioner i dokumentet i C#.
 type: docs
 weight: 4770
 url: /sv/net/aspose.words/revisioncollection/
@@ -32,11 +34,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | Avvisar alla revisioner i den här samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du skapar inte instanser av den här klassen direkt. Använd[`Revisions`](../document/revisions/) egenskap för att få revisioner närvarande i ett dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -121,5 +123,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IFieldDatabaseProvider.GetQueryResult
-second_title: Aspose.Words för .NET API Referens
-description: IFieldDatabaseProvider metod. Returnerar frågeresultat.
+linktitle: GetQueryResult
+articleTitle: GetQueryResult
+second_title: Aspose.Words för .NET
+description: IFieldDatabaseProvider GetQueryResult metod. Returnerar frågeresultat i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
@@ -31,7 +33,5 @@ De[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) instans som ska anv�
 * class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
 * class [FieldDatabase](../../fielddatabase/)
 * interface [IFieldDatabaseProvider](../)
-* namnutrymme [Aspose.Words.Fields](../../ifielddatabaseprovider/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

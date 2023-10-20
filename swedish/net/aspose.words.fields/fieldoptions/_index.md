@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldOptions klass. Representerar alternativ för att styra fälthantering i ett dokument.
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldOptions klass. Representerar alternativ för att styra fälthantering i ett dokument i C#.
 type: docs
 weight: 2250
 url: /sv/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Hämtar eller ställer in värdet som indikerar att talformatet tolkas med invariant kultur eller inte |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger källan till kulturen som används för datumformatering under en fältuppdatering eller e-postsammanfogning.
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

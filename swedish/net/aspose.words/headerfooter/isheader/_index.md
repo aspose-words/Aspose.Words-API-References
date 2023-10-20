@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. Sant om dettaHeaderFooter objektet är en header.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words för .NET
+description: HeaderFooter IsHeader fast egendom. Sant om dettaHeaderFooter objektet är en header i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ Sant om detta[`HeaderFooter`](../) objektet är en header.
 public bool IsHeader { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Se även
 
 * class [HeaderFooter](../)
-* namnutrymme [Aspose.Words](../../headerfooter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

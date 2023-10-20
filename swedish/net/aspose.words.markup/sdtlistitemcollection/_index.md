@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.SdtListItemCollection klass. Ger tillgång tillSdtListItem element i en strukturerad dokumenttagg.
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.SdtListItemCollection klass. Ger tillgång tillSdtListItem element i en strukturerad dokumenttagg i C#.
 type: docs
 weight: 4030
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Lägger till ett föremål i den här samlingen. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Lägger till ett föremål i den här samlingen. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Rensar alla objekt från den här samlingen. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Tar bort ett listobjekt vid det angivna indexet. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Tar bort ett listobjekt vid det angivna indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

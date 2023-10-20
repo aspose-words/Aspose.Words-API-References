@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Timeout
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureTimestampSettings fast egendom. Timeoutvärde för åtkomst av tidsstämpelserver.
+linktitle: Timeout
+articleTitle: Timeout
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureTimestampSettings Timeout fast egendom. Timeoutvärde för åtkomst av tidsstämpelserver i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -14,11 +16,11 @@ Timeout-värde för åtkomst av tidsstämpelserver.
 public TimeSpan Timeout { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 100 sekunder.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Se även
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

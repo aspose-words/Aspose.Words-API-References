@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty fast egendom. Returnerar namnet på egenskapen.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: DocumentProperty Name fast egendom. Returnerar namnet på egenskapen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.properties/documentproperty/name/
@@ -14,11 +16,11 @@ Returnerar namnet på egenskapen.
 public string Name { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null` och kan inte vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

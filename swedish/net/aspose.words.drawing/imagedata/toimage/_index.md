@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToImage
-second_title: Aspose.Words för .NET API Referens
-description: ImageData metod. Får bilden lagrad i formen som enImage objekt.
+linktitle: ToImage
+articleTitle: ToImage
+second_title: Aspose.Words för .NET
+description: ImageData ToImage metod. Får bilden lagrad i formen som enImage objekt i C#.
 type: docs
-weight: 230
+weight: 220
 url: /sv/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -14,13 +16,13 @@ Får bilden lagrad i formen som enImage objekt.
 public Image ToImage()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 En nyImage objekt skapas varje gång denna metod anropas.
 
 Det är uppringarens ansvar att kassera bildobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar alla bilder från ett dokument till filsystemet.
 
@@ -53,7 +55,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

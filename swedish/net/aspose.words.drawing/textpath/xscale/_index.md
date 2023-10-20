@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Aspose.Words för .NET API Referens
-description: TextPath fast egendom. Bestämmer om en rak textbana kommer att användas istället för formbanan.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words för .NET
+description: TextPath XScale fast egendom. Bestämmer om en rak textbana kommer att användas istället för formbanan i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ Bestämmer om en rak textbana kommer att användas istället för formbanan.
 public bool XScale { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
 Om`Sann`löper texten längs en bana från vänster till höger längs x-värdet för den nedre gränsen för formen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Se även
 
 * class [TextPath](../)
-* namnutrymme [Aspose.Words.Drawing](../../textpath/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

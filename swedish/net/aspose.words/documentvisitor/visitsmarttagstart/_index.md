@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSmartTagStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en smart tagg har börjat.
+linktitle: VisitSmartTagStart
+articleTitle: VisitSmartTagStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitSmartTagStart metod. Anropas när uppräkningen av en smart tagg har börjat i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/documentvisitor/visitsmarttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje smart tagg i ett dokument.
 
@@ -116,7 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

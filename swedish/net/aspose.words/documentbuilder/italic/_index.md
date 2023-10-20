@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Italic
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Sant om teckensnittet är formaterat som kursivt.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words för .NET
+description: DocumentBuilder Italic fast egendom. Sant om teckensnittet är formaterat som kursivt i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/documentbuilder/italic/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som kursivt.
 public bool Italic { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller MERGEFIELDs med data med en dokumentbyggare istället för en brevkoppling.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

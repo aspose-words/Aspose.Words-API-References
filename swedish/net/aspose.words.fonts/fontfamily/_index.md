@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontFamily uppräkning. Representerar teckensnittsfamiljen.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontFamily uppräkning. Representerar teckensnittsfamiljen i C#.
 type: docs
 weight: 2910
 url: /sv/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | Anger ett teckensnitt som är designat för att se ut som handstil; exempel inkluderar Script och Cursive. |
 | Decorative | `5` | Anger ett nyhetsteckensnitt. Ett exempel är Old English. |
 
-### Anmärkningar
+## Anmärkningar
 
 En teckensnittsfamilj är en uppsättning teckensnitt med gemensamma streckbredd och serif-egenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

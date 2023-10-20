@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: GeneralFormatCollection metod. Tar bort en allmän formatförekomst vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: GeneralFormatCollection RemoveAt metod. Tar bort en allmän formatförekomst vid det angivna indexet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/generalformatcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Se även
 
 * class [GeneralFormatCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../generalformatcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

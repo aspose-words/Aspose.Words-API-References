@@ -1,7 +1,9 @@
 ---
-title: Class InternableComplexAttr
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.InternableComplexAttr klass. Basklass för internt komplext attribut. Internt komplext attribut bör meddela föräldrasamlingen när det kommer att ändras.
+title: InternableComplexAttr Class
+linktitle: InternableComplexAttr
+articleTitle: InternableComplexAttr
+second_title: Aspose.Words för .NET
+description: Aspose.Words.InternableComplexAttr klass. Basklass för internt komplext attribut. Internt komplext attribut bör meddela föräldrasamlingen när det kommer att ändras i C#.
 type: docs
 weight: 3280
 url: /sv/net/aspose.words/internablecomplexattr/
@@ -20,5 +22,3 @@ public abstract class InternableComplexAttr
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

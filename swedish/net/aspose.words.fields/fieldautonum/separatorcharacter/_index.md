@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Aspose.Words för .NET API Referens
-description: FieldAutoNum fast egendom. Hämtar eller ställer in avgränsningstecknet som ska användas.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words för .NET
+description: FieldAutoNum SeparatorCharacter fast egendom. Hämtar eller ställer in avgränsningstecknet som ska användas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in avgränsningstecknet som ska användas.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man numrerar stycken med autonumeriska fält.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### Se även
 
 * class [FieldAutoNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldautonum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

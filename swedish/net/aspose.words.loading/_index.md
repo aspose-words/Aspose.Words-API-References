@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Loadingnamnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Loadingnamnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.loading/
 ---
-De **Aspose.Words.Loading**namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
+De**Aspose.Words.Loading**namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
 
 ## Klasser
 
@@ -39,5 +41,3 @@ De **Aspose.Words.Loading**namnområdet tillhandahåller klasser och uppräkning
 | [ResourceType](./resourcetype/) | Typ av laddad resurs. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Anger tillgängliga alternativ för ledande utrymmeshantering under import frånText fil. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Anger tillgängliga alternativ för hantering av efterföljande utrymmen under import frånText fil. |
-
-

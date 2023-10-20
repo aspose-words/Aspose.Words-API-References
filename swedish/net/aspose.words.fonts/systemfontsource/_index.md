@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.SystemFontSource klass. Representerar alla TrueTypeteckensnitt som är installerade i systemet.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.SystemFontSource klass. Representerar alla TrueTypeteckensnitt som är installerade i systemet i C#.
 type: docs
 weight: 3050
 url: /sv/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | namn | Beskrivning |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Ctor. |
 
 ## Egenskaper
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Returnerar systemfontmappar eller tom array om mappar inte är tillgängliga. |
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

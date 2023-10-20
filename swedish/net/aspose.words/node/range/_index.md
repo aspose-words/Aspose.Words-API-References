@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Returnerar enRange objekt som representerar den del av ett dokument som finns i denna nod.
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words för .NET
+description: Node Range fast egendom. Returnerar enRange objekt som representerar den del av ett dokument som finns i denna nod i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ Returnerar en[`Range`](../../range/) objekt som representerar den del av ett dok
 public Range Range { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla noder från ett område.
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

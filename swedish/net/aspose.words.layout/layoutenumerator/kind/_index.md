@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator fast egendom. Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrignull .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator Kind fast egendom. Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrignull  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrig`
 public string Kind { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en mer specifik typ av den aktuella enheten, t.ex. bokmärkesspann harSpan typ and kan ha antingen typen BOOKMARKSTART eller BOOKMARKEND.
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

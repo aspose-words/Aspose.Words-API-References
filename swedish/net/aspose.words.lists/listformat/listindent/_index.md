@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListIndent
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat metod. Ökar listnivån för det aktuella stycket med en nivå.
+linktitle: ListIndent
+articleTitle: ListIndent
+second_title: Aspose.Words för .NET
+description: ListFormat ListIndent metod. Ökar listnivån för det aktuella stycket med en nivå i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.lists/listformat/listindent/
@@ -14,13 +16,13 @@ url: /sv/net/aspose.words.lists/listformat/listindent/
 public void ListIndent()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden ändrar listnivån och tillämpar formateringsegenskaper för den nya nivån.
 
 Word-dokument kan listor bestå av upp till nio nivåer. Listformatering för varje nivå anger vilken kula eller nummer som används, vänster indrag, mellanslag mellan kulan och texten etc.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar punktlistor och numrerade listor.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Se även
 
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

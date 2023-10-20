@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Aspose.Words för .NET API Referens
-description: FolderFontSource fast egendom. Sökväg till mappen.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words för .NET
+description: FolderFontSource FolderPath fast egendom. Sökväg till mappen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ Sökväg till mappen.
 public string FolderPath { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en lokal systemmapp som innehåller teckensnitt som teckensnittskälla.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Se även
 
 * class [FolderFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../folderfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

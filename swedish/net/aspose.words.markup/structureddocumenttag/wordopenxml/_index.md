@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXML
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag WordOpenXML fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words.markup/structureddocumenttag/wordopenxml/
@@ -14,7 +16,7 @@ Får en sträng som representerar XML som finns i noden iFlatOpc format.
 public string WordOpenXML { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får XML i noden i FlatOpc-formatet.
 
@@ -32,7 +34,5 @@ Assert.True(tags[0].WordOpenXML
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

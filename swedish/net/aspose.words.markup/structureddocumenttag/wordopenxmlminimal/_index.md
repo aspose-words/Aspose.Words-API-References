@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXMLMinimal
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format. Till skillnad frånWordOpenXMLegenskapen genererar den här metoden ett avskalat dokument som exkluderar alla delar som inte är innehållsrelaterade.
+linktitle: WordOpenXMLMinimal
+articleTitle: WordOpenXMLMinimal
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag WordOpenXMLMinimal fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format. Till skillnad frånWordOpenXMLegenskapen genererar den här metoden ett avskalat dokument som exkluderar alla delar som inte är innehållsrelaterade i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
@@ -14,7 +16,7 @@ Får en sträng som representerar XML som finns i noden iFlatOpc format. Till sk
 public string WordOpenXMLMinimal { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med stilar för innehållskontrollelement.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

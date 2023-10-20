@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar det sista avsnittet i dokumentet.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words för .NET
+description: Document LastSection fast egendom. Hämtar det sista avsnittet i dokumentet i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ Hämtar det sista avsnittet i dokumentet.
 public Section LastSection { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om det inte finns några avsnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en ny sektion med en dokumentbyggare.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

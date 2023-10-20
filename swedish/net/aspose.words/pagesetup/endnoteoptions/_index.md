@@ -1,7 +1,9 @@
 ---
 title: PageSetup.EndnoteOptions
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Ger alternativ som styr numrering och placering av slutnoter i det här avsnittet.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words för .NET
+description: PageSetup EndnoteOptions fast egendom. Ger alternativ som styr numrering och placering av slutnoter i det här avsnittet i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/pagesetup/endnoteoptions/
@@ -14,7 +16,7 @@ Ger alternativ som styr numrering och placering av slutnoter i det här avsnitte
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar alternativ som påverkar fotnoter/slutnoter i ett avsnitt.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

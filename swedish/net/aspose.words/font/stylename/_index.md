@@ -1,7 +1,9 @@
 ---
 title: Font.StyleName
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in namnet på teckenstilen som tillämpas på denna formatering.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words för .NET
+description: Font StyleName fast egendom. Hämtar eller ställer in namnet på teckenstilen som tillämpas på denna formatering i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/font/stylename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på teckenstilen som tillämpas på denna forma
 public string StyleName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar stilen på befintlig text.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

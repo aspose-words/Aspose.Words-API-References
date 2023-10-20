@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar färgen på ett streck.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: Stroke Color fast egendom. Definierar färgen på ett streck i C#.
 type: docs
-weight: 30
+weight: 20
 url: /sv/net/aspose.words.drawing/stroke/color/
 ---
 ## Stroke.Color property
@@ -14,11 +16,11 @@ Definierar färgen på ett streck.
 public Color Color { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är Black.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

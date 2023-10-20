@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFormField
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när ett formulärfält påträffas i dokumentet.
+linktitle: VisitFormField
+articleTitle: VisitFormField
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitFormField metod. Anropas när ett formulärfält påträffas i dokumentet i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/documentvisitor/visitformfield/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
@@ -220,7 +222,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

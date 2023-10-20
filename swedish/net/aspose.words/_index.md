@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words namnrymden tillhandahåller klasser för att generera konvertera modifiera rendera och skriva ut Microsoft Worddokument utan att använda Microsoft Word.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words för .NET
+description: DeAspose.Words namnrymden tillhandahåller klasser för att generera konvertera modifiera rendera och skriva ut Microsoft Worddokument utan att använda Microsoft Word i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/
 ---
-De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konvertera, modifiera, rendera och skriva ut Microsoft Word-dokument utan att använda Microsoft Word.
+De**Aspose.Words** namnrymden tillhandahåller klasser för att generera, konvertera, modifiera, rendera och skriva ut Microsoft Word-dokument utan att använda Microsoft Word.
 
 ## Klasser
 
@@ -82,7 +84,7 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [Story](./story/) | Basklass för element som innehåller noder på blocknivå[`Paragraph`](../aspose.words/paragraph/) och[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Representerar en enda inbyggd eller användardefinierad stil. |
 | [StyleCollection](./stylecollection/) | En samling av[`Style`](../aspose.words/style/) objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument. |
-| [SubDocument](./subdocument/) | Representerar en **Underdokument** - som är en referens till ett externt lagrat dokument. |
+| [SubDocument](./subdocument/) | Representerar en**Underdokument** - som är en referens till ett externt lagrat dokument. |
 | [TableStyle](./tablestyle/) | Representerar en tabellstil. |
 | [TabStop](./tabstop/) | Representerar ett enda anpassat tabbstopp. De[`TabStop`](../aspose.words/tabstop/)objektet är en medlem av the [`TabStopCollection`](../aspose.words/tabstopcollection/) samling. |
 | [TabStopCollection](./tabstopcollection/) | En samling av[`TabStop`](../aspose.words/tabstop/) objekt som representerar anpassade flikar för ett stycke eller en stil. |
@@ -159,5 +161,3 @@ De **Aspose.Words** namnrymden tillhandahåller klasser för att generera, konve
 | [WarningType](./warningtype/) | Anger typen av varning som utfärdas av Aspose.Words under dokumentladdning eller sparande. |
 | [WatermarkLayout](./watermarklayout/) | Definierar layouten för vattenstämpeln i förhållande till vattenstämpelns centrum. |
 | [WatermarkType](./watermarktype/) | Anger vattenstämpeltypen. |
-
-

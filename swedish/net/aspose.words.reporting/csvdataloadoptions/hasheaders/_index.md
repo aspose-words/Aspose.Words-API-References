@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.HasHeaders
-second_title: Aspose.Words för .NET API Referens
-description: CsvDataLoadOptions fast egendom. Hämtar eller ställer in ett värde som anger om den första posten med CSVdata innehåller kolumnnamn.
+linktitle: HasHeaders
+articleTitle: HasHeaders
+second_title: Aspose.Words för .NET
+description: CsvDataLoadOptions HasHeaders fast egendom. Hämtar eller ställer in ett värde som anger om den första posten med CSVdata innehåller kolumnnamn i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.reporting/csvdataloadoptions/hasheaders/
@@ -14,14 +16,12 @@ Hämtar eller ställer in ett värde som anger om den första posten med CSV-dat
 public bool HasHeaders { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` .
 
 ### Se även
 
 * class [CsvDataLoadOptions](../)
-* namnutrymme [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

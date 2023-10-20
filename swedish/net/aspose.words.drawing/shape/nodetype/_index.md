@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. ReturnerarShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Shape NodeType fast egendom. ReturnerarShape  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ ReturnerarShape .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

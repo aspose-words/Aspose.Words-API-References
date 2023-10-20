@@ -1,7 +1,9 @@
 ---
 title: Document.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. ReturnerarDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Document NodeType fast egendom. ReturnerarDocument  i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/document/nodetype/
@@ -14,7 +16,7 @@ ReturnerarDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

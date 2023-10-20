@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: SmartTag fast egendom. ReturnerarSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: SmartTag NodeType fast egendom. ReturnerarSmartTag  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ ReturnerarSmartTag .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* namnutrymme [Aspose.Words.Markup](../../smarttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

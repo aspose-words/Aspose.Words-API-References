@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.KeepPageStreamOpen
-second_title: Aspose.Words för .NET API Referens
-description: PageSavingArgs fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en dokumentsida har sparats.
+linktitle: KeepPageStreamOpen
+articleTitle: KeepPageStreamOpen
+second_title: Aspose.Words för .NET
+description: PageSavingArgs KeepPageStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en dokumentsida har sparats i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -14,11 +16,11 @@ Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`PageStream`](../pagestream/) egenskap efter att ha skrivit en dokumentsida i den. Specificera`Sann` för att hålla strömmen öppen.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Se även
 
 * class [PageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../pagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

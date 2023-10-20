@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Aspose.Words för .NET API Referens
-description: TxtLoadOptions fast egendom. Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet ärSann.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words för .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces fast egendom. Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet ärSann i C#.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokume
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det här alternativet är inställt på`falsk`, listigenkänningsalgoritm upptäcker liststycken, när listnummer slutar med antingen punkt-, högerparentes eller punktsymboler (som "•", "*", "-" eller "o").
 
 Om det här alternativet är inställt på`Sann`blanksteg används också som listnummeravgränsare: listigenkänningsalgoritm för numrering i arabisk stil (1., 1.1.2.) använder både blanksteg och punktsymboler (".").
 
-### Exempel
+## Exempel
 
 Visar hur man upptäcker listor vid inläsning av klartextdokument.
 
@@ -74,7 +76,5 @@ else
 ### Se även
 
 * class [TxtLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../txtloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

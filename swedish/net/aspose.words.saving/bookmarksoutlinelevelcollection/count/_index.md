@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

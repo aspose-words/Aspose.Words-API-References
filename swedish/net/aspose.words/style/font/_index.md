@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar teckenformateringen för stilen.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: Style Font fast egendom. Hämtar teckenformateringen för stilen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ Hämtar teckenformateringen för stilen.
 public Font Font { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För liststilar returnerar den här egenskapen`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar och använder ett styckeformat med listformatering.
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

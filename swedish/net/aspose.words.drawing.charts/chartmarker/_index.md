@@ -1,7 +1,9 @@
 ---
-title: Class ChartMarker
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartMarker klass. Representerar en diagramdatamarkör.
+title: ChartMarker Class
+linktitle: ChartMarker
+articleTitle: ChartMarker
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartMarker klass. Representerar en diagramdatamarkör i C#.
 type: docs
 weight: 750
 url: /sv/net/aspose.words.drawing.charts/chartmarker/
@@ -24,7 +26,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Hämtar eller ställer in diagrammarkörens storlek. Standardvärdet är 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Hämtar eller ställer in diagrammarkörsymbol. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -87,5 +89,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

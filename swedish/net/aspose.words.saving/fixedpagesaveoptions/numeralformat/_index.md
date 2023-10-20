@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.NumeralFormat
-second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Hämtar eller sätterNumeralFormat används för återgivning av siffror. Europeiska siffror används som standard.
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words för .NET
+description: FixedPageSaveOptions NumeralFormat fast egendom. Hämtar eller sätterNumeralFormat används för återgivning av siffror. Europeiska siffror används som standard i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
@@ -14,11 +16,11 @@ Hämtar eller sätter[`NumeralFormat`](../../numeralformat/) används för åter
 public NumeralFormat NumeralFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om värdet på den här egenskapen ändras och sidlayouten redan är byggd då [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) anropas automatiskt för att uppdatera eventuella ändringar.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in det sifferformat som används när du sparar till PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * enum [NumeralFormat](../../numeralformat/)
 * class [FixedPageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

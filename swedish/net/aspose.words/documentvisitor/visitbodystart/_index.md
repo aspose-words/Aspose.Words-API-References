@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBodyStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av huvudtextberättelsen i ett avsnitt har börjat.
+linktitle: VisitBodyStart
+articleTitle: VisitBodyStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitBodyStart metod. Anropas när uppräkningen av huvudtextberättelsen i ett avsnitt har börjat i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/documentvisitor/visitbodystart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBodyStart(Body body)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbesökare för att skriva ut ett dokuments nodstruktur.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Body](../../body/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en strukturerad dokumenttagg har avslutats.
+linktitle: VisitStructuredDocumentTagEnd
+articleTitle: VisitStructuredDocumentTagEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitStructuredDocumentTagEnd metod. Anropas när uppräkningen av en strukturerad dokumenttagg har avslutats i C#.
 type: docs
 weight: 440
 url: /sv/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje strukturerad dokumenttagg i ett dokument.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

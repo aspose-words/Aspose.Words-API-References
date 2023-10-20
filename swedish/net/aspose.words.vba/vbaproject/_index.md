@@ -1,7 +1,9 @@
 ---
-title: Class VbaProject
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Vba.VbaProject klass. Ger tillgång till VBAprojektinformation. Ett VBAprojekt inuti dokumentet definieras som en samling VBAmoduler.
+title: VbaProject Class
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Vba.VbaProject klass. Ger tillgång till VBAprojektinformation. Ett VBAprojekt inuti dokumentet definieras som en samling VBAmoduler i C#.
 type: docs
 weight: 6580
 url: /sv/net/aspose.words.vba/vbaproject/
@@ -38,7 +40,7 @@ public class VbaProject
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbaproject/clone/)() | Utför en kopia av`VbaProject` . |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -70,5 +72,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * namnutrymme [Aspose.Words.Vba](../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../)
-
-

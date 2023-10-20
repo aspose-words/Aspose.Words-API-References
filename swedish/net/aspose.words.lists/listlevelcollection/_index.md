@@ -1,7 +1,9 @@
 ---
-title: Class ListLevelCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListLevelCollection klass. En samling listformatering för varje nivå i en lista.
+title: ListLevelCollection Class
+linktitle: ListLevelCollection
+articleTitle: ListLevelCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListLevelCollection klass. En samling listformatering för varje nivå i en lista i C#.
 type: docs
 weight: 3520
 url: /sv/net/aspose.words.lists/listlevelcollection/
@@ -29,7 +31,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Hämtar uppräkningsobjektet som kommer att räkna upp nivåer i den här listan. |
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -146,5 +148,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 * class [ListLevel](../listlevel/)
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

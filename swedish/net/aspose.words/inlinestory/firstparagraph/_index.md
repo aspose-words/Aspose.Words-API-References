@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Får första stycket i berättelsen.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words för .NET
+description: InlineStory FirstParagraph fast egendom. Får första stycket i berättelsen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ Får första stycket i berättelsen.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en kommentar till ett stycke.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

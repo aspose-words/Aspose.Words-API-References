@@ -1,7 +1,9 @@
 ---
-title: Class OlePackage
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.OlePackage klass. Ger åtkomst till OLEpaketets egenskaper.
+title: OlePackage Class
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.OlePackage klass. Ger åtkomst till OLEpaketets egenskaper i C#.
 type: docs
 weight: 1160
 url: /sv/net/aspose.words.drawing/olepackage/
@@ -23,11 +25,11 @@ public class OlePackage
 | [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Hämtar eller ställer in OLE-paketets visningsnamn. |
 | [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Hämtar eller ställer in OLE-paketets filnamn. |
 
-### Anmärkningar
+## Anmärkningar
 
 OLE-paketet är ett äldre och "odokumenterat" sätt att lagra inbäddade objekt om OLE-hanteraren är okänd. Tidiga Windows-versioner som Windows 3.1, 95 och 98 hade Packager.exe-applikationen som kunde användas för att bädda in alla typer av data i dokument . Nu är den här applikationen utesluten från Windows men MS Word och andra applikationer använder den fortfarande för att bädda in data om OLE-hanteraren saknas eller är okänd.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett OLE-objekt i ett dokument.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

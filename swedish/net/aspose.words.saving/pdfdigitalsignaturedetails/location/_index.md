@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureDetails fast egendom. Hämtar eller ställer in platsen för signeringen.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureDetails Location fast egendom. Hämtar eller ställer in platsen för signeringen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ Hämtar eller ställer in platsen för signeringen.
 public string Location { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null` .
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Se även
 
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

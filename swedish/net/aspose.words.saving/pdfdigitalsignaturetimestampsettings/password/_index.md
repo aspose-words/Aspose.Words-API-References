@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Password
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureTimestampSettings fast egendom. Lösenord för tidsstämpelserver.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureTimestampSettings Password fast egendom. Lösenord för tidsstämpelserver i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
@@ -14,11 +16,11 @@ Lösenord för tidsstämpelserver.
 public string Password { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null` .
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Se även
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

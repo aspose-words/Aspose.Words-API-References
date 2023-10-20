@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Understryka följande tecken efter numrering.
+linktitle: UnderlineTabInNumList
+articleTitle: UnderlineTabInNumList
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UnderlineTabInNumList fast egendom. Understryka följande tecken efter numrering i C#.
 type: docs
 weight: 590
 url: /sv/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
@@ -17,7 +19,5 @@ public bool UnderlineTabInNumList { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

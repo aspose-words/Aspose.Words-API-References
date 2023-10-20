@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Aspose.Words för .NET API Referens
-description: CertificateHolder metod. SkaparCertificateHolder objekt som använder bytearrayen i PKCS12arkivet och dess lösenord.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words för .NET
+description: CertificateHolder Create metod. SkaparCertificateHolder objekt som använder bytearrayen i PKCS12arkivet och dess lösenord i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 Skapar[`CertificateHolder`](../) objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord.
 
@@ -32,7 +34,7 @@ Ett exempel på[`CertificateHolder`](../)
 | SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
 | IOException | Kastas om det finns fel lösenord eller skadad fil. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar CertificateHolder-objekt.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Se även
 
 * class [CertificateHolder](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 Skapar[`CertificateHolder`](../) objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord.
 
@@ -108,7 +110,7 @@ Ett exempel på[`CertificateHolder`](../)
 | SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
 | IOException | Kastas om det finns fel lösenord eller skadad fil. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar CertificateHolder-objekt.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Se även
 
 * class [CertificateHolder](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 Skapar[`CertificateHolder`](../) objekt som använder sökvägen till PKCS12-butiken och dess lösenord.
 
@@ -184,7 +186,7 @@ Ett exempel på[`CertificateHolder`](../)
 | SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
 | IOException | Kastas om det finns fel lösenord eller skadad fil. |
 
-### Exempel
+## Exempel
 
 Visar hur man digitalt signerar dokument.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Se även
 
 * class [CertificateHolder](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 Skapar[`CertificateHolder`](../) objekt som använder sökvägen till PKCS12-arkivet, dess lösenord och alias genom att använda vilken privat nyckel och certifikat som kommer att hittas.
 
@@ -246,7 +248,7 @@ Ett exempel på[`CertificateHolder`](../)
 | IOException | Kastas om det finns fel lösenord eller skadad fil. |
 | SecurityException | Kastas om det inte finns någon privat nyckel med det givna aliaset |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar CertificateHolder-objekt.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Se även
 
 * class [CertificateHolder](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

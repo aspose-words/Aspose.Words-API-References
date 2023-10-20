@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageFileName
-second_title: Aspose.Words för .NET API Referens
-description: ImageSavingArgs fast egendom. Hämtar eller ställer in filnamnet utan sökväg där bilden ska sparas.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words för .NET
+description: ImageSavingArgs ImageFileName fast egendom. Hämtar eller ställer in filnamnet utan sökväg där bilden ska sparas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/imagesavingargs/imagefilename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in filnamnet (utan sökväg) där bilden ska sparas.
 public string ImageFileName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig omdefiniera hur bildfilsnamnen genereras under export till HTML.
 
@@ -28,7 +30,7 @@ När du sparar ett dokument i en ström ser det genererade bildfilnamnet ut som 
 
 `ImageFileName` måste endast innehålla filnamnet utan sökvägen. Aspose.Words bestämmer sökvägen för att spara och värdet på`src` attribut för att skriva till HTML med dokumentets filnamn, the[`ImagesFolder`](../../htmlsaveoptions/imagesfolder/) och [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias/) egenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -145,7 +147,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Se även
 
 * class [ImageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

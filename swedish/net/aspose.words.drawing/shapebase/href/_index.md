@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in den fullständiga hyperlänkadressen för en form.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words för .NET
+description: ShapeBase HRef fast egendom. Hämtar eller ställer in den fullständiga hyperlänkadressen för en form i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den fullständiga hyperlänkadressen för en form.
 public string HRef { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
@@ -32,7 +34,7 @@ Bokmärk i ett annat dokument:`https://www.aspose.com/Products/Default.aspx#Suit
 
 Bokmärk i detta dokument:`#BookmakName`.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en form som innehåller en bild och är också en hyperlänk.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

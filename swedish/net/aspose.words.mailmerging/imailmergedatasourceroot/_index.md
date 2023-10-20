@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla med huvuddetaljdata.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla med huvuddetaljdata i C#.
 type: docs
 weight: 3820
 url: /sv/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Aspose.Words kopplingsmotor använder den här metoden när den stöter på början av en kopplingsregion på toppnivå. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Aspose.Words kopplingsmotor använder den här metoden när den stöter på början av en kopplingsregion på toppnivå. |
 
-### Exempel
+## Exempel
 
 Utför sammanslagning från en anpassad datakälla med huvuddetaljdata.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

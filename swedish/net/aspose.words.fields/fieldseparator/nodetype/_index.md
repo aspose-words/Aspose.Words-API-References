@@ -1,7 +1,9 @@
 ---
 title: FieldSeparator.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeparator fast egendom. ReturnerarFieldSeparator .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: FieldSeparator NodeType fast egendom. ReturnerarFieldSeparator  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldseparator/nodetype/
@@ -14,7 +16,7 @@ ReturnerarFieldSeparator .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldSeparator](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseparator/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. ReturnerarDocument objekt för vilket sammanslagningen utförs.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase Document fast egendom. ReturnerarDocument objekt för vilket sammanslagningen utförs i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ Returnerar`Document` objekt för vilket sammanslagningen utförs.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

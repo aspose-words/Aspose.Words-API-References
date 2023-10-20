@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.WebExtensionsnamespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XMLvokabulären för att representera Officetillägg.
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.WebExtensionsnamespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XMLvokabulären för att representera Officetillägg i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.webextensions/
 ---
-De **Aspose.Words.WebExtensions**namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XML-vokabulären för att representera Office-tillägg.
+De**Aspose.Words.WebExtensions**namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XML-vokabulären för att representera Office-tillägg.
 
 ## Klasser
 
@@ -29,5 +31,3 @@ De **Aspose.Words.WebExtensions**namespace tillhandahåller klasser som gör det
 | [TaskPaneDockState](./taskpanedockstate/) | Räknar upp tillgängliga platser för objekt i aktivitetsrutan. |
 | [WebExtensionBindingType](./webextensionbindingtype/) | Räknar upp tillgängliga typer av bindning mellan ett webbtillägg och data i dokumentet. |
 | [WebExtensionStoreType](./webextensionstoretype/) | Räknar upp tillgängliga typer av en webbtilläggsbutik. |
-
-

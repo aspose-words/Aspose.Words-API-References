@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.TextBox klass. Definierar attribut som anger hur en text visas inuti en form.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.TextBox klass. Definierar attribut som anger hur en text visas inuti en form i C#.
 type: docs
 weight: 1320
 url: /sv/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | namn | Beskrivning |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Bryter länken till nästa`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Avgör om detta`TextBox` kan kopplas till målet`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Avgör om detta`TextBox` kan kopplas till målet`TextBox` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`TextBox`](../shape/textbox/) egenskap för att komma åt textegenskaper för en form. Du skapar inte instanser av`TextBox` klass direkt.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in interna marginaler för en textruta.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

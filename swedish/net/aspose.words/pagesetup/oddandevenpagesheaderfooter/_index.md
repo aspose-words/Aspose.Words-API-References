@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words för .NET
+description: PageSetup OddAndEvenPagesHeaderFooter fast egendom. Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sido
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Obs, att ändra den här egenskapen påverkar alla avsnitt i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

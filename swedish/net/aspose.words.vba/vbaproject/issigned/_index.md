@@ -1,7 +1,9 @@
 ---
 title: VbaProject.IsSigned
-second_title: Aspose.Words för .NET API Referens
-description: VbaProject fast egendom. Visar omVbaProject är signerad eller inte.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words för .NET
+description: VbaProject IsSigned fast egendom. Visar omVbaProject är signerad eller inte i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.vba/vbaproject/issigned/
@@ -14,7 +16,7 @@ Visar om[`VbaProject`](../) är signerad eller inte.
 public bool IsSigned { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Se även
 
 * class [VbaProject](../)
-* namnutrymme [Aspose.Words.Vba](../../vbaproject/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

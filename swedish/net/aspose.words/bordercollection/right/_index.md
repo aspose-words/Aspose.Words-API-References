@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Right
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Får rätt kant.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words för .NET
+description: BorderCollection Right fast egendom. Får rätt kant i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/bordercollection/right/
@@ -14,7 +16,7 @@ Får rätt kant.
 public Border Right { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar kant- och skuggfärg när man bygger ett bord.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

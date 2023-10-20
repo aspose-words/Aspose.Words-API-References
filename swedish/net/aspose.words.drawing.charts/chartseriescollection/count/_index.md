@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeriesCollection fast egendom. Returnerar antaletChartSeries i den här samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ChartSeriesCollection Count fast egendom. Returnerar antaletChartSeries i den här samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet[`ChartSeries`](../../chartseries/) i den här samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort seriedata i ett diagram.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Se även
 
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

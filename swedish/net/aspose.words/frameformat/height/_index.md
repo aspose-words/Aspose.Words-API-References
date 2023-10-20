@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Height
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Hämtar höjden på den angivna ramen.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words för .NET
+description: FrameFormat Height fast egendom. Hämtar höjden på den angivna ramen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/frameformat/height/
@@ -14,7 +16,7 @@ Hämtar höjden på den angivna ramen.
 public double Height { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Se även
 
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

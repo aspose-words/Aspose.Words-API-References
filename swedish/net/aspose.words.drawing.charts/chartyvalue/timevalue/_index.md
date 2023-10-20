@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.TimeValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartYValue fast egendom. Hämtar det lagrade tidsvärdet.
+linktitle: TimeValue
+articleTitle: TimeValue
+second_title: Aspose.Words för .NET
+description: ChartYValue TimeValue fast egendom. Hämtar det lagrade tidsvärdet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/timevalue/
@@ -17,7 +19,5 @@ public TimeSpan TimeValue { get; }
 ### Se även
 
 * class [ChartYValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

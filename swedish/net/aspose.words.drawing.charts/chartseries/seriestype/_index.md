@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.SeriesType
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Hämtar typen av denna diagramserie.
+linktitle: SeriesType
+articleTitle: SeriesType
+second_title: Aspose.Words för .NET
+description: ChartSeries SeriesType fast egendom. Hämtar typen av denna diagramserie i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -14,7 +16,7 @@ Hämtar typen av denna diagramserie.
 public ChartSeriesType SeriesType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * enum [ChartSeriesType](../../chartseriestype/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

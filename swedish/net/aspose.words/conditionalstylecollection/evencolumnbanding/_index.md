@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenColumnBanding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Får den jämna kolumnbandsstilen.
+linktitle: EvenColumnBanding
+articleTitle: EvenColumnBanding
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection EvenColumnBanding fast egendom. Får den jämna kolumnbandsstilen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/conditionalstylecollection/evencolumnbanding/
@@ -14,7 +16,7 @@ Får den jämna kolumnbandsstilen.
 public ConditionalStyle EvenColumnBanding { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

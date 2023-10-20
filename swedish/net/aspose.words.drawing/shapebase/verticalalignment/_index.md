@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.VerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger hur formen är placerad vertikalt.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words för .NET
+description: ShapeBase VerticalAlignment fast egendom. Anger hur formen är placerad vertikalt i C#.
 type: docs
 weight: 560
 url: /sv/net/aspose.words.drawing/shapebase/verticalalignment/
@@ -14,13 +16,13 @@ Anger hur formen är placerad vertikalt.
 public VerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone.
 
 Har effekt endast för svävande former på toppnivå.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [VerticalAlignment](../../verticalalignment/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

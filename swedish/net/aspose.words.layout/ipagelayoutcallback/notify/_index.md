@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Aspose.Words för .NET API Referens
-description: IPageLayoutCallback metod. Detta anropas för att meddela om layoutens framsteg och rendering.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words för .NET
+description: IPageLayoutCallback Notify metod. Detta anropas för att meddela om layoutens framsteg och rendering i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | Ett argument för händelsen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Undantag när det kastas av implementering avbryter layoutbyggprocessen.
 
-### Exempel
+## Exempel
 
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* namnutrymme [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

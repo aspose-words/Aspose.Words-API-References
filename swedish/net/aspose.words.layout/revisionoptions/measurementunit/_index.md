@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MeasurementUnit
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Gör det möjligt att ange måttenheter för revisionskommentarer. Standardvärdet ärCentimeters
+linktitle: MeasurementUnit
+articleTitle: MeasurementUnit
+second_title: Aspose.Words för .NET
+description: RevisionOptions MeasurementUnit fast egendom. Gör det möjligt att ange måttenheter för revisionskommentarer. Standardvärdet ärCentimeters i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.layout/revisionoptions/measurementunit/
@@ -18,7 +20,5 @@ public MeasurementUnits MeasurementUnit { get; set; }
 
 * enum [MeasurementUnits](../../../aspose.words/measurementunits/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

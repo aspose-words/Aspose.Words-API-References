@@ -1,12 +1,14 @@
 ---
 title: PageInfo.GetSizeInPixels
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo metod. Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words för .NET
+description: PageInfo GetSizeInPixels metod. Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -26,12 +28,12 @@ Storleken på sidan i pixlar.
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -49,7 +51,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 Storleken på sidan i pixlar.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -91,7 +93,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

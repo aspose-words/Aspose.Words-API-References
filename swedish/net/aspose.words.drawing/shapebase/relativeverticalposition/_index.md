@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger i förhållande till vad formen är placerad vertikalt.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words för .NET
+description: ShapeBase RelativeVerticalPosition fast egendom. Anger i förhållande till vad formen är placerad vertikalt i C#.
 type: docs
 weight: 440
 url: /sv/net/aspose.words.drawing/shapebase/relativeverticalposition/
@@ -14,13 +16,13 @@ Anger i förhållande till vad formen är placerad vertikalt.
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärParagraph.
 
 Har effekt endast för svävande former på toppnivå.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

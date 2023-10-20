@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFormatting
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. True indikerar att formatering ignoreras. Som standard ignoreras inte dokumentformatering.
+linktitle: IgnoreFormatting
+articleTitle: IgnoreFormatting
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreFormatting fast egendom. True indikerar att formatering ignoreras. Som standard ignoreras inte dokumentformatering i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.comparing/compareoptions/ignoreformatting/
@@ -14,7 +16,7 @@ True indikerar att formatering ignoreras. Som standard ignoreras inte dokumentfo
 public bool IgnoreFormatting { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

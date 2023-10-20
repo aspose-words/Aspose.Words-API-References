@@ -1,7 +1,9 @@
 ---
-title: CustomXmlPart.CustomXmlPart
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPart byggare. Default_Constructor
+title: CustomXmlPart
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words för .NET
+description: CustomXmlPart byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/customxmlpart/customxmlpart/
@@ -17,7 +19,5 @@ public CustomXmlPart()
 ### Se även
 
 * class [CustomXmlPart](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

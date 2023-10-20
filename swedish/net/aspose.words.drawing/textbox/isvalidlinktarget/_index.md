@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words för .NET API Referens
-description: TextBox metod. Avgör om dettaTextBox kan kopplas till måletTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words för .NET
+description: TextBox IsValidLinkTarget metod. Avgör om dettaTextBox kan kopplas till måletTextBox  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ Avgör om detta[`TextBox`](../) kan kopplas till målet[`TextBox`](../) .
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man länkar textrutor.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Se även
 
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

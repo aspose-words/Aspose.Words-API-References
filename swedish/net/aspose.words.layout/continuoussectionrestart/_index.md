@@ -1,7 +1,9 @@
 ---
-title: Enum ContinuousSectionRestart
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.ContinuousSectionRestart uppräkning. Representerar olika beteenden vid beräkning av sidnummer i ett kontinuerligt avsnitt som startar om sidnumreringen.
+title: ContinuousSectionRestart Enum
+linktitle: ContinuousSectionRestart
+articleTitle: ContinuousSectionRestart
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.ContinuousSectionRestart uppräkning. Representerar olika beteenden vid beräkning av sidnummer i ett kontinuerligt avsnitt som startar om sidnumreringen i C#.
 type: docs
 weight: 3300
 url: /sv/net/aspose.words.layout/continuoussectionrestart/
@@ -21,7 +23,7 @@ public enum ContinuousSectionRestart
 | Always | `0` | Sidnumrering startar alltid om oavsett innehållsflöde. |
 | FromNewPageOnly | `1` | Sidnumrering startar om endast om det inte finns något annat innehåll före avsnittet på sidan där avsnittet börjar. |
 
-### Exempel
+## Exempel
 
 Visar hur man styr sidnumreringen i ett kontinuerligt avsnitt.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

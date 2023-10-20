@@ -1,7 +1,9 @@
 ---
-title: Enum EmfPlusDualRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.EmfPlusDualRenderingMode uppräkning. Anger hur Aspose.Words ska återge EMF Dual metafiler.
+title: EmfPlusDualRenderingMode Enum
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.EmfPlusDualRenderingMode uppräkning. Anger hur Aspose.Words ska återge EMF Dual metafiler i C#.
 type: docs
 weight: 4980
 url: /sv/net/aspose.words.saving/emfplusdualrenderingmode/
@@ -22,7 +24,7 @@ public enum EmfPlusDualRenderingMode
 | EmfPlus | `1` | Aspose.Words återger EMF+ till en del av EMF+ Dual metafil. |
 | Emf | `2` | Aspose.Words återger EMF till en del av EMF+ Dual metafil. |
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar förbättrade Windows Metafil-relaterade renderingsalternativ när du sparar till PDF.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

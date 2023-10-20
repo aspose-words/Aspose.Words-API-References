@@ -1,7 +1,9 @@
 ---
-title: Class PclSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PclSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iPcl format.
+title: PclSaveOptions Class
+linktitle: PclSaveOptions
+articleTitle: PclSaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PclSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iPcl format i C#.
 type: docs
 weight: 5400
 url: /sv/net/aspose.words.saving/pclsaveoptions/
@@ -29,7 +31,7 @@ public class PclSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur färger återges. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -59,10 +61,10 @@ public class PclSaveOptions : FixedPageSaveOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont/)(string, string) | Lägger till information om teckensnitt som laddas upp till skrivaren av tillverkaren. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont/)(*string, string*) | Lägger till information om teckensnitt som laddas upp till skrivaren av tillverkaren. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man rastrar komplexa element samtidigt som ett dokument sparas till PCL.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

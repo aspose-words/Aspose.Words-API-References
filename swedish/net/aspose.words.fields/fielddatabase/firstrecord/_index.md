@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FirstRecord
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabase fast egendom. Hämtar eller ställer in integralpostnumret för den första dataposten som ska infogas.
+linktitle: FirstRecord
+articleTitle: FirstRecord
+second_title: Aspose.Words för .NET
+description: FieldDatabase FirstRecord fast egendom. Hämtar eller ställer in integralpostnumret för den första dataposten som ska infogas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fielddatabase/firstrecord/
@@ -14,7 +16,7 @@ Hämtar eller ställer in integralpostnumret för den första dataposten som ska
 public string FirstRecord { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar data från en databas och infogar den som ett fält i ett dokument.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Se även
 
 * class [FieldDatabase](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabase/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

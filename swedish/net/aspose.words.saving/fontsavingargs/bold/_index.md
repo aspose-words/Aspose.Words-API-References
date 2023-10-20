@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Bold
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Indikerar om det aktuella teckensnittet är fetstilt.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words för .NET
+description: FontSavingArgs Bold fast egendom. Indikerar om det aktuella teckensnittet är fetstilt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/fontsavingargs/bold/
@@ -14,7 +16,7 @@ Indikerar om det aktuella teckensnittet är fetstilt.
 public bool Bold { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

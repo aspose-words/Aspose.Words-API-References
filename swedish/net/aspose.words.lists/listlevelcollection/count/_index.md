@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ListLevelCollection fast egendom. Hämtar antalet nivåer i den här listan.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ListLevelCollection Count fast egendom. Hämtar antalet nivåer i den här listan i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ Hämtar antalet nivåer i den här listan.
 public int Count { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det kan finnas 1 eller 9 nivåer i en lista.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Se även
 
 * class [ListLevelCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevelcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.GetText
-second_title: Aspose.Words för .NET API Referens
-description: SpecialChar metod. Får specialtecknet som denna nod representerar.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words för .NET
+description: SpecialChar GetText metod. Får specialtecknet som denna nod representerar i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/specialchar/gettext/
@@ -21,7 +23,5 @@ Strängen som innehåller tecknet som denna nod representerar.
 ### Se även
 
 * class [SpecialChar](../)
-* namnutrymme [Aspose.Words](../../specialchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

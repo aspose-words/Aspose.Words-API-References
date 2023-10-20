@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Får/ställer in ett lösenord för att kryptera dokument med RC4krypteringsmetoden.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words för .NET
+description: DocSaveOptions Password fast egendom. Får/ställer in ett lösenord för att kryptera dokument med RC4krypteringsmetoden i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ Får/ställer in ett lösenord för att kryptera dokument med RC4-krypteringsmet
 public string Password { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För att spara dokument utan kryptering bör denna egenskap vara`null` eller tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in sparalternativ för äldre Microsoft Word-format.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [DocSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../docsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

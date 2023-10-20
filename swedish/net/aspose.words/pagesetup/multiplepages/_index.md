@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. För flersidiga dokument hämtar eller ställer in hur ett dokument skrivs ut eller återges så att det kan bindas in som ett häfte.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words för .NET
+description: PageSetup MultiplePages fast egendom. För flersidiga dokument hämtar eller ställer in hur ett dokument skrivs ut eller återges så att det kan bindas in som ett häfte i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ För flersidiga dokument, hämtar eller ställer in hur ett dokument skrivs ut e
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar ett dokument som kan skrivas ut som en bokvikning.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

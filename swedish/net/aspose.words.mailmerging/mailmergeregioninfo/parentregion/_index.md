@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeRegionInfo fast egendom. Returnerar information om överordnad region null för region på toppnivå.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words för .NET
+description: MailMergeRegionInfo ParentRegion fast egendom. Returnerar information om överordnad region null för region på toppnivå i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ Returnerar information om överordnad region (null för region på toppnivå).
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar, listar och läser kopplingsregioner.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Se även
 
 * class [MailMergeRegionInfo](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

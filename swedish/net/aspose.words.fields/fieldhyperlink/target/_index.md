@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Target
-second_title: Aspose.Words för .NET API Referens
-description: FieldHyperlink fast egendom. Hämtar eller ställer in målet som länken ska omdirigeras till.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words för .NET
+description: FieldHyperlink Target fast egendom. Hämtar eller ställer in målet som länken ska omdirigeras till i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldhyperlink/target/
@@ -14,7 +16,7 @@ Hämtar eller ställer in målet som länken ska omdirigeras till.
 public string Target { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder HYPERLINK-fält för att länka till dokument i det lokala filsystemet.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Se även
 
 * class [FieldHyperlink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldhyperlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

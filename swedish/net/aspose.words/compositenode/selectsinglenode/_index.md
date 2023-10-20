@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectSingleNode
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Väljer den förstaNode som matchar XPathuttrycket.
+linktitle: SelectSingleNode
+articleTitle: SelectSingleNode
+second_title: Aspose.Words för .NET
+description: CompositeNode SelectSingleNode metod. Väljer den förstaNode som matchar XPathuttrycket i C#.
 type: docs
-weight: 220
+weight: 200
 url: /sv/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,11 +24,11 @@ public Node SelectSingleNode(string xpath)
 
 Den första[`Node`](../../node/) som matchar XPath-frågan eller`null` om ingen matchande nod hittas.
 
-### Anmärkningar
+## Anmärkningar
 
 Endast uttryck med elementnamn stöds för tillfället. Expressions som använder attributnamn stöds inte.
 
-### Exempel
+## Exempel
 
 Visar hur man väljer vissa noder med hjälp av ett XPath-uttryck.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

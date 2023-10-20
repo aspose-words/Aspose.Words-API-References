@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Clear
-second_title: Aspose.Words för .NET API Referens
-description: ShadowFormat metod. Rensar skuggformat.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: ShadowFormat Clear metod. Rensar skuggformat i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/shadowformat/clear/
@@ -14,7 +16,7 @@ Rensar skuggformat.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en skuggformatering för formen.
 
@@ -32,7 +34,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Se även
 
 * class [ShadowFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../shadowformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

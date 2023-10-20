@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Aspose.Words för .NET API Referens
-description: Merger metod. Slår samman de givna indatadokumenten till ett enda utdatadokument med angivna in och utdatafilnamn.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words för .NET
+description: Merger Merge metod. Slår samman de givna indatadokumenten till ett enda utdatadokument med angivna in och utdatafilnamn i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 Slår samman de givna indatadokumenten till ett enda utdatadokument med angivna in- och utdatafilnamn.
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | Utdatafilens namn. |
 | inputFiles | String[] | Indatafilens namn. |
 
-### Anmärkningar
+## Anmärkningar
 
 Som standardKeepSourceFormatting är använd.
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument till ett enda utdatadokument.
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### Se även
 
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 Slår samman de givna indatadokumenten till ett enda utdatadokument med hjälp av specificerade indatautdatafilnamn och det slutliga dokumentformatet.
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | Spara formatet. |
 | mergeFormatMode | MergeFormatMode | Anger hur man slår samman formatering som krockar. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument till ett enda utdatadokument.
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 Slår samman de givna indatadokumenten till ett enda utdatadokument med hjälp av specificerade utdatafilnamn och sparaalternativ.
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | Spara alternativen. |
 | mergeFormatMode | MergeFormatMode | Anger hur man slår samman formatering som krockar. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument till ett enda utdatadokument.
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 Slår samman de givna indatadokumenten till ett enda dokument och returnerar[`Document`](../../../aspose.words/document/) instans av det slutliga dokumentet.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | Indatafilens namn. |
 | mergeFormatMode | MergeFormatMode | Anger hur man slår samman formatering som krockar. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument till ett enda utdatadokument.
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 Slår samman de givna indatadokumenten till ett enda utdatadokument med hjälp av specificerade utdataströmmar och det slutliga dokumentformatet.
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | Ingångsströmmarna. |
 | saveFormat | SaveFormat | Spara formatet. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument från stream till ett enda utdatadokument.
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 Slår samman de givna indatadokumenten till ett enda utdatadokument med hjälp av specificerade utdataströmmar och sparaalternativ.
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | Spara alternativen. |
 | mergeFormatMode | MergeFormatMode | Anger hur man slår samman formatering som krockar. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument från stream till ett enda utdatadokument.
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 Slår samman de givna indatadokumenten till ett enda dokument och returnerar[`Document`](../../../aspose.words/document/) instans av det slutliga dokumentet.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | Ingångsströmmarna. |
 | mergeFormatMode | MergeFormatMode | Anger hur man slår samman formatering som krockar. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman dokument från stream till ett enda utdatadokument.
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* namnutrymme [Aspose.Words.LowCode](../../merger/)
+* namnutrymme [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * hopsättning [Aspose.Words](../../../)
-
-

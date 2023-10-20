@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in talformatet för listnivån.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words för .NET
+description: ListLevel NumberFormat fast egendom. Returnerar eller ställer in talformatet för listnivån i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ Returnerar eller ställer in talformatet för listnivån.
 public string NumberFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Bland vanliga texttecken kan strängen innehålla platshållartecken \x0000 till \x0008 som representerar siffrorna från motsvarande listnivåer.
 
@@ -22,7 +24,7 @@ Till exempel kommer strängen "\x0000.\x0001)" att generera en lista label som s
 
 Null är inte tillåtet, men en tom sträng betyder att inget nummer är giltigt.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

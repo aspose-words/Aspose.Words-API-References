@@ -1,7 +1,9 @@
 ---
 title: Shape.HasSmartArt
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. ReturnerarSann om det härShape har ett SmartArtobjekt.
+linktitle: HasSmartArt
+articleTitle: HasSmartArt
+second_title: Aspose.Words för .NET
+description: Shape HasSmartArt fast egendom. ReturnerarSann om det härShape har ett SmartArtobjekt i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/shape/hassmartart/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det här[`Shape`](../) har ett SmartArt-objekt.
 public bool HasSmartArt { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man räknar antalet former i ett dokument med SmartArt-objekt.
 
@@ -29,7 +31,5 @@ Assert.AreEqual(2, numberOfSmartArtShapes);
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

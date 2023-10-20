@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Anger om innehållet i denna körning ska ha högertillvänsteregenskaper.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words för .NET
+description: Font Bidi fast egendom. Anger om innehållet i denna körning ska ha högertillvänsteregenskaper i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ Anger om innehållet i denna körning ska ha höger-till-vänster-egenskaper.
 public bool Bidi { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen, när den är på, ska inte användas med starkt vänster-till-höger-text. Allt beteende under det villkoret är ospecificerat. Den här egenskapen, när den är avstängd, ska inte användas med stark text från höger till vänster. Allt beteende under det villkoret är ospecificerat.
 
@@ -22,7 +24,7 @@ När innehållet i denna körning visas ska alla tecken behandlas som komplexa s
 
 När innehållet i denna körning visas fungerar den här egenskapen som en åsidosättning från höger till vänster för characters som klassificeras som "svaga typer" och "neutrala typer".
 
-### Exempel
+## Exempel
 
 Visar hur man definierar separata uppsättningar teckensnittsinställningar för text från höger till vänster och höger till vänster.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

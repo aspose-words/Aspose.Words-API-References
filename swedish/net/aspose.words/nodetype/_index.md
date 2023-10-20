@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.NodeType uppräkning. Anger typen av en Worddokumentnod.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.NodeType uppräkning. Anger typen av en Worddokumentnod i C#.
 type: docs
 weight: 4230
 url: /sv/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | Ett specialtecken som inte är en av de mer specifika specialteckentyperna. |
 | SmartTag | `27` | En smart tagg runt en eller flera inline-strukturer (körningar, bilder, fält, etc.) i ett stycke |
 | StructuredDocumentTag | `28` | Tillåter att definiera kundspecifik information och dess presentationssätt. |
-| StructuredDocumentTagRangeStart | `29` | En början på **varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. |
-| StructuredDocumentTagRangeEnd | `30` | Ett slut på **varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. |
+| StructuredDocumentTagRangeStart | `29` | En början på**varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. |
+| StructuredDocumentTagRangeEnd | `30` | Ett slut på**varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. |
 | GlossaryDocument | `31` | Ett ordlistadokument i huvuddokumentet. |
 | BuildingBlock | `32` | En byggsten i ett ordlistadokument (t.ex. ordlistadokument). |
 | CommentRangeStart | `33` | En markörnod som representerar början av ett kommenterat område. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | Reserverad för internt bruk av Aspose.Words. |
 | Null | `38` | Reserverad för internt bruk av Aspose.Words. |
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom en sammansatt nods samling av undernoder.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

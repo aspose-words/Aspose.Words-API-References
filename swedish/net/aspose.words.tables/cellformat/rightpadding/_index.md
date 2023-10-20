@@ -1,9 +1,11 @@
 ---
 title: CellFormat.RightPadding
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i cellen.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words för .NET
+description: CellFormat RightPadding fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i cellen i C#.
 type: docs
-weight: 90
+weight: 80
 url: /sv/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
@@ -14,7 +16,7 @@ Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till ti
 public double RightPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar celler med en dokumentbyggare.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

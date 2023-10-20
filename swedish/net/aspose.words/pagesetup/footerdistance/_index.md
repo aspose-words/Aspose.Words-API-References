@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FooterDistance
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidfoten och längst ned på sidan.
+linktitle: FooterDistance
+articleTitle: FooterDistance
+second_title: Aspose.Words för .NET
+description: PageSetup FooterDistance fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidfoten och längst ned på sidan i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/pagesetup/footerdistance/
@@ -14,7 +16,7 @@ Returnerar eller ställer in avståndet (i poäng) mellan sidfoten och längst n
 public double FooterDistance { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

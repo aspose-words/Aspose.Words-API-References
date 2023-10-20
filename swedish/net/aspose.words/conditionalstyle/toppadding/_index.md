@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.TopPadding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i tabellceller.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words för .NET
+description: ConditionalStyle TopPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i tabellceller i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/conditionalstyle/toppadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till ovanf
 public double TopPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Se även
 
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

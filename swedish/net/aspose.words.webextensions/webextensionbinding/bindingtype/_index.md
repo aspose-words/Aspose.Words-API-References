@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.BindingType
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionBinding fast egendom. Anger bindningstypen.
+linktitle: BindingType
+articleTitle: BindingType
+second_title: Aspose.Words för .NET
+description: WebExtensionBinding BindingType fast egendom. Anger bindningstypen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.webextensions/webextensionbinding/bindingtype/
@@ -18,7 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

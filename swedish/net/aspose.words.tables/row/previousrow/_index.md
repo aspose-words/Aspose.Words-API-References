@@ -1,7 +1,9 @@
 ---
 title: Row.PreviousRow
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Hämtar föregåendeRow nod.
+linktitle: PreviousRow
+articleTitle: PreviousRow
+second_title: Aspose.Words för .NET
+description: Row PreviousRow fast egendom. Hämtar föregåendeRow nod i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.tables/row/previousrow/
@@ -14,11 +16,11 @@ Hämtar föregående[`Row`](../) nod.
 public Row PreviousRow { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Metoden kan användas när du behöver ha maskinskriven åtkomst till tabellrader. Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)noden hittas i en tabell istället för en rad, den korsas automatiskt för att få en rad som finns inom.
 
-### Exempel
+## Exempel
 
 Visar hur man räknar upp alla tabellceller.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Se även
 
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in antalet sidor som ska ingå i varje häfte.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words för .NET
+description: PageSetup SheetsPerBooklet fast egendom. Returnerar eller ställer in antalet sidor som ska ingå i varje häfte i C#.
 type: docs
 weight: 400
 url: /sv/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ Returnerar eller ställer in antalet sidor som ska ingå i varje häfte.
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar ett dokument som kan skrivas ut som en bokvikning.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

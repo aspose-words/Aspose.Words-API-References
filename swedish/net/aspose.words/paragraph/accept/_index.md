@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Accept
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: Paragraph Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/paragraph/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/) , sedan ringer[`Accept`](../../node/accept/) för alla underordnade noder i stycket och anrop[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Hämtar datum och tid då kommentaren gjordes.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words för .NET
+description: Comment DateTime fast egendom. Hämtar datum och tid då kommentaren gjordes i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ Hämtar datum och tid då kommentaren gjordes.
 public DateTime DateTime { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard ärMinValue.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

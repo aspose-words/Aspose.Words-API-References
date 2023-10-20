@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Fill klass. Representerar fyllningsformatering för ett objekt.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Fill klass. Representerar fyllningsformatering för ett objekt i C#.
 type: docs
 weight: 950
 url: /sv/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Hämtar eller ställer in ett färgobjekt som representerar bakgrundsfärgen för fyllningen. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Hämtar eller ställer in ett ThemeColor-objekt som representerar bakgrundsfärgen för fyllningen. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör bakgrundsfärgen ljusare eller mörkare. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Får en fyllningstyp. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen. |
@@ -46,24 +47,24 @@ public class Fill
 
 | namn | Beskrivning |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Ställer in den angivna fyllningen till en enfärgsgradient. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Ställer in den angivna fyllningen till en enfärgsgradient med den angivna färgen. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Ställer in den angivna fyllningen till ett mönster. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Ställer in den angivna fyllningen till ett mönster. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Ställer in fyllningen till en förinställd textur. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Ändrar fyllningstypen till en bild. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Ändrar fyllningstypen till en bild. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Ändrar fyllningstypen till en bild. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Ställer in den angivna fyllningen till en enfärgsgradient. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Ställer in den angivna fyllningen till en enfärgsgradient med den angivna färgen. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Ställer in den angivna fyllningen till ett mönster. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Ställer in den angivna fyllningen till ett mönster. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Ställer in fyllningen till en förinställd textur. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | Ändrar fyllningstypen till en bild. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | Ändrar fyllningstypen till en bild. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | Ändrar fyllningstypen till en bild. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Ställer in fyllningen till en enhetlig färg. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Ställer in fyllningen till en specificerad enhetlig färg. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Ställer in den angivna fyllningen till en tvåfärgsgradient. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Ställer in den angivna fyllningen till en tvåfärgsgradient. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | Ställer in fyllningen till en specificerad enhetlig färg. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Ställer in den angivna fyllningen till en tvåfärgsgradient. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Ställer in den angivna fyllningen till en tvåfärgsgradient. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`Fill`](../shapebase/fill/) eller[`Fill`](../../aspose.words/font/fill/) egenskap för att komma åt fyllegenskaper för ett objekt. Du skapar inte instanser av`Fill` klass direkt.
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med enfärgad.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

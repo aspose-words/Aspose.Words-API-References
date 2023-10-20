@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ResultFormatter
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Gör det möjligt att styra hur fältresultatet formateras.
+linktitle: ResultFormatter
+articleTitle: ResultFormatter
+second_title: Aspose.Words för .NET
+description: FieldOptions ResultFormatter fast egendom. Gör det möjligt att styra hur fältresultatet formateras i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur fältresultatet formateras.
 public IFieldResultFormatter ResultFormatter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
@@ -152,7 +154,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

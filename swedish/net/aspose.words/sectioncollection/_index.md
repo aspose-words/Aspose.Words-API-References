@@ -1,7 +1,9 @@
 ---
-title: Class SectionCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.SectionCollection klass. En samling avSection objekt i dokumentet.
+title: SectionCollection Class
+linktitle: SectionCollection
+articleTitle: SectionCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.SectionCollection klass. En samling avSection objekt i dokumentet i C#.
 type: docs
 weight: 5740
 url: /sv/net/aspose.words/sectioncollection/
@@ -27,23 +29,23 @@ public class SectionCollection : NodeCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Lägger till en nod i slutet av samlingen. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestämmer om en nod finns i samlingen. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestämmer om en nod finns i samlingen. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Returnerar det nollbaserade indexet för den angivna noden. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Infogar en nod i samlingen vid det angivna indexet. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Tar bort noden från samlingen och från dokumentet. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Tar bort noden från samlingen och från dokumentet. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
 | [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Kopierar alla avsnitt från samlingen till en ny uppsättning sektioner. (2 methods) |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett Microsoft Word-dokument kan innehålla flera avsnitt. För att skapa ett avsnitt i ett Microsoft Word, välj kommandot Infoga/bryt och välj en bryttyp. Avbrottet anger om avsnittet startar på en ny sida eller på samma sida.
 
 Programmatiskt infoga och ta bort sektioner kan användas för att anpassa dokument producerade under sammanslagningen. Om ett dokument behöver ha olika innehåll eller delar av -innehållet beroende på vissa kriterier, kan du skapa ett "huvuddokument" som innehåller flera sektioner och ta bort några av avsnitten före eller efter sammanslagningen.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort avsnitt i ett dokument.
 
@@ -75,5 +77,3 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 * class [NodeCollection](../nodecollection/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

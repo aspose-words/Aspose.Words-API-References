@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger den maximala nivån för rubriker för att dela dokumentet. Standardvärdet är2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel fast egendom. Anger den maximala nivån för rubriker för att dela dokumentet. Standardvärdet är2  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ Anger den maximala nivån för rubriker för att dela dokumentet. Standardvärde
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
-När[`DocumentSplitCriteria`](../documentsplitcriteria/) inkluderarHeadingParagraph och den här egenskapen är inställd på ett värde från 1 till 9, kommer dokumentet att delas i stycken formaterade med  **Rubrik 1** , **Rubrik 2** , **Rubrik 3**etc. stilar upp till angiven rubriknivå.
+När[`DocumentSplitCriteria`](../documentsplitcriteria/) inkluderarHeadingParagraph och den här egenskapen är inställd på ett värde från 1 till 9, kommer dokumentet att delas i stycken formaterade med **Rubrik 1** ,**Rubrik 2** ,**Rubrik 3**etc. stilar upp till angiven rubriknivå.
 
-Endast som standard **Rubrik 1** och **Rubrik 2** stycken gör att dokumentet delas. Om du ställer in den här egenskapen till noll kommer dokumentet inte att delas vid rubrikstycken alls.
+Endast som standard**Rubrik 1** och**Rubrik 2** stycken gör att dokumentet delas. Om du ställer in den här egenskapen till noll kommer dokumentet inte att delas vid rubrikstycken alls.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett HTML-dokument efter rubriker i flera delar.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldData.FieldData
-second_title: Aspose.Words för .NET API Referens
-description: FieldData byggare. Default_Constructor
+title: FieldData
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words för .NET
+description: FieldData byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fielddata/fielddata/
@@ -17,7 +19,5 @@ public FieldData()
 ### Se även
 
 * class [FieldData](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddata/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

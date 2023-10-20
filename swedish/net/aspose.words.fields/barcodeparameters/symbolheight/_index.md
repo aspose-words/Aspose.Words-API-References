@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolHeight
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Streckkodsbildhöjd i twips  1/1440 tum
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words för .NET
+description: BarcodeParameters SymbolHeight fast egendom. Streckkodsbildhöjd i twips  1/1440 tum i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/barcodeparameters/symbolheight/
@@ -14,7 +16,7 @@ Streckkodsbildhöjd (i twips - 1/1440 tum)
 public string SymbolHeight { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

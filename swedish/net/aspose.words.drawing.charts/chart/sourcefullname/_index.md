@@ -1,7 +1,9 @@
 ---
 title: Chart.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Hämtar sökvägen och namnet på en xls/xlsxfil som detta diagram är länkat till.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: Chart SourceFullName fast egendom. Hämtar sökvägen och namnet på en xls/xlsxfil som detta diagram är länkat till i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.charts/chart/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar sökvägen och namnet på en xls/xlsx-fil som detta diagram är länkat 
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får/ställer in det fullständiga namnet på det externa xls/xlsx-dokumentet om diagrammet är länkat.
 
@@ -33,7 +35,5 @@ Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringCompari
 ### Se även
 
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

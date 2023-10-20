@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLink
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. ReturnerarSann om OLEobjektet är länkat närSourceFullName anges.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words för .NET
+description: OleFormat IsLink fast egendom. ReturnerarSann om OLEobjektet är länkat närSourceFullName anges i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/oleformat/islink/
@@ -14,7 +16,7 @@ Returnerar`Sann` om OLE-objektet är länkat (när[`SourceFullName`](../sourcefu
 public bool IsLink { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar länkade och olänkade OLE-objekt.
 
@@ -64,7 +66,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Får samling av cellens kanter.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words för .NET
+description: CellFormat Borders fast egendom. Får samling av cellens kanter i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/cellformat/borders/
@@ -14,7 +16,7 @@ Får samling av cellens kanter.
 public BorderCollection Borders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kombinerar raderna från två tabeller till en.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

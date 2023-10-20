@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsText
-second_title: Aspose.Words för .NET API Referens
-description: FieldDde fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas i endast textformat.
+linktitle: InsertAsText
+articleTitle: InsertAsText
+second_title: Aspose.Words för .NET
+description: FieldDde InsertAsText fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas i endast textformat i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fielddde/insertastext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas i endast textform
 public bool InsertAsText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDde](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddde/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

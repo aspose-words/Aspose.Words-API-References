@@ -1,7 +1,9 @@
 ---
-title: Interface IChartDataPoint
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.IChartDataPoint gränssnitt. Innehåller egenskaper för en enda datapunkt i diagrammet.
+title: IChartDataPoint Interface
+linktitle: IChartDataPoint
+articleTitle: IChartDataPoint
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.IChartDataPoint gränssnitt. Innehåller egenskaper för en enda datapunkt i diagrammet i C#.
 type: docs
 weight: 900
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/
@@ -23,7 +25,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Anger om det överordnade elementet ska invertera sina färger om värdet är negativt. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Anger en datamarkör. Markör skapas automatiskt vid begäran. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -86,5 +88,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

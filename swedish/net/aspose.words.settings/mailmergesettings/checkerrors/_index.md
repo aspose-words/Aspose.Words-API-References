@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger vilken typ av felrapportering som ska utföras av Microsoft Word när en sammankoppling av epost utförs. Standardvärdet ärDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words för .NET
+description: MailMergeSettings CheckErrors fast egendom. Anger vilken typ av felrapportering som ska utföras av Microsoft Word när en sammankoppling av epost utförs. Standardvärdet ärDefault  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ Anger vilken typ av felrapportering som ska utföras av Microsoft Word när en s
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

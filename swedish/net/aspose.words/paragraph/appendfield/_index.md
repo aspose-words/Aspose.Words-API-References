@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph metod. Lägger till ett fält i detta stycke.
+linktitle: AppendField
+articleTitle: AppendField
+second_title: Aspose.Words för .NET
+description: Paragraph AppendField metod. Lägger till ett fält i detta stycke i C#.
 type: docs
-weight: 260
+weight: 240
 url: /sv/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 Lägger till ett fält i detta stycke.
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det bifogade fältet.
 
-### Exempel
+## Exempel
 
 Visar olika sätt att lägga till fält till ett stycke.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 Lägger till ett fält i detta stycke.
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det bifogade fältet.
 
-### Exempel
+## Exempel
 
 Visar olika sätt att lägga till fält till ett stycke.
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 Lägger till ett fält i detta stycke.
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det bifogade fältet.
 
-### Exempel
+## Exempel
 
 Visar olika sätt att lägga till fält till ett stycke.
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

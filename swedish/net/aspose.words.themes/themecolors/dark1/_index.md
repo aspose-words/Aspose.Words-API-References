@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark1
-second_title: Aspose.Words för .NET API Referens
-description: ThemeColors fast egendom. Anger färg Dark 1.
+linktitle: Dark1
+articleTitle: Dark1
+second_title: Aspose.Words för .NET
+description: ThemeColors Dark1 fast egendom. Anger färg Dark 1 i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.themes/themecolors/dark1/
@@ -14,7 +16,7 @@ Anger färg Dark 1.
 public Color Dark1 { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeColors](../)
-* namnutrymme [Aspose.Words.Themes](../../themecolors/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Hämtar ägardokumentet.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: List Document fast egendom. Hämtar ägardokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/list/document/
@@ -14,11 +16,11 @@ Hämtar ägardokumentet.
 public DocumentBase Document { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 En lista har alltid ett överordnat dokument och är endast giltig i sammanhanget för det dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar ägardokumentegenskaper för listor.
 
@@ -41,7 +43,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in ett intervall av nivåer i innehållsförteckningsposterna för att utelämna sidnummer.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words för .NET
+description: FieldToc PageNumberOmittingLevelRange fast egendom. Hämtar eller ställer in ett intervall av nivåer i innehållsförteckningsposterna för att utelämna sidnummer i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett intervall av nivåer i innehållsförteckningspost
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Aspose.Words för .NET API Referens
-description: ViewOptions fast egendom. Stänger av visningen av utrymmet mellan textens överkant och sidans övre kant.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words för .NET
+description: ViewOptions DoNotDisplayPageBoundaries fast egendom. Stänger av visningen av utrymmet mellan textens överkant och sidans övre kant i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ Stänger av visningen av utrymmet mellan textens överkant och sidans övre kant
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man döljer vertikala blanksteg och sidhuvuden/sidfötter i vyalternativ.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### Se även
 
 * class [ViewOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../viewoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

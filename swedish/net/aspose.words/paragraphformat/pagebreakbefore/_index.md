@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant om en sidbrytning tvingas före stycket.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words för .NET
+description: ParagraphFormat PageBreakBefore fast egendom. Sant om en sidbrytning tvingas före stycket i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ Sant om en sidbrytning tvingas före stycket.
 public bool PageBreakBefore { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar stycken med sidbrytningar i början.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

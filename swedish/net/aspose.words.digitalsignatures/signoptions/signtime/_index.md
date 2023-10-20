@@ -1,20 +1,22 @@
 ---
 title: SignOptions.SignTime
-second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Datum för signering. Standardvärdet är aktuell tid Now.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words för .NET
+description: SignOptions SignTime fast egendom. Datum för signering. Standardvärdet äraktuell tid Now i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-Datum för signering. Standardvärdet är **aktuell tid** (Now).
+Datum för signering. Standardvärdet är**aktuell tid** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man digitalt signerar dokument.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Se även
 
 * class [SignOptions](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

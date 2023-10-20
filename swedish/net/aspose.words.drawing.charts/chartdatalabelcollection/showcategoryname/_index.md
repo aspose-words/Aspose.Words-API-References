@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna för hela serien. Standardvärdet ärfalsk .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ShowCategoryName fast egendom. Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna för hela serien. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna för
 public bool ShowCategoryName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dataetiketter i ett bubbeldiagram.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

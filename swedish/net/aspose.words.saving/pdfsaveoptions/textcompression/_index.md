@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.TextCompression
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Anger komprimeringstyp som ska användas för allt textinnehåll i dokumentet.
+linktitle: TextCompression
+articleTitle: TextCompression
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions TextCompression fast egendom. Anger komprimeringstyp som ska användas för allt textinnehåll i dokumentet i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.saving/pdfsaveoptions/textcompression/
@@ -14,13 +16,13 @@ Anger komprimeringstyp som ska användas för allt textinnehåll i dokumentet.
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard ärFlate.
 
 Ökar utmatningsstorleken avsevärt när du sparar ett dokument utan komprimering.
 
-### Exempel
+## Exempel
 
 Visar hur du använder textkomprimering när du sparar ett dokument till PDF.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

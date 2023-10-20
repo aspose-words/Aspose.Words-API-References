@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldEnd fast egendom. ReturnerarSannom det här fältet har en separator.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words för .NET
+description: FieldEnd HasSeparator fast egendom. ReturnerarSannom det här fältet har en separator i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ Returnerar`Sann`om det här fältet har en separator.
 public bool HasSeparator { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FieldEnd](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldend/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

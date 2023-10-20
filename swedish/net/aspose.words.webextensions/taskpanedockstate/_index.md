@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.TaskPaneDockState uppräkning. Räknar upp tillgängliga platser för objekt i aktivitetsrutan.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState uppräkning. Räknar upp tillgängliga platser för objekt i aktivitetsrutan i C#.
 type: docs
 weight: 6730
 url: /sv/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | Docka aktivitetsfönstret till höger i dokumentfönstret. |
 | Left | `1` | Docka aktivitetsfönstret till vänster i dokumentfönstret. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

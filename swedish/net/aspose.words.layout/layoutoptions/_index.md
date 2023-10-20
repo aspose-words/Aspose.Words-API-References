@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.LayoutOptions klass. Innehåller alternativen som tillåter styrning av dokumentlayoutprocessen.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.LayoutOptions klass. Innehåller alternativen som tillåter styrning av dokumentlayoutprocessen i C#.
 type: docs
 weight: 3350
 url: /sv/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Hämtar eller ställer in en indikation på om stycketecken återges. Standard är`falsk` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Hämtar eller sätter[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementering som används för avancerade typografirenderingsfunktioner. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du skapar inte instanser av den här klassen direkt. Använd[`LayoutOptions`](../../aspose.words/document/layoutoptions/) egenskap för att komma åt layoutalternativ för detta dokument.
 
 Observera att efter att ha ändrat något av alternativen som finns i den här klassen,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) method ska anropas för att de ändrade alternativen ska tillämpas på layouten.
 
-### Exempel
+## Exempel
 
 Visar hur man döljer text i ett renderat utdatadokument.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

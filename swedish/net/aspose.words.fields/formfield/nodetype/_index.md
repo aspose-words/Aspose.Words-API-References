@@ -1,7 +1,9 @@
 ---
 title: FormField.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. ReturnerarFormField .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: FormField NodeType fast egendom. ReturnerarFormField  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/formfield/nodetype/
@@ -14,7 +16,7 @@ ReturnerarFormField .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

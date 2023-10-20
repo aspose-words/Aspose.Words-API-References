@@ -1,7 +1,9 @@
 ---
 title: IResourceLoadingCallback.ResourceLoading
-second_title: Aspose.Words för .NET API Referens
-description: IResourceLoadingCallback metod. Anropas när Aspose.Words laddar någon extern resurs.
+linktitle: ResourceLoading
+articleTitle: ResourceLoading
+second_title: Aspose.Words för .NET
+description: IResourceLoadingCallback ResourceLoading metod. Anropas när Aspose.Words laddar någon extern resurs i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
@@ -14,7 +16,7 @@ Anropas när Aspose.Words laddar någon extern resurs.
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -79,7 +81,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 * enum [ResourceLoadingAction](../../resourceloadingaction/)
 * class [ResourceLoadingArgs](../../resourceloadingargs/)
 * interface [IResourceLoadingCallback](../)
-* namnutrymme [Aspose.Words.Loading](../../iresourceloadingcallback/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

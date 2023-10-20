@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ScalingFactor
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Skalfaktor för symbolen. Värdet är i hela procentenheter och de giltiga värdena är 10 1000.
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words för .NET
+description: BarcodeParameters ScalingFactor fast egendom. Skalfaktor för symbolen. Värdet är i hela procentenheter och de giltiga värdena är 10 1000 i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.fields/barcodeparameters/scalingfactor/
@@ -14,7 +16,7 @@ Skalfaktor för symbolen. Värdet är i hela procentenheter och de giltiga värd
 public string ScalingFactor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

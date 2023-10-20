@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Ger tillgång till formateringsegenskaperna för raden.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words för .NET
+description: Row RowFormat fast egendom. Ger tillgång till formateringsegenskaperna för raden i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ Ger tillgång till formateringsegenskaperna för raden.
 public RowFormat RowFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar formateringen av en tabellrad.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

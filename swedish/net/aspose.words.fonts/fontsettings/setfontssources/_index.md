@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings metod. Ställer in källorna där Aspose.Words söker efter TrueTypeteckensnitt vid rendering av dokument eller inbäddning av teckensnitt.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words för .NET
+description: FontSettings SetFontsSources metod. Ställer in källorna där Aspose.Words söker efter TrueTypeteckensnitt vid rendering av dokument eller inbäddning av teckensnitt i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | En mängd källor som innehåller TrueType-teckensnitt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard letar Aspose.Words efter teckensnitt som är installerade i systemet.
 
 Om du ställer in den här egenskapen återställs cachen för alla tidigare inlästa teckensnitt.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till en teckensnittskälla till våra befintliga teckensnittskällor.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt och laddar dessutom tidigare sparad typsnittssökningscache.
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | En mängd källor som innehåller TrueType-teckensnitt. |
 | cacheInputStream | Stream | Indataström med sparad typsnittssökningscache. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om du laddar tidigare sparad typsnittssökningscache påskyndar initieringsprocessen för typsnittscache. Det är särskilt användbart när åtkomst till teckensnittskällor är komplicerad (t.ex. när teckensnitt laddas via nätverk).
 
@@ -100,7 +102,7 @@ När du sparar och laddar typsnittssökningscache identifieras typsnitt i de ang
 
 Det rekommenderas starkt att du tillhandahåller samma teckensnittskällor när du laddar cacheminnet som när cachen sparades. Alla ändringar i teckensnittskällorna (t.ex. att lägga till nya teckensnitt, flytta teckensnittsfiler eller ändra cache-nyckeln) kan leda till att teckensnittet blir felaktigt lösas av Aspose.Words.
 
-### Exempel
+## Exempel
 
 Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

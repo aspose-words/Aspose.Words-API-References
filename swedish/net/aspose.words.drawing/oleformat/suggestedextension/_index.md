@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil.
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: Aspose.Words för .NET
+description: OleFormat SuggestedExtension fast egendom. Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du
 public string SuggestedExtension { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar inbäddade OLE-objekt till filer.
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

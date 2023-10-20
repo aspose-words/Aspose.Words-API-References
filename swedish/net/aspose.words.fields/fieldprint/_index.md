@@ -1,7 +1,9 @@
 ---
-title: Class FieldPrint
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldPrint klass. Implementerar fältet PRINT.
+title: FieldPrint Class
+linktitle: FieldPrint
+articleTitle: FieldPrint
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldPrint klass. Implementerar fältet PRINT i C#.
 type: docs
 weight: 2280
 url: /sv/net/aspose.words.fields/fieldprint/
@@ -44,17 +46,17 @@ public class FieldPrint : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 En instruktion för att skicka de skrivarspecifika kontrollkodens tecken till den valda printern när dokumentet skrivs ut.
 
-### Exempel
+## Exempel
 
 Visar för att infoga ett PRINT-fält.
 
@@ -86,5 +88,3 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveToRevision
-second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. ReturnerarSann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words för .NET
+description: Inline IsMoveToRevision fast egendom. ReturnerarSann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/inline/ismovetorevision/
@@ -14,7 +16,7 @@ Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ä
 public bool IsMoveToRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Se även
 
 * class [Inline](../)
-* namnutrymme [Aspose.Words](../../inline/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

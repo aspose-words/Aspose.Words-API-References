@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in bitflaggor som anger hur en tabellstil tillämpas på den här tabellen.
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: Aspose.Words för .NET
+description: Table StyleOptions fast egendom. Hämtar eller ställer in bitflaggor som anger hur en tabellstil tillämpas på den här tabellen i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bitflaggor som anger hur en tabellstil tillämpas på 
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en ny tabell samtidigt som man använder en stil.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

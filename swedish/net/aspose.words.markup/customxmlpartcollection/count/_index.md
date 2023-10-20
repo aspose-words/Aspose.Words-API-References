@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPartCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: CustomXmlPartCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/customxmlpartcollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Se även
 
 * class [CustomXmlPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.PreferredWidth klass. Representerar ett värde och dess måttenhet som används för att ange den föredragna bredden på en tabell eller en cell.
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.PreferredWidth klass. Representerar ett värde och dess måttenhet som används för att ange den föredragna bredden på en tabell eller en cell i C#.
 type: docs
 weight: 6290
 url: /sv/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges i procent. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges med ett antal punkter. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Bestämmer om den angivna`PreferredWidth` är lika i värde med strömmen`PreferredWidth` . |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges i procent. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges med ett antal punkter. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Bestämmer om den angivna`PreferredWidth` är lika i värde med strömmen`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Returnerar en användarvänlig sträng som visar värdet på detta objekt. |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Returnerar en instans som representerar värdet "föredragen bredd är inte angiven". |
 
-### Anmärkningar
+## Anmärkningar
 
 Önskad bredd kan anges i procent, antal poäng eller ett speciellt "ingen/auto"-värde.
 
 Förekomsterna av denna klass är oföränderliga.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in en tabell för att automatiskt anpassa till 50 % av sidans bredd.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

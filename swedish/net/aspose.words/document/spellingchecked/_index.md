@@ -1,7 +1,9 @@
 ---
 title: Document.SpellingChecked
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. ReturnerarSann om dokumentet har stavningskontrollerats.
+linktitle: SpellingChecked
+articleTitle: SpellingChecked
+second_title: Aspose.Words för .NET
+description: Document SpellingChecked fast egendom. ReturnerarSann om dokumentet har stavningskontrollerats i C#.
 type: docs
 weight: 410
 url: /sv/net/aspose.words/document/spellingchecked/
@@ -14,11 +16,11 @@ Returnerar`Sann` om dokumentet har stavningskontrollerats.
 public bool SpellingChecked { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För att kontrollera stavningen i dokumentet igen, ställ in den här egenskapen till`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in stavning eller grammatikverifiering.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

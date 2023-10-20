@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Gör det möjligt att styra hur externa resurser bilder stilmallar laddas när ett dokument importeras från HTML MHTML.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words för .NET
+description: LoadOptions ResourceLoadingCallback fast egendom. Gör det möjligt att styra hur externa resurser bilder stilmallar laddas när ett dokument importeras från HTML MHTML i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.loading/loadoptions/resourceloadingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur externa resurser (bilder, stilmallar) laddas nä
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar externa resurser när HTML-dokument laddas.
 
@@ -65,7 +67,5 @@ private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

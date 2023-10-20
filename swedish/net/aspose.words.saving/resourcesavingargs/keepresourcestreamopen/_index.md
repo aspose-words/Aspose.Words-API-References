@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
-second_title: Aspose.Words för .NET API Referens
-description: ResourceSavingArgs fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en resurs.
+linktitle: KeepResourceStreamOpen
+articleTitle: KeepResourceStreamOpen
+second_title: Aspose.Words för .NET
+description: ResourceSavingArgs KeepResourceStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en resurs i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -14,11 +16,11 @@ Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`ResourceStream`](../resourcestream/) egenskap efter att ha skrivit in en resurs i den. Specificera`Sann` för att hålla strömmen öppen.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [ResourceSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../resourcesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

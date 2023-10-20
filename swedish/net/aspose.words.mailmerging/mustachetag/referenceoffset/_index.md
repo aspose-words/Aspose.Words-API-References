@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Aspose.Words för .NET API Referens
-description: MustacheTag fast egendom. Hämtar den nollbaserade startpositionen för taggen från början avReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words för .NET
+description: MustacheTag ReferenceOffset fast egendom. Hämtar den nollbaserade startpositionen för taggen från början avReferenceRun  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ Hämtar den nollbaserade startpositionen för taggen från början av[`Reference
 public int ReferenceOffset { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med mustaschtaggarna.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Se även
 
 * class [MustacheTag](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mustachetag/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

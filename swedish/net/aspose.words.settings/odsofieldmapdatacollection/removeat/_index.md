@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapDataCollection metod. Tar bort elementet vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapDataCollection RemoveAt metod. Tar bort elementet vid det angivna indexet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Elementets nollbaserade index. |
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoFieldMapDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

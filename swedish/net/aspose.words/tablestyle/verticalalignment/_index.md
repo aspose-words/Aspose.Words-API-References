@@ -1,7 +1,9 @@
 ---
 title: TableStyle.VerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Anger den vertikala justeringen för cellerna.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words för .NET
+description: TableStyle VerticalAlignment fast egendom. Anger den vertikala justeringen för cellerna i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/tablestyle/verticalalignment/
@@ -14,11 +16,11 @@ Anger den vertikala justeringen för cellerna.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärTop .
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

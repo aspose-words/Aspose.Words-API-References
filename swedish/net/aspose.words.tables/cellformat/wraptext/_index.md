@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. OmSann  radbryt text för cellen.
+linktitle: WrapText
+articleTitle: WrapText
+second_title: Aspose.Words för .NET
+description: CellFormat WrapText fast egendom. OmSann  radbryt text för cellen i C#.
 type: docs
-weight: 150
+weight: 140
 url: /sv/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ Om`Sann` , radbryt text för cellen.
 public bool WrapText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med anpassade ramar.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

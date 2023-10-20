@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.SequenceIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeq fast egendom. Hämtar eller ställer in namnet som tilldelas serien av objekt som ska numreras.
+linktitle: SequenceIdentifier
+articleTitle: SequenceIdentifier
+second_title: Aspose.Words för .NET
+description: FieldSeq SequenceIdentifier fast egendom. Hämtar eller ställer in namnet som tilldelas serien av objekt som ska numreras i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldseq/sequenceidentifier/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet som tilldelas serien av objekt som ska numreras
 public string SequenceIdentifier { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar skapa numrering med SEQ-fält.
 
@@ -149,7 +151,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Se även
 
 * class [FieldSeq](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseq/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkStart metod. Returnerar en tom sträng.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words för .NET
+description: BookmarkStart GetText metod. Returnerar en tom sträng i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 En tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [BookmarkStart](../)
-* namnutrymme [Aspose.Words](../../bookmarkstart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

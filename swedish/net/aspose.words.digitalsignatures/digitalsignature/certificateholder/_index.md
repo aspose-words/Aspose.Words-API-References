@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.CertificateHolder
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. Returnerar certifikatinnehavarens objekt som innehåller certifikatet som användes för att signera dokumentet.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words för .NET
+description: DigitalSignature CertificateHolder fast egendom. Returnerar certifikatinnehavarens objekt som innehåller certifikatet som användes för att signera dokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
@@ -14,7 +16,7 @@ Returnerar certifikatinnehavarens objekt som innehåller certifikatet som använ
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar dokument med X.509-certifikat.
 
@@ -58,7 +60,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignature](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

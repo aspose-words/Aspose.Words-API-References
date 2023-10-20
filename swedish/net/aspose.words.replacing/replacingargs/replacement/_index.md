@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. Hämtar eller ställer in ersättningssträngen.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words för .NET
+description: ReplacingArgs Replacement fast egendom. Hämtar eller ställer in ersättningssträngen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ersättningssträngen.
 public string Replacement { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Se även
 
 * class [ReplacingArgs](../)
-* namnutrymme [Aspose.Words.Replacing](../../replacingargs/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

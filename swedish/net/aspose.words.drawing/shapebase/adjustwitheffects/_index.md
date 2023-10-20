@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase metod. Lägger till källrektangelvärdena för effektomfattningen och returnerar den sista rektangeln.
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: Aspose.Words för .NET
+description: ShapeBase AdjustWithEffects metod. Lägger till källrektangelvärdena för effektomfattningen och returnerar den sista rektangeln i C#.
 type: docs
 weight: 620
 url: /sv/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ Lägger till källrektangelvärdena för effektomfattningen och returnerar den s
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kontrollerar hur en forms gränser påverkas av formeffekter.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

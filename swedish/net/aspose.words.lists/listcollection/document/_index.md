@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Document
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection fast egendom. Hämtar ägardokumentet.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: ListCollection Document fast egendom. Hämtar ägardokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/listcollection/document/
@@ -14,7 +16,7 @@ Hämtar ägardokumentet.
 public DocumentBase Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar ägardokumentegenskaper för listor.
 
@@ -37,7 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

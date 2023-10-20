@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Aspose.Words för .NET API Referens
-description: PageLayoutCallbackArgs fast egendom. Hämtar dokument.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: PageLayoutCallbackArgs Document fast egendom. Hämtar dokument i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ Hämtar dokument.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* namnutrymme [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

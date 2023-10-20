@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPermissions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfPermissions uppräkning. Anger de operationer som är tillåtna för en användare på ett krypterat PDFdokument.
+title: PdfPermissions Enum
+linktitle: PdfPermissions
+articleTitle: PdfPermissions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfPermissions uppräkning. Anger de operationer som är tillåtna för en användare på ett krypterat PDFdokument i C#.
 type: docs
 weight: 5510
 url: /sv/net/aspose.words.saving/pdfpermissions/
@@ -30,7 +32,7 @@ public enum PdfPermissions
 | Printing | `4` | Skriv ut dokumentet (möjligen inte på högsta kvalitetsnivå, beroende på om HighResolutionPrinting är också inställd). |
 | HighResolutionPrinting | `804` | Skriv ut dokumentet till en representation från vilken en trogen digital kopia av PDF-innehållet kan genereras, baserat på en implementeringsberoende algoritm. När denna flagga är klar (and Printing är inställd), ska utskriften begränsas till en lågnivårepresentation av utseendet, möjligen av försämrad kvalitet. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

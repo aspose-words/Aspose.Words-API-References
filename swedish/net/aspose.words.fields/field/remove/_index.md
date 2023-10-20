@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Aspose.Words för .NET API Referens
-description: Field metod. Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod returnerar dess överordnade stycke. Om fältet redan är borttaget returnerasnull .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: Field Remove metod. Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod returnerar dess överordnade stycke. Om fältet redan är borttaget returnerasnull  i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om f�
 public Node Remove()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort fält från en fältsamling.
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

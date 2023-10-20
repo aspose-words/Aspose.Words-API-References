@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en hyperlänk i dokumentet.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertHyperlink metod. Infogar en hyperlänk i dokumentet i C#.
 type: docs
-weight: 370
+weight: 360
 url: /sv/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att du måste ange teckensnittsformatering för hyperlänkens visningstext explicit med hjälp av[`Font`](../font/) fast egendom.
 
 Denna metod anropar internt[`InsertField`](../insertfield/) för att infoga ett MS Word HYPERLINK-fält i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en hyperlänk som refererar till ett lokalt bokmärke.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

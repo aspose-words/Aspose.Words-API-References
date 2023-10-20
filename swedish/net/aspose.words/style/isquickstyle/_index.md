@@ -1,7 +1,9 @@
 ---
 title: Style.IsQuickStyle
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Anger om denna stil visas i Quick Stylegalleriet i MS Word UI.
+linktitle: IsQuickStyle
+articleTitle: IsQuickStyle
+second_title: Aspose.Words för .NET
+description: Style IsQuickStyle fast egendom. Anger om denna stil visas i Quick Stylegalleriet i MS Word UI i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/style/isquickstyle/
@@ -14,7 +16,7 @@ Anger om denna stil visas i Quick Style-galleriet i MS Word UI.
 public bool IsQuickStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

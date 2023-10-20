@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase metod. Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words för .NET
+description: NodeRendererBase GetSizeInPixels metod. Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 Formens storlek i pixlar.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod konverterar[`SizeInPoints`](../sizeinpoints/) i storlek i pixlar och det är användbart när du vill skapa en bitmapp för att rendera formen snyggt på bitmappen.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 Formens storlek i pixlar.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod konverterar[`SizeInPoints`](../sizeinpoints/) i storlek i pixlar och det är användbart när du vill skapa en bitmapp för att rendera formen snyggt på bitmappen.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

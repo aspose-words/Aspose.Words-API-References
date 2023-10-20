@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om detta stycke är det sista stycket iBody huvudtextberättelse av enSection  falskt annars.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words för .NET
+description: Paragraph IsEndOfSection fast egendom. Sant om detta stycke är det sista stycket iBody huvudtextberättelse av enSection  falskt annars i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ Sant om detta stycke är det sista stycket i[`Body`](../../body/) (huvudtextber�
 public bool IsEndOfSection { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar innehållet i ett dokument till ett bokmärke i ett annat dokument.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

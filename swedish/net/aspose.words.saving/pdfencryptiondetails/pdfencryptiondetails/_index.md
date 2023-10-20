@@ -1,12 +1,14 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
-second_title: Aspose.Words för .NET API Referens
-description: PdfEncryptionDetails byggare. Initierar en instans av denna klass.
+title: PdfEncryptionDetails
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words för .NET
+description: PdfEncryptionDetails byggare. Initierar en instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails(string, string) {#constructor}
+## PdfEncryptionDetails(*string, string*) {#constructor}
 
 Initierar en instans av denna klass.
 
@@ -17,12 +19,12 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ### Se även
 
 * class [PdfEncryptionDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+## PdfEncryptionDetails(*string, string, [PdfPermissions](../../pdfpermissions/)*) {#constructor_1}
 
 Initierar en instans av denna klass.
 
@@ -30,7 +32,7 @@ Initierar en instans av denna klass.
 public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

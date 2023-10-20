@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel metod. Rapporterar strängrepresentationen avListLevelobjekt för det angivna index för listobjektet. Parametrar angerNumberStyle och ett valfritt format string används närCustom anges.
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: Aspose.Words för .NET
+description: ListLevel GetEffectiveValue metod. Rapporterar strängrepresentationen avListLevelobjekt för det angivna index för listobjektet. Parametrar angerNumberStyle och ett valfritt format string används närCustom anges i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ Strängrepresentationen av[`ListLevel`](../) objekt, beskrivet av*numberStyle* p
 | ArgumentException | *customNumberStyleFormat* är`null` eller tom när*numberStyle* är anpassad.-eller- *customNumberStyleFormat* är inte`null` eller tom när*numberStyle* är icke-anpassad.-or- *customNumberStyleFormat* är ogiltig. |
 | ArgumentOutOfRangeException | index är utanför intervallet. |
 
-### Exempel
+## Exempel
 
 Visar hur du får formatet för en lista med den anpassade nummerstilen.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class XamlFlowSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.XamlFlowSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument i XamlFlow ellerXamlFlowPack format.
+title: XamlFlowSaveOptions Class
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.XamlFlowSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument i XamlFlow ellerXamlFlowPack format i C#.
 type: docs
 weight: 5700
 url: /sv/net/aspose.words.saving/xamlflowsaveoptions/
@@ -21,7 +23,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | namn | Beskrivning |
 | --- | --- |
 | [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor)() | Initierar en ny instans av denna klass som kan användas för att spara ett dokument iXamlFlow format. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(SaveFormat) | Initierar en ny instans av denna klass som kan användas för att spara ett dokument iXamlFlow ellerXamlFlowPack format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initierar en ny instans av denna klass som kan användas för att spara ett dokument iXamlFlow ellerXamlFlowPack format. |
 
 ## Egenskaper
 
@@ -29,7 +31,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -50,7 +52,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Hämtar eller ställer in ett värde som avgör om kantutjämning ska användas eller inte för rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Hämtar eller ställer in ett värde som avgör huruvida högkvalitativa (dvs långsamma) renderingsalgoritmer ska användas eller inte. |
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
@@ -118,5 +120,3 @@ private class ImageUriPrinter : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

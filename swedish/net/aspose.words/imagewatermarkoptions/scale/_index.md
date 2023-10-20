@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Aspose.Words för .NET API Referens
-description: ImageWatermarkOptions fast egendom. Hämtar eller ställer in skalfaktorn uttryckt som en bråkdel av bilden. Standardvärdet är 0  auto.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words för .NET
+description: ImageWatermarkOptions Scale fast egendom. Hämtar eller ställer in skalfaktorn uttryckt som en bråkdel av bilden. Standardvärdet är 0  auto i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
 
-### Anmärkningar
+## Anmärkningar
 
 Giltiga värden sträcker sig från 0 till 65,5 inklusive.
 
 Automatisk skala betyder att vattenstämpeln skalas till dess maxbredd och maxhöjd i förhållande till sidmarginalerna.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en vattenstämpel från en bild i det lokala filsystemet.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Se även
 
 * class [ImageWatermarkOptions](../)
-* namnutrymme [Aspose.Words](../../imagewatermarkoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

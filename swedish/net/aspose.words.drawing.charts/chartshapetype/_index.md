@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartShapeType uppräkning. Anger formtypen för diagramelement.
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartShapeType uppräkning. Anger formtypen för diagramelement i C#.
 type: docs
 weight: 810
 url: /sv/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | Sjökortsstjärna. |
 | ChartX | `187` | Diagram X. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in fyllnings-, linje- och bildtextformatering för diagramdataetiketter.
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

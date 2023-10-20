@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.HashAlgorithm
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureDetails fast egendom. Hämtar eller ställer in hashalgoritmen.
+linktitle: HashAlgorithm
+articleTitle: HashAlgorithm
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureDetails HashAlgorithm fast egendom. Hämtar eller ställer in hashalgoritmen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/
@@ -14,11 +16,11 @@ Hämtar eller ställer in hash-algoritmen.
 public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är SHA-256-algoritmen.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

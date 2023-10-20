@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Hämtar CLSID för OLEobjektet.
+linktitle: Clsid
+articleTitle: Clsid
+second_title: Aspose.Words för .NET
+description: OleFormat Clsid fast egendom. Hämtar CLSID för OLEobjektet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ Hämtar CLSID för OLE-objektet.
 public Guid Clsid { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Aspose.Words för .NET API Referens
-description: Run fast egendom. Hämtar eller ställer in texten för körningen.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: Run Text fast egendom. Hämtar eller ställer in texten för körningen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten för körningen.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Se även
 
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

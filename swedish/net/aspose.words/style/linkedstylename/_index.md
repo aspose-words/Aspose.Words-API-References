@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar namnet påStyle kopplat till denna. Returnerar tom sträng om inga stilar är länkade.
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: Aspose.Words för .NET
+description: Style LinkedStyleName fast egendom. Hämtar namnet påStyle kopplat till denna. Returnerar tom sträng om inga stilar är länkade i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ Hämtar namnet på[`Style`](../) kopplat till denna. Returnerar tom sträng om i
 public string LinkedStyleName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder stilalias.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

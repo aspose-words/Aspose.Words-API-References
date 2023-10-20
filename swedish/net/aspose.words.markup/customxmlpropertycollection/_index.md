@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.CustomXmlPropertyCollection klass. Representerar en samling anpassade XMLattribut eller egenskaper för smarta taggar.
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.CustomXmlPropertyCollection klass. Representerar en samling anpassade XMLattribut eller egenskaper för smarta taggar i C#.
 type: docs
 weight: 3950
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Lägger till en egenskap i samlingen. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | Lägger till en egenskap i samlingen. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Bestämmer om samlingen innehåller en egenskap med det angivna namnet. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Bestämmer om samlingen innehåller en egenskap med det angivna namnet. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Returnerar det nollbaserade indexet för den angivna egenskapen i samlingen. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Tar bort en egenskap vid det angivna indexet. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | Returnerar det nollbaserade indexet för den angivna egenskapen i samlingen. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | Tar bort en egenskap med det angivna namnet från samlingen. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | Tar bort en egenskap vid det angivna indexet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Objekt är[`CustomXmlProperty`](../customxmlproperty/) föremål.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

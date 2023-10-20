@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.WrapSide uppräkning. Anger vilka sidor av formen eller bilden som texten lindas runt.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.WrapSide uppräkning. Anger vilka sidor av formen eller bilden som texten lindas runt i C#.
 type: docs
 weight: 1390
 url: /sv/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | Dokumenttexten radbryts på den sida av formen som är längst bort från sidmarginalen, vilket lämnar textfritt område på den andra sidan av formen. |
 | Default | `0` | Standardvärdet ärBoth . |
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla textruteformer med bildformer.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

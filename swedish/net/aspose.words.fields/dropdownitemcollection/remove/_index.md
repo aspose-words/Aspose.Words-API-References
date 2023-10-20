@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection metod. Tar bort det angivna värdet från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection Remove metod. Tar bort det angivna värdet från samlingen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Det skiftlägeskänsliga värdet som ska tas bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

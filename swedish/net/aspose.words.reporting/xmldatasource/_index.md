@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.XmlDataSource klass. Ger tillgång till data från en XMLfil eller ström som ska användas i en rapport.
+title: XmlDataSource Class
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.XmlDataSource klass. Ger tillgång till data från en XMLfil eller ström som ska användas i en rapport i C#.
 type: docs
 weight: 4750
 url: /sv/net/aspose.words.reporting/xmldatasource/
@@ -20,16 +22,16 @@ public class XmlDataSource
 
 | namn | Beskrivning |
 | --- | --- |
-| [XmlDataSource](xmldatasource/#constructor)(Stream) | Skapar en ny datakälla med data från en XML-ström med standardalternativ för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_4)(string) | Skapar en ny datakälla med data från en XML-fil med standardalternativ för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. Standard options används för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | Skapar en ny datakälla med data från en XML-ström med de angivna alternativen för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. Standard options används för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | Skapar en ny datakälla med data från en XML-fil med de angivna alternativen för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. De specificerade -alternativen används för XML-dataladdning. |
-| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. De specificerade -alternativen används för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor)(*Stream*) | Skapar en ny datakälla med data från en XML-ström med standardalternativ för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_4)(*string*) | Skapar en ny datakälla med data från en XML-fil med standardalternativ för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_2)(*Stream, Stream*) | Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. Standard options används för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_1)(*Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Skapar en ny datakälla med data från en XML-ström med de angivna alternativen för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_6)(*string, string*) | Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. Standard options används för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_5)(*string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Skapar en ny datakälla med data från en XML-fil med de angivna alternativen för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_3)(*Stream, Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. De specificerade -alternativen används för XML-dataladdning. |
+| [XmlDataSource](xmldatasource/#constructor_7)(*string, string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. De specificerade -alternativen används för XML-dataladdning. |
 
-### Anmärkningar
+## Anmärkningar
 
 För att komma åt data för motsvarande fil eller ström medan du genererar en rapport, skicka en instans av den här klassen as en datakälla till en av[`ReportingEngine`](../reportingengine/) .BuildReport overloads.
 
@@ -53,5 +55,3 @@ För att åsidosätta standardbeteendet för XML-dataladdning, initiera och skic
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

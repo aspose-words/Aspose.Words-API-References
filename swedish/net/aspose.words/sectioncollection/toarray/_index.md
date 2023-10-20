@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: SectionCollection metod. Kopierar alla avsnitt från samlingen till en ny uppsättning sektioner.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: SectionCollection ToArray metod. Kopierar alla avsnitt från samlingen till en ny uppsättning sektioner i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/sectioncollection/toarray/
@@ -22,7 +24,5 @@ En rad sektioner.
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* namnutrymme [Aspose.Words](../../sectioncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

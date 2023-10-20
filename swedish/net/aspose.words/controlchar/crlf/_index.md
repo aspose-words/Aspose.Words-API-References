@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Carriage return följt av radmatningstecken x000dx000a eller rn. Används inte som sådan i Microsoft Worddokument men används vanligtvis i textfiler för styckebrytningar.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words för .NET
+description: ControlChar CrLf fält. Carriage return följt av radmatningstecken x000dx000a eller rn. Används inte som sådan i Microsoft Worddokument men används vanligtvis i textfiler för styckebrytningar i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ Carriage return följt av radmatningstecken: "\x000d\x000a" eller "\r\n". Använ
 public static readonly string CrLf;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

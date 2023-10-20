@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr hur listetiketter matas ut till HTML MHTML eller EPUB. Standardvärdet ärAuto .
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportListLabels fast egendom. Styr hur listetiketter matas ut till HTML MHTML eller EPUB. Standardvärdet ärAuto  i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -14,7 +16,7 @@ Styr hur listetiketter matas ut till HTML, MHTML eller EPUB. Standardvärdet är
 public ExportListLabels ExportListLabels { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar listexport till HTML.
 
@@ -101,7 +103,5 @@ switch (exportListLabels)
 
 * enum [ExportListLabels](../../exportlistlabels/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

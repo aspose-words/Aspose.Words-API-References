@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.DropCapPosition uppräkning. Anger positionen för en drop captext.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.DropCapPosition uppräkning. Anger positionen för en drop captext i C#.
 type: docs
 weight: 1410
 url: /sv/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | Locket är placerat innanför textmarginalen på ankarstycket. |
 | Margin | `2` | Drop cap är placerad utanför textmarginalen på ankarstycket. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en drop cap.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

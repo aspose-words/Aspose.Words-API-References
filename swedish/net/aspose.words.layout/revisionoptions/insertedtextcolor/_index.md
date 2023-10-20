@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextColor
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange färgen som ska användas för infogat innehållInsertion . Standardvärdet ärByAuthor .
+linktitle: InsertedTextColor
+articleTitle: InsertedTextColor
+second_title: Aspose.Words för .NET
+description: RevisionOptions InsertedTextColor fast egendom. Tillåter att ange färgen som ska användas för infogat innehållInsertion . Standardvärdet ärByAuthor  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.layout/revisionoptions/insertedtextcolor/
@@ -14,7 +16,7 @@ Tillåter att ange färgen som ska användas för infogat innehållInsertion . S
 public RevisionColor InsertedTextColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

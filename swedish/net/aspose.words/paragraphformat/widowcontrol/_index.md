@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant om första och sista raden i stycket ska vara kvar på samma sida som resten av stycket.
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: Aspose.Words för .NET
+description: ParagraphFormat WidowControl fast egendom. Sant om första och sista raden i stycket ska vara kvar på samma sida som resten av stycket i C#.
 type: docs
 weight: 400
 url: /sv/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ Sant om första och sista raden i stycket ska vara kvar på samma sida som reste
 public bool WidowControl { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar änka/föräldralös kontroll för ett stycke.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

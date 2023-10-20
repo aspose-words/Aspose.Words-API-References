@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.SignerTitle
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in föreslagen undertecknares titel till exempel Manager. Standardvärdet för den här egenskapen är tom sträng Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words för .NET
+description: SignatureLine SignerTitle fast egendom. Hämtar eller ställer in föreslagen undertecknares titel till exempel Manager. Standardvärdet för den här egenskapen ärtom sträng Empty i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Hämtar eller ställer in föreslagen undertecknares titel (till exempel Manager). Standardvärdet för den här egenskapen är **tom sträng** (Empty).
+Hämtar eller ställer in föreslagen undertecknares titel (till exempel Manager). Standardvärdet för den här egenskapen är**tom sträng** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en rad för en signatur och infogar den i ett dokument.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

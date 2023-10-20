@@ -1,7 +1,9 @@
 ---
-title: Class Revision
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Revision klass. Representerar en revision spårad ändring i en dokumentnod eller stil. AnvändRevisionType för att kontrollera typen av denna version.
+title: Revision Class
+linktitle: Revision
+articleTitle: Revision
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Revision klass. Representerar en revision spårad ändring i en dokumentnod eller stil. AnvändRevisionType för att kontrollera typen av denna version i C#.
 type: docs
 weight: 4760
 url: /sv/net/aspose.words/revision/
@@ -34,7 +36,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept/)() | Accepterar denna version. |
 | [Reject](../../aspose.words/revision/reject/)() | Avvisa denna version. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

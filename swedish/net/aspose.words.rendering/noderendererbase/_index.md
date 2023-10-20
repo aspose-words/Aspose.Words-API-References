@@ -1,7 +1,9 @@
 ---
-title: Class NodeRendererBase
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Rendering.NodeRendererBase klass. Basklass förShapeRenderer ochOfficeMathRenderer .
+title: NodeRendererBase Class
+linktitle: NodeRendererBase
+articleTitle: NodeRendererBase
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Rendering.NodeRendererBase klass. Basklass förShapeRenderer ochOfficeMathRenderer  i C#.
 type: docs
 weight: 4550
 url: /sv/net/aspose.words.rendering/noderendererbase/
@@ -28,18 +30,18 @@ public abstract class NodeRendererBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels)(float, float) | Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels_1)(float, float, float) | Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels)(float, float) | Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(float, float, float) | Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(float, float) | Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Gör formen till enGraphics objekt i en angiven skala. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Gör formen till enGraphics objekt till en angiven storlek. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Gör formen till en bild och sparar den i en ström. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Gör formen till en bild och sparar den i en fil. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels)(*float, float*) | Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels_1)(*float, float, float*) | Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels)(*float, float*) | Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(*float, float, float*) | Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(*float, float*) | Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Gör formen till enGraphics objekt i en angiven skala. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Gör formen till enGraphics objekt till en angiven storlek. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Gör formen till en bild och sparar den i en ström. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Gör formen till en bild och sparar den i en fil. |
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -87,5 +89,3 @@ Assert.AreEqual(30, bounds.Height);
 
 * namnutrymme [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../)
-
-

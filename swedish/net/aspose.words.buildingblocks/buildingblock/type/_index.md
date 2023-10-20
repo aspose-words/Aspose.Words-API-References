@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Anger byggblockstyp.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: BuildingBlock Type fast egendom. Anger byggblockstyp i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ Anger byggblockstyp.
 public BuildingBlockType Type { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Byggblockstypen kan påverka synligheten och beteendet hos byggstenen i Microsoft Word.
 
-Motsvarar **docPartPr.types** element i OOXML.
+Motsvarar**docPartPr.types** element i OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

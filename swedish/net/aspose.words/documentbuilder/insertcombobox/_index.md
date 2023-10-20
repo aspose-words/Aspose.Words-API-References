@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett formulärfält i kombinationsrutan på den aktuella positionen.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertComboBox metod. Infogar ett formulärfält i kombinationsrutan på den aktuella positionen i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 Formulärfältsnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Om du anger ett namn för formulärfältet skapas automatiskt ett bokmärke med samma namn.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett formulärfält med kombinationsruta i ett dokument.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Visible
-second_title: Aspose.Words för .NET API Referens
-description: ShadowFormat fast egendom. ReturnerarSann om formateringen som tillämpas på den här instansen är synlig.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words för .NET
+description: ShadowFormat Visible fast egendom. ReturnerarSann om formateringen som tillämpas på den här instansen är synlig i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/shadowformat/visible/
@@ -14,11 +16,11 @@ Returnerar`Sann` om formateringen som tillämpas på den här instansen är synl
 public bool Visible { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Gillar inte[`Clear`](../clear/) , tilldelar`falsk` to Visible rensar inte formateringen, den döljer bara formeffekten.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en skuggformatering för formen.
 
@@ -36,7 +38,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Se även
 
 * class [ShadowFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../shadowformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback gränssnitt. Implementera detta gränssnitt om du vill spåra fältuppdateringsförlopp.
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback gränssnitt. Implementera detta gränssnitt om du vill spåra fältuppdateringsförlopp i C#.
 type: docs
 weight: 2730
 url: /sv/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | En användardefinierad metod som anropas när uppdateringsförloppet ändras. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | En användardefinierad metod som anropas när uppdateringsförloppet ändras. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

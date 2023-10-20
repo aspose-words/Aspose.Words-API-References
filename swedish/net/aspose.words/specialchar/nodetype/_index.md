@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: SpecialChar fast egendom. ReturnerarSpecialChar .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: SpecialChar NodeType fast egendom. ReturnerarSpecialChar  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ ReturnerarSpecialChar .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* namnutrymme [Aspose.Words](../../specialchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Aspose.Words för .NET API Referens
-description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som avgör om rasteroperationerna ska emuleras eller inte.
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: Aspose.Words för .NET
+description: MetafileRenderingOptions EmulateRasterOperations fast egendom. Hämtar eller ställer in ett värde som avgör om rasteroperationerna ska emuleras eller inte i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om rasteroperationerna ska emule
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Specifika rasteroperationer kan användas i metafiler. De kan inte renderas direkt till vektorgrafik. Att emulera rasteroperationer kräver partiell rasterisering av den resulterande vektorgrafiken, vilket kan påverka renderingsprestandan för metafil.
 
@@ -26,7 +28,7 @@ Det här alternativet används endast när metafilen renderas som vektorgrafik.
 
 Standardvärdet är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### Se även
 
 * class [MetafileRenderingOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

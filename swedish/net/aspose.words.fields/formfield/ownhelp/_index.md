@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Anger källan till texten som visas i en meddelanderuta när ett formulärfält har fokus och användaren trycker på F1.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words för .NET
+description: FormField OwnHelp fast egendom. Anger källan till texten som visas i en meddelanderuta när ett formulärfält har fokus och användaren trycker på F1 i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ Anger källan till texten som visas i en meddelanderuta när ett formulärfält 
 public bool OwnHelp { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om`Sann` , texten som anges av[`HelpText`](../helptext/) egenskapen visas. If`falsk` , texten i AutoText-posten som anges av[`HelpText`](../helptext/) egenskapen visas.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

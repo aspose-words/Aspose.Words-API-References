@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. ReturnerarSann om markören är i slutet av det aktuella stycket.
+linktitle: IsAtEndOfParagraph
+articleTitle: IsAtEndOfParagraph
+second_title: Aspose.Words för .NET
+description: DocumentBuilder IsAtEndOfParagraph fast egendom. ReturnerarSann om markören är i slutet av det aktuella stycket i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/documentbuilder/isatendofparagraph/
@@ -14,7 +16,7 @@ Returnerar`Sann` om markören är i slutet av det aktuella stycket.
 public bool IsAtEndOfParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

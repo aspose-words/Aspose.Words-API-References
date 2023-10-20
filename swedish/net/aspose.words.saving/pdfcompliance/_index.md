@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCompliance
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfCompliance uppräkning. Anger överensstämmelsenivån för PDFstandarder.
+title: PdfCompliance Enum
+linktitle: PdfCompliance
+articleTitle: PdfCompliance
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfCompliance uppräkning. Anger överensstämmelsenivån för PDFstandarder i C#.
 type: docs
 weight: 5410
 url: /sv/net/aspose.words.saving/pdfcompliance/
@@ -27,7 +29,7 @@ public enum PdfCompliance
 | PdfA4 | `6` | Utdatafilen kommer att följa standarden PDF/A-4 (ISO 19005-4:2020). PDF/A-4 har som mål att bevara dokumentets statiska visuella utseende över tid, oberoende av verktygen och systemen som används för att skapa , lagra eller rendera filerna. Dessutom kan all text som finns i document extraheras tillförlitligt som en serie Unicode-kodpunkter. |
 | PdfUa1 | `7` | Utdatafilen kommer att följa standarden PDF/UA-1 (ISO 14289-1). Det primära syftet med PDF/UA är att definiera hur elektroniska dokument ska representeras i PDF-formatet på ett sätt som gör att filen kan vara tillgänglig. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in PDF-standardens överensstämmelsenivå för sparade PDF-dokument.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

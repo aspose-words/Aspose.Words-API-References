@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseUmAlQuraCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldPrintDate fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words för .NET
+description: FieldPrintDate UseUmAlQuraCalendar fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Um-al-Qura-kalendern ska användas.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar läs PRINTDATE-fält.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Se även
 
 * class [FieldPrintDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldprintdate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

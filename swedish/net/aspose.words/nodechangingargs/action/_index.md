@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Action
-second_title: Aspose.Words för .NET API Referens
-description: NodeChangingArgs fast egendom. Får ett värde som indikerar vilken typ av nodändringshändelse som inträffar.
+linktitle: Action
+articleTitle: Action
+second_title: Aspose.Words för .NET
+description: NodeChangingArgs Action fast egendom. Får ett värde som indikerar vilken typ av nodändringshändelse som inträffar i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodechangingargs/action/
@@ -14,7 +16,7 @@ Får ett värde som indikerar vilken typ av nodändringshändelse som inträffar
 public NodeChangingAction Action { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * enum [NodeChangingAction](../../nodechangingaction/)
 * class [NodeChangingArgs](../)
-* namnutrymme [Aspose.Words](../../nodechangingargs/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

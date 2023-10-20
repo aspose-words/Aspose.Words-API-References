@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar enFramesetinstans om detta dokument representerar en ramsida.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words för .NET
+description: Document Frameset fast egendom. Returnerar enFramesetinstans om detta dokument representerar en ramsida i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ Returnerar en`Frameset`instans om detta dokument representerar en ramsida.
 public Frameset Frameset { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om dokumentet inte är inramat har egenskapen`null` värde.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ramar på sidan.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

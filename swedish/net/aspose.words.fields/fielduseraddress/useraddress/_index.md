@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Aspose.Words för .NET API Referens
-description: FieldUserAddress fast egendom. Hämtar eller ställer in den aktuella användarens postadress.
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: Aspose.Words för .NET
+description: FieldUserAddress UserAddress fast egendom. Hämtar eller ställer in den aktuella användarens postadress i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den aktuella användarens postadress.
 public string UserAddress { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder fältet ANVÄNDARADRESS.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### Se även
 
 * class [FieldUserAddress](../)
-* namnutrymme [Aspose.Words.Fields](../../fielduseraddress/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

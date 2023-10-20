@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.WebExtension klass. Representerar ett webbtilläggsobjekt.
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.WebExtension klass. Representerar ett webbtilläggsobjekt i C#.
 type: docs
 weight: 6740
 url: /sv/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Representerar en uppsättning anpassade egenskaper för webbtillägg. |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Anger den primära referensen till ett webbtillägg. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

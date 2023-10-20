@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger kolumnen i datakällan som innehåller epostadresser. Standardvärdet är en tom sträng.
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: Aspose.Words för .NET
+description: MailMergeSettings AddressFieldName fast egendom. Anger kolumnen i datakällan som innehåller epostadresser. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ Anger kolumnen i datakällan som innehåller e-postadresser. Standardvärdet är
 public string AddressFieldName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

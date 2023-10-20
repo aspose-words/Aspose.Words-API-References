@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Value
-second_title: Aspose.Words för .NET API Referens
-description: AxisBound fast egendom. Returnerar numeriskt värde för axelgräns.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words för .NET
+description: AxisBound Value fast egendom. Returnerar numeriskt värde för axelgräns i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/axisbound/value/
@@ -14,7 +16,7 @@ Returnerar numeriskt värde för axelgräns.
 public double Value { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in anpassade axelgränser.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Se även
 
 * class [AxisBound](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Themes.ThemeColor uppräkning. Anger temafärgerna för dokumentteman.
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Themes.ThemeColor uppräkning. Anger temafärgerna för dokumentteman i C#.
 type: docs
 weight: 6470
 url: /sv/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | Bakgrundsfärg 1. |
 | Background2 | `15` | Bakgrundsfärg 2. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den angivna temafärgen är en referens till en av de fördefinierade temafärgerna, som finns i dokumentets temadel, vilket gör att färginformation kan ställas in centralt i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och använder stil med teman.
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * namnutrymme [Aspose.Words.Themes](../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../)
-
-

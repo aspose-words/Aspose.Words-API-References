@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. Hämtar föräldernParagraph av denna nod.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words för .NET
+description: Inline ParentParagraph fast egendom. Hämtar föräldernParagraph av denna nod i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ Hämtar föräldern[`Paragraph`](../../paragraph/) av denna nod.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* namnutrymme [Aspose.Words](../../inline/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

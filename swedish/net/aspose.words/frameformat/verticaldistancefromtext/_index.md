@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Anger vertikalt avstånd i punkter mellan en ram och den omgivande texten.
+linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
+second_title: Aspose.Words för .NET
+description: FrameFormat VerticalDistanceFromText fast egendom. Anger vertikalt avstånd i punkter mellan en ram och den omgivande texten i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/frameformat/verticaldistancefromtext/
@@ -14,7 +16,7 @@ Anger vertikalt avstånd (i punkter) mellan en ram och den omgivande texten.
 public double VerticalDistanceFromText { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Se även
 
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

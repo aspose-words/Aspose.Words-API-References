@@ -1,12 +1,14 @@
 ---
 title: Border.Equals
-second_title: Aspose.Words för .NET API Referens
-description: Border metod. Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words för .NET
+description: Border Equals metod. Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
 Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen.
 
@@ -14,7 +16,7 @@ Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen.
 public bool Equals(Border rhs)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur gränssamlingar kan dela element.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
 
@@ -69,7 +71,7 @@ Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
 public override bool Equals(object obj)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur gränssamlingar kan dela element.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

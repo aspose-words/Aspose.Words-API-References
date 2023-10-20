@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings fast egendom. Inställningar relaterade till teckensnittsersättningsmekanism.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words för .NET
+description: FontSettings SubstitutionSettings fast egendom. Inställningar relaterade till teckensnittsersättningsmekanism i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ Inställningar relaterade till teckensnittsersättningsmekanism.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

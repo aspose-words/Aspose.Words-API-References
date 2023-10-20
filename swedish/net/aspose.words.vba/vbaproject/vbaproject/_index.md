@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Aspose.Words för .NET API Referens
-description: VbaProject byggare. Skapar en tomVbaProject .
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words för .NET
+description: VbaProject byggare. Skapar en tomVbaProject  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ Skapar en tom[`VbaProject`](../) .
 public VbaProject()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett VBA-projekt med hjälp av makron.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Se även
 
 * class [VbaProject](../)
-* namnutrymme [Aspose.Words.Vba](../../vbaproject/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: XpsSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iXps format.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words för .NET
+description: XpsSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iXps format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett docu
 public XpsSaveOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar rubrikernas nivå som visas i konturerna av ett sparat XPS-dokument.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### Se även
 
 * class [XpsSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xpssaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initierar en ny instans av denna klass som kan användas för att spara ett document iXps ellerOpenXps format.
 
@@ -70,7 +72,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett docu
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument i XPS-format i form av en bokvikning.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xpssaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

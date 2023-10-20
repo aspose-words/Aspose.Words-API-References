@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientData fast egendom. Anger innehållet i en given post i kolumnen som innehåller unika data. Standardvärdet ärnull .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words för .NET
+description: OdsoRecipientData UniqueTag fast egendom. Anger innehållet i en given post i kolumnen som innehåller unika data. Standardvärdet ärnull  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ Anger innehållet i en given post i kolumnen som innehåller unika data. Standar
 public byte[] UniqueTag { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. True anger att oldValue måste vara ett fristående ord.
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions FindWholeWordsOnly fast egendom. True anger att oldValue måste vara ett fristående ord i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ True anger att oldValue måste vara ett fristående ord.
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du växlar fristående sök-och-ersätt-operationer för endast ord.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

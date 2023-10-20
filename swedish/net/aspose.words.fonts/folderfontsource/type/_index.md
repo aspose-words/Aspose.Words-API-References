@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.Type
-second_title: Aspose.Words för .NET API Referens
-description: FolderFontSource fast egendom. Returnerar typen av teckensnittskälla.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: FolderFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/folderfontsource/type/
@@ -14,7 +16,7 @@ Returnerar typen av teckensnittskälla.
 public override FontSourceType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en lokal systemmapp som innehåller teckensnitt som teckensnittskälla.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FolderFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../folderfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

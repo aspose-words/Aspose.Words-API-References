@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Rensar oanvända stilar och listor från dokumentet.
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: Aspose.Words för .NET
+description: Document Cleanup metod. Rensar oanvända stilar och listor från dokumentet i C#.
 type: docs
-weight: 560
+weight: 540
 url: /sv/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ Rensar oanvända stilar och listor från dokumentet.
 public void Cleanup()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort oanvända anpassade stilar från ett dokument.
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Rensar oanvända stilar och listor från dokumentet beroende på givet[`CleanupOptions`](../../cleanupoptions/) .
 
@@ -69,7 +71,7 @@ Rensar oanvända stilar och listor från dokumentet beroende på givet[`CleanupO
 public void Cleanup(CleanupOptions options)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla oanvända anpassade stilar från ett dokument.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

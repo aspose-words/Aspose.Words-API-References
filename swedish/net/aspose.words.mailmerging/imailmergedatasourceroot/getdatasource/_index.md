@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Aspose.Words för .NET API Referens
-description: IMailMergeDataSourceRoot metod. Aspose.Words kopplingsmotor använder den här metoden när den stöter på början av en kopplingsregion på toppnivå.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words för .NET
+description: IMailMergeDataSourceRoot GetDataSource metod. Aspose.Words kopplingsmotor använder den här metoden när den stöter på början av en kopplingsregion på toppnivå i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Ett datakällaobjekt som ger åtkomst till dataposterna i den angivna tabellen.
 
-### Anmärkningar
+## Anmärkningar
 
 När kopplingsmotorerna Aspose.Words fyller ett dokument med data och stöter på MERGEFIELD TableStart:TableName, anropar det`GetDataSource` på detta föremål. Din implementering måste returnera ett nytt datakällobjekt. Aspose.Words kommer att använda den returnerade datakällan för att fylla i kopplingsområdet.
 
 Om en datakälla (tabell) med det angivna namnet inte finns, bör din implementering returnera`null` .
 
-### Exempel
+## Exempel
 
 Utför sammanslagning från en anpassad datakälla med huvuddetaljdata.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

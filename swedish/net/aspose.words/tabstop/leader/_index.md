@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Aspose.Words för .NET API Referens
-description: TabStop fast egendom. Hämtar eller ställer in typen av ledarraden som visas under tabbtecknet.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words för .NET
+description: TabStop Leader fast egendom. Hämtar eller ställer in typen av ledarraden som visas under tabbtecknet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ Hämtar eller ställer in typen av ledarraden som visas under tabbtecknet.
 public TabLeader Leader { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* namnutrymme [Aspose.Words](../../tabstop/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

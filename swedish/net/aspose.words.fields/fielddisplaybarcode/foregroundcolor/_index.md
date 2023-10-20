@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ForegroundColor
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in förgrundsfärgen för streckkodssymbolen. Giltiga värden ligger inom intervallet 0 0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode ForegroundColor fast egendom. Hämtar eller ställer in förgrundsfärgen för streckkodssymbolen. Giltiga värden ligger inom intervallet 0 0xFFFFFF i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in förgrundsfärgen för streckkodssymbolen. Giltiga vä
 public string ForegroundColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

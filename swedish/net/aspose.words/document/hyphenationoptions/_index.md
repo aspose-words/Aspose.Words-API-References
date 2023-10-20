@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Ger tillgång till alternativ för dokumentavstavning.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words för .NET
+description: Document HyphenationOptions fast egendom. Ger tillgång till alternativ för dokumentavstavning i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ Ger tillgång till alternativ för dokumentavstavning.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar automatisk avstavning.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.Transparency
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Hämtar eller ställer in ett värde mellan 00 opak och 10 clear som representerar graden av transparens för linjen.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words för .NET
+description: Stroke Transparency fast egendom. Hämtar eller ställer in ett värde mellan 00 opak och 10 clear som representerar graden av transparens för linjen i C#.
 type: docs
-weight: 200
+weight: 190
 url: /sv/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde mellan 0,0 (opak) och 1,0 (clear) som repre
 public double Transparency { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 0.
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

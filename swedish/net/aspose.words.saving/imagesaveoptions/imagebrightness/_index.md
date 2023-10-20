@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageBrightness
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in ljusstyrkan för de genererade bilderna.
+linktitle: ImageBrightness
+articleTitle: ImageBrightness
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions ImageBrightness fast egendom. Hämtar eller ställer in ljusstyrkan för de genererade bilderna i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/imagesaveoptions/imagebrightness/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ljusstyrkan för de genererade bilderna.
 public float ImageBrightness { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du sparar i rasterbildsformat.
 
 Standardvärdet är 0,5. Värdet måste ligga i intervallet mellan 0 och 1.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar bilden medan Aspose.Words konverterar ett dokument till ett.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Aspose.Words för .NET API Referens
-description: TextWatermarkOptions fast egendom. Hämtar eller ställer in layouten för vattenstämpeln. Standardvärdet ärDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words för .NET
+description: TextWatermarkOptions Layout fast egendom. Hämtar eller ställer in layouten för vattenstämpeln. Standardvärdet ärDiagonal  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ Hämtar eller ställer in layouten för vattenstämpeln. Standardvärdet ärDiag
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* namnutrymme [Aspose.Words](../../textwatermarkoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

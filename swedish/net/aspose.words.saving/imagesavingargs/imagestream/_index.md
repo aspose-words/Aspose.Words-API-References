@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Aspose.Words för .NET API Referens
-description: ImageSavingArgs fast egendom. Tillåter att ange strömmen där bilden ska sparas.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words för .NET
+description: ImageSavingArgs ImageStream fast egendom. Tillåter att ange strömmen där bilden ska sparas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ Tillåter att ange strömmen där bilden ska sparas.
 public Stream ImageStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig spara bilder i strömmar istället för filer under HTML.
 
@@ -22,7 +24,7 @@ Standardvärdet är`null` . När denna fastighet är`null` , kommer bilden att s
 
 Använder sig av[`IImageSavingCallback`](../../iimagesavingcallback/) du kan inte ersätta en bild med en annan. Den är endast avsedd för kontroll över var bilderna ska sparas.
 
-### Exempel
+## Exempel
 
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Se även
 
 * class [ImageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

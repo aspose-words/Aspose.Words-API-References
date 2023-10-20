@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. Hämtar eller ställer in fältets värde från datakällan.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase FieldValue fast egendom. Hämtar eller ställer in fältets värde från datakällan i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ Hämtar eller ställer in fältets värde från datakällan.
 public object FieldValue { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen innehåller ett värde som just har valts från din datakälla för det här fältet av kopplingsmotorn. Du kan också ersätta värdet genom att ställa in egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar värden som MERGEFIELDs tar emot när en e-postsammanslagning sker.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### Se även
 
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

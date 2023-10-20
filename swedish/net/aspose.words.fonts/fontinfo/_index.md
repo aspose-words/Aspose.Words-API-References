@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontInfo klass. Anger information om ett teckensnitt som används i dokumentet.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontInfo klass. Anger information om ett teckensnitt som används i dokumentet i C#.
 type: docs
 weight: 2920
 url: /sv/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Får en specifik inbäddad teckensnittsfil. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Hämtar en inbäddad teckensnittsfil i OpenType-format. Teckensnitt i Embedded OpenType-format konverteras till OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Får en specifik inbäddad teckensnittsfil. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Hämtar en inbäddad teckensnittsfil i OpenType-format. Teckensnitt i Embedded OpenType-format konverteras till OpenType. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du skapar inte instanser av den här klassen direkt. Använd[`FontInfos`](../../aspose.words/documentbase/fontinfos/) egenskap för att komma åt samlingen av teckensnitt definierade i ett dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om vilka typsnitt som finns i ett dokument.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

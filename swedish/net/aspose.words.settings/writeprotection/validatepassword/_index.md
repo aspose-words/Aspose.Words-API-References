@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ValidatePassword
-second_title: Aspose.Words för .NET API Referens
-description: WriteProtection metod. ReturnerarSann om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returnerasfalsk .
+linktitle: ValidatePassword
+articleTitle: ValidatePassword
+second_title: Aspose.Words för .NET
+description: WriteProtection ValidatePassword metod. ReturnerarSann om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returnerasfalsk  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/writeprotection/validatepassword/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det angivna lösenordet är detsamma som skrivskyddslösenor
 public bool ValidatePassword(string password)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar ett dokument med ett lösenord.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Se även
 
 * class [WriteProtection](../)
-* namnutrymme [Aspose.Words.Settings](../../writeprotection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenationZone
-second_title: Aspose.Words för .NET API Referens
-description: HyphenationOptions fast egendom. Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 025 tum.
+linktitle: HyphenationZone
+articleTitle: HyphenationZone
+second_title: Aspose.Words för .NET
+description: HyphenationOptions HyphenationZone fast egendom. Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 025 tum i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
@@ -14,7 +16,7 @@ Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen i
 public int HyphenationZone { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar automatisk avstavning.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Se även
 
 * class [HyphenationOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../hyphenationoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Hämtar eller ställer in teckenuppsättningen för teckensnittet.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words för .NET
+description: FontInfo Charset fast egendom. Hämtar eller ställer in teckenuppsättningen för teckensnittet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenuppsättningen för teckensnittet.
 public int Charset { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Se även
 
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

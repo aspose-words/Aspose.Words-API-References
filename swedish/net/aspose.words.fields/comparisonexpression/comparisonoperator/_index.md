@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Aspose.Words för .NET API Referens
-description: ComparisonExpression fast egendom. Hämtar jämförelseoperatorn.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words för .NET
+description: ComparisonExpression ComparisonOperator fast egendom. Hämtar jämförelseoperatorn i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ Hämtar jämförelseoperatorn.
 public string ComparisonOperator { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Se även
 
 * class [ComparisonExpression](../)
-* namnutrymme [Aspose.Words.Fields](../../comparisonexpression/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

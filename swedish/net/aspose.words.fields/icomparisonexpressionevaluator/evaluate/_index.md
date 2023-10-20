@@ -1,7 +1,9 @@
 ---
 title: IComparisonExpressionEvaluator.Evaluate
-second_title: Aspose.Words för .NET API Referens
-description: IComparisonExpressionEvaluator metod. Utvärderar jämförelseuttryck.
+linktitle: Evaluate
+articleTitle: Evaluate
+second_title: Aspose.Words för .NET
+description: IComparisonExpressionEvaluator Evaluate metod. Utvärderar jämförelseuttryck i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
@@ -14,7 +16,7 @@ Utvärderar jämförelseuttryck.
 public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Implementeringen bör återkomma`null` för att indikera att standardutvärderingen ska utföras.
 
@@ -24,7 +26,5 @@ Implementeringen bör återkomma`null` för att indikera att standardutvärderin
 * class [Field](../../field/)
 * class [ComparisonExpression](../../comparisonexpression/)
 * interface [IComparisonExpressionEvaluator](../)
-* namnutrymme [Aspose.Words.Fields](../../icomparisonexpressionevaluator/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

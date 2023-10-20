@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Anger skalningsvärdet för visningsenheterna för värdeaxeln.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words för .NET
+description: ChartAxis DisplayUnit fast egendom. Anger skalningsvärdet för visningsenheterna för värdeaxeln i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ Anger skalningsvärdet för visningsenheterna för värdeaxeln.
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har endast effekt för värdeaxlar.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

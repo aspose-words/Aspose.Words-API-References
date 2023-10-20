@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane fast egendom. Anger standardbreddvärdet för den här uppgiftsrutans instans.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words för .NET
+description: TaskPane Width fast egendom. Anger standardbreddvärdet för den här uppgiftsrutans instans i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ Anger standardbreddvärdet för den här uppgiftsrutans instans.
 public double Width { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
-second_title: Aspose.Words för .NET API Referens
-description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som avgör om GDI ska användas eller inte för emulering av rasteroperationer.
+linktitle: UseGdiRasterOperationsEmulation
+articleTitle: UseGdiRasterOperationsEmulation
+second_title: Aspose.Words för .NET
+description: MetafileRenderingOptions UseGdiRasterOperationsEmulation fast egendom. Hämtar eller ställer in ett värde som avgör om GDI ska användas eller inte för emulering av rasteroperationer i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om GDI+ ska användas eller inte
 public bool UseGdiRasterOperationsEmulation { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Windows GDI+-bibliotek kan användas för att emulera rasteroperationer. Det ger stöd för all raster operation jämfört med Aspose.Words egen emulering men prestandan kan vara långsammare i vissa fall.
 
@@ -26,7 +28,7 @@ Det här alternativet används endast när metafilen renderas som vektorgrafik.
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in renderingsläget när du sparar dokument med Windows Metafile-bilder till andra bildformat.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ### Se även
 
 * class [MetafileRenderingOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

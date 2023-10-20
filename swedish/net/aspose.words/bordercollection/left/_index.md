@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Får den vänstra kanten.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words för .NET
+description: BorderCollection Left fast egendom. Får den vänstra kanten i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ Får den vänstra kanten.
 public Border Left { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar kant- och skuggfärg när man bygger ett bord.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

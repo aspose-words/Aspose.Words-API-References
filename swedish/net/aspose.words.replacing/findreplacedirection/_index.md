@@ -1,7 +1,9 @@
 ---
-title: Enum FindReplaceDirection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Replacing.FindReplaceDirection uppräkning. Anger riktning för ersättningsoperationer.
+title: FindReplaceDirection Enum
+linktitle: FindReplaceDirection
+articleTitle: FindReplaceDirection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Replacing.FindReplaceDirection uppräkning. Anger riktning för ersättningsoperationer i C#.
 type: docs
 weight: 4610
 url: /sv/net/aspose.words.replacing/findreplacedirection/
@@ -21,7 +23,7 @@ public enum FindReplaceDirection
 | Forward | `0` | Matchade objekt ersätts från första till sista. |
 | Backward | `1` | Matchade objekt ersätts från sista tillbaka till första. |
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer i vilken riktning en sök-och-ersätt-operation korsar dokumentet.
 
@@ -88,5 +90,3 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * namnutrymme [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../)
-
-

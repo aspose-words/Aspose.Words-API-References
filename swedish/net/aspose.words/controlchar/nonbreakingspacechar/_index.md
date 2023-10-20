@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpaceChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Nonbreaking space character char160.
+linktitle: NonBreakingSpaceChar
+articleTitle: NonBreakingSpaceChar
+second_title: Aspose.Words för .NET
+description: ControlChar NonBreakingSpaceChar fält. Nonbreaking space character char160 i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/controlchar/nonbreakingspacechar/
@@ -14,7 +16,7 @@ Non-breaking space character: (char)160.
 public const char NonBreakingSpaceChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

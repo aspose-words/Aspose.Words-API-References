@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar den vertikala gränsen som används mellan celler.
+linktitle: Vertical
+articleTitle: Vertical
+second_title: Aspose.Words för .NET
+description: BorderCollection Vertical fast egendom. Hämtar den vertikala gränsen som används mellan celler i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ Hämtar den vertikala gränsen som används mellan celler.
 public Border Vertical { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar inställningar på vertikala ramar på en tabellrads format.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

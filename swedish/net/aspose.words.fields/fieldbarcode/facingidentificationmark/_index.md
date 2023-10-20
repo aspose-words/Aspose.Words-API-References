@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.FacingIdentificationMark
-second_title: Aspose.Words för .NET API Referens
-description: FieldBarcode fast egendom. Hämtar eller ställer in typen av ett Facing Identification Mark FIM som ska infogas.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words för .NET
+description: FieldBarcode FacingIdentificationMark fast egendom. Hämtar eller ställer in typen av ett Facing Identification Mark FIM som ska infogas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
@@ -14,7 +16,7 @@ Hämtar eller ställer in typen av ett Facing Identification Mark (FIM) som ska 
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder streckkodsfältet för att visa amerikanska postnummer i form av en streckkod.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Se även
 
 * class [FieldBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

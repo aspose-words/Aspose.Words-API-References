@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Ger tillgång till teckensnittsformateringen för denna dataetikett.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ChartDataLabel Font fast egendom. Ger tillgång till teckensnittsformateringen för denna dataetikett i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ Ger tillgång till teckensnittsformateringen för denna dataetikett.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder 3D-effekter med bubbeldiagram.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions uppräkning. Anger tillgängliga alternativ för hantering av efterföljande utrymmen under import frånText fil.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions uppräkning. Anger tillgängliga alternativ för hantering av efterföljande utrymmen under import frånText fil i C#.
 type: docs
 weight: 3740
 url: /sv/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### Exempel
+## Exempel
 
 Visar hur man beskär blanktecken när du laddar dokument i klartext.
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

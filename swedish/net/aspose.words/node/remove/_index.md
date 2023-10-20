@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Tar bort sig själv från föräldern.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: Node Remove metod. Tar bort sig själv från föräldern i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ Tar bort sig själv från föräldern.
 public void Remove()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla former med bilder från ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

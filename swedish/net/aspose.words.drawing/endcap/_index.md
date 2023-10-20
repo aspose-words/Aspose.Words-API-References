@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.EndCap uppräkning. Anger linjekapsstil.
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.EndCap uppräkning. Anger linjekapsstil i C#.
 type: docs
 weight: 940
 url: /sv/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | Linjen slutar vid ändpunkten. |
 | Default | `2` | Standardvärdet ärFlat . |
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.AcceptAllRevisions
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Accepterar alla spårade ändringar i dokumentet.
+linktitle: AcceptAllRevisions
+articleTitle: AcceptAllRevisions
+second_title: Aspose.Words för .NET
+description: Document AcceptAllRevisions metod. Accepterar alla spårade ändringar i dokumentet i C#.
 type: docs
 weight: 520
 url: /sv/net/aspose.words/document/acceptallrevisions/
@@ -14,11 +16,11 @@ Accepterar alla spårade ändringar i dokumentet.
 public void AcceptAllRevisions()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod är en genväg för[`AcceptAll`](../../revisioncollection/acceptall/).
 
-### Exempel
+## Exempel
 
 Visar hur du accepterar alla spårningsändringar i dokumentet.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetTe
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

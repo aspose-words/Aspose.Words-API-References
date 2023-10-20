@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar den horisontella ram som används mellan celler eller överensstämmande stycken.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words för .NET
+description: BorderCollection Horizontal fast egendom. Hämtar den horisontella ram som används mellan celler eller överensstämmande stycken i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ Hämtar den horisontella ram som används mellan celler eller överensstämmande
 public Border Horizontal { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar inställningar på horisontella ramar på ett styckes format.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

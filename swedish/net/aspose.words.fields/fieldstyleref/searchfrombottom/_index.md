@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SearchFromBottom
-second_title: Aspose.Words för .NET API Referens
-description: FieldStyleRef fast egendom. Hämtar eller ställer in om det ska sökas längst ned på den aktuella sidan snarare från toppen.
+linktitle: SearchFromBottom
+articleTitle: SearchFromBottom
+second_title: Aspose.Words för .NET
+description: FieldStyleRef SearchFromBottom fast egendom. Hämtar eller ställer in om det ska sökas längst ned på den aktuella sidan snarare från toppen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldstyleref/searchfrombottom/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det ska sökas längst ned på den aktuella sidan, 
 public bool SearchFromBottom { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder STYLEREF-fält.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Se även
 
 * class [FieldStyleRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstyleref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapDataCollection fast egendom. Hämtar eller ställer in ett objekt i den här samlingen.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapDataCollection Item fast egendom. Hämtar eller ställer in ett objekt i den här samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett objekt i den här samlingen.
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

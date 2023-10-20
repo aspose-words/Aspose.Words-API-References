@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeriesCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ChartSeriesCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt.
 public IEnumerator<ChartSeries> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort seriedata i ett diagram.
 
@@ -62,7 +64,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

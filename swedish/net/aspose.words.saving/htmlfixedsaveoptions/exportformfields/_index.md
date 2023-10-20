@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Hämtar eller ställer in en indikation på om formulärfält exporteras som interactive objekt som inputtagg snarare än omvandlas till text eller grafik.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions ExportFormFields fast egendom. Hämtar eller ställer in en indikation på om formulärfält exporteras som interactive objekt som inputtagg snarare än omvandlas till text eller grafik i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en indikation på om formulärfält exporteras som int
 public bool ExportFormFields { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man exporterar formulärfält till HTML.
 
@@ -56,7 +58,5 @@ else
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

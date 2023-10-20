@@ -1,7 +1,9 @@
 ---
-title: Enum PdfFontEmbeddingMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfFontEmbeddingMode uppräkning. Anger hur Aspose.Words ska bädda in teckensnitt.
+title: PdfFontEmbeddingMode Enum
+linktitle: PdfFontEmbeddingMode
+articleTitle: PdfFontEmbeddingMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfFontEmbeddingMode uppräkning. Anger hur Aspose.Words ska bädda in teckensnitt i C#.
 type: docs
 weight: 5470
 url: /sv/net/aspose.words.saving/pdffontembeddingmode/
@@ -22,7 +24,7 @@ public enum PdfFontEmbeddingMode
 | EmbedNonstandard | `1` | Aspose.Words bäddar in alla typsnitt utom standard Windows-teckensnitt Arial och Times New Roman. Endast Arial och Times New Roman-teckensnitt påverkas i det här läget eftersom MS Word inte bäddar in bara dessa teckensnitt när dokument sparas till PDF. |
 | EmbedNone | `2` | Aspose.Words bäddar inte in några teckensnitt. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in Aspose.Words för att hoppa över att bädda in Arial- och Times New Roman-teckensnitt i ett PDF-dokument.
 
@@ -68,5 +70,3 @@ switch (pdfFontEmbeddingMode)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

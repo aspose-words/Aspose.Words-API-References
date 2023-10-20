@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TabAlignment uppräkning. Anger justeringen/typen av ett tabbstopp.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TabAlignment uppräkning. Anger justeringen/typen av ett tabbstopp i C#.
 type: docs
 weight: 6180
 url: /sv/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

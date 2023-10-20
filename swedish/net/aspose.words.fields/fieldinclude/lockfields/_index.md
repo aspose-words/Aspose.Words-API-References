@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.LockFields
-second_title: Aspose.Words för .NET API Referens
-description: FieldInclude fast egendom. Hämtar eller ställer in om fält i det inkluderade dokumentet ska förhindras från att uppdateras.
+linktitle: LockFields
+articleTitle: LockFields
+second_title: Aspose.Words för .NET
+description: FieldInclude LockFields fast egendom. Hämtar eller ställer in om fält i det inkluderade dokumentet ska förhindras från att uppdateras i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldinclude/lockfields/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om fält i det inkluderade dokumentet ska förhindras 
 public bool LockFields { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INKLUDERA-fält och ställer in dess egenskaper.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Se även
 
 * class [FieldInclude](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldinclude/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

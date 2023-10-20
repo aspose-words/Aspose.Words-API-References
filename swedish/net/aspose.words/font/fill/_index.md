@@ -1,7 +1,9 @@
 ---
 title: Font.Fill
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Får fyllningsformatering förFont .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words för .NET
+description: Font Fill fast egendom. Får fyllningsformatering förFont  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/font/fill/
@@ -18,7 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

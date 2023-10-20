@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldNoteRef fast egendom. Hämtar eller ställer in namnet på bokmärket.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldNoteRef BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket.
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga NOTEREF-fält och ändra deras utseende.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Se även
 
 * class [FieldNoteRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldnoteref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

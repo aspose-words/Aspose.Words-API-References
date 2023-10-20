@@ -1,7 +1,9 @@
 ---
 title: Cell.IsLastCell
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Sant om detta är den sista cellen i en rad falskt annars.
+linktitle: IsLastCell
+articleTitle: IsLastCell
+second_title: Aspose.Words för .NET
+description: Cell IsLastCell fast egendom. Sant om detta är den sista cellen i en rad falskt annars i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.tables/cell/islastcell/
@@ -14,7 +16,7 @@ Sant om detta är den sista cellen i en rad; falskt annars.
 public bool IsLastCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Se även
 
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen ärfalsk.
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: Aspose.Words för .NET
+description: FontInfoCollection EmbedSystemFonts fast egendom. Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen ärfalsk i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -16,13 +18,13 @@ Det här alternativet fungerar endast när[`EmbedTrueTypeFonts`](../embedtruetyp
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ställer in den här egenskapen till`Sann`är användbart om användaren är på ett östasiatiskt system och vill skapa ett dokument som är läsbart för andra som inte har teckensnitt för that -språket på sitt system. En användare på ett japanskt system kan till exempel välja att bädda in teckensnitten i ett dokument så att det japanska dokumentet är läsbart på alla system.
 
 Det här alternativet fungerar endast för DOC-, DOCX- och RTF-format.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument med inbäddade TrueType-teckensnitt.
 
@@ -45,7 +47,5 @@ else
 ### Se även
 
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

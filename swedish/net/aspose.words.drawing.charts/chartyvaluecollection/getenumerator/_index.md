@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ChartYValueCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ChartYValueCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartYValue> GetEnumerator()
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

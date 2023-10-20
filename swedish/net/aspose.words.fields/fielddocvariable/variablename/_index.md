@@ -1,7 +1,9 @@
 ---
 title: FieldDocVariable.VariableName
-second_title: Aspose.Words för .NET API Referens
-description: FieldDocVariable fast egendom. Hämtar eller ställer in namnet på dokumentvariabeln som ska hämtas.
+linktitle: VariableName
+articleTitle: VariableName
+second_title: Aspose.Words för .NET
+description: FieldDocVariable VariableName fast egendom. Hämtar eller ställer in namnet på dokumentvariabeln som ska hämtas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fielddocvariable/variablename/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på dokumentvariabeln som ska hämtas.
 public string VariableName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder DOCPROPERTY-fält för att visa dokumentegenskaper och variabler.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
 ### Se även
 
 * class [FieldDocVariable](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddocvariable/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

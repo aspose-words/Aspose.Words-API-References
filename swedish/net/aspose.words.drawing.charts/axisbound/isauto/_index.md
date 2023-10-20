@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Aspose.Words för .NET API Referens
-description: AxisBound fast egendom. Returnerar en flagga som indikerar att axelgränsen ska bestämmas automatiskt.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words för .NET
+description: AxisBound IsAuto fast egendom. Returnerar en flagga som indikerar att axelgränsen ska bestämmas automatiskt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ Returnerar en flagga som indikerar att axelgränsen ska bestämmas automatiskt.
 public bool IsAuto { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in anpassade axelgränser.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Se även
 
 * class [AxisBound](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

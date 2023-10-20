@@ -1,7 +1,9 @@
 ---
 title: Document.HasMacros
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. ReturnerarSann om dokumentet har ett VBAprojekt makron.
+linktitle: HasMacros
+articleTitle: HasMacros
+second_title: Aspose.Words för .NET
+description: Document HasMacros fast egendom. ReturnerarSann om dokumentet har ett VBAprojekt makron i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/document/hasmacros/
@@ -14,7 +16,7 @@ Returnerar`Sann` om dokumentet har ett VBA-projekt (makron).
 public bool HasMacros { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MACROBUTTON-fält för att tillåta oss att köra ett dokuments makron genom att klicka.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

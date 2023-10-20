@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontSourceBase klass. Detta är en abstrakt basklass för klasserna som låter användaren specificera olika teckensnittskällor.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontSourceBase klass. Detta är en abstrakt basklass för klasserna som låter användaren specificera olika teckensnittskällor i C#.
 type: docs
 weight: 2980
 url: /sv/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

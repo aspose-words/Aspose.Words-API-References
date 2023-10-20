@@ -1,7 +1,9 @@
 ---
-title: FieldDate.FieldDate
-second_title: Aspose.Words för .NET API Referens
-description: FieldDate byggare. Default_Constructor
+title: FieldDate
+linktitle: FieldDate
+articleTitle: FieldDate
+second_title: Aspose.Words för .NET
+description: FieldDate byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fielddate/fielddate/
@@ -17,7 +19,5 @@ public FieldDate()
 ### Se även
 
 * class [FieldDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

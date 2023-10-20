@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.LeftOffset
-second_title: Aspose.Words för .NET API Referens
-description: FieldAdvance fast egendom. Hämtar eller ställer in antalet punkter med vilka texten som följer efter fältet ska flyttas åt vänster.
+linktitle: LeftOffset
+articleTitle: LeftOffset
+second_title: Aspose.Words för .NET
+description: FieldAdvance LeftOffset fast egendom. Hämtar eller ställer in antalet punkter med vilka texten som följer efter fältet ska flyttas åt vänster i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldadvance/leftoffset/
@@ -14,7 +16,7 @@ Hämtar eller ställer in antalet punkter med vilka texten som följer efter fä
 public string LeftOffset { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett ADVANCE-fält och redigerar dess egenskaper.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Se även
 
 * class [FieldAdvance](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldadvance/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

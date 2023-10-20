@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in teckenbreddsskalning i procent.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words för .NET
+description: Font Scaling fast egendom. Hämtar eller ställer in teckenbreddsskalning i procent i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenbreddsskalning i procent.
 public int Scaling { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in horisontell skalning och avstånd för tecken.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

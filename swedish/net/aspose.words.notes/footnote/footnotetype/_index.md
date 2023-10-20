@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Aspose.Words för .NET API Referens
-description: Footnote fast egendom. Returnerar ett värde som anger om detta är en fotnot eller slutnot.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words för .NET
+description: Footnote FootnoteType fast egendom. Returnerar ett värde som anger om detta är en fotnot eller slutnot i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ Returnerar ett värde som anger om detta är en fotnot eller slutnot.
 public FootnoteType FootnoteType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar skillnaden mellan fotnoter och slutnoter.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* namnutrymme [Aspose.Words.Notes](../../footnote/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

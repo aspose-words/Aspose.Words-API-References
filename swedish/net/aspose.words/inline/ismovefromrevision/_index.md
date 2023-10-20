@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveFromRevision
-second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words för .NET
+description: Inline IsMoveFromRevision fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/inline/ismovefromrevision/
@@ -14,7 +16,7 @@ Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word meda
 public bool IsMoveFromRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Se även
 
 * class [Inline](../)
-* namnutrymme [Aspose.Words](../../inline/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

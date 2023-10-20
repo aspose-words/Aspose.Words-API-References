@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Tillåter att ange strömmen där teckensnittet ska sparas.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words för .NET
+description: FontSavingArgs FontStream fast egendom. Tillåter att ange strömmen där teckensnittet ska sparas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ Tillåter att ange strömmen där teckensnittet ska sparas.
 public Stream FontStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig spara teckensnitt i strömmar istället för filer under HTML-export.
 
 Standardvärdet är`null` . När denna fastighet är`null` , kommer teckensnittet att sparas i en fil som anges i[`FontFileName`](../fontfilename/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

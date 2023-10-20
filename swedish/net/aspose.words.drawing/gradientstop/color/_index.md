@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Aspose.Words för .NET API Referens
-description: GradientStop fast egendom. Hämtar eller ställer in ett värde som representerar färgen på gradientstoppet.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: GradientStop Color fast egendom. Hämtar eller ställer in ett värde som representerar färgen på gradientstoppet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som representerar färgen på gradientstopp
 public Color Color { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Se även
 
 * class [GradientStop](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstop/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

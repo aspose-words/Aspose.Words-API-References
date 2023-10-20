@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Colored
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. ReturnerarSann om sidan innehåller färgat innehåll.
+linktitle: Colored
+articleTitle: Colored
+second_title: Aspose.Words för .NET
+description: PageInfo Colored fast egendom. ReturnerarSann om sidan innehåller färgat innehåll i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.rendering/pageinfo/colored/
@@ -14,7 +16,7 @@ Returnerar`Sann` om sidan innehåller färgat innehåll.
 public bool Colored { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om sidan är i färg eller inte.
 
@@ -28,7 +30,5 @@ Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

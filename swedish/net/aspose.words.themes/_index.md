@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Themes
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Themes namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Worddokument.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Themes namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Worddokument i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.themes/
 ---
-De **Aspose.Words.Themes** namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Word-dokument.
+De**Aspose.Words.Themes** namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Word-dokument.
 
 ## Klasser
 
@@ -21,5 +23,3 @@ De **Aspose.Words.Themes** namnutrymme tillhandahåller klasser som gör det mö
 | --- | --- |
 | [ThemeColor](./themecolor/) | Anger temafärgerna för dokumentteman. |
 | [ThemeFont](./themefont/) | Anger typer av temateckensnittsnamn för dokumentteman. |
-
-

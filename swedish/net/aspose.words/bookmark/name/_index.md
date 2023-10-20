@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. Hämtar eller ställer in namnet på bokmärket.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: Bookmark Name fast egendom. Hämtar eller ställer in namnet på bokmärket i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ Hämtar eller ställer in namnet på bokmärket.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att om du ändrar namnet på ett bokmärke till ett namn som redan finns i dokumentet, kommer inget fel att ges och endast det första bokmärket kommer att lagras när du sparar dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett bokmärke.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

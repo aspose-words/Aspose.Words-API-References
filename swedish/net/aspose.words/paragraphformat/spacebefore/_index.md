@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in mängden avstånd i poäng före stycket.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words för .NET
+description: ParagraphFormat SpaceBefore fast egendom. Hämtar eller ställer in mängden avstånd i poäng före stycket i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när argumentet var utanför intervallet för giltiga värden. |
 
-### Anmärkningar
+## Anmärkningar
 
 Har ingen effekt när[`SpaceBeforeAuto`](../spacebeforeauto/) är`Sann`.
 
 Giltiga värden sträcker sig från 0 till 1584 inklusive.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in automatiskt styckeavstånd.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

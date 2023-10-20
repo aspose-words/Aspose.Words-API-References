@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
-second_title: Aspose.Words för .NET API Referens
-description: PdfEncryptionDetails fast egendom. Anger ägarlösenordet för det krypterade PDFdokumentet.
+linktitle: OwnerPassword
+articleTitle: OwnerPassword
+second_title: Aspose.Words för .NET
+description: PdfEncryptionDetails OwnerPassword fast egendom. Anger ägarlösenordet för det krypterade PDFdokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
@@ -14,13 +16,13 @@ Anger ägarlösenordet för det krypterade PDF-dokumentet.
 public string OwnerPassword { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ägarlösenordet tillåter användaren att öppna ett krypterat PDF-dokument utan några åtkomstbegränsningar som anges i[`Permissions`](../permissions/).
 
 Ägarlösenordet kan inte vara detsamma som användarlösenordet.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Se även
 
 * class [PdfEncryptionDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

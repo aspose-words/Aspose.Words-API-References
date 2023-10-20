@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DisplayHangulFixedWidth
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd alltid fast bredd för Hangultecken.
+linktitle: DisplayHangulFixedWidth
+articleTitle: DisplayHangulFixedWidth
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions DisplayHangulFixedWidth fast egendom. Använd alltid fast bredd för Hangultecken i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/
@@ -17,7 +19,5 @@ public bool DisplayHangulFixedWidth { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

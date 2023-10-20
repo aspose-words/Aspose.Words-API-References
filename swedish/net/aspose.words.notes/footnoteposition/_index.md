@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Notes.FootnotePosition uppräkning. Definierar fotnotspositionen.
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Notes.FootnotePosition uppräkning. Definierar fotnotspositionen i C#.
 type: docs
 weight: 4290
 url: /sv/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Fotnoter matas ut längst ner på varje sida. |
 | BeneathText | `2` | Fotnoter matas ut under texten på varje sida. |
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess fotnoter.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * namnutrymme [Aspose.Words.Notes](../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../)
-
-

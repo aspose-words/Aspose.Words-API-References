@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetPositionByIndex
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Hämtar positionen i poäng för tabbstoppet vid det angivna indexet.
+linktitle: GetPositionByIndex
+articleTitle: GetPositionByIndex
+second_title: Aspose.Words för .NET
+description: TabStopCollection GetPositionByIndex metod. Hämtar positionen i poäng för tabbstoppet vid det angivna indexet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -22,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 Tabstoppets läge.
 
-### Exempel
+## Exempel
 
 Visar hur du hittar en flik, stannar vid dess index och verifierar dess position.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### Se även
 
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

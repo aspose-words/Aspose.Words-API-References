@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Properties
-second_title: Aspose.Words för .NET API Referens
-description: WebExtension fast egendom. Representerar en uppsättning anpassade egenskaper för webbtillägg.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words för .NET
+description: WebExtension Properties fast egendom. Representerar en uppsättning anpassade egenskaper för webbtillägg i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.webextensions/webextension/properties/
@@ -14,7 +16,7 @@ Representerar en uppsättning anpassade egenskaper för webbtillägg.
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
 * class [WebExtension](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextension/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

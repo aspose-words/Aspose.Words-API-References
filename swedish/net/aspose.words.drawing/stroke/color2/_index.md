@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color2
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar en andra färg för en linje.
+linktitle: Color2
+articleTitle: Color2
+second_title: Aspose.Words för .NET
+description: Stroke Color2 fast egendom. Definierar en andra färg för en linje i C#.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -14,11 +16,11 @@ Definierar en andra färg för en linje.
 public Color Color2 { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är White.
 
-### Exempel
+## Exempel
 
 Visar hur man bearbetar formlinjefunktioner.
 
@@ -39,7 +41,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. ReturnerarSann om detta bokmärke är ett tabellkolumnbokmärke.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words för .NET
+description: Bookmark IsColumn fast egendom. ReturnerarSann om detta bokmärke är ett tabellkolumnbokmärke i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ Returnerar`Sann` om detta bokmärke är ett tabellkolumnbokmärke.
 public bool IsColumn { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om bokmärken för tabellkolumner.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Se även
 
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

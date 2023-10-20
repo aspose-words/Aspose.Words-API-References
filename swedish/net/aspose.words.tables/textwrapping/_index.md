@@ -1,7 +1,9 @@
 ---
-title: Enum TextWrapping
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.TextWrapping uppräkning. Anger hur text lindas runt tabellen.
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.TextWrapping uppräkning. Anger hur text lindas runt tabellen i C#.
 type: docs
 weight: 6380
 url: /sv/net/aspose.words.tables/textwrapping/
@@ -22,7 +24,7 @@ public enum TextWrapping
 | Around | `1` | Text lindas runt bordet och upptar tillgängligt sidoutrymme. |
 | Default | `0` | Standardvärde. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med tabelltextbrytning.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

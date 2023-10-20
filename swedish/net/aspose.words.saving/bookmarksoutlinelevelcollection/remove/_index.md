@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection metod. Tar bort ett bokmärke med det angivna namnet från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection Remove metod. Tar bort ett bokmärke med det angivna namnet från samlingen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Bokmärkets namn som inte är skiftlägeskänsligt. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

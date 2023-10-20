@@ -1,9 +1,11 @@
 ---
 title: Row.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: Row metod. OmRow har inga celler skapar och lägger till enCell .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: Row EnsureMinimum metod. OmRow har inga celler skapar och lägger till enCell  i C#.
 type: docs
-weight: 150
+weight: 130
 url: /sv/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -14,7 +16,7 @@ Om[`Row`](../) har inga celler, skapar och lägger till en[`Cell`](../../cell/) 
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man säkerställer att en radnod innehåller de noder vi behöver för att börja lägga till innehåll till den.
 
@@ -38,7 +40,5 @@ row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Se även
 
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

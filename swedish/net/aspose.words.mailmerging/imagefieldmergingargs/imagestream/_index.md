@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Aspose.Words för .NET API Referens
-description: ImageFieldMergingArgs fast egendom. Anger strömmen för kopplingsmotorn att läsa en bild från.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words för .NET
+description: ImageFieldMergingArgs ImageStream fast egendom. Anger strömmen för kopplingsmotorn att läsa en bild från i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ Anger strömmen för kopplingsmotorn att läsa en bild från.
 public Stream ImageStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words stänger den här strömmen efter att den sammanfogar bilden i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Se även
 
 * class [ImageFieldMergingArgs](../)
-* namnutrymme [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

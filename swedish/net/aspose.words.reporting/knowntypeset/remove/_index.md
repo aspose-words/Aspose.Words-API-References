@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Remove
-second_title: Aspose.Words för .NET API Referens
-description: KnownTypeSet metod. Tar bort det angivnaTypeobjekt från uppsättningen. KastarArgumentException if type ärnull .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: KnownTypeSet Remove metod. Tar bort det angivnaTypeobjekt från uppsättningen. KastarArgumentException if type ärnull  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.reporting/knowntypeset/remove/
@@ -21,7 +23,5 @@ public void Remove(Type type)
 ### Se även
 
 * class [KnownTypeSet](../)
-* namnutrymme [Aspose.Words.Reporting](../../knowntypeset/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

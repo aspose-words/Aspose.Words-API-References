@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateCreatedTimeProperty
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör omCreatedTime egenskapen uppdateras innan du sparar. Standardvärdet ärfalsk 
+linktitle: UpdateCreatedTimeProperty
+articleTitle: UpdateCreatedTimeProperty
+second_title: Aspose.Words för .NET
+description: SaveOptions UpdateCreatedTimeProperty fast egendom. Hämtar eller ställer in ett värde som avgör omCreatedTime egenskapen uppdateras innan du sparar. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
@@ -17,7 +19,5 @@ public bool UpdateCreatedTimeProperty { get; set; }
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane fast egendom. Representerar ett webbtilläggsobjekt.
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words för .NET
+description: TaskPane WebExtension fast egendom. Representerar ett webbtilläggsobjekt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ Representerar ett webbtilläggsobjekt.
 public WebExtension WebExtension { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

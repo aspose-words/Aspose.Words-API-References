@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotUseIndentAsNumberingTabStop
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Ignorera hängande indrag när tabbstopp skapas efter numrering.
+linktitle: DoNotUseIndentAsNumberingTabStop
+articleTitle: DoNotUseIndentAsNumberingTabStop
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions DoNotUseIndentAsNumberingTabStop fast egendom. Ignorera hängande indrag när tabbstopp skapas efter numrering i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
@@ -17,7 +19,5 @@ public bool DoNotUseIndentAsNumberingTabStop { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

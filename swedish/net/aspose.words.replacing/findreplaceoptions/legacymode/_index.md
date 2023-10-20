@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.LegacyMode
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att gammal hitta/ersätt algoritm används.
+linktitle: LegacyMode
+articleTitle: LegacyMode
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions LegacyMode fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att gammal hitta/ersätt algoritm används i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.replacing/findreplaceoptions/legacymode/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett booleskt värde som indikerar att gammal hitta/ers
 public bool LegacyMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd denna flagga om du behöver exakt samma beteende som innan den avancerade sök/ersätt-funktionen introducerades. Observera att den gamla algoritmen inte stöder avancerade funktioner som att ersätta med pauser, tillämpa formatering och så vidare.
 
-### Exempel
+## Exempel
 
 Visar hur man känner igen och använder ersättningar inom ersättningsmönster.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

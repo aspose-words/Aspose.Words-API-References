@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words för .NET
+description: ChartAxis Hidden fast egendom. Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte.
 public bool Hidden { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur man döljer diagramaxlar.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

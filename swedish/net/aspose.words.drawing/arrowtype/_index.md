@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ArrowType uppräkning. Anger typen av en pil vid en linjeände.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ArrowType uppräkning. Anger typen av en pil vid en linjeände i C#.
 type: docs
 weight: 490
 url: /sv/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | Pilen är en öppen pil. |
 | Default | `0` | Samma somNone . |
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

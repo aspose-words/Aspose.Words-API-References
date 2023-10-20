@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen.
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words för .NET
+description: ShapeBase WrapType fast egendom. Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen i C#.
 type: docs
 weight: 600
 url: /sv/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ Definierar om formen är inline eller flytande. För flytande former definierar 
 public WrapType WrapType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone.
 
 Har effekt endast för former på högsta nivå.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

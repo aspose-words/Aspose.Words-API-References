@@ -1,9 +1,11 @@
 ---
 title: Style.Styles
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Får samlingen av stilar som denna stil tillhör.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words för .NET
+description: Style Styles fast egendom. Får samlingen av stilar som denna stil tillhör i C#.
 type: docs
-weight: 170
+weight: 160
 url: /sv/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -14,7 +16,7 @@ Får samlingen av stilar som denna stil tillhör.
 public StyleCollection Styles { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [StyleCollection](../../stylecollection/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

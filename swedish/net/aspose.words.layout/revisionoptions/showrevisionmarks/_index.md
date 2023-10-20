@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet ärSann .
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: Aspose.Words för .NET
+description: RevisionOptions ShowRevisionMarks fast egendom. Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet ärSann  i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Se även
 
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

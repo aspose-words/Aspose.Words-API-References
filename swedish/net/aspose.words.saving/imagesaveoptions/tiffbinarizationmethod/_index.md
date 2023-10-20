@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format närSaveFormat ärTiff och TiffCompression är lika medCcitt3 ellerCcitt4 .
+linktitle: TiffBinarizationMethod
+articleTitle: TiffBinarizationMethod
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions TiffBinarizationMethod fast egendom. Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format närSaveFormat ärTiff och TiffCompression är lika medCcitt3 ellerCcitt4  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
@@ -14,11 +16,11 @@ Hämtar eller ställer in metod som används vid konvertering av bilder till 1 b
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärThreshold.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in TIFF-binariseringsfeltröskeln när man använder Floyd-Steinberg-metoden för att rendera en TIFF-bild.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

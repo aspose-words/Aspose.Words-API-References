@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Aspose.Words för .NET API Referens
-description: EditableRange fast egendom. Returnerar eller ställer in ett alias eller redigeringsgrupp som ska användas för att avgöra om den aktuella användaren ska tillåtas redigera detta redigerbara intervall.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words för .NET
+description: EditableRange EditorGroup fast egendom. Returnerar eller ställer in ett alias eller redigeringsgrupp som ska användas för att avgöra om den aktuella användaren ska tillåtas redigera detta redigerbara intervall i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ Returnerar eller ställer in ett alias (eller redigeringsgrupp) som ska använda
 public EditorType EditorGroup { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 En användare och redigeringsgrupp kan inte ställas in samtidigt för det specifika redigerbara området, om det ena är inställt, kommer det andra att vara klart.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar kapslade redigerbara intervall.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* namnutrymme [Aspose.Words](../../editablerange/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

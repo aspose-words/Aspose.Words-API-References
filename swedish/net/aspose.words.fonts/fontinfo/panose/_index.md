@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Panose
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Hämtar eller ställer in PANOSEtypsnittsklassificeringsnumret.
+linktitle: Panose
+articleTitle: Panose
+second_title: Aspose.Words för .NET
+description: FontInfo Panose fast egendom. Hämtar eller ställer in PANOSEtypsnittsklassificeringsnumret i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fonts/fontinfo/panose/
@@ -14,13 +16,13 @@ Hämtar eller ställer in PANOSE-typsnittsklassificeringsnumret.
 public byte[] Panose { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 PANOSE är en kompakt 10-byte beskrivning av teckensnittets kritiska visuella egenskaper, såsom kontrast, vikt och serif-stil. Siffrorna representerar Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline och X-Height.
 
 Kan vara`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -59,7 +61,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Se även
 
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

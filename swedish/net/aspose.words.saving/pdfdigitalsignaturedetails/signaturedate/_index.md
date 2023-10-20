@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.SignatureDate
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureDetails fast egendom. Hämtar eller ställer in datumet för signeringen.
+linktitle: SignatureDate
+articleTitle: SignatureDate
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureDetails SignatureDate fast egendom. Hämtar eller ställer in datumet för signeringen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
@@ -14,13 +16,13 @@ Hämtar eller ställer in datumet för signeringen.
 public DateTime SignatureDate { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är den aktuella tiden.
 
 Detta värde kommer att visas i den digitala signaturen som en overifierad datortid.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Se även
 
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

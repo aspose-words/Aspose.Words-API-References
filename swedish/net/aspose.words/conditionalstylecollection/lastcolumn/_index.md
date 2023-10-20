@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastColumn
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Hämtar den sista kolumnstilen.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection LastColumn fast egendom. Hämtar den sista kolumnstilen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/conditionalstylecollection/lastcolumn/
@@ -14,7 +16,7 @@ Hämtar den sista kolumnstilen.
 public ConditionalStyle LastColumn { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

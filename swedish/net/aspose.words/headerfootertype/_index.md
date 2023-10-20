@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.HeaderFooterType uppräkning. Identifierar typen av sidhuvud eller sidfot som finns i en Wordfil.
+title: HeaderFooterType Enum
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.HeaderFooterType uppräkning. Identifierar typen av sidhuvud eller sidfot som finns i en Wordfil i C#.
 type: docs
 weight: 3120
 url: /sv/net/aspose.words/headerfootertype/
@@ -25,7 +27,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | Rubrik för den första sidan i avsnittet. |
 | FooterFirst | `5` | Sidfot för den första sidan i avsnittet. |
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

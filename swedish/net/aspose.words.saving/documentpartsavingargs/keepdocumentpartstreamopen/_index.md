@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPartSavingArgs fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en dokumentdel.
+linktitle: KeepDocumentPartStreamOpen
+articleTitle: KeepDocumentPartStreamOpen
+second_title: Aspose.Words för .NET
+description: DocumentPartSavingArgs KeepDocumentPartStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en dokumentdel i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
@@ -14,11 +16,11 @@ Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha
 public bool KeepDocumentPartStreamOpen { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`DocumentPartStream`](../documentpartstream/) egenskap efter att ha skrivit en dokumentdel i den. Specificera`Sann` för att hålla strömmen öppen. Observera att huvudutgångsströmmen tillhandahålls i anropet till[`Save`](../../../aspose.words/document/save/)eller [`Save`](../../../aspose.words/document/save/) kommer aldrig att stängas av Aspose.Words även om`KeepDocumentPartStreamOpen` är satt till`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -135,7 +137,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Se även
 
 * class [DocumentPartSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

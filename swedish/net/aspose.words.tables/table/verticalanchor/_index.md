@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar basobjektet från vilket den vertikala positioneringen av flytande tabell ska beräknas. Standardvärdet ärMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words för .NET
+description: Table VerticalAnchor fast egendom. Hämtar basobjektet från vilket den vertikala positioneringen av flytande tabell ska beräknas. Standardvärdet ärMargin  i C#.
 type: docs
 weight: 340
 url: /sv/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ Hämtar basobjektet från vilket den vertikala positioneringen av flytande tabel
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med egenskaper för flytande tabeller.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

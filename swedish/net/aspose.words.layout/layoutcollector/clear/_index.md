@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Aspose.Words för .NET API Referens
-description: LayoutCollector metod. Rensar alla insamlade layoutdata. Anrop den här metoden efter att dokumentet har uppdaterats manuellt eller efter att layouten byggts om.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: LayoutCollector Clear metod. Rensar alla insamlade layoutdata. Anrop den här metoden efter att dokumentet har uppdaterats manuellt eller efter att layouten byggts om i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ Rensar alla insamlade layoutdata. Anrop den här metoden efter att dokumentet ha
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Se även
 
 * class [LayoutCollector](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutcollector/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

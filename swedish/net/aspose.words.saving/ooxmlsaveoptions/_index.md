@@ -1,7 +1,9 @@
 ---
-title: Class OoxmlSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.OoxmlSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iDocx  Docm Dotx Dotm or FlatOpc format.
+title: OoxmlSaveOptions Class
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.OoxmlSaveOptions klass. Kan användas för att ange ytterligare alternativ när du sparar ett dokument iDocx  Docm Dotx Dotm or FlatOpc format i C#.
 type: docs
 weight: 5350
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/
@@ -21,7 +23,7 @@ public class OoxmlSaveOptions : SaveOptions
 | namn | Beskrivning |
 | --- | --- |
 | [OoxmlSaveOptions](ooxmlsaveoptions/#constructor)() | Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDocx format. |
-| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(SaveFormat) | Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDocx , Docm ,Dotx ,Dotm or FlatOpc format. |
+| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDocx , Docm ,Dotx ,Dotm or FlatOpc format. |
 
 ## Egenskaper
 
@@ -31,7 +33,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [Compliance](../../aspose.words.saving/ooxmlsaveoptions/compliance/) { get; set; } | Anger OOXML-versionen för utdatadokumentet. Standardvärdet ärEcma376_2006 . |
 | [CompressionLevel](../../aspose.words.saving/ooxmlsaveoptions/compressionlevel/) { get; set; } | Anger komprimeringsnivån som används för att spara dokument. Standardvärdet ärNormal . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -51,7 +53,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Hämtar eller ställer in ett värde som avgör om kantutjämning ska användas eller inte för rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Hämtar eller ställer in ett värde som avgör huruvida högkvalitativa (dvs långsamma) renderingsalgoritmer ska användas eller inte. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en OOXML-efterlevnadsspecifikation för ett sparat dokument att följa.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 * class [SaveOptions](../saveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

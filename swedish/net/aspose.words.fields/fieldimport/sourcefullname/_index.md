@@ -1,7 +1,9 @@
 ---
 title: FieldImport.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: FieldImport fast egendom. Hämtar eller ställer in bildens plats.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: FieldImport SourceFullName fast egendom. Hämtar eller ställer in bildens plats i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bildens plats.
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Se även
 
 * class [FieldImport](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldimport/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

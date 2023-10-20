@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PosCodeStyle
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Stil för en streckkod för försäljningsställen streckkodstyperna UPCAUPCEEAN13EAN8. De giltiga värdena okänsliga skiftlägen är STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words för .NET
+description: BarcodeParameters PosCodeStyle fast egendom. Stil för en streckkod för försäljningsställen streckkodstyperna UPCAUPCEEAN13EAN8. De giltiga värdena okänsliga skiftlägen är STDSUP2SUP5CASE i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/barcodeparameters/poscodestyle/
@@ -14,7 +16,7 @@ Stil för en streckkod för försäljningsställen (streckkodstyperna UPCA&#x7C;
 public string PosCodeStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.CellMerge uppräkning. Anger hur en cell i en tabell slås samman med andra celler.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.CellMerge uppräkning. Anger hur en cell i en tabell slås samman med andra celler i C#.
 type: docs
 weight: 6270
 url: /sv/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | Cellen är den första cellen i ett intervall av sammanslagna celler. |
 | Previous | `2` | Cellen slås samman med föregående cell horisontellt eller vertikalt. |
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman tabellceller horisontellt.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

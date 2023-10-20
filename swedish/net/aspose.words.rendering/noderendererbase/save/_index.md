@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.Save
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase metod. Gör formen till en bild och sparar den i en fil.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words för .NET
+description: NodeRendererBase Save metod. Gör formen till en bild och sparar den i en fil i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.rendering/noderendererbase/save/
 ---
-## Save(string, ImageSaveOptions) {#save_1}
+## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_1}
 
 Gör formen till en bild och sparar den i en fil.
 
@@ -19,7 +21,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | fileName | String | Namnet på bildfilen. Om en fil med det angivna namnet redan finns, skrivs den befintliga filen över. |
 | saveOptions | ImageSaveOptions | Anger alternativen som styr hur formen renderas och sparas. Kan vara`null`. |
 
-### Exempel
+## Exempel
 
 Visar hur man renderar ett Office Math-objekt till en bildfil i det lokala filsystemet.
 
@@ -42,12 +44,12 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, ImageSaveOptions) {#save}
+## Save(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save}
 
 Gör formen till en bild och sparar den i en ström.
 
@@ -60,7 +62,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | stream | Stream | Strömmen där bilden av formen ska sparas. |
 | saveOptions | ImageSaveOptions | Anger alternativen som styr hur formen renderas och sparas. Kan vara`null` . Om detta är`null`, kommer bilden att sparas i PNG-format. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en formrenderare för att exportera former till filer i det lokala filsystemet.
 
@@ -86,7 +88,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

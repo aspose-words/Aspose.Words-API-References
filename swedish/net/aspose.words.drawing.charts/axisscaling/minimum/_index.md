@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Aspose.Words för .NET API Referens
-description: AxisScaling fast egendom. Hämtar eller ställer in minimivärdet för axeln.
+linktitle: Minimum
+articleTitle: Minimum
+second_title: Aspose.Words för .NET
+description: AxisScaling Minimum fast egendom. Hämtar eller ställer in minimivärdet för axeln i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ Hämtar eller ställer in minimivärdet för axeln.
 public AxisBound Minimum { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är "auto".
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

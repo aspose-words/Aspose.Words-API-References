@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.LayoutEnumerator klass. Räknar upp sidlayoutenheter för ett dokument. Du kan använda den här klassen för att gå över sidlayoutmodellen. Tillgängliga egenskaper är typ geometri text och sidindex där entitet renderas samt övergripande struktur och relationer. Använd kombination avGetEntity ochCurrent flytta till den enhet som motsvarar en dokumentnod.
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.LayoutEnumerator klass. Räknar upp sidlayoutenheter för ett dokument. Du kan använda den här klassen för att gå över sidlayoutmodellen. Tillgängliga egenskaper är typ geometri text och sidindex där entitet renderas samt övergripande struktur och relationer. Använd kombination avGetEntity ochCurrent flytta till den enhet som motsvarar en dokumentnod i C#.
 type: docs
 weight: 3340
 url: /sv/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | namn | Beskrivning |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | Initierar ny instans av denna klass. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | Initierar ny instans av denna klass. |
 
 ## Egenskaper
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Flyttar till nästa syskonenhet i visuell ordning. När rader i ett stycke uppdelade över sidor itereras kommer denna metod inte att flytta till nästa sida utan istället flyttas till nästa enhet på samma sida. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Flyttar till nästa syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till nästa rad även om den finns på en annan sida. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Flyttar till den överordnade enheten. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Flyttar till den överordnade entiteten av den angivna typen. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | Flyttar till den överordnade entiteten av den angivna typen. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Flyttar till föregående syskonenhet. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Flyttar till föregående syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till föregående rad även om den finns på en annan sida. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Flyttar räknaren till dokumentets första sida. |
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

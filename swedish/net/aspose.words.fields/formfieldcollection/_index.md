@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FormFieldCollection klass. En samling avFormField objekt som representerar alla formulärfält i ett intervall.
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FormFieldCollection klass. En samling avFormField objekt som representerar alla formulärfält i ett intervall i C#.
 type: docs
 weight: 2630
 url: /sv/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Tar bort alla formulärfält från den här samlingen och från dokumentet. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Tar bort ett formulärfält med det angivna namnet. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Tar bort ett formulärfält vid det angivna indexet. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | Tar bort ett formulärfält med det angivna namnet. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | Tar bort ett formulärfält vid det angivna indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

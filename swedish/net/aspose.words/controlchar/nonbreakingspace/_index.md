@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Ej avbrytande blanksteg x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words för .NET
+description: ControlChar NonBreakingSpace fält. Ej avbrytande blanksteg x00a0 i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ Ej avbrytande blanksteg: "\x00a0".
 public static readonly string NonBreakingSpace;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

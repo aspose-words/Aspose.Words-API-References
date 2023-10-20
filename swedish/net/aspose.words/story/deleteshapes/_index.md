@@ -1,7 +1,9 @@
 ---
 title: Story.DeleteShapes
-second_title: Aspose.Words för .NET API Referens
-description: Story metod. Tar bort alla former från texten i denna berättelse.
+linktitle: DeleteShapes
+articleTitle: DeleteShapes
+second_title: Aspose.Words för .NET
+description: Story DeleteShapes metod. Tar bort alla former från texten i denna berättelse i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/story/deleteshapes/
@@ -14,7 +16,7 @@ Tar bort alla former från texten i denna berättelse.
 public void DeleteShapes()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla former från en nod.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 ### Se även
 
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

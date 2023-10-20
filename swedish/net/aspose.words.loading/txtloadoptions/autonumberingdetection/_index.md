@@ -1,7 +1,9 @@
 ---
 title: TxtLoadOptions.AutoNumberingDetection
-second_title: Aspose.Words för .NET API Referens
-description: TxtLoadOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att antingen automatisk numreringsdetektering kommer att utföras när ett dokument laddas. Standardvärdet ärSann .
+linktitle: AutoNumberingDetection
+articleTitle: AutoNumberingDetection
+second_title: Aspose.Words för .NET
+description: TxtLoadOptions AutoNumberingDetection fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att antingen automatisk numreringsdetektering kommer att utföras när ett dokument laddas. Standardvärdet ärSann  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som indikerar att antingen automat
 public bool AutoNumberingDetection { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du inaktiverar automatisk numreringsdetektering.
 
@@ -26,7 +28,5 @@ Document doc = new Document(MyDir + "Number detection.txt", options);
 ### Se även
 
 * class [TxtLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../txtloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

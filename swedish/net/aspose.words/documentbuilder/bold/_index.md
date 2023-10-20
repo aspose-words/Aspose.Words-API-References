@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Bold
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Sant om teckensnittet är formaterat med fet stil.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words för .NET
+description: DocumentBuilder Bold fast egendom. Sant om teckensnittet är formaterat med fet stil i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/documentbuilder/bold/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat med fet stil.
 public bool Bold { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller MERGEFIELDs med data med en dokumentbyggare istället för en brevkoppling.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

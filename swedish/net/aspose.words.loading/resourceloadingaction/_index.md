@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceLoadingAction
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.ResourceLoadingAction uppräkning. Anger läget för resursladdning.
+title: ResourceLoadingAction Enum
+linktitle: ResourceLoadingAction
+articleTitle: ResourceLoadingAction
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.ResourceLoadingAction uppräkning. Anger läget för resursladdning i C#.
 type: docs
 weight: 3680
 url: /sv/net/aspose.words.loading/resourceloadingaction/
@@ -24,7 +26,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words hoppar över laddningen av denna resurs. Endast länk utan data kommer att lagras för en bild, CSS-formatmall kommer att ignoreras för HTML-format. |
 | UserProvided | `2` | Aspose.Words kommer att använda byte-array som tillhandahålls av användaren i[`SetData`](../resourceloadingargs/setdata/) som resursdata. |
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -88,5 +90,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

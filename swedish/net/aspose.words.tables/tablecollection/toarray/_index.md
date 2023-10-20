@@ -1,7 +1,9 @@
 ---
 title: TableCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: TableCollection metod. Kopierar alla tabeller från samlingen till en ny array av tabeller.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: TableCollection ToArray metod. Kopierar alla tabeller från samlingen till en ny array av tabeller i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/tablecollection/toarray/
@@ -18,7 +20,7 @@ public Table[] ToArray()
 
 En rad bord.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* namnutrymme [Aspose.Words.Tables](../../tablecollection/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

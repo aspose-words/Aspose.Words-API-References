@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectNodes
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Väljer en lista med noder som matchar XPathuttrycket.
+linktitle: SelectNodes
+articleTitle: SelectNodes
+second_title: Aspose.Words för .NET
+description: CompositeNode SelectNodes metod. Väljer en lista med noder som matchar XPathuttrycket i C#.
 type: docs
-weight: 210
+weight: 190
 url: /sv/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -22,11 +24,11 @@ public NodeList SelectNodes(string xpath)
 
 En lista över noder som matchar XPath-frågan.
 
-### Anmärkningar
+## Anmärkningar
 
 Endast uttryck med elementnamn stöds för tillfället. Expressions som använder attributnamn stöds inte.
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett XPath-uttryck för att testa om en nod finns i ett fält.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

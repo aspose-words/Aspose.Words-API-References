@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Aspose.Words för .NET API Referens
-description: FieldHyperlink fast egendom. Hämtar eller ställer in om koordinater ska läggas till hyperlänken för en bildkarta på serversidan.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words för .NET
+description: FieldHyperlink IsImageMap fast egendom. Hämtar eller ställer in om koordinater ska läggas till hyperlänken för en bildkarta på serversidan i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om koordinater ska läggas till hyperlänken för en b
 public bool IsImageMap { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder HYPERLINK-fält för att länka till dokument i det lokala filsystemet.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Se även
 
 * class [FieldHyperlink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldhyperlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

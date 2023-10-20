@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Konverterar celler horisontellt sammanfogade efter bredd till celler sammanslagna avHorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words för .NET
+description: Table ConvertToHorizontallyMergedCells metod. Konverterar celler horisontellt sammanfogade efter bredd till celler sammanslagna avHorizontalMerge  i C#.
 type: docs
-weight: 410
+weight: 390
 url: /sv/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ Konverterar celler horisontellt sammanfogade efter bredd till celler sammanslagn
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Tabellceller kan slås samman horisontellt antingen genom att använda sammanslagningsflaggor[`HorizontalMerge`](../../cellformat/horizontalmerge/) eller med cellbredd[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ När tabellcell slås samman med egenskapen width[`HorizontalMerge`](../../cellf
 
 Använd den här metoden för att omvandla tabellceller horisontellt sammanslagna efter bredd till celler sammanslagna med sammanslagningsflaggor.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar celler horisontellt sammanfogade efter bredd till celler sammanslagna av CellFormat.HorizontalMerge.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

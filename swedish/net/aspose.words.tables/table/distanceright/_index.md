@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceRight
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in avståndet mellan tabellens högra sida och den omgivande texten i punkter.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words för .NET
+description: Table DistanceRight fast egendom. Hämtar eller ställer in avståndet mellan tabellens högra sida och den omgivande texten i punkter i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.tables/table/distanceright/
@@ -14,7 +16,7 @@ Hämtar eller ställer in avståndet mellan tabellens högra sida och den omgiva
 public double DistanceRight { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in avståndet mellan tabellgränser och text.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Aspose.Words för .NET API Referens
-description: NodeImporter byggare. Initierar en ny instans avNodeImporter class.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words för .NET
+description: NodeImporter byggare. Initierar en ny instans avNodeImporter class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 Initierar en ny instans av[`NodeImporter`](../) class.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | Måldokumentet som kommer att vara ägare till importerade noder. |
 | importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar innehållet i ett dokument till ett bokmärke i ett annat dokument.
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* namnutrymme [Aspose.Words](../../nodeimporter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 Initierar en ny instans av[`NodeImporter`](../) class.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
 | importFormatOptions | ImportFormatOptions | Anger olika alternativ för att formatera importerad nod. |
 
-### Exempel
+## Exempel
 
 Visar hur man löser en konflikt när man importerar dokument som har listor med samma listdefinitionsidentifierare.
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* namnutrymme [Aspose.Words](../../nodeimporter/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

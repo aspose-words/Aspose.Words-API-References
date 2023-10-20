@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om ersättningar ska identifieras och användas inom ersättningsmönster. Standardvärdet ärfalsk .
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions UseSubstitutions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om ersättningar ska identifieras och användas inom ersättningsmönster. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett booleskt värde som indikerar om ersättningar ska
 public bool UseSubstitutions { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För detaljer om substitutionselement, se: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### Exempel
+## Exempel
 
 Visar hur man känner igen och använder ersättningar inom ersättningsmönster.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

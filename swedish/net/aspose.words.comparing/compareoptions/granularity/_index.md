@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om ändringar spåras med tecken eller ord. Standardvärdet ärWordLevel .
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words för .NET
+description: CompareOptions Granularity fast egendom. Anger om ändringar spåras med tecken eller ord. Standardvärdet ärWordLevel  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ Anger om ändringar spåras med tecken eller ord. Standardvärdet ärWordLevel .
 public Granularity Granularity { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att specificera en granularitet vid jämförelse av dokument.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

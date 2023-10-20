@@ -1,7 +1,9 @@
 ---
 title: FieldRef.NumberSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer.
+linktitle: NumberSeparator
+articleTitle: NumberSeparator
+second_title: Aspose.Words för .NET
+description: FieldRef NumberSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/fieldref/numberseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera sekvens
 public string NumberSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar REF-fält för att referera till bokmärken.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

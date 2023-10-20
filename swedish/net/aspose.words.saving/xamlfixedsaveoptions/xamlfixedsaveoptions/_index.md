@@ -1,7 +1,9 @@
 ---
-title: XamlFixedSaveOptions.XamlFixedSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: XamlFixedSaveOptions byggare. Default_Constructor
+title: XamlFixedSaveOptions
+linktitle: XamlFixedSaveOptions
+articleTitle: XamlFixedSaveOptions
+second_title: Aspose.Words för .NET
+description: XamlFixedSaveOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/xamlfixedsaveoptions/xamlfixedsaveoptions/
@@ -17,7 +19,5 @@ public XamlFixedSaveOptions()
 ### Se även
 
 * class [XamlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

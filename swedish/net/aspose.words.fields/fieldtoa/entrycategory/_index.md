@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntryCategory
-second_title: Aspose.Words för .NET API Referens
-description: FieldToa fast egendom. Hämtar eller ställer in integralkategorin för poster som ingår i tabellen.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words för .NET
+description: FieldToa EntryCategory fast egendom. Hämtar eller ställer in integralkategorin för poster som ingår i tabellen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldtoa/entrycategory/
@@ -14,7 +16,7 @@ Hämtar eller ställer in integralkategorin för poster som ingår i tabellen.
 public string EntryCategory { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldToa](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoa/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

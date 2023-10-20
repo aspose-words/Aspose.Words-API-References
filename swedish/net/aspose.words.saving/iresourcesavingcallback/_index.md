@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.IResourceSavingCallback gränssnitt. Implementera det här gränssnittet om du vill styra hur Aspose.Words sparar externa resurser bilder teckensnitt och css när du sparar ett dokument till HTML eller SVG med fast sida.
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.IResourceSavingCallback gränssnitt. Implementera det här gränssnittet om du vill styra hur Aspose.Words sparar externa resurser bilder teckensnitt och css när du sparar ett dokument till HTML eller SVG med fast sida i C#.
 type: docs
 weight: 5190
 url: /sv/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Anropas när Aspose.Words sparar en extern resurs till fasta HTML- eller SVG-format på sidan. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Anropas när Aspose.Words sparar en extern resurs till fasta HTML- eller SVG-format på sidan. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToExtension
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatUtil metod. Konverterar ett laddningsformat uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt.
+linktitle: LoadFormatToExtension
+articleTitle: LoadFormatToExtension
+second_title: Aspose.Words för .NET
+description: FileFormatUtil LoadFormatToExtension metod. Konverterar ett laddningsformat uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/fileformatutil/loadformattoextension/
@@ -20,11 +22,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | Kastar när det inte går att konvertera. |
 
-### Anmärkningar
+## Anmärkningar
 
 DeWordML värdet konverteras till ".wml".
 
-### Exempel
+## Exempel
 
 Visar hur du använder FileFormatUtil-metoderna för att upptäcka formatet på ett dokument.
 
@@ -58,7 +60,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* namnutrymme [Aspose.Words](../../fileformatutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

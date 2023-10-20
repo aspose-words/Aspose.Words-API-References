@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Ger tillgång till egenskaperna för teckensnitt som används i detta dokument.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words för .NET
+description: DocumentBase FontInfos fast egendom. Ger tillgång till egenskaperna för teckensnitt som används i detta dokument i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ Ger tillgång till egenskaperna för teckensnitt som används i detta dokument.
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna samling teckensnittsdefinitioner laddas som den är från dokumentet. Teckensnittsdefinitioner kan vara valfria, saknas eller ofullständiga i vissa dokument.
 
 Lita inte på den här samlingen för att försäkra dig om att ett visst teckensnitt används i dokumentet. Du bör endast använda den här samlingen för att få information om teckensnitt som kan användas i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om vilka typsnitt som finns i ett dokument.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

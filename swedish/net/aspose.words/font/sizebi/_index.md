@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in teckenstorleken i punkter som används i ett dokument från höger till vänster.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words för .NET
+description: Font SizeBi fast egendom. Hämtar eller ställer in teckenstorleken i punkter som används i ett dokument från höger till vänster i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenstorleken i punkter som används i ett dokument 
 public double SizeBi { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar separata uppsättningar teckensnittsinställningar för text från höger till vänster och höger till vänster.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Aspose.Words för .NET API Referens
-description: ChartLegend fast egendom. Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words för .NET
+description: ChartLegend Position fast egendom. Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight .
 public LegendPosition Position { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar utseendet på ett diagrams förklaring.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

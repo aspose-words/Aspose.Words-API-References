@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFont
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo metod. Får en specifik inbäddad teckensnittsfil.
+linktitle: GetEmbeddedFont
+articleTitle: GetEmbeddedFont
+second_title: Aspose.Words för .NET
+description: FontInfo GetEmbeddedFont metod. Får en specifik inbäddad teckensnittsfil i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fonts/fontinfo/getembeddedfont/
@@ -23,7 +25,7 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 Returnerar`null`om det angivna teckensnittet inte är inbäddat.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar ett inbäddat teckensnitt från ett dokument och sparar det i det lokala filsystemet.
 
@@ -52,7 +54,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 * enum [EmbeddedFontFormat](../../embeddedfontformat/)
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

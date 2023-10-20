@@ -1,7 +1,9 @@
 ---
 title: FieldDde.SourceItem
-second_title: Aspose.Words för .NET API Referens
-description: FieldDde fast egendom. Hämtar eller ställer in den del av källfilen som länkas.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words för .NET
+description: FieldDde SourceItem fast egendom. Hämtar eller ställer in den del av källfilen som länkas i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/fielddde/sourceitem/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den del av källfilen som länkas.
 public string SourceItem { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDde](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddde/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

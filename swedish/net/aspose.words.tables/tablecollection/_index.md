@@ -1,7 +1,9 @@
 ---
-title: Class TableCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.TableCollection klass. Ger maskinskriven åtkomst till en samling avTable noder.
+title: TableCollection Class
+linktitle: TableCollection
+articleTitle: TableCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.TableCollection klass. Ger maskinskriven åtkomst till en samling avTable noder i C#.
 type: docs
 weight: 6360
 url: /sv/net/aspose.words.tables/tablecollection/
@@ -27,17 +29,17 @@ public class TableCollection : NodeCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Lägger till en nod i slutet av samlingen. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestämmer om en nod finns i samlingen. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Bestämmer om en nod finns i samlingen. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Returnerar det nollbaserade indexet för den angivna noden. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Infogar en nod i samlingen vid det angivna indexet. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Tar bort noden från samlingen och från dokumentet. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Tar bort noden från samlingen och från dokumentet. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Kopierar alla tabeller från samlingen till en ny array av tabeller. (2 methods) |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort den första och sista raden i alla tabeller i ett dokument.
 
@@ -137,5 +139,3 @@ private static int GetChildTableCount(Table table)
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

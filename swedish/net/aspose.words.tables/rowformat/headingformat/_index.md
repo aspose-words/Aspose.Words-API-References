@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Aspose.Words för .NET API Referens
-description: RowFormat fast egendom. Sant om raden upprepas som en tabellrubrik på varje sida när tabellen sträcker sig över mer än en sida.
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: Aspose.Words för .NET
+description: RowFormat HeadingFormat fast egendom. Sant om raden upprepas som en tabellrubrik på varje sida när tabellen sträcker sig över mer än en sida i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ Sant om raden upprepas som en tabellrubrik på varje sida när tabellen sträcke
 public bool HeadingFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med rader som upprepas på varje sida.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### Se även
 
 * class [RowFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../rowformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

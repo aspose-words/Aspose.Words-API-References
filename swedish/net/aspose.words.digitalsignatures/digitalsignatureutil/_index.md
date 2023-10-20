@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureUtil
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil klass. Tillhandahåller metoder för att signera dokument.
+title: DigitalSignatureUtil Class
+linktitle: DigitalSignatureUtil
+articleTitle: DigitalSignatureUtil
+second_title: Aspose.Words för .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil klass. Tillhandahåller metoder för att signera dokument i C#.
 type: docs
 weight: 410
 url: /sv/net/aspose.words.digitalsignatures/digitalsignatureutil/
@@ -20,22 +22,22 @@ public static class DigitalSignatureUtil
 
 | namn | Beskrivning |
 | --- | --- |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(Stream) | Laddar digitala signaturer från dokument med stream. |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(string) | Laddar digitala signaturer från dokument. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(Stream, Stream) | Tar bort alla digitala signaturer från dokumentet i källströmmen och skriver osignerat dokument till målströmmen. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(string, string) | Tar bort alla digitala signaturer från källfilen och skriver osignerad fil till målfilen. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(Stream, Stream, CertificateHolder) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/)med digital signatur och skriver signerat dokument till destinationsströmmen. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(string, string, CertificateHolder) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/) med digital signatur och skriver signerat dokument till destinationsfilen. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(Stream, Stream, CertificateHolder, SignOptions) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/) och[`SignOptions`](../signoptions/) med digital signatur och skriver signerat dokument till destinationsströmmen. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(string, string, CertificateHolder, SignOptions) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/) och[`SignOptions`](../signoptions/) med digital signatur och skriver signerat dokument till destinationsfilen. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(*Stream*) | Laddar digitala signaturer från dokument med stream. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(*string*) | Laddar digitala signaturer från dokument. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(*Stream, Stream*) | Tar bort alla digitala signaturer från dokumentet i källströmmen och skriver osignerat dokument till målströmmen. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(*string, string*) | Tar bort alla digitala signaturer från källfilen och skriver osignerad fil till målfilen. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(*Stream, Stream, [CertificateHolder](../certificateholder/)*) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/)med digital signatur och skriver signerat dokument till destinationsströmmen. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(*string, string, [CertificateHolder](../certificateholder/)*) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/) med digital signatur och skriver signerat dokument till destinationsfilen. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(*Stream, Stream, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/) och[`SignOptions`](../signoptions/) med digital signatur och skriver signerat dokument till destinationsströmmen. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(*string, string, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Signerar källdokument med given[`CertificateHolder`](../certificateholder/) och[`SignOptions`](../signoptions/) med digital signatur och skriver signerat dokument till destinationsfilen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Eftersom digital signatur fungerar med filinnehåll snarare än Document Object Model placeras dessa metoder i en separat klass.
 
 Format som stöds ärDoc ochDocx.
 
-### Exempel
+## Exempel
 
 Visar hur man laddar signaturer från ett digitalt signerat dokument.
 
@@ -83,5 +85,3 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * namnutrymme [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Returnerar en samling som representerar mappade datafält för kopplingsoperationen.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words för .NET
+description: MailMerge MappedDataFields fast egendom. Returnerar en samling som representerar mappade datafält för kopplingsoperationen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ Returnerar en samling som representerar mappade datafält för kopplingsoperatio
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Mappade datafält gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på kopplingsfält i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

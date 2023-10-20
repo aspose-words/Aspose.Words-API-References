@@ -1,9 +1,11 @@
 ---
 title: Table.ClearShading
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Tar bort all skuggning på bordet.
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: Aspose.Words för .NET
+description: Table ClearShading metod. Tar bort all skuggning på bordet i C#.
 type: docs
-weight: 400
+weight: 380
 url: /sv/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -14,7 +16,7 @@ Tar bort all skuggning på bordet.
 public void ClearShading()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar en konturram på en tabell.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

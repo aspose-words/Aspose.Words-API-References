@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ShowSeriesName fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för
 public bool ShowSeriesName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowSeriesName`](../../chartdatalabel/showseriesname/) egenskap.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dataetiketter i ett bubbeldiagram.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

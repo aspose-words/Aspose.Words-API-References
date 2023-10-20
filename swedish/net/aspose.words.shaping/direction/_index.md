@@ -1,7 +1,9 @@
 ---
-title: Enum Direction
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Shaping.Direction uppräkning. Textriktning.
+title: Direction Enum
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Shaping.Direction uppräkning. Textriktning i C#.
 type: docs
 weight: 6020
 url: /sv/net/aspose.words.shaping/direction/
@@ -28,5 +30,3 @@ public enum Direction
 
 * namnutrymme [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../)
-
-

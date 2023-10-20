@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.GradientStyle uppräkning. Anger stilen för en övertoningsfyllning.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.GradientStyle uppräkning. Anger stilen för en övertoningsfyllning i C#.
 type: docs
 weight: 1000
 url: /sv/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | Lutning som går från ett hörn till de andra tre hörnen. |
 | FromCenter | `6` | Lutning som löper från mitten ut till hörnen. |
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

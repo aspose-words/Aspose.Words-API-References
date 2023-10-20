@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om TrueTypeteckensnitten Arial Times New Roman Courier New och Symbol ska ersättas med kärnPDF Type 1teckensnitt.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions UseCoreFonts fast egendom. Hämtar eller ställer in ett värde som avgör om TrueTypeteckensnitten Arial Times New Roman Courier New och Symbol ska ersättas med kärnPDF Type 1teckensnitt i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om TrueType-teckensnitten Arial,
 public bool UseCoreFonts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` . När detta värde är satt till`Sann` Teckensnitten Arial, Times New Roman, Courier New och Symbol ersätts i PDF-dokument med motsvarande typsnitt typ 1.
 
@@ -28,7 +30,7 @@ Kärnteckensnitt stöds inte när du sparar till PDF 2.0-format.`falsk` värde k
 
 Detta alternativ har högre prioritet då[`FontEmbeddingMode`](../fontembeddingmode/) alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar/inaktiverar PDF Typ 1-teckensnittsersättning.
 
@@ -61,7 +63,5 @@ else
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

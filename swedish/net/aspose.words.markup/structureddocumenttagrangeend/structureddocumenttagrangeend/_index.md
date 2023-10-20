@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeEnd byggare. Initierar en ny instans av Slut på intervall för strukturerade dokumenttaggar class.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeEnd byggare. Initierar en ny instans avSlut på intervall för strukturerade dokumenttaggar class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Initierar en ny instans av **Slut på intervall för strukturerade dokumenttaggar** class.
+Initierar en ny instans av**Slut på intervall för strukturerade dokumenttaggar** class.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Ägardokumentet. |
 | id | Int32 | Identifierare för motsvarande strukturerade dokumenttaggintervallstart. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

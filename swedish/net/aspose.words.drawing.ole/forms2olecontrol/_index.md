@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Ole.Forms2OleControl klass. Representerar Microsoft Forms 2.0 OLEkontroll.
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControl klass. Representerar Microsoft Forms 2.0 OLEkontroll i C#.
 type: docs
 weight: 1110
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | Får typ av Forms 2.0-kontroll. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Får underliggande värdeegenskap som ofta representerar kontrolltillstånd. Till exempel har markerad alternativknapp '1'-värde medan omarkerad har '0'. Standardvärdet är en tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * namnutrymme [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: MarkdownSaveOptions.MarkdownSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: MarkdownSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iMarkdown format.
+title: MarkdownSaveOptions
+linktitle: MarkdownSaveOptions
+articleTitle: MarkdownSaveOptions
+second_title: Aspose.Words för .NET
+description: MarkdownSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett document iMarkdown format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
@@ -17,7 +19,5 @@ public MarkdownSaveOptions()
 ### Se även
 
 * class [MarkdownSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

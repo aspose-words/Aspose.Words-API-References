@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty fast egendom. Hämtar datatypen för egenskapen.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: DocumentProperty Type fast egendom. Hämtar datatypen för egenskapen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ Hämtar datatypen för egenskapen.
 public PropertyType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

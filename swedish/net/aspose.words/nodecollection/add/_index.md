@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Lägger till en nod i slutet av samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: NodeCollection Add metod. Lägger till en nod i slutet av samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | De[`NodeCollection`](../) är en "djup" samling. |
 
-### Anmärkningar
+## Anmärkningar
 
 Noden infogas som ett underordnat objekt i nodobjektet från vilket samlingen skapades.
 
 Om noden som infogas skapades från ett annat dokument bör du använda [`ImportNode`](../../documentbase/importnode/) för att importera noden till det aktuella dokumentet. Den importerade noden kan sedan infogas i det aktuella dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man förbereder en ny sektionsnod för redigering.
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

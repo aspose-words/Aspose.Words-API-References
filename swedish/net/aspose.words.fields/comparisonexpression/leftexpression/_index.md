@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.LeftExpression
-second_title: Aspose.Words för .NET API Referens
-description: ComparisonExpression fast egendom. Får det vänstra uttrycket.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words för .NET
+description: ComparisonExpression LeftExpression fast egendom. Får det vänstra uttrycket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -14,7 +16,7 @@ Får det vänstra uttrycket.
 public string LeftExpression { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Se även
 
 * class [ComparisonExpression](../)
-* namnutrymme [Aspose.Words.Fields](../../comparisonexpression/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

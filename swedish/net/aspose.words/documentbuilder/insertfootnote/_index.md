@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en fotnot eller slutnot i dokumentet.
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertFootnote metod. Infogar en fotnot eller slutnot i dokumentet i C#.
 type: docs
-weight: 340
+weight: 330
 url: /sv/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 Infogar en fotnot eller slutnot i dokumentet.
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 Returnerar ett fotnotsobjekt som just skapades.
 
-### Exempel
+## Exempel
 
 Visar hur man refererar till text med en fotnot och en slutnot.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 Infogar en fotnot eller slutnot i dokumentet.
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 Returnerar ett fotnotsobjekt som just skapades.
 
-### Exempel
+## Exempel
 
 Visar hur man refererar till text med en fotnot och en slutnot.
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.RightExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldCompare fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words för .NET
+description: FieldCompare RightExpression fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcompare/rightexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den högra delen av jämförelseuttrycket.
 public string RightExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man jämför uttryck med ett COMPARE-fält.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Se även
 
 * class [FieldCompare](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcompare/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

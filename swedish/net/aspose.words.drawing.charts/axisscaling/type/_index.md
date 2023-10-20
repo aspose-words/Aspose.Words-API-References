@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Aspose.Words för .NET API Referens
-description: AxisScaling fast egendom. Hämtar eller ställer in skalningstyp för axeln.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: AxisScaling Type fast egendom. Hämtar eller ställer in skalningstyp för axeln i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ Hämtar eller ställer in skalningstyp för axeln.
 public AxisScaleType Type { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 DenLinear värde är det enda som är tillåtet i MS Office 2016 nya diagram.
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar logaritmisk skalning på en diagramaxel.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

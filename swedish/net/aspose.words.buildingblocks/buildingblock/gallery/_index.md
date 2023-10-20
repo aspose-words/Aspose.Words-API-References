@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Anger kategoriseringen på första nivån för byggblocket för klassificering eller sortering av användargränssnitt.
+linktitle: Gallery
+articleTitle: Gallery
+second_title: Aspose.Words för .NET
+description: BuildingBlock Gallery fast egendom. Anger kategoriseringen på första nivån för byggblocket för klassificering eller sortering av användargränssnitt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ Anger kategoriseringen på första nivån för byggblocket för -klassificering 
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Byggstenar i Microsoft Words användargränssnitt är ordnade i Gallerier. Varje`Gallery` kan ha flera kategorier. Varje block inom a[`Category`](../category/) har en[`Name`](../name/).
 
-Motsvarar **docPartPr.category.gallery** element i OOXML.
+Motsvarar**docPartPr.category.gallery** element i OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

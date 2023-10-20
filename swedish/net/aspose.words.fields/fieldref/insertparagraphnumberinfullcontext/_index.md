@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words för .NET
+description: FieldRef InsertParagraphNumberInFullContext fast egendom. Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om styckenumret för det refererade stycket ska infoga
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar REF-fält för att referera till bokmärken.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

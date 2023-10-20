@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.CssSavingArgs klass. Tillhandahåller data förCssSaving händelse.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.CssSavingArgs klass. Tillhandahåller data förCssSaving händelse i C#.
 type: docs
 weight: 4880
 url: /sv/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | Tillåter att ange om CSS ska exporteras till fil och bäddas in i HTML-dokument. Standard är`Sann` . När den här egenskapen är`falsk` , kommer CSS-informationen inte att sparas i en CSS-fil och kommer inte att bäddas in i HTML-dokument. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en CSS-information. |
 
-### Anmärkningar
+## Anmärkningar
 
-Som standard, när Aspose.Words sparar ett dokument till HTML, sparas CSS-information inline (som ett värde för **stil** attribut på varje element).
+Som standard, när Aspose.Words sparar ett dokument till HTML, sparas CSS-information inline (som ett värde för**stil** attribut på varje element).
 
 `CssSavingArgs`gör det möjligt att spara CSS-information i en fil genom att tillhandahålla ditt eget strömobjekt.
 
@@ -35,7 +37,7 @@ För att spara CSS i stream, använd[`CssStream`](./cssstream/) fast egendom.
 
 För att undertrycka att spara CSS i en fil och bädda in i HTML-dokument använder du[`IsExportNeeded`](./isexportneeded/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

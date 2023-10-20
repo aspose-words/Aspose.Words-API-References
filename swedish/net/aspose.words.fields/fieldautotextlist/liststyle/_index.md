@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ListStyle
-second_title: Aspose.Words för .NET API Referens
-description: FieldAutoTextList fast egendom. Hämtar eller ställer in namnet på stilen som listan som ska innehålla poster är baserad på.
+linktitle: ListStyle
+articleTitle: ListStyle
+second_title: Aspose.Words för .NET
+description: FieldAutoTextList ListStyle fast egendom. Hämtar eller ställer in namnet på stilen som listan som ska innehålla poster är baserad på i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldautotextlist/liststyle/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på stilen som listan som ska innehålla poster
 public string ListStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett AUTOTEXTLIST-fält för att välja från en lista med AutoText-poster.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Se även
 
 * class [FieldAutoTextList](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldautotextlist/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

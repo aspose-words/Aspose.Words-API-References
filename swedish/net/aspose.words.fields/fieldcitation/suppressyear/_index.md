@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressYear
-second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in om årsinformationen undertrycks från citatet.
+linktitle: SuppressYear
+articleTitle: SuppressYear
+second_title: Aspose.Words för .NET
+description: FieldCitation SuppressYear fast egendom. Hämtar eller ställer in om årsinformationen undertrycks från citatet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldcitation/suppressyear/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om årsinformationen undertrycks från citatet.
 public bool SuppressYear { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldCitation](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcitation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Aspose.Words för .NET API Referens
-description: Run byggare. Initierar en ny instans avRun class.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words för .NET
+description: Run byggare. Initierar en ny instans avRun class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Initierar en ny instans av[`Run`](../) class.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Run`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`Run`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill att körningen ska infogas.
+Att lägga till[`Run`](../) till dokumentanvändningen[`InsertAfter`](../../compositenode/insertafter/) eller[`InsertBefore`](../../compositenode/insertbefore/) på stycket där du vill att körningen ska infogas.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-Initierar en ny instans av **Springa** class.
+Initierar en ny instans av**Springa** class.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | Ägardokumentet. |
 | text | String | Löpningens text. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Run`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`Run`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill att körningen ska infogas.
+Att lägga till[`Run`](../) till dokumentanvändningen[`InsertAfter`](../../compositenode/insertafter/) eller[`InsertBefore`](../../compositenode/insertbefore/) på stycket där du vill att körningen ska infogas.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

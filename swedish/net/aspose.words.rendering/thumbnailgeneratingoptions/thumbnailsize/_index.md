@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
-second_title: Aspose.Words för .NET API Referens
-description: ThumbnailGeneratingOptions fast egendom. Storlek på genererad miniatyrbild i pixlar. Standard är 600x900.
+linktitle: ThumbnailSize
+articleTitle: ThumbnailSize
+second_title: Aspose.Words för .NET
+description: ThumbnailGeneratingOptions ThumbnailSize fast egendom. Storlek på genererad miniatyrbild i pixlar. Standard är 600x900 i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -14,7 +16,7 @@ Storlek på genererad miniatyrbild i pixlar. Standard är 600x900.
 public Size ThumbnailSize { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man uppdaterar ett dokuments miniatyrbild.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Se även
 
 * class [ThumbnailGeneratingOptions](../)
-* namnutrymme [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

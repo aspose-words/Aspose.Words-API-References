@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternColor
-second_title: Aspose.Words för .NET API Referens
-description: Shading fast egendom. Hämtar eller ställer in färgen som appliceras på förgrunden avShading objekt.
+linktitle: ForegroundPatternColor
+articleTitle: ForegroundPatternColor
+second_title: Aspose.Words för .NET
+description: Shading ForegroundPatternColor fast egendom. Hämtar eller ställer in färgen som appliceras på förgrunden avShading objekt i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/shading/foregroundpatterncolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in färgen som appliceras på förgrunden av[`Shading`](.
 public Color ForegroundPatternColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Se även
 
 * class [Shading](../)
-* namnutrymme [Aspose.Words](../../shading/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

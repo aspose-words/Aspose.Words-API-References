@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Hämtar den omedelbara föräldern till denna nod.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words för .NET
+description: Node ParentNode fast egendom. Hämtar den omedelbara föräldern till denna nod i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ Hämtar den omedelbara föräldern till denna nod.
 public CompositeNode ParentNode { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om en nod just har skapats och ännu inte lagts till i trädet, eller om den har tagits bort från trädet, är föräldern`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt en nods överordnade nod.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

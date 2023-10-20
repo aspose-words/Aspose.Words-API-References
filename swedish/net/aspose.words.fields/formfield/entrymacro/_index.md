@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar eller ställer in ett postmakronamn för formulärfältet.
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: Aspose.Words för .NET
+description: FormField EntryMacro fast egendom. Returnerar eller ställer in ett postmakronamn för formulärfältet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ Returnerar eller ställer in ett postmakronamn för formulärfältet.
 public string EntryMacro { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Inmatningsmakrot körs när formulärfältet får fokus i Microsoft Word.
 
 Microsoft Word tillåter strängar med högst 32 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

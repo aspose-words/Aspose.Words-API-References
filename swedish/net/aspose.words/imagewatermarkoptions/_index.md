@@ -1,7 +1,9 @@
 ---
-title: Class ImageWatermarkOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ImageWatermarkOptions klass. Innehåller alternativ som kan anges när du lägger till en vattenstämpel med bild.
+title: ImageWatermarkOptions Class
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ImageWatermarkOptions klass. Innehåller alternativ som kan anges när du lägger till en vattenstämpel med bild i C#.
 type: docs
 weight: 3220
 url: /sv/net/aspose.words/imagewatermarkoptions/
@@ -33,5 +35,3 @@ public class ImageWatermarkOptions
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

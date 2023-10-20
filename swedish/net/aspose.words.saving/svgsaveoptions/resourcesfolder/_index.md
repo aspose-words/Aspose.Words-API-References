@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolder
-second_title: Aspose.Words för .NET API Referens
-description: SvgSaveOptions fast egendom. Anger den fysiska mappen där resurser bilder sparas vid export av ett dokument till Svgformat. Standard ärnull .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words för .NET
+description: SvgSaveOptions ResourcesFolder fast egendom. Anger den fysiska mappen där resurser bilder sparas vid export av ett dokument till Svgformat. Standard ärnull  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Anger den fysiska mappen där resurser (bilder) sparas vid export av ett dokumen
 public string ResourcesFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast om[`ExportEmbeddedImages`](../exportembeddedimages/) egendom är`falsk`.
 
@@ -24,7 +26,7 @@ Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words, s
 
 Om du sparar ett dokument i en ström, har Aspose.Words ingen mapp där du kan spara bilderna, men behöver fortfarande spara bilderna någonstans. I det här fallet måste du ange en tillgänglig mapp i`ResourcesFolder` fast egendom
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar och skriver ut URI:erna för länkade resurser som skapas när ett dokument konverteras till .svg.
 
@@ -67,7 +69,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [SvgSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../svgsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

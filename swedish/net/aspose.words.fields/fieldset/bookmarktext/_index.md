@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkText
-second_title: Aspose.Words för .NET API Referens
-description: FieldSet fast egendom. Hämtar eller ställer in den nya texten i bokmärket.
+linktitle: BookmarkText
+articleTitle: BookmarkText
+second_title: Aspose.Words för .NET
+description: FieldSet BookmarkText fast egendom. Hämtar eller ställer in den nya texten i bokmärket i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldset/bookmarktext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den nya texten i bokmärket.
 public string BookmarkText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar det i dokumentet med ett REF-fält.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Se även
 
 * class [FieldSet](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldset/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

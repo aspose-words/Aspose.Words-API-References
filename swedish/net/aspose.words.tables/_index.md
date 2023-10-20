@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Tables
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Tables namnutrymmet innehåller klasser som representerar tabeller rader celler och deras formatering.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Tables namnutrymmet innehåller klasser som representerar tabeller rader celler och deras formatering i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.tables/
 ---
-De **Aspose.Words.Tables** namnutrymmet innehåller klasser som representerar tabeller, rader, celler och deras formatering.
+De**Aspose.Words.Tables** namnutrymmet innehåller klasser som representerar tabeller, rader, celler och deras formatering.
 
 ## Klasser
 
@@ -32,5 +34,3 @@ De **Aspose.Words.Tables** namnutrymmet innehåller klasser som representerar ta
 | [TableAlignment](./tablealignment/) | Anger justering för en inline-tabell. |
 | [TableStyleOptions](./tablestyleoptions/) | Anger hur tabellstil tillämpas på en tabell. |
 | [TextWrapping](./textwrapping/) | Anger hur text lindas runt tabellen. |
-
-

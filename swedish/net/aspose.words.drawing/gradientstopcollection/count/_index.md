@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: GradientStopCollection fast egendom. Får ett heltalsvärde som anger antalet föremål i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: GradientStopCollection Count fast egendom. Får ett heltalsvärde som anger antalet föremål i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ Får ett heltalsvärde som anger antalet föremål i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Se även
 
 * class [GradientStopCollection](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

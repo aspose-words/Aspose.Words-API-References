@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Tag
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger en tagg som är associerad med den nuvarande strukturerade dokumenttaggnoden. Kan inte varanull .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart Tag fast egendom. Anger en tagg som är associerad med den nuvarande strukturerade dokumenttaggnoden. Kan inte varanull  i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/tag/
@@ -14,11 +16,11 @@ Anger en tagg som är associerad med den nuvarande strukturerade dokumenttaggnod
 public string Tag { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 En tagg är en godtycklig sträng som applikationer kan associera med strukturerad document -tagg för att identifiera den utan att ange ett synligt vänligt namn.
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -53,7 +55,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldBibliography.FieldBibliography
-second_title: Aspose.Words för .NET API Referens
-description: FieldBibliography byggare. Default_Constructor
+title: FieldBibliography
+linktitle: FieldBibliography
+articleTitle: FieldBibliography
+second_title: Aspose.Words för .NET
+description: FieldBibliography byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldbibliography/fieldbibliography/
@@ -17,7 +19,5 @@ public FieldBibliography()
 ### Se även
 
 * class [FieldBibliography](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbibliography/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

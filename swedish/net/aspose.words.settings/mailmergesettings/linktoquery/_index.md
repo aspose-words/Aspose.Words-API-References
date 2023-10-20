@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Inte säker på den här. Microsoft Word Automation Reference föreslår att denna anger att frågan exekveras varje gång dokumentet öppnas i Microsoft Word. Men OOXMLspecifikationen antyder att denna anger att frågan innehåller en referens till en extern frågefil som innehåller den faktiska frågan. Standardvärdet ärfalsk .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words för .NET
+description: MailMergeSettings LinkToQuery fast egendom. Inte säker på den här. Microsoft Word Automation Reference föreslår att denna anger att frågan exekveras varje gång dokumentet öppnas i Microsoft Word. Men OOXMLspecifikationen antyder att denna anger att frågan innehåller en referens till en extern frågefil som innehåller den faktiska frågan. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ Inte säker på den här. Microsoft Word Automation Reference föreslår att den
 public bool LinkToQuery { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

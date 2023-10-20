@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SelectFldWithFirstOrLastChar
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Välj fält när första eller sista tecknet är valt.
+linktitle: SelectFldWithFirstOrLastChar
+articleTitle: SelectFldWithFirstOrLastChar
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions SelectFldWithFirstOrLastChar fast egendom. Välj fält när första eller sista tecknet är valt i C#.
 type: docs
 weight: 410
 url: /sv/net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/
@@ -17,7 +19,5 @@ public bool SelectFldWithFirstOrLastChar { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

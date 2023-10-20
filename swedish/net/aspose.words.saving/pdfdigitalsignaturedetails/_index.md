@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails klass. Innehåller detaljer för att signera ett PDFdokument med en digital signatur.
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails klass. Innehåller detaljer för att signera ett PDFdokument med en digital signatur i C#.
 type: docs
 weight: 5430
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -19,7 +21,7 @@ public class PdfDigitalSignatureDetails
 | namn | Beskrivning |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | Initierar en instans av denna klass. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | Initierar en instans av denna klass. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | Initierar en instans av denna klass. |
 
 ## Egenskaper
 
@@ -32,7 +34,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | Hämtar eller ställer in datumet för signeringen. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | Hämtar eller ställer in tidsstämpelinställningarna för digital signatur. |
 
-### Anmärkningar
+## Anmärkningar
 
 För närvarande är digital signering av PDF-dokument endast tillgängligt på .NET 2.0 eller senare.
 
@@ -40,7 +42,7 @@ För att digitalt signera ett PDF-dokument när det skapas av Aspose.Words, stä
 
 Aspose.Words skapar en PKCS#7-signatur över hela PDF-dokumentet och använder "Adobe.PPKMS"-filtret och "adbe.pkcs7.sha1"-underfiltret när man skapar en digital signatur.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. FårBuildingBlocksom innehåller platshållartext som ska visas när detta SDTkörningsinnehåll är tomt det associerade mappade XMLelementet är tomt som specificerats viaXmlMapping element ellerIsShowingPlaceholderText element ärSann .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Placeholder fast egendom. FårBuildingBlocksom innehåller platshållartext som ska visas när detta SDTkörningsinnehåll är tomt det associerade mappade XMLelementet är tomt som specificerats viaXmlMapping element ellerIsShowingPlaceholderText element ärSann  i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ Får[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)som in
 public BuildingBlock Placeholder { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan vara`null`, vilket innebär att platshållaren inte är tillämplig för denna Sdt.
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett byggblocks innehåll som en anpassad platshållartext för en strukturerad dokumenttagg.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Text
-second_title: Aspose.Words för .NET API Referens
-description: RevisionGroup fast egendom. Returnerar infogat/raderad/flyttad text eller beskrivning av formatändring.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: RevisionGroup Text fast egendom. Returnerar infogat/raderad/flyttad text eller beskrivning av formatändring i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/revisiongroup/text/
@@ -14,7 +16,7 @@ Returnerar infogat/raderad/flyttad text eller beskrivning av formatändring.
 public string Text { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om en grupp revisioner i ett dokument.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Se även
 
 * class [RevisionGroup](../)
-* namnutrymme [Aspose.Words](../../revisiongroup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat fast egendom. Hämtar eller ställer in listan som detta stycke är medlem i.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words för .NET
+description: ListFormat List fast egendom. Hämtar eller ställer in listan som detta stycke är medlem i i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ Hämtar eller ställer in listan som detta stycke är medlem i.
 public List List { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Listan som tilldelas den här egenskapen måste tillhöra det aktuella dokumentet.
 
@@ -22,7 +24,7 @@ Listan som tilldelas den här egenskapen får inte vara en liststilsdefinition.
 
 Ställer in den här egenskapen till`null` tar bort punktpunkter och numrering från paragraf och ställer in listnivånumret till noll. Ställer in den här egenskapen till`null` motsvarar att ringa[`RemoveNumbers`](../removenumbers/).
 
-### Exempel
+## Exempel
 
 Visar hur man kapslar en lista i en annan lista.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

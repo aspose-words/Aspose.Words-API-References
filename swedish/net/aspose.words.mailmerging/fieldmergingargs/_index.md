@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.FieldMergingArgs klass. Tillhandahåller data för MergeField händelse.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs klass. Tillhandahåller data förMergeField händelse i C#.
 type: docs
 weight: 3770
 url: /sv/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Tillhandahåller data för **MergeField** händelse.
+Tillhandahåller data för**MergeField** händelse.
 
 För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Hämtar eller ställer in texten som ska infogas i dokumentet för det aktuella sammanslagningsfältet. |
 
-### Anmärkningar
+## Anmärkningar
 
-De **MergeField** händelse inträffar under sammankoppling när ett enkelt sammanslagningsfält påträffas i dokumentet. Du kan svara på den här händelsen på return text för kopplingsmotorn att infoga i dokumentet.
+De**MergeField** händelse inträffar under sammankoppling när ett enkelt sammanslagningsfält påträffas i dokumentet. Du kan svara på den här händelsen på return text för kopplingsmotorn att infoga i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Aspose.Words för .NET API Referens
-description: ChartMarker fast egendom. Hämtar eller ställer in diagrammarkörsymbol.
+linktitle: Symbol
+articleTitle: Symbol
+second_title: Aspose.Words för .NET
+description: ChartMarker Symbol fast egendom. Hämtar eller ställer in diagrammarkörsymbol i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ Hämtar eller ställer in diagrammarkörsymbol.
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

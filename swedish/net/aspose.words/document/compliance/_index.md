@@ -1,7 +1,9 @@
 ---
 title: Document.Compliance
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Får OOXMLkompatibilitetsversionen fastställd från det inlästa dokumentinnehållet. Är meningsfullt endast för OOXMLdokument.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words för .NET
+description: Document Compliance fast egendom. Får OOXMLkompatibilitetsversionen fastställd från det inlästa dokumentinnehållet. Är meningsfullt endast för OOXMLdokument i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/document/compliance/
@@ -14,11 +16,11 @@ Får OOXML-kompatibilitetsversionen fastställd från det inlästa dokumentinneh
 public OoxmlCompliance Compliance { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om du skapade ett nytt tomt dokument eller laddar icke OOXML returnerar document Ecma376_2006 värde.
 
-### Exempel
+## Exempel
 
 Visar hur man läser ett laddat dokuments Open Office XML-kompatibilitetsversion.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaProject.References
-second_title: Aspose.Words för .NET API Referens
-description: VbaProject fast egendom. Får en samling VBAprojektreferenser.
+linktitle: References
+articleTitle: References
+second_title: Aspose.Words för .NET
+description: VbaProject References fast egendom. Får en samling VBAprojektreferenser i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.vba/vbaproject/references/
@@ -18,7 +20,5 @@ public VbaReferenceCollection References { get; }
 
 * class [VbaReferenceCollection](../../vbareferencecollection/)
 * class [VbaProject](../)
-* namnutrymme [Aspose.Words.Vba](../../vbaproject/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CleanupOptions.CleanupOptions
-second_title: Aspose.Words för .NET API Referens
-description: CleanupOptions byggare. Default_Constructor
+title: CleanupOptions
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words för .NET
+description: CleanupOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/cleanupoptions/cleanupoptions/
@@ -17,7 +19,5 @@ public CleanupOptions()
 ### Se även
 
 * class [CleanupOptions](../)
-* namnutrymme [Aspose.Words](../../cleanupoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

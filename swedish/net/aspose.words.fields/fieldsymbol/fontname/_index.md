@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontName
-second_title: Aspose.Words för .NET API Referens
-description: FieldSymbol fast egendom. Hämtar eller ställer in namnet på teckensnittet för tecknet som hämtas av fältet.
+linktitle: FontName
+articleTitle: FontName
+second_title: Aspose.Words för .NET
+description: FieldSymbol FontName fast egendom. Hämtar eller ställer in namnet på teckensnittet för tecknet som hämtas av fältet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldsymbol/fontname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på teckensnittet för tecknet som hämtas av f
 public string FontName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder SYMBOL-fältet.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldSymbol](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsymbol/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

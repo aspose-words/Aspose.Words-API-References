@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsMapped
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeField fast egendom. Hämtar eller ställer in om detta fält är ett mappat fält.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words för .NET
+description: FieldMergeField IsMapped fast egendom. Hämtar eller ställer in om detta fält är ett mappat fält i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om detta fält är ett mappat fält.
 public bool IsMapped { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Se även
 
 * class [FieldMergeField](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergefield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

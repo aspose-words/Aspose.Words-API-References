@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Aspose.Words för .NET API Referens
-description: PreferredWidth metod. En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges i procent.
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: Aspose.Words för .NET
+description: PreferredWidth FromPercent metod. En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges i procent i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | Värdet måste vara från 0 till 100. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in en tabell för att automatiskt anpassa till 50 % av sidans bredd.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Se även
 
 * class [PreferredWidth](../)
-* namnutrymme [Aspose.Words.Tables](../../preferredwidth/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

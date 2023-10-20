@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Hämtar eller ställer in linjens förgrundsfärg.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words för .NET
+description: Stroke ForeColor fast egendom. Hämtar eller ställer in linjens förgrundsfärg i C#.
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ Hämtar eller ställer in linjens förgrundsfärg.
 public Color ForeColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är Black.
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

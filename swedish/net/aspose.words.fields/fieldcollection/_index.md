@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldCollection klass. En samling avField objekt som representerar fälten i det angivna intervallet.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldCollection klass. En samling avField objekt som representerar fälten i det angivna intervallet i C#.
 type: docs
 weight: 1690
 url: /sv/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Tar bort alla fält i den här samlingen från dokumentet och från själva samlingen. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Tar bort det angivna fältet från den här samlingen och från dokumentet. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Tar bort ett fält vid det angivna indexet från denna samling och från dokumentet. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Tar bort det angivna fältet från den här samlingen och från dokumentet. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Tar bort ett fält vid det angivna indexet från denna samling och från dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 En instans av denna samling itererar fält som börjar falla inom det angivna intervallet.
 
@@ -40,7 +42,7 @@ De`FieldCollection` samlingen äger inte fälten den innehåller, utan är bara 
 
 De`FieldCollection` samlingen är "live", dvs. ändringar av underordnade noden objekt som den skapades från återspeglas omedelbart i fälten som returneras av`FieldCollection` egenskaper och metoder.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort fält från en fältsamling.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

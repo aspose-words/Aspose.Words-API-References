@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.TotalFieldsCount
-second_title: Aspose.Words för .NET API Referens
-description: FieldUpdatingProgressArgs fast egendom. Får det totala antalet fält som ska uppdateras.
+linktitle: TotalFieldsCount
+articleTitle: TotalFieldsCount
+second_title: Aspose.Words för .NET
+description: FieldUpdatingProgressArgs TotalFieldsCount fast egendom. Får det totala antalet fält som ska uppdateras i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -14,11 +16,11 @@ Får det totala antalet fält som ska uppdateras.
 public int TotalFieldsCount { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värdet är inte konstant och kan ökas under uppdateringsprocessen.
 
-### Exempel
+## Exempel
 
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
@@ -86,7 +88,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Se även
 
 * class [FieldUpdatingProgressArgs](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

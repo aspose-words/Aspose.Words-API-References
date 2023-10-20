@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge metod. Returnerar en samling av kopplingsfältnamn som är tillgängliga i regionen.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words för .NET
+description: MailMerge GetFieldNamesForRegion metod. Returnerar en samling av kopplingsfältnamn som är tillgängliga i regionen i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Returnerar en samling av kopplingsfältnamn som är tillgängliga i regionen.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Regionnamn (skiftlägeskänsligt). |
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar fullständiga sammanslagningsfältsnamn inklusive valfritt prefix. Eliminerar inte dubbletter av fältnamn.
 
@@ -26,7 +28,7 @@ Om dokumentet innehåller flera regioner med samma namn bearbetas den allra för
 
 En ny strängmatris skapas vid varje samtal.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar, listar och läser kopplingsregioner.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Returnerar en samling av kopplingsfältnamn som är tillgängliga i regionen.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Regionnamn (skiftlägeskänsligt). |
 | regionIndex | Int32 | Regionindex (nollbaserat). |
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar fullständiga sammanslagningsfältsnamn inklusive valfritt prefix. Eliminerar inte dubbletter av fältnamn.
 
@@ -107,7 +109,7 @@ Om dokumentet innehåller flera regioner med samma namn bearbetas den N:te regio
 
 En ny strängmatris skapas vid varje samtal.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar, listar och läser kopplingsregioner.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

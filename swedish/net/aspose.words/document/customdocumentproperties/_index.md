@@ -1,7 +1,9 @@
 ---
 title: Document.CustomDocumentProperties
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar en samling som representerar alla anpassade dokumentegenskaper för dokumentet.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words för .NET
+description: Document CustomDocumentProperties fast egendom. Returnerar en samling som representerar alla anpassade dokumentegenskaper för dokumentet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/document/customdocumentproperties/
@@ -14,7 +16,7 @@ Returnerar en samling som representerar alla anpassade dokumentegenskaper för d
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: ShapeRenderer.ShapeRenderer
-second_title: Aspose.Words för .NET API Referens
-description: ShapeRenderer byggare. Initierar en ny instans av den här klassen.
+title: ShapeRenderer
+linktitle: ShapeRenderer
+articleTitle: ShapeRenderer
+second_title: Aspose.Words för .NET
+description: ShapeRenderer byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,7 +20,7 @@ public ShapeRenderer(ShapeBase shape)
 | --- | --- | --- |
 | shape | ShapeBase | DrawinML-formobjektet som du vill rendera. |
 
-### Exempel
+## Exempel
 
 Visar hur man renderar en form med ett grafikobjekt och visar det med ett Windows-formulär.
 
@@ -129,7 +131,5 @@ private class ShapeForm : Form
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ShapeRenderer](../)
-* namnutrymme [Aspose.Words.Rendering](../../shaperenderer/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller sätter enVbaProject .
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words för .NET
+description: Document VbaProject fast egendom. Hämtar eller sätter enVbaProject  i C#.
 type: docs
 weight: 450
 url: /sv/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ Hämtar eller sätter en`VbaProject` .
 public VbaProject VbaProject { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

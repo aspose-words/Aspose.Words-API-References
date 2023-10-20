@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection fast egendom. Hämtar en nod vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: NodeCollection Item fast egendom. Hämtar en nod vid det givna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/nodecollection/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Ett index till samlingen av noder. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom en sammansatt nods samling av undernoder.
 
@@ -74,7 +76,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

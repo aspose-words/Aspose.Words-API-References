@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Anger bassträngen som används för att utvärdera relativa hyperlänkar i detta dokument.
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties HyperlinkBase fast egendom. Anger bassträngen som används för att utvärdera relativa hyperlänkar i detta dokument i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ Anger bassträngen som används för att utvärdera relativa hyperlänkar i dett
 public string HyperlinkBase { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words använder inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man lagrar basdelen av en hyperlänk i dokumentets egenskaper.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ImlRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ImlRenderingMode uppräkning. Anger hur bläckobjekt InkML renderas till fasta sidformat.
+title: ImlRenderingMode Enum
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ImlRenderingMode uppräkning. Anger hur bläckobjekt InkML renderas till fasta sidformat i C#.
 type: docs
 weight: 5250
 url: /sv/net/aspose.words.saving/imlrenderingmode/
@@ -21,7 +23,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | Om reservform är tillgänglig för ink (InkML)-objekt, återger Aspose.Words reservform istället för InkML. |
 | InkML | `1` | Aspose.Words ignorerar fall-back form av ink (InkML) objekt och återger InkML själv. Detta är standardläget. |
 
-### Exempel
+## Exempel
 
 Visar hur man renderar Ink-objekt.
 
@@ -43,5 +45,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

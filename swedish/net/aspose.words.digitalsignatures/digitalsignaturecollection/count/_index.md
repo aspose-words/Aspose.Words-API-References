@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignatureCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: DigitalSignatureCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar dokument med X.509-certifikat.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Se även
 
 * class [DigitalSignatureCollection](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItem fast egendom. Får texten att visa i körningsinnehållet istället förValue attributinnehåll för detta listobjekt.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words för .NET
+description: SdtListItem DisplayText fast egendom. Får texten att visa i körningsinnehållet istället förValue attributinnehåll för detta listobjekt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ Får texten att visa i körningsinnehållet istället för[`Value`](../value/) a
 public string DisplayText { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null` och kan inte vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Se även
 
 * class [SdtListItem](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitem/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

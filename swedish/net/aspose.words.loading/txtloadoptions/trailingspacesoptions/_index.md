@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Aspose.Words för .NET API Referens
-description: TxtLoadOptions fast egendom. Hämtar eller ställer in föredraget alternativ för en efterföljande utrymmeshantering. Standardvärdet ärTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words för .NET
+description: TxtLoadOptions TrailingSpacesOptions fast egendom. Hämtar eller ställer in föredraget alternativ för en efterföljande utrymmeshantering. Standardvärdet ärTrim  i C#.
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ Hämtar eller ställer in föredraget alternativ för en efterföljande utrymmes
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man beskär blanktecken när du laddar dokument i klartext.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../txtloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words för .NET API Referens
-description: SvgSaveOptions fast egendom. Angav om bilder ska bäddas in i SVGdokument som base64. Observera att denna flagga kan öka storleken på SVGutdatafilen avsevärt.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words för .NET
+description: SvgSaveOptions ExportEmbeddedImages fast egendom. Angav om bilder ska bäddas in i SVGdokument som base64. Observera att denna flagga kan öka storleken på SVGutdatafilen avsevärt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ Angav om bilder ska bäddas in i SVG-dokument som base64. Observera att denna fl
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar och skriver ut URI:erna för länkade resurser som skapas när ett dokument konverteras till .svg.
 
@@ -57,7 +59,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [SvgSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../svgsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

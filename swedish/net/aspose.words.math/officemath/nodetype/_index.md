@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. ReturnerarOfficeMath .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: OfficeMath NodeType fast egendom. ReturnerarOfficeMath  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.math/officemath/nodetype/
@@ -14,7 +16,7 @@ ReturnerarOfficeMath .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in kontorsmattevisningsformatering.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [OfficeMath](../)
-* namnutrymme [Aspose.Words.Math](../../officemath/)
+* namnutrymme [Aspose.Words.Math](../../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../../)
-
-

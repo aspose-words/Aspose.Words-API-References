@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Hämtar det anpassade nummerformatet för denna listnivå. Till exempel a ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words för .NET
+description: ListLevel CustomNumberStyleFormat fast egendom. Hämtar det anpassade nummerformatet för denna listnivå. Till exempel a ç ĝ  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ Hämtar det anpassade nummerformatet för denna listnivå. Till exempel: "a, ç,
 public string CustomNumberStyleFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får formatet för en lista med den anpassade nummerstilen.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Indikerar att detta teckensnitt är ett TrueType eller OpenTypeteckensnitt i motsats till ett raster eller vektorteckensnitt. Standard ärSann .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words för .NET
+description: FontInfo IsTrueType fast egendom. Indikerar att detta teckensnitt är ett TrueType eller OpenTypeteckensnitt i motsats till ett raster eller vektorteckensnitt. Standard ärSann  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ Indikerar att detta teckensnitt är ett TrueType- eller OpenType-teckensnitt i m
 public bool IsTrueType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om vilka typsnitt som finns i ett dokument.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Se även
 
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

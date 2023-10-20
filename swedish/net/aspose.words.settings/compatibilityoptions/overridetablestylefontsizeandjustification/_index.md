@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OverrideTableStyleFontSizeAndJustification
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Anger hur formathierarkin för dokumentet utvärderas.
+linktitle: OverrideTableStyleFontSizeAndJustification
+articleTitle: OverrideTableStyleFontSizeAndJustification
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions OverrideTableStyleFontSizeAndJustification fast egendom. Anger hur formathierarkin för dokumentet utvärderas i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/
@@ -17,7 +19,5 @@ public bool OverrideTableStyleFontSizeAndJustification { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

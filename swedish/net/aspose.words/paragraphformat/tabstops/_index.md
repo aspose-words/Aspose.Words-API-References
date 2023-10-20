@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar samlingen av anpassade tabbstopp definierade för detta objekt.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words för .NET
+description: ParagraphFormat TabStops fast egendom. Hämtar samlingen av anpassade tabbstopp definierade för detta objekt i C#.
 type: docs
 weight: 390
 url: /sv/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ Hämtar samlingen av anpassade tabbstopp definierade för detta objekt.
 public TabStopCollection TabStops { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en sträng och en styckebrytning i dokumentet.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words för .NET
+description: DocumentBuilder Writeln metod. Infogar en sträng och en styckebrytning i dokumentet i C#.
 type: docs
-weight: 670
+weight: 660
 url: /sv/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Infogar en sträng och en styckebrytning i dokumentet.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | Strängen som ska infogas i dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Aktuellt teckensnitt och styckeformatering som anges av[`Font`](../font/) och[`ParagraphFormat`](../paragraphformat/) egenskaper används.
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en formaterad 2x2-tabell.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ Infogar en styckebrytning i dokumentet.
 public void Writeln()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`InsertParagraph`](../insertparagraph/).
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

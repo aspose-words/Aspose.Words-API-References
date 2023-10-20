@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. NärSann SpaceBefore ochSpaceAfter kommer att ignoreras mellan styckena i samma stil.
+linktitle: NoSpaceBetweenParagraphsOfSameStyle
+articleTitle: NoSpaceBetweenParagraphsOfSameStyle
+second_title: Aspose.Words för .NET
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle fast egendom. NärSann SpaceBefore ochSpaceAfter kommer att ignoreras mellan styckena i samma stil i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
@@ -14,11 +16,11 @@ När`Sann` ,[`SpaceBefore`](../spacebefore/) och[`SpaceAfter`](../spaceafter/) k
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här inställningen påverkar endast när den tillämpas på ett styckeformat. Om det tillämpas på ett stycke direkt, har det ingen effekt.
 
-### Exempel
+## Exempel
 
 Visar hur man inte använder mellanrum mellan stycken med samma stil.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

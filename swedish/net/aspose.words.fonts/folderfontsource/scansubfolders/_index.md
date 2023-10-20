@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.ScanSubfolders
-second_title: Aspose.Words för .NET API Referens
-description: FolderFontSource fast egendom. Bestämmer om undermapparna ska skannas eller inte.
+linktitle: ScanSubfolders
+articleTitle: ScanSubfolders
+second_title: Aspose.Words för .NET
+description: FolderFontSource ScanSubfolders fast egendom. Bestämmer om undermapparna ska skannas eller inte i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -14,7 +16,7 @@ Bestämmer om undermapparna ska skannas eller inte.
 public bool ScanSubfolders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en lokal systemmapp som innehåller teckensnitt som teckensnittskälla.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Se även
 
 * class [FolderFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../folderfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

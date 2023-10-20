@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Contains
-second_title: Aspose.Words för .NET API Referens
-description: VariableCollection metod. Bestämmer om samlingen innehåller en dokumentvariabel med det angivna namnet.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words för .NET
+description: VariableCollection Contains metod. Bestämmer om samlingen innehåller en dokumentvariabel med det angivna namnet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/variablecollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `Sann` om föremål finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments variabelsamling.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Se även
 
 * class [VariableCollection](../)
-* namnutrymme [Aspose.Words](../../variablecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

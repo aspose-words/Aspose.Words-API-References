@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att importeras när de har samma namn i käll och måldokument. Standardvärdet ärfalsk .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions SmartStyleBehavior fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att importeras när de har samma namn i käll och måldokument. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att im
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
-När detta alternativ är **aktiverad** , kommer källformatet att utökas till ett direktattribut inuti a destinationsdokument, omKeepSourceFormatting importläge används.
+När detta alternativ är**aktiverad** , kommer källformatet att utökas till ett direktattribut inuti a destinationsdokument, omKeepSourceFormatting importläge används.
 
-När detta alternativ är **Inaktiverad**, kommer källformatet att utökas endast om det är numrerat. Befintliga destinationsattribut kommer inte att åsidosättas, inklusive listor.
+När detta alternativ är**Inaktiverad**, kommer källformatet att utökas endast om det är numrerat. Befintliga destinationsattribut kommer inte att åsidosättas, inklusive listor.
 
-### Exempel
+## Exempel
 
 Visar hur du löser dubbletter av stilar när du infogar dokument.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Bilden som kommer att visas i tillhörandeSignatureLine . Standardvärdet ärnull .
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: Aspose.Words för .NET
+description: SignOptions SignatureLineImage fast egendom. Bilden som kommer att visas i tillhörandeSignatureLine . Standardvärdet ärnull  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ Bilden som kommer att visas i tillhörande[`SignatureLine`](../../../aspose.word
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
@@ -130,7 +132,5 @@ Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den 
 ### Se även
 
 * class [SignOptions](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../signoptions/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

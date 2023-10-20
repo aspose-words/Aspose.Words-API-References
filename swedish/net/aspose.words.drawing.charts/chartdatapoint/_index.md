@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPoint
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartDataPoint klass. Tillåter att ange formatering av en enskild datapunkt på diagrammet.
+title: ChartDataPoint Class
+linktitle: ChartDataPoint
+articleTitle: ChartDataPoint
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPoint klass. Tillåter att ange formatering av en enskild datapunkt på diagrammet i C#.
 type: docs
 weight: 690
 url: /sv/net/aspose.words.drawing.charts/chartdatapoint/
@@ -33,11 +35,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Rensar formatet för denna datapunkt. Egenskaperna är inställda på standardvärdena definierade i den överordnade serien. |
 
-### Anmärkningar
+## Anmärkningar
 
 På en serie`ChartDataPoint` objektet är medlem i[`ChartDataPointCollection`](../chartdatapointcollection/) . Den[`ChartDataPointCollection`](../chartdatapointcollection/) innehåller en`ChartDataPoint` objekt för varje punkt.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -101,5 +103,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * interface [IChartDataPoint](../ichartdatapoint/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

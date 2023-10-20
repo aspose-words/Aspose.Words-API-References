@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
-second_title: Aspose.Words för .NET API Referens
-description: ImageSavingArgs fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en bild har sparats.
+linktitle: KeepImageStreamOpen
+articleTitle: KeepImageStreamOpen
+second_title: Aspose.Words för .NET
+description: ImageSavingArgs KeepImageStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en bild har sparats i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -14,11 +16,11 @@ Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`ImageStream`](../imagestream/) egenskap efter att ha skrivit in en bild i den. Specificera`Sann` för att hålla strömmen öppen.
 
-### Exempel
+## Exempel
 
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
@@ -64,7 +66,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Se även
 
 * class [ImageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

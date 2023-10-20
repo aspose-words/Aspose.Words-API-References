@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Hämtar den första förfadern till den angivna objekttypen.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words för .NET
+description: Node GetAncestor metod. Hämtar den första förfadern till den angivna objekttypen i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Hämtar den första förfadern till den angivna objekttypen.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 Förfadern till den angivna typen eller`null` om ingen anfader av denna typ hittades.
 
-### Anmärkningar
+## Anmärkningar
 
 Förfadertypen matchar om den är lika med*ancestorType* eller härrör från*ancestorType*.
 
-### Exempel
+## Exempel
 
 Visar hur man tar reda på om en tabell är kapslad.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Hämtar den första förfadern till den angivna[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 Förfadern till den angivna typen eller`null` om ingen anfader av denna typ hittades.
 
-### Exempel
+## Exempel
 
 Visar hur man tar reda på om en tabell är kapslad.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

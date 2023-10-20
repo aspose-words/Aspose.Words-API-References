@@ -1,7 +1,9 @@
 ---
 title: Font.AutoColor
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar den aktuella beräknade färgen på texten svart eller vit som ska användas för autofärg. Om färgen inte är auto returnerasColor .
+linktitle: AutoColor
+articleTitle: AutoColor
+second_title: Aspose.Words för .NET
+description: Font AutoColor fast egendom. Returnerar den aktuella beräknade färgen på texten svart eller vit som ska användas för autofärg. Om färgen inte är auto returnerasColor  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/font/autocolor/
@@ -14,11 +16,11 @@ Returnerar den aktuella beräknade färgen på texten (svart eller vit) som ska 
 public Color AutoColor { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När text har 'automatisk färg', beräknas den faktiska färgen på text automatiskt så att den är läsbar mot bakgrundsfärgen. När du ändrar bakgrundsfärgen, kommer textfärgen automatiskt att växla till svart eller vit i MS Word för att maximera läsbarheten.
 
-### Exempel
+## Exempel
 
 Visar hur man förbättrar läsbarheten genom att automatiskt välja textfärg baserat på bakgrundens ljusstyrka.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

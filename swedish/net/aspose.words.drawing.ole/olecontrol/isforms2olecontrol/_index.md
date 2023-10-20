@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Aspose.Words för .NET API Referens
-description: OleControl fast egendom. ReturnerarSann om kontrollen är enForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words för .NET
+description: OleControl IsForms2OleControl fast egendom. ReturnerarSann om kontrollen är enForms2OleControl  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ Returnerar`Sann` om kontrollen är en[`Forms2OleControl`](../../forms2olecontrol
 public bool IsForms2OleControl { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Se även
 
 * class [OleControl](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

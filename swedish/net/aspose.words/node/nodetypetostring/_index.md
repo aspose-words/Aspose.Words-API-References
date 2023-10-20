@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig sträng.
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: Aspose.Words för .NET
+description: Node NodeTypeToString metod. En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig sträng i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig s
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en nods NextSibling-egenskap för att räkna upp sina närmaste barn.
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

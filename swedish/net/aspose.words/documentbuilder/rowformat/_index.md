@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella tabellradsformateringsegenskaper.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words för .NET
+description: DocumentBuilder RowFormat fast egendom. Returnerar ett objekt som representerar aktuella tabellradsformateringsegenskaper i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ Returnerar ett objekt som representerar aktuella tabellradsformateringsegenskape
 public RowFormat RowFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar rader med en dokumentbyggare.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

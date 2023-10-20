@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPropertyCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: CustomXmlPropertyCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [CustomXmlPropertyCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-
